@@ -1,5 +1,9 @@
 FROM node:22-alpine AS deps
 WORKDIR /app
+# China-friendly default; override with --build-arg NPM_REGISTRY=... if needed.
+ARG NPM_REGISTRY=https://registry.npmmirror.com
+ENV NPM_CONFIG_REGISTRY=${NPM_REGISTRY} \
+    NPM_CONFIG_REPLACE_REGISTRY_HOST=always
 COPY package.json package-lock.json ./
 RUN npm ci
 

@@ -5,6 +5,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONPATH=/app
 
 WORKDIR /app
+# China-friendly default; override with --build-arg PIP_INDEX_URL=... if needed.
+ARG PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/
+ENV PIP_INDEX_URL=${PIP_INDEX_URL} \
+    PIP_TRUSTED_HOST=mirrors.aliyun.com
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
