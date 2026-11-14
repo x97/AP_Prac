@@ -1,12 +1,15 @@
 from __future__ import annotations
 
-from sqlalchemy import create_engine, event
+from sqlalchemy import create_engine, event, text
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 from sqlalchemy.pool import NullPool
 
 from app.core.config import get_settings
 
 settings = get_settings()
+
+# PostgreSQL advisory lock shared by every uvicorn worker during create_all.
+_INIT_DB_LOCK_KEY = 737373
 
 if settings.resolved_database_url.startswith("sqlite"):
     engine = create_engine(
@@ -50,6 +53,24 @@ def init_db() -> None:
     # Import models so metadata is populated before create_all.
     from app.users import models  # noqa: F401
 
-    if settings.auto_create_tables:
-        settings.app_db_path.parent.mkdir(parents=True, exist_ok=True)
-        Base.metadata.create_all(bind=engine)
+    if not settings.auto_create_tables:
+        return
+
+    if engine.dialect.name == "postgresql":
+        # ``uvicorn --workers 2`` runs this in both workers. Serialize table
+        # creation, otherwise one worker fails with a duplicate pg_type error.
+        with engine.begin() as conn:
+            conn.execute(
+                text("SELECT pg_advisory_lock(:key)"), {"key": _INIT_DB_LOCK_KEY}
+            )
+            try:
+                Base.metadata.create_all(bind=conn)
+            finally:
+                conn.execute(
+                    text("SELECT pg_advisory_unlock(:key)"),
+                    {"key": _INIT_DB_LOCK_KEY},
+                )
+        return
+
+    settings.app_db_path.parent.mkdir(parents=True, exist_ok=True)
+    Base.metadata.create_all(bind=engine)
