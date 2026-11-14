@@ -9,7 +9,8 @@ set -euo pipefail
 # Requires a commit (run this after `git commit`). The archive respects
 # .gitattributes export-ignore, so source PDFs and _archive/ are not
 # transferred; assets images/audio are included. Server-only files (.env,
-# releases/, backups/, certs/) are protected from rsync --delete.
+# releases/, backups/, certs/, infra/deploy/nginx.conf) are protected from
+# rsync --delete.
 
 SERVER="${SERVER:?set SERVER=user@host}"
 REMOTE_DIR="${REMOTE_DIR:-/srv/ap-psych}"
@@ -25,6 +26,7 @@ rsync -az --delete \
   --exclude='releases/' \
   --exclude='backups/' \
   --exclude='certs/' \
+  --exclude='infra/deploy/nginx.conf' \
   "$TMP_DIR/" "$SERVER:$REMOTE_DIR/"
 
 echo "code synced to $SERVER:$REMOTE_DIR (source PDFs and _archive excluded)"
