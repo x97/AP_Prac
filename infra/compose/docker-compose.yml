@@ -29,6 +29,7 @@ services:
       AUTO_CREATE_TABLES: "true"
       EXPOSE_DEV_OTP: "false"
     volumes:
+      - /srv/ap-psych/config:/app/config:ro
       - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
     depends_on:
       postgres:
@@ -53,6 +54,7 @@ services:
       AUTO_CREATE_TABLES: "false"
     command: ["python", "-m", "app.jobs.sweep_expired"]
     volumes:
+      - /srv/ap-psych/config:/app/config:ro
       - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
     depends_on:
       postgres:
@@ -67,6 +69,19 @@ services:
     environment:
       NODE_ENV: production
       PORT: "3000"
+      API_INTERNAL_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_started
+
+  admin:
+    build:
+      context: ../../apps/admin
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3001"
+      API_INTERNAL_URL: http://api:8000
     depends_on:
       api:
         condition: service_started
@@ -83,6 +98,7 @@ services:
       - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
     depends_on:
       - web
+      - admin
       - api
 
 volumes:

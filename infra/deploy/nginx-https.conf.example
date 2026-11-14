@@ -1,13 +1,83 @@
-# TLS example. Replace DOMAIN and certificate paths before enabling.
+# Production TLS config for psyprac.com.
+#
+# The certificate must cover all of:
+#   api.psyprac.com
+#   www.psyprac.com
+#   psyprac.com
+#   miniapp.psyprac.com
+#   manager.psyprac.com
+#
+# Copy this file to infra/deploy/nginx.conf and put the certificate files at:
+#   infra/compose/certs/fullchain.pem
+#   infra/compose/certs/privkey.pem
+#
+# If you use certbot HTTP-01, add an ACME location to the port-80 blocks and
+# mount the webroot into the nginx container.
+
+# HTTP: apex goes straight to the canonical www host.
 server {
     listen 80;
-    server_name DOMAIN;
+    server_name psyprac.com;
+    return 301 https://www.psyprac.com$request_uri;
+}
+
+# HTTP: everything else upgrades to HTTPS on the same host.
+server {
+    listen 80;
+    server_name api.psyprac.com www.psyprac.com miniapp.psyprac.com manager.psyprac.com;
     return 301 https://$host$request_uri;
 }
 
+# Unknown hosts are rejected instead of falling through to the web app.
 server {
-    listen 443 ssl http2;
-    server_name DOMAIN;
+    listen 443 ssl default_server;
+    http2 on;
+    server_name _;
+
+    ssl_certificate     /etc/nginx/certs/fullchain.pem;
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    return 444;
+}
+
+# API: https://api.psyprac.com/api/v1/..., /assets/..., /docs, /healthz
+server {
+    listen 443 ssl;
+    http2 on;
+    server_name api.psyprac.com;
+
+    ssl_certificate     /etc/nginx/certs/fullchain.pem;
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    client_max_body_size 2m;
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript application/xml image/svg+xml;
+    gzip_min_length 1024;
+
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header Referrer-Policy strict-origin-when-cross-origin always;
+
+    location / {
+        proxy_pass http://api:8000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_read_timeout 65s;
+    }
+}
+
+# Web: https://www.psyprac.com and https://miniapp.psyprac.com
+# miniapp.psyprac.com currently serves the same web app; replace it with a
+# dedicated H5/privacy site if needed.
+server {
+    listen 443 ssl;
+    http2 on;
+    server_name www.psyprac.com miniapp.psyprac.com;
 
     ssl_certificate     /etc/nginx/certs/fullchain.pem;
     ssl_certificate_key /etc/nginx/certs/privkey.pem;
@@ -29,6 +99,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
         proxy_read_timeout 65s;
     }
 
@@ -41,6 +112,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
     }
 
     location / {
@@ -50,5 +122,75 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
+    }
+}
+
+# Apex over HTTPS also points at the canonical www host.
+server {
+    listen 443 ssl;
+    http2 on;
+    server_name psyprac.com;
+
+    ssl_certificate     /etc/nginx/certs/fullchain.pem;
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    return 301 https://www.psyprac.com$request_uri;
+}
+
+# Admin: https://manager.psyprac.com
+server {
+    listen 443 ssl;
+    http2 on;
+    server_name manager.psyprac.com;
+
+    ssl_certificate     /etc/nginx/certs/fullchain.pem;
+    ssl_certificate_key /etc/nginx/certs/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    client_max_body_size 2m;
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript application/xml image/svg+xml;
+    gzip_min_length 1024;
+
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header Referrer-Policy strict-origin-when-cross-origin always;
+    add_header X-Robots-Tag "noindex, nofollow" always;
+
+    # Optional: restrict the admin console to an office/VPN CIDR.
+    # allow 203.0.113.0/24;
+    # deny all;
+
+    location /api/ {
+        proxy_pass http://api:8000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_read_timeout 65s;
+    }
+
+    location /assets/ {
+        proxy_pass http://api:8000;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
+    }
+
+    location / {
+        proxy_pass http://admin:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-Forwarded-Host $host;
     }
 }

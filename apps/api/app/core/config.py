@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import Optional
@@ -8,7 +9,22 @@ from typing import Optional
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 API_ROOT = Path(__file__).resolve().parents[2]  # apps/api
-REPO_ROOT = Path(__file__).resolve().parents[4]  # repo root
+
+
+def _default_repo_root() -> Path:
+    """Locate the repo root locally and inside the API container.
+
+    Local layout: <repo>/apps/api/app/core/config.py
+    Container:    /app/app/core/config.py with config/ mounted at /app/config
+    """
+    start = Path(__file__).resolve()
+    for parent in start.parents:
+        if (parent / "config").is_dir():
+            return parent
+    return start.parents[2] if len(start.parents) > 2 else start.parent
+
+
+REPO_ROOT = Path(os.environ.get("REPO_ROOT") or _default_repo_root())
 
 
 def release_includes_subject(path: Path, subject_id: str) -> bool:
@@ -52,7 +68,7 @@ class Settings(BaseSettings):
     admin_content_write_enabled: bool = False
     flashcard_new_per_day: int = 60
     auto_create_tables: bool = True
-    cors_origins: str = "http://localhost:3000"
+    cors_origins: str = "http://localhost:3000,http://localhost:3001"
     otp_ttl_seconds: int = 300
     otp_max_attempts: int = 5
     otp_email_per_minute: int = 1
