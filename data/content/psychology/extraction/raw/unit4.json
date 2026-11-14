@@ -1,0 +1,1286 @@
+{
+  "unit": 4,
+  "sections": [
+    {
+      "chapter": 13,
+      "section": "Overview",
+      "page": 270,
+      "knowledge_points": [
+        {
+          "name": "Social psychology",
+          "subheading": "",
+          "definition_quote": "Social psychology is a broad field devoted to studying the way that people relate to others.",
+          "researchers": "本节未提及",
+          "plain": "研究人们如何与他人相处的学科"
+        },
+        {
+          "name": "Social cognition",
+          "subheading": "",
+          "definition_quote": "This field applies many of the concepts you learned about in the field of cognition, such as memory and biases, to help explain how people think about themselves and others.",
+          "researchers": "本节未提及",
+          "plain": "用认知规律解释人如何思考他人"
+        },
+        {
+          "name": "Social influence theory",
+          "subheading": "",
+          "definition_quote": "Another key concept is social influence theory, the idea that how people feel and act is affected by the other people around them.",
+          "researchers": "本节未提及",
+          "plain": "周围人影响人的感受与行为"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "page": 270,
+      "knowledge_points": [
+        {
+          "name": "Attribution theory",
+          "subheading": "",
+          "definition_quote": "Attribution theory tries to explain how people determine the cause of what they observe.",
+          "researchers": "本节未提及",
+          "plain": "解释人如何判断行为原因"
+        },
+        {
+          "name": "Dispositional attribution",
+          "subheading": "",
+          "definition_quote": "For instance, if your friend Charley told you he got a perfect score on his math test, you might find yourself thinking that Charley is very good at math. In that case, you have made a dispositional attribution or person attribution.",
+          "researchers": "本节未提及",
+          "plain": "把行为归因于个人特质"
+        },
+        {
+          "name": "Situation attribution",
+          "subheading": "",
+          "definition_quote": "Alternatively, you might attribute Charley’s success to a situational factor, such as an easy test; in that case, you make a situation attribution.",
+          "researchers": "本节未提及",
+          "plain": "把行为归因于情境因素"
+        },
+        {
+          "name": "Consistency",
+          "subheading": "",
+          "definition_quote": "Consistency refers to how similarly the individual acts in the same situation over time.",
+          "researchers": "Harold Kelley",
+          "plain": "同一情境中行为的一致程度"
+        },
+        {
+          "name": "Distinctiveness",
+          "subheading": "",
+          "definition_quote": "Distinctiveness refers to how similar this situation is to other situations in which we have watched Charley.",
+          "researchers": "Harold Kelley",
+          "plain": "当前情境与其他情境的相似度"
+        },
+        {
+          "name": "Consensus",
+          "subheading": "",
+          "definition_quote": "Consensus asks us to consider how others in the same situation have responded.",
+          "researchers": "Harold Kelley",
+          "plain": "看他人在同一情境中的反应"
+        },
+        {
+          "name": "Self-fulfilling prophecy",
+          "subheading": "",
+          "definition_quote": "Even more interesting is the idea that the expectations we have of others can influence the way those others behave.",
+          "researchers": "Robert Rosenthal, Lenore Jacobson",
+          "plain": "期望促使他人按预期行事"
+        },
+        {
+          "name": "Fundamental attribution error",
+          "subheading": "Attributional Biases",
+          "definition_quote": "When looking at the behavior of others, people tend to overestimate the importance of dispositional factors and underestimate the role of situational variables.",
+          "researchers": "本节未提及",
+          "plain": "解释他人时高估性格因素"
+        },
+        {
+          "name": "Actor-observer bias",
+          "subheading": "Attributional Biases",
+          "definition_quote": "Whereas the fundamental attribution error focuses on how we explain others’ behavior, the actor-observer bias explains both the actor’s tendency to attribute behavior to situational factors and the observer’s tendency to attribute behavior to dispositional factors.",
+          "researchers": "本节未提及",
+          "plain": "自己归因情境他人归因性格"
+        },
+        {
+          "name": "False-consensus effect",
+          "subheading": "Attributional Biases",
+          "definition_quote": "The tendency for people to overestimate the number of people who agree with them is called the false-consensus effect.",
+          "researchers": "本节未提及",
+          "plain": "高估他人与自己意见一致"
+        },
+        {
+          "name": "Self-serving bias",
+          "subheading": "Attributional Biases",
+          "definition_quote": "Self-serving bias is the tendency to take more credit for good outcomes than for bad ones.",
+          "researchers": "本节未提及",
+          "plain": "好结果揽功坏结果推责"
+        },
+        {
+          "name": "Just-world phenomenon",
+          "subheading": "Attributional Biases",
+          "definition_quote": "This belief in a just world, known simply as the just-world phenomenon or just-world bias, in which misfortunes befall people who deserve them, can be seen in the tendency to blame victims.",
+          "researchers": "本节未提及",
+          "plain": "认为人们遭遇都是应得的"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "page": 274,
+      "knowledge_points": [
+        {
+          "name": "Attitude",
+          "subheading": "",
+          "definition_quote": "An attitude is a set of beliefs and feelings.",
+          "researchers": "本节未提及",
+          "plain": "对事物的信念与感受"
+        },
+        {
+          "name": "Mere exposure effect",
+          "subheading": "",
+          "definition_quote": "The mere exposure effect states that the more one is exposed to something, the more one will come to like it.",
+          "researchers": "本节未提及",
+          "plain": "接触越多越容易喜欢"
+        },
+        {
+          "name": "Elaboration likelihood model",
+          "subheading": "",
+          "definition_quote": "According to the elaboration likelihood model, persuasive messages can be processed through either the central route or the peripheral route.",
+          "researchers": "本节未提及",
+          "plain": "说服信息有两条加工路径"
+        },
+        {
+          "name": "Central route to persuasion",
+          "subheading": "",
+          "definition_quote": "The central route to persuasion involves deeply processing the content of the message",
+          "researchers": "本节未提及",
+          "plain": "深入加工信息内容来说服"
+        },
+        {
+          "name": "Peripheral route",
+          "subheading": "",
+          "definition_quote": "The peripheral route, on the other hand, involves other aspects of the message, including the characteristics of the person imparting the message (the communicator).",
+          "researchers": "本节未提及",
+          "plain": "靠信息之外线索来说服"
+        },
+        {
+          "name": "LaPiere study",
+          "subheading": "Relationship Between Attitudes and Behavior",
+          "definition_quote": "In 1934, Richard LaPiere conducted an early study that illustrated this difference (see Table 13.2).",
+          "researchers": "Richard LaPiere",
+          "plain": "态度不能完全预测行为"
+        },
+        {
+          "name": "Cognitive dissonance theory",
+          "subheading": "Relationship Between Attitudes and Behavior",
+          "definition_quote": "Cognitive dissonance theory is based on the idea that people are motivated to have consistent attitudes and behaviors.",
+          "researchers": "Leon Festinger, James Carlsmith",
+          "plain": "态度行为不一致产生紧张"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "page": 277,
+      "knowledge_points": [
+        {
+          "name": "Foot-in-the-door technique",
+          "subheading": "",
+          "definition_quote": "The foot- in-the-door technique suggests that if you can get people to agree to a small request, they will become more likely to agree to a follow-up request that is larger.",
+          "researchers": "本节未提及",
+          "plain": "先小请求后大请求"
+        },
+        {
+          "name": "Door-in-the-face technique",
+          "subheading": "",
+          "definition_quote": "The door-in-the-face technique argues that after people refuse a large request, they will look more favorably upon a follow- up request that seems, in comparison, much more reasonable.",
+          "researchers": "本节未提及",
+          "plain": "先大请求被拒再提小请求"
+        },
+        {
+          "name": "Norms of reciprocity",
+          "subheading": "",
+          "definition_quote": "People tend to think that when someone does something nice for them, they ought to do something nice in return.",
+          "researchers": "本节未提及",
+          "plain": "受人恩惠应回报"
+        },
+        {
+          "name": "Social responsibility norm",
+          "subheading": "",
+          "definition_quote": "A related concept is the social responsibility norm, the belief that we all should do what we can to make the world and our society a better place.",
+          "researchers": "本节未提及",
+          "plain": "人人都应尽力改善社会"
+        },
+        {
+          "name": "Social trap",
+          "subheading": "",
+          "definition_quote": "A social trap is a situation in which the betterment of society requires us all to make some kind of sacrifice but our individual contribution is so small that people often choose to act in their own immediate interest instead of in the larger societal interest.",
+          "researchers": "本节未提及",
+          "plain": "个人私利导致集体受损"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "page": 279,
+      "knowledge_points": [
+        {
+          "name": "Stereotypes",
+          "subheading": "",
+          "definition_quote": "We all have ideas about what members of different groups are like, and these expectations may influence the way we interact with members of those groups. We call these ideas stereotypes.",
+          "researchers": "本节未提及",
+          "plain": "对某群体的概括看法"
+        },
+        {
+          "name": "Prejudice",
+          "subheading": "",
+          "definition_quote": "Prejudice is an undeserved, usually negative, attitude toward a group of people.",
+          "researchers": "本节未提及",
+          "plain": "对某群体不公正的负面态度"
+        },
+        {
+          "name": "Implicit attitude",
+          "subheading": "",
+          "definition_quote": "An explicit attitude is something someone is conscious of, while an implicit attitude is something that may influence someone’s behavior without their being aware of it.",
+          "researchers": "本节未提及",
+          "plain": "无意识影响行为的评价"
+        },
+        {
+          "name": "Ethnocentrism",
+          "subheading": "",
+          "definition_quote": "Ethnocentrism, the belief that one’s culture (e.g., ethnic, racial) is superior to others, is a specific kind of prejudice.",
+          "researchers": "本节未提及",
+          "plain": "认为自己文化优于其他文化"
+        },
+        {
+          "name": "Discrimination",
+          "subheading": "",
+          "definition_quote": "Prejudice is an attitude, but discrimination involves an action.",
+          "researchers": "本节未提及",
+          "plain": "基于偏见采取的行动"
+        },
+        {
+          "name": "Out-group homogeneity bias",
+          "subheading": "",
+          "definition_quote": "People tend to see members of their own group, the in-group, as more diverse than members of other groups, the out-groups. This phenomenon is often referred to as out-group homogeneity bias.",
+          "researchers": "本节未提及",
+          "plain": "认为外群体成员都相似"
+        },
+        {
+          "name": "In-group bias",
+          "subheading": "",
+          "definition_quote": "In addition, researchers have documented a preference for members of one’s own group, a kind of in-group bias.",
+          "researchers": "本节未提及",
+          "plain": "偏爱自己所属群体成员"
+        },
+        {
+          "name": "Categorization",
+          "subheading": "Origin of Stereotypes and Prejudice",
+          "definition_quote": "Some psychologists have suggested that people naturally and inevitably magnify differences between their own group and others as a function of the cognitive process of categorization.",
+          "researchers": "本节未提及",
+          "plain": "把人分类并夸大群体差异"
+        },
+        {
+          "name": "Contact theory",
+          "subheading": "Combating Prejudice",
+          "definition_quote": "The contact theory, as its name suggests, states that contact between hostile groups will reduce animosity but only if the groups are made to work toward a goal that benefits all and necessitates the participation of all.",
+          "researchers": "本节未提及",
+          "plain": "接触合作可减少敌意"
+        },
+        {
+          "name": "Superordinate goal",
+          "subheading": "Combating Prejudice",
+          "definition_quote": "The contact theory, as its name suggests, states that contact between hostile groups will reduce animosity but only if the groups are made to work toward a goal that benefits all and necessitates the participation of all. Such a goal is called a superordinate goal.",
+          "researchers": "Muzafer Sherif",
+          "plain": "需要群体共同合作的目标"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "page": 283,
+      "knowledge_points": [
+        {
+          "name": "Instrumental aggression",
+          "subheading": "",
+          "definition_quote": "Instrumental aggression is when the aggressive act is intended to secure a particular end.",
+          "researchers": "本节未提及",
+          "plain": "为达到某种目的的攻击"
+        },
+        {
+          "name": "Hostile aggression",
+          "subheading": "",
+          "definition_quote": "Hostile aggression, on the other hand, has no such clear purpose.",
+          "researchers": "本节未提及",
+          "plain": "无明确目的的攻击"
+        },
+        {
+          "name": "Thanatos",
+          "subheading": "",
+          "definition_quote": "Freud linked aggression to Thanatos, the death instinct.",
+          "researchers": "Freud",
+          "plain": "弗洛伊德称攻击源于死本能"
+        },
+        {
+          "name": "Frustration-aggression hypothesis",
+          "subheading": "",
+          "definition_quote": "One of the most influential theories, however, is known as the frustration-aggression hypothesis. This hypothesis holds that the feeling of frustration makes aggression more likely.",
+          "researchers": "本节未提及",
+          "plain": "挫折感增加攻击的可能性"
+        },
+        {
+          "name": "Bobo doll experiment",
+          "subheading": "",
+          "definition_quote": "Another common theory is that the exposure to aggressive models makes people aggressive as illustrated by Bandura, Ross, and Ross’s (1963) classic Bobo doll experiment.",
+          "researchers": "Bandura, Ross, and Ross",
+          "plain": "观察攻击榜样会学得攻击"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "page": 284,
+      "knowledge_points": [
+        {
+          "name": "Prosocial behavior",
+          "subheading": "",
+          "definition_quote": "Although social psychologists have devoted a lot of time and effort to studying antisocial behavior, they have also studied the factors that make people more likely to help one another. Such helping behavior is termed prosocial behavior.",
+          "researchers": "本节未提及",
+          "plain": "帮助他人的亲社会行为"
+        },
+        {
+          "name": "Bystander intervention",
+          "subheading": "",
+          "definition_quote": "Much of the research in this area has focused on bystander intervention, the conditions under which people nearby are more and are less likely to help someone in trouble.",
+          "researchers": "John Darley, Bibb Latane",
+          "plain": "旁观者在什么条件下出手"
+        },
+        {
+          "name": "Bystander effect",
+          "subheading": "",
+          "definition_quote": "Counterintuitively, the larger the number of people who witness an emergency situation, the less likely any one is to intervene. This finding is known as the bystander effect.",
+          "researchers": "John Darley, Bibb Latane",
+          "plain": "旁观者越多越少有人帮助"
+        },
+        {
+          "name": "Diffusion of responsibility",
+          "subheading": "",
+          "definition_quote": "One explanation for this phenomenon is called diffusion of responsibility. The larger the group of people who witness a problem, the less responsible any one individual feels to help.",
+          "researchers": "本节未提及",
+          "plain": "人越多个人责任感越弱"
+        },
+        {
+          "name": "Pluralistic ignorance",
+          "subheading": "",
+          "definition_quote": "Another factor contributing to the bystander effect is known as pluralistic ignorance. People seem to decide what constitutes appropriate behavior in a situation by looking to others.",
+          "researchers": "本节未提及",
+          "plain": "靠观察他人判断该如何做"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Attraction",
+      "page": 285,
+      "knowledge_points": [
+        {
+          "name": "Similarity",
+          "subheading": "",
+          "definition_quote": "Although conventional wisdom holds that opposites attract, psychological research indicates that we are drawn to people who are similar to us, those who share our attitudes, backgrounds, and interests.",
+          "researchers": "本节未提及",
+          "plain": "人们喜欢与自己相似的人"
+        },
+        {
+          "name": "Proximity",
+          "subheading": "",
+          "definition_quote": "Proximity means nearness.",
+          "researchers": "本节未提及",
+          "plain": "空间距离近容易产生吸引"
+        },
+        {
+          "name": "Reciprocal liking",
+          "subheading": "",
+          "definition_quote": "Thus, the more someone likes you, the more you will probably like that person.",
+          "researchers": "本节未提及",
+          "plain": "对方喜欢你你也更喜欢对方"
+        },
+        {
+          "name": "Self-disclosure",
+          "subheading": "",
+          "definition_quote": "One self-discloses when one shares a piece of personal information with another.",
+          "researchers": "本节未提及",
+          "plain": "分享个人私密信息"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "page": 286,
+      "knowledge_points": [
+        {
+          "name": "Social facilitation",
+          "subheading": "",
+          "definition_quote": "This phenomenon, that the presence of others improves task performance, is known as social facilitation.",
+          "researchers": "本节未提及",
+          "plain": "他人在场提高任务表现"
+        },
+        {
+          "name": "Social impairment",
+          "subheading": "",
+          "definition_quote": "Later studies, however, found that when the task being observed was a difficult one rather than a simple, well-practiced skill, being watched by others actually hurt performance, a finding known as social impairment.",
+          "researchers": "本节未提及",
+          "plain": "他人在场降低困难任务表现"
+        },
+        {
+          "name": "Upward social comparison",
+          "subheading": "",
+          "definition_quote": "Upward social comparison is when we compare ourselves to people doing better than we are, while downward social comparison is when we compare ourselves to people doing worse than we are.",
+          "researchers": "本节未提及",
+          "plain": "与比自己强的人比较"
+        },
+        {
+          "name": "Downward social comparison",
+          "subheading": "",
+          "definition_quote": "Upward social comparison is when we compare ourselves to people doing better than we are, while downward social comparison is when we compare ourselves to people doing worse than we are.",
+          "researchers": "本节未提及",
+          "plain": "与比自己差的人比较"
+        },
+        {
+          "name": "Relative deprivation theory",
+          "subheading": "",
+          "definition_quote": "Relative deprivation theory explains that people tend to feel less satisfied with their lives when they engage in a lot of upward social comparison.",
+          "researchers": "本节未提及",
+          "plain": "向上比较降低生活满意度"
+        },
+        {
+          "name": "Conformity",
+          "subheading": "",
+          "definition_quote": "Conformity is the tendency of people to go along with the views or actions of others.",
+          "researchers": "Solomon Asch",
+          "plain": "顺从群体观点或行为"
+        },
+        {
+          "name": "Normative social influence",
+          "subheading": "",
+          "definition_quote": "Normative social influence is when people conform for social reasons—to belong to the group.",
+          "researchers": "本节未提及",
+          "plain": "为了归属群体而顺从"
+        },
+        {
+          "name": "Informational social influence",
+          "subheading": "",
+          "definition_quote": "On the other hand, informational social influence leads to conformity because people think the group knows best.",
+          "researchers": "本节未提及",
+          "plain": "认为群体更懂而顺从"
+        },
+        {
+          "name": "Obedience",
+          "subheading": "",
+          "definition_quote": "Although conformity involves following a group without being explicitly told to do so, obedience studies have focused on participants’ willingness to do what another asks them to do.",
+          "researchers": "Stanley Milgram",
+          "plain": "按权威要求行事的意愿"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "page": 288,
+      "knowledge_points": [
+        {
+          "name": "Norms",
+          "subheading": "",
+          "definition_quote": "All groups have norms, which are rules about how group members should act.",
+          "researchers": "本节未提及",
+          "plain": "群体成员应如何行事的规则"
+        },
+        {
+          "name": "Social loafing",
+          "subheading": "",
+          "definition_quote": "Social loafing is the phenomenon when individuals do not put in as much effort when acting as part of a group as they do when acting alone.",
+          "researchers": "本节未提及",
+          "plain": "群体中个人努力减少"
+        },
+        {
+          "name": "Group polarization",
+          "subheading": "",
+          "definition_quote": "Group polarization is the tendency of a group to make more extreme decisions than the group members would make individually.",
+          "researchers": "本节未提及",
+          "plain": "群体决策比个人更极端"
+        },
+        {
+          "name": "Groupthink",
+          "subheading": "",
+          "definition_quote": "Groupthink, a term coined by Irving Janis, describes the tendency for some groups to make bad decisions. Groupthink occurs when group members suppress their reservations about the ideas supported by the group.",
+          "researchers": "Irving Janis",
+          "plain": "压制异议导致错误决策"
+        },
+        {
+          "name": "Deindividuation",
+          "subheading": "",
+          "definition_quote": "This loss of self-restraint occurs when group members feel anonymous and aroused, and this phenomenon is known as deindividuation.",
+          "researchers": "本节未提及",
+          "plain": "匿名和兴奋下丧失自我约束"
+        },
+        {
+          "name": "Zimbardo’s prison experiment",
+          "subheading": "",
+          "definition_quote": "One famous experiment that showed not only how such conditions can cause people to deindividuate but also the effect of roles and the situation in general is Philip Zimbardo’s prison experiment (see Table 13.2).",
+          "researchers": "Philip Zimbardo",
+          "plain": "角色扮演使人变得残忍"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "section": "Overview",
+      "page": 301,
+      "knowledge_points": [
+        {
+          "name": "Personality",
+          "subheading": "",
+          "definition_quote": "Psychologists define personality as the unique attitudes, behaviors, and emotions that characterize a person.",
+          "researchers": "本节未提及",
+          "plain": "个人独特的典型态度行为情感"
+        },
+        {
+          "name": "Type A",
+          "subheading": "",
+          "definition_quote": "Type A people tend to feel a sense of time pressure and are easily angered.",
+          "researchers": "本节未提及",
+          "plain": "有时间紧迫感易怒的人"
+        },
+        {
+          "name": "Type B",
+          "subheading": "",
+          "definition_quote": "Type B individuals, on the other hand, tend to be relaxed and easygoing.",
+          "researchers": "本节未提及",
+          "plain": "放松随和的人"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "page": 301,
+      "knowledge_points": [
+        {
+          "name": "Id",
+          "subheading": "",
+          "definition_quote": "The id is in the unconscious and contains instincts and psychic energy.",
+          "researchers": "Sigmund Freud",
+          "plain": "本能与心理能量的来源"
+        },
+        {
+          "name": "Ego",
+          "subheading": "",
+          "definition_quote": "The ego follows the reality principle, which means its job is to negotiate between the desires of the id and the limitations of the environment.",
+          "researchers": "Sigmund Freud",
+          "plain": "协调本我与现实环境"
+        },
+        {
+          "name": "Superego",
+          "subheading": "",
+          "definition_quote": "Around the age of five, children begin to develop a conscience and to think about what is right and wrong. This sense of conscience, according to Freud, is their superego.",
+          "researchers": "Sigmund Freud",
+          "plain": "内化的良心与是非感"
+        },
+        {
+          "name": "Defense mechanisms",
+          "subheading": "",
+          "definition_quote": "The ego uses defense mechanisms to help protect the conscious mind.",
+          "researchers": "Sigmund Freud",
+          "plain": "保护意识免受威胁的策略"
+        },
+        {
+          "name": "Repression",
+          "subheading": "Repression",
+          "definition_quote": "Blocking thoughts out from conscious awareness.",
+          "researchers": "Sigmund Freud",
+          "plain": "把想法挡在意识之外"
+        },
+        {
+          "name": "Denial",
+          "subheading": "Denial",
+          "definition_quote": "Not accepting the ego-threatening truth.",
+          "researchers": "Sigmund Freud",
+          "plain": "拒绝接受威胁性事实"
+        },
+        {
+          "name": "Displacement",
+          "subheading": "Displacement",
+          "definition_quote": "Redirecting one’s feelings toward another person or object.",
+          "researchers": "Sigmund Freud",
+          "plain": "把情绪转移到他人或物"
+        },
+        {
+          "name": "Projection",
+          "subheading": "Projection",
+          "definition_quote": "Believing that the feelings one has toward someone else are actually held by the other person and directed at oneself.",
+          "researchers": "Sigmund Freud",
+          "plain": "把自己的感受归为他人所有"
+        },
+        {
+          "name": "Reaction Formation",
+          "subheading": "Reaction Formation",
+          "definition_quote": "Expressing the opposite of how one truly feels.",
+          "researchers": "Sigmund Freud",
+          "plain": "表现出与真实感受相反"
+        },
+        {
+          "name": "Regression",
+          "subheading": "Regression",
+          "definition_quote": "Returning to an earlier, comforting form of behavior.",
+          "researchers": "Sigmund Freud",
+          "plain": "退回早期令人安心的行为"
+        },
+        {
+          "name": "Rationalization",
+          "subheading": "Rationalization",
+          "definition_quote": "Coming up with a beneficial result of an undesirable occurrence.",
+          "researchers": "Sigmund Freud",
+          "plain": "为不好结果找出好处"
+        },
+        {
+          "name": "Intellectualization",
+          "subheading": "Intellectualization",
+          "definition_quote": "Undertaking an academic, unemotional study of a topic.",
+          "researchers": "Sigmund Freud",
+          "plain": "用学术方式冷静分析问题"
+        },
+        {
+          "name": "Sublimation",
+          "subheading": "Sublimation",
+          "definition_quote": "Channeling one’s frustration toward a different goal.",
+          "researchers": "Sigmund Freud",
+          "plain": "把挫折转向其他目标"
+        },
+        {
+          "name": "Collective unconscious",
+          "subheading": "",
+          "definition_quote": "The collective unconscious is passed down through the species and, according to Jung, explains certain similarities we see among cultures.",
+          "researchers": "Carl Jung",
+          "plain": "全人类共享的遗传潜意识"
+        },
+        {
+          "name": "Archetypes",
+          "subheading": "",
+          "definition_quote": "The collective unconscious contains archetypes that Jung defined as universal concepts we all share as part of the human species.",
+          "researchers": "Carl Jung",
+          "plain": "人类共有的普遍概念"
+        },
+        {
+          "name": "Inferiority",
+          "subheading": "",
+          "definition_quote": "Adler believed that people are motivated by the fear of failure, which he termed inferiority, and the desire to achieve, which he called superiority.",
+          "researchers": "Alfred Adler",
+          "plain": "害怕失败的自卑感"
+        },
+        {
+          "name": "Projective tests",
+          "subheading": "",
+          "definition_quote": "Psychodynamic theorists may use projective tests to try to delve into the unconscious. These tests involve asking people to interpret ambiguous stimuli.",
+          "researchers": "本节未提及",
+          "plain": "让受测者解释模糊刺激"
+        },
+        {
+          "name": "Rorschach inkblot test",
+          "subheading": "",
+          "definition_quote": "For instance, the Rorschach inkblot test involves showing people a series of inkblots and asking them to describe what they see.",
+          "researchers": "本节未提及",
+          "plain": "用墨迹图探测潜意识"
+        },
+        {
+          "name": "Thematic apperception test (TAT)",
+          "subheading": "",
+          "definition_quote": "The thematic apperception test (TAT) consists of several cards, each of which contains a picture of a person or people in an ambiguous situation.",
+          "researchers": "本节未提及",
+          "plain": "用模糊图片编故事"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "page": 305,
+      "knowledge_points": [
+        {
+          "name": "Determinism",
+          "subheading": "",
+          "definition_quote": "Determinism is the belief that what happens is dictated by what has happened in the past.",
+          "researchers": "本节未提及",
+          "plain": "过去决定现在与未来"
+        },
+        {
+          "name": "Free will",
+          "subheading": "",
+          "definition_quote": "Neither theory supports the existence of free will, which is an individual’s ability to choose his or her own destiny.",
+          "researchers": "本节未提及",
+          "plain": "个人选择自己命运的能力"
+        },
+        {
+          "name": "Third force",
+          "subheading": "",
+          "definition_quote": "This perspective is often referred to as the third force because it arose in opposition to the determinism so central to both psychoanalytic and behaviorist models.",
+          "researchers": "本节未提及",
+          "plain": "人本主义被称为第三势力"
+        },
+        {
+          "name": "Self-concept",
+          "subheading": "",
+          "definition_quote": "Self-concept is a person’s global feeling about himself or herself.",
+          "researchers": "本节未提及",
+          "plain": "对自己整体的看法和感受"
+        },
+        {
+          "name": "Self-actualization",
+          "subheading": "",
+          "definition_quote": "He believed that people are motivated to reach their full potential or self- actualize.",
+          "researchers": "Carl Rogers",
+          "plain": "发挥潜能实现自我"
+        },
+        {
+          "name": "Unconditional positive regard",
+          "subheading": "",
+          "definition_quote": "Unconditional positive regard is a kind of blanket acceptance.",
+          "researchers": "Carl Rogers",
+          "plain": "无条件的完全接纳"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "page": 306,
+      "knowledge_points": [
+        {
+          "name": "Traits",
+          "subheading": "",
+          "definition_quote": "Trait theorists believe that we can describe people’s personalities by specifying their main characteristics, or traits.",
+          "researchers": "本节未提及",
+          "plain": "描述人格的稳定特征"
+        },
+        {
+          "name": "Nomothetic approach",
+          "subheading": "",
+          "definition_quote": "Some trait theorists believe that the same basic set of traits can be used to describe all people’s personalities. Such a belief characterizes a nomothetic approach.",
+          "researchers": "本节未提及",
+          "plain": "用同一套特质描述所有人"
+        },
+        {
+          "name": "16 PF",
+          "subheading": "",
+          "definition_quote": "Raymond Cattell developed the 16 PF (personality factor) test to measure what he believed were the 16 basic traits present in all people, albeit to different degrees.",
+          "researchers": "Raymond Cattell",
+          "plain": "卡特尔16种人格因素测验"
+        },
+        {
+          "name": "Big Five personality traits",
+          "subheading": "",
+          "definition_quote": "More recently, Paul Costa and Robert McCrae have proposed that personality can be described using the Big Five personality traits: extroversion, agreeableness, conscientiousness, openness to experience, and emotional stability (or neuroticism).",
+          "researchers": "Paul Costa, Robert McCrae",
+          "plain": "用五个维度描述人格"
+        },
+        {
+          "name": "Factor analysis",
+          "subheading": "",
+          "definition_quote": "Factor analysis allows researchers to use correlations among traits to see which traits cluster together as factors.",
+          "researchers": "本节未提及",
+          "plain": "用相关找出特质群集"
+        },
+        {
+          "name": "Idiographic theorists",
+          "subheading": "",
+          "definition_quote": "Other trait theorists, called idiographic theorists, assert that using the same set of terms to classify all people is impossible.",
+          "researchers": "本节未提及",
+          "plain": "主张逐一研究个体独特性"
+        },
+        {
+          "name": "Cardinal dispositions",
+          "subheading": "",
+          "definition_quote": "He suggested that a small number of people are so profoundly influenced by one trait that it plays a pivotal role in virtually everything they do. He referred to such traits as cardinal dispositions.",
+          "researchers": "Gordon Allport",
+          "plain": "主导个体一切行为的特质"
+        },
+        {
+          "name": "Central dispositions",
+          "subheading": "",
+          "definition_quote": "As their names indicate, central dispositions have a larger influence on personality than secondary dispositions.",
+          "researchers": "Gordon Allport",
+          "plain": "影响较大的人格特质"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "page": 307,
+      "knowledge_points": [
+        {
+          "name": "Reciprocal determinism",
+          "subheading": "",
+          "definition_quote": "His model is based on the idea of reciprocal determinism, also known as triadic reciprocality. These terms essentially mean that each of these three factors influences both of the other two in a constant, looplike fashion.",
+          "researchers": "Albert Bandura",
+          "plain": "人环境行为三者相互影响"
+        },
+        {
+          "name": "Self-efficacy",
+          "subheading": "",
+          "definition_quote": "People with high self-efficacy are optimistic about their own ability to get things done, whereas people with low self-efficacy feel a sense of powerlessness.",
+          "researchers": "Albert Bandura",
+          "plain": "对自己完成任务的信心"
+        },
+        {
+          "name": "Locus of control",
+          "subheading": "",
+          "definition_quote": "A person can be described as having either an internal or an external locus of control.",
+          "researchers": "Julian Rotter",
+          "plain": "人对自己命运的控制感"
+        },
+        {
+          "name": "Internal locus of control",
+          "subheading": "",
+          "definition_quote": "People with an internal locus of control feel as if they are responsible for what happens to them.",
+          "researchers": "Julian Rotter",
+          "plain": "认为自己掌控命运"
+        },
+        {
+          "name": "External locus of control",
+          "subheading": "",
+          "definition_quote": "Conversely, people with an external locus of control generally believe that luck and other forces outside of their own control determine their destinies.",
+          "researchers": "Julian Rotter",
+          "plain": "认为运气等外部力量决定命运"
+        },
+        {
+          "name": "Explanatory style",
+          "subheading": "",
+          "definition_quote": "We can also differentiate people by their explanatory style—the kind of attributions they make about the things that happen to them.",
+          "researchers": "本节未提及",
+          "plain": "对事件的归因习惯"
+        },
+        {
+          "name": "Optimistic explanatory style",
+          "subheading": "",
+          "definition_quote": "Some people have an optimistic explanatory style, which leads them to make internal, global, and stable attributions for good things that happen to them and external, specific, and unstable attributions for bad experiences.",
+          "researchers": "本节未提及",
+          "plain": "好事归己坏事归外因"
+        },
+        {
+          "name": "Personality inventories",
+          "subheading": "",
+          "definition_quote": "Personality inventories are essentially questionnaires that ask people to provide information about themselves.",
+          "researchers": "本节未提及",
+          "plain": "让人自我报告的问卷"
+        },
+        {
+          "name": "MMPI-2",
+          "subheading": "",
+          "definition_quote": "The Minnesota Multiphasic Personality Inventory (MMPI-2) is one of the most widely used self-report instruments.",
+          "researchers": "本节未提及",
+          "plain": "常用自评人格量表"
+        },
+        {
+          "name": "Barnum effect",
+          "subheading": "",
+          "definition_quote": "Research has demonstrated that people have the tendency to see themselves in vague, stock descriptions of personality.",
+          "researchers": "本节未提及",
+          "plain": "相信笼统描述适合自己"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Overview",
+      "page": 315,
+      "knowledge_points": [
+        {
+          "name": "Motivation",
+          "subheading": "",
+          "definition_quote": "Motivations are feelings or ideas that cause us to act toward a goal.",
+          "researchers": "本节未提及",
+          "plain": "推动人朝目标行动的力量"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "page": 315,
+      "knowledge_points": [
+        {
+          "name": "Instincts",
+          "subheading": "",
+          "definition_quote": "If you have pets, you know that different animals are born with instincts, which are automatic behaviors performed in response to specific stimuli.",
+          "researchers": "本节未提及",
+          "plain": "天生对特定刺激的反应"
+        },
+        {
+          "name": "Drive reduction theory",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "One early theory about how our physiology motivates us was drive reduction theory, the theory that our behavior is motivated by biological needs.",
+          "researchers": "本节未提及",
+          "plain": "行为由生理需要驱动"
+        },
+        {
+          "name": "Need",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "A need is one of our requirements for survival, such as food, water, or shelter.",
+          "researchers": "本节未提及",
+          "plain": "生存所必需的条件"
+        },
+        {
+          "name": "Drive",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "A drive is our impulse to act in a way that satisfies this need.",
+          "researchers": "本节未提及",
+          "plain": "满足需要的内在冲动"
+        },
+        {
+          "name": "Homeostasis",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "Our body seeks homeostasis, which is a balanced internal state.",
+          "researchers": "本节未提及",
+          "plain": "身体追求的内部平衡状态"
+        },
+        {
+          "name": "Primary drives",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "Primary drives are biological needs, like thirst.",
+          "researchers": "本节未提及",
+          "plain": "与生俱来的生理需要"
+        },
+        {
+          "name": "Secondary drives",
+          "subheading": "Drive Reduction Theory",
+          "definition_quote": "Secondary drives are learned drives.",
+          "researchers": "本节未提及",
+          "plain": "后天习得的驱力"
+        },
+        {
+          "name": "Arousal theory",
+          "subheading": "Arousal (or Sensation-Seeking) Theory",
+          "definition_quote": "Some motivations that seem to violate biological theories of motivation can be explained by arousal theory (or sensation- seeking theory), which states that we seek an optimum level of excitement or arousal.",
+          "researchers": "本节未提及",
+          "plain": "追求最佳唤醒水平"
+        },
+        {
+          "name": "Yerkes-Dodson law",
+          "subheading": "Arousal (or Sensation-Seeking) Theory",
+          "definition_quote": "In general, most of us perform best with an optimal level of arousal, although this varies with different activities. We might perform well at an easy task with a very high level of arousal, but the same high level of arousal would prevent us from performing well on a difficult task.",
+          "researchers": "本节未提及",
+          "plain": "任务难度与最佳唤醒水平的关系"
+        },
+        {
+          "name": "Opponent-process theory",
+          "subheading": "Arousal (or Sensation-Seeking) Theory",
+          "definition_quote": "However, the theory states that we eventually feel an opponent process, meaning a motivation to return to our baseline, neutral state.",
+          "researchers": "本节未提及",
+          "plain": "偏离基线后产生反向动机"
+        },
+        {
+          "name": "Incentives",
+          "subheading": "Incentive Theory",
+          "definition_quote": "Incentives are stimuli that we are drawn to due to learning.",
+          "researchers": "本节未提及",
+          "plain": "后天习得的有吸引力刺激"
+        },
+        {
+          "name": "Self-determination theory",
+          "subheading": "Self-Determination Theory",
+          "definition_quote": "Self-determination research indicates that three elements are related to intrinsic motivations involved in what they call self- determination: autonomy, competence, and relatedness.",
+          "researchers": "本节未提及",
+          "plain": "内在动机基于三种需要"
+        },
+        {
+          "name": "Autonomy",
+          "subheading": "Self-Determination Theory",
+          "definition_quote": "Autonomy is the belief that we have the power to make choices that are important to us.",
+          "researchers": "本节未提及",
+          "plain": "相信自己能自主选择"
+        },
+        {
+          "name": "Competence",
+          "subheading": "Self-Determination Theory",
+          "definition_quote": "Competence is the belief that we have the skills and knowledge needed to accomplish tasks important to us.",
+          "researchers": "本节未提及",
+          "plain": "相信自己具备完成任务的能力"
+        },
+        {
+          "name": "Relatedness",
+          "subheading": "Self-Determination Theory",
+          "definition_quote": "Relatedness is our ability to form relationships with others who are important to us.",
+          "researchers": "本节未提及",
+          "plain": "与他人建立重要关系"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "page": 319,
+      "knowledge_points": [
+        {
+          "name": "Hypothalamus",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "The hypothalamus monitors and helps to control body chemistry (including the ratio of glucose and insulin) and makes us feel hungry when we need to eat.",
+          "researchers": "本节未提及",
+          "plain": "调节身体化学并产生饥饿感"
+        },
+        {
+          "name": "Lateral hypothalamus",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "The lateral hypothalamus (hunger center), when stimulated, causes the animal to eat.",
+          "researchers": "本节未提及",
+          "plain": "刺激时促使进食的饥饿中枢"
+        },
+        {
+          "name": "Ventromedial hypothalamus",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "Another part of the hypothalamus, the ventromedial hypothalamus (satiety center), causes the animal to stop eating when it is stimulated.",
+          "researchers": "本节未提及",
+          "plain": "刺激时停止进食的饱食中枢"
+        },
+        {
+          "name": "Ghrelin",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "Ghrelin influences short-term hunger; it’s produced in the stomach and communicates hunger to the brain.",
+          "researchers": "本节未提及",
+          "plain": "胃分泌的短期饥饿激素"
+        },
+        {
+          "name": "Leptin",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "Leptin is produced by fat cells and signals the brain that you have sufficient stored energy and thus are not hungry.",
+          "researchers": "本节未提及",
+          "plain": "脂肪细胞分泌的饱腹信号"
+        },
+        {
+          "name": "Set-point theory",
+          "subheading": "Biological Basis of Hunger",
+          "definition_quote": "Set-point theory describes how the hypothalamus might decide what impulse to send. This theory states that the hypothalamus wants to maintain a certain optimum body weight.",
+          "researchers": "本节未提及",
+          "plain": "下丘脑维持理想体重设定点"
+        },
+        {
+          "name": "Externals",
+          "subheading": "Psychological Factors in Hunger Motivation",
+          "definition_quote": "For example, research indicates that some of us (called externals) are more motivated to eat by external food cues, such as attractiveness or availability of food.",
+          "researchers": "本节未提及",
+          "plain": "易受外部食物线索影响者"
+        },
+        {
+          "name": "Internals",
+          "subheading": "Psychological Factors in Hunger Motivation",
+          "definition_quote": "Others (called internals) are less affected by the presence and presentation of food and respond more often to internal hunger cues.",
+          "researchers": "本节未提及",
+          "plain": "更依内部饥饿信号进食者"
+        },
+        {
+          "name": "Garcia effect",
+          "subheading": "Psychological Factors in Hunger Motivation",
+          "definition_quote": "This is caused by the Garcia effect and occurs whenever nausea is paired with either food or drink.",
+          "researchers": "本节未提及",
+          "plain": "恶心与食物配对形成厌恶"
+        },
+        {
+          "name": "Bulimia",
+          "subheading": "Eating Disorders",
+          "definition_quote": "People with bulimia eat large amounts of food in a short period of time (binging) and then get rid of the food (purging) by vomiting, exercising excessively, or using laxatives.",
+          "researchers": "本节未提及",
+          "plain": "暴食后催吐或清除食物"
+        },
+        {
+          "name": "Anorexia nervosa",
+          "subheading": "Eating Disorders",
+          "definition_quote": "People with anorexia starve themselves to below 85 percent of their normal body weight and refuse to eat due to their obsession with weight.",
+          "researchers": "本节未提及",
+          "plain": "因执着体重而极度节食"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "page": 322,
+      "knowledge_points": [
+        {
+          "name": "Sexual response cycle",
+          "subheading": "Sexual Response Cycle",
+          "definition_quote": "The famous lab studies done by William Masters and Virginia Johnson documented the sexual response cycle in men and women.",
+          "researchers": "William Masters, Virginia Johnson",
+          "plain": "性反应经历四个阶段"
+        },
+        {
+          "name": "Refractory period",
+          "subheading": "Sexual Response Cycle",
+          "definition_quote": "Male systems experience a refractory period—a time period that must elapse before another orgasm.",
+          "researchers": "本节未提及",
+          "plain": "男性再次高潮前的恢复期"
+        },
+        {
+          "name": "Sexual desire",
+          "subheading": "Psychological Factors in Sexual Motivation",
+          "definition_quote": "Sexual desire can be present even when the capability to have sex is lost.",
+          "researchers": "本节未提及",
+          "plain": "性能力丧失后仍有性欲"
+        },
+        {
+          "name": "Kinsey Reports",
+          "subheading": "Sexual Orientation",
+          "definition_quote": "Researchers (like Alfred Kinsey, who documented the variety of human sexual behaviors in the famous Kinsey Reports from the 1940s and 1950s) have been able to dispel some common myths about sexuality.",
+          "researchers": "Alfred Kinsey",
+          "plain": "金赛报告记录性行为多样性"
+        },
+        {
+          "name": "Sexual orientation",
+          "subheading": "Sexual Orientation",
+          "definition_quote": "Studies show that gay and lesbian sexual orientation is not related to traumatic childhood experiences, parenting styles, the quality of relationships with parents, masculinity or femininity, or the sexual orientation of our parents.",
+          "researchers": "本节未提及",
+          "plain": "性取向与养育方式无关"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "page": 324,
+      "knowledge_points": [
+        {
+          "name": "Achievement motivation",
+          "subheading": "Achievement Motivation",
+          "definition_quote": "Achievement motivation examines our desires to master complex tasks and knowledge and to reach personal goals.",
+          "researchers": "本节未提及",
+          "plain": "掌握任务与达成目标的动机"
+        },
+        {
+          "name": "Extrinsic motivations",
+          "subheading": "Extrinsic/Intrinsic Motivation",
+          "definition_quote": "Extrinsic motivations are rewards that we get for accomplishments from outside ourselves (for example, grades, salary, and so on).",
+          "researchers": "本节未提及",
+          "plain": "来自外部的奖励"
+        },
+        {
+          "name": "Intrinsic motivations",
+          "subheading": "Extrinsic/Intrinsic Motivation",
+          "definition_quote": "Intrinsic motivations are rewards we get internally, such as enjoyment or satisfaction.",
+          "researchers": "本节未提及",
+          "plain": "来自内部的满足感"
+        },
+        {
+          "name": "Theory X",
+          "subheading": "Management Theory",
+          "definition_quote": "Theory X Managers believe that employees will work only if rewarded with benefits or threatened with punishment.",
+          "researchers": "本节未提及",
+          "plain": "管理者认为员工只为奖惩工作"
+        },
+        {
+          "name": "Theory Y",
+          "subheading": "Management Theory",
+          "definition_quote": "Theory Y Managers believe that employees are internally motivated to do good work and policies should encourage this internal motive.",
+          "researchers": "本节未提及",
+          "plain": "管理者相信员工内在动机"
+        },
+        {
+          "name": "Approach-approach conflict",
+          "subheading": "When Motives Conflict",
+          "definition_quote": "The first, named an approach-approach conflict, occurs when you must choose between two desirable outcomes.",
+          "researchers": "Lewin",
+          "plain": "在两个都想得到的目标间选择"
+        },
+        {
+          "name": "Avoidance-avoidance conflict",
+          "subheading": "When Motives Conflict",
+          "definition_quote": "Another type of conflict, an avoidance-avoidance conflict, occurs when you must choose between two unattractive outcomes.",
+          "researchers": "Lewin",
+          "plain": "在两个都不想要的目标间选择"
+        },
+        {
+          "name": "Approach-avoidance conflict",
+          "subheading": "When Motives Conflict",
+          "definition_quote": "An approach-avoidance conflict exists when one event or goal has both attractive and unattractive features.",
+          "researchers": "Lewin",
+          "plain": "同一目标既有吸引力又令人排斥"
+        },
+        {
+          "name": "Multiple approach-avoidance conflicts",
+          "subheading": "When Motives Conflict",
+          "definition_quote": "Finally, people experience multiple approach-avoidance conflicts. In these, you must choose between two or more things, each of which has both desirable and undesirable features.",
+          "researchers": "Lewin",
+          "plain": "多个各有利弊的选项间选择"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "page": 327,
+      "knowledge_points": [
+        {
+          "name": "James-Lange theory",
+          "subheading": "What Comes First—The Emotion or the Physiological Change?",
+          "definition_quote": "They theorized that we feel emotion because of biological changes caused by stress.",
+          "researchers": "William James, Carl Lange",
+          "plain": "生理变化在先情绪在后"
+        },
+        {
+          "name": "Facial feedback hypothesis",
+          "subheading": "What Comes First—The Emotion or the Physiological Change?",
+          "definition_quote": "The facial feedback hypothesis is a related idea that suggests that we infer our emotions from our facial expressions.",
+          "researchers": "本节未提及",
+          "plain": "根据面部表情推断情绪"
+        },
+        {
+          "name": "Cannon-Bard theory",
+          "subheading": "What Comes First—The Emotion or the Physiological Change?",
+          "definition_quote": "They theorized that the biological change and the cognitive awareness of the emotional state occur simultaneously.",
+          "researchers": "Walter Cannon, Philip Bard",
+          "plain": "生理变化与情绪认知同时发生"
+        },
+        {
+          "name": "Two-factor theory",
+          "subheading": "Two-Factor Theory",
+          "definition_quote": "Schachter pointed out that both our physical responses and our cognitive appraisal of them (our mental interpretations) combine to cause any particular emotional response.",
+          "researchers": "Stanley Schachter",
+          "plain": "生理唤醒加认知标签形成情绪"
+        },
+        {
+          "name": "Broaden-and-build theory",
+          "subheading": "Broaden-and-Build Theory",
+          "definition_quote": "Another theory of emotion known as the broaden-and-build theory focuses specifically on the power and potential of positive emotions. This theory contends that positive emotions facilitate a playful and experimental mindset, which makes it easier for people to expand their social interactions and try new activities.",
+          "researchers": "本节未提及",
+          "plain": "积极情绪拓展思维与行动"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "section": "Nonverbal Expressions of Emotion",
+      "page": 329,
+      "knowledge_points": [
+        {
+          "name": "Facial expressions",
+          "subheading": "",
+          "definition_quote": "No matter what culture we grew up in, we are likely to use the same facial expressions for basic emotions like happiness, sadness, anger, disgust, surprise, and fear.",
+          "researchers": "本节未提及",
+          "plain": "基本情绪的面部表情跨文化一致"
+        },
+        {
+          "name": "Sociobiology",
+          "subheading": "",
+          "definition_quote": "This area of research (sometimes called sociobiology) indicates that the facial expressions we make for basic emotions may be an innate part of our physiological makeup.",
+          "researchers": "本节未提及",
+          "plain": "研究表情的先天生理基础"
+        },
+        {
+          "name": "Display rules",
+          "subheading": "",
+          "definition_quote": "On the other hand, researchers have documented some differences in how people express emotion. One cause is thought to be different cultural display rules.",
+          "researchers": "本节未提及",
+          "plain": "文化规定情绪表达方式"
+        }
+      ]
+    }
+  ]
+}

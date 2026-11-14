@@ -1,0 +1,1328 @@
+{
+  "unit": 1,
+  "sections": [
+    {
+      "chapter": 4,
+      "section": "Overview",
+      "page": 64,
+      "knowledge_points": [
+        {
+          "name": "Neuroscience or biopsychological perspective",
+          "subheading": "",
+          "definition_quote": "The influence of biology (sometimes called the neuroscience or biopsychological perspective) is growing.",
+          "researchers": "本节未提及",
+          "plain": "从生物学角度研究心理的视角"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "page": 64,
+      "knowledge_points": [
+        {
+          "name": "Genetic predisposition",
+          "subheading": "",
+          "definition_quote": "The term genetic predisposition refers to the increased chance of developing a specific trait or condition due to our genetic code.",
+          "researchers": "本节未提及",
+          "plain": "基因带来的特质或疾病易感性"
+        },
+        {
+          "name": "DNA",
+          "subheading": "Basic Genetic Concepts",
+          "definition_quote": "The genetic material that makes up chromosomes is DNA—deoxyribonucleic acid.",
+          "researchers": "本节未提及",
+          "plain": "构成染色体的遗传物质"
+        },
+        {
+          "name": "Genes",
+          "subheading": "Basic Genetic Concepts",
+          "definition_quote": "Certain segments of DNA control the production of specific proteins that control some human traits. These discrete segments are called genes.",
+          "researchers": "本节未提及",
+          "plain": "控制特定蛋白质合成的DNA片段"
+        },
+        {
+          "name": "Dominant or recessive genes",
+          "subheading": "Basic Genetic Concepts",
+          "definition_quote": "Genes can be dominant or recessive. If we inherit two recessive genes for a particular trait, that trait is expressed. In any other combination of genes, the dominant trait is expressed.",
+          "researchers": "本节未提及",
+          "plain": "显性基因表达，隐性需成对才表达"
+        },
+        {
+          "name": "Identical twins (monozygotic twins)",
+          "subheading": "Twins",
+          "definition_quote": "Since identical twins (called monozygotic twins since they develop from one fertilized egg called a zygote) share all the same genetic material, researchers study them in order to examine the influence of genes on human traits.",
+          "researchers": "Thomas Bouchard的双生子研究",
+          "plain": "同一受精卵发育、基因相同"
+        },
+        {
+          "name": "Chromosomal abnormality",
+          "subheading": "Chromosomal Abnormalities",
+          "definition_quote": "Occasionally, chromosomes will combine (or fail to) in an unusual way, resulting in a chromosomal abnormality.",
+          "researchers": "本节未提及",
+          "plain": "染色体组合异常导致的状况"
+        },
+        {
+          "name": "Turner’s syndrome",
+          "subheading": "Chromosomal Abnormalities",
+          "definition_quote": "For example, babies with Turner’s syndrome are born with only a single X chromosome in the spot usually occupied by the 23rd pair.",
+          "researchers": "本节未提及",
+          "plain": "只有一条X染色体的异常"
+        },
+        {
+          "name": "Klinefelter’s syndrome",
+          "subheading": "Chromosomal Abnormalities",
+          "definition_quote": "Babies born with Klinefelter’s syndrome have an extra X chromosome, resulting in an XXY pattern.",
+          "researchers": "本节未提及",
+          "plain": "多一条X染色体，呈XXY"
+        },
+        {
+          "name": "Down syndrome",
+          "subheading": "Chromosomal Abnormalities",
+          "definition_quote": "Babies with Down syndrome are born with an extra chromosome on the 21st pair.",
+          "researchers": "本节未提及",
+          "plain": "第21对染色体多出一条"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "page": 66,
+      "knowledge_points": [
+        {
+          "name": "Neuroanatomy",
+          "subheading": "",
+          "definition_quote": "Neuroanatomy refers to the study of the parts and function of neurons.",
+          "researchers": "本节未提及",
+          "plain": "研究神经元结构与功能"
+        },
+        {
+          "name": "Neurons",
+          "subheading": "",
+          "definition_quote": "Neurons are individual nerve cells.",
+          "researchers": "本节未提及",
+          "plain": "神经系统的单个神经细胞"
+        },
+        {
+          "name": "Dendrites",
+          "subheading": "",
+          "definition_quote": "Dendrites—rootlike parts of the cell that stretch out from the cell body.",
+          "researchers": "本节未提及",
+          "plain": "从胞体伸出的根状部分"
+        },
+        {
+          "name": "Cell body (soma)",
+          "subheading": "",
+          "definition_quote": "Cell body (also called the soma)—contains the nucleus and other parts of the cell needed to sustain its life.",
+          "researchers": "本节未提及",
+          "plain": "含细胞核的神经元主体"
+        },
+        {
+          "name": "Axon",
+          "subheading": "",
+          "definition_quote": "Axon—wirelike structure ending in the terminal buttons that extends from the cell body.",
+          "researchers": "本节未提及",
+          "plain": "从胞体延伸至末梢的线状结构"
+        },
+        {
+          "name": "Myelin sheath",
+          "subheading": "",
+          "definition_quote": "Myelin sheath—a fatty covering around the axon of some neurons that speeds neural impulses.",
+          "researchers": "本节未提及",
+          "plain": "包裹轴突、加速传导的脂肪层"
+        },
+        {
+          "name": "Terminal buttons",
+          "subheading": "",
+          "definition_quote": "Terminal buttons (also called end buttons, terminal branches of axons, and synaptic knobs)—the branched end of the axon that contain neurotransmitters.",
+          "researchers": "本节未提及",
+          "plain": "轴突末端、储存递质"
+        },
+        {
+          "name": "Synapse",
+          "subheading": "",
+          "definition_quote": "Synapse—the space between the terminal buttons of one neuron and the dendrites of the next neuron.",
+          "researchers": "本节未提及",
+          "plain": "两个神经元之间的间隙"
+        },
+        {
+          "name": "Neurotransmitters",
+          "subheading": "",
+          "definition_quote": "Neurotransmitters—chemicals contained in terminal buttons that enable neurons to communicate.",
+          "researchers": "本节未提及",
+          "plain": "神经元间传递信息的化学物质"
+        },
+        {
+          "name": "Resting potential",
+          "subheading": "How a Neuron “Fires”",
+          "definition_quote": "In its resting state (also referred to as resting potential), a neuron has an overall slightly negative charge (–70 mV) because mostly negative ions are within the cell and mostly positive ions are surrounding it.",
+          "researchers": "本节未提及",
+          "plain": "静息时神经元内负外正"
+        },
+        {
+          "name": "Threshold",
+          "subheading": "How a Neuron “Fires”",
+          "definition_quote": "If enough neurotransmitters are received (this level is called the threshold), the cell membrane of neuron B becomes permeable and positive ions rush into the cell, bringing the charge within the cell to approximately +40 mV.",
+          "researchers": "本节未提及",
+          "plain": "触发神经元放电的临界刺激量"
+        },
+        {
+          "name": "Action potential",
+          "subheading": "How a Neuron “Fires”",
+          "definition_quote": "The change in charge spreads down the length of neuron B. This electric message firing is called an action potential.",
+          "researchers": "本节未提及",
+          "plain": "神经元传导的电冲动"
+        },
+        {
+          "name": "All-or-none principle",
+          "subheading": "How a Neuron “Fires”",
+          "definition_quote": "It’s important to note that a neuron either fires completely or does not fire; this is called the all-or-none principle.",
+          "researchers": "本节未提及",
+          "plain": "神经元要么全放电要么不放电"
+        },
+        {
+          "name": "Depolarization",
+          "subheading": "How a Neuron “Fires”",
+          "definition_quote": "This process of neural firing is also called depolarization because the cell fires due to the resting potential of the cell—its negative charge—becoming “depolarized” when positive ions rush into the cell, changing the overall charge from negative to positive.",
+          "researchers": "本节未提及",
+          "plain": "正离子内流使膜电位变正"
+        },
+        {
+          "name": "Excitatory neurotransmitters",
+          "subheading": "Neurotransmitters",
+          "definition_quote": "Some neurotransmitters are excitatory, meaning that they excite the next cell into firing.",
+          "researchers": "本节未提及",
+          "plain": "促使下一个神经元放电"
+        },
+        {
+          "name": "Inhibitory neurotransmitters",
+          "subheading": "Neurotransmitters",
+          "definition_quote": "Other neurotransmitters are inhibitory, meaning that they inhibit the next cell from firing.",
+          "researchers": "本节未提及",
+          "plain": "抑制下一个神经元放电"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "page": 69,
+      "knowledge_points": [
+        {
+          "name": "Sensory neurons (afferent neurons)",
+          "subheading": "Sensory Neurons",
+          "definition_quote": "Sensory neurons, or afferent neurons, take information from the senses to the brain.",
+          "researchers": "本节未提及",
+          "plain": "把感官信息传向大脑"
+        },
+        {
+          "name": "Interneurons (association neurons)",
+          "subheading": "Interneurons",
+          "definition_quote": "Once information reaches the brain or spinal cord, interneurons (also called association neurons) take the messages and send them elsewhere in the brain or on to efferent neurons.",
+          "researchers": "本节未提及",
+          "plain": "中枢内连接感觉与运动神经元"
+        },
+        {
+          "name": "Motor neurons (efferent neurons)",
+          "subheading": "Motor Neurons",
+          "definition_quote": "Motor neurons, or efferent neurons, take information from the brain to the rest of the body.",
+          "researchers": "本节未提及",
+          "plain": "把指令从大脑传到身体"
+        },
+        {
+          "name": "Organization of the Nervous System",
+          "subheading": "Organization of the Nervous System",
+          "definition_quote": "Our nervous system is divided into different categories based on function. The two main divisions are the central nervous system and the peripheral nervous system.",
+          "researchers": "本节未提及",
+          "plain": "中枢与周围两大神经系统"
+        },
+        {
+          "name": "Central nervous system (CNS)",
+          "subheading": "Central Nervous System",
+          "definition_quote": "The central nervous system (CNS) consists of our brain and spinal cord—all the nerves housed within bone (the skull and vertebrae).",
+          "researchers": "本节未提及",
+          "plain": "脑和脊髓组成的中枢系统"
+        },
+        {
+          "name": "Spinal cord",
+          "subheading": "Central Nervous System",
+          "definition_quote": "The spinal cord is a bundle of nerves that run through the center of the spine.",
+          "researchers": "本节未提及",
+          "plain": "贯穿脊柱的神经束"
+        },
+        {
+          "name": "Afferent nerves",
+          "subheading": "Typical Peripheral Nervous System Transmission",
+          "definition_quote": "Sensory neurons in your toe are activated, and this message is transmitted up a neuron that runs from your toe to the base of your spine (afferent nerves).",
+          "researchers": "本节未提及",
+          "plain": "把感觉信息传向中枢的神经"
+        },
+        {
+          "name": "Reflex arcs",
+          "subheading": "Reflexes: An Important Exception",
+          "definition_quote": "However, humans have a few reflexes that work differently: reflex arcs. Certain reactions occur the moment sensory impulses reach the spinal cord.",
+          "researchers": "本节未提及",
+          "plain": "脊髓直接完成的不随意反应"
+        },
+        {
+          "name": "Peripheral nervous system (PNS)",
+          "subheading": "Peripheral Nervous System",
+          "definition_quote": "The peripheral nervous system (PNS) consists of all the nerves in your body that are not part of the central nervous system—that is, all the nerves not encased in bone.",
+          "researchers": "本节未提及",
+          "plain": "中枢以外、未包在骨内的神经"
+        },
+        {
+          "name": "Somatic nervous system",
+          "subheading": "Somatic Nervous System",
+          "definition_quote": "The somatic nervous system controls our voluntary muscle movements.",
+          "researchers": "本节未提及",
+          "plain": "控制随意肌肉运动"
+        },
+        {
+          "name": "Autonomic nervous system",
+          "subheading": "Autonomic Nervous System",
+          "definition_quote": "The autonomic nervous system controls the automatic functions of our body—our heart, lungs, internal organs, glands, and so on.",
+          "researchers": "本节未提及",
+          "plain": "控制心跳、内脏等自动功能"
+        },
+        {
+          "name": "Fight-or-flight response",
+          "subheading": "Autonomic Nervous System",
+          "definition_quote": "These nerves control our responses to stress: the fight-or-flight response that prepares our body to respond to a perceived threat.",
+          "researchers": "本节未提及",
+          "plain": "应对威胁的应激准备反应"
+        },
+        {
+          "name": "Sympathetic nervous system",
+          "subheading": "Sympathetic Nervous System",
+          "definition_quote": "The sympathetic nervous system mobilizes our body to respond to stress.",
+          "researchers": "本节未提及",
+          "plain": "动员身体应对压力"
+        },
+        {
+          "name": "Parasympathetic nervous system",
+          "subheading": "Parasympathetic Nervous System",
+          "definition_quote": "The parasympathetic nervous system has the opposite job of the sympathetic system. It carries messages to the stress response system that cause many of our body activities to slow down and return the body to homeostasis (its typical level) after a stress response.",
+          "researchers": "本节未提及",
+          "plain": "使身体平静并恢复稳态"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "Endocrine System",
+      "page": 73,
+      "knowledge_points": [
+        {
+          "name": "Endocrine system",
+          "subheading": "",
+          "definition_quote": "Another part of human biology relevant to psychology is the endocrine system. This is a system of glands that secrete hormones that affect many different biological processes in our bodies.",
+          "researchers": "本节未提及",
+          "plain": "分泌激素调节身体机能"
+        },
+        {
+          "name": "Adrenal glands",
+          "subheading": "Adrenal Glands",
+          "definition_quote": "The adrenal glands produce adrenaline (also known as epinephrine), which signals the rest of the body to prepare for fight or flight.",
+          "researchers": "本节未提及",
+          "plain": "分泌肾上腺素应对压力"
+        },
+        {
+          "name": "Ovaries and testes",
+          "subheading": "Ovaries and Testes",
+          "definition_quote": "Ovaries and testes produce our sex hormones, estrogen for females and testosterone for males.",
+          "researchers": "本节未提及",
+          "plain": "分泌雌激素与雄激素"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "page": 74,
+      "knowledge_points": [
+        {
+          "name": "Ways of Studying the Brain",
+          "subheading": "Ways of Studying the Brain",
+          "definition_quote": "As mentioned previously, the first challenge of brain research is creating a way of detecting brain function.",
+          "researchers": "本节未提及",
+          "plain": "检测脑功能的研究方法"
+        },
+        {
+          "name": "Accidents",
+          "subheading": "Accidents",
+          "definition_quote": "Accidents like this give researchers clues about brain function.",
+          "researchers": "本节未提及",
+          "plain": "借事故损伤推断脑功能"
+        },
+        {
+          "name": "Phineas Gage",
+          "subheading": "Phineas Gage",
+          "definition_quote": "In 1848, a railroad worker named Phineas Gage was involved in an accident that damaged the front part of his brain.",
+          "researchers": "Phineas Gage的事故案例（1848年）",
+          "plain": "脑损伤改变情绪与冲动的案例"
+        },
+        {
+          "name": "Lesioning",
+          "subheading": "Lesions",
+          "definition_quote": "Lesioning is the removal or destruction of part of the brain.",
+          "researchers": "本节未提及",
+          "plain": "切除或破坏部分脑组织"
+        },
+        {
+          "name": "Electroencephalogram (EEG)",
+          "subheading": "Electroencephalogram",
+          "definition_quote": "An electroencephalogram (EEG) detects brain waves.",
+          "researchers": "本节未提及",
+          "plain": "记录脑电波的技术"
+        },
+        {
+          "name": "Computerized axial tomography (CAT or CT) scan",
+          "subheading": "Computerized Axial Tomography",
+          "definition_quote": "A computerized axial tomography (CAT or CT) scan is a sophisticated X ray.",
+          "researchers": "本节未提及",
+          "plain": "用X射线呈现脑结构"
+        },
+        {
+          "name": "Magnetic resonance imaging (MRI)",
+          "subheading": "Magnetic Resonance Imaging",
+          "definition_quote": "Magnetic resonance imaging (MRI) is similar to a CAT scan in a way: both scans give you pictures of the brain.",
+          "researchers": "本节未提及",
+          "plain": "用磁场生成详细脑结构图"
+        },
+        {
+          "name": "Positron emission tomography (PET) scan",
+          "subheading": "Positron Emission Tomography",
+          "definition_quote": "A positron emission tomography (PET) scan lets researchers see what areas of the brain are most active during certain tasks.",
+          "researchers": "本节未提及",
+          "plain": "显示脑区活动水平"
+        },
+        {
+          "name": "Functional MRI (fMRI)",
+          "subheading": "Functional MRI",
+          "definition_quote": "Functional MRI (fMRI) is a technology that combines elements of the MRI and PET scans.",
+          "researchers": "本节未提及",
+          "plain": "结合结构与血流的脑成像"
+        },
+        {
+          "name": "Brain Structure and Function",
+          "subheading": "Brain Structure and Function",
+          "definition_quote": "When you study the brain, think about three separate major categories or sections: hindbrain, midbrain, and forebrain.",
+          "researchers": "本节未提及",
+          "plain": "脑分为后脑、中脑、前脑"
+        },
+        {
+          "name": "Hindbrain",
+          "subheading": "Hindbrain",
+          "definition_quote": "The hindbrain consists of structures located on top of the spinal cord. The hindbrain is our life support system; it controls the basic biological functions that keep us alive.",
+          "researchers": "本节未提及",
+          "plain": "维持生命基本功能的后脑"
+        },
+        {
+          "name": "Medulla",
+          "subheading": "Medulla",
+          "definition_quote": "The medulla is involved in the control of our blood pressure, heart rate, and breathing.",
+          "researchers": "本节未提及",
+          "plain": "控制血压、心率与呼吸"
+        },
+        {
+          "name": "Pons",
+          "subheading": "Pons",
+          "definition_quote": "The pons (located just above the medulla and toward the front) connects the hindbrain with the midbrain and forebrain.",
+          "researchers": "本节未提及",
+          "plain": "连接后脑与中脑、前脑"
+        },
+        {
+          "name": "Cerebellum",
+          "subheading": "Cerebellum",
+          "definition_quote": "The cerebellum coordinates some habitual muscle movements, such as tracking a target with our eyes or moving our fingers when playing the saxophone.",
+          "researchers": "本节未提及",
+          "plain": "协调习惯性肌肉运动"
+        },
+        {
+          "name": "Midbrain",
+          "subheading": "Midbrain",
+          "definition_quote": "In general, your midbrain coordinates simple movements with sensory information.",
+          "researchers": "本节未提及",
+          "plain": "整合感觉信息与简单运动"
+        },
+        {
+          "name": "Reticular formation",
+          "subheading": "Midbrain",
+          "definition_quote": "One specific structure in the midbrain you should be familiar with is the reticular formation. It is a netlike collection of cells throughout the midbrain that controls general body arousal and the ability to focus our attention.",
+          "researchers": "本节未提及",
+          "plain": "控制觉醒与注意力的网络"
+        },
+        {
+          "name": "Forebrain",
+          "subheading": "Forebrain",
+          "definition_quote": "Areas of the forebrain control what we think of as thought and reason.",
+          "researchers": "本节未提及",
+          "plain": "负责思维与推理的脑区"
+        },
+        {
+          "name": "Thalamus",
+          "subheading": "Thalamus",
+          "definition_quote": "The thalamus is located on top of the brain stem. It is responsible for receiving the sensory signals coming up the spinal cord and sending them to the appropriate areas in the rest of the forebrain.",
+          "researchers": "本节未提及",
+          "plain": "中转上行感觉信号"
+        },
+        {
+          "name": "Hypothalamus",
+          "subheading": "Hypothalamus",
+          "definition_quote": "The hypothalamus controls several metabolic functions, including body temperature, sexual arousal (libido), hunger, thirst, and the endocrine system.",
+          "researchers": "本节未提及",
+          "plain": "调节体温、饥饿与内分泌"
+        },
+        {
+          "name": "Amygdala and hippocampus",
+          "subheading": "Amygdala and Hippocampus",
+          "definition_quote": "The amygdala is vital to our experiences of emotion, and the hippocampus is vital to our memory system.",
+          "researchers": "本节未提及",
+          "plain": "杏仁核管情绪，海马管记忆"
+        },
+        {
+          "name": "Limbic system",
+          "subheading": "Amygdala and Hippocampus",
+          "definition_quote": "These parts of the brain (thalamus, hypothalamus, amygdala, and hippocampus) are grouped together and called the limbic system because they all deal with aspects of emotion and memory.",
+          "researchers": "本节未提及",
+          "plain": "与情绪和记忆相关的脑区组合"
+        },
+        {
+          "name": "Cerebral cortex",
+          "subheading": "Cerebral Cortex",
+          "definition_quote": "When most people think of the human brain, they think of and picture the cerebral cortex. The gray, wrinkled surface of the brain is actually a thin (0.039-inch [1 mm]) layer of densely packed neurons.",
+          "researchers": "本节未提及",
+          "plain": "覆盖大脑的灰色薄层神经元"
+        },
+        {
+          "name": "Pruning",
+          "subheading": "Cerebral Cortex",
+          "definition_quote": "This process, called pruning, forms the complex neural web you now have in your brain.",
+          "researchers": "本节未提及",
+          "plain": "修剪神经连接、形成网络"
+        },
+        {
+          "name": "Hemispheres",
+          "subheading": "Hemispheres",
+          "definition_quote": "The cerebral cortex is divided into two hemispheres: left and right.",
+          "researchers": "本节未提及",
+          "plain": "大脑皮层分左右两半球"
+        },
+        {
+          "name": "Contralateral hemispheric organization",
+          "subheading": "Hemispheres",
+          "definition_quote": "(The idea that each side of the brain controls the opposite side of the body is called contralateral hemispheric organization.)",
+          "researchers": "本节未提及",
+          "plain": "一侧脑控制对侧身体"
+        },
+        {
+          "name": "Hemispheric specialization (brain lateralization)",
+          "subheading": "Hemispheres",
+          "definition_quote": "This specialization of function in each hemisphere is called hemispheric specialization, or brain lateralization.",
+          "researchers": "本节未提及",
+          "plain": "两半球功能分工不同"
+        },
+        {
+          "name": "Split-brain patients",
+          "subheading": "Hemispheres",
+          "definition_quote": "Most of this research in differences between the hemispheres is done by examining split- brain patients—patients whose corpus callosum (the nerve bundle that connects the two hemispheres, see Figure 4.3) has been cut to treat severe epilepsy.",
+          "researchers": "Roger Sperry和Michael Gazzaniga的裂脑研究",
+          "plain": "胼胝体被切断的患者"
+        },
+        {
+          "name": "Association area",
+          "subheading": "Areas of the Cerebral Cortex",
+          "definition_quote": "Any area of the cerebral cortex that is not associated with receiving sensory information or controlling muscle movements is labeled as an association area.",
+          "researchers": "本节未提及",
+          "plain": "未直接负责感觉或运动的皮层"
+        },
+        {
+          "name": "Frontal lobes",
+          "subheading": "Frontal Lobes",
+          "definition_quote": "The frontal lobes are large areas of the cerebral cortex located at the top front part of the brain behind the eyes (see Figure 4.4).",
+          "researchers": "本节未提及",
+          "plain": "位于大脑前部的皮层区"
+        },
+        {
+          "name": "Prefrontal cortex",
+          "subheading": "Frontal Lobes",
+          "definition_quote": "The anterior or front of the frontal lobe is called the prefrontal cortex and is thought to play a critical role in directing thought processes.",
+          "researchers": "本节未提及",
+          "plain": "负责计划、目标与情绪控制"
+        },
+        {
+          "name": "Broca’s area",
+          "subheading": "Frontal Lobes",
+          "definition_quote": "Broca’s area (named for Paul Broca, 1824–1880) is in the frontal lobe and is responsible for controlling the muscles involved in producing speech.",
+          "researchers": "Paul Broca",
+          "plain": "控制说话肌肉运动的脑区"
+        },
+        {
+          "name": "Motor cortex",
+          "subheading": "Frontal Lobes",
+          "definition_quote": "A thin vertical strip at the back of the frontal lobe (farthest from the eyes, see Figure 4.4) is called the motor cortex. This part of the cerebral cortex sends signals to our muscles, controlling our voluntary movements.",
+          "researchers": "本节未提及",
+          "plain": "发出随意运动指令"
+        },
+        {
+          "name": "Parietal lobes",
+          "subheading": "Parietal Lobes",
+          "definition_quote": "The parietal lobes are located behind the frontal lobe but still on the top of the brain (see Figure 4.4).",
+          "researchers": "本节未提及",
+          "plain": "位于额叶后方的顶部皮层"
+        },
+        {
+          "name": "Somatosensory cortex",
+          "subheading": "Parietal Lobes",
+          "definition_quote": "The parietal lobes contain the somatosensory cortex (also known as the sensory cortex), which is located right behind the motor cortex in the frontal lobe.",
+          "researchers": "本节未提及",
+          "plain": "接收身体触觉信息"
+        },
+        {
+          "name": "Phantom limb syndrome",
+          "subheading": "Parietal Lobes",
+          "definition_quote": "One fascinating phenomenon that involves the somatosensory cortex is phantom limb syndrome: if an individual loses a part of their body, like an arm or hand, the person may still perceive sensations from that lost limb because part of their somatosensory cortex is still “mapped” to the missing body part.",
+          "researchers": "本节未提及",
+          "plain": "失去肢体后仍感到其存在"
+        },
+        {
+          "name": "Occipital lobes",
+          "subheading": "Occipital Lobes",
+          "definition_quote": "Our occipital lobes are at the very back of our brain, farthest from our eyes. This is somewhat counterintuitive since one of the major functions of this lobe is to interpret messages from our eyes in our visual cortex.",
+          "researchers": "本节未提及",
+          "plain": "位于脑后、处理视觉"
+        },
+        {
+          "name": "Temporal lobes",
+          "subheading": "Temporal Lobes",
+          "definition_quote": "The temporal lobes process sound sensed by our ears.",
+          "researchers": "本节未提及",
+          "plain": "处理听觉信息"
+        },
+        {
+          "name": "Wernicke’s area",
+          "subheading": "Temporal Lobes",
+          "definition_quote": "Wernicke’s area is involved with linguistic processing via both written and spoken speech.",
+          "researchers": "Carl Wernicke",
+          "plain": "负责语言理解的脑区"
+        },
+        {
+          "name": "Brain plasticity",
+          "subheading": "Brain Plasticity",
+          "definition_quote": "Researchers know some of the functions of different areas of the cerebral cortex, but they have also discovered that the brain is somewhat plastic or flexible.",
+          "researchers": "本节未提及",
+          "plain": "大脑可重组以适应损伤"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "Overview",
+      "page": 97,
+      "knowledge_points": [
+        {
+          "name": "Consciousness",
+          "subheading": "",
+          "definition_quote": "While you are reading this text, you can probably become aware of your sense of consciousness.",
+          "researchers": "William James",
+          "plain": "对自身心理状态的觉察"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "page": 97,
+      "knowledge_points": [
+        {
+          "name": "Mere exposure effect",
+          "subheading": "",
+          "definition_quote": "The mere exposure effect (see also Unit 4) occurs when we prefer stimuli we have seen before over novel stimuli, even if we do not consciously remember seeing the old stimuli.",
+          "researchers": "本节未提及",
+          "plain": "偏好曾见过的刺激"
+        },
+        {
+          "name": "Priming",
+          "subheading": "",
+          "definition_quote": "A closely related concept is priming. Research participants respond more quickly and/or accurately to questions they have seen before, even if they do not remember seeing them.",
+          "researchers": "本节未提及",
+          "plain": "先前经历加快后续反应"
+        },
+        {
+          "name": "Blind sight",
+          "subheading": "",
+          "definition_quote": "Another fascinating phenomenon that demonstrates levels of consciousness is blind sight. Some people who report being blind can nonetheless accurately describe the path of a moving object or accurately grasp objects they say they cannot see!",
+          "researchers": "本节未提及",
+          "plain": "盲人仍能准确感知物体"
+        },
+        {
+          "name": "Conscious level",
+          "subheading": "",
+          "definition_quote": "The information about yourself and your environment you are currently aware of.",
+          "researchers": "本节未提及",
+          "plain": "当前意识到的信息"
+        },
+        {
+          "name": "Nonconscious level",
+          "subheading": "",
+          "definition_quote": "Body processes controlled by your mind that we are not usually (or ever) aware of.",
+          "researchers": "本节未提及",
+          "plain": "控制心跳等不自觉过程"
+        },
+        {
+          "name": "Preconscious level",
+          "subheading": "",
+          "definition_quote": "Information about yourself or your environment that you are not currently thinking about (not in your conscious level) but you could be.",
+          "researchers": "本节未提及",
+          "plain": "可随时调入意识的信息"
+        },
+        {
+          "name": "Subconscious level",
+          "subheading": "",
+          "definition_quote": "Information that we are not consciously aware of but we know must exist due to behavior.",
+          "researchers": "本节未提及",
+          "plain": "未觉察但影响行为的信息"
+        },
+        {
+          "name": "Unconscious level",
+          "subheading": "",
+          "definition_quote": "Psychodynamic psychologists believe some events and feelings are unacceptable to our conscious mind and are repressed into the unconscious mind.",
+          "researchers": "本节未提及",
+          "plain": "被压抑、难以觉察的内容"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "page": 99,
+      "knowledge_points": [
+        {
+          "name": "Psychoactive drugs",
+          "subheading": "",
+          "definition_quote": "Psychoactive drugs are chemicals that change the chemistry of the brain (and the rest of the body) and induce an altered state of consciousness.",
+          "researchers": "本节未提及",
+          "plain": "改变脑化学、改变意识"
+        },
+        {
+          "name": "Blood-brain barrier",
+          "subheading": "",
+          "definition_quote": "Normally, the brain is protected from harmful chemicals in the bloodstream by thicker walls surrounding the brain’s blood vessels. This is called the blood-brain barrier.",
+          "researchers": "本节未提及",
+          "plain": "保护大脑免受血液有害物"
+        },
+        {
+          "name": "Agonists",
+          "subheading": "",
+          "definition_quote": "The drugs that mimic neurotransmitters are called agonists. These drugs fit in the receptor sites on a neuron that normally receive the neurotransmitter and function as that neurotransmitter normally would.",
+          "researchers": "本节未提及",
+          "plain": "模拟神经递质作用的药物"
+        },
+        {
+          "name": "Antagonists",
+          "subheading": "",
+          "definition_quote": "The drugs that block neurotransmitters are called antagonists. These molecules don't fit the receptor sites well enough to substitute for them but do fit well enough to occupy the same space, thereby preventing neurotransmitters or agonists from causing a reaction.",
+          "researchers": "本节未提及",
+          "plain": "阻断神经递质作用的药物"
+        },
+        {
+          "name": "Selective serotonin reuptake inhibitor",
+          "subheading": "",
+          "definition_quote": "One example of this kind of drug is Prozac, which is called a “selective serotonin reuptake inhibitor” because it prevents serotonin from being reabsorbed back into the neuron.",
+          "researchers": "本节未提及",
+          "plain": "阻止血清素被回收的药物"
+        },
+        {
+          "name": "Tolerance",
+          "subheading": "",
+          "definition_quote": "This change causes tolerance, a physiological change that produces a need for more of the same drug in order to achieve the same effect.",
+          "researchers": "本节未提及",
+          "plain": "需加大剂量才能达到原效果"
+        },
+        {
+          "name": "Withdrawal symptoms",
+          "subheading": "",
+          "definition_quote": "Tolerance will eventually cause withdrawal symptoms in users. Withdrawal symptoms vary from drug to drug.",
+          "researchers": "本节未提及",
+          "plain": "停药后出现的不适反应"
+        },
+        {
+          "name": "Psychological dependence",
+          "subheading": "",
+          "definition_quote": "Persons psychologically dependent on a drug feel an intense desire for the drug because they are convinced they need it in order to perform or feel a certain way.",
+          "researchers": "本节未提及",
+          "plain": "心理上强烈渴望该药物"
+        },
+        {
+          "name": "Physical dependence",
+          "subheading": "",
+          "definition_quote": "Persons physically dependent on a substance have a tolerance for the drug, experience withdrawal symptoms without it, and need the drug to avoid the withdrawal symptoms.",
+          "researchers": "本节未提及",
+          "plain": "身体需要药物以避免戒断"
+        },
+        {
+          "name": "Stimulants",
+          "subheading": "",
+          "definition_quote": "Stimulants speed up body processes, including autonomic nervous system functions such as heart and respiration rates.",
+          "researchers": "本节未提及",
+          "plain": "加快身体机能与心率"
+        },
+        {
+          "name": "Depressants",
+          "subheading": "",
+          "definition_quote": "Depressants slow down the same body systems that stimulants speed up.",
+          "researchers": "本节未提及",
+          "plain": "减慢身体机能活动"
+        },
+        {
+          "name": "Hallucinogens",
+          "subheading": "",
+          "definition_quote": "Hallucinogens (also sometimes called psychedelics) do not necessarily speed up or slow down the body. These drugs cause changes in perceptions of reality, including sensory hallucinations, loss of identity, and vivid fantasies.",
+          "researchers": "本节未提及",
+          "plain": "引起感知与幻觉改变"
+        },
+        {
+          "name": "Reverse tolerance",
+          "subheading": "",
+          "definition_quote": "This effect is sometimes called reverse tolerance because the second dose may be less than the first but cause the same or greater effects.",
+          "researchers": "本节未提及",
+          "plain": "小剂量也产生更强效果"
+        },
+        {
+          "name": "Opiates",
+          "subheading": "",
+          "definition_quote": "The opiates all act as agonists for endorphins and thus are powerful painkillers and mood elevators.",
+          "researchers": "本节未提及",
+          "plain": "类似内啡肽的强效止痛药"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "page": 103,
+      "knowledge_points": [
+        {
+          "name": "Sleep deprived",
+          "subheading": "",
+          "definition_quote": "Many studies show that a large percentage of high school and college students are sleep deprived, meaning they do not get as much sleep as their body wants.",
+          "researchers": "本节未提及",
+          "plain": "睡眠不足、未满足身体需要"
+        },
+        {
+          "name": "Circadian rhythm",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "You may be familiar with the term circadian rhythm. During a 24- hour day, our metabolic and thought processes follow a certain pattern.",
+          "researchers": "本节未提及",
+          "plain": "约24小时的生理节律"
+        },
+        {
+          "name": "Sleep cycle",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "Our sleep cycle is our typical pattern of sleep.",
+          "researchers": "本节未提及",
+          "plain": "睡眠的典型阶段模式"
+        },
+        {
+          "name": "Sleep onset",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "The period when we are falling asleep is called sleep onset.",
+          "researchers": "本节未提及",
+          "plain": "从清醒到入睡的过渡期"
+        },
+        {
+          "name": "Alpha waves",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "Our brain produces alpha waves when we are drowsy but awake.",
+          "researchers": "本节未提及",
+          "plain": "困倦清醒时的脑电波"
+        },
+        {
+          "name": "Theta waves",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "While we are awake and in stages NREM 1 and NREM 2, our brains produce theta waves, which are relatively high-frequency, low-amplitude waves.",
+          "researchers": "本节未提及",
+          "plain": "NREM一期和二期的脑波"
+        },
+        {
+          "name": "Sleep spindles",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "In NREM stage 2, the EEG starts to show sleep spindles, which are short bursts of rapid brain waves.",
+          "researchers": "本节未提及",
+          "plain": "NREM二期的快速脑波爆发"
+        },
+        {
+          "name": "Delta sleep",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "From there, we move into NREM stage 3, which is sometimes called delta sleep (also called deep or slow- wave sleep) because of the delta waves that exist during these stages.",
+          "researchers": "本节未提及",
+          "plain": "深睡期、以慢波为主"
+        },
+        {
+          "name": "Restoration of resources",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "This finding indicates that one of the functions of sleep (and the different stages in the sleep cycle) is restoration of resources: sleep is necessary because our body has to rebuild various resources it used while we were awake and active.",
+          "researchers": "本节未提及",
+          "plain": "睡眠重建白天消耗的资源"
+        },
+        {
+          "name": "REM sleep",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "This is REM—rapid eye movement. This sleep stage is sometimes called paradoxical sleep since our brain waves appear as active and intense as they do when we are awake.",
+          "researchers": "本节未提及",
+          "plain": "快速眼动、脑波活跃的睡眠"
+        },
+        {
+          "name": "REM rebound",
+          "subheading": "Sleep Cycle",
+          "definition_quote": "Individuals deprived of REM sleep will experience REM rebound—experiencing more and longer periods of REM—the next time they are allowed to sleep normally.",
+          "researchers": "本节未提及",
+          "plain": "缺REM后补回更多REM"
+        },
+        {
+          "name": "Insomnia",
+          "subheading": "Sleep Disorders",
+          "definition_quote": "Insomnia is far and away the most common sleep disorder, affecting up to 10 percent of the population. An insomniac has persistent problems getting to sleep or staying asleep at night.",
+          "researchers": "本节未提及",
+          "plain": "持续难以入睡或维持睡眠"
+        },
+        {
+          "name": "Narcolepsy",
+          "subheading": "Sleep Disorders",
+          "definition_quote": "Narcolepsy occurs far more rarely than insomnia, occurring in less than 0.001 percent of the population. Narcoleptics suffer from periods of intense sleepiness and may fall asleep at unpredictable and inappropriate times.",
+          "researchers": "本节未提及",
+          "plain": "白天突然不可控地入睡"
+        },
+        {
+          "name": "Sleep apnea",
+          "subheading": "Sleep Disorders",
+          "definition_quote": "Sleep apnea may be almost as common as insomnia and, in some ways, might be more serious. Apnea causes a person to stop breathing for short periods of time during the night.",
+          "researchers": "本节未提及",
+          "plain": "夜间呼吸短暂停止"
+        },
+        {
+          "name": "Night terrors",
+          "subheading": "Sleep Disorders",
+          "definition_quote": "Night terrors usually affect young children, and most do not remember the episode when they wake up.",
+          "researchers": "本节未提及",
+          "plain": "儿童夜间惊醒且不记得"
+        },
+        {
+          "name": "Somnambulism (sleepwalking)",
+          "subheading": "Sleep Disorders",
+          "definition_quote": "The exact causes are not known, but night terrors are probably related in some way to somnambulism (sleepwalking).",
+          "researchers": "本节未提及",
+          "plain": "睡眠中行走"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "page": 107,
+      "knowledge_points": [
+        {
+          "name": "Dreams",
+          "subheading": "",
+          "definition_quote": "Dreams are the series of storylike images we experience as we sleep.",
+          "researchers": "本节未提及",
+          "plain": "睡眠中经历的故事性影像"
+        },
+        {
+          "name": "Lucid dreams",
+          "subheading": "",
+          "definition_quote": "Some of us even report lucid dreams in which we are aware that we are dreaming and can control the storyline of the dream.",
+          "researchers": "本节未提及",
+          "plain": "知道自己在做梦并能控制"
+        },
+        {
+          "name": "Activation-synthesis theory of dreaming",
+          "subheading": "",
+          "definition_quote": "The activation-synthesis theory of dreaming looks at dreams first as biological phenomena. Brain imaging proves that our brain is very active during REM sleep. This theory proposes that perhaps dreams are nothing more than the brain’s interpretations of what is happening physiologically during REM sleep.",
+          "researchers": "本节未提及",
+          "plain": "梦是对REM期生理活动的解释"
+        },
+        {
+          "name": "Information-processing theory of dreaming",
+          "subheading": "",
+          "definition_quote": "The information-processing theory of dreaming suggests that we use dreams to process the events of the day.",
+          "researchers": "本节未提及",
+          "plain": "用梦加工白天的事件"
+        },
+        {
+          "name": "Consolidation theory of dreams",
+          "subheading": "",
+          "definition_quote": "The information-processing theory of dreaming is closely related to the consolidation theory of dreams: one of the functions of dreams might be to help us encode events and information in our short-term memory into our long-term memory.",
+          "researchers": "本节未提及",
+          "plain": "梦帮助记忆巩固"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "page": 115,
+      "knowledge_points": [
+        {
+          "name": "Sensation",
+          "subheading": "",
+          "definition_quote": "sensation in more general terms: the activation of our senses (eyes, ears, and so on)",
+          "researchers": "本节未提及",
+          "plain": "感官被激活的过程"
+        },
+        {
+          "name": "Perception",
+          "subheading": "",
+          "definition_quote": "perception as the process of understanding these sensations",
+          "researchers": "本节未提及",
+          "plain": "理解感觉信息的过程"
+        },
+        {
+          "name": "Transduction",
+          "subheading": "",
+          "definition_quote": "These messages go through a process called transduction, which means the signals are transformed into neural impulses.",
+          "researchers": "本节未提及",
+          "plain": "刺激转化为神经冲动"
+        },
+        {
+          "name": "Sensory adaptation",
+          "subheading": "",
+          "definition_quote": "sensory adaptation (decreasing responsiveness to stimuli due to constant stimulation)",
+          "researchers": "本节未提及",
+          "plain": "持续刺激导致反应减弱"
+        },
+        {
+          "name": "Sensory habituation",
+          "subheading": "",
+          "definition_quote": "sensory habituation (our perception of sensations is partially due to how focused we are on them)",
+          "researchers": "本节未提及",
+          "plain": "注意力集中影响感觉"
+        },
+        {
+          "name": "Cocktail party effect",
+          "subheading": "",
+          "definition_quote": "If you are talking with a friend and someone across the room says your name, your attention will probably involuntarily switch across the room. (This is sometimes called the cocktail party effect.)",
+          "researchers": "本节未提及",
+          "plain": "无意中注意到自己名字"
+        },
+        {
+          "name": "Synesthesia",
+          "subheading": "",
+          "definition_quote": "One example is synesthesia, a phenomenon some people experience in which the activation of one sense, like seeing a color, activates another sense, like hearing a specific sound (or vice versa)!",
+          "researchers": "本节未提及",
+          "plain": "一种感觉引发另一种感觉"
+        },
+        {
+          "name": "Prosopagnosia",
+          "subheading": "",
+          "definition_quote": "Prosopagnosia, another rare condition, involves the inability to recognize faces.",
+          "researchers": "本节未提及",
+          "plain": "无法辨认人脸"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "page": 117,
+      "knowledge_points": [
+        {
+          "name": "Vision",
+          "subheading": "Vision",
+          "definition_quote": "Vision is the dominant sense in human beings.",
+          "researchers": "本节未提及",
+          "plain": "人类最主要的感觉"
+        },
+        {
+          "name": "Retina",
+          "subheading": "Step One: Gathering Light",
+          "definition_quote": "The focused inverted image projects on the retina, which is like a screen on the back of your eye.",
+          "researchers": "本节未提及",
+          "plain": "眼球后部成像的屏幕"
+        },
+        {
+          "name": "Hues",
+          "subheading": "Step One: Gathering Light",
+          "definition_quote": "Different wavelengths within the visible light spectrum appear as different hues.",
+          "researchers": "本节未提及",
+          "plain": "不同波长对应不同色调"
+        },
+        {
+          "name": "Amplitude",
+          "subheading": "Step One: Gathering Light",
+          "definition_quote": "Another important factor is the wave’s amplitude (height), which dictates its intensity.",
+          "researchers": "本节未提及",
+          "plain": "波的振幅决定颜色强度"
+        },
+        {
+          "name": "Cornea",
+          "subheading": "Step Two: Within the Eye",
+          "definition_quote": "The reflected light first enters the eye through the cornea.",
+          "researchers": "本节未提及",
+          "plain": "保护眼球并帮助聚焦"
+        },
+        {
+          "name": "Pupil",
+          "subheading": "Step Two: Within the Eye",
+          "definition_quote": "The pupil is like the shutter of a camera.",
+          "researchers": "本节未提及",
+          "plain": "控制进光量的开口"
+        },
+        {
+          "name": "Accommodation",
+          "subheading": "Step Two: Within the Eye",
+          "definition_quote": "Through a process called accommodation, light that enters the pupil is focused by the lens; the lens is curved and flexible so it can change shape to focus the light on the retina.",
+          "researchers": "本节未提及",
+          "plain": "晶状体改变形状以聚焦"
+        },
+        {
+          "name": "Transduction",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "The term transduction refers to the translation of incoming stimuli into neural signals.",
+          "researchers": "本节未提及",
+          "plain": "刺激转换为神经信号"
+        },
+        {
+          "name": "Cones",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "cones, which are cells that are activated by color",
+          "researchers": "本节未提及",
+          "plain": "感受颜色的视锥细胞"
+        },
+        {
+          "name": "Rods",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "rods, which are cells that respond to black and white",
+          "researchers": "本节未提及",
+          "plain": "感受明暗的视杆细胞"
+        },
+        {
+          "name": "Fovea",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "At the very center of the retina is an indentation called the fovea that contains the highest concentration of cones.",
+          "researchers": "本节未提及",
+          "plain": "视网膜中央、视锥最密集"
+        },
+        {
+          "name": "Blind spot",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "The spot where the optic nerve leaves the retina has no rods or cones, so it is referred to as the blind spot.",
+          "researchers": "本节未提及",
+          "plain": "视神经出口、无感光细胞"
+        },
+        {
+          "name": "Optic chiasm",
+          "subheading": "Step Three: Transduction",
+          "definition_quote": "The spot where the nerves cross each other is called the optic chiasm.",
+          "researchers": "本节未提及",
+          "plain": "视神经交叉处"
+        },
+        {
+          "name": "Feature detectors",
+          "subheading": "Step Four: In the Brain",
+          "definition_quote": "The visual cortex has feature detectors for vertical lines, curves, motion, and many other features of images.",
+          "researchers": "David Hubel和Torsten Wiesel",
+          "plain": "对特定视觉特征反应的神经元"
+        },
+        {
+          "name": "Theories of color vision",
+          "subheading": "Theories of Color Vision",
+          "definition_quote": "Competing theories exist about how and why we see color.",
+          "researchers": "本节未提及",
+          "plain": "解释颜色知觉的不同理论"
+        },
+        {
+          "name": "Trichromatic theory",
+          "subheading": "Trichromatic Theory",
+          "definition_quote": "The oldest and simplest theory is trichromatic theory. This theory hypothesizes that we have three types of cones in the retina and that each type detects a different primary color of light: blue, red, or green.",
+          "researchers": "本节未提及",
+          "plain": "三种视锥感受红绿蓝"
+        },
+        {
+          "name": "Afterimage",
+          "subheading": "Trichromatic Theory",
+          "definition_quote": "If you stare at one color for a while and then look at a white or blank space, you will see a negative color afterimage.",
+          "researchers": "本节未提及",
+          "plain": "注视后看到的互补色残像"
+        },
+        {
+          "name": "Dichromatism",
+          "subheading": "Trichromatic Theory",
+          "definition_quote": "Individuals with dichromatism cannot see either red/green shades or blue/yellow shades.",
+          "researchers": "本节未提及",
+          "plain": "红绿或蓝黄辨色困难"
+        },
+        {
+          "name": "Opponent-process theory",
+          "subheading": "Opponent-Process Theory",
+          "definition_quote": "The opponent-process theory states that the sensory receptors arranged in the retina come in pairs: red/green pairs, yellow/blue pairs, and black/white pairs.",
+          "researchers": "本节未提及",
+          "plain": "颜色感受器成对相互抑制"
+        },
+        {
+          "name": "Pitch",
+          "subheading": "Hearing",
+          "definition_quote": "Frequency refers to the length of the waves and determines pitch, which is measured in megahertz.",
+          "researchers": "本节未提及",
+          "plain": "声波频率决定音高"
+        },
+        {
+          "name": "Loudness",
+          "subheading": "Hearing",
+          "definition_quote": "Amplitude is the height of the wave and determines the loudness of the sound, which is measured in decibels.",
+          "researchers": "本节未提及",
+          "plain": "声波振幅决定响度"
+        },
+        {
+          "name": "Cochlea",
+          "subheading": "Hearing",
+          "definition_quote": "The oval window membrane is attached to the cochlea, a structure shaped like a snail’s shell and filled with fluid.",
+          "researchers": "本节未提及",
+          "plain": "内耳蜗形、充满液体的结构"
+        },
+        {
+          "name": "Sound localization",
+          "subheading": "Hearing",
+          "definition_quote": "In this way, we can determine approximately where a sound originated; this is called sound localization.",
+          "researchers": "本节未提及",
+          "plain": "判断声音来源方向"
+        },
+        {
+          "name": "Pitch theories",
+          "subheading": "Pitch Theories",
+          "definition_quote": "As with color vision, two different theories describe the two processes involved in hearing pitch: place theory and frequency theory.",
+          "researchers": "本节未提及",
+          "plain": "解释音高感知的两种理论"
+        },
+        {
+          "name": "Place theory",
+          "subheading": "Place Theory",
+          "definition_quote": "Place theory holds that the hair cells in the cochlea respond to different frequencies of sound based on where they are located in the cochlea.",
+          "researchers": "本节未提及",
+          "plain": "不同位置毛细胞感受不同频率"
+        },
+        {
+          "name": "Frequency theory",
+          "subheading": "Frequency Theory",
+          "definition_quote": "Frequency theory states that we sense pitch because the hair cells fire at different rates (frequencies) in the cochlea.",
+          "researchers": "本节未提及",
+          "plain": "毛细胞放电频率决定音高"
+        },
+        {
+          "name": "Conduction deafness",
+          "subheading": "Deafness",
+          "definition_quote": "Conduction deafness occurs when something goes wrong with the system of conducting the sound to the cochlea (in the ear canal, eardrum, hammer/anvil/stirrup, or oval window).",
+          "researchers": "本节未提及",
+          "plain": "声音传导通路出问题"
+        },
+        {
+          "name": "Nerve deafness",
+          "subheading": "Deafness",
+          "definition_quote": "Nerve deafness (or sensorineural deafness) occurs when the hair cells in the cochlea are damaged, usually by loud noise.",
+          "researchers": "本节未提及",
+          "plain": "耳蜗毛细胞受损致聋"
+        },
+        {
+          "name": "Gate control theory",
+          "subheading": "Touch",
+          "definition_quote": "Gate control theory helps explain how we experience pain the way we do. This theory explains that some pain messages have a higher priority than others.",
+          "researchers": "本节未提及",
+          "plain": "高强度疼痛信息优先传递"
+        },
+        {
+          "name": "Pain receptors",
+          "subheading": "Touch",
+          "definition_quote": "If touch or temperature receptors are stimulated sharply, a different kind of nerve ending called pain receptors will also fire.",
+          "researchers": "本节未提及",
+          "plain": "受到强烈刺激时产生痛觉"
+        },
+        {
+          "name": "Endorphins",
+          "subheading": "Touch",
+          "definition_quote": "Endorphins, or pain-killing chemicals in the body, also swing the gate shut.",
+          "researchers": "本节未提及",
+          "plain": "体内天然止痛化学物质"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "page": 125,
+      "knowledge_points": [
+        {
+          "name": "Taste buds",
+          "subheading": "Taste (or Gustation)",
+          "definition_quote": "Chemicals from the food we eat (or whatever else we stick into our mouths) are absorbed by taste buds on our tongue (see Figure 6.3).",
+          "researchers": "本节未提及",
+          "plain": "舌上感受味道的结构"
+        },
+        {
+          "name": "Papillae",
+          "subheading": "Taste (or Gustation)",
+          "definition_quote": "Taste receptors are located on papillae, which are the bumps you can see on your tongue.",
+          "researchers": "本节未提及",
+          "plain": "舌面可见的小突起"
+        },
+        {
+          "name": "Five different types of tastes",
+          "subheading": "Taste (or Gustation)",
+          "definition_quote": "Humans sense five different types of tastes: sweet, salty, sour, bitter, umami (savory or meaty taste), and oleogutus (taste of fat).",
+          "researchers": "本节未提及",
+          "plain": "甜、咸、酸、苦、鲜、脂肪味"
+        },
+        {
+          "name": "Supertasters",
+          "subheading": "Taste (or Gustation)",
+          "definition_quote": "If all the bumps are packed tightly together, you probably taste food intensely. (These individuals are called supertasters.)",
+          "researchers": "本节未提及",
+          "plain": "味蕾密集、味觉强烈的人"
+        },
+        {
+          "name": "Smell (or Olfaction)",
+          "subheading": "Smell (or Olfaction)",
+          "definition_quote": "Our sense of smell also depends on chemicals emitted by substances.",
+          "researchers": "本节未提及",
+          "plain": "依赖化学分子的嗅觉"
+        },
+        {
+          "name": "Olfactory bulb",
+          "subheading": "Smell (or Olfaction)",
+          "definition_quote": "These receptor cells are linked to the olfactory bulb (see Figure 6.4), which gathers the messages from the olfactory receptor cells and sends this information to the brain.",
+          "researchers": "本节未提及",
+          "plain": "收集嗅觉信息并传向大脑"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "section": "Body Position Senses",
+      "page": 127,
+      "knowledge_points": [
+        {
+          "name": "Vestibular sense",
+          "subheading": "Vestibular Sense",
+          "definition_quote": "Our vestibular sense tells us about how our body is oriented in space.",
+          "researchers": "本节未提及",
+          "plain": "感知身体在空间中的朝向"
+        },
+        {
+          "name": "Semicircular canals",
+          "subheading": "Vestibular Sense",
+          "definition_quote": "Three semicircular canals in the inner ear (see Figure 6.2) give the brain feedback about body orientation.",
+          "researchers": "本节未提及",
+          "plain": "内耳中感受头部转动的管道"
+        },
+        {
+          "name": "Kinesthetic sense (kinesthesis)",
+          "subheading": "Kinesthetic Sense",
+          "definition_quote": "While our vestibular sense keeps track of the overall orientation of our body, our kinesthetic sense (kinesthesis) gives us feedback about the position and orientation of specific body parts.",
+          "researchers": "本节未提及",
+          "plain": "感知各肢体位置与运动"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-21",
+ "kind": "quiz",
+ "number": 21,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 21 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 21",
+ "pdf_page_start": 358,
+ "pdf_page_end": 363,
+ "answer_page_start": 741,
+ "answer_page_end": 743,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "We are 90% confident that (0.07, 0.13) captures the true difference in proportions (ages 70–79 minus ages 50–59) of people who would say their overall health is good, very good, or excellent",
+    "B": "If all possible independent random samples of people ages 70–79 and of people ages 50–59 of the same size as in this study are sampled and if a confidence interval for the difference in proportions of health rating is constructed from each pair of samples, then approximately 90% of all these intervals would capture the difference in sample proportions.",
+    "C": "If all possible independent random samples of people ages 70–79 and of people ages 50–59 of the same size as in this study are sampled and if a confidence interval for the difference in proportions of health rating is constructed from each pair of samples, then approximately 90% of all these intervals would capture the true difference in proportions.",
+    "D": "There is a 0.95 probability that the true difference in proportions (ages 70–79 minus ages 50–59) of people who said their overall health is good, very good, or excellent is between 0.07 and 0.13."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 358,
+      "bbox": [
+       108.3,
+       482.9,
+       499.2,
+       500.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 358,
+      "bbox": [
+       108.3,
+       554.5,
+       507.7,
+       571.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 358,
+      "bbox": [
+       108.3,
+       660.4,
+       507.8,
+       677.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 359,
+      "bbox": [
+       108.3,
+       126.4,
+       469.5,
+       143.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 358,
+   "page_end": 359,
+   "stem": "In a random sample of people ages 70 to 79, 84% said their overall health is good, very good, or excellent, while in an independent random sample of people ages 50 to 59, just 74% said this. A 90% confidence interval of the difference in proportions (ages 70–79 minus ages 50–59) was calculated as (0.07, 0.13). Which of the following is the best interpretation of the confidence level?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "A confidence level of 90% gives the percent of all possible confidence intervals that will capture the true difference in proportions. Choice (A) is a correct interpretation of confidence level. Note that choice (B) incorrectly refers to a conclusion about sample statistics rather than the population parameter.",
+   "question_id": "statistics-barrons-2027-quiz-21-001",
+   "source_pages": [
+    358,
+    359
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Because all the values in the confidence interval are greater than 0, there is convincing evidence that the proportion of high school students using e-cigarettes increased between pre-T21 and post-T21.",
+    "B": "There is a 0.99 probability that the proportion of high school students using e-cigarettes increased between pre-T21 and post-T21.",
+    "C": "We are 99% confident that the proportion of high school students using e-cigarettes increased between pre-T21 and post-T21.",
+    "D": "If 99% confidence intervals for the difference in proportions are calculated from all possible samples of the same size samples as the original studies, 99% will show convincing evidence that the proportion of high school students using e- cigarettes increased between pre-T21 and post-T21."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 359,
+      "bbox": [
+       108.3,
+       385.5,
+       514.1,
+       402.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 359,
+      "bbox": [
+       108.3,
+       457.1,
+       518.4,
+       474.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 359,
+      "bbox": [
+       108.3,
+       511.5,
+       494.9,
+       528.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 359,
+      "bbox": [
+       108.3,
+       565.9,
+       516.5,
+       583.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 359,
+   "page_end": 359,
+   "stem": "In an effort to reduce tobacco use and prevent its detrimental health effects, New York T21 policies aim to limit youth access to tobacco products, including cigarettes and e-cigarettes. Studies were performed to determine whether or not e-cigarette use among high school students changed between pre-T21 and post- T21. In a T21 study, the 99% confidence interval for the difference in proportion of students using e-cigarettes (post-T21 minus pre- T21) was (0.12, 0.22). Which of the following is the most reasonable conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The 99% confidence interval does not contain 0. Unfortunately, since the interval is entirely in the positive region, this provides convincing evidence that e-cigarette usage among NYC high school students increased between pre-T21 and post-T21 despite the passage of T21.",
+   "question_id": "statistics-barrons-2027-quiz-21-002",
+   "source_pages": [
+    359,
+    359
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "10 of 100 males hope someday to run for political office compared with 30 out of 100 females.",
+    "B": "15 of 100 males hope someday to run for political office compared with 25 out of 100 females.",
+    "C": "20 of 200 males hope someday to run for political office compared with 60 out of 200 females.",
+    "D": "25 of 200 males hope someday to run for political office compared with 55 out of 200 females."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       189.4,
+       489.6,
+       206.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       226.6,
+       489.5,
+       243.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       263.8,
+       489.6,
+       281.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       301.1,
+       490.8,
+       318.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 359,
+   "page_end": 360,
+   "stem": "Suppose that you want to compare the percentage of male high school students who hope someday to run for political office to the percentage of female high school students who hope someday to run for political office. A random sample of male high school students and a random sample of female high school students are selected. Which of the following results provides the strongest evidence that the percentages differ between male and female high school students who hope someday to run for political office?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Look for the biggest difference between the proportions in the two groups (choices (A) and (C), compare 10% versus 30%), and when the difference is the same, the larger sample sizes will produce stronger evidence (no choice has larger sample sizes than (C)).",
+   "question_id": "statistics-barrons-2027-quiz-21-003",
+   "source_pages": [
+    359,
+    360
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "It includes only negative values.",
+    "B": "It includes both positive and negative values.",
+    "C": "It includes only positive values.",
+    "D": "This cannot be answered without knowing which proportion is subtracted from which."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       439.9,
+       339.0,
+       457.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       460.0,
+       421.5,
+       477.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       480.0,
+       333.4,
+       497.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 360,
+      "bbox": [
+       108.3,
+       500.1,
+       529.5,
+       517.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 360,
+   "page_end": 360,
+   "stem": "Suppose that a two-sided hypothesis test of whether two population proportions differ results in a p-value of 0.069. What can be said about a 95% confidence interval for the difference in population proportions, calculated from the same sample data?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "With a p-value greater than 0.05, the difference is not statistically significant at the 0.05 significance level, so a 95% confidence interval for the difference in population proportions will include both positive and negative values.",
+   "question_id": "statistics-barrons-2027-quiz-21-004",
+   "source_pages": [
+    360,
+    360
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "(0.0162, 0.0438)",
+    "B": "(0.081, 0.219)",
+    "C": "(16, 44)",
+    "D": "(81, 219)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 361,
+      "bbox": [
+       108.3,
+       72.0,
+       243.0,
+       89.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 361,
+      "bbox": [
+       108.3,
+       92.0,
+       227.3,
+       109.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 361,
+      "bbox": [
+       108.3,
+       112.1,
+       187.5,
+       129.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 361,
+      "bbox": [
+       108.3,
+       132.1,
+       196.4,
+       149.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 360,
+   "page_end": 361,
+   "stem": "Alcohol consumption is one of many concerns of today’s teens. In one study, 650 of 5,000 teens surveyed said they felt “a lot” or “some” pressure to drink alcohol. A study a year later reported that 800 of 5,000 teens surveyed said they felt “a lot” or “some” pressure to drink alcohol. Assume all conditions for inference have been met. Which of the following gives a 95% confidence interval estimate of the difference in the numbers of teens (later year minus earlier year) from samples of 5,000 who say they feel “a lot” or “some” pressure to drink alcohol?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The 95% confidence interval for the difference in proportions is (0.0162, 0.0438). The confidence interval for the difference in numbers is found by multiplying by 5,000.",
+   "question_id": "statistics-barrons-2027-quiz-21-005",
+   "source_pages": [
+    360,
+    361
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 361,
+   "page_end": 361,
+   "stem": "A behavior study of high school students looked at whether a higher proportion of boys than girls meets a recommended level of physical activity (increased heart rate for 60 minutes per day for at least 5 days during the 7 days before the survey). What is the proper conclusion if 370 out of a random sample of 850 boys and 218 out of an independent random sample of 580 girls met the recommended level of activity?",
+   "correct_answer": null,
+   "answer_text": "Parameters: Let pB represent the proportion of the population of high school boys who meet the recommended level of physical activity. Let pG represent the proportion of the population of high school girls who meet the recommended level of physical activity. Hypotheses: H0: pB − pG = 0 (or pB = pG) and Ha: pB − pG > 0 (or pB > pG). Procedure: Two-sample z-test for a difference of two proportions, pB – pG. Checks: We are given independent random samples, and the sample sizes, 850 and 580, are clearly less than 10% of the respective populations. For normality, with , nB p̂ c = (850)(0.411) = 349 ≥ 10, nB(1 − p̂ c) = (850) (0.589) = 501 ≥ 10, nG p̂ c = (580)(0.411) = 238 ≥ 10, and nG(1 − p̂ c) = (580)(0.589) = 342 ≥ 10. Mechanics: Calculator software (such as 2-PropZTest on the TI-84) gives z = 2.2427 and p =",
+   "question_id": "statistics-barrons-2027-quiz-21-006",
+   "context": "",
+   "source_pages": [
+    361,
+    361
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 361,
+   "page_end": 362,
+   "stem": "A national survey studied whether or not a random sample of American voters believed a particular false political claim. The study compared survey responses between voters 18 to 25 years old and voters over the age of 65. The following table displays some of the results. Difference Voters 18 to Voters over (percentage All Voters 25 65 points) Number 1,500 900 600 surveyed % who 10.8% 12% 9% 3% believed the false claim (a) Is random sampling, random assignment, both, or neither involved in this study? Explain. (b) What are the appropriate hypotheses for testing whether the two populations of voters differ with regard to the proportion who believe the false political claim? (c) The test statistic is z = 1.834. What does this value mean in context? (d) Is there convincing evidence to reject the null hypothesis at the 0.05 significance level? Explain. (e) A 95% confidence interval based on this data is (−0.0012, 0.06123). Interpret this interval in context. (f) Is this confidence interval consistent with the test decision in part (d)? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) The sample was said to be selected randomly. There was no random assignment into ages or into the responded answers. (b) H0: p18-25 = p65 and Ha: p18-25 ≠ p65 where p18-25 is the proportion of all voters 18 to 25 years old who believe the false political claim, and p65 is the proportion of all voters over age 65 who believe the false political claim. (c) The two sample proportions (voters 18 to 25 years old and voters over 65 who believe the false political claim) are 1.834 standard deviations (or standard errors) apart. (d) This is a two-sided test with a p-value of 2 × normalcdf(1.834, 1000) = 2(0.0333) = 0.0666. With this large of a p-value, 0.0666 > 0.05, there is not sufficient evidence to reject the null hypothesis. That is, there is not convincing evidence that the proportion of all voters ages 18 to 25 who believe the false political claim is different from the proportion of all voters over 65 years old who believe the false political claim. (e) We are 95% confident that the proportion of all voters ages 18 to 25 who believe the false political claim is between 0.0012 less than and 0.06123 greater than the proportion of all voters over age 65 who believe the false political claim. We are 95% confident that the true difference in the proportions of 18- to 25-year-old voters and voters over 65 who believe the false political claim is between −0.0012 and 0.06123. (f) Since the confidence interval contains both negative and positive values—that is, it includes zero as a plausible value for the difference in population proportions—the two procedures give consistent results.",
+   "question_id": "statistics-barrons-2027-quiz-21-007",
+   "context": "",
+   "source_pages": [
+    361,
+    362
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 362,
+   "page_end": 363,
+   "stem": "Exercise addiction, an uncontrollable desire to exercise, is one example of behavior addiction. In one study of 1,000 randomly selected adults from Boulder, Colorado, psychologists investigated the relationship between exercise addiction and negative body image. The following two-way table summarizes the data: Exercise addiction diagnosis None Mild Severe Total Yes 301 68 26 395 Negative body No 500 83 22 image 605 Total 801 151 48 1000 (a) In the sample, 4.8% of the adults were diagnosed with severe exercise addiction. To what population can this result be generalized? Explain. (b) If one person from the sample is selected at random, what is the probability the person is diagnosed to have some form of exercise addiction? (c) If one person from the sample is selected at random, what is the probability the person is diagnosed to have some form of exercise addiction given that the person has negative body image? Let pneg = the proportion of people with severe exercise addiction among those in the population who have negative body image, and let ppos = the proportion of people with severe exercise addiction among those in the population who do not have negative body image. A 95% confidence interval for pneg − ppos is (0.000815, 0.0581). (d) One condition for constructing this confidence interval is that the number of people with severe exercise addiction and the number of people who do not have severe exercise addiction in each of the two groups (with and without negative body image) is at least 10. Explain why it is necessary for this condition to be satisfied. (e) Interpret the confidence interval. (f) Even though all of the values in the confidence interval are positive, a cause-and-effect relationship between negative body image and severe exercise addiction cannot be established from this study due to possible confounding. Identify a potential confounding variable in this context and explain your answer.",
+   "correct_answer": null,
+   "answer_text": "(a) Due to random sampling, the result can be generalized to the population from which the sample was drawn: All adults in Boulder, Colorado. (b) (c) (d) The confidence interval calculation relies on the fact that the sampling distribution of pneg − ppos is approximately normal. This will be the case if nneg p̂ neg, nneg (1 − p̂ neg), npos p̂ pos, and npos (1 − p̂ pos) are all at least 10. (e) We are 95% confident that the true difference between the proportion of people with severe exercise addiction among those in the population who have negative body image and the proportion of people with severe exercise addiction among those in the population who do not have negative body image is in the interval from 0.000815 to 0.0581. That is, we are 95% confident that the proportion of people with severe exercise addiction is between 0.0815 percentage points higher and 5.81 percentage points higher for those who have negative body image than those who do not have negative body image. (f) An example of a confounding variable could be a certain chemical imbalance in adults. This imbalance would cause both negativity in general (including negative thoughts about one’s body) and a craving for the euphoria of endorphins (which are released during exercise).",
+   "question_id": "statistics-barrons-2027-quiz-21-008",
+   "context": "",
+   "source_pages": [
+    362,
+    363
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 8,
+ "mcq_count": 5,
+ "frq_count": 3
+}

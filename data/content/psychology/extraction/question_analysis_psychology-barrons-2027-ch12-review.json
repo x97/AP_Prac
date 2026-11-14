@@ -1,0 +1,1257 @@
+{
+  "generated_at": "2026-10-27T13:35:51+00:00",
+  "paper_id": "psychology-barrons-2027-ch12-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 14,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-891241510eeb44ee",
+          "name": "Conditioned stimulus (CS)",
+          "confidence": 0.97,
+          "evidence": "When I hear the music, I tense up in anticipation of the scary event. In this situation, the music serves as a(n)",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f30fd27442328491",
+          "name": "Unconditioned stimulus (US or UCS)",
+          "confidence": 0.7,
+          "evidence": "Just before something scary happens in a horror film, they often play scary-sounding music."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-9fb46fc99c0eb926",
+          "name": "Conditioned response (CR)",
+          "confidence": 0.6,
+          "evidence": "I tense up in anticipation of the scary event"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "music",
+          "normalized": "music",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "scary event",
+          "normalized": "scary event",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "tense up",
+          "normalized": "tense up",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "US",
+          "normalized": "us",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "UR",
+          "normalized": "ur",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "CR",
+          "normalized": "cr",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The music is a previously neutral stimulus that, through pairing with the scary event, comes to elicit the tensing response, making it a conditioned stimulus (CS).",
+      "warnings": [
+        "confusable 'Unconditioned stimulus (US or UCS)' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Unconditioned response (UR or UCR)' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Conditioned response (CR)' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'music': not a known alias of 'Conditioned stimulus (CS)'; stored without a KP",
+        "keyword 'scary event': not a known alias of 'Unconditioned stimulus (US or UCS)'; stored without a KP",
+        "keyword 'tense up': not a known alias of 'Conditioned response (CR)'; stored without a KP",
+        "keyword 'US': not a known alias of 'Unconditioned stimulus (US or UCS)'; stored without a KP",
+        "keyword 'UR': not a known alias of 'Unconditioned response (UR or UCR)'; stored without a KP",
+        "keyword 'CR': not a known alias of 'Conditioned response (CR)'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4e7fcbe76004d1f6",
+          "name": "Classical conditioning",
+          "confidence": 0.95,
+          "evidence": "Fluffy came to associate Vinny’s typical behavior each morning with her breakfast.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-891241510eeb44ee",
+          "name": "Conditioned stimulus (CS)",
+          "confidence": 0.8,
+          "evidence": "Fluffy came to associate Vinny’s typical behavior each morning with her breakfast."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "name": "Positive reinforcement",
+          "option_label": "A",
+          "reason": "Positive reinforcement is an operant-conditioning mechanism; the scenario is better explained by classical conditioning, so this is a tempting but wrong learning-type near-miss."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-b704a5dfb85b1e07",
+          "name": "Cognitive map",
+          "option_label": "D",
+          "reason": "Cognitive map is a cognitive-learning concept about spatial representation, a tempting but incorrect alternative to simple stimulus association."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "associate",
+          "normalized": "associate",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "positive reinforcement",
+          "normalized": "positive reinforcement",
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "kp_name": "Positive reinforcement",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "insight",
+          "normalized": "insight",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "cognitive map",
+          "normalized": "cognitive map",
+          "kp_id": "psychology-barrons-2027-kp-b704a5dfb85b1e07",
+          "kp_name": "Cognitive map",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests classical conditioning: Vinny's morning behavior becomes associated with feeding. Option B is the only associative/classical-conditioning conclusion; A is operant, C is insight learning, and D is cognitive map.",
+      "warnings": [
+        "confusable 'Insight learning' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'associate': not a known alias of 'Classical conditioning'; stored without a KP",
+        "keyword 'insight': not a known alias of 'Insight learning'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c10e94ed0f715597",
+          "name": "Extinction",
+          "confidence": 0.95,
+          "evidence": "When Vinny returns and resumes his typical feeding routine, Fluffy takes about six seconds to swim to the top of her tank.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-891241510eeb44ee",
+          "name": "Conditioned stimulus (CS)",
+          "confidence": 0.6,
+          "evidence": "Vinny picking up the container fish food"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "name": "Spontaneous recovery",
+          "option_label": "C",
+          "reason": "Spontaneous recovery is a near-miss classical conditioning principle where an extinguished response briefly returns, but here the response is weakened rather than recovered."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "name": "Acquisition",
+          "option_label": "A",
+          "reason": "Acquisition is the initial learning of a conditioned response, the opposite of the weakening shown in the scenario."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-b4cc49a1156488ab",
+          "name": "Discrimination",
+          "option_label": "D",
+          "reason": "Discrimination involves distinguishing among similar stimuli, another classical conditioning principle that does not fit the weakening of the response."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "extinction",
+          "normalized": "extinction",
+          "kp_id": "psychology-barrons-2027-kp-c10e94ed0f715597",
+          "kp_name": "Extinction",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "acquisition",
+          "normalized": "acquisition",
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "kp_name": "Acquisition",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "spontaneous recovery",
+          "normalized": "spontaneous recovery",
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "kp_name": "Spontaneous recovery",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "discrimination",
+          "normalized": "discrimination",
+          "kp_id": "psychology-barrons-2027-kp-b4cc49a1156488ab",
+          "kp_name": "Discrimination",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The scenario illustrates extinction of a classically conditioned response because the CS (food container) is no longer reliably paired with the US (food).",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-da1691415425a3e6",
+          "name": "Biological preparedness",
+          "confidence": 0.9,
+          "evidence": "We are predisposed to avoid foods we associate with nausea and vomiting.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-9b62cc6eec61916d",
+          "name": "Taste aversion",
+          "confidence": 0.85,
+          "evidence": "He immediately develops a hatred of beets and refuses to eat them for the rest of his childhood.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e238453bcc48fefe",
+          "name": "Garcia effect",
+          "confidence": 0.8,
+          "evidence": "What explains why Kwame learned to dislike beets more quickly than he learned that the sound of the garage door meant his parents were home?"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fb34f6ff5dc734e",
+          "name": "Operant conditioning",
+          "option_label": "C",
+          "reason": "Tempting because the stem contrasts two learning situations, but the beet aversion is classical conditioning, not operant conditioning."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "classical conditioning",
+          "normalized": "classical conditioning",
+          "kp_id": "psychology-barrons-2027-kp-4e7fcbe76004d1f6",
+          "kp_name": "Classical conditioning",
+          "role": "mentioned",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "operant conditioning",
+          "normalized": "operant conditioning",
+          "kp_id": "psychology-barrons-2027-kp-3fb34f6ff5dc734e",
+          "kp_name": "Operant conditioning",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "reinforcers",
+          "normalized": "reinforcers",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "nausea",
+          "normalized": "nausea",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "predisposed",
+          "normalized": "predisposed",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "beets",
+          "normalized": "beets",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests biological preparedness/Garcia effect: a one-trial taste aversion formed because humans are biologically predisposed to associate food with nausea.",
+      "warnings": [
+        "confusable 'Reinforcer' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'reinforcers': not a known alias of 'Reinforcer'; stored without a KP",
+        "keyword 'nausea': not a known alias of 'Taste aversion'; stored without a KP",
+        "keyword 'predisposed': not a known alias of 'Biological preparedness'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-29bf437ab71efa3d",
+          "name": "Instinctive drift",
+          "confidence": 0.97,
+          "evidence": "instinctive drift",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-da86b4aec5361af6",
+          "name": "Chaining",
+          "option_label": "D",
+          "reason": "Chaining is another operant conditioning technique for linking successive responses, tempting as a training-related distractor."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "instinctive drift",
+          "normalized": "instinctive drift",
+          "kp_id": "psychology-barrons-2027-kp-29bf437ab71efa3d",
+          "kp_name": "Instinctive drift",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "preparedness",
+          "normalized": "preparedness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "chaining",
+          "normalized": "chaining",
+          "kp_id": "psychology-barrons-2027-kp-da86b4aec5361af6",
+          "kp_name": "Chaining",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "equipotentiality",
+          "normalized": "equipotentiality",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "Equipotentiality is not in the candidate list; included as a keyword with null kp.",
+      "warnings": [
+        "supporting 'Biological preparedness' is not in the correct option or the core subheading; dropped",
+        "confusable 'Biological preparedness' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'preparedness': not a known alias of 'Biological preparedness'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-75ef1cc0b306c917",
+          "name": "Continuous reinforcement",
+          "confidence": 0.97,
+          "evidence": "Continuous",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1e87e0edb02a9af4",
+          "name": "Partial-reinforcement effect",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "reinforcement schedule",
+          "normalized": "reinforcement schedule",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "most rapid learning",
+          "normalized": "most rapid learning",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Continuous",
+          "normalized": "continuous",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Fixed-ratio",
+          "normalized": "fixed ratio",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Variable-ratio",
+          "normalized": "variable ratio",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Fixed-interval",
+          "normalized": "fixed interval",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests which reinforcement schedule produces the fastest acquisition of a new behavior; continuous reinforcement is the core. The other options are partial schedules and serve as confusable near-misses.",
+      "warnings": [
+        "confusable 'Fixed-ratio (FR) schedule' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Variable-ratio (VR) schedule' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Fixed-interval (FI) schedule' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Continuous': not a known alias of 'Continuous reinforcement'; stored without a KP",
+        "keyword 'Fixed-ratio': not a known alias of 'Fixed-ratio (FR) schedule'; stored without a KP",
+        "keyword 'Variable-ratio': not a known alias of 'Variable-ratio (VR) schedule'; stored without a KP",
+        "keyword 'Fixed-interval': not a known alias of 'Fixed-interval (FI) schedule'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-60124a94a908c8e3",
+          "name": "Variable-interval (VI) schedule",
+          "confidence": 0.97,
+          "evidence": "Variable-interval",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fb34f6ff5dc734e",
+          "name": "Operant conditioning",
+          "confidence": 0.6,
+          "evidence": "On what kind of reinforcement schedule is Tina’s slug hunting?"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Variable-interval",
+          "normalized": "variable interval",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "reinforcement schedule",
+          "normalized": "reinforcement schedule",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Fixed-interval",
+          "normalized": "fixed interval",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Fixed-ratio",
+          "normalized": "fixed ratio",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Continuous",
+          "normalized": "continuous",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests identification of a variable-interval schedule of reinforcement; time passage varies, so reinforcement is unpredictable.",
+      "warnings": [
+        "confusable 'Fixed-interval (FI) schedule' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Fixed-ratio (FR) schedule' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Continuous reinforcement' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'Variable-interval': not a known alias of 'Variable-interval (VI) schedule'; stored without a KP",
+        "keyword 'reinforcement schedule': not a known alias of 'Operant conditioning'; stored without a KP",
+        "keyword 'Fixed-interval': not a known alias of 'Fixed-interval (FI) schedule'; stored without a KP",
+        "keyword 'Fixed-ratio': not a known alias of 'Fixed-ratio (FR) schedule'; stored without a KP",
+        "keyword 'Continuous': not a known alias of 'Continuous reinforcement'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7a0ed9d010c4fd0f",
+          "name": "Negative reinforcement",
+          "confidence": 0.97,
+          "evidence": "negative reinforcement.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fb34f6ff5dc734e",
+          "name": "Operant conditioning",
+          "confidence": 0.7,
+          "evidence": "Your behavior results in"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "name": "Positive reinforcement",
+          "option_label": "A",
+          "reason": "Positive reinforcement also strengthens behavior but by adding a pleasant stimulus, not by removing an unpleasant one."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-31c3f6e0585df006",
+          "name": "Punishment",
+          "option_label": "C",
+          "reason": "Punishment decreases behavior, whereas leaving the elevator is strengthened by escape from an aversive person."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "negative reinforcement",
+          "normalized": "negative reinforcement",
+          "kp_id": "psychology-barrons-2027-kp-7a0ed9d010c4fd0f",
+          "kp_name": "Negative reinforcement",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "positive reinforcement",
+          "normalized": "positive reinforcement",
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "kp_name": "Positive reinforcement",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "secondary reinforcer",
+          "normalized": "secondary reinforcer",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "punishment",
+          "normalized": "punishment",
+          "kp_id": "psychology-barrons-2027-kp-31c3f6e0585df006",
+          "kp_name": "Punishment",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The scenario illustrates escape from an aversive stimulus, which is negative reinforcement; the behavior of leaving is strengthened.",
+      "warnings": [
+        "confusable 'Secondary reinforcers' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'secondary reinforcer': not a known alias of 'Secondary reinforcers'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-620180d304157d28",
+          "name": "Generalization",
+          "confidence": 0.95,
+          "evidence": "Tito started to make his siblings’ beds also and to help with other chores.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "name": "Spontaneous recovery",
+          "option_label": "B",
+          "reason": "Spontaneous recovery is another classical conditioning phenomenon involving return of a response, tempting students who confuse conditioning terms."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "name": "Acquisition",
+          "option_label": "C",
+          "reason": "Acquisition is the initial learning phase of conditioning, tempting because Tito did initially learn bed-making."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "generalization",
+          "normalized": "generalization",
+          "kp_id": "psychology-barrons-2027-kp-620180d304157d28",
+          "kp_name": "Generalization",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "spontaneous recovery",
+          "normalized": "spontaneous recovery",
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "kp_name": "Spontaneous recovery",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "acquisition",
+          "normalized": "acquisition",
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "kp_name": "Acquisition",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "internal motivation",
+          "normalized": "internal motivation",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests generalization of a reinforced response to similar behaviors; the quarter acts as a reinforcer supporting the scenario.",
+      "warnings": [
+        "supporting 'Reinforcer' is not in the correct option or the core subheading; dropped",
+        "keyword 'internal motivation': not a known alias of 'Intrinsic motivations'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-da86b4aec5361af6",
+          "name": "Chaining",
+          "confidence": 0.97,
+          "evidence": "Charley has to brush his teeth, put on his pajamas, kiss his grandmother good night, and put away his toys",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fb34f6ff5dc734e",
+          "name": "Operant conditioning",
+          "confidence": 0.6,
+          "evidence": "Before his parents will read him a bedtime story"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ee8c6ff22c1b610c",
+          "name": "Shaping",
+          "option_label": "A",
+          "reason": "Shaping also involves building behavior through reinforcement steps, but it reinforces successive approximations of a single behavior rather than linking a sequence of distinct responses."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "name": "Acquisition",
+          "option_label": "B",
+          "reason": "Acquisition is the initial learning of a response, which is a nearby operant/classical conditioning term but does not describe linking a series of behaviors."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-620180d304157d28",
+          "name": "Generalization",
+          "option_label": "C",
+          "reason": "Generalization involves responding similarly to similar stimuli, a related conditioning concept that is easily confused with performing a sequence of behaviors."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "chaining",
+          "normalized": "chaining",
+          "kp_id": "psychology-barrons-2027-kp-da86b4aec5361af6",
+          "kp_name": "Chaining",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "shaping",
+          "normalized": "shaping",
+          "kp_id": "psychology-barrons-2027-kp-ee8c6ff22c1b610c",
+          "kp_name": "Shaping",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "acquisition",
+          "normalized": "acquisition",
+          "kp_id": "psychology-barrons-2027-kp-83e8af01378a23ae",
+          "kp_name": "Acquisition",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "generalization",
+          "normalized": "generalization",
+          "kp_id": "psychology-barrons-2027-kp-620180d304157d28",
+          "kp_name": "Generalization",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes a sequence of distinct behaviors linked together to earn a reward, which is chaining. Shaping, acquisition, and generalization are same-domain conditioning terms used as distractors.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "name": "Positive reinforcement",
+          "confidence": 0.98,
+          "evidence": "Buying a child a video game after she throws a tantrum",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e988ef50fe8eb580",
+          "name": "Reinforcer",
+          "confidence": 0.7,
+          "evidence": "Buying a child a video game after she throws a tantrum"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7a0ed9d010c4fd0f",
+          "name": "Negative reinforcement",
+          "option_label": "B",
+          "reason": "Going inside to escape a thunderstorm removes an unpleasant stimulus, which is negative reinforcement rather than positive reinforcement."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-abed6419fe21c13c",
+          "name": "Positive punishment",
+          "option_label": "C",
+          "reason": "Assigning detention adds an unpleasant consequence to reduce behavior, which is positive punishment rather than positive reinforcement."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-7a0ed9d010c4fd0f",
+          "name": "Negative reinforcement",
+          "option_label": "D",
+          "reason": "Filling a cavity halts a toothache by removing an unpleasant stimulus, which is negative reinforcement rather than positive reinforcement."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "positive reinforcement",
+          "normalized": "positive reinforcement",
+          "kp_id": "psychology-barrons-2027-kp-f53d35bb28b49f66",
+          "kp_name": "Positive reinforcement",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "video game",
+          "normalized": "video game",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "escape a thunderstorm",
+          "normalized": "escape a thunderstorm",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "detention",
+          "normalized": "detention",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "halt a toothache",
+          "normalized": "halt a toothache",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The correct option illustrates positive reinforcement because a pleasant stimulus (video game) is added following the tantrum behavior. Options B and D illustrate negative reinforcement, and option C illustrates positive punishment.",
+      "warnings": [
+        "keyword 'video game': not a known alias of 'Positive reinforcement'; stored without a KP",
+        "keyword 'escape a thunderstorm': not a known alias of 'Negative reinforcement'; stored without a KP",
+        "keyword 'detention': not a known alias of 'Positive punishment'; stored without a KP",
+        "keyword 'halt a toothache': not a known alias of 'Negative reinforcement'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c10e94ed0f715597",
+          "name": "Extinction",
+          "confidence": 0.95,
+          "evidence": "extinguish the behavior",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "extinguish the behavior",
+          "normalized": "extinguish the behavior",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "ignore",
+          "normalized": "ignore",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "punish her",
+          "normalized": "punish her",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "negatively reinforce the behavior",
+          "normalized": "negatively reinforce the behavior",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "generalize",
+          "normalized": "generalize",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Ignoring an unreinforced behavior is extinction in operant terms; the item tests the concept of extinction rather than a specific reinforcement schedule.",
+      "warnings": [
+        "supporting 'Operant conditioning' is not in the correct option or the core subheading; dropped",
+        "confusable 'Negative reinforcement' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Punishment' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Generalization' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'extinguish the behavior': not a known alias of 'Extinction'; stored without a KP",
+        "keyword 'ignore': not a known alias of 'Extinction'; stored without a KP",
+        "keyword 'punish her': not a known alias of 'Punishment'; stored without a KP",
+        "keyword 'negatively reinforce the behavior': not a known alias of 'Negative reinforcement'; stored without a KP",
+        "keyword 'generalize': not a known alias of 'Generalization'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-013",
+      "number": 13,
+      "status": "needs_review",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-8e5498d2282e250d",
+          "name": "Modeling",
+          "confidence": 0.95,
+          "evidence": "One common explanation for this phenomenon is modeling.",
+          "evidence_source": "explanation"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e89f7fdd85d5e0d0",
+          "name": "Observational learning",
+          "confidence": 0.8,
+          "evidence": "One common explanation for this phenomenon is modeling."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-efc6909361cd51bc",
+          "name": "Latent learning",
+          "option_label": "B",
+          "reason": "Latent learning is another cognitive-learning concept, tempting because it is also learning without obvious reinforcement, but it does not explain copying aggressive behavior."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-1da85b57a5025dd3",
+          "name": "Instrumental learning",
+          "option_label": "D",
+          "reason": "Instrumental learning is a consequence-based learning concept, tempting as a general learning explanation, but it does not capture learning by observing and imitating parents."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "modeling",
+          "normalized": "modeling",
+          "kp_id": "psychology-barrons-2027-kp-8e5498d2282e250d",
+          "kp_name": "Modeling",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "latent learning",
+          "normalized": "latent learning",
+          "kp_id": "psychology-barrons-2027-kp-efc6909361cd51bc",
+          "kp_name": "Latent learning",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "abstract learning",
+          "normalized": "abstract learning",
+          "kp_id": "psychology-barrons-2027-kp-7c1ead1da6cf4b20",
+          "kp_name": "Abstract learning",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "instrumental learning",
+          "normalized": "instrumental learning",
+          "kp_id": "psychology-barrons-2027-kp-1da85b57a5025dd3",
+          "kp_name": "Instrumental learning",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Modeling is best matched to C03 (observation and imitation of behavior); C01 observational learning is a closely related supporting concept.",
+      "warnings": [
+        "core 'Modeling': evidence is not an exact quote from stem/context/correct option"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch12-review-014",
+      "number": 14,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-efc6909361cd51bc",
+          "name": "Latent learning",
+          "confidence": 0.9,
+          "evidence": "a researcher showed that rats put in a maze for a set of trials without a reward suddenly completed the maze much faster once a reward was introduced",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-b704a5dfb85b1e07",
+          "name": "Cognitive map",
+          "confidence": 0.7,
+          "evidence": "rats put in a maze for a set of trials without a reward"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "name": "Spontaneous recovery",
+          "option_label": "B",
+          "reason": "Spontaneous recovery is a classical conditioning phenomenon that sounds like a sudden return of behavior, tempting students to confuse it with the sudden improvement after reward."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-1da85b57a5025dd3",
+          "name": "Instrumental learning",
+          "option_label": "C",
+          "reason": "Instrumental learning involves consequences shaping behavior, which is tempting because a reward is introduced, but it does not explain learning during the unrewarded trials."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "without a reward",
+          "normalized": "without a reward",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "once a reward was introduced",
+          "normalized": "once a reward was introduced",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "spontaneous recovery",
+          "normalized": "spontaneous recovery",
+          "kp_id": "psychology-barrons-2027-kp-dba3a0c4ecf5611a",
+          "kp_name": "Spontaneous recovery",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "instrumental learning",
+          "normalized": "instrumental learning",
+          "kp_id": "psychology-barrons-2027-kp-1da85b57a5025dd3",
+          "kp_name": "Instrumental learning",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "cognitive processes",
+          "normalized": "cognitive processes",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item illustrates latent learning: unrewarded maze exploration is later revealed by faster completion once reward is introduced. Cognitive map is a supporting concept from the explanation.",
+      "warnings": [
+        "keyword 'without a reward': not a known alias of 'Latent learning'; stored without a KP",
+        "keyword 'once a reward was introduced': not a known alias of 'Latent learning'; stored without a KP",
+        "keyword 'learned during the initial trials': whole/long option text; dropped"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

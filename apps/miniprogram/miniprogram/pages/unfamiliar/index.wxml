@@ -1,0 +1,72 @@
+<view class="page unfamiliar-page">
+  <view class="topbar">
+    <view class="eyebrow">STILL UNFAMILIAR</view>
+    <view class="page-title">仍不熟悉</view>
+    <view class="page-sub">
+      最近一次点「还不熟」的词条；再点「认识了」后会从这里移出。
+    </view>
+  </view>
+
+  <view wx:if="{{!loading && !offline && !error}}" class="list-meta">共 {{total}} 个知识点</view>
+
+  <view wx:if="{{loading}}" class="list-loading">
+    <view class="skeleton list-skeleton"></view>
+    <view class="skeleton list-skeleton"></view>
+  </view>
+
+  <view wx:elif="{{offline}}" class="card empty">
+    <view class="empty-title">本地预览模式</view>
+    <view class="empty-sub">登录后可查看云端同步的「仍不熟悉」词条。</view>
+  </view>
+
+  <view wx:elif="{{error && !items.length}}" class="card empty">
+    <view class="empty-title">加载失败</view>
+    <view class="empty-sub">{{error}}</view>
+    <button class="btn retry-btn" hover-class="btn-hover" bindtap="retry">
+      重试
+    </button>
+  </view>
+
+  <view wx:elif="{{!items.length}}" class="card empty">
+    <view class="empty-title">暂时没有仍不熟悉的知识点</view>
+    <view class="empty-sub">复习时选择「还不熟」会出现在这里。</view>
+  </view>
+
+  <block wx:else>
+    <view class="unfamiliar-list">
+      <view
+        wx:for="{{items}}"
+        wx:key="concept_id"
+        class="unfamiliar-card card"
+      >
+        <view class="unfamiliar-head">
+          <view class="unfamiliar-term">{{item.term}}</view>
+          <view wx:if="{{item.stars}}" class="unfamiliar-stars">
+            <text
+              wx:for="{{starSlots}}"
+              wx:for-item="slot"
+              wx:key="*this"
+              class="unfamiliar-star {{item.stars > slot ? 'is-on' : ''}}"
+            >★</text>
+          </view>
+        </view>
+        <view wx:if="{{item.ipa}}" class="unfamiliar-ipa">/{{item.ipa}}/</view>
+        <view class="unfamiliar-def">{{item.definition || item.quote}}</view>
+        <view wx:if="{{item.book_title || item.origin}}" class="unfamiliar-meta">
+          <text wx:if="{{item.book_title}}">{{item.book_title}}</text>
+          <text wx:if="{{item.book_title && item.origin}}" class="meta-dot">·</text>
+          <text wx:if="{{item.origin}}">{{item.origin}}</text>
+        </view>
+        <view wx:if="{{item.lastReviewedLabel}}" class="unfamiliar-time">
+          最近复习 {{item.lastReviewedLabel}}
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{loadingMore}}" class="list-foot">加载中…</view>
+    <view wx:elif="{{hasMore}}" class="list-foot">上拉加载更多</view>
+    <view wx:else class="list-foot">已经到底了</view>
+  </block>
+
+  <view class="footer-brand">PsyPrac · AP Psychology</view>
+</view>

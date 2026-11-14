@@ -1,0 +1,834 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-24",
+ "kind": "quiz",
+ "number": 24,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 24 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 24",
+ "pdf_page_start": 398,
+ "pdf_page_end": 404,
+ "answer_page_start": 745,
+ "answer_page_end": 747,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The center remains the same, and the area in the tails decreases.",
+    "B": "The center remains the same, and the area in the tails remains the same.",
+    "C": "The center remains the same, and the area in the tails increases.",
+    "D": "The center increases, and the area in the tails increases."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       371.2,
+       500.2,
+       389.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       410.2,
+       500.1,
+       428.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       449.2,
+       500.3,
+       467.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       488.2,
+       514.9,
+       506.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 398,
+   "page_end": 398,
+   "stem": "What happens to a t-distribution as df, the degrees of freedom, increase?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The t-distribution is bell-shaped (unimodal and symmetric) but lower at the mean, higher at the tails, and more spread out than the normal distribution. The larger the df, the closer the t- distribution is to the normal distribution, so as df increases, the area in the tails decreases.",
+   "question_id": "statistics-barrons-2027-quiz-24-001",
+   "source_pages": [
+    398,
+    398
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, all conditions have been met.",
+    "B": "No, the normality condition is violated.",
+    "C": "No, the randomization condition is violated.",
+    "D": "No, the 10% condition cannot be verified."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       651.7,
+       365.3,
+       669.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       672.7,
+       394.5,
+       690.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 398,
+      "bbox": [
+       110.0,
+       693.7,
+       426.4,
+       711.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       72.0,
+       417.6,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 398,
+   "page_end": 399,
+   "stem": "The mayor of a small city would like to know how many weeks women think should be a standard for paid maternity leave. He asked the 38 women working in his office to anonymously answer the query. He plans to construct a one-sample t-interval for a population mean. Have the conditions for inference been met?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The women working in the mayor’s office are a convenience sample, and the randomization condition cannot be verified. The sample size, n = 38, is large enough for the central limit theorem to apply and given that the sampling distribution of x̅ is approximately normal. The sample size of 38 can reasonably be assumed to be less than 10% of the women in the small city.",
+   "question_id": "statistics-barrons-2027-quiz-24-002",
+   "source_pages": [
+    398,
+    399
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, all conditions have been met.",
+    "B": "No, the normality condition is violated.",
+    "C": "No, the randomization condition is violated.",
+    "D": "No, it is not clear whether the 10% condition is satisfied."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       217.5,
+       365.3,
+       235.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       238.5,
+       394.5,
+       256.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       259.5,
+       426.4,
+       277.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       280.5,
+       517.0,
+       298.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 399,
+   "page_end": 399,
+   "stem": "To estimate the average number of books high school students read during their four years in high school, a random sample of 95 high school graduates are interviewed, and a one-sample t- interval is found. However, it is noted that the sample data are skewed right. Have all conditions for inference been met?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Random assignment doesn’t make sense here. The sample size, n = 95, is large enough for the central limit theorem to apply, so the population distribution does not have to be approximately normal. It is clear that the sample size of 95 students is less than 10% of all high school students. Given a random sample and less than 10% of the population, the independence condition is satisfied.",
+   "question_id": "statistics-barrons-2027-quiz-24-003",
+   "source_pages": [
+    399,
+    399
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "A confidence interval of the true age of mitochondrial Eve has been calculated using t-scores consistent with df = n − 1 and tail probabilities of ±0.025.",
+    "B": "There is a 0.95 probability that mitochondrial Eve lived between 120,000 and 156,000 years ago.",
+    "C": "If 20 random samples of data are obtained by this method and a 95% confidence interval is calculated from each, the true age of mitochondrial Eve will be in 19 of these intervals.",
+    "D": "Of all random samples of data obtained by this method, 95% will yield intervals that capture the true age of mitochondrial Eve."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       408.0,
+       521.2,
+       426.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       465.0,
+       500.9,
+       483.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       504.0,
+       526.9,
+       522.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 399,
+      "bbox": [
+       110.0,
+       579.0,
+       510.3,
+       597.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 399,
+   "page_end": 399,
+   "stem": "Most recent tests and calculations estimate at the 95% confidence level that mitochondrial Eve, the maternal ancestor to all living humans, lived 138,000 ±18,000 years ago. What is meant by “95% confidence” in this context?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The 95% refers to the method: 95% of all intervals obtained by this method will capture the true population parameter. Nothing is certain about any particular set of 20 intervals. For any particular interval, the probability that it captures the true parameter is 1 or 0 depending upon whether the parameter is or isn’t in it.",
+   "question_id": "statistics-barrons-2027-quiz-24-004",
+   "source_pages": [
+    399,
+    399
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "A smaller confidence level",
+    "B": "A larger sample standard deviation",
+    "C": "A smaller sample size",
+    "D": "A smaller sample mean"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 400,
+      "bbox": [
+       110.0,
+       123.0,
+       310.9,
+       141.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 400,
+      "bbox": [
+       110.0,
+       144.0,
+       369.7,
+       162.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 400,
+      "bbox": [
+       110.0,
+       165.0,
+       281.3,
+       183.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 400,
+      "bbox": [
+       110.0,
+       186.0,
+       294.6,
+       204.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 399,
+   "page_end": 400,
+   "stem": "A confidence interval estimate is determined from the GPAs of a simple random sample of n students. All other things being equal, which of the following will result in a smaller margin of error?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "If you are willing to accept less confidence—that is, a smaller confidence level—you will have a smaller margin of error and a smaller confidence interval. The margin of error varies directly with the critical value (z* or t*) and directly with the standard deviation of the sample but inversely with the square root of the sample size. The value of the sample mean and the population size do not affect the margin of error.",
+   "question_id": "statistics-barrons-2027-quiz-24-005",
+   "source_pages": [
+    399,
+    400
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 400,
+      "bbox": [
+       145.5,
+       331.5,
+       241.5,
+       359.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 400,
+      "bbox": [
+       145.5,
+       363.8,
+       244.5,
+       392.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 400,
+      "bbox": [
+       145.5,
+       396.8,
+       244.5,
+       429.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 400,
+      "bbox": [
+       147.0,
+       434.2,
+       246.0,
+       461.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 400,
+      "bbox": [
+       113.0,
+       334.5,
+       133.5,
+       352.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 400,
+      "bbox": [
+       113.0,
+       367.1,
+       133.3,
+       385.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 400,
+      "bbox": [
+       113.0,
+       402.3,
+       133.5,
+       420.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 400,
+      "bbox": [
+       113.0,
+       436.8,
+       134.7,
+       454.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 400,
+     "bbox": [
+      502.5,
+      252.0,
+      509.2,
+      259.5
+     ]
+    }
+   ],
+   "page_start": 400,
+   "page_end": 400,
+   "stem": "One gallon of gasoline is put into each of an SRS of 30 test autos, and the resulting mileage figures are tabulated with = 28.5 and s = 1.2. Determine a 95% confidence interval estimate of the mean mileage of all comparable autos. (Assume that all conditions for inference are met.)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "df = n − 1 = 30 − 1 = 29, invT(0.975, 29) = 2.045, and , so the confidence interval is .",
+   "question_id": "statistics-barrons-2027-quiz-24-006",
+   "source_pages": [
+    400,
+    400
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Method I is better.",
+    "B": "Method II is better.",
+    "C": "Both methods are good and will produce equivalent results.",
+    "D": "There is insufficient information given to compare the two methods."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       274.5,
+       260.5,
+       292.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       295.5,
+       265.9,
+       313.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       316.5,
+       533.4,
+       334.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       337.5,
+       524.4,
+       355.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 400,
+   "page_end": 401,
+   "stem": "Studies have found an association between drinking sugary beverages such as soda and the likelihood of developing liver cancer. A high school has 3,000 students, of whom 300 drink sugary beverages. In order to estimate the total quantity of sugary beverages consumed daily by students at this high school, two methods are proposed. Method I: Sample 30 students at random. Calculate a confidence interval for the mean quantity of sugary beverages consumed daily by those 30 students. Multiply both ends of the interval by 3,000 to get a confidence interval estimate of the total quantity of sugary beverages consumed daily by students at this high school. Method II: Identify the 300 students who drink sugary beverages. Sample 30 of these 300 students at random. Calculate a confidence interval for the mean quantity of sugary beverages consumed daily by those 30 students. Multiply both ends of the interval by 300 to get a confidence interval estimate of the total quantity of sugary beverages consumed daily by students at this high school. Which is the better method for estimating the total quantity of sugary beverages consumed daily by students at this high school?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Although both methods will give estimates of the total quantity of sugary beverages consumed daily by students at this high school, Method II is better as it draws data from 30 students consuming sugary beverages. Method I could result in choosing a very small number, possibly even none at all, of students consuming sugary beverages to use for the overall estimation.",
+   "question_id": "statistics-barrons-2027-quiz-24-007",
+   "source_pages": [
+    400,
+    401
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "There is a 0.95 probability that the mean difference in times for all adults taking this sleep aid is between 4.6 and 7.3 minutes.",
+    "B": "For all adults taking this sleep aid, 95 percent will have a mean difference in times of between 4.6 and 7.3 minutes.",
+    "C": "We are 95 percent confident that the mean difference in times for all adults in this sample is between 4.6 and 7.3 minutes.",
+    "D": "We are 95 percent confident that the mean difference in times for all adults taking this sleep aid is between 4.6 and 7.3 minutes."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       573.0,
+       497.4,
+       591.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       630.0,
+       515.5,
+       648.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 401,
+      "bbox": [
+       110.0,
+       669.0,
+       512.4,
+       687.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       93.0,
+       513.5,
+       111.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 401,
+   "page_end": 402,
+   "stem": "To assess the effectiveness of a new over-the-counter sleep aid, 30 adults from a random sample were each assessed as to the time in minutes it took to fall asleep before beginning the medication regimen and also as to the time in minutes it took to fall asleep after being on the regimen for one week. For each adult, the difference in time was calculated (before minus after) and used to create the 95 percent confidence interval (4.6, 7.3). Assuming all conditions for inference are met, which of the following is a correct interpretation of the interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The percent refers to how confident we are that the interval has captured the population mean. The confidence interval is about the population, not the sample. The probability the true mean difference is between 4.6 and 7.3 is either 1 or 0 depending on whether it is or is not in the interval. The confidence interval is about a population mean, not about individual values.",
+   "question_id": "statistics-barrons-2027-quiz-24-008",
+   "source_pages": [
+    401,
+    402
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "25",
+    "B": "50",
+    "C": "100",
+    "D": "200"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       292.5,
+       155.9,
+       310.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       313.5,
+       155.7,
+       331.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       334.5,
+       164.1,
+       352.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       355.5,
+       165.2,
+       373.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 402,
+   "page_end": 402,
+   "stem": "Hospital administrators wish to learn the average length of stay of all surgical patients. A statistician determines that, for a 95% confidence level estimate of the average length of stay to within ±0.5 days, 50 surgical patients’ records will have to be examined. How many records should be looked at to obtain a 95% confidence level estimate to within ±0.25 days?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "To divide the interval estimate by d without affecting the confidence level, multiply the sample size by a multiple of d2. In this case, 4(50) = 200.",
+   "question_id": "statistics-barrons-2027-quiz-24-009",
+   "source_pages": [
+    402,
+    402
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "The sample sizes of X and Y are the same, the confidence level is the same for both intervals, and the calculated difference in widths is due to sampling variability.",
+    "B": "The sample size of X is less than the sample size of Y, and the confidence level is the same for both intervals.",
+    "C": "The sample sizes of X and Y are the same, and the confidence level used for X is less than that used for Y.",
+    "D": "The sample sizes of X and Y are the same, and the confidence level used for X is greater than that used for Y."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       565.5,
+       523.2,
+       583.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       622.5,
+       526.1,
+       640.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 402,
+      "bbox": [
+       110.0,
+       661.5,
+       476.8,
+       679.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 403,
+      "bbox": [
+       110.0,
+       72.0,
+       478.0,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 402,
+   "page_end": 403,
+   "stem": "Researchers collected data from two different random samples, X and Y, on weight gain (in pounds) by teenagers with anorexia taking part in family therapy. The confidence interval 8.3 ± 0.9 was constructed from sample X, and the confidence interval 8.3 ± 1.4 was constructed from sample Y. Both samples had roughly the same standard deviation. Which of the following statements could explain why the width of the confidence interval from X is less than the width of the confidence interval from Y?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The formula for margin of error is . Since s is given to be the same for both samples, the width of the confidence interval from X will be less than from Y if the sample sizes are the same but t * is less (which will occur if the confidence level is less).",
+   "question_id": "statistics-barrons-2027-quiz-24-010",
+   "source_pages": [
+    402,
+    403
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 403,
+     "bbox": [
+      168.8,
+      345.8,
+      443.2,
+      439.5
+     ]
+    }
+   ],
+   "page_start": 403,
+   "page_end": 403,
+   "stem": "Students gather a simple random sample of “11 oz” bags of tortilla chips and weigh the contents. Software output of the sample data follows: (a) Calculate a 95% confidence interval for the population mean. (b) What percentage of the bags in the sample have weights that fall within this interval? (c) Is the percentage in (b) close to 95%? Explain what went wrong or explain that nothing went wrong.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: the mean weight of all “11 oz” bags of tortilla chips. Procedure: A one-sample t-interval for a population mean. Checks: We check independence and normality. For independence, we are given a simple random sample, and n = 10 is less than 10% of all “11 oz” bags of tortilla chips. For normality, a dotplot of the sample data is roughly unimodal and symmetric and is free from strong skewness and outliers. Mechanics: Calculator software gives (11.08, 11.38). [For instructional purposes, we note that with df = 10 − 1 = 9, the critical t-score is invT(0.975,9) = 2.262. The confidence interval is .] Conclusion in context: We are 95% confident that the mean weight of the population of all “11 oz” bags of tortilla chips is between 11.08 and 11.38 ounces. (b) Five of the bags in the sample have weights {11.1, 11.2, 11.2, 11.2, 11.3} in this confidence interval. Five out of ten gives an answer of 50%. (c) 50% is not close to 95%, but nothing went wrong. The confidence interval is estimating the mean weight, not weights of individual bags. There is no reason to expect that 95% of the individual weights to be within the confidence interval.",
+   "question_id": "statistics-barrons-2027-quiz-24-011",
+   "context": "",
+   "source_pages": [
+    403,
+    403
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 403,
+   "page_end": 404,
+   "stem": "In a random sample of 30 white-collar crimes (such as embezzlement, securities fraud, and money laundering), the average monetary amount involved was $2,900,000 with a standard deviation of $850,000. (a) What is the point estimate of the population mean? (b) Find the standard error of the sample mean. (c) Are conditions for inference met? Explain. (d) The 95% confidence interval is (2,580,000, 3,222,000). Interpret this in context. (e) What does this confidence interval say, if anything, about the plausibility of a white-collar crime with a monetary amount of $2,000,000? (f) What does this confidence interval say, if anything, about the plausibility that the mean of all white-collar crime monetary amounts is $2,000,000?",
+   "correct_answer": null,
+   "answer_text": "(a) The point estimate is the sample mean, $2,900,000. (b) . (c) Yes, the conditions for inference are met: independence and normality. For independence, the sample is given to be random, and it is reasonable to assume that 30 is less than 10% of all white-collar crimes. For normality, the sample size, n = 30, is large enough for the central limit theorem to apply, thus giving the sampling distribution of the sample mean is approximately normal. (d) We are 95% confident that the mean amount involved in all white-collar crimes is between $2,580,000 and $3,222,000. (e) The confidence interval says nothing about the plausibility of a white-collar crime with a monetary amount of $2,000,000. A confidence interval provides an estimate of the population mean value but does not provide information about an individual value. (f) It is not plausible that the population mean is $2,000,000 because 2,000,000 is not in the interval from 2,580,000 to 3,222,000.",
+   "question_id": "statistics-barrons-2027-quiz-24-012",
+   "context": "",
+   "source_pages": [
+    403,
+    404
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 404,
+   "page_end": 404,
+   "stem": "An economics professor specializing in labor studies obtains a random sample of 60 recent college graduates. The sample is arranged in 30 pairs. Each pair consists of two people with the same GPA; however, one graduated in a STEM field and the other didn’t. Weekly wages are noted for each subject. The data are summarized in the following table: Non-STEM Paired STEM graduate graduate differences Mean $2,276 $1,300 $976 Standard $458 $215 $41 deviation (a) Find a 90% confidence interval of the true mean difference (STEM minus non-STEM) between weekly wages of recent graduates. (b) Based on this confidence interval, is there significant evidence that the true mean difference is different from $985? (c) Interpret the confidence level in context.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: Let μdiff represent the true mean difference (STEM minus non-STEM) between weekly wages of recent graduates. Procedure: Use a one-sample t-interval for a population mean difference. Checks: We are given a random sample of paired data, and the sample size is less than 10% of all recent college graduates. For normality, n = 30 is large enough for the central limit theorem to apply. Calculation of a t-interval is appropriate. Mechanics: With an unknown population SD, it’s necessary to find a t-interval. Using x̅ diff = 976 and sdiff = 41, calculator software (TInterval) gives (963.3, 988.7). [For instructional purposes, we note that With df = 30 − 1 = 29 and 5% in each tail, the appropriate t-scores are ±invT(0.95, 29) = ± 1.699. Then 976 ± 1.699(7.486) = 976 ± 12.7.] Conclusion in context: We are 90% confident that the true mean difference (STEM minus non- STEM) between weekly wages of recent college graduates is between $963.30 and $988.70. (b) No, there is not significant evidence that the true mean difference is different from $985 because 985 is in the interval of plausible values from 963.30 to 988.70. (c) If all possible random samples are taken of 30 pairs of recent graduates where each pair consists of two subjects with the same GPA, one having a STEM degree and the other having a non-STEM degree, and if a confidence interval for the mean difference of weekly salaries is constructed from each sample, then 90% of all these intervals would capture the true mean difference of weekly salaries.",
+   "question_id": "statistics-barrons-2027-quiz-24-013",
+   "context": "",
+   "source_pages": [
+    404,
+    404
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 13,
+ "mcq_count": 10,
+ "frq_count": 3
+}

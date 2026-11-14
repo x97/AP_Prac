@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-28T11:14:59+08:00",
+  "paper_id": "psychology-barrons-2027-ch11-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-concept-link-v2",
+  "count": 1,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-a208208744c1cd23",
+          "name": "Animism",
+          "weight": 34.74,
+          "weight_tier": "supporting",
+          "confidence": 0.97,
+          "evidence": "Mitchell’s faith in his father’s ability to fix the fish illustrates",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-8a668a993f87d078",
+          "name": "Egocentric",
+          "weight": 72.15,
+          "weight_tier": "core",
+          "option_label": "B",
+          "reason": "Egocentrism is another Piagetian early-childhood cognitive limitation, so it is tempting when a child makes an illogical claim, but it concerns perspective-taking rather than attributing life/fixability to an inanimate object."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Animism",
+          "normalized": "animism",
+          "kp_id": "psy-support-a208208744c1cd23",
+          "kp_name": "Animism",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Egocentrism",
+          "normalized": "egocentrism",
+          "kp_id": "psy-concept-8a668a993f87d078",
+          "kp_name": "Egocentric",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Reversibility",
+          "normalized": "reversibility",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests animism: attributing life/lifelike fixability to an inanimate object (the fish). Identification (option C) is not a close developmental near-miss in the candidate set, so it is omitted from confusables.",
+      "warnings": [
+        "confusable 'Conservation' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Reversibility': not a known alias of 'Conservation'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

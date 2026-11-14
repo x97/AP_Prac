@@ -1,0 +1,816 @@
+{
+  "generated_at": "2026-10-27T11:14:23+00:00",
+  "model": "deepseek-flash[1m]",
+  "language": "en",
+  "papers": [
+    "psychology-ap-2019"
+  ],
+  "count": 100,
+  "usage": {
+    "input_tokens": 13746,
+    "output_tokens": 13337
+  },
+  "items": [
+    {
+      "question_id": "psychology-2019-mcq-001",
+      "paper_id": "psychology-ap-2019",
+      "number": 1,
+      "answer_label": "D",
+      "answer_content": "Egocentrism",
+      "explanation": "Egocentrism, described by Piaget, is the preoperational child's difficulty taking another person's physical or mental perspective. The child assumes his mother can see the picture simply because he can, failing to distinguish his own viewpoint from hers. Animism would involve attributing life to the picture, and conservation concerns understanding that quantity stays the same despite changes in appearance."
+    },
+    {
+      "question_id": "psychology-2019-mcq-002",
+      "paper_id": "psychology-ap-2019",
+      "number": 2,
+      "answer_label": "E",
+      "answer_content": "Crystallized",
+      "explanation": "Crystallized intelligence refers to accumulated knowledge and the ability to retrieve facts and vocabulary, which tends to hold steady or grow with age. Knowing many facts therefore reflects this stored knowledge base. Fluid intelligence, by contrast, involves reasoning and solving novel problems independent of prior learning, and practical and analytical intelligence describe how abilities are applied rather than stored factual knowledge."
+    },
+    {
+      "question_id": "psychology-2019-mcq-003",
+      "paper_id": "psychology-ap-2019",
+      "number": 3,
+      "answer_label": "C",
+      "answer_content": "reciprocal determinism",
+      "explanation": "Reciprocal determinism is Bandura's principle that personal cognitive factors, behavior, and the external environment all influence one another in a continuous, bidirectional way. Each element both shapes and is shaped by the others, rather than behavior being driven by one direction of causation. Self-efficacy refers to one's belief about capability, and locus of control refers to beliefs about what determines outcomes."
+    },
+    {
+      "question_id": "psychology-2019-mcq-004",
+      "paper_id": "psychology-ap-2019",
+      "number": 4,
+      "answer_label": "D",
+      "answer_content": "Set-point theory",
+      "explanation": "Set-point theory proposes that each person has a biologically influenced baseline weight range that the body defends, adjusting metabolism and hunger to push weight back toward that range. When Mike diets below his set point, his body compensates, making it likely that the lost weight will return. Basal metabolic rate is a related mechanism but does not itself explain the return to a stable weight."
+    },
+    {
+      "question_id": "psychology-2019-mcq-005",
+      "paper_id": "psychology-ap-2019",
+      "number": 5,
+      "answer_label": "C",
+      "answer_content": "the misinformation effect",
+      "explanation": "The misinformation effect occurs when misleading post-event information, such as another witness's confident claim about a green shirt, becomes incorporated into a person's memory and distorts later recall. The witnesses' reports reflect the altered memory rather than what they actually saw. Proactive interference involves older learning disrupting newer memory, which does not account for the influence of another person's suggestion."
+    },
+    {
+      "question_id": "psychology-2019-mcq-006",
+      "paper_id": "psychology-ap-2019",
+      "number": 6,
+      "answer_label": "B",
+      "answer_content": "Narcissistic",
+      "explanation": "Narcissistic personality disorder involves grandiosity, a sense of entitlement, beliefs about being special or immune to consequences, exploitative behavior, and limited empathy for others. James's lying and manipulation for money, his belief that he is important and untouchable, and his disregard for victims fit this pattern. Dependent personality disorder centers on excessive need for support, while histrionic and schizotypal disorders have different core features."
+    },
+    {
+      "question_id": "psychology-2019-mcq-007",
+      "paper_id": "psychology-ap-2019",
+      "number": 7,
+      "answer_label": "C",
+      "answer_content": "Arousal",
+      "explanation": "Arousal theory proposes that people are motivated to seek an optimal level of excitement and stimulation, which can explain sensation-seeking behaviors such as surfing and skydiving. Adrian engages in dangerous activities because the thrill raises his arousal to a preferred level. Drive-reduction theory would emphasize relieving tension, and incentive theory would emphasize external rewards."
+    },
+    {
+      "question_id": "psychology-2019-mcq-008",
+      "paper_id": "psychology-ap-2019",
+      "number": 8,
+      "answer_label": "C",
+      "answer_content": "a self-fulfilling prophecy",
+      "explanation": "A self-fulfilling prophecy occurs when a person's expectation about another or about a situation leads the person to act in ways that make the expectation come true. Jerome expects his teacher to see him as a poor student, so he slouches and stops paying attention, which may confirm that impression. Cognitive dissonance concerns conflicting attitudes and behaviors, not this expectation-driven cycle."
+    },
+    {
+      "question_id": "psychology-2019-mcq-009",
+      "paper_id": "psychology-ap-2019",
+      "number": 9,
+      "answer_label": "E",
+      "answer_content": "Humanistic",
+      "explanation": "The humanistic perspective emphasizes personal growth, self-actualization, and reaching one's potential, even when a person is not experiencing psychological distress. Rocio's choice to pursue therapy to learn new skills and gain self-insight reflects this growth-oriented view. Psychodynamic, behavioral, evolutionary, and biopsychosocial perspectives focus more on unconscious conflict, learned behavior, adaptation, or combined biological and social factors."
+    },
+    {
+      "question_id": "psychology-2019-mcq-010",
+      "paper_id": "psychology-ap-2019",
+      "number": 10,
+      "answer_label": "D",
+      "answer_content": "Variable-ratio",
+      "explanation": "Slot machines reinforce behavior after an unpredictable number of responses, which is a variable-ratio schedule. This schedule produces steady, rapid responding and is highly resistant to extinction because the player cannot predict when the next payout will occur. Interval schedules are based on time, while fixed-ratio and continuous schedules involve more predictable reinforcement."
+    },
+    {
+      "question_id": "psychology-2019-mcq-011",
+      "paper_id": "psychology-ap-2019",
+      "number": 11,
+      "answer_label": "C",
+      "answer_content": "Specific phobia",
+      "explanation": "Systematic desensitization is a behavioral therapy that gradually pairs relaxation with exposure to a feared stimulus, so it is most commonly used to treat specific phobias. Dr. Richard's choice therefore best fits a diagnosis of specific phobia rather than OCD, schizophrenia, generalized anxiety disorder, or conversion disorder."
+    },
+    {
+      "question_id": "psychology-2019-mcq-012",
+      "paper_id": "psychology-ap-2019",
+      "number": 12,
+      "answer_label": "D",
+      "answer_content": "retrieval cues",
+      "explanation": "Retrieval cues are stimuli or associations that help bring stored information back into conscious awareness. The wedding pictures trigger Lois's memories of her early marriage by serving as cues that activate previously encoded experiences, rather than being iconic or implicit memories."
+    },
+    {
+      "question_id": "psychology-2019-mcq-013",
+      "paper_id": "psychology-ap-2019",
+      "number": 13,
+      "answer_label": "D",
+      "answer_content": "Instrumental aggression",
+      "explanation": "Instrumental aggression is goal-directed behavior in which harm is used as a means to achieve an external reward. Danny pushes Judy specifically to steal her dessert, so the aggression serves a practical purpose rather than arising mainly from anger or emotional hostility."
+    },
+    {
+      "question_id": "psychology-2019-mcq-014",
+      "paper_id": "psychology-ap-2019",
+      "number": 14,
+      "answer_label": "D",
+      "answer_content": "Frontal lobe",
+      "explanation": "The frontal lobe, especially the prefrontal cortex, governs planning, impulse control, judgment, and appropriate social behavior. A severe injury there can produce irresponsibility, poor planning, and increased irritability, which matches the described changes better than damage to the cerebellum, hypothalamus, parietal lobe, or corpus callosum."
+    },
+    {
+      "question_id": "psychology-2019-mcq-015",
+      "paper_id": "psychology-ap-2019",
+      "number": 15,
+      "answer_label": "E",
+      "answer_content": "social loafing",
+      "explanation": "Social loafing is the tendency for people to put less effort into a group task when their individual contributions are less identifiable. Jaci works hard alone but slacks and misses deadlines in a group, which illustrates reduced accountability and effort in group settings rather than groupthink, group polarization, framing, or ethnocentrism."
+    },
+    {
+      "question_id": "psychology-2019-mcq-016",
+      "paper_id": "psychology-ap-2019",
+      "number": 16,
+      "answer_label": "E",
+      "answer_content": "Makayla is better at discriminating timbre than Noah",
+      "explanation": "Timbre is the quality of a sound that distinguishes one instrument from another even when both play the same pitch at the same loudness, and it depends on the complexity of the sound wave's harmonics. Makayla can pick out the individual instruments within the blended note, which means she is better at discriminating timbre. Amplitude, in contrast, corresponds to perceived loudness, so a difference in amplitude discrimination would not explain separating instruments playing one note."
+    },
+    {
+      "question_id": "psychology-2019-mcq-017",
+      "paper_id": "psychology-ap-2019",
+      "number": 17,
+      "answer_label": "B",
+      "answer_content": "make a decision quickly by using the first information that comes to mind",
+      "explanation": "The availability heuristic is a mental shortcut in which people judge the likelihood or frequency of an event by how easily relevant examples come to mind. Because the most accessible information is retrieved first, the heuristic allows a fast judgment rather than a careful, effortful analysis. It is a cognitive shortcut, not a strategy for protecting self-esteem or for avoiding attribution and base-rate errors."
+    },
+    {
+      "question_id": "psychology-2019-mcq-018",
+      "paper_id": "psychology-ap-2019",
+      "number": 18,
+      "answer_label": "C",
+      "answer_content": "predictive validity",
+      "explanation": "Predictive validity refers to the extent to which scores on a test forecast performance on a relevant future criterion. If the assessment's results correspond with later success at the university, the test is accurately predicting the outcome it was designed to anticipate. Content validity, by contrast, concerns whether test items represent the material being measured, and standardization concerns uniform administration and scoring."
+    },
+    {
+      "question_id": "psychology-2019-mcq-019",
+      "paper_id": "psychology-ap-2019",
+      "number": 19,
+      "answer_label": "E",
+      "answer_content": "Schizophrenia",
+      "explanation": "Schizophrenia is a psychotic disorder involving disturbed perception, thought, and behavior, such as hallucinations, delusions, and disorganized speech or behavior. Those features distinguish it from the other options: major depressive disorder centers on depressed mood, autism spectrum disorder on social communication difficulties, borderline personality disorder on instability in relationships and identity, and conversion disorder on physical symptoms without a medical basis."
+    },
+    {
+      "question_id": "psychology-2019-mcq-020",
+      "paper_id": "psychology-ap-2019",
+      "number": 20,
+      "answer_label": "D",
+      "answer_content": "Antipsychotic medication",
+      "explanation": "Antipsychotic medication is the standard biological treatment for schizophrenia because it reduces dopamine activity in the brain and thereby lessens positive symptoms such as hallucinations and delusions. The psychotherapy options do not directly target these neurochemical symptoms, and electroconvulsive therapy is used primarily for severe depression rather than as a first-line treatment for schizophrenia."
+    },
+    {
+      "question_id": "psychology-2019-mcq-021",
+      "paper_id": "psychology-ap-2019",
+      "number": 21,
+      "answer_label": "B",
+      "answer_content": "Authoritative",
+      "explanation": "Baumrind’s authoritative style combines warmth and responsiveness with clear, reasonable limits. Parents explain rules and allow some autonomy, which helps children develop self-reliance and confidence. Authoritarian parenting emphasizes obedience with little warmth, permissive parenting lacks firm limits, and neglectful parenting is low in both warmth and control."
+    },
+    {
+      "question_id": "psychology-2019-mcq-022",
+      "paper_id": "psychology-ap-2019",
+      "number": 22,
+      "answer_label": "C",
+      "answer_content": "Dizziness and loss of balance",
+      "explanation": "The semicircular canals are part of the vestibular sense, which detects head movement and helps maintain balance. If loose crystals randomly bend the hair cells, the canals send inaccurate motion signals to the brain, producing dizziness and loss of balance. The other options involve touch, body awareness, or proprioception rather than the vestibular system."
+    },
+    {
+      "question_id": "psychology-2019-mcq-023",
+      "paper_id": "psychology-ap-2019",
+      "number": 23,
+      "answer_label": "A",
+      "answer_content": "The manifest content",
+      "explanation": "In psychoanalytic dream analysis, the manifest content is the surface story or plot of the dream as the dreamer remembers it. Adam appearing in every store at the mall is the literal dream imagery, so it is manifest content. Latent content refers to the hidden unconscious meaning beneath that surface content."
+    },
+    {
+      "question_id": "psychology-2019-mcq-024",
+      "paper_id": "psychology-ap-2019",
+      "number": 24,
+      "answer_label": "A",
+      "answer_content": "A woman's stomach growls when she looks at the clock and sees it is almost lunchtime",
+      "explanation": "A classically conditioned response is learned through association between a neutral stimulus and an unconditioned stimulus. The woman’s stomach growling at the sight of the clock is a conditioned response because the clock has become associated with lunchtime and food. The dog salivating at food is an unconditioned response, while the other choices involve operant consequences or simple reflexes."
+    },
+    {
+      "question_id": "psychology-2019-mcq-025",
+      "paper_id": "psychology-ap-2019",
+      "number": 25,
+      "answer_label": "B",
+      "answer_content": "Biomedical",
+      "explanation": "The biomedical approach assumes that psychological disorders are linked to biological factors such as neurotransmitter abnormalities and often treats them with medication. Dr. Zoey’s explanation and treatment preference directly match this perspective. Humanistic, psychodynamic, behavioral, and cognitive approaches focus more on growth, unconscious conflict, learned behavior, or thought patterns."
+    },
+    {
+      "question_id": "psychology-2019-mcq-026",
+      "paper_id": "psychology-ap-2019",
+      "number": 26,
+      "answer_label": "D",
+      "answer_content": "Decrease in sex hormones in late adulthood",
+      "explanation": "In late adulthood, sex hormone levels generally decline, as seen in menopause and age-related testosterone decreases. The other choices misplace developmental events: neural tube closure occurs prenatally, secondary sex characteristics develop during puberty, and childhood is associated with synaptic pruning rather than a simple overall decrease in neural networking."
+    },
+    {
+      "question_id": "psychology-2019-mcq-027",
+      "paper_id": "psychology-ap-2019",
+      "number": 27,
+      "answer_label": "B",
+      "answer_content": "a self-serving bias",
+      "explanation": "Doug shows a self-serving bias because he takes personal credit for the team's successes but distances himself from failures. This bias protects self-esteem by attributing positive outcomes to internal qualities and negative outcomes to external or shared factors, rather than reflecting low self-esteem or the general actor-observer pattern."
+    },
+    {
+      "question_id": "psychology-2019-mcq-028",
+      "paper_id": "psychology-ap-2019",
+      "number": 28,
+      "answer_label": "D",
+      "answer_content": "Gambler's fallacy",
+      "explanation": "Mary Alice's estimates reflect the gambler's fallacy, the mistaken belief that after several non-aces an ace becomes more likely on the next draw. Because she replaces and shuffles the card each trial, the probability of drawing an ace remains unchanged, and past outcomes do not influence the next independent draw."
+    },
+    {
+      "question_id": "psychology-2019-mcq-029",
+      "paper_id": "psychology-ap-2019",
+      "number": 29,
+      "answer_label": "B",
+      "answer_content": "semantic encoding",
+      "explanation": "Creating stories from the words requires processing their meaning, which is semantic encoding and typically produces better recall than merely counting syllables. Counting syllables involves shallow processing of surface features, whereas linking words into meaningful narratives creates richer, more elaborative memory traces."
+    },
+    {
+      "question_id": "psychology-2019-mcq-030",
+      "paper_id": "psychology-ap-2019",
+      "number": 30,
+      "answer_label": "D",
+      "answer_content": "Projective",
+      "explanation": "The Thematic Apperception Test is a projective test because it presents ambiguous pictures and asks people to tell stories about them. Responses are interpreted as projections of inner motives, conflicts, or personality characteristics. It is not an aptitude, achievement, intelligence, or neuropsychological test."
+    },
+    {
+      "question_id": "psychology-2019-mcq-031",
+      "paper_id": "psychology-ap-2019",
+      "number": 31,
+      "answer_label": "B",
+      "answer_content": "Sociocultural",
+      "explanation": "The sociocultural perspective explains abnormal behavior as arising from social and cultural contexts, such as family relationships, community stressors, cultural norms, and socioeconomic conditions. The pattern in the graph links abnormal behavior to social or cultural group differences, so it best supports this perspective rather than biomedical, psychoanalytic, humanistic, or behavioral explanations."
+    },
+    {
+      "question_id": "psychology-2019-mcq-032",
+      "paper_id": "psychology-ap-2019",
+      "number": 32,
+      "answer_label": "B",
+      "answer_content": "Reliability",
+      "explanation": "Reliability refers to the consistency of a test in producing similar scores across repeated administrations. A test author seeking similar scores each time a person takes a personality test is trying to increase reliability, specifically test-retest reliability. Validity concerns whether the test measures what it claims, while standardization concerns uniform administration and scoring."
+    },
+    {
+      "question_id": "psychology-2019-mcq-033",
+      "paper_id": "psychology-ap-2019",
+      "number": 33,
+      "answer_label": "A",
+      "answer_content": "Identical twins reared together are more similar than identical twins reared apart",
+      "explanation": "Identical twins share essentially all their genes, so if identical twins reared together are more similar in intelligence than identical twins reared apart, the difference is best attributed to shared environmental influences. This comparison holds genetic makeup constant while varying rearing environment. The other options confound genetic and environmental differences or mainly demonstrate genetic influence."
+    },
+    {
+      "question_id": "psychology-2019-mcq-034",
+      "paper_id": "psychology-ap-2019",
+      "number": 34,
+      "answer_label": "A",
+      "answer_content": "Charles Spearman",
+      "explanation": "Charles Spearman proposed that intelligence consists of a general intelligence factor, g, that underlies performance across many tasks, plus specific factors, s, unique to particular tasks. This two-factor theory is why he is the correct match. Terman worked on the Stanford-Binet, Thurstone emphasized primary mental abilities, Gardner proposed multiple intelligences, and Sternberg proposed the triarchic theory."
+    },
+    {
+      "question_id": "psychology-2019-mcq-035",
+      "paper_id": "psychology-ap-2019",
+      "number": 35,
+      "answer_label": "C",
+      "answer_content": "He memorized and later recalled hundreds of nonsense syllables to document memory decay",
+      "explanation": "Hermann Ebbinghaus conducted classic memory research by memorizing lists of nonsense syllables and later testing his recall to measure forgetting over time, producing the forgetting curve. Using nonsense syllables helped control for prior meaning and associations. He did not use brain imaging, study categorization in college students, test monkeys, or follow children to measure sensory memory."
+    },
+    {
+      "question_id": "psychology-2019-mcq-036",
+      "paper_id": "psychology-ap-2019",
+      "number": 36,
+      "answer_label": "D",
+      "answer_content": "Serotonin",
+      "explanation": "Serotonin is a neurotransmitter that helps regulate mood, sleep, and appetite, and reduced serotonin activity is the neurotransmitter imbalance most strongly linked to major depressive disorder. Many antidepressant medications, such as SSRIs, work by increasing serotonin availability at the synapse. The other options are associated with other functions: acetylcholine with muscle movement and memory, dopamine with reward and motor control, and GABA with inhibition."
+    },
+    {
+      "question_id": "psychology-2019-mcq-037",
+      "paper_id": "psychology-ap-2019",
+      "number": 37,
+      "answer_label": "E",
+      "answer_content": "Neuroplasticity",
+      "explanation": "Neuroplasticity is the brain's ability to reorganize itself by forming new neural connections, which is greatest early in development. Because Beth had a hemispherectomy at age two, her remaining hemisphere could take over functions typically handled by the removed tissue, allowing her cognitive abilities to match those of peers by age five. Myelination and reuptake are neural processes but do not explain this large-scale compensation."
+    },
+    {
+      "question_id": "psychology-2019-mcq-038",
+      "paper_id": "psychology-ap-2019",
+      "number": 38,
+      "answer_label": "A",
+      "answer_content": "survey",
+      "explanation": "A survey gathers self-reported information, such as attitudes and behaviors, from a large group of people, often through questionnaires or interviews. Collecting data on peer pressure from a large, representative sample of adolescents across the United States fits this descriptive method, which allows generalization to the wider population. A case study or single-subject design would involve far fewer participants, and a laboratory experiment would require manipulated variables and controlled conditions."
+    },
+    {
+      "question_id": "psychology-2019-mcq-039",
+      "paper_id": "psychology-ap-2019",
+      "number": 39,
+      "answer_label": "C",
+      "answer_content": "conservation",
+      "explanation": "Conservation is the understanding that a change in appearance, such as spacing or arrangement, does not alter basic properties like number or quantity. Rebecca judges the rows by their length rather than recognizing the one-to-one correspondence, a limitation typical of Piaget's preoperational stage. Object permanence concerns the sensorimotor stage, and theory of mind and accommodation refer to different aspects of cognitive development."
+    },
+    {
+      "question_id": "psychology-2019-mcq-040",
+      "paper_id": "psychology-ap-2019",
+      "number": 40,
+      "answer_label": "A",
+      "answer_content": "Sensorimotor",
+      "explanation": "In Piaget's sensorimotor stage, infants and toddlers learn about the world through their senses and motor actions, such as grasping, banging, and mouthing objects. Zeke's habit of putting new objects in his mouth is a sensory-motor exploration typical of this stage. Preoperational children use symbols and pretend play, while concrete and formal operational thinking involve logical reasoning; postconventional is a Kohlberg moral stage, not a Piagetian one."
+    },
+    {
+      "question_id": "psychology-2019-mcq-041",
+      "paper_id": "psychology-ap-2019",
+      "number": 41,
+      "answer_label": "D",
+      "answer_content": "Marcy concludes she did poorly on her exam because it was unfair",
+      "explanation": "An external attribution explains behavior by pointing to situational or environmental factors rather than to personal traits or effort. Marcy blames her poor exam performance on an unfair test, which locates the cause outside herself, so her conclusion is an external attribution. By contrast, believing that people who are poor are personally responsible for their financial problems is an internal dispositional attribution."
+    },
+    {
+      "question_id": "psychology-2019-mcq-042",
+      "paper_id": "psychology-ap-2019",
+      "number": 42,
+      "answer_label": "A",
+      "answer_content": "perceived relationship where one does not exist",
+      "explanation": "An illusory correlation is the tendency to perceive a relationship between two variables when no such relationship actually exists, often because the pairing is distinctive or memorable. It is a cognitive error in judgment rather than a statistical fact, so it is not defined by extreme correlation coefficients or by causality. The remaining options describe actual causal or statistical relationships."
+    },
+    {
+      "question_id": "psychology-2019-mcq-043",
+      "paper_id": "psychology-ap-2019",
+      "number": 43,
+      "answer_label": "E",
+      "answer_content": "Foot-in-the-door",
+      "explanation": "The foot-in-the-door technique involves gaining compliance with a small initial request, which increases the likelihood of agreeing to a larger, more demanding request later. In Milgram's obedience studies, participants began with mild shocks and were then asked to increase the voltage gradually, making each step seem a small extension of what they had already done. Groupthink, social facilitation, and anchoring do not describe this escalating compliance."
+    },
+    {
+      "question_id": "psychology-2019-mcq-044",
+      "paper_id": "psychology-ap-2019",
+      "number": 44,
+      "answer_label": "E",
+      "answer_content": "Assuming that correlation proves causation",
+      "explanation": "The researchers observed a relationship between family size and attitudes toward honor-roll status and then claimed that family size caused the attitude, which is the error of assuming correlation proves causation. Correlational data cannot rule out third variables or reverse causation, and no experimental manipulation was involved. Random assignment and self-report concerns address different issues and are not the central flaw here."
+    },
+    {
+      "question_id": "psychology-2019-mcq-045",
+      "paper_id": "psychology-ap-2019",
+      "number": 45,
+      "answer_label": "C",
+      "answer_content": "exhaustion",
+      "explanation": "In Selye's general adaptation syndrome, the exhaustion stage occurs when prolonged stress depletes the body's resources after the alarm and resistance stages. Because Danielle's prolonged unemployment and financial strain have worn down her resistance, she now shows physical illness in the form of frequent colds and flu along with depression. Alarm and resistance involve initial arousal and sustained coping rather than collapse."
+    },
+    {
+      "question_id": "psychology-2019-mcq-046",
+      "paper_id": "psychology-ap-2019",
+      "number": 46,
+      "answer_label": "B",
+      "answer_content": "Transference",
+      "explanation": "Transference occurs when a client unconsciously redirects feelings originally attached to important figures from the past, such as a parent, onto the therapist. The sudden, unprovoked anger in session reflects that displacement of earlier relational conflicts. Countertransference refers instead to the therapist's own emotional reactions toward the client, and projection, sublimation, and reaction formation are defense mechanisms that do not describe feelings toward the therapist."
+    },
+    {
+      "question_id": "psychology-2019-mcq-047",
+      "paper_id": "psychology-ap-2019",
+      "number": 47,
+      "answer_label": "C",
+      "answer_content": "Incentive",
+      "explanation": "Incentive theory holds that behavior is pulled toward motivation by external stimuli, such as rewards, grades, money, or praise, rather than pushed from within. Homeostatic and evolutionary theories emphasize internal biological balance and inherited drives, while cognitive and psychoanalytic theories stress internal thoughts or unconscious conflicts. Thus the incentive perspective best fits motivation controlled by environmental cues."
+    },
+    {
+      "question_id": "psychology-2019-mcq-048",
+      "paper_id": "psychology-ap-2019",
+      "number": 48,
+      "answer_label": "A",
+      "answer_content": "Procedural and semantic",
+      "explanation": "Tying his shoes reflects intact procedural memory, the implicit memory for motor skills and how to perform tasks. Not remembering where he lives reflects impaired semantic memory, which stores general facts and knowledge, and the case lacks any indication of sensory memory loss. Episodic memory would involve memory for personally experienced events, which is not what the question contrasts here."
+    },
+    {
+      "question_id": "psychology-2019-mcq-049",
+      "paper_id": "psychology-ap-2019",
+      "number": 49,
+      "answer_label": "D",
+      "answer_content": "Rational-emotive behavior therapy",
+      "explanation": "Rational-emotive behavior therapy, developed by Albert Ellis, directly targets irrational and maladaptive thought patterns, which aligns with the cognitive emphasis on how beliefs shape emotions and behavior. Free association is psychodynamic, aversion therapy and counterconditioning are behavioral techniques, and drug therapy reflects the biological approach. Cognitive therapists focus on restructuring distorted thinking rather than conditioning or medication."
+    },
+    {
+      "question_id": "psychology-2019-mcq-050",
+      "paper_id": "psychology-ap-2019",
+      "number": 50,
+      "answer_label": "C",
+      "answer_content": "Having learned that his family pet is a dog, William sees a neighbor's cat and says, \"Dog!\"",
+      "explanation": "Assimilation is interpreting new experiences using an existing schema, so William fits the novel cat into his established category for four-legged pets and labels it a dog. Option D illustrates accommodation, in which a schema is modified to create a new category for the horse. The pizza and hidden-toy examples reflect centration and object permanence, not assimilation."
+    },
+    {
+      "question_id": "psychology-2019-mcq-051",
+      "paper_id": "psychology-ap-2019",
+      "number": 51,
+      "answer_label": "A",
+      "answer_content": "decreases in levels of dopamine",
+      "explanation": "Parkinson's disease results from the degeneration of dopamine-producing neurons in the substantia nigra, which reduces dopamine available to the basal ganglia and disrupts voluntary motor control, producing tremors, rigidity, and slowed movement. Dopamine is the neurotransmitter most directly implicated, so decreased dopamine levels are the key correlate. Acetylcholine loss is linked to Alzheimer's disease, and myelin destruction underlies disorders such as multiple sclerosis rather than Parkinson's."
+    },
+    {
+      "question_id": "psychology-2019-mcq-052",
+      "paper_id": "psychology-ap-2019",
+      "number": 52,
+      "answer_label": "C",
+      "answer_content": "Increased digestion",
+      "explanation": "The parasympathetic nervous system governs the body's restorative, \"rest and digest\" functions, conserving energy and promoting processes such as digestion, salivation, and bladder contraction. Increased digestion is therefore a parasympathetic response. Pupil dilation, adrenaline secretion, inhibited salivation, and inhibited bladder contraction are instead sympathetic responses associated with arousal and mobilization during stress."
+    },
+    {
+      "question_id": "psychology-2019-mcq-053",
+      "paper_id": "psychology-ap-2019",
+      "number": 53,
+      "answer_label": "E",
+      "answer_content": "overlearning",
+      "explanation": "Overlearning refers to continuing to practice a skill beyond the point of initial mastery, which strengthens the memory trace and makes performance fluent and automatic with little conscious effort. This extra rehearsal explains why a well-practiced task can be executed without deliberate attention. Homeostasis, instinct, and self-efficacy describe regulatory processes, innate behavior, and belief in one's competence, none of which directly produces automatic performance."
+    },
+    {
+      "question_id": "psychology-2019-mcq-054",
+      "paper_id": "psychology-ap-2019",
+      "number": 54,
+      "answer_label": "A",
+      "answer_content": "IQ tests should be renormed at periodic intervals",
+      "explanation": "The Flynn effect is the observed rise in average IQ scores across generations, which means that tests normed decades ago no longer yield a mean of 100 for today's population. To keep scores meaningfully standardized, tests must be restandardized periodically with current norms. The effect does not imply the tests were originally invalid, unreliable, or biased against particular groups, only that their comparison base becomes outdated."
+    },
+    {
+      "question_id": "psychology-2019-mcq-055",
+      "paper_id": "psychology-ap-2019",
+      "number": 55,
+      "answer_label": "C",
+      "answer_content": "they generally demonstrate above-average emotional stability and social satisfaction in adulthood",
+      "explanation": "Lewis Terman's longitudinal study of high-IQ children found that, contrary to the stereotype of the poorly adjusted genius, the gifted group generally became well-adjusted adults with above-average emotional stability, social satisfaction, and occupational achievement. The findings countered expectations that high intelligence carries social or psychological costs. The other options describe maladjustment, continuing score increases, or relationship problems that the study did not support."
+    },
+    {
+      "question_id": "psychology-2019-mcq-056",
+      "paper_id": "psychology-ap-2019",
+      "number": 56,
+      "answer_label": "D",
+      "answer_content": "generalization",
+      "explanation": "Generalization occurs when a conditioned response is elicited by stimuli that are similar to the original conditioned stimulus. Ahmet's allergic reaction was originally conditioned to real dogs, but the stuffed toy dog shares enough perceptual features with a real dog to trigger the same response. The toy is not the original stimulus yet still produces the reaction, which is the hallmark of stimulus generalization."
+    },
+    {
+      "question_id": "psychology-2019-mcq-057",
+      "paper_id": "psychology-ap-2019",
+      "number": 57,
+      "answer_label": "A",
+      "answer_content": "His circadian rhythm has been disrupted",
+      "explanation": "Circadian rhythms are the body's roughly 24-hour biological cycles that regulate sleep, alertness, and body temperature, and they are synchronized by cues such as daylight. Flying across multiple time zones exposes Jeff to a new light-dark schedule, so his internal clock is out of phase with local time and he feels lethargic until it resets. This jet lag reflects a disrupted circadian rhythm rather than a sleep disorder or an illness."
+    },
+    {
+      "question_id": "psychology-2019-mcq-058",
+      "paper_id": "psychology-ap-2019",
+      "number": 58,
+      "answer_label": "C",
+      "answer_content": "cross-sectional",
+      "explanation": "A cross-sectional design compares participants of different ages at a single point in time, which is exactly what Dr. Jones does by testing separate groups of 10-, 15-, and 25-year-olds and comparing their average IQs. Because different people of different ages are tested once, the study does not follow the same individuals over time, so it is not longitudinal. It is also not experimental, since age is not manipulated."
+    },
+    {
+      "question_id": "psychology-2019-mcq-059",
+      "paper_id": "psychology-ap-2019",
+      "number": 59,
+      "answer_label": "D",
+      "answer_content": "Humanistic",
+      "explanation": "The humanistic perspective, associated with theorists such as Maslow and Rogers, holds that people are driven by an innate self-actualizing tendency, the drive to grow and fulfill one's potential. Self-actualization sits at the top of Maslow's hierarchy of needs and is the central motive in Rogers's person-centered theory. Other perspectives, such as psychoanalytic, trait, and social cognitive approaches, focus instead on unconscious conflict, stable traits, or observational learning."
+    },
+    {
+      "question_id": "psychology-2019-mcq-060",
+      "paper_id": "psychology-ap-2019",
+      "number": 60,
+      "answer_label": "A",
+      "answer_content": "It relies on only cones",
+      "explanation": "Cones are the photoreceptors responsible for color vision and visual acuity, and they are concentrated in the fovea. Rods are far more sensitive in dim light but do not support color perception, so detecting redness depends on cone activity rather than on rods. The pupil and lens help focus and regulate light entering the eye, but the transduction of color information occurs in the cones of the retina."
+    },
+    {
+      "question_id": "psychology-2019-mcq-061",
+      "paper_id": "psychology-ap-2019",
+      "number": 61,
+      "answer_label": "D",
+      "answer_content": "Major depressive",
+      "explanation": "Belinda shows classic symptoms of a major depressive episode: diminished pleasure (anhedonia), weight loss, insomnia, fatigue, and excessive guilt. Major depressive disorder is diagnosed when such depressive symptoms persist and impair functioning. Obsessive-compulsive disorder centers on obsessions and compulsions, bipolar disorder involves mania, schizophrenia involves psychosis, and agoraphobia involves fear and avoidance of places."
+    },
+    {
+      "question_id": "psychology-2019-mcq-062",
+      "paper_id": "psychology-ap-2019",
+      "number": 62,
+      "answer_label": "B",
+      "answer_content": "11",
+      "explanation": "The mean is the arithmetic average of a data set. To find it, add all the scores in data set A and divide by the total number of scores. This calculation gives a mean of 11."
+    },
+    {
+      "question_id": "psychology-2019-mcq-063",
+      "paper_id": "psychology-ap-2019",
+      "number": 63,
+      "answer_label": "C",
+      "answer_content": "4",
+      "explanation": "The range is a measure of dispersion equal to the highest score minus the lowest score. For data set B, subtracting the minimum value from the maximum value gives a range of 4, indicating how spread out the scores are."
+    },
+    {
+      "question_id": "psychology-2019-mcq-064",
+      "paper_id": "psychology-ap-2019",
+      "number": 64,
+      "answer_label": "B",
+      "answer_content": "Set B has a smaller standard deviation than set A",
+      "explanation": "Standard deviation measures how spread out scores are around the mean. Set B has a smaller standard deviation than set A, meaning its scores are more tightly clustered and show less variability. The other statements cannot be established from the given data, since means, shape, and modality are not enough to support them here."
+    },
+    {
+      "question_id": "psychology-2019-mcq-065",
+      "paper_id": "psychology-ap-2019",
+      "number": 65,
+      "answer_label": "C",
+      "answer_content": "Case study",
+      "explanation": "A case study is an in-depth investigation of one person or a small group, often using interviews with family, friends, teachers, and clinicians to gather rich historical information. Researchers then look for common themes across cases. Experiments manipulate variables, naturalistic observation watches behavior without such interviews, and quasi-experiments compare groups without random assignment."
+    },
+    {
+      "question_id": "psychology-2019-mcq-066",
+      "paper_id": "psychology-ap-2019",
+      "number": 66,
+      "answer_label": "B",
+      "answer_content": "Lateral hypothalamus",
+      "explanation": "The lateral hypothalamus is involved in triggering hunger and initiating eating behavior, so stimulating it causes an organism to begin eating. The ventromedial hypothalamus plays the opposite role, signaling satiety and stopping eating when stimulated. The thalamus, somatosensory cortex, and pons serve sensory relay and other functions rather than hunger control."
+    },
+    {
+      "question_id": "psychology-2019-mcq-067",
+      "paper_id": "psychology-ap-2019",
+      "number": 67,
+      "answer_label": "D",
+      "answer_content": "Broca's area",
+      "explanation": "Broca's area, usually in the left frontal lobe, directs the muscle movements that produce articulate speech. Damage here produces slow, labored speech with poor grammar while comprehension largely remains intact, which matches Sam's pattern. Wernicke's area is more associated with understanding language, so damage there would mainly impair comprehension rather than production."
+    },
+    {
+      "question_id": "psychology-2019-mcq-068",
+      "paper_id": "psychology-ap-2019",
+      "number": 68,
+      "answer_label": "A",
+      "answer_content": "a cognitive map",
+      "explanation": "A cognitive map is a mental representation of the layout of an environment, such as the streets and buildings in a firefighter's district. Walking through buildings and driving around the area helps trainees build this spatial representation so they can navigate quickly and efficiently. A prototype, algorithm, mental set, and functional fixedness all concern categorization, problem-solving strategy, or rigid thinking rather than spatial layout."
+    },
+    {
+      "question_id": "psychology-2019-mcq-069",
+      "paper_id": "psychology-ap-2019",
+      "number": 69,
+      "answer_label": "C",
+      "answer_content": "extinction",
+      "explanation": "Extinction occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, so the conditioned response gradually weakens and disappears. Acquisition is the opposite process, the initial learning of the association, and discrimination and generalization involve responding differently or similarly to related stimuli. Backward conditioning concerns the order in which the two stimuli are presented."
+    },
+    {
+      "question_id": "psychology-2019-mcq-070",
+      "paper_id": "psychology-ap-2019",
+      "number": 70,
+      "answer_label": "B",
+      "answer_content": "Secondary",
+      "explanation": "A secondary reinforcer gains its reinforcing power through association with a primary reinforcer, such as money or tokens that can be exchanged for food or privileges. Tokens are not innately satisfying like food or water, which are primary reinforcers. Negative reinforcement involves removing an unpleasant stimulus, while vicarious and aversive reinforcement refer to observing others' outcomes and to punishment-like stimuli."
+    },
+    {
+      "question_id": "psychology-2019-mcq-071",
+      "paper_id": "psychology-ap-2019",
+      "number": 71,
+      "answer_label": "E",
+      "answer_content": "somatic",
+      "explanation": "The somatic nervous system is the division of the peripheral nervous system that carries sensory information and sends voluntary motor commands to skeletal muscles, making deliberate movement possible. The sympathetic and parasympathetic divisions belong to the autonomic nervous system and govern involuntary functions such as heart rate and digestion. The midbrain and forebrain are brain structures, not divisions that directly control voluntary muscle activity."
+    },
+    {
+      "question_id": "psychology-2019-mcq-072",
+      "paper_id": "psychology-ap-2019",
+      "number": 72,
+      "answer_label": "B",
+      "answer_content": "Positive",
+      "explanation": "Positive psychology emphasizes human strengths and well-being, studying qualities such as happiness, optimism, creativity, and fulfillment rather than focusing mainly on dysfunction. Behavioral approaches stress observable responses and conditioning, while psychodynamic approaches focus on unconscious conflicts. Functional psychology concerns how mental processes help organisms adapt, but positive psychology is the approach specifically defined by flourishing and fulfilling experience."
+    },
+    {
+      "question_id": "psychology-2019-mcq-073",
+      "paper_id": "psychology-ap-2019",
+      "number": 73,
+      "answer_label": "C",
+      "answer_content": "generalized anxiety disorder",
+      "explanation": "Generalized anxiety disorder involves persistent, excessive, and uncontrollable worry that occurs across many situations and is not tied to a specific object or event, along with symptoms such as restlessness and difficulty relaxing. Connie's constant worry that something terrible will happen, even in a secure setting, fits this pervasive pattern. Specific phobia and panic disorder involve a particular feared stimulus or sudden acute attacks, and PTSD requires exposure to a traumatic event."
+    },
+    {
+      "question_id": "psychology-2019-mcq-074",
+      "paper_id": "psychology-ap-2019",
+      "number": 74,
+      "answer_label": "B",
+      "answer_content": "Habituation",
+      "explanation": "Habituation is a decrease in responsiveness to a repeated or ongoing stimulus after prolonged exposure to it. John initially notices the urban noise because it is novel, but as the sound repeats, his nervous system stops responding to it strongly, so he no longer notices it. Sensitization is the opposite increase in responsiveness, and accommodation and signal detection refer to other processes entirely."
+    },
+    {
+      "question_id": "psychology-2019-mcq-075",
+      "paper_id": "psychology-ap-2019",
+      "number": 75,
+      "answer_label": "E",
+      "answer_content": "Episodic memory",
+      "explanation": "Episodic memory is the type of explicit long-term memory that stores personally experienced events, including their time, place, and context. Recalling where he went on a summer vacation at age eight requires retrieving a specific autobiographical episode. Recognition memory involves identifying previously encountered information, implicit memory involves skills and priming without awareness, and the method of loci is a mnemonic strategy rather than the memory system itself."
+    },
+    {
+      "question_id": "psychology-2019-mcq-076",
+      "paper_id": "psychology-ap-2019",
+      "number": 76,
+      "answer_label": "A",
+      "answer_content": "positive reinforcement",
+      "explanation": "Positive reinforcement occurs when a stimulus is added after a behavior and the behavior increases in frequency. The brain stimulation is added contingent on the rat's bar press, and pressing becomes more frequent. Negative reinforcement would involve removing an unpleasant stimulus, while punishment would decrease the behavior."
+    },
+    {
+      "question_id": "psychology-2019-mcq-077",
+      "paper_id": "psychology-ap-2019",
+      "number": 77,
+      "answer_label": "A",
+      "answer_content": "perceptual expectancy",
+      "explanation": "Perceptual expectancy is a top-down predisposition to perceive stimuli in a way consistent with what one expects. Because Alice is shopping with her daughter and is primed to hear \"mom,\" she interprets the similar-sounding \"ma'am\" accordingly. The other options concern visual illusions, sensory thresholds, or perceptual organization, not expectation-driven interpretation of sound."
+    },
+    {
+      "question_id": "psychology-2019-mcq-078",
+      "paper_id": "psychology-ap-2019",
+      "number": 78,
+      "answer_label": "B",
+      "answer_content": "developmental norms",
+      "explanation": "Developmental norms are the typical ages or ranges at which children achieve milestones such as walking. The magazine reports an average age and a normal range, which describes normative development rather than test standardization, reliability, validity, or statistical inference."
+    },
+    {
+      "question_id": "psychology-2019-mcq-079",
+      "paper_id": "psychology-ap-2019",
+      "number": 79,
+      "answer_label": "D",
+      "answer_content": "object permanence",
+      "explanation": "Object permanence is the understanding that people and objects continue to exist even when out of sight. Once Sydney has acquired it, he can represent his father's continued existence after he leaves, so the separation and unfamiliar babysitter become distressing. Before object permanence, an absent person is less likely to be represented as still existing."
+    },
+    {
+      "question_id": "psychology-2019-mcq-080",
+      "paper_id": "psychology-ap-2019",
+      "number": 80,
+      "answer_label": "C",
+      "answer_content": "level of empathy correlates negatively with enjoyment of violent humor",
+      "explanation": "The finding is correlational: as empathy scores are higher, reported enjoyment of violent humor tends to be lower. That pattern is a negative correlation. Because the data come from surveys, one cannot conclude that empathy causes enjoyment or that enjoyment causes empathy; only the direction of the association is supported."
+    },
+    {
+      "question_id": "psychology-2019-mcq-081",
+      "paper_id": "psychology-ap-2019",
+      "number": 81,
+      "answer_label": "B",
+      "answer_content": "The guards were influenced by their role and the situation",
+      "explanation": "Zimbardo attributed the guards' cruelty to the power of the situation rather than to prior personality traits. Because participants were randomly assigned, individual dispositions could not explain the difference; instead, adopting the guard role and the expectations attached to it shaped their behavior. This illustrates how social roles and situational forces can override personal characteristics, a central lesson of the Stanford prison simulation."
+    },
+    {
+      "question_id": "psychology-2019-mcq-082",
+      "paper_id": "psychology-ap-2019",
+      "number": 82,
+      "answer_label": "C",
+      "answer_content": "Antisocial personality",
+      "explanation": "Antisocial personality disorder is characterized by a pattern of disregarding and violating the rights of others, including lawbreaking, deceitfulness, conning others, aggressiveness, and a lack of remorse. Steve's repeated fraud, lying, fighting, and indifference to those he has harmed match this pattern closely. Borderline personality, major depressive disorder, schizophrenia, and generalized anxiety disorder do not center on this chronic antisocial and remorseless conduct."
+    },
+    {
+      "question_id": "psychology-2019-mcq-083",
+      "paper_id": "psychology-ap-2019",
+      "number": 83,
+      "answer_label": "E",
+      "answer_content": "Yerkes-Dodson law of arousal",
+      "explanation": "The Yerkes-Dodson law describes an inverted-U relationship in which performance improves as arousal increases up to an optimal moderate level and then declines when arousal becomes too high. The graph, labeled with medium arousal at the peak, shows exactly this pattern. Homeostasis, general adaptation syndrome, misattribution of arousal, and the self-serving bias address different phenomena and do not predict this performance curve."
+    },
+    {
+      "question_id": "psychology-2019-mcq-084",
+      "paper_id": "psychology-ap-2019",
+      "number": 84,
+      "answer_label": "D",
+      "answer_content": "Savitri, who has several interesting stories that she wants to write",
+      "explanation": "Intrinsic motivation comes from internal satisfaction or interest in the activity itself rather than from external rewards or pressures. Savitri wants to write because she has interesting stories to tell, so the writing itself is rewarding to her. The other individuals are driven by money, job security, or buying a home, all of which are extrinsic incentives."
+    },
+    {
+      "question_id": "psychology-2019-mcq-085",
+      "paper_id": "psychology-ap-2019",
+      "number": 85,
+      "answer_label": "E",
+      "answer_content": "anonymity",
+      "explanation": "Deindividuation is the loss of self-awareness and personal accountability that occurs when people feel anonymous within a group. The hooded students could not be identified, and this anonymity reduced their sense of individual responsibility, leading them to deliver more shocks. Wearing their own clothes and name tags made the other students identifiable and therefore less deindividuated."
+    },
+    {
+      "question_id": "psychology-2019-mcq-086",
+      "paper_id": "psychology-ap-2019",
+      "number": 86,
+      "answer_label": "C",
+      "answer_content": "The representativeness heuristic",
+      "explanation": "The representativeness heuristic means judging a person or situation by how closely it matches a mental prototype or stereotype of a category. Achariya assumes the elderly woman will be kind because she fits her image of a kind elderly person, rather than basing the choice on actual evidence. The availability heuristic would involve relying on the ease of recalling examples, and an algorithm would require a systematic step-by-step procedure."
+    },
+    {
+      "question_id": "psychology-2019-mcq-087",
+      "paper_id": "psychology-ap-2019",
+      "number": 87,
+      "answer_label": "E",
+      "answer_content": "Negative afterimages",
+      "explanation": "Opponent-process theory proposes that color is coded in opposing pairs, such as red-green and blue-yellow, so staring at one color fatigues that member of the pair and produces a rebound in the opposite color, creating a negative afterimage. The trichromatic theory, which describes three types of cones, cannot account for this afterimage effect. The other options involve structures or processes unrelated to color pairing."
+    },
+    {
+      "question_id": "psychology-2019-mcq-088",
+      "paper_id": "psychology-ap-2019",
+      "number": 88,
+      "answer_label": "E",
+      "answer_content": "a double-blind design",
+      "explanation": "In a double-blind design, both the participants and the researchers interacting with them are unaware of who received the treatment and who received the placebo, which prevents expectation effects from either side. Here neither the research team nor the children knew which sodas contained caffeine. A single-blind design would keep only the participants unaware, and the placebo effect refers to improvement from expectation alone rather than to the study design."
+    },
+    {
+      "question_id": "psychology-2019-mcq-089",
+      "paper_id": "psychology-ap-2019",
+      "number": 89,
+      "answer_label": "A",
+      "answer_content": "Analytic",
+      "explanation": "Sternberg's triarchic theory identifies analytic intelligence as the component used for comparing, evaluating, and solving problems that have a single correct answer, such as a math problem with one numerical solution. The other components are creative intelligence, used for novel situations, and practical intelligence, used for everyday real-world demands. Spatial, linguistic, intrapersonal, and kinesthetic are Gardner's types of intelligence, not Sternberg's components."
+    },
+    {
+      "question_id": "psychology-2019-mcq-090",
+      "paper_id": "psychology-ap-2019",
+      "number": 90,
+      "answer_label": "A",
+      "answer_content": "Conversion disorder",
+      "explanation": "Conversion disorder belongs to the somatic symptom and related disorders category, in which a person experiences genuine physical symptoms, such as loss of movement or sensation, that cannot be fully explained by a medical condition and are linked to psychological factors. Generalized anxiety disorder is an anxiety disorder, dissociative identity disorder is a dissociative disorder, kleptomania is an impulse-control disorder, and schizophrenia is a psychotic disorder."
+    },
+    {
+      "question_id": "psychology-2019-mcq-091",
+      "paper_id": "psychology-ap-2019",
+      "number": 91,
+      "answer_label": "E",
+      "answer_content": "a mental set",
+      "explanation": "A mental set is a tendency to apply a familiar strategy to new problems even when it is no longer appropriate. Jordan learned a trick for one type of math problem and keeps using it for other types, despite repeated wrong answers. This persistence shows how prior experience can lock thinking into an ineffective approach, rather than producing a sudden insight or using a prototype."
+    },
+    {
+      "question_id": "psychology-2019-mcq-092",
+      "paper_id": "psychology-ap-2019",
+      "number": 92,
+      "answer_label": "A",
+      "answer_content": "Unconditional positive regard",
+      "explanation": "Unconditional positive regard comes from Carl Rogers's humanistic therapy. It involves the therapist accepting and valuing the client without judgment, which helps create the safe, genuine relationship needed for personal growth. Free association is psychoanalytic, while systematic desensitization, token economies, and contingency management are behavioral techniques."
+    },
+    {
+      "question_id": "psychology-2019-mcq-093",
+      "paper_id": "psychology-ap-2019",
+      "number": 93,
+      "answer_label": "B",
+      "answer_content": "The just-world hypothesis",
+      "explanation": "The just-world hypothesis is the belief that people get what they deserve, so victims must have done something to cause their misfortune. Jeremy blames his neighbor for leaving expensive electronics visible, thereby making the robbery seem deserved. This is victim blaming rather than the fundamental attribution error or an availability heuristic."
+    },
+    {
+      "question_id": "psychology-2019-mcq-094",
+      "paper_id": "psychology-ap-2019",
+      "number": 94,
+      "answer_label": "C",
+      "answer_content": "The participants are experiencing dissociation",
+      "explanation": "The Hilgards explained this contradiction through dissociation, the idea that hypnosis can divide conscious awareness so that pain is processed separately from verbal report. Participants said they felt no pain while still pressing the button to signal pain, suggesting a split between conscious experience and another level of awareness. It is not explained by repression, psychosis, or dreaming."
+    },
+    {
+      "question_id": "psychology-2019-mcq-095",
+      "paper_id": "psychology-ap-2019",
+      "number": 95,
+      "answer_label": "E",
+      "answer_content": "Retinal disparity",
+      "explanation": "Retinal disparity is a binocular depth cue that depends on the slightly different images each eye receives. Covering one eye removes that comparison, so Ana cannot use retinal disparity while the patch is on. Relative size, interposition, texture gradient, and linear perspective are monocular cues and can still be used with one eye."
+    },
+    {
+      "question_id": "psychology-2019-mcq-096",
+      "paper_id": "psychology-ap-2019",
+      "number": 96,
+      "answer_label": "A",
+      "answer_content": "Evolutionary",
+      "explanation": "The evolutionary perspective explains mate preferences in terms of reproductive fitness and survival advantages. An older man with greater resources may be seen as better able to provide for and protect offspring, which could make him more attractive under this view. The other theories focus on needs, arousal, instincts, or drive reduction rather than evolved mate-selection patterns."
+    },
+    {
+      "question_id": "psychology-2019-mcq-097",
+      "paper_id": "psychology-ap-2019",
+      "number": 97,
+      "answer_label": "A",
+      "answer_content": "A positive correlation",
+      "explanation": "A positive correlation means that as one variable increases, the other variable also tends to increase. In this study, higher levels of pessimism are associated with more mental-health problems, so the scatterplot would show an upward trend. Correlation describes the relationship but does not by itself establish cause and effect."
+    },
+    {
+      "question_id": "psychology-2019-mcq-098",
+      "paper_id": "psychology-ap-2019",
+      "number": 98,
+      "answer_label": "A",
+      "answer_content": "High 4 A L NAÉ CÓ'",
+      "explanation": "Raven’s traits fit a Big Five profile with high conscientiousness because she is self-disciplined, high agreeableness because she is trusting and cooperative, low neuroticism because she is relaxed and emotionally stable, and low extraversion because she prefers staying home. Her artistic nature may also suggest higher openness. The diagram showing this combination best represents her personality."
+    },
+    {
+      "question_id": "psychology-2019-mcq-099",
+      "paper_id": "psychology-ap-2019",
+      "number": 99,
+      "answer_label": "C",
+      "answer_content": "collectivism",
+      "explanation": "Collectivism is the cultural orientation that emphasizes group goals, cooperation, and interdependence over individual needs and desires. Placing group needs above one’s own needs is the defining feature of collectivism. Ethnocentrism, prejudice, ego defense, and cognitive dissonance refer to different social or psychological processes."
+    },
+    {
+      "question_id": "psychology-2019-mcq-100",
+      "paper_id": "psychology-ap-2019",
+      "number": 100,
+      "answer_label": "B",
+      "answer_content": "Generalized anxiety",
+      "explanation": "GABA is the brain’s main inhibitory neurotransmitter, so increasing its activity tends to calm neural activity and reduce excessive arousal or worry. Medications that enhance GABA are therefore used to treat anxiety disorders such as generalized anxiety disorder. They are not primarily used for bipolar disorder, schizophrenia, or personality disorders."
+    }
+  ],
+  "errors": []
+}

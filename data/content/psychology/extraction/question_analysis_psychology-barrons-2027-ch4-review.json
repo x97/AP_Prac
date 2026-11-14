@@ -1,0 +1,1714 @@
+{
+  "generated_at": "2026-10-27T13:36:58+00:00",
+  "paper_id": "psychology-barrons-2027-ch4-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 17,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-09fd996d9623d57e",
+          "name": "Nature versus nurture",
+          "confidence": 0.95,
+          "evidence": "Which of the following provides the best evidence for the influence of heredity as opposed to environment?",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-ae367ce30a383fdd",
+          "name": "Monozygotic (identical) twins",
+          "confidence": 0.9,
+          "evidence": "Identical twins raised separately tend to resemble their birth parents more than their adoptive parents.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4b170ea1ac9b7bc7",
+          "name": "nature",
+          "confidence": 0.8,
+          "evidence": "the influence of heredity as opposed to environment"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-18636d3b17ae9a97",
+          "name": "nurture",
+          "confidence": 0.7,
+          "evidence": "as opposed to environment"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4c345b36916cb866",
+          "name": "heritability",
+          "option_label": "B",
+          "reason": "Heritability concerns genetic share of trait variation; option B misuses twin similarity comparisons to suggest environment outweighs heredity."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "heredity",
+          "normalized": "heredity",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "environment",
+          "normalized": "environment",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Identical twins",
+          "normalized": "identical twins",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "raised separately",
+          "normalized": "raised separately",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "birth parents",
+          "normalized": "birth parents",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "adoptive parents",
+          "normalized": "adoptive parents",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Fraternal twins",
+          "normalized": "fraternal twins",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "intelligence tests",
+          "normalized": "intelligence tests",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is nature vs. nurture (heredity vs. environment) with identical twins raised apart as the key evidence. Fraternal twin options are confusable but not the tested core.",
+      "warnings": [
+        "keyword 'heredity': not a known alias of 'nature'; stored without a KP",
+        "keyword 'environment': not a known alias of 'nurture'; stored without a KP",
+        "keyword 'Identical twins': not a known alias of 'Monozygotic (identical) twins'; stored without a KP",
+        "keyword 'raised separately': not a known alias of 'Monozygotic (identical) twins'; stored without a KP",
+        "keyword 'intelligence tests': not a known alias of 'IQ'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-09fd996d9623d57e",
+          "name": "Nature versus nurture",
+          "confidence": 0.95,
+          "evidence": "Psychologists have long debated the relative influence of nature and nurture.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-ae367ce30a383fdd",
+          "name": "Monozygotic (identical) twins",
+          "confidence": 0.9,
+          "evidence": "Identical twins raised separately often exhibit striking similarities in personality.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4b170ea1ac9b7bc7",
+          "name": "nature",
+          "confidence": 0.8,
+          "evidence": "Which of the following statements provides the strongest evidence in support of the influence of nature?"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-549be2ead68ed98f",
+          "name": "Identical twins (monozygotic twins)",
+          "confidence": 0.7,
+          "evidence": "Identical twins raised separately often exhibit striking similarities in personality."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-18636d3b17ae9a97",
+          "name": "nurture",
+          "option_label": "B",
+          "reason": "Twins raised together share environment as well as genes, so similarities could reflect nurture rather than nature."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "nature and nurture",
+          "normalized": "nature and nurture",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "nature",
+          "normalized": "nature",
+          "kp_id": "psychology-barrons-2027-kp-4b170ea1ac9b7bc7",
+          "kp_name": "nature",
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Identical twins",
+          "normalized": "identical twins",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "raised separately",
+          "normalized": "raised separately",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "personality",
+          "normalized": "personality",
+          "kp_id": "psychology-barrons-2027-kp-536ad07baf327b51",
+          "kp_name": "Personality",
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Fraternal twins",
+          "normalized": "fraternal twins",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "raised together",
+          "normalized": "raised together",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the nature side of the nature-nurture debate using identical twins reared apart as the strongest genetic evidence. Fraternal twin options are weaker because they share fewer genes.",
+      "warnings": [
+        "keyword 'nature and nurture': not a known alias of 'Nature versus nurture'; stored without a KP",
+        "keyword 'Identical twins': not a known alias of 'Monozygotic (identical) twins'; stored without a KP",
+        "keyword 'raised together': not a known alias of 'nurture'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "name": "Cross-sectional research",
+          "confidence": 0.97,
+          "evidence": "they survey 40 people in their early teens, 40 people in their early 30’s, and 40 people in their early 50’s, and they use this data to make comparisons across cohorts of different ages",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "name": "Longitudinal research",
+          "option_label": "D",
+          "reason": "Longitudinal research also studies age-related change, but it follows the same participants over time rather than comparing separate age cohorts at one time."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "cross-sectional",
+          "normalized": "cross sectional",
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "kp_name": "Cross-sectional research",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "longitudinal",
+          "normalized": "longitudinal",
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "kp_name": "Longitudinal research",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "meta-analytic",
+          "normalized": "meta analytic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "experimental",
+          "normalized": "experimental",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "cohorts of different ages",
+          "normalized": "cohorts of different ages",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests recognition of a cross-sectional design: comparing different age cohorts at one point in time. Longitudinal is the closest confusable because both are developmental designs involving age.",
+      "warnings": [
+        "supporting 'Longitudinal research' duplicates a confusable; dropped",
+        "keyword 'meta-analytic': not a known alias of 'Meta-analysis'; stored without a KP",
+        "keyword 'cohorts of different ages': not a known alias of 'Cross-sectional research'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "name": "Cross-sectional research",
+          "confidence": 0.95,
+          "evidence": "they survey 40 people in their early teens, 40 people in their early 30’s, and 40 people in their early 50’s, and they use this data to make comparisons across cohorts of different ages",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-2ba64cbf27c5dac4",
+          "name": "Confounding variable",
+          "confidence": 0.9,
+          "evidence": "Differences between groups may be due to factors other than age.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "name": "Longitudinal research",
+          "option_label": "A",
+          "reason": "Attrition/dropout is a classic limitation of longitudinal designs, which follow the same participants over time, not of a cross-sectional comparison."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "comparisons across cohorts of different ages",
+          "normalized": "comparisons across cohorts of different ages",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "factors other than age",
+          "normalized": "factors other than age",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "drop out midway through the study",
+          "normalized": "drop out midway through the study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Surveys",
+          "normalized": "surveys",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the cross-sectional design and its confounding-variable limitation. Option A is a longitudinal-design concern, so it is a confusable with C02.",
+      "warnings": [
+        "supporting 'Longitudinal research' duplicates a confusable; dropped",
+        "keyword 'comparisons across cohorts of different ages': not a known alias of 'Cross-sectional research'; stored without a KP",
+        "keyword 'factors other than age': not a known alias of 'Confounding variable'; stored without a KP",
+        "keyword 'drop out midway through the study': not a known alias of 'Longitudinal research'; stored without a KP",
+        "keyword 'Surveys': not a known alias of 'Survey method'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5cfa915ad799c5a6",
+          "name": "Sympathetic nervous system",
+          "confidence": 0.97,
+          "evidence": "sympathetic nervous system",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-481455b565b8fe46",
+          "name": "Autonomic nervous system",
+          "confidence": 0.6,
+          "evidence": "Harry’s heart is pounding and his breathing rate is elevated"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-34b9e4dd2f2fb016",
+          "name": "Parasympathetic nervous system",
+          "option_label": "C",
+          "reason": "Parasympathetic is the opposing autonomic division; it calms the body rather than producing the pounding heart and rapid breathing seen here."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-465cd85dddaec654",
+          "name": "Peripheral nervous system (PNS)",
+          "option_label": "A",
+          "reason": "Peripheral nervous system is the broader category containing the autonomic division, so it is tempting as a superordinate answer."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-92b8ba83fe476b34",
+          "name": "Central nervous system (CNS)",
+          "option_label": "B",
+          "reason": "Central nervous system is the other major division of the nervous system, tempting as a general answer for bodily control."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "sympathetic nervous system",
+          "normalized": "sympathetic nervous system",
+          "kp_id": "psychology-barrons-2027-kp-5cfa915ad799c5a6",
+          "kp_name": "Sympathetic nervous system",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "parasympathetic nervous system",
+          "normalized": "parasympathetic nervous system",
+          "kp_id": "psychology-barrons-2027-kp-34b9e4dd2f2fb016",
+          "kp_name": "Parasympathetic nervous system",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "peripheral nervous system",
+          "normalized": "peripheral nervous system",
+          "kp_id": "psychology-barrons-2027-kp-465cd85dddaec654",
+          "kp_name": "Peripheral nervous system (PNS)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "central nervous system",
+          "normalized": "central nervous system",
+          "kp_id": "psychology-barrons-2027-kp-92b8ba83fe476b34",
+          "kp_name": "Central nervous system (CNS)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "heart is pounding",
+          "normalized": "heart is pounding",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "breathing rate is elevated",
+          "normalized": "breathing rate is elevated",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests identification of the sympathetic division as the system that mobilizes the body under stress; the autonomic system is a supporting superordinate concept.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f682cb5d2ddad669",
+          "name": "Cerebral cortex",
+          "confidence": 0.95,
+          "evidence": "Which part of the nervous system is the doctor probably least worried about?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d73967309760704e",
+          "name": "Motor neurons (efferent neurons)",
+          "option_label": "A",
+          "reason": "Motor neurons are part of reflex pathways, so they are a plausible physiological source of reflex problems."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-1de71bb3a5df59a6",
+          "name": "Sensory neurons (afferent neurons)",
+          "option_label": "B",
+          "reason": "Sensory neurons carry reflex input, so they are a plausible physiological source of reflex problems."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-465cd85dddaec654",
+          "name": "Peripheral nervous system (PNS)",
+          "option_label": "D",
+          "reason": "The peripheral nervous system contains the nerves involved in reflexes, so it is a plausible source of reflex problems."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "reflexes",
+          "normalized": "reflexes",
+          "kp_id": "psychology-barrons-2027-kp-611e55394c6c9319",
+          "kp_name": "Reflexes",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "nervous system",
+          "normalized": "nervous system",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cerebral cortex",
+          "normalized": "cerebral cortex",
+          "kp_id": "psychology-barrons-2027-kp-f682cb5d2ddad669",
+          "kp_name": "Cerebral cortex",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Motor neurons",
+          "normalized": "motor neurons",
+          "kp_id": "psychology-barrons-2027-kp-d73967309760704e",
+          "kp_name": "Motor neurons (efferent neurons)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Sensory neurons",
+          "normalized": "sensory neurons",
+          "kp_id": "psychology-barrons-2027-kp-1de71bb3a5df59a6",
+          "kp_name": "Sensory neurons (afferent neurons)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Peripheral nervous system",
+          "normalized": "peripheral nervous system",
+          "kp_id": "psychology-barrons-2027-kp-465cd85dddaec654",
+          "kp_name": "Peripheral nervous system (PNS)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests knowing that reflexes are spinal-cord mediated and not primarily controlled by the cerebral cortex; the correct answer is the least likely source of reflex problems.",
+      "warnings": [
+        "supporting 'Reflex arcs' is not in the correct option or the core subheading; dropped",
+        "keyword 'nervous system': not a known alias of 'Organization of the Nervous System'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2083c0612378b20c",
+          "name": "Endorphins",
+          "confidence": 0.95,
+          "evidence": "an endorphin agonist",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a87012c54b1be77f",
+          "name": "Agonists",
+          "confidence": 0.9,
+          "evidence": "an endorphin agonist",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0877fcb67989bb76",
+          "name": "Opiates",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "blocks the perception of pain",
+          "normalized": "blocks the perception of pain",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "endorphin agonist",
+          "normalized": "endorphin agonist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "endorphin agonist",
+          "normalized": "endorphin agonist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "acetylcholine agonist",
+          "normalized": "acetylcholine agonist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "serotonin antagonist",
+          "normalized": "serotonin antagonist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "glutamate antagonist",
+          "normalized": "glutamate antagonist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests both endorphins as natural painkillers and the agonist mechanism (mimicking a neurotransmitter). Antagonist is the key confusable because it is the same drug-action domain but the opposite mechanism.",
+      "warnings": [
+        "confusable 'Antagonists' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'endorphin agonist': not a known alias of 'Endorphins'; stored without a KP",
+        "keyword 'endorphin agonist': not a known alias of 'Agonists'; stored without a KP",
+        "keyword 'acetylcholine agonist': not a known alias of 'Agonists'; stored without a KP",
+        "keyword 'serotonin antagonist': not a known alias of 'Antagonists'; stored without a KP",
+        "keyword 'glutamate antagonist': not a known alias of 'Antagonists'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2f8510d6401e2668",
+          "name": "Neurotransmitters",
+          "confidence": 0.95,
+          "evidence": "The process depicted in the diagram would best be described as",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1dc94741a0204bfe",
+          "name": "Synapse",
+          "confidence": 0.7,
+          "evidence": "X represents one neuron and Y represents another neuron"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "neuron",
+          "normalized": "neuron",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "chemical",
+          "normalized": "chemical",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "electrical",
+          "normalized": "electrical",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "correlational",
+          "normalized": "correlational",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "evolutionary",
+          "normalized": "evolutionary",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests understanding that communication between neurons (across the synapse) is chemical, via neurotransmitters.",
+      "warnings": [
+        "confusable 'Action potential' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Correlation' is not named in option 'D' and is not in the core subheading; dropped",
+        "confusable 'Evolutionary (or Darwinian) Perspective' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'neuron': not a known alias of 'Neurons'; stored without a KP",
+        "keyword 'chemical': not a known alias of 'Neurotransmitters'; stored without a KP",
+        "keyword 'electrical': not a known alias of 'Action potential'; stored without a KP",
+        "keyword 'correlational': not a known alias of 'Correlation'; stored without a KP",
+        "keyword 'evolutionary': not a known alias of 'Evolutionary (or Darwinian) Perspective'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2f8510d6401e2668",
+          "name": "Neurotransmitters",
+          "confidence": 0.97,
+          "evidence": "Acetylcholine",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1dc94741a0204bfe",
+          "name": "Synapse",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Acetylcholine",
+          "normalized": "acetylcholine",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Leptin",
+          "normalized": "leptin",
+          "kp_id": "psychology-barrons-2027-kp-dbdad9258045a28a",
+          "kp_name": "Leptin",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Testosterone",
+          "normalized": "testosterone",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Cortisol",
+          "normalized": "cortisol",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests recognition that acetylcholine is a neurotransmitter, unlike the hormone distractors.",
+      "warnings": [
+        "confusable 'Endocrine system' is not named in option 'D' and is not in the core subheading; dropped",
+        "confusable 'Ovaries and testes' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Leptin' is in option 'A' but not in the core's narrow domain; dropped",
+        "keyword 'Acetylcholine': not a known alias of 'Neurotransmitters'; stored without a KP",
+        "keyword 'Testosterone': not a known alias of 'Ovaries and testes'; stored without a KP",
+        "keyword 'Cortisol': not a known alias of 'Endocrine system'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-010",
+      "number": 10,
+      "status": "needs_review",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1dc94741a0204bfe",
+          "name": "Synapse",
+          "confidence": 0.97,
+          "evidence": "D. Synapse",
+          "evidence_source": "unverified"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3a3edb6bb2c3d330",
+          "name": "Neurons",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-76ed3ce75d66b720",
+          "name": "Cell body (soma)",
+          "option_label": "A",
+          "reason": "Soma is a neuron part, tempting when identifying labeled neuron structures rather than the gap between neurons."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-296e4916ee6e9b29",
+          "name": "Axon",
+          "option_label": "B",
+          "reason": "Axon is a neuron part, tempting when identifying labeled neuron structures rather than the synapse."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Synapse",
+          "normalized": "synapse",
+          "kp_id": "psychology-barrons-2027-kp-1dc94741a0204bfe",
+          "kp_name": "Synapse",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Soma",
+          "normalized": "soma",
+          "kp_id": "psychology-barrons-2027-kp-76ed3ce75d66b720",
+          "kp_name": "Cell body (soma)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Axon",
+          "normalized": "axon",
+          "kp_id": "psychology-barrons-2027-kp-296e4916ee6e9b29",
+          "kp_name": "Axon",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Dendrite",
+          "normalized": "dendrite",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "Diagram-based item; core is the synapse as the space between neurons.",
+      "warnings": [
+        "confusable 'Dendrites' is not named in option 'C' and is not in the core subheading; dropped",
+        "core 'Synapse': evidence is not an exact quote from stem/context/correct option",
+        "keyword 'Dendrite': not a known alias of 'Dendrites'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-87af544bf850d292",
+          "name": "Myelin sheath",
+          "confidence": 0.95,
+          "evidence": "a loss of myelination in her neurons",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "myelination",
+          "normalized": "myelination",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "neurons",
+          "normalized": "neurons",
+          "kp_id": "psychology-barrons-2027-kp-3a3edb6bb2c3d330",
+          "kp_name": "Neurons",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "MRI",
+          "normalized": "mri",
+          "kp_id": "psychology-barrons-2027-kp-cbbab50a1d6d1612",
+          "kp_name": "Magnetic resonance imaging (MRI)",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Multiple sclerosis",
+          "normalized": "multiple sclerosis",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Schiziophrenia",
+          "normalized": "schiziophrenia",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Alzheimer’s",
+          "normalized": "alzheimer's",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Myasthenia gravis",
+          "normalized": "myasthenia gravis",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Multiple sclerosis is not in the candidate list, so it is a keyword with kp=null. Myasthenia gravis is an autoimmune neuromuscular disorder but not a demyelinating disease, so it is not treated as a confusable knowledge point.",
+      "warnings": [
+        "supporting 'Magnetic resonance imaging (MRI)' is not in the correct option or the core subheading; dropped",
+        "confusable 'schizophrenia' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Alzheimer’s disease' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'myelination': not a known alias of 'Myelin sheath'; stored without a KP",
+        "keyword 'Schiziophrenia': not a known alias of 'schizophrenia'; stored without a KP",
+        "keyword 'Alzheimer’s': not a known alias of 'Alzheimer’s disease'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-481dd8e6fc641981",
+          "name": "Positron emission tomography (PET) scan",
+          "confidence": 0.95,
+          "evidence": "PET and EEG",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e6ff39a88779c6d4",
+          "name": "Electroencephalogram (EEG)",
+          "confidence": 0.95,
+          "evidence": "PET and EEG",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fda901a853c1fba",
+          "name": "Ways of Studying the Brain",
+          "confidence": 0.7,
+          "evidence": "Which types of brain scans is he most likely to use?"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-cbbab50a1d6d1612",
+          "name": "Magnetic resonance imaging (MRI)",
+          "option_label": "A",
+          "reason": "MRI is a brain scan but shows structure rather than function, so it is tempting when the question asks about brain processes."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-4bbdb6f573e9dc65",
+          "name": "Computerized axial tomography (CAT or CT) scan",
+          "option_label": "A",
+          "reason": "CAT is a brain scan but shows structure rather than function, making it a near-miss for studying brain processes."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "brain scans",
+          "normalized": "brain scans",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "PET",
+          "normalized": "pet",
+          "kp_id": "psychology-barrons-2027-kp-481dd8e6fc641981",
+          "kp_name": "Positron emission tomography (PET) scan",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "EEG",
+          "normalized": "eeg",
+          "kp_id": "psychology-barrons-2027-kp-e6ff39a88779c6d4",
+          "kp_name": "Electroencephalogram (EEG)",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "MRI",
+          "normalized": "mri",
+          "kp_id": "psychology-barrons-2027-kp-cbbab50a1d6d1612",
+          "kp_name": "Magnetic resonance imaging (MRI)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "CAT",
+          "normalized": "cat",
+          "kp_id": "psychology-barrons-2027-kp-4bbdb6f573e9dc65",
+          "kp_name": "Computerized axial tomography (CAT or CT) scan",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "EKG",
+          "normalized": "ekg",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests knowledge of functional brain scans (PET and EEG) versus structural scans (MRI and CAT). EKG is not a brain scan and has no candidate knowledge point.",
+      "warnings": [
+        "keyword 'brain scans': not a known alias of 'Ways of Studying the Brain'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-013",
+      "number": 13,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c9fac2c495996fc4",
+          "name": "Split-brain patients",
+          "confidence": 0.95,
+          "evidence": "Split-brain patients are unable to",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-fdfc8d3a28561bb5",
+          "name": "Hemispheric specialization (brain lateralization)",
+          "confidence": 0.9,
+          "evidence": "speak about information received exclusively in their right hemisphere",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c7939b4fc45bfb52",
+          "name": "Hemispheres",
+          "confidence": 0.7,
+          "evidence": "speak about information received exclusively in their right hemisphere"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3612094a1d506460",
+          "name": "Motor cortex",
+          "option_label": "A",
+          "reason": "Muscle coordination is a motor-cortex function, tempting students to link split-brain surgery with movement deficits."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-7710f0fa5adbdb06",
+          "name": "Contralateral hemispheric organization",
+          "option_label": "C",
+          "reason": "Contralateral organization makes students reverse the hemisphere that controls speech, choosing the left-hemisphere option."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Split-brain patients",
+          "normalized": "split brain patients",
+          "kp_id": "psychology-barrons-2027-kp-c9fac2c495996fc4",
+          "kp_name": "Split-brain patients",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "right hemisphere",
+          "normalized": "right hemisphere",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "left hemisphere",
+          "normalized": "left hemisphere",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "coordinate movements",
+          "normalized": "coordinate movements",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "solve abstract problems",
+          "normalized": "solve abstract problems",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is split-brain syndrome plus hemispheric specialization for speech; contralateral organization supports why the right-hemisphere information cannot be spoken.",
+      "warnings": [
+        "confusable 'fluid intelligence' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'right hemisphere': not a known alias of 'Hemispheric specialization (brain lateralization)'; stored without a KP",
+        "keyword 'left hemisphere': not a known alias of 'Hemispheric specialization (brain lateralization)'; stored without a KP",
+        "keyword 'coordinate movements': not a known alias of 'Motor cortex'; stored without a KP",
+        "keyword 'solve abstract problems': not a known alias of 'fluid intelligence'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-014",
+      "number": 14,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-81494475a391ed20",
+          "name": "Hypothalamus",
+          "confidence": 0.97,
+          "evidence": "Hypothalamus and cerebellum",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-eff04e2ee9d27ff8",
+          "name": "Cerebellum",
+          "confidence": 0.97,
+          "evidence": "Hypothalamus and cerebellum",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3612094a1d506460",
+          "name": "Motor cortex",
+          "option_label": "A",
+          "reason": "Motor cortex is a tempting near-miss because it controls voluntary movement, but the described coordination/balance symptoms point to the cerebellum."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-8864cf66a9f2cdc3",
+          "name": "Somatosensory cortex",
+          "option_label": "B",
+          "reason": "Somatosensory cortex is a tempting cortical area for body-related processing, but it handles touch rather than hunger/temperature/coordination."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a70cdbdc91837053",
+          "name": "Medulla",
+          "option_label": "D",
+          "reason": "Medulla is a tempting hindbrain life-support structure, but it controls heart rate/breathing rather than the listed symptoms."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Hypothalamus",
+          "normalized": "hypothalamus",
+          "kp_id": "psychology-barrons-2027-kp-81494475a391ed20",
+          "kp_name": "Hypothalamus",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cerebellum",
+          "normalized": "cerebellum",
+          "kp_id": "psychology-barrons-2027-kp-eff04e2ee9d27ff8",
+          "kp_name": "Cerebellum",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Motor cortex",
+          "normalized": "motor cortex",
+          "kp_id": "psychology-barrons-2027-kp-3612094a1d506460",
+          "kp_name": "Motor cortex",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Somatosensory cortex",
+          "normalized": "somatosensory cortex",
+          "kp_id": "psychology-barrons-2027-kp-8864cf66a9f2cdc3",
+          "kp_name": "Somatosensory cortex",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "medulla",
+          "normalized": "medulla",
+          "kp_id": "psychology-barrons-2027-kp-a70cdbdc91837053",
+          "kp_name": "Medulla",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "CAT scan",
+          "normalized": "cat scan",
+          "kp_id": "psychology-barrons-2027-kp-4bbdb6f573e9dc65",
+          "kp_name": "Computerized axial tomography (CAT or CT) scan",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "body temperature fluctuations",
+          "normalized": "body temperature fluctuations",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "poor balance when walking and standing",
+          "normalized": "poor balance when walking and standing",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Core is the hypothalamus-cerebellum pairing required by the correct option; motor cortex and medulla are the closest same-domain distractors.",
+      "warnings": [
+        "supporting 'Motor cortex' duplicates a confusable; dropped",
+        "supporting 'Medulla' duplicates a confusable; dropped",
+        "keyword 'body temperature fluctuations': not a known alias of 'Hypothalamus'; stored without a KP",
+        "keyword 'poor balance when walking and standing': not a known alias of 'Cerebellum'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-015",
+      "number": 15,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1df8f93811c029b7",
+          "name": "Thalamus",
+          "confidence": 0.97,
+          "evidence": "Which part of her brain is most likely to have been affected?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-eff04e2ee9d27ff8",
+          "name": "Cerebellum",
+          "option_label": "A",
+          "reason": "Cerebellum is a brain structure, but it coordinates muscle movement rather than relaying visual sensory information."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "vision",
+          "normalized": "vision",
+          "kp_id": "psychology-barrons-2027-kp-23745e034bd65290",
+          "kp_name": "Vision",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Thalamus",
+          "normalized": "thalamus",
+          "kp_id": "psychology-barrons-2027-kp-1df8f93811c029b7",
+          "kp_name": "Thalamus",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cerebellum",
+          "normalized": "cerebellum",
+          "kp_id": "psychology-barrons-2027-kp-eff04e2ee9d27ff8",
+          "kp_name": "Cerebellum",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Parietal lobe",
+          "normalized": "parietal lobe",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Amygdala",
+          "normalized": "amygdala",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the thalamus as the sensory relay station, especially for vision. The parietal lobe and amygdala are same-domain brain-structure distractors; the cerebellum is a looser but still brain-structure distractor.",
+      "warnings": [
+        "supporting 'Vision' is not in the correct option or the core subheading; dropped",
+        "confusable 'Parietal lobes' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Amygdala and hippocampus' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Parietal lobe': not a known alias of 'Parietal lobes'; stored without a KP",
+        "keyword 'Amygdala': not a known alias of 'Amygdala and hippocampus'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-016",
+      "number": 16,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7710f0fa5adbdb06",
+          "name": "Contralateral hemispheric organization",
+          "confidence": 0.95,
+          "evidence": "Jeri is having difficulty moving her left arm and hand",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-853c7eac51d8bc0f",
+          "name": "Parietal lobes",
+          "confidence": 0.85,
+          "evidence": "Right frontal and parietal lobes",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d2b7d44832bf8308",
+          "name": "Frontal lobes",
+          "confidence": 0.8,
+          "evidence": "Right frontal and parietal lobes"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-8864cf66a9f2cdc3",
+          "name": "Somatosensory cortex",
+          "confidence": 0.75,
+          "evidence": "identifying items when she closes her eyes and feels them with her left hand"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e5243e56940ab123",
+          "name": "Occipital lobes",
+          "option_label": "D",
+          "reason": "Occipital lobe is a visual area, tempting when the stem mentions identifying items with eyes closed, but the task is touch-based somatosensory processing."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e9505c2b972d2ef9",
+          "name": "Temporal lobes",
+          "option_label": "B",
+          "reason": "Temporal lobe is an auditory area, a near-miss sensory lobe that does not fit the left-hand touch/movement symptoms."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "left arm and hand",
+          "normalized": "left arm and hand",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "frontal",
+          "normalized": "frontal",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "parietal",
+          "normalized": "parietal",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "occipital",
+          "normalized": "occipital",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "temporal",
+          "normalized": "temporal",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests contralateral hemispheric organization plus frontal/parietal localization; occipital and temporal are included as same-domain lobe confusables.",
+      "warnings": [
+        "keyword 'left arm and hand': not a known alias of 'Contralateral hemispheric organization'; stored without a KP",
+        "keyword 'Right frontal and parietal lobes': whole/long option text; dropped",
+        "keyword 'frontal': not a known alias of 'Frontal lobes'; stored without a KP",
+        "keyword 'parietal': not a known alias of 'Parietal lobes'; stored without a KP",
+        "keyword 'occipital': not a known alias of 'Occipital lobes'; stored without a KP",
+        "keyword 'temporal': not a known alias of 'Temporal lobes'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch4-review-017",
+      "number": 17,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1c36953a8d6684bf",
+          "name": "Reticular formation",
+          "confidence": 0.97,
+          "evidence": "Which part of Wilma’s brain likely accounts for this aspect of her personality?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1df8f93811c029b7",
+          "name": "Thalamus",
+          "option_label": "B",
+          "reason": "Thalamus is another brain structure; tempting as a relay/arousal-related structure but it relays sensory signals rather than controlling arousal and attention."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-76c9408df3801790",
+          "name": "Pons",
+          "option_label": "C",
+          "reason": "Pons is another brainstem structure involved in sleep/wake cycles, making it a plausible near-miss for vigilance/arousal."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Reticular formation",
+          "normalized": "reticular formation",
+          "kp_id": "psychology-barrons-2027-kp-1c36953a8d6684bf",
+          "kp_name": "Reticular formation",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "vigilant",
+          "normalized": "vigilant",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Thalamus",
+          "normalized": "thalamus",
+          "kp_id": "psychology-barrons-2027-kp-1df8f93811c029b7",
+          "kp_name": "Thalamus",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Pons",
+          "normalized": "pons",
+          "kp_id": "psychology-barrons-2027-kp-76c9408df3801790",
+          "kp_name": "Pons",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Hippocampus",
+          "normalized": "hippocampus",
+          "kp_id": "psychology-barrons-2027-kp-f43c26d7b4d29037",
+          "kp_name": "hippocampus",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is the reticular formation's role in arousal/attention, inferred from the correct option and the stem's vigilance cue. Supporting arousal theory is only loosely related and low confidence.",
+      "warnings": [
+        "supporting 'Arousal theory' is not in the correct option or the core subheading; dropped",
+        "confusable 'hippocampus' is in option 'D' but not in the core's narrow domain; dropped"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

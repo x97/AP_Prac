@@ -1,0 +1,755 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-02",
+ "kind": "quiz",
+ "number": 2,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 2 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 2",
+ "pdf_page_start": 91,
+ "pdf_page_end": 100,
+ "answer_page_start": 713,
+ "answer_page_end": 714,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Only 23 students chose “Classic.”",
+    "B": "More than half the students chose “Contemporary fiction.”",
+    "C": "More than one-quarter of the students chose “Nonfiction.”",
+    "D": "The number of students choosing “Contemporary fiction” minus the number choosing “Classic” was greater than the number choosing “Nonfiction.”"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       122.1,
+       340.2,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       141.6,
+       493.6,
+       158.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       161.1,
+       493.5,
+       177.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       180.6,
+       529.5,
+       197.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 91,
+   "page_end": 92,
+   "stem": "The following relative frequency table shows choices of reading materials for a random sample of high school students. Book Relative frequency Classic 0.23 Contemporary fiction 0.51 Nonfiction 0.26 Which of the following statements is not supported by the relative frequency table?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The proportion of students choosing “Classic” was 0.23, but the exact number is unknown because the sample size is not given.",
+   "question_id": "statistics-barrons-2027-quiz-02-001",
+   "source_pages": [
+    91,
+    92
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "The greatest number of adults participating in this survey were in the 65+ age group.",
+    "B": "The number of adults participating in this survey was 4% greater in the 30–44 age group than in the 18–29 age group.",
+    "C": "If the 45–64 and 65+ age groups were combined, the relative frequency of those who agree that formerly incarcerated people who have served their prison sentence deserve to be considered for jobs would be 81%.",
+    "D": "Age group 18–29 had the least relative frequency of any age group with regard to agreeing that formerly incarcerated people who have served their prison sentence deserve to be considered for jobs."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       541.1,
+       524.5,
+       557.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       577.3,
+       489.2,
+       594.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       613.5,
+       518.5,
+       630.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 92,
+      "bbox": [
+       110.0,
+       683.1,
+       511.7,
+       699.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 92,
+     "bbox": [
+      152.7,
+      339.3,
+      459.7,
+      453.4
+     ]
+    }
+   ],
+   "page_start": 92,
+   "page_end": 93,
+   "stem": "The following bar chart shows the relative frequencies of adults from different age groups who agree that formerly incarcerated people who have served their prison sentence deserve to be considered for jobs. Which of the following statements is supported by the bar chart?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The number of participating adults from each age group might be different, which rules out choices (A), (B), and (C). The least relative frequency on the bar chart is 67%, corresponding to age group 18–29.",
+   "question_id": "statistics-barrons-2027-quiz-02-002",
+   "source_pages": [
+    92,
+    93
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The number of students who self-graded and received a prize is greater than the number of students who were teacher graded who received a prize.",
+    "B": "When allowed to self-grade, students will cheat.",
+    "C": "Teacher-graded quizzes had the lowest relative frequency of receiving a prize compared with self-graded or classmate-graded quizzes.",
+    "D": "Classmate-graded quizzes seem to be the fairest way of grading."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       429.0,
+       529.4,
+       445.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       481.9,
+       432.3,
+       498.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       501.4,
+       506.6,
+       518.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       554.3,
+       481.4,
+       571.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 93,
+     "bbox": [
+      152.7,
+      264.1,
+      459.7,
+      341.3
+     ]
+    }
+   ],
+   "page_start": 93,
+   "page_end": 93,
+   "stem": "A college psychology professor has three introductory classes. One day, she hands out a surprise quiz in all three classes and announces that anyone achieving a certain score will receive a prize, a large chocolate chip cookie. In one class, she grades the quizzes herself. In another class, she has the students grade their own quizzes. In the third class, she has students hand their quizzes to classmates to grade. The graph below summarizes the data. Which statement is supported by the above graph?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The graph gives relative frequencies, not actual numbers of students. There may be many possible explanations other than cheating for self-grading to result in higher scores.",
+   "question_id": "statistics-barrons-2027-quiz-02-003",
+   "source_pages": [
+    93,
+    93
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The mean weight is less than the median weight.",
+    "B": "The mean weight is the average of the first and third quartiles.",
+    "C": "There are more weights between the first quartile and median than there are between the median and the third quartile.",
+    "D": "The value of the maximum weight minus the median weight is greater than the median weight minus the minimum weight."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       675.4,
+       440.2,
+       692.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 93,
+      "bbox": [
+       110.0,
+       694.9,
+       523.8,
+       711.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       72.0,
+       519.9,
+       88.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       108.2,
+       522.1,
+       125.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 93,
+   "page_end": 94,
+   "stem": "A random sample of weights of student backpacks gives a skewed right graph. Which of the following statements is most reasonable based on this graph?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "In a skewed right distribution, the right tail is longer than the left and the mean is usually greater than the median. There are 25% of the values between the first quartile and median, and there are 25% between the median and the third quartile.",
+   "question_id": "statistics-barrons-2027-quiz-02-004",
+   "source_pages": [
+    93,
+    94
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "There are two clusters, a gap, an outlier between 78 and 79, and a range between 7 and 9.",
+    "B": "There are two clusters, a gap, an outlier between 78 and 79, and a range between 11 and 13.",
+    "C": "The distribution is bimodal, is skewed right, and has a gap between 75 and 78.",
+    "D": "The distribution is bimodal, is roughly symmetric, and has outliers below 66 and above 75."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       378.2,
+       511.5,
+       395.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       414.4,
+       511.3,
+       431.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       450.6,
+       496.3,
+       467.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 94,
+      "bbox": [
+       110.0,
+       486.8,
+       493.6,
+       503.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 94,
+     "bbox": [
+      152.7,
+      216.8,
+      459.7,
+      290.5
+     ]
+    }
+   ],
+   "page_start": 94,
+   "page_end": 94,
+   "stem": "The heights of high school students trying out for the baseball and basketball teams is summarized in the following histogram. Which of the following is the best description of the distribution?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "There are two clusters, a gap, and an outlier between 78 and 79. The range is at least 78 − 67 = 11 and at most 79 − 66 = 13. There are no low outliers, and although the distribution does have a high outlier, it is not skewed.",
+   "question_id": "statistics-barrons-2027-quiz-02-005",
+   "source_pages": [
+    94,
+    94
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Both stemplots illustrate skewed left distributions.",
+    "B": "The original stemplot illustrates a skewed left distribution, and the second stemplot illustrates a skewed right distribution.",
+    "C": "The original stemplot illustrates a skewed right distribution, and the second stemplot illustrates a skewed left distribution.",
+    "D": "Both stemplots illustrate skewed right distributions."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 95,
+      "bbox": [
+       110.0,
+       319.8,
+       443.2,
+       336.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 95,
+      "bbox": [
+       110.0,
+       339.3,
+       519.8,
+       356.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 95,
+      "bbox": [
+       110.0,
+       375.4,
+       528.7,
+       392.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 95,
+      "bbox": [
+       110.0,
+       411.6,
+       453.0,
+       428.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 95,
+     "bbox": [
+      225.8,
+      72.0,
+      386.6,
+      198.7
+     ]
+    }
+   ],
+   "page_start": 94,
+   "page_end": 95,
+   "stem": "The following stemplot shows the difference in heights (husband minus wife) of 17 randomly chosen couples. Suppose a second stemplot is drawn showing the difference in heights (wife minus husband) using the same data. Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The second stemplot would be shown as:",
+   "question_id": "statistics-barrons-2027-quiz-02-006",
+   "source_pages": [
+    94,
+    95
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Categorical and discrete",
+    "B": "Categorical and continuous",
+    "C": "Quantitative and discrete",
+    "D": "Quantitative and continuous"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       72.0,
+       284.6,
+       88.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       91.5,
+       303.4,
+       108.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       111.0,
+       291.1,
+       127.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       130.5,
+       311.1,
+       147.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 95,
+     "bbox": [
+      225.8,
+      520.2,
+      386.6,
+      627.4
+     ]
+    }
+   ],
+   "page_start": 95,
+   "page_end": 96,
+   "stem": "The following dotplot shows the number of rebounds grabbed by the 20 players participating in a randomly picked high school basketball game. Which of the following best describes the type of variable represented in the dotplot?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The number of rebounds is an integer. It is numerical because we can take an average.",
+   "question_id": "statistics-barrons-2027-quiz-02-007",
+   "source_pages": [
+    95,
+    96
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "The shape of the distribution",
+    "B": "The sum of the frequencies",
+    "C": "The heights of the bars",
+    "D": "The widths of the bars"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       525.8,
+       314.6,
+       542.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       545.3,
+       305.6,
+       562.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       564.8,
+       280.6,
+       581.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 96,
+      "bbox": [
+       110.0,
+       584.2,
+       276.9,
+       601.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 96,
+     "bbox": [
+      185.4,
+      239.0,
+      427.0,
+      421.4
+     ]
+    }
+   ],
+   "page_start": 96,
+   "page_end": 96,
+   "stem": "The following histogram summarizes the amount spent on room and board per year (in $1,000) by a random sample of 35 college students. If the interval size is decreased from $1,000 to $500, which of the following will remain the same on the new histogram?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The total number of students represented in the histogram will remain at 35.",
+   "question_id": "statistics-barrons-2027-quiz-02-008",
+   "source_pages": [
+    96,
+    96
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 96,
+     "bbox": [
+      185.4,
+      239.0,
+      427.0,
+      421.4
+     ]
+    },
+    {
+     "page": 97,
+     "bbox": [
+      152.7,
+      126.3,
+      459.7,
+      329.5
+     ]
+    }
+   ],
+   "page_start": 97,
+   "page_end": 97,
+   "stem": "Ms. D has 3 AP Statistics sections with a total of 105 students. The scores on one quiz are summarized in the following dotplot. (a) Describe the distribution. (b) Would you expect the median to be less than or greater than the mean?",
+   "correct_answer": null,
+   "answer_text": "(a) The distribution of quiz scores is skewed left, is centered around 95, and has a range of 100 − 73 = 27. (b) With skewed left distributions, we expect the median to be greater than the mean.",
+   "question_id": "statistics-barrons-2027-quiz-02-009",
+   "context": "",
+   "source_pages": [
+    97,
+    97
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 98,
+     "bbox": [
+      205.6,
+      195.9,
+      406.8,
+      368.5
+     ]
+    }
+   ],
+   "page_start": 97,
+   "page_end": 98,
+   "stem": "Many students perceive e-cigarettes as less harmful than traditional cigarettes, but research shows that both cigarettes and e-cigarettes can lead to nicotine addiction, respiratory issues, and other health problems. Data collected from over 5,000 students asking about e- cigarette use are summarized in the following table. Current school level Middle school High school College Number of students 1,400 2,900 1,800 Number admitting to using e- 51 241 371 cigarettes (a) What is the investigative question of interest? (b) Are the data categorical or numerical? Explain. (c) Explain why a relative frequency distribution is more appropriate than a frequency distribution in analyzing the data. (d) The following bar chart showing relative frequencies of e- cigarette use by school level is constructed from the data. What does the bar chart indicate about the relationship between school level and e-cigarette use?",
+   "correct_answer": null,
+   "answer_text": "(a) Is there convincing statistical evidence of a relationship between school level and e-cigarette use in the population of all students in middle school, high school, and college? (b) Categorical, because the data are counts. (c) Relative frequencies are more appropriate in analyzing these data because there are different numbers of students who were surveyed from each school level. (d) Middle school students have the lowest relative frequency use of e-cigarettes. High school students appear to have a relative frequency use of e-cigarettes more than double that of middle school students. College students appear to have a relative frequency use of e- cigarettes more than double that of high school students. In this survey, higher e-cigarette use was associated with higher school levels.",
+   "question_id": "statistics-barrons-2027-quiz-02-010",
+   "context": "",
+   "source_pages": [
+    97,
+    98
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 99,
+     "bbox": [
+      205.6,
+      72.0,
+      406.8,
+      250.2
+     ]
+    }
+   ],
+   "page_start": 98,
+   "page_end": 99,
+   "stem": "Twenty-six professional basketball players took shots from midcourt until they made a basket. The number of shots taken by the players is summarized in the following table and histogram. Shots taken 1 ≤ x < 5 5 ≤ x < 10 10 ≤ x < 15 Number of players 4 15 7 (a) Given the table, why was a histogram more appropriate than a dotplot or a stemplot for displaying these data? (b) What percentage of players took over 4 attempts before making a half-court basket? (c) If each of the intervals is divided in half and the corresponding numbers given, what percent would be over 4?",
+   "correct_answer": null,
+   "answer_text": "(a) Given numerical data and three intervals with corresponding frequencies immediately leads to construction of a histogram. Dotplots and stemplots cannot be constructed when individual values are not given. (b) (c) The answer is still 84.6%.",
+   "question_id": "statistics-barrons-2027-quiz-02-011",
+   "context": "",
+   "source_pages": [
+    98,
+    99
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 100,
+     "bbox": [
+      205.6,
+      72.0,
+      406.8,
+      433.2
+     ]
+    }
+   ],
+   "page_start": 99,
+   "page_end": 100,
+   "stem": "A medical researcher performs a year-long test to compare two new weight loss medications. Each of 46 volunteers takes Medication A for 6 months and Medication B for 6 months. Twenty-three of the participants are randomly chosen to take A first while the remaining 23 participants take B first. The difference in weight loss (under Medication A minus under Medication B) for the participants is summarized in the following stemplot. (a) Explain what a negative difference indicates in the context of this study. (b) Describe the distribution given by the stemplot. (c) What conclusion is reasonable from this set of data? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) A negative difference indicates a volunteer who lost more weight taking Medication B than taking Medication A. (b) The distribution of differences in weight loss (under Medication A minus under Medication B) is skewed left (toward lower values), has a center around 3.1 pounds, and has a range of 8.5 − (−5.0) = 13.5 pounds. (c) Medication A appears to be more effective for weight loss. Eleven participants lost more weight with Medication B, while 35 participants lost more weight with Medication A.",
+   "question_id": "statistics-barrons-2027-quiz-02-012",
+   "context": "",
+   "source_pages": [
+    99,
+    100
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 12,
+ "mcq_count": 8,
+ "frq_count": 4
+}

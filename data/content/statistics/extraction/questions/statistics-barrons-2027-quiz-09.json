@@ -1,0 +1,809 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-09",
+ "kind": "quiz",
+ "number": 9,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 9 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 9",
+ "pdf_page_start": 215,
+ "pdf_page_end": 224,
+ "answer_page_start": 725,
+ "answer_page_end": 726,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "10%",
+    "B": "30%",
+    "C": "40%",
+    "D": "50%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 215,
+      "bbox": [
+       113.0,
+       645.0,
+       173.5,
+       663.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 215,
+      "bbox": [
+       113.0,
+       666.0,
+       173.4,
+       684.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 215,
+      "bbox": [
+       113.0,
+       687.0,
+       173.5,
+       705.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       72.0,
+       174.7,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 215,
+   "page_end": 216,
+   "stem": "What percentage of those surveyed were students?",
+   "context": "Questions 1–5 are based on the following: Students, teachers, and administrators were asked which of three teacher characteristics (challenging, enthusiastic, strict) they considered most important for a successful classroom experience. Five hundred people in a high school community were surveyed with the following results: Challenging Enthusiastic Strict Total Student 50 150 50 250 Teacher 125 50 25 200 Administrator 15 10 25 50 Total 190 210 100 500",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Of the 500 people surveyed, 250 were students, and",
+   "question_id": "statistics-barrons-2027-quiz-09-001",
+   "source_pages": [
+    215,
+    216
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "25%",
+    "B": "38%",
+    "C": "40%",
+    "D": "62.5%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       156.0,
+       173.5,
+       174.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       177.0,
+       173.4,
+       195.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       198.0,
+       173.5,
+       216.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       219.0,
+       187.4,
+       237.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 216,
+   "page_end": 216,
+   "stem": "What percentage of those surveyed picked challenging as most important and were teachers?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Of the 500 people surveyed, 125 picked challenging as most important and were also teachers: .",
+   "question_id": "statistics-barrons-2027-quiz-09-002",
+   "source_pages": [
+    216,
+    216
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "5%",
+    "B": "10%",
+    "C": "25%",
+    "D": "50%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       303.0,
+       165.3,
+       321.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       324.0,
+       173.4,
+       342.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       345.0,
+       173.5,
+       363.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       366.0,
+       174.7,
+       384.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 216,
+   "page_end": 216,
+   "stem": "What percentage of administrators picked strict as most important?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "There were 50 administrators, and 25 of them picked strict as most important: .",
+   "question_id": "statistics-barrons-2027-quiz-09-003",
+   "source_pages": [
+    216,
+    216
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "30%",
+    "B": "42%",
+    "C": "60%",
+    "D": "71.4%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       450.0,
+       173.5,
+       468.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       471.0,
+       173.4,
+       489.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       492.0,
+       173.5,
+       510.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       513.0,
+       187.4,
+       531.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 216,
+   "page_end": 216,
+   "stem": "What percentage of those picking enthusiastic as most important were students?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "There were 210 people picking enthusiastic as most important, and 150 of them were students: .",
+   "question_id": "statistics-barrons-2027-quiz-09-004",
+   "source_pages": [
+    216,
+    216
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Student",
+    "B": "Teacher",
+    "C": "Administrator",
+    "D": "Teacher and administrator, equally Questions 6–7 are based on the following. A study of music preferences in three geographic locations resulted in the following segmented bar chart:"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       597.0,
+       193.8,
+       615.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       618.0,
+       193.9,
+       636.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       639.0,
+       230.9,
+       657.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 216,
+      "bbox": [
+       113.0,
+       660.0,
+       370.4,
+       678.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 217,
+     "bbox": [
+      107.2,
+      148.5,
+      504.8,
+      371.2
+     ]
+    }
+   ],
+   "page_start": 216,
+   "page_end": 217,
+   "stem": "Which group of people were most likely to pick strict as most important?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The percentages of students, teachers, and administrators picking strict as most important were 20%, 12.5%, and 50%, respectively.",
+   "question_id": "statistics-barrons-2027-quiz-09-005",
+   "source_pages": [
+    216,
+    217
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "The percentage of those from the Northeast who prefer classical is greatest.",
+    "B": "The percentage of those from the West who prefer country is greatest.",
+    "C": "The percentage of those from the South who prefer pop or rock is greatest.",
+    "D": "It is impossible to determine the answer without knowing the actual numbers of people involved."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       422.2,
+       511.4,
+       440.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       461.2,
+       533.7,
+       479.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       500.2,
+       532.9,
+       518.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       539.2,
+       524.1,
+       557.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 217,
+   "page_end": 217,
+   "stem": "Which of the following is greatest?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Based on lengths of indicated segments, the percentage from the West who prefer country is the greatest.",
+   "question_id": "statistics-barrons-2027-quiz-09-006",
+   "source_pages": [
+    217,
+    217
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "The number of people in the Northeast who prefer pop or rock is greatest.",
+    "B": "The number of people in the West who prefer classical is greatest.",
+    "C": "The number of people in the South who prefer country is greatest.",
+    "D": "It is impossible to determine the answer without knowing the actual numbers of people involved."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       623.2,
+       525.0,
+       641.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 217,
+      "bbox": [
+       113.0,
+       662.2,
+       518.1,
+       680.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       72.0,
+       520.4,
+       90.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       111.0,
+       524.1,
+       129.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 217,
+   "page_end": 218,
+   "stem": "Which of the following is greatest?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The given bar chart shows percentages, not actual numbers.",
+   "question_id": "statistics-barrons-2027-quiz-09-007",
+   "source_pages": [
+    217,
+    218
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "The number of students with GPAs under 3.0 who were banned from car use is greater than the number of students with GPAs 3.0 or higher who were banned from car use.",
+    "B": "More students had a GPA 3.0 or higher and were either yelled at or grounded than had a GPA under 3.0 and were yelled at.",
+    "C": "Of the students who were grounded, a greater proportion had GPAs 3.0 or higher than GPAs under 3.0.",
+    "D": "More students had a GPA under 3.0 than a GPA 3.0 or higher."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       434.2,
+       510.6,
+       452.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       509.2,
+       508.8,
+       527.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       566.2,
+       524.6,
+       584.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 218,
+      "bbox": [
+       113.0,
+       605.2,
+       502.0,
+       623.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 218,
+     "bbox": [
+      147.0,
+      287.2,
+      465.0,
+      365.2
+     ]
+    }
+   ],
+   "page_start": 218,
+   "page_end": 218,
+   "stem": "High school students were surveyed as to whether or not their GPA was 3.0 or higher and what was the most severe punishment they had ever received from their parents. The results are displayed in the following mosaic plot. Based on the above plot, which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "In mosaic plots, the area of a box is proportional to the count corresponding to that box. Choice (D) is true because the three boxes corresponding to students with GPAs under 3.0 have a total area greater than the three boxes corresponding to students with GPAs 3.0 or higher, or note that along the vertical axis, “GPA under 3.0” has a greater length than “GPA 3.0 or higher.”",
+   "question_id": "statistics-barrons-2027-quiz-09-008",
+   "source_pages": [
+    218,
+    218
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "Given a receiver’s choice, the conditional relative frequencies of that choice are the same whichever the server’s choice.",
+    "B": "Given a receiver’s choice, the conditional relative frequencies of that choice are different depending on the server’s choice.",
+    "C": "The marginal relative frequencies for the server and receiver are equal.",
+    "D": "The marginal relative frequencies for the server and receiver are not equal."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 219,
+      "bbox": [
+       113.0,
+       396.7,
+       464.4,
+       414.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 219,
+      "bbox": [
+       113.0,
+       453.7,
+       464.2,
+       471.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 219,
+      "bbox": [
+       113.0,
+       510.7,
+       486.2,
+       528.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 219,
+      "bbox": [
+       113.0,
+       549.7,
+       487.3,
+       567.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 218,
+   "page_end": 219,
+   "stem": "The average speed of a first serve in men’s professional tennis is 120 mph. Assume that the server aims either for the corner or down the line. Assume the receiver moves toward the corner or the line depending on where he thinks the serve will go. The following table summarizes the directions taken by the server and the receiver over 500 serves. Server aims For the Down the Total corner line Toward 300 50 Receiver 350 the corner moves Toward 100 50 150 the line Total 400 100 500 Which of the following indicates an association between the server’s choice and the receiver’s choice?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "If there was no association, the conditional relative frequency for the receiver moving toward the corner should be about the same if the server aims for the corner or aims down the line. However, the conditional relative frequencies of the receiver moving toward the corner are if the server aims for the corner and if the server aims for down the line. So there does appear to be an association.",
+   "question_id": "statistics-barrons-2027-quiz-09-009",
+   "source_pages": [
+    218,
+    219
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "The conditional relative frequency of middle school students who preferred dogs is different from the conditional relative frequency of high school students who preferred dogs.",
+    "B": "The conditional relative frequency of middle school students who preferred dogs is different from the relative frequency of middle school students who preferred cats.",
+    "C": "The percent of the group who were high school students who preferred dogs is greater that the percent who were middle school students who preferred dogs.",
+    "D": "The percent of the group who were high school students who preferred a pet other than dogs or cats is twice the percent of the group who were middle school students who preferred a pet other than dogs or cats."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 220,
+      "bbox": [
+       113.0,
+       188.2,
+       479.1,
+       206.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 220,
+      "bbox": [
+       113.0,
+       263.2,
+       478.9,
+       281.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 220,
+      "bbox": [
+       113.0,
+       320.2,
+       518.4,
+       338.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 220,
+      "bbox": [
+       113.0,
+       377.2,
+       519.6,
+       395.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 219,
+   "page_end": 220,
+   "stem": "The following table summarizes the relative frequencies from the data collected from a group of middle school and high school students about their favorite type of pet. Dogs Cats Other Middle school students 0.20 0.10 0.05 High school students 0.30 0.25 0.10 Which of the following indicates an association between the school level and pet choice?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "If there was no association, the conditional relative frequency of preferring dogs should be about the same for middle school students and for high school students. The conditional relative frequency of preferring dogs for middle school students is , while the conditional relative frequency of preferring dogs for high school students is So there does appear to be an association.",
+   "question_id": "statistics-barrons-2027-quiz-09-010",
+   "source_pages": [
+    219,
+    220
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 221,
+     "bbox": [
+      206.2,
+      373.5,
+      405.8,
+      495.8
+     ]
+    }
+   ],
+   "page_start": 220,
+   "page_end": 221,
+   "stem": "For one study of racial disparities in traffic stops, 225 random records for drivers pulled over for speeding at night (when it is difficult to distinguish race/ethnicity at a distance) were analyzed. The following two-way table summarizes one aspect of the data. Latino White drivers Black drivers drivers Total Ticket 36 30 27 93 Warning 84 30 18 132 Total 120 60 45 225 (a) Of the drivers pulled over for speeding who were given a ticket, what proportion were Latino? (b) Of the drivers pulled over for speeding who were White, what percent were given a warning? (c) The mosaic plot displays the distribution of tickets versus warnings given by race/ethnicity. Describe what this graph reveals about the association between these two variables for the 225 drivers pulled over for speeding.",
+   "correct_answer": null,
+   "answer_text": "(a) Of the speeding pullovers who were given a ticket, 27 out of 93, or , were Latino. (b) Of the speeding pullovers who were White, 84 out of 120, or , were given a warning. (c) Based upon the mosaic plot, there is an association between race/ethnicity and whether or not a ticket or warning is given to drivers pulled over for speeding at night. Whites are more likely to receive a warning, Blacks are equally as likely to receive a warning or a ticket, while Latinos are more likely to receive a ticket. Latinos were twice as likely to receive a ticket as Whites.",
+   "question_id": "statistics-barrons-2027-quiz-09-011",
+   "context": "",
+   "source_pages": [
+    220,
+    221
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 221,
+   "page_end": 222,
+   "stem": "In 1973, a question arose concerning possible gender discrimination in admissions to a particular graduate school. The graduate school analyzed admissions to the largest graduate programs, and below are partial results of that study: Men Women Women Program Accepted Men Rejected Accepted Rejected A 511 314 89 19 E 53 138 95 298 (a) Find the percentage of men and the percentage of women accepted by each of the two programs. Comment on any pattern or bias you see. (b) Find the percentage of men and the percentage of women accepted overall by these two programs. Does this appear to contradict the results from part (a)? (c) If you worked in the graduate admissions office, what would you say to an inquiring reporter who is investigating gender bias in graduate admissions?",
+   "correct_answer": null,
+   "answer_text": "(a) Program Percentage of Men Accepted (%) Percentage of Women Accepted (%) A 62 82 E 28 24 Women seem to be favored in program A, while men seem to be slightly favored in program E. (b) Overall, 564 out of 1,016 male applicants were accepted, for a 55.5% acceptance rate, while 184 out of 501 female applicants were accepted, for a 36.7% acceptance rate. This appears to contradict the results from part (a). (c) You should tell the reporter that although it is true that the overall acceptance rate in these two programs for women is 36.7% compared with the 55.5% acceptance rate for men, in one program women have a much higher acceptance rate than men, while in the other program women have only a slightly lower acceptance rate than men. The reason behind this apparent paradox is that between these two programs, most men applied to program A, which had a high acceptance rate. However, most women applied to program E, which had a low acceptance rate.",
+   "question_id": "statistics-barrons-2027-quiz-09-012",
+   "context": "",
+   "source_pages": [
+    221,
+    222
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 223,
+     "bbox": [
+      107.2,
+      235.5,
+      504.8,
+      495.8
+     ]
+    }
+   ],
+   "page_start": 222,
+   "page_end": 223,
+   "stem": "To compare two review books with regard to success rates on the AP Statistics exam, researchers randomly sampled students who had purchased one of the two books before the exam. A score of 3 or higher generally results in college credit at most institutions. The following table summarizes the data. Review book A Review book B Total Scored 3 or 450 180 630 higher Scored below 3 255 165 420 Total 705 345 1,050 (a) Complete the following table showing relative frequencies of scoring 3 or higher and of scoring below 3 for students using each of the review books. Review book A Review book B Scored 3 or higher Scored below 3 (b) Based on the above relative frequency table, using which book seems to lead to better results? Explain. (c) Can the researchers conclude that using the book you chose in (b) causes a better exam result? Explain. An AP Statistics teacher believes that separating the data into results obtained by stronger and weaker students would lead to a more meaningful conclusion. She examines the data and constructs the following two mosaic plots (with Weak and Strong to note the student strength). Based on the mosaic plots, the teacher concluded that book B leads to better results with both stronger and weaker students. (d) Give statistical calculations to support the teacher’s conclusions. (e) Explain the apparent contradiction between the answers in (b) and (d).",
+   "correct_answer": null,
+   "answer_text": "(a) Review book A Review book B Scored 3 or higher",
+   "question_id": "statistics-barrons-2027-quiz-09-013",
+   "context": "",
+   "source_pages": [
+    222,
+    223
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 13,
+ "mcq_count": 10,
+ "frq_count": 3
+}

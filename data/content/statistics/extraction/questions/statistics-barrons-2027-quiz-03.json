@@ -1,0 +1,835 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-03",
+ "kind": "quiz",
+ "number": 3,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 3 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 3",
+ "pdf_page_start": 123,
+ "pdf_page_end": 131,
+ "answer_page_start": 714,
+ "answer_page_end": 716,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Approximately zero",
+    "B": "Less than one, but definitely above zero",
+    "C": "Approximately one",
+    "D": "Greater than one"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       426.2,
+       255.0,
+       443.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       445.7,
+       382.8,
+       462.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       465.2,
+       251.7,
+       482.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       484.7,
+       243.2,
+       501.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 124,
+     "bbox": [
+      104.7,
+      126.3,
+      507.7,
+      365.7
+     ]
+    },
+    {
+     "page": 124,
+     "bbox": [
+      312.8,
+      389.4,
+      449.2,
+      409.6
+     ]
+    }
+   ],
+   "page_start": 124,
+   "page_end": 124,
+   "stem": "The graph below shows household income in Laguna Woods, California. What can be said about the ratio ?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The distribution is clearly skewed right, so the mean is greater than the median and the ratio is greater than one.",
+   "question_id": "statistics-barrons-2027-quiz-03-001",
+   "source_pages": [
+    124,
+    124
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "z = 0.04",
+    "B": "z = 0.4",
+    "C": "z = 1.80",
+    "D": "z = 2.40"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       605.8,
+       189.5,
+       622.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       625.3,
+       181.7,
+       642.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       644.8,
+       189.5,
+       661.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 124,
+      "bbox": [
+       110.0,
+       664.3,
+       190.6,
+       681.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 124,
+   "page_end": 124,
+   "stem": "Students in an algebra class were timed in seconds while solving a series of mathematical brainteasers. One student’s time had a standardized score of z = 2.40. If the times are all changed to minutes, what will then be the student’s standardized score?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Multiplying every value in a set by the same constant (in this case, by ) multiplies both the mean and the standard deviation by the same constant. Standardized scores (the number of standard deviations from the mean) are unchanged and without units.",
+   "question_id": "statistics-barrons-2027-quiz-03-002",
+   "source_pages": [
+    124,
+    124
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The value 10 is an outlier, and there can be no others.",
+    "B": "The value 60 is an outlier, and there can be no others.",
+    "C": "Both 10 and 60 are outliers, and there may be others.",
+    "D": "The value 60 is an outlier, and there may be others at the high end of the data set."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 125,
+      "bbox": [
+       110.0,
+       311.4,
+       470.8,
+       328.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 125,
+      "bbox": [
+       110.0,
+       330.9,
+       470.6,
+       347.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 125,
+      "bbox": [
+       110.0,
+       350.4,
+       469.4,
+       367.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 125,
+      "bbox": [
+       110.0,
+       369.9,
+       523.5,
+       386.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 125,
+   "page_end": 125,
+   "stem": "Dieticians are concerned about sugar consumption in teenagers’ diets (a 12-ounce can of soft drink typically has 10 teaspoons of sugar). In a random sample of 55 students, the number of teaspoons of sugar consumed for each student on a randomly selected day is tabulated. Summary statistics are noted below: Min = 10 Max = 60 First quartile Third quartile = 25 = 38 Median = 31 Mean = 31.4 n = 55 s = 11.6 Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Outliers are any values below Q1 − 1.5(IQR) = 25 − 1.5(38 − 25) = 5.5 or above Q3 + 1.5(IQR) = 38 + 1.5(38 − 25) = 57.5. With a minimum of 10 > 5.5, there are no outliers on the low end; however, with a maximum of 60 > 57.5, the maximum is an outlier and so are any other values falling between 57.5 and 60.",
+   "question_id": "statistics-barrons-2027-quiz-03-003",
+   "source_pages": [
+    125,
+    125
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "Both the mean and median will be unchanged.",
+    "B": "The median will be unchanged, but the mean will increase.",
+    "C": "The mean will be unchanged, but the median will increase.",
+    "D": "Both the mean and median will change."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 125,
+      "bbox": [
+       110.0,
+       686.6,
+       424.3,
+       703.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       72.0,
+       499.8,
+       88.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       91.5,
+       500.0,
+       108.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       111.0,
+       382.8,
+       127.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 125,
+     "bbox": [
+      104.7,
+      481.2,
+      507.7,
+      576.6
+     ]
+    }
+   ],
+   "page_start": 125,
+   "page_end": 126,
+   "stem": "Below is a boxplot of CO2 levels (in grams per kilometer) for a sampling of year 2024 vehicles. Suppose follow-up testing determines that the low outlier should be 10 grams per kilometer less and the two high outliers should each be 5 grams per kilometer greater. What effect, if any, will these changes have on the mean and median CO2 levels?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Subtracting 10 from one value and adding 5 to two values leaves the sum of the values unchanged, so the mean will be unchanged. Exactly what values the outliers take will not change what value is in the middle, so the median will be unchanged.",
+   "question_id": "statistics-barrons-2027-quiz-03-004",
+   "source_pages": [
+    125,
+    126
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "I only",
+    "B": "II only",
+    "C": "III only",
+    "D": "None of the statements are true."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       265.5,
+       172.4,
+       282.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       285.0,
+       177.4,
+       301.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       304.5,
+       182.8,
+       321.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       323.9,
+       340.3,
+       340.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 126,
+   "page_end": 126,
+   "stem": "Which of the following statements are true? I. If two data sets have different ranges, the data set with the larger range will always have the larger standard deviation. II. The standard deviation cannot be larger than the mean. III. The standard deviation cannot be larger than the interquartile range.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The standard deviation depends on all values, not just on the min and max and not just on Q1 and Q3. Standard deviation depends on distances from the mean, not on the size of the mean.",
+   "question_id": "statistics-barrons-2027-quiz-03-005",
+   "source_pages": [
+    126,
+    126
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Standard deviation: never Interquartile range: never",
+    "B": "Standard deviation: never Interquartile range: sometimes",
+    "C": "Standard deviation: sometimes Interquartile range: never",
+    "D": "Standard deviation: sometimes Interquartile range: sometimes"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       411.6,
+       296.0,
+       428.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       450.6,
+       295.8,
+       467.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       489.6,
+       327.6,
+       506.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       528.6,
+       328.7,
+       545.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 126,
+   "page_end": 126,
+   "stem": "Can either the standard deviation or the interquartile range ever be negative?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The standard deviation, , and the interquartile range, IQR = Q3 − Q1, can never be negative.",
+   "question_id": "statistics-barrons-2027-quiz-03-006",
+   "source_pages": [
+    126,
+    126
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "87",
+    "B": "87.5",
+    "C": "88",
+    "D": "More information is needed to make this calculation."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       669.2,
+       152.6,
+       686.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 126,
+      "bbox": [
+       110.0,
+       688.6,
+       163.3,
+       705.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       72.0,
+       152.6,
+       88.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       91.5,
+       460.1,
+       108.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 126,
+   "page_end": 127,
+   "stem": "A teacher is teaching two AP Statistics classes. On the final exam, the 20 students in the first class averaged 92, while the 25 students in the second class averaged only 83. If the teacher combines the classes, what will the average final exam score be?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The sum of the scores in one class is 20 × 92 = 1,840, while the sum in the other is 25 × 83 = 2,075. The total sum is 1,840 + 2,075 = 3,915. There are 20 + 25 = 45 students, and so the average score is",
+   "question_id": "statistics-barrons-2027-quiz-03-007",
+   "source_pages": [
+    126,
+    127
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "Allan’s IQ was greater than the average IQ in both Pennsylvania and California.",
+    "B": "Allan’s IQ was greater than the average IQ in Pennsylvania and less than the average IQ in California.",
+    "C": "Allan’s IQ was less than the average IQ in both Pennsylvania and California.",
+    "D": "There is no way for Allan’s statement to be true. Questions 9 and 10 refer to the following: 250 students are taking a college history course. There is one class of size 150 and four classes of size 25."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       195.9,
+       530.6,
+       212.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       232.1,
+       525.5,
+       248.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       268.3,
+       509.2,
+       285.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       304.5,
+       435.4,
+       321.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 127,
+   "page_end": 127,
+   "stem": "Allan famously quipped that when he moved from Pennsylvania to California, the average IQ dropped in both states. What would have had to been true for this to happen?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Removing a value that is greater than the average will always lower the average, and adding in a value that is less than the average will also always lower the average.",
+   "question_id": "statistics-barrons-2027-quiz-03-008",
+   "source_pages": [
+    127,
+    127
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "50",
+    "B": "100",
+    "C": "125",
+    "D": "137.5"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       439.5,
+       152.6,
+       456.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       459.0,
+       160.1,
+       475.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       478.4,
+       160.2,
+       495.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       497.9,
+       172.1,
+       514.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 127,
+   "page_end": 127,
+   "stem": "What is the average class size among the five classes?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "There are 5 classes, and their average size is",
+   "question_id": "statistics-barrons-2027-quiz-03-009",
+   "source_pages": [
+    127,
+    127
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "35",
+    "B": "50",
+    "C": "100",
+    "D": "125"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       578.7,
+       152.6,
+       595.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       598.2,
+       152.5,
+       615.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       617.6,
+       160.2,
+       634.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 127,
+      "bbox": [
+       110.0,
+       637.1,
+       161.3,
+       653.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 127,
+   "page_end": 127,
+   "stem": "Among the 250 students, what is the average size, per student, of their history class?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Among the 250 students, there are 100 students in classes of size 25 and 150 students in a class of size 150. The average size of their history class is",
+   "question_id": "statistics-barrons-2027-quiz-03-010",
+   "source_pages": [
+    127,
+    127
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 128,
+   "page_end": 128,
+   "stem": "Victims spend from 5 to 5,840 hours repairing the damage caused by identity theft with a mean of 330 hours and a standard deviation of 245 hours. (a) What would be the mean, range, standard deviation, and variance for hours spent repairing the damage caused by identity theft if each of the victims spent an additional 10 hours? (b) What would be the mean, range, standard deviation, and variance for hours spent repairing the damage caused by identity theft if each of the victims’ hours spent increased by 10%?",
+   "correct_answer": null,
+   "answer_text": "(a) Adding 10 to each value increases the mean by 10 but leaves measures of variability unchanged. So, the new mean is 340 hours while the range stays at 5,835 hours, the standard deviation remains at 245 hours, and the variance remains at 2452 = 60,025 hr2. (b) Increasing each value by 10% (multiplying by 1.10) will increase the mean to 1.1(330) = 363 hours, the range to 1.1(5,835) = 6,418.5 hours, the standard deviation to 1.1(245) = 269.5 hours, and the variance to (269.5)2 = 72,630.25 hr2. (Note that the variance increases by a multiple of (1.1)2 and not by a multiple of 1.1.)",
+   "question_id": "statistics-barrons-2027-quiz-03-011",
+   "context": "",
+   "source_pages": [
+    128,
+    128
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 129,
+     "bbox": [
+      104.7,
+      72.0,
+      507.7,
+      376.8
+     ]
+    }
+   ],
+   "page_start": 128,
+   "page_end": 129,
+   "stem": "Are women better than men at multitasking? Suppose in one study of multitasking a random sample of 200 female and 200 male high school students were assigned several tasks at the same time, such as solving simple mathematics problems, reading maps, and answering simple questions while talking on a telephone. Total times taken to complete all the tasks are given in the histograms below. Write a few sentences comparing the distributions of times to complete all tasks by females and by males.",
+   "correct_answer": null,
+   "answer_text": "A complete answer compares shape, center, and spread and mentions context in at least one of the responses. Shape: The distribution of times to complete all tasks by females is skewed right (toward the higher values), whereas the distributions of times to complete all tasks by males is roughly bell-shaped. Center: The center of the distribution of female times (at around minutes) is less than the center of the distribution of male times (at around minutes). Spread: The spreads of the two distributions are roughly the same; the range of the female times ( minutes) equals the range of the male times ( minutes).",
+   "question_id": "statistics-barrons-2027-quiz-03-012",
+   "context": "",
+   "source_pages": [
+    128,
+    129
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 129,
+   "page_end": 129,
+   "stem": "Suppose a distribution has mean 300 and standard deviation 25. If the z-score of Q1 is −0.7 and the z-score of Q3 is 0.7, what values would be considered outliers?",
+   "correct_answer": null,
+   "answer_text": "z-scores give the number of standard deviations from the mean, so Q1 = 300 − 0.7(25) = 282.5 and Q3 = 300 + 0.7(25) = 317.5. The interquartile range is IQR = 317.5 − 282.5 = 35, and 1.5(IQR) = 1.5(35) = 52.5. The standard definition of outliers encompasses all values less than Q1 − 52.5 = 230 and all values greater than Q3 + 52.5 = 370.",
+   "question_id": "statistics-barrons-2027-quiz-03-013",
+   "context": "",
+   "source_pages": [
+    129,
+    129
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 130,
+     "bbox": [
+      145.1,
+      72.0,
+      467.3,
+      473.6
+     ]
+    }
+   ],
+   "page_start": 129,
+   "page_end": 130,
+   "stem": "Below are population pyramids from Liberia and Canada. (a) The approximate median age of the Liberian population falls in which of these intervals: 0–4, 15–19, 30–34, 40–44? Explain. (b) Explain why it is impossible to calculate the mean age of either population. (c) Which country has more children younger than 10 years of age? Explain. (d) Does the population pyramid indicate that Canadian men or Canadian women live longer? Explain. (e) In 2010, Liberia had recently come out of a civil war with the extensive use of child soldiers. How is this visible in the population pyramid?",
+   "correct_answer": null,
+   "answer_text": "(a) The Liberian median age lies in the 15–19 age interval because roughly 50% of the total bar lengths is above and below the 15–19 interval. (b) Numerical values are needed to calculate means. Histograms such as these give numbers or proportions of values in specific intervals but do not give the actual values. (c) Canada has more children younger than 10 years of age. There are about 1.2 million children younger than age 10 in Liberia (boys and girls) and roughly 3.5 million in Canada. (Note the difference in scales!) (d) The population pyramid indicates that Canadian women live longer than men because all the higher age intervals show greater numbers of women than men. (e) In the Liberian graph, the smaller 15–19 age group shows a definite break with the overall pattern. A plausible explanation is that a great number of children died in the civil war.",
+   "question_id": "statistics-barrons-2027-quiz-03-014",
+   "context": "",
+   "source_pages": [
+    129,
+    130
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 14,
+ "mcq_count": 10,
+ "frq_count": 4
+}

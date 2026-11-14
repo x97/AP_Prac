@@ -1,0 +1,81 @@
+<view class="page bind-page">
+  <view class="bind-head">
+    <view class="eyebrow">Account</view>
+    <view class="h1">绑定邮箱</view>
+    <view class="muted bind-desc">
+      绑定后可以用邮箱 + 密码登录，也能通过邮箱找回密码。
+    </view>
+  </view>
+
+  <view wx:if="{{hasEmail}}" class="card card-pad bind-card">
+    <view class="bind-label">当前已绑定</view>
+    <view class="bind-email">{{emailLabel}}</view>
+    <view class="bind-note">
+      微信和邮箱都可以登录同一个账号。如需更换邮箱，请联系客服。
+    </view>
+  </view>
+
+  <view wx:else class="card card-pad bind-card">
+    <view class="bind-field">
+      <view class="bind-label">邮箱</view>
+      <input
+        class="bind-input"
+        type="text"
+        placeholder="you@example.com"
+        value="{{email}}"
+        bindinput="onEmailInput"
+      />
+    </view>
+
+    <view class="bind-field">
+      <view class="bind-label">验证码</view>
+      <view class="bind-code-row">
+        <input
+          class="bind-input bind-code-input"
+          type="number"
+          maxlength="6"
+          placeholder="6 位验证码"
+          value="{{code}}"
+          bindinput="onCodeInput"
+        />
+        <button
+          class="bind-code-btn"
+          bindtap="sendCode"
+          disabled="{{sendingCode || countdown > 0}}"
+        >
+          <text wx:if="{{countdown > 0}}">{{countdown}}s</text>
+          <text wx:else>发送验证码</text>
+        </button>
+      </view>
+    </view>
+
+    <view class="bind-field">
+      <view class="bind-label">设置密码（首次绑定需要）</view>
+      <input
+        class="bind-input"
+        password="{{true}}"
+        placeholder="至少 8 位；已有账号可留空"
+        value="{{password}}"
+        bindinput="onPasswordInput"
+      />
+    </view>
+
+    <view wx:if="{{devCode}}" class="bind-hint">测试验证码：{{devCode}}</view>
+    <view wx:if="{{notice}}" class="bind-notice">{{notice}}</view>
+    <view wx:if="{{error}}" class="bind-error">{{error}}</view>
+
+    <button
+      class="btn btn-primary bind-submit"
+      hover-class="btn-hover"
+      bindtap="submit"
+      loading="{{submitting}}"
+      disabled="{{submitting}}"
+    >
+      绑定邮箱
+    </button>
+
+    <view class="bind-note">
+      如果该邮箱已经是 PsyPrac 账号，绑定后当前微信账号的做题、背单词记录会合并到该邮箱账号。
+    </view>
+  </view>
+</view>

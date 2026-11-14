@@ -1,0 +1,247 @@
+unit,chapter,chapter_title,section,section_pdf_page,subsection,subsection_pdf_page,level,leaf_block
+0,1,History of Psychology,Psychological Perspectives,30,Humanist Perspective,30,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Psychodynamic Perspective,31,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Biopsychology (or Neuroscience) Perspective,31,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Evolutionary (or Darwinian) Perspective,31,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Behavioral Perspective,32,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Cognitive Perspective,32,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Social-Cultural (or Sociocultural) Perspective,33,subsection,1
+0,1,History of Psychology,Psychological Perspectives,30,Biopsychosocial Perspective,33,subsection,1
+0,1,History of Psychology,Summary,33,,,section,1
+0,2,Research Methods,Overview,36,,,section,1
+0,2,Research Methods,Hypotheses and Variables,37,,,section,1
+0,2,Research Methods,Validity and Reliability,38,Sampling,38,subsection,1
+0,2,Research Methods,Experimental Method,40,,,section,1
+0,2,Research Methods,Correlational Method,45,,,section,1
+0,2,Research Methods,Naturalistic Observation,47,,,section,1
+0,2,Research Methods,Qualitative Methods,48,,,section,1
+0,3,Statistics and Ethics in Research,Overview,50,,,section,1
+0,3,Statistics and Ethics in Research,Descriptive Statistics,50,,,section,1
+0,3,Statistics and Ethics in Research,Correlations,54,,,section,1
+0,3,Statistics and Ethics in Research,Inferential Statistics,56,,,section,1
+0,3,Statistics and Ethics in Research,APA Ethical Guidelines,58,Animal Research,58,subsection,1
+0,3,Statistics and Ethics in Research,APA Ethical Guidelines,58,Human Research,59,subsection,1
+1,4,Biological Bases of Behavior,Overview,64,,,section,1
+1,4,Biological Bases of Behavior,Genetics,64,Basic Genetic Concepts,64,subsection,1
+1,4,Biological Bases of Behavior,Genetics,64,Twins,65,subsection,1
+1,4,Biological Bases of Behavior,Genetics,64,Chromosomal Abnormalities,65,subsection,1
+1,4,Biological Bases of Behavior,Neuroanatomy,66,How a Neuron “Fires”,67,subsection,1
+1,4,Biological Bases of Behavior,Neuroanatomy,66,Neurotransmitters,68,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Sensory Neurons,70,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Interneurons,70,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Motor Neurons,70,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Organization of the Nervous System,70,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Central Nervous System,71,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Typical Peripheral Nervous System Transmission,71,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Reflexes: An Important Exception,72,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Peripheral Nervous System,72,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Somatic Nervous System,72,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Autonomic Nervous System,72,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Sympathetic Nervous System,73,subsection,1
+1,4,Biological Bases of Behavior,Nervous System,69,Parasympathetic Nervous System,73,subsection,1
+1,4,Biological Bases of Behavior,Endocrine System,73,Adrenal Glands,74,subsection,1
+1,4,Biological Bases of Behavior,Endocrine System,73,Ovaries and Testes,74,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Ways of Studying the Brain,75,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Accidents,75,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Phineas Gage,76,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Lesions,76,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Electroencephalogram,76,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Computerized Axial Tomography,77,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Magnetic Resonance Imaging,77,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Positron Emission Tomography,77,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Functional MRI,77,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Brain Structure and Function,78,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Hindbrain,78,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Medulla,79,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Pons,79,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Cerebellum,79,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Midbrain,79,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Forebrain,80,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Thalamus,80,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Hypothalamus,80,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Amygdala and Hippocampus,80,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Cerebral Cortex,81,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Hemispheres,82,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Areas of the Cerebral Cortex,82,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Frontal Lobes,83,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Parietal Lobes,84,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Occipital Lobes,85,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Temporal Lobes,85,subsection,1
+1,4,Biological Bases of Behavior,The Brain,74,Brain Plasticity,85,subsection,1
+1,5,States of Consciousness,Overview,97,,,section,1
+1,5,States of Consciousness,Levels of Consciousness,97,,,section,1
+1,5,States of Consciousness,Drugs,99,,,section,1
+1,5,States of Consciousness,Sleep,103,Sleep Cycle,103,subsection,1
+1,5,States of Consciousness,Sleep,103,Sleep Disorders,106,subsection,1
+1,5,States of Consciousness,Dreams,107,,,section,1
+1,6,Sensation,Overview,115,,,section,1
+1,6,Sensation,Energy Senses,117,Vision,117,subsection,1
+1,6,Sensation,Energy Senses,117,Step One: Gathering Light,117,subsection,1
+1,6,Sensation,Energy Senses,117,Step Two: Within the Eye,118,subsection,1
+1,6,Sensation,Energy Senses,117,Step Three: Transduction,118,subsection,1
+1,6,Sensation,Energy Senses,117,Step Four: In the Brain,120,subsection,1
+1,6,Sensation,Energy Senses,117,Theories of Color Vision,120,subsection,1
+1,6,Sensation,Energy Senses,117,Trichromatic Theory,120,subsection,1
+1,6,Sensation,Energy Senses,117,Opponent-Process Theory,121,subsection,1
+1,6,Sensation,Energy Senses,117,Hearing,121,subsection,1
+1,6,Sensation,Energy Senses,117,Pitch Theories,123,subsection,1
+1,6,Sensation,Energy Senses,117,Place Theory,123,subsection,1
+1,6,Sensation,Energy Senses,117,Frequency Theory,124,subsection,1
+1,6,Sensation,Energy Senses,117,Deafness,124,subsection,1
+1,6,Sensation,Energy Senses,117,Touch,124,subsection,1
+1,6,Sensation,Chemical Senses,125,Taste (or Gustation),125,subsection,1
+1,6,Sensation,Chemical Senses,125,Smell (or Olfaction),126,subsection,1
+1,6,Sensation,Body Position Senses,127,Vestibular Sense,127,subsection,1
+1,6,Sensation,Body Position Senses,127,Kinesthetic Sense,128,subsection,1
+2,7,Perception,Overview,135,,,section,1
+2,7,Perception,Thresholds,135,,,section,1
+2,7,Perception,Perceptual Theories,136,Signal Detection Theory,136,subsection,1
+2,7,Perception,Perceptual Theories,136,Top-Down Processing,138,subsection,1
+2,7,Perception,Perceptual Theories,136,Bottom-Up Processing,138,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Gestalt Rules,140,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Constancy,142,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Perceived Motion,142,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Depth Cues,143,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Visual Cliff,143,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Monocular Cues,144,subsection,1
+2,7,Perception,Principles of Visual Perception,139,Binocular Cues,144,subsection,1
+2,7,Perception,Effects of Culture on Perception,145,,,section,1
+2,7,Perception,Extrasensory Perception,145,,,section,1
+2,8,Thinking and Creativity,Overview,152,,,section,1
+2,8,Thinking and Creativity,Describing Thought,153,,,section,1
+2,8,Thinking and Creativity,Problem-Solving,153,Algorithms,153,subsection,1
+2,8,Thinking and Creativity,Problem-Solving,153,Heuristics,154,subsection,1
+2,8,Thinking and Creativity,Problem-Solving,153,Impediments to Problem-Solving,155,subsection,1
+2,8,Thinking and Creativity,Creativity,156,,,section,1
+2,9,Memory,Overview,166,,,section,1
+2,9,Memory,Three-Box/Information-Processing Model,166,,,section,1
+2,9,Memory,Sensory Memory,167,,,section,1
+2,9,Memory,Short-Term and Working Memory,168,,,section,1
+2,9,Memory,Long-Term Memory,169,,,section,1
+2,9,Memory,Levels of Processing Model,171,,,section,1
+2,9,Memory,Encoding Memories,171,,,section,1
+2,9,Memory,Storing Memories,173,,,section,1
+2,9,Memory,Retrieval,173,,,section,1
+2,9,Memory,Constructive Memory,174,,,section,1
+2,9,Memory,Forgetting,175,,,section,1
+2,10,Testing and Individual Differences,Overview,187,,,section,1
+2,10,Testing and Individual Differences,Standardization and Norms,187,,,section,1
+2,10,Testing and Individual Differences,Reliability and Validity,187,,,section,1
+2,10,Testing and Individual Differences,Types of Tests,190,,,section,1
+2,10,Testing and Individual Differences,Theories of Intelligence,191,,,section,1
+2,10,Testing and Individual Differences,Intelligence Tests,194,Bias in Testing,197,subsection,1
+2,10,Testing and Individual Differences,Nature vs. Nurture: Intelligence,197,A CAUTIONARY NOTE,199,subsection,1
+3,11,Developmental Psychology,Overview,206,,,section,1
+3,11,Developmental Psychology,Developmental Psychology Research Methods,206,,,section,1
+3,11,Developmental Psychology,Prenatal Influences,207,Genetics,207,subsection,1
+3,11,Developmental Psychology,Prenatal Influences,207,Teratogens,208,subsection,1
+3,11,Developmental Psychology,Motor/Sensory Development,209,Reflexes,209,subsection,1
+3,11,Developmental Psychology,Motor/Sensory Development,209,The Newborn’s Senses,210,subsection,1
+3,11,Developmental Psychology,Motor/Sensory Development,209,Motor Development,210,subsection,1
+3,11,Developmental Psychology,Gender and Development,211,Biopsychological (Neuropsychological) Theory,211,subsection,1
+3,11,Developmental Psychology,Gender and Development,211,Social-Cognitive Theory,212,subsection,1
+3,11,Developmental Psychology,Stage Theories,212,Erik Erikson,213,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Jean Piaget,215,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Sensorimotor Stage (Birth to Approximately Two Years Old),216,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Preoperational Stage (Two to Approximately Seven Years Old),216,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Concrete Operational Stage (Eight to Approximately Twelve Years Old),217,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Formal Operational Stage (Twelve Through Adulthood),218,subsection,1
+3,11,Developmental Psychology,Cognitive Development,215,Criticisms of Piaget: Information Processing Model,219,subsection,1
+3,11,Developmental Psychology,Language,219,Elements of Language,220,subsection,1
+3,11,Developmental Psychology,Language,219,Language Acquisition,220,subsection,1
+3,11,Developmental Psychology,Language,219,Language and Cognition,222,subsection,1
+3,11,Developmental Psychology,Parenting,222,Attachment Theory,222,subsection,1
+3,11,Developmental Psychology,Parenting,222,Contact Comfort,223,subsection,1
+3,11,Developmental Psychology,Parenting,222,Secure Attachment,223,subsection,1
+3,11,Developmental Psychology,Parenting,222,Ecological Systems Theory,224,subsection,1
+3,11,Developmental Psychology,Parenting,222,Parenting Styles,225,subsection,1
+3,12,Learning,Overview,238,,,section,1
+3,12,Learning,Classical Conditioning,239,Biology and Classical Conditioning,243,subsection,1
+3,12,Learning,Operant Conditioning,245,Punishment Versus Reinforcement,248,subsection,1
+3,12,Learning,Operant Conditioning,245,Reinforcement Schedules,250,subsection,1
+3,12,Learning,Operant Conditioning,245,Biology and Operant Conditioning,253,subsection,1
+3,12,Learning,Cognitive Learning,253,The Contingency Model of Classical Conditioning,253,subsection,1
+3,12,Learning,Cognitive Learning,253,Observational Learning,255,subsection,1
+3,12,Learning,Cognitive Learning,253,Latent Learning,256,subsection,1
+3,12,Learning,Cognitive Learning,253,Abstract Learning,257,subsection,1
+3,12,Learning,Cognitive Learning,253,Insight Learning,257,subsection,1
+4,13,Social Psychology,Overview,270,,,section,1
+4,13,Social Psychology,Attribution Theory,270,Attributional Biases,272,subsection,1
+4,13,Social Psychology,Attitude Formation and Change,274,Relationship Between Attitudes and Behavior,276,subsection,1
+4,13,Social Psychology,Compliance Strategies,277,,,section,1
+4,13,Social Psychology,"Stereotypes, Prejudice, and Discrimination",279,Origin of Stereotypes and Prejudice,281,subsection,1
+4,13,Social Psychology,"Stereotypes, Prejudice, and Discrimination",279,Combating Prejudice,281,subsection,1
+4,13,Social Psychology,Aggression and Antisocial Behavior,283,,,section,1
+4,13,Social Psychology,Prosocial Behavior,284,,,section,1
+4,13,Social Psychology,Attraction,285,,,section,1
+4,13,Social Psychology,The Psychology of Social Situations,286,,,section,1
+4,13,Social Psychology,Group Dynamics,288,,,section,1
+4,14,Personality,Overview,301,,,section,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Repression,303,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Denial,303,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Displacement,303,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Projection,303,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Reaction Formation,303,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Regression,304,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Rationalization,304,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Intellectualization,304,subsection,1
+4,14,Personality,Psychodynamic Theories of Personality,301,Sublimation,304,subsection,1
+4,14,Personality,Humanistic Theories of Personality,305,,,section,1
+4,14,Personality,Trait Theories,306,,,section,1
+4,14,Personality,Social Cognitive Theories,307,,,section,1
+4,15,Motivation and Emotion,Overview,315,,,section,1
+4,15,Motivation and Emotion,Theories of Motivation,315,Drive Reduction Theory,316,subsection,1
+4,15,Motivation and Emotion,Theories of Motivation,315,Arousal (or Sensation-Seeking) Theory,316,subsection,1
+4,15,Motivation and Emotion,Theories of Motivation,315,Incentive Theory,318,subsection,1
+4,15,Motivation and Emotion,Theories of Motivation,315,Self-Determination Theory,318,subsection,1
+4,15,Motivation and Emotion,Hunger Motivation,319,Biological Basis of Hunger,319,subsection,1
+4,15,Motivation and Emotion,Hunger Motivation,319,Psychological Factors in Hunger Motivation,320,subsection,1
+4,15,Motivation and Emotion,Hunger Motivation,319,Eating Disorders,321,subsection,1
+4,15,Motivation and Emotion,Sexual Motivation,322,Sexual Response Cycle,322,subsection,1
+4,15,Motivation and Emotion,Sexual Motivation,322,Psychological Factors in Sexual Motivation,323,subsection,1
+4,15,Motivation and Emotion,Sexual Motivation,322,Sexual Orientation,323,subsection,1
+4,15,Motivation and Emotion,Social Motivation,324,Achievement Motivation,324,subsection,1
+4,15,Motivation and Emotion,Social Motivation,324,Extrinsic/Intrinsic Motivation,325,subsection,1
+4,15,Motivation and Emotion,Social Motivation,324,Management Theory,326,subsection,1
+4,15,Motivation and Emotion,Social Motivation,324,When Motives Conflict,326,subsection,1
+4,15,Motivation and Emotion,Theories About Emotion,327,What Comes First—The Emotion or the Physiological Change?,327,subsection,1
+4,15,Motivation and Emotion,Theories About Emotion,327,Two-Factor Theory,328,subsection,1
+4,15,Motivation and Emotion,Theories About Emotion,327,Broaden-and-Build Theory,329,subsection,1
+4,15,Motivation and Emotion,Nonverbal Expressions of Emotion,329,,,section,1
+5,16,Health Psychology,Overview,338,,,section,1
+5,16,Health Psychology,Stress,338,Measuring Stress,338,subsection,1
+5,16,Health Psychology,Stress,338,General Adaptation Syndrome,339,subsection,1
+5,16,Health Psychology,Stress,338,Managing Stress,340,subsection,1
+5,16,Health Psychology,Stress,338,Perceived Control,340,subsection,1
+5,16,Health Psychology,Positive Psychology,341,,,section,1
+5,17,Psychological Disorders,Overview,352,,,section,1
+5,17,Psychological Disorders,Defining Psychological Disorders,352,,,section,1
+5,17,Psychological Disorders,Categories of Disorders,355,Neurocognitive Disorders,355,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Anxiety Disorders,356,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Theories About the Cause of Anxiety Disorders,357,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Somatic Symptom and Related Disorders,358,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Theories About the Cause of Somatic Symptom Disorders,358,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Dissociative Disorders,359,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Theories About the Cause of Dissociative Disorders,359,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Depressive Disorders,360,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Theories About the Cause of Depressive Disorders,360,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Bipolar and Related Disorders,362,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Schizophrenia Spectrum Disorders,362,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Theories About the Cause of Schizophrenic Disorders,364,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Personality Disorders,365,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Obsessive-Compulsive and Related Disorders,366,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Paraphilic Disorders,367,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Feeding and Eating Disorders,367,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,Substance-Related and Addictive Disorders,368,subsection,1
+5,17,Psychological Disorders,Categories of Disorders,355,A CAUTIONARY NOTE,368,subsection,1
+5,17,Psychological Disorders,The Advantages and Disadvantages of Diagnostic Labels,368,,,section,1
+5,18,Treatment of Psychological Disorders,Overview,378,,,section,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Psychodynamic Therapy,379,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Humanistic Therapies,381,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Behavioral Therapies,383,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Cognitive Therapies,386,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Cognitive Behavioral Therapies,387,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Group Therapy,387,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Somatic Therapies,388,subsection,1
+5,18,Treatment of Psychological Disorders,Types of Therapy,378,Eclectic Therapies,391,subsection,1
+5,18,Treatment of Psychological Disorders,Kinds of Therapists,391,HOW EFFECTIVE IS THERAPY?,392,subsection,1

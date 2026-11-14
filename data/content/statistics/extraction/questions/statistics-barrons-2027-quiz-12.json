@@ -1,0 +1,832 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-12",
+ "kind": "quiz",
+ "number": 12,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 12 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 12",
+ "pdf_page_start": 257,
+ "pdf_page_end": 263,
+ "answer_page_start": 730,
+ "answer_page_end": 731,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "(0.9)3 + 3(0.9)2(0.1)",
+    "B": "(0.1)3 + 3(0.1)2(0.9)",
+    "C": "3(0.1)2(0.9)",
+    "D": "3(0.9)2(0.1)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 257,
+      "bbox": [
+       113.0,
+       534.7,
+       280.5,
+       554.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 257,
+      "bbox": [
+       113.0,
+       558.0,
+       280.3,
+       578.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 257,
+      "bbox": [
+       113.0,
+       580.5,
+       221.6,
+       600.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 257,
+      "bbox": [
+       113.0,
+       603.7,
+       222.8,
+       623.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 257,
+   "page_end": 257,
+   "stem": "An inspection procedure at a manufacturing plant involves picking three items at random and then accepting the whole lot if at least two of the three items are in perfect condition. If in reality 90% of the whole lot are perfect, what is the probability that the lot will be accepted?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "This is a binomial with n = 3 and p = 0.90. Then P(X ≥ 2) = (0.9)3 + 3(0.9)2(0.1).",
+   "question_id": "statistics-barrons-2027-quiz-12-001",
+   "source_pages": [
+    257,
+    257
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "0.37",
+    "B": "0.63",
+    "C": "3.7",
+    "D": "6.3"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       72.0,
+       171.6,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       93.0,
+       171.4,
+       111.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       114.0,
+       163.0,
+       132.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       135.0,
+       164.6,
+       153.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 257,
+     "bbox": [
+      414.8,
+      664.5,
+      530.2,
+      688.5
+     ]
+    }
+   ],
+   "page_start": 257,
+   "page_end": 258,
+   "stem": "Suppose we have a random variable X where, for the values k = 0, . . . , 10, the associated probabilities are . What is the mean of X?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "This is a binomial with n = 10 and p = 0.37, and so the mean is np = 10(0.37) = 3.7.",
+   "question_id": "statistics-barrons-2027-quiz-12-002",
+   "source_pages": [
+    257,
+    258
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Binomial with n = 6 and p =",
+    "B": "Binomial with n = 5 and p =",
+    "C": "Binomial with n = 5 and p =",
+    "D": "Binomial with n = 6 and p ="
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 258,
+      "bbox": [
+       335.2,
+       262.5,
+       344.2,
+       285.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 258,
+      "bbox": [
+       335.2,
+       288.8,
+       344.2,
+       312.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 258,
+      "bbox": [
+       335.2,
+       315.0,
+       344.2,
+       339.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 258,
+      "bbox": [
+       336.8,
+       342.0,
+       345.8,
+       366.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       263.2,
+       335.4,
+       281.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       289.5,
+       335.2,
+       307.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       316.1,
+       335.4,
+       334.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       343.1,
+       336.6,
+       361.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 258,
+   "page_end": 258,
+   "stem": "One in six adults in the workplace has experienced cyberbullying. In a random sample of five adults in the workplace, what is the distribution for the number who have experienced cyberbullying?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The sample has five adults, so n = 5, and the probability any of these adults experienced cyberbullying is given to be .",
+   "question_id": "statistics-barrons-2027-quiz-12-003",
+   "source_pages": [
+    258,
+    258
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "0.4",
+    "B": "(0.4)2 (0.6)3",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 258,
+      "bbox": [
+       142.5,
+       621.8,
+       219.8,
+       645.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 258,
+      "bbox": [
+       144.0,
+       648.0,
+       221.2,
+       671.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       577.5,
+       163.4,
+       595.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       598.5,
+       224.1,
+       618.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       622.5,
+       133.5,
+       640.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 258,
+      "bbox": [
+       113.0,
+       648.7,
+       134.7,
+       666.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 258,
+   "page_end": 258,
+   "stem": "In a random sample of five high school students, what is the probability that exactly two fall victim to a phishing email that appears to originate from their high school main office?",
+   "context": "Questions 4–5 refer to the following. It is estimated that two out of five high school students would fall victim to a phishing email (an online scam asking for sensitive information) if it appears to originate from their high school main office.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "This is a binomial distribution with n = 5 and . Then, .",
+   "question_id": "statistics-barrons-2027-quiz-12-004",
+   "source_pages": [
+    258,
+    258
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "(0.4)3",
+    "B": "(0.6)2(0.4)",
+    "C": "(0.6)(0.4)2",
+    "D": "10(0.6)2(0.4)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       141.0,
+       181.0,
+       161.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       164.2,
+       213.3,
+       184.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       186.7,
+       213.4,
+       206.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       210.0,
+       231.0,
+       230.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 259,
+   "page_end": 259,
+   "stem": "What is the probability that the first student to fall victim will be the third student who is sent a phishing email that appears to originate from their high school main office?",
+   "context": "Questions 4–5 refer to the following. It is estimated that two out of five high school students would fall victim to a phishing email (an online scam asking for sensitive information) if it appears to originate from their high school main office.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "This is a geometric distribution with p = 0.4. Then, P(X = 3) = (0.6)2(0.4).",
+   "question_id": "statistics-barrons-2027-quiz-12-005",
+   "source_pages": [
+    259,
+    259
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "P(I) < P(II) < P(III)",
+    "B": "P(II) < P(I) < P(III)",
+    "C": "P(III) < P(I) = P(II)",
+    "D": "P(I) = P(II) < P(III)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       416.2,
+       275.9,
+       434.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       437.2,
+       275.8,
+       455.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       458.2,
+       275.9,
+       476.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       479.2,
+       277.1,
+       497.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 259,
+   "page_end": 259,
+   "stem": "A fair coin is flipped 5 times. Consider the following 3 outcomes where H refers to a toss resulting in “heads” and T refers to a toss resulting in “tails”: (I) The result in order is HHHTT. (II) The result in order is HTTHH. (III) The result includes 3 H’s and 2 T’s. What is a comparison of the three probabilities?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "P(I) = P(II) = (0.5)5, while P(III) = 5C2(0.5)3(0.5)2 = 10(0.5)5.",
+   "question_id": "statistics-barrons-2027-quiz-12-006",
+   "source_pages": [
+    259,
+    259
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "0.2",
+    "B": "0.4",
+    "C": "0.6",
+    "D": "0.8"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       624.7,
+       163.4,
+       642.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       645.7,
+       163.2,
+       663.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       666.7,
+       163.4,
+       684.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 259,
+      "bbox": [
+       113.0,
+       687.7,
+       164.6,
+       705.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 259,
+   "page_end": 259,
+   "stem": "A statistician working for an online dating service determines that the binomial random variable D, representing the number of people in a sample who are happy with the service, has a mean of 5 with a standard deviation of 2. What is the probability that someone is happy with the service?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The mean is 5, so np = 5. The standard deviation is 2 so . Solving for p results in 5(1−p) = 4,1−p = 0.8, and p = 0.2.",
+   "question_id": "statistics-barrons-2027-quiz-12-007",
+   "source_pages": [
+    259,
+    259
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 260,
+      "bbox": [
+       142.5,
+       213.0,
+       331.5,
+       345.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 260,
+      "bbox": [
+       142.5,
+       348.0,
+       331.5,
+       480.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 260,
+      "bbox": [
+       142.5,
+       483.0,
+       345.0,
+       615.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 261,
+      "bbox": [
+       144.0,
+       72.0,
+       346.5,
+       207.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 260,
+      "bbox": [
+       113.0,
+       268.1,
+       133.5,
+       286.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 260,
+      "bbox": [
+       113.0,
+       403.1,
+       133.3,
+       421.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 260,
+      "bbox": [
+       113.0,
+       538.1,
+       133.5,
+       556.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 261,
+      "bbox": [
+       113.0,
+       128.6,
+       134.7,
+       146.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 260,
+   "page_end": 261,
+   "stem": "A college lecture class has 500 students, of which 350 are female. Let the random variable F represent the number of females in a random sample of 10 students from the class. Random variable F follows a binomial distribution. A simulation of distribution F is performed by randomly picking 10 students from this class a large number of times. Which of the following best represents this simulation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Random variable F follows a binomial distribution with n = 10 and p = 0.7. Distribution F has mean μF = np = (10)(0.7) = 7 and standard deviation . Answer choice (C) is the most reasonable simulation result.",
+   "question_id": "statistics-barrons-2027-quiz-12-008",
+   "source_pages": [
+    260,
+    261
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "Every random sample of 50 people will have 34% answering yes.",
+    "B": "On average, 17 people will have to be surveyed before finding one who answers yes.",
+    "C": "In repeated random sampling of 50 people, the average number of people answering yes is 17.",
+    "D": "In repeated random sampling of 50 people, the average number of people answering yes will vary from 17 by an average of 3.35."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 261,
+      "bbox": [
+       113.0,
+       370.5,
+       470.9,
+       388.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 261,
+      "bbox": [
+       113.0,
+       409.5,
+       504.2,
+       427.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 261,
+      "bbox": [
+       113.0,
+       448.5,
+       513.1,
+       466.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 261,
+      "bbox": [
+       113.0,
+       487.5,
+       514.2,
+       505.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 261,
+   "page_end": 261,
+   "stem": "If it were possible, would you want to live forever? When asked, 34% of people answer yes. Let the random variable L represent the number of people who would answer yes in a random sample of 50 people. Random variable L follows a binomial distribution with a mean of 17 and a standard deviation of 3.35. Which of the following is the best interpretation of the mean?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "This is a binomial distribution, so the mean is μ = np = (50)(0.34) = 17. The mean of a probability distribution is the long-run average of the values selected from many repetitions. Choices (A) and (B) refer to particular samples, not a long-run average. Choice (B) refers to a geometric probability; however, this is a binomial. Choice (D) is the interpretation of the standard deviation, not the mean.",
+   "question_id": "statistics-barrons-2027-quiz-12-009",
+   "source_pages": [
+    261,
+    261
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 261,
+     "bbox": [
+      144.0,
+      72.0,
+      346.5,
+      207.0
+     ]
+    }
+   ],
+   "page_start": 262,
+   "page_end": 262,
+   "stem": "Could hands-free, automatic faucets actually be housing more bacteria than the manual kind? The concern is that decreased water flow may increase the chance that bacteria grow because the automatic faucets are not being thoroughly flushed through. It is known that 15% of water cultures from manual faucets in hospital patient care areas test positive for Legionella bacteria. A recent study at Johns Hopkins Hospital found Legionella bacteria growing in 10 of cultured water samples from 20 automatic faucets. (a) If the probability of Legionella bacteria growing in a faucet is 0.15, what is the probability that in a sample of 20 faucets, 10 or more have the bacteria growing? (b) Does the Johns Hopkins study provide sufficient evidence that the probability of Legionella bacteria growing in automatic faucets is greater than 15%? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) We have a binomial with n = 20 and p = 0.15, so P(X ≥ 10) = 1 − binomcdf (20, 0.15, 9) =",
+   "question_id": "statistics-barrons-2027-quiz-12-010",
+   "context": "",
+   "source_pages": [
+    262,
+    262
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 262,
+   "page_end": 262,
+   "stem": "Consider the following probability distribution for the number of tattoos college students have: Tattoos 0 1 2 3 4 Probability 0.85 0.11 0.02 0.014 0.006 (a) What is the probability a student has two tattoos given that he has at least one tattoo? (b) In a random sample of three students, what is the probability that one of the students has at least two tattoos while the other two students have no tattoos? (c) What are the mean and standard deviation for number of tattoos? Interpret in context.",
+   "correct_answer": null,
+   "answer_text": "(a) (b) P(at least 2 tattoos) = 0.02 + 0.014 + 0.006 = 0.04. The student with tattoos can be the first, second, or third student, so we have 3(0.04)(0.85)2 = 0.0867. (c) . The mean number of tattoos per college student is 0.216, and for any randomly selected college student, the number of tattoos will vary by about 0.604 from the mean of 0.216 tattoos.",
+   "question_id": "statistics-barrons-2027-quiz-12-011",
+   "context": "",
+   "source_pages": [
+    262,
+    262
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 262,
+   "page_end": 263,
+   "stem": "Suppose 35% of teenagers say that The Hunger Games is the best book series they ever read. (a) What is the probability that exactly two in a random sample of four teenagers say that The Hunger Games is the best series they ever read? (b) What is the probability that at least two in a random sample of four teens say that The Hunger Games is the best series they ever read? (c) What is the probability that the first teen who says that The Hunger Games is the best series he or she ever read is the second teen interviewed?",
+   "correct_answer": null,
+   "answer_text": "(a) This is a binomial distribution with n = 4 and p = 0.35. Then P(X = 2) = binomialcdf(4, 0.35, 1) = 0.3105. [Or .] (b) Binomial, n = 4, p = 0.35, and P(X ≥ 2) = 1 − P(X ≤ 1) = 1 − binomialcdf(4, 0.35, 1)] =",
+   "question_id": "statistics-barrons-2027-quiz-12-012",
+   "context": "",
+   "source_pages": [
+    262,
+    263
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 12,
+ "mcq_count": 9,
+ "frq_count": 3
+}

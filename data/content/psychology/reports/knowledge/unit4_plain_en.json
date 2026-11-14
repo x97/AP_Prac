@@ -1,0 +1,971 @@
+{
+  "unit": 4,
+  "items": [
+    {
+      "chapter": 13,
+      "section": "Overview",
+      "name": "Social psychology",
+      "plain_en": "study of how people relate to others"
+    },
+    {
+      "chapter": 13,
+      "section": "Overview",
+      "name": "Social cognition",
+      "plain_en": "using cognitive processes to understand social thinking"
+    },
+    {
+      "chapter": 13,
+      "section": "Overview",
+      "name": "Social influence theory",
+      "plain_en": "others affect how people feel and act"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Attribution theory",
+      "plain_en": "how people determine causes of observed behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Dispositional attribution",
+      "plain_en": "attributing behavior to a person's traits"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Situation attribution",
+      "plain_en": "attributing behavior to situational factors"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Consistency",
+      "plain_en": "how similarly one acts over time"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Distinctiveness",
+      "plain_en": "how similar this situation is to others"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Consensus",
+      "plain_en": "whether others respond the same way"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Self-fulfilling prophecy",
+      "plain_en": "expectations cause others to behave as expected"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Fundamental attribution error",
+      "plain_en": "overestimating dispositional factors when explaining others' behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Actor-observer bias",
+      "plain_en": "situational for self, dispositional for others"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "False-consensus effect",
+      "plain_en": "overestimating how much others agree with us"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Self-serving bias",
+      "plain_en": "claiming credit for good outcomes, denying bad"
+    },
+    {
+      "chapter": 13,
+      "section": "Attribution Theory",
+      "name": "Just-world phenomenon",
+      "plain_en": "belief that people deserve their misfortunes"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Attitude",
+      "plain_en": "set of beliefs and feelings"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Mere exposure effect",
+      "plain_en": "familiarity from repeated exposure increases liking"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Elaboration likelihood model",
+      "plain_en": "persuasion processed through central or peripheral routes"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Central route to persuasion",
+      "plain_en": "thinking carefully about the message"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Peripheral route",
+      "plain_en": "persuasion using cues beyond message content"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "LaPiere study",
+      "plain_en": "attitudes do not fully predict behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Attitude Formation and Change",
+      "name": "Cognitive dissonance theory",
+      "plain_en": "inconsistent attitudes and behaviors create tension"
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "name": "Foot-in-the-door technique",
+      "plain_en": "small request first, then larger request"
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "name": "Door-in-the-face technique",
+      "plain_en": "large request refused, then smaller request"
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "name": "Norms of reciprocity",
+      "plain_en": "people should return favors received"
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "name": "Social responsibility norm",
+      "plain_en": "duty to help improve society"
+    },
+    {
+      "chapter": 13,
+      "section": "Compliance Strategies",
+      "name": "Social trap",
+      "plain_en": "self-interest harms the collective good"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Stereotypes",
+      "plain_en": "generalized beliefs about group members"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Prejudice",
+      "plain_en": "unfair negative attitude toward a group"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Implicit attitude",
+      "plain_en": "unaware attitude influencing behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Ethnocentrism",
+      "plain_en": "believing one's own culture is best"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Discrimination",
+      "plain_en": "action based on prejudice"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Out-group homogeneity bias",
+      "plain_en": "seeing out-group members as all alike"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "In-group bias",
+      "plain_en": "preference for one's own group"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Categorization",
+      "plain_en": "grouping people and exaggerating group differences"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Contact theory",
+      "plain_en": "cooperative contact between groups reduces hostility"
+    },
+    {
+      "chapter": 13,
+      "section": "Stereotypes, Prejudice, and Discrimination",
+      "name": "Superordinate goal",
+      "plain_en": "goal requiring all groups to cooperate"
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "name": "Instrumental aggression",
+      "plain_en": "aggression to achieve a specific goal"
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "name": "Hostile aggression",
+      "plain_en": "aggression without clear purpose"
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "name": "Thanatos",
+      "plain_en": "death instinct linked to aggression"
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "name": "Frustration-aggression hypothesis",
+      "plain_en": "frustration makes aggression more likely"
+    },
+    {
+      "chapter": 13,
+      "section": "Aggression and Antisocial Behavior",
+      "name": "Bobo doll experiment",
+      "plain_en": "exposure to aggressive models increases aggression"
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "name": "Prosocial behavior",
+      "plain_en": "helping behavior benefiting others"
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "name": "Bystander intervention",
+      "plain_en": "conditions under which bystanders help"
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "name": "Bystander effect",
+      "plain_en": "more witnesses means less helping"
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "name": "Diffusion of responsibility",
+      "plain_en": "larger groups weaken individual responsibility"
+    },
+    {
+      "chapter": 13,
+      "section": "Prosocial Behavior",
+      "name": "Pluralistic ignorance",
+      "plain_en": "using others' reactions to define appropriate behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Attraction",
+      "name": "Similarity",
+      "plain_en": "attraction to people sharing our attitudes"
+    },
+    {
+      "chapter": 13,
+      "section": "Attraction",
+      "name": "Proximity",
+      "plain_en": "nearness promotes attraction"
+    },
+    {
+      "chapter": 13,
+      "section": "Attraction",
+      "name": "Reciprocal liking",
+      "plain_en": "liking increases when it is returned"
+    },
+    {
+      "chapter": 13,
+      "section": "Attraction",
+      "name": "Self-disclosure",
+      "plain_en": "sharing personal information with another"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Social facilitation",
+      "plain_en": "performing better when others are present"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Social impairment",
+      "plain_en": "being watched hurts difficult task performance"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Upward social comparison",
+      "plain_en": "comparing with those who do better"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Downward social comparison",
+      "plain_en": "comparing with those who do worse"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Relative deprivation theory",
+      "plain_en": "upward comparison lowers life satisfaction"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Conformity",
+      "plain_en": "adopting the group's views or actions"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Normative social influence",
+      "plain_en": "conforming to belong to the group"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Informational social influence",
+      "plain_en": "conforming because the group knows best"
+    },
+    {
+      "chapter": 13,
+      "section": "The Psychology of Social Situations",
+      "name": "Obedience",
+      "plain_en": "willingness to do what authority asks"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Norms",
+      "plain_en": "shared expectations for member behavior"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Social loafing",
+      "plain_en": "less effort when working in groups"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Group polarization",
+      "plain_en": "groups make more extreme decisions than individuals"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Groupthink",
+      "plain_en": "suppressing doubts leads to bad decisions"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Deindividuation",
+      "plain_en": "anonymity and arousal reduce self-restraint"
+    },
+    {
+      "chapter": 13,
+      "section": "Group Dynamics",
+      "name": "Zimbardo’s prison experiment",
+      "plain_en": "role-playing can make people cruel"
+    },
+    {
+      "chapter": 14,
+      "section": "Overview",
+      "name": "Personality",
+      "plain_en": "unique attitudes, behaviors, emotions characterizing a person"
+    },
+    {
+      "chapter": 14,
+      "section": "Overview",
+      "name": "Type A",
+      "plain_en": "time-pressured and easily angered"
+    },
+    {
+      "chapter": 14,
+      "section": "Overview",
+      "name": "Type B",
+      "plain_en": "relaxed and easygoing"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Id",
+      "plain_en": "primitive source of instincts and energy"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Ego",
+      "plain_en": "negotiates between id and reality"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Superego",
+      "plain_en": "conscience about right and wrong"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Defense mechanisms",
+      "plain_en": "protect conscious mind from threatening feelings"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Repression",
+      "plain_en": "keeping threatening thoughts out of awareness"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Denial",
+      "plain_en": "refusing to accept threatening truth"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Displacement",
+      "plain_en": "shifting emotions onto a safer target"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Projection",
+      "plain_en": "attributing one's own feelings to others"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Reaction Formation",
+      "plain_en": "expressing the opposite of true feelings"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Regression",
+      "plain_en": "reverting to childish, comforting behaviors"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Rationalization",
+      "plain_en": "finding benefits in undesirable outcomes"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Intellectualization",
+      "plain_en": "analyzing issues coldly and academically"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Sublimation",
+      "plain_en": "turning frustration into a different outlet"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Collective unconscious",
+      "plain_en": "inherited unconscious shared by all humans"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Archetypes",
+      "plain_en": "universal concepts shared by humanity"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Inferiority",
+      "plain_en": "fear of failure driving behavior"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Projective tests",
+      "plain_en": "interpreting ambiguous stimuli to reveal unconscious"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Rorschach inkblot test",
+      "plain_en": "describing what one sees in inkblots"
+    },
+    {
+      "chapter": 14,
+      "section": "Psychodynamic Theories of Personality",
+      "name": "Thematic apperception test (TAT)",
+      "plain_en": "stories about ambiguous picture situations"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Determinism",
+      "plain_en": "prior events determine present outcomes"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Free will",
+      "plain_en": "power to shape one's own future"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Third force",
+      "plain_en": "humanistic psychology opposing psychoanalysis and behaviorism"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Self-concept",
+      "plain_en": "overall view of oneself"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Self-actualization",
+      "plain_en": "reaching one's full potential"
+    },
+    {
+      "chapter": 14,
+      "section": "Humanistic Theories of Personality",
+      "name": "Unconditional positive regard",
+      "plain_en": "blanket acceptance without conditions"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Traits",
+      "plain_en": "main characteristics describing personality"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Nomothetic approach",
+      "plain_en": "same traits describe all people"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "16 PF",
+      "plain_en": "Cattell's test measuring sixteen basic traits"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Big Five personality traits",
+      "plain_en": "five dimensions describing personality"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Factor analysis",
+      "plain_en": "correlations reveal traits clustering together"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Idiographic theorists",
+      "plain_en": "same traits cannot describe everyone"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Cardinal dispositions",
+      "plain_en": "one trait dominates nearly all behavior"
+    },
+    {
+      "chapter": 14,
+      "section": "Trait Theories",
+      "name": "Central dispositions",
+      "plain_en": "traits with larger influence on personality"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Reciprocal determinism",
+      "plain_en": "person, environment, behavior mutually influence each other"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Self-efficacy",
+      "plain_en": "optimism about one's ability to succeed"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Locus of control",
+      "plain_en": "belief about controlling one's destiny"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Internal locus of control",
+      "plain_en": "believing one controls what happens"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "External locus of control",
+      "plain_en": "luck and outside forces determine destiny"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Explanatory style",
+      "plain_en": "attributions one makes about events"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Optimistic explanatory style",
+      "plain_en": "good events internal, bad events external"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Personality inventories",
+      "plain_en": "self-report questionnaires about personality"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "MMPI-2",
+      "plain_en": "widely used self-report personality test"
+    },
+    {
+      "chapter": 14,
+      "section": "Social Cognitive Theories",
+      "name": "Barnum effect",
+      "plain_en": "accepting generic descriptions as personally accurate"
+    },
+    {
+      "chapter": 15,
+      "section": "Overview",
+      "name": "Motivation",
+      "plain_en": "feelings or ideas causing goal-directed action"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Instincts",
+      "plain_en": "inborn fixed responses to stimuli"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Drive reduction theory",
+      "plain_en": "behavior driven by physiological needs"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Need",
+      "plain_en": "survival requirement like food or shelter"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Drive",
+      "plain_en": "impulse to satisfy a need"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Homeostasis",
+      "plain_en": "body's internal equilibrium"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Primary drives",
+      "plain_en": "innate biological needs like thirst"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Secondary drives",
+      "plain_en": "drives acquired through learning"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Arousal theory",
+      "plain_en": "seeking optimum excitement or arousal"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Yerkes-Dodson law",
+      "plain_en": "optimal arousal depends on task difficulty"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Opponent-process theory",
+      "plain_en": "motivation to return to baseline state"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Incentives",
+      "plain_en": "learned stimuli that attract us"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Self-determination theory",
+      "plain_en": "intrinsic motivation involves autonomy, competence, relatedness"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Autonomy",
+      "plain_en": "belief one can make important choices"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Competence",
+      "plain_en": "belief one has skills and knowledge"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories of Motivation",
+      "name": "Relatedness",
+      "plain_en": "forming relationships with important others"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Hypothalamus",
+      "plain_en": "monitors body chemistry, triggers hunger"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Lateral hypothalamus",
+      "plain_en": "hunger center; stimulation causes eating"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Ventromedial hypothalamus",
+      "plain_en": "satiety center; stimulation stops eating"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Ghrelin",
+      "plain_en": "stomach hormone signaling short-term hunger"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Leptin",
+      "plain_en": "fat-cell signal of stored energy"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Set-point theory",
+      "plain_en": "hypothalamus maintains optimum body weight"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Externals",
+      "plain_en": "people motivated by external food cues"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Internals",
+      "plain_en": "people responding to internal hunger cues"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Garcia effect",
+      "plain_en": "nausea paired with food causes aversion"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Bulimia",
+      "plain_en": "binging then purging food"
+    },
+    {
+      "chapter": 15,
+      "section": "Hunger Motivation",
+      "name": "Anorexia nervosa",
+      "plain_en": "starvation from obsession with weight"
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "name": "Sexual response cycle",
+      "plain_en": "four stages of sexual response"
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "name": "Refractory period",
+      "plain_en": "recovery time before another orgasm"
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "name": "Sexual desire",
+      "plain_en": "desire persists despite lost capability"
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "name": "Kinsey Reports",
+      "plain_en": "documented variety of human sexual behaviors"
+    },
+    {
+      "chapter": 15,
+      "section": "Sexual Motivation",
+      "name": "Sexual orientation",
+      "plain_en": "not caused by parenting or childhood"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Achievement motivation",
+      "plain_en": "desire to master tasks and goals"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Extrinsic motivations",
+      "plain_en": "rewards from outside oneself"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Intrinsic motivations",
+      "plain_en": "internal rewards like enjoyment"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Theory X",
+      "plain_en": "managers believe employees need rewards or punishment"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Theory Y",
+      "plain_en": "managers believe employees are internally motivated"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Approach-approach conflict",
+      "plain_en": "choosing between two desirable outcomes"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Avoidance-avoidance conflict",
+      "plain_en": "choosing between two unattractive outcomes"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Approach-avoidance conflict",
+      "plain_en": "goal has attractive and unattractive features"
+    },
+    {
+      "chapter": 15,
+      "section": "Social Motivation",
+      "name": "Multiple approach-avoidance conflicts",
+      "plain_en": "choosing among options each having pros and cons"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "name": "James-Lange theory",
+      "plain_en": "physiological changes cause emotional experience"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "name": "Facial feedback hypothesis",
+      "plain_en": "inferring our feelings from expressions"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "name": "Cannon-Bard theory",
+      "plain_en": "bodily changes and emotion occur together"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "name": "Two-factor theory",
+      "plain_en": "arousal plus cognitive label creates emotion"
+    },
+    {
+      "chapter": 15,
+      "section": "Theories About Emotion",
+      "name": "Broaden-and-build theory",
+      "plain_en": "positive emotions expand thinking and interactions"
+    },
+    {
+      "chapter": 15,
+      "section": "Nonverbal Expressions of Emotion",
+      "name": "Facial expressions",
+      "plain_en": "basic emotion expressions are culturally universal"
+    },
+    {
+      "chapter": 15,
+      "section": "Nonverbal Expressions of Emotion",
+      "name": "Sociobiology",
+      "plain_en": "innate physiological basis for expressions"
+    },
+    {
+      "chapter": 15,
+      "section": "Nonverbal Expressions of Emotion",
+      "name": "Display rules",
+      "plain_en": "cultural rules governing emotional expression"
+    }
+  ]
+}

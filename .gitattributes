@@ -1,0 +1,4 @@
+# Source PDFs are backed up outside Git and are not needed by the server.
+# Question images, audio, answer keys, and brand assets stay in the package.
+assets/**/*.pdf export-ignore
+_archive/** export-ignore

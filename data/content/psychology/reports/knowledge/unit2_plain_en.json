@@ -1,0 +1,983 @@
+{
+  "unit": 2,
+  "items": [
+    {
+      "chapter": 7,
+      "section": "Overview",
+      "name": "Perception",
+      "plain_en": "interpreting and understanding sensations"
+    },
+    {
+      "chapter": 7,
+      "section": "Overview",
+      "name": "Psychophysics",
+      "plain_en": "study of sensation and subjective experience"
+    },
+    {
+      "chapter": 7,
+      "section": "Thresholds",
+      "name": "absolute threshold",
+      "plain_en": "smallest stimulus amount we can detect"
+    },
+    {
+      "chapter": 7,
+      "section": "Thresholds",
+      "name": "subliminal",
+      "plain_en": "stimuli below the absolute threshold"
+    },
+    {
+      "chapter": 7,
+      "section": "Thresholds",
+      "name": "difference threshold",
+      "plain_en": "smallest detectable change in a stimulus"
+    },
+    {
+      "chapter": 7,
+      "section": "Thresholds",
+      "name": "Weber’s law",
+      "plain_en": "required change scales with original stimulus strength"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "signal detection theory",
+      "plain_en": "how distractions affect detecting stimuli"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "false positive",
+      "plain_en": "wrongly believing a nonexistent stimulus is present"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "false negative",
+      "plain_en": "failing to perceive a present stimulus"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "top-down processing",
+      "plain_en": "filling perceptual gaps with prior knowledge"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "schemata",
+      "plain_en": "mental templates for how the world works"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "perceptual set",
+      "plain_en": "tendency to perceive things a particular way"
+    },
+    {
+      "chapter": 7,
+      "section": "Perceptual Theories",
+      "name": "bottom-up processing",
+      "plain_en": "building perception from an object's features"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "figure-ground relationship",
+      "plain_en": "distinguishing the figure from its background"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "Gestalt psychology",
+      "plain_en": "perceiving images as organized groups"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "Proximity",
+      "plain_en": "nearby objects group together"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "Similarity",
+      "plain_en": "similar-looking objects group together"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "Continuity",
+      "plain_en": "objects in continuous lines group together"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "Closure",
+      "plain_en": "mind fills gaps to complete figures"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "constancy",
+      "plain_en": "maintaining constant perception despite changing conditions"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "size constancy",
+      "plain_en": "knowing object size stays constant across distances"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "shape constancy",
+      "plain_en": "knowing shape stays constant across viewing angles"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "brightness constancy",
+      "plain_en": "perceiving constant color despite changing light"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "stroboscopic effect",
+      "plain_en": "still pictures shown rapidly appear moving"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "phi phenomenon",
+      "plain_en": "lights blinking in sequence appear moving"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "autokinetic effect",
+      "plain_en": "fixed light in dark seems to move"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "depth perception",
+      "plain_en": "ability to judge distance and three dimensions"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "visual cliff",
+      "plain_en": "glass table creating illusion of a cliff"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "monocular depth cues",
+      "plain_en": "depth cues needing only one eye"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "linear perspective",
+      "plain_en": "converging parallel lines show distance"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "relative size",
+      "plain_en": "larger nearby, smaller distant objects"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "interposition",
+      "plain_en": "blocking objects are perceived as closer"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "texture gradient",
+      "plain_en": "near texture clear, far texture blurry"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "shadowing",
+      "plain_en": "shading implies light source and depth"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "binocular depth cues",
+      "plain_en": "depth cues requiring two eyes"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "retinal disparity",
+      "plain_en": "differing eye images provide depth information"
+    },
+    {
+      "chapter": 7,
+      "section": "Principles of Visual Perception",
+      "name": "convergence",
+      "plain_en": "eyes turn inward for nearby objects"
+    },
+    {
+      "chapter": 7,
+      "section": "Effects of Culture on Perception",
+      "name": "perceptual sets",
+      "plain_en": "some perceptual sets learned from culture"
+    },
+    {
+      "chapter": 7,
+      "section": "Effects of Culture on Perception",
+      "name": "Muller-Lyer illusion",
+      "plain_en": "equal lines look different lengths"
+    },
+    {
+      "chapter": 7,
+      "section": "Effects of Culture on Perception",
+      "name": "noncarpentered cultures",
+      "plain_en": "cultures without right angles in architecture"
+    },
+    {
+      "chapter": 7,
+      "section": "Extrasensory Perception",
+      "name": "extrasensory perception (ESP)",
+      "plain_en": "claiming perception outside the normal senses"
+    },
+    {
+      "chapter": 8,
+      "section": "Overview",
+      "name": "thinking and creativity",
+      "plain_en": "thinking and creativity are hard to describe"
+    },
+    {
+      "chapter": 8,
+      "section": "Describing Thought",
+      "name": "concepts",
+      "plain_en": "mental rules for categorizing objects and ideas"
+    },
+    {
+      "chapter": 8,
+      "section": "Describing Thought",
+      "name": "prototypes",
+      "plain_en": "best representative example of a category"
+    },
+    {
+      "chapter": 8,
+      "section": "Describing Thought",
+      "name": "images",
+      "plain_en": "mental images of external reality"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "algorithm",
+      "plain_en": "formula guaranteeing the correct solution"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "heuristic",
+      "plain_en": "quick but not always accurate strategy"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "availability heuristic",
+      "plain_en": "judging by easily recalled examples"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "representativeness heuristic",
+      "plain_en": "judging by similarity to mental prototypes"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "overconfidence",
+      "plain_en": "overestimating the accuracy of our judgments"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "belief bias",
+      "plain_en": "illogical reasoning to confirm existing beliefs"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "belief perseverance",
+      "plain_en": "keeping beliefs after evidence is contradicted"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "gambler’s fallacy",
+      "plain_en": "thinking recent outcomes change next probability"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "sunk-cost fallacy",
+      "plain_en": "refusing change because of past investment"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "mental set",
+      "plain_en": "sticking to established thought patterns"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "functional fixedness",
+      "plain_en": "cannot see new uses for objects"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "subgoals",
+      "plain_en": "smaller steps toward solving the main problem"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "confirmation bias",
+      "plain_en": "seeking only evidence supporting our beliefs"
+    },
+    {
+      "chapter": 8,
+      "section": "Problem-Solving",
+      "name": "framing",
+      "plain_en": "presentation method changes how we judge"
+    },
+    {
+      "chapter": 8,
+      "section": "Creativity",
+      "name": "convergent thinking",
+      "plain_en": "thinking aimed at one solution"
+    },
+    {
+      "chapter": 8,
+      "section": "Creativity",
+      "name": "divergent thinking",
+      "plain_en": "thinking searching for many possible answers"
+    },
+    {
+      "chapter": 9,
+      "section": "Overview",
+      "name": "models, or explanations, of how memory works",
+      "plain_en": "different models explaining how memory works"
+    },
+    {
+      "chapter": 9,
+      "section": "Three-Box/Information-Processing Model",
+      "name": "three-box/information-processing model",
+      "plain_en": "memory model with three processing stages"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "sensory memory",
+      "plain_en": "brief holding of incoming sensory information"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "iconic memory",
+      "plain_en": "very brief visual sensory memory"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "echoic memory",
+      "plain_en": "auditory sensory memory lasting seconds"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "selective attention",
+      "plain_en": "encoding attended or important information"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "cocktail party effect",
+      "plain_en": "important sounds capture attention and get encoded"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "inattentional blindness",
+      "plain_en": "missing visible things while intensely focused"
+    },
+    {
+      "chapter": 9,
+      "section": "Sensory Memory",
+      "name": "change blindness",
+      "plain_en": "failing to notice obvious visual changes"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "short-term memory",
+      "plain_en": "temporary storage of current thoughts"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "working memory",
+      "plain_en": "ability to manipulate short-term memory items"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "central executive",
+      "plain_en": "monitors information and directs processing systems"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "visuospatial sketchpad",
+      "plain_en": "mental workspace for visual and spatial information"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "auditory loop",
+      "plain_en": "processes words and numbers"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "maintenance rehearsal",
+      "plain_en": "repeating information to hold it in memory"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "elaborative rehearsal",
+      "plain_en": "effortful encoding of information's meaning"
+    },
+    {
+      "chapter": 9,
+      "section": "Short-Term and Working Memory",
+      "name": "semantic memory",
+      "plain_en": "memory for the meaning of information"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "long-term memory",
+      "plain_en": "permanent storage of information"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "episodic memory",
+      "plain_en": "memories of events in chronological order"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "semantic memory",
+      "plain_en": "stored general facts, meanings, and categories"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "procedural memory",
+      "plain_en": "memory for performing skills and procedures"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "explicit memories",
+      "plain_en": "deliberately remembered facts and events"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "implicit memories",
+      "plain_en": "unintentional memories we do not realize"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "prospective memory",
+      "plain_en": "remembering things to do in future"
+    },
+    {
+      "chapter": 9,
+      "section": "Long-Term Memory",
+      "name": "eidetic memory",
+      "plain_en": "rare, vivid, enduring visual images"
+    },
+    {
+      "chapter": 9,
+      "section": "Levels of Processing Model",
+      "name": "levels of processing model",
+      "plain_en": "memory depends on depth of processing"
+    },
+    {
+      "chapter": 9,
+      "section": "Levels of Processing Model",
+      "name": "shallowly encoded",
+      "plain_en": "only rote repetition, quickly forgotten"
+    },
+    {
+      "chapter": 9,
+      "section": "Levels of Processing Model",
+      "name": "deeply encoded",
+      "plain_en": "processing meaning and context for better recall"
+    },
+    {
+      "chapter": 9,
+      "section": "Levels of Processing Model",
+      "name": "long-term potentiation",
+      "plain_en": "repeated activation strengthens neuronal connections"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "encoding",
+      "plain_en": "process of putting information into memory"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "primacy effect",
+      "plain_en": "better recall of list beginnings"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "recency effect",
+      "plain_en": "better recall of list ends"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "serial position effect",
+      "plain_en": "list position affects recall"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "method of loci",
+      "plain_en": "linking memories to imagined places"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "spacing effect",
+      "plain_en": "distributed practice beats massed practice"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "chunking",
+      "plain_en": "grouping items to remember more"
+    },
+    {
+      "chapter": 9,
+      "section": "Encoding Memories",
+      "name": "mnemonic devices",
+      "plain_en": "memory aids such as grouping"
+    },
+    {
+      "chapter": 9,
+      "section": "Storing Memories",
+      "name": "hippocampus",
+      "plain_en": "brain structure encoding new memories"
+    },
+    {
+      "chapter": 9,
+      "section": "Storing Memories",
+      "name": "anterograde amnesia",
+      "plain_en": "cannot form new memories"
+    },
+    {
+      "chapter": 9,
+      "section": "Storing Memories",
+      "name": "retrograde amnesia",
+      "plain_en": "cannot recall events before brain trauma"
+    },
+    {
+      "chapter": 9,
+      "section": "Storing Memories",
+      "name": "cerebellum",
+      "plain_en": "brain structure storing procedural memories"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "retrieval",
+      "plain_en": "accessing stored information for use"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "recognition",
+      "plain_en": "matching current stimulus to memory"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "recall",
+      "plain_en": "retrieving memories with external cues"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "retrieval cues",
+      "plain_en": "stimuli that help retrieve memories"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "tip-of-the-tongue phenomenon",
+      "plain_en": "knowing something but temporarily unable to recall it"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "semantic network theory",
+      "plain_en": "memories connected by meaning and context"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "flashbulb memories",
+      "plain_en": "vivid memories of important events"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "mood-congruent memory",
+      "plain_en": "matching mood makes recall more likely"
+    },
+    {
+      "chapter": 9,
+      "section": "Retrieval",
+      "name": "state-dependent memory",
+      "plain_en": "same consciousness state aids recall"
+    },
+    {
+      "chapter": 9,
+      "section": "Constructive Memory",
+      "name": "constructed memory",
+      "plain_en": "memory with false or invented details"
+    },
+    {
+      "chapter": 9,
+      "section": "Constructive Memory",
+      "name": "misinformation effect",
+      "plain_en": "misleading information creates false memory details"
+    },
+    {
+      "chapter": 9,
+      "section": "Forgetting",
+      "name": "decay",
+      "plain_en": "unused memories fade over time"
+    },
+    {
+      "chapter": 9,
+      "section": "Forgetting",
+      "name": "relearning effect",
+      "plain_en": "relearning forgotten material takes less time"
+    },
+    {
+      "chapter": 9,
+      "section": "Forgetting",
+      "name": "interference",
+      "plain_en": "other memories compete during recall"
+    },
+    {
+      "chapter": 9,
+      "section": "Forgetting",
+      "name": "retroactive interference",
+      "plain_en": "new learning interferes with older memories"
+    },
+    {
+      "chapter": 9,
+      "section": "Forgetting",
+      "name": "proactive interference",
+      "plain_en": "old learning interferes with newer memories"
+    },
+    {
+      "chapter": 10,
+      "section": "Overview",
+      "name": "intelligence",
+      "plain_en": "Galton pioneered the study of intelligence"
+    },
+    {
+      "chapter": 10,
+      "section": "Standardization and Norms",
+      "name": "psychometricians",
+      "plain_en": "psychologists specializing in standardized tests"
+    },
+    {
+      "chapter": 10,
+      "section": "Standardization and Norms",
+      "name": "standardized test",
+      "plain_en": "test piloted on similar people, with norms"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "reliability",
+      "plain_en": "consistency or repeatability of test results"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "split-half reliability",
+      "plain_en": "correlation between two halves' scores"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "equivalent-form reliability",
+      "plain_en": "correlation between different test versions"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "test-retest reliability",
+      "plain_en": "correlation between two test administrations"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "validity",
+      "plain_en": "test measures what it should measure"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "face validity",
+      "plain_en": "superficial appearance of measuring correctly"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "content validity",
+      "plain_en": "covers the full range of material"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "concurrent validity",
+      "plain_en": "assesses a characteristic someone currently has"
+    },
+    {
+      "chapter": 10,
+      "section": "Reliability and Validity",
+      "name": "predictive validity",
+      "plain_en": "measures future performance"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "aptitude tests",
+      "plain_en": "assess ability or future potential"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "achievement tests",
+      "plain_en": "measure acquired knowledge or accomplishments"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "speed tests",
+      "plain_en": "many questions in little time"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "power tests",
+      "plain_en": "gauges difficulty of problems one can solve"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "group tests",
+      "plain_en": "given simultaneously to multiple people"
+    },
+    {
+      "chapter": 10,
+      "section": "Types of Tests",
+      "name": "individual tests",
+      "plain_en": "more examiner and examinee interaction"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "intelligence",
+      "plain_en": "capacity to use information productively"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "g",
+      "plain_en": "single general mental ability"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "factor analysis",
+      "plain_en": "statistical technique measuring item correlations"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "multiple intelligences",
+      "plain_en": "intelligence includes many different abilities"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "intrapersonal intelligence",
+      "plain_en": "capacity for understanding one's inner self"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "interpersonal intelligence",
+      "plain_en": "skill at relating well to other people"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "naturalist intelligence",
+      "plain_en": "recognizing and organizing things in nature"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "triarchic theory",
+      "plain_en": "intelligence comprising analytic, practical, creative abilities"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "Componential, or analytic, intelligence",
+      "plain_en": "skills traditionally seen as intelligence"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "creative intelligence",
+      "plain_en": "using knowledge creatively in new situations"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "practical intelligence",
+      "plain_en": "using knowledge in real situations"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "fluid intelligence",
+      "plain_en": "solving abstract problems and learning new skills"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "crystallized intelligence",
+      "plain_en": "applying knowledge gained over the years"
+    },
+    {
+      "chapter": 10,
+      "section": "Theories of Intelligence",
+      "name": "EQ",
+      "plain_en": "emotional intelligence matching interpersonal and intrapersonal abilities"
+    },
+    {
+      "chapter": 10,
+      "section": "Intelligence Tests",
+      "name": "mental age",
+      "plain_en": "intelligence level expressed as an age"
+    },
+    {
+      "chapter": 10,
+      "section": "Intelligence Tests",
+      "name": "IQ",
+      "plain_en": "mental age divided by chronological age, times 100"
+    },
+    {
+      "chapter": 10,
+      "section": "Intelligence Tests",
+      "name": "deviation IQ",
+      "plain_en": "IQ based on deviation from mean"
+    },
+    {
+      "chapter": 10,
+      "section": "Intelligence Tests",
+      "name": "Wechsler Adult Intelligence Scale (WAIS)",
+      "plain_en": "Wechsler test for adults"
+    },
+    {
+      "chapter": 10,
+      "section": "Intelligence Tests",
+      "name": "Bias in testing",
+      "plain_en": "whether tests are fair to different groups"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "nature",
+      "plain_en": "genetic influence on traits"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "nurture",
+      "plain_en": "environment and learning influence"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "heritability",
+      "plain_en": "genetic factors' share of trait variation"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "Flynn effect",
+      "plain_en": "IQ scores rising steadily over time"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "Monozygotic (identical) twins",
+      "plain_en": "identical twins score more similarly"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "Head Start",
+      "plain_en": "government program helping disadvantaged children"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "differences within groups",
+      "plain_en": "within-group differences exceed between-group differences"
+    },
+    {
+      "chapter": 10,
+      "section": "Nature vs. Nurture: Intelligence",
+      "name": "A CAUTIONARY NOTE",
+      "plain_en": "don't overinterpret a single test score"
+    }
+  ]
+}

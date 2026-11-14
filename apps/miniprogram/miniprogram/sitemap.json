@@ -1,0 +1,9 @@
+{
+  "desc": "PsyPrac AP Psychology 记忆卡片",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

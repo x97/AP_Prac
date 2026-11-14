@@ -1,0 +1,786 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-07",
+ "kind": "quiz",
+ "number": 7,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 7 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 7",
+ "pdf_page_start": 186,
+ "pdf_page_end": 191,
+ "answer_page_start": 721,
+ "answer_page_end": 723,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Random sampling",
+    "B": "Random assignment",
+    "C": "Control",
+    "D": "Replication"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 186,
+      "bbox": [
+       110.0,
+       619.7,
+       247.0,
+       636.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 186,
+      "bbox": [
+       110.0,
+       639.2,
+       262.0,
+       656.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 186,
+      "bbox": [
+       110.0,
+       658.7,
+       181.4,
+       675.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 186,
+      "bbox": [
+       110.0,
+       678.2,
+       205.2,
+       695.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 186,
+   "page_end": 186,
+   "stem": "Which of the following is not a primary element of experimental design?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Random sampling can be used in experimental design but is not a primary element like it is with observational studies.",
+   "question_id": "statistics-barrons-2027-quiz-07-001",
+   "source_pages": [
+    186,
+    186
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Double-sided",
+    "B": "Double-sample",
+    "C": "Double-blind",
+    "D": "Double-origin"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       124.9,
+       217.5,
+       141.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       144.4,
+       228.7,
+       161.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       163.9,
+       215.0,
+       180.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       183.3,
+       220.9,
+       200.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 187,
+   "page_end": 187,
+   "stem": "Which name describes an experiment where neither the subjects nor the response evaluators know which subjects are in the treatment group and which are in the control group?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Double-blinding is often important so that those who measure responses are not influenced by the knowledge of which subjects are receiving which treatments.",
+   "question_id": "statistics-barrons-2027-quiz-07-002",
+   "source_pages": [
+    187,
+    187
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Ambiguous effect",
+    "B": "Mistaken effect",
+    "C": "Placebo effect",
+    "D": "Psychological effect"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       257.1,
+       244.0,
+       273.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       276.6,
+       229.9,
+       293.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       296.1,
+       223.3,
+       312.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       315.6,
+       258.2,
+       332.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 187,
+   "page_end": 187,
+   "stem": "What is the name of the beneficial effect experienced by some patients due to the patients’ belief in the treatment?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The placebo effect refers to the fact that some people will respond to a perceived treatment even though their treatment is actually an inactive treatment—for example, receiving a sugar pill rather than a medication.",
+   "question_id": "statistics-barrons-2027-quiz-07-003",
+   "source_pages": [
+    187,
+    187
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "subjects; treatments",
+    "B": "subjects; response variables",
+    "C": "statistical significance; statistical confidence",
+    "D": "explanatory variables; response variables"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       389.4,
+       263.4,
+       406.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       408.8,
+       310.0,
+       425.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       428.3,
+       406.1,
+       445.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       447.8,
+       390.9,
+       464.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 187,
+   "page_end": 187,
+   "stem": "Randomized experiments allow for cause-and-effect conclusions between ____ and ____.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Experiments aim to discover whether a treatment of interest (explanatory variable) has a proposed effect (response variable).",
+   "question_id": "statistics-barrons-2027-quiz-07-004",
+   "source_pages": [
+    187,
+    187
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Census",
+    "B": "Sample survey",
+    "C": "Experiment",
+    "D": "Observational study"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       555.0,
+       181.0,
+       571.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       574.5,
+       226.6,
+       591.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       594.0,
+       206.8,
+       610.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 187,
+      "bbox": [
+       110.0,
+       613.5,
+       259.8,
+       630.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 187,
+   "page_end": 187,
+   "stem": "Suppose you wish to compare the average class size of mathematics classes to the average class size of English classes in your high school. Which is the most appropriate technique for gathering the needed data?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The main office at your school should be able to give you the class sizes of every math and English class. If need be, you can check with every math and English teacher.",
+   "question_id": "statistics-barrons-2027-quiz-07-005",
+   "source_pages": [
+    187,
+    187
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Both studies are observational studies because of the time period involved.",
+    "B": "Both studies are observational studies because there are no control groups.",
+    "C": "The first study is an observational study, while the second is an experiment.",
+    "D": "The first study is an experiment, while the second is an observational study."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       108.2,
+       496.2,
+       125.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       144.4,
+       504.4,
+       161.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       180.6,
+       526.4,
+       197.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       216.8,
+       478.5,
+       233.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 187,
+   "page_end": 188,
+   "stem": "Two studies are run to compare the experiences of families living in high-rise public housing to those of families living in townhouse subsidized rentals. The first study interviews 25 families who have been in each government program for at least 1 year, while the second randomly assigns 25 families to each program and interviews them after 1 year. Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "In the first study, the families were already in the housing units, while in the second study, one of two treatments was applied to each family.",
+   "question_id": "statistics-barrons-2027-quiz-07-006",
+   "source_pages": [
+    187,
+    188
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "There are four explanatory variables and one response variable.",
+    "B": "There is one explanatory variable with four levels of response.",
+    "C": "Miles per gallon is the only explanatory variable, but there are four response variables corresponding to the different octanes.",
+    "D": "There are four levels of a single explanatory variable."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       323.9,
+       529.8,
+       340.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       343.4,
+       519.1,
+       360.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       362.9,
+       518.1,
+       379.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       399.1,
+       465.2,
+       415.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 188,
+   "page_end": 188,
+   "stem": "A consumer product agency tests miles per gallon for a sample of automobiles using each of four different octanes of gasoline. Which of the following is true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Octane is the only explanatory variable, and it is being tested at four levels. Miles per gallon is the single response variable.",
+   "question_id": "statistics-barrons-2027-quiz-07-007",
+   "source_pages": [
+    188,
+    188
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "Although this study indicates a relation, it does not prove causation.",
+    "B": "There could well be a confounding variable responsible for the seeming relationship.",
+    "C": "Self-selection here makes drawing the counselors’ conclusion difficult.",
+    "D": "A more meaningful study would be to compare a simple random sample (SRS) from each of the two groups of 100 students."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       573.1,
+       488.4,
+       589.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       609.3,
+       519.7,
+       626.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       645.5,
+       511.4,
+       662.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 188,
+      "bbox": [
+       110.0,
+       681.7,
+       533.2,
+       698.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 188,
+   "page_end": 188,
+   "stem": "A study is made to determine whether taking AP Statistics in high school helps students achieve higher GPAs when they go to college. In comparing records of 200 college students, half of whom took AP Statistics in high school, it is noted that the average college GPA is higher for those 100 students who took AP Statistics than for those who did not. Based on this study, guidance counselors begin recommending AP Statistics for college-bound students. Which of the following is incorrect?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Using only a sample from the observations gives less information. It may well be that very bright students are the same ones who both choose to take AP Statistics and have high college GPAs. If students could be randomly assigned to take or not take AP Statistics, the results would be more meaningful. Of course, ethical considerations might make it impossible to isolate the confounding variable in this way.",
+   "question_id": "statistics-barrons-2027-quiz-07-008",
+   "source_pages": [
+    188,
+    188
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "This was a randomized experiment, which gave strong evidence that regular exercise causes greater heart strength.",
+    "B": "This was an observational study, which proved that regular exercise causes greater heart strength.",
+    "C": "This was an observational study, which gave strong evidence that regular exercise causes greater heart strength.",
+    "D": "It is likely that there is a confounding variable."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       158.3,
+       530.0,
+       175.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       194.5,
+       498.9,
+       211.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       230.7,
+       511.3,
+       247.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       266.9,
+       423.6,
+       283.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 189,
+   "page_end": 189,
+   "stem": "A cardiologist surveyed a random sample of adults aged 21 to 75, looking at whether or not they reported exercising regularly and then used an echocardiogram to measure heart strength of those surveyed. She found a strong positive association. Which of the following is a proper conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Association does not imply causation. It is likely that regular exercise and a person’s age are both associated with greater heart strength, and either one could be the cause of the greater heart strength. Regular exercise and age are confounded. An experiment in which people are randomly assigned to exercise or not can prove a causal relationship between exercise and heart strength.",
+   "question_id": "statistics-barrons-2027-quiz-07-009",
+   "source_pages": [
+    189,
+    189
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "to reduce bias.",
+    "B": "to reduce variation.",
+    "C": "as a substitute for a control group.",
+    "D": "as a first step in randomization."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       318.4,
+       228.4,
+       335.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       337.9,
+       256.5,
+       354.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       357.4,
+       350.5,
+       374.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 189,
+      "bbox": [
+       110.0,
+       376.8,
+       332.3,
+       393.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 189,
+   "page_end": 189,
+   "stem": "In designing an experiment, blocking is used",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Blocking divides the subjects into groups, such as men and women, or political affiliations, and thus reduces variation. That is, when we group similar individuals together into blocks and then randomize within the blocks, much of the variability due to the differences between the blocks is accounted for and so comparison of the treatment groups is clearer.",
+   "question_id": "statistics-barrons-2027-quiz-07-010",
+   "source_pages": [
+    189,
+    189
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 189,
+   "page_end": 189,
+   "stem": "For each of the following, would you recommend using random sampling, random assignment, both, or neither? Explain. (a) A movie critic wants to investigate whether a greater proportion of teenagers in public or private schools have seen all three of the Back to the Future films. (b) A company CEO wants to investigate whether giving hourly pay raises or end-of-the-year bonuses leads to greater productivity on an assembly line. (c) A sportscaster wants to investigate whether the Chicago Cubs or the Chicago White Sox won a greater number of interleague games during the shortened 2020 season.",
+   "correct_answer": null,
+   "answer_text": "(a) This cannot involve random assignment as it makes no sense to randomly assign teenagers to go to public or private schools. However, it would be good to use random sampling to select teenagers from each type of school to be asked about Back to the Future movies so as to be able to generalize to the population of public and private schools. (b) It is important for the company CEO to use random assignment to receive hourly pay raises or end-of-the-year bonuses because a cause-and-effect conclusion is of interest. (c) The sportscaster would probably want to include all the interleague games played by the Cubs and White Sox during the shortened 2020 season, and thus use neither random sampling nor random assignment.",
+   "question_id": "statistics-barrons-2027-quiz-07-011",
+   "context": "",
+   "source_pages": [
+    189,
+    189
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 190,
+   "page_end": 190,
+   "stem": "Rock and pop fame is associated with risk-taking and premature mortality. A study following the lives of 100 rock and pop stars periodically asked them about their frequency of substance abuse and followed their lives until death. Researchers noted the age of death and noticed that a greater amount of substance abuse was associated with an earlier age at death. (a) What are the explanatory and response variables? (b) Is this a prospective observational study, a retrospective observational study, or an experiment? Explain. (c) Does this study show that greater frequency of substance abuse leads to early death?",
+   "correct_answer": null,
+   "answer_text": "(a) The explanatory variable is the frequency of substance abuse. The response variable is the age at death. (b) This is a prospective observational study. No treatments were assigned, and the researchers asked the rock and pop stars to report their frequency of substance abuse and later noted their ages at time of death. (c) No, this is an observational study, so no cause-and-effect conclusion is possible. It is possible that other variables are influencing the response. For example, rock and pop stars might engage in other forms of risk taking, such as poor eating and poor sleep patterns, which also might negatively affect life expectancy.",
+   "question_id": "statistics-barrons-2027-quiz-07-012",
+   "context": "",
+   "source_pages": [
+    190,
+    190
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 190,
+   "page_end": 190,
+   "stem": "Much of the profit in movie theaters comes from sales at the concession stands. A theater manager wants to run an experiment to evaluate whether subliminal advertising will help to increase sales. He has software that flashes “BUY POPCORN” on the screen for a fraction of a second. (a) What are the explanatory and response variables? (b) Is this a prospective observational study, a retrospective observational study, or an experiment? Explain. (c) Should blinding and/or double-blinding or neither be incorporated? Explain. (d) Should random sampling or random assignment be incorporated? Explain how. (e) Why is it important to have some kind of control with regard to which days the subliminal message takes place? (f) In context, explain how a cause-and-effect conclusion will or will not be justified.",
+   "correct_answer": null,
+   "answer_text": "(a) The explanatory variable is flashing or not flashing “BUY POPCORN” on the screen for a fraction of a second. The response variable is the quantity of popcorn sold. (b) This is an experiment because a treatment, flashing “BUY POPCORN,” is performed on certain days. There is a control group, the days when no flashing takes place. (c) Double-blinding should be incorporated. It is important that customers don’t know they are seeing or not seeing the subliminal message as that knowledge might influence whether or not they buy popcorn. It is also important that the clerks selling the popcorn don’t know which days the message will be flashing as that might impact how they react to customers. (d) Random assignment should be incorporated. For example, every day for some specified period of time, the manager could flip a coin. If heads, flash the subliminal message all day on the screen. If tails, though, don’t flash the message that day. (e) If the subliminal message always took place on certain days, for example, on weekends, that could be a confounding variable. It would not be clear if observed higher popcorn sales were due to the subliminal messages or to the weekend. Random assignment of days for subliminal messages is a control over this variable. (f) Compare the quantity of popcorn bought by the treatment group—that is, by the people who receive the subliminal message—to the quantity bought by the control group, which is the people who don’t receive the message. This is a well-designed experiment incorporating comparison, replication, random assignment, and control. So if a difference is noted, a cause- and-effect conclusion is justified.",
+   "question_id": "statistics-barrons-2027-quiz-07-013",
+   "context": "",
+   "source_pages": [
+    190,
+    190
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 190,
+   "page_end": 191,
+   "stem": "A six-month study looked at 800 adult volunteers who were randomly divided into four groups. ■The first group wore a clip-on fitness tracker and received a cash incentive if they walked more than 50,000 steps a week. ■The next group also wore an activity tracker and received a cash incentive for walking more than 50,000 steps a week. However, they were required to donate the cash to charity. ■A third group wore the activity tracker but did not receive a cash incentive. ■The last group did not wear a fitness tracker or get a cash incentive. The measured outcome was “change in blood pressure over a six- month period.” (a) Was this an observational study or an experiment? Explain. (b) Identify the treatments, experimental units, and response variable. (c) What is the fourth group called, and what is the purpose of including it? (d) Describe an appropriate method for assigning the subjects to the four groups so that each group will have an equal number of subjects. (e) Is it reasonable to generalize the results of the study beyond the 800 participants? Explain why or why not.",
+   "correct_answer": null,
+   "answer_text": "(a) This was an experiment because treatments, which involved fitness trackers and incentives, were applied. (b) Treatments: (1) tracker and personal cash incentive, (2) tracker and charity cash incentive, (3) tracker alone, and (4) no tracker or cash incentive. Experimental units: the 800 volunteers. Response variable: change in blood pressure over a six-month period. (c) The “no fitness tracker or incentive” group was a control group whose purpose is to provide a baseline to determine if the activity tracker or cash incentive treatments had any effect on blood pressure change. (d) Assign each participant an integer from 1 to 800. Use a random integer generator to choose 600 unique integers between 1 and 800, throwing away repeats. The participants corresponding to the first 200 of these selected integers will be put in the first group, the participants corresponding to the second 200 of these selected integers will be put in the second group, the participants corresponding to the last 200 of these selected integers will be put in the third group, and the remaining 200 participants will be put into the fourth group. (e) These 800 participants were volunteers, who may not be representative of a larger population with regard to the effects of wearing fitness trackers or receiving cash incentives on changes in blood pressure. So it is not reasonable to generalize the results of this study to a larger population.",
+   "question_id": "statistics-barrons-2027-quiz-07-014",
+   "context": "",
+   "source_pages": [
+    190,
+    191
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 14,
+ "mcq_count": 10,
+ "frq_count": 4
+}

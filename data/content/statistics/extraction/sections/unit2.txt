@@ -1,0 +1,1385 @@
+
+
+########## SECTION statistics-barrons-2027-u2-s01 | Two Categorical Variables | PDF pages 205-215 ##########
+
+[[PAGE 205]]
+Two Categorical Variables
+Qualitative data often encompass two categorical variables that may
+or may not have a dependent relationship. These data can be
+displayed in a two-way table (also called a contingency table).
+Example 2.1
+The Cuteness Factor: A Japanese study had 250 volunteers look at
+pictures of cute baby animals, adult animals, or tasty-looking foods
+before testing their level of focus in solving puzzles.
+Level of focus
+Low
+Medium
+High
+Total
+Pictures
+viewed
+Baby
+animals
+Adult
+animals
+Tasty foods
+Total
+The row sums and column sums above are called marginal
+frequencies.
+
+[[PAGE 206]]
+Instead of frequencies (counts), the entries in two-way tables are
+sometimes given as relative frequencies (proportions).
+Determine the table of relative frequencies.
+Solution
+Divide each cell’s frequency by 250, the table total, to obtain:
+Level of focus
+Low
+Medium
+High
+Total
+Pictures
+viewed
+Baby
+animals
+0.02
+0.08
+0.16
+0.26
+Adult
+animals
+0.12
+0.16
+0.06
+0.34
+Tasty
+animals
+0.22
+0.14
+0.04
+0.40
+Total
+0.36
+0.38
+0.26
+1.00
+The row sums and column sums above are called marginal relative
+frequencies. The distributions of these marginal relative frequencies
+can be displayed in bar charts (bar graphs):
+
+[[PAGE 207]]
+The relative frequency distributions described and calculated above
+do not describe or measure the relationship between the two
+categorical variables. For this we must consider the information in
+the body of the table, not just the sums in the margins.
+Example 2.2
+We are interested in predicting the level of focus from the pictures
+viewed, and so we look at conditional relative frequencies for each
+row separately. In Example 2.1, what proportion or percentage of
+the participants who viewed baby animals then had each of the
+levels of focus?
+NOTE
+Conditional relative frequencies are the relative frequencies for a specific part
+of the table, for example, the cell frequencies in a row divided by the total for
+that row or the cell frequencies in a column divided by the total for that
+column.
+Solutions
+This conditional relative frequency distribution can be displayed
+either with a side-by-side bar chart or by a segmented bar chart
+where each segment has a length corresponding to its relative
+frequency:
+
+[[PAGE 208]]
+NOTE
+Segmented bar charts are like pie charts, except that the data set is
+represented by a rectangular bar rather than a circle.
+Calculate the level of focus conditional relative frequency
+distributions for the participants who viewed adult animals and who
+viewed tasty foods.
+Solutions
+Both of the following bar charts give good visual representations of
+the data:
+
+[[PAGE 209]]
+NOTE
+Because the distributions of focus levels are different for each picture viewed,
+we say that the two variables, focus level and pictures viewed, are associated.
+What do the side-by-side bar charts and segmented bar charts
+indicate about an association between viewing pictures and levels of
+focus?
+Solution
+The side-by-side bar charts and the segmented bar charts both
+clearly indicate that viewing pictures of baby animals tends to lead
+to higher levels of focus, viewing tasty foods tends to lead to lower
+levels of focus, and viewing adult animals tends to lead to medium
+levels of focus.
+In summary:
+■Frequency refers to counts.
+■Relative frequency refers to percentages.
+■Marginal refers to row or column totals.
+■Conditional refers to a single row or column category.
+
+[[PAGE 210]]
+Example 2.3
+As texting becomes a bigger part of our lives, emojis are an
+increasingly important part of our daily conversations. Are there
+generational differences? In one study, random samples of Baby
+Boomers (born 1946–1964), Generation X (born 1965–1980),
+Millennials (born 1981–1996), and Generation Z (born 1997–2012)
+were asked, “Your friend just sent you a hilarious message. How
+would you respond?” The data are tabulated in the following table:
+LOL
+Totals
+Baby Boomers
+Generation X
+1,000
+Millennials
+Generation Z
+1,500
+Totals
+1,015
+2,360
+4,000
+(a) What is the marginal frequency distribution of the generations?
+(b) What is the marginal frequency distribution of the responses?
+(c)
+What is the marginal relative frequency distribution of the
+generations?
+(d) What is the marginal relative frequency distribution of the
+responses?
+(e)
+What is the conditional frequency distribution among those
+choosing the
+response?
+(f) What is the conditional frequency distribution of responses
+among Generation Z?
+(g) What is the conditional relative frequency distribution among
+those choosing the
+response?
+(h) What is the conditional relative frequency distribution of
+responses among Millennials?
+Solutions
+
+[[PAGE 211]]
+(a) This is the counts of the generations: 600 Baby Boomers,
+1,000 Generation X, 900 Millennials, and 1,500 Generation Z.
+(b) This is the counts of the responses: 1,015 LOL, 2,360
+,
+and 625
+.
+(c)
+This is the percentage of the sample for each generation:
+Baby Boomers,
+Generation X,
+Millennials, and
+Generation Z.
+(d) This is the percentage of the sample for each response:
+LOL,
+, and
+(e)
+This is the counts of the generations among those choosing
+the
+response: 390 Baby Boomers, 750 Generation X, 600
+Millennials, and 620 Generation Z.
+(f) This is the counts of responses among Generation Z: 420
+LOL, 620
+, and 460
+.
+(g) Among those choosing the
+response, this is what
+percentage are each generation:
+Baby Boomers,
+Generation X,
+Millennials, and
+Generation Z.
+(g) Among the Millennials, this is what percentage chose each
+response:
+and
+.
+Example 2.4
+Mosaic plots are another graphical display that show the cell
+frequencies in a two-way table. They look like segmented bar charts
+in which the width of each rectangle is proportional to the number of
+individuals in the corresponding group. In Examples 2.1 and 2.2, we
+can start with horizontal sections based on pictures viewed. The
+area of each rectangle is equal to the marginal relative frequency of
+that group (26%, 34%, and 40%).
+
+[[PAGE 212]]
+Then, each horizontal section is split into sections based on focus
+level. The area of each smaller rectangle is equal to the conditional
+relative frequency for each specific group as calculated in Example
+2.2 (for example, 7.7%, 30.8%, and 61.5% for baby animals).
+Alternatively, we could have first started with vertical sections based
+on level of focus.
+
+[[PAGE 213]]
+Example 2.5
+Suppose you need heart surgery and are trying to decide between
+two surgeons, Dr. Fixit and Dr. Patch. You find out that each
+operated 250 times last year with the following results:
+Which surgeon would you choose? Among Dr. Fixit’s 250 patients,
+190 survived, for a survival rate of
+or 76%, while among
+Dr. Patch’s 250 patients, 200 survived, for a survival rate of
+or 80%. Your choice seems clear.
+However, everything may not be so clear-cut. Suppose that on
+further investigation you determine that the surgeons operated on
+patients who were in either good or poor condition with the
+following results:
+Note that adding corresponding boxes from these two tables gives
+the original table above.
+How do the surgeons compare when operating on patients in
+good health? In poor health?
+
+[[PAGE 214]]
+Dr. Fixit’s 68 patients in good condition have a survival rate of
+, or 88.2%, while Dr. Patch’s 137 patients in good condition
+have a survival rate of
+, or 87.6%. Similarly, we note that
+Dr. Fixit’s 182 patients in poor condition have a survival rate of
+or 71.4%, while Dr. Patch’s 113 patients in poor condition
+have a survival rate of
+0.708 or 70.8%.
+Thus, Dr. Fixit does better with patients in good condition (88.2%
+versus Dr. Patch’s 87.6%) and also does better with patients in poor
+condition (71.4% versus Dr. Patch’s 70.8%). However, Dr. Fixit has a
+lower overall patient survival rate (76% versus Dr. Patch’s 80%)!
+How can this be?
+This problem is an example of Simpson’s paradox, where a
+conjecture can be reversed when several different groups of data are
+combined to form a single group. The effect of another variable is
+masked when the groups are combined. In this particular example,
+closer scrutiny reveals that Dr. Fixit operates on many more patients
+in poor condition than Dr. Patch, and these patients in poor condition
+are precisely the ones with lower survival rates. Thus, even though
+Dr. Fixit does better with each group of patients, his overall rating is
+lower. Our original table hid the effect of the variable related to the
+condition of the patients. Mosaic plots help clarify the paradox:
+
+[[PAGE 215]]
+Note how the above visually illustrates that Dr. Fixit operates on
+more patients in poor condition than in good condition, while Dr.
+Patch operates on more patients in good condition than in poor
+condition. It also illustrates that Dr. Fixit’s patients, in both good
+condition and poor condition, survive at higher rates than Dr. Patch’s
+patients.
+
+########## SECTION statistics-barrons-2027-u2-s03 | The Law of Large Numbers | PDF pages 224-227 ##########
+
+[[PAGE 224]]
+The Law of Large Numbers
+In the world around us, unlikely events sometimes take place. At
+other times, events that seem inevitable do not occur. Although we
+are aware of the possible outcomes, we have no idea what an
+individual outcome will be. Chance is everywhere! The cards you are
+dealt in a poker game, the particular genes you inherit from your
+parents, and the coin toss at the beginning of a tennis match to
+determine who serves first are examples of chance behavior that
+mathematics can help us understand. Even though we may not be
+able to foretell a specific result, we can sometimes assign what is
+called a probability to indicate the likelihood that a particular event
+will occur.
+TIP
+Calculators express very small probabilities in scientific notation such as
+3.4211073E–6. Know what this means, and remember that probabilities are
+never greater than 1.
+NOTE
+An event is a collection of one or more outcomes.
+■Probabilities are always between 0 and 1.
+■A probability close to 0 means that the event is unlikely to
+occur.
+■A probability close to 1 means that the event is likely to occur.
+■The sum of the probabilities of all the separate outcomes of an
+experiment is always 1.
+The relative frequency of an event is the proportion of times the
+event happened—that is, the number of times the event happened
+divided by the total number of trials. Relative frequencies may
+
+[[PAGE 225]]
+change every time an experiment is performed. The law of large
+numbers states that when an experiment is performed a large
+number of times, the relative frequency of an event tends to become
+closer to the true probability of the event; that is, probability is long-
+run relative frequency. There is a sense of predictability about the
+long run. The law of large numbers has two conditions:
+The idea that a few outcomes will immediately be balanced by
+other outcomes is also called the gambler’s fallacy.
+1. The chance event under consideration does not change from
+trial to trial.
+2. Any conclusion must be based on a large (a very large!) number
+of observations.
+The law of large numbers says nothing at all about short-run
+behavior. There is no such thing as a law of small numbers or a law
+of averages. Gamblers might say that “red” is due on a roulette
+table, a basketball player is due to make a shot, a player has a hot
+hand at the craps table, or a certain number is due to come up in a
+lottery. However, if events are independent, the probability of the
+outcome of the next trial has nothing to do with what happened in
+previous trials. Even though casinos and life insurance companies
+might lose money in the short run, they make long-term profits
+because of their understanding of the law of large numbers.
+Example 2.6
+There are two games involving flipping a fair coin. In the first game,
+you win a prize if you can throw between 45% and 55% heads. In
+the second game, you win if you can throw more than 60% heads.
+For each game, would you rather flip 20 times or 200 times?
+Solution
+
+[[PAGE 226]]
+The probability of throwing heads is 0.5. By the law of large
+numbers, the more times you throw the coin, the more the relative
+frequency tends to become closer to this probability. With fewer
+tosses, there is greater chance of wide swings in the relative
+frequency. Thus, in the first game, you would rather have 200 flips,
+whereas in the second game, you would rather have only 20 flips.
+Example 2.7
+Suppose you have a coin and believe it may have been tampered
+with so that heads is a less likely outcome than tails. To test this,
+you flip the coin over and over, noting the proportion of heads after
+each toss. The following graph shows the results of 500 coin tosses.
+What does this graph tell you about the fairness of the coin?
+Solution
+In the long run, the proportion of heads settled down to around 0.4,
+indicating that this is probably not a fair coin.
+
+########## SECTION statistics-barrons-2027-u2-s04 | Basic Probability Rules | PDF pages 227-234 ##########
+
+[[PAGE 227]]
+Basic Probability Rules
+Example 2.8
+A standard literacy test consists of 100 multiple-choice questions,
+each with five possible answers. There is no penalty for guessing. A
+score of 60 is considered passing, and a score of 80 is considered
+superior. When an answer is completely unknown, test takers
+employ one of three strategies: guess, choose answer (c), or choose
+the longest answer. The table below summarizes the results of 1,000
+test takers.
+Note that in analyzing tables such as the one above, it is usually
+helpful to sum rows and columns.
+(a) What is the probability that someone in this group uses the
+“guess” strategy?
+(b) What is the probability that someone in this group scores 60–
+79?
+(c)
+What is the probability that someone in this group does not
+score 60–79?
+(d) What is the probability that someone in this group chooses
+strategy “answer (c)” and scores 80–100 (the intersection of the
+two events)?
+(e)
+What is the probability that someone in this group chooses
+strategy “longest answer” or scores 0–59 (the union of the two
+
+[[PAGE 228]]
+events: “or” here means one event or the other event or both
+events)?
+(f) What is the probability that someone in this group chooses the
+strategy “guess” given that his or her score was 0–59?
+(g) What is the probability that someone in this group scored 80–
+100 given that the person chose strategy “longest answer”?
+(h) Are the strategy “guess” and scoring 0–59 independent events?
+That is, is whether a test taker used the strategy “guess”
+unaffected by whether the test taker scored 0–59?
+(i) Are the strategy “longest answer” and scoring 80–100 mutually
+exclusive events? That is, are these two events disjoint and
+cannot simultaneously occur?
+TIP
+Conditional probabilities shrink the population of interest.
+Solutions
+(a) P(guess)
+(b) P(score 60–79)
+(c)
+P(does not score 60–79) = 1 − P(score 60–79) = 1 − 0.53 =
+0.47
+(d) P(answer (c)
+(e)
+P(longest answer ∪ 0–59) =
+NOTE
+The subtraction of the intersection probability is so that it is not counted
+twice.
+Note that
+
+[[PAGE 229]]
+P(longest answer ∪ score 0–59) =
+P(longest answer) + P(score 0–59) − P(longest answer ∩
+score 0–59) =
+0.380 + 0.120 − 0.045 = 0.455
+(f)
+Note that we narrowed our attention to the 120 test takers who
+scored 0–59 to calculate this conditional probability.
+(g)
+Note that we narrowed our attention to the 380 test takers who
+chose “longest answer” to calculate this conditional probability.
+(h) We must check if P(guess | score 0–59) = P(guess). From (f)
+and (a), we see that these probabilities are not equal (0.333 ≠
+0.3), so the strategy “guess” and scoring 0–59 are not
+independent events.
+(i) Longest answer ∩ score 80–100 ≠ ∅ and
+, so the strategy “longest
+answer” and scoring 80–100 are not mutually exclusive events.
+Recap
+■The probability that an event will not occur, that is, the
+probability of its complement, is equal to 1 minus the
+probability that the event will occur. Three notations for the
+complement of A are AC, ¯ A , and A′. Then P (not A) = P(AC)
+= P( ¯ A ) = P(A′) = 1 − P(A).
+■The general addition rule: P(A or B or both) = P(A
+union B) = P(A ∪ B) = P(A) + P(B) – P(A ∩ B).
+■A and B are mutually exclusive if A ∩ B = ∅ or, equivalently,
+P(A ∩ B) = 0. In this case, P(A ∪ B) = P(A) + P(B). Don’t add
+probabilities unless the events are mutually exclusive!
+■The general multiplication rule: P(A and B) = P(A
+intersect B) = P(A ∩ B) = P(A)P(B|A). This comes
+
+[[PAGE 230]]
+immediately from the conditional probability formula
+.
+■A and B are independent if P(A|B) = P(A) or, equivalently,
+P(B|A) = P(B). It is also true that A and B are independent if
+and only if P(A ∩ B) = P(A)P(B), that is, if and only if the
+probability of both events happening is the product of their
+probabilities. Don’t multiply probabilities unless the events are
+independent!
+■Don’t confuse mutually exclusive with independent!
+∘If A and B are mutually exclusive, P(A ∩ B) = 0.
+∘If A and B are independent, P(A ∩ B) = P(A)P(B).
+Example 2.9
+What probability rule or formula is appropriate for solving each of
+the following verbal scenarios?
+(a) If 44% of Chicago residents are Cubs fans, what is the
+probability that a Chicago resident is not a Cubs fan?
+(b) A survey of all students at a large high school revealed that
+58% pick “Fifteen” as their favorite single, 34% pick Taylor Swift
+as their favorite artist, and 15% pick both of these choices. If a
+student is selected at random, what is the probability that the
+student picks “Fifteen” or Taylor Swift or both?
+(c)
+Both blue eyes and gray eyes have a dark epithelium at the
+back of the iris and a relatively clear stroma at the front. In the
+population, 10% have blue eyes and only 1% have gray eyes. If
+a person is selected at random, what is the probability the
+person has either blue or gray eyes?
+(d) Among the students at a large state college, 72% use Pandora,
+43% use Spotify, and 29% use both. If a randomly selected
+student uses Spotify, what is the probability the student also
+uses Pandora?
+(e)
+According to one survey, 55% of Americans “love pizza,” and
+68% of those who love pizza choose pepperoni as their favorite
+
+[[PAGE 231]]
+topping. What is the probability that a randomly selected
+American loves pizza and picks pepperoni as their favorite
+topping?
+(f) In 1948, Kellogg’s introduced 18 prizes in their cereal boxes.
+Suppose 5% of boxes had a Popeye metal button, while 4% had
+a Superman metal button. What is the probability that for two
+randomly picked boxes, the first had a Popeye button and the
+second had a Superman button?
+Solutions
+(a) Complement rule: P(AC) = 1 − P(A) so P(not Cubs fan) = 1 −
+P(Cubs fan) = 1 − 0.44 = 0.56.
+(b) General addition rule: P(A ∪ B) = P(A) + P(B) − P(A ∩ B) so
+P(“Fifteen” or Swift) = P(“Fifteen”) + P(Swift) − P(“Fifteen” and
+Swift) = 0.58 + 0.34 − 0.15 = 0.77.
+(c)
+Addition rule for mutually exclusive events: P(A ∪ B) = P(A) +
+P(B) so P(blue or gray) = P(blue) + P(gray) = 0.10 + 0.01 =
+0.11.
+(d) Conditional probability formula:
+so
+(e)
+General multiplication rule: P(A ∩ B) = P(A) ∙ P(B|A) so P(love
+pizza ∩ pepperoni) = P(love pizza) ∙ P(pepperoni | love pizza) =
+(0.55)(0.68) = 0.374.
+(f) Multiplication rule for independent events: P(A ∩ B) = P(A) ∙
+P(B) so P(Popeye ∩ Superman) = P(Popeye) ∙ P(Superman) =
+(0.05)(0.04) = 0.002.
+Example 2.10
+On a university campus, 60%, 30%, and 10% of the computers use
+Windows, Apple, and Linux operating systems, respectively. A new
+virus affects 3% of the Windows, 2% of the Apple, and 1% of the
+Linux operating systems.
+
+[[PAGE 232]]
+(a) What is the probability a computer on this campus has the
+virus?
+(b) If a randomly chosen computer on this campus has the virus,
+what is the probability it is a Windows machine? An Apple
+machine? A Linux machine?
+Solutions
+(a) Tree diagrams can be very useful in working with conditional
+probabilities.
+We then have:
+Important
+Naked or bald answers will receive little or no credit. You must show how you arrived at
+your answer.
+
+[[PAGE 233]]
+(b)
+Example 2.11
+A second way of analyzing Example 2.10 is to construct a table of
+counts for a hypothetical population. In this case, let’s assume that
+the original given percentages hold exactly for a population of size
+1,000.
+Virus
+No Virus
+Total
+Windows
+Apple
+Linux
+Total
+1,000
+Numbers in parentheses indicate the order in which the cells can be
+calculated.
+Virus
+No Virus
+Total
+Windows
+(4) 18
+(5) 582
+(1) 600
+Apple
+(6) 6
+(7) 294
+(2) 300
+Linux
+(8) 1
+(9) 99
+(3) 100
+Total
+(10) 25
+(11) 975
+1,000
+Using the above table, calculate the conditional probabilities
+Solution
+These conditional probabilities can be calculated straight from the
+first column (virus) of the table:
+
+########## SECTION statistics-barrons-2027-u2-s06 | Random Variables, Means (Expected Values), and Standard Deviations | PDF pages 240-246 ##########
+
+[[PAGE 240]]
+Random Variables, Means (Expected
+Values), and Standard Deviations
+Discrete random variables are discussed here, while continuous
+
+[[PAGE 241]]
+random variables will be looked at later in this unit.
+Often each outcome of an experiment has not only an associated
+probability but also an associated real number. For example, the
+probability may be 0.5 that a student is taking 0 AP classes, 0.3 that
+she is taking 1 AP class, and 0.2 that she is taking 2 AP classes. If X
+represents the different numbers associated with the potential
+outcomes of some chance situation, we call X a random variable.
+While the mean of the set {2, 7, 12, 15} is
+, or
+2(¼) + 7(¼) + 12(¼) + 15(¼) = 9, the expected value or mean of
+a discrete random variable takes into account that the various
+outcomes may not be equally likely. The expected value or mean of
+a discrete random variable X is given by μ X = E(X) = ∑ xP(x), where
+P(x) is the probability of outcome x. [We also write μ X = ∑ x i p i ,
+where pi is the probability of outcome xi.]
+NOTE
+The expected value is sometimes referred to as a weighted average.
+Example 2.12
+A charity holds a lottery in which 10,000 tickets are sold at $1 each
+and with a prize of $7,500 for one winner.
+(a) Letting X be the payoff random variable for each ticket holder,
+make a table showing the values and the probability of each
+value for X.
+(b) What is the average payoff for each ticket holder?
+(c)
+Interpret the expected value of X in context.
+(d) What is the most likely outcome for a ticket holder?
+NOTE
+
+[[PAGE 242]]
+The distribution of a variable describes the possible values the variable could
+assume and how often each of those values occurs.
+Solutions
+(a) The actual winning payoff is $7,499 because the winner paid $1
+for a ticket.
+Letting X be the payoff random variable, we have:
+Outcome
+Random Variable X
+Probability P(x)
+Win
+7,499
+Lose
+−1
+(b) Expected value =
+Important
+The expected value of a random variable does not, in any way, imply that the value is
+expected to occur.
+Thus, the average result for each ticket holder is a $0.25 loss.
+(Alternatively, we can say that the expected payoff to the charity is
+$0.25 for each ticket sold.)
+(c)
+The expected value is a long-term average. If this lottery is held
+many times and someone buys a ticket each time, in the long
+run the purchaser should expect to lose an average of $0.25 per
+lottery.
+(d) The most likely outcome for a ticket purchase is the loss of $1.
+(Note that the expected value of -$0.25 is not the most likely
+outcome and, in fact, will never occur.)
+
+[[PAGE 243]]
+We have seen that the mean of a discrete random variable is ∑ xipi.
+In addition to calculating the mean, we would like to measure the
+variability for the values taken on by a discrete random variable.
+Since we are dealing with chance events, the proper tool is variance
+(along with standard deviation). In Unit 1, variance was defined to
+be the mean of the squared deviations (x − μ)2. If we regard the (x
+− μ)2 terms as the values of some discrete random variable (whose
+probability is the same as the probability of x), the mean of this new
+discrete random variable is ∑(xi − μx)2pi, which is precisely how we
+define the variance, σ2, of a discrete random variable:
+NOTE
+It is also true that var(x)
+As before, the standard deviation σ is the square root of the
+variance.
+The standard deviation can be interpreted as the typical deviation of
+individual values of the random variable from the mean of the
+random variable.
+Example 2.13
+TIP
+In a problem like this, there is no shortcut. You must show your work.
+However, the calculator shortcut of using two lists and running 1-Variable
+statistics can be useful for checking your answers.
+
+[[PAGE 244]]
+A highway engineer knows that the workers can lay 5 miles of
+highway on a clear day, 2 miles on a rainy day, and only 1 mile on a
+snowy day. Suppose the probabilities are as follows:
+Outcome
+Random Variable X
+(Miles of highway)
+Probability P(x)
+Clear
+0.6
+Rain
+0.3
+Snow
+0.1
+(a) What are the mean (expected value), variance, and standard
+deviation of the random variable?
+(b) Interpret the mean and standard deviation in context.
+(c)
+Would it be surprising if the workers laid 10 miles of highway
+one day?
+NOTE
+Alternatively, you can calculate:
+Solutions
+(a)
+(b) In the long run, the workers will lay an average of 3.7 miles of
+highway per day. The number of miles the workers lay on a
+randomly selected day will generally vary about 1.62 from the
+mean of 3.7 miles.
+
+[[PAGE 245]]
+(c)
+10 is
+standard deviations above the mean, so this
+would be very surprising!
+Example 2.14
+The World Series for Major League Baseball is decided by the first
+team to win four games. Letting the random variable X be the
+number of games needed to determine a winner in a series where
+the two teams are evenly matched, we have the following
+probabilities with accompanying histogram:
+Number of Games x
+Probability P(x)
+0.125
+0.25
+0.3125
+0.3125
+(a) Describe the above distribution.
+(b) Interpret the mean and standard deviation in context.
+Solutions
+
+[[PAGE 246]]
+(a) Shape: The distribution for the number of games needed to
+determine a World Series winner is skewed left.
+Center: The median is 6, and the mean is ∑ xP(x) = 4(0.125) +
+5(0.25) + 6(0.3125) + 7(0.3125) = 5.8125.
+Spread: The range is 7 − 4 = 3, and the standard deviation is
+(b) In the long run, the number of games needed to determine a
+winner in a World Series where the two teams are evenly
+matched will average 5.8125 games, with the length of a
+randomly selected individual series generally varying about
+1.0136 games from the average of 5.8125 games.
+Although not explicitly part of the AP curriculum, we note the
+following with regard to combining and transforming random
+variables:
+■μ X±Y = μ X ± μ Y
+■If X and Y are independent,
+■E(X ± a) = E(X ) ± a and SD(X ± a) = SD(X)
+■E(bX) = bE(X) and SD(bX) = |b|SD(X)
+Important
+Variances of independent random variables can be added together, but standard
+deviations cannot!
+
+########## SECTION statistics-barrons-2027-u2-s08 | Binomial Distribution | PDF pages 250-257 ##########
+
+[[PAGE 250]]
+Binomial Distribution
+A probability distribution is a list or formula that gives the probability
+of each outcome.
+In many applications, such as coin tossing, there are only two
+possible outcomes. We have a binomial setting when the following
+conditions are met:
+■There are two possible outcomes, often referred to as success
+and failure.
+■There are a fixed number of trials, n.
+■The trials are independent; that is, the outcome of one trial
+does not affect the outcome of any other trial.
+
+[[PAGE 251]]
+■There is the same probability of success p on each trial.
+The binomial probability function refers to a binomial random
+variable X with n independent trials and probability of success p.
+Then the probability of exactly x successes is shown as the
+following:
+NOTE
+A question on conditions for a binomial setting could appear either as a
+multiple-choice question or as part of a free-response question.
+Software can be used to calculate binomial probabilities:
+binompdf (n, p, x) gives the probability of exactly x
+successes in n trials, where p is the probability of success on
+a single trial.
+binomcdf (n, p, x) gives the cumulative probability of x or
+fewer successes in n trials, where p is the probability of
+success on a single trial.
+NOTE
+The binomial coefficient
+is sometimes written as nCx.
+NOTE
+The pdf (such as in binompdf) stands for “probability density function.” That
+is, it’s a function that tells you the probability of certain events occurring.
+Example 2.15
+
+[[PAGE 252]]
+In cereal boxes that advertised an enclosed miniature toy, one-third
+of the toys were purple dragons. If six boxes of cereal are
+purchased, what is the probability of exactly two purple dragons?
+Solution
+If the probability of a purple dragon is , the probability of no purple
+dragon is 1 −
+. If two out of six boxes have a purple dragon,
+6 − 2 = 4 do not.
+The probability of getting exactly two purple dragons when six
+boxes of cereal are purchased is binompdf(6,1/3,2) = 0.329. [Or we
+could calculate
+.]
+For full credit on the exam, write either of the following two lines:
+Binomial,
+B(6, 1/3), P(X = 2) = 0.329
+In some situations it is easier to calculate the probability of the
+complementary event and subtract this value from 1.
+Example 2.16
+The baseball player Joe DiMaggio had a career batting average of
+0.325. What was the probability that he would get at least one hit in
+five official times at bat?
+Solution
+This is a binomial distribution with n = 5 and p = 0.325.
+[Or we could calculate: 1 − binompdf(n = 5, p = 0.325, X = 0) =
+0.860.]
+
+[[PAGE 253]]
+To receive full credit for probability calculations using the probability
+distributions from the AP Statistics course, you need to show:
+1. Name of the distribution (“binomial” in the previous example)
+2. Parameters (“n = 5 and p = 0.325” in the previous example)
+3. Values of interest (“X ≥ 1” in the previous example)
+4. Correct probability (“0.860” in the previous example)
+Many applications of probability involve such phrases as at least, at
+most, less than, and more than. In these cases, solutions involve
+summing two or more cases. For such calculations, binomcdf is very
+useful, as it gives the probability of x or fewer successes.
+Example 2.17
+One day a grocery store manager notes seven customers buying a
+particular product and is interested in the number who will make use
+of a store coupon to receive a discount. Suppose 35% of customers
+in general make use of a store coupon to receive a discount when
+buying that product.
+(a) Define the random variable of interest for the manager and
+state how the random variable is distributed.
+(b) Determine the probability that fewer than four of the customers
+will use a store coupon.
+Solutions
+(a) The random variable of interest is the number of customers
+using a store coupon to receive a discount when buying this
+product among seven customers. The distribution is binomial
+with parameters n = 7 and p = 0.35.
+(b) In this situation, “fewer than four” means zero, one, two, or
+three. We have a binomial with n = 7 and p = 0.35. Then P(X ≤
+3) = binomcdf(7, 0.35, 3) = 0.800. [Or we could calculate:
+
+[[PAGE 254]]
+TIP
+While using binomcdf is the quick and recommended solution if part of a free-
+response question, the answer choices in a multiple-choice question here
+could be the expanded four-term binomial formula form.
+Example 2.18
+A manufacturer has the following quality control check at the end of
+a production line. If at least 8 of 10 randomly picked articles meet all
+specifications, the whole shipment is approved. Suppose 85% of an
+entire shipment meets all specifications.
+(a) Define the random variable of interest for the manufacturer and
+state how the random variable is distributed.
+(b) Determine the probability that this shipment will pass the
+quality control check.
+Solutions
+(a) The random variable of interest is the number of articles
+meeting all specifications among 10 randomly selected articles.
+The distribution is binomial with parameters n = 10 and p =
+0.85.
+(b) We have a binomial distribution with n = 10 and p = 0.85.
+P(X ≥ 8) = 1 − P(X ≤ 7) = 1 − binomcdf(10, 0.85, 7) = 0.820
+[Or we could calculate: P(X = 8) + P(X = 9) + P(X = 10) =
+= binompdf(10, 0.85, 8) + binompdf(10, 0.85, 9) +
+binompdf(10, 0.85, 10) = 0.820.]
+
+[[PAGE 255]]
+For a binomial probability distribution with the probability of a
+success equal to p and the number of trials equal to n, we have:
+■The expected value or mean number of successes is np.
+■The standard deviation is
+.
+Example 2.19
+Of the automobiles produced at a particular plant, 40% had a
+certain defect. Suppose a company purchases five of these cars and
+is concerned about the number with that defect.
+(a) Define the random variable of interest for the company and
+state how the random variable is distributed.
+(b) What is the mean (expected value) for the number of cars with
+defects? Interpret in context.
+(c)
+What is the standard deviation for the number of cars with
+defects? Interpret in context.
+Solutions
+(a) The random variable of interest is the number of cars with a
+defect among five cars. The distribution is binomial with
+parameters n = 5 and p = 0.40.
+(b) The mean or expected value for the number of cars with
+defects is np = 5(0.4) = 2. If five cars were purchased many
+times, the average number of cars with defects would be about
+2.
+(c)
+The standard deviation for the number of cars with defects is
+. In any random sample of
+five cars, the number of cars with defects will typically vary
+about 1.095 from the mean of 2 cars.
+Thus, for a random variable X:
+Mean or expected value:
+
+[[PAGE 256]]
+Variance:
+Standard deviation:
+In the case of a binomial probability distribution with probability of a
+success equal to p and number of trials equal to n, if we let X be the
+number of successes in the n trials, the above equations simplify to:
+Mean or expected value:
+Variance:
+Standard deviation:
+The shape of a binomial distribution is skewed right when p < 0.5,
+symmetric when p = 0.5, and skewed left when p > 0.5.
+However, for all p, as n becomes larger without bound, the resulting
+histograms approach a smooth bell-shaped curve.
+Example 2.20
+(a) Ninety-five percent of all buyers of new cars choose automatic
+transmissions. For a group of 50 buyers of new cars, calculate
+and interpret the mean and standard deviation for the number
+of buyers choosing automatic transmissions.
+(b) Would it be surprising if only 40 buyers chose automatic
+transmissions in a random sample of 50 new car buyers?
+Solutions
+
+[[PAGE 257]]
+(a)
+In many random samples of size 50 buyers of new cars, we can
+expect an average of 47.5 buyers who will choose automatic
+transmissions, and for any particular random sample of 50
+buyers, the number of buyers choosing automatic transmissions
+will typically vary by about 1.54 from the mean of 47.5 buyers.
+(b) Yes, that would be surprising because 40 is
+standard
+deviations below the mean of 47.5.
+
+########## SECTION statistics-barrons-2027-u2-s10 | Cumulative Probability Distribution | PDF pages 263-264 ##########
+
+[[PAGE 263]]
+Cumulative Probability Distribution
+A probability distribution is a function, table, or graph that links
+outcomes of a statistical experiment with its probability of
+occurrence. A cumulative probability distribution is a function, table,
+or graph that links outcomes with the probability of less than or
+equal to that outcome occurring.
+Example 2.21
+The scores received on a recent AP Statistics exam are illustrated in
+the following table:
+Score
+Probability
+Cumulative Probability
+0.231
+0.231
+0.165
+0.396
+0.234
+0.630
+0.222
+0.852
+0.148
+1.000
+
+[[PAGE 264]]
+What is the probability that a student does not receive college credit
+(assuming you need a 3 or higher to receive college credit)?
+Solution
+The probability is 0.231 + 0.165 = 0.396 that a student receives a 1
+or 2 and thus does not receive college credit.
+Example 2.22
+The number of minutes that teenagers spend on social media per
+day is illustrated in the following graphical displays: a probability
+distribution and the corresponding cumulative probability
+distribution.
+Note how, for example, 20% of the area under the probability
+distribution graph is to the left of 125 minutes and the point (125,
+0.2) is on the cumulative probability distribution graph. Both indicate
+that the probability is 0.2 that a teenager spends 125 minutes or less
+per day on social media.
+
+########## SECTION statistics-barrons-2027-u2-s11 | The Normal Distribution | PDF pages 264-267 ##########
+
+[[PAGE 264]]
+The Normal Distribution
+One bell-shaped distribution, called the normal distribution, is
+valuable for providing a useful model in describing various natural
+phenomena. However, we will see that the real importance of the
+
+[[PAGE 265]]
+normal distribution in statistics is that it can be used to describe the
+results of many sampling procedures.
+The normal distribution curve is bell-shaped and symmetric and
+has an infinite base. Long, flat-looking tails cover many values but
+only a small proportion of the area.
+The mean of a normal distribution is equal to the median and is
+located at the center. We want a unit of measurement that applies
+equally well to any normal distribution, and we choose a unit that
+arises naturally out of the curve’s shape. There is a point on each
+side where the slope is steepest. These two points are called points
+of inflection, and the distance from the mean to either point is
+precisely equal to one standard deviation. Thus, it is convenient to
+measure distances under the normal curve in terms of z-scores.
+(Recall from earlier that z-scores represent the number of standard
+deviations a particular value is above or below the mean.)
+Every normal distribution is completely determined by two
+parameters: its mean μ and its standard deviation s.
+
+[[PAGE 266]]
+The empirical rule (also called the 68-95-99.7 rule) applies
+specifically to normal distributions. About 68% of the values lie
+within 1 standard deviation of the mean, about 95% of the values lie
+within 2 standard deviations of the mean, and about 99.7% of the
+values lie within 3 standard deviations of the mean.
+In the following figures, the horizontal axes show z-scores:
+However, don’t be confused into thinking that z-scores mean
+normality. A z-score can be calculated whenever the mean and
+standard deviation are known, no matter what the distribution. Only
+in the very special case of nearly normal distributions can one move
+easily from z-scores to percentiles and probabilities.
+Example 2.23
+Suppose that taxicabs in New York City are driven an average of
+75,000 miles per year with a standard deviation of 12,000 miles.
+Assuming a roughly normal distribution, what information does the
+empirical rule give us?
+Solution
+Given that the distribution is roughly normal, the empirical rule
+applies. Thus approximately 68% of the taxis are driven between
+63,000 and 87,000 miles per year, approximately 95% are driven
+
+[[PAGE 267]]
+between 51,000 and 99,000 miles, and virtually all are driven
+between 39,000 and 111,000 miles.
+
+########## SECTION statistics-barrons-2027-u2-s13 | Normal Distribution Calculations | PDF pages 270-281 ##########
+
+[[PAGE 270]]
+Normal Distribution Calculations
+The normal distribution is valuable in describing various natural
+phenomena. However, the real importance of the normal distribution
+in statistics is that it can be used to describe sampling distributions,
+an important topic of this and later units. The normal distribution
+provides a valuable model for how many sample statistics vary,
+under repeated random sampling from a population. Calculations
+involving normal distributions are often made through z-scores,
+which measure standard deviations from the mean.
+Both normalcdf and invNorm can work with z-scores or raw scores:
+Because it is quicker and gives more accurate calculations than
+the normal table, a calculator is preferred when working with
+the normal distribution. Many experienced AP Statistics teachers
+do not teach or encourage use of the normal table for this
+reason.
+■normalcdf(lowerbd, upperbd) = probability between two z-
+scores for the standard normal distribution (mean = 0 and SD
+= 1)
+■normalcdf(lowerbd, upperbd, mean, SD) = probability between
+two raw scores for a normal distribution with the given mean
+and SD
+■invNorm(probability) = z-score with the given probability to the
+left for the standard normal distribution (mean = 0 and SD =
+
+[[PAGE 271]]
+1)
+■invNorm(probability, mean, SD) = raw score with the given
+probability to the left for a normal distribution with the given
+mean and SD
+Example 2.24
+The life expectancy of a particular brand of light bulb is roughly
+normally distributed with a mean of 1500 hours and a standard
+deviation of 75 hours.
+(a) What is the probability that a light bulb will last less than 1410
+hours?
+(b) What is the probability that a light bulb will last between 1563
+and 1648 hours?
+Solutions
+Draw a picture! Errors are much less likely if normal probability calculations are
+supported with a sketch.
+a.
+Calculate normalcdf(0, 1410, 1500, 75) = 0.1151. [Or the z-
+score of 1410 is
+, and normalcdf(-1000, -1.2) =
+0.1151.]
+
+[[PAGE 272]]
+The answers for this quiz can be found beginning on page 487.
+The probability that a light bulb will last less than 1410 hours is
+0.1151. We can also say that we expect that 11.51% of the
+light bulbs will last less than 1410 hours.
+Either of the following two lines will receive full credit:
+Normal distribution, μ = 1500, σ = 75, P(X < 1410) = 0.1151
+N(1500, 75), P(X < 1410) = 0.1151
+b. For a normal distribution with μ = 1500 and σ = 75,
+[normalcdf(1563, 1648, 1500, 75) = 0.176 and normalcdf(0.84,
+1.97) = 0.176.]
+
+[[PAGE 273]]
+The probability that a light bulb will last between 1563 and
+1648 hours is 0.176. We can also say that we expect that
+17.6% of the light bulbs will last between 1563 and 1648 hours.
+To receive full credit for probability calculations using the probability
+distributions, you need to show:
+1. Name of the distribution (“normal” in the example above)
+2. Parameters (“m = 1500, σ = 75” in the example above)
+3. Values of interest (“1563 < X < 1648” in (b) of the example
+above)
+4. Correct probability (“0.176” in (b) of the example above)
+Example 2.25
+A packing machine is set to fill a cardboard box with a mean of 16.1
+ounces of cereal. Suppose the amounts per box form an
+approximately normal distribution with a standard deviation equal to
+0.04 ounce.
+(a) What percentage of the boxes will end up with at least 1 pound
+of cereal? (Note: 1 pound equals 16 ounces.)
+(b) Ten percent of the boxes will contain less than what number of
+ounces?
+(c)
+Eighty percent of the boxes will contain more than what number
+of ounces?
+
+[[PAGE 274]]
+(d) The middle 90% of the boxes will be between what two
+weights?
+Solutions
+(a) For a normal distribution with μ = 16.10 and
+= 0.9938. [normalcdf(16,
+1000, 16.10, 0.04) = 0.9938 and normalcdf(-2.5, 10) = 0.9938.]
+Conclude that 99.38% of the boxes will end up with at least 1
+pound of cereal.
+(b) For a normal distribution with μ = 16.10 and σ = 0.04,
+invNorm(0.1) = -1.282, and then 16.1 – 1.282(0.04) = 16.049.
+[invNorm(0.1, 16.10, 0.04) = 16.049.] Conclude that 10% of
+the boxes will contain less than 16.049 ounces.
+(c)
+Eighty percent to the right corresponds to a probability of 0.2 to
+the left. For a normal distribution with μ = 16.10 and σ = 0.04,
+
+[[PAGE 275]]
+invNorm(0.2) = -0.8416, and then 16.1 – 0.8416(0.04) =
+16.066. [invNorm(0.2, 16.10, 0.04) = 16.066.] Conclude that
+80% of the boxes will contain more than 16.066 ounces.
+NOTE
+We chose 1000 as the upper bound (and – 1000 as the lower bound) in
+Example 2.24 as it is many standard deviations from the mean. On the TI-84,
+we could also have used 1E99 for the upper bound (and –1E99 for the lower
+bound).
+(d) Ninety percent in the middle leaves 5% in each tail. For a
+normal distribution with μ = 16.10 and σ = 0.04, invNorm(0.05)
+= –1.645, invNorm(0.95) = 1.645, 16.1 – 1.645(0.04) = 16.034,
+and 16.1 + 1.645(0.04) = 16.166. [invNorm(0.05, 16.10, 0.04)
+= 16.034 and invNorm(0.95, 16.10, 0.04) = 16.166.] Conclude
+that the middle 90% of the boxes are between 16.034 and
+16.166 ounces.
+
+[[PAGE 276]]
+As can be seen above, there is often an interest in the limits
+enclosing some specified middle percentage of the data. For future
+reference, the limits most frequently asked for are noted below in
+terms of z-scores.
+NOTE
+These critical z-scores can be found at the bottom of Table B in the Appendix.
+NOTE
+The 2σ corresponding to 95% in the 68–95–99.7 rule is an approximation to
+the more exact 1.96σ.
+Sometimes the interest is in values with particular percentile
+rankings. For example,
+There are corresponding conclusions for negative z-scores:
+
+[[PAGE 277]]
+It is also useful to note the percentages corresponding to values
+falling between integer z-scores. For example,
+NOTE
+The empirical rule’s 68%, 95%, and 99.7% are approximations of 68.26%,
+95.44%, and 99.74%.
+Example 2.26
+Suppose that the average height of adult males in a particular
+locality is 70 inches with a standard deviation of 2.5 inches. Assume
+the distribution is approximately normal.
+(a) The middle 95% of males are between what two heights?
+(b) Ninety percent of the heights are below what value?
+(c)
+Ninety-nine percent of the heights are above what value?
+(d) Approximately what percentage of the heights are between z-
+scores of ±1? Of ±2? Of ±3?
+Solutions
+(a) As noted above, the critical z-scores in this case are ±1.96, and
+so the two limiting heights are 1.96 standard deviations from
+
+[[PAGE 278]]
+the mean. Therefore, 70 ± 1.96(2.5) = 70 ± 4.9, or from 65.1
+to 74.9 inches.
+(b) The critical z-score is 1.282, and so the value in question is 70
++ 1.282(2.5) = 73.205 inches.
+(c)
+The critical z-score is −2.326, and so the value in question is 70
+− 2.326(2.5) = 64.185 inches.
+(s)
+68.26%, 95.44%, and 99.74%, respectively
+If we know that a distribution is normal, we can calculate the
+mean m and the standard deviation σ using percentage information
+from the population.
+Example 2.27
+Given a normal distribution with a mean of 25, what is the standard
+deviation if 18% of the values are above 29?
+Solution
+The 18% of values above corresponds to a probability of 0.82 below.
+Then invNorm(0.82) gives the critical z-score of 0.9154. Thus, 29 −
+25 = 4 is equal to 0.9154 standard deviations; that is, 0.9154σ = 4,
+and
+.
+Example 2.28
+
+[[PAGE 279]]
+Given a normal distribution with a standard deviation of 10, what is
+the mean if 21% of the values are below 50?
+Solution
+Using invNorm(0.21) gives the critical z-score of −0.8064. Thus, 50
+is −0.8064 standard deviations from the mean, and so m = 50 +
+0.8064(10) = 58.06.
+In the above examples, we have assumed the population has a
+normal or approximately normal distribution. When you collect your
+own data, you must decide whether it is reasonable to assume the
+data come from a normal population before you can apply these
+procedures. In later units, we will have to check for normality before
+applying certain inference procedures.
+The initial check should be to draw a picture. Dotplots, stemplots,
+and histograms are all useful graphical displays to show that data
+are unimodal and roughly symmetric.
+Example 2.29
+The ages at inauguration of U.S. presidents through 2025 were {57,
+61, 57, 57, 58, 57, 61, 54, 68, 51, 49, 64, 50, 48, 65, 52, 56, 46, 54,
+49, 51, 47, 55, 55, 54, 42, 51, 56, 55, 51, 54, 51, 60, 61, 43, 55, 56,
+61, 52, 69, 64, 46, 54, 47, 70, 78, 78}. Can we conclude that the
+distribution is roughly normal?
+
+[[PAGE 280]]
+Solution
+A dotplot and a stemplot of these data are as follows:
+These two plots indicate a distribution that is unimodal and very
+roughly symmetric, with two outliers at 78 (Biden and Trump).
+We can check rough normality by calculating summary statistics
+and counting values to check against the 68-95-99.7 rule. In this
+example, 1-VarStat gives x̅ = 55.48 and s = 7.33. Counting values
+(ages) gives the following:
+Mean ± 1 SD
+48.00 to 63.92
+33 out of 47 = 70.2%
+Mean ± 2 SD
+40.04 to 71.88
+45 out of 47 = 95.7%
+Mean ± 3 SD
+32.08 to 79.84
+47 out of 47 = 100%
+These results are close to the 68%, 95%, 99.7% expected from a
+normal distribution and so do suggest a roughly normal distribution.
+The binomial takes values only at integers, while the normal is
+continuous with probabilities corresponding to areas over intervals.
+However, for large enough n, binomial distributions can be
+approximated by normal distributions.
+
+[[PAGE 281]]
+Is the normal a good approximation? The answer, of course,
+depends on the error tolerances in particular situations. A general
+rule of thumb is that the normal is a good approximation to
+the binomial whenever both np and n(1 − p) are at least 10.
+Proportions involve counting the presence or absence of some
+attribute, which suggests a binomial distribution. Inference
+procedures for proportions will rely on the normal distribution, and
+this makes sense only because the binomial can be approximated by
+the normal.
+
+########## SECTION statistics-barrons-2027-u2-s15 | Sampling Distributions and the Central Limit Theorem | PDF pages 286-292 ##########
+
+[[PAGE 286]]
+Sampling Distributions and the Central
+Limit Theorem
+Important
+A sampling distribution is not the same thing as the distribution of a sample.
+The population mean μ, the population standard deviation σ, the
+population proportion p, and the population slope β are all examples
+of population parameters. A sample mean x̅ , a sample standard
+deviation s, a sample proportion pˆ, and a sample slope b are all
+examples of sample statistics. While a population parameter is a
+
+[[PAGE 287]]
+fixed quantity, statistics vary depending on the particular sample
+chosen. The probability distribution showing how a statistic varies is
+called a sampling distribution. Although different samples from the
+same population produce different statistics, the distribution of
+statistics from many different random samples of the same size is
+often predictable. For large enough samples, the normal distribution
+can be used to approximate many of these sampling distributions.
+These concepts will be critical for understanding statistical inference,
+the key topic that runs through the rest of the curriculum.
+Real-life distributions are seldom, if ever, exactly normal.
+However, it can be shown mathematically that no matter how the
+original population is distributed, if n is large enough, the set of
+sample means is approximately normally distributed. For example,
+there is no reason to suppose that the amounts of money that
+different people spend in grocery stores are normally distributed.
+However, if each day we survey 50 people leaving a store and
+determine the average grocery bill, these daily averages will have an
+approximately normal distribution.
+The following principle, called the central limit theorem of
+statistics (abbreviated CLT), forms the basis of much of what we
+discuss in this and the following units.
+Start with a population with any shape distribution
+whatsoever. Pick n sufficiently large (at least 30), and
+take all samples of size n. Compute the mean of each of
+these samples. Then the set of all sample means is
+approximately normally distributed.
+We say that for sufficiently large n, the sampling distribution of the
+sample mean x̅ is approximately normal. Note that the CLT is only
+about the shape of the sampling distribution of the sample mean,
+not about its center or variability. However, we will see that
+
+[[PAGE 288]]
+■ 𝝁x̅ = 𝝁; that is, the mean μ x̅ of the sampling distribution of x̅
+equals the population mean μ.
+■
+; that is, the standard deviation σ x̅ of the sampling
+distribution of x̅ equals the population standard deviation σ
+divided by the square root of the sample size.
+While we mention n ≥ 30 as a rough rule of thumb (and is
+sufficient for the AP exam), n should be chosen larger if more
+accuracy is required or if the original population is far from normal.
+However, if the population itself has a normal distribution,
+then the sampling distribution of the sample mean is normal
+no matter what the sample size. When working with a specific
+sample, we will also have the assumptions of a random sample and
+of sample size n no larger than 10% of the population (if sampling
+without replacement).
+There are six key ideas to keep in mind:
+■Averages vary less than individual values.
+■Averages based on larger samples vary less than averages
+based on smaller samples.
+■The central limit theorem (CLT) states that when the sample
+size is sufficiently large (n ≥ 30 is used in AP Statistics), the
+sampling distribution of the mean will be approximately
+normal.
+■The larger the sample size n, the closer the sample distribution
+is to the population distribution.
+■The larger the sample size n, the closer the sampling
+distribution of x̅ is to a normal distribution.
+■If the original population has a normal distribution, then the
+sampling distribution of x̅ has a normal distribution, no matter
+what the sample size n.
+Example 2.30
+Following are simulations for sampling distributions for samples of
+sizes n = 2, n = 10, and n = 30 from three different populations.
+
+[[PAGE 289]]
+Note that as the sample size increases, the sampling distribution of x̅
+looks less like the population distribution and more like a normal
+distribution.
+One example of a sampling distribution is a randomization
+distribution, a collection of statistics generated by simulation. For a
+sample survey, we can repeatedly randomly reassign individual
+responses to the different survey groups to see if our observed
+difference is significant. For an experiment, we can repeatedly
+randomly reassign the individual response values to treatment
+groups to see if our observed difference is significant.
+
+[[PAGE 290]]
+Example 2.31
+In a random sample of 15 male Information Technology
+professionals, the average salary was $59,325, while in an
+independent random sample of 15 female Information Technology
+professionals the average salary was $51,850. The question of
+interest is whether or not the observed difference of $59,325 −
+$51,850 = $7,475 is significant. The randomization distribution
+method proceeds as follows. All 30 salaries are put together, and 15
+are randomly reassigned to the “Male” subgroup and the remaining
+15 to the “Female” subgroup. The mean difference in salary between
+the two groups is calculated, and the procedure is repeated over and
+over. Suppose the resulting histogram of differences, a simulated
+sampling distribution of the differences, is below.
+As can be seen, the observed difference of $7,475, while possible, is
+very rare among the simulated differences. We conclude that the
+salary gap between male and female IT professionals is statistically
+significant.
+Don’t be confused by the several different distributions being
+discussed! First, there’s the distribution of the original population,
+whose shape may be uniform, bell-shaped, strongly skewed, or any
+other possible shape. Second, there’s the distribution of the data in
+
+[[PAGE 291]]
+the sample, and the larger the sample size, the more this will look
+like the population distribution. Third, there’s the distribution of the
+means of many samples of a given size. The amazing fact is that this
+sampling distribution can be described by a normal model,
+regardless of the shape of the original population.
+Does the central limit theorem say anything about proportions? If
+the population values are comprised of just 0s and 1s (numerical
+codes for failures and successes), we have a distribution that is
+bimodal in the extreme. Means of samples drawn from that
+population are sample proportions, so the sampling distribution of
+sample proportions is a special case of the CLT. The CLT doesn’t kick
+in until the sample size gets fairly large, especially if the population
+is far from symmetric (p far from 0.5). Requiring np ≥ 10 and nq ≥
+10 is a rule of thumb suggesting how large n must be.
+Example 2.32
+A study is made of the number of dreams high school students
+remember having every night. The median number is 3.41 with a
+variance of 1.46 and a minimum of 0. Now taking a large number of
+random samples of 15 students, we calculate the median for each
+sample and graph the resulting simulated sampling distribution.
+The simulated sampling distribution for the sample median is
+roughly bell-shaped and centered around 3.4 with a range of
+approximately 4.6 − 2.4 = 2.2.
+
+[[PAGE 292]]
+Assuming the range of a roughly normal finite set is
+approximately six standard deviations, we can estimate the standard
+deviation to be about

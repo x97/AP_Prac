@@ -1,0 +1,842 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-05",
+ "kind": "quiz",
+ "number": 5,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 5 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 5",
+ "pdf_page_start": 159,
+ "pdf_page_end": 168,
+ "answer_page_start": 717,
+ "answer_page_end": 719,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "A retrospective observational study",
+    "B": "A prospective observational study",
+    "C": "A voluntary response survey",
+    "D": "A convenience survey"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 160,
+      "bbox": [
+       110.0,
+       271.0,
+       352.6,
+       287.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 160,
+      "bbox": [
+       110.0,
+       290.5,
+       343.2,
+       307.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 160,
+      "bbox": [
+       110.0,
+       310.0,
+       310.9,
+       326.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 160,
+      "bbox": [
+       110.0,
+       329.5,
+       271.2,
+       346.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 160,
+   "page_end": 160,
+   "stem": "In September 2020, medical researchers analyzed the summer records of hospitalized Covid-19 patients, collecting data on disease severity and whether or not the patients had been taking statin medications for high cholesterol within 30 days prior to hospitalization. The researchers found that statin use was associated with a lesser severity of the disease. What kind of research was this?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "This was an observational study because no treatment was imposed. It was retrospective because existing data from the past were examined.",
+   "question_id": "statistics-barrons-2027-quiz-05-001",
+   "source_pages": [
+    160,
+    160
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "The first question probably showed 23% of the population favors school uniforms, and the second question probably showed 18% because of the lack of randomization in the choice of pro-uniform and anti-uniform arguments as evidenced by the wording of the questions.",
+    "B": "The first question probably showed 18% and the second question probably showed 23% because of stratification in the wording of the questions.",
+    "C": "The first question probably showed 18% and the second question probably showed 23% because of response bias due to the wording of the questions.",
+    "D": "The first question probably showed 23% and the second question probably showed 18% because of response bias due to the wording of the questions."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 160,
+      "bbox": [
+       110.0,
+       628.8,
+       495.9,
+       645.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       72.0,
+       485.1,
+       88.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       124.9,
+       485.3,
+       141.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       177.8,
+       486.4,
+       194.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 160,
+   "page_end": 161,
+   "stem": "An increasing number of U.S. public schools are adopting school uniforms. Two possible wordings for a question on whether or not students should have to wear school uniforms are as follows: I. Many educators believe in creating a level playing field to reduce socioeconomic disparities. Do you believe that students should have to wear school uniforms? II. Many sociologists believe that students have a right to express their individuality. Do you believe that students should have to wear school uniforms? One of these questions showed that 18% of the population favors school uniforms, while the other question showed that 23% of the population favors school uniforms. Which question probably produced which result and why?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The wording “creating a level playing field” and “a right to express their individuality” are nonneutral and clearly leading phrasings.",
+   "question_id": "statistics-barrons-2027-quiz-05-002",
+   "source_pages": [
+    160,
+    161
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "If bias is present in a sampling procedure, it can be overcome by dramatically increasing the sample size.",
+    "B": "Sampling techniques that use probability techniques effectively eliminate bias.",
+    "C": "Convenience samples often lead to undercoverage bias.",
+    "D": "Voluntary response samples often underrepresent people with strong opinions."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       282.2,
+       517.4,
+       299.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       318.4,
+       523.3,
+       335.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       354.6,
+       479.4,
+       371.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       374.0,
+       519.3,
+       390.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 161,
+   "page_end": 161,
+   "stem": "Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "If there is bias, taking a larger sample just magnifies the bias on a larger scale. Even when the subjects are chosen randomly, there can be bias due, for example, to nonresponse or to the wording of the questions. Convenience samples, like shopping mall surveys, are based on choosing individuals who are easy to reach, and they typically miss a large segment of the population. Voluntary response samples, like radio call-in surveys, are based on individuals who offer to participate, and they typically overrepresent persons with strong opinions.",
+   "question_id": "statistics-barrons-2027-quiz-05-003",
+   "source_pages": [
+    161,
+    161
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "To minimize response bias",
+    "B": "To minimize nonresponse bias",
+    "C": "Because each state is roughly representative of the U.S. population as a whole",
+    "D": "To obtain higher statistical precision because variability of responses within a state is less likely than variability of responses found in the overall population"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       511.9,
+       298.3,
+       528.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       531.3,
+       321.2,
+       548.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       550.8,
+       481.3,
+       567.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 161,
+      "bbox": [
+       110.0,
+       587.0,
+       491.6,
+       603.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 161,
+   "page_end": 161,
+   "stem": "In a study of successes and failures in adopting new academic standards, a random sample of high school principals will be selected from each of the 50 states. Selected individuals will be asked a series of evaluative questions. Why is stratification used here?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Each of the 50 states, with its own longtime past state standards and different regional culture, is considered a homogeneous stratum.",
+   "question_id": "statistics-barrons-2027-quiz-05-004",
+   "source_pages": [
+    161,
+    161
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "To reduce response bias",
+    "B": "To reduce nonresponse bias",
+    "C": "To reduce undercoverage bias",
+    "D": "To more likely obtain an estimate that is closer to the population proportion"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       122.1,
+       285.6,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       141.6,
+       308.6,
+       158.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       161.1,
+       321.3,
+       177.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       180.6,
+       534.2,
+       197.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 161,
+   "page_end": 162,
+   "stem": "A random sample of 100 students at a high school are to be selected, and each will be asked if they ever tried edible cannabis. Which of the following is a reason for increasing the size of this study from 100 to 200 students?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Increasing sample size increases accuracy but has no effect on any bias that is present.",
+   "question_id": "statistics-barrons-2027-quiz-05-005",
+   "source_pages": [
+    161,
+    162
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, because each player has the same chance of being selected.",
+    "B": "Yes, because each team is equally represented.",
+    "C": "Yes, because this is an example of stratified random sampling, which is a special case of simple random sampling.",
+    "D": "No, because not each group of 60 players has the same chance of being selected."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       351.8,
+       479.9,
+       368.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       388.0,
+       428.4,
+       404.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       407.5,
+       520.4,
+       424.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       443.6,
+       528.9,
+       460.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 162,
+   "page_end": 162,
+   "stem": "Each of the 30 MLB teams has 25 active-roster players. A sample of 60 players is to be chosen as follows. Each team will be asked to place 25 cards with its players’ names into a hat and randomly draw out two names. The two names from each team will be combined to make up the sample. Will this method result in a simple random sample of the 750 baseball players?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "In a simple random sample, every possible group of the given size has to be equally likely to be selected, and this is not true here. For example, with this procedure it would be impossible for all the players of one team to be together in the final sample. This procedure is an example of stratified random sampling, but stratified random sampling does not result in simple random samples.",
+   "question_id": "statistics-barrons-2027-quiz-05-006",
+   "source_pages": [
+    162,
+    162
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Proper use of chance as evidenced by the simple random sample makes this a well-designed survey.",
+    "B": "The high response rate makes this a well-designed survey.",
+    "C": "Undercoverage bias makes this a poorly designed survey.",
+    "D": "The validity of this survey depends on whether or not the adults attending this church are representative of all churches."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       598.2,
+       488.7,
+       615.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       634.3,
+       496.3,
+       651.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       653.8,
+       488.6,
+       670.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 162,
+      "bbox": [
+       110.0,
+       673.3,
+       532.5,
+       690.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 162,
+   "page_end": 162,
+   "stem": "A researcher plans a study to examine the depth of belief in God among the adult population. He obtains a simple random sample of 100 adults as they leave church one Sunday morning. All but one of them agree to participate in the survey. Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Surveying people coming out of any church results in a very unrepresentative sample of the adult population, especially given the question under consideration. Using chance and obtaining a high response rate will not change the undercoverage bias and make this into a well-designed survey.",
+   "question_id": "statistics-barrons-2027-quiz-05-007",
+   "source_pages": [
+    162,
+    162
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "With two full conference football programs, the sample might be too large to effectively analyze.",
+    "B": "The conferences in the sample might not be representative of the Division 1 population.",
+    "C": "The graduation rates of student athletes might not be homogeneous among schools in a given conference.",
+    "D": "There is no disadvantage to using the proposed cluster random sample."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       205.6,
+       533.7,
+       222.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       241.8,
+       516.6,
+       258.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       278.0,
+       467.9,
+       294.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       314.2,
+       527.3,
+       331.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 163,
+   "page_end": 163,
+   "stem": "A sports statistician plans to survey Division 1 college football programs as to graduation rates of their student athletes. The statistician will use a cluster random sample with the NCAA Division 1 football conferences as clusters. A random sample of two conferences will be selected and their football programs analyzed. What is one disadvantage to selecting a cluster random sample to investigate Division 1 football program graduation rates?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Cluster random samples work when each cluster roughly looks like the population as a whole. However, there is no reason to believe that each conference has similar graduation rates as any other conference. Some conferences may have different academic standards and different support levels for their student athletes. Picking two conferences may not at all be representative of the population of Division 1 college football programs. In general, cluster random samples are known for ease, convenience, and less expense than other sampling methods. Homogeneity among schools in given conferences would relate to picking a stratified random sample with the conferences as strata.",
+   "question_id": "statistics-barrons-2027-quiz-05-008",
+   "source_pages": [
+    163,
+    163
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "Give the survey to 100 randomly chosen people from among callers to a radio station who identify themselves as registered voters.",
+    "B": "Give the survey to 100 randomly chosen people from official voter registration lists.",
+    "C": "Give the survey to 100 randomly chosen people from among those who approach and agree to answer questions of a surveyor standing on a busy street corner.",
+    "D": "Give the survey to 100 randomly chosen people from among those giving feedback to the question posted on a neutral online website."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       452.0,
+       509.3,
+       468.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       504.9,
+       506.8,
+       521.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       541.1,
+       509.3,
+       557.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 163,
+      "bbox": [
+       110.0,
+       594.0,
+       510.4,
+       610.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 163,
+   "page_end": 163,
+   "stem": "Political advisors want to survey registered voters as to their top concerns. Which of the following sampling methods does NOT have voluntary response bias as a potential source of error? In each case, assume all 100 chosen people answer the survey.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Voluntary response bias results from surveys based on individuals who choose to participate. Examples include when people choose to call in to a radio station, to respond to a newspaper ad, to approach and answer a surveyor’s questions, or to respond to an online website. The example in which people are randomly chosen from a voter registration list and all answer a survey would not involve voluntary response bias.",
+   "question_id": "statistics-barrons-2027-quiz-05-009",
+   "source_pages": [
+    163,
+    163
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "Surveys were completed by the first 100 people responding to the question posed on a radio call-in program.",
+    "B": "Surveys were completed by 100 of the 200 people to whom the survey was mailed.",
+    "C": "Surveys were completed by 100 people chosen at random.",
+    "D": "Surveys were completed by all 100 students who were sent the survey at a small liberal arts college with 850 total students."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 164,
+      "bbox": [
+       110.0,
+       122.1,
+       519.3,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 164,
+      "bbox": [
+       110.0,
+       158.3,
+       528.5,
+       175.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 164,
+      "bbox": [
+       110.0,
+       194.5,
+       497.7,
+       211.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 164,
+      "bbox": [
+       110.0,
+       214.0,
+       528.0,
+       230.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 163,
+   "page_end": 164,
+   "stem": "A survey is to be taken as to whether or not people believe the moon landing conspiracy theory, which claims the six crewed landings (1969–1972) were faked. Which of the following describes a design in which nonresponse bias is likely present?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Nonresponse bias is a potential problem whenever a survey does not obtain responses from everyone surveyed. Choice (A) has potential voluntary response bias, and choice (D) has potential undercoverage bias. However, choices (A), (C), and (D) all achieved responses from everyone who was surveyed, so they do not have nonresponse bias.",
+   "question_id": "statistics-barrons-2027-quiz-05-010",
+   "source_pages": [
+    163,
+    164
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 164,
+   "page_end": 165,
+   "stem": "A student is interested in estimating the average length of words in a 600-page textbook and plans the following three-stage sampling procedure: I. After noting that each of the 12 chapters has a different author, the student decides to obtain a sample of words from each chapter. II. Each chapter is approximately 50 pages long. The student uses a random number generator to pick three pages from each chapter and use all words from these pages to find the average length of words for that author. III. On each chosen page, the student notes the length of every tenth word. (a) The first stage above represents what kind of sampling procedure? Give an advantage in using it in this context. (b) The second stage above represents what kind of sampling procedure? Give an advantage in using it in this context. (c) The third stage above represents what kind of sampling procedure? Give a disadvantage to using it dependent upon an author’s writing style.",
+   "correct_answer": null,
+   "answer_text": "(a) This is an example of stratified random sampling, where the chapters are strata. The advantage is that the student is ensuring that the final sample will represent the 12 different authors, who may well use different average word lengths. (b) This is an example of cluster random sampling, where for each chapter the three chosen pages are clusters. It is reasonable to assume that each page (cluster) resembles the author’s overall pattern. The advantage is that using these clusters is much more practical than trying to sample from among all an author’s words. (c) This is an example of systematic random sampling, which is quicker and easier than many other procedures. A possible disadvantage is that if ordering is related to the variable under consideration, this procedure will likely result in an unrepresentative sample. For example, in this study if an author’s word length is related to word order in sentences, the student could end up with words of particular lengths.",
+   "question_id": "statistics-barrons-2027-quiz-05-011",
+   "context": "",
+   "source_pages": [
+    164,
+    165
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 165,
+     "bbox": [
+      185.4,
+      280.8,
+      427.0,
+      440.9
+     ]
+    }
+   ],
+   "page_start": 165,
+   "page_end": 165,
+   "stem": "Pelicans are considered an endangered species, and there is a need to protect them from becoming extinct. Unfortunately, the U.S. Fish & Wildlife Service is unable to protect all pelican colonies; however, it plans to protect those colonies identified as most important. One criterion in determining the importance of a geographical region is the density of nesting sites within it. Given an aerial view of the nests in a geographical region used for pelican nesting, the service plans to divide the rectangular picture into 150 equal-size plots as below: The service will randomly pick 15 plots (10% of the total), count the nests in each of those plots, sum and multiply by 10 to estimate the total number of nests in the region, and then calculate density. Two methods for counting the number of nests are under consideration. Method I: Randomly pick one of the above rows and use all the 15 plots in that row. Method II: Randomly pick one of the plots in each of the 15 columns to obtain the 15 plots. (a) What sampling procedure is each method striving for, and how can each method be implemented? (b) Which of these two methods is preferable here? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Method I results in cluster random sampling (the rows are clusters) and can be implemented by numbering the rows 1 through 10, using a random number generator to randomly pick a number between 1 and 10, and using all 15 plots in that row. Method II results in stratified random sampling (the columns are strata) and can be implemented by numbering the rows 1 through 10, using a random number generator to pick a number between 1 and 10 to pick a plot in the first column, repeating this process to pick a random plot in each of the 15 columns, and using the 15 plots resulting from picking one plot from each column. (b) Method II, a stratified random sample (with the columns as strata), would be preferable here as each column is somewhat different, so picking a plot from each is meaningful. Method I, an attempt at cluster random sampling with the rows as clusters, would work only if each of the rows was heterogeneous (representative of the whole area); this is clearly not true as, for example, the top and bottom rows have far fewer nests than the middle rows.",
+   "question_id": "statistics-barrons-2027-quiz-05-012",
+   "context": "",
+   "source_pages": [
+    165,
+    165
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 166,
+   "page_end": 166,
+   "stem": "For each of the following survey designs, identify the problem and the effect it would have on the estimate of interest. (a) Should spending be increased for the athletic program? A school official decides to sample spectators randomly at the next home basketball game. (b) Do people believe that eating organic will lower the risk of cancer? A health magazine sends a questionnaire to all their subscribers. (c) A supermarket quality control inspector opens boxes of strawberries. If no mold is seen among the visible strawberries, he accepts the box. (d) Are the patients following their diet instructions? A family physician asks each of her patients during their office visits. (e) Parents are asked to write to a newspaper with a yes or no response to whether or not they are happy with the education their children are receiving in the local public schools.",
+   "correct_answer": null,
+   "answer_text": "(a) People who attend the school’s basketball game are probably more interested in supporting the athletic program than those who do not attend. This study will probably show that a higher proportion of people favor the increased spending than what is the true proportion. (b) Subscribers to a health magazine are more likely to believe in the benefits of eating organic than the general population, so the resulting proportion of believers in this study will be greater than it is in the general population. (c) The distributer could put any moldy strawberries on the bottom, out of sight! The proportion of accepted boxes will be higher than it should be. (d) Many patients will be reluctant to admit to their doctor that they are not following their diet instructions. So, the proportion who say they are following the instructions will be higher than the true proportion following the instructions. (e) Parents who are satisfied with the school system are probably less likely to take the time to respond to this voluntary response survey, while those who are unhappy with the education their kids are receiving are more likely to respond. So, the proportion of “unhappy” responses will probably be higher than the true proportion of parents who are unhappy.",
+   "question_id": "statistics-barrons-2027-quiz-05-013",
+   "context": "",
+   "source_pages": [
+    166,
+    166
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 166,
+     "bbox": [
+      104.7,
+      475.7,
+      507.7,
+      540.4
+     ]
+    }
+   ],
+   "page_start": 166,
+   "page_end": 166,
+   "stem": "Suppose we are trying to estimate the mean age of high school teachers and have four methods of choosing samples. We choose 10 samples using each method. Later we find the true mean, μ = 42. The following are plots of the results of each sampling method. (a) Which method or methods indicate high precision? Explain. (b) Which method or methods indicate probable bias? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Methods A and C indicate high precision because they result in statistics that are tightly clustered. (b) Methods C and D indicate probable bias because they result in statistics that are not centered around the true population parameter. Note that shape and variability are irrelevant to the issue of bias. Bias is focused on the center of the distribution.",
+   "question_id": "statistics-barrons-2027-quiz-05-014",
+   "context": "",
+   "source_pages": [
+    166,
+    166
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 167,
+     "bbox": [
+      165.3,
+      176.4,
+      447.1,
+      400.5
+     ]
+    },
+    {
+     "page": 168,
+     "bbox": [
+      205.6,
+      72.0,
+      406.8,
+      190.3
+     ]
+    }
+   ],
+   "page_start": 166,
+   "page_end": 167,
+   "stem": "Air Quality Index (AQI) is the EPA’s index for reporting air quality. An AQI value of 50 or below represents good air quality, while an AQI value over 150 represents unhealthy air quality. Suppose that the distribution of AQI scores in the 500 highest-income counties is roughly normal with a mean of 50, while the distribution of AQI scores in the 500 lowest-income counties is roughly normal with a mean of 100. The figure below represents the distributions of AQI scores in these high- and low-income counties. For an environmental study, 110 of these 1,000 counties will be randomly selected. Two methods are under consideration. Method I: Take an SRS from among the 1,000 low- and high- income counties. Method II: Randomly select either the low- or high-income counties and take an SRS of those 500 counties. (a) Will a sample obtained using Method II be representative of the 1,000 counties? Explain. (b) Which of the two sampling methods will result in a sample with less variability in AQI? Explain. (c) The figure below represents the AQI of 110 counties obtained by using one of the two methods. Explain which method was most likely used.",
+   "correct_answer": null,
+   "answer_text": "(a) No, a sample obtained using Method II will not be representative of the 1,000 counties. It will only be representative of either the low- or the high-income counties, whichever was randomly chosen. (b) Method II will result in less variability in AQI because all the scores will come from the one randomly selected income group of 500 similar-income counties. (c) Method I was most likely used to select this sample. The bimodal shape of the sample distribution indicates that counties were likely selected from both high- and low-income groups, which happens with Method I. Method II would most likely result in a unimodal distribution centered around either 50 or 100.",
+   "question_id": "statistics-barrons-2027-quiz-05-015",
+   "context": "",
+   "source_pages": [
+    166,
+    167
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 15,
+ "mcq_count": 10,
+ "frq_count": 5
+}

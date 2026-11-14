@@ -1,0 +1,761 @@
+{
+  "generated_at": "2026-11-01T14:20:37+08:00",
+  "model": "deepseek-flash[1m] + manual figure review",
+  "language": "en",
+  "papers": [
+    "psychology-ap-2026"
+  ],
+  "count": 75,
+  "items": [
+    {
+      "question_id": "psychology-2026-mcq-001",
+      "paper_id": "psychology-ap-2026",
+      "number": 1,
+      "answer_label": "B",
+      "answer_content": "Social learning",
+      "explanation": "Social learning occurs when a person acquires or changes behavior by observing and imitating a model. Firouzeh watches the coach demonstrate assertive statements and then reproduces those statements with her child, so the coach serves as a model for her behavior. Associative learning involves linking stimuli or responses, insight learning involves sudden understanding of a problem, and latent learning is learning that is not immediately shown in behavior, so none fits as well.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-002",
+      "paper_id": "psychology-ap-2026",
+      "number": 2,
+      "answer_label": "D",
+      "answer_content": "Frontal lobe",
+      "explanation": "The frontal lobe, especially the prefrontal cortex, governs executive functions such as planning, problem-solving, organization, and impulse control. Arthur's difficulties in exactly these areas point to prenatal alcohol damage to frontal regions. The cerebellum mainly coordinates movement and balance, the corpus callosum connects the hemispheres, and Wernicke's area supports language comprehension, so they do not account for his executive deficits.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-003",
+      "paper_id": "psychology-ap-2026",
+      "number": 3,
+      "answer_label": "A",
+      "answer_content": "Problem-focused coping",
+      "explanation": "Problem-focused coping targets the source of stress directly by taking action to change or manage the stressful situation. Jaclin confronts the project itself, reviewing research, designing a strategy, collecting and analyzing data, and planning her writing. Emotion-focused coping would instead aim to regulate her feelings about the stressor, while general adaptation syndrome describes a physiological stress response and fixed mindset is a belief about ability.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-004",
+      "paper_id": "psychology-ap-2026",
+      "number": 4,
+      "answer_label": "C",
+      "answer_content": "Massed practice",
+      "explanation": "Massed practice involves studying material in one long, concentrated session rather than spreading it out over time. By waiting until the night before the test and cramming all the terms into a single study period, Kenneth was using massed practice. Distributed practice would have meant spacing his studying across several days, which typically produces better long-term retention.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-005",
+      "paper_id": "psychology-ap-2026",
+      "number": 5,
+      "answer_label": "A",
+      "answer_content": "While Oliver sleeps, memories of his daily experiences are reactivated in his dreams and saved into his long-term memory.",
+      "explanation": "Consolidation theory proposes that sleep helps stabilize and strengthen newly formed memories, moving them into more permanent long-term storage. Oliver's sleeping brain reactivating the day's experiences and saving them into long-term memory directly illustrates this process. The other options describe restorative body functions, activation-synthesis, and Freudian dream theory rather than memory consolidation.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-006",
+      "paper_id": "psychology-ap-2026",
+      "number": 6,
+      "answer_label": "D",
+      "answer_content": "Projective tests",
+      "explanation": "Psychodynamic theorists believe much of personality is driven by unconscious conflicts and motives, so they favor assessment methods that bypass conscious defenses. Projective tests, such as the Rorschach inkblot test or the Thematic Apperception Test, present ambiguous stimuli that people interpret in ways thought to reveal hidden needs and feelings. Big Five inventories are trait-based self-reports, and achievement and aptitude tests measure ability rather than personality.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-007",
+      "paper_id": "psychology-ap-2026",
+      "number": 7,
+      "answer_label": "A",
+      "answer_content": "Social anxiety disorder",
+      "explanation": "Social anxiety disorder involves an intense, persistent fear of being judged or embarrassed in social or performance situations. Glen's overwhelming fear, rapid heartbeat, and difficulty breathing when he must present in front of classmates, despite being confident beforehand, fit this pattern. Major depressive disorder, bipolar disorder, and DID involve mood, energy, or identity disturbances rather than acute fear of social evaluation.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-008",
+      "paper_id": "psychology-ap-2026",
+      "number": 8,
+      "answer_label": "B",
+      "answer_content": "Informed assent and consent",
+      "explanation": "Modern ethical standards require researchers to obtain informed consent from participants or, when participants cannot consent for themselves, from parents or guardians, along with the participant's assent. Victor was a minor with no identifiable guardian, so a contemporary study would need to address consent and assent procedures directly. Deception, testable hypotheses, and confederates are research design elements, not the central ethical safeguard raised by this case.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-009",
+      "paper_id": "psychology-ap-2026",
+      "number": 9,
+      "answer_label": "D",
+      "answer_content": "Regression toward the mean",
+      "explanation": "Regression toward the mean occurs when extreme scores on an initial measurement tend to move closer to the average on a retest, partly because of random variation. Figure 2 shows the retest distribution shifted toward the middle of the score range rather than preserving Figure 1's extreme pattern. Mental set, bimodal distribution, and self-fulfilling prophecy do not describe this shift toward the mean.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-010",
+      "paper_id": "psychology-ap-2026",
+      "number": 10,
+      "answer_label": "C",
+      "answer_content": "Confirmation bias",
+      "explanation": "Confirmation bias is the tendency to seek out, attend to, and interpret information in ways that support an existing belief. Aria already believes she is being treated unfairly, so she searches for pay and bonus information and focuses only on details that confirm that belief while ignoring evidence that might challenge it. This is not a visual attention failure but a biased pattern of thinking.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-011",
+      "paper_id": "psychology-ap-2026",
+      "number": 11,
+      "answer_label": "B",
+      "answer_content": "Avoidant attachment",
+      "explanation": "Avoidant attachment involves discomfort with emotional closeness and a tendency to withdraw from intimacy or avoid deepening personal connections. Sandy pulls away during intimate conversations and uses excuses such as working late or canceling plans to maintain distance. This pattern reflects an avoidant attachment style rather than generativity, egocentrism, or latent learning.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-012",
+      "paper_id": "psychology-ap-2026",
+      "number": 12,
+      "answer_label": "C",
+      "answer_content": "Kosuke does not notice that the server who is taking his food order is a different person than the server who took his drink order.",
+      "explanation": "Change blindness is the failure to notice a change in a visual scene, especially when attention is focused elsewhere. Kosuke is absorbed in conversation and does not detect that the server taking his food order is not the same person who took the drink order. This illustrates a failure to notice a change in person rather than a hearing threshold or memory for his own order.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-013",
+      "paper_id": "psychology-ap-2026",
+      "number": 13,
+      "answer_label": "C",
+      "answer_content": "Availability heuristic",
+      "explanation": "The availability heuristic is a mental shortcut in which people judge the likelihood of an event based on how easily relevant examples come to mind. Simon's recent frightening experience with a purple car is vivid and easily recalled, so he immediately assumes another purple car will cut him off. Relative clarity, change blindness, and accommodation do not explain this memory-based judgment.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-014",
+      "paper_id": "psychology-ap-2026",
+      "number": 14,
+      "answer_label": "D",
+      "answer_content": "Dissociative identity disorder (DID)",
+      "explanation": "Dissociative identity disorder is most strongly associated with histories of severe childhood trauma, including abuse, neglect, and disrupted family experiences. The interview codes all describe traumatic or adverse childhood events, which fit the trauma-related background often reported in DID. Narcolepsy, autism spectrum disorder, and Alzheimer's disease are not primarily linked to these coded childhood trauma experiences.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-015",
+      "paper_id": "psychology-ap-2026",
+      "number": 15,
+      "answer_label": "A",
+      "answer_content": "Adverse childhood experiences (ACEs)",
+      "explanation": "Adverse childhood experiences are potentially traumatic events occurring before age 18, such as abuse, neglect, household instability, and witnessing violence or substance abuse. The list of coded interview experiences—family abuse, bullying, witnessing abuse, family loss, and parental drug abuse—matches this category directly. Negative symptoms refer to deficits in schizophrenia, posttraumatic growth refers to positive change after adversity, and display rules are cultural norms for expressing emotion, so none describes this collection of childhood stressors.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-016",
+      "paper_id": "psychology-ap-2026",
+      "number": 16,
+      "answer_label": "B",
+      "answer_content": "Qualitative",
+      "explanation": "A structured interview gathers open-ended verbal accounts that researchers then code and categorize into themes, which produces qualitative data—nonnumerical descriptions of experiences and meanings. Because the transcripts are analyzed for categories such as childhood trauma rather than converted into scores, the instrument is qualitative. A Likert scale yields numerical ratings, a correlation coefficient is a statistic, and quantitative data would involve numerical measurement.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-017",
+      "paper_id": "psychology-ap-2026",
+      "number": 17,
+      "answer_label": "D",
+      "answer_content": "Rods",
+      "explanation": "Rods are the photoreceptors specialized for dim lighting; they are highly sensitive to low levels of light and support vision in darkened settings such as Grace's bedroom, though they provide little color information. Cones require brighter light and are responsible for color and fine detail, so they contribute little here. The lens focuses light and ganglion cells carry signals toward the optic nerve, but neither is the light-detecting structure responsible for low-light vision.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-018",
+      "paper_id": "psychology-ap-2026",
+      "number": 18,
+      "answer_label": "D",
+      "answer_content": "Data from the AHS students support Dr. Salvatore’s hypothesis, but data from the BHS students do not.",
+      "explanation": "Dr. Salvatore's hypothesis was that working on a superordinate goal would improve attitudes toward the rival group. The AHS students' mean attitude rose from 2.3 before the mural to 8.5 afterward, supporting the hypothesis; the BHS students' mean stayed essentially unchanged, from 3.1 to 3.0, so their data do not. Therefore only the AHS data support the prediction.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-019",
+      "paper_id": "psychology-ap-2026",
+      "number": 19,
+      "answer_label": "D",
+      "answer_content": "A meta-analysis",
+      "explanation": "A meta-analysis statistically combines the results of many previously published studies on a single question to reach an overall conclusion. Dr. Malamud is pooling 20 years of research on brain activity during dreaming to evaluate support for the activation-synthesis theory, which is exactly this method. An experiment manipulates variables, a case study examines one individual in depth, and naturalistic observation watches behavior in its natural setting without combining prior studies.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-020",
+      "paper_id": "psychology-ap-2026",
+      "number": 20,
+      "answer_label": "C",
+      "answer_content": "Distress is the level of negative affect and physiological arousal, while dysfunction is the inability to complete the daily activities necessary for healthy functioning in life.",
+      "explanation": "In the criteria used to identify psychological disorders, distress refers to the subjective experience of negative affect and physiological arousal, such as anxiety or misery, while dysfunction refers to impairment in carrying out everyday activities needed for healthy functioning, such as work or self-care. Nash should therefore describe distress as emotional suffering and dysfunction as interference with daily life. The other options either reverse these definitions or confuse them with deviation from social norms.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-021",
+      "paper_id": "psychology-ap-2026",
+      "number": 21,
+      "answer_label": "D",
+      "answer_content": "Cognitive dissonance",
+      "explanation": "Cognitive dissonance is the psychological discomfort that arises when a person's beliefs and actions conflict. Melissa believes in healthy eating and advises friends, yet she skips meals and eats fast food, and her friend's confrontation makes this inconsistency salient. To reduce the tension, she may change her behavior or rationalize it; the discomfort itself is dissonance, not conformity or reaction formation.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-022",
+      "paper_id": "psychology-ap-2026",
+      "number": 22,
+      "answer_label": "B",
+      "answer_content": "Perceptual constancy",
+      "explanation": "Perceptual constancy is the tendency to perceive an object as remaining the same even when sensory input changes. As clouds reduce illumination, the shirt reflects less light, but Sutton's visual system compensates for the lighting change and maintains color constancy, so he still sees the shirt's color as unchanged. Dark adaptation concerns sensitivity in dim light, not stable object color.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-023",
+      "paper_id": "psychology-ap-2026",
+      "number": 23,
+      "answer_label": "B",
+      "answer_content": "The tip-of-the-tongue phenomenon",
+      "explanation": "The tip-of-the-tongue phenomenon occurs when information is stored in memory and one feels certain of knowing it but cannot retrieve it fully at the moment. Garrett can recall that the singer's name begins with M, showing partial access, yet he cannot produce the full name, which is the hallmark of this retrieval failure. It is not amnesia or proactive interference.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-024",
+      "paper_id": "psychology-ap-2026",
+      "number": 24,
+      "answer_label": "A",
+      "answer_content": "While fluid intelligence tends to decrease as people age, crystallized intelligence, which is necessary for completing crossword puzzles correctly, remains relatively stable.",
+      "explanation": "Fluid intelligence involves reasoning and processing speed and often declines with age, while crystallized intelligence is accumulated knowledge and verbal skills and remains relatively stable. Crossword puzzles draw heavily on crystallized intelligence, such as vocabulary and stored facts, so Flora's correct answers despite doing fewer puzzles do not by themselves suggest dementia. Her performance reflects preserved knowledge rather than a loss of all cognitive ability.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-025",
+      "paper_id": "psychology-ap-2026",
+      "number": 25,
+      "answer_label": "B",
+      "answer_content": "fMRI",
+      "explanation": "fMRI measures changes in blood flow and oxygenation in brain regions while participants perform a task. Because the study examined which brain areas activate during math problems by measuring blood flow, functional magnetic resonance imaging is the best fit. EEG records electrical activity, lesioning involves damaging tissue, and projective tests assess personality rather than localized brain activity.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-026",
+      "paper_id": "psychology-ap-2026",
+      "number": 26,
+      "answer_label": "D",
+      "answer_content": "Transcranial magnetic stimulation (TMS)",
+      "explanation": "Transcranial magnetic stimulation (TMS) is a noninvasive technique that uses magnetic pulses to activate or modulate brain regions associated with depression. It is used when depressive symptoms have not responded well to medication or therapy. The other options involve invasive or destructive methods, such as lobotomy and lesioning, or do not describe a treatment procedure.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-027",
+      "paper_id": "psychology-ap-2026",
+      "number": 27,
+      "answer_label": "C",
+      "answer_content": "He manipulated an independent variable and randomly assigned the rats to different groups.",
+      "explanation": "An experiment requires the researcher to manipulate an independent variable and use random assignment to control for confounding variables. Dr. Burrhus manipulated the reinforcement schedule and randomly assigned rats to the two chambers, allowing a causal comparison of effects on behavior. The other options describe correlational, meta-analytic, or case-study designs.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-028",
+      "paper_id": "psychology-ap-2026",
+      "number": 28,
+      "answer_label": "A",
+      "answer_content": "The first group was reinforced on a fixed-ratio schedule, and the second group was reinforced on a variable-ratio schedule.",
+      "explanation": "A fixed-ratio schedule reinforces behavior after a set number of responses, so the first group pressing twice for each pellet is on a fixed-ratio schedule. A variable-ratio schedule reinforces after an unpredictable number of responses, which fits the second group's requirement of 2, 5, or 8 presses. Interval schedules depend on time rather than number of responses.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-029",
+      "paper_id": "psychology-ap-2026",
+      "number": 29,
+      "answer_label": "D",
+      "answer_content": "The rats in the first group would pause between receiving the food pellet and pressing the lever again, while the rats in the second group would press the lever again immediately after receiving the food pellet.",
+      "explanation": "Fixed-ratio schedules typically produce a post-reinforcement pause followed by rapid responding, so the first group would pause after receiving a pellet. Variable-ratio schedules produce high, steady response rates with little pause because reinforcement is unpredictable, so the second group would resume pressing quickly after reinforcement. The schedules are response-based, not time-based.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-030",
+      "paper_id": "psychology-ap-2026",
+      "number": 30,
+      "answer_label": "D",
+      "answer_content": "The child believes strongly in their ability to successfully complete tasks.",
+      "explanation": "Self-efficacy refers to a person's belief in their own ability to organize and execute the actions needed to accomplish a task. A child with high self-efficacy therefore expects to succeed and persists when facing challenges. Positive self-view, peer influence, and parental acceptance relate to self-esteem or social factors rather than self-efficacy specifically.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-031",
+      "paper_id": "psychology-ap-2026",
+      "number": 31,
+      "answer_label": "B",
+      "answer_content": "A negative correlation",
+      "explanation": "The scatterplot shows that patients who attended longer hypnosis sessions generally reported lower anxiety ratings afterward. As session length increases from left to right, the data points trend downward, which is a negative correlation. The pattern does not indicate no relationship or a positive relationship, and the graph alone does not establish statistical significance or causation.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-032",
+      "paper_id": "psychology-ap-2026",
+      "number": 32,
+      "answer_label": "C",
+      "answer_content": "Phonological loop",
+      "explanation": "The phonological loop is the working memory component that holds and rehearses verbal and auditory information, such as the sound of a song's lyrics. Singing the states in his head uses this inner voice to keep the sequence active. The central executive directs attention but does not store the sounds, and the visuospatial sketchpad handles visual imagery, not lyrics.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-033",
+      "paper_id": "psychology-ap-2026",
+      "number": 33,
+      "answer_label": "A",
+      "answer_content": "Maintaining anonymity",
+      "explanation": "The strangers in the recordings did not consent to being filmed or to serving as participants, so the researchers must protect their privacy by keeping their identities anonymous. Ethical guidelines require that identifying information be concealed when participants are observed without informed consent. Debriefing the confederates does not address the strangers' confidentiality, and replication and random assignment are design features, not ethical protections.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-034",
+      "paper_id": "psychology-ap-2026",
+      "number": 34,
+      "answer_label": "C",
+      "answer_content": "Melatonin",
+      "explanation": "Melatonin is a hormone secreted by the pineal gland that helps regulate the sleep-wake cycle, so a melatonin supplement can help shift circadian rhythms after travel across time zones. Leptin relates to hunger regulation, adrenaline to arousal and stress, and oxytocin to social bonding, so none of these would support adjustment of his internal clock.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-035",
+      "paper_id": "psychology-ap-2026",
+      "number": 35,
+      "answer_label": "A",
+      "answer_content": "It is valid because it accurately predicted that Camden could handle the job’s complexity.",
+      "explanation": "Validity refers to how well a test measures or predicts what it is intended to measure or predict. Because high scores on the reasoning test corresponded with greater ability to handle the job's complexity, the test shows predictive validity for job performance. Reliability, standardization, and the achievement-test label describe other qualities and do not explain this correspondence with later job success.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-036",
+      "paper_id": "psychology-ap-2026",
+      "number": 36,
+      "answer_label": "B",
+      "answer_content": "Eva’s overgeneralization shows that she understands the past-tense rule but has not yet learned its irregularities.",
+      "explanation": "Overgeneralization occurs when a child applies a grammatical rule, such as adding -ed for past tense, to words that are exceptions. Eva's production of 'goed' shows she has learned the regular past-tense pattern but has not yet mastered irregular forms like 'went.' This rule-based error reflects normal language development rather than a lack of grammar or the one-word stage.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-037",
+      "paper_id": "psychology-ap-2026",
+      "number": 37,
+      "answer_label": "A",
+      "answer_content": "Picking up an object",
+      "explanation": "Picking up an object requires voluntary motor commands to travel from the brain through the spinal cord to the arms and hands. Damage high in the spinal cord disrupts these descending pathways, making skilled limb movement especially difficult. Taste and hearing rely mainly on cranial nerves, and while autonomic functions such as temperature regulation can be affected by spinal injury, the scenario most directly impairs voluntary movement below the injury level.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-038",
+      "paper_id": "psychology-ap-2026",
+      "number": 38,
+      "answer_label": "C",
+      "answer_content": "Repeating the methods used in the study with different participants who are also experiencing hallucinations to see if similar results occur",
+      "explanation": "Repeating the study with a new group of participants is replication, which increases confidence that the original findings were not due to chance or the particular sample. If similar results occur when the methods are repeated with other people who experience hallucinations, the hypothesis that reduced dopamine receptivity reduces hallucinations gains stronger support. Informed consent and confidentiality are ethical requirements but do not test the hypothesis, and family history addresses a different question.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-039",
+      "paper_id": "psychology-ap-2026",
+      "number": 39,
+      "answer_label": "A",
+      "answer_content": "The physiological experience came first, followed by the feeling of emotion.",
+      "explanation": "Bailey’s physiological arousal, such as increased heart rate, crying, and smiling, occurs before she consciously experiences happiness. This sequence reflects the James-Lange theory, which proposes that bodily reactions to a stimulus come first and the emotional feeling follows from those bodily changes. It is not Cannon-Bard theory, which would predict physiological arousal and emotional experience occur simultaneously.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-040",
+      "paper_id": "psychology-ap-2026",
+      "number": 40,
+      "answer_label": "D",
+      "answer_content": "An achievement test",
+      "explanation": "An achievement test measures how much a person has learned or mastered specific material, such as the concepts taught in a cognition unit. Mrs. Watson’s test is designed to assess current mastery of course content, so it fits the definition of an achievement test. An aptitude test predicts future performance, a test of g measures general intelligence, and a growth mindset measure assesses beliefs about ability.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-041",
+      "paper_id": "psychology-ap-2026",
+      "number": 41,
+      "answer_label": "B",
+      "answer_content": "The degree of therapeutic alliance during therapy is negatively correlated with current anxiety levels.",
+      "explanation": "Dr. Specter is examining whether clients’ reports of open, respectful communication with their therapist are related to their current anxiety levels. The hypothesis that therapeutic alliance is negatively correlated with anxiety predicts that stronger alliance is associated with lower anxiety. Because the study uses survey data, it tests a correlation rather than proving that anxiety causes stronger bonds or that therapy is inferior to medication.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-042",
+      "paper_id": "psychology-ap-2026",
+      "number": 42,
+      "answer_label": "D",
+      "answer_content": "Predictive validity",
+      "explanation": "Predictive validity refers to how well a test forecasts a future outcome, and here the entrance exam scores correlate 0.57 with grade point averages earned a year later, showing the exam predicts later academic performance. Reliability concerns consistency of scores rather than forecasting, and standardization concerns uniform administration and scoring, so neither describes a relationship with a later criterion.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-043",
+      "paper_id": "psychology-ap-2026",
+      "number": 43,
+      "answer_label": "B",
+      "answer_content": "Zone of proximal development",
+      "explanation": "Vygotsky's zone of proximal development is the range of tasks a learner cannot yet complete alone but can accomplish with guidance from a more knowledgeable other. Shawna reaches her limit playing solo, then succeeds at the difficult task once her experienced sister assists her, illustrating learning supported within that zone.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-044",
+      "paper_id": "psychology-ap-2026",
+      "number": 44,
+      "answer_label": "D",
+      "answer_content": "Correlation",
+      "explanation": "Dr. LaMont measured two variables, mindset survey scores and end-of-semester performance and behavior measures, without manipulating any variable, then examined whether the scores were related. That is a correlational design. An experiment would require random assignment to conditions and control of extraneous variables, which she did not do.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-045",
+      "paper_id": "psychology-ap-2026",
+      "number": 45,
+      "answer_label": "C",
+      "answer_content": "Students who score higher on the survey will report spending more time studying and seeking feedback on assignments.",
+      "explanation": "A correlational study can only test hypotheses predicting an association between two measured variables, so the prediction that higher survey scores go with more reported studying and feedback seeking fits. Options claiming that mindset leads to or causes achievement require an experiment, and the hypothesis about study training requires manipulating that training.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-046",
+      "paper_id": "psychology-ap-2026",
+      "number": 46,
+      "answer_label": "D",
+      "answer_content": "See graph D.",
+      "explanation": "Growth mindset scores were positively associated with academic behaviors: students with higher mindset scores tended to have higher grades, more study time, and more feedback-seeking. Graph D shows a scatterplot with 15 points rising from left to right, which matches that positive relationship. Graph C shows no clear pattern, while A and B are bar graphs that do not depict a correlation between two continuous variables.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-047",
+      "paper_id": "psychology-ap-2026",
+      "number": 47,
+      "answer_label": "D",
+      "answer_content": "Hindsight bias",
+      "explanation": "Hindsight bias is the tendency to believe, after learning an outcome, that one would have predicted it all along. Once the teacher reports David's preoperational performance, Jennifer claims she could have foreseen it, revising her earlier confident prediction. Egocentrism and assimilation are Piagetian cognitive concepts, not errors in judging one's own past predictions.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-048",
+      "paper_id": "psychology-ap-2026",
+      "number": 48,
+      "answer_label": "D",
+      "answer_content": "Approach-avoidance",
+      "explanation": "Tucker is experiencing an approach-avoidance conflict because one goal, attending his top-choice college, has both an attractive aspect and an unattractive aspect. The school is appealing, but its extremely high tuition creates a strong reason to avoid it. This differs from an approach-approach conflict, which involves choosing between two desirable options.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-049",
+      "paper_id": "psychology-ap-2026",
+      "number": 49,
+      "answer_label": "C",
+      "answer_content": "Sensorineural deafness",
+      "explanation": "A cochlear implant is designed to address sensorineural deafness, which results from damage to the hair cells or auditory nerve in the inner ear. The device bypasses damaged hair cells by sending electrical signals directly to the auditory nerve. Conduction deafness involves problems in the outer or middle ear, so it is not the condition this implant primarily targets.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-050",
+      "paper_id": "psychology-ap-2026",
+      "number": 50,
+      "answer_label": "A",
+      "answer_content": "Maintenance rehearsal",
+      "explanation": "Stella used maintenance rehearsal by repeatedly saying the password to herself to keep it active in short-term memory long enough to type it. This strategy preserves information through repetition without connecting it to deeper meaning or prior knowledge. Elaborative rehearsal would involve linking the password to meaningful associations to improve long-term retention.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-051",
+      "paper_id": "psychology-ap-2026",
+      "number": 51,
+      "answer_label": "B",
+      "answer_content": "Using psychological interventions, stress management strategies, and lifestyle modifications to address Jayla’s health concerns",
+      "explanation": "A health psychologist focuses on how biological, psychological, and social factors influence health and illness, often using psychological interventions, stress management, and lifestyle changes to improve health outcomes. This role complements Jayla’s physicians and clinical psychologist by addressing behavioral and emotional factors related to her chronic condition. The other options describe psychodynamic therapy, cognitive restructuring, or biological treatment rather than the broad health-focused approach of a health psychologist.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-052",
+      "paper_id": "psychology-ap-2026",
+      "number": 52,
+      "answer_label": "A",
+      "answer_content": "Whether the procedures of the study follow established ethical guidelines to protect participants",
+      "explanation": "An institutional review board primarily evaluates whether a study’s procedures protect participants and follow established ethical guidelines, including informed consent, confidentiality, and minimizing harm. Its central concern is the welfare and rights of human participants, not the choice between experimental and correlational designs, diagnostic accuracy, or sample size. Those issues may be important scientifically, but they are not the IRB’s main approval criterion.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-053",
+      "paper_id": "psychology-ap-2026",
+      "number": 53,
+      "answer_label": "B",
+      "answer_content": "Age",
+      "explanation": "Random assignment took place, but the groups differed substantially in age: Group 1's mean age was 32 and Group 2's was 55. Age could affect how quickly participants learn to use a new technology, so it provides an alternative explanation for the group difference in completion time. Gender percentages were similar, time of day was held constant, and reading ability was not measured as a group difference.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-054",
+      "paper_id": "psychology-ap-2026",
+      "number": 54,
+      "answer_label": "A",
+      "answer_content": "Person-centered therapy",
+      "explanation": "Person-centered therapy, developed by Carl Rogers, emphasizes unconditional positive regard, empathy, and genuineness. Hannah’s therapist helps her feel deeply understood and accepted without judgment, which allows Hannah to explore her own thoughts and actions and develop a greater sense of ownership over her feelings and behavior.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-055",
+      "paper_id": "psychology-ap-2026",
+      "number": 55,
+      "answer_label": "D",
+      "answer_content": "The Yerkes-Dodson law",
+      "explanation": "The Yerkes-Dodson law states that performance is best at a moderate level of arousal, while very high arousal or stress can impair performance. Yasmin uses deep breathing to reduce her heightened physiological arousal so that she can perform better on the exam.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-056",
+      "paper_id": "psychology-ap-2026",
+      "number": 56,
+      "answer_label": "D",
+      "answer_content": "Social trap",
+      "explanation": "A social trap occurs when individuals pursue their own immediate interests in a way that produces a harmful outcome for the whole group. Liam’s group members each work as they please rather than following a shared plan, so their individual choices contribute to the group’s failure.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-057",
+      "paper_id": "psychology-ap-2026",
+      "number": 57,
+      "answer_label": "B",
+      "answer_content": "Third variable problem",
+      "explanation": "The third variable problem refers to the possibility that an outside variable, such as parental poverty, influences both the supposed cause and the outcome. If poverty affects both neighborhood food environment and birth weight, then the observed association between those two variables may be explained by this confounding third variable rather than by a direct causal link.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-058",
+      "paper_id": "psychology-ap-2026",
+      "number": 58,
+      "answer_label": "B",
+      "answer_content": "Posttraumatic growth",
+      "explanation": "Posttraumatic growth refers to positive psychological change that can occur after a person experiences a traumatic event. After his accident and paralysis, Enrico moves from hesitation to sharing his physical therapy videos in order to motivate others, reflecting growth and meaning-making following trauma.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-059",
+      "paper_id": "psychology-ap-2026",
+      "number": 59,
+      "answer_label": "D",
+      "answer_content": "Retinal disparity",
+      "explanation": "Retinal disparity is a binocular depth cue created by the slightly different images that each eye receives. The brain compares these two images to estimate distance, so closing one eye removes this cue and makes judging the distance of street signs harder. Closure, apparent movement, and perceptual constancies do not primarily provide this binocular distance information.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-060",
+      "paper_id": "psychology-ap-2026",
+      "number": 60,
+      "answer_label": "B",
+      "answer_content": "Withdrawal-symptom severity rating",
+      "explanation": "An operational definition specifies how a variable is measured in the study. Here, the effect of opioid addiction was measured as participants' ratings of withdrawal-symptom severity on a 0-to-10 scale at 24, 48, and 96 hours after stopping opioids. That rating is the concrete, quantifiable measure used in the study, whereas time, years addicted, and quantity consumed are not the outcome actually measured.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-061",
+      "paper_id": "psychology-ap-2026",
+      "number": 61,
+      "answer_label": "C",
+      "answer_content": "8",
+      "explanation": "Range is the difference between the highest and lowest observed values. In the table, the withdrawal-symptom ratings range from 0 to 8 across the three rating periods, so the range is 8. The scale's maximum of 10 and the 96-hour time period are not the observed range.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-062",
+      "paper_id": "psychology-ap-2026",
+      "number": 62,
+      "answer_label": "A",
+      "answer_content": "Likert scale",
+      "explanation": "A Likert scale asks respondents to rate a statement or experience along an ordered scale. Participants rated withdrawal-symptom severity from 0 to 10, which is a Likert-type rating scale. A structured interview is a data-collection procedure, while a correlation coefficient and an effect size are statistics, not measurement tools.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-063",
+      "paper_id": "psychology-ap-2026",
+      "number": 63,
+      "answer_label": "C",
+      "answer_content": "Microsystem",
+      "explanation": "In ecological systems theory, the microsystem consists of the immediate settings in which a person directly participates and interacts with others, such as family, peers, school, and teams. The rugby team and cheer squad are direct social environments for Fantasia, so they belong to her microsystem. The exosystem involves indirect influences, the macrosystem involves broader cultural values, and the chronosystem involves change over time.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-064",
+      "paper_id": "psychology-ap-2026",
+      "number": 64,
+      "answer_label": "B",
+      "answer_content": "Recall",
+      "explanation": "Fill-in-the-blank questions require recall, meaning Xanthe must retrieve information from memory without being given possible answers. Multiple-choice questions require recognition, because the correct answer is present among the options and only needs to be identified. Context- and state-dependent memory concern matching retrieval conditions to encoding conditions, not the basic recall-versus-recognition difference.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-065",
+      "paper_id": "psychology-ap-2026",
+      "number": 65,
+      "answer_label": "C",
+      "answer_content": "Vygotsky’s theory of cognitive development",
+      "explanation": "Vygotsky’s theory of cognitive development emphasizes that children learn through social interaction, language, and guidance from more knowledgeable others, often within the zone of proximal development. Piaget’s theory focuses more on individual stages of cognitive development and active construction of knowledge. The memory models listed do not address children’s social development.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-066",
+      "paper_id": "psychology-ap-2026",
+      "number": 66,
+      "answer_label": "A",
+      "answer_content": "The factors that shifted the curve to the right likely indicate interventions that are successful in improving well-being.",
+      "explanation": "Positive psychology focuses on factors that improve well-being, not merely on treating disorder. The dashed curve is shifted to the right, with its peak in the Moderate Mental Health range, indicating that the intervention population has more people in higher well-being categories. That supports the interpretation that the interventions are associated with improved well-being; the graph alone does not establish causation or a specific effect size.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-067",
+      "paper_id": "psychology-ap-2026",
+      "number": 67,
+      "answer_label": "C",
+      "answer_content": "Evolutionary",
+      "explanation": "The evolutionary perspective emphasizes inherited traits and their role in adaptation and survival. Eugenicists wrongly used hereditarian and evolutionary-style reasoning to claim that intelligence was determined by “superior” genetics and should shape social policy. Behavioral, humanistic, and psychodynamic perspectives focus instead on learning, personal growth, and unconscious processes, so they fit less well.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-068",
+      "paper_id": "psychology-ap-2026",
+      "number": 68,
+      "answer_label": "B",
+      "answer_content": "Perceptual set",
+      "explanation": "Perceptual set is a mental predisposition to perceive stimuli in a particular way based on prior experience and expectations. Because Aiden has only ever known rustling bushes to be caused by small animals, his expectation guides his interpretation of the ambiguous sound. Bottom-up processing would instead emphasize the raw sensory features of the sound itself rather than his prior assumptions.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-069",
+      "paper_id": "psychology-ap-2026",
+      "number": 69,
+      "answer_label": "C",
+      "answer_content": "The sample is limited to Missouri high school students.",
+      "explanation": "Generalizability depends on how well a sample represents the larger population being described. Dr. Jaeger draws conclusions about all humans, but his sample consists only of high school students from one state, so their results may not reflect people of other ages or regions. The number of variables studied and the measurability of happiness are not the central limits on generalizing here.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-070",
+      "paper_id": "psychology-ap-2026",
+      "number": 70,
+      "answer_label": "D",
+      "answer_content": "Biological preparedness",
+      "explanation": "Biological preparedness is the idea that organisms are evolutionarily predisposed to learn some associations, especially those tied to survival, more readily than others. Learning to avoid a food that preceded illness can happen in a single trial and persist for a long time, which fits Janelle's lasting aversion to the olive pizza. Negative punishment and extinction do not account for the rapid, enduring nature of taste aversions.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-071",
+      "paper_id": "psychology-ap-2026",
+      "number": 71,
+      "answer_label": "A",
+      "answer_content": "Thalamus",
+      "explanation": "The thalamus acts as the brain's sensory relay station, receiving incoming sensory information and directing it to the appropriate cortical areas for processing. For taste, the signal is routed onward so that Marlow can consciously perceive the candy as sour. The hippocampus, hypothalamus, and Broca's area serve memory, regulatory, and language functions rather than this initial relay.",
+      "has_figure": false,
+      "source": "ai_batch"
+    },
+    {
+      "question_id": "psychology-2026-mcq-072",
+      "paper_id": "psychology-ap-2026",
+      "number": 72,
+      "answer_label": "A",
+      "answer_content": "Experiment",
+      "explanation": "Researchers randomly assigned participants to one of two conditions and manipulated whether other recipients' email addresses were visible. They then measured how many participants offered to help. Random assignment plus manipulation of an independent variable and measurement of a dependent variable define an experiment. Case studies, naturalistic observation, and meta-analysis do not involve this controlled manipulation.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-073",
+      "paper_id": "psychology-ap-2026",
+      "number": 73,
+      "answer_label": "C",
+      "answer_content": "Number of participants who offered to help",
+      "explanation": "The dependent variable is the outcome the researchers measured: whether participants offered help, recorded as the number of participants who offered to help. The visibility of email addresses was the independent variable manipulated across the two conditions. Whether someone replied to the recruitment email describes eligibility, and the classmate is part of the scenario rather than the measured outcome.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-074",
+      "paper_id": "psychology-ap-2026",
+      "number": 74,
+      "answer_label": "A",
+      "answer_content": "Diffusion of responsibility",
+      "explanation": "Diffusion of responsibility occurs when the presence of other people reduces each person's sense of responsibility to help. When the email showed 20 other recipients, only 12 participants offered help; when no other addresses were visible, 18 offered help. That difference fits diffusion of responsibility, whereas memory cues, framing, and the just-world phenomenon do not explain the effect of perceived others.",
+      "has_figure": true,
+      "source": "manual_figure_review"
+    },
+    {
+      "question_id": "psychology-2026-mcq-075",
+      "paper_id": "psychology-ap-2026",
+      "number": 75,
+      "answer_label": "C",
+      "answer_content": "Systematic desensitization",
+      "explanation": "Systematic desensitization is a behavioral technique in which a person is gradually exposed to feared stimuli while learning to remain relaxed, working up a hierarchy from least to most anxiety-provoking. Carlos moves from watching planes, to sitting in a stationary plane, to taking a short flight. Aversion therapy and rational-emotive behavior therapy target unwanted behaviors and irrational beliefs rather than gradual fear reduction.",
+      "has_figure": false,
+      "source": "ai_batch"
+    }
+  ]
+}

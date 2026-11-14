@@ -1,0 +1,883 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-15",
+ "kind": "quiz",
+ "number": 15,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 15 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 15",
+ "pdf_page_start": 292,
+ "pdf_page_end": 300,
+ "answer_page_start": 733,
+ "answer_page_end": 734,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The distribution of all the values in a sample of size n",
+    "B": "The distribution of the population",
+    "C": "The distribution of all possible values of the parameter μ",
+    "D": "The distribution of the statistic x̅ for all possible samples of a given size n from the population"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       348.7,
+       499.4,
+       366.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       369.7,
+       363.6,
+       387.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       390.7,
+       517.0,
+       411.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       414.7,
+       531.6,
+       432.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 292,
+   "page_end": 292,
+   "stem": "Which of the following is the best interpretation of the sampling distribution of a sample mean?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Distributions describe variability, and variability is the most fundamental concept in statistics. A sampling distribution describes variability among samples. The sampling distribution of a sample mean is the distribution of the statistic x̅ for all possible samples from the population.",
+   "question_id": "statistics-barrons-2027-quiz-15-001",
+   "source_pages": [
+    292,
+    292
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "n = 35",
+    "B": "n = 115",
+    "C": "The sampling distribution of the sample mean cannot be close to normal if the population is strongly skewed.",
+    "D": "The sampling distribution of the sample mean is always approximately normal."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       534.7,
+       187.5,
+       552.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       555.7,
+       195.6,
+       573.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       576.7,
+       516.5,
+       594.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 292,
+      "bbox": [
+       113.0,
+       615.7,
+       511.1,
+       633.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 292,
+   "page_end": 292,
+   "stem": "A population is strongly skewed. For which of the following sample sizes would the sampling distribution of the sample mean be closest to normal in shape?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "By the central limit theorem, the larger the sample size n, the closer the sampling distribution of x̅ will be to a normal distribution.",
+   "question_id": "statistics-barrons-2027-quiz-15-002",
+   "source_pages": [
+    292,
+    292
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Their centers will be roughly equal, and their variabilities will be roughly equal.",
+    "B": "Their centers will be roughly equal; however, the variability of Simulation A will be less than the variability of Simulation B.",
+    "C": "Their centers will be roughly equal; however, the variability of Simulation A will be greater than the variability of Simulation B.",
+    "D": "Their variabilities will be roughly equal; however, the mean of Simulation A will be less than the mean of Simulation B."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       220.5,
+       517.5,
+       238.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       259.5,
+       532.8,
+       277.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       316.5,
+       533.0,
+       334.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       373.5,
+       533.4,
+       391.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 292,
+   "page_end": 293,
+   "stem": "In a recent survey of new mothers, the mean number of diapers per day over the first month of a baby’s life was 10.5. Two simulations will be conducted for the sampling distribution of a sample mean from a population with a true mean of 10.5. Simulation A will consist of 1,000 trials with a sample size of 100. Simulation B will consist of 2,000 trials with a sample size of 50. Which of the following describes the center and variability of the two simulations?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The mean of any sampling distribution of the sample mean will be the population mean. A larger sample size will give less variability in the sampling distribution than will a smaller sample size.",
+   "question_id": "statistics-barrons-2027-quiz-15-003",
+   "source_pages": [
+    292,
+    293
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 293,
+      "bbox": [
+       142.5,
+       580.5,
+       351.0,
+       624.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 293,
+      "bbox": [
+       142.5,
+       630.0,
+       351.0,
+       673.5
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       609.0,
+       133.5,
+       627.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 293,
+      "bbox": [
+       113.0,
+       658.5,
+       133.3,
+       676.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 294,
+      "bbox": [
+       113.0,
+       160.5,
+       133.5,
+       178.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 294,
+      "bbox": [
+       113.0,
+       283.5,
+       134.7,
+       301.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 294,
+     "bbox": [
+      142.5,
+      72.0,
+      351.0,
+      175.5
+     ]
+    },
+    {
+     "page": 294,
+     "bbox": [
+      144.0,
+      181.5,
+      354.0,
+      298.5
+     ]
+    }
+   ],
+   "page_start": 293,
+   "page_end": 294,
+   "stem": "Approximately 10% of Americans identify as being multiracial. A simulation was conducted that consisted of 30 trials with a population parameter of 0.1. Each trial consisted of a sample size of 10. The number of successes out of 10 was recorded where success represented a person identifying as multiracial. Which of the following dotplots best represents a possible simulation?",
+   "context": "",
+   "option_crops": {
+    "C": {
+     "page": 294,
+     "bbox": [
+      90.0,
+      157.5,
+      550.0,
+      280.5
+     ]
+    },
+    "D": {
+     "page": 294,
+     "bbox": [
+      90.0,
+      280.5,
+      550.0,
+      327.6
+     ]
+    }
+   },
+   "correct_answer": "C",
+   "answer_text": "With p = 0.1 and n = 10, the distribution should be centered around np = 10(0.1) = 1. With 30 trials, there should be 30 dots in the plot.",
+   "question_id": "statistics-barrons-2027-quiz-15-004",
+   "source_pages": [
+    293,
+    294
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "It is not possible to tell by looking at the histograms."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 295,
+      "bbox": [
+       113.0,
+       248.2,
+       148.1,
+       266.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 295,
+      "bbox": [
+       113.0,
+       269.2,
+       153.5,
+       287.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 295,
+      "bbox": [
+       113.0,
+       290.2,
+       159.3,
+       308.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 295,
+      "bbox": [
+       113.0,
+       311.2,
+       492.6,
+       329.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 294,
+     "bbox": [
+      145.5,
+      393.0,
+      368.2,
+      518.2
+     ]
+    },
+    {
+     "page": 294,
+     "bbox": [
+      147.0,
+      521.2,
+      366.0,
+      646.5
+     ]
+    },
+    {
+     "page": 295,
+     "bbox": [
+      147.8,
+      72.0,
+      372.8,
+      186.8
+     ]
+    }
+   ],
+   "page_start": 294,
+   "page_end": 295,
+   "stem": "Three sampling distributions of the sample mean are constructed from the same population but use different sample sizes. I. II. III. Which histogram is based on samples with the largest sample size?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The larger the sample size n, the tighter the clustering of the sample means. (The sampling distribution of of x̅ has a standard deviation of . With larger n, the standard deviation will be smaller.)",
+   "question_id": "statistics-barrons-2027-quiz-15-005",
+   "source_pages": [
+    294,
+    295
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "I",
+    "B": "II",
+    "C": "III",
+    "D": "It is not possible to tell by looking at the histograms."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 296,
+      "bbox": [
+       113.0,
+       252.7,
+       148.1,
+       270.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 296,
+      "bbox": [
+       113.0,
+       273.7,
+       153.5,
+       291.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 296,
+      "bbox": [
+       113.0,
+       294.7,
+       159.3,
+       312.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 296,
+      "bbox": [
+       113.0,
+       315.7,
+       492.6,
+       333.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 295,
+     "bbox": [
+      145.5,
+      420.8,
+      378.8,
+      537.8
+     ]
+    },
+    {
+     "page": 295,
+     "bbox": [
+      147.0,
+      540.8,
+      380.2,
+      658.5
+     ]
+    },
+    {
+     "page": 296,
+     "bbox": [
+      147.8,
+      72.0,
+      383.2,
+      191.2
+     ]
+    }
+   ],
+   "page_start": 295,
+   "page_end": 296,
+   "stem": "Three sampling distributions of the sample mean are constructed from different populations; however, all use the same sample size. I. II. III. Which histogram is based on samples from the population with the largest standard deviation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The larger the population standard deviation σ, the more spread out is the sampling distribution of x̅ . (The sampling distribution of x̅ has a standard deviation of . With larger σ, the standard deviation will be larger.)",
+   "question_id": "statistics-barrons-2027-quiz-15-006",
+   "source_pages": [
+    295,
+    296
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "The original population is not approximately normal.",
+    "B": "The samples were not randomly selected.",
+    "C": "The sample distributions were mostly skewed left.",
+    "D": "The sample size was too small."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       72.0,
+       488.3,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       93.0,
+       417.9,
+       111.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       114.0,
+       473.5,
+       132.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       135.0,
+       349.0,
+       153.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 296,
+     "bbox": [
+      206.2,
+      468.8,
+      405.8,
+      622.5
+     ]
+    }
+   ],
+   "page_start": 296,
+   "page_end": 297,
+   "stem": "A recent survey indicated that the average hours worked per week in Switzerland is 34.1. A simulation was conducted to create a sampling distribution of the sample mean for a population with a mean of 34.1. The following is the resulting histogram of sample means. Which of the following is the most likely reason why the distribution is not approximately normal?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The sampling distribution of sample means will be approximately normal if the original population is approximately normal or if the sample size is large enough. Neither of those conditions appears to be true.",
+   "question_id": "statistics-barrons-2027-quiz-15-007",
+   "source_pages": [
+    296,
+    297
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "The distribution of amounts spent by the customers on a given day is approximately normal because 50 ≥ 30.",
+    "B": "The distribution of amounts spent by the customers on a given day is approximately normal because 120 ≥ 30.",
+    "C": "The distribution of sample means of amounts spent by customers from different days is approximately normal because 50 ≥ 30.",
+    "D": "The distribution of sample means of amounts spent by customers from different days is approximately normal because 120 ≥ 30."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       324.0,
+       518.9,
+       342.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       363.0,
+       518.8,
+       381.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       402.0,
+       504.0,
+       420.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 297,
+      "bbox": [
+       113.0,
+       459.0,
+       505.1,
+       477.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 297,
+   "page_end": 297,
+   "stem": "A manager at a big-box warehouse store claims that customers spend an average of $120 per visit. A supervisor picks a random sample of 50 customers and calculates the mean spent among these customers during a single visit. He then repeats this process on a random sample of days. Which of the following statements follows from the central limit theorem?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The distribution of sample means will be normal if the population is normal and will be approximately normal if the sample size is large enough (n ≥ 30). In this case, we are given that n = 50 ≥ 30.",
+   "question_id": "statistics-barrons-2027-quiz-15-008",
+   "source_pages": [
+    297,
+    297
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 298,
+      "bbox": [
+       142.5,
+       424.5,
+       346.5,
+       563.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 298,
+      "bbox": [
+       142.5,
+       566.2,
+       357.8,
+       711.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 299,
+      "bbox": [
+       142.5,
+       72.0,
+       354.8,
+       217.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 299,
+      "bbox": [
+       144.0,
+       220.5,
+       356.2,
+       356.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 298,
+      "bbox": [
+       113.0,
+       483.0,
+       133.5,
+       501.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 298,
+      "bbox": [
+       113.0,
+       628.1,
+       133.3,
+       646.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 299,
+      "bbox": [
+       113.0,
+       133.8,
+       133.5,
+       151.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 299,
+      "bbox": [
+       113.0,
+       277.5,
+       134.7,
+       295.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 298,
+     "bbox": [
+      154.5,
+      72.0,
+      457.5,
+      279.0
+     ]
+    }
+   ],
+   "page_start": 297,
+   "page_end": 299,
+   "stem": "The histogram below represents the data obtained from timing mile runs (in minutes) from a large population of middle school and high school track team members. The sampling distribution of sample means based on samples of size 2 from this population is simulated and graphed as a histogram. Which of the following histograms is most likely that of the sampling distribution?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "With samples of size 2, we expect about 25% of the samples will include 2 high school runners, 25% of the samples will include 2 middle school runners, and 50% of the samples will include 1 runner at each grade level.",
+   "question_id": "statistics-barrons-2027-quiz-15-009",
+   "source_pages": [
+    297,
+    299
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 299,
+     "bbox": [
+      142.5,
+      72.0,
+      354.8,
+      217.5
+     ]
+    },
+    {
+     "page": 299,
+     "bbox": [
+      144.0,
+      220.5,
+      356.2,
+      356.2
+     ]
+    }
+   ],
+   "page_start": 299,
+   "page_end": 299,
+   "stem": "The distribution of ages of death from heart disease is strongly skewed left because most such deaths occur at older ages with a few at younger ages. (a) Describe the shape of the sampling distribution for the sample mean with a sample size of n = 5. Explain. (b) Describe the shape of the sampling distribution for the sample mean with a sample size of n = 50. Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Because n = 5 < 30, the sampling distribution of the sample mean will also be skewed left but not quite as strongly as the population distribution. (b) Because n = 50 > 30, the sampling distribution of the sample mean will be approximately normal by the central limit theorem.",
+   "question_id": "statistics-barrons-2027-quiz-15-010",
+   "context": "",
+   "source_pages": [
+    299,
+    299
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 299,
+   "page_end": 300,
+   "stem": "Major League Baseball (MLB) salaries have a mean of approximately $5,000,000 and a median of approximately $2,000,000. (a) What is the probable shape of the distribution of MLB salaries? Explain. (b) What is the probable shape of the distribution of salaries from a random sample of 50 players? Explain. (c) What is the probable shape of the distribution of mean salaries from random samples, each of sample size 50? Explain. (d) How would the distribution of sample means in (c) change if the sample size increased? Explain. (e) How would the distribution of sample means in (c) change if the number of samples increased? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) When the mean is substantially greater than the median, the distribution is probably skewed right. (b) The distribution of a large sample should be approximately the same as that of the population, so the distribution of salaries from a random sample of 50 players should also probably be skewed right. (c) By the central limit theorem, with large n, the sampling distribution of x̅ will be approximately normal. (d) With a larger sample size, the sampling distribution of x̅ will be even closer to a normal distribution and will have a tighter clustering (a smaller standard deviation). (e) With a larger number of samples, the approximate normality of the sampling distribution of x̅ should be clearer, but the standard deviation of the sampling distribution of x̅ will not change as it depends upon the sample size, not the number of samples.",
+   "question_id": "statistics-barrons-2027-quiz-15-011",
+   "context": "",
+   "source_pages": [
+    299,
+    300
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 11,
+ "mcq_count": 9,
+ "frq_count": 2
+}

@@ -1,0 +1,69 @@
+<view class="page cards-page">
+  <view class="topbar">
+    <view class="eyebrow">MEMORY CARDS</view>
+    <view class="page-title">记忆卡片</view>
+  </view>
+
+  <view class="hero-card {{scopeOpen ? 'is-open' : ''}}">
+    <view class="hero-watermark">AP</view>
+
+    <view class="hero-top">
+      <view class="hero-label">{{usingDemo ? '示例数据' : 'AP Psychology · 2027'}}</view>
+      <view class="scope-trigger" bindtap="toggleScope">
+        <text class="scope-value">{{scopeLabel}}</text>
+        <text class="scope-caret">▾</text>
+      </view>
+    </view>
+
+    <view wx:if="{{scopeOpen}}" class="scope-panel">
+      <view class="scope-option {{allSelected ? 'is-on' : ''}}" bindtap="selectAllUnits">
+        <text>全部单元</text>
+        <text wx:if="{{allSelected}}" class="scope-check">✓</text>
+      </view>
+      <view
+        wx:for="{{unitOptions}}"
+        wx:key="id"
+        class="scope-option {{item.selected ? 'is-on' : ''}}"
+        data-id="{{item.id}}"
+        bindtap="toggleUnit"
+      >
+        <text>{{item.label}}</text>
+        <text wx:if="{{item.selected}}" class="scope-check">✓</text>
+      </view>
+      <view class="scope-done" bindtap="closeScope">完成</view>
+    </view>
+
+    <view class="hero-body">
+      <view class="hero-count">
+        <view wx:if="{{loading}}" class="hero-number hero-number-loading">—</view>
+        <view wx:else class="hero-number">{{totalLabel}}</view>
+        <view class="hero-unit">概念</view>
+      </view>
+    </view>
+
+    <view class="hero-actions">
+      <button
+        class="btn btn-primary start-btn"
+        hover-class="btn-hover"
+        bindtap="startStudy"
+        disabled="{{loading || !cards.length}}"
+      >
+        开始复习
+      </button>
+    </view>
+  </view>
+
+  <view wx:if="{{error}}" class="offline-note">
+    <view class="offline-dot"></view>
+    <view>{{error}}</view>
+  </view>
+
+  <view wx:if="{{localOnly}}" class="offline-note">
+    <view class="offline-dot"></view>
+    <view>当前为本地预览模式，评分不会同步到账号；重新登录后可写入「我的」。</view>
+  </view>
+
+  <view class="footer-brand">PsyPrac · AP Psychology</view>
+
+  <view wx:if="{{scopeOpen}}" class="scope-mask" bindtap="closeScope"></view>
+</view>

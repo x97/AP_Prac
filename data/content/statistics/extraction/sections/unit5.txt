@@ -1,0 +1,517 @@
+
+
+########## SECTION statistics-barrons-2027-u5-s01 | Two Quantitative Variables | PDF pages 454-458 ##########
+
+[[PAGE 454]]
+Two Quantitative Variables
+Many important applications of statistics involve examining whether two quantitative
+(numerical) variables are related to one another. For example, we may want to know if there is
+a relationship between the smoking histories of pregnant women and the birth weights of their
+children? Between SAT scores and success in college? Between amount of fertilizer used and
+amount of crop harvested?
+Several questions immediately arise:
+1. How can the strength of an apparent relationship be measured?
+∘The strength of an apparent linear relationship is typically described as weak,
+moderate, or strong.
+∘A scatterplot gives an immediate visual impression of the strength of a linear
+relationship. The strength of a linear association can be gauged by how close the
+plotted points are to a straight line.
+∘A numerical measurement, r, which is called the correlation coefficient (or simply the
+correlation), gives a quantitative value of the strength of a linear relationship. The
+strength of a linear association can be gauged by how close |r| is to 1.
+∘However, strength of a relationship is not evidence of causation.
+2. How can an observed relationship be put into functional terms?
+∘The equation of a best-fitting straight line will usually be derived from generic
+computer regression output.
+∘The interpretation of the slope and y-intercept of a linear regression line in context,
+using nondeterministic language (such as “predicted,” “estimated,” “expected,” or
+“average”), is imperative.
+3. How well does the linear model explain the observed outcomes?
+∘The coefficient of determination, r2, is the proportion of variation in the observed
+values that is explained by the linear model.
+
+[[PAGE 455]]
+4. When is an association positive or negative?
+∘When larger values of one variable are associated with larger values of a second
+variable, the variables are called positively associated. In this case, both the slope and
+the correlation will be positive.
+∘When larger values of one variable are associated with smaller values of a second
+variable, the variables are called negatively associated. In this case, both the slope
+and the correlation will be negative.
+∘However, no matter whether the variables are positively or negatively associated, for
+any two points, anything is possible and either point could be higher or lower than the
+other.
+Sometimes different dots in a scatterplot are labeled with different symbols or different
+colors to show a categorical variable. The resulting labeled scatterplot might distinguish, for
+example, between men and women, or between stocks and bonds, and so on.
+Example 5.1
+
+[[PAGE 456]]
+NOTE
+Be careful about extrapolation beyond the observed x-values. Although one should not ask what this data set
+predicts for a medication dosage of 200 mg, it is appropriate to ask the prediction of a 70 mg dosage.
+This diagram is a labeled scatterplot distinguishing men with plus signs and women with square
+dots to show a categorical variable, gender. The plot indicates that higher doses of the
+medication lead to greater reductions in LDL (bad cholesterol) for both men and women.
+However, lower doses of the medication help men more than women in lowering LDL, while
+higher doses help women more than men.
+When analyzing the overall pattern in a scatterplot, it is also important to note clusters and
+outliers.
+Example 5.2
+An experiment was conducted to determine the effect of temperature and light on the potency
+of a particular antibiotic. One set of vials of the antibiotic was stored under different
+temperatures but under the same lighting, while a second set of vials was stored under
+different lightings but under the same temperature.
+
+[[PAGE 457]]
+TIP
+Notice when the data fall in distinct groups.
+In the first scatterplot, notice the roughly linear pattern with one outlier far outside this pattern.
+A possible explanation is that the antibiotic is more potent at lower temperatures but only down
+to a certain temperature, at which it drastically loses potency.
+In the second scatterplot, notice the two clusters. It appears that below a certain light
+intensity the potency is one value, while above that intensity it is another value. In each cluster,
+there seems to be no association between intensity and potency.
+As noted in the above examples, when asked to describe a scatterplot, you must consider:
+■form (linear or nonlinear)
+■direction (positive or negative)
+■strength (weak, moderate, or strong)
+■unusual features (such as outliers and clusters)
+■context (context must be mentioned somewhere in the scatterplot description)
+TIP
+DUFS + context (Direction, Unusual features, Form, and Strength)
+Example 5.3
+The following is a scatterplot of average runs per game versus team batting average for all
+Major League teams during a recent season.
+
+[[PAGE 458]]
+Describe the scatterplot.
+Solution
+The scatterplot of average runs per game versus team batting average for all Major League
+teams during this season has form: linear; direction: positive; and strength: moderate.
+
+########## SECTION statistics-barrons-2027-u5-s02 | Correlation | PDF pages 458-460 ##########
+
+[[PAGE 458]]
+Correlation
+Although a scatterplot usually gives an intuitive visual indication when a linear relationship is
+strong, in most cases it is quite difficult to visually judge the specific strength of a relationship.
+For this reason, there is a mathematical measure called correlation coefficient (or simply the
+correlation). Correlation measures strength and gives the direction of a linear relationship.
+However, you should establish a reasonable case for linearity (eyeball the scatterplot) before
+calculating the correlation r. Linearity is a prerequisite, not a conclusion.
+As important as correlation is, we always need to keep in mind that significant correlation
+does not necessarily indicate causation. For example, there is a very strong correlation between
+ice cream sales and frequency of forest fires! (As ice cream sales rise, in general so does
+temperature, and with higher temperatures, there are more forest fires.) Furthermore,
+correlation measures the strength only of a linear relationship.
+Remember these important points about correlation:
+■The value of r always falls between −1 and +1.
+■r < 0 indicates a negative association, and r > 0 indicates a positive association.
+■A value of r = 0 indicates that there is no linear association, while a value of r = 1 or r =
+-1 indicates that there is a perfect linear association.
+■A correlation at or near 0 does not mean there is not a relationship between the
+variables; there may still be a strong nonlinear relationship.
+■A correlation close to −1 or +1 does not necessarily mean that a linear model is the most
+appropriate model.
+■The correlation r itself is unit-free.
+■Changing the units in either the x- or y-variable will not change r.
+■Correlation does not distinguish between which variable is called x and which is called y,
+so interchanging the variables (on the scatterplot) will not change the value of r.
+■Correlation does not imply causation!
+
+[[PAGE 459]]
+The coefficient of determination, r2, is the proportion of variation in the response variable y that
+is explained by the linear relationship with the explanatory variable x. That is,
+. Important points are as follows:
+■The coefficient of determination takes on values between 0.0 and 1.0, or equivalently
+between 0% and 100%.
+■If r2 = 100%, then all the data points fall on a straight line, and thus all the variation in
+the response variable y is explained by the linear relationship with the explanatory
+variable x. In other words, all the variation in the response variable y is predictable by
+variation in the explanatory variable x.
+■As a formula,
+, but you will not have to use this formula as r2
+will almost always be given in generic computer output, usually as “R-Sq =.”
+■When asked to interpret r2, fill in “___% of the variation in (the y-variable in context) is
+explained by the linear relationship with (the x-variable in context).”
+■When calculating r from r2, the square root function on your calculator always gives the
+positive root; however, r may be positive or negative. To decide whether r is positive or
+negative, remember that r will always take the same sign as the slope.
+■In generic computer output, do not confuse “R-Sq =,” which gives our desired r2, with “R-
+Sq(adj) =,” which refers to a multiple regression topic that is not covered in this course.
+You will be marked wrong if you use the value of “R-Sq(adj).”
+■Note that although a correlation, r, of 0.6 is twice a correlation, r, of 0.3, the
+corresponding r2 of 36% is four times the corresponding r2 of 9%.
+■Note that a high value for r2 does NOT indicate causation between variables.
+
+[[PAGE 460]]
+Example 5.4
+The correlation between Total Points Scored and Total Yards Gained for the 2025 season among
+a set of college football teams is r = 0.84. What information is given by the coefficient of
+determination?
+Solution
+r2 = (0.84)2 = 0.7056. Thus, 70.56% of the variation in Total Points Scored is explained by the
+linear relationship with Total Yards Gained.
+
+########## SECTION statistics-barrons-2027-u5-s03 | Least Squares Regression | PDF pages 460-467 ##########
+
+[[PAGE 460]]
+Least Squares Regression
+What is the best-fitting straight line that can be drawn through a set of points?
+TIP
+If a scatterplot indicates a nonlinear relationship, don’t try to force a straight-line fit.
+On the basis of our experience with measuring variances, by best-fitting straight line we mean
+the straight line that minimizes the sum of the squares of the vertical differences between the
+observed values and the values predicted by the line.
+
+[[PAGE 461]]
+IMPORTANT
+A variable with a hat (ŷ) is a predicted value of the variable.
+That is, in this figure, we wish to minimize
+It is reasonable, intuitive, and correct that the best-fitting line will pass through
+, where
+and are the means of the variables X and Y. The expression for a line with a given slope
+through a given point is as follows:
+The slope is the amount that the predicted y-value changes for every unit increase in x.
+Similarly, the y-intercept is the predicted y-value for x = 0.
+The slope b can be determined from the formula
+where r is the correlation and sx and sy are the standard deviations of the two sets. That is,
+each standard deviation change in x results in a change of r standard deviations in ŷ . If you
+graph z-scores for the y-variable against z-scores for the x-variable, the slope of the regression
+line is precisely r, and in fact, the linear equation becomes zy = rzx.
+
+[[PAGE 462]]
+This best-fitting straight line—that is, the line that minimizes the sum of the squares of the
+differences between the observed values and the values predicted by the line—is called the
+least squares regression line, or simply the regression line. It can be calculated directly by
+entering the two data sets and using the statistics package on your calculator. However, on the
+exam you will almost always be provided generic computer output giving the intercept and
+slope.
+Example 5.5
+Consider the three points (2, 11), (3, 17), and (4, 29). Given any straight line, we can calculate
+the sum of the squares of the three vertical distances from these points to the line. What is the
+smallest possible value this sum can be?
+Solution
+Calculator software gives the regression line to be ŷ = −8 + 9x. This regression line minimizes
+the sum of the squares of the vertical distances between the points and the line. In this case
+(2, 10), (3, 19), and (4, 28) are on the line, so the minimum sum is (10 − 11)2 + (19 − 17)2 +
+(28 − 29)2 = 6.
+It is very important to be able to interpret generic computer output as this is the format in
+which most linear regression problems will appear.
+Example 5.6
+An epidemiologist studied a random sample of participants, ages 35 to 70, as to the number of
+hours they sat per day versus whether or not they suffered from depression. The following is
+the resulting computer output.
+
+[[PAGE 463]]
+Term
+Coef
+SE Coef
+T-Value
+P-Value
+Constant
+0.04174
+0.00935
+4.47
+0.000
+Sitting hours
+0.01293
+0.00163
+7.95
+0.000
+S
+R-sq
+R-sq(adj)
+0.0248623
+70.09%
+68.98%
+(a) Identify the explanatory and response variables.
+(b) Describe the scatterplot.
+(c)
+What is the equation of the regression line?
+(d) Interpret the slope in context.
+(e)
+Interpret the y-intercept in context.
+(f) Interpret the coefficient of determination in context.
+(g) Predict the depression rate for someone who sits 4.6 hours per day.
+Solutions
+(a) The explanatory variable, X, is the number of hours someone sits per day. The response
+variable, Y, is the depression rate.
+(b) The relationship between the number of hours someone sits per day and depression rate
+appears to be linear, positive, and moderate to strong.
+(c)
+ŷ = 0.04174 + 0.01293x where y = depression rate and x = sitting hours
+Or: Predicted depression rate = 0.04174 + 0.01293 (Sitting hours)
+(d) Each additional sitting hour leads to a predicted rise of 0.01293 in the depression rate.
+(e)
+For a person who sits 0 hours per day, the predicted depression rate is 0.04174.
+(f) 70.09% of the variation in depression rate is explained by the linear relationship with the
+numbers of sitting hours per day.
+(g) 0.04174 + 0.01293(4.6) = 0.101, so conclude that people who sit for 4.6 hours per day
+are predicted to have a depression rate of 0.101.
+Example 5.7
+A sociologist conducts a survey of 15 teens. The number of “close friends” and the number of
+times Facebook is checked every evening are noted for each student. Letting X and Y represent
+the number of close friends and the number of Facebook checks, respectively, gives:
+Close
+friends:
+X
+Facebook
+checks:
+Y
+TIP
+Be sure to label axes and show number scales whenever possible.
+
+[[PAGE 464]]
+(a) Identify the explanatory and response variables.
+(b) Draw a scatterplot.
+(c)
+Describe the scatterplot.
+(D)
+What is the equation of the regression line?
+(e)
+Interpret the slope in context.
+(f) Interpret the coefficient of determination in context.
+(g) Predict the number of evening Facebook checks for a student with 24 close friends.
+NOTE
+Although the overall pattern is positive, given any two points, it is still possible for the first point to have a
+larger x-value and a smaller y-value than the second point.
+Solutions
+(a) The explanatory variable, X, is the number of close friends, and the response variable, Y, is
+the number of evening Facebook checks.
+(b) Plotting the 15 points (25, 10), (23, 11), . . . , (20, 11) gives an intuitive visual impression
+of the relationship:
+(c)
+The relationship between the number of close friends and the number of evening Facebook
+checks appears to be linear, positive, and strong.
+NOTE
+The “hat” above a variable refers to the predicted value of that variable.
+(d) Calculator software gives ŷ = −1.73 + 0.5492x, where x is the number of close friends and
+y is the number of evening Facebook checks. We can instead write the following:
+
+[[PAGE 465]]
+(e)
+The slope is 0.5492. Each additional close friend leads to a predicted increase of 0.5492
+more evening Facebook checks.
+(f) Calculator software gives r = 0.8836, so r2 = 0.78. Thus, 78% of the variation in the
+number of evening Facebook checks is explained by the linear relationship with the number
+of close friends.
+(g) −1.73 + 0.5492(24) = 11.45 evening Facebook checks. Students with 24 close friends are
+predicted to have 11.45 evening Facebook checks.
+NOTE
+We can also say that 22% of the variation in number of evening Facebook checks is not accounted for by the
+linear regression model.
+Example 5.8
+By using a respirometer while subjects exercise, scientists can calculate calories burned. The
+following are walking times (at 4 mph on a treadmill) and calories burned for a sample of six
+people weighing between 120 and 140 pounds.
+Time (minutes): x
+Calories burned: y
+The following are the resulting computer outputs first using walking time as the independent
+variable and then using calories burned as the independent variable.
+Term
+Coef
+SE
+Coef
+T-
+Value
+P-
+Value
+Constant
+23.8
+46.6
+0.51
+0.636
+Walking
+time
+6.549
+0.672
+9.74
+0.001
+S
+R-sq
+R-
+sq(adj)
+35.7012
+95.96%
+94.95%
+Term
+Coef
+SE
+Coef
+T-
+Value
+P-
+Value
+Constant
+−0.83
+7.18
+−0.12
+0.914
+Calories
+burned
+0.1465
+0.0150
+9.74
+0.001
+S
+R-sq
+R-
+sq(adj)
+5.33966
+95.96%
+94.95%
+(a) Predict how many calories are burned by a 130-pound person walking at 4 mph for 44
+minutes.
+(b) Predict how long a 130-pound person has to walk to burn off the calories in a 449-calorie
+slice of pizza (one-quarter of a large pizza)?
+(c)
+What do you note about the correlations in the two outputs?
+
+[[PAGE 466]]
+NOTE
+The numbers 23.8 and 6.55 are statistics, which estimate the true y-intercept and true slope, respectively.
+We do not know the values of the parameters that these statistics estimate.
+Solutions
+(a)
+and 23.8 + 6.549(44) = 312. We say that the mean (or predicted) number of calories
+burned by a 130-pound person walking at 4 mph for 44 minutes is 312.
+(b) Note that the roles of x and y are reversed here, but we cannot algebraically solve from
+the above equation because x and ŷ are not the same as y and . The equation of this
+regression line is:
+and −0.83 + 0.1465(449) = 64.9 minutes. We say that the mean (or predicted) number of
+minutes of walking at 4 mph to burn off a 449-calorie slice of pizza is 64.9 minutes.
+(c)
+Both correlations are
+. Note that we took the positive square root because
+the slopes were positive. Also note that the correlation is the same no matter which
+variable is chosen to be the independent variable.
+When we use the regression line to predict a y-value for a given x-value, we are actually
+predicting the mean y-value, out of many possible y-values, for that given x-value.
+Example 5.9
+NOTE
+While the slope of the regression line will always have some meaning in context, the y-intercept may or may
+not be meaningful.
+For those under 30, RNA viral diseases are no fun, but are not typically deadly. However, above
+age 70, RNA viral diseases are very dangerous. One study produced the following statistics:
+Ages of RNA viral disease victims:
+, sx = 29.96
+Probability of dying from the RNA viral disease:
+, sy = 0.0580
+Correlation r = 0.817
+(a) Find the slope of the least squares regression line and interpret it in context.
+(b) Find the y-intercept of the least squares regression line and interpret it in context.
+(c)
+What is the equation of the least squares regression line with age as the explanatory
+variable?
+(d) Based on this study, what is the predicted probability of dying for a 70-year-old with an
+RNA viral disease?
+Solutions
+
+[[PAGE 467]]
+(a) The slope is
+. As age increases by one year, the model
+predicts that the probability of dying from an RNA viral disease will increase by an average
+of 0.001582.
+(b) The y-intercept = y̅ − b x̅ = 0.0465 − 0.001582(52.5) = −0.03656. This refers to a
+predicted probability when x = 0 and is meaningless in this context. Probabilities cannot be
+negative, and it is unclear what an age of 0 years might refer to.
+(c)
+Predicted probability of dying = −0.03656 + 0.001582(Age)
+(d) The predicted probability of dying for a 70-year old with an RNA viral disease is −0.03656
++ 0.001582(70) = 0.074.
+
+########## SECTION statistics-barrons-2027-u5-s04 | Residuals | PDF pages 467-470 ##########
+
+[[PAGE 467]]
+Residuals
+The difference between an observed and a predicted value is called the residual. When the
+regression line is graphed on the scatterplot, the residual of a point is the vertical distance the
+point is from the regression line.
+Important points about residuals are as follows:
+■Order is important: residual = y − ŷ = observed y minus predicted y.
+■When the data point is above the regression line, the residual is positive; a data point
+below the regression line gives a negative residual.
+■A positive residual means the linear model underestimated the actual response value,
+while a negative residual means the linear model overestimated the actual response
+value.
+■The sum, and thus the mean, of the residuals is always zero.
+■The regression line is the line that minimizes the sum of the squares of the residuals.
+■The standard deviation of the residuals gives a measure of how the points are spread
+around the regression line. In computer output, the standard deviation of the residuals is
+typically given as “S =.” (The standard deviation of the residuals is helpful for your
+understanding, but you will not be tested on this topic.)
+■To obtain a residual plot, the residuals can be plotted against either the x-values or the ŷ-
+values.
+■A residual plot with a definite pattern is an indication that a nonlinear model will show a
+better fit to the data than the straight regression line.
+
+[[PAGE 468]]
+■Understand that although a linear model may be appropriate, it may be weak with a low
+r2-value. Alternatively, a linear model may not be the best model (as evidenced by the
+residual plot), but it still might be a very good model with high r2-value.
+Example 5.10
+What do each of the following residual plots indicate about the linear model?
+Solution
+In A, there is no apparent pattern in the residual plot, indicating that a linear model is
+appropriate.
+In B, the residual plot shows a strong pattern, indicating that a nonlinear model will be a
+better fit than a straight-line model.
+In C, the residual plot shows “fanning,” indicating that the linear model gives a stronger fit
+for smaller x-values than for larger x-values.
+The ability to interpret computer output is important not only to do well on the AP Statistics
+exam but also to understand statistical reports in the business and scientific worlds.
+Example 5.11
+Does strength of the sun, as indicated by latitude, have an effect on skin cancer mortality? A
+study looked at 49 randomly selected regions in North America and noted the skin cancer
+mortality rate (deaths per 100,000 population) and latitude of the region. Calculating a least
+squares regression line gives the following computer output:
+
+[[PAGE 469]]
+(a) Identify the explanatory and response variables.
+(b) Describe the relationship given by the scatterplot of Mortality rate and Latitude.
+(c)
+Does it appear that a line is an appropriate model for the data? Explain.
+(d) What is the slope of the regression line, and what does it signify?
+(e)
+Is it reasonable to conclude a cause-and-effect relationship between skin cancer mortality
+and latitude (probably due to strength of the sun at different latitudes)?
+(f) One of the regions was a location in Maryland with a latitude of 39 and a skin cancer
+mortality rate of 162 per 100,000. Calculate the residual for that point, and interpret it in
+context.
+(g) Interpret the coefficient of determination in context.
+(h) What is the correlation r?
+(i) Interpret the value “S = 19.115” in context.
+Solutions
+NOTE
+Look in the box and notice in the first column the words “Constant” and “Latitude.” In the second column, to
+the right of “Constant,” is the number 389.19, which is the y-intercept of the regression line; to the right of
+“Latitude” (the explanatory variable) is the number -5.9776, which is the slope of the regression line.
+(a) Latitude is the explanatory variable, and skin cancer mortality rate per 100,000 population
+is the response variable.
+(b) There is a moderate, negative, linear relationship between latitude and skin cancer
+mortality rate.
+(c)
+Yes, a line appears to be an appropriate model between latitude and skin cancer mortality
+rate because the scatterplot looks linear and there is no apparent pattern in the residual
+plot.
+(d) The slope of the regression line is −5.9776, signifying that each unit increase in latitude
+gives a predicted decrease of 5.9776 in the skin cancer mortality rate per 100,000
+population.
+
+[[PAGE 470]]
+(e)
+No, correlation does not imply causation.
+(f) For a latitude of 39, the predicted skin cancer mortality rate is 389.19 + (−5.9776)(39) =
+156.06. The residual is actual minus predicted = 162 − 156.06 = +5.94. The observed skin
+cancer mortality rate is 5.94 more than what is predicted by the regression model.
+(g) 68.0% of the variation in skin cancer mortality rate is explained by the linear relationship
+with the latitude.
+(h)
+where the negative square root is used because the slope is negative
+(the correlation and the slope always have the same sign).
+(i) The standard deviation of the residuals, S = 19.115, is a “typical value” of the residuals and
+gives a measure of how the data points are spread around the regression line. It is an
+estimate of the “typical” prediction error when using the least squares regression line.
+(Note: you will not be tested on this topic, the standard deviation of the residuals.)

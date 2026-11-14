@@ -1,0 +1,383 @@
+[
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Two-way table",
+  "page": 205,
+  "definition_type": "explicit",
+  "quote": "These data can be displayed in a two-way table (also called a contingency table).",
+  "plain_en": "table cross-tabulating two categorical variables",
+  "covers_concepts": "Two-way table; Contingency table"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Marginal frequencies",
+  "page": 205,
+  "definition_type": "explicit",
+  "quote": "The row sums and column sums above are called marginal frequencies.",
+  "plain_en": "row and column totals in a two-way table"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Marginal relative frequencies",
+  "page": 206,
+  "definition_type": "explicit",
+  "quote": "The row sums and column sums above are called marginal relative frequencies.",
+  "plain_en": "row and column proportions in a two-way table"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Conditional relative frequencies",
+  "page": 207,
+  "definition_type": "explicit",
+  "quote": "Conditional relative frequencies are the relative frequencies for a specific part of the table, for example, the cell frequencies in a row divided by the total for that row or the cell frequencies in a column divided by the total for that column.",
+  "plain_en": "proportions within one row or column"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Segmented bar chart",
+  "page": 208,
+  "definition_type": "explicit",
+  "quote": "Segmented bar charts are like pie charts, except that the data set is represented by a rectangular bar rather than a circle.",
+  "plain_en": "bar divided into proportional category segments"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Association",
+  "page": 209,
+  "definition_type": "explicit",
+  "quote": "Because the distributions of focus levels are different for each picture viewed, we say that the two variables, focus level and pictures viewed, are associated.",
+  "plain_en": "two variables are related"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Mosaic plot",
+  "page": 211,
+  "definition_type": "explicit",
+  "quote": "Mosaic plots are another graphical display that show the cell frequencies in a two-way table.",
+  "plain_en": "area-based display of two-way table frequencies"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s01",
+  "name": "Simpson’s paradox",
+  "page": 214,
+  "definition_type": "explicit",
+  "quote": "This problem is an example of Simpson’s paradox, where a conjecture can be reversed when several different groups of data are combined to form a single group.",
+  "plain_en": "association reverses when groups are combined"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s03",
+  "name": "Probability",
+  "page": 224,
+  "definition_type": "explicit",
+  "quote": "Even though we may not be able to foretell a specific result, we can sometimes assign what is called a probability to indicate the likelihood that a particular event will occur.",
+  "plain_en": "likelihood that an event occurs"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s03",
+  "name": "Event",
+  "page": 224,
+  "definition_type": "explicit",
+  "quote": "An event is a collection of one or more outcomes.",
+  "plain_en": "set of one or more outcomes"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s03",
+  "name": "Relative frequency (probability)",
+  "page": 224,
+  "definition_type": "explicit",
+  "quote": "The relative frequency of an event is the proportion of times the event happened—that is, the number of times the event happened divided by the total number of trials.",
+  "plain_en": "proportion of trials in which event occurs"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s03",
+  "name": "Law of large numbers",
+  "page": 225,
+  "definition_type": "explicit",
+  "quote": "The law of large numbers states that when an experiment is performed a large number of times, the relative frequency of an event tends to become closer to the true probability of the event; that is, probability is long-run relative frequency.",
+  "plain_en": "long-run relative frequency approaches true probability"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s03",
+  "name": "Gambler’s fallacy",
+  "page": 225,
+  "definition_type": "explicit",
+  "quote": "The idea that a few outcomes will immediately be balanced by other outcomes is also called the gambler’s fallacy.",
+  "plain_en": "belief that past outcomes must balance soon"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "Complement",
+  "page": 229,
+  "definition_type": "explicit",
+  "quote": "The probability that an event will not occur, that is, the probability of its complement, is equal to 1 minus the probability that the event will occur.",
+  "plain_en": "event not occurring"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "General addition rule",
+  "page": 229,
+  "definition_type": "explicit",
+  "quote": "The general addition rule: P(A or B or both) = P(A union B) = P(A ∪ B) = P(A) + P(B) – P(A ∩ B).",
+  "plain_en": "probability of either event minus overlap"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "Mutually exclusive",
+  "page": 229,
+  "definition_type": "explicit",
+  "quote": "A and B are mutually exclusive if A ∩ B = ∅ or, equivalently, P(A ∩ B) = 0.",
+  "plain_en": "events that cannot occur together"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "General multiplication rule",
+  "page": 229,
+  "definition_type": "explicit",
+  "quote": "The general multiplication rule: P(A and B) = P(A intersect B) = P(A ∩ B) = P(A)P(B|A).",
+  "plain_en": "probability of both events using conditional probability"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "Independent events",
+  "page": 230,
+  "definition_type": "explicit",
+  "quote": "A and B are independent if P(A|B) = P(A) or, equivalently, P(B|A) = P(B).",
+  "plain_en": "one event does not change the other's probability"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s04",
+  "name": "Conditional probability",
+  "page": 228,
+  "definition_type": "implicit",
+  "quote": "Conditional probabilities shrink the population of interest.",
+  "plain_en": "probability given that another event occurred"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s06",
+  "name": "Random variable",
+  "page": 241,
+  "definition_type": "explicit",
+  "quote": "If X represents the different numbers associated with the potential outcomes of some chance situation, we call X a random variable.",
+  "plain_en": "numerical outcome of a chance process"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s06",
+  "name": "Expected value",
+  "page": 241,
+  "definition_type": "explicit",
+  "quote": "The expected value or mean of a discrete random variable X is given by μ X = E(X) = ∑ xP(x), where P(x) is the probability of outcome x.",
+  "plain_en": "probability-weighted average outcome",
+  "covers_concepts": "Expected value; Mean of a random variable"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s06",
+  "name": "Weighted average",
+  "page": 241,
+  "definition_type": "explicit",
+  "quote": "The expected value is sometimes referred to as a weighted average.",
+  "plain_en": "average weighted by probabilities"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s06",
+  "name": "Variance of a discrete random variable",
+  "page": 243,
+  "definition_type": "explicit",
+  "quote": "If we regard the (x − μ)2 terms as the values of some discrete random variable (whose probability is the same as the probability of x), the mean of this new discrete random variable is ∑(xi − μx)2pi, which is precisely how we define the variance, σ2, of a discrete random variable:",
+  "plain_en": "probability-weighted average squared deviation"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s06",
+  "name": "Adding variances of independent random variables",
+  "page": 246,
+  "definition_type": "explicit",
+  "quote": "Variances of independent random variables can be added together, but standard deviations cannot!",
+  "plain_en": "independent variances add but standard deviations do not"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Probability distribution",
+  "page": 250,
+  "definition_type": "explicit",
+  "quote": "A probability distribution is a list or formula that gives the probability of each outcome.",
+  "plain_en": "list or formula of outcome probabilities"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Binomial setting",
+  "page": 250,
+  "definition_type": "explicit",
+  "quote": "We have a binomial setting when the following conditions are met: ■There are two possible outcomes, often referred to as success and failure. ■There are a fixed number of trials, n. ■The trials are independent; that is, the outcome of one trial does not affect the outcome of any other trial.",
+  "plain_en": "fixed independent trials with two outcomes"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Binomial random variable",
+  "page": 251,
+  "definition_type": "explicit",
+  "quote": "The binomial probability function refers to a binomial random variable X with n independent trials and probability of success p.",
+  "plain_en": "count of successes in binomial trials"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "binompdf",
+  "page": 251,
+  "definition_type": "explicit",
+  "quote": "binompdf (n, p, x) gives the probability of exactly x successes in n trials, where p is the probability of success on a single trial.",
+  "plain_en": "calculator probability of exactly x successes"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "binomcdf",
+  "page": 251,
+  "definition_type": "explicit",
+  "quote": "binomcdf (n, p, x) gives the cumulative probability of x or fewer successes in n trials, where p is the probability of success on a single trial.",
+  "plain_en": "calculator probability of at most x successes"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Mean of a binomial distribution",
+  "page": 255,
+  "definition_type": "explicit",
+  "quote": "The expected value or mean number of successes is np.",
+  "plain_en": "expected successes equals n times p"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Shape of a binomial distribution",
+  "page": 256,
+  "definition_type": "explicit",
+  "quote": "The shape of a binomial distribution is skewed right when p < 0.5, symmetric when p = 0.5, and skewed left when p > 0.5.",
+  "plain_en": "binomial shape depends on success probability"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s10",
+  "name": "Probability distribution (function)",
+  "page": 263,
+  "definition_type": "explicit",
+  "quote": "A probability distribution is a function, table, or graph that links outcomes of a statistical experiment with its probability of occurrence.",
+  "plain_en": "function linking outcomes to probabilities"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s10",
+  "name": "Cumulative probability distribution",
+  "page": 263,
+  "definition_type": "explicit",
+  "quote": "A cumulative probability distribution is a function, table, or graph that links outcomes with the probability of less than or equal to that outcome occurring.",
+  "plain_en": "probability of at most a given outcome"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s11",
+  "name": "Normal distribution",
+  "page": 264,
+  "definition_type": "explicit",
+  "quote": "One bell-shaped distribution, called the normal distribution, is valuable for providing a useful model in describing various natural phenomena.",
+  "plain_en": "bell-shaped symmetric probability model"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s11",
+  "name": "Points of inflection",
+  "page": 265,
+  "definition_type": "explicit",
+  "quote": "There is a point on each side where the slope is steepest. These two points are called points of inflection, and the distance from the mean to either point is precisely equal to one standard deviation.",
+  "plain_en": "curve points one standard deviation from mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s11",
+  "name": "Normal parameters",
+  "page": 265,
+  "definition_type": "explicit",
+  "quote": "Every normal distribution is completely determined by two parameters: its mean μ and its standard deviation s.",
+  "plain_en": "mean and standard deviation define a normal curve"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s11",
+  "name": "Empirical rule",
+  "page": 266,
+  "definition_type": "explicit",
+  "quote": "The empirical rule (also called the 68-95-99.7 rule) applies specifically to normal distributions. About 68% of the values lie within 1 standard deviation of the mean, about 95% of the values lie within 2 standard deviations of the mean, and about 99.7% of the values lie within 3 standard deviations of the mean.",
+  "plain_en": "68, 95, and 99.7 percent within 1, 2, 3 SDs",
+  "covers_concepts": "Empirical rule; 68-95-99.7 rule"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s13",
+  "name": "Standard normal distribution",
+  "page": 270,
+  "definition_type": "explicit",
+  "quote": "normalcdf(lowerbd, upperbd) = probability between two z-scores for the standard normal distribution (mean = 0 and SD = 1)",
+  "plain_en": "normal distribution with mean zero and SD one"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s13",
+  "name": "normalcdf",
+  "page": 270,
+  "definition_type": "explicit",
+  "quote": "normalcdf(lowerbd, upperbd, mean, SD) = probability between two raw scores for a normal distribution with the given mean and SD",
+  "plain_en": "calculator normal probability between two values"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s13",
+  "name": "invNorm",
+  "page": 270,
+  "definition_type": "explicit",
+  "quote": "invNorm(probability) = z-score with the given probability to the left for the standard normal distribution (mean = 0 and SD = 1)",
+  "plain_en": "calculator value with given left probability"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s13",
+  "name": "Normal approximation to the binomial",
+  "page": 281,
+  "definition_type": "explicit",
+  "quote": "A general rule of thumb is that the normal is a good approximation to the binomial whenever both np and n(1 − p) are at least 10.",
+  "plain_en": "use normal when np and n(1-p) are large"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s15",
+  "name": "Sampling distribution",
+  "page": 287,
+  "definition_type": "explicit",
+  "quote": "The probability distribution showing how a statistic varies is called a sampling distribution.",
+  "plain_en": "distribution of a statistic over samples"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s15",
+  "name": "Central limit theorem",
+  "page": 287,
+  "definition_type": "explicit",
+  "quote": "The following principle, called the central limit theorem of statistics (abbreviated CLT), forms the basis of much of what we discuss in this and the following units. Start with a population with any shape distribution whatsoever. Pick n sufficiently large (at least 30), and take all samples of size n. Compute the mean of each of these samples. Then the set of all sample means is approximately normally distributed.",
+  "plain_en": "sample means become normal for large samples",
+  "covers_concepts": "Central limit theorem; CLT"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s15",
+  "name": "Mean of the sampling distribution of x̅",
+  "page": 288,
+  "definition_type": "explicit",
+  "quote": "the mean μ x̅ of the sampling distribution of x̅ equals the population mean μ.",
+  "plain_en": "sample mean averages to population mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s15",
+  "name": "Standard deviation of the sampling distribution of x̅",
+  "page": 288,
+  "definition_type": "explicit",
+  "quote": "the standard deviation σ x̅ of the sampling distribution of x̅ equals the population standard deviation σ divided by the square root of the sample size.",
+  "plain_en": "population SD divided by square root n"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s15",
+  "name": "Randomization distribution",
+  "page": 289,
+  "definition_type": "explicit",
+  "quote": "One example of a sampling distribution is a randomization distribution, a collection of statistics generated by simulation.",
+  "plain_en": "simulated distribution created by random reassignment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u2-s08",
+  "name": "Binomial distribution",
+  "page": 251,
+  "definition_type": "explicit",
+  "quote": "The binomial probability function refers to a binomial random variable X with n independent trials and probability of success p.",
+  "plain_en": "distribution of successes in fixed independent trials",
+  "covers_concepts": "Binomial distribution; Binomial probability function"
+ }
+]

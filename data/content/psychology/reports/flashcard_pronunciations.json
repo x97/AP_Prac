@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-11-02T14:39:03+00:00",
+  "engine": "kokoro-onnx",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "bitrate_kbps": 64,
+  "terms": 1105,
+  "audio_files": 1105,
+  "generated": 0,
+  "reused": 1105,
+  "audio_dir": "assets/psychology/audio/terms",
+  "ipa_library": "CMUdict (eng-to-ipa) with phonemizer + espeak-ng fallback"
+}

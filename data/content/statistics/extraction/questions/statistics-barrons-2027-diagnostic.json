@@ -1,0 +1,3484 @@
+{
+ "paper_id": "statistics-barrons-2027-diagnostic",
+ "kind": "diagnostic",
+ "number": 0,
+ "unit_no": null,
+ "title": "Barron's AP Statistics 2027 Diagnostic Test",
+ "chinese_title": "巴朗 AP 统计 2027 诊断测试",
+ "pdf_page_start": 26,
+ "pdf_page_end": 46,
+ "answer_page_start": 47,
+ "answer_page_end": 57,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "More pet owners in the South than in the North answered “Other.”",
+    "B": "Twice as many pet owners in the North answered “Dogs” than answered “Other.”",
+    "C": "The same number of pet owners in the South answered “Cats” as answered “Other.”",
+    "D": "A greater proportion of pet owners in the North than in the South answered “Cats.”"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 27,
+      "bbox": [
+       109.0,
+       599.7,
+       531.4,
+       616.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 27,
+      "bbox": [
+       109.0,
+       618.6,
+       507.3,
+       635.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 27,
+      "bbox": [
+       109.0,
+       653.8,
+       527.9,
+       670.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       72.0,
+       528.9,
+       88.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 27,
+     "bbox": [
+      168.2,
+      355.8,
+      443.9,
+      544.1
+     ]
+    }
+   ],
+   "page_start": 27,
+   "page_end": 28,
+   "stem": "It is estimated that 70 percent of Americans have pets. However, favorite pet of choice differs by geographic location. A random sample of pet owners is cross-classified by geographic location and pet of choice. The results are summarized in the following segmented bar chart. Which of the following is an incorrect conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Without knowing the actual number of the sample pet owners from each location, only proportions, not numbers of pet owners, can be compared between locations.",
+   "question_id": "statistics-barrons-2027-diagnostic-001",
+   "source_pages": [
+    27,
+    28
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "There is a predicted increase of 4.0133 calories for every 1 mg increase in sodium.",
+    "B": "There is a predicted increase of 4.0133 mg in sodium for every 1 unit increase in calories.",
+    "C": "Approximately 4.0133% of the variability in sodium is explained by the linear model with calories.",
+    "D": "The predicted sodium is 4.0133 mg if a hot dog has 0 calories."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       419.5,
+       510.4,
+       435.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       454.7,
+       523.1,
+       471.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       489.9,
+       534.1,
+       506.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       525.1,
+       510.9,
+       541.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 28,
+     "bbox": [
+      145.2,
+      210.2,
+      466.9,
+      311.1
+     ]
+    }
+   ],
+   "page_start": 28,
+   "page_end": 28,
+   "stem": "Which of the following statements is a correct interpretation of the value 4.0133 in the output?",
+   "context": "Questions 2-4 refer to the following: A nutritionist is researching a possible linear relationship between calories and sodium content (mg) in beef hot dogs. A random sample of 20 beef hot dogs gives the following regression output:",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The slope gives the predicted or average increase or decrease in the dependent variable, sodium, for each 1 unit increase in the independent variable, calories.",
+   "question_id": "statistics-barrons-2027-diagnostic-002",
+   "source_pages": [
+    28,
+    28
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The predicted sodium content for a beef hot dog with over 228.33 calories",
+    "B": "The true sodium content for a beef hot dog with over 228.33 calories",
+    "C": "A beef hot dog with a predicted sodium content of 228.33 mg",
+    "D": "The y-intercept of the regression line"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       594.2,
+       531.7,
+       610.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       629.5,
+       500.2,
+       645.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       664.7,
+       505.5,
+       681.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 28,
+      "bbox": [
+       109.0,
+       683.6,
+       357.9,
+       700.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 28,
+     "bbox": [
+      145.2,
+      210.2,
+      466.9,
+      311.1
+     ]
+    }
+   ],
+   "page_start": 28,
+   "page_end": 28,
+   "stem": "Which of the following has no logical interpretation in context?",
+   "context": "Questions 2-4 refer to the following: A nutritionist is researching a possible linear relationship between calories and sodium content (mg) in beef hot dogs. A random sample of 20 beef hot dogs gives the following regression output:",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The y-intercept is –228.33, and a negative sodium content does not have a logical interpretation.",
+   "question_id": "statistics-barrons-2027-diagnostic-003",
+   "source_pages": [
+    28,
+    28
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "Approximately 78.7% of the variability in predicted sodium is explained by the linear model with calories.",
+    "B": "Approximately 78.7% of the variability in sodium is explained by the linear model with calories.",
+    "C": "Approximately 78.7% of the sodium is explained by the calories.",
+    "D": "Approximately 78.7% of the sodium is explained by the variability in calories."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       120.8,
+       499.4,
+       137.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       156.0,
+       519.0,
+       172.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       191.2,
+       520.1,
+       207.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       210.2,
+       528.8,
+       226.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 28,
+     "bbox": [
+      145.2,
+      210.2,
+      466.9,
+      311.1
+     ]
+    }
+   ],
+   "page_start": 29,
+   "page_end": 29,
+   "stem": "Which of the following statements is a correct interpretation of the value 78.7% in the output?",
+   "context": "Questions 2-4 refer to the following: A nutritionist is researching a possible linear relationship between calories and sodium content (mg) in beef hot dogs. A random sample of 20 beef hot dogs gives the following regression output:",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The coefficient of determination, 78.7%, gives the percent of the variability in the dependent variable, sodium (not the predicted sodium), that is explained by the linear model with the independent variable, calories.",
+   "question_id": "statistics-barrons-2027-diagnostic-004",
+   "source_pages": [
+    29,
+    29
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "HHHHH",
+    "B": "HTHTHT",
+    "C": "HTHHTTH",
+    "D": "All are equally likely."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       332.8,
+       181.4,
+       349.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       351.7,
+       186.7,
+       368.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       370.7,
+       195.3,
+       387.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       389.7,
+       257.8,
+       406.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 29,
+   "page_end": 29,
+   "stem": "In tossing a fair coin, which of the following sequences is most likely to appear?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The shortest sequence has a greater probability than any longer sequence.",
+   "question_id": "statistics-barrons-2027-diagnostic-005",
+   "source_pages": [
+    29,
+    29
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "1.5",
+    "B": "1.85",
+    "C": "2.0",
+    "D": "2.4"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       572.6,
+       154.5,
+       588.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       591.5,
+       161.8,
+       607.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       610.5,
+       154.6,
+       626.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       629.5,
+       155.6,
+       645.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 29,
+   "page_end": 29,
+   "stem": "There have been growing numbers of news stories about White Americans calling the police on people of color whose behavior is completely normal. A criminologist hypothesizes that the mean number of such incidents across the country is 2 per day. A sociologist believes the true mean is greater than 2 per day and plans a hypothesis test at the 5% significance level on a random sample of 50 days. For which of the following possible true values of μ will the power of the test be greatest?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Power, the probability of rejecting a false null hypothesis, will be the greatest for true values furthest from the hypothesized value in the direction of the alternative hypothesis. Here, Ha: μ > 2.0, and 2.4 is furthest from 2.0 among the value choices that are greater than 2.0.",
+   "question_id": "statistics-barrons-2027-diagnostic-006",
+   "source_pages": [
+    29,
+    29
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "the method of selection.",
+    "B": "how representative the sample is of the population.",
+    "C": "whether or not a random number generator is used.",
+    "D": "examination of the outcome."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 29,
+      "bbox": [
+       109.0,
+       698.5,
+       281.0,
+       714.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       72.0,
+       443.5,
+       88.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       91.0,
+       448.0,
+       107.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       109.9,
+       308.6,
+       126.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 29,
+   "page_end": 30,
+   "stem": "A simple random sample is defined by",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "A simple random sample may or may not be representative of the population. It is a method of selection in which every possible sample of the desired size has an equal chance of being selected.",
+   "question_id": "statistics-barrons-2027-diagnostic-007",
+   "source_pages": [
+    29,
+    30
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "Both are discrete.",
+    "B": "Both are continuous.",
+    "C": "Number of parcels is discrete, and weight is continuous.",
+    "D": "Number of parcels is continuous, and weight is discrete."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       211.5,
+       241.2,
+       227.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       230.5,
+       259.5,
+       246.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       249.5,
+       470.5,
+       265.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       268.4,
+       471.5,
+       284.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 30,
+   "page_end": 30,
+   "stem": "A delivery company keeps track of truckloads with two variables: number of parcels and total weight. Are these variables discrete or continuous?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The number of parcels is an integer, a countable variable, thus this is discrete. Weight can take on an infinite number of values between any two values, thus it is continuous.",
+   "question_id": "statistics-barrons-2027-diagnostic-008",
+   "source_pages": [
+    30,
+    30
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "The researcher concludes she has sufficient evidence that her new medication helps more than insulin injection, and her medication really is better than insulin injection.",
+    "B": "The researcher concludes she has sufficient evidence that her new medication helps more than insulin injection when in reality her medication is not better than insulin injection.",
+    "C": "The researcher concludes she does not have sufficient evidence that her new medication helps more than insulin injection, and her medication really is not better than insulin injection.",
+    "D": "The researcher concludes she does not have sufficient evidence that her new medication helps more than insulin injection when in reality her medication is better than insulin injection."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       429.6,
+       533.7,
+       446.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       481.1,
+       533.6,
+       497.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       532.6,
+       516.6,
+       548.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       584.1,
+       517.6,
+       600.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 30,
+   "page_end": 30,
+   "stem": "What would be a Type I error?",
+   "context": "Questions 9–10 refer to the following: A researcher would like to show that a new oral diabetes medication she developed helps control blood sugar level better than insulin injection. She plans to run a hypothesis test at the 5% significance level.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The null hypothesis is that the new medication is no better than insulin injection, while the alternative hypothesis is that the new medication is better. A Type I error means a mistaken rejection of a true null hypothesis.",
+   "question_id": "statistics-barrons-2027-diagnostic-009",
+   "source_pages": [
+    30,
+    30
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "The researcher concludes she has sufficient evidence that her new medication helps more than insulin injection, and her medication really is better than insulin injection.",
+    "B": "The researcher concludes she has sufficient evidence that her new medication helps more than insulin injection when in reality her medication is not better than insulin injection.",
+    "C": "The researcher concludes she does not have sufficient evidence that her new medication helps more than insulin injection, and her medication really is not better than insulin injection.",
+    "D": "The researcher concludes she does not have sufficient evidence that her new medication helps more than insulin injection when in reality her medication is better than insulin injection."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 30,
+      "bbox": [
+       109.0,
+       678.9,
+       533.7,
+       695.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       91.0,
+       533.6,
+       107.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       142.4,
+       516.6,
+       158.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       193.9,
+       517.6,
+       210.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 30,
+   "page_end": 31,
+   "stem": "What would be a Type II error?",
+   "context": "Questions 9–10 refer to the following: A researcher would like to show that a new oral diabetes medication she developed helps control blood sugar level better than insulin injection. She plans to run a hypothesis test at the 5% significance level.",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "A Type II error means a mistaken failure to reject a false null hypothesis. A false null hypothesis here means that her medication really is better than insulin injection, and failure to realize this means she does not have sufficient evidence that it is better.",
+   "question_id": "statistics-barrons-2027-diagnostic-010",
+   "source_pages": [
+    30,
+    31
+   ]
+  },
+  {
+   "number": 11,
+   "section": "MCQ",
+   "options": {
+    "A": "It is less than the standard deviation of the raw scores.",
+    "B": "It is greater than the standard deviation of the raw scores.",
+    "C": "It equals where s is the population standard deviation of the raw scores.",
+    "D": "It equals 1."
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 31,
+      "bbox": [
+       191.9,
+       412.7,
+       209.5,
+       432.4
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       374.8,
+       465.6,
+       391.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       393.7,
+       486.3,
+       410.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       412.7,
+       192.2,
+       429.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       451.3,
+       204.7,
+       467.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 31,
+   "page_end": 31,
+   "stem": "A financial analyst determines the yearly research and development investments for 50 blue chip companies. She notes that the distribution is distinctly not bell-shaped. If the 50 dollar amounts are converted to z-scores, what can be said about the standard deviation of the 50 z- scores?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "No matter what the distribution of raw scores, the set of z-scores always has mean 0 and standard deviation 1.",
+   "question_id": "statistics-barrons-2027-diagnostic-011",
+   "source_pages": [
+    31,
+    31
+   ]
+  },
+  {
+   "number": 12,
+   "section": "MCQ",
+   "options": {
+    "A": "The sampling distribution of the sample proportion with n = 20 and p = 0.6",
+    "B": "The sampling distribution of the sample proportion with n = 200 and p = 0.6",
+    "C": "The binomial distribution with n = 20 and p = 0.6",
+    "D": "The binomial distribution with n = 200 and p = 0.6"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       562.4,
+       513.1,
+       578.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       597.6,
+       520.4,
+       614.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       632.8,
+       433.4,
+       649.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 31,
+      "bbox": [
+       109.0,
+       651.8,
+       441.8,
+       668.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 31,
+   "page_end": 31,
+   "stem": "A coin is weighted so that the probability of heads is 0.6. The coin is tossed 20 times, and the number of heads is noted. This procedure is repeated a total of 200 times, and the number of heads is recorded each time. What kind of distribution has been simulated?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "There are two possible outcomes (heads and tails), with the probability of heads always 0.6 (independent of what happened on the previous toss), and we are interested in the number of heads in 20 tosses. Thus, this is a binomial model with n = 20 and p = 0.6. Repeating this over and over (in this case 200 times) simulates the resulting binomial distribution.",
+   "question_id": "statistics-barrons-2027-diagnostic-012",
+   "source_pages": [
+    31,
+    31
+   ]
+  },
+  {
+   "number": 13,
+   "section": "MCQ",
+   "options": {
+    "A": "To reduce response bias",
+    "B": "To reduce nonresponse bias",
+    "C": "To more likely obtain an estimate that is closer to the population proportion",
+    "D": "All of the above are valid reasons to increase the sample size."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       120.8,
+       279.9,
+       137.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       139.7,
+       302.2,
+       156.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       158.7,
+       520.8,
+       175.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       193.9,
+       505.4,
+       210.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 31,
+   "page_end": 32,
+   "stem": "A random sample of 120 students at a high school are to be selected, and each will be asked if their parents have ever given them an alcoholic drink. Which of the following is a reason for increasing the size of this study from 120 to 220 students?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Increasing sample size increases accuracy but has no effect on any bias that is present.",
+   "question_id": "statistics-barrons-2027-diagnostic-013",
+   "source_pages": [
+    31,
+    32
+   ]
+  },
+  {
+   "number": 14,
+   "section": "MCQ",
+   "options": {
+    "A": "The independence assumption may have been violated (students tend to do what their friends do).",
+    "B": "There is no evidence that the data come from a normal or nearly normal population (GPAs help determine college admission and may be skewed).",
+    "C": "Randomization was not used.",
+    "D": "The population proportion is known, so a confidence interval has no meaning."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       321.3,
+       524.5,
+       337.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       356.5,
+       523.8,
+       372.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       408.0,
+       311.2,
+       424.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       426.9,
+       523.7,
+       443.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 32,
+   "page_end": 32,
+   "stem": "Of the 423 seniors graduating this year from a city high school, 322 plan to go on to college. When the principal asks an AP student to calculate a 95% confidence interval for the proportion of this year’s graduates who plan to go to college, the student says that this would be inappropriate. Why?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "When a complete census is taken (all 423 seniors were in the study), the population proportion is known and a confidence interval has no meaning.",
+   "question_id": "statistics-barrons-2027-diagnostic-014",
+   "source_pages": [
+    32,
+    32
+   ]
+  },
+  {
+   "number": 15,
+   "section": "MCQ",
+   "options": {
+    "A": "None of the below sampling methods are unbiased.",
+    "B": "The student passes a survey card to every student with instructions to fill it out at home and drop the filled-out card in a box by the school entrance the next day.",
+    "C": "The student creates an online survey and asks everyone to respond.",
+    "D": "The student goes to all of the high school sports events for a week, hands out the survey, and waits for each student to fill it out and hand it back."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       538.0,
+       443.8,
+       554.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       557.0,
+       467.2,
+       573.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       608.5,
+       488.1,
+       624.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 32,
+      "bbox": [
+       109.0,
+       643.7,
+       501.4,
+       660.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 32,
+   "page_end": 32,
+   "stem": "An AP Statistics student in a large high school plans to survey his fellow students with regard to their preferences between using a laptop or using a tablet. Which of the following survey methods is unbiased?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "and (C) are voluntary response surveys, and (D) suffers from undercoverage bias.",
+   "question_id": "statistics-barrons-2027-diagnostic-015",
+   "source_pages": [
+    32,
+    32
+   ]
+  },
+  {
+   "number": 16,
+   "section": "MCQ",
+   "options": {
+    "A": "P(–0.025 < z < 0.025)",
+    "B": "P(0.675 < z < 0.725)",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 33,
+      "bbox": [
+       135.7,
+       191.2,
+       342.3,
+       215.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 33,
+      "bbox": [
+       137.0,
+       218.3,
+       343.6,
+       242.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       153.3,
+       271.0,
+       169.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       172.2,
+       263.1,
+       188.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       193.5,
+       127.5,
+       209.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       220.3,
+       128.6,
+       236.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 33,
+   "page_end": 33,
+   "stem": "In a random sample of 500 students, it was reported that test grades went up an average of at least 10 points for 70 percent of the students when usage of cell phones was banned during the school day. What was the degree of confidence if the margin of error was ± 2.5 percent?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Then z gives critical z-score of The degree of confidence is the probability between these two values.",
+   "question_id": "statistics-barrons-2027-diagnostic-016",
+   "source_pages": [
+    33,
+    33
+   ]
+  },
+  {
+   "number": 17,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 33,
+      "bbox": [
+       135.7,
+       353.1,
+       214.2,
+       375.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 33,
+      "bbox": [
+       135.7,
+       378.2,
+       217.0,
+       400.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 33,
+      "bbox": [
+       135.7,
+       403.2,
+       220.3,
+       425.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 33,
+      "bbox": [
+       137.0,
+       428.3,
+       224.4,
+       450.6
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       354.4,
+       127.5,
+       370.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       379.5,
+       127.4,
+       395.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       404.5,
+       127.5,
+       420.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       429.6,
+       128.6,
+       446.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 33,
+   "page_end": 33,
+   "stem": "In a random sample of 10 insects of a newly discovered species, an entomologist measures an average life expectancy of 17.3 days with a standard deviation of 2.3 days. Assuming all conditions for inference are met, what is a 95% confidence interval for the mean life expectancy for insects of this species?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "With df = n – 1 = 10 – 1 = 9 and 95% confidence, the critical t- values are ±invT = ±2.262. Then z gives critical z- score of The confidence interval is .",
+   "question_id": "statistics-barrons-2027-diagnostic-017",
+   "source_pages": [
+    33,
+    33
+   ]
+  },
+  {
+   "number": 18,
+   "section": "MCQ",
+   "options": {
+    "A": "Both distributions are approximately normal. Both the mean and the standard deviation for the n = 10 sampling distribution are greater than for the n = 100 distribution.",
+    "B": "Both distributions are approximately normal with the same mean. The standard deviation for the n = 10 sampling distribution is greater than for the n = 100 distribution.",
+    "C": "Only the n = 100 sampling distribution is approximately normal. Both distributions have mean 44 and standard deviation 10.",
+    "D": "Only the n = 100 sampling distribution is approximately normal. Both distributions have the same mean. The standard deviation for the n = 10 sampling distribution is greater than for the n = 100 distribution."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       594.2,
+       520.3,
+       610.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 33,
+      "bbox": [
+       109.0,
+       645.7,
+       527.4,
+       662.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       72.0,
+       518.1,
+       88.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       107.2,
+       519.2,
+       123.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 33,
+   "page_end": 34,
+   "stem": "Time management and procrastination are difficult problems for college students. The distribution for the percentage of study time that occurs in the 24 hours prior to a final exam is approximately normal with mean 44 and standard deviation 21. Consider two different random samples taken from the population of college students, one of size 10 and one of size 100. Which of the following is true about the sampling distributions of the sample mean for the two sample sizes?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Because the population is approximately normal, normality can be assumed for both sampling distributions. Both will have mean 44. The standard deviation for the n = 10 sampling distribution is which is greater than the standard deviation for the n = 100 sampling distribution, which is",
+   "question_id": "statistics-barrons-2027-diagnostic-018",
+   "source_pages": [
+    33,
+    34
+   ]
+  },
+  {
+   "number": 19,
+   "section": "MCQ",
+   "options": {
+    "A": "One-sample z-test for a population proportion",
+    "B": "Two-sample z-test for a difference of two population proportions",
+    "C": "Chi-square test of independence",
+    "D": "Chi-square test of homogeneity"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       315.8,
+       409.5,
+       332.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       334.8,
+       520.6,
+       351.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       353.8,
+       329.1,
+       370.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       372.7,
+       324.4,
+       389.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 34,
+   "page_end": 34,
+   "stem": "Do male and female high school seniors choose colleges for the same reasons? A random sample of male high school seniors and a random sample of female high school seniors are given questionnaires asking which of the following is their primary reason for choosing a particular college: academics, sports teams, location, or where friends are going. Among the following, which is the best statistical test to use in analyzing these data?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "When we pick samples from each of two or more populations to compare the distribution of some variable among the different populations, the proper test is a chi-square test of homogeneity.",
+   "question_id": "statistics-barrons-2027-diagnostic-019",
+   "source_pages": [
+    34,
+    34
+   ]
+  },
+  {
+   "number": 20,
+   "section": "MCQ",
+   "options": {
+    "A": "The data could be used to estimate a population mean since the data collected are numerical.",
+    "B": "The data could be used to estimate a population proportion since the data collected are numerical.",
+    "C": "The data could be used to estimate a population mean since the data collected are categorical.",
+    "D": "The data could be used to estimate a population proportion since the data collected are categorical."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       500.1,
+       520.8,
+       516.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       535.3,
+       525.9,
+       551.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       570.5,
+       520.8,
+       586.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 34,
+      "bbox": [
+       109.0,
+       605.8,
+       527.1,
+       622.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 34,
+   "page_end": 34,
+   "stem": "Suppose that a study was carried out in which each student in a random sample of students at a particular high school was asked whether he or she thought that male and female sports teams should be equally funded. Which of the following is a correct understanding of the type of investigative question this study might address?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The data are categorical as each student responds yes or no. This leads to estimating a population proportion—that is, the proportion of students who feel that male and female sports teams should be equally funded.",
+   "question_id": "statistics-barrons-2027-diagnostic-020",
+   "source_pages": [
+    34,
+    34
+   ]
+  },
+  {
+   "number": 21,
+   "section": "MCQ",
+   "options": {
+    "A": "0.30",
+    "B": "0.55",
+    "C": "(0.55)(0.30)",
+    "D": "(0.55)(0.30) – (0.45)(0.20)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       183.1,
+       161.9,
+       199.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       202.0,
+       161.8,
+       218.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       221.0,
+       209.0,
+       237.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       240.0,
+       299.3,
+       256.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 35,
+   "page_end": 35,
+   "stem": "What is the probability that a randomly chosen student is male and picks basketball as his favorite sport?",
+   "context": "Questions 21–23 refer to the following: A campus has 55% male and 45% female students. Suppose 30% of the male students pick basketball as their favorite sport compared with 20% of the females.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "P(male ∩ basketball) = P(male)P(basketball | male) = (0.55) (0.30)",
+   "question_id": "statistics-barrons-2027-diagnostic-021",
+   "source_pages": [
+    35,
+    35
+   ]
+  },
+  {
+   "number": 22,
+   "section": "MCQ",
+   "options": {
+    "A": "0.30 + 0.20",
+    "B": "(0.55)(0.30) + (0.45)(0.20)",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 35,
+      "bbox": [
+       135.7,
+       356.5,
+       261.0,
+       381.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 35,
+      "bbox": [
+       137.0,
+       384.3,
+       262.3,
+       407.3
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       318.6,
+       206.6,
+       334.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       337.5,
+       300.5,
+       353.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       359.2,
+       127.5,
+       375.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       385.9,
+       128.6,
+       402.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 35,
+   "page_end": 35,
+   "stem": "What is the probability that a randomly chosen student picks basketball as the student’s favorite sport?",
+   "context": "Questions 21–23 refer to the following: A campus has 55% male and 45% female students. Suppose 30% of the male students pick basketball as their favorite sport compared with 20% of the females.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "P(basketball) = P(male ∩ basketball) + P(female ∩ basketball) = (0.55)(0.30) + (0.45)(0.20)",
+   "question_id": "statistics-barrons-2027-diagnostic-022",
+   "source_pages": [
+    35,
+    35
+   ]
+  },
+  {
+   "number": 23,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 35,
+      "bbox": [
+       135.7,
+       469.6,
+       190.5,
+       489.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 35,
+      "bbox": [
+       135.7,
+       492.6,
+       261.7,
+       513.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 35,
+      "bbox": [
+       135.7,
+       516.3,
+       261.7,
+       536.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 35,
+      "bbox": [
+       137.0,
+       539.4,
+       263.0,
+       560.4
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       469.9,
+       127.5,
+       486.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       493.3,
+       127.4,
+       509.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       516.6,
+       127.5,
+       533.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 35,
+      "bbox": [
+       109.0,
+       540.0,
+       128.6,
+       556.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 35,
+   "page_end": 35,
+   "stem": "If a randomly chosen student picks basketball as the student’s favorite sport, what is the probability the student is male?",
+   "context": "Questions 21–23 refer to the following: A campus has 55% male and 45% female students. Suppose 30% of the male students pick basketball as their favorite sport compared with 20% of the females.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "P(basketball) = (0.55)(0.30) + (0.45)(0.20)",
+   "question_id": "statistics-barrons-2027-diagnostic-023",
+   "source_pages": [
+    35,
+    35
+   ]
+  },
+  {
+   "number": 24,
+   "section": "MCQ",
+   "options": {
+    "A": "Mean, 231.75 K; standard deviation, 3.5 K",
+    "B": "Mean, 298.75 K; standard deviation, 3.5 K",
+    "C": "Mean, 298.75 K; standard deviation, 258.72 K",
+    "D": "Mean, 298.75 K; standard deviation, 276.5 K"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       72.0,
+       388.2,
+       88.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       91.0,
+       388.0,
+       107.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       109.9,
+       410.0,
+       126.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       128.9,
+       404.0,
+       145.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 35,
+     "bbox": [
+      328.7,
+      628.1,
+      408.6,
+      647.1
+     ]
+    }
+   ],
+   "page_start": 35,
+   "page_end": 36,
+   "stem": "The kelvin is a unit of measurement for temperature; 0 K is absolute zero, the temperature at which all thermal motion ceases. Conversion from Fahrenheit to Kelvin is given by + 273. The average daily temperature in Monrovia, Liberia, is 78.35°F with a standard deviation of 6.3°F. If a scientist converts Monrovia daily temperatures to the Kelvin scale, what will be the new mean and standard deviation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Adding the same constant to every value in a set adds the same constant to the mean but leaves the standard deviation unchanged. Multiplying every value in a set by the same constant multiplies the mean and standard deviation by that constant. So the new mean is , and the new standard deviation is",
+   "question_id": "statistics-barrons-2027-diagnostic-024",
+   "source_pages": [
+    35,
+    36
+   ]
+  },
+  {
+   "number": 25,
+   "section": "MCQ",
+   "options": {
+    "A": "Neither design uses randomization since there is no indication that cows will be randomly picked from the population of all Guernsey cattle.",
+    "B": "Design 1 is a completely randomized design, while Design 2 is a block design.",
+    "C": "In the second design, BVH from bovine cadavers and BVH from engineered E. coli are confounded.",
+    "D": "One of the two designs is actually an observational study, while the other is an experiment."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       337.5,
+       533.2,
+       353.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       389.0,
+       517.7,
+       405.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       424.2,
+       514.5,
+       440.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       459.4,
+       515.8,
+       475.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 36,
+   "page_end": 36,
+   "stem": "A cattle veterinarian is considering two experimental designs to compare two sources of bovine growth hormone, or BVH, to spur increased milk production in Guernsey cattle. Design 1 involves flipping a coin as each cow enters the stockade, and if heads, giving it BVH from bovine cadavers, and if tails, giving it BVH from engineered E. coli. Design 2 involves flipping a coin as each cow enters the stockade, and if heads, giving it BVH from bovine cadavers for a specified period of time and then switching to BVH from engineered E. coli for the same period of time, and if tails, the order is reversed. With both designs, daily milk production is noted. Which of the following is accurate?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Design 2 is an example of a matched pairs design, a special case of a block design; here, each subject is compared with itself with respect to the two treatments. Both designs definitely use randomization with regard to assignment of treatments, but since they do not use randomization in selecting subjects from the general population, care must be taken in generalizing any conclusions. It’s not clear whether or not the researchers who do the observations and measurements know which treatment individual cows are receiving, so there is no way to conclude if there is or is not blinding. The two sources of BVH are different treatments, and so they are not being confounded. In both designs, treatments are randomly applied, so neither is an observational study.",
+   "question_id": "statistics-barrons-2027-diagnostic-025",
+   "source_pages": [
+    36,
+    36
+   ]
+  },
+  {
+   "number": 26,
+   "section": "MCQ",
+   "options": {
+    "A": "A confidence interval of the true mean number of trees cut down every 24 hours to make toilet paper was calculated using z-scores of ±1.881.",
+    "B": "A confidence interval of the true mean number of trees cut down every 24 hours to make toilet paper was calculated using t-scores consistent with df = n – 1 and tail probabilities of 0.03.",
+    "C": "We are 94% confident that the true mean number of trees cut down every 24 hours to make toilet paper is between 25,000 and 29,000.",
+    "D": "If all possible random samples of data are obtained by this method, approximately 94% will yield confidence intervals that capture the true mean number of trees cut down every 24 hours to make toilet paper."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       586.8,
+       524.6,
+       603.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 36,
+      "bbox": [
+       109.0,
+       638.3,
+       524.5,
+       654.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       72.0,
+       509.3,
+       88.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       123.5,
+       487.5,
+       139.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 36,
+   "page_end": 37,
+   "stem": "Recent studies have determined with 94% confidence that the mean number of trees cut down every 24 hours to make toilet paper is between 25,000 and 29,000. What is meant by the confidence level in this context?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Confidence level (94% in this example) is the percentage of times repeated applications of this method (finding numbers of trees cut down in 24-hour periods) would capture the true population parameter (mean in this example). (C) is a correct interpretation of confidence interval, not confidence level.",
+   "question_id": "statistics-barrons-2027-diagnostic-026",
+   "source_pages": [
+    36,
+    37
+   ]
+  },
+  {
+   "number": 27,
+   "section": "MCQ",
+   "options": {
+    "A": "If the sample is random, the size of the sample usually doesn’t matter.",
+    "B": "If the sample is random, the size of the population usually doesn’t matter.",
+    "C": "A sample of less than 1% of the population is too small for statistical inference.",
+    "D": "A sample of more than 10% of the population is too large for statistical inference."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       234.6,
+       510.9,
+       250.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       269.8,
+       531.1,
+       286.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       305.0,
+       487.3,
+       321.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       340.2,
+       503.0,
+       356.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 37,
+   "page_end": 37,
+   "stem": "Which of the following is a true statement about sampling?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The size of the sample always matters: the larger the sample, the greater the power of statistical tests. One percent of a large population is large. Larger samples are better, but if the sample is greater than 10% of the population, the best statistical techniques are not those covered in the AP curriculum. While not in the AP curriculum, if the population is small, its size may matter as shown by the finite population correction factor.",
+   "question_id": "statistics-barrons-2027-diagnostic-027",
+   "source_pages": [
+    37,
+    37
+   ]
+  },
+  {
+   "number": 28,
+   "section": "MCQ",
+   "options": {
+    "A": "−0.5",
+    "B": "0",
+    "C": "0.5",
+    "D": "1"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       467.6,
+       164.4,
+       483.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       486.5,
+       142.9,
+       502.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       505.5,
+       154.6,
+       521.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       524.5,
+       144.1,
+       540.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 37,
+   "page_end": 37,
+   "stem": "Suppose, in a study of mated pairs of soldier beetles, it is found that the measure of the elytron (hardened forewing) length is always 0.5 millimeters longer in the female. What is the correlation between elytron lengths of mated females and males?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The points on the scatterplot all fall on the straight line: Female length = Male length + 0.5",
+   "question_id": "statistics-barrons-2027-diagnostic-028",
+   "source_pages": [
+    37,
+    37
+   ]
+  },
+  {
+   "number": 29,
+   "section": "MCQ",
+   "options": {
+    "A": "Assuming that each racial group has the same distribution in size of social network, the probability of finding a test statistic of 17.43 or smaller is 0.037.",
+    "B": "Assuming that each racial group has the same distribution in size of social network, the probability of finding a test statistic of 17.43 or larger is 0.037.",
+    "C": "There is a 0.037 probability that the different racial groups have the same distribution of social networks.",
+    "D": "There is a 0.037 probability that the different racial groups have different distributions of social networks."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 37,
+      "bbox": [
+       109.0,
+       651.8,
+       524.2,
+       668.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       72.0,
+       524.1,
+       88.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       123.5,
+       518.2,
+       139.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       158.7,
+       519.3,
+       175.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 37,
+   "page_end": 38,
+   "stem": "A chi-square test of homogeneity was conducted to determine whether different racial groups have different distributions in the size of their social networks. The chi-square test statistic and the p-value of the test were 17.43 and 0.037, respectively. Which of the following is the correct interpretation of the p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The null hypothesis is that there is no difference in the distributions in size of social networks among different racial groups. Under the assumption that the null hypothesis is true, the p-value gives the probability of obtaining a test statistic as extreme as or more extreme than what was obtained in the sample.",
+   "question_id": "statistics-barrons-2027-diagnostic-029",
+   "source_pages": [
+    37,
+    38
+   ]
+  },
+  {
+   "number": 30,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 38,
+      "bbox": [
+       135.7,
+       269.8,
+       253.5,
+       321.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 38,
+      "bbox": [
+       135.7,
+       324.7,
+       253.5,
+       369.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 38,
+      "bbox": [
+       135.7,
+       372.1,
+       253.5,
+       422.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 38,
+      "bbox": [
+       137.0,
+       424.9,
+       254.9,
+       477.1
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       286.0,
+       127.5,
+       302.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       337.1,
+       127.4,
+       353.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       387.3,
+       127.5,
+       403.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       441.1,
+       128.6,
+       457.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 38,
+   "page_end": 38,
+   "stem": "The age distribution for a particular debilitating disease has a mean greater than the median. Which of the following graphs most likely illustrates this distribution?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The distributions in (A) and (B) appear roughly symmetric, so the mean and median will be roughly the same. The distribution in (C) is skewed to the right, so the mean will most likely be greater than the median, while the distribution in (D) is skewed to the left, so the mean will most likely be less than the median.",
+   "question_id": "statistics-barrons-2027-diagnostic-030",
+   "source_pages": [
+    38,
+    38
+   ]
+  },
+  {
+   "number": 31,
+   "section": "MCQ",
+   "options": {
+    "A": "0.38",
+    "B": "3.8",
+    "C": "5.0",
+    "D": "6.2"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       590.8,
+       161.9,
+       607.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       609.8,
+       154.4,
+       626.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       628.8,
+       154.6,
+       645.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 38,
+      "bbox": [
+       109.0,
+       647.7,
+       155.6,
+       664.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 38,
+     "bbox": [
+      356.5,
+      506.9,
+      466.9,
+      528.5
+     ]
+    }
+   ],
+   "page_start": 38,
+   "page_end": 38,
+   "stem": "In a random sample of 10 people, the probability that k people show a particular genetic abnormality is given by for k = 0, . . . , 10. What is the mean of the associated random variable?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "This is a binomial with n = 10 and p = 0.38, so the mean is np = 10(0.38) = 3.8.",
+   "question_id": "statistics-barrons-2027-diagnostic-031",
+   "source_pages": [
+    38,
+    38
+   ]
+  },
+  {
+   "number": 32,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 39,
+      "bbox": [
+       135.7,
+       137.7,
+       185.8,
+       156.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 39,
+      "bbox": [
+       135.7,
+       159.4,
+       189.2,
+       178.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 39,
+      "bbox": [
+       135.7,
+       181.1,
+       185.8,
+       200.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 39,
+      "bbox": [
+       137.0,
+       203.4,
+       190.5,
+       221.7
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       137.0,
+       127.5,
+       153.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       158.7,
+       127.4,
+       175.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       181.0,
+       127.5,
+       197.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       202.7,
+       128.6,
+       219.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 38,
+   "page_end": 39,
+   "stem": "A soccer coach believes that soccer players run an average of 7 miles per match and tests this hypothesis on a random sample of 100 players. The sample is found to have a mean of x̅ = 6.8 with a standard deviation of 1.3. Which of the following is the correct test statistic?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The numerator of the test statistic is the sample mean minus the assumed population mean, while the denominator is the sample standard deviation divided by the square root of the sample size.",
+   "question_id": "statistics-barrons-2027-diagnostic-032",
+   "source_pages": [
+    38,
+    39
+   ]
+  },
+  {
+   "number": 33,
+   "section": "MCQ",
+   "options": {
+    "A": "10 hr",
+    "B": "10.5 hr",
+    "C": "11 hr",
+    "D": "12 hr"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       638.3,
+       167.1,
+       654.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       657.2,
+       178.5,
+       673.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       676.2,
+       167.1,
+       692.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 39,
+      "bbox": [
+       109.0,
+       695.2,
+       168.2,
+       711.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 39,
+     "bbox": [
+      191.2,
+      421.5,
+      420.8,
+      566.5
+     ]
+    }
+   ],
+   "page_start": 39,
+   "page_end": 39,
+   "stem": "A recent study noted prices and battery lives of 10 top-selling tablet computers. The data follow: 1 2 3 4 5 6 7 8 9 10 Cost 303 450 260 480 540 390 350 400 600 450 Battery 8.5 10 7 11 10 9 8 9.5 11 9.5 life (hr) The residual plot of the least squares model is What is the model’s predicted battery life for the tablet computer costing $480?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Residual = observed − predicted, so 1.0 = 11 − predicted and predicted = 10.",
+   "question_id": "statistics-barrons-2027-diagnostic-033",
+   "source_pages": [
+    39,
+    39
+   ]
+  },
+  {
+   "number": 34,
+   "section": "MCQ",
+   "options": {
+    "A": "simple random sample.",
+    "B": "stratified random sample.",
+    "C": "cluster random sample.",
+    "D": "convenience sample."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       169.5,
+       274.3,
+       185.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       188.5,
+       287.9,
+       204.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       207.5,
+       275.5,
+       223.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       226.4,
+       260.8,
+       242.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 40,
+   "page_end": 40,
+   "stem": "Should college athletes be required to give their coaches their social media account user names and passwords? A survey of student- athletes is to be taken. The statistician believes that Division I, II, and III players may differ in their views, so she selects a random sample of athletes from each division to survey. This is a",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Stratified random sampling is when the population is divided into homogeneous groups (the three divisions in this example) and a random sample of individuals is chosen from each group.",
+   "question_id": "statistics-barrons-2027-diagnostic-034",
+   "source_pages": [
+    40,
+    40
+   ]
+  },
+  {
+   "number": 35,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, because there was a random sample, 1,500 is less than 10% of all college students, and 1,500(0.45), 1,500(0.55), 1,500(0.42), and 1,500(0.58) are all ≥ 10.",
+    "B": "No, because there was no random assignment between female and male college students.",
+    "C": "No, because the independence assumption is violated.",
+    "D": "No, because the random sample may not be truly representative of the population."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       376.8,
+       528.4,
+       393.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       428.3,
+       512.1,
+       444.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       463.5,
+       460.3,
+       479.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       482.5,
+       522.0,
+       498.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 40,
+     "bbox": [
+      252.9,
+      321.3,
+      481.8,
+      344.3
+     ]
+    }
+   ],
+   "page_start": 40,
+   "page_end": 40,
+   "stem": "In a random sample of 1,500 college students, a pollster found 45% prefer a female president and 42% prefer a male president. To calculate a 95 percent confidence interval for the difference in the proportion of college students who prefer a female president over a male president, he uses . Were conditions for inference met?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The two-sample z-interval for a difference in proportions is inappropriate here, because the two proportions do not come from independent samples.",
+   "question_id": "statistics-barrons-2027-diagnostic-035",
+   "source_pages": [
+    40,
+    40
+   ]
+  },
+  {
+   "number": 36,
+   "section": "MCQ",
+   "options": {
+    "A": "the sample sizes should be the same.",
+    "B": "the sample in Greater Tokyo should be twice the size of the sample in Karachi.",
+    "C": "the sample in Karachi should be twice the size of the sample in Greater Tokyo.",
+    "D": "the sample in Greater Tokyo should be four times the size of the sample in Karachi."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       626.1,
+       359.5,
+       642.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       645.0,
+       490.6,
+       661.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 40,
+      "bbox": [
+       109.0,
+       680.3,
+       512.0,
+       696.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       72.0,
+       521.1,
+       88.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 40,
+   "page_end": 41,
+   "stem": "The population of the Greater Tokyo area is 34,400,000 and of Karachi is 17,200,000. A random sample of citizens is to be taken in each city, and 95% confidence intervals for the mean age in each city will be calculated. Assuming roughly equal sample standard deviations, to obtain the same margin of error for each confidence interval,",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The margin of error, , depends on n, the sample size, not the population size.",
+   "question_id": "statistics-barrons-2027-diagnostic-036",
+   "source_pages": [
+    40,
+    41
+   ]
+  },
+  {
+   "number": 37,
+   "section": "MCQ",
+   "options": {
+    "A": "Both the fastest and slowest times were outliers.",
+    "B": "The fastest time was an outlier. The slowest time was not an outlier.",
+    "C": "The fastest time was not an outlier. The slowest time was an outlier.",
+    "D": "Neither the fastest nor slowest times were outliers."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       231.8,
+       427.1,
+       248.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       250.8,
+       498.3,
+       267.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       286.0,
+       498.4,
+       302.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       321.3,
+       441.7,
+       337.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 41,
+   "page_end": 41,
+   "stem": "For a class project, AP Statistics students set up a race for all students at their high school. The distance was 1.96 miles with prizes for the fastest time, the 75th percentile time, the median time, the 25th percentile time, and the slowest time. The prize-winning times in minutes were 11.1, 13.7, 15.1, 16.1, and 19.4. Which of the following statements about outliers is true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Outliers are values less than Q 1 − 1.5(IQR) = 13.7 − 1.5(16.1 − 13.7) = 10.1 or greater than Q 3 + 1.5(IQR) = 16.1 + 1.5(16.1 − 13.7) = 19.7. Both 11.1 > 10.1 and 19.4 < 19.7, so neither the fastest nor the slowest times are outliers.",
+   "question_id": "statistics-barrons-2027-diagnostic-037",
+   "source_pages": [
+    41,
+    41
+   ]
+  },
+  {
+   "number": 38,
+   "section": "MCQ",
+   "options": {
+    "A": "Statistics are random variables with their own probability distributions.",
+    "B": "Bias means that, on average, our estimate of a parameter is different from the true value of the parameter.",
+    "C": "There are some statistics for which the sampling distribution is not approximately normal, no matter how large the sample size.",
+    "D": "The larger the sample size, the closer the sample distribution is to a normal distribution."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       383.6,
+       474.8,
+       399.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       418.8,
+       495.4,
+       435.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       454.0,
+       533.6,
+       470.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       489.2,
+       531.4,
+       505.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 41,
+   "page_end": 41,
+   "stem": "Which of the following is an incorrect statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The larger the sample size, the closer the sample distribution is to the population distribution. The central limit theorem roughly says that if multiple samples of size n are drawn randomly and independently from a population, the histogram of the means of those samples will be approximately normal. Statistics have probability distributions called sampling distributions. The central limit theorem does not apply to all statistics as it does to sample means. Many sampling distributions are not normal; for example, the sampling distribution of the sample max is not a normal distribution. An estimator of a parameter is unbiased if we have a method that, through repeated samples, is on average the same value as the parameter.",
+   "question_id": "statistics-barrons-2027-diagnostic-038",
+   "source_pages": [
+    41,
+    41
+   ]
+  },
+  {
+   "number": 39,
+   "section": "MCQ",
+   "options": {
+    "A": "85%",
+    "B": "90%",
+    "C": "92%",
+    "D": "95%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       651.8,
+       163.7,
+       668.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       670.8,
+       163.5,
+       687.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 41,
+      "bbox": [
+       109.0,
+       689.7,
+       163.7,
+       706.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       72.0,
+       164.7,
+       88.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 41,
+   "page_end": 42,
+   "stem": "For Air Force cadets, the recommended fitness level with regard to the number of push-ups is 34. In a test whether or not current classes of recruits can meet this standard, a t-test of H0: μ = 34 against Ha: μ < 34 gives a p-value of 0.068. Using these data, among the following, which is the largest level of confidence for a two-sided confidence interval that does not contain 34?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "With 0.068 in a tail, the confidence interval with 34 at one end would have a confidence level of 1 − 2(0.068) = 0.864, so anything higher than 86.4% confidence will contain 34.",
+   "question_id": "statistics-barrons-2027-diagnostic-039",
+   "source_pages": [
+    41,
+    42
+   ]
+  },
+  {
+   "number": 40,
+   "section": "MCQ",
+   "options": {
+    "A": "Distribution I is skewed right, while distribution II is bell-shaped.",
+    "B": "The mean of distribution I is greater than the mean of distribution II.",
+    "C": "The range of distribution I is approximately 46 − 33 = 13.",
+    "D": "The upper 50% of the values in distribution I are all greater than the lower 50% of the values in distribution II."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       335.5,
+       522.1,
+       351.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       354.5,
+       531.1,
+       370.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       389.7,
+       483.5,
+       406.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       408.6,
+       525.6,
+       425.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 42,
+     "bbox": [
+      145.2,
+      203.4,
+      466.9,
+      279.9
+     ]
+    }
+   ],
+   "page_start": 42,
+   "page_end": 42,
+   "stem": "A particular car is tested for stopping distance in feet on wet pavement at 30 mph using tires with one tread design and then tires with another tread design. For each set of tires, the test is repeated 30 times, and the following parallel boxplots give a comparison of the resulting five- number summaries. Which of the following is a reasonable conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "From a boxplot there is no way of telling if a distribution is bell- shaped. (Very different distributions can have the same five-number summary.) Distribution I appears strongly skewed right, and so its mean is probably much greater than its median, while distribution II appears roughly symmetric, and so its mean is probably close to its median. The interquartile range, not the range, in distribution I is 13.",
+   "question_id": "statistics-barrons-2027-diagnostic-040",
+   "source_pages": [
+    42,
+    42
+   ]
+  },
+  {
+   "number": 41,
+   "section": "MCQ",
+   "options": {
+    "A": "P(E ∩ F) > 0.12",
+    "B": "P(E ∩ F) < 0.12",
+    "C": "P(E ∩ F) = 0.12",
+    "D": "There is not enough information to determine a relationship between P(E ∩ F) and 0.12."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       503.5,
+       231.0,
+       519.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       522.4,
+       230.9,
+       538.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       541.4,
+       231.0,
+       557.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 42,
+      "bbox": [
+       109.0,
+       560.4,
+       494.7,
+       576.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 42,
+   "page_end": 42,
+   "stem": "E and F are events on the same probability space with P(E) = 0.3 and P(F) = 0.4. What is the relationship between P(E ∩ F) and 0.12?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "If E and F are independent, then it would follow that P(E ∩ F) = (0.3)(0.4) = 0.12, but without further information, all that can be said is that P(E ∩ F) is between 0 and 0.3.",
+   "question_id": "statistics-barrons-2027-diagnostic-041",
+   "source_pages": [
+    42,
+    42
+   ]
+  },
+  {
+   "number": 42,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 43,
+      "bbox": [
+       135.7,
+       238.0,
+       509.6,
+       259.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 43,
+      "bbox": [
+       135.7,
+       261.7,
+       509.6,
+       282.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 43,
+      "bbox": [
+       135.7,
+       284.7,
+       382.2,
+       307.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 43,
+      "bbox": [
+       137.0,
+       309.8,
+       445.2,
+       329.4
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 43,
+      "bbox": [
+       109.0,
+       238.6,
+       127.5,
+       254.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 43,
+      "bbox": [
+       109.0,
+       262.0,
+       127.4,
+       278.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 43,
+      "bbox": [
+       109.0,
+       286.0,
+       127.5,
+       302.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 43,
+      "bbox": [
+       109.0,
+       309.7,
+       128.6,
+       326.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 43,
+     "bbox": [
+      122.1,
+      349.7,
+      489.9,
+      391.0
+     ]
+    }
+   ],
+   "page_start": 42,
+   "page_end": 43,
+   "stem": "Do middle school and high school students have different views on what makes someone popular? Random samples of 100 middle school and 100 high school students yield the following counts with regard to three choices: lots of money, good at sports, and good looks: What Makes a Student Popular Money Sports Looks Middle school 22 48 30 students High school 36 24 40 students A chi-square test of homogeneity yields which of the following test statistics?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "and cell calculations [expected value of a cell equals (row total)(column total)/(table total)] or χ2-test on a calculator such as the TI-84, Casio Prizm, or HP Prime will yield expected cells of 29, 36, 35, 29, 36, and 35.",
+   "question_id": "statistics-barrons-2027-diagnostic-042",
+   "source_pages": [
+    42,
+    43
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 43,
+     "bbox": [
+      135.7,
+      238.0,
+      509.6,
+      259.0
+     ]
+    },
+    {
+     "page": 43,
+     "bbox": [
+      135.7,
+      261.7,
+      509.6,
+      282.0
+     ]
+    },
+    {
+     "page": 43,
+     "bbox": [
+      135.7,
+      284.7,
+      382.2,
+      307.0
+     ]
+    },
+    {
+     "page": 43,
+     "bbox": [
+      137.0,
+      309.8,
+      445.2,
+      329.4
+     ]
+    },
+    {
+     "page": 43,
+     "bbox": [
+      122.1,
+      349.7,
+      489.9,
+      391.0
+     ]
+    }
+   ],
+   "page_start": 43,
+   "page_end": 44,
+   "stem": "A horticulturist plans a study on the use of compost tea for plant disease management. She obtains 18 identical beds, each containing a random selection of five minipink rose plants. Some bed or beds will not receive compost tea. For those beds receiving compost tea, she plans to use two different composting times (2 and 5 days), two different compost preparations (aerobic and anaerobic), and two different spraying techniques (with and without adjuvants). Midway into the growing season she will check all plants for rose powdery mildew disease. A. i. Identify the experimental units. ii. Identify the treatments. B. Explain why the horticulturist included a group that does not receive compost tea? C. i. Explain the advantage of using only minipink roses in this study. ii. Explain a disadvantage of using only minipink roses in this study. D. i. Using the proportion of plants in each bed that are infected with rose powdery mildew disease, identify a graphical representation that is appropriate to use to display these proportions. ii. Explain why a histogram would not be appropriate to display these proportions. E. The horticulturist would like to perform a study on proportions of plants that are infected with rose powdery mildew disease in beds using aerobic and anaerobic preparations. Determine a valid investigative question. Ensure all three components of a valid investigative question are included in your response.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. i. The treatments are applied to the beds. So the experimental units are the 18 beds, not the individual rose plants. ii. There is one treatment with no compost tea and 2 × 2 × 2 = 8 treatments involving compost tea. ■No compost tea ■Two-day, aerobic, with adjuvant ■Two-day, aerobic, without adjuvant ■Two-day, anaerobic, with adjuvant ■Two-day, anaerobic, without adjuvant ■Five-day, aerobic, with adjuvant ■Five-day, aerobic, without adjuvant ■Five-day, anaerobic, with adjuvant ■Five-day, anaerobic, without adjuvant B. The purpose of the group receiving no compost tea is to determine whether using no compost tea is better or worse than using any of the 8 particular applications of compost tea. C. i. Using only minipink roses gives reduced variability and increases the likelihood of determining differences among the treatments. ii. Using only minipink roses limits the scope of the experiment and makes generalizing to other species difficult. D. i. A bar chart (bar graph) is useful to display relative frequencies (proportions). In this context, the height of each bar would correspond to the proportion of plants in a bed that are infected with rose powdery mildew disease. ii. Histograms provide a visual representation of the distribution of a quantitative variable, not of relative frequencies corresponding to a categorical variable (the beds). E. Is there convincing statistical evidence to suggest that the proportion of minipink rose plants that are infected with rose powdery mildew disease in beds using aerobic preparations is different from the proportion of minipink rose plants that are infected with rose powdery mildew disease in beds using anaerobic preparations? A. i. Identify the experimental The experimental units are the 18 1 point units. beds. ii. Identify the treatments. No compost tea 1 point Two-day, aerobic, with adjuvant Two-day, aerobic, without adjuvant Two-day, anaerobic, with adjuvant Two-day, anaerobic, without adjuvant Five-day, aerobic, with adjuvant Five-day, aerobic, without adjuvant Five-day, anaerobic, with adjuvant Five-day, anaerobic, without adjuvant B. Explain the purpose of a To determine if using no compost tea 1 point control group in this is better or worse than using any of context. the 8 particular applications of compost tea C. i. Explain the advantage of To reduce variability and increase the 1 point using only minipink roses. likelihood of determining differences among the treatments Explain the disadvantage Makes generalizing to other species 1 point of using only minipink difficult roses. D. i. Identify an appropriate A bar chart (bar graph) 1 point graph. ii. Explain why a histogram is Histograms are for the distribution of 1 point not appropriate. a quantitative variable, not a categorical variable like the beds. E. First component (identify The variables are the beds treated 1 point variables of interest) with the aerobic preparation and the beds treated with the anaerobic preparation. Second component The proportion of plants that are 1 point (identify the parameter infected with rose powdery mildew and direction of the disease is different in beds using alternative hypothesis) aerobic preparations and in beds using anaerobic preparations. Third component (identify All minipink rose plants in beds being 1 point the population to which treated with aerobic preparations and conclusion is applicable) in beds being treated with anaerobic preparations.",
+   "question_id": "statistics-barrons-2027-diagnostic-043",
+   "context": "",
+   "source_pages": [
+    43,
+    44
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 44,
+     "bbox": [
+      122.1,
+      483.8,
+      489.9,
+      544.1
+     ]
+    },
+    {
+     "page": 45,
+     "bbox": [
+      237.3,
+      108.6,
+      374.8,
+      233.9
+     ]
+    }
+   ],
+   "page_start": 44,
+   "page_end": 45,
+   "stem": "A National Park employee measures times between eruptions and eruption durations for the Old Faithful geyser during a 24-hour period. A dotplot of eruption duration times and a boxplot of the times between eruptions are as follows: A. i. Identify the type of study the National Park employee conducted. ii. Identify the variables in the study. B. Describe the distribution of duration times of Old Faithful geyser eruptions. C. Determine what the boxplot illustrates about the center and variability of the distribution of times between eruptions? D. A stemplot of the times between eruptions is as follows: i. Determine the median time between eruptions. Show your work. ii. Describe what the stemplot shows about shape that is missed in the boxplot? E. Determine the population for valid investigative questions for the National Park employee’s study.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. i. Observational study ii. Duration of eruptions in minutes and minutes between eruptions B. The distribution of eruption time durations is roughly symmetric with two clusters and a gap, has a center between 3.0 and 3.5 minutes, and has a range of 4.75 – 1.75 = 3.0 minutes. C. The boxplot of times between eruptions shows a median slightly greater than 70 minutes and a range slightly greater than 40 minutes. D. i. With an even number of values, the median is the average of the two middle ones: (62 + 79)/2 = 70.5 ii. The stemplot shows that the distribution of times between eruptions has two roughly symmetric clusters and a gap between 62 and 79. E. The population for valid investigative questions for the National Park employee’s study would be all Old Faithful geyser eruptions. A. i. Identify the type of study. Observational 1 point ii. Identify the variables. Duration of eruptions 1 point Minutes between eruptions B. Describe a distribution. Distribution of eruption time durations 1 point Roughly symmetric with two clusters 1 point and a gap Center between 3.0 and 3.5 minutes, 1 point and a range of 4.75 – 1.75 = 3.0 minutes C. Determine the center. Median slightly greater than 70 1 point minutes Determine the variability. Range slightly greater than 40 1 point minutes D. i. Determine the median. (62 + 79)/2 = 70.5 1 point ii. Describe what the Two roughly symmetric clusters and a 1 point stemplot shows that the gap between 62 and 79 boxplot misses. E. Determine the population All Old Faithful geyser eruptions 1 point for an investigative question.",
+   "question_id": "statistics-barrons-2027-diagnostic-044",
+   "context": "",
+   "source_pages": [
+    44,
+    45
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 45,
+   "page_end": 46,
+   "stem": "A top-100, 7.0-rated ten)nis pro wishes to compare a new racket against his current model. He is interested in whether his hitting speed with the new racket is different from that with his old racket. He strings the new racket with the same type of strings at 60 pounds tension that he uses on his old racket. From past testing, the tennis pro knows that the average forehand crosscourt volley with his old racket is 82 miles per hour (mph). On an indoor court, using a ball machine set at 70 mph, which is the same speed he had his old racket tested against, he takes 47 swings with the new racket. (Assume that swings are independent of each other.) An associate with a speed gun records an average of 83.5 mph with a standard deviation of 3.4 mph. At the 0.01 level of significance, complete the appropriate inference procedure to determine if there is convincing statistical evidence that his mean hitting speed with the new racket is different from that with his old racket. A. Identify and classify the variable(s) in the study. B. Identify the appropriate inference procedure. C. Complete the inference procedure, including calculating the appropriate statistics. D. Justify a conclusion in context.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. The type of racket, current model or new model, is categorical. Speed of hit ball is numerical. B. An appropriate inference procedure is a one-sample t-test for a population mean. C. The null hypothesis is H0: μ = 82, and the alternative hypothesis is Ha: μ ≠ 82. For new racket swings similar to those in the study, let μ = true mean hitting speed with the new racket. The randomization condition is satisfied as we are given that the swings are independent. The normality condition is satisfied because the sample size n = 47 ≥ 30. This is sufficiently large for the central limit theorem to apply. The value of the test statistic is t = 3.0246 with a p-value of 0.00406 and df = 46. D. With this small a p-value, 0.00406 < 0.01, there is sufficient evidence to reject the null hypothesis. There is convincing evidence that the tennis pro’s hitting speed with the new racket is different from that with his old racket. A. Identify the variables. Type of racket, whether current 1 point model or new model; speed of hit ball Classify the variables. Racket type is a categorical variable; 1 point speed of hit ball is a numerical variable. B. Identify the appropriate One-sample t-test for a population 1 point procedure. mean C. Identify H0 and Ha. H 0: μ = 82 and H a: μ ≠ 82 1 point Identify the parameter. μ = the true mean hitting speed with 1 point the new racket Justify whether the We are given that the swings are 1 point randomization condition is independent. met. Justify whether the The sample size n = 47 ≥ 30 is 1 point normality condition is met. sufficiently large for the central limit theorem to apply. Calculate the test statistic t = 3.0246 with a p-value of 0.00406 1 point and p-value. and df = 46 D. Compare the p-value to",
+   "question_id": "statistics-barrons-2027-diagnostic-045",
+   "context": "",
+   "source_pages": [
+    45,
+    46
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 46,
+     "bbox": [
+      145.2,
+      451.3,
+      466.9,
+      612.5
+     ]
+    }
+   ],
+   "page_start": 46,
+   "page_end": 46,
+   "stem": "Researchers want to study whether a capuchin monkey named Rafiki can correctly predict (better than guesswork) whether the Dow Jones Industrial Average (DJIA) will go up or down on any given day. In a random sample of 10 days, Rafiki correctly predicted the rise or fall of the DJIA on 7 of the 10 days. (He did this by choosing to eat a banana from either a box with an “up” arrow or a box with a “down” arrow.) A. i. Identify the parameter of interest. ii. Identify the null and alternative hypotheses. B. Assuming Rafiki was guessing, calculate the probability he guessed correctly at least 7 out of 10 times. C. Suppose you conduct a simulation to investigate whether the observed result provides convincing evidence that Rafiki can correctly predict the rise or fall of the DJIA. i. Identify what you would use for the probability of success. ii. Identify what you would use for the sample size. D. i. Identify which of the following graphs could reasonably have come from the simulation. Explain. ii. Identify which of 6.5, 0.65, 0.15, and 0.015 is closest to the p-value. Interpret it in context. E. Based on the simulation and p-value, determine whether there is sufficient evidence that Rafiki can correctly predict (better than",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. i. The parameter of interest is p = the true proportion of times Rafiki can correctly predict whether the DJIA will go up or down on any given day. ii. H0 : p = 0.5 and H a : p > 0.5 B. Binomial distribution with n = 10 and p = 0.5. P(x ≥ 7) = 0.172 C. i. Probability of success p = 0.5 ii. Sample size n = 10 D. i. Graph (II). The simulation should be centered at the value based on the null hypothesis probability, not the observed value. ii. Looking at areas under (II), which is the correct graph, among the given choices, 7 or greater picks seems to have a probability closest to 0.15. If the null hypothesis were true— that is, if Rafiki can do no better than guesswork—the estimated probability of Rafiki correctly predicting 7 or more out of 10 rises or falls of the DJIA is about 0.15. E. With this large a p-value, 0.15 > 0.05, there is not sufficient evidence to reject H0. There is not convincing evidence that Rifiki can pick the rise and fall of the DJIA better than guesswork. A. i. Identify the parameter. p = the true proportion of times 1 point Rafiki can correctly predict whether the DJIA will go up or down on any given day ii. Identify the hypotheses. H 0 : p = 0.5 and H a : p > 0.5 1 point B. Identify the distribution Binomial distribution with n = 10 and 1 point and parameters. p = 0.5 Calculate the probability. P(x ≥ 7) = 0.172 1 point C. i. Identify the probability of p = 0.5 1 point success. ii. Identify the sample size. Sample size n = 10 1 point D. i. Identify the graph. Graph (II). The simulation should be 1 point centered at the value based on the null hypothesis probability, not the observed value. ii. Calculate the p-value. From area under Graph (II), p ≈ 0.15 1 point E. Determine whether a There is not convincing evidence that 1 point claim is supported. Rifiki can pick the rise and fall of the DJIA better than guesswork. Explain the reasoning. With this large a p-value, 0.15 > 1 point",
+   "question_id": "statistics-barrons-2027-diagnostic-046",
+   "context": "",
+   "source_pages": [
+    46,
+    46
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 46,
+ "mcq_count": 42,
+ "frq_count": 4
+}

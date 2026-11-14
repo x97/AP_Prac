@@ -1,0 +1,347 @@
+[
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Correlation coefficient",
+  "page": 454,
+  "definition_type": "explicit",
+  "quote": "A numerical measurement, r, which is called the correlation coefficient (or simply the correlation), gives a quantitative value of the strength of a linear relationship.",
+  "plain_en": "number measuring strength of linear association"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Scatterplot",
+  "page": 454,
+  "definition_type": "explicit",
+  "quote": "A scatterplot gives an immediate visual impression of the strength of a linear relationship.",
+  "plain_en": "graph of two quantitative variables"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Positively associated",
+  "page": 455,
+  "definition_type": "explicit",
+  "quote": "When larger values of one variable are associated with larger values of a second variable, the variables are called positively associated.",
+  "plain_en": "both variables increase together"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Negatively associated",
+  "page": 455,
+  "definition_type": "explicit",
+  "quote": "When larger values of one variable are associated with smaller values of a second variable, the variables are called negatively associated.",
+  "plain_en": "one variable increases as the other decreases"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Coefficient of determination",
+  "page": 454,
+  "definition_type": "explicit",
+  "quote": "The coefficient of determination, r2, is the proportion of variation in the observed values that is explained by the linear model.",
+  "plain_en": "proportion of variation explained by the line"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "Labeled scatterplot",
+  "page": 455,
+  "definition_type": "explicit",
+  "quote": "Sometimes different dots in a scatterplot are labeled with different symbols or different colors to show a categorical variable.",
+  "plain_en": "scatterplot marking a categorical group"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s01",
+  "name": "DUFS",
+  "page": 457,
+  "definition_type": "explicit",
+  "quote": "DUFS + context (Direction, Unusual features, Form, and Strength)",
+  "plain_en": "direction, unusual features, form, strength"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s02",
+  "name": "Correlation",
+  "page": 458,
+  "definition_type": "explicit",
+  "quote": "there is a mathematical measure called correlation coefficient (or simply the correlation). Correlation measures strength and gives the direction of a linear relationship.",
+  "plain_en": "measure of strength and direction of linear association"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s02",
+  "name": "Range of the correlation coefficient",
+  "page": 458,
+  "definition_type": "explicit",
+  "quote": "The value of r always falls between −1 and +1.",
+  "plain_en": "correlation is between minus one and one"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s02",
+  "name": "Coefficient of determination (response variable)",
+  "page": 459,
+  "definition_type": "explicit",
+  "quote": "The coefficient of determination, r2, is the proportion of variation in the response variable y that is explained by the linear relationship with the explanatory variable x.",
+  "plain_en": "variation in y explained by x"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s02",
+  "name": "Correlation does not imply causation",
+  "page": 458,
+  "definition_type": "explicit",
+  "quote": "Correlation does not imply causation!",
+  "plain_en": "association does not prove a cause"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s03",
+  "name": "Least squares regression line",
+  "page": 462,
+  "definition_type": "explicit",
+  "quote": "This best-fitting straight line—that is, the line that minimizes the sum of the squares of the differences between the observed values and the values predicted by the line—is called the least squares regression line, or simply the regression line.",
+  "plain_en": "line minimizing squared vertical prediction errors",
+  "covers_concepts": "Least squares regression line; Regression line"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s03",
+  "name": "Predicted value",
+  "page": 461,
+  "definition_type": "explicit",
+  "quote": "A variable with a hat (ŷ) is a predicted value of the variable.",
+  "plain_en": "value estimated by the regression model"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s03",
+  "name": "Slope of the regression line",
+  "page": 461,
+  "definition_type": "explicit",
+  "quote": "The slope is the amount that the predicted y-value changes for every unit increase in x.",
+  "plain_en": "predicted change in y per unit x"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s03",
+  "name": "y-intercept of the regression line",
+  "page": 461,
+  "definition_type": "explicit",
+  "quote": "Similarly, the y-intercept is the predicted y-value for x = 0.",
+  "plain_en": "predicted y when x equals zero"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Residual",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "The difference between an observed and a predicted value is called the residual. When the regression line is graphed on the scatterplot, the residual of a point is the vertical distance the point is from the regression line.",
+  "plain_en": "observed value minus predicted value"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Residual order",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "Order is important: residual = y − ŷ = observed y minus predicted y.",
+  "plain_en": "observed minus predicted, not the reverse"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Sum of residuals",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "The sum, and thus the mean, of the residuals is always zero.",
+  "plain_en": "residuals always sum to zero"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Residual plot",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "To obtain a residual plot, the residuals can be plotted against either the x-values or the ŷ-values.",
+  "plain_en": "graph of residuals against x or predicted y"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Pattern in a residual plot",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "A residual plot with a definite pattern is an indication that a nonlinear model will show a better fit to the data than the straight regression line.",
+  "plain_en": "pattern means a curved model may fit better"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u5-s04",
+  "name": "Standard deviation of the residuals",
+  "page": 467,
+  "definition_type": "explicit",
+  "quote": "The standard deviation of the residuals gives a measure of how the points are spread around the regression line.",
+  "plain_en": "typical distance of points from the line"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s01",
+  "name": "Selecting an inference procedure",
+  "page": 486,
+  "definition_type": "explicit",
+  "quote": "Of the six free-response questions on the AP Statistics exam, at least one—and often two—involves inference. For these problems, the first thought should be to identify the appropriate inference method.",
+  "plain_en": "choose the correct inference method first"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s01",
+  "name": "Choosing a distribution for inference",
+  "page": 487,
+  "definition_type": "explicit",
+  "quote": "Which distribution should be used for inference problems? ■Proportions? Use z. ■Means? Use t. ■Counts? Use χ2.",
+  "plain_en": "z for proportions, t for means, chi-square for counts"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s01",
+  "name": "Choosing a confidence interval or hypothesis test",
+  "page": 487,
+  "definition_type": "explicit",
+  "quote": "What specifically are you asked to do? ■Estimate a quantity (indicating a confidence interval)? ■Look for evidence to test a claim (indicating a hypothesis test)?",
+  "plain_en": "estimate means interval, claim means test"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Describing a one-variable distribution",
+  "page": 707,
+  "definition_type": "explicit",
+  "quote": "The distribution of (context) has a shape that is roughly (symmetric/unimodal/bimodal/bell-shaped/skewed left/skewed right/uniform), (center/mean/median) of ____, (range of ____ /IQR of ____ /spread from ____ to ____), and unusual features of (outliers, gaps, clusters).",
+  "plain_en": "template for shape, center, spread, unusual features"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Comparing one-variable distributions",
+  "page": 707,
+  "definition_type": "explicit",
+  "quote": "The (first distribution in context) has a ____ shape that is (similar/not similar) to the (second distribution in context) that has a ____ shape, the (first distribution in context) has a (larger/smaller/equal) center to the (second distribution in context), the (first distribution in context) has a (larger/smaller/equal) variability to the (second distribution in context), and the (distribution in context) has (outliers/gaps/clusters) although the (distribution in context) (also does/doesn’t).",
+  "plain_en": "template comparing shape, center, variability, unusual features"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting the standard deviation",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "The mean distance between individual (values in context) and the mean (context) is approximately ____.",
+  "plain_en": "typical distance of values from the mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a z-score",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "The (value in context) is ____ standard deviations (above/below) the mean (value in context).",
+  "plain_en": "distance from mean in standard deviations"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Describing a scatterplot",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "There is a (strong/moderate/weak), (positive/negative), (linear/nonlinear) association between (the explanatory variable x in context) and (the response variable y in context).",
+  "plain_en": "template for strength, direction, form, context"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting the slope",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "The predicted increase in (response variable y in context) is ___ for each unit increase in (explanatory variable x in context).",
+  "plain_en": "predicted change in y per one unit x"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting the y-intercept",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "____ is the predicted value of the (response variable y in context) when the (explanatory variable x in context) is equal to 0.",
+  "plain_en": "predicted y when x is zero"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting R-squared",
+  "page": 708,
+  "definition_type": "explicit",
+  "quote": "____% of the variation in (the y-variable in context) is accounted for by the linear model relating (the y-variable in context) to (the x-variable in context).",
+  "plain_en": "percent of y variation explained by x"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Checking conditions for inference",
+  "page": 709,
+  "definition_type": "explicit",
+  "quote": "We check (1) the randomization condition (random sample), (2) the 10% condition (if sampling without replacement, the sample is less than the 10% of the population), and (3) the normality condition (for proportions: np≥ 10 and n(1 – p) ≥ 10; and for means: either the population is roughly normal OR the sample size n ≥ 30 OR the sample distribution has no strong skewness or outliers).",
+  "plain_en": "random, ten percent, and normality conditions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Describing a sampling distribution",
+  "page": 709,
+  "definition_type": "explicit",
+  "quote": "The sampling distribution for (p̂ / x̅ /b) is approximately normal with mean (p = ____ OR μ = ____ OR β =____ ) and standard deviation",
+  "plain_en": "template for center and spread of a statistic"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a confidence interval",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "We are ____ % confident that the true (proportion/mean in context) is between ____ and ____.",
+  "plain_en": "template stating confidence and interval bounds"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a confidence level",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "If we take all possible samples of (size in context) and if a confidence interval for the (proportion/mean in context) is constructed from each sample, then ____ % of these intervals will capture the true (proportion/mean in context).",
+  "plain_en": "percent of intervals capturing the parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a p-value",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "Assuming that (the null hypothesis in context) is true, there is a probability of ____ of getting a sample (proportion/mean) as extreme as or more extreme than the one observed by chance alone in a random sample of (size in context).",
+  "plain_en": "probability of extreme result under the null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Concluding a test when rejecting the null",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "Because the p-value is so small, p = ____ < (significance level), there is sufficient evidence to reject the null hypothesis. There is convincing evidence that (alternative hypothesis in context).",
+  "plain_en": "template for rejecting the null hypothesis"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Concluding a test when failing to reject the null",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "Because the p-value is so large, p = ____ > (significance level), there is not sufficient evidence to reject the null hypothesis. There is not convincing evidence that (alternative hypothesis in context).",
+  "plain_en": "template for failing to reject the null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a Type I error",
+  "page": 710,
+  "definition_type": "explicit",
+  "quote": "Because the p-value was small, there was sufficient evidence to reject the (null hypothesis in context). However, the null hypothesis might have been true, in which case we committed a Type I error. A possible consequence would be ____.",
+  "plain_en": "template for rejecting a true null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting a Type II error",
+  "page": 711,
+  "definition_type": "explicit",
+  "quote": "Because the p-value was large, there was not sufficient evidence to reject the (null hypothesis in context). However, the null hypothesis might have been false, in which case we committed a Type II error. A possible consequence would be ____.",
+  "plain_en": "template for failing to reject a false null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s04",
+  "name": "Interpreting power",
+  "page": 711,
+  "definition_type": "explicit",
+  "quote": "There is a (power) probability of correctly rejecting the null hypothesis.",
+  "plain_en": "probability of correctly rejecting the null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-ref-s05",
+  "name": "Names of inference procedures",
+  "page": 711,
+  "definition_type": "implicit",
+  "quote": "When asked to identify the appropriate inference procedure, the answer should be a complete proper name as in the following expressions.",
+  "plain_en": "use the complete procedure name"
+ }
+]

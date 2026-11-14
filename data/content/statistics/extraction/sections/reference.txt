@@ -1,0 +1,412 @@
+
+
+########## SECTION statistics-barrons-2027-ref-s01 | Selecting an Appropriate Inference Procedure | PDF pages 486-491 ##########
+
+[[PAGE 486]]
+Selecting an Appropriate Inference
+Procedure
+Of the six free-response questions on the AP Statistics exam, at least
+one—and often two—involves inference. For these problems, the
+first thought should be to identify the appropriate inference method.
+While knowing how to perform the different procedures is relatively
+easy when the question appears on a page with the unit heading at
+the top, the exam provides no such help! Thus, time devoted to
+recognition and decision-making should be an important part of any
+review. This unit provides that valuable practice.
+To increase success, stop and think before proceeding. Hasty
+decisions often lead to choosing the wrong statistical procedure
+needed to solve the problem. Take a few moments to answer several
+questions that should be at the forefront of your mind. Use the test
+booklet to jot down notes. The following are important questions
+and tips:
+Are there key terms or phrases? (Underline or circle them!)
+■Words such as proportion, mean, or association?
+■Expressions such as find a confidence interval or do a
+hypothesis test?
+
+[[PAGE 487]]
+What kind of data are presented?
+■Categorical (indicating proportions or chi-square)?
+■Quantitative (indicating means)?
+What summary statistics are given?
+■A sample proportion?
+■A sample mean and standard deviation?
+■Sample counts (leading to chi-square inference)?
+■A sample slope?
+What specifically are you asked to do?
+■Estimate a quantity (indicating a confidence interval)?
+■Look for evidence to test a claim (indicating a hypothesis
+test)?
+How was the data collected?
+■From one sample or two samples?
+■Is there pairing of data (is information lost if the data in either
+set are shuffled around)?
+If a hypothesis test is indicated, should you use a one-tailed or two-
+tailed test?
+■Are we looking for a difference from some particular value or
+to see whether nothing has changed (indicating a two-tailed
+test)?
+■Are we looking for a change in a specific direction (indicating a
+one-tailed test)?
+Which distribution should be used for inference problems?
+■Proportions? Use z.
+■Means? Use t.
+■Counts? Use χ2.
+What is the context of the question?
+■Underline or circle the context!
+
+[[PAGE 488]]
+■A response should always refer to the context in the
+conclusion.
+What conditions need to be addressed?
+■Independence assumption
+1. Random sampling or random assignment
+2. n ≤ 0.10N if sampling without replacement
+3. Independence across samples if comparing more than one
+population
+■Normality assumption
+1. For proportions, check that np and nq are both ≥ 10.
+2. For means, check that either the population is roughly
+normal or the sample size is large (n ≥ 30).
+3. For means, if we are not given that the population is
+roughly normal, for small samples (n < 30) the sample data
+should be free from strong skewness and outliers.
+4. For counts, check that all expected cells are > 5 (for
+increasing df, the χ2 distribution approaches a normal
+distribution).
+Example
+What procedure is called for with the data below?
+Of course this is impossible to answer without knowing context!
+(a) A random sample of five students signing up for a private
+tutoring service take a pretest and a posttest with scores on the
+50-point tests given below.
+Student
+A
+B
+C
+D
+E
+Pretest
+score
+Posttest
+score
+
+[[PAGE 489]]
+What procedure should be used to find a 95% confidence
+interval for the mean difference in score results (posttest score
+minus pretest score) for students who use the tutoring service?
+(b) In a random sample of 400 attendees at a Cubs–White Sox
+game, favorite team is cross-classified against favorite reading
+genre. The following table shows the data.
+Science
+Fiction
+Romance
+Sports
+Mystery
+History
+Cubs
+White Sox
+Which procedure should be used to test whether or not there is
+an association between favorite team and favorite reading
+genre?
+(c)
+A miniature golf course offers two nine-hole courses. A random
+sample of five players who play both courses shows the
+following scores.
+A
+B
+C
+D
+E
+Course 1
+Course 2
+The franchise owner is interested in using a player’s score on
+one of the courses to predict his or her score on the other
+course. What procedure should be used?
+(d) A school’s AP coordinator picks a random sample of five
+students who claim to have stayed up all night studying for a
+next day’s AP exam and an independent random sample of five
+students who claim to have had a good night’s sleep the night
+before the AP exam. Their scores on the exam are in the table
+below.
+
+[[PAGE 490]]
+Student
+A
+B
+C
+D
+E
+No sleep
+Sleep
+What procedure should the AP coordinator use to determine if
+there is a statistically significant difference in the mean scores
+obtained by students who stay up all night studying and those
+who have a good night’s sleep before the exam?
+Solutions
+(a) The pretest and posttest data are not independent. This is a
+paired data test, so we cannot use two-sample inference. No
+population standard deviation is given, so we will use a t-
+procedure rather than a z-procedure. Use a one-sample t-
+interval on the set of differences.
+(b) There is a single sample cross-classified on two variables
+(rather than samples from two or more populations and a single
+categorical variable), so use a chi-square test of independence
+(rather than a chi-square test of homogeneity).
+(c)
+See if a scatterplot looks roughly linear. If so, find the regression
+line equation. and use for predicting the value of one variable
+from the value of the other.
+(d) We have two independent samples, are asked to determine if
+there is a significant difference (rather than a confidence
+interval) between two means, and are not given any population
+standard deviation (so we must use a t-procedure rather than a
+z-procedure). Use a two-sample t-test for the difference of two
+population means.
+The following quizzes, Quiz 31 and Quiz 32, evaluate your ability to
+name procedures, define parameters, list conditions to be checked,
+and state hypotheses if appropriate.
+
+########## SECTION statistics-barrons-2027-ref-s02 | Graphical Displays | PDF pages 704-705 ##########
+
+[[PAGE 704]]
+Graphical Displays
+
+[[PAGE 705]]
+If both np ≥ 10 and n(1 – p) ≥ 10, then
+has a roughly normal distribution.
+If either the original population is normal or the sample size is large enough (n ≥ 30), then
+has a
+roughly normal distribution, and
+has a roughly t-distribution with df = n – 1.
+
+########## SECTION statistics-barrons-2027-ref-s03 | Guide to Inference | PDF pages 705-707 ##########
+
+[[PAGE 705]]
+Guide to Inference
+Confidence interval for proportions:
+Confidence interval for means:
+
+[[PAGE 706]]
+Hypothesis test for proportions:
+Hypothesis test for means:
+
+[[PAGE 707]]
+Hypothesis test for chi-square:
+*Calculators refers to TI-84, Casio Prizm, and HP Prime.
+TEMPLATES
+Following are 25 templates with examples to help you word your free-response answers. Remember, it
+is imperative that you communicate in your responses what you want the reader to understand. Correct
+calculations and answers will not give you full credit if you do not explain what the numbers mean
+within the context of the problem.
+Describing a one-variable distribution
+The distribution of (context) has a shape that is roughly (symmetric/unimodal/bimodal/bell-
+shaped/skewed left/skewed right/uniform), (center/mean/median) of ____, (range of ____ /IQR of
+____ /spread from ____ to ____), and unusual features of (outliers, gaps, clusters).
+Example: In a competition among Gen X gamers, the distribution of Tetris scores was unimodal
+and roughly symmetric with a median of 160,000, a range of 175,000, a possible outlier at
+260,000, and a gap between 240,000 and 260,000.
+Comparing one-variable distributions
+The (first distribution in context) has a ____ shape that is (similar/not similar) to the (second
+distribution in context) that has a ____ shape, the (first distribution in context) has a
+(larger/smaller/equal) center to the (second distribution in context), the (first distribution in context)
+has a (larger/smaller/equal) variability to the (second distribution in context), and the (distribution in
+context) has (outliers/gaps/clusters) although the (distribution in context) (also does/doesn’t).
+Example: At the end of the 2018–2019 season, the distribution of wins among the 15 teams in the
+Eastern NBA Conference (EC) was roughly bell-shaped, which is different from the distribution of
+wins among the 15 teams in the Western NBA Conference (WC) that was roughly uniform with a
+low outlier. The WC distribution had a greater center, while the EC distribution had a greater
+spread. The WC distribution had an apparent outlier at 19 and a gap between 19 and 33, which
+was different from the EC distribution that had no apparent outliers or gaps.
+Interpreting the standard deviation
+
+########## SECTION statistics-barrons-2027-ref-s04 | Templates | PDF pages 707-711 ##########
+
+[[PAGE 707]]
+Hypothesis test for chi-square:
+*Calculators refers to TI-84, Casio Prizm, and HP Prime.
+TEMPLATES
+Following are 25 templates with examples to help you word your free-response answers. Remember, it
+is imperative that you communicate in your responses what you want the reader to understand. Correct
+calculations and answers will not give you full credit if you do not explain what the numbers mean
+within the context of the problem.
+Describing a one-variable distribution
+The distribution of (context) has a shape that is roughly (symmetric/unimodal/bimodal/bell-
+shaped/skewed left/skewed right/uniform), (center/mean/median) of ____, (range of ____ /IQR of
+____ /spread from ____ to ____), and unusual features of (outliers, gaps, clusters).
+Example: In a competition among Gen X gamers, the distribution of Tetris scores was unimodal
+and roughly symmetric with a median of 160,000, a range of 175,000, a possible outlier at
+260,000, and a gap between 240,000 and 260,000.
+Comparing one-variable distributions
+The (first distribution in context) has a ____ shape that is (similar/not similar) to the (second
+distribution in context) that has a ____ shape, the (first distribution in context) has a
+(larger/smaller/equal) center to the (second distribution in context), the (first distribution in context)
+has a (larger/smaller/equal) variability to the (second distribution in context), and the (distribution in
+context) has (outliers/gaps/clusters) although the (distribution in context) (also does/doesn’t).
+Example: At the end of the 2018–2019 season, the distribution of wins among the 15 teams in the
+Eastern NBA Conference (EC) was roughly bell-shaped, which is different from the distribution of
+wins among the 15 teams in the Western NBA Conference (WC) that was roughly uniform with a
+low outlier. The WC distribution had a greater center, while the EC distribution had a greater
+spread. The WC distribution had an apparent outlier at 19 and a gap between 19 and 33, which
+was different from the EC distribution that had no apparent outliers or gaps.
+Interpreting the standard deviation
+
+[[PAGE 708]]
+The mean distance between individual (values in context) and the mean (context) is approximately
+____.
+Example: Given that the number of Facebook friends of high school students has a mean of 13.5
+and a standard deviation of 3.4, the mean distance between the number of Facebook friends of
+individual high school students and 13.5 is approximately 3.4.
+Interpreting a z-score
+The (value in context) is ____ standard deviations (above/below) the mean (value in context).
+Example: A student has a GPA, which is 0.85 standard deviations below the mean GPA of all
+students.
+Describing a scatterplot
+There is a (strong/moderate/weak), (positive/negative), (linear/nonlinear) association between (the
+explanatory variable x in context) and (the response variable y in context).
+Example: There is a moderate, negative, roughly linear association between the average number of
+minutes people sit during a day and their life expectancy in years.
+Interpreting the slope
+The predicted increase in (response variable y in context) is ___ for each unit increase in (explanatory
+variable x in context).
+Example: The predicted increase in number of calories burned is 6.55 for each additional minute
+walked at 4 mph.
+Interpreting the y-intercept
+____ is the predicted value of the (response variable y in context) when the (explanatory variable x in
+context) is equal to 0.
+Example: 0.142 is the predicted batting average for a high school player who spends 0 time in the
+batting cage.
+Interpreting R-squared, the coefficient of determination
+____% of the variation in (the y-variable in context) is accounted for by the linear model relating (the y-
+variable in context) to (the x-variable in context).
+Example: 38% of the variation in incidence of skin cancer is accounted for by the linear model
+relating incidence of skin cancer to the SPF (sun protection factor) value of sunscreen used.
+Picking a reasonable value for a correlation
+Given a (weak/moderate/strong), (positive/negative), linear association between ____ and ____, a
+reasonable value for the correlation is (a number between −1 and +1).
+Example: Given a strong, negative, linear association between resting heart rate and weekly hours
+of exercise, a reasonable value for the correlation is −0.83.
+Making a conclusion when the scatterplot shows a linear association and the residual plot
+has no definite pattern
+
+[[PAGE 709]]
+Because the scatterplot shows a linear association and the residual plot shows a random scatter, it
+appears that a linear model relating (the y-variable in context) to (the x-variable in context) (is)
+reasonable.
+Example: Because the scatterplot shows a linear association and the residual plot shows a random
+scatter, it appears that a linear model relating grades for research papers to length of the papers is
+reasonable.
+Making a conclusion when the residual plot has a definite pattern
+Because the residual plot shows a definite pattern, a linear model relating (the y-variable in context) to
+(the x-variable in context) (is not) not appropriate.
+Example: Because the residual plot shows a definite pattern, ∩-shaped, a linear model relating
+mpg to car speed is not appropriate.
+Describing how to use a random number generator to pick a simple random sample
+Number the subjects 1, 2, 3, …, n. Use a random number generator to generate integers between 1 and
+n, throwing out repeats, until x unique integers have been selected. The sample consists of the subjects
+with numbers corresponding to the x generated integers.
+Example: To pick an SRS of 10 students from a classroom of 25 students, number the students
+from 1 through 25. Use a random number generator to generate integers between 1 and 25,
+throwing out repeats, until 10 unique integers have been selected. The sample consists of the 10
+students with numbers corresponding to the 10 generated integers.
+Performing a normal distribution probability calculation
+We have a normal distribution with μ = ____ and σ = ____. P(X >/< ____ ) = ____.
+[You do not have to show whether you used a formula or calculator software.]
+Example: We have a roughly normal distribution with mean μ = 25 and standard deviation σ = 10.
+Then the probability a student’s backpack weighs over 30 pounds is P( X > 30) = 0.309.
+Performing a binomial distribution probability calculation
+We have a binomial distribution with n = ____ and p = ____. P(X =/>/</≥/≤ ____ ) = ____.
+[You do not have to show whether you used a formula or calculator software.]
+Example: We have a binomial distribution with n = 25 and p = 0.63. Then P( X ≥ 15) = 0.702.
+Describing a sampling distribution
+The sampling distribution for (p̂ / x̅ /b) is approximately normal with mean (p = ____ OR μ = ____ OR
+β =____ ) and standard deviation
+.
+Example: The sampling distribution of x̅ is approximately normal with mean μ = 25 and standard
+deviation
+.
+Checking conditions for inference
+We check (1) the randomization condition (random sample), (2) the 10% condition (if sampling without
+replacement, the sample is less than the 10% of the population), and (3) the normality condition (for
+proportions: np≥ 10 and n(1 – p) ≥ 10; and for means: either the population is roughly normal OR the
+sample size n ≥ 30 OR the sample distribution has no strong skewness or outliers).
+
+[[PAGE 710]]
+Example (proportions): We check the randomization condition (we are given an SRS), the 10%
+condition (n = 125 < 10% of all students), and the normality condition (n p̂ = (125)(0.61) = 76.25
+≥ 10 and n(1 − p̂ ) = (125)(0.39) = 48.75 ≥ 10.
+Example (means): We check the randomization condition (it is stated that the sample was
+randomly chosen), the 10% condition (n = 35 < 10% of all teachers), and the normality condition
+(n = 35 ≥ 30).
+Interpreting a confidence interval
+We are ____ % confident that the true (proportion/mean in context) is between ____ and ____.
+Example: We are 95% confident that the true proportion of people who leave a tip at fast-food
+restaurants like McDonald’s and Starbucks is between 0.13 and 0.19.
+Interpreting a confidence level
+If we take all possible samples of (size in context) and if a confidence interval for the (proportion/mean
+in context) is constructed from each sample, then ____ % of these intervals will capture the true
+(proportion/mean in context).
+Example: If all possible samples of 40 smartphones are analyzed as to battery length and if a
+confidence interval for the mean battery length is constructed from each sample, then 90% of
+these intervals would capture the true mean battery length.
+Interpreting a p-value
+Assuming that (the null hypothesis in context) is true, there is a probability of ____ of getting a sample
+(proportion/mean) as extreme as or more extreme than the one observed by chance alone in a random
+sample of (size in context).
+Example: Assuming that 12% of American adults believe that Sodom and Gomorrah were husband
+and wife, there is a probability of 0.083 of getting a sample proportion of 0.135 or higher by
+chance alone in a random sample of 900 American adults.
+Concluding a hypothesis test when rejecting the null hypothesis
+Because the p-value is so small, p = ____ < (significance level), there is sufficient evidence to reject the
+null hypothesis. There is convincing evidence that (alternative hypothesis in context).
+Example: With this small a p-value, p = 0.031 < 0.05, there is sufficient evidence to reject the null
+hypothesis. There is convincing evidence that less than 30% of all teenagers can name two current
+Supreme Court justices.
+Concluding a hypothesis test when failing to reject the null hypothesis
+Because the p-value is so large, p = ____ > (significance level), there is not sufficient evidence to reject
+the null hypothesis. There is not convincing evidence that (alternative hypothesis in context).
+Example: With this large a p-value, p = 0.18 > 0.05, there is not sufficient evidence to reject the
+null hypothesis. There is not convincing evidence that the mean age of all high school teachers is
+over 45.
+Interpretating a Type I error
+Because the p-value was small, there was sufficient evidence to reject the (null hypothesis in context).
+However, the null hypothesis might have been true, in which case we committed a Type I error. A
+
+[[PAGE 711]]
+possible consequence would be ____.
+Example: Because of a small p-value, there was sufficient evidence to reject the null hypothesis
+that a medication is not effective. However, if the medication really is not effective, a Type I error
+would have been committed. A possible consequence is that patients will not recover because they
+will continue to be treated with an ineffective medication.
+Interpretating a Type II error
+Because the p-value was large, there was not sufficient evidence to reject the (null hypothesis in
+context). However, the null hypothesis might have been false, in which case we committed a Type II
+error. A possible consequence would be ____.
+Example: Because of a large p-value, there is not sufficient evidence to reject the null hypothesis
+that a new teaching method fails to improve student performance. However, if the new teaching
+method really does improve student performance, a Type II error would have been committed. A
+possible consequence is that a school district will not adopt a new teaching method that would
+have helped their students.
+Interpreting power
+There is a (power) probability of correctly rejecting the null hypothesis.
+Example: With H0: a medical device is operating correctly, there is a 0.92 probability of correctly
+recognizing that the medical device is not operating correctly.
+
+########## SECTION statistics-barrons-2027-ref-s05 | Names of Procedures | PDF pages 711-711 ##########
+
+[[PAGE 711]]
+Names of Procedures
+When asked to identify the appropriate inference procedure, the answer should be a complete proper
+name as in the following expressions.
+One-sample z-interval for a population proportion
+One-sample z-test for a population proportion
+Two-sample z-interval for a difference between two population proportions
+Two-sample z-test for a difference between two population proportions
+Chi-square test for homogeneity
+Chi-square test for independence
+One-sample t-interval for a population mean
+One-sample t-interval for a population mean difference (with a matched pairs design)
+One-sample t-test for a population mean
+One-sample t-test for a population mean difference (with a matched pairs design)
+Two-sample t-interval for a difference between two population means
+Two-sample t-test for a difference between two population means

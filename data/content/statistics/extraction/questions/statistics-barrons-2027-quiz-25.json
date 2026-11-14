@@ -1,0 +1,964 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-25",
+ "kind": "quiz",
+ "number": 25,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 25 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 25",
+ "pdf_page_start": 412,
+ "pdf_page_end": 419,
+ "answer_page_start": 747,
+ "answer_page_end": 749,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 412,
+      "bbox": [
+       141.0,
+       429.8,
+       294.0,
+       441.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 412,
+      "bbox": [
+       141.0,
+       451.5,
+       295.5,
+       464.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 412,
+      "bbox": [
+       141.0,
+       474.0,
+       294.8,
+       486.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 412,
+      "bbox": [
+       142.5,
+       497.2,
+       297.0,
+       509.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 412,
+      "bbox": [
+       108.5,
+       424.5,
+       129.0,
+       442.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 412,
+      "bbox": [
+       108.5,
+       447.0,
+       128.8,
+       465.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 412,
+      "bbox": [
+       108.5,
+       469.5,
+       129.0,
+       487.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 412,
+      "bbox": [
+       108.5,
+       492.0,
+       130.2,
+       510.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 412,
+     "bbox": [
+      349.5,
+      363.0,
+      356.2,
+      370.5
+     ]
+    }
+   ],
+   "page_start": 412,
+   "page_end": 412,
+   "stem": "In a government consumer publication, it is stated that middle- income families average $13,000 on child-related costs per year. A sociologist is investigating whether the true mean is now greater than what was published. A random sample of middle- income families had a sample mean of $13,800 per year. Assuming all conditions for inference are met, what are the hypotheses for a one-sample t-test ?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Hypotheses are always about population parameters, like μ, and never about sample statistics, like x̅ . You must look at the context to decide if the test is one-sided or two-sided. If the test is one- sided, you must determine the direction. In this case, the sociologist is interested in whether the true mean is greater than $13,000.",
+   "question_id": "statistics-barrons-2027-quiz-25-001",
+   "source_pages": [
+    412,
+    412
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, all conditions have been met.",
+    "B": "No, np is not given to be ≥ 10.",
+    "C": "No, the normality condition is violated.",
+    "D": "No, this is a convenience sample so any conclusion would be suspect."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 412,
+      "bbox": [
+       110.0,
+       666.0,
+       365.3,
+       684.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 412,
+      "bbox": [
+       110.0,
+       687.0,
+       344.2,
+       705.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 413,
+      "bbox": [
+       110.0,
+       72.0,
+       394.7,
+       90.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 413,
+      "bbox": [
+       110.0,
+       93.0,
+       521.6,
+       111.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 412,
+   "page_end": 413,
+   "stem": "A consumer group believes that a wine-dispensing vending machine is pouring less than the advertised 5 ounces. They randomly sample 22 glasses of wine from the machine. In the sample, most of the wine weights are between 4.95 and 5.03 ounces with a few of the weights being substantially larger. Is it appropriate for the consumer group to perform a one-sample t- test for the mean wine weight poured by the machine?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Since the sample size n = 22 < 30, the central limit theorem does not apply. In order to conclude approximate normality of the sampling distribution of x̅ , we either have to be told that the population is approximately normal, or failing that, that the sample distribution is roughly unimodal and symmetric so that it would not be unreasonable to assume the population is approximately normal. However, we are not given that the population is approximately normal, and we are told that the sample distribution is skewed right. Thus, the normality condition is violated.",
+   "question_id": "statistics-barrons-2027-quiz-25-002",
+   "source_pages": [
+    412,
+    413
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       234.0,
+       213.8,
+       257.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       261.8,
+       215.2,
+       289.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       294.0,
+       213.8,
+       316.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 413,
+      "bbox": [
+       142.5,
+       321.0,
+       215.2,
+       344.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       234.7,
+       129.0,
+       252.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       264.7,
+       128.8,
+       282.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       294.3,
+       129.0,
+       312.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       321.7,
+       130.2,
+       339.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 413,
+     "bbox": [
+      167.2,
+      190.5,
+      174.0,
+      198.0
+     ]
+    }
+   ],
+   "page_start": 413,
+   "page_end": 413,
+   "stem": "A baseball manufacturer believes that an average of 98 baseballs are used in MLB games and tests this hypothesis on a random sample of 100 games. The sample is found to have a mean of = 103.2 with a standard deviation of 4.8. Which of the following is the correct test statistic?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The numerator of the test statistic is the sample mean minus the assumed population mean, while the denominator is the sample standard deviation divided by the square root of the sample size. That is, .",
+   "question_id": "statistics-barrons-2027-quiz-25-003",
+   "source_pages": [
+    413,
+    413
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       464.2,
+       302.2,
+       488.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       492.8,
+       302.2,
+       516.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 413,
+      "bbox": [
+       141.0,
+       521.2,
+       308.2,
+       545.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 413,
+      "bbox": [
+       142.5,
+       549.8,
+       309.8,
+       573.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       465.3,
+       129.0,
+       483.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       493.8,
+       128.8,
+       511.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       522.3,
+       129.0,
+       540.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 413,
+      "bbox": [
+       108.5,
+       550.8,
+       130.2,
+       568.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 413,
+     "bbox": [
+      180.0,
+      420.8,
+      186.8,
+      428.2
+     ]
+    }
+   ],
+   "page_start": 413,
+   "page_end": 413,
+   "stem": "A pharmaceutical company claims that a medicine will produce a desired effect for a mean time of 58.4 minutes. A government researcher runs a hypothesis test of 40 patients and calculates a mean of 59.5 with a standard deviation of s = 8.3. What is the p-value? (Assume that all conditions for inference are met.)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The population standard deviation is unknown, so this is a t-test. Medications having an effect shorter or longer than claimed should be of concern, so this is a two-sided t-test: Ha: μ ≠ 58.4, and df = n − 1 = 40 − 1 = 39.",
+   "question_id": "statistics-barrons-2027-quiz-25-004",
+   "source_pages": [
+    413,
+    413
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability is 0.035 that the null hypothesis is true.",
+    "B": "The probability is 0.035 that the null hypothesis is false.",
+    "C": "If the null hypothesis were true, the probability would be 0.035 of obtaining a sample mean as great as or greater than the observed sample mean.",
+    "D": "The sample mean is 0.035 standard errors greater than the hypothesized mean of 5."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 413,
+      "bbox": [
+       110.0,
+       701.2,
+       505.8,
+       719.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       72.0,
+       509.4,
+       90.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       93.0,
+       516.4,
+       111.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       150.0,
+       534.0,
+       168.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 413,
+   "page_end": 414,
+   "stem": "A Fish and Game Department inspector is testing mercury content of fish in an area and will close the area to fishing if fish have a mean mercury content over 5 ppm. Suppose that a hypothesis test results in a t-statistic of 0.035. Which of the following is the best interpretation of this value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The test statistic in a hypothesis test for a population mean is ; that is, it is the number of standard errors the sample mean is away from the hypothesized mean. Be careful not to confuse the test statistic with the p-value.",
+   "question_id": "statistics-barrons-2027-quiz-25-005",
+   "source_pages": [
+    413,
+    414
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability is 0.051 that the mean beer consumption per adult age 21 and over is greater than 28.2 gallons.",
+    "B": "The probability is 0.051 that the mean beer consumption per adult age 21 and over is greater than 29.4 gallons.",
+    "C": "If the mean beer consumption per adult age 21 and over is 28.2 gallons, the probability is 0.051 that a randomly selected group of adults age 21 and over consumes a mean of 29.4 gallons or more.",
+    "D": "If the mean beer consumption per adult age 21 and over is greater than 28.2 gallons, the probability is 0.051 that a randomly selected group of adults age 21 and over consumes a mean of 29.4 gallons or more."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       345.0,
+       516.5,
+       363.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       384.0,
+       516.3,
+       402.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       423.0,
+       531.6,
+       441.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 414,
+      "bbox": [
+       110.0,
+       498.0,
+       532.8,
+       516.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 414,
+   "page_end": 414,
+   "stem": "A published study states that U.S. beer consumption per adult age 21 and over is 28.2 gallons per person, per year. A brewer believes that because of difficult economic times during the past several years, this number has gone up. He surveys 50 randomly selected adults over age 21 as to yearly beer consumption and obtains a sample mean of 29.4 gallons. A one-sample t-test results in a p-value of 0.051. Which of the following is a correct interpretation of the p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The p-value is the probability that, if many samples of size 50 were selected from the population, we would observe a sample mean of 29.4 gallons or more, given that the population mean is 28.2 gallons.",
+   "question_id": "statistics-barrons-2027-quiz-25-006",
+   "source_pages": [
+    414,
+    414
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Halting the production process when too many cords break",
+    "B": "Halting the production process when the breaking strength is below the specified level",
+    "C": "Halting the production process when the breaking strength is within specifications",
+    "D": "Allowing the production process to continue when the breaking strength is within specifications"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       72.0,
+       530.6,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       93.0,
+       529.2,
+       111.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       132.0,
+       529.4,
+       150.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       171.0,
+       497.0,
+       189.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 414,
+   "page_end": 415,
+   "stem": "A company manufactures a synthetic rubber bungee cord with a braided covering of natural rubber and a minimum breaking strength of 450 kg. If the mean breaking strength of a sample drops below a specified level, the production process is halted and the machinery inspected. Which of the following would result from a Type I error?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "This is a hypothesis test with H0: breaking strength is within specifications, and Ha: breaking strength is below specifications. A Type I error is committed when a true null hypothesis is mistakenly rejected. In this context, a Type I error would be committed if the breaking strength is within specifications, but because the sample wrongly indicates a drop below the specified level, the production process is unnecessarily halted.",
+   "question_id": "statistics-barrons-2027-quiz-25-007",
+   "source_pages": [
+    414,
+    415
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "0.01",
+    "B": "0.049",
+    "C": "0.05",
+    "D": "0.951"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       318.0,
+       168.6,
+       336.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       339.0,
+       176.6,
+       357.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       360.0,
+       168.6,
+       378.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       381.0,
+       178.0,
+       399.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 415,
+   "page_end": 415,
+   "stem": "Suppose you do five independent tests of the form H0: μ = 38 versus Ha: μ > 38, each at the α = 0.01 significance level. What is the probability of committing a Type I error and incorrectly rejecting a true null hypothesis with at least one of the five tests?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "P(at least one Type I error) = 1 − P(no Type I errors) = 1 − (0.99)5 = 0.049",
+   "question_id": "statistics-barrons-2027-quiz-25-008",
+   "source_pages": [
+    415,
+    415
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "Decrease in probability of a Type I error; decrease in probability of a Type II error; decrease in power",
+    "B": "Increase in probability of a Type I error; increase in probability of a Type II error; decrease in power",
+    "C": "Decrease in probability of a Type I error; decrease in probability of a Type II error; increase in power",
+    "D": "Decrease in probability of a Type I error; increase in probability of a Type II error; increase in power"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       522.0,
+       488.5,
+       540.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       561.0,
+       479.8,
+       579.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       600.0,
+       488.6,
+       618.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 415,
+      "bbox": [
+       110.0,
+       639.0,
+       485.3,
+       657.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 415,
+     "bbox": [
+      510.0,
+      442.5,
+      516.8,
+      450.0
+     ]
+    }
+   ],
+   "page_start": 415,
+   "page_end": 415,
+   "stem": "Given an experiment with H0: μ = 35, Ha: μ < 35, and a possible correct value of 32, you obtain a sample statistic of = 33. After doing analysis, you realize that the sample size n is actually larger than you first thought. Which of the following results from reworking with the increase in sample size?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "A larger sample size n reduces the standard deviation of the sampling distribution, resulting in a narrower sampling distribution. So, for the given sample statistic, the p-value is smaller, and the probabilities of mistakenly rejecting a true null hypothesis or mistakenly failing to reject a false null hypothesis are both decreased. Furthermore, a lower Type II error results in higher power.",
+   "question_id": "statistics-barrons-2027-quiz-25-009",
+   "source_pages": [
+    415,
+    415
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "Because the p-value is less than any reasonable level of significance, there is convincing evidence to support the belief that teenagers will rate the sound quality of LPs greater than that of CDs.",
+    "B": "Because the p-value is less than any reasonable level of significance, there is not convincing evidence to support the belief that teenagers will rate the sound quality of LPs greater than that of CDs.",
+    "C": "Because the p-value is greater than any reasonable level of significance, there is convincing evidence to support the belief that teenagers will rate the sound quality of LPs greater than that of CDs.",
+    "D": "Because the p-value is greater than any reasonable level of significance, there is not convincing evidence to support the belief that teenagers will rate the sound quality of LPs greater than that of CDs."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 416,
+      "bbox": [
+       110.0,
+       321.0,
+       508.5,
+       339.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 416,
+      "bbox": [
+       110.0,
+       396.0,
+       508.3,
+       414.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 416,
+      "bbox": [
+       110.0,
+       471.0,
+       531.5,
+       489.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 416,
+      "bbox": [
+       110.0,
+       546.0,
+       519.7,
+       564.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 416,
+   "page_end": 416,
+   "stem": "A recording industry producer believes that teenagers will rate the sound quality of LPs (vinyl records) greater than that of CDs (compact discs). He randomly selects 100 teenagers to participate in an experiment. For each teen, the producer plays the same music selection, either first on an LP and then on a CD or in the other order depending on a flip of a coin. The teens listen through earphones and are blinded as to the source of the music. Each teen rates each of the two recordings on a 1 to 10 quality scale. Using a one-sample t-test for a population mean difference (with a matched pairs design), the producer obtains a p-value of 0.295. Assuming the conditions for inference have been met, which of the following is the best conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "This is a hypothesis test of a set of differences (LP rating minus CD rating) with H0: μd = 0 and Ha: μd > 0. Typical levels of significance are 0.01, 0.05, and 0.10. When the p-value is greater than the significance level, there is not sufficient evidence to reject H0; that is, there is not convincing evidence of Ha.",
+   "question_id": "statistics-barrons-2027-quiz-25-010",
+   "source_pages": [
+    416,
+    416
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 417,
+   "page_end": 417,
+   "stem": "A particular wastewater treatment system aims at reducing the most probable number per mL (MPN per mL) of E. coli to 1,000 MPN per 100 mL. A random study of 40 of these systems in current use is conducted with the data showing a mean of 1,002.4 MPN per 100 mL and a standard deviation of 7.12 MPN per 100 mL. A test of significance is conducted with: H0: The mean concentration of E. coli after treatment under this system is 1,000 MPN per 100 mL. Ha: The mean concentration of E. coli after treatment under this system is greater than 1,000 MPN per 100 mL. The resulting p-value is 0.0197 with df = 39 and t = 2.132. (a) Interpret the p-value in the context of this study. (b) What conclusion should be drawn at a 5% significance level? (c) Given this conclusion, what possible error, Type I or Type II, might be committed? Give a possible consequence of committing this error.",
+   "correct_answer": null,
+   "answer_text": "(a) The p-value of 0.0197 gives the probability of observing a sample mean of 1,002.4 or greater if, in fact, this system results in a mean E. coli concentration of 1,000 MPN per 100 mL. (b) Since 0.0197 < 0.05, there is sufficient evidence to reject H0; that is, there is convincing evidence that the mean E. coli concentration is greater than 1,000 MPN per 100 mL. (c) With rejection of the null hypothesis, there is the possibility of a Type I error—that is, of mistakenly rejecting a true null hypothesis. Possible consequences are that sales of the system drop even though the system is doing what it claims or that the company performs an overhaul to fix the system even though the system is properly reducing the mean concentration of E. coli to 1,000 MPN per 100 mL.",
+   "question_id": "statistics-barrons-2027-quiz-25-011",
+   "context": "",
+   "source_pages": [
+    417,
+    417
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 418,
+     "bbox": [
+      452.2,
+      79.5,
+      459.0,
+      87.0
+     ]
+    }
+   ],
+   "page_start": 417,
+   "page_end": 418,
+   "stem": "A recent study reported that college students work an average of 25 hours per week over the summer break. A guidance counselor believes that students at her large college work more than this. To collect data, she will randomly sample 50 out of the 6,000 students at the college. (a) What is the population of interest? (b) Explain how the counselor could obtain an SRS of 50 students. (c) Based on the sample, the counselor calculates = 26.4 with s = 7.1. At a significance level of α = 0.05, do the data provide convincing statistical evidence to support the counselor’s claim? Complete an appropriate inference procedure to support your answer.",
+   "correct_answer": null,
+   "answer_text": "(a) The population of interest is all students at the counselor’s college. (b) Number the students at the college from 1 to 6,000. Use a random number generator to generate 50 unique numbers between 1 and 6,000. The students whose numbers correspond to the generated numbers will be the sample. (c) Parameter: Let μ represent the mean number of hours worked over the summer break by all students at the college. Hypotheses: H0: μ = 25, Ha: μ > 25 Procedure: A one-sample t-test of a population mean Checks: We are given a simple random sample, and the sample size n = 50 is less than 10% of the population of N = 6,000. The normality condition is satisfied because the sample size n = 50 ≥ 30, so the central limit theorem applies. Conducting a t-test is appropriate. Mechanics: Calculator software gives t = 1.394 and a p-value of 0.085. Conclusion in context with linkage to the p-value: With this large a p-value, 0.085 > 0.05, there is not sufficient evidence to reject the null hypothesis. There is not convincing evidence to support the counselor’s claim that the true mean number of hours per week worked over summer break by students at her college is greater than 25.",
+   "question_id": "statistics-barrons-2027-quiz-25-012",
+   "context": "",
+   "source_pages": [
+    417,
+    418
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 418,
+     "bbox": [
+      123.0,
+      339.0,
+      489.0,
+      406.5
+     ]
+    }
+   ],
+   "page_start": 418,
+   "page_end": 418,
+   "stem": "A random sample of 20 nonmanagerial employees in the restaurant industry are matched into 10 pairs, where each pair has employees of similar ages, similar job descriptions, and similar years of experience. However, one of each pair belongs to a union and the other does not. Statistics from their weekly salaries excluding tips are calculated for union employees, for nonunion employees, and for differences (union minus nonunion) from each pair. Weekly salary excluding tips (in dollars) Standard Number Mean deviation Union 10 791.4 94.3 Nonunion 10 665.0 92.1 Differences 10 126.4 66.4 Do the data provide convincing statistical evidence that the mean salary of the nonmanagerial union employees is greater than the mean salary of the nonmanagerial nonunion employees? Complete an appropriate inference procedure at the 1% significance level to support your answer.",
+   "correct_answer": null,
+   "answer_text": "Because the data come in pairs, the proper procedure is to perform a single-sample hypothesis test on the set of differences. Parameter: Let μd represent the mean difference (union minus non-union) in weekly salaries. Hypotheses: H0:μd = 0, Ha: μd > 0 Procedure: A one-sample t-test for a population mean difference (union minus nonunion). Checks: We are given a random sample, and the sample size is less than 10% of the population of nonmanagerial employees in the restaurant industry. The normality condition is satisfied because the sample data (the dotplot of differences) does not show strong skew or outliers. Conducting a t- test is appropriate. Mechanics: Calculator software with x̅ = 126.4 and s = 66.4 gives t = 6.02 and a p-value of",
+   "question_id": "statistics-barrons-2027-quiz-25-013",
+   "context": "",
+   "source_pages": [
+    418,
+    418
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 13,
+ "mcq_count": 10,
+ "frq_count": 3
+}

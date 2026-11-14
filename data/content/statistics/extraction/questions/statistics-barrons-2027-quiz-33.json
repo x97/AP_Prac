@@ -1,0 +1,317 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-33",
+ "kind": "quiz",
+ "number": 33,
+ "unit_no": 6,
+ "title": "Barron's AP Statistics 2027 Quiz 33 — Unit 6",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 33",
+ "pdf_page_start": 498,
+ "pdf_page_end": 512,
+ "answer_page_start": 760,
+ "answer_page_end": 766,
+ "has_mcq": false,
+ "questions": [
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 500,
+     "bbox": [
+      191.2,
+      72.0,
+      420.8,
+      354.0
+     ]
+    }
+   ],
+   "page_start": 498,
+   "page_end": 500,
+   "stem": "A 2023 Oxfam press release stated that the richest 1% take in twice as much new wealth as the rest of the world put together.1 One way in which the distribution of wealth throughout the world can be analyzed is illustrated below (where GDP refers to Gross Domestic Product and Oceania is a region centered on the islands of the tropical Pacific Ocean). (a) Fill in the blank cells in the table below. Wealth Population % of World (GDP) (in % of World Region (in millions) Population billions) GDP Africa 1,341 2,995 Asia 4,641 40,248 Oceania 43 2,002 Europe 748 24,881 U.S./Canada 369 31,319 Latin 654 4,068 America World Total 7,796 105,513 100.0 100.0 (b) Construct a segmented bar chart with two bars from the above table, and comment on its significance. (c) Consider the following graph: What do the slopes of the six slanted lines represent? Use these slopes to give an appropriate ranking of the six regions. (d) The particular quantitative index used in a statistical study can make a marked difference. For example, an alternative to the GDP for measuring the wealth of a nation is the GPI (Genuine Progress Indicator).2 The GPI takes into account negative factors, such as industrial pollution, depletion of natural resources, and crime rates, as well as positive factors, such as socially productive time uses like volunteerism. Give an example of how changing the quantitative index from GDP to GPI might affect the relative position of U.S./Canada and Oceania in part (c).",
+   "correct_answer": null,
+   "answer_text": "9 Europe 748",
+   "question_id": "statistics-barrons-2027-quiz-33-001",
+   "context": "",
+   "source_pages": [
+    498,
+    500
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 501,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      261.8
+     ]
+    }
+   ],
+   "page_start": 500,
+   "page_end": 501,
+   "stem": "The United States has the second highest incarceration rate in the world (second only to the small African country of Seychelles).3 One study4 of incarceration rates and ages summarized their findings in the following graph: (a) What is the meaning of the point (25, 15) on the Black graph? (b) What is the meaning of the horizontal segment on the White graph from ages 60 to 70? (c) What is the median age at first incarceration of Hispanics who ever went to prison? (d) Some states are considering legislation to address the disproportionate school suspensions among students of color. How might this affect the above graphs?",
+   "correct_answer": null,
+   "answer_text": "(a) Fifteen percent of all U.S. Black men are likely to go to prison for the first time by age 25. (b) No U.S. White males are likely to go to prison for the first time between ages 60 and 70. (c) Age 30. The graph indicates that 16% of all U.S. Hispanic males are likely to go to prison, and half of them (corresponding to 8% on the vertical axis) will go to prison for the first time by age 30. (d) Answers should explain how addressing the disproportionate suspensions among students of color should lower the initial slopes of the Black and Hispanic graphs. An answer might also conclude that dismantling the school-to-prison pipeline would move the x-intercept for all 3 curves to the right—that is, raise the ages for first admissions to prison for all young people.",
+   "question_id": "statistics-barrons-2027-quiz-33-002",
+   "context": "",
+   "source_pages": [
+    500,
+    501
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 501,
+   "page_end": 502,
+   "stem": "SAT used to stand for “Scholastic Aptitude Test,” but some researchers suggest it also stands for “Student Affluence Test.”5 There appears to be an association between mean total SAT scores and family income level. One study is summarized in the following table: 2015 College-Bound High School Students Income Bracket ($) Total SAT Score 0–20,000 876 20,000–40,000 933 40,000–60,000 972 Income Bracket ($) Total SAT Score 60,000–80,000 1000 80,000–100,000 1029 100,000–120,000 1054 120,000–140,000 1061 140,000–160,000 1077 160,000–200,000 1091 Over 200,000 1147 Using the median income within each of the first 9 income brackets and a $210,000 income from the last bracket, computer output yields the following: Predictor Coef SE Coef T P Constant 903.36 112.57 71.85 0.000 Income 0.00116 0.000104 11.17 0.000 S = 20.936 R-Sq = 94.0% (a) What is the equation of the regression line? (b) Interpret the slope of the regression line in context. (c) What is the coefficient of determination? Interpret it in context. (d) What is the residual if a family has $63,500 income and a student has a score of 970? What does this mean in context? (e) What is the meaning of S = 20.936? (f) Why is it not reasonable to conclude that the best way to raise SAT scores is to raise family incomes? Explain, giving a possible confounding variable that could suggest an alternative approach to raising SAT scores.",
+   "correct_answer": null,
+   "answer_text": "(a) Predicted total SAT = 903.36 + 0.00116(Income) (b) Every $1,000 of additional family income is associated with an average of 1.16 points higher on a student’s total SAT score. (c) The coefficient of determination R2 = 94.0%. That is, 94.0% of the variation in total SAT scores is explained by a linear relationship between total SAT and Family Income. (d) Predicted Total SAT = 903.36 + 0.00116(63,500) = 977.02 Residual = Actual − Predicted = 970 − 977.02 = −7.02; that is, the actual total SAT score of this student is 7.02 less than what was predicted by the family income. (e) S = 20.936 is the standard deviation of the residuals. In other words, it is a measure of how the points are vertically spread around the regression line. (f) Correlation does not imply causation. A possible confounding variable, for example, could be instructional money spent per student. Leveling per student expenditures across school districts might lead to higher SAT scores in economically disadvantaged areas.",
+   "question_id": "statistics-barrons-2027-quiz-33-003",
+   "context": "",
+   "source_pages": [
+    501,
+    502
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 503,
+     "bbox": [
+      168.8,
+      226.5,
+      443.2,
+      406.5
+     ]
+    },
+    {
+     "page": 504,
+     "bbox": [
+      123.0,
+      118.5,
+      489.0,
+      304.5
+     ]
+    }
+   ],
+   "page_start": 503,
+   "page_end": 504,
+   "stem": "It is estimated that 700 million people worldwide live in extreme poverty. With regard to foreign policy, governments invest in hard power (military) and soft power (development aid). The cost of deploying one soldier overseas is the same as producing 100 village wells. Countries spend widely different percentages of their Gross National Income (GNI) on development aid. A random sample of 12 countries plus the United States yields the following: (a) Describe the relationship between GNI and percentage of GNI spent on development aid. (b) Explain how the U.S. compares to the other countries in the sample with regard to GNI and percentage of GNI spent on development aid. (c) How would the answer to (b) differ if the graph showed the amount of development aid (rather than percentage of GNI) versus GNI? (d) The five lowest values for GNI in this sample come from Belgium, Denmark, Netherlands, Norway, and Sweden. What is apparent about the use of soft power by these countries? Following is a scatterplot and some computer linear regression output showing the relationship between the natural logarithm of percentage of GNI spent on development aid and the natural logarithm of GNI, where GNI is in billions of dollars. (e) Describe the relationship between ln(GNI) and ln(percentage of GNI spent on development aid). (f) Based on this output, explain why it would be reasonable to use this regression to describe the relationship between ln(GNI) and ln(percentage of GNI spent on development aid). (g) What is the correlation coefficient r for this regression? (h) Interpret the slope for this regression line in context. (i) Using the computer output, give the equation of the least- squares regression line. (j) Using the model from (i) above, predict the percentage of GNI spent on development aid for the U.S. with a GNI value of $23,400 (billion). Is this prediction an overestimate or an underestimate for the true value of 0.15 percent?",
+   "correct_answer": null,
+   "answer_text": "(a) There is a moderate, negative, nonlinear relationship between GNI and percentage of GNI spent on development aid. (b) While the United States has the greatest GNI of any country in the sample, it spends one of the lowest percentages of GNI on development aid of any country in the sample. (c) Because the United States GNI is so large, even a small percentage of it would be large. Thus, the United States will show the highest, or one of the highest, actual amounts spent on development aid. (d) While Belgium, Denmark, Netherlands, Norway, and Sweden have the lowest GNIs compared with the other countries in this sample, they invest the highest percent of GNI in soft power (development aid) compared with the other countries. (e) There is a moderate to strong, negative, linear relationship between ln(GNI) and ln(percentage of GNI spent on development aid). (f) The scatterplot of ln(GNI) versus ln(percentage of GNI spent on development aid) shows a linear form and there are no leftover patterns in the residual plot. (g) . (Note that r is negative as it takes the same sign as the slope.) (h) For each one unit increase in the natural logarithm of GNI, the natural logarithm of the percent of GNI spent on development aid decreases on average by 0.4179. (i) ln(percentage GNI) = 2.4135 + (−0.4179)ln(GNI) (j) ln(percentage GNI) = 2.4135 + (−0.4179)ln(23,400) = 2.4135 − 0.4179(10.0605) = −1.7908 and so percentage GNI = e−1.7908 = 0.167. The predicted percentage of GNI spent on development aid for the U.S. is 0.167%, which is an overestimate of the actual value of",
+   "question_id": "statistics-barrons-2027-quiz-33-004",
+   "context": "",
+   "source_pages": [
+    503,
+    504
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 505,
+     "bbox": [
+      145.5,
+      241.5,
+      466.5,
+      333.8
+     ]
+    }
+   ],
+   "page_start": 504,
+   "page_end": 506,
+   "stem": "In analyzing conflict violence, the data are often incomplete, as obtaining data in such situations is very difficult if not impossible. However, accurate data are crucial for systematic studies of the origins of conflict, conflict dynamics, and conflict resolution. (a) Suppose during one conflict month early during the Syrian civil war, the Syrian Observation for Human Rights (SOHR) reported 3,060 deaths, the United Nations (UN) reported 3,627 deaths, and 2,635 of the deaths were found on both lists. Letting D be the actual number of deaths, fill in the following table: (b) Assuming the two reports above represented independent random samples of all deaths that month, solve for D. (c) In reality, only convenience samples were available— perhaps posted videos of public executions, perhaps text messages sent out by protesters, or perhaps victims’ testimonies recorded by local reporters. In general, why do convenience samples often lead to misleading conclusions? In our context, how are assumptions made in part (b) above violated? (d) Another source of undercoverage bias found in conflict situations can be called size bias. Events involving large numbers of casualties are much more likely to be documented than events involving only one victim. For example, a cluster bombing of a marketplace with many victims will attract media attention while targeted assassinations may be unreported because the victim’s family is afraid to make a report or because the body is never found. Explain how this affects the independence assumption made in part (b) above. (e) Would you expect the answer found for D above to be an underestimate or an overestimate? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) SOHR Reported Unreported Totals Deaths Deaths Reported 2,635 992 3,627 Deaths UN Unreported 425 D -4,052 D -3,627 Deaths Totals 3,060 D -3,060 D (b) Relative frequencies should be approximately equal if there is independence. The expected cell formula gives 2,635 . (If you look at rows, you get instead . If you look at columns, you get .) Solving any of these equations gives D = 4,212. (c) Convenience samples are based on choosing individuals who are easy to reach and tend to produce data highly unrepresentative of the entire population. In this case, only very readily obtainable reports of deaths are included, violating the assumption of a random sample of deaths for that month. (d) Both samples will tend to report the same large casualty events, thus violating the assumption of independence. (e) The calculated value of D is almost certainly an underestimate. As shown in parts (c) and (d), the reported deaths tend to be convenience samples of more widely reported deaths and with different samples tending to report the same deaths.",
+   "question_id": "statistics-barrons-2027-quiz-33-005",
+   "context": "",
+   "source_pages": [
+    504,
+    506
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 6,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 506,
+   "page_end": 506,
+   "stem": "In 1986, the Supreme Court ruled that it is unconstitutional to exclude potential jurors because of race/ethnicity.6 However, many studies since then have shown that racial discrimination in jury selection remains widespread, particularly in murder trials. A university law department plans a study using mock trials to determine if outcomes are different with all-White versus mixed-race/ethnicity juries. The law department will first randomly select two counties from among its state’s 67 counties. (a) What is this sampling method called, and what is an advantage of using this method over a simple random sample? (b) Give a procedure for randomly selecting the two counties. (c) Forty-five people will then be randomly selected from among the pool of all eligible White jurors in each of the two counties to obtain a sample of size 90. What is the purpose of randomization in this two-step process? (d) The proposed study will involve 10 mock cases involving a young Black man charged with murdering an elderly White woman. The sample of 90 White jurors will be randomly assigned to two groups—60 to make up five all-White juries (each of size 12) and 30 to be part of five mixed- race/ethnicity juries (each with 6 White jurors and 6 jurors of color). What is the purpose of random assignment here? How might allowing jurors to self-select whether or not to be part of mixed-race/ethnicity juries lead to bias?",
+   "correct_answer": null,
+   "answer_text": "(a) This is an example of cluster random sampling, which allows for a quicker, less expensive method of sampling than a simple random sample. It assumes that each cluster, in this case each county, is representative of the whole state. (b) Number the counties 1 through 67. Use a random number generator to pick two unique integers between 1 and 67 (ignoring repeats). The two counties to be used will consist of the two counties with numbers corresponding to the two unique numbers. (c) The purpose of randomization in picking the 90 jurors is to obtain a sample that is representative of all eligible White jurors in the state so that any conclusions can be generalized to all eligible White jurors in the state. (d) Random assignment here is used to minimize the effect of possible confounding variables. For example, if self-selection is allowed, perhaps some White jurors are uncomfortable with people of color and would choose to be on the all-White juries. Because it is likely that these same jurors are more likely biased against a defendant of color, it might be impossible to say whether any conclusions can be made based on the racial makeup of a jury.",
+   "question_id": "statistics-barrons-2027-quiz-33-006",
+   "context": "",
+   "source_pages": [
+    506,
+    506
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 7,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 506,
+   "page_end": 507,
+   "stem": "Book banning is a controversial topic in school districts across the country. Suppose a questionnaire is to be designed as to parents’ opinions on whether books with depictions of slavery should be banned from school libraries. Wording bias occurs when the wording of a question influences the responses. (a) Give an example of a neutrally designed question on this topic. (b) Give an example of a question on this topic illustrating wording bias that will lead to an underestimate of the true proportion of parents in favor of banning books with depictions of slavery. (c) Give an example of a question on this topic illustrating wording bias that will lead to an overestimate of the true proportion of parents in favor of banning books with depictions of slavery. In a recent survey, 26% of American adults described their political views as liberal, 38% as moderate, and 36% as conservative. Given a neutrally designed question, 9% percent of liberals, 12% of moderates, and 15% of conservatives answered that books with depictions of slavery should be banned from school libraries. An American adult is picked at random. (d) What is the probability the person is liberal and believes that books depicting slavery should be banned from school libraries? (e) What is the probability the person believes that books depicting slavery should be banned from school libraries? (f) If the person believes that books depicting slavery should be banned from school libraries, what is the probability the person is liberal?",
+   "correct_answer": null,
+   "answer_text": "(a) “Should books with depictions of slavery be banned from school libraries?” (b) There are many possible answers. For example, “By restricting information and discouraging freedom of thought, censors undermine one of the primary functions of education: teaching students how to think for themselves. Should books with depictions of slavery be banned from school libraries?” This wording bias will lead to an underestimate of the true proportion of parents in favor of banning books with depictions of slavery. (c) There are many possible answers. For example, “It is potentially dangerous to expose schoolchildren to some controversial topics. Should books with depictions of slavery be banned from school libraries?” This wording bias will lead to an overestimate of the true proportion of parents in favor of banning books with depictions of slavery. (d) P(liberal ∩ favor banning) = P(liberal) × P(favor banning | liberal) = (0.26)(0.09) = 0.0234 (e) P(favor banning) = P(liberal ∩ favor banning) + P(moderate ∩ favor banning) + P(conservative ∩ favor banning) = (0.26)(0.09) + (0.38)(0.12) + (0.36)(0.15) = 0.123 (f)",
+   "question_id": "statistics-barrons-2027-quiz-33-007",
+   "context": "",
+   "source_pages": [
+    506,
+    507
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 8,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 507,
+   "page_end": 508,
+   "stem": "“Environmental racism” is said to occur when race/ethnicity is associated with the location of hazardous sites. A 2015 California study was designed to assess who was at the greatest risk from oil trains, which can derail and explode. Of the 5.5 million Californians who live within a blast zone (defined as within one mile of the railroad tracks), 75% are Latino and only 10% are White. California’s population of 38.8 million is 39.0% Latino and 38.9% White. (a) What is the probability a randomly selected Californian is a Latino living within a blast zone? (b) What is the probability that a randomly selected Californian Latino lives within a blast zone? (c) In California, are being Latino and living within a blast zone independent events? Justify your answer mathematically. (d) In a random sample of 5 Californians, what is the probability that at least 2 of them live in a blast zone? (e) What is another explanatory variable that could account for the relatively high probability that someone living in a blast zone is a person of color?",
+   "correct_answer": null,
+   "answer_text": "(a) P(Blast zone) = = 0.14175 and P(Latino ∩ Blast zone) = P(Blast zone)P(Latino | Blast zone) = (0.14175)(0.75) = 0.10631 (b) (c) Is P(Blast zone | Latino) = P(Blast zone)? No, 0.27259 ≠ 0.14175. So, in California, being Latino and living within a blast zone are not independent events. (d) This is a binomial with n = 5 and p = 0.14175. Then P(X ≥ 2) = 1 − [(0.85825)5 + 5(0.14175) (0.85825)4] = 0.14979. Calculator software gives 1 − binomcdf(5, 0.14175, 1) = 0.14979. (e) Another possible explanatory variable is poverty. It could be that blast zones tend to be associated with low-income housing and that a higher percentage of people of color than White people are low income.",
+   "question_id": "statistics-barrons-2027-quiz-33-008",
+   "context": "",
+   "source_pages": [
+    507,
+    508
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 9,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 508,
+     "bbox": [
+      191.2,
+      432.0,
+      420.8,
+      566.2
+     ]
+    }
+   ],
+   "page_start": 508,
+   "page_end": 509,
+   "stem": "Consider the following mosaic plot of murder cases. (a) What can be concluded from the above mosaic plot? Studies seem to indicate that Black lives matter less than White lives with regard to the death penalty.7 One long-term study found that while the race/ethnicity of the offender did not seem to predict the likelihood of a death sentence, the race/ethnicity of the victim did. In this study, 50.5 percent of murder victims were White, 49.5 percent were non-White. In the cases that resulted in executions, 76% of the murder victims were White and 24% were non-White. Finally, 1.2% of the murder cases resulted in the execution of the defendant. Use these findings to answer the following questions. (b) What is the probability that there is a White murder victim and the defendant is executed? What is the probability that there is a non-White murder victim and the defendant is executed? (c) Given that the murder victim is White, what is the probability that the defendant is executed? Given that the murder victim is non-White, what is the probability that the defendant is executed? (d) In (c), what can be concluded about the likelihood of a victim being White or non-White if the defendant is executed?",
+   "correct_answer": null,
+   "answer_text": "(a) Roughly the same percentage of victims were White and were non-White. Most murders with White victims were committed by White offenders, and most murders with non-White victims were committed by non-White offenders. (b) (c) (d) , so when the defendant is executed, it is more than three times as likely that the victim was White than non-White.",
+   "question_id": "statistics-barrons-2027-quiz-33-009",
+   "context": "",
+   "source_pages": [
+    508,
+    509
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 10,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 509,
+   "page_end": 510,
+   "stem": "Law enforcement agencies across the United States are rapidly adopting facial-recognition surveillance.8 A false positive, which incorrectly identifies an innocent person as being a criminal, generally occurs less than 10% of the time. While this percent may sound low, the question is whether it is a small enough risk when the end result may be the arrest of, or even worse, the use of force (including deadly force) against, an innocent person.9 Suppose facial recognition software used by a police department to identify possible suspects is 99 percent accurate. That is, the software will correctly identify a criminal as being a criminal 99 percent of the time, and it will correctly identify an innocent person as being innocent 99 percent of the time. Assume 0.88 percent of the adult population are criminals (in 2020, about 0.88% of the United States adult population were behind bars). (a) What is the probability that someone is identified to be a criminal by this software? (b) What is the probability that someone identified as being a criminal by this software really is a criminal? (c) What concern regarding the use of this software is raised by the answer to (b)? Explain. (d) Statisticians should always consider ethical issues when gathering data. Numerous studies have found that facial recognition is significantly less accurate when identifying people of color. Does this raise ethical issues? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) P(criminal) = 0.0088. P(innocent) = 1 – 0.0088 = 0.9912. P(criminal ∩ identified as criminal) = (0.0088)(0.99) = 0.008712 P(innocent ∩ identified as criminal) = (0.9912)(0.01) = 0.009912 P(identified as criminal) = 0.008712 + 0.009912 = 0.018624 (b) Alternatively, a table of counts can be constructed for a hypothetical population. In this case, let’s assume that the original given percentages hold exactly for a population of size 1,000,000. Identified as criminal Identified as innocent Total Criminal Innocent Total 1,000,000 Numbers in parentheses indicate the order in which the cells can be calculated. Identified as criminal Identified as innocent Total Criminal (3) 8,712 (4) 88 (1) 8,800 Innocent (5) 9,912 (6) 981,288 (2) 991,200 Total (7) 18,624 (8) 981,376 1,000,000 Then, the conditional probability in which we are interested can be calculated straight from the first column of the table: P(criminal | identified as criminal) . (c) There is a high risk of police misidentifying and acting against innocent people. By using this “99 percent accurate” facial recognition software, the probability that someone identified as criminal is actually a criminal is only 0.468. (d) Yes, a serious civil rights concern is that facial recognition is creating de facto algorithm-based racial profiling.",
+   "question_id": "statistics-barrons-2027-quiz-33-010",
+   "context": "",
+   "source_pages": [
+    509,
+    510
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 11,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 510,
+   "page_end": 511,
+   "stem": "Although there is no accepted research on how often hair from different people may appear the same, for over two decades the FBI used visual hair comparison matches to help obtain convictions in major criminal cases. Acknowledging possible flawed forensic testimony based on unsound science, the FBI agreed to review over 2,500 cases. Flawed forensic testimony was found in 257 of the first 268 cases reviewed.10 In the following, assume that the sample proportion of cases involving flawed testimony is an accurate measure of the population proportion. (a) Was this a retrospective observational study, a prospective observational study, or an experiment? Explain. (b) The FBI agreed to review 2,500 cases involving possible flawed forensic testimony. Assuming this is a random sample of relevant cases, what is the expected number of these 2,500 cases with actual flawed forensic testimony? What is the standard deviation for the expected number of cases with actual flawed forensic testimony? (c) Among the 257 cases with flawed forensic testimony, 32 resulted in death penalty convictions. Assume this is illustrative of the overall proportion. In examining a random sequence of cases involving flawed testimony, what is the probability that the first case with a resulting death penalty doesn’t occur until at least the third case examined? (d) According to the Innocence Project, the misapplication of forensic science is the second-leading contributor to wrongful conviction, playing a role in 50% of known wrongful convictions, while eyewitness misidentification has played a role in nearly 75% of known wrongful convictions.11 In wrongful conviction cases, can “the misapplication of forensic science” and “eyewitness misidentification” be mutually exclusive? Can they be independent? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) This study looked backward by examining existing data and, therefore, was a retrospective study. Since no treatment was applied—that is, no one was told to use this forensic evidence— this study was not an experiment. (b) This is a binomial distribution with n = 2,500 and . Thus, E(X) = np = 2,500(0.959) = 2,397.4. The standard deviation . (c) The probability of a case resulting in the death penalty, given it involves flawed forensic testimony, is . Thus, the probability of the case not resulting in the death penalty is 1 − 0.1245 = 0.8755. The probabilities of a death penalty occurring on the first or second case examined, respectively, are 0.1245 and (0.8755)(0.1245) = 0.1090. So, the probability that the first case with a resulting death penalty doesn’t occur until at least the third case examined is 1 − (0.1245 + 0.1090) = 0.7665 [Or recognize that this is a geometric distribution with p = 0.1245. Then P(X ≥ 3) = 1 − P(X ≤ 2) = 1 − geometcdf(0.1245, 2) = 1 − 0.2335 = 0.7665.] (d) “The misapplication of forensic science” and “eyewitness misidentification” are not mutually exclusive because, if so, their intersection would be the empty set. Then the probability of their union would be 0.50 + 0.75 − 0 =1.25 > 1. It is possible that they are independent because, if so, the probability of their intersection would be (0.50)(0.75) and the probability of their union would be",
+   "question_id": "statistics-barrons-2027-quiz-33-011",
+   "context": "",
+   "source_pages": [
+    510,
+    511
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 12,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 511,
+   "page_end": 511,
+   "stem": "We often think that slavery ended in the 19th century, but the sad fact is that there are more people enslaved today than at any other time in human history. According to the not-for-profit Force4Compassion, an average of 3,287 people are sold or kidnapped and forced into slavery every day.12 Assume this daily total has a roughly normal distribution with a standard deviation of 250 people. (a) What is the probability that on a randomly selected day, over 3,500 people are forced into slavery? (b) In a random sample of 5 days, what is the probability that on a majority of the days over 3,500 people are forced into slavery? (c) In a random sample of 5 days, what is the probability that the average number of people forced into slavery is over 3,500? (d) Are there any statistics that, if more widely disseminated, might mobilize the world to fight this social blight?",
+   "correct_answer": null,
+   "answer_text": "(a) We have a normal distribution with mean 3,287 and standard deviation 250. Then P(X > 3,500) = (b) We have a binomial distribution with n = 5 and p = 0.1971. Then P(X ≥ 3) = 1 − P(X ≤ 2) = 1 − binomcdf(5, 0.1971, 2) = 0.05572. (c) We have a normal distribution with mean 3,287 and standard deviation . Then (d) Possible answers might range from average yearly proceeds (about $35 billion) to average number of slaves in the world on any given day (21 to 29 million), from numbers of child slaves to numbers of women in sexual slavery.",
+   "question_id": "statistics-barrons-2027-quiz-33-012",
+   "context": "",
+   "source_pages": [
+    511,
+    511
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 13,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 512,
+     "bbox": [
+      168.8,
+      118.5,
+      443.2,
+      183.0
+     ]
+    },
+    {
+     "page": 512,
+     "bbox": [
+      243.8,
+      217.5,
+      304.5,
+      243.8
+     ]
+    }
+   ],
+   "page_start": 511,
+   "page_end": 512,
+   "stem": "When bias-motivated crimes (triggered by prejudice and hate) are committed, whole communities can feel victimized. A study13 of profiles on America’s most popular online hate site revealed that the site members are very young. Consider the following boxplot of self-reported ages of the site members: (a) Describe the distribution of ages. (b) Is the quotient greater than 1, less than 1, or approximately 1? Explain. (c) Members of online social networks tend to be younger than the general population. What does this possibly indicate about the median age of all hate group members? Explain. (d) According to recent FBI statistics,14 18.6% of bias incidents are religious based. In a random sample of 3 bias incidents, what is the probability that a majority are religious based?",
+   "correct_answer": null,
+   "answer_text": "(a) A complete answer addresses center, spread, shape, and unusual features such as outliers, and mentions context. The median age of hate site members is approximately 23. The ages go from 14 to 65 with a range of 65 − 14 = 51 and an IQR = 30 − 17 = 13. There are 6 outliers between 50 and 65. Although it is not usually possible to describe distribution shape from just a boxplot, in this case the distribution of ages does appear to be skewed to the right (to the larger values). (b) In a skewed right distribution, the mean is usually larger than the median. So, we would conclude that the quotient is greater than 1. (c) If mostly the younger, computer savvy members of the hate groups are the ones who are online, the median age of all hate group members is probably greater than the median age of those self-reporting on the site, 23. (d) This is a binomial with n = 3 and p = 0.186. Then P(X ≥ 2) = 0.0909 or 3 (0.186)2(0.814) + (0.186)3 = 0.0909 [Or 1 − P(x ≤ 1) = 1 − binomcdf(n = 3, p = 0.186, x = 1) = 1 − 0.9091 = 0.0909.]",
+   "question_id": "statistics-barrons-2027-quiz-33-013",
+   "context": "",
+   "source_pages": [
+    511,
+    512
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 13,
+ "mcq_count": 0,
+ "frq_count": 13
+}

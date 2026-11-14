@@ -1,0 +1,607 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-18",
+ "kind": "quiz",
+ "number": 18,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 18 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 18",
+ "pdf_page_start": 326,
+ "pdf_page_end": 330,
+ "answer_page_start": 736,
+ "answer_page_end": 737,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, because the sample was chosen randomly.",
+    "B": "Yes, because sampling distributions of the sample proportion are modeled with normal distributions.",
+    "C": "Yes, because the sample size is ≥30.",
+    "D": "No, because the sample size is not large enough for the normality condition."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 326,
+      "bbox": [
+       108.3,
+       528.7,
+       435.6,
+       546.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 326,
+      "bbox": [
+       108.3,
+       548.7,
+       520.6,
+       566.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 326,
+      "bbox": [
+       108.3,
+       586.0,
+       368.9,
+       603.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 326,
+      "bbox": [
+       108.3,
+       606.0,
+       490.0,
+       623.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 326,
+     "bbox": [
+      409.2,
+      485.0,
+      416.3,
+      496.5
+     ]
+    }
+   ],
+   "page_start": 326,
+   "page_end": 326,
+   "stem": "An environmental activist, interested in advocating for the implementation of sustainable energy utilization, interviews a random sample of 30 white-collar workers. Only eight of them said they would be willing to accept cuts in their standard of living to protect the environment. Letting p be the proportion of all white- collar workers who would be willing to accept cuts in their standard of living to protect the environment, is it appropriate to assume that the corresponding sampling distribution of is approximately normal?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Both np̂ and n(1 − p̂ ) have to be ≥ 10, but np̂ , the number of “successes,” is only 8 in this example, so the normality condition is violated. The population size is immaterial because it is more than ten times the sample size.",
+   "question_id": "statistics-barrons-2027-quiz-18-001",
+   "source_pages": [
+    326,
+    326
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "We are 90% confident that the true proportion of all adults who would find it unacceptable that the federal government would hack into their emails is between 0.946 and 0.974.",
+    "B": "If a confidence interval for the proportion of adults who would find it unacceptable that the federal government would hack into their emails is calculated for repeated samples of 500 adults, 90% of these intervals will contain the true population proportion.",
+    "C": "There is a 0.90 probability that the true proportion of all adults who would find it unacceptable that the federal government would hack into their emails is between 0.946 and 0.974.",
+    "D": "If the proportion of adults who would find it unacceptable that the federal government would hack into their emails is calculated for repeated samples of 500 adults, 90% of these sample proportions will fall between 0.946 and 0.974."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       137.8,
+       509.8,
+       155.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       192.3,
+       529.8,
+       209.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       281.0,
+       533.4,
+       298.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       335.4,
+       532.1,
+       352.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 326,
+   "page_end": 327,
+   "stem": "In a random sample of 500 adults, 480 said that they found it unacceptable that the federal government would hack into their emails. A 90% confidence interval for the proportion of all adults who would find it unacceptable that the federal government would hack into their emails is (0.946, 0.974). Which of the following is a correct interpretation of the confidence level 90 percent?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "A confidence level of 90% gives the percent of all possible confidence intervals of the given size that will capture the population parameter. Choice (A) is a correct interpretation of the confidence interval.",
+   "question_id": "statistics-barrons-2027-quiz-18-002",
+   "source_pages": [
+    326,
+    327
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "To estimate",
+    "B": "To establish whether or not the sampling distribution of is approximately normal",
+    "C": "To estimate a margin of error for",
+    "D": "To ascertain whether or not there is convincing evidence that is the true population proportion"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 327,
+      "bbox": [
+       213.7,
+       479.3,
+       220.9,
+       490.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 327,
+      "bbox": [
+       490.8,
+       499.3,
+       497.9,
+       510.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 327,
+      "bbox": [
+       348.3,
+       536.6,
+       355.5,
+       548.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 327,
+      "bbox": [
+       137.1,
+       573.8,
+       144.3,
+       585.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       474.3,
+       213.9,
+       491.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       494.3,
+       490.8,
+       511.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       531.5,
+       348.0,
+       548.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 327,
+      "bbox": [
+       108.3,
+       551.6,
+       523.9,
+       568.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 327,
+     "bbox": [
+      380.5,
+      430.6,
+      387.7,
+      442.1
+     ]
+    }
+   ],
+   "page_start": 327,
+   "page_end": 327,
+   "stem": "Consider a sample with sample proportion . Which of the following best describes the purpose of a one-sample z-interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Because of sampling variability, samples and the resulting sample proportions differ. Thus, using a single p̂ to estimate the true population proportion cannot give a one-point answer, but rather encompasses an interval of plausible values. The margin of error helps define this interval of plausible values around p̂ .",
+   "question_id": "statistics-barrons-2027-quiz-18-003",
+   "source_pages": [
+    327,
+    327
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The center of the interval is 13.4.",
+    "B": "The interval contains 13.4.",
+    "C": "A 99% confidence interval estimate contains 13.4.",
+    "D": "None of the above are true statements."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       72.0,
+       347.4,
+       89.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       92.0,
+       304.2,
+       109.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       112.1,
+       453.7,
+       129.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       132.1,
+       387.2,
+       149.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 327,
+   "page_end": 328,
+   "stem": "One month, the actual unemployment rate in Spain was 13.4%. If during that month you took a simple random sample of 100 Spaniards of working age and constructed a confidence interval estimate of the unemployment rate, which of the following would be true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "There is no guarantee that 13.4 is anywhere near the interval, so none of the statements are true.",
+   "question_id": "statistics-barrons-2027-quiz-18-004",
+   "source_pages": [
+    327,
+    328
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Sampling variability (sampling error)",
+    "B": "Errors due to undercoverage and nonresponse in obtaining sample surveys",
+    "C": "Errors due to using sample standard deviations as estimates for population standard deviations",
+    "D": "Use of the normal curve as an estimation to the binomial"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       219.5,
+       365.6,
+       236.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       239.5,
+       507.9,
+       256.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       276.7,
+       516.8,
+       294.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       313.9,
+       496.9,
+       331.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 328,
+   "page_end": 328,
+   "stem": "In a confidence interval using z-scores, the margin of error covers which of the following?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The margin of error has to do with measuring chance variation but has nothing to do with faulty survey design. Sampling variability (also called sampling error) refers to the natural variation among samples and is quantified by the margin of error. As long as n is large, s is a reasonable estimate of σ; however, again this is not measured by the margin of error. (As seen in Unit 4, with t-scores there is a correction for using s as an estimate of σ.)",
+   "question_id": "statistics-barrons-2027-quiz-18-005",
+   "source_pages": [
+    328,
+    328
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "There is a 0.95 probability that between 85% and 89% of the population of voters do not have confidence in what the White House physician says about the president’s health.",
+    "B": "We are 95% confident that between 85% and 89% of the sample voters do not have confidence in what the White House physician says about the president’s health.",
+    "C": "We are 95% confident that between 85% and 89% of the population of voters do not have confidence in what the White House physician says about the president’s health.",
+    "D": "If 95% confidence intervals are calculated from all possible samples of the given size, 95% of these intervals will capture the true percentage of the population of voters who do not have confidence in what the White House physician says about the president’s health."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       452.8,
+       527.1,
+       470.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       507.2,
+       503.4,
+       524.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       561.6,
+       503.6,
+       578.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 328,
+      "bbox": [
+       108.3,
+       616.0,
+       510.5,
+       633.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 328,
+   "page_end": 328,
+   "stem": "In a random sample of voters, 87% indicated that they do not have confidence in what the White House physician says about the president’s health. A 95% confidence interval was constructed from the sample, and the margin of error for the estimate was 2%. Which of the following is the best interpretation of the interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The interval is a statement about how confident we are that the interval has captured the population parameter. The confidence interval is about the population, not the sample. The probability the true percentage is between 85% and 89% is either 1 or 0 depending upon whether it is or is not in the interval. Choice (D) is a correct interpretation of the confidence level, not the confidence interval.",
+   "question_id": "statistics-barrons-2027-quiz-18-006",
+   "source_pages": [
+    328,
+    328
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "21",
+    "B": "25",
+    "C": "423",
+    "D": "600"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 329,
+      "bbox": [
+       108.3,
+       155.0,
+       152.0,
+       172.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 329,
+      "bbox": [
+       108.3,
+       175.1,
+       151.9,
+       192.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 329,
+      "bbox": [
+       108.3,
+       195.1,
+       159.9,
+       212.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 329,
+      "bbox": [
+       108.3,
+       215.2,
+       161.0,
+       232.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 329,
+   "page_end": 329,
+   "stem": "A politician wants to know what percentage of all voters support her position on the issue of forced busing for the racial integration of public schools. What size voter sample should be obtained to determine with 90% confidence the support level to within 4%?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "invNorm , so choose n = 423.",
+   "question_id": "statistics-barrons-2027-quiz-18-007",
+   "source_pages": [
+    329,
+    329
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 329,
+   "page_end": 329,
+   "stem": "During the H1N1 pandemic, one published study concluded that if someone in your family had H1N1, you had a 1 in 8 chance of also contracting the disease. A state health officer tracked a random sample of new H1N1 cases in her state and noted that 129 out of 876 family members later contracted the disease. (a) Calculate a 90% confidence interval for the proportion of family members who contract H1N1 after an initial family member does in this state. (b) Based on this confidence interval, is there evidence that the proportion of family members who contract H1N1 after an initial family member does in this state is different from the 1 in 8 chance concluded in the published study? Explain. (c) Would the conclusion in (b) be any different with a 99% confidence interval? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: Let p represent the proportion of the population of family members who contract H1N1 after an initial family member does in this state. Procedure: One-sample z-interval for a population proportion. Checks: We check independence and normality. For independence, we are given this is a random sample, and we assume that 876 is less than 10% of the number of all family members of H1N1 patients in the state. For normality, np̂ = 129 ≥ 10 and n(1 − p̂ ) = 747 ≥",
+   "question_id": "statistics-barrons-2027-quiz-18-008",
+   "context": "",
+   "source_pages": [
+    329,
+    329
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 329,
+   "page_end": 330,
+   "stem": "In a July 2020 study of 1,050 randomly selected smokers, 74% said they would like to give up smoking. (a) At the 95% confidence level, what is the margin of error? (b) Calculate and explain the meaning of the “95% confidence interval” in this example. (c) Explain the meaning of “95% confidence level” in this example. (d) Give an example of possible response bias in this example. (e) If we want instead to be 99% confident, would our confidence interval need to be wider or narrower? (f) If the sample size were greater, would the margin of error be smaller or greater? The answers to this Quiz can be found beginning on page 492.",
+   "correct_answer": null,
+   "answer_text": "(a) . So, the margin of error is ±2.65%. (b) 0.74 ± 0.0265 = (0.7135, 0.7265). We are 95% confident that between 71.35% and 76.65% of all smokers would like to give up smoking. (c) If all possible random samples of 1,050 smokers were surveyed, we would expect about 95% of the resulting confidence intervals to contain the true proportion of all smokers who would like to give up smoking. (d) Smoking is becoming more undesirable in society as a whole, so some smokers may untruthfully say they would like to stop. (e) To be more confident, we must accept a wider interval (the critical z-score would go from 1.96 to 2.576). (f) All other things being equal, the greater the sample size, the smaller the margin of error is (the standard error is inversely proportional to ).",
+   "question_id": "statistics-barrons-2027-quiz-18-009",
+   "context": "",
+   "source_pages": [
+    329,
+    330
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 9,
+ "mcq_count": 7,
+ "frq_count": 2
+}

@@ -1,0 +1,2437 @@
+
+
+########## SECTION statistics-barrons-2027-u1-s01 | Statistical Studies | PDF pages 62-66 ##########
+
+[[PAGE 62]]
+Statistical Studies
+Statistical studies typically involve the following steps:
+■Asking an investigative question
+■Noting the population of interest
+■Deciding what unknown population parameter is of interest
+■Selecting a sample from the population from which to obtain data
+■Summarizing the sample data numerically and graphically
+■Analyzing the sample statistics from the data
+■Making conclusions in context
+The field of statistics is all about collecting, describing, analyzing, and
+drawing conclusions from data.
+■A population consists of the entire set of individuals or objects that
+you want to learn about.
+■A sample is a subset of the population that is selected for study.
+From the sample, data are collected and analyzed in order to answer
+investigative questions about the population.
+■The population size is often designated by N, while the sample size
+is often designated by n.
+
+[[PAGE 63]]
+■A parameter is a numerical summary of a population, while a
+statistic is a numerical summary of sample data.
+■We want to estimate an unknown population characteristic
+(parameter) by considering a sample measurement (statistic).
+■Conclusions should be given in context, that is, should refer back
+to the population in a real-world frame of reference.
+As an introduction to what is expected on the exam, consider the
+following two examples.
+Example 1.1
+Homelessness affects millions of people across the United States, and
+understanding the causes is essential to addressing the problem. A
+primary cause of homelessness in America is thought to be lack of
+affordable housing, especially in urban areas. Researchers randomly
+selected 10 American cities. For each city, they calculated the median rent
+and the number of homeless per 10,000 residents. The data are displayed
+in the following scatterplot:
+(a) What is the investigative question of interest?
+(b) What is the population of interest?
+(c)
+What was the selected sample?
+(d) What do these data indicate about median rent versus number of
+homeless per 10,000 city residents?
+(e)
+Do the data prove that high median rent causes high homelessness?
+
+[[PAGE 64]]
+(f) The slope of a best-fitting straight line to these data is 0.079.
+Interpret this in context.
+Solutions
+(a) Is there a relationship between median rent and homelessness in
+American cities?
+(b) The population of interest is the set of all American cities.
+(c)
+The selected sample was the set of 10 randomly selected American
+cities.
+(d) As median rent goes up, the number of homeless per 10,000
+residents tends to go up.
+(e)
+The data do not prove a cause-and-effect relationship. Instead, they
+show only an association. For example, it could be that landlords raise
+rents in cities with greater substance abuse problems hoping to
+discourage undesirable renters. Furthermore, people with substance
+abuse problems have difficulty maintaining employment and housing.
+If this was the case, then greater substance abuse problems, not
+higher median rent, would be the root cause of higher homelessness.
+(f) This predicts a rise of 0.079 in homelessness per 10,000 residents for
+every $1 increase in median rent. In other words, this is a prediction
+of 7.9 more homeless per 10,000 residents for every $100 increase in
+median rent.
+Example 1.2
+An epidemiologist is interested in a possible association between life
+expectancy and educational attainment and if it relates to gender in
+American adults. She gathers data from a random sample of n = 2,000
+obituaries of American adults and notes gender, educational attainment,
+and age at death. The data are summarized in the following two graphs.
+
+[[PAGE 65]]
+(a) What is the investigative question of interest?
+(b) What is the population of interest?
+(c)
+What was the selected sample?
+(d) What do the data say about women’s versus men’s life expectancies?
+Explain.
+(e)
+Do the data say that attaining a higher educational level will give a
+person greater life expectancy? Explain.
+(f) Could a pie chart be used to display these data? Explain.
+(g) Do the points in the second graph seem to follow a pattern that is
+linear or nonlinear? Is this pattern in the positive or negative
+direction? Is it strongly, moderately, or weakly aligned?
+(h) Two points on the second graph are (12, 72) and (20, 84). They
+correspond to 25-year-olds who graduated from high school and
+graduate school, respectively. What information does the slope of a
+line between these points predict?
+Solutions
+(a) The epidemiologist’s investigative question of interest is whether or
+not there is convincing statistical evidence of an association between
+life expectancy and educational attainment among all American adults
+and if it relates to gender.
+(b) The population of interest is the set of all American adults.
+(c)
+The selected sample was the set of 2,000 American adults whose
+obituaries were available.
+(d) At each educational attainment level, women’s life expectancy is
+higher than men’s.
+
+[[PAGE 66]]
+(e)
+This does not indicate a cause-and-effect relationship. Instead, it only
+shows an association. For example, it could be that more intelligent
+people attain higher educational levels and also take better care of
+their health and so have greater life expectancies. If this was the
+case, intelligence, not educational level, would lead to greater life
+expectancy.
+(f) No, a pie chart could not be used to display these data because the
+life expectancy for each educational attainment level does not
+represent parts of a single whole.
+(g) Visually, the points appear to follow a linear, positive, strong pattern
+because the points are tightly clustered around an upward-sloping,
+straight line.
+(h) The slope is (84 − 72)/(20 − 12) = 12/8 = 1.5. This predicts a 1.5-
+year rise in life expectancy for each additional year of education.
+
+########## SECTION statistics-barrons-2027-u1-s02 | Variables | PDF pages 66-67 ##########
+
+[[PAGE 66]]
+Variables
+Data are pieces of information about observational units (items or
+individuals).
+Variables are characteristics that may change from one observational
+unit to another.
+A categorical variable (or qualitative variable) places individuals
+into groups called categories. For example, gender, musical genre, blood
+type, and political party are categorical variables. Categorical variables
+often lead to research questions involving proportions.
+A quantitative variable (or numerical variable) takes on values
+for a measurable quantity. For example, height, weight, speed, and radius
+are numerical variables. Quantitative variables can be classified as
+discrete (taking on values with gaps between them) or continuous
+(taking on all possible values within intervals). For example, the numbers
+of students in classrooms, the salaries of employees, and how many text
+messages are sent are discrete quantitative variables, while backpack
+weights, wind speeds, and times spent doing homework are continuous
+quantitative variables. Quantitative variables often lead to research
+questions involving means.
+Example 1.3
+
+[[PAGE 67]]
+Classify each of the following variables as categorical, discrete
+quantitative, or continuous quantitative.
+(a) Heights of students in your classroom
+(b) Amounts spent by customers in a grocery store
+(c)
+Favorite movies
+(d) Numbers of people attending high school football games on given
+weekends
+(e)
+Brands of cereal eaten by students at your high school
+(f) Lengths of customer service calls
+Solutions
+(a) Continuous quantitative
+(b) Discrete quantitative
+(c)
+Categorical
+(d) Discrete quantitative
+(e)
+Categorical
+(f) Continuous quantitative
+One Categorical Variable (Tables, Graphs,
+Summary Statistics)
+The values taken on by categorical variables can be organized into
+frequency tables or relative frequency tables. They can be represented
+graphically by displays such as bar charts (bar graphs) and pie charts.
+Example 1.4
+During the first week of 2026, the results of a survey revealed that 1,100
+parents wanted to keep the school year to the current 180 days, 300
+wanted to shorten it to 160 days, 500 wanted to extend it to 200 days,
+and 100 expressed no opinion. (Noting that there were 2,000 parents
+surveyed, proportions and percentages can be calculated.)
+A table showing frequencies (counts) and relative frequencies
+(proportions and percentages):
+NOTE
+
+########## SECTION statistics-barrons-2027-u1-s03 | One Categorical Variable (Tables, Graphs, Summary Statistics) | PDF pages 67-71 ##########
+
+[[PAGE 67]]
+One Categorical Variable (Tables, Graphs,
+Summary Statistics)
+The values taken on by categorical variables can be organized into
+frequency tables or relative frequency tables. They can be represented
+graphically by displays such as bar charts (bar graphs) and pie charts.
+Example 1.4
+During the first week of 2026, the results of a survey revealed that 1,100
+parents wanted to keep the school year to the current 180 days, 300
+wanted to shorten it to 160 days, 500 wanted to extend it to 200 days,
+and 100 expressed no opinion. (Noting that there were 2,000 parents
+surveyed, proportions and percentages can be calculated.)
+A table showing frequencies (counts) and relative frequencies
+(proportions and percentages):
+NOTE
+
+[[PAGE 68]]
+Frequency gives the number of cases falling into each category, while relative
+frequency gives the proportion or percent of cases falling into each category.
+Desired School
+Length
+Number of Parents
+(frequency)
+Relative Frequency
+Percent of Parents
+180 days
+1,100
+1,100/2,000 = 0.55
+55%
+160 days
+300/2,000 = 0.15
+15%
+200 days
+500/2,000 = 0.25
+25%
+No opinion
+100/2,000 = 0.05
+5%
+Bar charts (bar graphs) showing frequencies and relative frequencies:
+The distribution of a variable describes the possible values the
+variable could assume and how often each of those values occurs.
+Note that, as above, bar charts (bar graphs) should always have
+appropriate labeling and scaling.
+Example 1.5
+When asked to choose their favorite hip-hop artist, 8 students chose
+Eminem, 5 picked 2Pac, 6 picked Notorious B.I.G., 3 picked Nas, and 3
+picked Jay-Z. These data can be displayed in the following dotplot and pie
+chart.
+
+[[PAGE 69]]
+NOTE
+8 + 5 + 6 + 3 + 3 = 25, and 8/25 = 32%, 5/25 = 20%, 6/25 = 24%, and 3/25 =
+12%.
+(a) Among those students who did not choose Eminem, what proportion
+chose Jay-Z?
+(b) What ratio compares the Eminem choices to the 2Pac choices?
+Solutions
+(a) Because 25 − 8 = 17 students did not choose Eminem and 3 of these
+17 students chose Jay-Z, the proportion is
+.
+(b) The ratio comparing the Eminem choices to the 2Pac choices is 8:5.
+Example 1.6
+The first years of the Covid-19 pandemic illustrated stark disparities in the
+health outcomes for people of color. The following bar chart shows 2020–
+2022 mortality data (cumulative mortality rates per 100,000 population)
+by race/ethnicity.
+
+[[PAGE 70]]
+(a) Can a pie chart be used to display the above data?
+(b) Is the shape of the above graphical display meaningful?
+Solutions
+(a) It would not be correct to use a pie chart to display these data
+because the mortality rate of each race/ethnicity does not represent
+parts of a single whole.
+(b) The order of race/ethnicity along the horizontal axis does not need to
+be in any specific order. Therefore, we do not talk about the “shape”
+of such a bar chart.
+Bar charts are useful when comparing categorical data.
+Example 1.7
+How do Stephen Curry (SC), Michael Jordan (MJ), and Shaquille O’Neal
+(SO) compare with regard to free throw percentage (FT%), field goal
+percentage (FG%), and three-point percentage (3P%) shooting? This can
+be illustrated by using either of the following side-by-side bar charts. The
+first graph groups by “type of shot,” and the second graph groups by
+“player” along the respective horizontal axes.
+(a) Is there evidence to support the claim that Shaquille O’Neal had a
+higher field goal percentage than Jordan or Curry?
+(b) Is there evidence to support the claim that Jordan’s free throw
+percentage was more than twice his three-point percentage?
+
+[[PAGE 71]]
+Solutions
+(a) Yes, the first comparative bar chart shows that Shaquille O’Neal had a
+higher field goal percentage than Jordan or Curry. (The simple reason
+was that most of O’Neal’s shots were dunks.)
+(b) Yes, the second comparative bar chart shows the ratio of Jordan’s
+free throw percentage to his three-point percentage to be
+approximately 0.85:0.35 = 17:7, which is greater than 2:1.
+One Quantitative Variable (Tables and
+Graphs)
+A quantitative variable takes on numerical values for a measured or
+counted quantity. The values can be organized into frequency tables or
+relative frequency tables or can be represented graphically by displays
+such as dotplots, histograms, stemplots, cumulative relative frequency
+plots, or boxplots.
+A quantitative variable can be categorized as either discrete or
+continuous. A discrete quantitative variable takes on a finite or countable
+number of values. There are “gaps” between each of the values. For
+example, the number of teachers in different schools throughout a state is
+a countable or finite amount in each school. No school has 100.7 or 252½
+teachers. There is a “gap” between 100 and 101 and between 252 and
+253. Other examples of discrete quantitative variables include the SAT
+scores of students in a school or the amount of money in bank accounts in
+a city. A continuous quantitative variable can take on uncountable or
+infinite values with no gaps, such as heights and weights of students.
+Time is a continuous quantitative variable because, for example, you can
+measure someone’s age as 18 years, 6 months, 17 days, 4 hours, 19
+seconds, 39 milliseconds, . . . and so on.
+TIP
+To help decide if a variable is a quantitative variable, ask if it makes sense to find an
+average. For example, you can find the average “height of students” but not the
+average “eye color.”
+
+########## SECTION statistics-barrons-2027-u1-s04 | One Quantitative Variable (Tables and Graphs) | PDF pages 71-78 ##########
+
+[[PAGE 71]]
+One Quantitative Variable (Tables and
+Graphs)
+A quantitative variable takes on numerical values for a measured or
+counted quantity. The values can be organized into frequency tables or
+relative frequency tables or can be represented graphically by displays
+such as dotplots, histograms, stemplots, cumulative relative frequency
+plots, or boxplots.
+A quantitative variable can be categorized as either discrete or
+continuous. A discrete quantitative variable takes on a finite or countable
+number of values. There are “gaps” between each of the values. For
+example, the number of teachers in different schools throughout a state is
+a countable or finite amount in each school. No school has 100.7 or 252½
+teachers. There is a “gap” between 100 and 101 and between 252 and
+253. Other examples of discrete quantitative variables include the SAT
+scores of students in a school or the amount of money in bank accounts in
+a city. A continuous quantitative variable can take on uncountable or
+infinite values with no gaps, such as heights and weights of students.
+Time is a continuous quantitative variable because, for example, you can
+measure someone’s age as 18 years, 6 months, 17 days, 4 hours, 19
+seconds, 39 milliseconds, . . . and so on.
+TIP
+To help decide if a variable is a quantitative variable, ask if it makes sense to find an
+average. For example, you can find the average “height of students” but not the
+average “eye color.”
+
+[[PAGE 72]]
+Example 1.8
+The dotplot below shows the waiting time lengths (in minutes) for the 95
+people who showed up at a hospital emergency room on a randomly
+chosen day.
+TIP
+Typically, discrete quantitative variables represent something that is being counted,
+whereas continuous quantitative variables represent something that is being
+measured.
+(a) What were the shortest and longest waiting times?
+(b) What proportion of the people waited at least 20 minutes?
+Solutions
+(a) The shortest waiting time was 3 minutes, and the longest was 21
+minutes.
+(b) Three people waited at least 20 minutes, so the proportion is
+Histograms, which are useful for large data sets involving quantitative
+variables, show frequencies or relative frequencies with bars over intervals
+called bins. Relative frequencies correspond to relative areas. On the AP
+exam, there often are questions that involve interpreting given
+histograms.
+
+[[PAGE 73]]
+Note: A histogram displays the distribution of a quantitative variable with
+a horizontal axis identifying intervals of values that the variable takes. In
+contrast, a bar chart displays the distribution of a categorical variable with
+a horizontal axis identifying the categories. Histograms appear with no
+space between the bars (unless no data have values over that bin), while
+bar charts appear with spaces to separate the categories.
+Example 1.9
+The following histogram shows magnitudes of the 2,650 earthquakes that
+occurred in a certain locale over the past 50 years.
+(a) Approximately what proportion of the earthquakes had magnitudes
+less than 2.0?
+(b) Approximately how many earthquakes had magnitudes over 2.5?
+Solutions
+(a) Approximately 0.18 + 0.40 = 0.58
+(b) Approximately (0.10 + 0.02) ´ 2,650 = 318
+Example 1.10
+Consider the following histogram of exam scores, where the vertical axis
+has not been labeled.
+
+[[PAGE 74]]
+What can we learn from this histogram?
+Solution
+It is impossible to determine the actual frequencies; that is, we have no
+idea if there were 25 students, 100 students, or any particular number of
+students who took the exam. However, relative frequencies correspond to
+relative areas, so we can determine the relative frequencies by noting the
+fraction of the total area that is over any interval.
+We can divide this area into 10 equal portions and then note that
+, or
+10%, of the area is between 60 and 70, so 10% of the students scored
+between 60 and 70. Similarly, 20% scored between 70 and 80, 30%
+scored between 80 and 90, and 40% scored between 90 and 100.
+TIP
+
+[[PAGE 75]]
+Relative frequencies are the usual choice when comparing distributions of different-
+size populations.
+Suppose we have further information as given in the following graph.
+(a) Now what percentage of the students scored between 60 and 70?
+(b) Now what percentage of the students scored between 90 and 100?
+(c)
+What was the lowest exam score?
+(d) What was the highest exam score?
+Solutions
+(a) Still 10%. We could calculate
+= 0.10 or simply realize that the
+proportion of area hasn’t changed.
+(b) Still 40%. We could calculate
+= 0.40, but again the proportion of
+area remains the same.
+(c)
+It is impossible to say exactly what the lowest score was, only that it
+was between 60 and 65.
+(d) It is impossible to say exactly what the highest score was, only that it
+was between 95 and 100.
+Although a histogram may show how many scores fall into each
+grouping or interval, the exact values of individual scores are lost. An
+alternative pictorial display, called a stemplot (also called a stem and leaf
+display), retains this individual information and is useful for giving a quick
+
+[[PAGE 76]]
+overview of a distribution, displaying the relative density and shape of the
+data. Each data value is split into a “leaf” (the last digit) and a “stem” (the
+first digit or digits). A stemplot contains two columns separated by a
+vertical line. The left column contains the stems, and the right column
+contains the leaves. Both stems and leaves are ordered from smallest to
+largest.
+Example 1.11
+How many nonstop push-ups can a teenager between the ages of 15 and
+18 do? In one study in a mixed-gender high school gym class of 25
+students, the numbers of push-ups were {2, 5, 7, 10, 12, 12, 14, 16, 16,
+18, 19, 20, 21, 29, 32, 34, 35, 37, 37, 38, 39, 39, 42, 44, 50}.
+TIP
+All stemplots must have keys!
+NOTE
+Stemplots must include all stems between the lowest and highest stem, even if that
+stem has no leaves in it. This is important to show any gaps in the data.
+(a) What was the minimum number of nonstop push-ups by teenagers in
+this class?
+(b) What was the maximum number of nonstop push-ups by teenagers
+in this class?
+
+[[PAGE 77]]
+(c)
+What was the middle number (median) of nonstop push-ups by
+teenagers in this class?
+(d) Give a possible explanation for the bimodal nature of these data.
+Solutions
+(a) The minimum number of nonstop push-ups by teenagers in this class
+was 2.
+(b) The maximum number of nonstop push-ups by teenagers in this class
+was 50.
+(c)
+The middle number (median) of nonstop push-ups by teenagers in
+this class was 21.
+(d) The class was mixed gender. It is possible that the peak centered
+around 15 nonstop pushups was mostly from female students, while
+the peak centered around 37 was mostly from male students.
+Stemplots allow for easy visualization of the distribution of data:
+■Because a stemplot preserves all the original data values, this makes
+it impractical with large data sets.
+■Stemplots must include all stems between the lowest and highest
+stem, even if that stem has no leaves in it. This is important to show
+any gaps in the data.
+■All stemplots must have keys!
+■Note how stemplots look something like bar charts.
+■Stemplots are useful in highlighting outliers and modes.
+Sometimes we sum frequencies and show the result visually in a
+cumulative relative frequency plot (also known as an ogive). While an
+ogive can help you visualize data, you will not be tested on it.
+Example 1.12
+The following graph shows 2026 school enrollment in the United States by
+age.
+
+[[PAGE 78]]
+(a) Interpret the point (5, 0.15) in context.
+(b) 50% of school enrollment is above and below what age?
+(c)
+What proportion of school enrollment is below age 29?
+(d) The middle 50% of school enrollment is between what two ages?
+Solutions
+(a) 15% of school enrollment is below age 5.
+(b) By going over to the graph from 0.5 on the vertical axis, we see that
+the middle age is 11.
+(c)
+By going up to the graph from 29, we see that 95% of the school
+enrollment is below 29.
+(d) By going over to the graph from both 0.25 and 0.75, we see that the
+middle 50% of school enrollment is between ages 6 and 7 at the
+lower end and age 16 at the upper end.
+One Quantitative Variable (Describing a
+Distribution)
+When describing a distribution, always comment on Shape, Outliers,
+Center, and Spread (SOCS). Alternatively, you can use the acronym Center,
+Unusual features, Shape, and Spread (CUSS). Always mention context
+somewhere in the description. Important aspects that should be
+addressed include the following.
+1. Shape: Although distributions come in an endless variety of shapes,
+certain common patterns deserve special mention.
+
+########## SECTION statistics-barrons-2027-u1-s05 | One Quantitative Variable (Describing a Distribution) | PDF pages 78-84 ##########
+
+[[PAGE 78]]
+One Quantitative Variable (Describing a
+Distribution)
+When describing a distribution, always comment on Shape, Outliers,
+Center, and Spread (SOCS). Alternatively, you can use the acronym Center,
+Unusual features, Shape, and Spread (CUSS). Always mention context
+somewhere in the description. Important aspects that should be
+addressed include the following.
+1. Shape: Although distributions come in an endless variety of shapes,
+certain common patterns deserve special mention.
+
+[[PAGE 79]]
+∘A symmetric distribution is one in which the two halves are mirror
+images of each other. For example, the weights of all people in
+some organizations fall into an approximately symmetric
+distribution with two mirror image bumps, one for men’s weights
+and one for women’s weights.
+∘A distribution is skewed to the right if it spreads far and thinly
+toward the higher values. For example, ages of nonagenarians
+(people in their 90s) is a distribution with sharply decreasing
+numbers as one moves from 90-year-olds to 99-year-olds.
+∘A distribution is skewed to the left if it spreads far and thinly
+toward the lower values. For example, track meet times often
+show a distribution bunched at a higher end with a few low values.
+∘A bell-shaped distribution is symmetric with a center mound and
+two sloping tails. For example, the distribution of IQ scores across
+the general population is approximately symmetric with a center
+mound at 100 and two sloping tails.
+∘A distribution is uniform if its histogram is a horizontal line. For
+example, tossing a fair die and noting how many dots (pips)
+appear on top yields an approximately uniform distribution
+because 1 through 6 are all equally likely.
+∘A distribution with one main peak is called unimodal and with two
+distinct peaks is called bimodal. For example, the number of
+siblings of each student in most high schools tends to be unimodal
+with a peak at 1 sibling, while the distribution of heights in fifth-
+grade classrooms tends to be bimodal because girls usually have
+earlier growth spurts.
+
+[[PAGE 80]]
+TIP
+In the real world, distributions are rarely perfectly symmetric, perfectly bell-shaped,
+or perfectly uniform. So we usually say “roughly” or “approximately” symmetric,
+bell-shaped, or uniform.
+2. Center: The center either separates the values (or the area under the
+curve in a histogram) roughly in half (the median) or is calculated as
+an average (the mean).
+3. Spread: The spread or variability is the scope of the values from
+smallest to largest. More specifically, the range, interquartile range,
+variance, and standard deviation are discussed depending on the
+distribution.
+4. Unusual features: Distinctive distribution attributes should always be
+commented upon.
+∘Outliers: Outliers are values that are unusually small or large
+relative to the rest of the data. (For example, most people can
+hold their breath between 20 and 60 seconds; 5 seconds for a
+person with emphysema and 5 minutes for a free diver would be
+outliers in a breath-holding distribution.) Two specific mathematical
+definitions of outliers will be discussed later.
+∘Gaps: Gaps show holes where no values fall. (For example, the
+Office of the Dean sends letters to students being put on the
+honor roll and to those being put on academic warning for low
+grades. Thus, the GPA distribution of students receiving letters
+from the dean has a huge gap in the middle.)
+∘Clusters: Clusters show natural subgroups into which the values
+fall. (For example, the salaries of teachers in Ithaca, NY, fall into
+three overlapping clusters: one for public school teachers, a higher
+one for Ithaca College professors, and an even higher one for
+Cornell University professors.) Although clusters may overlap, they
+are often separated by gaps.
+You have already seen several of these on the previous pages:
+■The dotplot of Example 1.8 illustrates that the distribution of waiting
+times at the hospital emergency room is roughly bell-shaped with a
+center around 12 and a spread from 3 to 21.
+
+[[PAGE 81]]
+■The histogram of Example 1.9 illustrates that the distribution of the
+magnitudes of the earthquakes is skewed right with a center
+between 1.5 and 2 and a spread from between 1 and 1.5 on the left
+to between 3 and 3.5 on the right.
+■The histogram of Example 1.10 illustrates that the distribution of
+exam scores is skewed left with a center between 85 and 90
+(counting 20 boxes from each end in the third graph) and a spread
+from between 60 and 65 on the left to between 95 and 100 on the
+right.
+■The stemplot of Example 1.11 illustrates a bimodal distribution with
+a center of 21 push-ups, a spread from 2 to 50 push-ups, and a gap
+between 21 and 29 push-ups.
+Example 1.13
+Hodgkin’s lymphoma is a cancer of the lymphatic system, the system that
+drains excess fluid from the blood and protects against infection. Consider
+the following histogram:
+Describe the distribution in context.
+Solution
+The distribution of ages of diagnosis of female cases of Hodgkin’s
+lymphoma is bimodal, roughly symmetric, with a center around 50, a
+
+[[PAGE 82]]
+spread from 0 to around 93, and two distinct clusters centered around 25
+and 75 years old.
+Example 1.14
+The histogram below shows employee computer usage (number accessing
+the Internet) during given times at a company’s main office.
+NOTE
+In plots such as this, there is no way to know the exact minimum or maximum
+values, only intervals in which these values fall.
+(a) Describe the distribution in context.
+(b) Suggest a possible explanation for the outlier.
+Solutions
+(a) The distribution of employee computer usage (number accessing the
+Internet) during given times is bimodal, with a center around 1 p.m., a
+spread from around 8 a.m. to around 9 p.m., a gap between 5 p.m. and
+8 p.m., and an outlier or outliers between 8 p.m. and 9 p.m. Computer
+usage at this company appears heaviest at midmorning and
+midafternoon with a dip in usage during the noon lunch hour.
+(b) The evening usage could indicate employees returning after dinner or
+possibly a hacker using company computer power for free!
+A distribution skewed to the left has a cumulative frequency plot that
+rises slowly at first and then steeply later. In contrast, a distribution
+skewed to the right has a cumulative frequency plot that rises steeply at
+first and then slowly later.
+Example 1.15
+
+[[PAGE 83]]
+Consider the essay-grading policies of three teachers: Mr. Abrams gives
+very low scores; Mrs. Brown gives equal numbers of low and high scores;
+and Ms. Connors gives very high scores. Histograms of the grades (with 1
+representing the lowest score and 4 representing the highest score) are as
+follows:
+(a) Compare the three distributions.
+(b) Which of the distributions corresponds to each of the following three
+cumulative frequency plots?
+Solutions
+(a) The distribution of Mr. Abrams’s scores is skewed right, of Mrs.
+Brown’s scores is roughly bell-shaped, and of Ms. Connors’s scores is
+skewed left. All three distributions are unimodal and have roughly the
+same spread from around 0 to around 4. The center of Mr. Abrams’s
+scores is the lowest, while the center of Ms. Connors’s scores is the
+highest.
+(b) The Abrams distribution with many low scores corresponds to
+cumulative frequency graph I, which rises sharply over the low
+scores. The Brown distribution with many middle scores corresponds
+
+[[PAGE 84]]
+to cumulative frequency graph II, which rises slowly to start, then
+rises more sharply over the middle scores, and finally rises slowly
+over the higher scores. The Connors distribution with many high
+scores corresponds to cumulative frequency graph III, which rises
+sharply over the high scores.
+
+########## SECTION statistics-barrons-2027-u1-s08 | One Quantitative Variable (Summary Statistics and Graphs) | PDF pages 100-120 ##########
+
+[[PAGE 100]]
+One Quantitative Variable (Summary
+Statistics and Graphs)
+There are two primary ways of denoting the “center” of a distribution:
+1. The median, which is the middle number of a set of numbers
+arranged in numerical order.
+
+[[PAGE 101]]
+2. The mean, which is found by summing items in a set and dividing by
+the number of items.
+Example 1.16
+Consider the following set of home run distances (in feet) to center field in
+13 ballparks: {387, 400, 400, 410, 410, 410, 414, 415, 420, 420, 421,
+457, 461}. What are the median and mean home run distances to center
+field for this set of 13 ballparks?
+Solution
+The median is 414 feet (there are six values below 414 and six values
+above), while the mean is
+REMEMBER
+Don’t forget to put the data in order before finding the median.
+The word median is derived from the Latin medius, which means
+“middle.” The values under consideration are arranged in ascending or
+descending order. If there is an odd number of values, the median is the
+middle one. If there is an even number of values, the median is found by
+adding the two middle values and dividing by 2. Thus the median of a set
+has the same number of elements above it as below it.
+The median is not affected by exactly how large the larger values are
+or by exactly how small the smaller values are. Thus, it is a particularly
+useful measurement when the extreme values, outliers, are in some way
+suspicious or when you want to diminish their effect. For example, if 10
+mice try to solve a maze and nine succeed in less than 15 minutes while
+one is still trying after 24 hours, the most representative value is the
+median (not the mean, which is over 2 hours). Similarly, if the salaries of
+four executives are each between $240,000 and $245,000 while a fifth is
+paid less than $20,000, again the most representative value is the median
+(the mean is under $200,000). The median is “resistant” to extreme
+values.
+
+[[PAGE 102]]
+NOTE
+A parameter, such as μ, is a numerical summary of a population, while a statistic,
+such as ¯ x¯, is a numerical summary of sample data.
+Although the median is often useful in descriptive statistics, the mean,
+or more accurately, the arithmetic mean, is most important for statistical
+inference and analysis. Also, for the layperson, the “average” is usually
+understood to be the mean.
+The mean of a whole population (the complete set of items of interest)
+is denoted by the Greek letter μ (mu), while the mean of a sample (a part
+of a population) is denoted by x̅. For example, the mean value of the set
+of all houses in the United States might be μ = $156,400, while the mean
+value of 100 randomly chosen houses might be x̅ = $152,100 or perhaps
+x̅ = $163,800 or even x̅ = $224,000. (Each sample will probably contain
+different dollar amounts than other samples and therefore will likely have
+a different mean than other samples.) In statistics we learn how to
+estimate a population mean from a sample mean.
+Mathematically, the mean
+, where Σx represents the sum of all the
+elements of the set under consideration and n is the actual number of
+elements.
+Example 1.17
+Suppose the salaries of the six part-time employees at a computer
+security company are $3,000; $7,000; $15,000; $22,000; $23,000; and
+$38,000.
+(a) What are the mean and median salaries?
+(b) What will the new mean and median salaries be if everyone receives
+a $3,000 increase?
+(c)
+What will the new mean and median salaries be if only the person
+with the highest salary receives a $3,000 increase?
+(d) What will be the new mean and median if everyone receives a 10%
+raise?
+Solutions
+(a) The mean is
+
+[[PAGE 103]]
+The median is
+.
+(b) The mean is
+The median is
+Note that adding the same constant to each value increases both the
+mean and the median by that same constant ($18,000 + $3,000 =
+$21,000 and $18,500 + $3,000 = $21,500).
+(c)
+The mean is
+.
+The median is
+.
+Note that the mean, unlike the median, is sensitive to a change in
+any value.
+(d) The mean is
+The median is
+Note that multiplying each value by the same constant multiplies
+both the mean and the median by that same constant (110% of
+$18,000 is $19,800 and 110% of $18,500 is $20,350).
+In describing a set of numbers, not only is it useful to designate a
+central value (mean or median), but also it is important to be able to
+indicate the variability of the measurements. An explosion engineer in
+mining operations aims for small variability—it would not be good for the
+30-minute fuses actually to have a range of 10–50 minutes before
+detonation. On the other hand, a teacher interested in distinguishing
+better students from those who have difficulty with the material aims to
+design exams with large variability in results—it would not be helpful if all
+the students scored exactly the same. The players on two basketball
+teams may have the same average height, but this observation doesn’t tell
+the whole story. If the dispersions are quite different, one team may have
+a 7-foot player, whereas the other has no one over 6 feet tall. Two
+Mediterranean holiday cruises may advertise the same average age for
+their passengers. One, however, may have passengers only between 20
+
+[[PAGE 104]]
+and 25 years old, while the other has only middle-aged parents in their
+forties together with their children under age 10.
+TIP
+Variability is the single most fundamental concept in statistics and is the key to
+understanding statistics.
+To understand variability, we either calculate the mean and standard
+deviation (defined below) or calculate the following five-number summary
+of a data set:
+■The minimum.
+■The 25th percentile, Q1, is the median of the lower half of the data
+set. In other words, about 25% of the numbers in the data set lie
+below Q1 and about 75% lie above Q1.
+■The median.
+■The 75th percentile, Q3, is the median of the upper half of the data
+set. In other words, about 75% of the numbers in the data set lie
+below Q3 and about 25% lie above Q3.
+■The maximum.
+There are four primary ways of describing variability (or spread):
+1. Range: the difference between the largest and smallest values
+(maximum minus minimum).
+∘Although the range gives a measure of spread, it is entirely
+dependent on the two extreme values and is insensitive to the
+values in the middle.
+∘Some quality control techniques involve taking periodic small
+samples and basing further action on the range found in such
+samples.
+2. Interquartile range (IQR): the difference between the largest and
+smallest values after removing the lower and upper quartiles.
+∘IQR = range of middle 50% = Q3 – Q1 = 75th percentile minus
+25th percentile.
+∘This removes the influence of extreme values.
+
+[[PAGE 105]]
+3. Variance: the average of the squared differences from the mean.
+∘The variance of a complete population is
+∘The variance of a sample is
+.
+4. Standard deviation (SD): the square root of the variance.
+∘The standard deviation of a complete population is
+.
+∘The standard deviation of a sample is
+∘The standard deviation gives a typical distance that each value is
+away from the mean. In other words, it is a representative value
+for the variability of a population or sample.
+∘Although variance is measured in square units, the standard
+deviation is measured in the same units as are the data.
+There are two numerical rules for designating outliers:
+1. The more common rule is that outliers are any value less than Q1 –
+1.5(IQR) or greater than Q3 + 1.5(IQR).
+2. An acceptable alternative rule is that outliers are all values located
+more than two standard deviations above, or below, the mean.
+The mean, range, variance, and standard deviation are called
+nonresistant or nonrobust measures because outliers can greatly affect
+their values. The median and IQR are called resistant or robust measures
+because outliers do not greatly (if at all) affect their values.
+Example 1.18
+In a random sample of 40 NBA players, the points scored by each player
+on a particular game day are summarized in the following table and are
+shown in the dotplot.
+Number of
+points
+Number of
+players
+
+[[PAGE 106]]
+(a) What is the five-number summary?
+(b) What are the range and interquartile range? Show your work.
+(c)
+Using the 1.5(IQR) rule, what values are outliers, if any? Show
+your work.
+(d) The mean number of points scored is 12.55 with a standard
+deviation of 6.46. Using the two standard deviations rule, what
+values are outliers, if any? Show your work.
+Solutions
+(a) The minimum number of points scored is 4. With n = 40, count 10
+values to obtain Q1 = 7. Counting 20, 21 values shows that the
+median is 10. Counting 10 values from the high side gives Q3 =
+15. The maximum is 32. The five-number summary is {4, 7, 10,
+15, 32}.
+(b) The range is Max minus Min = 32 – 4 = 28.
+The interquartile range is IQR = Q3 – Q1 = 15 – 7 = 8.
+(c)
+Q1 – 1.5(IQR) = 7 – 1.5(8) = –5 and no values are below this.
+Q3 + 1.5(IQR) = 15 + 1.5(8) = 27 and there is one value, 32,
+above this.
+Using the 1.5(IQR) rule, there is one outlier, 32.
+(d) x̅ − 2s = 12.55 − 2(6.46) = − 0.37 and no values are below this.
+x̅ + 2s = 12.55 + 2(6.46) = 25.47 and there are two values, 26
+and 32, above this.
+
+[[PAGE 107]]
+Using the two standard deviations rule, there are two outliers, 26
+and 32.
+Example 1.19
+Consider the following dotplots of student scores on an AP exam of four
+AP Calculus classes, each with 10 students. Without making any
+calculations, arrange the four classes in order from smallest SD to largest
+SD.
+Solution
+Although all four classes have a mean score of 3, variability is the issue,
+as it is different for each class. The scores in Class A have no variability at
+all, so the SD is smallest for Class A. The scores in Class B are all as far as
+possible away from the mean, so the SD is greatest for Class B. Note that
+Class D has more scores near the middle, while Class C has more scores
+further from the middle. So the SD for Class D is less than the SD for
+Class C. The correct ordering of the classes from smallest SD to largest SD
+is: A-D-C-B.
+
+[[PAGE 108]]
+We have seen ways of choosing a value to represent the center of a
+distribution. We also need to be able to talk about the position of other
+values. There are several important, recognized procedures for
+designating position:
+1. Simple ranking, which involves arranging the elements in some order
+and noting where in that order a particular value falls.
+∘Simple ranking is easily calculated and easily understood. For
+example, we know what it means for someone to graduate second
+in their class of 435 or for someone to have the seventh-best
+batting average on a team of 30 players.
+∘Simple ranking is useful even when there are no numerical values.
+For example, ice cream brands can be ranked according to taste
+without any numerical value of taste.
+2. Percentile ranking, which indicates what percentage of all values fall
+at or below the value under consideration.
+∘Percentile ranking is helpful when comparing positions with
+different bases. For example, we can compare a rank of 176 out of
+704 with a rank of 187 out of 935 by noting that the first has a
+rank of 75% and the second a rank of 80%.
+∘Percentile ranking is also useful when the exact population size is
+unknown or is irrelevant. For example, it is more meaningful to say
+that Jennifer scored in the 90th percentile on a national exam
+rather than trying to determine her exact ranking among some
+large number of test takers.
+3. The z-score, which states very specifically the number of standard
+deviations a particular value is above or below the mean.
+∘The z-score of a raw score x is given by
+, where μ is the
+mean and σ is the standard deviation.
+∘A positive z-score indicates that a value is greater than the mean,
+while a negative z-score indicates that a value is less than the
+mean.
+∘When given a z-score, we can find the corresponding raw score by
+calculating x = μ + zσ.
+∘No matter what the distribution of raw scores, the set of z-scores
+always has mean 0 and standard deviation 1.
+
+[[PAGE 109]]
+∘z-scores can be useful as a common “measuring stick” with which
+to compare values from different distributions. For example, a high
+school senior might have a lower GPA than a high school
+sophomore, but the senior’s GPA might actually be far above the
+average senior GPA while the sophomore’s GPA might be only
+slightly above the average sophomore GPA. We can make a
+comparison using z-scores.
+∘When we come to normal distributions, software will enable us to
+quickly go between z-scores and probabilities.
+4. Values that divide a data set into equal parts.
+∘Quartiles split data into four equal parts. The first quartile, Q1, lies
+one-quarter of the way up a list, and the third quartile, Q3, lies
+three-quarters of the way up a list. Their percentile ranks are 25%
+and 75%, respectively.
+∘Deciles split data into 10 equal parts. The first decile, D1, marks
+the point below which 10% of the data fall; the second decile, D2,
+marks the point below which 20% of the data fall; and so on. This
+continues up to the ninth decile, D9, which marks the point below
+which 90% of the data fall.
+Example 1.20
+It is recommended that the “good cholesterol,” high-density lipoprotein
+(HDL), be present in the blood at levels of at least 40 mg/dL. Suppose all
+50 members of a high school football team are tested, and the resulting
+HDL levels are as follows: {53, 26, 45, 33, 64, 29, 73, 29, 21, 58, 70, 41,
+48, 55, 55, 39, 57, 48, 9, 59, 56, 39, 68, 50, 65, 30, 38, 54, 49, 35, 56,
+70, 43, 86, 52, 40, 28, 40, 67, 50, 47, 54, 59, 29, 29, 42, 45, 37, 51, 40}.
+The mean of this list is 47.22 mg/dL with a standard deviation of 15.05
+mg/dL. Given that there are 31 higher HDL levels than 41, what is the
+position of the HDL score of 41 as measured in simple ranking, percentile
+ranking, and z-score?
+Solution
+Since there are 31 higher HDL levels on the list, the 41 has a simple
+ranking of 32 out of 50. Of all the HDL levels, 19 are at or lower than 41,
+
+[[PAGE 110]]
+so the percentile ranking is
+. The HDL score of 41 has a z-score of
+Example 1.21
+Because of hurricanes, refinery outages, and Middle East tensions, the
+mean price of gasoline in one northeast city hit $3.80 per gallon with a
+standard deviation of $0.05. Then $3.90 has a z-score of
+,
+while $3.65 has a z-score of
+. Alternatively, a z-score of +2.2
+corresponds to a raw score of 3.80 + 2.2(0.05) = 3.80 + 0.11 = 3.91,
+while a z-score of −1.6 corresponds to 3.80 − 1.6(0.05) = 3.72.
+It is often useful to portray integer z-scores and the corresponding raw
+scores as follows:
+Changing units, for example, from dollars to rubles or from miles to
+kilometers, is common in a world that seems to become smaller all the
+time. It is instructive to note how measures of center, variability, and, by
+extension, position are affected by such changes.
+■When the same constant is added to every value:
+∘The mean and median increase by that same constant.
+∘The range and standard deviation remain unchanged (because
+the distances between the increased values stay the same as
+before).
+■When every value is multiplied by the same constant:
+∘The mean, median, range, and standard deviation are all
+multiplied by that same constant.
+■Neither adding the same constant to every value nor multiplying
+every value by the same constant will affect a simple ranking, a
+percentile ranking, or even a z-score.
+
+[[PAGE 111]]
+Example 1.22
+A set of experimental measurements of the freezing point of an unknown
+liquid yields a mean of 25.32 degrees Celsius with a standard deviation of
+1.47 degrees Celsius.
+(a) If all the measurements are converted to the Kelvin scale, what
+are the new mean and standard deviation? (Kelvins are equivalent
+to degrees Celsius plus 273.16.)
+(b) What is the z-score of 27 degrees Celsius?
+Solutions
+(a) The new mean is 25.32 + 273.16 = 298.48 Kelvins. The standard
+deviation, however, remains numerically the same, 1.47 Kelvins.
+Graphically, you should picture the whole distribution moving over
+by the constant 273.16; the mean moves, but the standard
+deviation (which measures variability) doesn’t change.
+(b) For 27 degrees Celsius, z = (27 − 25.32)/1.47 = 1.14. It is
+instructive to note that 27 degrees Celsius corresponds to 27 +
+273.16 = 300.16 Kelvins with again a z-score of z = (300.16 −
+298.48)/1.47 = 1.14.
+Example 1.23
+Measurements of the sizes of farms in an upstate New York county yield a
+mean of 59.2 hectares with a standard deviation of 11.2 hectares.
+(a) If all the measurements are converted from hectares (metric
+system) to acres, what are the new mean and standard deviation?
+(One hectare is equivalent to 2.471 acres.)
+(b) What is the z-score of 55 hectares?
+Solutions
+(a) The new mean is 2.471 × 59.2 = 146.3 acres with a standard
+deviation of 2.471 × 11.2 = 27.7 acres. Graphically, multiplying
+each value by the constant 2.471 both moves and spreads out the
+distribution.
+
+[[PAGE 112]]
+(b) z = (55 − 59.2)/11.2 = −0.375. It is instructive to note that 55
+hectares equals 2.471(55) = 135.905 acres, and again z =
+(135.905 − 146.3)/27.7 = −0.375.
+Example 1.24
+Below is a histogram of the home prices (in $1,000) of a Midwestern
+urban city.
+The distribution of home prices is unimodal, is skewed right, has a mode of
+$200,000, and varies from $150,000 to about $525,000.
+
+[[PAGE 113]]
+The median, $265,000, divides the distribution in half, so it can be
+illustrated by a line that divides the area of the histogram in half.
+
+[[PAGE 114]]
+The mean, $300,000, is affected by the spacing of all the values. If the
+histogram is considered a solid region, the mean corresponds to a line
+passing through the center of gravity, or balance point.
+Example 1.25
+Suppose that the faculty salaries at a college have a median of $82,500
+and a mean of $88,700. What does this indicate about the shape of the
+distribution of the salaries?
+Solution
+The median is less than the mean, and so the salaries are probably
+skewed to the right. There are a few highly paid professors, with the bulk
+of the faculty at the lower end of the pay scale.
+There are some general principles:
+■If a distribution is approximately symmetric, the mean and median
+will be close to each other.
+■If a distribution is skewed right, the mean is usually greater than the
+median.
+
+[[PAGE 115]]
+■If a distribution is skewed left, the mean is usually less than the
+median.
+It should be noted that the above principle is a useful, but not hard-
+and-fast, rule.
+Example 1.26
+The set given by the dotplot below is skewed to the right; however, its
+median (3) is greater than its mean (2.97).
+We have seen that in histograms, relative frequencies are represented
+by relative areas, and so labeling the vertical axis is not crucial. If we
+know the standard deviation, the horizontal axis can be labeled in terms
+of z-scores. In fact, if we are given the percentile rankings of various z-
+scores, we can construct a histogram.
+Example 1.27
+Suppose we are asked to construct a histogram from these data:
+z-score
+−2
+−1
+Percentile ranking
+We note that the entire area is less than z-score +2 and greater than z-
+score −2. Also, 20% of the area is between z-scores −2 and −1, 40% is
+between −1 and 0, 10% is between 0 and 1, and 30% is between 1 and
+2. Thus the histogram is as follows.
+
+[[PAGE 116]]
+Now suppose we are given four in-between z-scores as well:
+z-score
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+2.0
+Percentile
+ranking
+With 1,000 z-scores perhaps the histogram would look like:
+The height at any point is meaningless; what is important is relative areas.
+(a) In the final diagram above, what percentage of the area is
+between z-scores of +1 and +2?
+(b) What percent is to the left of 0?
+Solutions
+(a) Still 30%.
+(b) Still 60%.
+
+[[PAGE 117]]
+A boxplot (also called a box and whisker display) is a visual
+representation displaying the distribution of data that shows the smallest
+value, the largest value, the middle (median), the middle of the bottom
+half of the set (Q1), and the middle of the top half of the set (Q3). The
+five numbers that are identified in a boxplot are called the five-number
+summary. In addition, values more than or less than 1.5 × IQR (1.5 times
+the interquartile range) outside the box are plotted separately as outliers.
+Example 1.28
+After an AP Statistics teacher hears that every one of her 27 students
+received a 3 or higher on the AP exam, she treats the class to a game of
+bowling. The individual student bowling scores are 210, 130, 150, 140,
+150, 210, 150, 125, 85, 200, 70, 150, 75, 90, 150, 115, 120, 125, 160,
+140, 100, 95, 100, 215, 130, 160, and 200. The students note that the
+greatest score is 215, the smallest is 70, the middle is 140, the middle of
+the top half is 160, and the middle of the bottom half is 100. A boxplot of
+these five numbers is
+Note that the display consists of a box together with two “whiskers”—
+hence the alternative name. The box shows the spread of the two middle
+quarters; the whiskers (together with any outliers) show the spread of the
+two outer quarters. This relatively simple display conveys information not
+immediately available from histograms or stem and leaf displays.
+Putting the above data into a list, for example, L1, on the TI-84, not
+only gives the five-number summary
+1-Var Stats
+minX=70
+Q1=100
+Med=140
+Q3=160
+
+[[PAGE 118]]
+MaxX=215
+but also gives the boxplot itself using STAT PLOT, choosing the boxplot
+from among the six type choices, and then using ZoomStat or in
+WINDOW, letting Xmin=0 and Xmax=225.
+Example 1.29
+Inputting the lengths of words in a selection of Shakespeare’s plays results
+in the following summary statistics and histogram:
+n
+mean
+SD
+min
+Q1
+med
+Q3
+max
+4.114
+2.085
+(a) Find all outliers, if any, using the 1.5(IQR) rule.
+(b) Draw a boxplot.
+Solutions
+(a) Outliers consist of any word lengths less than Q1 − 1.5(IQR) = 3
+− 1.5(5 − 3) = 0 or greater than Q3 + 1.5(IQR) = 5 + 1.5(5 − 3)
+= 8. Word lengths of 9, 10, 11, and 12 are outliers.
+(b)
+Example 1.30
+
+[[PAGE 119]]
+Let A = {0, 5, 10, 15, 25, 30, 35, 40, 45, 50, 71, 72, 73, 74, 75, 76, 77,
+78, 100}, B = {0, 22, 23, 24, 25, 26, 27, 28, 29, 50, 55, 60, 65, 70, 75,
+85, 90, 95, 100}, and C = {0, 10, 20, 25, 25, 30, 35, 40, 50, 60, 65, 70,
+75, 75, 80, 90, 100}. Simple inspection indicates very different
+distributions; however, the TI-84 gives identical boxplots with Min = 0, Q1
+= 25, Med = 50, Q3 = 75, and Max = 100 for each. The dotplots are
+shown below.
+Draw the common boxplot.
+Solution
+Boxplots enable you to do a quick graphical examination of a data set:
+■A boxplot gives one measure of center (the median), gives two
+measures of variability (the range and the IQR), and shows outliers.
+■Be careful! When outliers are present, the whiskers are drawn to the
+smallest and largest values that are not outliers; they are not drawn
+to Q1 – 1.5(IQR) and Q3 + 1.5(IQR) unless these are actual values.
+■Concepts like symmetry, gaps, and overall shape are generally very
+difficult to conclude from just a boxplot. Although boxplots cannot
+show overall shape, they may suggest skewness or symmetry.
+■Different sets can have the same five-number summary, and thus
+the same boxplots, but can have dramatically different distributions.
+■Be careful of language! The IQR is a length, the length of the box;
+IQR is not the box itself. So, although the median is in the box, or is
+
+[[PAGE 120]]
+between Q1 and Q3, it is wrong to say that the median is in the IQR.
+One Quantitative Variable (Distribution
+Comparisons)
+Many studies involve comparing groups. Following are three examples
+showing comparisons involving back-to-back stemplots, side-by-side
+histograms, and parallel boxplots.
+Example 1.31
+The numbers of wins for the 30 NBA teams at the end of a recent season
+are shown in the following back-to-back stemplot.
+NOTE
+The leaves radiate out from a common stem.
+NOTE
+
+########## SECTION statistics-barrons-2027-u1-s09 | One Quantitative Variable (Distribution Comparisons) | PDF pages 120-123 ##########
+
+[[PAGE 120]]
+One Quantitative Variable (Distribution
+Comparisons)
+Many studies involve comparing groups. Following are three examples
+showing comparisons involving back-to-back stemplots, side-by-side
+histograms, and parallel boxplots.
+Example 1.31
+The numbers of wins for the 30 NBA teams at the end of a recent season
+are shown in the following back-to-back stemplot.
+NOTE
+The leaves radiate out from a common stem.
+NOTE
+
+[[PAGE 121]]
+Although both sets in this example are of the same size, in general you do not have
+to have the same number of data points on each side of the plot.
+Compare the two distributions.
+Solution
+Important
+When asked for a comparison, don’t forget to address Shape, Unusual features (Outliers, gaps,
+clusters), Center, and Spread (SOCS or CUSS) and to refer to context. You must use
+comparative words—that is, you must state which center and which spread is larger (or if they
+are approximately the same). Simply describing each distribution separately is not enough and
+will be penalized.
+Shape: The distribution of wins in the Eastern Conference (EC) is roughly
+bell-shaped, while the distribution of wins in the Western Conference
+(WC) is roughly uniform with a low outlier.
+Center: Counting values (8th out of 15) gives medians of mEC = 41 and
+mWC = 48. Thus, the WC distribution of wins has the greater center.
+Spread: The range of the EC distribution of wins is 60 − 17 = 43, while
+the range of the WC distribution of wins is 57 − 19 = 38. Thus, the EC
+distribution of wins has the greater spread.
+Unusual features: The WC distribution has an apparent outlier at 19 and a
+gap between 19 and 33, which is different than the EC distribution that
+has no apparent outliers or gaps.
+Example 1.32
+Two surveys, one of high school students and one of college students,
+asked students how many hours they sleep per night. The following
+histograms summarize the distributions.
+
+[[PAGE 122]]
+Compare the two distributions.
+Solution
+Shape: The distribution of sleep hours in the high school student
+distribution is skewed right, while the distribution of sleep hours in the
+college student distribution is unimodal and roughly symmetric.
+Center: The median sleep hours for the high school students (between 6.5
+and 7) is less than the median sleep hours for the college students
+(between 7 and 7.5).
+Spread: The range of the college student sleep hour distribution is greater
+than the range of the high school student sleep hour distribution.
+Unusual features: The college student sleep hour distribution has two
+distinct gaps, 5.5 to 6 and 8 to 8.5, and possible low and high outliers,
+while the high school student sleep hour distribution doesn’t clearly show
+possible gaps or outliers.
+Example 1.33
+The following are parallel boxplots showing the daily price fluctuations of a
+particular common stock over the course of 5 years. What trends do the
+boxplots show?
+
+[[PAGE 123]]
+Solution
+The parallel boxplots show that from year to year the median daily stock
+price has steadily risen 20 points from about $58 to about $78, the third
+quartile value has been roughly stable at about $84, the yearly low has
+never decreased from that of the previous year, and the interquartile
+range has never increased from one year to the next. Note that the lowest
+median stock price was in 2022, and the highest was in 2026. The
+smallest spread (as measured by the range) in stock prices was in 2026,
+and the largest was in 2023. None of the price distributions shows an
+outlier.
+
+########## SECTION statistics-barrons-2027-u1-s12 | The Investigative Question | PDF pages 139-141 ##########
+
+[[PAGE 139]]
+The Investigative Question
+There are three principal components to the investigative question:
+1. Identifying the variable(s) of interest
+2. Identifying the parameter(s) and identifying the appropriate inference
+procedure:
+∘Estimating a quantity indicates a confidence interval
+
+[[PAGE 140]]
+∘Testing a claim indicates a hypotheses test; the direction of the
+alternative hypothesis must be indicated.
+3. Justifying a conclusion in context:
+∘Determining the population to which a conclusion is applicable
+∘Justifying a cause-and-effect conclusion when appropriate
+Example 1.34
+A sociologist plans to interview 500 randomly selected adults over the age
+of 65 living in retirement homes in her home state of Florida as to
+whether or not they have been victimized by scams. What is a valid
+investigative question, and what are the components of this question?
+Solution
+A valid investigative question:
+What is a confidence interval of plausible values for the proportion of all
+American adults over the age of 65 living in retirement homes in Florida
+who have been victimized by scams?
+The components of the investigative question:
+1. The variable of interest is whether or not an American adult over the
+age of 65 living in a retirement home in Florida has been victimized
+by a scam.
+2. The parameter of interest is the true proportion of all American adults
+over the age of 65 living in retirement homes in Florida who have
+been victimized by scams.
+3. This can be generalized to all adults over the age of 65 living in
+retirement homes in Florida.
+Example 1.35
+A school administrator wants to perform a study about the average first
+period class grade received by students who are granted parking
+privileges and those who are denied parking privileges. She believes that
+those students granted parking privileges do better than those students
+denied parking privileges. From among 100 applicants for parking
+privileges, she plans to randomly select 50 to grant privileges to and to
+
+[[PAGE 141]]
+deny privileges to the other 50 applicants. Grades in first-period classes
+will be compared between the two groups at the end of the semester.
+What is a valid investigative question, and what are the components of
+this question?
+Solution
+A valid investigative question:
+Is there convincing statistical evidence to suggest that the mean first
+period class grade for all students who are granted parking privileges is
+greater than the mean first period class grade for all students who are
+denied parking privileges?
+The components of the investigative question:
+1. The variables of interest are whether or not a student has been
+granted parking privileges, and students’ first period class grades.
+2. The parameters of interest are the mean first period class grade for
+all high school students who are granted parking privileges and the
+mean first period class grade for all high school students who are
+denied parking privileges. The alternative hypothesis is that the mean
+grade for high school students who are granted parking privileges is
+greater than the mean grade for students who are denied parking
+privileges.
+3. If convincing evidence is found, a cause-and-effect conclusion would
+be appropriate; that is, a conclusion would follow that granting
+parking privileges will result in higher first period class grades for the
+population of all students who apply for parking privileges at the
+administrator’s high school.
+
+########## SECTION statistics-barrons-2027-u1-s13 | Data Collection | PDF pages 141-146 ##########
+
+[[PAGE 141]]
+Data Collection
+There is a key question that you will begin to reflect upon in this unit and
+that will be more fully answered in the later units on inference. That is,
+suppose we measure some difference between two groups: what are the
+possible explanations? The difference could have resulted simply by
+chance, or there could be some unknown confounding variable that is
+
+[[PAGE 142]]
+causing the difference in measure, or there could be a causal association
+whereby something in one group causes the difference in measure.
+In the real world, time and cost considerations usually make it
+impossible to analyze an entire population. Do companies like Apple
+question every potential consumer before designing a new smartphone?
+Does a television producer check every household’s viewing preferences
+before deciding whether a pilot program will be continued? By studying
+statistics, we learn how to estimate a population characteristic (called a
+population parameter) by considering a sample measurement (called a
+sample statistic). Later in this review book we will see how to estimate
+population proportions and means by looking at sample proportions and
+means.
+To derive conclusions about the larger population, we need to be
+confident that the sample we have chosen represents the population fairly.
+Analyzing the data with computers is often easier than gathering the data,
+but the frequently quoted “garbage in, garbage out” applies here. If data
+are poorly collected, then the measurements we calculate will be
+meaningless. Nothing can help if the data are collected poorly.
+Unfortunately, many of the statistics that we are bombarded with in
+newspapers, on the radio, and on television are based on poorly designed
+data collection procedures.
+The following questions should always be asked when collecting data:
+■How are the data being collected?
+■Does the collection method reasonably lead to a sample
+representative of the population or not?
+■How might the individuals in our sample differ from those not in our
+sample?
+■If our sample is not representative of the intended population, how
+might this lead to an underestimate or overestimate of the
+measurement of interest?
+A sample is considered random when all observational units in
+the sample are selected from the population using some type of
+random mechanism. With random sampling, it is appropriate to make
+generalizations from the sample to the population. However, the following
+myth and fact hold true:
+
+[[PAGE 143]]
+■Myth: A random sample will always be representative of the
+population.
+■Fact: A random sample, simply by chance, might turn out not to be
+very representative.
+There are four important principles in picking a representative sample in
+order to be able to generalize our findings to the whole population:
+1. The use of randomization in sample selection increases the chance
+that the resulting sample exhibits all the known and unknown
+features of the population.
+2. The sample size, not the fraction of the population surveyed, is key.
+Larger samples give better information about the population than
+smaller samples.
+3. A sample is generalizable only to the population from which the
+sample was selected.
+4. It is not possible to conclude a cause-and-effect relationship between
+variables using data collected from an observational study.
+There are four important principles in designing an experiment in order to
+be able to make a cause-and-effect conclusion:
+1. There should be at least two treatment groups, one of which can be a
+control group.
+2. The use of randomization in assignment to treatment groups
+increases the chance that treatment groups are as similar as possible
+other than which treatment each group receives.
+3. The size of treatment groups—that is, the number of subjects in each
+treatment group—is key. Larger numbers of subjects give better
+information than smaller numbers.
+4. If there is an important difference among the subjects, similar
+subjects should be grouped into blocks, and treatments should be
+randomized within the blocks.
+In an experiment, we impose some change or treatment and measure
+the response. In an observational study, we simply observe and measure
+something that has taken place or is taking place while trying not to cause
+any changes by our presence. Understanding the differences between
+observational studies and experiments is one of the most important ideas
+to come away with from your AP Statistics class. The table below
+
+[[PAGE 144]]
+summarizes and previews the terminology and concepts that will be
+explained throughout the remainder of this unit.
+Observational Studies
+Experiments
+Observe and measure without
+influencing
+Impose treatments and measure
+responses
+Can only show associations
+Can suggest cause-and-effect
+relationships
+Use of random sampling in order to be
+able to generalize to a population
+Use of random assignment to minimize
+the effect of confounding variables
+Usually less expensive and less time-
+consuming
+Can be expensive and time-consuming
+Use of strata, and randomization within
+strata, for greater accuracy and to
+reduce variability
+Use of blocks, and randomization within
+blocks, to control for certain variables
+Possible ethical concerns over imposing
+certain treatments
+Use of a control group for a baseline
+comparison
+Use of blinding and double-blinding
+Example 1.36
+Identify each of the following as an observational study or an experiment.
+(a) Researchers measured the systolic blood pressures for a random
+sample of 100 dog owners and compared these values with the
+systolic blood pressures for a random sample of 100 subjects who did
+not own dogs.
+(b) Resting times before full recovery from vigorous exercise was
+tabulated for 25 athletes who chose to drink chocolate milk after
+exercising and for 25 athletes who chose to drink Gatorade after
+exercising. Resting times were then compared between the two sets
+of athletes.
+(c)
+Researchers randomly assigned 38 students, each to one of two
+groups. The students in one group were instructed to take an exam
+where all the questions were displayed on a small screen in portrait
+orientation, while the students in the other group were instructed to
+take the same exam but where all the questions were displayed on a
+
+[[PAGE 145]]
+small screen in landscape orientation. Results on the exam were
+compared.
+(d) Data were gathered on the rate of fatal heart attacks per 100,000
+people living in the South versus living in the North. Rates were
+compared and indicated a greater percentage of Southerners than
+Northerners had heart attacks.
+(e)
+Patients recovering from knee replacement surgery were randomly
+assigned to two groups. The patients in one of the groups were asked
+to play video games for at least five hours per day for the first three
+days after surgery. After three days, a comparison was made on how
+much pain relief medication was needed for patients in each group.
+Solutions
+(a) This was an observational study as people in the study either were
+pet owners or were not. No one was assigned to have or not have a
+pet.
+(b) This was an observational study as the athletes themselves chose to
+drink either chocolate milk or Gatorade after exercising. No one was
+assigned a particular drink.
+(c)
+This was an experiment where two treatments were applied.
+Students were randomly assigned to two groups and then were
+instructed as to which display to use.
+(d) This was an observational study as no one was made to live in the
+South or the North.
+(e)
+This was an experiment because the patients were assigned to two
+groups. One group received the “treatment” of playing video games,
+while the other group was a control group.
+Example 1.37
+A study is to be designed to determine whether a particular commercial
+review course actually helps raise SAT scores among students attending a
+particular high school.
+(a) How could an observational study be performed?
+(b) How could an experiment be performed?
+(c)
+What is an argument in favor of the experimental approach over the
+observational study approach?
+
+[[PAGE 146]]
+(d) What is an argument in favor of the observational study approach
+over the experimental approach?
+Solutions
+(a) An observational study would interview students at the school who
+have taken the SAT exam, asking whether or not they took the review
+course, and then the SAT results of those who have and have not
+taken the review course would be compared.
+(b) An experiment performed on students at the school who are planning
+to take the SAT exam would use chance to randomly assign some
+students to take the review course while others to not take the review
+course and would then compare the SAT results of those who have
+and have not taken the review course.
+(c)
+An argument in favor of the experimental approach is that with the
+observational study, there could be many explanations for any SAT
+score difference noted between those who took the course and those
+who didn’t. For example, students who took the course might be the
+more serious high school students. Higher score results might be due
+to their more serious outlook and have nothing to do with taking the
+course. The experiment tries to control for confounding variables by
+using random assignment to make the groups taking and not taking
+the course as similar as possible except for whether or not the
+individuals take the course.
+(d) An argument in favor of the observational study approach is that
+there are ethical considerations in forcing some students to take the
+review course who might not have wanted to and in withholding the
+review course from some students who might have wanted to take it.
+TIP
+It is important to identify the response variable (SAT scores in this example) right
+away. This is critical in answering any experimental design question.
+
+########## SECTION statistics-barrons-2027-u1-s14 | Observational Studies | PDF pages 146-159 ##########
+
+[[PAGE 146]]
+Observational Studies
+Observational studies aim to gather information about a population
+without disturbing the population. Retrospective studies look backward,
+
+[[PAGE 147]]
+examining existing data, while prospective studies watch for outcomes,
+tracking individuals into the future.
+Example 1.38
+Retrospective studies of the 2014–2016 Ebola epidemic in West Africa
+have looked at the timing, numbers, and locations of reported cases and
+have tried to understand how the outbreak spread. There is now much
+better understanding of transmission through contact with bodily fluids of
+infected people. Several prospective studies involve ongoing surveillance
+to see how experience and tools to rapidly identify cases will now limit
+future epidemics.
+Retrospective studies tend to be smaller scale, quicker to complete,
+and less expensive. In cases such as addressing diseases with low
+incidence, the study begins right from the start with people who have
+already been identified. However, researchers have much less control,
+usually having to rely on past recordkeeping of others. Furthermore, the
+existing data will often have been gathered for other purposes than the
+topic of interest. Then there is the problem of subjects’ inaccurate
+memories and possible biases.
+Prospective studies usually have greater accuracy in data collection and
+are less susceptible to recall error from subjects. Researchers do their own
+recordkeeping and can monitor exactly what variables they are interested
+in. However, these studies can be very expensive and time-consuming, as
+they often follow large numbers of subjects for a long time.
+No matter how well designed and well conducted a survey is, it still
+gives a sample statistic as an estimate for a population parameter.
+Different samples give different statistics, all of which are estimates for
+the same population parameter. So sampling variability is naturally
+present.
+Example 1.39
+Pesticide residue on store-bought fruit can be a health problem. Ms. D has
+two AP Statistics classes with 30 students in each. For a study asking high
+school students whether or not they wash fruit before eating them, each
+student in the first class obtained a random sample of size 10 to question,
+
+[[PAGE 148]]
+while each student in the second class obtained a random sample of size
+50 to question. The data obtained are displayed in two dotplots:
+Note the relationship between sampling variability and sample size.
+Estimates from larger samples produce less sampling variability; that is,
+they are more tightly clustered around the presumed true parameter
+value.
+Collecting data from every individual in a population, called a census,
+might seem to provide complete information, but unless the population is
+small, this method would be prohibitively expensive and time-consuming.
+Furthermore, it could be ridiculous, as, for example, tasting every single
+pizza a company makes would leave nothing left to sell. Finally, if a
+questionnaire is poorly worded, answers, even from an entire population,
+might be meaningless.
+Given that it is almost always impractical, if not impossible, to examine
+a whole population, we must settle for examining a sample. The list of all
+individuals from which the sample is drawn is called the sampling frame.
+Of primary importance is how to choose a representative sample from the
+sampling frame.
+A simple random sample (SRS) is one in which every possible
+sample of the desired size has an equal chance of being selected.
+(In an SRS, it is also true that every individual will have an equal chance
+of being selected.) One technique to create an SRS is to write the name of
+each member of the population on a card, thoroughly mix the cards, and
+pull out a specified number of cards. This method is often too time-
+consuming. A more practical method is to assign a number to everyone in
+the population and have a computer generate random numbers to indicate
+those chosen.
+Important
+
+[[PAGE 149]]
+To receive full credit, there are 3 steps:
+1.
+assigning integers,
+2.
+using a computer random number generator to generate distinct integers in a given range,
+and
+3.
+linking selected integers with corresponding individuals selected for the sample.
+Example 1.40
+Suppose 80 students are taking an AP Statistics course and the teacher
+wants to pick a sample of 10 students randomly to try out a practice
+exam. She can make use of a random number generator on a computer
+as follows. Assign the students numbers 1, 2, 3, . . . , 80. Use a computer
+to generate 10 random integers between 1 and 80 without replacement—
+that is, throw out repeats. The sample consists of the students with
+assigned numbers corresponding to the 10 unique computer-generated
+numbers.
+Advantages of simple random sampling include the following:
+■The simplicity of simple random sampling makes it relatively easy to
+interpret data collected.
+■This method requires minimal advance knowledge of the population
+other than knowing the complete sampling frame.
+■Simple random sampling allows us to make generalizations (i.e.,
+statistical inferences) from the sample to the population.
+■Among the major parameters with which we will work, simple
+random sampling tends to be unbiased; that is, when repeated
+many times, it gives sample statistics that are centered around the
+true parameter value.
+Disadvantages of simple random sampling include the following:
+■The need for a list of all potential subjects can be a formidable task.
+■Although simple random sampling is a straightforward procedure to
+understand, it can be difficult to execute, especially if the population
+is large. For example, how would you obtain a simple random
+sample of students from the population of all high school students in
+the United States?
+■The need to repeatedly contact nonrespondents can be very time-
+consuming.
+
+[[PAGE 150]]
+■Important groups may be inadvertently left out of the sample when
+using this method.
+There are other sampling methods available. Each has its own set of
+advantages and disadvantages.
+Stratified random sampling involves dividing the population into non-
+overlapping homogeneous groups called strata, then picking random
+samples from each of the strata, and finally combining these individual
+samples into what is called a stratified random sample. For example, we
+can stratify by age, gender, income level, or race/ethnicity; pick a sample
+of people from each stratum; and combine to form the final sample. For
+instance, a political pollster might want to be sure to include respondents
+from various minority groups. Stratifying by religion or race/ethnicity and
+including people from each group would ensure this diversity in the final
+sample.
+NOTE
+All individuals in a given stratum have a characteristic in common.
+TIP
+You should be able to explain why you think that stratification should be used in a
+given problem.
+Advantages of stratified random sampling include the following:
+■This ensures that every stratum is adequately represented and
+removes the chance of any significant segment of the population
+being entirely neglected.
+■Looking at subgroups within a population can make the work of
+collecting data more manageable.
+■This method may speed up the time it takes to conduct a survey and
+so is more cost-effective.
+■Samples taken within a stratum have reduced variability, which
+means the resulting estimates are more precise than when using
+other sampling methods.
+
+[[PAGE 151]]
+■More information, insights, and important differences among groups
+can become apparent.
+Disadvantages of stratified random sampling include the following:
+■It necessitates prior knowledge about the population and the
+variables used to stratify it, which may not be always available or
+accurate.
+■It may be difficult to classify every member of a population into one
+of the strata.
+■It may necessitate knowing the size of the population in each
+stratum.
+■Evaluating the results may be more difficult and more complex than
+with simple random sampling.
+■Like an SRS, this method might be difficult to implement with large
+populations.
+■Significant planning may be necessary to ensure that the
+subdivisions are logical in the context of the study. Forcing
+subdivisions when none really exist is meaningless.
+We could further do proportional sampling, where the sizes of the
+random samples from each stratum depend on the proportion of the total
+population represented by the stratum.
+Cluster random sampling involves dividing the population into non-
+overlapping heterogeneous groups called clusters, each similar to each
+other, and then picking everyone or everything in a random selection of
+one or more of the clusters. For example, to survey high school seniors,
+we could randomly pick several senior class homerooms in which to
+conduct our study and sample all students in those selected homerooms.
+NOTE
+Each cluster should resemble the entire population.
+Advantages of cluster random sampling include the following:
+■Clusters are often chosen for ease, convenience, and quickness.
+
+[[PAGE 152]]
+■With limited fixed funds, cluster random sampling usually allows for
+a larger sample size than do other sampling methods.
+■This method is especially appropriate when the construction of a
+complete list of the population is impossible, expensive, or too
+difficult to organize.
+Disadvantages of cluster random sampling include the following:
+■Although clusters should mirror the full diversity of the population,
+realistically this is difficult to accomplish.
+■Difficulties in analysis can result if the clusters are of very different
+sizes.
+■With a given sample size, cluster random sampling usually provides
+less precision than either an SRS or a stratified random sample
+provides.
+■If the population doesn’t have natural clusters and the designated
+clusters are not representative of the population, selection could
+easily result in a biased sample.
+The differences between strata and clusters include the following:
+■Although all strata are represented in the sample, only a subset of
+clusters are in the sample.
+■Stratified random sampling is accurate when each stratum consists
+of homogeneous elements, while cluster random sampling is
+accurate when each cluster consists of heterogeneous elements.
+■Randomization plays a key role in both methods! With stratified
+random sampling, the randomization takes place within each
+stratum. With cluster random sampling, the randomization takes
+place when choosing which clusters to include.
+TIP
+Depending upon how the random starting point is chosen, it may be necessary to
+wind the list around to the beginning.
+Systematic random sampling is a relatively simple and quick method. It
+involves listing the population in some order (for example, alphabetically),
+
+[[PAGE 153]]
+choosing a random point to start, and then picking every tenth (or
+hundredth, or thousandth, or kth) person from the list. This gives a
+reasonable sample as long as the original order of the list is not in any
+way related to the variables under consideration.
+Advantages of systematic random sampling include the following:
+■Systematic random sampling is simpler and quicker to implement
+than the other methods discussed. Subjects don’t have to be
+numbered. For example, this is a nice option for situations like exit
+polling or surveying people as they leave a stadium.
+■It is a practical, straightforward, reasonably random method
+especially useful for investigators unfamiliar with advanced statistics.
+■If similar members in the list are grouped together, we can end up
+with a kind of stratified random sample, only more easily
+implemented.
+Disadvantages of systematic random sampling include the following:
+■If randomization is a top priority, this method is weak as the only
+randomization in systematic random sampling occurs in choosing the
+initial subject.
+■If the population size isn’t roughly known, determining the fixed
+interval for sample selection is problematic and can lead to
+inaccurate results.
+■If the list happens to have a periodic structure similar to the period
+of the sampling, a very biased sample could result. For example,
+picking every 12th seat in an airplane when there are 6 seats in a
+row would result in all aisle or all middle or all window seats in the
+sample.
+Example 1.41
+Suppose a sample of 100 high school students from a Chicago school of
+size 5,000 is to be chosen to determine their views on whether they think
+the Cubs will win another World Series this century. One method would be
+to have each student write his or her name on a card, put the cards into a
+box, have the principal reach in and pull out 100 cards, and then choose
+the names on those cards to be the sample. However, questions could
+
+[[PAGE 154]]
+arise regarding how well the cards are mixed. For example, how might the
+outcome be affected if all students in one PE class toss their names in at
+the same time so that their cards are clumped together? A second method
+would be to number the students 1 through 5,000 and use a random
+number generator to pick 100 unique (throw out repeats) integers
+between 1 and 5,000. The sample is then the students whose numbers
+correspond to the 100 generated numbers. What are alternative
+procedures?
+Solution
+■Systematic random sampling: From a list of the students, the
+surveyor could choose a random starting name from among the first
+50 names and then include every 50th name from that point into the
+sample.
+■Stratified random sampling: Since students in each class have
+certain characteristics in common, the surveyor could use a random
+selection method to pick 25 students from each of the separate lists
+of freshmen, sophomores, juniors, and seniors.
+■Cluster random sampling: If each homeroom has a random mix of
+20 students from across all grade levels, the surveyor could
+randomly pick five homerooms with the sample consisting of all the
+students in these five homerooms.
+Sometimes we randomly pick a single sample, cross-categorize on two
+variables, and then test to see if there is an association between the
+variables. However, sometimes we instead randomly pick a sample from
+each of two or more populations and then compare the distribution of
+some variable among the different populations. This second method is
+called sampling for homogeneity.
+The one thing that most quickly invalidates a sample and makes
+obtaining useful information and drawing meaningful conclusions
+impossible is bias. A sampling method is biased if in some critical
+way it consistently results in samples that do not represent the
+population. This typically leads to certain responses being repeatedly
+favored over others, and results in a statistic being consistently smaller or
+larger than the parameter the statistic is used to estimate.
+
+[[PAGE 155]]
+The way data are obtained is crucial. A large sample size cannot make up for a poor survey
+design.
+Voluntary response surveys are based on individuals who choose to
+participate:
+Sampling bias is a property of the sampling method, not of any one
+sample generated by the method. Sampling methods that do not use
+random chance to select individuals are particularly susceptible to bias.
+Two examples of nonrandom sampling methods are voluntary response
+surveys and convenience surveys.
+TIP
+Think about potential biases before collecting data!
+■Such surveys typically give too much emphasis to people with strong
+opinions and undersample people who don’t care much about a
+topic.
+■Radio call-in programs about controversial topics do not produce
+meaningful data on what proportion of the population favors or
+opposes related issues.
+■Online surveys posted to websites miss people without Internet
+access and tend to have many unanswered questions if the survey is
+long.
+■Although a voluntary response survey may be easy and inexpensive
+to conduct, the sample is likely to be composed of strongly
+opinionated people, especially those with negative opinions on a
+subject.
+Convenience surveys are based on choosing individuals who are easy
+to reach:
+■These surveys tend to produce data highly unrepresentative of the
+entire population.
+■Mall surveys miss those who do not frequent malls and are affected
+by differences in shopper demographics during different times of day
+
+[[PAGE 156]]
+or different seasons.
+■Door-to-door household surveys miss people who do not happen to
+be at home and typically miss groups such as college students and
+prison inmates.
+■Although convenience samples may allow a researcher to conduct a
+survey quickly and inexpensively, generalizing from the sample to a
+population is almost impossible.
+It is important to recognize when a sample design is flawed, explain
+why it is flawed, and understand the direction of the bias. You will need to
+be able to decide if the bias will likely cause an underestimate or
+overestimate of a population parameter.
+The following are biases that you should recognize by name:
+NOTE
+Undercoverage bias and voluntary response bias happen when choosing a sample,
+while response bias, nonresponse bias, and wording bias happen after choosing a
+sample.
+■Undercoverage bias happens when there is inadequate
+representation, and thus some groups in the population are left out
+of the process of choosing the sample. For example, telephone
+surveys ignore those who don’t have telephones. Studies planning to
+conclude something about all residents in a city often do not
+adequately take into account the homeless when choosing a sample.
+Voluntary response surveys often suffer from undercoverage bias
+because those who choose to participate may differ from those who
+do not choose to participate. Similarly, convenience surveys often
+suffer from undercoverage bias because hard-to-reach people may
+have different views from those easy to reach.
+■Response bias occurs when the question itself can lead to misleading
+results because people don’t want to be perceived as having
+unpopular or unsavory views or don’t want to admit to having
+committed crimes. Nonneutral (leading) or poorly worded questions
+can result in very unrepresentative responses. Even the order in
+which questions are asked can make a difference.
+
+[[PAGE 157]]
+■Nonresponse bias, where there are low response rates, occurs when
+individuals chosen for the sample can’t be contacted or refuse to
+participate, and it is often unclear which part of the population is
+responding. As with undercoverage bias, nonresponse bias can
+misrepresent results if those who respond differ in some systematic
+way from those who do not respond. To minimize nonresponse bias,
+every effort should be made to follow up with those who do not
+respond to initial requests for information.
+Example 1.42
+The Military Times, in collaboration with the Institute for Veterans and
+Military Families at Syracuse University, conducted a voluntary and
+confidential online survey of U.S. service members who were readers of
+the Military Times. Their military status was verified through official
+Defense Department email addresses. What were possible sources of
+bias?
+Solution
+First, voluntary online surveys are very suspect because they typically
+overcount strongly opinionated people. Second, undercoverage bias is
+likely because only readers of the Military Times took part in the survey.
+Note that response bias was probably not a problem because the survey
+was confidential.
+When given a data collection method and asked to describe a bias that
+could occur, you need to address the following:
+TIP
+Don’t confuse bias with precision. Increasing the sample size will not reduce bias
+but may simply give a more precise estimate of a wrong answer.
+■Why is there bias? (For example, “The survey was voluntary
+response,” or “This was a convenience survey,” or “Only certain
+people had a chance to be selected,” or “People might be untruthful
+because they don’t want to be perceived as having an unpopular
+view.”)
+
+[[PAGE 158]]
+■How is it biased? (For example, “Those choosing to answer might
+feel stronger about the issue than the general population,” or “Those
+picked for the sample might be less likely than the general
+population to have full-time jobs.”)
+■What will this do to the estimate of the population parameter of
+interest? (For example, “This would likely result in an underestimate
+of the population proportion of ...,” or “This would likely result in an
+overestimate of the population mean of ....”)
+In some questions, you can receive full credit arguing either direction
+(a likely underestimate or overestimate) as long as there is a clear
+direction and a reasonable explanation tied to the data collection method
+that supports the argument.
+Example 1.43
+For each of the following, identify a possible question of interest and the
+potential problem.
+(a) Before buying a package of strawberries, you carefully look at the
+visible top rows of strawberries.
+(b) In a presidential survey, registered voters were asked, “Many people
+believe this candidate is weak on foreign policy. What do you think?”
+(c)
+A nutritionist asks adults entering a fast-food restaurant what they
+plan on ordering.
+(d) An online survey asks if drug companies should be held accountable
+for the number of overdose deaths reported using drugs they
+manufacture.
+(e)
+A teacher asks her students if they use AI in writing term papers.
+(f) A college administrator who is considering recommending a change in
+food vendor interviews students eating lunch in the college cafeteria.
+Solutions
+(a) Question of interest: Are the strawberries fresh?
+Problem: This is a convenience sample. The freshest strawberries
+may have been placed on top, leading you to overestimate the true
+quality of your purchase.
+(b) Question of interest: What proportion of registered voters believe the
+candidate is weak on foreign policy?
+
+[[PAGE 159]]
+Problem: The wording, which first states what some others have said,
+may lead to response bias and an overestimate of the true proportion
+of registered voters who believe the candidate is weak on foreign
+policy.
+(c)
+Question of interest: Do adults who frequent fast-food restaurants
+pick unhealthy options?
+Problem: There could be response bias because adults may not want
+to admit they plan to order unhealthy foods. There could also be
+nonresponse bias because adults planning to order unhealthy foods
+may refuse to take part in the survey. Both cases would lead to an
+underestimate of the true proportion of adults who order unhealthy
+foods at fast-food restaurants.
+(d) Question of interest: What proportion of people think that drug
+companies should be held accountable for the number of overdose
+deaths reported using drugs they manufacture?
+Problem: This is a voluntary response survey and probably has
+undercoverage bias. People who feel most strongly are likely to
+respond, particularly if they have lost family or friends to drug
+overdoses. This would lead to an overestimate of the true proportion
+of people who think that drug companies should be held accountable
+for the number of overdose deaths reported using drugs they
+manufacture.
+(e)
+Question of interest: What proportion of the teacher’s students use
+AI in writing term papers?
+Problem: Many students would not want to admit to using AI, leading
+to response bias and an underestimate of the true proportion of the
+teacher’s students who use AI in writing term papers.
+(f) Question of interest: What proportion of students are satisfied with
+the cafeteria food?
+Problem: This is a convenience sample of those students who do use
+the cafeteria. Students not using the cafeteria, possibly because they
+don’t like the food offered, are not being sampled, leading to
+undercoverage bias and an overestimate of the true proportion of
+students who are satisfied with the cafeteria food.
+
+########## SECTION statistics-barrons-2027-u1-s17 | Experimental Design | PDF pages 174-186 ##########
+
+[[PAGE 174]]
+Experimental Design
+An experiment is performed on objects called experimental units. If the
+units are people, they are called subjects. Experiments involve explanatory
+variables, called factors, that are believed to have an effect on response
+variables. A group is intentionally treated with some level of the
+explanatory variable, and the outcome of the response variable is
+measured.
+Example 1.44
+In an experiment to test exercise and blood pressure reduction, volunteers
+are randomly assigned to participate in 0, 1, or 2 hours of exercise per
+day for 5 days per week over the next 6 months.
+
+[[PAGE 175]]
+TIP
+If asked to list all the treatments, don’t create ones that aren’t there!
+NOTE
+When there is more than one factor, the number of treatments is the product of the
+number of levels for each factor.
+(a) What is the explanatory variable with corresponding levels, and what
+is the response variable?
+(b) Suppose the volunteers were further randomly assigned to follow
+either the DASH (Dietary Approaches to Stop Hypertension) or the
+TLC (Therapeutic Lifestyle Changes) diet for the 6 months. What
+would be the factors, the levels, and the treatments?
+Solutions
+(a) The explanatory variable, hours of exercise, is being implemented at
+three levels: 0, 1, and 2 hours per day. The response variable is not
+specified but could be the measured change in either systolic or
+diastolic blood pressure readings after 6 months.
+(b) There would be two factors, hours of exercise with three levels and
+diet plan with two levels, and a total of six treatments (DASH diet
+with 0 hours daily exercise, DASH with 1 hour exercise, DASH with 2
+hours exercise, TLC diet with 0 hours daily exercise, TLC with 1 hour
+exercise, and TLC with 2 hours exercise).
+The following are the four principles of experimental design.
+1. In comparison, we wish to compare a response variable with regard to
+two or more experimental conditions (treatments):
+∘If the purpose of an experiment is to determine whether some
+treatment has an effect, we compare to a control group that
+doesn’t receive that treatment.
+∘Depending on the experiment, a control group may be given an
+inactive treatment (a placebo), an established active treatment, or
+no treatment at all.
+
+[[PAGE 176]]
+∘Blinding occurs when the subjects don’t know which of the
+different treatments (such as placebos) they are receiving. When
+blinding is used, subjects in the treatment and control groups
+experience the placebo effect equally.
+∘Double-blinding is when neither the subjects nor the response
+evaluators know who is receiving which treatment.
+2. In random assignment, we use chance to randomly assign treatments
+to experimental units:
+∘The goal is to create treatment groups, including the control group,
+that are similar in all respects except for the treatment imposed.
+∘This potentially allows for cause-and-effect conclusions. On the
+exam, it is not enough to say “use random assignment.”
+∘You must be able to carefully explain how the random assignment
+of treatments to subjects is to be accomplished. Don’t forget to
+name which treatment is given to which randomly assigned group.
+3. In replication, the larger the sample is, the more significant the
+observation:
+∘The treatment should be repeated on a sufficient number of
+subjects so that real response differences are more apparent.
+∘Natural variation in outcomes can be lessened by using more
+subjects. We want to rule out that observed differences can be
+due just to random chance.
+∘Replication refers to having more than one experimental unit in
+each treatment group, not multiple trials of the same experiment.
+4. Control allows us to minimize the sources of variation other than the
+treatments by making conditions as similar as possible for all
+treatment groups:
+∘Controlling extraneous sources of variation makes it easier to
+identify true differences among the treatment groups.
+∘We want to minimize the possibility of variables we are not
+interested in from affecting the response variable.
+∘Blocking (randomly assigning treatments within homogeneous
+blocks) allows for a comparison of treatments within each block
+without worrying about how different responses might be due
+more to characteristics of different groups rather than to the
+different treatments.
+
+[[PAGE 177]]
+Example 1.45
+A dermatologist conducted an experiment to test whether a particular
+medication could reduce hair loss in men. From over 1,000 men
+volunteering for the study, 240 were over the age of 60, and these men
+were chosen as the test subjects. The men were randomly assigned to 2
+groups of 120 each. One group received the medication daily for 6
+months, while the other group received a placebo for 6 months. An
+independent expert looked at before and after photos of every subject
+and visually determined the change in hair density.
+(a) What question is the experiment trying to answer?
+(b) What are the experimental units?
+(c)
+Explain how the random assignment could have been performed.
+(d) What were the treatments?
+(e)
+What was the response variable?
+(f) Explain how control with regard to gender and age played a role in
+this experiment.
+(g) Did the experiment use blinding, and if so, why?
+(h) Did the experiment use double-blinding? Whether it did or did not,
+would double-blinding have been appropriate? Explain.
+Solutions
+(a) Does a particular medication reduce hair loss in men over the age of
+60?
+(b) The experimental units are the 240 chosen men.
+(c)
+Number the chosen men from 1 to 240. Use a random number
+generator to pick integers between 1 and 240, throwing out repeats,
+until 120 unique integers have been picked. The men corresponding
+to these 120 integers will be the group given the medication, and the
+remaining 120 men will be the group given the placebo.
+(d) The two treatments were the medication and the placebo.
+(e)
+The response variable was the change in hair density.
+(f) The medication may work differently for women or for men under the
+age of 60. These extraneous variables might have affected the
+response variable. So, for control, the experiment was limited to men
+over the age of 60.
+(g) The use of a placebo is an example of blinding. The purpose here is
+to guard against the placebo effect, which refers to the fact that
+
+[[PAGE 178]]
+many people respond to any kind of perceived treatment.
+(h) It’s not stated whether or not the independent expert knew which of
+the men were receiving the medication and which were receiving the
+placebo. It would be best if this was a double-blind experiment. If the
+independent expert knew who did and who did not receive the
+medication, that could have subconsciously influenced his judgment
+about hair density.
+Two variables are confounded when both are associated with a
+response variable and are also associated with each other. Their effects on
+the response variable cannot be distinguished, and it may be impossible to
+tell which explanatory variable truly causes the response.
+Example 1.46
+In a random survey of adults, it is noted that those who regularly brush
+their teeth have fewer cavities. Explain how diet could be a confounding
+variable.
+Solution
+Those who regularly brush their teeth may also choose better diets. So, it
+might be unclear whether regular brushing or a better diet leads to fewer
+cavities. In this case, brushing and diet would be confounded.
+Example 1.47
+In an experiment to determine if two different fertilizers cause differences
+in plant growth, a horticulturist used many test plots containing either the
+first or the second fertilizer, with equal numbers of sunny and shady plots
+for each fertilizer, so that fertilizer and sunlight would not be confounded.
+Explain how watering could be a confounding variable.
+Solution
+If the two fertilizers require different amounts of watering, it might be
+difficult to determine if the difference in fertilizers or the difference in
+watering is the real cause of an observed difference in plant growth. In
+this case, fertilizer and water would be confounded.
+Example 1.48
+
+[[PAGE 179]]
+Many are concerned that vaping produces the so-called gateway effect.
+Studies have shown that young people who vape are more likely to go on
+to smoke cigarettes than young people who do not vape.
+(a) What are the explanatory and response variables?
+(b) Are these observational studies or experiments?
+Some researchers suggest that a confounding variable might be that many
+people feel that smoking in general is “cool.”
+(c)
+Explain what this means to be a confounding variable in the above
+context.
+(d) Explain how this confounding variable might lead researchers to
+conclude a higher or lower proportion of people become cigarette
+smokers because they vape than actually become cigarette smokers
+because they vape.
+Solutions
+(a) The explanatory variable is whether or not a young adult vapes, and
+the response variable is whether or not the person becomes a
+cigarette smoker later in life.
+(b) These are observational studies. It would have been highly unethical
+to randomly select young adults and instruct them to vape as part of
+an experiment to see if they go on to cigarette smoking.
+(c)
+People who think smoking is “cool” are more likely to vape as young
+adults and are more likely to smoke cigarettes later in life. So, it may
+be that it’s not vaping that leads to cigarette smoking but, rather, that
+thinking smoking is “cool” leads both to vaping as a young adult and
+to smoking cigarettes later in life.
+(d) This confounding variable would lead researchers to conclude a
+higher proportion of people become cigarette smokers because they
+vape than actually become cigarette smokers because they vape,
+because some become cigarette smokers because they feel that
+smoking is “cool,” not because they vape.
+In an experiment, there is often a control group to determine if the
+treatment of interest has an effect. There are several types of control
+groups. A control group can be a collection of experimental units not
+given any treatment, or given the current treatment, or given a treatment
+with an inactive substance (a placebo). When a control group receives the
+
+[[PAGE 180]]
+current treatment or a placebo, these count as treatments if you are
+asked to enumerate the treatments.
+Random assignment to the various treatment groups, including to the
+control group, can help reduce the problem posed by confounding
+variables. The beauty of random assignment is that it works on variables
+that you “know” to be confounders, variables that you “suspect” to be
+confounders, and variables you are clueless about or don’t even know
+they exist. Random assignment to treatments, called completely
+randomized design, is critical in good experimental design. This is
+especially true if the subjects are not randomly selected, as is the case in
+most medical and drug experiments.
+Example 1.49
+Sixty patients, ages 5 to 12, all with common warts are enrolled in a study
+to determine if application of duct tape is as effective as cryotherapy in
+the treatment of warts. Subjects will receive either cryotherapy (liquid
+nitrogen applied to each wart for 10 seconds every 2 weeks) for 6
+treatments or duct tape occlusion (applied directly to the wart) for 2
+months. Describe a completely randomized design.
+Solution
+Assign each patient an integer from 1 to 60. Use a random integer
+generator on a calculator to pick integers between 1 and 60, throwing
+away repeats, until 30 unique integers have been selected. The 30
+patients corresponding to the 30 selected integers will be given the
+cryotherapy treatment. (A second design would be to put the 60 names
+on identical slips of paper, put the slips in a hat, mix them well, and then
+pick out 30 slips, without replacement, with the corresponding names
+given cryotherapy.) The remaining 30 patients will receive the duct tape
+treatment. At the end of the treatment schedules, compare the proportion
+of each group that had complete resolution of the warts being studied.
+The goal is to control every variable we can so that all treatment
+groups have the same experience, save the one variable we are
+manipulating. Blinding and double-blinding are useful tactics to accomplish
+that, and a placebo is a useful tool in blinding.
+
+[[PAGE 181]]
+A matched pairs design (also called a paired comparison design) is
+when two treatments are compared based on the responses of paired
+subjects, one of whom receives one treatment while the other receives
+the second treatment. Often the paired subjects are really single subjects
+who are given both treatments, one at a time in random order.
+Example 1.50
+Does seeing pictures of accidents caused by drunk drivers influence one’s
+opinion on penalties for drunk drivers? A comparison test is to be
+designed for 100 subjects.
+(a) One experimental design would be to ask all 100 subjects about
+drunk driving penalties before and then again after seeing the
+pictures, noting any change in answers. Give a weakness of this
+design.
+(b) Describe how to implement a completely randomized design.
+(c)
+Describe how to implement a matched pairs design using 50 sets of
+biological twins as the subjects.
+Solutions
+(a) This would be a poor design because there is no control group, there
+is no use of randomization, and subjects might well change their
+answers because they realize that that is what is expected of them
+after seeing the pictures.
+(b) Use randomization to split the subjects into two groups, half of whom
+simply answer the questions while the other half first see the pictures
+and then answer the questions. For example, put the 100 names on
+identical slips of paper, put the slips in a hat, mix them well, and then
+pick out 50 slips (without replacement) with the corresponding names
+designating the subjects who see the pictures.
+(c)
+One of each set of twins is randomly picked (e.g., based on choosing
+an odd or even digit from a random number table) to answer the
+questions without seeing the pictures, while the other first sees the
+pictures and then answers the questions. The answers could be
+compared from each set of twins. This is a paired comparison test
+that might help minimize confounding variables due to family
+environment, heredity, and so on.
+
+[[PAGE 182]]
+TIP
+Use proper terminology! The language of experiments is different from the language
+of sampling. Don’t mix up blocking and stratification.
+Just as stratification, in sampling, first divides the population into
+representative groups called strata, blocking, in experimental design, first
+divides the subjects into representative groups called blocks based on
+similar characteristics. Subjects within each block are randomly assigned
+treatments. One can think of blocking as running parallel experiments
+before combining the results. This technique helps reduce variability as
+well as helps control certain possible confounding variables by bringing
+them directly into the picture. The paired comparison (matched pairs)
+design is a special case of blocking in which each pair can be considered a
+block of size 2.
+Example 1.51
+There is a rising trend for star college athletes to turn professional without
+finishing their degrees. A study is performed to assess whether reading an
+article about professional salaries has an impact on such decisions.
+Randomization can be used to split the subjects into two groups, and
+those in one group are given the article before answering questions.
+Suppose it is believed that freshman and sophomore athletes would be
+impacted differently than junior and senior athletes. How can a block
+design be incorporated into the design of this experiment?
+Solution
+The subjects can be split into two blocks, underclass and upperclass,
+before using randomization to assign some to read the article before
+questioning. With this design, the impact of the salary article on freshmen
+and sophomores can be distinguished from the impact on juniors and
+seniors.
+Similarly, blocking can be used to separately analyze men and women,
+those with high GPAs and those with low GPAs, those in different sports,
+those with different majors, and so on.
+
+[[PAGE 183]]
+TIP
+Most experiments are not performed on random samples from a population. So,
+don’t use random sample terminology when you mean random assignment.
+NOTE
+When the results are combined, this estimates the effect, separate from blocks, of
+the independent variable of interest.
+What kind of conclusions result from well-designed experiments? Can
+we conclude that observed differences in the treatment groups are
+statistically significant; that is, are the differences so large as to be
+unlikely to have occurred by chance? How can we decide whether the
+differences are large enough?
+If the treatments make no difference, just by chance there probably
+will be some variation. In later units, you will learn mathematically how to
+decide if something is different enough to be considered statistically
+significant. However, for now, you should understand that something is
+
+[[PAGE 184]]
+statistically significant if the probability of it happening just by chance is
+so small that you’re convinced there must be another explanation.
+Example 1.52
+For a fair pair of dice, the probability of throwing “7 or 11” is
+approximately 22.2 percent. We would expect for the sum to come up 7
+or 11 an average of 22.2 times for every 100 tosses if the dice are fair.
+Suppose we throw a pair of dice 100 times, and 7 or 11 comes up 26
+times. This would appear to be within the bounds of random fluctuations,
+and we would have no reason to suspect the dice of being unfair.
+However, if 7 or 11 came up 55 times, that would raise our suspicions.
+While it would still be possible that the dice were fair, we could
+comfortably say that we had convincing evidence to believe that they
+were unfair. However, what if 7 or 11 came up 30 times? Is that different
+enough from 22.2 to raise our suspicions? We’ll learn how to answer this
+question later after studying probability distributions.
+Example 1.53
+Sixty students volunteered to participate in an experiment comparing the
+effects of coffee, caffeinated cola, and herbal tea on pulse rates. Twenty
+students are randomly assigned to each of the three treatments. For each
+student, the change in pulse rate was measured after consuming eight
+ounces of the treatment beverage. The results are summarized with the
+parallel boxplots below.
+
+[[PAGE 185]]
+What are reasonable conclusions?
+Solution
+The median change in pulse rate for the cola drinkers was higher than
+that for the coffee drinkers; however, looking at the overall spreads, that
+observed difference does not seem significant. The difference between the
+coffee and caffeinated cola drinkers with respect to change in pulse rate is
+likely due to random chance. Now compare the coffee and caffeinated
+cola drinkers’ results to that of the herbal tea drinkers. Although there is
+some overlap, there is not much. It seems reasonable to conclude the
+difference is statistically significant; that is, drinking coffee or caffeinated
+cola results in a greater rise in pulse rate than drinking herbal tea.
+Example 1.54
+Harmane is a potent neurotoxin linked to human disease and is found in a
+variety of cooked meats. Chicken in fast-food restaurants appears to be a
+particular problem. A fast-food chain claims that their cooked chicken has
+an 8 ng/g (nanograms per gram) concentration, but a nutritionist believes
+the true figure is greater. She randomly samples chicken nuggets on ten
+different days and obtains a mean harmane concentration of 8.48 ng/g. Is
+this statistically significant? The chain claims that this is possible just by
+chance sample variability. The chain’s scientists simulate 100 such samples
+of size 10 from a laboratory setting where the known mean concentration
+
+[[PAGE 186]]
+is 8 ng/g in order to show that 8.48 ng/g is possible and not unusual. The
+resulting 100 means are summarized in the following dotplot:
+Does the simulation support the nutritionist or the chain?
+Solution
+The simulation shows that although a sample with a mean 8.48 ng/g
+concentration is possible if the true mean is 8 ng/g, it is highly unlikely.
+The simulation supports the nutritionist.
+
+########## SECTION statistics-barrons-2027-u1-s20 | Use Correct Terminology! | PDF pages 198-200 ##########
+
+[[PAGE 198]]
+(c) Is this a prospective observational study, a retrospective
+observational study, or an experiment? Explain.
+(d) Should blinding be incorporated? Explain.
+(e) Should random sampling or random assignment be
+incorporated? Explain how.
+(f) Why is it important for there to be some kind of control with
+regard to which days the correct pressure point is used?
+(g) In context, explain how a cause-and-effect conclusion will or will
+not be justified.
+The answers for this quiz can be found beginning on page 479.
+USE CORRECT TERMINOLOGY!
+Bias: when a study systematically favors certain outcomes
+Blinding: refers to subjects not knowing which treatment they are
+receiving
+Block design: an experimental design where subjects are divided into
+representative groups to bring certain differences into the picture and
+reduce variation (for example, blocking by gender, age, or race) and
+randomization then takes place within each block
+Census: an attempt to include the entire population
+Cluster random sample: involves dividing the population into
+heterogeneous groups called clusters and then picking everyone in a
+random sample of the clusters
+Completely randomized design: an experimental design in which
+everyone has an equal chance of receiving any treatment
+Confounding: when there is uncertainty as to which variable is causing
+an effect
+Control group: a group given no treatment or a sham treatment
+Double-blinding: refers to subjects and those evaluating their responses
+not knowing who received which treatments
+Experimental study: involves applying a treatment to one or more
+groups and observing the responses
+
+[[PAGE 199]]
+Nonresponse bias: when a large fraction of those sampled do not
+respond
+Observational study: researchers merely observe (no treatments are
+applied)
+Parameter: a numerical measurement describing some characteristic of
+the population
+Placebo: a dummy or sham treatment such as a sugar pill
+Population: the entire set of items, events, people, objects, and so on
+that are of interest
+Random assignment: in experiments, when subjects are randomly
+assigned to treatments (evens out effects over which we have no control)
+Random sampling: use of chance in selecting a sample from a
+population (allows for generalization of conclusions)
+Response bias: when the question itself leads to misleading results (for
+example, people don’t want to be perceived as having unpopular,
+unsavory, or illegal views)
+Sample: the part of the population actually examined
+Simple random sample (SRS): a sample selected in such a way that
+every possible sample of the desired size has an equal chance of being
+selected (each element of the population will also have an equal chance of
+being selected)
+Statistic: a numerical measurement describing some characteristic of the
+sample
+Statistical significance: a resulting difference among treatment groups
+too large to be attributed to chance
+Stratified random sample: involves dividing the population into
+homogeneous groups called strata and then picking random samples from
+each of the strata
+Systematic random sample: involves ordering the population, choosing
+a random point to start, and then picking every nth person for some n
+Undercoverage bias: when part of the population is ignored (for
+example, some telephone surveys miss all those who only have cell
+phones)
+
+[[PAGE 200]]
+Voluntary response bias: when individuals choose whether or not to
+respond (for example, radio call-in shows and Internet surveys)

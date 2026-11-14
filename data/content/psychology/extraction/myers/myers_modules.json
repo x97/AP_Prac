@@ -1,0 +1,658 @@
+[
+  {
+    "code": "0.1",
+    "title": "The Scientific Attitude, Critical Thinking, and Developing Arguments",
+    "start": 84,
+    "end": 95,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-1"
+  },
+  {
+    "code": "0.2",
+    "title": "The Need for Psychological Science",
+    "start": 96,
+    "end": 107,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-2"
+  },
+  {
+    "code": "0.3",
+    "title": "The Scientific Method",
+    "start": 108,
+    "end": 130,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-3"
+  },
+  {
+    "code": "0.4",
+    "title": "Correlation and Experimentation",
+    "start": 131,
+    "end": 158,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-4"
+  },
+  {
+    "code": "0.5",
+    "title": "Research Design and Ethics in Psychology",
+    "start": 159,
+    "end": 179,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-5"
+  },
+  {
+    "code": "0.6",
+    "title": "Statistical Reasoning in Everyday Life",
+    "start": 180,
+    "end": 219,
+    "unit": "0",
+    "section_id": "psychology-myers-2024-u0-m0-6"
+  },
+  {
+    "code": "1.1",
+    "title": "Interaction of Heredity and Environment",
+    "start": 220,
+    "end": 272,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-1"
+  },
+  {
+    "code": "1.2",
+    "title": "Overview of the Nervous System",
+    "start": 273,
+    "end": 288,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-2"
+  },
+  {
+    "code": "1.3a",
+    "title": "The Neuron and Neural Firing: Neural Communication and the Endocrine System",
+    "start": 289,
+    "end": 320,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-3a"
+  },
+  {
+    "code": "1.3b",
+    "title": "The Neuron and Neural Firing: Substance Use Disorders and Psychoactive Drugs",
+    "start": 321,
+    "end": 359,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-3b"
+  },
+  {
+    "code": "1.4a",
+    "title": "The Brain: Neuroplasticity and Tools of Discovery",
+    "start": 360,
+    "end": 384,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-4a"
+  },
+  {
+    "code": "1.4b",
+    "title": "The Brain: Brain Regions and Structures",
+    "start": 385,
+    "end": 428,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-4b"
+  },
+  {
+    "code": "1.4c",
+    "title": "The Brain: Damage Response and Brain Hemispheres",
+    "start": 429,
+    "end": 446,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-4c"
+  },
+  {
+    "code": "1.5a",
+    "title": "Sleep: Consciousness",
+    "start": 447,
+    "end": 464,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-5a"
+  },
+  {
+    "code": "1.5b",
+    "title": "Sleep: Sleep Stages and Theories",
+    "start": 465,
+    "end": 493,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-5b"
+  },
+  {
+    "code": "1.5c",
+    "title": "Sleep: Sleep Loss, Sleep Disorders, and Dreams",
+    "start": 494,
+    "end": 524,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-5c"
+  },
+  {
+    "code": "1.6a",
+    "title": "Sensation: Basic Concepts",
+    "start": 525,
+    "end": 550,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-6a"
+  },
+  {
+    "code": "1.6b",
+    "title": "Sensation: Vision",
+    "start": 551,
+    "end": 581,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-6b"
+  },
+  {
+    "code": "1.6c",
+    "title": "Sensation: Hearing",
+    "start": 582,
+    "end": 602,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-6c"
+  },
+  {
+    "code": "1.6d",
+    "title": "Sensation: Skin, Chemical, and Body Senses and Sensory Interaction",
+    "start": 603,
+    "end": 671,
+    "unit": "1",
+    "section_id": "psychology-myers-2024-u1-m1-6d"
+  },
+  {
+    "code": "2.1a",
+    "title": "Perception: Influences on Perception",
+    "start": 672,
+    "end": 695,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-1a"
+  },
+  {
+    "code": "2.1b",
+    "title": "Perception: Perceptual Organization and Interpretation",
+    "start": 696,
+    "end": 732,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-1b"
+  },
+  {
+    "code": "2.2a",
+    "title": "Thinking, Problem Solving, Judgments, and Decision Making: Concepts and Creativity",
+    "start": 733,
+    "end": 749,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-2a"
+  },
+  {
+    "code": "2.2b",
+    "title": "Thinking, Problem Solving, Judgments, and Decision Making: Solving Problems and Making Decisions",
+    "start": 750,
+    "end": 785,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-2b"
+  },
+  {
+    "code": "2.3",
+    "title": "Introduction to Memory",
+    "start": 786,
+    "end": 812,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-3"
+  },
+  {
+    "code": "2.4",
+    "title": "Encoding Memories",
+    "start": 813,
+    "end": 842,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-4"
+  },
+  {
+    "code": "2.5",
+    "title": "Storing Memories",
+    "start": 843,
+    "end": 861,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-5"
+  },
+  {
+    "code": "2.6",
+    "title": "Retrieving Memories",
+    "start": 862,
+    "end": 878,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-6"
+  },
+  {
+    "code": "2.7",
+    "title": "Forgetting and Other Memory Challenges",
+    "start": 879,
+    "end": 921,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-7"
+  },
+  {
+    "code": "2.8a",
+    "title": "Intelligence and Achievement: Theories of Intelligence",
+    "start": 922,
+    "end": 945,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-8a"
+  },
+  {
+    "code": "2.8b",
+    "title": "Intelligence and Achievement: Assessing Intelligence",
+    "start": 946,
+    "end": 973,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-8b"
+  },
+  {
+    "code": "2.8c",
+    "title": "Intelligence and Achievement: Stability of, and Influences on, Intelligence",
+    "start": 974,
+    "end": 1005,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-8c"
+  },
+  {
+    "code": "2.8d",
+    "title": "Intelligence and Achievement: Group Differences and the Question of Bias",
+    "start": 1006,
+    "end": 1051,
+    "unit": "2",
+    "section_id": "psychology-myers-2024-u2-m2-8d"
+  },
+  {
+    "code": "3.1",
+    "title": "Themes and Methods in Developmental Psychology",
+    "start": 1052,
+    "end": 1066,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-1"
+  },
+  {
+    "code": "3.2a",
+    "title": "Physical Development Across the Lifespan: Prenatal Development, Infancy, and Childhood",
+    "start": 1067,
+    "end": 1095,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-2a"
+  },
+  {
+    "code": "3.2b",
+    "title": "Physical Development Across the Lifespan: Adolescence and Adulthood",
+    "start": 1096,
+    "end": 1119,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-2b"
+  },
+  {
+    "code": "3.3a",
+    "title": "Gender and Sexual Orientation: Gender Development",
+    "start": 1120,
+    "end": 1156,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-3a"
+  },
+  {
+    "code": "3.3b",
+    "title": "Gender and Sexual Orientation: The Biology and Psychology of Sex",
+    "start": 1157,
+    "end": 1177,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-3b"
+  },
+  {
+    "code": "3.3c",
+    "title": "Gender and Sexual Orientation: Sexual Orientation",
+    "start": 1178,
+    "end": 1198,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-3c"
+  },
+  {
+    "code": "3.4",
+    "title": "Cognitive Development Across the Lifespan",
+    "start": 1199,
+    "end": 1241,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-4"
+  },
+  {
+    "code": "3.5",
+    "title": "Communication and Language Development",
+    "start": 1242,
+    "end": 1278,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-5"
+  },
+  {
+    "code": "3.6a",
+    "title": "Social-Emotional Development Across the Lifespan: Infancy & Childhood",
+    "start": 1279,
+    "end": 1315,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-6a"
+  },
+  {
+    "code": "3.6b",
+    "title": "Social-Emotional Development Across the Lifespan: Adolescence, Emerging Adulthood, and Adulthood",
+    "start": 1316,
+    "end": 1356,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-6b"
+  },
+  {
+    "code": "3.7a",
+    "title": "Classical Conditioning: Basic Concepts",
+    "start": 1357,
+    "end": 1391,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-7a"
+  },
+  {
+    "code": "3.7b",
+    "title": "Classical Conditioning: Applications and Biological Limits",
+    "start": 1392,
+    "end": 1407,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-7b"
+  },
+  {
+    "code": "3.8a",
+    "title": "Operant Conditioning: Basic Concepts",
+    "start": 1408,
+    "end": 1444,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-8a"
+  },
+  {
+    "code": "3.8b",
+    "title": "Operant Conditioning: Applications, Biological Limits, and Contrasts with Classical Conditioning",
+    "start": 1445,
+    "end": 1461,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-8b"
+  },
+  {
+    "code": "3.9",
+    "title": "Social, Cognitive, and Neurological Factors in Learning",
+    "start": 1462,
+    "end": 1520,
+    "unit": "3",
+    "section_id": "psychology-myers-2024-u3-m3-9"
+  },
+  {
+    "code": "4.1",
+    "title": "Attribution Theory and Person Perception",
+    "start": 1521,
+    "end": 1561,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-1"
+  },
+  {
+    "code": "4.2",
+    "title": "Attitude Formation and Attitude Change",
+    "start": 1562,
+    "end": 1581,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-2"
+  },
+  {
+    "code": "4.3a",
+    "title": "Psychology of Social Situations: Conformity and Obedience",
+    "start": 1582,
+    "end": 1612,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-3a"
+  },
+  {
+    "code": "4.3b",
+    "title": "Psychology of Social Situations: Group Behavior",
+    "start": 1613,
+    "end": 1642,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-3b"
+  },
+  {
+    "code": "4.3c",
+    "title": "Psychology of Social Situations: Aggression",
+    "start": 1643,
+    "end": 1666,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-3c"
+  },
+  {
+    "code": "4.3d",
+    "title": "Psychology of Social Situations: Attraction",
+    "start": 1667,
+    "end": 1695,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-3d"
+  },
+  {
+    "code": "4.3e",
+    "title": "Psychology of Social Situations: Altruism, Conflict, and Peacemaking",
+    "start": 1696,
+    "end": 1729,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-3e"
+  },
+  {
+    "code": "4.4",
+    "title": "Introduction to Personality",
+    "start": 1730,
+    "end": 1736,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-4"
+  },
+  {
+    "code": "4.5a",
+    "title": "Psychodynamic and Humanistic Theories of Personality: Psychoanalytic and Psychodynamic Theories",
+    "start": 1737,
+    "end": 1778,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-5a"
+  },
+  {
+    "code": "4.5b",
+    "title": "Psychodynamic and Humanistic Theories of Personality: Humanistic Theories",
+    "start": 1779,
+    "end": 1799,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-5b"
+  },
+  {
+    "code": "4.6a",
+    "title": "Social-Cognitive and Trait Theories of Personality: Trait Theories",
+    "start": 1800,
+    "end": 1832,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-6a"
+  },
+  {
+    "code": "4.6b",
+    "title": "Social-Cognitive and Trait Theories of Personality: Social-Cognitive Theories",
+    "start": 1833,
+    "end": 1851,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-6b"
+  },
+  {
+    "code": "4.6c",
+    "title": "Social-Cognitive and Trait Theories of Personality: Exploring the Self",
+    "start": 1852,
+    "end": 1880,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-6c"
+  },
+  {
+    "code": "4.7a",
+    "title": "Motivation: Motivational Concepts",
+    "start": 1881,
+    "end": 1901,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-7a"
+  },
+  {
+    "code": "4.7b",
+    "title": "Motivation: Affiliation and Achievement",
+    "start": 1902,
+    "end": 1940,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-7b"
+  },
+  {
+    "code": "4.7c",
+    "title": "Motivation: Hunger Motivation",
+    "start": 1941,
+    "end": 1964,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-7c"
+  },
+  {
+    "code": "4.8a",
+    "title": "Emotion: Theories and Physiology of Emotion",
+    "start": 1965,
+    "end": 1994,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-8a"
+  },
+  {
+    "code": "4.8b",
+    "title": "Emotion: Expressing and Experiencing Emotion",
+    "start": 1995,
+    "end": 2049,
+    "unit": "4",
+    "section_id": "psychology-myers-2024-u4-m4-8b"
+  },
+  {
+    "code": "5.1a",
+    "title": "Introduction to Health Psychology: Stress and Illness",
+    "start": 2050,
+    "end": 2095,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-1a"
+  },
+  {
+    "code": "5.1b",
+    "title": "Introduction to Health Psychology: Coping With Stress",
+    "start": 2096,
+    "end": 2126,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-1b"
+  },
+  {
+    "code": "5.2a",
+    "title": "Positive Psychology: Positive Emotions and Positive Traits",
+    "start": 2127,
+    "end": 2156,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-2a"
+  },
+  {
+    "code": "5.2b",
+    "title": "Positive Psychology: Enhancing Well-Being",
+    "start": 2157,
+    "end": 2186,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-2b"
+  },
+  {
+    "code": "5.3",
+    "title": "Explaining and Classifying Psychological Disorders",
+    "start": 2187,
+    "end": 2229,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-3"
+  },
+  {
+    "code": "5.4a",
+    "title": "Selection of Categories of Psychological Disorders: Anxiety Disorders, Obsessive-Compulsive and Related Disorders, and Trauma-and Stressor-Related Disorders",
+    "start": 2230,
+    "end": 2262,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-4a"
+  },
+  {
+    "code": "5.4b",
+    "title": "Selection of Categories of Psychological Disorders: Depressive Disorders and Bipolar Disorders",
+    "start": 2263,
+    "end": 2293,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-4b"
+  },
+  {
+    "code": "5.4c",
+    "title": "Selection of Categories of Psychological Disorders: Schizophrenia Spectrum Disorders",
+    "start": 2294,
+    "end": 2317,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-4c"
+  },
+  {
+    "code": "5.4d",
+    "title": "Selection of Categories of Psychological Disorders: Dissociative Disorders, Personality Disorders, Feeding and Eating Disorders, and Neurodevelopmental Disorders",
+    "start": 2318,
+    "end": 2363,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-4d"
+  },
+  {
+    "code": "5.5a",
+    "title": "Treatment of Psychological Disorders: Introduction to Therapy, and Psychodynamic and Humanistic Therapies",
+    "start": 2364,
+    "end": 2384,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-5a"
+  },
+  {
+    "code": "5.5b",
+    "title": "Treatment of Psychological Disorders: Behavioral, Cognitive, and Group Therapies",
+    "start": 2385,
+    "end": 2423,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-5b"
+  },
+  {
+    "code": "5.5c",
+    "title": "Treatment of Psychological Disorders: Evaluating Psychotherapies",
+    "start": 2424,
+    "end": 2458,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-5c"
+  },
+  {
+    "code": "5.5d",
+    "title": "Treatment of Psychological Disorders: The Biomedical Therapies and Preventing Psychological Disorders",
+    "start": 2459,
+    "end": 2523,
+    "unit": "5",
+    "section_id": "psychology-myers-2024-u5-m5-5d"
+  },
+  {
+    "code": "EM.1",
+    "title": "Influences on Drug Use",
+    "start": 2524,
+    "end": 2537,
+    "unit": "EM",
+    "section_id": "psychology-myers-2024-uEM-mEM-1"
+  },
+  {
+    "code": "EM.2",
+    "title": "Psychology at Work",
+    "start": 2538,
+    "end": 2586,
+    "unit": "EM",
+    "section_id": "psychology-myers-2024-uEM-mEM-2"
+  },
+  {
+    "code": "EM.3",
+    "title": "Animal Thinking and Language",
+    "start": 2587,
+    "end": 2600,
+    "unit": "EM",
+    "section_id": "psychology-myers-2024-uEM-mEM-3"
+  }
+]

@@ -1,0 +1,59 @@
+.me-page {
+  padding-bottom: calc(176rpx + env(safe-area-inset-bottom));
+  background: var(--bg);
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 22rpx;
+  padding: 32rpx;
+  margin-top: 8rpx;
+  border: 1rpx solid var(--line);
+  border-radius: 24rpx;
+  background: var(--surface);
+}
+
+.profile-logo {
+  flex: 0 0 auto;
+  width: 88rpx;
+  height: 88rpx;
+}
+
+.profile-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-name {
+  margin-bottom: 4rpx;
+  font-family: "Times New Roman", "Songti SC", "STSong", Georgia, serif;
+  font-size: 38rpx;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.profile-status {
+  flex: 0 0 auto;
+  padding: 8rpx 16rpx;
+  border-radius: 999rpx;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 19rpx;
+  letter-spacing: 0.04em;
+}
+
+.row-label {
+  font-size: 27rpx;
+}
+
+.row-action {
+  color: var(--primary);
+}
+
+.logout {
+  margin-top: 48rpx;
+  color: var(--muted);
+  font-size: 24rpx;
+  text-align: center;
+}

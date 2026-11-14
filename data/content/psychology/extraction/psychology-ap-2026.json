@@ -1,0 +1,4806 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-01",
+  "paper": {
+    "paper_id": "psychology-ap-2026",
+    "year": 2026,
+    "title": "AP Psychology 2026 (75 MCQs + 2 FRQs)",
+    "chinese_title": "2026 年 AP 心理学（75 道选择题 + 2 道主观题）",
+    "subject_id": "psychology",
+    "source_id": "psychology-ap-2026-pdf",
+    "paper_type": "real_exam",
+    "source_file": "assets/psychology/papers/2026/2026 AP心理学.pdf",
+    "question_count": 77,
+    "import_ready": false,
+    "mcq_import_ready": true,
+    "frq_import_ready": false,
+    "blocking_issues": [
+      "Q2 Sources 1-3 are missing from the PDF.",
+      "FRQ scoring guidelines and rubric parts are missing from the PDF."
+    ],
+    "notes": [
+      "Paper type is real_exam per the ingestion request; the PDF itself does not state an official administration.",
+      "The PDF contains the MCQ answer letters and FRQ sample responses; it does not contain MCQs explanations or FRQ rubrics."
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "psychology-2026-mcq-001",
+      "section": "MCQ",
+      "number": 1,
+      "display_number": 1,
+      "stem": "Which of the following types of learning does Firouzeh best demonstrate?",
+      "context": "Despite Firouzeh’s best efforts in parenting, her child continues to misbehave. Firouzeh hires a trained coach who visits her home and demonstrates how Firouzeh can be more assertive with her child. Firouzeh listens to the coach speak and then repeats the coach’s statements to her child.",
+      "page_start": 1,
+      "page_end": 1,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Associative learning",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Social learning",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Insight learning",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Latent learning",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-002",
+      "section": "MCQ",
+      "number": 2,
+      "display_number": 2,
+      "stem": "Which of the following regions of Arthur's brain was most likely affected by his exposure to a teratogen?",
+      "context": "As a result of exposure to alcohol before birth, Arthur has difficulty with executive mental functions such as planning, problem-solving, organization, and impulse control.",
+      "page_start": 1,
+      "page_end": 1,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Cerebellum",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Corpus callosum",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Wernicke’s area",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Frontal lobe",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-003",
+      "section": "MCQ",
+      "number": 3,
+      "display_number": 3,
+      "stem": "Which of the following techniques for dealing with stress is Jaclin employing?",
+      "context": "Jaclin must complete a major research project by the end of the semester, which is causing her a lot of stress. She works with her adviser to review past research studies, devise an experimental strategy to test her hypotheses, collect data, and determine how best to analyze the data and write about the results.",
+      "page_start": 1,
+      "page_end": 1,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Problem-focused coping",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Emotion-focused coping",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "General adaptation syndrome",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Fixed mindset",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-004",
+      "section": "MCQ",
+      "number": 4,
+      "display_number": 4,
+      "stem": "Which of the following encoding practices was Kenneth using to study for his psychology test?",
+      "context": "Kenneth waited until the night before an upcoming test on new psychology terms to begin memorizing the terms because he was worried that he would forget them if he started studying too early.",
+      "page_start": 1,
+      "page_end": 1,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Distributed practice",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Chunking",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Massed practice",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Hierarchies",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-005",
+      "section": "MCQ",
+      "number": 5,
+      "display_number": 5,
+      "stem": "Which of the following examples best reflects consolidation theory?",
+      "context": null,
+      "page_start": 2,
+      "page_end": 2,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "While Oliver sleeps, memories of his daily experiences are reactivated in his dreams and saved into his long-term memory.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "As Jesse sleeps, his body is repairing tissues, regenerating cells, and replacing resources that he used during the day.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "When Mason enters REM sleep, structures in his brain stem produce random signals that the frontal lobe organizes into a dream.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "As Zeke sleeps, his dreams allow him to safely explore unconscious thoughts.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-006",
+      "section": "MCQ",
+      "number": 6,
+      "display_number": 6,
+      "stem": "Which of the following psychological assessments would a psychodynamic theorist be most likely to use in an assessment of an individual’s personality?",
+      "context": null,
+      "page_start": 2,
+      "page_end": 2,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Achievement tests",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Big Five personality inventories",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Aptitude tests",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Projective tests",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-007",
+      "section": "MCQ",
+      "number": 7,
+      "display_number": 7,
+      "stem": "Which of the following psychological disorders has symptoms that align with what Glen is feeling?",
+      "context": "Glen is about to do an oral presentation in class. He has practiced his presentation at home for days and arrived to class feeling confident. However, as he steps to the front of the class, he is overwhelmed by fear and experiences an elevated heartbeat and difficulty breathing. He finds he is unable to do his presentation because of how he is feeling.",
+      "page_start": 2,
+      "page_end": 2,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Social anxiety disorder",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Major depressive disorder",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Bipolar disorder",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Dissociative identity disorder (DID)",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-008",
+      "section": "MCQ",
+      "number": 8,
+      "display_number": 8,
+      "stem": "Which modern ethical procedure would most directly apply to the doctor’s research with Victor?",
+      "context": "In the late 1700s, a boy called Victor, who was estimated to be about 12 years old, was found living in the wild and could not speak. Because no parent or legal guardian could be identified, Victor came under the care of a doctor. Although Victor received speech therapy from the doctor, his ability to use language remained severely limited. The doctor published a case study about Victor that highlighted the relationship between sensitive periods and language development.",
+      "page_start": 2,
+      "page_end": 2,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The use of deception",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Informed assent and consent",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Identifying a testable hypothesis",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The use of confederates",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-009",
+      "section": "MCQ",
+      "number": 9,
+      "display_number": 9,
+      "stem": "Which of the following concepts is best illustrated by the change from Figure 1 to Figure 2?",
+      "context": "Dr. Bryant is conducting a study on learned helplessness. To measure learned helplessness, he gives 15 participants a survey that produces scores ranging from 2 (low) to 12 (high). After the first test, Dr. Bryant graphs participants' scores (Figure 1). Two weeks later, he retests the same 15 participants and graphs their new scores (Figure 2).",
+      "page_start": 3,
+      "page_end": 4,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Mental set",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Bimodal distribution",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Self-fulfilling prophecy",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Regression toward the mean",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-009-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q09_figure_1_first_test.png",
+          "page": 3,
+          "bbox": [
+            0.04699,
+            0.13288,
+            0.46986,
+            0.41999
+          ],
+          "alt_text": "Figure 1. Distribution of learned helplessness scores, first test.",
+          "description": "Figure 1. Distribution of Learned Helplessness Scores, First Test — The Number of Participants data for the 9 bars are as follows: 2: 2 participants; 3: 1 participant; 4: 2 participants; 7: 1 participant; 8: 2 participants; 9: 1 participant; 10: 2 participants; 11: 2 participants; 12: 2 participants."
+        },
+        {
+          "asset_id": "psychology-2026-mcq-009-fig-2",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q09_figure_2_retest.png",
+          "page": 3,
+          "bbox": [
+            0.04699,
+            0.67032,
+            0.46986,
+            0.96336
+          ],
+          "alt_text": "Figure 2. Distribution of learned helplessness scores, retest.",
+          "description": "Figure 2. Distribution of Learned Helplessness Scores, Retest — The Number of Participants data for the 10 bars are as follows: 2: 1 participant; 3: 1 participant; 4: 1 participant; 5: 1 participant; 6: 3 participants; 7: 3 participants; 8: 2 participants; 9: 1 participant; 10: 1 participant; 11: 1 participant."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-010",
+      "section": "MCQ",
+      "number": 10,
+      "display_number": 10,
+      "stem": "Which of the following concepts best explains Aria’s focus as she reviews the company’s pay and bonus practices?",
+      "context": "Aria is a successful lawyer at a high-ranking law firm. She has recently learned that her colleague received a large bonus despite working at the firm for less time than Aria. Aria is dissatisfied with her salary, even though it is higher than the salaries of many others at her firm. Aria searches for information about her firm’s pay and bonus practices and focuses only on data that support her belief that she is being treated unfairly.",
+      "page_start": 4,
+      "page_end": 4,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Change blindness",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Inattentional blindness",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Confirmation bias",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Hindsight bias",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-011",
+      "section": "MCQ",
+      "number": 11,
+      "display_number": 11,
+      "stem": "Which of the following concepts best explains Sandy’s behavior?",
+      "context": "Sandy has been in a few romantic relationships, but they have never lasted more than a year. In her current relationship, her partner tries to connect on a deeper emotional level, but Sandy often pulls away when conversations become intimate. She often cancels plans and works late hours as an excuse to steer clear of deepening personal connections.",
+      "page_start": 4,
+      "page_end": 4,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Generativity",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Avoidant attachment",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Egocentrism",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Latent learning",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-012",
+      "section": "MCQ",
+      "number": 12,
+      "display_number": 12,
+      "stem": "Which of the following is an example of change blindness in Kosuke's situation?",
+      "context": "Kosuke is at dinner in a crowded restaurant with friends who he has not seen for a while. As soon as they sit down at a restaurant table, Kosuke and his friends start a lively conversation that engages Kosuke for the duration of the meal.",
+      "page_start": 4,
+      "page_end": 4,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Even though the restaurant is noisy, Kosuke hears people a few tables over mentioning his name.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "When the food is served, Kosuke is surprised to find that he ordered a hamburger instead of the pizza he was considering ordering.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Kosuke does not notice that the server who is taking his food order is a different person than the server who took his drink order.",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Kosuke has to add a large amount of salt to his food in order to taste an increase in saltiness.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-013",
+      "section": "MCQ",
+      "number": 13,
+      "display_number": 13,
+      "stem": "Which of the following concepts best explains why Simon immediately assumed that the driver of the purple car was going to cut him off in traffic?",
+      "context": "A week ago, as Simon was driving to work, he nearly hit a purple car when it cut him off in traffic. Simon had to pull over to the curb to calm down. Today, when a purple car merged into traffic, Simon immediately got angry and assumed that the driver was going to cut him off.",
+      "page_start": 5,
+      "page_end": 5,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Relative clarity",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Change blindness",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Availability heuristic",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Accommodation",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-014",
+      "section": "MCQ",
+      "number": 14,
+      "display_number": 14,
+      "stem": "Which of the following disorders is most associated with the experiences coded in the list from the structured interviews?",
+      "context": "A recent study was conducted to gather information about a group of individuals receiving treatment for the same disorder. The transcripts from structured interviews about the individuals' life experiences were coded and categorized. The results are presented in the following list.\n\nStructured Interview Code: Childhood Trauma\n\nBeing the victim of abuse by someone in their family\n\nBeing the target of bullying\n\nWitnessing abuse of others\n\nLosing a family member (e.g., death or divorce)\n\nWitnessing drug abuse by a parent/guardian",
+      "page_start": 5,
+      "page_end": 5,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Narcolepsy",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Autism spectrum disorder (ASD)",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Alzheimer’s disease",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Dissociative identity disorder (DID)",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-015",
+      "section": "MCQ",
+      "number": 15,
+      "display_number": 15,
+      "stem": "Which of the following concepts would a developmental psychologist use to describe the collection of experiences presented in the list?",
+      "context": "A recent study was conducted to gather information about a group of individuals receiving treatment for the same disorder. The transcripts from structured interviews about the individuals' life experiences were coded and categorized. The results are presented in the following list.\n\nStructured Interview Code: Childhood Trauma\n\nBeing the victim of abuse by someone in their family\n\nBeing the target of bullying\n\nWitnessing abuse of others\n\nLosing a family member (e.g., death or divorce)\n\nWitnessing drug abuse by a parent/guardian",
+      "page_start": 5,
+      "page_end": 5,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Adverse childhood experiences (ACEs)",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Negative symptoms",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Posttraumatic growth",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Display rules",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-016",
+      "section": "MCQ",
+      "number": 16,
+      "display_number": 16,
+      "stem": "Which of the following best describes the measurement instrument of a structured interview for the study?",
+      "context": "A recent study was conducted to gather information about a group of individuals receiving treatment for the same disorder. The transcripts from structured interviews about the individuals' life experiences were coded and categorized. The results are presented in the following list.\n\nStructured Interview Code: Childhood Trauma\n\nBeing the victim of abuse by someone in their family\n\nBeing the target of bullying\n\nWitnessing abuse of others\n\nLosing a family member (e.g., death or divorce)\n\nWitnessing drug abuse by a parent/guardian",
+      "page_start": 6,
+      "page_end": 6,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Likert scale",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Qualitative",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Correlation coefficient",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Quantitative",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-017",
+      "section": "MCQ",
+      "number": 17,
+      "display_number": 17,
+      "stem": "Which of the following structures within the eye is primarily responsible for Grace’s ability to see in this low-light situation?",
+      "context": "Grace walked into her darkened bedroom.",
+      "page_start": 6,
+      "page_end": 6,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Cones",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Lenses",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Ganglion cells",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Rods",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-018",
+      "section": "MCQ",
+      "number": 18,
+      "display_number": 18,
+      "stem": "Which of the following is a correct interpretation of the results in the graph?",
+      "context": "Dr. Salvatore wanted to test her idea that when two opposing groups work together for the same goal, they start to feel more positive about each other.\n\nDr. Salvatore brought together students from two rival high schools: Alpha High School (AHS) and Beta High School (BHS). She asked the students to work on a project together, painting a mural on the side of a local building. The AHS students were given some of the supplies, and the BHS students were given the rest. They had to combine their materials in order to finish the mural.\n\nBefore and after painting the mural, Dr. Salvatore asked the students how they felt about students from the other school. They rated their feelings on a scale from 1 (very negative) to 10 (very positive). The results are shown in the graph.",
+      "page_start": 7,
+      "page_end": 7,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Data from the BHS students support Dr. Salvatore’s hypothesis, but data from the AHS students do not.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The data show a positive correlation between working on a superordinate goal and attitudes toward a rival group.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Dr. Salvatore’s hypothesis could not be tested in this way because she did not collect data in a controlled setting.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Data from the AHS students support Dr. Salvatore’s hypothesis, but data from the BHS students do not.",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-018-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q18_attitude_before_after_mural.png",
+          "page": 7,
+          "bbox": [
+            0.04531,
+            0.2966,
+            0.47322,
+            0.56236
+          ],
+          "alt_text": "Bar graph of mean attitude scores before and after painting the mural.",
+          "description": "For each data category, the following bars are shown: AHS students’ attitude toward BHS students; BHS students’ attitude toward AHS students. All values are approximate.\n\nThe Mean Attitude Score data for the 2 categories are as follows:\nBefore Painting Mural: AHS students’ attitude toward BHS students: 2.3; BHS students’ attitude toward AHS students: 3.1.\nAfter Painting Mural: AHS students’ attitude toward BHS students: 8.5; BHS students’ attitude toward AHS students: 3.0."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-019",
+      "section": "MCQ",
+      "number": 19,
+      "display_number": 19,
+      "stem": "Which of the following research methods is Dr. Malamud using?",
+      "context": "Dr. Malamud synthesizes 20 years of studies about brain activity during dreaming to find support for the activation-synthesis theory.",
+      "page_start": 8,
+      "page_end": 8,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "An experiment",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "A case study",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "A naturalistic observation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "A meta-analysis",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-020",
+      "section": "MCQ",
+      "number": 20,
+      "display_number": 20,
+      "stem": "When Nash’s friend asks him to explain the difference between distress and dysfunction, which of the following responses should he give?",
+      "context": "In his psychology class, Nash has been learning about psychological disorders. His professor has explained that there are three factors that must be used to diagnose an individual with a psychological disorder: deviation from the norm, the perception of distress, and the level of dysfunction.",
+      "page_start": 8,
+      "page_end": 8,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Dysfunction is behaving in a way that is aligned with social norms, while distress is the level of negative affect and physiological arousal.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Dysfunction is the level of negative affect and physiological arousal, while distress is the inability to complete daily activities necessary for healthy functioning in life.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Distress is the level of negative affect and physiological arousal, while dysfunction is the inability to complete the daily activities necessary for healthy functioning in life.",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Distress is behaving in a way that is different from the social norm, while dysfunction is the inability to complete the daily activities necessary for healthy functioning in life.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-021",
+      "section": "MCQ",
+      "number": 21,
+      "display_number": 21,
+      "stem": "Which of the following concepts might explain Melissa’s discomfort and conflicted feelings about her choices?",
+      "context": "Melissa is a successful high school athlete who has always believed in maintaining a healthy lifestyle. She regularly eats healthful meals and encourages her friends to do the same. However, during the basketball season, she skips meals and eats fast food for convenience, claiming she is too busy to sit down for a more nutritious dinner.\n\nOne day, after a basketball team meeting, a friend confronts Melissa, saying, “You always talk to us about healthful eating, but you are not following your own advice.” This leaves Melissa feeling uncomfortable and conflicted about her choices.",
+      "page_start": 8,
+      "page_end": 8,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Deindividuation",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Conformity",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Reaction formation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Cognitive dissonance",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-022",
+      "section": "MCQ",
+      "number": 22,
+      "display_number": 22,
+      "stem": "Which of the following concepts best explains why Sutton’s perception of the shirt’s color does not change?",
+      "context": "Sutton is outside chatting with friends as the sun goes behind some thick clouds. Even though there is less light when the sun is behind the clouds, Sutton does not perceive the brightly colored shirt his friend is wearing as changing color.",
+      "page_start": 9,
+      "page_end": 9,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Dark adaptation",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Perceptual constancy",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Inattentional blindness",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Trichromatic color vision",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-023",
+      "section": "MCQ",
+      "number": 23,
+      "display_number": 23,
+      "stem": "Which of the following concepts best explains Garrett’s experience trying to recall the name?",
+      "context": "At their high school reunion, Garrett and his friends were reminiscing about their favorite musical group back in high school. As a teen, Garrett had posters of the group and followed them on social media. However, when asked the name of the lead singer, Garrett felt frustrated because he knew the name began with “M” but that is all he could recall.",
+      "page_start": 9,
+      "page_end": 9,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Retrograde amnesia",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The tip-of-the-tongue phenomenon",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Proactive interference",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The forgetting curve",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-024",
+      "section": "MCQ",
+      "number": 24,
+      "display_number": 24,
+      "stem": "Which of the following statements best explains why Flora's doctor may conclude that Flora is not developing dementia?",
+      "context": "Melody is visiting her 80-year-old grandmother, Flora. Melody sees Flora’s crossword puzzle book and asks her how many puzzles she completes each day. Flora says she used to do four puzzles per day but that more recently she does only one. Although her grandmother completes fewer puzzles in a day than she did before, Melody notices that all the answers are correct. Despite this, Melody begins to worry that Flora is developing dementia, as she has heard that fluid intelligence declines as people age while the risk for dementia increases. Concerned, Melody contacts Flora’s doctor to ask whether Flora might be showing signs of dementia.",
+      "page_start": 9,
+      "page_end": 9,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "While fluid intelligence tends to decrease as people age, crystallized intelligence, which is necessary for completing crossword puzzles correctly, remains relatively stable.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Crystallized intelligence tends to decrease as people age, while fluid intelligence, which is necessary for completing crossword puzzles correctly, remains relatively stable.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "If a person has not developed dementia by the time they are 80 years old, then chances are they never will.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "At 80 years old, Flora has reached the concrete operational stage, so she is now able to think abstractly, which is necessary for completing crossword puzzles correctly.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-025",
+      "section": "MCQ",
+      "number": 25,
+      "display_number": 25,
+      "stem": "Which of the following methods did researchers most likely use?",
+      "context": "Researchers conducted a study to investigate how different brain regions activate when individuals solve math problems. Participants were selected from the general population by using random sampling. After giving consent, participants underwent a scan that measured blood flow to the brain while they solved math problems.",
+      "page_start": 9,
+      "page_end": 9,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Lesioning",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "fMRI",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "EEG",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Projective tests",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-026",
+      "section": "MCQ",
+      "number": 26,
+      "display_number": 26,
+      "stem": "Which of the following noninvasive procedures relieved Priyesh’s depressive symptoms?",
+      "context": "Priyesh has been experiencing severe depressive episodes for many years. Along with talk therapy, he has tried several types of antidepressants, but these medications have provided little relief from his depressive symptoms. Recently, Priyesh underwent a noninvasive procedure that activates certain brain areas that are linked to depression. He started feeling better in the days after the procedure, and he hopes he is a candidate to repeat the procedure.",
+      "page_start": 10,
+      "page_end": 10,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "A lobotomy",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "An antagonist for acetylcholine",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Lesioning",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Transcranial magnetic stimulation (TMS)",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-027",
+      "section": "MCQ",
+      "number": 27,
+      "display_number": 27,
+      "stem": "Which of the following best explains why Dr. Burrhus’s study is an experiment?",
+      "context": "To better understand how the use of different reinforcement schedules influences behavior, Dr. Burrhus randomly assigned rats to one of two operant conditioning chambers. In the first chamber, rats consistently received a food pellet after pressing the lever 2 times. In the second chamber, rats initially received a food pellet after pressing the lever 2 times, but then had to press the lever 2, 5, or 8 times to receive a food pellet. The rats in both chambers completed 6 trials.",
+      "page_start": 10,
+      "page_end": 10,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "He measured the statistical relationship between variables without manipulating an independent variable.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "He combined data from multiple studies to determine the overall effects of reinforcement types on behavior.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "He manipulated an independent variable and randomly assigned the rats to different groups.",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "He completed an in-depth analysis of individual cases to determine how different reinforcement schedules influence behavior.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-028",
+      "section": "MCQ",
+      "number": 28,
+      "display_number": 28,
+      "stem": "Which of the following statements best describes the reinforcement schedules that the different groups of rats experienced?",
+      "context": "To better understand how the use of different reinforcement schedules influences behavior, Dr. Burrhus randomly assigned rats to one of two operant conditioning chambers. In the first chamber, rats consistently received a food pellet after pressing the lever 2 times. In the second chamber, rats initially received a food pellet after pressing the lever 2 times, but then had to press the lever 2, 5, or 8 times to receive a food pellet. The rats in both chambers completed 6 trials.",
+      "page_start": 10,
+      "page_end": 10,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The first group was reinforced on a fixed-ratio schedule, and the second group was reinforced on a variable-ratio schedule.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The first group was reinforced on a variable-ratio schedule, and the second group was reinforced on a fixed-ratio schedule.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The first group was reinforced on a fixed-interval schedule, and the second group was reinforced on a variable-interval schedule.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The first group was reinforced on a variable-interval schedule, and the second group was reinforced on a fixed-interval schedule.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-029",
+      "section": "MCQ",
+      "number": 29,
+      "display_number": 29,
+      "stem": "Which of the following measured behavioral outcomes would most likely result from the reinforcement schedule used by Dr. Burrhus?",
+      "context": "To better understand how the use of different reinforcement schedules influences behavior, Dr. Burrhus randomly assigned rats to one of two operant conditioning chambers. In the first chamber, rats consistently received a food pellet after pressing the lever 2 times. In the second chamber, rats initially received a food pellet after pressing the lever 2 times, but then had to press the lever 2, 5, or 8 times to receive a food pellet. The rats in both chambers completed 6 trials.",
+      "page_start": 11,
+      "page_end": 11,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The rats did not know when the next food pellet would arrive, so the rats in both groups would press the lever continuously.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The food pellet was delivered consistently, so the rats in both groups would steadily press the lever for expected reinforcement.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The rats in the first group would not press the lever to receive a food pellet until it was closer to the time for reinforcement, while the rats in the second group would press the lever steadily until they received the food pellet.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The rats in the first group would pause between receiving the food pellet and pressing the lever again, while the rats in the second group would press the lever again immediately after receiving the food pellet.",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-030",
+      "section": "MCQ",
+      "number": 30,
+      "display_number": 30,
+      "stem": "Which of the following statements best describes a child with high self-efficacy?",
+      "context": null,
+      "page_start": 11,
+      "page_end": 11,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The child has a positive view of self.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The child is influenced by peers to change their thoughts and behavior.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The child feels accepted by their parents.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The child believes strongly in their ability to successfully complete tasks.",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-031",
+      "section": "MCQ",
+      "number": 31,
+      "display_number": 31,
+      "stem": "Based on the graph, which of the following best describes the association between the length of a patient’s hypnosis session and their anxiety level following the session?",
+      "context": "Dr. Bradley is interested in the effectiveness of hypnosis therapy in the treatment of anxiety symptoms. He collected data on patients with severe anxiety. Patients attended weekly hypnosis sessions that lasted anywhere from 5 minutes to 60 minutes. Following each hypnosis session, the patients completed a survey to rate their level of anxiety. Higher ratings indicate higher anxiety levels. The data are presented in the graph.",
+      "page_start": 12,
+      "page_end": 12,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "No correlation",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "A negative correlation",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "A positive correlation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "A statistically insignificant relationship",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-031-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q31_hypnosis_anxiety_scatterplot.png",
+          "page": 12,
+          "bbox": [
+            0.03356,
+            0.18389,
+            0.47322,
+            0.44846
+          ],
+          "alt_text": "Scatterplot of hypnosis session length and anxiety rating.",
+          "description": "The graph has 35 data points. The data points are in a linear pattern trending down from left to right."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-032",
+      "section": "MCQ",
+      "number": 32,
+      "display_number": 32,
+      "stem": "Which of the following components of the working memory model will Milo use to sing the song in his head and remember all 50 states in the correct order?",
+      "context": "Milo is having trouble memorizing the 50 states of the United States. Milo's sister teaches him a song that will help him remember the states in alphabetical order.",
+      "page_start": 12,
+      "page_end": 12,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Central executive",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Iconic memory",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Phonological loop",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Visuospatial sketchpad",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-033",
+      "section": "MCQ",
+      "number": 33,
+      "display_number": 33,
+      "stem": "To follow ethical procedures, the researchers would need to take which of the following steps regarding the strangers in each published video recording?",
+      "context": "Researchers selected five members of their own team to violate the social norm of respecting personal space with strangers in two preselected locations. Confederates stood “too closely” to individuals in line at a bookstore. “Too closely” was operationally defined as within one foot or less of the stranger for three minutes or longer. Video recordings of the social norm violations were collected as data along with the other results.",
+      "page_start": 12,
+      "page_end": 12,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Maintaining anonymity",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Replicating the study",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Randomly assigning participants to groups",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Debriefing the confederates",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-034",
+      "section": "MCQ",
+      "number": 34,
+      "display_number": 34,
+      "stem": "A supplement that could support the adjustment of Silas's circadian rhythm would most likely be linked to which of the following hormones?",
+      "context": "Silas is traveling from New York City in the United States to New Delhi in India for a new job that will start two days after he lands. Silas is worried that fatigue might interfere with his ability to work. He decides to take a supplement, hoping that it will support the adjustment of his circadian rhythm to the new time zone.",
+      "page_start": 13,
+      "page_end": 13,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Leptin",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Adrenaline",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Melatonin",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Oxytocin",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-035",
+      "section": "MCQ",
+      "number": 35,
+      "display_number": 35,
+      "stem": "Which of the following conclusions can be drawn about the reasoning test?",
+      "context": "Camden applied for a programming job at a computer gaming company. As part of the hiring process, the company required that Camden complete a reasoning test. The company found that those who scored high on the test tended to be better at handling the job’s complexity. Camden was delighted that his score placed him in the top 5 percent of test takers. Two years later, Camden showed success at the job.",
+      "page_start": 13,
+      "page_end": 13,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "It is valid because it accurately predicted that Camden could handle the job’s complexity.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "It is reliable because it has consistently allowed the company to hire quality employees such as Camden.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "It is standardized because all potential employees have been required to take it as part of the hiring process.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "It is an achievement test because it measured how much Camden already knew about computer programming.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-036",
+      "section": "MCQ",
+      "number": 36,
+      "display_number": 36,
+      "stem": "Which of the following statements best describes what this language error reveals about Eva’s cognitive development?",
+      "context": "Eva’s teacher notices that while Eva has a large vocabulary for her age, she still says things like “I goed to the store” instead of “I went to the store.”",
+      "page_start": 13,
+      "page_end": 13,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Eva is in the one-word stage, where single words represent her understanding of grammar.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Eva’s overgeneralization shows that she understands the past-tense rule but has not yet learned its irregularities.",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Eva is in the telegraphic speech stage, evidenced by her ability to form short phrases but not complete sentences.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Eva still relies on nonverbal gestures and has not yet fully grasped grammatical structures.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-037",
+      "section": "MCQ",
+      "number": 37,
+      "display_number": 37,
+      "stem": "Which of the following would most likely be hardest for Lilah?",
+      "context": "Lilah was in a car accident and damaged the top part of her spinal cord. Lilah’s doctors explained that the damage disrupted communication between her brain and body below the level of the injury.",
+      "page_start": 13,
+      "page_end": 13,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Picking up an object",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Regulating her body temperature",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Tasting the flavor of food",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Hearing a loud noise",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-038",
+      "section": "MCQ",
+      "number": 38,
+      "display_number": 38,
+      "stem": "Which of the following procedures would increase confidence in the research findings and further support the researcher's hypothesis?",
+      "context": "A researcher conducted a study in which all participants were people with schizophrenia who also experienced hallucinations. Half of the participants received medication that reduced receptivity to dopamine. The other half of the participants received a placebo. Overall, 12 out of 20 of the medication group and 6 out of 20 of the placebo group experienced a reduction in hallucinations.",
+      "page_start": 14,
+      "page_end": 14,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Giving half of the patients a medication to reduce serotonin levels and the other half the same medication to reduce dopamine levels",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Obtaining informed consent from all participants and keeping their information confidential",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Repeating the methods used in the study with different participants who are also experiencing hallucinations to see if similar results occur",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Investigating the family histories for each patient to determine whether there might be a genetic link associated with schizophrenia",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-039",
+      "section": "MCQ",
+      "number": 39,
+      "display_number": 39,
+      "stem": "Which of the following statements best describes Bailey's emotional experience?",
+      "context": "Bailey has been applying to colleges and is waiting for acceptance emails to arrive. When Bailey checks her email, she sees an email from her top school choice saying that she has been accepted. Her heart rate increases, and even though she starts to cry, she smiles broadly. A moment later, she experiences happiness.",
+      "page_start": 14,
+      "page_end": 14,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The physiological experience came first, followed by the feeling of emotion.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The physiological experience and feeling of emotion came at the same time.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The feeling of emotion was not experienced as happiness until cognitive appraisal took place.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "There was no physiological experience, just the feeling of emotion.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-040",
+      "section": "MCQ",
+      "number": 40,
+      "display_number": 40,
+      "stem": "Which of the following best describes the type of test Mrs. Watson used?",
+      "context": "Mrs. Watson gave a test to her psychology students. The test was intended to measure whether the students had mastered the concepts in the cognition unit.",
+      "page_start": 14,
+      "page_end": 14,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "An aptitude test",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "A test to measure g",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "A test to measure growth mindset",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "An achievement test",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-041",
+      "section": "MCQ",
+      "number": 41,
+      "display_number": 41,
+      "stem": "Which of the following best expresses the hypothesis that Dr. Specter is testing with this research?",
+      "context": "Dr. Specter surveys a sample of people who recently received therapy for anxiety to determine their current level of anxiety. He also asks whether they believe they communicated openly and respectfully with their therapist. Dr. Specter examines the survey results to see if there is a relationship between these two factors.",
+      "page_start": 15,
+      "page_end": 15,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Clients whose symptoms improve after therapy have more positive memories of their therapist.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The degree of therapeutic alliance during therapy is negatively correlated with current anxiety levels.",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Therapy alone is not as successful in treating anxiety as therapy with antianxiety medications.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Being highly anxious causes clients to form stronger bonds with their therapist.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-042",
+      "section": "MCQ",
+      "number": 42,
+      "display_number": 42,
+      "stem": "Which of the following psychometric qualities does the college entrance exam display according to the correlation coefficient found in the study?",
+      "context": "Researchers investigated the relationship between college entrance exam scores and first-year grade point averages. An entrance exam was administered to a random sample of college students during their first month in college. Grade point averages were collected at the conclusion of the same students’ first year in college. Researchers found a 0.57 correlation coefficient between these variables.",
+      "page_start": 15,
+      "page_end": 15,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Test-retest reliability",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Split-half reliability",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Standardization",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Predictive validity",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-043",
+      "section": "MCQ",
+      "number": 43,
+      "display_number": 43,
+      "stem": "Which of the following concepts applies to Shawna’s situation?",
+      "context": "Shawna plays a new video game and progresses as far in the game as she can on her own. She asks her sister, who has already completed the main story of the game, to join her and help her complete an especially difficult task in the game.",
+      "page_start": 15,
+      "page_end": 15,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Crystallized intelligence",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Zone of proximal development",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Brain plasticity",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Operant conditioning",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-044",
+      "section": "MCQ",
+      "number": 44,
+      "display_number": 44,
+      "stem": "Which of the following research methods did Dr. LaMont use in her study?",
+      "context": "Dr. LaMont is interested in how students’ mindsets affect their performance in college. She randomly selected a group of students from all the first-year students at her university to be participants in her study. Before classes began, the group of students completed a survey that asked about their perceptions of their own abilities. For example, one question asked whether students believe that the hard work they put into learning new skills usually helped them be successful. Another question asked whether students believe they are capable of certain kinds of learning, such as learning a new language. Higher scores on the survey indicated more of a growth mindset than a fixed mindset.\n\nAt the end of the semester, the students reported on measures of academic performance and behaviors, including their grades, the time they spent studying, and whether they asked their instructors for feedback on assignments. Higher scores indicated higher grades, more time spent studying, and more asking instructors for feedback on assignments.\n\nDr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures.",
+      "page_start": 16,
+      "page_end": 16,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Experiment",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Meta-analysis",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Naturalistic observation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Correlation",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-045",
+      "section": "MCQ",
+      "number": 45,
+      "display_number": 45,
+      "stem": "Which of the following hypotheses would Dr. LaMont have been able to test with her research method?",
+      "context": "Dr. LaMont is interested in how students’ mindsets affect their performance in college. She randomly selected a group of students from all the first-year students at her university to be participants in her study. Before classes began, the group of students completed a survey that asked about their perceptions of their own abilities. For example, one question asked whether students believe that the hard work they put into learning new skills usually helped them be successful. Another question asked whether students believe they are capable of certain kinds of learning, such as learning a new language. Higher scores on the survey indicated more of a growth mindset than a fixed mindset.\n\nAt the end of the semester, the students reported on measures of academic performance and behaviors, including their grades, the time they spent studying, and whether they asked their instructors for feedback on assignments. Higher scores indicated higher grades, more time spent studying, and more asking instructors for feedback on assignments.\n\nDr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures.",
+      "page_start": 16,
+      "page_end": 16,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Having a fixed mindset leads to higher levels of academic achievement, such as higher grades.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Having a growth mindset causes students to try harder on difficult academic tasks.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Students who score higher on the survey will report spending more time studying and seeking feedback on assignments.",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Students who receive explicit training on how to study will be able to change their mindset toward academic achievement.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-046",
+      "section": "MCQ",
+      "number": 46,
+      "display_number": 46,
+      "stem": "After analyzing the data from her study, Dr. LaMont found that her results supported current theory about the relationship between growth mindset and student academic behaviors. Which of the following is the most accurate depiction of the results of Dr. LaMont’s study?",
+      "context": "Dr. LaMont is interested in how students’ mindsets affect their performance in college. She randomly selected a group of students from all the first-year students at her university to be participants in her study. Before classes began, the group of students completed a survey that asked about their perceptions of their own abilities. For example, one question asked whether students believe that the hard work they put into learning new skills usually helped them be successful. Another question asked whether students believe they are capable of certain kinds of learning, such as learning a new language. Higher scores on the survey indicated more of a growth mindset than a fixed mindset.\n\nAt the end of the semester, the students reported on measures of academic performance and behaviors, including their grades, the time they spent studying, and whether they asked their instructors for feedback on assignments. Higher scores indicated higher grades, more time spent studying, and more asking instructors for feedback on assignments.\n\nDr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures.",
+      "page_start": 17,
+      "page_end": 18,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "See graph A.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": "All values are approximate. The Mean Score data for the 2 bars are as follows: Mindset: 26 Academic Behaviors: 14"
+        },
+        {
+          "label": "B",
+          "content": "See graph B.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": "All values are approximate. The Mean Score data for the 2 bars are as follows: Mindset: 14 Academic Behaviors: 26"
+        },
+        {
+          "label": "C",
+          "content": "See graph C.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": "The scatterplot has 17 data points. The data points are widely distributed with no particular pattern."
+        },
+        {
+          "label": "D",
+          "content": "See graph D.",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": "The scatterplot has 15 data points. The data points are in a linear pattern trending up from left to right."
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-046-option-a",
+          "kind": "option",
+          "option_label": "A",
+          "path": "assets/psychology/images/ap2026/q46_option_a.png",
+          "page": 17,
+          "bbox": [
+            0.47993,
+            0.14237,
+            0.95986,
+            0.3488
+          ],
+          "alt_text": "Bar graph: Mindset 26, Academic Behaviors 14.",
+          "description": "All values are approximate. The Mean Score data for the 2 bars are as follows: Mindset: 26; Academic Behaviors: 14."
+        },
+        {
+          "asset_id": "psychology-2026-mcq-046-option-b",
+          "kind": "option",
+          "option_label": "B",
+          "path": "assets/psychology/images/ap2026/q46_option_b.png",
+          "page": 17,
+          "bbox": [
+            0.47993,
+            0.46982,
+            0.95986,
+            0.67744
+          ],
+          "alt_text": "Bar graph: Mindset 14, Academic Behaviors 26.",
+          "description": "All values are approximate. The Mean Score data for the 2 bars are as follows: Mindset: 14; Academic Behaviors: 26."
+        },
+        {
+          "asset_id": "psychology-2026-mcq-046-option-c",
+          "kind": "option",
+          "option_label": "C",
+          "path": "assets/psychology/images/ap2026/q46_option_c.png",
+          "page": 17,
+          "bbox": [
+            0.47993,
+            0.80201,
+            0.95986,
+            0.99777
+          ],
+          "alt_text": "Scatterplot with 17 widely distributed data points.",
+          "description": "The scatterplot has 17 data points. The data points are widely distributed with no particular pattern."
+        },
+        {
+          "asset_id": "psychology-2026-mcq-046-option-d",
+          "kind": "option",
+          "option_label": "D",
+          "path": "assets/psychology/images/ap2026/q46_option_d.png",
+          "page": 18,
+          "bbox": [
+            0.47993,
+            0.09966,
+            0.95986,
+            0.30847
+          ],
+          "alt_text": "Scatterplot with 15 data points in a linear upward pattern.",
+          "description": "The scatterplot has 15 data points. The data points are in a linear pattern trending up from left to right."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-047",
+      "section": "MCQ",
+      "number": 47,
+      "display_number": 47,
+      "stem": "Which of the following best describes Jennifer’s thinking error in this situation?",
+      "context": "Jennifer insists that her four-year-old son, David, has advanced cognitive skills. However, when David’s preschool teacher assesses his understanding of conservation and reversibility, David demonstrates the preoperational thinking appropriate for his age. After hearing these results, Jennifer says she could have predicted the outcome because David struggles with those skills.",
+      "page_start": 18,
+      "page_end": 18,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Sunk-cost fallacy",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Egocentrism",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Assimilation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Hindsight bias",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-048",
+      "section": "MCQ",
+      "number": 48,
+      "display_number": 48,
+      "stem": "Which of the following conflicts is Tucker experiencing?",
+      "context": "Tucker is struggling with an important decision regarding the college he attends. He was accepted at his top-choice school, but the tuition there is extremely high.",
+      "page_start": 18,
+      "page_end": 18,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Trust and mistrust",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Approach-approach",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Intimacy and isolation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Approach-avoidance",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-049",
+      "section": "MCQ",
+      "number": 49,
+      "display_number": 49,
+      "stem": "Which of the following issues would Barbara’s cochlear implant most likely address?",
+      "context": "Barbara is 80 years old and has severe hearing loss. Her doctors propose that she receive a cochlear implant. The device processes sound waves and sends the signals to electrodes embedded in the inner ear, which stimulate the auditory nerve.",
+      "page_start": 19,
+      "page_end": 19,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Conduction deafness",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Aphasia",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Sensorineural deafness",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Somnambulism",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-050",
+      "section": "MCQ",
+      "number": 50,
+      "display_number": 50,
+      "stem": "Which of the following concepts did Stella use to help her remember the password?",
+      "context": "When Stella needed to use her friend’s laptop, her friend told her the password. Stella kept repeating it to herself and remembered it long enough to type it into the text field on the log-in screen.",
+      "page_start": 19,
+      "page_end": 19,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Maintenance rehearsal",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Metacognition",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Elaborative rehearsal",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Mood-congruent memory",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-051",
+      "section": "MCQ",
+      "number": 51,
+      "display_number": 51,
+      "stem": "which of the following to benefit Jayla if they joined her team?",
+      "context": "Jayla’s primary care physician, clinical psychologist, and chronic disease specialist all work together to provide her with the best care possible. A health psychologist could do",
+      "page_start": 19,
+      "page_end": 19,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Confronting Jayla’s irrational or maladaptive thoughts",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Using psychological interventions, stress management strategies, and lifestyle modifications to address Jayla’s health concerns",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Employing free association and dream interpretation to uncover Jayla’s unconscious mind",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Administering transcranial magnetic stimulation (TMS) to help regulate brain networks involved in Jayla’s mood, cognition, and behavior",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-052",
+      "section": "MCQ",
+      "number": 52,
+      "display_number": 52,
+      "stem": "Which of the following will the institutional review board most likely evaluate about the psychologist’s research to determine approval?",
+      "context": "A biological psychologist working at a state university is interested in studying the connection between the human reticular activating system and various sleep disorders. Before she begins her research, she seeks approval from the institutional review board of the university.",
+      "page_start": 19,
+      "page_end": 19,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Whether the procedures of the study follow established ethical guidelines to protect participants",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Whether the research design should be an experiment or a correlational study",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Whether the determination of who has sleep disorders is being made correctly",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Whether the sample size is sufficient to determine the statistical significance of the results",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-053",
+      "section": "MCQ",
+      "number": 53,
+      "display_number": 53,
+      "stem": "Which of the following factors was most likely to act as a confounding variable in Professor Kurri’s design?",
+      "context": "Professor Kurri conducted a study to test how well people can understand different types of directions about how to use a new technology. She randomly selected participants and had them visit the lab on the same day. She randomly assigned participants to one of two groups and gave them different manuals that explained how a robot vacuum works. Group 1 was given a manual that used pictures. Group 2 was given a manual that used words.\n\nThe participants were timed to see how long it took them to read the manual and make the robot vacuum work. Demographic information for each group and the mean times it took each group to complete the task, in minutes and seconds, are listed in the tables.",
+      "page_start": 20,
+      "page_end": 20,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Gender",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Age",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Time of day",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Reading ability",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-053-table-1",
+          "kind": "table",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q53_group_demographics_and_completion_time.png",
+          "page": 20,
+          "bbox": [
+            0.04531,
+            0.27525,
+            0.47322,
+            0.53626
+          ],
+          "alt_text": "Table 1 group demographics and Table 2 mean completion times.",
+          "description": null
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-054",
+      "section": "MCQ",
+      "number": 54,
+      "display_number": 54,
+      "stem": "Which of the following therapeutic techniques is Hannah most likely receiving?",
+      "context": "Hannah has been seeing a therapist for nearly three months. During sessions with Hannah, the therapist focuses primarily on helping Hannah feel deeply understood and accepted without judgment. After the sessions, Hannah does feel heard and leaves with a better understanding of her own thoughts and actions. For the first time in nearly a year, Hannah feels that she has ownership of her own feelings and behaviors.",
+      "page_start": 20,
+      "page_end": 20,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Person-centered therapy",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Biofeedback",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Cognitive restructuring",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Psychodynamic therapy",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-055",
+      "section": "MCQ",
+      "number": 55,
+      "display_number": 55,
+      "stem": "Which of the following concepts best explains why Yasmin’s approach to lowering her heart rate will lead to better performance on the exam?",
+      "context": "Yasmin is about to take an important exam, and her heart is beating rapidly from the stress she is feeling. She starts to do some deep-breathing exercises to reduce her heart rate, because she knows she will do better on the test if she is feeling less stressed.",
+      "page_start": 21,
+      "page_end": 21,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Drive-reduction theory",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The Law of Effect",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Volley theory",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The Yerkes-Dodson law",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-056",
+      "section": "MCQ",
+      "number": 56,
+      "display_number": 56,
+      "stem": "Which of the following concepts best explains the experience of Liam's group?",
+      "context": "Liam was assigned to a group to work on a project for class. Liam came up with a plan for how to complete the project and assigned each group member to a specific role. The work needed to be divided evenly, so not every member got the role they wanted. None of the other group members agreed with Liam’s plan. Everyone worked on the project as they pleased, which led to the whole group failing the project.",
+      "page_start": 21,
+      "page_end": 21,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Social facilitation",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Deindividuation",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Group polarization",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Social trap",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-057",
+      "section": "MCQ",
+      "number": 57,
+      "display_number": 57,
+      "stem": "A colleague of Dr. Ferguson’s suggests that parental poverty is linked to both birth weight and food environment. This is an example of which of the following concepts?",
+      "context": "Dr. Ferguson is interested in the connection between environmental factors and prenatal development. He recorded the birth weight of 100 infants. Half the infants were born to mothers living in neighborhoods with a high density of unhealthful food establishments while the other half were born to mothers living in neighborhoods with a high density of healthful food establishments. Dr. Ferguson found that living in areas with a high density of unhealthful food establishments was associated with a higher risk of delivering an infant who was larger than average.",
+      "page_start": 21,
+      "page_end": 21,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Small sample size",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Third variable problem",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Social desirability bias",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Falsifiability",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-058",
+      "section": "MCQ",
+      "number": 58,
+      "display_number": 58,
+      "stem": "Which of the following psychological concepts best reflects Enrico’s experience?",
+      "context": "Last year, Enrico was in a car accident and now is no longer able to walk. While hesitant at first to discuss his experience, he now shares videos of his physical therapy online to motivate others in similar situations.",
+      "page_start": 21,
+      "page_end": 21,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The foreclosure stage of identity development",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Posttraumatic growth",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The integrity and despair stage of psychosocial development",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Drive-reduction theory",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-059",
+      "section": "MCQ",
+      "number": 59,
+      "display_number": 59,
+      "stem": "Which of the following perceptual principles best explains why Ava had difficulty judging her distance from the street signs?",
+      "context": "While Ava sat on a park bench, a gust of wind blew fine particles into her eye. Her eye became swollen and painful. It felt better to keep her eye closed. As she rode her bicycle home with her eye closed, Ava struggled to judge how far away the street signs were.",
+      "page_start": 22,
+      "page_end": 22,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Closure",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Apparent movement",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Visual perceptual constancies",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Retinal disparity",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-060",
+      "section": "MCQ",
+      "number": 60,
+      "display_number": 60,
+      "stem": "Which of the following best provides the operational definition of the effects of opioid addiction measured in the study?",
+      "context": "In a study on the effects of discontinuing opioid use among opioid-dependent users, participants were asked to rate the severity of their withdrawal symptoms on a scale from 0 to 10, with 10 representing the most extreme symptoms. The participants provided ratings at 24 hours, 48 hours, and 96 hours after discontinuing opioid use. The ratings were compiled and are listed in the table.",
+      "page_start": 22,
+      "page_end": 22,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Time",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Withdrawal-symptom severity rating",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Number of days addicted to opioids",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Quantity of opioid drugs consumed",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-060-table-1",
+          "kind": "table",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q60_62_withdrawal_symptom_table.png",
+          "page": 22,
+          "bbox": [
+            0.04531,
+            0.38558,
+            0.47322,
+            0.72608
+          ],
+          "alt_text": "Table of withdrawal-symptom severity ratings at 24, 48, and 96 hours.",
+          "description": null
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-061",
+      "section": "MCQ",
+      "number": 61,
+      "display_number": 61,
+      "stem": "Which of the following is the range for the withdrawal-symptom ratings over the course of the three rating periods?",
+      "context": "In a study on the effects of discontinuing opioid use among opioid-dependent users, participants were asked to rate the severity of their withdrawal symptoms on a scale from 0 to 10, with 10 representing the most extreme symptoms. The participants provided ratings at 24 hours, 48 hours, and 96 hours after discontinuing opioid use. The ratings were compiled and are listed in the table.",
+      "page_start": 23,
+      "page_end": 23,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "1",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "2",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "8",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "72",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-061-table-1",
+          "kind": "table",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q60_62_withdrawal_symptom_table.png",
+          "page": 22,
+          "bbox": [
+            0.04531,
+            0.38558,
+            0.47322,
+            0.72608
+          ],
+          "alt_text": "Table of withdrawal-symptom severity ratings at 24, 48, and 96 hours.",
+          "description": null
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-062",
+      "section": "MCQ",
+      "number": 62,
+      "display_number": 62,
+      "stem": "Which of the following types of quantitative measurement tools was used to measure the withdrawal symptoms?",
+      "context": "In a study on the effects of discontinuing opioid use among opioid-dependent users, participants were asked to rate the severity of their withdrawal symptoms on a scale from 0 to 10, with 10 representing the most extreme symptoms. The participants provided ratings at 24 hours, 48 hours, and 96 hours after discontinuing opioid use. The ratings were compiled and are listed in the table.",
+      "page_start": 24,
+      "page_end": 24,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Likert scale",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Structured interview",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Correlation coefficient",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Effect size",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-062-table-1",
+          "kind": "table",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q60_62_withdrawal_symptom_table.png",
+          "page": 22,
+          "bbox": [
+            0.04531,
+            0.38558,
+            0.47322,
+            0.72608
+          ],
+          "alt_text": "Table of withdrawal-symptom severity ratings at 24, 48, and 96 hours.",
+          "description": null
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-063",
+      "section": "MCQ",
+      "number": 63,
+      "display_number": 63,
+      "stem": "which of the following systems?",
+      "context": "Fantasia, a junior in high school, is the captain of the rugby team and a member of the cheer squad. According to the ecological systems theory, the rugby team and cheer squad would be part of",
+      "page_start": 24,
+      "page_end": 24,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Exosystem",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Macrosystem",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Microsystem",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Chronosystem",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-064",
+      "section": "MCQ",
+      "number": 64,
+      "display_number": 64,
+      "stem": "Fill-in-the-blank questions may be more difficult for Xanthe to answer because they require her to use which of the following?",
+      "context": "Xanthe is taking a quiz that has two types of questions: multiple-choice questions and fill-in-the-blank questions. Xanthe is having an easier time answering the multiple-choice questions than the fill-in-the-blank questions.",
+      "page_start": 24,
+      "page_end": 24,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Recognition",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Recall",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Context-dependent memory",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "State-dependent memory",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-065",
+      "section": "MCQ",
+      "number": 65,
+      "display_number": 65,
+      "stem": "Which of the following theories or models emphasizes the importance of the social environment in children’s development?",
+      "context": null,
+      "page_start": 25,
+      "page_end": 25,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The multi-store model of memory",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The levels of processing model of memory",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Vygotsky’s theory of cognitive development",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Piaget’s theory of cognitive development",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-066",
+      "section": "MCQ",
+      "number": 66,
+      "display_number": 66,
+      "stem": "Which of the following statements best explains the shift from the solid-line curve to the dashed-line curve in terms of positive psychology?",
+      "context": "In the following graph, the solid-line curve represents the distribution of mental health in the general population. The dashed-line curve represents the distribution of mental health in a population after well-being interventions are administered.",
+      "page_start": 25,
+      "page_end": 25,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "The factors that shifted the curve to the right likely indicate interventions that are successful in improving well-being.",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "The shift indicates a strong positive correlation between well-being interventions and mental disorders.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The shift demonstrates that mental disorders and well-being interventions cause each other.",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "A large effect size for interventions to improve well-being can be seen in the dashed-line curve.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-066-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q66_mental_health_curves.png",
+          "page": 25,
+          "bbox": [
+            0.02517,
+            0.32626,
+            0.47322,
+            0.53032
+          ],
+          "alt_text": "Normal curves showing a shift toward well-being after intervention.",
+          "description": "For the first normal curve: the curve is a solid graph line; the peak of the curve is at the line between Languishing and Moderate Mental Health. For the second normal curve: the curve is a dashed graph line; the curve is shifted to the right of the first curve such that the peak is in the center of the Moderate Mental Health section."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-067",
+      "section": "MCQ",
+      "number": 67,
+      "display_number": 67,
+      "stem": "Which of the following psychological perspectives was most likely used by eugenicists to justify their discriminatory beliefs?",
+      "context": "While researching early intelligence testing, Steven found that many American eugenicists in the 1930s incorrectly believed that only those with “superior” genetics achieved extremely high intelligence test scores.",
+      "page_start": 25,
+      "page_end": 25,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Behavioral",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Humanistic",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Evolutionary",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Psychodynamic",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-068",
+      "section": "MCQ",
+      "number": 68,
+      "display_number": 68,
+      "stem": "Which of the following factors influences Aiden’s perception of the sound he hears?",
+      "context": "While waiting for a bus, Aiden hears a rustling sound in the nearby bushes and immediately assumes a small animal caused it. Aiden makes this assumption because he has only ever experienced small animals as the cause of rustling sounds in nearby bushes.",
+      "page_start": 26,
+      "page_end": 26,
+      "correct_answer": "B",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Bottom-up processing",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Perceptual set",
+          "sort_order": 2,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Sound localization",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Mental set",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-069",
+      "section": "MCQ",
+      "number": 69,
+      "display_number": 69,
+      "stem": "Which of the following aspects of the research design makes Dr. Jaeger’s findings less generalizable?",
+      "context": "Dr. Jaeger is interested in exploring the relationship between happiness and the Big Five traits of personality. He finds that there is a statistically significant positive correlation between the Big Five trait of openness to experience and happiness in a study he conducts with a sample of 227 high school students in Missouri. Dr. Jaeger concludes that more openness to experience correlates to more happiness in the human population.",
+      "page_start": 26,
+      "page_end": 26,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Dr. Jaeger studies the relationship between only two variables.",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Dr. Jaeger does not consider more than the Big Five traits of personality.",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "The sample is limited to Missouri high school students.",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "It is not possible to measure someone’s happiness.",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-070",
+      "section": "MCQ",
+      "number": 70,
+      "display_number": 70,
+      "stem": "Which of the following concepts best explains why one negative experience created such a lasting taste aversion?",
+      "context": "Janelle attended a party where she had pizza with black olives on it for the first time. Shortly after the party, she got a terrible stomachache and spent the night vomiting. Since then, even thinking about pizza with black olives has made Janelle feel nauseated, and she has avoided eating it.",
+      "page_start": 26,
+      "page_end": 26,
+      "correct_answer": "D",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Negative punishment",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Stimulus generalization",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Extinction of a response",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Biological preparedness",
+          "sort_order": 4,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-071",
+      "section": "MCQ",
+      "number": 71,
+      "display_number": 71,
+      "stem": "What part of his brain first processed the incoming sensation before rerouting it to the correct area in the cortex so that Marlow could perceive the candy’s sour taste?",
+      "context": "Marlow ate a sour candy.",
+      "page_start": 26,
+      "page_end": 26,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Thalamus",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Hippocampus",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Hypothalamus",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Broca’s area",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-072",
+      "section": "MCQ",
+      "number": 72,
+      "display_number": 72,
+      "stem": "Which of the following methods of research was used in the study?",
+      "context": "In a recent study, researchers selected participants who expressed in a reply to a recruitment email that they were willing to help a classmate with some schoolwork. The participants were randomly assigned to one of two conditions. In both conditions, participants were included in an email from a classmate asking for help with a research paper. The two conditions are described as follows:\n\nCondition 1: Email addresses of 20 other people were visible to the participant in the email.\n\nCondition 2: No email addresses of other people were visible to the participant in the email.\n\nThe researchers recorded the number of participants who offered to help. Results are depicted in the graph.",
+      "page_start": 27,
+      "page_end": 27,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Experiment",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Case study",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Naturalistic observation",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Meta-analysis",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-072-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q72_74_offers_to_help_chart.png",
+          "page": 27,
+          "bbox": [
+            0.02517,
+            0.2966,
+            0.47322,
+            0.58015
+          ],
+          "alt_text": "Bar graph of offers to help with and without visible email addresses.",
+          "description": "The data for the 2 bars are as follows: Email Addresses Visible: 12 participants; Email Addresses Not Visible: 18 participants."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-073",
+      "section": "MCQ",
+      "number": 73,
+      "display_number": 73,
+      "stem": "Which of the following describes the dependent variable in the study?",
+      "context": "In a recent study, researchers selected participants who expressed in a reply to a recruitment email that they were willing to help a classmate with some schoolwork. The participants were randomly assigned to one of two conditions. In both conditions, participants were included in an email from a classmate asking for help with a research paper. The two conditions are described as follows:\n\nCondition 1: Email addresses of 20 other people were visible to the participant in the email.\n\nCondition 2: No email addresses of other people were visible to the participant in the email.\n\nThe researchers recorded the number of participants who offered to help. Results are depicted in the graph.",
+      "page_start": 28,
+      "page_end": 28,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Participants who replied to the recruitment email",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Whether the email addresses were visible",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Number of participants who offered to help",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "The classmate who needed help with some schoolwork",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-073-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q72_74_offers_to_help_chart.png",
+          "page": 27,
+          "bbox": [
+            0.02517,
+            0.2966,
+            0.47322,
+            0.58015
+          ],
+          "alt_text": "Bar graph of offers to help with and without visible email addresses.",
+          "description": "The data for the 2 bars are as follows: Email Addresses Visible: 12 participants; Email Addresses Not Visible: 18 participants."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-074",
+      "section": "MCQ",
+      "number": 74,
+      "display_number": 74,
+      "stem": "Which of the following social psychological concepts is demonstrated by the results as depicted in the graph?",
+      "context": "In a recent study, researchers selected participants who expressed in a reply to a recruitment email that they were willing to help a classmate with some schoolwork. The participants were randomly assigned to one of two conditions. In both conditions, participants were included in an email from a classmate asking for help with a research paper. The two conditions are described as follows:\n\nCondition 1: Email addresses of 20 other people were visible to the participant in the email.\n\nCondition 2: No email addresses of other people were visible to the participant in the email.\n\nThe researchers recorded the number of participants who offered to help. Results are depicted in the graph.",
+      "page_start": 29,
+      "page_end": 29,
+      "correct_answer": "A",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Diffusion of responsibility",
+          "sort_order": 1,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Memory cues",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Framing effect",
+          "sort_order": 3,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Just-world phenomenon",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "psychology-2026-mcq-074-fig-1",
+          "kind": "figure",
+          "option_label": null,
+          "path": "assets/psychology/images/ap2026/q72_74_offers_to_help_chart.png",
+          "page": 27,
+          "bbox": [
+            0.02517,
+            0.2966,
+            0.47322,
+            0.58015
+          ],
+          "alt_text": "Bar graph of offers to help with and without visible email addresses.",
+          "description": "The data for the 2 bars are as follows: Email Addresses Visible: 12 participants; Email Addresses Not Visible: 18 participants."
+        }
+      ],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-075",
+      "section": "MCQ",
+      "number": 75,
+      "display_number": 75,
+      "stem": "Which of the following types of therapy is Carlos experiencing?",
+      "context": "Carlos has a fear of flying. His therapist recommends that he begin therapy by first watching videos of airplanes taking off and landing. After a few sessions, he progresses to sitting in a stationary plane at the airport, then gradually works up to booking a short flight.",
+      "page_start": 29,
+      "page_end": 29,
+      "correct_answer": "C",
+      "answer_text": null,
+      "answer_source": "source_pdf_answer_key",
+      "answer_confidence": "source_provided_not_independently_verified",
+      "options": [
+        {
+          "label": "A",
+          "content": "Rational-emotive behavior",
+          "sort_order": 1,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "B",
+          "content": "Aversion",
+          "sort_order": 2,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "C",
+          "content": "Systematic desensitization",
+          "sort_order": 3,
+          "is_correct": true,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        },
+        {
+          "label": "D",
+          "content": "Dialectical behavior",
+          "sort_order": 4,
+          "is_correct": false,
+          "explanation": null,
+          "ai_explanation": null,
+          "figure_alt": null
+        }
+      ],
+      "assets": [],
+      "status": "ready",
+      "notes": [
+        "正确答案 taken from the PDF answer annotation.",
+        "No explanation is printed in the source; options.explanation remains NULL."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-frq-001",
+      "section": "FRQ",
+      "number": 1,
+      "display_number": 1,
+      "question_type": "AAQ",
+      "stem": "Using the source provided, respond to all parts of the question.\n\nYour response to the question should be provided in six parts: A, B, C, D, E, and F. Write the response to each part of the question in complete sentences. Use appropriate psychological terminology in your response.\n\nA. Identify the research method used in the study.\n\nB. State the operational definition of cold pain tolerance.\n\nC. Describe what the difference in the medians indicates for cold pain tolerance during the pre-medication phase and during the opioid medication infusion.\n\nD. Identify one ethical guideline described in the study. Describe one way the researchers in the study applied this ethical guideline.\n\nE. Explain the extent to which the research findings may or may not be generalizable using specific and relevant evidence from the study.\n\nF. Explain how at least one of the research findings supports or refutes the placebo effect.",
+      "context": "Introduction\n\nIn this study, researchers explored pain sensitivity and the effectiveness of opioid pain medication in people who are twins.\n\nParticipants\n\nThe study took place in the western United States. One hundred and nine pairs of twins (218 individual participants), including monozygotic and dizygotic twins,1 participated in the research. Participants were 18 to 70 years old and fluent in English, and they had received a negative pregnancy test result before participating. Demographic information about the twin pairs is included in the tables shown.\n\nTable 1. Type of Twin Pair\nType of Twin Pair | Number of Pairs\nMonozygotic (identical) | 78\nDizygotic (nonidentical) | 31\n\nTable 2. Gender of Twin Pair\nGender | Monozygotic (identical) | Dizygotic (nonidentical)\nMale twin pairs | 26 | 8\nFemale twin pairs | 50 | 12\nMixed-gender twin pairs | 0 | 13\n\nTable 3. Race/Ethnicity of Twin Pair\nRace/Ethnicity | Number of Twin Pairs\nWhite | 58\nHispanic | 28\nAsian | 15\nAfrican American | 5\nAmerican Indian | 2\nPacific Islander | 1\n\nBefore agreeing to participate in the study, individuals were given detailed information about the study’s purpose and procedures and were assured their involvement was voluntary. Individuals with underlying medical conditions, allergies to opioid medications, or a history of opioid addiction were excluded from the study. Trained laboratory staff were involved in the study to ensure the safety of the participants.\n\nMethod\n\nResearchers conducted a single-session, double-blind, and placebo-controlled study that used a within-subjects design. Personal details were removed from all data collected from participants prior to storage in password-protected files, ensuring privacy and reducing the risk of unauthorized access.\n\nThe study consisted of a pre-medication phase of 140 minutes, followed by an infusion phase of 140 minutes.\n\nDuring the pre-medication phase, participants’ blood samples were taken, their vital signs were checked, and their baseline sensitivity thresholds for heat pain and cold pain were established. Measurement of participants’ sensitivities included their thresholds for heat pain and cold pain and their tolerance for cold pain.\n\nTo assess heat pain, researchers placed a device on each participant’s forearm in contact with their skin. Starting at 35 degrees Celsius (~95° Fahrenheit), the temperature increased at a rate of 1°C/second (~1.8°F/second). Participants pushed a button to indicate when the temperature first felt painful. This procedure was repeated four times, and the average temperature that elicited pain was recorded as the “heat pain threshold.” The maximum temperature was limited to 52°C (~126°F) to prevent burn injuries.\n\nTo assess cold pain, researchers had participants immerse their hands in a container of ice water (temperature starting at 1–2°C/~34–35°F) with the palms of their hands in full contact with the bottom of the container. Participants indicated when they first started to feel pain and withdrew their hands once the pain became intolerable. The time when the pain sensation was first felt was recorded as the “cold pain threshold,” and the time when the participants withdrew their hands was recorded as the “cold pain tolerance.” The maximum duration was limited to 180 seconds (3 minutes) to prevent injuries.\n\nDuring the infusion phase, one twin out of each pair was randomly assigned to receive an infusion of an opioid pain medication followed by an infusion of a saltwater-solution (a placebo). The other twin received the infusions in reverse order (saltwater-solution placebo followed by the opioid pain medication). The pain sensitivity tests for heat pain and cold pain were conducted during each condition.\n\nResults and Discussion\n\nDuring the pre-medication phase, the median cold pain threshold was 8.1 seconds, and the median cold pain tolerance was 16.2 seconds. The median heat pain threshold was 48.4°C (~119°F).\n\nDuring the opioid medication infusion in the infusion phase, participants’ heat pain threshold increased by a median of 1.2°C (~2.2°F), meaning participants tolerated higher temperatures while taking the opioid medication. Participants’ cold pain threshold increased to a median of 14.3 seconds, and their cold pain tolerance increased to a median of 31.2 seconds. While taking the opioid medication, participants waited longer before reporting cold pain and tolerated the cold pain for a longer period.\n\nThe participants’ reported pain levels while taking the placebo were inconsistent—sometimes the pain levels were reported as increasing; other times the pain levels were reported as decreasing. Results of the comparisons between the opioid medication condition and the placebo condition are reported in Table 4.\n\nTable 4. Median Pain Thresholds and Sensitivities Across All Twin Pairs\nPain Test | Pre-Medication Phase | During Saltwater Infusion (Placebo) | During Opioid Medication Infusion\nHeat pain threshold | 48.4°C/119.12°F | 48.5°C/119.3°F | 49.6°C/121.3°F\nCold pain threshold | 8.1 seconds | 8.0 seconds | 14.3 seconds\nCold pain tolerance | 16.2 seconds | 15.6 seconds | 31.2 seconds\n\nBecause identical twins had more similar pain thresholds and pain tolerance responses than nonidentical twins, researchers found that pain threshold and pain tolerance were strongly linked to genetics.\n\nAngst, M. S., Phillips, N. G., Drover, D. R., Tingle, M., Ray, A., Swan, G. E., Lazzeroni, L. C., & Clark, D. J. (2012). Pain, 153(7), 1397–1409.",
+      "page_start": 30,
+      "page_end": 47,
+      "correct_answer": null,
+      "answer_text": "Sample responses from the source PDF. These are not official scoring guidelines.\n\nA. The research method used in the study is a double‑blind, placebo‑controlled experiment employing a within‑subjects design. Each participant was exposed to both the opioid pain medication condition and the saltwater (placebo) condition, allowing comparison of pain thresholds and tolerance within the same individual across different treatment phases.\n\nB. The operational definition of cold pain tolerance is the amount of time (measured in seconds) from when participants immersed their hands in ice water until they withdrew their hands because the cold pain became intolerable, with a maximum duration of 180 seconds to prevent injury.\n\nC. The higher median during the opioid infusion shows that participants tolerated the cold pain for longer than they did in the pre-medication phase.\n\nD. One ethical guideline was informed consent. The researchers applied this by giving participants detailed information about the study and making clear that participation was voluntary.\n\nE. The findings are not fully generalizable. All participants were twins from the western United States and had to meet specific requirements, so the results may not apply to everyone.\n\nF. The findings refute a strong placebo effect because the placebo results were inconsistent, while the opioid condition clearly increased cold pain tolerance.",
+      "answer_source": "source_pdf_sample_response",
+      "answer_confidence": "sample_response_only_no_rubric",
+      "options": [],
+      "assets": [],
+      "frq_parts": [
+        "A. Identify the research method used in the study.",
+        "B. State the operational definition of cold pain tolerance.",
+        "C. Describe what the difference in the medians indicates for cold pain tolerance during the pre-medication phase and during the opioid medication infusion.",
+        "D. Identify one ethical guideline described in the study. Describe one way the researchers in the study applied this ethical guideline.",
+        "E. Explain the extent to which the research findings may or may not be generalizable using specific and relevant evidence from the study.",
+        "F. Explain how at least one of the research findings supports or refutes the placebo effect."
+      ],
+      "frq_part_pages": {
+        "A": 30,
+        "B": 33,
+        "C": 36,
+        "D": 39,
+        "E": 42,
+        "F": 45
+      },
+      "frq_sample_response_pages": {
+        "A": 30,
+        "B": 33,
+        "C": 36,
+        "D": 39,
+        "E": 42,
+        "F": 45
+      },
+      "source_pages": [
+        30,
+        32
+      ],
+      "status": "ready_with_sample_responses_no_rubric",
+      "notes": [
+        "The PDF repeats the full source material for each part (1a-1f).",
+        "Only sample responses are provided; no scoring guidelines or rubric points are included.",
+        "Tables 1-4 were reconstructed as text from the PDF; values were checked against the rendered table.",
+        "Footnote markers 1-3 appear in the source, but the footnote text is not included in this PDF."
+      ]
+    },
+    {
+      "question_id": "psychology-2026-frq-002",
+      "section": "FRQ",
+      "number": 2,
+      "display_number": 2,
+      "question_type": "EBQ",
+      "stem": "This question has three parts: Part A, Part B, and Part C. Use the three sources provided to answer all parts of the question.\n\nFor Part B and Part C, you must cite the source that you used to answer the question. You can do this in two different ways:\n\nParenthetical Citation: For example: “...(Source 1).”\n\nEmbedded Citation: For example: “According to Source 1...”\n\nWrite the response to each part of the question in complete sentences. Use appropriate psychological terminology.\n\nUsing the sources provided, develop and justify an argument about how the experience of ghosting or being ghosted might relate to one’s well-being.\n\nA. Propose a specific and defensible claim based in psychological science that responds to the question.\n\nB.\ni. Support your claim using at least one piece of specific and relevant evidence from one of the sources. \nii. Explain how the evidence from Part B(i) supports your claim using a psychological perspective, theory, concept, or research finding learned in AP Psychology.\n\nC.\ni. Support your claim using an additional piece of specific and relevant evidence from a different source than the one that was used in Part B(i). \nii. Explain how the evidence from Part C(i) supports your claim using a different psychological perspective, theory, concept, or research finding learned in AP Psychology than the one that was used in Part B(ii).",
+      "context": null,
+      "page_start": 48,
+      "page_end": 49,
+      "correct_answer": null,
+      "answer_text": "Sample responses from the source PDF. These are not official scoring guidelines.\n\nA. Claim Being ghosted has negative impact on a person’s mental well-being because of (negative self-concept, low self-esteem, or increased anxiety)\n\nB. Evidence and explanation from one source\n\nAccording to Source 3, “after participants reflected on a ghosting experience, their anxiety increased from a mean of 1.61 to 1.90, and their low self-esteem increased from a mean of 1.84 to 2.24. The source states that these differences were statistically significant.”\n\nThis supports the claim because this can be explained through social rejection. Human beings have basic need to fit in, so being ignored or excluded can create distress. Because ghosting gives no clear reason for rejection, the person may feel uncertain, anxious, and less worthy.\n\nC. Evidence from a different source and explanation using a different psychological concept\n\nAccording to Source 2, “the most common emotional response to being ghosted was sadness, reported by 26.21% of participants. Participants also reported low self-esteem after being ghosted, reported by 27.13% of participants.”\n\nThis also supports the claim because it shows that ghosting is related with negative emotional reactions and poorer self-evaluation and could be explained by attribution theory. When people are ghosted, they may try to explain why it happened. If they make an internal attribution, they may believe the rejection happened because it is their fault. This can reduce their self-esteem because the person interprets the ghosting as a personal failure rather than as the other person’s behavior.",
+      "answer_source": "source_pdf_sample_response",
+      "answer_confidence": "sample_response_only_no_rubric_missing_sources",
+      "options": [],
+      "assets": [],
+      "frq_parts": [
+        "A. Propose a specific and defensible claim based in psychological science that responds to the question.",
+        "B.\ni. Support your claim using at least one piece of specific and relevant evidence from one of the sources. \nii. Explain how the evidence from Part B(i) supports your claim using a psychological perspective, theory, concept, or research finding learned in AP Psychology.",
+        "C.\ni. Support your claim using an additional piece of specific and relevant evidence from a different source than the one that was used in Part B(i). \nii. Explain how the evidence from Part C(i) supports your claim using a different psychological perspective, theory, concept, or research finding learned in AP Psychology than the one that was used in Part B(ii)."
+      ],
+      "frq_part_pages": {
+        "A": 48,
+        "B": 48,
+        "C": 49
+      },
+      "frq_sample_response_pages": {
+        "A": 48,
+        "B": 48,
+        "C": 49
+      },
+      "source_pages": [],
+      "status": "blocked_missing_sources",
+      "notes": [
+        "Sources 1-3 are referenced by the question and sample responses but are NOT present in this PDF.",
+        "Q2 cannot be answered as a standalone question until the three sources are supplied.",
+        "No scoring guidelines or rubric points are included."
+      ]
+    }
+  ],
+  "frq_rubrics": [],
+  "qa": {
+    "pdf_pages": 49,
+    "mcq_pages": [
+      1,
+      29
+    ],
+    "frq_pages": [
+      30,
+      49
+    ],
+    "mcq_count": 75,
+    "frq_count": 2,
+    "option_count_distribution": {
+      "4": 75
+    },
+    "answer_distribution": {
+      "A": 18,
+      "B": 18,
+      "C": 18,
+      "D": 21
+    },
+    "cross_page_questions": [
+      {
+        "number": 9,
+        "pages": [
+          3,
+          4
+        ]
+      },
+      {
+        "number": 46,
+        "pages": [
+          17,
+          18
+        ]
+      }
+    ],
+    "empty_stems": [],
+    "empty_options": [],
+    "answers_not_in_options": [],
+    "explanation_count": 0,
+    "figure_questions": [
+      9,
+      18,
+      31,
+      46,
+      53,
+      60,
+      61,
+      62,
+      66,
+      72,
+      73,
+      74
+    ],
+    "option_image_questions": [
+      46
+    ],
+    "asset_count": 16,
+    "unique_asset_files": 12,
+    "frq_rubric_count": 0,
+    "frq_sample_response_questions": [
+      1,
+      2
+    ],
+    "import_ready": false,
+    "mcq_import_ready": true,
+    "frq_import_ready": false,
+    "blocking_issues": [
+      "Q2 Sources 1-3 are missing from the PDF.",
+      "FRQ scoring guidelines and rubric parts are missing from the PDF."
+    ],
+    "q2_sources_present": false,
+    "table_context_duplication": [],
+    "warnings": [
+      "The PDF prints answer letters (正确答案) but no MCQ explanations.",
+      "The PDF prints sample FRQ responses but no scoring guidelines or rubric points.",
+      "Q2's Sources 1-3 are not included in this PDF.",
+      "The answer key is treated as source-provided, not independently verified as official.",
+      "Q1 source tables 1-4 were reconstructed as text; values were visually checked.",
+      "Q9, Q18, Q31, Q46, Q53, Q60-Q62, Q66, and Q72-Q74 have cropped figure/table assets.",
+      "Q46 options are image-only; option text is a placeholder pointing to the image."
+    ]
+  }
+}

@@ -1,0 +1,402 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-22",
+ "kind": "quiz",
+ "number": 22,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 22 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 22",
+ "pdf_page_start": 372,
+ "pdf_page_end": 376,
+ "answer_page_start": 743,
+ "answer_page_end": 744,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "A chi-square test of independence",
+    "B": "A chi-square test of homogeneity",
+    "C": "A z-test of eleven sample proportions",
+    "D": "A z-test of eleven population proportions"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       371.2,
+       351.9,
+       388.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       402.7,
+       345.7,
+       420.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       434.2,
+       372.1,
+       451.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       465.7,
+       394.8,
+       483.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 372,
+   "page_end": 372,
+   "stem": "A random sample of 100 former student-athletes are picked from each of the eleven colleges that are members of the Big East conference. Students are surveyed about whether or not they feel they received a quality education while participating in varsity athletics. Which of the following is the most appropriate test to determine whether there is a difference among these schools as to the student-athlete perception of having received a quality education?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Picking separate samples from each of the schools and classifying according to one variable (perception of quality education) is a survey design that is most appropriately analyzed using a chi- square test of homogeneity of proportions.",
+   "question_id": "statistics-barrons-2027-quiz-22-001",
+   "source_pages": [
+    372,
+    372
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "How expected counts are calculated from the table",
+    "B": "How df, the degrees of freedom, are calculated from the table",
+    "C": "The number of rows in the table",
+    "D": "The number of samples from which the data in the table are obtained"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       563.0,
+       458.1,
+       580.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       594.5,
+       529.0,
+       611.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       626.0,
+       340.5,
+       643.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 372,
+      "bbox": [
+       108.3,
+       657.5,
+       519.2,
+       674.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 372,
+   "page_end": 372,
+   "stem": "Given a two-way table, it’s not obvious whether to perform a test for independence or a test for homogeneity. What is the main difference between the tests?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Tests for independence involve a single sample cross-classified on two variables, while tests for homogeneity involve samples from each of two or more populations to compare the distribution of some variable.",
+   "question_id": "statistics-barrons-2027-quiz-22-002",
+   "source_pages": [
+    372,
+    372
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The evidence points to a cause-and-effect relationship between education and sports interest.",
+    "B": "There is sufficient evidence at the 5% significance level of a relationship between education level and sports interest.",
+    "C": "There is sufficient evidence at the 10% significance level, but not at the 5% significance level, of a relationship between education level and sports interest.",
+    "D": "The p-value is greater than 0.10, so there is not sufficient evidence of a relationship between education level and sports interest."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 373,
+      "bbox": [
+       108.3,
+       208.7,
+       478.7,
+       226.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 373,
+      "bbox": [
+       108.3,
+       257.4,
+       515.3,
+       274.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 373,
+      "bbox": [
+       108.3,
+       306.1,
+       524.0,
+       323.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 373,
+      "bbox": [
+       108.3,
+       371.9,
+       501.9,
+       389.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 373,
+   "page_end": 373,
+   "stem": "Is there a relationship between education level and sports interest? A study cross-classified 1,500 randomly selected adults in three categories of education level (not a high school graduate, high school graduate, and college graduate) and five categories of major sports interest (baseball, basketball, football, hockey, and tennis). The χ2-value is 13.95. Is there evidence of a relationship between education level and sports interest?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "With df = (3 − 1)(5 − 1) = 8, P(χ2 > 13.95) = χ2cdf(13.95, 1000, 8) = 0.083. Since 0.05 < 0.083 < 0.10, there is sufficient evidence at the 10% significance level, but not at the 5% significance level, of a relationship between education level and sports interest.",
+   "question_id": "statistics-barrons-2027-quiz-22-003",
+   "source_pages": [
+    373,
+    373
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The data prove that there is a difference in cafeteria food satisfaction among the class levels.",
+    "B": "There is sufficient evidence at the 1% significance level of a difference in cafeteria food satisfaction among the class levels.",
+    "C": "There is sufficient evidence at the 5% significance level, but not at the 1% significance level, of a difference in cafeteria food satisfaction among the class levels.",
+    "D": "With P = 0.1117, there is not sufficient evidence of a difference in cafeteria food satisfaction among the class levels."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 373,
+      "bbox": [
+       108.3,
+       667.6,
+       499.0,
+       684.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       72.0,
+       515.3,
+       89.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       120.7,
+       516.2,
+       137.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       186.5,
+       471.6,
+       203.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 373,
+   "page_end": 374,
+   "stem": "Random samples of 25 students are chosen from each high school class level. Students are asked whether or not they are satisfied with the school cafeteria food, and the results are summarized in the following table: Freshmen Sophomores Juniors Seniors Satisfied 15 12 9 7 Dissatisfied 10 13 16 18 A chi-square test for homogeneity gives χ2 = 5.998. Is there sufficient evidence of a difference in cafeteria food satisfaction among the class levels?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "With df = 3, the p-value is χ2cdf(5.998, 1000, 3) = 0.1117. With a p-value this large, 0.1117 > 0.10, there is not sufficient evidence of a difference in cafeteria food satisfaction among the class levels.",
+   "question_id": "statistics-barrons-2027-quiz-22-004",
+   "source_pages": [
+    373,
+    374
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "While a Type II error was not committed, a Type I error may have been committed.",
+    "B": "While a Type I error was not committed, a Type II error may have been committed.",
+    "C": "Either a Type I or a Type II error may have been committed.",
+    "D": "Neither a Type I nor a Type II error may have been committed."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       288.9,
+       519.3,
+       306.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       337.6,
+       519.1,
+       354.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       386.2,
+       519.3,
+       403.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 374,
+      "bbox": [
+       108.3,
+       417.7,
+       462.0,
+       435.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 374,
+   "page_end": 374,
+   "stem": "With a chi-square test of independence and a 3 by 4 table, we have χ2 = 12.7. Assuming a significance level of 0.05, which of the following is true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The degrees of freedom are df = (rows − 1)(columns − 1) = (3 − 1)(4 − 1) = 6, and the p- value is χ2cdf(12.7, 1000, 6) = 0.048. With this small of a p-value, 0.048 < 0.05, there is sufficient evidence to reject the null hypothesis. When the null hypothesis is rejected, there is the possibility of a Type I error—that is, the possibility of mistakenly rejecting a true null hypothesis.",
+   "question_id": "statistics-barrons-2027-quiz-22-005",
+   "source_pages": [
+    374,
+    374
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 374,
+   "page_end": 375,
+   "stem": "Optometrists are interested in various causes of eye abnormalities. In a Philadelphia eye institute study, a random sample of parents were asked whether their children slept primarily in room light, darkness, or with a night-light before the age of two. They were also asked about each child’s eyesight diagnosis (nearsighted, farsighted, or normal vision) from the child’s most recent examination. The resulting counts are as follows: Room Night- Light Darkness light Total Nearsighted 41 18 78 137 Farsighted 12 40 39 91 Normal 22 114 115 251 Total 75 172 232 479 (a) What were the explanatory and response variables? (b) Was this an observational study or an experiment? Explain. (c) What was the probability that a child who slept in darkness was farsighted? What was the probability that a farsighted child slept in darkness? (d) Is there convincing evidence to say that there is an association between the bedroom lighting condition and a child’s eyesight? Perform an appropriate test. (e) Some researchers proposed that parents’ eyesight might be a confounding variable in this study. How would that explain the observed association between the bedroom lighting condition and the child’s eyesight?",
+   "correct_answer": null,
+   "answer_text": "(a) The explanatory variable is the amount of lighting in the child’s room before age two. The response variable is the child’s eyesight diagnosis. (b) This is an observational study. Researchers did not assign the children to the amount of light in their rooms; they merely recorded this information. (c) (d) Hypotheses: H0: A child’s eyesight is independent of bedroom lighting condition, and Ha: A child’s eyesight is not independent of bedroom lighting condition. Procedure: A chi-square test of independence. Checks: It is given that there was a random sample, the sample size of 479 is less than 10% of all children, the data are measured as “counts,” and the expected counts are all at least 5:",
+   "question_id": "statistics-barrons-2027-quiz-22-006",
+   "context": "",
+   "source_pages": [
+    374,
+    375
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 375,
+   "page_end": 376,
+   "stem": "For a study of Americans’ core social networks, independent samples of 1,500 White, 250 Black, and 300 Hispanic Americans were asked, “Over the past six months, give the initials of people with whom you discussed matters important to you.” Answers were used to estimate core social network sizes. The data are tabulated in the following table: Number of people in core social network 0 or 1 2 3 4 or more White 397 210 309 584 Americans Black 74 36 36 104 Americans Hispanic 90 35 40 135 Americans (a) Was this a retrospective observational study, a prospective observational study, or an experiment? (b) What is the probability that a person in this study had 4 or more people in his or her core social network? (c) What is the probability that a person in this study had exactly 3 people in his or her core social network given that he or she is a White American? (d) What is the probability that a person in this study who had exactly 2 people in his or her core social network is a Hispanic American? (e) Is there convincing evidence that there is a difference in the distributions of the number of people in the core social network among White, Black, and Hispanic Americans? Perform an appropriate test.",
+   "correct_answer": null,
+   "answer_text": "(a) This was an observational study because no treatment was imposed. It was retrospective because existing data from the past were examined. (b) (c) (d) (e) Hypotheses: H0: There is no difference in the distributions of core social network sizes across White, Black, and Hispanic populations. Ha: There is a difference in the distributions of core social network sizes across White, Black, and Hispanic populations. Procedure: A chi-square test for homogeneity Checks: i. We are given three independent random samples. ii. The three samples are clearly each less than 10% of their respective populations. iii. The expected cells (calculated below) are all greater than 5. Mechanics: Using matrix and χ 2-Test on a calculator, we find the expected cells, the test statistic χ 2, the p-value, and the degrees of freedom. 410.5 205.6 281.7 602.2",
+   "question_id": "statistics-barrons-2027-quiz-22-007",
+   "context": "",
+   "source_pages": [
+    375,
+    376
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 7,
+ "mcq_count": 5,
+ "frq_count": 2
+}

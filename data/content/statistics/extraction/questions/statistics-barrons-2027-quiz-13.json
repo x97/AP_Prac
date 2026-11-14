@@ -1,0 +1,442 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-13",
+ "kind": "quiz",
+ "number": 13,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 13 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 13",
+ "pdf_page_start": 267,
+ "pdf_page_end": 270,
+ "answer_page_start": 731,
+ "answer_page_end": 732,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Smaller mean, a; smaller standard deviation, a",
+    "B": "Smaller mean, a; same standard deviation",
+    "C": "Smaller mean, a; smaller standard deviation, b",
+    "D": "Smaller mean, b; smaller standard deviation, b"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 267,
+      "bbox": [
+       113.0,
+       522.0,
+       455.3,
+       540.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 267,
+      "bbox": [
+       113.0,
+       543.0,
+       422.0,
+       561.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 267,
+      "bbox": [
+       113.0,
+       564.0,
+       455.7,
+       582.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 267,
+      "bbox": [
+       113.0,
+       585.0,
+       457.3,
+       603.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 267,
+     "bbox": [
+      154.5,
+      324.0,
+      457.5,
+      453.0
+     ]
+    }
+   ],
+   "page_start": 267,
+   "page_end": 267,
+   "stem": "Consider the following two normal curves. Which has the smaller mean, and which has the smaller standard deviation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Curve a appears to have a mean of 6 and a standard deviation of 2, while curve b appears to have a mean of 21 and also a standard deviation of 2. (It is important to look at the scale of each graph, not just the visual width.)",
+   "question_id": "statistics-barrons-2027-quiz-13-001",
+   "source_pages": [
+    267,
+    267
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "54.9 years.",
+    "B": "64.6 years.",
+    "C": "84.0 years.",
+    "D": "93.7 years."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       348.0,
+       215.9,
+       366.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       369.0,
+       215.7,
+       387.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       390.0,
+       215.9,
+       408.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       411.0,
+       216.8,
+       429.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 268,
+     "bbox": [
+      154.5,
+      72.0,
+      457.5,
+      249.0
+     ]
+    }
+   ],
+   "page_start": 268,
+   "page_end": 268,
+   "stem": "Point E on this normal curve corresponds to",
+   "context": "Questions 2–4 refer to the following. Suppose an average life expectancy in a particular country is 74.3 years with a standard deviation of 9.7 years. Assuming a roughly normal distribution, consider the following graph of the distribution.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Point E appears to be one standard deviation above the mean. 74.3 + 9.7 = 84.0. Note that point E (and point C) are points where the slope is steepest.",
+   "question_id": "statistics-barrons-2027-quiz-13-002",
+   "source_pages": [
+    268,
+    268
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "50%",
+    "B": "68%",
+    "C": "95%",
+    "D": "99.7%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       484.5,
+       173.5,
+       502.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       505.5,
+       173.4,
+       523.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       526.5,
+       173.5,
+       544.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       547.5,
+       187.1,
+       565.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 268,
+     "bbox": [
+      154.5,
+      72.0,
+      457.5,
+      249.0
+     ]
+    }
+   ],
+   "page_start": 268,
+   "page_end": 268,
+   "stem": "About what percent of the years are between points B and F?",
+   "context": "Questions 2–4 refer to the following. Suppose an average life expectancy in a particular country is 74.3 years with a standard deviation of 9.7 years. Assuming a roughly normal distribution, consider the following graph of the distribution.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Points B and F are two standard deviations below and above the mean, respectively. By the empirical rule, 95% of the data are in this interval.",
+   "question_id": "statistics-barrons-2027-quiz-13-003",
+   "source_pages": [
+    268,
+    268
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "16%",
+    "B": "34%",
+    "C": "68%",
+    "D": "95%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       621.0,
+       173.5,
+       639.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       642.0,
+       173.4,
+       660.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       663.0,
+       173.5,
+       681.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 268,
+      "bbox": [
+       113.0,
+       684.0,
+       174.7,
+       702.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 268,
+     "bbox": [
+      154.5,
+      72.0,
+      457.5,
+      249.0
+     ]
+    }
+   ],
+   "page_start": 268,
+   "page_end": 268,
+   "stem": "About what percent of the years are less than point C?",
+   "context": "Questions 2–4 refer to the following. Suppose an average life expectancy in a particular country is 74.3 years with a standard deviation of 9.7 years. Assuming a roughly normal distribution, consider the following graph of the distribution.",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Point C is one standard deviation below the mean. By the empirical rule, 68% of the data is between one standard deviation below and above the mean. This leaves 32% outside this interval and 16% in each tail.",
+   "question_id": "statistics-barrons-2027-quiz-13-004",
+   "source_pages": [
+    268,
+    268
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "16%",
+    "B": "17.5%",
+    "C": "20%",
+    "D": "22.5%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 269,
+      "bbox": [
+       113.0,
+       200.2,
+       173.5,
+       218.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 269,
+      "bbox": [
+       113.0,
+       221.2,
+       185.0,
+       239.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 269,
+      "bbox": [
+       113.0,
+       242.2,
+       173.5,
+       260.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 269,
+      "bbox": [
+       113.0,
+       263.2,
+       187.4,
+       281.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 269,
+   "page_end": 269,
+   "stem": "The distribution of body fat percentages of adult males is approximately normal with a standard deviation of 2.5%. A male whose body fat percentage is over 25% is considered obese. If 16% of males are obese, what is the average body fat percentage?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "With a normal distribution, 16% in the tail to the right corresponds to one standard deviation above the mean. Then μ + 1(2.5%) = 25% gives μ = 22.5%.",
+   "question_id": "statistics-barrons-2027-quiz-13-005",
+   "source_pages": [
+    269,
+    269
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 269,
+   "page_end": 269,
+   "stem": "It is estimated that 23% of American teen spending goes toward food. Assume that yearly amounts spent on food can be approximated by a normal model with a mean of $600 and a standard deviation of $120. (a) A teen spending $720 would be at what percentile? (b) What percent of American teens spend between $360 and $840 per year on food? (c) 99.7% of American teens spend between what two dollar amounts on food per year?",
+   "correct_answer": null,
+   "answer_text": "(a) , and for the normal model, the proportion of z-scores below 1 is 0.5 + 0.34 =",
+   "question_id": "statistics-barrons-2027-quiz-13-006",
+   "context": "",
+   "source_pages": [
+    269,
+    269
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 269,
+   "page_end": 270,
+   "stem": "A high school guidance counselor tallied the number of colleges that seniors applied to in Fall 2023 and created the following descriptive statistics for the data set. Variable n Mean Median StDev Min Max Q1 Q3 Colleges 50 6.4 5 4.80 0 15 2 10 Do the numbers of colleges applied to by this school’s seniors in Fall 2023 seem to roughly follow a normal model?",
+   "correct_answer": null,
+   "answer_text": "No. In a normal distribution the mean and median should be equal or nearly equal, but here the mean, 6.4, is significantly greater than the median, 5. Furthermore, in a normal distribution the distance from the minimum to the median should be about the same as the distance from the median to the maximum. In this data set, however, the distance median − min = 5 − 0 = 5 is different from the distance max − median = 15 − 5 = 10. Both these facts suggest the distribution is skewed right.",
+   "question_id": "statistics-barrons-2027-quiz-13-007",
+   "context": "",
+   "source_pages": [
+    269,
+    270
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 7,
+ "mcq_count": 5,
+ "frq_count": 2
+}

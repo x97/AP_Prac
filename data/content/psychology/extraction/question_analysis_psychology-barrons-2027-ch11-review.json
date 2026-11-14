@@ -1,0 +1,1275 @@
+{
+  "generated_at": "2026-10-27T12:22:02+00:00",
+  "paper_id": "psychology-barrons-2027-ch11-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 16,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "name": "Longitudinal research",
+          "confidence": 0.97,
+          "evidence": "uses behavioral measures to assess their introversion/extraversion that spring and in the spring of third and sixth grade",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "name": "Cross-sectional research",
+          "option_label": "D",
+          "reason": "Cross-sectional also compares ages/development, but at a single point in time rather than following the same group over years."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "name": "Naturalistic observation",
+          "option_label": "A",
+          "reason": "Naturalistic observation involves observing behavior in a natural setting, which students may confuse with studying children in school."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Longitudinal",
+          "normalized": "longitudinal",
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "kp_name": "Longitudinal research",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cross-sectional",
+          "normalized": "cross sectional",
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "kp_name": "Cross-sectional research",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "Naturalistic observation",
+          "normalized": "naturalistic observation",
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "kp_name": "Naturalistic observation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Case study",
+          "normalized": "case study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "kindergarteners",
+          "normalized": "kindergarteners",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "introversion/extraversion",
+          "normalized": "introversion extraversion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests identifying a longitudinal design: one cohort measured repeatedly over years. Case study is a distractor but has no candidate knowledge point, so it is listed only as a keyword.",
+      "warnings": [
+        "supporting 'Cross-sectional research' duplicates a confusable; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-633c7123f37afa6c",
+          "name": "Longitudinal research",
+          "confidence": 0.9,
+          "evidence": "She recruits 150 kindergarteners in her school district to be in her study and uses behavioral measures to assess their introversion/extraversion that spring and in the spring of third and sixth grade.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "extraversion",
+          "normalized": "extraversion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "introversion",
+          "normalized": "introversion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "kindergarteners",
+          "normalized": "kindergarteners",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "third and sixth grade",
+          "normalized": "third and sixth grade",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "behavioral measures",
+          "normalized": "behavioral measures",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests interpreting longitudinal change data; the correct conclusion is that extraversion changes little. No candidate knowledge point directly names extraversion stability; longitudinal research is the closest fit. Temperament is related but was not kept as a supporting KP.",
+      "warnings": [
+        "supporting 'Temperament' is not in the correct option or the core subheading; dropped",
+        "keyword 'extraversion': not a known alias of 'Temperament'; stored without a KP",
+        "keyword 'introversion': not a known alias of 'Temperament'; stored without a KP",
+        "keyword 'kindergarteners': not a known alias of 'Longitudinal research'; stored without a KP",
+        "keyword 'third and sixth grade': not a known alias of 'Longitudinal research'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2d6ea3d8353d0ba5",
+          "name": "Informed consent",
+          "confidence": 0.97,
+          "evidence": "The need to obtain parental consent and the children’s assent",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "ethical concern",
+          "normalized": "ethical concern",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "parental consent",
+          "normalized": "parental consent",
+          "kp_id": "psychology-barrons-2027-kp-2d6ea3d8353d0ba5",
+          "kp_name": "Informed consent",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "assent",
+          "normalized": "assent",
+          "kp_id": "psychology-barrons-2027-kp-2d6ea3d8353d0ba5",
+          "kp_name": "Informed consent",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "children",
+          "normalized": "children",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "introversion and extraversion",
+          "normalized": "introversion and extraversion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "behavioral measures",
+          "normalized": "behavioral measures",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "move out of the district",
+          "normalized": "move out of the district",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "innately more extraverted",
+          "normalized": "innately more extraverted",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "lasting physical harm",
+          "normalized": "lasting physical harm",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests informed consent (C01) as applied to research with children. Options A, B, and D are not candidate concepts; D is a plausible but unlikely harm concern, not a listed knowledge point.",
+      "warnings": [
+        "keyword 'ethical concern': not a known alias of 'Informed consent'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d86c87297ef92c62",
+          "name": "Rooting reflex",
+          "confidence": 0.97,
+          "evidence": "The baby will turn its head toward Elinor’s hand.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-611e55394c6c9319",
+          "name": "Reflexes",
+          "confidence": 0.75,
+          "evidence": "When Elinor strokes her baby’s cheek with her hand"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2e317762988d2b6f",
+          "name": "Moro reflex",
+          "option_label": "B",
+          "reason": "Agitated, uncoordinated arm flapping resembles the Moro startle reflex, which a student might mistake for the response to a cheek stroke."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "strokes her baby’s cheek",
+          "normalized": "strokes her baby's cheek",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "turn its head toward Elinor’s hand",
+          "normalized": "turn its head toward elinor's hand",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Rooting reflex is the tested concept; Moro reflex is the only plausible reflex-based distractor.",
+      "warnings": [
+        "keyword 'strokes her baby’s cheek': not a known alias of 'Rooting reflex'; stored without a KP",
+        "keyword 'turn its head toward Elinor’s hand': not a known alias of 'Rooting reflex'; stored without a KP",
+        "keyword 'agitated and flap their arms in an uncoordinated manner': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1725c91e8cc6b20c",
+          "name": "Motor development",
+          "confidence": 0.95,
+          "evidence": "Which of the following tasks is Spencer most likely to master first?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "developmental milestones",
+          "normalized": "developmental milestones",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "master first",
+          "normalized": "master first",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Kicking a ball",
+          "normalized": "kicking a ball",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Using a paint brush",
+          "normalized": "using a paint brush",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Writing his name",
+          "normalized": "writing his name",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Brushing his teeth",
+          "normalized": "brushing his teeth",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests gross versus fine motor skill sequencing; only C01 fits. Distractors are fine-motor tasks but no candidate key names fine motor skills, so they are marked as distractor keywords without confusable KPs.",
+      "warnings": [
+        "keyword 'developmental milestones': not a known alias of 'Motor development'; stored without a KP",
+        "keyword 'master first': not a known alias of 'Motor development'; stored without a KP",
+        "keyword 'Kicking a ball': not a known alias of 'Motor development'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-36c0ffaa0706dd5b",
+          "name": "Critical period",
+          "confidence": 0.9,
+          "evidence": "Shift the required language instruction to elementary school",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "second language",
+          "normalized": "second language",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "language classes",
+          "normalized": "language classes",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "elementary school",
+          "normalized": "elementary school",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "secondary school",
+          "normalized": "secondary school",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the idea that younger children acquire language more readily, aligning with a critical/sensitive period for language (C50). No wrong option introduces a competing candidate concept, so confusables are empty.",
+      "warnings": [
+        "supporting 'Developmental psychology' is not in the correct option or the core subheading; dropped",
+        "keyword 'elementary school': not a known alias of 'Critical period'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ee998a17c33d84e4",
+          "name": "Egocentric",
+          "confidence": 0.95,
+          "evidence": "Janey’s inability to appreciate that she might be blocking others’ view is emblematic of which stage of development?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "stage of development",
+          "normalized": "stage of development",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Preoperational",
+          "normalized": "preoperational",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Formal operations",
+          "normalized": "formal operations",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Sensorimotor",
+          "normalized": "sensorimotor",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Concrete operational",
+          "normalized": "concrete operational",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes egocentrism (inability to take another's perspective), which is the core concept tied to the preoperational stage. The exact stage labels are not separate knowledge points and are stored as keywords.",
+      "warnings": [
+        "supporting 'Stage theories' is not in the correct option or the core subheading; dropped",
+        "confusable 'Abstract reasoning' is not named in the short option 'A'; dropped",
+        "confusable 'Object permanence' is not named in the short option 'C'; dropped",
+        "confusable 'Conservation' is not named in the short option 'D'; dropped",
+        "keyword 'stage of development': not a known alias of 'Stage theories'; stored without a KP",
+        "keyword 'Preoperational': not a known alias of 'Egocentric'; stored without a KP",
+        "keyword 'Formal operations': not a known alias of 'Abstract reasoning'; stored without a KP",
+        "keyword 'Sensorimotor': not a known alias of 'Object permanence'; stored without a KP",
+        "keyword 'Concrete operational': not a known alias of 'Conservation'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-008",
+      "number": 8,
+      "status": "needs_review",
+      "core": [],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Animism",
+          "normalized": "animism",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Egocentrism",
+          "normalized": "egocentrism",
+          "kp_id": "psychology-barrons-2027-kp-ee998a17c33d84e4",
+          "kp_name": "Egocentric",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Reversibility",
+          "normalized": "reversibility",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "No candidate knowledge point directly defines animism; C01 (egocentrism) is the closest cognitive-development concept but is not the tested core. The item likely needs review because the correct concept (animism) is absent from the candidate list.",
+      "warnings": [
+        "confusable 'Egocentric' duplicates a core KP; dropped",
+        "core 'Egocentric': only matches wrong options; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-da315882132267ce",
+          "name": "fluid intelligence",
+          "confidence": 0.95,
+          "evidence": "Eli will outpace Granny in speed chess before Scrabble.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-28e6c5ac9a16911e",
+          "name": "crystallized intelligence",
+          "confidence": 0.9,
+          "evidence": "Eli will outpace Granny in speed chess before Scrabble.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "speed chess",
+          "normalized": "speed chess",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Scrabble",
+          "normalized": "scrabble",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "get older",
+          "normalized": "get older",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Speed chess taps fluid intelligence (C02), which declines with age; Scrabble taps crystallized intelligence (C01), which is preserved. Both cores are needed to explain the ordering in the correct answer.",
+      "warnings": [
+        "supporting 'long-term memory' is not in the correct option or the core subheading; dropped",
+        "keyword 'speed chess': not a known alias of 'fluid intelligence'; stored without a KP",
+        "keyword 'Scrabble': not a known alias of 'crystallized intelligence'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-b8de9ddceb6c3207",
+          "name": "Telegraphic speech",
+          "confidence": 0.97,
+          "evidence": "Telegraphic speech.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d699ba96b18385fa",
+          "name": "Overgeneralization",
+          "option_label": "B",
+          "reason": "Overgeneralization is a language-learning concept that students may confuse with telegraphic speech when a child produces an utterance."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-9f5830480e2e7c88",
+          "name": "Babbling stage",
+          "option_label": "C",
+          "reason": "Babbling is an early language stage that students may mistake for the two-word telegraphic stage."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-103f06d9d44d5e93",
+          "name": "Syntax",
+          "option_label": "D",
+          "reason": "Syntax concerns word ordering and is a language concept students may confuse with telegraphic speech."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Telegraphic speech",
+          "normalized": "telegraphic speech",
+          "kp_id": "psychology-barrons-2027-kp-b8de9ddceb6c3207",
+          "kp_name": "Telegraphic speech",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Overgeneralization",
+          "normalized": "overgeneralization",
+          "kp_id": "psychology-barrons-2027-kp-d699ba96b18385fa",
+          "kp_name": "Overgeneralization",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Babbling",
+          "normalized": "babbling",
+          "kp_id": "psychology-barrons-2027-kp-9f5830480e2e7c88",
+          "kp_name": "Babbling stage",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Syntax",
+          "normalized": "syntax",
+          "kp_id": "psychology-barrons-2027-kp-103f06d9d44d5e93",
+          "kp_name": "Syntax",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests recognition of telegraphic speech as the two-word stage; the stem example is a two-word utterance.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "name": "Cross-sectional research",
+          "confidence": 0.95,
+          "evidence": "first- and third-grade classrooms",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "name": "Naturalistic observation",
+          "option_label": "D",
+          "reason": "Observing children in their classroom seems like naturalistic observation, but the design is defined by comparing two age groups at one time."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "research design",
+          "normalized": "research design",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "first- and third-grade classrooms",
+          "normalized": "first and third grade classrooms",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cross-sectional",
+          "normalized": "cross sectional",
+          "kp_id": "psychology-barrons-2027-kp-d744c15f26bdb5a2",
+          "kp_name": "Cross-sectional research",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "overgeneralize grammatical rules",
+          "normalized": "overgeneralize grammatical rules",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Naturalistic observation",
+          "normalized": "naturalistic observation",
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "kp_name": "Naturalistic observation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "Case study",
+          "normalized": "case study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Field experiment",
+          "normalized": "field experiment",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The design contrasts first- and third-graders at one point in time, matching cross-sectional research. Naturalistic observation is tempting because of classroom observation but is not the tested design.",
+      "warnings": [
+        "supporting 'Overgeneralization' is not in the correct option or the core subheading; dropped",
+        "keyword 'research design': not a known alias of 'Cross-sectional research'; stored without a KP",
+        "keyword 'first- and third-grade classrooms': not a known alias of 'Cross-sectional research'; stored without a KP",
+        "keyword 'overgeneralize grammatical rules': not a known alias of 'Overgeneralization'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d699ba96b18385fa",
+          "name": "Overgeneralization",
+          "confidence": 0.97,
+          "evidence": "More overgeneralization errors in the first-grade classrooms",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "overgeneralize grammatical rules",
+          "normalized": "overgeneralize grammatical rules",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "overgeneralization errors",
+          "normalized": "overgeneralization errors",
+          "kp_id": "psychology-barrons-2027-kp-d699ba96b18385fa",
+          "kp_name": "Overgeneralization",
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "first-grade classrooms",
+          "normalized": "first grade classrooms",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "third-grade classrooms",
+          "normalized": "third grade classrooms",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests that overgeneralization errors are more common in younger children and decrease with age; distractors are age/quantity variations rather than distinct concepts.",
+      "warnings": [
+        "keyword 'overgeneralize grammatical rules': not a known alias of 'Overgeneralization'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-013",
+      "number": 13,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-74c19290bb2ab0ec",
+          "name": "Institutional review board (IRB)",
+          "confidence": 0.97,
+          "evidence": "Yes, all research with humans should be reviewed.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2d6ea3d8353d0ba5",
+          "name": "Informed consent",
+          "option_label": "B",
+          "reason": "Mentions consent, which is an IRB concern, but being too young to consent does not exempt research from IRB review; parental consent/assent is exactly what IRB would address."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "IRB approval",
+          "normalized": "irb approval",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "research with humans",
+          "normalized": "research with humans",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "consent",
+          "normalized": "consent",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "deception",
+          "normalized": "deception",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests whether any human-participant research requires IRB review. Option B invokes informed consent, a related ethics concept but not the reason to skip review.",
+      "warnings": [
+        "supporting 'Informed consent' duplicates a confusable; dropped",
+        "keyword 'IRB approval': not a known alias of 'Institutional review board (IRB)'; stored without a KP",
+        "keyword 'research with humans': not a known alias of 'Institutional review board (IRB)'; stored without a KP",
+        "keyword 'consent': not a known alias of 'Informed consent'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-014",
+      "number": 14,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e6a66669639259f3",
+          "name": "Microsystem",
+          "confidence": 0.97,
+          "evidence": "Combined, these two factors are part of Jeri’s",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-62e437f26193c4b1",
+          "name": "Ecological systems theory",
+          "confidence": 0.6,
+          "evidence": "Seven-year-old Jeri’s parents are recent immigrants who are very strict and traditional."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c7be4c5cbc9ce7ec",
+          "name": "Macrosystem",
+          "option_label": "A",
+          "reason": "Macrosystem is a broader cultural context; students may confuse cultural/traditional influences with the immediate parent-teacher interactions."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-44bd75e394101c5a",
+          "name": "Exosystem",
+          "option_label": "C",
+          "reason": "Exosystem involves indirect influences; students may misattribute the parent and teacher settings to indirect environmental systems."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-bee364e21146ca6c",
+          "name": "Mesosystem",
+          "option_label": "D",
+          "reason": "Mesosystem concerns interactions among systems; students may confuse the combined parent and teacher factors with links between microsystems."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "microsystem",
+          "normalized": "microsystem",
+          "kp_id": "psychology-barrons-2027-kp-e6a66669639259f3",
+          "kp_name": "Microsystem",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "parents",
+          "normalized": "parents",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "teacher",
+          "normalized": "teacher",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "macrosystem",
+          "normalized": "macrosystem",
+          "kp_id": "psychology-barrons-2027-kp-c7be4c5cbc9ce7ec",
+          "kp_name": "Macrosystem",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "exosystem",
+          "normalized": "exosystem",
+          "kp_id": "psychology-barrons-2027-kp-44bd75e394101c5a",
+          "kp_name": "Exosystem",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "mesosystem",
+          "normalized": "mesosystem",
+          "kp_id": "psychology-barrons-2027-kp-bee364e21146ca6c",
+          "kp_name": "Mesosystem",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests Bronfenbrenner's microsystem as the child's immediate interactions with parents and teachers. The strict/traditional and easygoing descriptions are context, not separate tested concepts.",
+      "warnings": [
+        "keyword 'parents': not a known alias of 'Microsystem'; stored without a KP",
+        "keyword 'teacher': not a known alias of 'Microsystem'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-015",
+      "number": 15,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-75c3c6f05b84e580",
+          "name": "Secure attachment",
+          "confidence": 0.97,
+          "evidence": "If she is securely attached, how would you expect her to behave?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dae66b08d34f0dd2",
+          "name": "Avoidant attachment",
+          "option_label": "C",
+          "reason": "Avoiding the parent resembles avoidant attachment, but the question asks about secure attachment."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "securely attached",
+          "normalized": "securely attached",
+          "kp_id": "psychology-barrons-2027-kp-75c3c6f05b84e580",
+          "kp_name": "Secure attachment",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "explore the library",
+          "normalized": "explore the library",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "check in periodically with her father",
+          "normalized": "check in periodically with her father",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "avoid her father",
+          "normalized": "avoid her father",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "Secure attachment is tested via exploration plus periodic caregiver check-ins; option C evokes avoidant attachment as a confusable.",
+      "warnings": [
+        "supporting 'Avoidant attachment' duplicates a confusable; dropped",
+        "keyword 'explore the library': not a known alias of 'Secure attachment'; stored without a KP",
+        "keyword 'check in periodically with her father': not a known alias of 'Secure attachment'; stored without a KP",
+        "keyword 'avoid her father': not a known alias of 'Avoidant attachment'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch11-review-016",
+      "number": 16,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3be4acb99ac18005",
+          "name": "Psychosocial stage theory",
+          "confidence": 0.95,
+          "evidence": "What conflict would the psychosocial stage theory say Holden is struggling with?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1c57dec0ea3142af",
+          "name": "Stage theories",
+          "confidence": 0.6,
+          "evidence": "psychosocial stage theory"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ac9e484081d902d6",
+          "name": "Autonomy",
+          "option_label": "A",
+          "reason": "Autonomy is an Erikson stage term, so students may confuse it with the identity stage."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "psychosocial stage theory",
+          "normalized": "psychosocial stage theory",
+          "kp_id": "psychology-barrons-2027-kp-3be4acb99ac18005",
+          "kp_name": "Psychosocial stage theory",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Identity versus role confusion",
+          "normalized": "identity versus role confusion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Autonomy versus authority",
+          "normalized": "autonomy versus authority",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Industry versus inferiority",
+          "normalized": "industry versus inferiority",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Integrity versus despair (C) is an Erikson stage but not in the candidate list; omitted from confusables.",
+      "warnings": [
+        "confusable 'Inferiority complex' is not named in the short option 'D'; dropped",
+        "keyword 'Identity versus role confusion': not a known alias of 'Psychosocial stage theory'; stored without a KP",
+        "keyword 'Autonomy versus authority': not a known alias of 'Autonomy'; stored without a KP",
+        "keyword 'Industry versus inferiority': not a known alias of 'Inferiority complex'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

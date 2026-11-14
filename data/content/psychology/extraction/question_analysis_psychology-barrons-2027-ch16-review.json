@@ -1,0 +1,840 @@
+{
+  "generated_at": "2026-10-27T13:36:25+00:00",
+  "paper_id": "psychology-barrons-2027-ch16-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 11,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ba92b843fa63a152",
+          "name": "tend-and-befriend theory",
+          "confidence": 0.97,
+          "evidence": "Tend or befriend",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-68900f11ef05ab73",
+          "name": "Stress",
+          "confidence": 0.6,
+          "evidence": "When Shannon lost her job"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Tend or befriend",
+          "normalized": "tend or befriend",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Fight-or-flight",
+          "normalized": "fight or flight",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "lost her job",
+          "normalized": "lost her job",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests tend-and-befriend as a stress response; fight-or-flight is the narrow-domain confusable. 'Eclectic' and 'Dysfunctional' are unrelated distractors and omitted.",
+      "warnings": [
+        "confusable 'Fight-or-flight response' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'Tend or befriend': not a known alias of 'tend-and-befriend theory'; stored without a KP",
+        "keyword 'Fight-or-flight': not a known alias of 'Fight-or-flight response'; stored without a KP",
+        "keyword 'lost her job': not a known alias of 'Stress'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-68900f11ef05ab73",
+          "name": "Stress",
+          "confidence": 0.95,
+          "evidence": "Everything in her life is going just as she had hoped and she is busy and happy with her situation.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Eustress",
+          "normalized": "eustress",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Diathesis-stress",
+          "normalized": "diathesis stress",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Disorganized thinking",
+          "normalized": "disorganized thinking",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Eustress is a type of stress (C01). ACEs and disorganized thinking are unrelated to the correct answer; only diathesis-stress is a near-miss stress concept.",
+      "warnings": [
+        "confusable 'diathesis-stress model' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'Eustress': not a known alias of 'Stress'; stored without a KP",
+        "keyword 'Diathesis-stress': not a known alias of 'diathesis-stress model'; stored without a KP",
+        "keyword 'Disorganized thinking': not a known alias of 'schizophrenia'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f755914799ba557e",
+          "name": "general adaptation syndrome (GAS)",
+          "confidence": 0.95,
+          "evidence": "the general adaptation syndrome",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d287e0188b9fd3b1",
+          "name": "Exhaustion",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-6c1357578431319e",
+          "name": "emotion-focused coping",
+          "option_label": "B",
+          "reason": "Emotion-focused coping is another stress-management concept, tempting because the scenario involves students under stress, but it concerns managing emotions rather than the body's phased stress response."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "general adaptation syndrome",
+          "normalized": "general adaptation syndrome",
+          "kp_id": "psychology-barrons-2027-kp-f755914799ba557e",
+          "kp_name": "general adaptation syndrome (GAS)",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "emotion-focused coping strategies",
+          "normalized": "emotion focused coping strategies",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "subjective well being",
+          "normalized": "subjective well being",
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "kp_name": "subjective well-being",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "evolutionary perspective",
+          "normalized": "evolutionary perspective",
+          "kp_id": "psychology-barrons-2027-kp-2199b064952fdddd",
+          "kp_name": "Evolutionary (or Darwinian) Perspective",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests whether students can apply GAS (specifically the exhaustion phase) to explain increased health center visits; the evolutionary perspective distractor is only loosely related and omitted from confusables.",
+      "warnings": [
+        "confusable 'subjective well-being' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'emotion-focused coping strategies': not a known alias of 'emotion-focused coping'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c4869b159df559bf",
+          "name": "Sampling",
+          "confidence": 0.9,
+          "evidence": "By obtaining data from the health center without any student identifiers",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4f0c771dce7b11d0",
+          "name": "Validity",
+          "confidence": 0.6,
+          "evidence": "By obtaining data from the health center without any student identifiers"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-63964f4d6196ea74",
+          "name": "Meta-analysis",
+          "option_label": "D",
+          "reason": "Meta-analysis is a research method that combines studies, not a way to collect original visit data."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "collected the data",
+          "normalized": "collected the data",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "randomly surveying",
+          "normalized": "randomly surveying",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "observing",
+          "normalized": "observing",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "meta-analysis",
+          "normalized": "meta analysis",
+          "kp_id": "psychology-barrons-2027-kp-63964f4d6196ea74",
+          "kp_name": "Meta-analysis",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "student identifiers",
+          "normalized": "student identifiers",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests choosing the most complete/accurate data-collection method (using actual health center records) rather than sampling or observation estimates.",
+      "warnings": [
+        "confusable 'Survey method' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Naturalistic observation' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'randomly surveying': not a known alias of 'Survey method'; stored without a KP",
+        "keyword 'observing': not a known alias of 'Naturalistic observation'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7d25dbae042589cd",
+          "name": "Statistical significance",
+          "confidence": 0.95,
+          "evidence": "statistical significance of the difference",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-88440ecc35d29702",
+          "name": "Practical significance",
+          "option_label": "D",
+          "reason": "Effect size also concerns the magnitude of a difference, but it describes how large the effect is rather than how unlikely it is due to chance."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-4f0c771dce7b11d0",
+          "name": "Validity",
+          "option_label": "B",
+          "reason": "Validity is a research-quality concept that sounds relevant to judging a difference, but it concerns whether a measure measures what it should, not chance likelihood."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a77071942954a934",
+          "name": "Reliability",
+          "option_label": "C",
+          "reason": "Reliability is a nearby research-methods concept about consistency of results, tempting when judging whether a difference is trustworthy."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "statistical significance",
+          "normalized": "statistical significance",
+          "kp_id": "psychology-barrons-2027-kp-7d25dbae042589cd",
+          "kp_name": "Statistical significance",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "effect size",
+          "normalized": "effect size",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "validity",
+          "normalized": "validity",
+          "kp_id": "psychology-barrons-2027-kp-4f0c771dce7b11d0",
+          "kp_name": "Validity",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "reliability",
+          "normalized": "reliability",
+          "kp_id": "psychology-barrons-2027-kp-a77071942954a934",
+          "kp_name": "Reliability",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem asks about how much more likely visits are during break, which points to statistical significance as the inferential statistic indicating the difference is unlikely due to chance.",
+      "warnings": [
+        "supporting 'Practical significance' duplicates a confusable; dropped",
+        "keyword 'effect size': not a known alias of 'Practical significance'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f67a2b019b6b017e",
+          "name": "gratitude",
+          "confidence": 0.9,
+          "evidence": "keep a journal in which they record one thing they are grateful for each day",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "name": "subjective well-being",
+          "confidence": 0.85,
+          "evidence": "surveys the students about their subjective well-being (SWB)",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dd3830f5bacfcf5c",
+          "name": "Positive psychology",
+          "confidence": 0.6,
+          "evidence": "keep a journal in which they record one thing they are grateful for each day"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "grateful",
+          "normalized": "grateful",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "subjective well-being",
+          "normalized": "subjective well being",
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "kp_name": "subjective well-being",
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "SWB",
+          "normalized": "swb",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "randomly assigns",
+          "normalized": "randomly assigns",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "11-point scale",
+          "normalized": "11 point scale",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests understanding that gratitude journaling raises subjective well-being, so a researcher would expect a larger between-group difference than observed. No wrong option presents a same-domain near-miss concept, so confusables are empty.",
+      "warnings": [
+        "keyword 'grateful': not a known alias of 'gratitude'; stored without a KP",
+        "keyword 'SWB': not a known alias of 'subjective well-being'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "name": "subjective well-being",
+          "confidence": 0.97,
+          "evidence": "A person’s overall sense of satisfaction with their life",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-72128aeda239a19f",
+          "name": "well-being",
+          "confidence": 0.6,
+          "evidence": "subjective well-being (SWB)"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "subjective well-being (SWB)",
+          "normalized": "subjective well being swb",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "SWB",
+          "normalized": "swb",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "satisfaction with their life",
+          "normalized": "satisfaction with their life",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "financially well off",
+          "normalized": "financially well off",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "SWB is defined as life satisfaction; option B's relative-comparison framing is the closest near-miss concept.",
+      "warnings": [
+        "confusable 'Relative deprivation theory' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'subjective well-being (SWB)': not a known alias of 'subjective well-being'; stored without a KP",
+        "keyword 'SWB': not a known alias of 'subjective well-being'; stored without a KP",
+        "keyword 'satisfaction with their life': not a known alias of 'subjective well-being'; stored without a KP",
+        "keyword 'financially well off': not a known alias of 'Relative deprivation theory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-282a43d8541b8f09",
+          "name": "Correlation coefficient",
+          "confidence": 0.95,
+          "evidence": "knowledge of which trait will best enable the prediction of someone’s happiness level?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-80ad125e9a28b707",
+          "name": "Correlation",
+          "confidence": 0.7,
+          "evidence": "Based on the values presented in the table"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "prediction",
+          "normalized": "prediction",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "happiness level",
+          "normalized": "happiness level",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Narcissism",
+          "normalized": "narcissism",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests interpreting correlation strength from table values; the correct option names a trait, but the tested concept is the correlation coefficient. Happiness/well-being terms are mentioned only.",
+      "warnings": [
+        "keyword 'prediction': not a known alias of 'Correlation coefficient'; stored without a KP",
+        "keyword 'happiness level': not a known alias of 'subjective well-being'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-80ad125e9a28b707",
+          "name": "Correlation",
+          "confidence": 0.9,
+          "evidence": "Journaling is not associated with greater happiness",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "name": "Scatterplot",
+          "confidence": 0.7,
+          "evidence": "creates the graph below"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0ecc5a6bb294a5bb",
+          "name": "Negative correlation",
+          "option_label": "D",
+          "reason": "Tempting because it assumes a negative correlation where the scatterplot shows no clear relationship."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "graph",
+          "normalized": "graph",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Journaling leads to happiness",
+          "normalized": "journaling leads to happiness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "strongly associated with greater happiness",
+          "normalized": "strongly associated with greater happiness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "strongly associated with less happiness",
+          "normalized": "strongly associated with less happiness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests interpreting a scatterplot as showing no association between two variables, so the core is the correlation concept. Causation (C03) and positive/negative correlation (C10/C04) are the near-miss confusables.",
+      "warnings": [
+        "confusable 'Correlation' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Positive correlation' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'Journaling is not associated with greater happiness': whole/long option text; dropped",
+        "keyword 'graph': not a known alias of 'Scatterplot'; stored without a KP",
+        "keyword 'Journaling leads to happiness': not a known alias of 'Correlation'; stored without a KP",
+        "keyword 'strongly associated with greater happiness': not a known alias of 'Positive correlation'; stored without a KP",
+        "keyword 'strongly associated with less happiness': not a known alias of 'Negative correlation'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "name": "Scatterplot",
+          "confidence": 0.98,
+          "evidence": "a scatterplot",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-cc106919a5da0c0f",
+          "name": "Normal curve",
+          "option_label": "B",
+          "reason": "The normal curve is another statistical graph, so it is tempting when asked to name a graph."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "scatterplot",
+          "normalized": "scatterplot",
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "kp_name": "Scatterplot",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "graph",
+          "normalized": "graph",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "normal curve",
+          "normalized": "normal curve",
+          "kp_id": "psychology-barrons-2027-kp-cc106919a5da0c0f",
+          "kp_name": "Normal curve",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "double blind",
+          "normalized": "double blind",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "Regression to the mean (option D) is a statistical concept but not a graph type, so it is not a close confusable for naming a graph.",
+      "warnings": [
+        "confusable 'Double-blind study' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'double blind': not a known alias of 'Double-blind study'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch16-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5c5b91e0af5ab163",
+          "name": "post-traumatic growth",
+          "confidence": 0.97,
+          "evidence": "posttraumatic growth",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-84fe7e31e437d2c3",
+          "name": "Resistance",
+          "option_label": "B",
+          "reason": "Resistance is a stress-response stage (GAS) and sounds like enduring stress, but it does not describe growth after trauma."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "posttraumatic growth",
+          "normalized": "posttraumatic growth",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "what doesn’t kill you makes you stronger",
+          "normalized": "what doesn't kill you makes you stronger",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "resistance",
+          "normalized": "resistance",
+          "kp_id": "psychology-barrons-2027-kp-84fe7e31e437d2c3",
+          "kp_name": "Resistance",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "temperament",
+          "normalized": "temperament",
+          "kp_id": "psychology-barrons-2027-kp-f2a7334e0b0bd8e5",
+          "kp_name": "Temperament",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "humanism",
+          "normalized": "humanism",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem's Nietzsche quote is a paraphrase of growth following stress, matching posttraumatic growth. Humanism is only loosely related, so it is listed as a keyword distractor but not a confusable.",
+      "warnings": [
+        "supporting 'Stress' is not in the correct option or the core subheading; dropped",
+        "keyword 'posttraumatic growth': not a known alias of 'post-traumatic growth'; stored without a KP",
+        "keyword 'what doesn’t kill you makes you stronger': not a known alias of 'Stress'; stored without a KP",
+        "keyword 'humanism': not a known alias of 'Positive psychology'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

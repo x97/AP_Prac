@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "subject_id": "psychology",
+  "units": [
+    {
+      "unit_id": "1",
+      "group_id": "psychology-unit1-practice",
+      "title_zh": "Unit 1 生物基础",
+      "title_en": "Biological Bases of Behavior",
+      "topics": [
+        {
+          "code": "1.1",
+          "title_en": "Interaction of Heredity and Environment",
+          "title_zh": "遗传与环境",
+          "kind": "ced",
+          "match_topics": ["Module 1.1", "Genetics"],
+          "match_keywords": ["heredity", "genetic", "twin", "evolution", "nature", "nurture"]
+        },
+        {
+          "code": "1.2",
+          "title_en": "Overview of the Nervous System",
+          "title_zh": "神经系统概览",
+          "kind": "ced",
+          "match_topics": ["Module 1.2", "Nervous System", "Endocrine System"],
+          "match_keywords": ["nervous system", "endocrine", "spinal cord", "autonomic", "somatic"]
+        },
+        {
+          "code": "1.3",
+          "title_en": "The Neuron and Neural Firing",
+          "title_zh": "神经元与神经冲动",
+          "kind": "ced",
+          "match_topics": ["Module 1.3", "Neuroanatomy", "Drugs"],
+          "match_keywords": ["neuron", "action potential", "synapse", "neurotransmitter", "reuptake", "agonist", "antagonist"]
+        },
+        {
+          "code": "1.4",
+          "title_en": "The Brain",
+          "title_zh": "脑",
+          "kind": "ced",
+          "match_topics": ["Module 1.4", "The Brain"],
+          "match_keywords": ["brain", "cortex", "hemisphere", "plasticity", "lesion", "fmri", "eeg"]
+        },
+        {
+          "code": "1.5",
+          "title_en": "Sleep",
+          "title_zh": "睡眠",
+          "kind": "ced",
+          "match_topics": ["Module 1.5", "Sleep", "Dreams", "Levels of Consciousness"],
+          "match_keywords": ["sleep", "dream", "consciousness", "circadian", "insomnia", "addiction"]
+        },
+        {
+          "code": "1.6",
+          "title_en": "Sensation",
+          "title_zh": "感觉",
+          "kind": "ced",
+          "match_topics": ["Module 1.6", "Energy Senses", "Chemical Senses", "Body Position Senses"],
+          "match_keywords": ["sensation", "vision", "hearing", "touch", "smell", "taste", "threshold", "sensory"]
+        },
+        {
+          "code": "1.RM",
+          "title_en": "Research Methods",
+          "title_zh": "研究方法",
+          "kind": "methods",
+          "match_topics": ["Descriptive Statistics", "Experimental Method", "Psychological Perspectives", "Inferential Statistics", "Hypotheses and Variables", "APA Ethical Guidelines", "Validity and Reliability", "Module 0.", "Correlational Method", "Qualitative Methods", "Correlations", "Naturalistic Observation", "Module EM."],
+          "match_keywords": ["research method", "experiment", "correlation", "statistic", "validity", "reliability", "ethics", "variable", "hypothesis", "sampling", "naturalistic observation"]
+        }
+      ]
+    },
+    {
+      "unit_id": "2",
+      "group_id": "psychology-unit2-practice",
+      "title_zh": "Unit 2 认知",
+      "title_en": "Cognition",
+      "topics": [
+        {
+          "code": "2.1",
+          "title_en": "Perception",
+          "title_zh": "知觉",
+          "kind": "ced",
+          "match_topics": ["Module 2.1", "Principles of Visual Perception", "Perceptual Theories", "Thresholds", "Effects of Culture on Perception", "Extrasensory Perception"],
+          "match_keywords": ["perception", "gestalt", "depth", "visual cliff", "perceptual set", "extrasensory"]
+        },
+        {
+          "code": "2.2",
+          "title_en": "Thinking, Problem-Solving, Judgments, and Decision-Making",
+          "title_zh": "思维、问题解决与决策",
+          "kind": "ced",
+          "match_topics": ["Module 2.2", "Problem-Solving", "Creativity", "Describing Thought"],
+          "match_keywords": ["problem solving", "heuristic", "creativity", "concept", "prototype", "decision"]
+        },
+        {
+          "code": "2.3",
+          "title_en": "Introduction to Memory",
+          "title_zh": "记忆导论",
+          "kind": "ced",
+          "match_topics": ["Module 2.3", "Three-Box/Information-Processing Model", "Sensory Memory", "Short-Term and Working Memory"],
+          "match_keywords": ["sensory memory", "short-term memory", "working memory", "information processing"]
+        },
+        {
+          "code": "2.4",
+          "title_en": "Encoding Memories",
+          "title_zh": "记忆编码",
+          "kind": "ced",
+          "match_topics": ["Module 2.4", "Encoding Memories", "Levels of Processing Model"],
+          "match_keywords": ["encoding", "levels of processing", "automatic processing", "effortful processing"]
+        },
+        {
+          "code": "2.5",
+          "title_en": "Storing Memories",
+          "title_zh": "记忆存储",
+          "kind": "ced",
+          "match_topics": ["Module 2.5", "Storing Memories", "Long-Term Memory"],
+          "match_keywords": ["long-term memory", "storage", "explicit memory", "implicit memory", "hippocampus"]
+        },
+        {
+          "code": "2.6",
+          "title_en": "Retrieving Memories",
+          "title_zh": "记忆提取",
+          "kind": "ced",
+          "match_topics": ["Module 2.6", "Retrieval", "Constructive Memory"],
+          "match_keywords": ["retrieval", "recall", "recognition", "priming", "context-dependent", "constructive"]
+        },
+        {
+          "code": "2.7",
+          "title_en": "Forgetting and Other Memory Challenges",
+          "title_zh": "遗忘与记忆扭曲",
+          "kind": "ced",
+          "match_topics": ["Module 2.7", "Forgetting"],
+          "match_keywords": ["forgetting", "interference", "amnesia", "misinformation", "memory distortion"]
+        },
+        {
+          "code": "2.8",
+          "title_en": "Intelligence and Achievement",
+          "title_zh": "智力与成就",
+          "kind": "ced",
+          "match_topics": ["Module 2.8", "Theories of Intelligence", "Intelligence Tests", "Reliability and Validity", "Types of Tests", "Standardization and Norms", "Nature vs. Nurture: Intelligence"],
+          "match_keywords": ["intelligence", "iq", "standardization", "reliability", "validity", "achievement", "aptitude"]
+        },
+        {
+          "code": "2.RM",
+          "title_en": "Research Methods",
+          "title_zh": "研究方法",
+          "kind": "methods",
+          "match_topics": ["Descriptive Statistics", "Experimental Method", "Psychological Perspectives", "Inferential Statistics", "Hypotheses and Variables", "APA Ethical Guidelines", "Validity and Reliability", "Module 0.", "Correlational Method", "Qualitative Methods", "Correlations", "Naturalistic Observation", "Module EM."],
+          "match_keywords": ["research method", "experiment", "correlation", "statistic", "validity", "reliability", "ethics", "variable", "hypothesis", "sampling", "naturalistic observation"]
+        }
+      ]
+    },
+    {
+      "unit_id": "3",
+      "group_id": "psychology-unit3-practice",
+      "title_zh": "Unit 3 发展与学习",
+      "title_en": "Development and Learning",
+      "topics": [
+        {
+          "code": "3.1",
+          "title_en": "Themes and Methods in Developmental Psychology",
+          "title_zh": "发展心理学主题与方法",
+          "kind": "ced",
+          "match_topics": ["Developmental Psychology Research Methods", "Overview"],
+          "match_keywords": ["longitudinal", "cross-sectional", "developmental research", "nature and nurture"]
+        },
+        {
+          "code": "3.2",
+          "title_en": "Physical Development Across the Lifespan",
+          "title_zh": "毕生身体发展",
+          "kind": "ced",
+          "match_topics": ["Module 3.2", "Motor/Sensory Development", "Prenatal Influences"],
+          "match_keywords": ["prenatal", "motor development", "physical development", "puberty", "teratogen"]
+        },
+        {
+          "code": "3.3",
+          "title_en": "Gender and Sexual Orientation",
+          "title_zh": "性别与性取向",
+          "kind": "ced",
+          "match_topics": ["Module 3.3", "Gender and Development"],
+          "match_keywords": ["gender", "sexual orientation", "gender role", "gender identity"]
+        },
+        {
+          "code": "3.4",
+          "title_en": "Cognitive Development Across the Lifespan",
+          "title_zh": "毕生认知发展",
+          "kind": "ced",
+          "match_topics": ["Module 3.4", "Cognitive Development", "Stage Theories"],
+          "match_keywords": ["piaget", "cognitive development", "conservation", "object permanence", "stage theory"]
+        },
+        {
+          "code": "3.5",
+          "title_en": "Communication and Language Development",
+          "title_zh": "沟通与语言发展",
+          "kind": "ced",
+          "match_topics": ["Module 3.5", "Language"],
+          "match_keywords": ["language", "phoneme", "morpheme", "grammar", "critical period", "babbling"]
+        },
+        {
+          "code": "3.6",
+          "title_en": "Social-Emotional Development Across the Lifespan",
+          "title_zh": "毕生社会情绪发展",
+          "kind": "ced",
+          "match_topics": ["Module 3.6", "Parenting"],
+          "match_keywords": ["attachment", "parenting", "social-emotional", "temperament", "erikson"]
+        },
+        {
+          "code": "3.7",
+          "title_en": "Classical Conditioning",
+          "title_zh": "经典条件作用",
+          "kind": "ced",
+          "match_topics": ["Module 3.7", "Classical Conditioning"],
+          "match_keywords": ["classical conditioning", "pavlov", "unconditioned", "conditioned response", "extinction"]
+        },
+        {
+          "code": "3.8",
+          "title_en": "Operant Conditioning",
+          "title_zh": "操作性条件作用",
+          "kind": "ced",
+          "match_topics": ["Module 3.8", "Operant Conditioning"],
+          "match_keywords": ["operant conditioning", "reinforcement", "punishment", "shaping", "skinner"]
+        },
+        {
+          "code": "3.9",
+          "title_en": "Social, Cognitive, and Neurological Factors in Learning",
+          "title_zh": "学习的社会、认知与神经因素",
+          "kind": "ced",
+          "match_topics": ["Module 3.9", "Cognitive Learning"],
+          "match_keywords": ["observational learning", "modeling", "mirror neuron", "latent learning", "insight learning"]
+        },
+        {
+          "code": "3.RM",
+          "title_en": "Research Methods",
+          "title_zh": "研究方法",
+          "kind": "methods",
+          "match_topics": ["Descriptive Statistics", "Experimental Method", "Psychological Perspectives", "Inferential Statistics", "Hypotheses and Variables", "APA Ethical Guidelines", "Validity and Reliability", "Module 0.", "Correlational Method", "Qualitative Methods", "Correlations", "Naturalistic Observation", "Module EM."],
+          "match_keywords": ["research method", "experiment", "correlation", "statistic", "validity", "reliability", "ethics", "variable", "hypothesis", "sampling", "naturalistic observation"]
+        }
+      ]
+    },
+    {
+      "unit_id": "4",
+      "group_id": "psychology-unit4-practice",
+      "title_zh": "Unit 4 社会心理学与人格",
+      "title_en": "Social Psychology and Personality",
+      "topics": [
+        {
+          "code": "4.1",
+          "title_en": "Attribution Theory and Person Perception",
+          "title_zh": "归因与人物知觉",
+          "kind": "ced",
+          "match_topics": ["Module 4.1", "Attribution Theory"],
+          "match_keywords": ["attribution", "fundamental attribution error", "self-serving bias", "person perception"]
+        },
+        {
+          "code": "4.2",
+          "title_en": "Attitude Formation and Attitude Change",
+          "title_zh": "态度形成与改变",
+          "kind": "ced",
+          "match_topics": ["Module 4.2", "Attitude Formation and Change", "Stereotypes, Prejudice, and Discrimination"],
+          "match_keywords": ["attitude", "stereotype", "prejudice", "discrimination", "cognitive dissonance"]
+        },
+        {
+          "code": "4.3",
+          "title_en": "Psychology of Social Situations",
+          "title_zh": "社会情境心理学",
+          "kind": "ced",
+          "match_topics": ["Module 4.3", "The Psychology of Social Situations", "Group Dynamics", "Prosocial Behavior", "Compliance Strategies", "Aggression and Antisocial Behavior", "Attraction", "Social Motivation"],
+          "match_keywords": ["conformity", "obedience", "groupthink", "bystander", "social facilitation", "altruism", "aggression"]
+        },
+        {
+          "code": "4.4",
+          "title_en": "Psychodynamic and Humanistic Theories of Personality",
+          "title_zh": "心理动力学与人文主义人格理论",
+          "kind": "ced",
+          "match_topics": ["Module 4.5", "Psychodynamic Theories of Personality", "Humanistic Theories of Personality"],
+          "match_keywords": ["psychodynamic", "psychoanalytic", "freud", "humanistic", "maslow", "rogers", "defense mechanism"]
+        },
+        {
+          "code": "4.5",
+          "title_en": "Social-Cognitive and Trait Theories of Personality",
+          "title_zh": "社会认知与特质人格理论",
+          "kind": "ced",
+          "match_topics": ["Module 4.6", "Social Cognitive Theories", "Trait Theories"],
+          "match_keywords": ["trait", "big five", "social-cognitive", "locus of control", "self-efficacy", "personality inventory"]
+        },
+        {
+          "code": "4.6",
+          "title_en": "Motivation",
+          "title_zh": "动机",
+          "kind": "ced",
+          "match_topics": ["Module 4.7", "Theories of Motivation", "Hunger Motivation", "Sexual Motivation"],
+          "match_keywords": ["motivation", "drive", "homeostasis", "intrinsic", "extrinsic", "achievement", "hunger"]
+        },
+        {
+          "code": "4.7",
+          "title_en": "Emotion",
+          "title_zh": "情绪",
+          "kind": "ced",
+          "match_topics": ["Module 4.8", "Theories About Emotion", "Nonverbal Expressions of Emotion"],
+          "match_keywords": ["emotion", "james-lange", "cannon-bard", "schachter", "facial feedback", "appraisal"]
+        },
+        {
+          "code": "4.RM",
+          "title_en": "Research Methods",
+          "title_zh": "研究方法",
+          "kind": "methods",
+          "match_topics": ["Descriptive Statistics", "Experimental Method", "Psychological Perspectives", "Inferential Statistics", "Hypotheses and Variables", "APA Ethical Guidelines", "Validity and Reliability", "Module 0.", "Correlational Method", "Qualitative Methods", "Correlations", "Naturalistic Observation", "Module EM."],
+          "match_keywords": ["research method", "experiment", "correlation", "statistic", "validity", "reliability", "ethics", "variable", "hypothesis", "sampling", "naturalistic observation"]
+        }
+      ]
+    },
+    {
+      "unit_id": "5",
+      "group_id": "psychology-unit5-practice",
+      "title_zh": "Unit 5 心理与身体健康",
+      "title_en": "Mental and Physical Health",
+      "topics": [
+        {
+          "code": "5.1",
+          "title_en": "Introduction to Health Psychology",
+          "title_zh": "健康心理学导论",
+          "kind": "ced",
+          "match_topics": ["Module 5.1", "Stress"],
+          "match_keywords": ["stress", "health psychology", "coping", "immune", "psychoneuroimmunology"]
+        },
+        {
+          "code": "5.2",
+          "title_en": "Positive Psychology",
+          "title_zh": "积极心理学",
+          "kind": "ced",
+          "match_topics": ["Module 5.2", "Positive Psychology"],
+          "match_keywords": ["positive psychology", "well-being", "flow", "resilience", "gratitude"]
+        },
+        {
+          "code": "5.3",
+          "title_en": "Explaining and Classifying Psychological Disorders",
+          "title_zh": "心理障碍的解释与分类",
+          "kind": "ced",
+          "match_topics": ["Module 5.3", "Defining Psychological Disorders", "The Advantages and Disadvantages of Diagnostic Labels"],
+          "match_keywords": ["dsm", "diagnosis", "disorder classification", "diagnostic label", "abnormal"]
+        },
+        {
+          "code": "5.4",
+          "title_en": "Selection of Categories of Psychological Disorders",
+          "title_zh": "心理障碍类别",
+          "kind": "ced",
+          "match_topics": ["Module 5.4", "Categories of Disorders"],
+          "match_keywords": ["anxiety disorder", "depression", "bipolar", "schizophrenia", "dissociative", "personality disorder"]
+        },
+        {
+          "code": "5.5",
+          "title_en": "Treatment of Psychological Disorders",
+          "title_zh": "心理障碍的治疗",
+          "kind": "ced",
+          "match_topics": ["Module 5.5", "Types of Therapy", "Kinds of Therapists"],
+          "match_keywords": ["therapy", "psychotherapy", "cognitive-behavioral", "cbt", "antidepressant", "biomedical"]
+        },
+        {
+          "code": "5.RM",
+          "title_en": "Research Methods",
+          "title_zh": "研究方法",
+          "kind": "methods",
+          "match_topics": ["Descriptive Statistics", "Experimental Method", "Psychological Perspectives", "Inferential Statistics", "Hypotheses and Variables", "APA Ethical Guidelines", "Validity and Reliability", "Module 0.", "Correlational Method", "Qualitative Methods", "Correlations", "Naturalistic Observation", "Module EM."],
+          "match_keywords": ["research method", "experiment", "correlation", "statistic", "validity", "reliability", "ethics", "variable", "hypothesis", "sampling", "naturalistic observation"]
+        }
+      ]
+    }
+  ]
+}

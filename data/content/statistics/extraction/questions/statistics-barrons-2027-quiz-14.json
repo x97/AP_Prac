@@ -1,0 +1,738 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-14",
+ "kind": "quiz",
+ "number": 14,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 14 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 14",
+ "pdf_page_start": 281,
+ "pdf_page_end": 286,
+ "answer_page_start": 732,
+ "answer_page_end": 733,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The area under a normal curve is always equal to 1, no matter what the mean and standard deviation are.",
+    "B": "All bell-shaped curves are normal distributions for some choice of m and σ.",
+    "C": "The smaller the standard deviation of a normal curve, the lower and more spread out the graph.",
+    "D": "Depending upon the value of the standard deviation, the mean and median of a particular normal distribution may be different."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 281,
+      "bbox": [
+       113.0,
+       582.7,
+       508.6,
+       600.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 281,
+      "bbox": [
+       113.0,
+       621.7,
+       510.6,
+       639.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 281,
+      "bbox": [
+       113.0,
+       660.7,
+       524.4,
+       678.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       72.0,
+       519.0,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 281,
+   "page_end": 282,
+   "stem": "Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The area under any probability distribution is equal to 1. Many bell-shaped curves are not normal curves. The smaller the standard deviation of a normal curve, the higher and narrower the graph is. The mean determines the value around which the curve is centered; different means give different centers. Because of symmetry, the mean and median are identical for normal distributions.",
+   "question_id": "statistics-barrons-2027-quiz-14-001",
+   "source_pages": [
+    281,
+    282
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "P(X = 22)",
+    "B": "P(X < 22)",
+    "C": "P(X > 22)",
+    "D": "P(21 < X < 22)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       210.0,
+       207.6,
+       228.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       231.0,
+       207.5,
+       249.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       252.0,
+       207.7,
+       270.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       273.0,
+       245.5,
+       291.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 282,
+   "page_end": 282,
+   "stem": "The continuous random variable X has a normal distribution with a mean of 20 and a standard deviation of 4. For which of the following is the probability equal to 0?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Probability for a normal model is calculated by the area under the normal curve within a given interval of X values. Since the point X = 22 does not represent an interval, P(X = 22) = 0.",
+   "question_id": "statistics-barrons-2027-quiz-14-002",
+   "source_pages": [
+    282,
+    282
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The percentage for P1 is twice the percentage for P2.",
+    "B": "The percentage for P1 is greater than but not twice as great as the percentage for P2.",
+    "C": "The percentage for P2 is twice the percentage for P1.",
+    "D": "The percentages are identical. In Questions 4–9, assume the given distributions are approximately normal."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       411.0,
+       496.8,
+       429.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       432.0,
+       502.2,
+       450.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       471.0,
+       496.9,
+       489.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       492.0,
+       343.5,
+       510.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 282,
+   "page_end": 282,
+   "stem": "Populations P1 and P2 are normally distributed and have identical means. However, the standard deviation of P1 is twice the standard deviation of P2. What can be said about the percentage of observations falling within 2 standard deviations of the mean for each population?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "All normal distributions have the same percentage (about 95%) of their observations within two standard deviations of the mean.",
+   "question_id": "statistics-barrons-2027-quiz-14-003",
+   "source_pages": [
+    282,
+    282
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "P(z > 2)",
+    "B": "P(z > 5)",
+    "C": "P(z > 10)",
+    "D": "P(z > 30)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       670.5,
+       195.3,
+       691.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 282,
+      "bbox": [
+       113.0,
+       694.5,
+       195.3,
+       715.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       72.0,
+       203.5,
+       93.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       96.0,
+       203.5,
+       117.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 282,
+   "page_end": 283,
+   "stem": "It is estimated that a single cigarette will take an average of 20 minutes off of your life expectancy. Assuming a standard deviation of 5 minutes, what is the probability that a single cigarette will take over 30 minutes off of your life expectancy?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "",
+   "question_id": "statistics-barrons-2027-quiz-14-004",
+   "source_pages": [
+    282,
+    283
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "P(3 < z < 4)",
+    "B": "[see image]",
+    "C": "P((3 − 3.4)(0.5) < z < (4 − 3.4)(0.5))",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "B": [
+     {
+      "page": 283,
+      "bbox": [
+       142.5,
+       243.0,
+       233.2,
+       265.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       144.0,
+       292.5,
+       278.2,
+       315.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       219.0,
+       224.2,
+       240.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       243.3,
+       133.3,
+       261.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       268.5,
+       394.5,
+       289.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       292.8,
+       134.7,
+       310.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 283,
+   "page_end": 283,
+   "stem": "An electronic product takes an average of 3.4 hours to move through an assembly line. If the standard deviation is 0.5 hours, what is the probability that an item will take between 3 and 4 hours to move through the assembly line?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The z-scores of 3 and 4 are , respectively. Then P(3 < X < 4) = .",
+   "question_id": "statistics-barrons-2027-quiz-14-005",
+   "source_pages": [
+    283,
+    283
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "70 + 1.96(4)",
+    "B": "70 − 2.326(4)",
+    "C": "70 + 2.326(4)",
+    "D": "70 + 2.576(4)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       399.0,
+       228.0,
+       417.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       420.0,
+       236.0,
+       438.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       441.0,
+       236.2,
+       459.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       462.0,
+       237.3,
+       480.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 283,
+   "page_end": 283,
+   "stem": "The mean noise level in a restaurant is 70 decibels with a standard deviation of 4 decibels. Ninety-nine percent of the time the noise level is below what value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The critical z-score associated with 99% to the left is invNorm(0.99) = 2.326.",
+   "question_id": "statistics-barrons-2027-quiz-14-006",
+   "source_pages": [
+    283,
+    283
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "9,500 ± 1.645(1,750)",
+    "B": "9,500 ± 1.96(1,750)",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 283,
+      "bbox": [
+       142.5,
+       606.0,
+       256.5,
+       630.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       142.5,
+       633.8,
+       222.8,
+       657.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       564.0,
+       285.8,
+       582.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       585.0,
+       277.4,
+       603.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       607.5,
+       133.5,
+       625.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 283,
+      "bbox": [
+       113.0,
+       634.8,
+       133.5,
+       652.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 283,
+   "page_end": 283,
+   "stem": "The mean income per household in a certain state is $9,500 with a standard deviation of $1,750. The middle 95% of incomes are between what two values?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The critical z-scores associated with the middle 95% are ±invNorm(0.975) = ± 1.96. Converting to raw scores gives 9,500 ± 1.96(1,750).",
+   "question_id": "statistics-barrons-2027-quiz-14-007",
+   "source_pages": [
+    283,
+    283
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "16 − 0.85(2)",
+    "B": "16 − 1.036(2)",
+    "C": "16 + 0.85(2)",
+    "D": "16 + 1.036(2)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       97.5,
+       228.0,
+       115.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       118.5,
+       236.0,
+       136.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       139.5,
+       228.0,
+       157.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       160.5,
+       237.3,
+       178.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 283,
+   "page_end": 284,
+   "stem": "Cucumbers grown on a certain farm have weights with a standard deviation of 2 ounces. What is the mean weight if 85% of the cucumbers weigh less than 16 ounces?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The critical z-score is invNorm(0.85) = 1.036. Then μ + 1.036(2) = 16 gives μ = 16 − 1.036(2).",
+   "question_id": "statistics-barrons-2027-quiz-14-008",
+   "source_pages": [
+    283,
+    284
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "No, because some values are negative.",
+    "B": "Yes, because the sum of the relative frequencies is 1.00.",
+    "C": "Yes, because the relative frequency distribution roughly follows the empirical rule.",
+    "D": "This cannot be answered without knowing the sample size."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       540.0,
+       400.9,
+       558.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       561.0,
+       516.3,
+       579.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       582.0,
+       509.4,
+       600.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 284,
+      "bbox": [
+       113.0,
+       621.0,
+       534.7,
+       639.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 284,
+   "page_end": 284,
+   "stem": "The mean and standard deviation of the sample data collected on a continuous variable x are 10 and 5, respectively. The following table shows the relative frequencies of the data in the given intervals. Interval Relative Frequency −5 ≤ x < 0 0.03 0 ≤ x < 5 0.12 5 ≤ x < 10 0.35 10 ≤ x < 15 0.34 15 ≤ x < 20 0.14 20 ≤ x < 25 0.02 Based on the table, do the data support using a normal model to approximate population characteristics?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Based on the table, 68% of the values are within one standard deviation of the mean, 95% are within two standard deviations of the mean, and 100% are within three standard deviations of the mean. These percentages are very close to the 68%-95%-99.7% of the empirical rule.",
+   "question_id": "statistics-barrons-2027-quiz-14-009",
+   "source_pages": [
+    284,
+    284
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 285,
+   "page_end": 285,
+   "stem": "Scores on a university entrance exam are approximately normally distributed with a mean of 150 and a standard deviation of 25. (a) The university will accept 90% of applicants (based on entrance exam score). What is the cutoff score for acceptance (rounded to the nearest integer)? (b) Given that a student scores over 100, what is the probability of acceptance? (c) Given that three random students all score over 100, what is the probability that at least one is not accepted?",
+   "correct_answer": null,
+   "answer_text": "(a) and x = 117.95 for a cutoff score of 118. (b) (c) 1 − (0.921)3 = 0.219",
+   "question_id": "statistics-barrons-2027-quiz-14-010",
+   "context": "",
+   "source_pages": [
+    285,
+    285
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 285,
+     "bbox": [
+      154.5,
+      502.5,
+      457.5,
+      674.2
+     ]
+    }
+   ],
+   "page_start": 285,
+   "page_end": 286,
+   "stem": "The following histogram shows the relative frequencies of the times of medium usage between necessary charging, recorded to the nearest 0.25 hour, of a sample of smartphones of a particular model. The mean is 8.03 hours, and the standard deviation is 0.49 hours. One smartphone is selected at random. (a) Based on the histogram, what is the probability that the selected smartphone will last at least 8.5 hours of medium usage before charging is necessary? (b) The histogram displays a discrete probability model for time. However, time is often considered a continuous variable. Assuming a roughly normal model using the given mean and standard deviation, what is the probability that the selected smartphone will last at least 8.5 hours of medium usage before charging is necessary? (c) Explain why your answers to (a) and (b) are or are not the same. (d) To estimate the probability that this model smartphone will last exactly 7.25 hours before charging is necessary (assuming medium usage), should the above discrete or above continuous model for time be used? Explain. (e) To estimate the probability that this model smartphone will last at least 7.1 hours before charging is necessary (assuming medium usage), should the above discrete or above continuous model for time be used? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) P(X ≥ 8.5) = 0.11 + 0.07 + 0.02 + 0.01 + 0.01 = 0.22 (b) and P(X ≥ 8.5) = normalcdf(0.9592, ∞) = 0.1687 (c) The answers to (a) and (b) are different because the discrete model calculation sums the areas of the bars with a left boundary of 8.375 (8.5 is found between 8.375 and 8.625), whereas the continuous model calculation has a left boundary at exactly 8.5. Therefore, the lesser probability is found by using the continuous model from part (b). (d) Use the discrete model. The discrete model shows a bar centered directly over X = 7.25 and thus gives a probability of 0.06 for X = 7.25. However, the continuous model gives a probability of zero since there is no area above the single point X = 7.25. (e) Use the continuous model. The continuous model gives a probability of X ≥ 7.1, which corresponds to the area under the curve to the right of 7.1. However, the relative frequency of",
+   "question_id": "statistics-barrons-2027-quiz-14-011",
+   "context": "",
+   "source_pages": [
+    285,
+    286
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 11,
+ "mcq_count": 9,
+ "frq_count": 2
+}

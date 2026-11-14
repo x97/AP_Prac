@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "subject_id": "psychology",
+  "curriculum": "AP Psychology CED 2024-25",
+  "exam_db": "data/content/psychology/psychology_exam.db",
+  "knowledge_db": "data/content/psychology/psychology_knowledge.db",
+  "report_dir": "data/content/psychology/reports/knowledge",
+  "validation": {
+    "enabled": true,
+    "check_primary": false,
+    "min_core_links": 3,
+    "min_dominant_share": 0.5,
+    "on_mismatch": "error",
+    "on_cross_group_duplicate": "warn"
+  },
+  "groups": [
+    {
+      "group_id": "psychology-unit1-practice",
+      "unit_id": "1",
+      "curriculum_topics": "1.1-1.6",
+      "title": "心理学 Unit 1 单元练习",
+      "bundle_paper_id": "psychology-unit1-practice-bundle",
+      "bundle_title": "心理学 Unit 1 单元练习",
+      "note": "CED Unit 1: Biological Bases + Sleep + Sensation; CB primary + Barron Ch4-6",
+      "members": [
+        {
+          "paper_id": "psychology-cb-2026-u1",
+          "role": "primary"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch4-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch5-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch6-review",
+          "role": "supplement"
+        }
+      ]
+    },
+    {
+      "group_id": "psychology-unit2-practice",
+      "unit_id": "2",
+      "curriculum_topics": "2.1-2.8",
+      "title": "心理学 Unit 2 单元练习",
+      "bundle_paper_id": "psychology-unit2-practice-bundle",
+      "bundle_title": "心理学 Unit 2 单元练习",
+      "note": "CED Unit 2: Cognition (Perception, Thinking, Memory, Intelligence); CB primary + Barron Ch7-10",
+      "members": [
+        {
+          "paper_id": "psychology-cb-2026-u2",
+          "role": "primary"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch7-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch8-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch9-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch10-review",
+          "role": "supplement"
+        }
+      ]
+    },
+    {
+      "group_id": "psychology-unit3-practice",
+      "unit_id": "3",
+      "curriculum_topics": "3.1-3.9",
+      "title": "心理学 Unit 3 单元练习",
+      "bundle_paper_id": "psychology-unit3-practice-bundle",
+      "bundle_title": "心理学 Unit 3 单元练习",
+      "note": "CED Unit 3: Development and Learning; CB primary + Barron Ch11-12",
+      "members": [
+        {
+          "paper_id": "psychology-cb-2026-u3",
+          "role": "primary"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch11-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch12-review",
+          "role": "supplement"
+        }
+      ]
+    },
+    {
+      "group_id": "psychology-unit4-practice",
+      "unit_id": "4",
+      "curriculum_topics": "4.1-4.7",
+      "title": "心理学 Unit 4 单元练习",
+      "bundle_paper_id": "psychology-unit4-practice-bundle",
+      "bundle_title": "心理学 Unit 4 单元练习",
+      "note": "CED Unit 4: Social Psychology + Personality + Motivation/Emotion; CB primary + Barron Ch13-15",
+      "members": [
+        {
+          "paper_id": "psychology-cb-2026-u4",
+          "role": "primary"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch13-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch14-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch15-review",
+          "role": "supplement"
+        }
+      ]
+    },
+    {
+      "group_id": "psychology-unit5-practice",
+      "unit_id": "5",
+      "curriculum_topics": "5.1-5.5",
+      "title": "心理学 Unit 5 单元练习",
+      "bundle_paper_id": "psychology-unit5-practice-bundle",
+      "bundle_title": "心理学 Unit 5 单元练习",
+      "note": "CED Unit 5: Mental and Physical Health; CB primary + Barron Ch16-18",
+      "members": [
+        {
+          "paper_id": "psychology-cb-2026-u5",
+          "role": "primary"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch16-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch17-review",
+          "role": "supplement"
+        },
+        {
+          "paper_id": "psychology-barrons-2027-ch18-review",
+          "role": "supplement"
+        }
+      ]
+    }
+  ]
+}

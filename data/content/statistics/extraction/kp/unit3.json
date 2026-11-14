@@ -1,0 +1,355 @@
+[
+ {
+  "section_id": "statistics-barrons-2027-u3-s01",
+  "name": "Bias in a sampling distribution",
+  "page": 302,
+  "definition_type": "explicit",
+  "quote": "In the context of sampling distributions, bias means that the sampling distribution of an estimator is not centered on the population parameter.",
+  "plain_en": "estimator distribution not centered on parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s01",
+  "name": "Unbiased estimator",
+  "page": 306,
+  "definition_type": "explicit",
+  "quote": "An estimator is unbiased if, on average, it does not underestimate or overestimate the population parameter.",
+  "plain_en": "estimator averages to the population parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s01",
+  "name": "Point estimator",
+  "page": 306,
+  "definition_type": "explicit",
+  "quote": "Sample statistics are point estimators for population parameters.",
+  "plain_en": "sample statistic used to estimate a parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "Sampling distribution of a sample proportion",
+  "page": 306,
+  "definition_type": "explicit",
+  "quote": "The set of all sample proportions is approximately normally distributed.",
+  "plain_en": "distribution of sample proportions from repeated samples"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "Mean of the sampling distribution of a sample proportion",
+  "page": 307,
+  "definition_type": "explicit",
+  "quote": "The mean of the set of sample proportions equals p, the population proportion.",
+  "plain_en": "sample proportion averages to population proportion"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "Standard deviation of the sampling distribution of a sample proportion",
+  "page": 307,
+  "definition_type": "explicit",
+  "quote": "The standard deviation of the set of sample proportions is approximately equal to",
+  "plain_en": "spread of sample proportions decreases with n"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "Randomization condition",
+  "page": 307,
+  "definition_type": "explicit",
+  "quote": "The randomization condition: The data should be collected using a random sample.",
+  "plain_en": "data come from a random sample"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "10% condition",
+  "page": 307,
+  "definition_type": "explicit",
+  "quote": "The 10% condition: When sampling without replacement, the sample size n should be no larger than 10% of the population.",
+  "plain_en": "sample no more than ten percent of population"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s02",
+  "name": "Normality condition for proportions",
+  "page": 307,
+  "definition_type": "explicit",
+  "quote": "The normality condition: The number of successes, np, and the number of failures, n(1 − p), should both be at least 10.",
+  "plain_en": "at least ten successes and ten failures"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Confidence interval",
+  "page": 313,
+  "definition_type": "explicit",
+  "quote": "First, there is the confidence interval. This gives an interval of plausible values and is expressed in the following form: estimate ± margin of error",
+  "plain_en": "range of plausible parameter values"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Confidence level",
+  "page": 313,
+  "definition_type": "explicit",
+  "quote": "Second, there is the success rate for the method, called the confidence level. This is the proportion of times repeated applications of this method would capture the true population parameter.",
+  "plain_en": "long-run success rate of the method"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Critical value z*",
+  "page": 314,
+  "definition_type": "explicit",
+  "quote": "where the critical value, z*, depends on the chosen confidence level.",
+  "plain_en": "multiplier set by the confidence level"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "One-sample z-interval for a population proportion",
+  "page": 314,
+  "definition_type": "implicit",
+  "quote": "Naming the procedure is most easily done by simply stating “one-sample z-interval for a population proportion.”",
+  "plain_en": "confidence interval for one proportion"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Interpreting a confidence level",
+  "page": 319,
+  "definition_type": "explicit",
+  "quote": "Second, we can interpret the confidence level and say that if this survey were conducted many times, about 90% of the resulting confidence intervals would contain the true proportion of voters who favor the bond issue.",
+  "plain_en": "percent of intervals capturing the parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Choosing sample size for a proportion",
+  "page": 321,
+  "definition_type": "explicit",
+  "quote": "A formula for choosing the sample size n for a specific margin of error, MOE, can be found by algebraically solving for n in the equation to obtain:",
+  "plain_en": "sample size needed for a margin of error"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Null hypothesis",
+  "page": 330,
+  "definition_type": "explicit",
+  "quote": "The general testing procedure is to choose a specific hypothesis to be tested, called the null hypothesis, pick an appropriate random sample, and then use measurements from the sample to determine the likelihood of the null hypothesis.",
+  "plain_en": "hypothesis of no effect or no difference"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Alternative hypothesis",
+  "page": 331,
+  "definition_type": "explicit",
+  "quote": "There is an alternative hypothesis, stated in the form of a strict inequality (for example, Ha: p < 0.37 or Ha: p > 0.37 or Ha: p ≠ 0.37).",
+  "plain_en": "hypothesis the test hopes to support"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "p-value",
+  "page": 331,
+  "definition_type": "explicit",
+  "quote": "The strength of the sample statistic can be gauged through its associated p-value, which is the probability of obtaining a sample statistic as extreme (or more extreme) as the one obtained if the null hypothesis is assumed to be true.",
+  "plain_en": "probability of results as extreme under null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Significance level",
+  "page": 332,
+  "definition_type": "explicit",
+  "quote": "The significance level, α, is fixed at the beginning of the hypothesis test.",
+  "plain_en": "threshold fixed before the test"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Type I error",
+  "page": 332,
+  "definition_type": "explicit",
+  "quote": "The α-risk, also called the significance level of the test, is the probability of committing a Type I error and mistakenly rejecting a true null hypothesis.",
+  "plain_en": "rejecting a true null hypothesis"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Type II error",
+  "page": 332,
+  "definition_type": "explicit",
+  "quote": "A Type II error, a mistaken failure to reject a false null hypothesis, has associated probability β.",
+  "plain_en": "failing to reject a false null hypothesis"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Power",
+  "page": 332,
+  "definition_type": "explicit",
+  "quote": "The power of a hypothesis test is the probability that a Type II error is not committed. That is, given a true alternative, the power is the probability of rejecting the false null hypothesis.",
+  "plain_en": "probability of rejecting a false null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "One-sided test",
+  "page": 331,
+  "definition_type": "explicit",
+  "quote": "For a one-sided test (the alternative is < or >), the p-value is the proportion of values at or more extreme than the test statistic (in the direction of the alternative).",
+  "plain_en": "test with a directional alternative"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Two-sided test",
+  "page": 331,
+  "definition_type": "explicit",
+  "quote": "For a two-sided test (the alternative is ≠), the p-value is the proportion of values at or more extreme than the test statistic in either direction; that is, it is twice the calculated tail probability.",
+  "plain_en": "test with a not-equal alternative"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s07",
+  "name": "Decision rule for a hypothesis test",
+  "page": 332,
+  "definition_type": "explicit",
+  "quote": "If the p-value ≤α, reject H0; there is convincing evidence for Ha. If the p-value >α, fail to reject H0; there is not convincing evidence for Ha.",
+  "plain_en": "compare p-value with significance level"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s08",
+  "name": "One-sample z-test for a population proportion",
+  "page": 335,
+  "definition_type": "implicit",
+  "quote": "Procedure: One-sample z-test for a population proportion.",
+  "plain_en": "hypothesis test for one proportion"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s10",
+  "name": "Sampling distribution of the difference in sample proportions",
+  "page": 344,
+  "definition_type": "explicit",
+  "quote": "The set of all differences of sample proportions is approximately normally distributed.",
+  "plain_en": "distribution of differences between sample proportions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s10",
+  "name": "Mean of the difference in sample proportions",
+  "page": 344,
+  "definition_type": "explicit",
+  "quote": "The mean of the set of differences of sample proportions equals p1 − p2, the difference of population proportions.",
+  "plain_en": "difference averages to population difference"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s10",
+  "name": "Standard deviation of the difference in sample proportions",
+  "page": 344,
+  "definition_type": "explicit",
+  "quote": "The standard deviation of the set of differences of sample proportions is approximately equal to",
+  "plain_en": "spread of difference between sample proportions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s10",
+  "name": "Randomization condition for two samples",
+  "page": 344,
+  "definition_type": "explicit",
+  "quote": "The randomization condition: The data should be collected using random samples, and the samples must be taken independently of each other.",
+  "plain_en": "independent random samples required"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s10",
+  "name": "Normality condition for two proportions",
+  "page": 345,
+  "definition_type": "explicit",
+  "quote": "The normality condition: The numbers of successes, n1 p1 and n2 p2, and the numbers of failures, n1(1 − p1) and n2(1 − p2), should all be at least 10.",
+  "plain_en": "at least ten successes and failures per group"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s11",
+  "name": "Two-sample z-interval for a difference in proportions",
+  "page": 347,
+  "definition_type": "implicit",
+  "quote": "A confidence interval for the difference of two proportions will take the following form:",
+  "plain_en": "interval estimate for difference of proportions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s12",
+  "name": "Null hypothesis for a difference of two proportions",
+  "page": 350,
+  "definition_type": "explicit",
+  "quote": "The null hypothesis for a difference of two proportions is H0 : p1 = p2.",
+  "plain_en": "hypothesis that two proportions are equal"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s12",
+  "name": "Alternative hypothesis for a difference of two proportions",
+  "page": 350,
+  "definition_type": "explicit",
+  "quote": "The alternative hypothesis is Ha : p1 > p2, Ha : p1 < p2, or Ha : p1 ≠ p2.",
+  "plain_en": "hypothesis that proportions differ"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s12",
+  "name": "Pooled proportion",
+  "page": 350,
+  "definition_type": "explicit",
+  "quote": "With a null hypothesis of H0 : p1 = p2, we use the combined (or pooled) proportion in the normality condition and in calculating the standard error.",
+  "plain_en": "combined proportion used under equal proportions",
+  "covers_concepts": "Pooled proportion; Combined proportion"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s12",
+  "name": "Two-sample z-test for a difference in proportions",
+  "page": 352,
+  "definition_type": "implicit",
+  "quote": "Procedure: Two-sample z-test for a difference of two population proportions.",
+  "plain_en": "hypothesis test comparing two proportions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Chi-square test for independence",
+  "page": 363,
+  "definition_type": "explicit",
+  "quote": "We cross-classify a single sample of observations from a single population in two ways and then ask whether the two variables are independent of each other. This leads to chi-square tests for independence with hypotheses:",
+  "plain_en": "test association between two categorical variables"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Chi-square test for homogeneity",
+  "page": 364,
+  "definition_type": "explicit",
+  "quote": "There is a related class of problems in which we have a single categorical variable and obtain independent samples from two or more populations to determine whether the distributions of that variable are different for the populations. This leads to chi-square tests for homogeneity with hypotheses:",
+  "plain_en": "test whether distributions differ across populations"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Expected values condition",
+  "page": 364,
+  "definition_type": "explicit",
+  "quote": "The expected values condition: All expected values should be greater than 5.",
+  "plain_en": "all expected cell counts exceed five"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Expected values",
+  "page": 364,
+  "definition_type": "explicit",
+  "quote": "Expected values are calculated assuming the null hypothesis is true.",
+  "plain_en": "cell counts expected under the null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Chi-square statistic",
+  "page": 364,
+  "definition_type": "explicit",
+  "quote": "The significance of the differences is gauged by a χ2-value of weighted squared differences defined by:",
+  "plain_en": "weighted sum of squared differences"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Degrees of freedom for a chi-square test",
+  "page": 365,
+  "definition_type": "explicit",
+  "quote": "df = (rows – 1)(columns – 1)",
+  "plain_en": "rows minus one times columns minus one"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s15",
+  "name": "Chi-square distribution",
+  "page": 371,
+  "definition_type": "explicit",
+  "quote": "the χ2-distribution is a continuous distribution. Applying it to counting data is just an approximation.",
+  "plain_en": "continuous approximation for count data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u3-s04",
+  "name": "Margin of error",
+  "page": 313,
+  "definition_type": "explicit",
+  "quote": "The percent is the percent of samples that would pinpoint the unknown p within plus or minus respective margins of error.",
+  "plain_en": "half-width of a confidence interval"
+ }
+]

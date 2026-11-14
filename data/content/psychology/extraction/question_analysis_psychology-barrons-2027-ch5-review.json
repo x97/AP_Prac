@@ -1,0 +1,575 @@
+{
+  "generated_at": "2026-10-27T13:37:05+00:00",
+  "paper_id": "psychology-barrons-2027-ch5-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 7,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3740d981fafa7bf6",
+          "name": "Narcolepsy",
+          "confidence": 0.98,
+          "evidence": "Bertrand falls asleep at unusual times, including in the middle of arguments.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f138cc6ef02463d7",
+          "name": "Sleep apnea",
+          "option_label": "A",
+          "reason": "Another sleep disorder involving disrupted sleep, but characterized by breathing interruptions rather than sudden sleep attacks."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-42cd2b0653c3f9a5",
+          "name": "Insomnia",
+          "option_label": "B",
+          "reason": "Another sleep disorder involving sleep problems, but characterized by difficulty falling or staying asleep rather than falling asleep at unusual times."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a22e4e2f239dbb96",
+          "name": "Somnambulism (sleepwalking)",
+          "option_label": "D",
+          "reason": "Another sleep-related disorder, but involves walking while asleep rather than sudden daytime sleepiness."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "falls asleep at unusual times",
+          "normalized": "falls asleep at unusual times",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Narcolepsy",
+          "normalized": "narcolepsy",
+          "kp_id": "psychology-barrons-2027-kp-3740d981fafa7bf6",
+          "kp_name": "Narcolepsy",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Sleep apnea",
+          "normalized": "sleep apnea",
+          "kp_id": "psychology-barrons-2027-kp-f138cc6ef02463d7",
+          "kp_name": "Sleep apnea",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Insomnia",
+          "normalized": "insomnia",
+          "kp_id": "psychology-barrons-2027-kp-42cd2b0653c3f9a5",
+          "kp_name": "Insomnia",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Somnambulism",
+          "normalized": "somnambulism",
+          "kp_id": "psychology-barrons-2027-kp-a22e4e2f239dbb96",
+          "kp_name": "Somnambulism (sleepwalking)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests recognition of narcolepsy from the hallmark of falling asleep at inappropriate times; the other options are other sleep disorders.",
+      "warnings": [
+        "keyword 'falls asleep at unusual times': not a known alias of 'Narcolepsy'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-86de386375672bed",
+          "name": "REM sleep",
+          "confidence": 0.9,
+          "evidence": "REM deprivation condition in which they are awakened every time an EEG indicates that they are entering REM",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "REM sleep",
+          "normalized": "rem sleep",
+          "kp_id": "psychology-barrons-2027-kp-86de386375672bed",
+          "kp_name": "REM sleep",
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "REM deprivation",
+          "normalized": "rem deprivation",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "EEG",
+          "normalized": "eeg",
+          "kp_id": "psychology-barrons-2027-kp-e6ff39a88779c6d4",
+          "kp_name": "Electroencephalogram (EEG)",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cognitive purpose",
+          "normalized": "cognitive purpose",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item asks what function REM sleep serves; the correct answer (cognitive purpose) is supported by the memory/quiz manipulation. No candidate knowledge point directly encodes 'cognitive function of sleep,' so the core is anchored to REM sleep (C02) with the correct-option term left unlinked.",
+      "warnings": [
+        "supporting 'Electroencephalogram (EEG)' is not in the correct option or the core subheading; dropped",
+        "keyword 'REM deprivation': not a known alias of 'REM sleep'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2d6ea3d8353d0ba5",
+          "name": "Informed consent",
+          "confidence": 0.95,
+          "evidence": "The biggest ethical concern associated with Dr. Webb’s study would be",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-d438e1f4819be075",
+          "name": "No coercion",
+          "confidence": 0.85,
+          "evidence": "40 students from his Introduction to Psychology class are randomly assigned",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "ethical concern",
+          "normalized": "ethical concern",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "consent",
+          "normalized": "consent",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "his Introduction to Psychology class",
+          "normalized": "his introduction to psychology class",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "deception",
+          "normalized": "deception",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "privacy",
+          "normalized": "privacy",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "long-lasting harm",
+          "normalized": "long lasting harm",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The core ethical issue is informed consent, heightened by the professor-student relationship (potential coercion). Deception is a related APA ethics principle but is not the primary concern here.",
+      "warnings": [
+        "confusable 'Debriefing' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'ethical concern': not a known alias of 'Informed consent'; stored without a KP",
+        "keyword 'consent': not a known alias of 'Informed consent'; stored without a KP",
+        "keyword 'his Introduction to Psychology class': not a known alias of 'No coercion'; stored without a KP",
+        "keyword 'deception': not a known alias of 'Debriefing'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-90653b869cb2dd66",
+          "name": "Population",
+          "confidence": 0.9,
+          "evidence": "If Dr. Webb wants to generalize his findings beyond his sample",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-8c677600dba5afaa",
+          "name": "Representative sample",
+          "confidence": 0.7,
+          "evidence": "40 students from his Introduction to Psychology class"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "generalize",
+          "normalized": "generalize",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "sample",
+          "normalized": "sample",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests understanding of population/generalizability: broadening age and school variety increases representativeness beyond the original college sample.",
+      "warnings": [
+        "confusable 'Replication' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Longitudinal research' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'generalize': not a known alias of 'Population'; stored without a KP",
+        "keyword 'sample': not a known alias of 'Representative sample'; stored without a KP",
+        "keyword 'students of different ages from a variety of schools': whole/long option text; dropped",
+        "keyword 'test these students again later in the semester': whole/long option text; dropped",
+        "keyword 'test students from a class he will teach the following semester': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-36635f89b718ad76",
+          "name": "Delta sleep",
+          "confidence": 0.9,
+          "evidence": "this person spent the least amount of time in which stage?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f7869a5d4a1a6f3a",
+          "name": "Sleep cycle",
+          "confidence": 0.7,
+          "evidence": "James’ sleep over the course of one night"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "sleep",
+          "normalized": "sleep",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "stage",
+          "normalized": "stage",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "REM",
+          "normalized": "rem",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "non-REM 3",
+          "normalized": "non rem 3",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests identifying the sleep stage with least duration; non-REM 3 corresponds to delta/deep sleep.",
+      "warnings": [
+        "confusable 'REM sleep' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'sleep': not a known alias of 'Sleep cycle'; stored without a KP",
+        "keyword 'stage': not a known alias of 'Delta sleep'; stored without a KP",
+        "keyword 'REM': not a known alias of 'REM sleep'; stored without a KP",
+        "keyword 'non-REM 3': not a known alias of 'Delta sleep'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-915d60476f076952",
+          "name": "Sleep spindles",
+          "confidence": 0.97,
+          "evidence": "A psychologist monitoring James’ sleep would be most likely to see sleep spindles during which stage of sleep?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f7869a5d4a1a6f3a",
+          "name": "Sleep cycle",
+          "confidence": 0.6,
+          "evidence": "during which stage of sleep?"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "sleep spindles",
+          "normalized": "sleep spindles",
+          "kp_id": "psychology-barrons-2027-kp-915d60476f076952",
+          "kp_name": "Sleep spindles",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "stage of sleep",
+          "normalized": "stage of sleep",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "REM",
+          "normalized": "rem",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "non-REM 1",
+          "normalized": "non rem 1",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "non-REM 2",
+          "normalized": "non rem 2",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "non-REM 3",
+          "normalized": "non rem 3",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is sleep spindles and their prevalence in NREM 2. NREM 1 is a same-domain distractor but has no dedicated candidate key; left as null.",
+      "warnings": [
+        "confusable 'REM sleep' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Delta sleep' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'stage of sleep': not a known alias of 'Sleep cycle'; stored without a KP",
+        "keyword 'REM': not a known alias of 'REM sleep'; stored without a KP",
+        "keyword 'non-REM 2': not a known alias of 'Sleep spindles'; stored without a KP",
+        "keyword 'non-REM 3': not a known alias of 'Delta sleep'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch5-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e6ff39a88779c6d4",
+          "name": "Electroencephalogram (EEG)",
+          "confidence": 0.97,
+          "evidence": "EEGs",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3fda901a853c1fba",
+          "name": "Ways of Studying the Brain",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-481dd8e6fc641981",
+          "name": "Positron emission tomography (PET) scan",
+          "option_label": "A",
+          "reason": "PET scans also measure brain activity, so they seem plausible for monitoring sleep, but they are not the standard continuous measure of sleep stages."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "stage of sleep",
+          "normalized": "stage of sleep",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "EEGs",
+          "normalized": "eegs",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "PET scans",
+          "normalized": "pet scans",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "EMGs",
+          "normalized": "emgs",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "MRIs",
+          "normalized": "mris",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests knowledge of which brain-recording technique is used to monitor sleep stages; EEG is the core. EMG is a real term but not in the candidate list, so kp is null.",
+      "warnings": [
+        "confusable 'Magnetic resonance imaging (MRI)' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'EEGs': not a known alias of 'Electroencephalogram (EEG)'; stored without a KP",
+        "keyword 'PET scans': not a known alias of 'Positron emission tomography (PET) scan'; stored without a KP",
+        "keyword 'MRIs': not a known alias of 'Magnetic resonance imaging (MRI)'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

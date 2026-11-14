@@ -1,0 +1,1250 @@
+
+
+########## SECTION statistics-barrons-2027-u4-s01 | Sampling Distribution for Sample Means | PDF pages 382-384 ##########
+
+[[PAGE 382]]
+Sampling Distribution for Sample Means
+We are interested in estimating a population mean μ by considering
+a single sample mean . This sample mean is just one of a whole
+universe of sample means. To judge its significance, we must know
+
+[[PAGE 383]]
+how sample means vary; that is, we need to know the shape and
+parameters of the sampling distribution of :
+Start with a population with a given mean and a standard deviation .
+Take all samples of size n. Compute the mean in each of these samples.
+Then the following is true:
+1. The mean
+of the set of sample means equals , the
+population mean.
+2. The standard deviation
+of the set of sample means
+is approximately equal to
+We say that the sampling distribution of has mean and standard
+deviation
+If the population is approximately normal, or if the sample
+size is large enough (at least 30) for the central limit theorem to apply, we
+also have that the set of sample means is approximately normally
+distributed.
+When making calculations and drawing conclusions from a specific
+sample, the following three conditions must be checked:
+■
+The randomization condition: The data should be
+collected using a random sample.
+■
+The 10% condition: When sampling without replacement,
+the sample size n should be no larger than 10% of the
+population.
+■
+The normality condition: Either the population distribution
+should be approximately normal or the sample size n should
+be ≥ 30, or if n < 30, the sample data should be free from
+strong skewness and outliers.
+Example 4.1
+It is estimated that domesticated cats who mainly live outdoors kill
+an average of 10 birds a year with a standard deviation of 3 birds.
+
+[[PAGE 384]]
+What is the probability an SRS of 35 such cats will kill an average of
+between 9 and 12 birds in a year?
+We say, “For all random samples of size n = 35 from the population of domesticated
+cats who mainly live outdoors, the sample mean numbers of birds killed per year will
+have a mean of 10 birds and will typically vary by about 0.6 birds from the population
+mean of 10 birds.”
+Solution
+The sampling distribution of the sample mean is approximately
+normal (because the sample size 35 > 30 so the CLT applies) with
+mean
+and standard deviation
+[normalcdf(−1.972, 3.945) = 0.976 and normalcdf(9, 12, 10, 0.507)
+= 0.976.]
+The probability an SRS of 35 domesticated cats who mainly live
+outdoors will kill an average of between 9 and 12 birds in a year is
+0.976.
+
+########## SECTION statistics-barrons-2027-u4-s03 | The t-Distribution | PDF pages 389-391 ##########
+
+[[PAGE 389]]
+The t-Distribution
+When the population standard deviation σ is unknown, we use the
+sample standard deviation s as an estimate for σ. But then
+does not follow a normal distribution. There is a distribution that can
+be used when working with the
+ratios. This Student’s t-
+distribution was introduced in 1908 by W. S. Gosset, a British
+mathematician employed by the Guinness Breweries.
+For a sample from a normally distributed population, we work
+with the variable
+
+[[PAGE 390]]
+with a resulting t-distribution that is bell-shaped and symmetric but
+lower at the mean, higher at the tails, and so more spread out than
+the normal distribution.
+Like the binomial distribution, t-distributions are different for
+different values of n. In the tables, these distinct t-distributions are
+associated with the values for degrees of freedom (df). For this
+discussion, the df value is equal to the sample size minus 1. The
+smaller the df value, the larger the dispersion in the distribution. The
+larger the df value—that is, the larger the sample size—the closer
+the distribution to the normal distribution.
+Since there is a separate t-distribution for each df value, fairly
+complete tables would involve many pages; therefore, in Table B of
+the Appendix, we list areas and t-values for only the more commonly
+used percentages or probabilities. The last row of Table B is the
+normal distribution, which is a special case of the t-distribution taken
+when n is infinite. Technology (such as tcdf and invT) easily handle
+calculations involving the t-distribution.
+Thus, the t-distribution is the proper choice whenever the
+population standard deviation σ is unknown. In the real world, σ is
+almost always unknown, and so we should almost always use the t-
+distribution. The check that must be satisfied before using the t-
+distribution is that either the original population is roughly normal or
+the sample size is large enough (n ≥ 30) for the central limit
+theorem to apply. What happens if the sample size is less than 30
+and we are not told that the parent population is roughly normal?
+Then we must check that the sample shows no outliers and no
+strong skewness, so that we can say it is not unreasonable to
+assume the parent population is roughly normal. (This check can
+quickly be made with a hand-drawn dotplot or stemplot of the
+sample data.)
+
+########## SECTION statistics-barrons-2027-u4-s04 | Confidence Interval for a Mean | PDF pages 391-398 ##########
+
+[[PAGE 391]]
+Confidence Interval for a Mean
+Three conditions must be met and must be checked for:
+■
+The randomization condition: The data should be
+collected using a random sample.
+■
+The 10% condition: When sampling without replacement,
+the sample size n should be no larger than 10% of the
+population.
+■
+The normality condition: The population distribution should
+be roughly normal, or the sample size n should be ≥ 30, or if
+n < 30, the sample data should be free from strong skewness
+and outliers.
+Typically, we do not know σ, the population standard deviation. In
+such cases, we must use s, the standard deviation of the sample, as
+an estimate of σ. In this case
+is called the standard error,
+,
+and is used as an estimate for
+(We will use t-distributions
+instead of the standard normal curve whenever σ is unknown, no
+matter what the sample size.)
+Our confidence interval will take the form:
+where the critical value, t*, depends on the chosen confidence level
+and on the degrees of freedom, df = n – 1.
+In the following examples, important points to keep in mind
+include:
+■
+Naming the parameter should reference “mean,” the variable,
+and the population in context.
+■
+Naming the procedure is easiest done by simply stating “one-
+sample t-interval for a population mean.”
+■
+Verifying conditions means more than simply listing them with
+check marks. You must show your work or give some reason
+to confirm verification.
+
+[[PAGE 392]]
+■
+Finding the interval can be accomplished using calculator
+software (such as TInterval) instead of using the above
+formula. Note that answer choices using the formula may well
+appear on multiple-choice questions.
+■
+Interpreting the interval in context must include mentioning
+the confidence level and parameter, and this must refer to the
+population, not the sample.
+■
+Interpreting the confidence level never involves mentioning a
+specific interval.
+Example 4.2
+When a random sample of 10 cars of a new model was tested for
+gas mileage, the results showed a mean of 27.2 miles per gallon
+with a standard deviation of 1.8 miles per gallon. (Assume that the
+population of mpg results for all the new model cars is
+approximately normally distributed.)
+(a)
+What is a 95% confidence interval estimate for the mean gas
+mileage achieved by this model?
+(b)
+Based on this confidence interval, do you think that the true
+mean mileage is significantly different from 25 mpg?
+(c)
+Determine a 99% confidence interval. Note what effect going
+from 95% to 99% confidence has on the interval size.
+(d)
+What would the 95% confidence interval be if the sample
+mean of 27.2 and standard deviation of 1.8 had come from a
+sample of 20 cars? Note what effect going from a sample size
+of 10 to one of 20 has on the interval size.
+(e)
+With the original data ( = 27.2, s = 1.8, n = 10), with what
+confidence can we assert that the true mean gas mileage is
+27.2 ± 1.04?
+Interpretation of the confidence level: If all possible random samples of 10 cars of
+this model are tested for gas mileage, and a confidence interval for the mean is
+constructed from each sample, then 95% of all these intervals would capture the true
+mean gas mileage.
+
+[[PAGE 393]]
+Solutions
+(a)
+Parameter: Let μ represent the mean gas mileage (in miles per
+gallon) in the population of cars of a new model.
+Procedure: A one-sample t-interval for a population mean
+(population SD is unknown).
+Checks: The sample is given as random, and 10 cars are
+assumed to be less than 10% of all cars of the new model. For
+normality, the population is stated to be approximately normal.
+Calculation of a t-interval is appropriate.
+Mechanics: Calculator software (TInterval) gives (25.912,
+28.488).
+[For instructional purposes, we note that the standard error of
+the sample means is
+With n − 1 = 10 − 1 = 9
+degrees of freedom and 2.5% in each tail, the appropriate t-
+scores are
+Conclusion in context: We are 95% confident that the true
+mean gas mileage of all cars of the new model is between
+25.91 and 28.49 miles per gallon.
+[Alternatively we can say: “We are 95% confident that the
+interval from 25.91 to 28.49 mpg captures the true mean gas
+mileage of all cars of the new model.”]
+(b)
+Yes; because 25 is not in the interval of plausible values from
+25.9 to 28.5, there is convincing evidence that the true mean
+mileage is significantly different from 25 mpg.
+(c)
+Here, TInterval gives (25.35, 29.05). We are 99% confident
+that the true mean gas mileage of all cars of the new model is
+between 25.35 and 29.05 miles per gallon.
+Note that when we want a higher confidence (99%
+instead of 95%), we have to settle for a larger, less specific
+interval (±1.85) instead of (±1.29).
+(d)
+Here, TInterval gives (26.36, 28.04). We are 95% confident
+that the true mean gas mileage of all cars of the new model is
+
+[[PAGE 394]]
+between 26.36 and 28.04 miles per gallon.
+Note that when the sample size increased (from n = 10 to
+n = 20), the same sample mean and standard deviation
+resulted in a narrower, more specific interval (±0.84) instead
+of (±1.29).
+(e)
+Converting ±1.04 to t-scores yields
+= ±1.827 and
+tcdf(−1.827, 1.827, 9) = 0.899 = 89.9%.
+We are 89.9% confident that the true mean gas mileage
+of all cars of the new model is between 26.16 and 28.24
+miles per gallon.
+As seen in the above example, for a given sample, increasing the
+confidence level will result in the following:
+■
+The critical t-value will increase.
+■
+The margin of error,
+will increase.
+■
+The width of the confidence interval will increase.
+Also as seen in the above example, when all other things remain the
+same, increasing the sample size will result in the following:
+■
+The width of the confidence interval will decrease.
+■
+If the sample size is increased by a factor of d, the width of
+the confidence interval will decrease by a factor of
+Example 4.3
+Maximum bench press weights were recorded for a random sample
+of ten 17-year-old males. The resulting data are displayed in the
+following dotplot.
+
+[[PAGE 395]]
+(a)
+Find a 90% confidence interval for the mean maximum bench
+press weight for all 17-year-old males.
+(b)
+Based on this interval, is there convincing evidence that the
+mean maximum bench press weight for all 17-year-old males is
+less than 180 lbs?
+(c)
+Interpret the confidence level in context.
+NOTE
+Understand that you are not trying to prove that the sample data are normal
+but, rather, trying to infer something about the parent population.
+Solutions
+(a)
+Parameter: Let μ represent the mean maximum bench press
+weight for all 17-year-old males.
+Procedure: One-sample t-interval for a population mean
+(population SD is unknown)
+Checks: The sample is given to be random, and the ten 17-
+year-old males are less than 10% of all 17-year-old males. For
+normality, a dotplot of the sample values is unimodal,
+reasonably symmetric, and with no outliers and no skewness,
+indicating it is not unreasonable to assume the data come from
+a roughly normal distribution. Calculating a t-interval is
+appropriate.
+Mechanics: Calculator software (such as TInterval with the
+data put in a List) gives (171.11, 180.89).
+[For instructional purposes, we note the following:
+
+[[PAGE 396]]
+With df = 10 − 1 = 9 and 5% in each tail, the critical t-scores
+are ±invT(0.95, 9) = ±1.833. Then 176 ± 1.833(2.667) = 176
+± 4.89.]
+Conclusion in context: We are 90% confident that the true
+mean maximum bench press weight for all 17-year-old males is
+between 171.11 and 180.89 lbs.
+(b)
+No; because the entire interval from 171.11 to 180.89 is not
+less than 180, there is not convincing evidence that the mean
+maximum bench press weight for all 17-year-old males is less
+than 180 lbs. [It is not sufficient that 176 < 180, and it is not
+sufficient that almost the entire interval is < 180. All values in
+the interval are considered to be “plausible” values, and 180 is
+in the interval.]
+(c)
+If all possible random samples of ten 17-year-old males are
+taken and if a confidence interval for the mean maximum
+bench press weight is constructed from each sample, then 90%
+of all these intervals would capture the true mean maximum
+bench press weight for all 17-year-old males.
+Many tests involve comparing pairs of data. In this case, the
+proper procedure is to run a one-sample test on a single variable
+consisting of the differences from the paired data. For this matched
+pairs design, the procedure is called a “one-sample t-interval for a
+population mean difference.” Using the mean diff and the standard
+deviation s diff from the set of differences, the confidence interval for
+a mean difference becomes:
+
+[[PAGE 397]]
+This is sometimes simply written as:
+Example 4.4
+An SAT preparation class of 30 randomly selected students produces
+the following total score summary:
+First Score
+Second Score
+Improvement
+(2nd Score–1st
+Score)
+Mean
+1093.33
+1135.58
+42.25
+Standard
+Deviation
+87.76
+85.73
+27.92
+Find a 90% confidence interval of the mean improvement in test
+scores.
+Solution
+The proper procedure is a one-sample t-interval on the set of
+differences (improvement) between the scores for each of the 30
+students.
+Parameter: Let μdiff represent the mean improvement (2nd score
+minus 1st score) in the SAT scores of the population of students who
+take this SAT preparation class.
+Procedure: A one-sample t-interval for a population mean difference
+Checks: We are given a random sample and n = 30 is less than 10%
+of all students. For normality, n = 30 is large enough for the CLT to
+apply. Calculation of a t-interval is appropriate.
+Mechanics: With an unknown population SD, it’s necessary to find a
+t-interval. Using
+calculator software
+(TInterval) gives (33.59, 50.91).
+Conclusion in context: We are 90% confident that the true mean
+improvement in test scores is between 33.59 and 50.91.
+
+[[PAGE 398]]
+NOTE
+Alternatively we can say: “We are 90% confident that the interval from 33.59
+to 50.91 captures the true mean improvement in test scores.”
+
+########## SECTION statistics-barrons-2027-u4-s06 | Hypothesis Test for a Mean | PDF pages 404-412 ##########
+
+[[PAGE 404]]
+Hypothesis Test for a Mean
+
+[[PAGE 405]]
+Three conditions must be met and must be checked for:
+■
+The randomization condition: The data should be
+collected using a random sample.
+■
+The 10% condition: When sampling without replacement,
+the sample size n should be no larger than 10% of the
+population.
+■
+The normality condition: The population distribution should
+be roughly normal, or the sample size n should be ≥ 30, or if
+n < 30, the sample data should be free from strong skewness
+and outliers.
+Example 4.5
+A manufacturer claims that a new brand of air-conditioning units
+uses only 6.5 kilowatts of electricity per day. A consumer agency
+believes the true figure is higher and runs a test on a random
+sample of size 50. The sample mean is 7.0 kilowatts with a standard
+deviation of 1.4. The consumer agency performs a test at the 5%
+significance level.
+(a)
+What is the parameter of interest?
+(b)
+What are the hypotheses?
+(c)
+What is the proper hypothesis test to be performed?
+(d)
+Check if the conditions are met for performing the test.
+(e)
+Calculate the standardized test statistic and the p-value.
+(f)
+What conclusion would you make?
+(g)
+Given the above conclusion, what type of error, Type I or Type
+II, might have been committed, and what would be a possible
+consequence?
+NOTE
+There are two possible explanations for the sample mean of 7.0 being greater
+than the claimed mean of 6.5. Either the manufacturer’s claim is wrong, or by
+random chance (sample variability), the sample picked by the agency
+happened to have a mean greater than the claimed mean.
+
+[[PAGE 406]]
+Solutions
+(a)
+Parameter: Let μ represent the mean electricity usage (in
+kilowatts per day) of the population of this new brand of air-
+conditioning unit.
+(b)
+Hypotheses: H0: μ = 6.5 and Ha: μ > 6.5.
+(c)
+Procedure: A one-sample t-test for a population mean
+(population SD is unknown)
+(d)
+Checks: We are given a random sample, and we assume that
+50 is less than 10% of all the new AC units. For normality, n =
+50, so the CLT applies. Conducting a t-test is appropriate.
+(e)
+Mechanics: Calculator software (such as T-Test on the TI-84)
+gives t = 2.525 and p = 0.0074.
+[For instructional purposes, we note that
+and
+(f)
+Conclusion in context with linkage to the p-value: With this
+small of a p-value, 0.0074 < 0.05, there is sufficient evidence
+to reject H0; that is, there is convincing evidence for the
+consumer agency to reject the manufacturer’s claim that the
+new unit uses a mean of only 6.5 kilowatts of electricity per
+day.
+
+[[PAGE 407]]
+(g)
+There was sufficient evidence to reject the null hypothesis. If
+the null hypothesis were true, we would be committing a Type I
+error—that is, mistakenly rejecting a true null hypothesis. A
+possible consequence here is that the consumer agency would
+discourage customers from purchasing a new brand of air-
+conditioning unit that really was saving on electricity
+consumption as advertised.
+Interpretation of the p-value: Assuming that the true mean electricity usage of the
+new brand of this AC unit is 6.5 kilowatts per day, there is a probability of 0.0074 of
+getting a sample mean of 7.0 or greater by chance alone in a random sample of 50
+units.
+Example 4.6
+An ice cream parlor manager believes that the mean annual ice
+cream consumption for high school students is 44 pints. For a class
+project to test that claim, a random sample of 25 high school
+students kept careful track of the quantity of ice cream each
+consumed for a full year. Following are the data and summary
+statistics.
+(a)
+At a significance level of = 0.05, is there convincing evidence
+to reject the manager’s belief?
+(b)
+In context of this study, what is the meaning of the p-value
+calculated in part (a)?
+
+[[PAGE 408]]
+(c)
+Given the conclusion in part (a), which kind of error, Type I or
+Type II, might have been committed, and what would be a
+possible consequence?
+NOTE
+The question does not suggest a direction for the alternative so a two-sided
+test is called for.
+Solutions
+(a)
+Parameter: Let μ represent the true mean annual ice cream
+consumption for the population of all high school students.
+Hypotheses: H0: μ = 44 and Ha: μ ≠ 44.
+Procedure: A one-sample t-test for a population mean
+(population SD is unknown)
+Checks: The sample is given to be random, and the 25 high
+school students are less than 10% of all high school students.
+For normality, a stemplot of the sample values is unimodal,
+reasonably symmetric, and with no strong skewness or outliers,
+indicating it is not unreasonable to assume the data come from
+a roughly normal distribution. Conducting a t-test is
+appropriate.
+Mechanics: Calculator software (T-Test) gives t = 1.914 and a
+p-value of 0.0675.
+[For instructional purposes, we note that
+with a resulting p-value
+of 2 × tcdf(1.914,1000,24)= 0.0676.]
+Conclusion in context with linkage to the p-value: With this
+large a p-value, 0.0676 > 0.05, there is not sufficient evidence
+to reject H0. In other words, there is not convincing evidence to
+reject the manager’s belief that the true mean annual ice cream
+consumption for high school students is 44 pints.
+
+[[PAGE 409]]
+(b)
+Assuming that the true mean annual ice cream consumption
+for high school students is 44 pints, there is a probability of
+0.0675 of getting a sample mean as extreme or more extreme
+than 50.04 pints in either direction by chance alone in a
+random sample of 25 high school students.
+(c)
+There was not sufficient evidence to reject H0. If the null
+hypothesis were false, we would be committing a Type II error
+—that is, mistakenly failing to reject a false null hypothesis. A
+possible consequence here is that the manager will incorrectly
+estimate future sales, either underordering or overordering for
+future demand.
+Like with confidence intervals, if the data come in pairs, the proper
+procedure is a one-sample t-test for a population mean difference.
+Example 4.7
+Does a particular drug slow reaction times? If so, the government
+might require a warning label concerning driving a car while taking
+the medication. An SRS of 30 people who might benefit from the
+drug are tested before and after taking the drug, and their reaction
+times (in seconds) to a standard testing procedure are noted. The
+resulting histograms and summary statistics are as follows:
+
+[[PAGE 410]]
+n
+Mean
+SD
+Before
+1.46433
+0.26267
+After
+1.50200
+0.20942
+Differences
+−0.037667
+0.11755
+(a)
+Perform the appropriate inference test.
+(b)
+Given your conclusion, what type of error, Type I or Type II,
+might have been committed, and what would be a possible
+consequence?
+Solutions
+(a)
+The proper procedure is to form the set of 30 differences and
+to perform a one-sample hypothesis test as follows.
+Parameter: Let μ represent the mean difference in reaction time
+(before taking drug minus after taking drug) in the population of
+people taking a particular drug.
+Hypotheses:
+H0: The reaction times of individuals to a standard testing
+procedure are the same before and after they take a particular
+drug; the mean difference is zero: μd = 0.
+Ha: The reaction time is greater after they take the drug; the
+mean difference (before minus after) is less than zero: μd < 0.
+Procedure: A one-sample t-test for a population mean difference
+(the mean difference of reaction times, before minus after)
+TIP
+
+[[PAGE 411]]
+Use proper terminology! In a two-sample t-test, the hypotheses are about the
+difference of means. In a paired t-test, the hypotheses are about the mean
+difference.
+Checks:
+1. The data are paired because they are measurements on the
+same individuals before and after taking the drug.
+2. The reaction times of any individual are independent of the
+reaction times of the others, so the differences are
+independent.
+3. A random sample of people is tested.
+4. The histogram of the differences looks nearly normal
+(roughly unimodal and symmetric), or we could use that the
+sample size, n = 30, is large enough for the CLT to apply.
+5. The sample size, n = 30, is assumed to be less than 10% of
+the population of all people who may take the drug.
+Mechanics: T-Test gives t = −1.755 with a p-value of 0.0449.
+[Or we can calculate
+With df = n − 1 = 29, the p-value is P(t < −1.755) = tcdf(-1000,
+-1.755, 29) = 0.0449.]
+Conclusion in context with linkage to the p-value: With this small of
+a p-value, 0.0449 < 0.05, there is sufficient evidence to reject H0;
+that is, there is convincing evidence that the true mean of the
+observed rise in reaction times after taking the drug is significant.
+(b)
+There was sufficient evidence to reject the null hypothesis. If
+the null hypothesis were true, we would be committing a Type I
+error—that is, mistakenly rejecting a true null hypothesis. A
+possible consequence here is that the drug really doesn’t slow
+reaction times, but the government requires the company to
+put an unnecessary, and possibly costly, label on the drug.
+
+[[PAGE 412]]
+Furthermore, people might choose not to take necessary
+medication.
+
+########## SECTION statistics-barrons-2027-u4-s08 | Sampling Distribution for the Difference Between Sample Means | PDF pages 419-421 ##########
+
+[[PAGE 419]]
+Sampling Distribution for the Difference
+Between Sample Means
+We have the following about the sampling distribution of
+Start with two populations with means
+and standard deviations
+Take all samples of sizes
+, respectively. Compute the
+difference
+of the two means in each pair of these samples:
+1. The mean
+of the set of differences of sample
+means equals
+the difference of population
+means.
+2. The standard deviation
+of the set of differences
+of sample means is approximately equal to
+3. If the populations are normal or if the sample sizes
+are large enough (at least 30) for the central limit
+theorem to apply, we also have that the set of all
+differences of sample means is approximately
+normally distributed.
+When analyzing two samples, one from each population, we have
+the assumption of independent simple random samples and, if
+sampling without replacement, the assumption of sample sizes no
+larger than 10% of their respective populations.
+Example 4.8
+It is estimated that 40-year-old men contribute an average of 65
+genetic mutations to their new children, whereas 20-year-old men
+contribute an average of only 25. Assuming standard deviations of
+15 and 5 mutations, respectively, for the 40- and 20-year-olds, what
+is the probability that the mean number of mutations in a random
+
+[[PAGE 420]]
+sample of thirty-five 40-year-old new fathers is between 35 and 45
+more than the mean number in a random sample of forty 20-year-
+old new fathers?
+We say, “For all random samples of thirty-five 40-year-old new fathers and forty 20-
+year-old new fathers, the differences (40-year-olds – 20-year-olds) in sample mean
+genetic mutations passed to their new children will have a mean of 40 mutations and
+will typically vary by about 2.656 mutations from the true difference of 40 mutations.”
+Solution
+We have independent random samples, each less than 10% of their
+age groups, and both sample sizes are over 30. So the sampling
+distribution of
+is roughly normal with mean
+and standard deviation
+[normalcdf(−1.883, 1.883) = 0.940 and normalcdf(35, 45, 40,
+2.656) = 0.940.]
+A difference (40-year-olds − 20-year-olds) in sample mean genetic
+mutations passed to their new children of between 35 and 45
+mutations happens in about 94.0% of all possible samples of thirty-
+five 40-year-old new fathers and forty 20-year-old new fathers.
+
+[[PAGE 421]]
+NOTE
+If the data come from an experiment, the 10% condition is unnecessary, and
+randomization is satisfied if the treatments are randomly assigned.
+Confidence Interval for the Difference of
+Two Means
+Three conditions must be met and must be checked for:
+■
+The randomization condition: The data should be
+collected using random samples, and the samples must be
+taken independently of each other.
+■
+The 10% condition: When sampling without replacement,
+the sample sizes n1 and n2 should be no larger than 10% of
+their respective populations.
+■
+The normality condition: The population distributions
+should both be approximately normal, or the sample sizes
+should both be ≥ 30, or the sample distributions should both
+be free of strong skewness and outliers.
+When the population standard deviations are unknown, we use a t-
+distribution with
+The confidence interval takes
+the following form:
+where the degrees of freedom df for the t-distribution can be found
+using technology.
+NOTE
+Interpretation of the confidence level: If all possible random samples of 30
+college professors and 30 police officers are analyzed as to planned
+retirement ages and if a confidence interval for the difference in means is
+constructed for each pair of samples, then 95% of these intervals would
+
+########## SECTION statistics-barrons-2027-u4-s09 | Confidence Interval for the Difference of Two Means | PDF pages 421-423 ##########
+
+[[PAGE 421]]
+Confidence Interval for the Difference of
+Two Means
+Three conditions must be met and must be checked for:
+■
+The randomization condition: The data should be
+collected using random samples, and the samples must be
+taken independently of each other.
+■
+The 10% condition: When sampling without replacement,
+the sample sizes n1 and n2 should be no larger than 10% of
+their respective populations.
+■
+The normality condition: The population distributions
+should both be approximately normal, or the sample sizes
+should both be ≥ 30, or the sample distributions should both
+be free of strong skewness and outliers.
+When the population standard deviations are unknown, we use a t-
+distribution with
+The confidence interval takes
+the following form:
+where the degrees of freedom df for the t-distribution can be found
+using technology.
+NOTE
+Interpretation of the confidence level: If all possible random samples of 30
+college professors and 30 police officers are analyzed as to planned
+retirement ages and if a confidence interval for the difference in means is
+constructed for each pair of samples, then 95% of these intervals would
+
+[[PAGE 422]]
+capture the true difference (professors minus police) in mean planned
+retirement ages.
+Example 4.9
+College professors’ lives are often so immersed in their careers that
+they find it difficult to accept retirement. Although police officers
+identify with their careers, their stressful discipline takes its toll. A
+sociologist surveys 30 randomly chosen college professors and 30
+randomly chosen police officers as to their planned retirement ages.
+In the sample of college professors, the mean planned retirement
+age was 66 with a standard deviation of 3.5, while in the sample of
+police officers, the mean planned retirement age was 55 with a
+standard deviation of 5.1.
+(a)
+Determine a 95% confidence interval for the difference in
+mean planned retirement ages (professors minus police).
+(b)
+Based on this confidence interval, is there convincing evidence
+that the mean retirement age for college professors is more
+than 5 years greater than for police officers?
+Solutions
+(a)
+Parameters: Let μc represent the true mean planned retirement
+age for college professors. Let μp represent the true mean
+planned retirement age for police officers.
+Procedure: A two-sample t-interval for the difference of two
+population means, μc − μp
+Checks: We are given independent random samples, and the
+sample sizes, nc = np = 30, are less than 10% of the respective
+populations of professors and police. For normality, the sample
+sizes, nc = np = 30 ≥ 30, are large enough for the CLT to apply.
+Calculating a t-interval is appropriate.
+Mechanics: Calculator software (2-SampTInt) gives (8.73, 13.27)
+with df = 51.36.
+
+[[PAGE 423]]
+Conclusion in context: We are 95% confident that the true
+difference in mean planned retirement ages (professors minus
+police) between all college professors and police officers is
+between 8.73 and 13.27.
+(b)
+Yes, there is convincing evidence that the mean retirement age
+for college professors is at least 5 years greater than for police
+officers because the entire interval (8.73, 13.27) is greater than
+5.
+As in the previous unit about proportions, the null hypothesis is usually a claim about
+“no difference” or “no change” or “no treatment effect” and is stated as an equality.
+The alternative hypothesis is a claim that we hope to support with evidence from the
+collected data and is stated as a strict inequality. Both hypotheses are about
+population parameters.
+Hypothesis Test for the Difference of Two
+Means
+The null hypothesis is usually that the means of the populations are
+the same or, equivalently, that their difference is 0:
+The alternative hypothesis is then:
+Alternatively, we can use
+The first two possibilities lead to one-sided tests, and the third
+possibility leads to two-sided tests.
+The three conditions to be met and must be checked for are as
+follows:
+■
+The randomization condition: The data should be
+collected using two independent random samples or a
+
+########## SECTION statistics-barrons-2027-u4-s10 | Hypothesis Test for the Difference of Two Means | PDF pages 423-428 ##########
+
+[[PAGE 423]]
+Hypothesis Test for the Difference of Two
+Means
+The null hypothesis is usually that the means of the populations are
+the same or, equivalently, that their difference is 0:
+The alternative hypothesis is then:
+Alternatively, we can use
+The first two possibilities lead to one-sided tests, and the third
+possibility leads to two-sided tests.
+The three conditions to be met and must be checked for are as
+follows:
+■
+The randomization condition: The data should be
+collected using two independent random samples or a
+
+[[PAGE 424]]
+randomized experiment.
+■
+The 10% condition: When sampling without replacement,
+the sample sizes n1 and n2 should be no larger than 10% of
+the respective populations. (This condition is unnecessary for
+randomized experiments.)
+■
+The normality condition: The population distributions
+should both be approximately normal, or the sample sizes
+should both be ≥ 30, or the sample distributions should both
+be free of strong skewness and outliers.
+Example 4.10
+A city council member claims that male and female officers wait
+equal times for promotion in the police department. A women’s
+spokesperson, however, argues that women wait longer than men.
+She obtains a random sample of five promoted men officers with
+wait times of 8, 7, 10, 5, and 7 years for promotion and an
+independent random sample of promoted four women officers with
+wait times of 9, 5, 12, and 8 years.
+(a)
+What are the parameters and hypotheses of interest for the
+women’s spokesperson?
+(b)
+Are the conditions for a two-sample t-test for the difference of
+population means satisfied? Explain.
+The t-test yields t = −0.6641 and p = 0.2685.
+(c)
+Interpret the p-value in context.
+(d)
+Give a conclusion in context.
+(e)
+Given the above conclusion, what type of error, Type I or Type
+II, might have been committed, and what would be a possible
+consequence?
+Solutions
+(a)
+Parameters: Let μM represent the mean wait time for
+promotion in the population of male officers. Let μF represent
+
+[[PAGE 425]]
+the mean wait time for promotion in the population of female
+officers.
+Hypotheses:
+(b)
+We are given random samples and must assume that they are
+independent and less than 10% of total numbers of promoted
+male and female officers. For normality, dotplots of the sample
+data show no strong skewness or outliers, so it is not
+unreasonable to assume the data come from roughly normal
+population distributions.
+(c)
+Assuming that the mean wait times for promotion for male and
+female officers are the same, there is a 0.2685 probability in
+getting a difference (male minus female) in sample means of
+7.4 – 8.5 = -1.1 or less (more negative) by chance alone in
+random samples of five promoted male officers and four
+promoted female officers.
+(d)
+With this large a p-value, 0.2685 > 0.05, there is not sufficient
+evidence to reject H0. In other words, there is not convincing
+evidence of the women’s spokesperson’s claim that the mean
+wait time for promotion is longer for women than for men.
+(e)
+There was not sufficient evidence to reject the null hypothesis.
+If the null hypothesis were false, we would be committing a
+Type II error—that is, mistakenly failing to reject a false null
+hypothesis. A possible consequence would be that female
+officers really do have to wait longer times for promotions but
+nothing is done to remedy the situation.
+The above example could have been approached using a simulation.
+Could the above observed difference of −1.1 have occurred by
+chance? We can randomly assign the observed nine waiting times,
+(5, 7, 7, 8, 10, 5, 8, 9, 12), into two groups, five to the male group
+
+[[PAGE 426]]
+and the remaining four to the female group. For each such
+regrouping, the difference in mean waiting times (male − female) is
+calculated. One such simulation is illustrated in the dotplot below.
+As can be seen from this simulation, a difference of −1.1 or less
+is not unusual. We conclude that the observed difference could
+reasonably have occurred by chance, and is thus not significant.
+(Note that there are 9 out of 40 dots that are −1.1 or less. This
+gives
+as a simulated estimate for the p-value.)
+Example 4.11
+A study is conducted to determine whether or not there is convincing
+evidence that professional tennis players and professional basketball
+players put on different mean numbers of miles during a game.
+Thirty-five players are randomly selected from each sport and are
+outfitted with pedometers to measure distances run during their
+next game. Summary statistics are shown in the table.
+Sport
+Sample Size
+Mean (miles)
+Standard
+Deviation
+(miles)
+Tennis
+2.8
+0.41
+Basketball
+2.5
+0.32
+(a)
+Do the data provide convincing evidence at the α = 0.01
+significance level of a difference in mean miles put on during a
+game between professional tennis players and professional
+basketball players?
+(b)
+Interpret in context the p-value from part (a).
+
+[[PAGE 427]]
+NOTE
+Always remember to define each parameter so as to identify which parameter
+refers to which subscript.
+Solutions
+(a)
+Parameters: Let μT represent the true mean miles put on
+during games by the population of professional tennis players.
+Let μB represent the true mean miles put on during games by
+the population of professional basketball players.
+Hypotheses:
+Procedure: A two-sample t-test for the difference of two
+population means
+Checks: We are given independent random samples and
+assume that the sample sizes are less than 10% of the
+respective populations of professional players. For normality,
+the sample sizes, nT = 35 ≥ 30 and nB = 35 ≥ 30, are large
+enough for the CLT to apply. Conducting a t-test is appropriate.
+Mechanics: Calculator software gives t = 3.41 and p = 0.0011
+with df = 64.21.
+Conclusion in context with linkage to the p-value: With this
+small a p-value, 0.0011 < 0.01, there is sufficient evidence to
+reject H0. In other words, there is convincing evidence that
+there is a difference in mean miles put on during a game
+between professional tennis players and professional basketball
+players.
+(b)
+Assuming that there is no difference in the mean miles put on
+during a game between professional tennis players and
+professional basketball players, there is a probability of 0.0011
+of getting an observed mean difference of 0.3 or greater in
+either direction by chance alone in random samples of 35
+professional tennis players and 35 professional basketball
+players.
+
+[[PAGE 428]]
+NOTE
+You should not pool in a two-sample t-test like we did in a two- proportion z-
+test.
+
+########## SECTION statistics-barrons-2027-u4-s12 | Simulations and p-Values | PDF pages 432-435 ##########
+
+[[PAGE 432]]
+Simulations and p-Values
+When our learned test procedures do not apply, either because
+conditions are not met or because we are working with a parameter
+for which we have not learned a test procedure, we may be able to
+proceed with a simulation. We can use a simulation to determine
+what values of a test statistic are likely to occur by random chance
+alone, assuming the null hypothesis is true. Then looking at where
+our test statistic falls, we can estimate a p-value.
+NOTE
+These numbers are too small to use in our standard proportion hypothesis
+tests, so we use a simulation.
+Example 4.12
+
+[[PAGE 433]]
+Researchers want to study whether Paul the octopus, who lives in a
+tank at Sea Life Centre in Oberhausen, Germany, could correctly
+predict the winner of soccer matches. In a random sample of 14
+matches, Paul correctly predicted the winner in 12 out of 14 soccer
+matches (by choosing to eat mussels from the boxes labeled with
+national flags of the eventual winning teams).
+(a)
+What is the parameter of interest?
+(b)
+What are the null and alternative hypotheses?
+(c)
+If you conduct a simulation to investigate whether the
+observed result provides strong evidence that Paul can correctly
+predict winners, what would you use for the probability of
+success, for the sample size, and for the number of samples?
+(d)
+Which of the following graphs could reasonably have come
+from the simulation?
+(e)
+Estimate the p-value, and interpret it in context.
+(f)
+Make a conclusion based on the simulation and p-value.
+Solutions
+(a)
+Let p represent the proportion of correct predictions in the
+population of all soccer match winner predictions by Paul the
+octopus.
+(b)
+H0 : Paul can do no better than guesswork in predicting
+winners, H0: p = 0.5.
+Ha: Paul can correctly predict winners better than guesswork,
+Ha: p > 0.5.
+(c)
+p = 0.5, n = 14, and a large number for number of samples.
+
+[[PAGE 434]]
+(d)
+Graph (II). The simulation should be centered at the null
+hypothesis expected value, not the observed value.
+(e)
+Looking at the correct graph, (II), 12 or greater correct picks
+seems to have a probability of 0. If the null hypothesis were
+true—that is, if Paul can do no better than guesswork—the
+probability of Paul correctly predicting 12 or more out of 14
+soccer matches is close to 0.00.
+(f)
+With this small of a p-value, 0.00 < 0.05, there is strong
+evidence to reject H0; that is, there is convincing evidence that
+Paul can pick the winner of soccer matches better than
+guesswork.
+NOTE
+We have not learned a test procedure for medians, so a simulation is needed.
+Example 4.13
+Childcare work is critically important, but it isn’t well paid. Do
+childcare workers have greater salaries than fast-food workers? A
+random sample of 30 childcare workers’ salaries has a median of
+$23,240, while a random sample of 35 fast-food workers’ salaries
+has a median of $21,740. Could the observed difference have
+occurred by chance? We can randomly assign the 65 observed
+salaries into two groups, 30 to the childcare workers group and the
+remaining 35 to the fast-food workers group. For each regrouping,
+the difference in median salaries (childcare minus fast food) is
+calculated. One such simulation of 100 such regroupings is
+illustrated in the dotplot below.
+
+[[PAGE 435]]
+(a)
+What are the parameters of interest?
+(b)
+What are the hypotheses?
+(c)
+What is the observed difference?
+(d)
+What is the estimated p-value?
+(e)
+Based on the estimated p-value, what is the appropriate
+conclusion in context at a significance level of 0.05?
+Solutions
+(a)
+Let MC represent the median salary in the population of
+childcare workers. Let MF represent the median salary in the
+population of fast-food workers.
+(b)
+H0: MC = MF and Ha: MC > MF.
+(c)
+The observed difference is $23,240 − $21,740 = $1,500.
+(d)
+There are 6 differences 1,500 or greater. So the estimated p-
+value is 6 ___ 100 = 0.06.
+(e)
+With this large of a p-value, 0.06 > 0.05, there is not sufficient
+evidence to reject the null hypothesis. In other words, there is
+not convincing evidence that the median salary of all childcare
+workers is greater than the median salary of all fast-food
+workers.
+
+########## SECTION statistics-barrons-2027-u4-s14 | More on Power, Type I Errors, and Type II Errors | PDF pages 440-443 ##########
+
+[[PAGE 440]]
+More on Power, Type I Errors, and Type II
+Errors
+
+[[PAGE 441]]
+Given a specific alternative hypothesis, a Type II error is a mistaken
+failure to reject the false null hypothesis, while the power is the
+probability of rejecting that false null hypothesis.
+TIP
+While calculations are not called for, you must understand the interactions
+among the errors, confidence level, power, effect, and sample size.
+Example 4.14
+A candidate claims to have the support of 70% of the people, but
+you believe that the true figure is lower. You plan to gather an SRS
+and will reject the 70% claim if your sample shows 65% or less
+support. What if, in reality, only 63% of the people support the
+candidate?
+The upper graph shows the null hypothesis model with the claim
+that p0 = 0.70 and the plan to reject H0 if < 0.65. The lower graph
+shows the true model with p = 0.63. When will we fail to recognize
+that the null hypothesis is incorrect? Answer: precisely when the
+sample proportion is greater than 0.65. This is a Type II error with
+probability β. When will we rightly conclude that the null hypothesis
+
+[[PAGE 442]]
+is incorrect? Answer: when the sample proportion is less than 0.65.
+This is the “power” of the test and has probability 1 − β.
+The following points should be emphasized:
+TIP
+Both blocking in experiments and stratification in sampling reduce variability
+and so can improve power.
+■
+Power gives the probability of avoiding a Type II error.
+■
+Power has a different value for different possible correct
+values of the population parameter; thus, it is actually a
+function where the independent variable ranges over specific
+alternative hypotheses.
+■
+Choosing a smaller α (that is, a tougher standard to reject H0)
+results in a higher risk of a Type II error and a lower power—
+observe in the above graphs how making α smaller (in this
+case moving the critical cutoff value to the left) makes the
+power less and β more!
+■
+The greater the difference between the null hypothesis p0 and
+the true value p, the smaller the risk of a Type II error and the
+greater the power—observe in the above picture how moving
+the lower graph to the left makes the power greater and β
+less. (The difference between p0 and p is sometimes called
+the effect—thus the greater the effect, the greater is the
+power.)
+■
+A larger sample size n will reduce the standard deviations,
+making both graphs narrower, and—if the rejection value is
+unchanged—the result is smaller α, smaller β, and larger
+power!
+A general conclusion is that if the other three values below are
+unchanged, the power will increase (and the probability of a Type II
+error will decrease) if any of the following occur:
+
+[[PAGE 443]]
+1. Significance level, alpha, increases (but this also increases
+the chance of a Type I error).
+2. Standard error decreases (for example, blocking on
+something strongly related to the response variable can do
+this).
+3. Sample size, n, increases (of course, more data also means
+greater expense in time and money).
+4. True parameter is farther from the null (this is called the
+effect size and is something you really have no control over).
+
+########## SECTION statistics-barrons-2027-u4-s16 | Confidence Intervals Versus Hypothesis Tests | PDF pages 447-450 ##########
+
+[[PAGE 447]]
+Confidence Intervals Versus Hypothesis
+Tests
+A question sometimes arises as to whether a problem calls for
+calculating a confidence interval or performing a hypothesis test.
+Generally:
+■
+An estimate of an unknown population parameter indicates a
+confidence interval.
+■
+A claim about a population parameter indicates a hypothesis
+test.
+
+[[PAGE 448]]
+■
+Asking how much or how effective requires a confidence
+interval calculation.
+■
+Asking whether or not there is evidence requires a hypothesis
+test.
+Sometimes it is possible to conduct a hypothesis test by
+constructing a confidence interval of the parameter and then
+checking whether or not the null hypothesis value is in the interval.
+For example:
+■
+If a 95% confidence interval for μ captures μ0, there is not
+sufficient evidence to reject H0 : μ = μ0 in a two-sided test
+with α = 0.05.
+■
+If a 95% confidence interval for μ does not capture μ0, there
+is sufficient evidence to reject H0 : μ = μ0 in a two-sided test
+with α = 0.05.
+There have also been AP free-response questions where part (a)
+calls for a confidence interval calculation and part (b) asks if this
+calculation provides evidence of a claim about a population
+parameter. We can justify a claim based on a confidence interval
+only if all the values in the confidence interval are consistent with
+the claim.
+Although alternative approaches, such as confidence intervals
+versus hypothesis tests, are accepted on the AP exam, these do
+require very special care in properly stating hypotheses, in dealing
+with one-sided versus two-sided questions, and in how standard
+deviations are calculated in problems involving proportions. So the
+recommendation is to avoid the alternative approach and instead
+conduct the more clearly indicated procedure.
+Example 4.15
+Suppose it is reported that random samples of 3-point shots by
+basketball players Stephen Curry and Michael Jordan show a 43%
+rate for Curry and a 33% rate for Jordan.
+
+[[PAGE 449]]
+(a)
+Are these numbers parameters or statistics?
+(b)
+State appropriate hypotheses for testing whether the
+difference is statistically significant.
+(c)
+Suppose the sample sizes were both 100. Find the z-statistic
+and the p-value, and give an appropriate conclusion at the 5%
+significance level.
+(d)
+Calculate and interpret a 95% confidence interval for the
+difference in population proportions.
+(e)
+Are the test decision and confidence interval consistent with
+each other?
+(f)
+Repeat (c), (d), and (e) as if the sample size had been 200 for
+each.
+Solutions
+(a)
+These two numbers are statistics because they describe
+samples, not all 3-point shots ever taken by these two players.
+(b)
+H0: pCurry = pJordan and Ha: pCurry ≠ pJordan
+(c)
+Calculator software gives z = 1.46 and P = 0.145. With this
+large of a p-value, 0.145 > 0.05, there is not sufficient
+evidence to reject H0; that is, there is not convincing evidence
+of a difference in the true 3-point percentage rates of Curry
+and Jordan.
+(d)
+Calculator software gives (−0.034, 0.234). We are 95%
+confident that the true difference in 3-point percentage rates
+(Curry minus Jordan) is between −3.4% and 23.4%.
+(e)
+Yes, they are consistent. We did not conclude that the two
+percentages differ, and the confidence interval (for the
+difference in population proportions) includes the value zero.
+(f)
+With a sample size of 200, calculator software gives z = 2.06
+and P = 0.039. With this small of a p-value, 0.039 < 0.05,
+there is sufficient evidence to reject H0; that is, there is
+convincing evidence of a difference in the true 3-point
+percentage rates of Curry and Jordan. With a sample size of
+200, calculator software gives a confidence interval of (0.005,
+0.195). We are 95% confident that the true difference in 3-
+
+[[PAGE 450]]
+point percentage rates (Curry minus Jordan) is between 0.5%
+and 19.5%. This interval does not include zero, so it is
+convincing evidence of a difference in the true 3-point
+percentage rates of Curry and Jordan. This is again consistent
+with the hypothesis test.
+TIP
+Sample size plays a substantial role in inferential statistics!

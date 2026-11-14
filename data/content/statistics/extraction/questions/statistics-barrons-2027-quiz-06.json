@@ -1,0 +1,803 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-06",
+ "kind": "quiz",
+ "number": 6,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 6 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 6",
+ "pdf_page_start": 168,
+ "pdf_page_end": 174,
+ "answer_page_start": 719,
+ "answer_page_end": 721,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "A completely randomized experiment",
+    "B": "A randomized matched pairs experiment",
+    "C": "A randomized placebo-controlled experiment",
+    "D": "An observational study"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 168,
+      "bbox": [
+       110.0,
+       584.2,
+       364.7,
+       601.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 168,
+      "bbox": [
+       110.0,
+       603.7,
+       385.3,
+       620.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 168,
+      "bbox": [
+       110.0,
+       623.2,
+       411.4,
+       640.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 168,
+      "bbox": [
+       110.0,
+       642.7,
+       278.0,
+       659.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 168,
+   "page_end": 168,
+   "stem": "Twenty obese men volunteer for a 2-month weight loss study. For one trial, while eating dinner the volunteers watched television episodes about morbidly obese individuals confronting lifelong emotional and physical struggles. For a second trial, while eating dinner the volunteers listened to heavy metal music. Each trial lasted for 1 month, and each volunteer completed both trials in a randomized order. The researchers noted each volunteer’s weight loss or weight gain after each trial. Which of the following best describes this study?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "This matched pairs experiment is a special type of randomized block experiment. In this study, each volunteer is a block in which the order of the treatment (watching the television episode or listening to heavy metal music) is randomly assigned.",
+   "question_id": "statistics-barrons-2027-quiz-06-001",
+   "source_pages": [
+    168,
+    168
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Picking a smaller sample",
+    "B": "Picking a larger sample",
+    "C": "Carefully wording the survey questions",
+    "D": "Increasing the number of survey questions"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       72.0,
+       288.0,
+       88.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       91.5,
+       279.4,
+       108.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       111.0,
+       375.5,
+       127.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       130.5,
+       401.4,
+       147.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 168,
+   "page_end": 169,
+   "stem": "Which of the following is best when trying to minimize response bias?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Response bias occurs when the question itself can lead to misleading results because people might not answer truthfully if they don’t want to be perceived as having unpopular or unsavory views or don’t want to admit to not following instructions. Careful wording of the questions can decrease the likelihood of response bias.",
+   "question_id": "statistics-barrons-2027-quiz-06-002",
+   "source_pages": [
+    168,
+    169
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The population can be divided into heterogeneous strata where each stratum looks roughly like the entire population.",
+    "B": "The population can be divided into homogeneous strata where all individuals in a given stratum have a characteristic in common.",
+    "C": "The population can be divided into equal-size strata and every individual has an equal chance of being put in any strata.",
+    "D": "The population can be divided into a small number of strata, each containing a large number of individuals."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       218.2,
+       527.0,
+       235.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       254.3,
+       521.8,
+       271.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       307.2,
+       519.8,
+       324.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       343.4,
+       510.2,
+       360.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 169,
+   "page_end": 169,
+   "stem": "When is it preferable to use stratified random sampling rather than simple random sampling?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Stratified random sampling involves dividing the population into homogeneous groups called strata, then picking random samples from each of the strata, and finally combining these individual samples into what is called a stratified random sample. For example, we can stratify by age, gender, income level, or race/ethnicity.",
+   "question_id": "statistics-barrons-2027-quiz-06-003",
+   "source_pages": [
+    169,
+    169
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The correlation is too far from -1 to support such a conclusion.",
+    "B": "There is no indication that this was a random sample of students.",
+    "C": "Only (–0.21)2 = 4.41% of the variability in test score is explained by the linear model.",
+    "D": "Causation cannot be determined from an observational study."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       531.3,
+       522.7,
+       548.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       550.8,
+       479.1,
+       567.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       587.0,
+       475.8,
+       605.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 169,
+      "bbox": [
+       110.0,
+       625.3,
+       516.5,
+       642.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 169,
+   "page_end": 169,
+   "stem": "A nutritionist believes that overeating before an exam leads to lower test scores. He conducts an observational study in which students taking a first-period exam self-report on what they had for breakfast. He finds a negative correlation of r = –0.21 between calories eaten for breakfast and exam scores, and the nutritionist concludes that overeating causes lower test scores. Why is such a conclusion incorrect?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Causation can be concluded only from well-designed experiments, not from observational studies.",
+   "question_id": "statistics-barrons-2027-quiz-06-004",
+   "source_pages": [
+    169,
+    169
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Both random sampling and random assignment allow for generalization from samples to populations.",
+    "B": "Random sampling allows for generalization from a sample to a population, while random assignment minimizes the effect of possible confounding variables.",
+    "C": "Random sampling minimizes the effect of possible confounding variables, while random assignment allows for generalization from samples to populations.",
+    "D": "Both random sampling and random assignment minimize the effect of possible confounding variables."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       72.0,
+       485.4,
+       88.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       108.2,
+       520.4,
+       125.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       161.1,
+       524.1,
+       177.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       214.0,
+       511.9,
+       230.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 169,
+   "page_end": 170,
+   "stem": "Which of the following is a correct statement about random sampling and random assignment?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Random sampling, which is the use of chance in selecting a sample from a population, is critical in being able to generalize from a sample to a population. Random assignment of subjects to treatments in experiments is critical in minimizing the effect of possible confounding variables.",
+   "question_id": "statistics-barrons-2027-quiz-06-005",
+   "source_pages": [
+    169,
+    170
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "This study suffers from undercoverage bias.",
+    "B": "Because of the use of randomization, the 93% statistic is an accurate estimate of the population parameter.",
+    "C": "Because no treatment was imposed in this study, no conclusion is possible about the percentage of college students who are happy with the dormitories.",
+    "D": "The conclusion would have been more accurate if students from all the dormitories were surveyed."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       435.3,
+       406.7,
+       452.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       454.8,
+       506.8,
+       471.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       491.0,
+       526.1,
+       507.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       543.9,
+       532.4,
+       560.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 170,
+   "page_end": 170,
+   "stem": "At a certain college, students can select whether to live in a dormitory or to live off campus in a rented apartment. A college administrator randomly picks two dormitories and then selects a random sample of students leaving each of those dormitories one morning to survey. The resulting sample of students are asked whether or not they were happy with the college dormitories. The administrator later publishes a report saying that 93% of the students attending the college are happy with the college dormitories. Which of the following statements is true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Because the students self-selected whether to live in a dormitory, the sample was not representative of all students attending the college. Not including students living off campus can result in undercoverage bias. The true proportion of students happy with the dormitories is probably less than 93%.",
+   "question_id": "statistics-barrons-2027-quiz-06-006",
+   "source_pages": [
+    170,
+    170
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "How often do you drink beer?",
+    "B": "Do you ever have two glasses of wine at a meal?",
+    "C": "Do you ever drive after becoming intoxicated?",
+    "D": "Have you ever called a ride share service after drinking?"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       648.3,
+       320.1,
+       665.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       667.8,
+       438.2,
+       684.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 170,
+      "bbox": [
+       110.0,
+       687.2,
+       420.4,
+       704.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       72.0,
+       483.3,
+       88.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 170,
+   "page_end": 171,
+   "stem": "A survey is to be conducted about alcohol use. Which of these questions is most likely to contribute to response bias?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Driving while intoxicated is both socially unacceptable and illegal. So even if they do this, most people will lie rather than admit to doing this.",
+   "question_id": "statistics-barrons-2027-quiz-06-007",
+   "source_pages": [
+    170,
+    171
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "Number the players 1 through 300, use a random number generator to pick 30 unique numbers, and survey the players with numbers corresponding to the chosen integers.",
+    "B": "Randomly select 5 teams out of the 50, and choose all 6 players from each of the 5 teams to participate in the survey.",
+    "C": "Randomly pick 10 players from each of the 3 conferences to participate in the survey.",
+    "D": "Number the players 1 through 300, and randomly pick a number between 1 and 10 to start with. Choose the corresponding player and every 10th player from that point forward to participate in the survey."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       226.5,
+       494.0,
+       243.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       279.4,
+       531.5,
+       296.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       315.6,
+       506.7,
+       332.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       351.8,
+       535.2,
+       368.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 171,
+   "page_end": 171,
+   "stem": "A sociologist plans to survey 30 college tennis players about whether or not they plan to turn pro at some point. On a randomly selected day, there were 50 teams participating, each with 6 players for a total of 300 players. The 50 teams come from 3 different conferences. Which of the following describes a cluster random sampling method?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Cluster random sampling involves dividing the population into heterogeneous groups called clusters and then picking everyone or everything in a random selection of one or more of the clusters. In this situation, the teams were the clusters. Choice (A) was an SRS, choice (C) was a stratified random sample with the conferences as strata, and choice (D) was a systematic random sample.",
+   "question_id": "statistics-barrons-2027-quiz-06-008",
+   "source_pages": [
+    171,
+    171
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "This was an observational study, and the response variable was the concentration of the contaminant.",
+    "B": "This was an observational study, and the response variable was the distance from the dump site.",
+    "C": "This was an experiment, and the response variable was the concentration of the contaminant.",
+    "D": "This was an experiment, and the response variable was the distance from the dump site."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       539.7,
+       527.3,
+       556.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       575.9,
+       527.1,
+       592.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       612.1,
+       502.4,
+       628.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 171,
+      "bbox": [
+       110.0,
+       648.3,
+       503.5,
+       665.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 171,
+   "page_end": 171,
+   "stem": "Five soil samples were taken within 50 feet of a dump site, and 5 more soil samples were taken over 100 feet away from the dump site. Measurements were taken of the concentration of a particularly dangerous contaminant. What type of study was conducted, and what was the response variable?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "No treatment was applied, so this was an observational study, not an experiment. Measurements were taken of the concentration of the contaminant, so concentration was the response variable.",
+   "question_id": "statistics-barrons-2027-quiz-06-009",
+   "source_pages": [
+    171,
+    171
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "The survey question asked, “Do you feel employees are greedy and unrealistic with regard to overtime pay?”",
+    "B": "Surveys were handed out to and completed by all the employees in the 8-to-5 work schedule.",
+    "C": "Surveys were completed by a random sample taken of roughly 10% of the employee base.",
+    "D": "Surveys were mailed to all employees, and 50% were returned."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 172,
+      "bbox": [
+       110.0,
+       138.8,
+       525.0,
+       155.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 172,
+      "bbox": [
+       110.0,
+       175.0,
+       535.7,
+       191.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 172,
+      "bbox": [
+       110.0,
+       211.2,
+       521.7,
+       228.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 172,
+      "bbox": [
+       110.0,
+       247.4,
+       529.2,
+       264.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 172,
+   "page_end": 172,
+   "stem": "A survey was designed to collect information about employees’ satisfaction with regard to overtime pay. Which of the following describes a procedure in which nonresponse bias is likely?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Nonresponse bias occurs when a substantial number of contacted people choose not to respond. People choosing to respond and people not choosing to respond might have very different opinions, which can lead to unreliable conclusions if only one group participates.",
+   "question_id": "statistics-barrons-2027-quiz-06-010",
+   "source_pages": [
+    172,
+    172
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 172,
+   "page_end": 172,
+   "stem": "A company has 50 employees, 40 blue-collar workers and 10 white- collar workers, and all workers belong to a company union. The union plans to form a 5-person committee to represent the union in negotiations for a new contract. (a) For sake of convenience, the union is considering picking an SRS. Describe a process for choosing a simple random sample of 5 people from among the 50 employees. (b) An alternative sampling method would be to select a stratified random sample where the two strata are the blue-collar workers and the white-collar workers. In the context of this situation, give a statistical advantage of selecting a stratified random sample as opposed to an SRS.",
+   "correct_answer": null,
+   "answer_text": "(a) Number the employees 1 through 50. Use a random number generator to pick integers between 1 and 50, throwing out repeats, until 5 unique integers are picked. The committee will consist of the 5 employees with numbers corresponding to the 5 integers. (b) With stratified random sampling, you could guarantee both blue-collar and white-collar employees on the committee. With an SRS, you could end up with only blue-collar or only white-collar employees on the committee. This is important because blue-collar and white- collar employees might have different concerns with regard to the issues under negotiation.",
+   "question_id": "statistics-barrons-2027-quiz-06-011",
+   "context": "",
+   "source_pages": [
+    172,
+    172
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 172,
+   "page_end": 173,
+   "stem": "Researchers performed a study to determine if increasing daily protein ingestion contributes to gaining lean body mass, muscle strength, and physical test performance in healthy student athletes at the college level. Thirty student athlete volunteers were randomly assigned to 3 groups, each group following the identical set diet. Each day for 5 weeks, participants in group 1 were given a supplement of 1 gram of protein per kilogram of body weight, participants in group 2 were given a supplement of 2 grams of protein per kilogram of body weight, and participants in group 3 received no protein supplement. (a) Was this an experiment or an observational study? Explain. (b) Why was a group included that received no supplement? (c) Is it reasonable to generalize conclusions from this study beyond the 30 participants? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Treatments (supplemental protein) were applied, so this was an experiment. (b) The purpose of the experiment was to see if ingesting supplemental protein is more effective in gaining lean body mass, muscle strength, and physical test performance than ingesting no protein supplement. To do a comparison, there needed to be a group that received no supplement. The study also allows for investigating two different levels of supplemental protein. (c) These 30 student-athletes were volunteers, who may not represent the population of student- athletes. For example, the volunteers might be more interested in muscle mass and do more weight training than other student-athletes. Ingesting supplemental protein and weight training would then be confounded. So it is not reasonable to generalize conclusions from this study beyond the 30 participants.",
+   "question_id": "statistics-barrons-2027-quiz-06-012",
+   "context": "",
+   "source_pages": [
+    172,
+    173
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 173,
+   "page_end": 173,
+   "stem": "A grocery store manager decides to do a survey to see if passing out a free piece of candy to the first 50 customers is more of an inducement to purchase candy than offering a storewide sale on candy. On a randomly chosen day, he surveys the first 100 customers who enter the store by asking the following question, “Some managers believe that customers arriving early at the store deserve a reward. Would you rather receive a free piece of candy for arriving early, or would you rather the store offer a storewide sale on candy?” (a) Explain how bias may have been introduced based on the way the convenience sample was selected, and suggest a way of selecting the sample to avoid this bias. (b) Explain how bias may have been introduced based on the way the question was worded, and explain how this bias could have been avoided.",
+   "correct_answer": null,
+   "answer_text": "(a) Surveying the first customers to arrive introduces undercoverage bias because the survey deals with offering a reward for early arrivals. A better method would be to choose a random sample from among all the customers shopping at that store because early arrivals and later arrivals will probably have different views on giving a reward to early arrivals. (b) Wording such as “deserve a reward” may lead early arrivals to say that is the alternative they prefer. It would be more neutral to simply ask, “Would you rather receive a free piece of candy for arriving early or would you rather the store offer a storewide sale on candy?”",
+   "question_id": "statistics-barrons-2027-quiz-06-013",
+   "context": "",
+   "source_pages": [
+    173,
+    173
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 173,
+   "page_end": 174,
+   "stem": "There are approximately 1,800 public colleges and 4,000 private colleges in the United States. A survey is to be taken of the students of U.S. colleges, and two sampling methods have been proposed. Method I: Randomly select 25 colleges from among the 5,800 colleges, and survey all the students at those colleges. Method II: Randomly select 2,000 students from the public colleges and 4,500 students from the private colleges to survey. (a) Identify the method that results in a stratified random sample, and identify the strata. (b) Identify the method that results in a cluster random sample, and identify the clusters. (c) Give one statistical advantage and one statistical disadvantage of using Method I. (d) Give one statistical advantage and one statistical disadvantage of using Method II.",
+   "correct_answer": null,
+   "answer_text": "(a) Method II results in a stratified random sample where the students attending public colleges are one strata and the students attending private colleges are a second strata. (b) Method I results in a cluster random sample where the 5,800 colleges are the clusters. (c) An advantage of Method I (cluster random sampling) is that only 25 colleges need to be surveyed, while a disadvantage is that the students surveyed might be all or mostly from either the private colleges or the public colleges (undercoverage bias). (d) An advantage of Method II (stratified random sampling) is that it guarantees that students from both private and public colleges will be surveyed, while a disadvantage is that it necessitates listing a very large number of students from which to be able to pick randomly.",
+   "question_id": "statistics-barrons-2027-quiz-06-014",
+   "context": "",
+   "source_pages": [
+    173,
+    174
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 174,
+   "page_end": 174,
+   "stem": "A large company is investigating ways of promoting greater productivity. Two programs they are considering are to provide at the beginning of the workday either short professional-led exercise sessions or short professional-led meditation sessions. One hundred employees volunteer to participate. Their productivity will be measured before and after a 2-month period of sessions. (a) Some of the volunteers who are friends ask to be placed into the same program. Give an example of why this would not be a good idea as far as measuring the success of one or the other program. (b) What advantage would there be to include a control group? (c) Will it be reasonable to generalize any conclusion from this study?",
+   "correct_answer": null,
+   "answer_text": "(a) If the friends are all in the same department and if something happened in the department to change productivity, this would be confounded with the program being implemented. (b) If something new occurred in the whole company that affected productivity, without the control group it would not be possible to know what increased productivity, one of the programs or what occurred in the whole company. (c) It would not be reasonable to generalize any conclusion because the study was with volunteers. People who volunteer might be more motivated and would increase productivity simply because they were being observed.",
+   "question_id": "statistics-barrons-2027-quiz-06-015",
+   "context": "",
+   "source_pages": [
+    174,
+    174
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 15,
+ "mcq_count": 10,
+ "frq_count": 5
+}

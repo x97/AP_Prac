@@ -1,0 +1,167 @@
+version: 1
+updated: 2026-10-30
+prompts:
+  - id: data-agent-pipeline
+    file: 00_data_agent_pipeline.md
+    title: 数据 Agent 处理规范
+    version: data-agent-v1
+    status: active
+    kind: orchestration
+    inputs:
+      - task_type
+      - subject_id
+      - scope
+    outputs:
+      - pipeline_runs
+      - pipeline_steps
+      - reports
+    depends_on:
+      - book-kp-extraction
+      - multi-book-concept-integration
+      - question-concept-linking
+      - pdf-question-ingestion
+      - ai-explanation
+      - unit-practice-merge
+    used_by: []
+
+  - id: book-kp-extraction
+    file: 01_book_kp_extraction.md
+    title: 全书一次性知识点抽取
+    version: whole-book-kp-v1
+    status: active
+    kind: extraction
+    inputs:
+      - book_path
+      - book_id
+      - subject_id
+    outputs:
+      - sections
+      - section_texts
+      - knowledge_points
+      - kp_aliases
+      - kp_relations
+    depends_on: []
+    used_by:
+      - multi-book-concept-integration
+      - data-agent-pipeline
+
+  - id: multi-book-concept-integration
+    file: 02_multi_book_concept_integration.md
+    title: 多本教材知识点处理
+    version: multi-book-concept-v1
+    status: active
+    kind: integration
+    inputs:
+      - subject_id
+      - book_ids
+      - mode
+    outputs:
+      - concept_clusters
+      - concept_members
+      - concept_relations
+      - concept_weights
+    depends_on:
+      - book-kp-extraction
+    used_by:
+      - question-concept-linking
+      - data-agent-pipeline
+
+  - id: question-concept-linking
+    file: 03_question_concept_linking.md
+    title: 题目知识点生成（概念层）
+    version: question-concept-link-v2
+    status: active
+    kind: linking
+    inputs:
+      - paper_id
+      - concept_db
+      - scope
+    outputs:
+      - question_analysis
+      - question_concept_links
+      - question_keywords
+    depends_on:
+      - multi-book-concept-integration
+      - pdf-question-ingestion
+    used_by:
+      - data-agent-pipeline
+
+  - id: pdf-question-ingestion
+    file: 04_pdf_question_ingestion.md
+    title: PDF 题目解析入库
+    version: pdf-question-ingestion-v1
+    status: active
+    kind: ingestion
+    inputs:
+      - pdf_path
+      - subject_id
+      - paper_meta
+    outputs:
+      - papers
+      - questions
+      - options
+      - assets
+      - frq_rubrics
+      - rubric_parts
+    depends_on: []
+    used_by:
+      - question-concept-linking
+      - ai-explanation
+      - data-agent-pipeline
+
+  - id: ai-explanation
+    file: 05_ai_explanation.md
+    title: AI 答案解析生成
+    version: ai-explanation-v2
+    status: active
+    kind: generation
+    inputs:
+      - paper_id
+      - question_scope
+    outputs:
+      - options.ai_explanation
+    depends_on:
+      - pdf-question-ingestion
+    used_by:
+      - data-agent-pipeline
+
+  - id: unit-practice-merge
+    file: 06_unit_practice_merge.md
+    title: 单元练习虚拟合并
+    version: unit-practice-merge-v2
+    status: active
+    kind: integration
+    inputs:
+      - subject_id
+      - exam_db
+      - knowledge_db
+      - practice_group_config
+    outputs:
+      - practice_groups
+      - practice_group_papers
+      - paper_question_map
+      - question_fingerprint
+      - reports
+    depends_on:
+      - pdf-question-ingestion
+      - question-concept-linking
+    used_by:
+      - data-agent-pipeline
+
+  - id: question-kp-linking-legacy
+    file: legacy/01_question_kp_linking.md
+    title: 题目解析关联（KP 旧版）
+    version: question-kp-link-v1
+    status: deprecated
+    superseded_by: question-concept-linking
+    kind: linking
+    inputs:
+      - paper_id
+      - kp_db
+    outputs:
+      - question_analysis
+      - question_kp_links
+      - question_keywords
+    depends_on:
+      - pdf-question-ingestion
+    used_by: []

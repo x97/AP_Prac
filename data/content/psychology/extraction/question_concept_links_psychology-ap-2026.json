@@ -1,0 +1,2419 @@
+{
+  "generated_at": "2026-11-01T14:28:05+08:00",
+  "paper_id": "psychology-ap-2026",
+  "model": "deepseek-flash[1m] + manual review",
+  "prompt_version": "question-concept-link-v2",
+  "count": 75,
+  "items": [
+    {
+      "question_id": "psychology-2026-mcq-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-5ac428a8dfc199d6",
+          "name": "Modeling",
+          "confidence": 0.9,
+          "evidence": "Firouzeh listens to the coach speak and then repeats the coach’s statements to her child."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-b3672a67e177ab1e",
+          "name": "Learning",
+          "confidence": 0.6,
+          "evidence": "Which of the following types of learning does Firouzeh best demonstrate?"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-b9bca0bc1554dfab",
+          "name": "Associative learning",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Associative learning is a broad learning type that could be confused with learning through observation."
+        },
+        {
+          "concept_id": "psy-concept-47b34c9ac5eaf9ad",
+          "name": "Insight learning",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Insight learning is another cognitive learning type, tempting because the coach's demonstration leads to a sudden understanding."
+        },
+        {
+          "concept_id": "psy-concept-561de0d5dd99f2ac",
+          "name": "Latent learning",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Latent learning is another cognitive learning concept that could be mistaken for learning without direct reinforcement."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-5ae2cee9982a971b",
+          "name": "Frontal lobes",
+          "confidence": 0.95,
+          "evidence": "Frontal lobe"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-4aa005c4541975ea",
+          "name": "Cerebellum",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Cerebellum is a brain structure sometimes affected by prenatal alcohol, but it coordinates movement and procedural memory rather than executive functions."
+        },
+        {
+          "concept_id": "psy-support-4ed60da287f5a4c8",
+          "name": "Corpus callosum",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Corpus callosum is another brain structure that can be affected by prenatal alcohol exposure, but it connects hemispheres rather than directing planning and impulse control."
+        },
+        {
+          "concept_id": "psy-concept-fadd8b6d4cf9c481",
+          "name": "Wernicke’s area",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Wernicke's area is a language-comprehension region, so it is a tempting brain-area distractor when language-related deficits are imagined."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-664aa66ec2bf696f",
+          "name": "Problem-focused coping",
+          "confidence": 0.97,
+          "evidence": "Which of the following techniques for dealing with stress is Jaclin employing?"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-11cad638fc9d97d4",
+          "name": "Coping",
+          "confidence": 0.6,
+          "evidence": "techniques for dealing with stress"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-517ea124ee5a2c97",
+          "name": "Emotion-focused coping",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Emotion-focused coping is the other major coping strategy; it is tempting because it also deals with stress, but it targets emotional response rather than the stressor itself."
+        },
+        {
+          "concept_id": "psy-concept-8f5feb5d3d47f4db",
+          "name": "General adaptation syndrome (GAS)",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "General adaptation syndrome is a stress-response model, so it is tempting as a stress-related term, but it describes bodily stages rather than a coping technique."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-ad33b490efef4e39",
+          "name": "Spacing effect",
+          "confidence": 0.9,
+          "evidence": "Kenneth waited until the night before an upcoming test on new psychology terms to begin memorizing the terms"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-e413bbadcf3626a9",
+          "name": "Encoding",
+          "confidence": 0.6,
+          "evidence": "encoding practices"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-0d524ef495d22bad",
+          "name": "Chunking",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Chunking is another encoding strategy, so it is tempting as a study technique, but it involves grouping items rather than cramming."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-e1a5b05e8f0bbb9d",
+          "name": "Consolidation theory of dreams",
+          "confidence": 0.95,
+          "evidence": "memories of his daily experiences are reactivated in his dreams and saved into his long-term memory"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-20b574ec661d81b3",
+          "name": "Long-term memory",
+          "confidence": 0.8,
+          "evidence": "saved into his long-term memory"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-8d213f20229fba2f",
+          "name": "Activation-synthesis theory of dreaming",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Activation-synthesis is a rival dream theory involving brain stem signals and frontal lobe organization, easily confused with consolidation theory."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-4275de995e028b2b",
+          "name": "Projective tests",
+          "confidence": 0.97,
+          "evidence": "Projective tests"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-ad3b9803e9fa0de4",
+          "name": "Achievement tests",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Achievement tests are a type of psychological test, but they measure acquired knowledge rather than personality."
+        },
+        {
+          "concept_id": "psy-concept-f9662a14fba030a4",
+          "name": "Aptitude tests",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Aptitude tests are a type of psychological test, but they measure ability/potential rather than personality."
+        },
+        {
+          "concept_id": "psy-concept-ea14a8ba244c5784",
+          "name": "Personality inventories",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Personality inventories are also used to assess personality, but they are self-report questionnaires associated with trait/social-cognitive approaches rather than the psychodynamic probing of the unconscious."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-8b013873f02d46f0",
+          "name": "Social anxiety disorder",
+          "confidence": 0.97,
+          "evidence": "he is overwhelmed by fear and experiences an elevated heartbeat and difficulty breathing. He finds he is unable to do his presentation"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-b2055652dff1119b",
+          "name": "Anxiety disorders",
+          "confidence": 0.6,
+          "evidence": "overwhelmed by fear and experiences an elevated heartbeat and difficulty breathing"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-5730c4fe753b6805",
+          "name": "Bipolar disorder",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Another mood disorder that is a near-miss category for a student who misclassifies the acute fear response."
+        },
+        {
+          "concept_id": "psy-concept-2b2ddcafba3f7f2c",
+          "name": "Dissociative identity disorder (DID)",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "A dissociative disorder that is a near-miss category if the student misreads the identity/self-presentation element."
+        },
+        {
+          "concept_id": "psy-concept-f56b4eb8773d3791",
+          "name": "Major depressive disorder",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "A mood disorder that could be mistakenly chosen if the student focuses on distress rather than fear of public performance."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-0f27489ca7b90465",
+          "name": "Informed consent",
+          "confidence": 0.97,
+          "evidence": "Informed assent and consent"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-e553a023506b6881",
+          "name": "Hypothesis",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "A testable hypothesis is a research-methods term, tempting students who focus on the study design rather than ethics."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-0882ea56b111ae32",
+          "name": "Regression toward the mean",
+          "confidence": 0.97,
+          "evidence": "Regression toward the mean"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-00c89f66cf2ec157",
+          "name": "Mean",
+          "confidence": 0.6,
+          "evidence": "scores ranging from 2 (low) to 12 (high)"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-95b115df7c16bf62",
+          "name": "Mental set",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Mental set is a cognition/problem-solving concept that could be confused with a statistical tendency if the student misreads the figure change as a thinking pattern."
+        },
+        {
+          "concept_id": "psy-concept-425e1b5ec97b753c",
+          "name": "Self-fulfilling prophecy",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Self-fulfilling prophecy involves expectations producing outcomes, which superficially resembles scores shifting across two testings."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-0aff118adf8f8b7f",
+          "name": "Confirmation bias",
+          "confidence": 0.97,
+          "evidence": "focuses only on data that support her belief that she is being treated unfairly"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-fc8688a908144ff6",
+          "name": "Change blindness",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Change blindness is another attention/perception failure distractor; it involves missing obvious environmental changes, not biased information seeking."
+        },
+        {
+          "concept_id": "psy-concept-2d6193decd1820d0",
+          "name": "Hindsight bias",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Hindsight bias is a cognitive bias distractor about believing one would have foreseen an outcome, not preferring confirming information."
+        },
+        {
+          "concept_id": "psy-concept-eef8c56ce9b6e45a",
+          "name": "Inattentional blindness",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Aria's intense focus on pay data could be misread as missing other visible information, but inattentional blindness concerns failing to perceive visible stimuli, not selectively seeking belief-supporting evidence."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-cd28e196adafce6d",
+          "name": "Avoidant attachment",
+          "confidence": 0.97,
+          "evidence": "Sandy often pulls away when conversations become intimate. She often cancels plans and works late hours as an excuse to steer clear of deepening personal connections."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-bff6ee547255be09",
+          "name": "Attachment",
+          "confidence": 0.7,
+          "evidence": "Sandy has been in a few romantic relationships, but they have never lasted more than a year."
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-8a668a993f87d078",
+          "name": "Egocentric",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Egocentrism is a developmental cognitive limitation (inability to take another's perspective) that could be mistakenly applied to Sandy's self-focused avoidance of intimacy."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-fc8688a908144ff6",
+          "name": "Change blindness",
+          "confidence": 0.97,
+          "evidence": "Kosuke does not notice that the server who is taking his food order is a different person than the server who took his drink order."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-eef8c56ce9b6e45a",
+          "name": "Inattentional blindness",
+          "confidence": 0.6,
+          "evidence": "Kosuke and his friends start a lively conversation that engages Kosuke for the duration of the meal."
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-36795e2ed074ab23",
+          "name": "Cocktail party effect",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Hearing one's name in a noisy room is the cocktail party effect, a selective attention phenomenon easily confused with change blindness."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-013",
+      "number": 13,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-b15e2d2435202cc1",
+          "name": "Availability heuristic",
+          "confidence": 0.97,
+          "evidence": "Simon immediately got angry and assumed that the driver was going to cut him off"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-62fa4272f2990315",
+          "name": "Heuristic",
+          "confidence": 0.6,
+          "evidence": "assumed that the driver was going to cut him off"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-cd8a9810613b207b",
+          "name": "Accommodation (developmental)",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Accommodation (developmental) is a cognition term that sounds like adjusting to new information, tempting students who misread the scenario as schema change."
+        },
+        {
+          "concept_id": "psy-concept-fc8688a908144ff6",
+          "name": "Change blindness",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Change blindness is a perceptual/memory failure that could be mistaken for the attentional explanation of Simon's reaction."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-014",
+      "number": 14,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-2b2ddcafba3f7f2c",
+          "name": "Dissociative identity disorder (DID)",
+          "confidence": 0.95,
+          "evidence": "Dissociative identity disorder (DID)"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-63149d965172d9a3",
+          "name": "Psychodynamic theorists on dissociative disorders",
+          "confidence": 0.6,
+          "evidence": "Childhood Trauma"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-15cd37aebbeab5fc",
+          "name": "Alzheimer’s disease",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Alzheimer's is a well-known disorder, but it is neurocognitive and not trauma-linked."
+        },
+        {
+          "concept_id": "psy-concept-a812339974edacbe",
+          "name": "Autism spectrum disorder",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "ASD is another disorder with childhood onset, so students may link childhood experiences to it."
+        },
+        {
+          "concept_id": "psy-concept-b0e4c20f50e8e9be",
+          "name": "Narcolepsy",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Narcolepsy is a sleep disorder, unrelated to trauma-coded life experiences."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-015",
+      "number": 15,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-a5e4d1b2d1fea797",
+          "name": "Developmental psychology",
+          "confidence": 0.72,
+          "evidence": "Which of the following concepts would a developmental psychologist use to describe the collection of experiences presented in the list?"
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-016",
+      "number": 16,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-464ca793e54aacd6",
+          "name": "Structured interview",
+          "confidence": 0.9,
+          "evidence": "The transcripts from structured interviews about the individuals' life experiences were coded and categorized."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-81a348b88e520321",
+          "name": "Semistructured or unstructured interviews",
+          "confidence": 0.6,
+          "evidence": "structured interviews"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-ed3b3cb9541aae2e",
+          "name": "Correlation coefficient",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "A correlation coefficient is a quantitative statistic, so it tempts students who equate measurement with numerical analysis rather than qualitative coding."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-017",
+      "number": 17,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-2605fd43370b5058",
+          "name": "Rods",
+          "confidence": 0.98,
+          "evidence": "Rods"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-e4d2dfffd65abba0",
+          "name": "Cones",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Cones are the other photoreceptor type in the retina, but they function in bright light and color vision rather than dim light."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-018",
+      "number": 18,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-e553a023506b6881",
+          "name": "Hypothesis",
+          "confidence": 0.9,
+          "evidence": "Data from the AHS students support Dr. Salvatore’s hypothesis, but data from the BHS students do not."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-support-e77253ab2c30e37e",
+          "name": "Positive correlation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Tempting because the study involves two variables (cooperation and attitudes), but the correct interpretation is about whether each group's data support the hypothesis, not a general positive correlation."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-019",
+      "number": 19,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-19c424511b4ea50f",
+          "name": "Meta-analysis",
+          "confidence": 0.97,
+          "evidence": "Dr. Malamud synthesizes 20 years of studies about brain activity during dreaming"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-73eae678f6208304",
+          "name": "Case study method",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "A case study is another non-experimental research method; students may confuse an in-depth single-participant design with combining many studies."
+        },
+        {
+          "concept_id": "psy-support-af1ddd01e08659ca",
+          "name": "Experiment",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "An experiment is a research method involving manipulation; students may pick it because the scenario mentions brain activity and a theory, but no variables are manipulated."
+        },
+        {
+          "concept_id": "psy-concept-64a758cee46d4f8f",
+          "name": "Naturalistic observation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Naturalistic observation is another non-experimental method; it is tempting because the scenario involves observing brain activity, but no behavior is observed in natural settings."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-020",
+      "number": 20,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-82c4e3ee05ce398d",
+          "name": "Psychological disorder",
+          "confidence": 0.95,
+          "evidence": "Distress is the level of negative affect and physiological arousal, while dysfunction is the inability to complete the daily activities necessary for healthy functioning in life."
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-021",
+      "number": 21,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-730c5b5ab6a92e1a",
+          "name": "Cognitive dissonance theory",
+          "confidence": 0.97,
+          "evidence": "This leaves Melissa feeling uncomfortable and conflicted about her choices?"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-f9a7259be624045b",
+          "name": "Conformity",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Melissa's behavior could be seen as going along with teammates' fast-food habits, tempting students to pick a social-influence concept instead of internal tension."
+        },
+        {
+          "concept_id": "psy-concept-4b0767bd3f9ca341",
+          "name": "Deindividuation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "A social psychology concept from the same chapter that could be misapplied to her behavior in a group setting."
+        },
+        {
+          "concept_id": "psy-support-7714b6e47d0e329a",
+          "name": "Reaction Formation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "A psychodynamic defense mechanism that also involves contradiction between expressed and true feelings, tempting as an explanation for her conflicted behavior."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-022",
+      "number": 22,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-d80e00aae3a9c560",
+          "name": "Perceptual constancy",
+          "confidence": 0.95,
+          "evidence": "Sutton does not perceive the brightly colored shirt his friend is wearing as changing color"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-6ada8cb9c0a62734",
+          "name": "Color constancy",
+          "confidence": 0.7,
+          "evidence": "does not perceive the brightly colored shirt his friend is wearing as changing color"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-eef8c56ce9b6e45a",
+          "name": "Inattentional blindness",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Inattentional blindness is another perceptual failure, but it involves missing visible objects due to focused attention, not maintaining stable color perception under changing illumination."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-023",
+      "number": 23,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-0cdeceafc3b1d89a",
+          "name": "Tip-of-the-tongue phenomenon",
+          "confidence": 0.97,
+          "evidence": "Garrett felt frustrated because he knew the name began with “M” but that is all he could recall"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-3d2f5b7bfc63e79d",
+          "name": "Recall",
+          "confidence": 0.6,
+          "evidence": "trying to recall the name"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-db0ac5ca1accec85",
+          "name": "Interference",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Interference is the broader forgetting category that proactive interference belongs to, so it is a near-miss forgetting explanation."
+        },
+        {
+          "concept_id": "psy-concept-9a10f2a0222edb8d",
+          "name": "Proactive interference",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Proactive interference is another forgetting mechanism, tempting students who assume old memories are blocking the name rather than recognizing the retrieval failure."
+        },
+        {
+          "concept_id": "psy-concept-c3d413fd23ca9264",
+          "name": "Retrograde amnesia",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Retrograde amnesia is also a memory-failure concept, so it tempts students who see 'cannot recall' and ignore that Garrett's memory loss is temporary and partial."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-024",
+      "number": 24,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-8b4ed1c8782c7132",
+          "name": "Crystallized intelligence",
+          "confidence": 0.95,
+          "evidence": "crystallized intelligence, which is necessary for completing crossword puzzles correctly, remains relatively stable"
+        },
+        {
+          "concept_id": "psy-concept-d1d367ea382a2a3c",
+          "name": "Fluid intelligence",
+          "confidence": 0.9,
+          "evidence": "While fluid intelligence tends to decrease as people age"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-support-78a10a0880d5d253",
+          "name": "Concrete operational stage",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Concrete operational stage is another Piaget stage named in the distractor, tempting students who confuse the stages of cognitive development."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-025",
+      "number": 25,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-1e283006174e5b32",
+          "name": "Functional MRI (fMRI)",
+          "confidence": 0.97,
+          "evidence": "participants underwent a scan that measured blood flow to the brain while they solved math problems"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-6926cf45daa9b4e1",
+          "name": "Positron emission tomography (PET) scan",
+          "confidence": 0.6,
+          "evidence": "measured blood flow to the brain"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-17609cceb9b37dea",
+          "name": "Electroencephalogram (EEG)",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "EEG is another brain-activity recording technique, but it records electrical waves rather than blood flow."
+        },
+        {
+          "concept_id": "psy-support-6864b960196d7bd4",
+          "name": "Lesioning",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Lesioning is another biological method for studying brain function, but it destroys tissue rather than measuring activity."
+        },
+        {
+          "concept_id": "psy-concept-4275de995e028b2b",
+          "name": "Projective tests",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Projective tests are a personality assessment method, not a brain-imaging technique."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-026",
+      "number": 26,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-530ab2e8efbe3ea4",
+          "name": "Transcranial magnetic stimulation (TMS)",
+          "confidence": 0.98,
+          "evidence": "Transcranial magnetic stimulation (TMS)"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-c69bf5ed7023bc0d",
+          "name": "Antagonists",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Antagonists are neurotransmitter-blocking drugs, a biological intervention, but they are pharmacological rather than a noninvasive brain-stimulation procedure."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-027",
+      "number": 27,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-421ad41850aa666b",
+          "name": "Independent variable",
+          "confidence": 0.95,
+          "evidence": "He manipulated an independent variable and randomly assigned the rats to different groups."
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-028",
+      "number": 28,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-9ab66e228c8d207e",
+          "name": "Fixed-ratio (FR) schedule",
+          "confidence": 0.97,
+          "evidence": "The first group was reinforced on a fixed-ratio schedule"
+        },
+        {
+          "concept_id": "psy-concept-78b5420192d4b26d",
+          "name": "Variable-ratio (VR) schedule",
+          "confidence": 0.97,
+          "evidence": "the second group was reinforced on a variable-ratio schedule"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-cb7b4927b5684820",
+          "name": "Fixed-interval (FI) schedule",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Fixed-interval is a time-based schedule; students may confuse ratio (response-based) with interval (time-based) schedules."
+        },
+        {
+          "concept_id": "psy-concept-a1484988f1f7d89e",
+          "name": "Variable-interval (VI) schedule",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Variable-interval is a time-based schedule; tempting if the student misreads the varying lever presses as varying time intervals."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-029",
+      "number": 29,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-9ab66e228c8d207e",
+          "name": "Fixed-ratio (FR) schedule",
+          "confidence": 0.9,
+          "evidence": "rats consistently received a food pellet after pressing the lever 2 times"
+        },
+        {
+          "concept_id": "psy-concept-78b5420192d4b26d",
+          "name": "Variable-ratio (VR) schedule",
+          "confidence": 0.9,
+          "evidence": "had to press the lever 2, 5, or 8 times to receive a food pellet"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-6ce7892a6918c202",
+          "name": "Continuous reinforcement",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Tempting because the first group's FR-2 schedule delivers reinforcement consistently, which students may misread as continuous reinforcement rather than a fixed-ratio schedule."
+        },
+        {
+          "concept_id": "psy-concept-a1484988f1f7d89e",
+          "name": "Variable-interval (VI) schedule",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Tempting because pausing until reinforcement is near is characteristic of interval schedules, which students may confuse with the ratio schedules used here."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-030",
+      "number": 30,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-3ba15426ce3cd609",
+          "name": "Self-efficacy",
+          "confidence": 0.97,
+          "evidence": "The child believes strongly in their ability to successfully complete tasks."
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-031",
+      "number": 31,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-5e83d9dad7e404b2",
+          "name": "Negative correlation",
+          "confidence": 0.95,
+          "evidence": "A negative correlation"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-9678e607606ec2fd",
+          "name": "Correlation",
+          "confidence": 0.8,
+          "evidence": ""
+        },
+        {
+          "concept_id": "psy-concept-a93e6c50c9aaaadb",
+          "name": "Scatterplot",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-e77253ab2c30e37e",
+          "name": "Positive correlation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "A positive correlation is the opposite-direction relationship; students who misread the graph's slope may choose it."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-032",
+      "number": 32,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-c38c7140ea330e53",
+          "name": "Phonological loop",
+          "confidence": 0.97,
+          "evidence": "Phonological loop"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-a4fdb7259d3bc3ac",
+          "name": "Central executive",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Central executive is another working memory component, tempting because it coordinates processing, but it does not hold the auditory song information."
+        },
+        {
+          "concept_id": "psy-concept-229ca7f2d4b5f4e1",
+          "name": "Iconic memory",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Iconic memory is a sensory memory store, tempting as a memory component but it is visual and lasts only fractions of a second."
+        },
+        {
+          "concept_id": "psy-concept-651c88b3b6126b63",
+          "name": "Visuospatial sketchpad",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Visuospatial sketchpad is a working memory component, but it handles visual/spatial information rather than the auditory song."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-033",
+      "number": 33,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-7e2715437f2b4338",
+          "name": "Confidentiality (or anonymity)",
+          "confidence": 0.95,
+          "evidence": "Maintaining anonymity"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-0f27489ca7b90465",
+          "name": "Informed consent",
+          "confidence": 0.6,
+          "evidence": "To follow ethical procedures, the researchers would need to take which of the following steps"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-2be674f37b68202f",
+          "name": "Debriefing",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Debriefing is another APA ethics safeguard, so it is tempting as an ethical step, but it applies to the confederates rather than protecting the strangers' privacy."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-034",
+      "number": 34,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-cde1dc7022232958",
+          "name": "Circadian rhythm",
+          "confidence": 0.95,
+          "evidence": "hoping that it will support the adjustment of his circadian rhythm to the new time zone"
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-035",
+      "number": 35,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-f8620fc75bb2516c",
+          "name": "Predictive validity",
+          "confidence": 0.9,
+          "evidence": "those who scored high on the test tended to be better at handling the job’s complexity"
+        },
+        {
+          "concept_id": "psy-concept-791fe7e98c43d78e",
+          "name": "Validity",
+          "confidence": 0.95,
+          "evidence": "It is valid because it accurately predicted that Camden could handle the job’s complexity."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-ad3b9803e9fa0de4",
+          "name": "Achievement tests",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Achievement test is a neighboring test-type concept; measuring prior knowledge is confused with the reasoning test's predictive purpose."
+        },
+        {
+          "concept_id": "psy-concept-97ff5dd1b8626af6",
+          "name": "Reliability",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Reliability (consistency) is a near-miss for validity; the option tempts by describing consistent hiring outcomes rather than accurate prediction."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-036",
+      "number": 36,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-2e3f1e09ce2c3c79",
+          "name": "Overgeneralization",
+          "confidence": 0.97,
+          "evidence": "Eva’s overgeneralization shows that she understands the past-tense rule but has not yet learned its irregularities."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-support-e3e4d09ab227842f",
+          "name": "One-word stage",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "One-word stage is another early language acquisition stage, tempting as a stage-based explanation of the error."
+        },
+        {
+          "concept_id": "psy-concept-d948e13846367b6c",
+          "name": "Telegraphic speech",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Telegraphic speech is a neighboring language development stage, tempting as an alternative stage explanation."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-037",
+      "number": 37,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-477a7848604bd47a",
+          "name": "Motor neurons (efferent neurons)",
+          "confidence": 0.9,
+          "evidence": "damage disrupted communication between her brain and body below the level of the injury"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-516108462abfa189",
+          "name": "Spinal cord",
+          "confidence": 0.7,
+          "evidence": "damaged the top part of her spinal cord"
+        }
+      ],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-038",
+      "number": 38,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-379c6e8a919e0b85",
+          "name": "Replication",
+          "confidence": 0.97,
+          "evidence": "Repeating the methods used in the study with different participants who are also experiencing hallucinations to see if similar results occur"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-0f27489ca7b90465",
+          "name": "Informed consent",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Ethics procedures like informed consent and confidentiality are research-methods terms, but they protect participants rather than test whether findings are reliable."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-039",
+      "number": 39,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-528c4f7c6cc7c27b",
+          "name": "James-Lange theory",
+          "confidence": 0.95,
+          "evidence": "The physiological experience came first, followed by the feeling of emotion."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-c7174285dc971fce",
+          "name": "Emotion",
+          "confidence": 0.7,
+          "evidence": "Her heart rate increases, and even though she starts to cry, she smiles broadly. A moment later, she experiences happiness."
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-3adbd43ba421475e",
+          "name": "Cannon-Bard theory",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Cannon-Bard theory holds that physiological arousal and emotional experience occur simultaneously, which is the near-miss alternative to the sequential James-Lange account."
+        },
+        {
+          "concept_id": "psy-support-d8de12e87db30296",
+          "name": "Two-factor theory",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Two-factor theory emphasizes cognitive appraisal as necessary for emotion, tempting students who focus on the appraisal wording rather than the arousal-first sequence."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-040",
+      "number": 40,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-ad3b9803e9fa0de4",
+          "name": "Achievement tests",
+          "confidence": 0.97,
+          "evidence": "The test was intended to measure whether the students had mastered the concepts in the cognition unit."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-f9662a14fba030a4",
+          "name": "Aptitude tests",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Aptitude tests also assess learning ability but predict future performance rather than measuring mastery of material already taught."
+        },
+        {
+          "concept_id": "psy-support-baadebecef638702",
+          "name": "Growth mindset",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Growth mindset is a belief about learning that a test could measure, but it is not the type of test described here."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-041",
+      "number": 41,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-9678e607606ec2fd",
+          "name": "Correlation",
+          "confidence": 0.9,
+          "evidence": "The degree of therapeutic alliance during therapy is negatively correlated with current anxiety levels."
+        },
+        {
+          "concept_id": "psy-concept-2621cbfbf3557239",
+          "name": "Therapeutic alliance",
+          "confidence": 0.95,
+          "evidence": "The degree of therapeutic alliance during therapy is negatively correlated with current anxiety levels."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-support-e77253ab2c30e37e",
+          "name": "Positive correlation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Option A also describes a positive relationship between therapy-related factors, tempting students who confuse the direction of the correlation."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-042",
+      "number": 42,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-f8620fc75bb2516c",
+          "name": "Predictive validity",
+          "confidence": 0.97,
+          "evidence": "Which of the following psychometric qualities does the college entrance exam display according to the correlation coefficient found in the study?"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-support-75ecc8b948ae7747",
+          "name": "Split-half reliability",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Split-half reliability is a psychometric quality also expressed as a correlation, but it compares two halves of a single test rather than predicting later performance."
+        },
+        {
+          "concept_id": "psy-support-fb07df7c3ac5826b",
+          "name": "Standardization",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Standardization is a related psychometric/testing concept, but it concerns uniform procedures and comparison norms, not the predictive relationship shown by a correlation."
+        },
+        {
+          "concept_id": "psy-support-506b9f01264229e5",
+          "name": "Test-retest reliability",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Test-retest reliability is another psychometric quality assessed via a correlation coefficient, but it involves correlating two administrations of the same test rather than predicting a future outcome."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-043",
+      "number": 43,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-84304aa4954868e1",
+          "name": "Zone of proximal development",
+          "confidence": 0.97,
+          "evidence": "Shawna plays a new video game and progresses as far in the game as she can on her own. She asks her sister, who has already completed the main story of the game, to join her and help her complete an especially difficult task in the game."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-8b4ed1c8782c7132",
+          "name": "Crystallized intelligence",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Crystallized intelligence is a cognitive-ability concept that could be confused with learning-with-help, but it concerns accumulated knowledge rather than assisted performance."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-044",
+      "number": 44,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-9678e607606ec2fd",
+          "name": "Correlation",
+          "confidence": 0.97,
+          "evidence": "Dr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-555f5ce0ab911bef",
+          "name": "Survey method",
+          "confidence": 0.72,
+          "evidence": "the group of students completed a survey that asked about their perceptions of their own abilities"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-af1ddd01e08659ca",
+          "name": "Experiment",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Random selection and pre/post measures can look experimental, but no variable was manipulated, so it is not an experiment."
+        },
+        {
+          "concept_id": "psy-concept-19c424511b4ea50f",
+          "name": "Meta-analysis",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "A meta-analysis also examines relationships across data, but it statistically combines results of many prior studies rather than one sample."
+        },
+        {
+          "concept_id": "psy-concept-64a758cee46d4f8f",
+          "name": "Naturalistic observation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Naturalistic observation is another non-experimental method, but here students completed surveys and reported measures rather than being observed in a natural setting."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-045",
+      "number": 45,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-9678e607606ec2fd",
+          "name": "Correlation",
+          "confidence": 0.95,
+          "evidence": "Dr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-555f5ce0ab911bef",
+          "name": "Survey method",
+          "confidence": 0.8,
+          "evidence": "the group of students completed a survey that asked about their perceptions of their own abilities"
+        }
+      ],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-046",
+      "number": 46,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-a93e6c50c9aaaadb",
+          "name": "Scatterplot",
+          "confidence": 0.9,
+          "evidence": "Dr. LaMont then examined the relationship between students’ scores on the survey and the students’ scores on the end-of-semester measures."
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-047",
+      "number": 47,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-2d6193decd1820d0",
+          "name": "Hindsight bias",
+          "confidence": 0.97,
+          "evidence": "Jennifer says she could have predicted the outcome because David struggles with those skills."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-0db98194431e9931",
+          "name": "Assimilation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Assimilation is a Piagetian cognitive-development term, so it is tempting when the scenario involves a child's preoperational thinking, but it describes fitting new experiences into existing schemas, not claiming prior prediction."
+        },
+        {
+          "concept_id": "psy-concept-8a668a993f87d078",
+          "name": "Egocentric",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Egocentrism is another Piagetian developmental concept that could be confused with the mother's self-focused claim, but it refers to difficulty taking another's perspective, not overestimating prior knowledge."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-048",
+      "number": 48,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-b0a4914d2ce29f16",
+          "name": "Approach-avoidance conflict",
+          "confidence": 0.97,
+          "evidence": "He was accepted at his top-choice school, but the tuition there is extremely high."
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-049",
+      "number": 49,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-2dc0891285cb8647",
+          "name": "Sensorineural hearing loss",
+          "confidence": 0.95,
+          "evidence": "Sensorineural deafness"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-65bf407e337650ad",
+          "name": "Cochlear implant",
+          "confidence": 0.9,
+          "evidence": "The device processes sound waves and sends the signals to electrodes embedded in the inner ear, which stimulate the auditory nerve."
+        },
+        {
+          "concept_id": "psy-support-b37d28c4b7ec9186",
+          "name": "Inner ear",
+          "confidence": 0.6,
+          "evidence": "electrodes embedded in the inner ear"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-a88354a8d7f6e5b6",
+          "name": "Aphasia",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Aphasia is a language impairment that can be confused with hearing loss, but it is a brain-based language disorder rather than a peripheral hearing problem."
+        },
+        {
+          "concept_id": "psy-concept-19ce5d37f7434467",
+          "name": "Conduction deafness",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Conduction deafness is the other major hearing-loss type; it is tempting because it is also a form of deafness, but a cochlear implant bypasses the damaged conduction pathway and targets the inner ear/auditory nerve."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-050",
+      "number": 50,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-a1cde680ece817fc",
+          "name": "Maintenance rehearsal",
+          "confidence": 0.97,
+          "evidence": "Stella kept repeating it to herself and remembered it long enough to type it into the text field"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-23ee3e4698b8e891",
+          "name": "Working memory",
+          "confidence": 0.6,
+          "evidence": "remembered it long enough to type it into the text field on the log-in screen"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-b67cc43e21350ae4",
+          "name": "Elaborative rehearsal",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Elaborative rehearsal is the other rehearsal type; it is tempting because it is also a memory strategy, but it involves encoding meaning rather than rote repetition."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-051",
+      "number": 51,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-4417b67230e3fa89",
+          "name": "Stress",
+          "confidence": 0.9,
+          "evidence": "Using psychological interventions, stress management strategies, and lifestyle modifications to address Jayla’s health concerns"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-517ea124ee5a2c97",
+          "name": "Emotion-focused coping",
+          "confidence": 0.6,
+          "evidence": "stress management strategies"
+        },
+        {
+          "concept_id": "psy-support-9319f599d697e096",
+          "name": "Health",
+          "confidence": 0.5,
+          "evidence": "address Jayla’s health concerns"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-e7a8267f5e63f20e",
+          "name": "Free association",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Free association is a psychodynamic technique, tempting as a psychological method but unrelated to health psychology."
+        },
+        {
+          "concept_id": "psy-concept-530ab2e8efbe3ea4",
+          "name": "Transcranial magnetic stimulation (TMS)",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "TMS is a biological treatment, tempting as a clinical intervention but not a health psychologist's role."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-052",
+      "number": 52,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-7dc09ea34131145b",
+          "name": "Institutional review board (IRB)",
+          "confidence": 0.95,
+          "evidence": "Which of the following will the institutional review board most likely evaluate about the psychologist’s research to determine approval?"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-0f27489ca7b90465",
+          "name": "Informed consent",
+          "confidence": 0.5,
+          "evidence": "Whether the procedures of the study follow established ethical guidelines to protect participants"
+        },
+        {
+          "concept_id": "psy-support-fc89ec40aea51208",
+          "name": "Risk",
+          "confidence": 0.6,
+          "evidence": "Whether the procedures of the study follow established ethical guidelines to protect participants"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-168dcc3b70564816",
+          "name": "Statistical significance",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Statistical significance and sample size are inferential/statistical concerns, not what an IRB evaluates for ethical approval."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-053",
+      "number": 53,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-56a0a72e8aa9482e",
+          "name": "Confounding variable",
+          "confidence": 0.95,
+          "evidence": "Which of the following factors was most likely to act as a confounding variable in Professor Kurri’s design?"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-f37a921aea24b88b",
+          "name": "Random assignment",
+          "confidence": 0.6,
+          "evidence": "She randomly assigned participants to one of two groups"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-fb60747059cbd826",
+          "name": "Gender",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Gender is a participant characteristic that could differ between groups, tempting as a confound, but random assignment and the tables make it less likely than age."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-054",
+      "number": 54,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-649512c5625627cd",
+          "name": "Person-centered therapy",
+          "confidence": 0.97,
+          "evidence": "the therapist focuses primarily on helping Hannah feel deeply understood and accepted without judgment"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-f4972d26cd72767c",
+          "name": "Active listening",
+          "confidence": 0.6,
+          "evidence": "Hannah does feel heard"
+        },
+        {
+          "concept_id": "psy-concept-ed6831748825e40b",
+          "name": "Unconditional positive regard",
+          "confidence": 0.85,
+          "evidence": "accepted without judgment"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-22deed9183ab492f",
+          "name": "Biofeedback",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Biofeedback is a therapeutic technique, but it involves controlling physiological responses, not feeling understood and accepted."
+        },
+        {
+          "concept_id": "psy-support-47f9e9d01f8e0730",
+          "name": "Cognitive restructuring",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Cognitive restructuring is a therapy technique, but it targets maladaptive thinking patterns rather than providing unconditional acceptance."
+        },
+        {
+          "concept_id": "psy-concept-c9646bab0f58a1f4",
+          "name": "Psychodynamic therapy",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Psychodynamic therapy is another insight-oriented talk therapy that could be confused with the humanistic, acceptance-focused approach described."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-055",
+      "number": 55,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-0b1902734622c3e4",
+          "name": "Yerkes-Dodson law",
+          "confidence": 0.97,
+          "evidence": "she knows she will do better on the test if she is feeling less stressed"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-aa5b8906257435ca",
+          "name": "Law of effect",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "The Law of Effect is a learning principle about consequences, tempting because the stem mentions doing better on the exam."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-056",
+      "number": 56,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-857edbf68ea4a34d",
+          "name": "Social trap",
+          "confidence": 0.95,
+          "evidence": "Everyone worked on the project as they pleased, which led to the whole group failing the project."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-4b0767bd3f9ca341",
+          "name": "Deindividuation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Deindividuation involves losing self-restraint in anonymous groups, which can superficially resemble the group's unrestrained individual behavior here."
+        },
+        {
+          "concept_id": "psy-concept-161701a95bd78c9e",
+          "name": "Group polarization",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Group polarization involves group discussion making decisions more extreme, a group-dynamics outcome that could be confused with the group's poor collective result."
+        },
+        {
+          "concept_id": "psy-concept-421739841f0babba",
+          "name": "Social facilitation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Social facilitation also involves the presence of others affecting performance, but it concerns arousal improving easy tasks or impairing hard ones, not self-interest harming the collective."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-057",
+      "number": 57,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-56a0a72e8aa9482e",
+          "name": "Confounding variable",
+          "confidence": 0.9,
+          "evidence": "parental poverty is linked to both birth weight and food environment"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-f00c4033025a3163",
+          "name": "Variable",
+          "confidence": 0.6,
+          "evidence": "parental poverty is linked to both birth weight and food environment"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-fa3ecb1a0b260296",
+          "name": "Social desirability bias",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Social desirability bias is another research-methods bias, so students may confuse a response bias with a confounding-variable problem."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-058",
+      "number": 58,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-ed62835d5368f887",
+          "name": "Post-traumatic growth",
+          "confidence": 0.97,
+          "evidence": "now shares videos of his physical therapy online to motivate others in similar situations"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-cc1a6a7482940620",
+          "name": "Resilience",
+          "confidence": 0.6,
+          "evidence": "now is no longer able to walk"
+        }
+      ],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-059",
+      "number": 59,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-107d4119658fc87e",
+          "name": "Retinal disparity",
+          "confidence": 0.95,
+          "evidence": "Retinal disparity"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-16437d9a95461568",
+          "name": "Depth perception",
+          "confidence": 0.7,
+          "evidence": "Ava struggled to judge how far away the street signs were"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-77cc960ca304fe2a",
+          "name": "Closure",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Closure is a Gestalt grouping principle, tempting as another perceptual principle but unrelated to distance judgment."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-060",
+      "number": 60,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-80d1c7f25a1f7e9c",
+          "name": "Operational definition",
+          "confidence": 0.95,
+          "evidence": "Which of the following best provides the operational definition of the effects of opioid addiction measured in the study?"
+        },
+        {
+          "concept_id": "psy-concept-9b059c19566fbe9e",
+          "name": "Withdrawal symptoms",
+          "confidence": 0.85,
+          "evidence": "participants were asked to rate the severity of their withdrawal symptoms on a scale from 0 to 10"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-a9553a18a96f7551",
+          "name": "Dependent variable",
+          "confidence": 0.7,
+          "evidence": "the effects of opioid addiction measured in the study"
+        }
+      ],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-061",
+      "number": 61,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-8b916d20c4d50da6",
+          "name": "Range",
+          "confidence": 0.97,
+          "evidence": "Which of the following is the range for the withdrawal-symptom ratings over the course of the three rating periods?"
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-062",
+      "number": 62,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-37b84bc99bc7bbc2",
+          "name": "Likert scales",
+          "confidence": 0.9,
+          "evidence": "participants were asked to rate the severity of their withdrawal symptoms on a scale from 0 to 10"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-ed3b3cb9541aae2e",
+          "name": "Correlation coefficient",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "A correlation coefficient is a quantitative statistic, tempting as a 'quantitative measurement tool' even though it measures relationships, not symptoms."
+        },
+        {
+          "concept_id": "psy-concept-464ca793e54aacd6",
+          "name": "Structured interview",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "A structured interview is another quantitative/qualitative measurement tool, so it is a plausible alternative method for assessing symptoms."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-063",
+      "number": 63,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-9ec7cee983a665cf",
+          "name": "Microsystem",
+          "confidence": 0.97,
+          "evidence": "the rugby team and cheer squad would be part of"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-fc3790392bd5c6dc",
+          "name": "Ecological systems theory",
+          "confidence": 0.9,
+          "evidence": "According to the ecological systems theory"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-327e3efd1ec4b680",
+          "name": "Chronosystem",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Chronosystem is another ecological systems layer (timing/transitions), tempting students who focus on the student's life stage rather than direct settings."
+        },
+        {
+          "concept_id": "psy-support-ca98bd629d5e5b13",
+          "name": "Exosystem",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Exosystem is another layer of ecological systems theory involving indirect influences, tempting students who confuse direct vs. indirect environments."
+        },
+        {
+          "concept_id": "psy-support-bd2d285764c65303",
+          "name": "Macrosystem",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Macrosystem is another ecological systems layer (cultural influences), tempting students who misplace the team/group context at the broadest level."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-064",
+      "number": 64,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-3d2f5b7bfc63e79d",
+          "name": "Recall",
+          "confidence": 0.97,
+          "evidence": "Fill-in-the-blank questions may be more difficult for Xanthe to answer because they require her to use which of the following?"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-ed02c3cceb1db19d",
+          "name": "Recognition",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Recognition is the retrieval measure used by multiple-choice questions, the easier format, so it is tempting to pick as the answer."
+        },
+        {
+          "concept_id": "psy-support-206c623d13e59628",
+          "name": "State-dependent memory",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "State-dependent memory is another retrieval phenomenon, tempting because it also concerns how cues affect remembering."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-065",
+      "number": 65,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-012512d5a73f2605",
+          "name": "Social-Cultural (or Sociocultural) Perspective",
+          "confidence": 0.9,
+          "evidence": "Vygotsky’s theory of cognitive development"
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-066",
+      "number": 66,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-ac975967246d045a",
+          "name": "Positive psychology",
+          "confidence": 0.9,
+          "evidence": "Which of the following statements best explains the shift from the solid-line curve to the dashed-line curve in terms of positive psychology?"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-b005f707e281e95a",
+          "name": "Well-being",
+          "confidence": 0.8,
+          "evidence": "interventions that are successful in improving well-being"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-support-f43d99555d6c1e9a",
+          "name": "Effect size",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Tempting because effect size is a statistical concept related to intervention strength, but the question asks for the positive-psychology explanation of the shift."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-067",
+      "number": 67,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-11074dacf916dcdf",
+          "name": "Evolutionary (or Darwinian) Perspective",
+          "confidence": 0.95,
+          "evidence": "Which of the following psychological perspectives was most likely used by eugenicists to justify their discriminatory beliefs?"
+        }
+      ],
+      "supporting": [],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-068",
+      "number": 68,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-174e7750a4007294",
+          "name": "Perceptual set",
+          "confidence": 0.95,
+          "evidence": "Aiden makes this assumption because he has only ever experienced small animals as the cause of rustling sounds in nearby bushes."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-ec41aab0f258cda4",
+          "name": "Top-down processing",
+          "confidence": 0.7,
+          "evidence": "Aiden makes this assumption because he has only ever experienced small animals as the cause of rustling sounds in nearby bushes."
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-04c35f99655cdda6",
+          "name": "Bottom-up processing",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "A",
+          "reason": "Bottom-up processing is a perceptual processing mode that is tempting because the item is about perception, but it builds perception from sensory features rather than from prior experience/expectation."
+        },
+        {
+          "concept_id": "psy-concept-95b115df7c16bf62",
+          "name": "Mental set",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Mental set is a near-miss cognitive rigidity concept that is tempting because it also involves prior experience shaping approach, but it applies to problem-solving strategies rather than perceptual interpretation."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-069",
+      "number": 69,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-d55d0168ef67ac07",
+          "name": "Representative sample",
+          "confidence": 0.9,
+          "evidence": "The sample is limited to Missouri high school students."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-3e0bd990a3b67d73",
+          "name": "Population",
+          "confidence": 0.6,
+          "evidence": "The sample is limited to Missouri high school students."
+        },
+        {
+          "concept_id": "psy-support-9208e1f59f3955f8",
+          "name": "Random sampling",
+          "confidence": 0.6,
+          "evidence": "a sample of 227 high school students in Missouri"
+        }
+      ],
+      "confusables": []
+    },
+    {
+      "question_id": "psychology-2026-mcq-070",
+      "number": 70,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-5445b04964c395ef",
+          "name": "Biological preparedness",
+          "confidence": 0.95,
+          "evidence": "Which of the following concepts best explains why one negative experience created such a lasting taste aversion?"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-7079e953e70f8403",
+          "name": "Taste aversion",
+          "confidence": 0.8,
+          "evidence": "she got a terrible stomachache and spent the night vomiting. Since then, even thinking about pizza with black olives has made Janelle feel nauseated"
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-b4fedde0527f814f",
+          "name": "Extinction",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Extinction is a classical conditioning concept about weakening a conditioned response, tempting because the scenario involves conditioning, but it describes unlearning rather than why the aversion formed so strongly."
+        },
+        {
+          "concept_id": "psy-concept-0d164d7b2c20a674",
+          "name": "Generalization",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Stimulus generalization is a classical conditioning concept about responding to similar stimuli, tempting because the aversion involves a learned association, but it does not explain the biological readiness for taste aversion."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-071",
+      "number": 71,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-cad2cc21c90612a7",
+          "name": "Thalamus",
+          "confidence": 0.97,
+          "evidence": "What part of his brain first processed the incoming sensation before rerouting it to the correct area in the cortex"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-dbc0a2ae53f8364e",
+          "name": "Broca’s area",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Broca's area is a named cortical area, tempting as a brain region, but it controls speech muscles rather than sensory relay."
+        },
+        {
+          "concept_id": "psy-concept-52570b386019ae0d",
+          "name": "Hippocampus",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Hippocampus is a nearby limbic-system structure, tempting as a brain structure involved in processing incoming information, but it handles memory encoding, not sensory relay."
+        },
+        {
+          "concept_id": "psy-concept-f463b4868ef10dfd",
+          "name": "Hypothalamus",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Hypothalamus is another limbic-system structure often grouped with the thalamus, tempting by name similarity, but it regulates metabolic functions rather than relaying sensory signals."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-072",
+      "number": 72,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-af1ddd01e08659ca",
+          "name": "Experiment",
+          "confidence": 0.95,
+          "evidence": "The participants were randomly assigned to one of two conditions."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-73eae678f6208304",
+          "name": "Case study method",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Case study is a non-experimental method focused on one participant or small group; tempting as a research method label but does not involve manipulation or random assignment."
+        },
+        {
+          "concept_id": "psy-concept-19c424511b4ea50f",
+          "name": "Meta-analysis",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Meta-analysis is a statistical method combining many studies; tempting as a research method but not used here since this is a single primary study."
+        },
+        {
+          "concept_id": "psy-concept-64a758cee46d4f8f",
+          "name": "Naturalistic observation",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "C",
+          "reason": "Naturalistic observation is another non-experimental research method; tempting because the study involves observing helping behavior, but it lacks manipulation and random assignment."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-073",
+      "number": 73,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-a9553a18a96f7551",
+          "name": "Dependent variable",
+          "confidence": 0.97,
+          "evidence": "The researchers recorded the number of participants who offered to help."
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-421ad41850aa666b",
+          "name": "Independent variable",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "B",
+          "reason": "Whether the email addresses were visible is the manipulated factor, so it is the independent variable rather than the dependent variable."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-074",
+      "number": 74,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-support-854b2b2569dc306d",
+          "name": "Diffusion of responsibility",
+          "confidence": 0.95,
+          "evidence": "Diffusion of responsibility"
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-concept-ead2e4d0e627a932",
+          "name": "Bystander effect",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "concept_id": "psy-concept-a38b51812ed66cd4",
+          "name": "Just-world phenomenon",
+          "confidence": null,
+          "evidence": null,
+          "option_label": "D",
+          "reason": "Just-world phenomenon is another social psychological attribution concept, tempting as a social-psychology label but unrelated to group size and helping."
+        }
+      ]
+    },
+    {
+      "question_id": "psychology-2026-mcq-075",
+      "number": 75,
+      "status": "linked",
+      "core": [
+        {
+          "concept_id": "psy-concept-1afff06a48f4e4b8",
+          "name": "Systematic desensitization",
+          "confidence": 0.97,
+          "evidence": "His therapist recommends that he begin therapy by first watching videos of airplanes taking off and landing. After a few sessions, he progresses to sitting in a stationary plane at the airport, then gradually works up to booking a short flight."
+        }
+      ],
+      "supporting": [
+        {
+          "concept_id": "psy-support-6214de5585d7f3b7",
+          "name": "Anxiety hierarchy",
+          "confidence": 0.5,
+          "evidence": "first watching videos of airplanes taking off and landing"
+        },
+        {
+          "concept_id": "psy-concept-09f59a43667d8d33",
+          "name": "Exposure therapies",
+          "confidence": 0.6,
+          "evidence": "gradually works up to booking a short flight"
+        }
+      ],
+      "confusables": []
+    }
+  ],
+  "errors": []
+}

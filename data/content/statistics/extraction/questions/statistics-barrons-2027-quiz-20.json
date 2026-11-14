@@ -1,0 +1,509 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-20",
+ "kind": "quiz",
+ "number": 20,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 20 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 20",
+ "pdf_page_start": 353,
+ "pdf_page_end": 358,
+ "answer_page_start": 739,
+ "answer_page_end": 741,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 353,
+      "bbox": [
+       142.2,
+       497.2,
+       402.0,
+       523.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 353,
+      "bbox": [
+       142.2,
+       527.3,
+       398.4,
+       553.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 353,
+      "bbox": [
+       142.2,
+       557.3,
+       405.6,
+       583.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 353,
+      "bbox": [
+       143.6,
+       588.1,
+       404.9,
+       613.9
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 353,
+      "bbox": [
+       111.1,
+       499.7,
+       130.7,
+       516.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 353,
+      "bbox": [
+       111.1,
+       529.7,
+       130.5,
+       547.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 353,
+      "bbox": [
+       111.1,
+       560.1,
+       130.7,
+       577.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 353,
+      "bbox": [
+       111.1,
+       590.6,
+       131.8,
+       607.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 353,
+   "page_end": 353,
+   "stem": "In a simple random sample of 300 elderly men, 65% were married, while in an independent simple random sample of 400 elderly women, 48% were married. Determine a 99% confidence interval estimate for the difference between the proportions of all elderly men and women who are married.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The critical z-scores are ±invNorm(0.995) = ±2.576.",
+   "question_id": "statistics-barrons-2027-quiz-20-001",
+   "source_pages": [
+    353,
+    353
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 354,
+      "bbox": [
+       142.2,
+       120.7,
+       354.7,
+       182.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 354,
+      "bbox": [
+       142.2,
+       186.5,
+       362.6,
+       238.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 354,
+      "bbox": [
+       142.2,
+       243.1,
+       348.3,
+       293.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 354,
+      "bbox": [
+       143.6,
+       298.2,
+       355.5,
+       349.7
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 354,
+      "bbox": [
+       111.1,
+       141.0,
+       130.7,
+       158.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 354,
+      "bbox": [
+       111.1,
+       202.2,
+       130.5,
+       219.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 354,
+      "bbox": [
+       111.1,
+       258.1,
+       130.7,
+       275.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 354,
+      "bbox": [
+       111.1,
+       313.5,
+       131.8,
+       330.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 353,
+   "page_end": 354,
+   "stem": "Is Internet usage different in the Middle East from Internet usage in Latin America? In a random sample of 500 adults in the Middle East, 151 claimed to be regular Internet users, while in a random sample of 1,000 adults in Latin America, 345 claimed to be regular users. What is the p-value for the appropriate hypothesis test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": ". This is a two-sided test (H0: p1 − p2 = 0, Ha: p1 − p2 ≠ 0) with . The p-value equals twice the tail probability (because this is a two-sided test), so the p-value equals .",
+   "question_id": "statistics-barrons-2027-quiz-20-002",
+   "source_pages": [
+    353,
+    354
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability that the null hypothesis is true is 0.032.",
+    "B": "The probability that the alternative hypothesis is true is 0.032.",
+    "C": "The difference in population proportions is 0.032.",
+    "D": "None of the above are proper conclusions."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 354,
+      "bbox": [
+       108.3,
+       491.5,
+       486.0,
+       508.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 354,
+      "bbox": [
+       108.3,
+       511.5,
+       529.7,
+       528.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 354,
+      "bbox": [
+       108.3,
+       531.5,
+       448.4,
+       548.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 354,
+      "bbox": [
+       108.3,
+       551.6,
+       405.4,
+       568.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 354,
+   "page_end": 354,
+   "stem": "Laura has a penny and a nickel and wonders if they have the same likelihood of showing heads when they are spun. She spins each coin 200 times to test if there is a significant difference in the proportion of spins that they each land showing heads. Suppose the test with H0: ppenny = pnickel and Ha: ppenny ≠ pnickel results in a p-value of 0.032. Which of the following is a proper conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The p-value is a conditional probability; in this case, there is a 0.032 probability of an observed difference in sample proportions as extreme as (or more extreme than) the one obtained if the null hypothesis is assumed to be true.",
+   "question_id": "statistics-barrons-2027-quiz-20-003",
+   "source_pages": [
+    354,
+    354
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "We are 95% confident that the difference in the sample proportions of seniors and freshmen who are willing to report cheating by other students is between -0.10 and -0.02.",
+    "B": "We are 95% confident that the difference in proportions of all seniors and all freshmen who are willing to report cheating by other students is between -0.10 and -0.02.",
+    "C": "In repeated samplings of freshmen and seniors, approximately 95% of the calculated confidence interval proportion differences will capture the true proportion difference between seniors and freshmen who are willing to report cheating by other students.",
+    "D": "There is a 0.95 probability that the true difference between the proportions of seniors and freshmen who are willing to report cheating by other students is between -0.10 and -0.02."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 355,
+      "bbox": [
+       108.3,
+       72.0,
+       488.7,
+       89.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 355,
+      "bbox": [
+       108.3,
+       126.4,
+       526.3,
+       143.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 355,
+      "bbox": [
+       108.3,
+       180.8,
+       531.8,
+       198.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 355,
+      "bbox": [
+       108.3,
+       269.6,
+       512.1,
+       286.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 354,
+   "page_end": 355,
+   "stem": "A college guidance counselor is studying the incidence of reported cheating at her college. She surveys independent random samples of freshmen and seniors as to whether they were willing to report cheating by other students. A 95% confidence interval for the difference (proportion of seniors minus proportion of freshmen) was calculated as − 0.06 ± 0.04. Which of the following is the best interpretation of the confidence interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "A confidence interval of 95% means that we are 95% confident that our interval has captured the true population parameter. Choice (C) is a correct interpretation of confidence level.",
+   "question_id": "statistics-barrons-2027-quiz-20-004",
+   "source_pages": [
+    354,
+    355
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "The p-value is less than 0.01, so there is convincing evidence at the 5% significance level that the proportion of teens experiencing cyberbullying is different for the 15–17 and 13– 14 age groups.",
+    "B": "The p-value is between 0.01 and 0.10, so there is convincing evidence at the 5% significance level that the proportion of teens experiencing cyberbullying is different for the 15–17 and 13–14 age groups.",
+    "C": "The p-value is between 0.01 and 0.10, so at the 5% significance level it cannot be determined whether the proportion of teens experiencing cyberbullying is different for the 15–17 and 13–14 age groups.",
+    "D": "The p-value is greater than 0.10, so there is not convincing evidence at the 5% significance level that the proportion of teens experiencing cyberbullying is different for the 15–17 and 13–14 age groups."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 355,
+      "bbox": [
+       108.3,
+       620.3,
+       523.3,
+       637.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 356,
+      "bbox": [
+       108.3,
+       72.0,
+       520.9,
+       89.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 356,
+      "bbox": [
+       108.3,
+       143.6,
+       466.6,
+       160.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 356,
+      "bbox": [
+       108.3,
+       215.2,
+       511.5,
+       232.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 355,
+   "page_end": 356,
+   "stem": "Cyberbullying is a growing problem, and for those who suffer cyberbullying, the effects can be devastating. A company marketing a free antibullying app believes that different age groups of teens experience different proportions of cyberbullying. The company does a study to compare the experiences of 15-to-17- year-olds versus 13-to-14-year-olds. Let p15–17 represent the proportion of 15-to-17-year-olds who have experienced some form of cyberbullying, and let p13–14 represent the proportion of 13-to- 14-year-olds who have experienced some form of cyberbullying. The study reports that the 90% confidence interval for the difference in proportion of teens experiencing some form of cyberbullying (15–17 minus 13–14) is (0.04, 0.16) while a 99% confidence interval for the difference is (0.02, 0.18). Which of the following is the most reasonable conclusion for the company’s hypothesis at the α = 0.05 significance level?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The 99% confidence interval does not contain 0. So there is convincing evidence at the 1% significance level that the proportion of teens experiencing cyberbullying is different for the 15–17 and 13–14 age groups. If there is convincing evidence at the 1% level, there will be convincing evidence at the 5% level and, in fact, at any level greater than 1%.",
+   "question_id": "statistics-barrons-2027-quiz-20-005",
+   "source_pages": [
+    355,
+    356
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 356,
+   "page_end": 356,
+   "stem": "In a random sample of 500 new births in the United States, 41.2% were to unmarried women, while in a random sample of 400 new births in the United Kingdom, 46.5% were to unmarried women. (a) Calculate a 95% confidence interval for the difference in the proportions of new births to unmarried women in the United States and the United Kingdom. (b) Does the confidence interval support the belief by a UN health care statistician that the proportions of new births to unmarried women is different in the United States and the United Kingdom? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameters: Let pUS represent the proportion of the population of new births in the United States that are to unmarried women. Let pUK represent the proportion of the population of new births in the United Kingdom that are to unmarried women. Procedure: Two-sample z-interval for a difference between population proportions, pUS − pUK, the difference in population proportions of new births to unmarried women in the United States and the United Kingdom. Checks: We are given these are random samples, they are clearly independent, and the sample sizes, 500 and 400, are less than 10% of new births in the United States and the United Kingdom, respectively. For normality, nUS p̂ US = (500)(0.412) = 206 ≥ 10, nUS (1 − p̂ US) = (500)(0.588) = 294 ≥ 10, nUK p̂ UK = (400)(0.465) = 186 ≥ 10, and nUK (1 − p̂ UK) = (400) (0.535) = 214 ≥ 10. Mechanics: Calculator software (such as 2-PropZInt on the TI-84) gives (−0.1182, 0.01219). [For instructional purposes, we note that: Conclusion in context: We are 95% confident that the true difference in proportions, pUS − pUK, of new births to unmarried women in the United States and the United Kingdom is between −0.118 and 0.012. (b) Because 0 is in the interval of plausible values for the difference of population proportions, this confidence interval does not support the belief by the UN health care statistician that the true proportions of new births to unmarried women are different in the United States and the United Kingdom.",
+   "question_id": "statistics-barrons-2027-quiz-20-006",
+   "context": "",
+   "source_pages": [
+    356,
+    356
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 356,
+   "page_end": 357,
+   "stem": "A national survey before the death of Ruth Bader Ginsburg studied whether or not a random sample of American voters could name a single Supreme Court justice. The study compared survey responses between voters under the age of 35 and voters over the age of 65. The following table displays some of the results. Difference Voters under Voters over (percentage All Voters 35 65 points) Number 2,050 1,500 550 surveyed % who could 54% 57% 46% 11% not name a justice (a) Is random sampling, random assignment, both, or neither involved in this study? Explain. (b) What are the appropriate hypotheses for testing whether the two populations of voters differ with regard to the proportion who cannot name a single Supreme Court justice? (c) The test statistic is z = 4.43. What does this value mean in context? (d) Is there convincing evidence to reject the null hypothesis at the 0.01 significance level? Explain. (e) A 99% confidence interval based on these data is (0.04612, 0.17388). Interpret this interval in context. (f) Is this confidence interval consistent with the test decision in part (d)? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) The sample was said to be selected randomly. There was no random assignment into ages or into who answered with what response. (b) H0: p35 = p65 and Ha: p35 ≠ p65, where p35 is the proportion of all voters under age 35 who cannot name a single Supreme Court justice, and p65 is the proportion of all voters over age 65 who cannot name a single Supreme Court justice. (c) The two sample proportions (voters under 35 and over 65 who cannot name a single Supreme Court justice) are 4.43 standard deviations (or standard errors) apart. (d) With this large of a z-score, 4.43, the p-value will be very small, so there is sufficient evidence to reject the null hypothesis. That is, there is convincing evidence that the proportion of all voters under 35 years old who cannot name a single Supreme Court justice is different from the proportion of all voters over 65 years old who cannot name a single Supreme Court justice. (e) We are 99% confident that the proportion of all voters under age 35 who cannot name a single Supreme Court justice is greater than the proportion of all voters over age 65 who cannot name a single Supreme Court justice by between 0.04612 and 0.17388. (f) Since the confidence interval contains only positive values—that is, does not include zero as a plausible value for the difference in population proportions—the two procedures give consistent results.",
+   "question_id": "statistics-barrons-2027-quiz-20-007",
+   "context": "",
+   "source_pages": [
+    356,
+    357
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 357,
+   "page_end": 358,
+   "stem": "A randomized, double-blind, placebo-controlled trial across the United States and parts of Canada tested hydroxychloroquine as a postexposure prophylaxis for asymptomatic participants reporting a high-risk exposure to a confirmed Covid-19 contact. The incidence of Covid-19 among participants receiving hydroxychloroquine was 49 out of 414, while the incidence among participants receiving a placebo was 58 out of 407. (a) Explain the purpose of random assignment in this experiment. (b) State the hypotheses the researchers tested about hydroxychloroquine use as a postexposure prophylaxis for Covid-19. (c) Identify the hypothesis test the researchers used to analyze the results of this experiment and show that the conditions for this test were met. (d) The p-value of this test is 0.152. What conclusion should be made at the α = 0.05 significance level? (e) What error might have been committed, Type I or Type II, and what would be a possible consequence?",
+   "correct_answer": null,
+   "answer_text": "(a) The purpose of random assignment is to create two groups of subjects that are roughly equivalent except for the treatment, hydroxychloroquine or placebo, received. This allows for a cause-and-effect conclusion about hydroxychloroquine and a lowered susceptibility to Covid-19 if the difference between the two groups is statistically significant. (b) H0: phydro = pplacebo and Ha: phydro < pplacebo, where phydro is the true probability of contracting Covid-19 after taking hydroxychloroquine as a postexposure prophylaxis for asymptomatic participants reporting a high-risk exposure to a confirmed Covid-19 contact, and pplacebo is the true probability of contracting Covid-19 after taking a placebo for asymptomatic participants reporting a high-risk exposure to a confirmed Covid-19 contact. (c) Two-sample z-test for a difference of two population proportions. ■The treatments were randomly assigned. , we have nhydro p̂ c = (414)(0.130) = 53.8, nhydro (1 − p̂ c) = (414) ■With (0.870) = 360.2, nplacebo p̂ c = (407)(0.130) = 52.9, and nhydro (1 − p̂ c) = (414)(0.870) = 360.2 are all at least 10. (d) With this large of a p-value, 0.152 > 0.05, there is not sufficient evidence to reject the null hypothesis; that is, there is not convincing evidence that hydroxychloroquine is any better than a placebo for preventing Covid-19 when used as a postexposure prophylaxis for asymptomatic participants reporting a high-risk exposure to a confirmed Covid-19 contact. (e) There was not convincing evidence to reject the null hypothesis, so a Type II error might have been committed—that is, failing to reject a false null hypothesis. If so, the researchers would not have recommended using hydroxychloroquine as a postexposure prophylaxis for asymptomatic participants reporting a high-risk exposure to a confirmed Covid-19 contact when, in reality, hydroxychloroquine is effective and should have been recommended.",
+   "question_id": "statistics-barrons-2027-quiz-20-008",
+   "context": "",
+   "source_pages": [
+    357,
+    358
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 8,
+ "mcq_count": 5,
+ "frq_count": 3
+}

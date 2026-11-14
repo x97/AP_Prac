@@ -1,0 +1,131 @@
+<view class="study-page">
+  <view wx:if="{{!done}}" class="study-top">
+    <view class="eyebrow">REVIEW</view>
+    <view class="study-count">
+      <text wx:if="{{loading}}">加载中…</text>
+      <text wx:elif="{{offline}}">示例模式</text>
+      <text wx:elif="{{pendingNext}}">等待加载</text>
+      <text wx:else>待复习 {{queue.due}} · 新卡 {{queue.new_today}}/{{queue.new_limit}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{offline && !done}}" class="study-offline">
+    <view class="offline-dot"></view>
+    <view>本地预览模式，评分不会同步到账号。</view>
+  </view>
+
+  <view wx:if="{{loading}}" class="study-loading">
+    <view class="skeleton study-skeleton-card"></view>
+    <view class="skeleton study-skeleton-line"></view>
+  </view>
+
+  <view wx:elif="{{done}}" class="done-wrap">
+    <view class="done-card card card-pad">
+      <view class="done-mark">{{queue.total ? '✓' : '·'}}</view>
+      <view class="eyebrow done-eyebrow">{{offline ? 'LOCAL PREVIEW' : 'SESSION COMPLETE'}}</view>
+      <view class="done-title">
+        {{offline ? '示例复习完成' : (queue.total ? '今日复习完成' : '当前筛选范围没有卡片')}}
+      </view>
+      <view wx:if="{{queue.total}}" class="done-sub">
+        本次 认识了 {{known}} 张 · 还不熟 {{again}} 张
+      </view>
+      <view wx:if="{{!offline && queue.total}}" class="done-note">
+        今日新卡 {{queue.new_today}} / {{queue.new_limit}} · 今日已复习 {{queue.reviewed_today}} 张
+      </view>
+      <view wx:if="{{!offline && queue.new_limit_reached}}" class="done-note">
+        今日新卡上限已到。到期卡片仍会按时间自动出现。
+      </view>
+      <view wx:if="{{!offline && queue.next_due_at}}" class="done-note">
+        后续到期卡片会在到时间后重新进入队列。
+      </view>
+      <view wx:if="{{offline}}" class="done-note">
+        本地预览模式，本次评分不会同步。
+      </view>
+      <button class="btn btn-primary" hover-class="btn-hover" bindtap="restart">
+        {{offline ? '重新开始' : '重新检查'}}
+      </button>
+      <button class="btn done-back" hover-class="btn-hover" bindtap="backToCards">
+        返回卡片
+      </button>
+    </view>
+  </view>
+
+  <block wx:elif="{{card}}">
+    <view class="card-stage">
+      <view class="flashcard {{flipped ? 'is-flipped' : ''}}" bindtap="flip">
+        <view class="flashcard-inner">
+          <view class="flashcard-face flashcard-front">
+            <view class="card-head">
+              <view class="card-origin">{{card.origin}}</view>
+              <view class="card-meta">
+                <view wx:if="{{card.stars}}" class="card-stars">
+                  <text
+                    wx:for="{{starSlots}}"
+                    wx:key="*this"
+                    class="card-star {{card.stars > index ? 'is-on' : ''}}"
+                  >★</text>
+                </view>
+                <button
+                  class="audio-btn {{audioPlaying ? 'is-playing' : ''}}"
+                  hover-class="btn-hover"
+                  catchtap="playAudio"
+                  aria-label="播放发音"
+                >
+                  <view class="speaker-icon">
+                    <view class="speaker-body"></view>
+                    <view class="speaker-cone"></view>
+                    <view class="speaker-wave speaker-wave-1"></view>
+                    <view class="speaker-wave speaker-wave-2"></view>
+                  </view>
+                </button>
+              </view>
+            </view>
+            <view class="card-term">{{card.term}}</view>
+            <view wx:if="{{card.ipa}}" class="card-ipa">/{{card.ipa}}/</view>
+            <view class="card-hint">轻触卡片翻面</view>
+          </view>
+
+          <view class="flashcard-face flashcard-back">
+            <view class="back-head">
+              <view class="back-term">{{card.term}}</view>
+              <view wx:if="{{card.ipa}}" class="back-ipa">/{{card.ipa}}/</view>
+            </view>
+            <view class="card-def">{{card.definition || card.quote}}</view>
+            <view wx:if="{{card.showQuote}}" class="card-quote">
+              {{card.quote}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{error && !pendingNext}}" class="study-error">{{error}}</view>
+
+    <view wx:if="{{pendingNext}}" class="pending-next">
+      <view class="pending-text">进度已保存，加载下一张失败。</view>
+      <button class="btn" hover-class="btn-hover" bindtap="retryNext">
+        重试加载
+      </button>
+    </view>
+    <view wx:else class="study-actions">
+      <button
+        class="btn action-again"
+        hover-class="btn-hover"
+        data-rating="again"
+        bindtap="rate"
+        disabled="{{rating}}"
+      >
+        {{rating === 'again' ? '保存中…' : '还不熟'}}
+      </button>
+      <button
+        class="btn btn-primary action-known"
+        hover-class="btn-hover"
+        data-rating="known"
+        bindtap="rate"
+        disabled="{{rating}}"
+      >
+        {{rating === 'known' ? '保存中…' : '认识了'}}
+      </button>
+    </view>
+  </block>
+</view>

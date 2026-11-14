@@ -1,0 +1,13 @@
+{
+  "subject_id": "psychology",
+  "name": "AP Psychology",
+  "name_zh": "AP 心理学",
+  "enabled": true,
+  "source_dir": "data/content/psychology",
+  "exam_db": "psychology_exam.db",
+  "knowledge_db": "psychology_knowledge.db",
+  "asset_root": "assets/psychology",
+  "exam_config": "config/exam_formats/psychology.json",
+  "practice_topics": "config/practice_topics/psychology.json",
+  "exclusions": "config/content_exclusions/psychology.json"
+}

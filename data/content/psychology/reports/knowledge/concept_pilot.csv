@@ -1,0 +1,394 @@
+﻿cluster_id,canonical_name,unit,topic,weight,tier,qcore,qsup,qconf,cross_book,barron_kp_id,myers_kp_ids
+psy-concept-421ad41850aa666b,Independent variable,0,Hypotheses and Variables,91.07,core,38,7,23,1,psychology-barrons-2027-kp-93432aeba0d7956f,psychology-myers-2024-kp-7299e1050f13ec8f
+psy-concept-8490c8a6c93b4195,Standard deviation,0,Descriptive Statistics,88.55,core,34,7,13,1,psychology-barrons-2027-kp-db82b3612813c828,psychology-myers-2024-kp-4cf1f7df85f0fc58
+psy-concept-9678e607606ec2fd,Correlation,0,Correlational Method,88.51,core,35,7,9,1,psychology-barrons-2027-kp-4235404d1c8584c0,psychology-myers-2024-kp-18fe00c3c2df27d4
+psy-concept-00c89f66cf2ec157,Mean,0,Descriptive Statistics,88.49,core,27,29,18,1,psychology-barrons-2027-kp-0a6f3f52c8fd0cd8,psychology-myers-2024-kp-8f6765e89e0c7846
+psy-concept-a9553a18a96f7551,Dependent variable,0,Hypotheses and Variables,87.37,core,26,16,26,1,psychology-barrons-2027-kp-c85ea5616fa2c51a,psychology-myers-2024-kp-54bdf7aa7be0eb10
+psy-concept-ce55a5f6ed7b2610,Operant conditioning,3,Operant Conditioning,87.26,core,27,21,13,1,psychology-barrons-2027-kp-3fb34f6ff5dc734e,psychology-myers-2024-kp-e79481d81cbf29e7
+psy-concept-f37a921aea24b88b,Random assignment,0,Experimental Method,86.4,core,31,1,20,1,psychology-barrons-2027-kp-383f7f7f0323a76f,psychology-myers-2024-kp-e107548f13e63f41
+psy-concept-0f27489ca7b90465,Informed consent,0,APA Ethical Guidelines,84.88,core,24,6,25,1,psychology-barrons-2027-kp-2d6ea3d8353d0ba5,psychology-myers-2024-kp-3f74ab0410baf6d9
+psy-concept-80d1c7f25a1f7e9c,Operational definitions,0,Hypotheses and Variables,82.25,core,26,1,4,1,psychology-barrons-2027-kp-553fcc3785478bcf,psychology-myers-2024-kp-180b72372e4271f9
+psy-concept-69ade8b058134f5c,Classical conditioning,3,Classical Conditioning,80.48,core,13,27,17,1,psychology-barrons-2027-kp-4e7fcbe76004d1f6,psychology-myers-2024-kp-d29c8f42cce2fba6
+psy-concept-1afff06a48f4e4b8,Systematic desensitization,5,Types of Therapy,80.3,core,20,1,12,1,psychology-barrons-2027-kp-006474f39aa113df,psychology-myers-2024-kp-85d6b92fad2262d7
+psy-concept-75d9e708075db018,Positive reinforcement,3,Operant Conditioning,80.21,core,15,11,19,1,psychology-barrons-2027-kp-f53d35bb28b49f66,psychology-myers-2024-kp-db882465078755ac
+psy-concept-421739841f0babba,Social facilitation,4,The Psychology of Social Situations,80.05,core,17,1,29,1,psychology-barrons-2027-kp-e8e0f6c791a577a6,psychology-myers-2024-kp-2f397521c199e7a8
+psy-concept-036d22af10909281,Longitudinal research,3,Developmental Psychology Research Methods,79.37,core,17,1,20,1,psychology-barrons-2027-kp-633c7123f37afa6c,psychology-myers-2024-kp-a5ffcba16d112153
+psy-concept-5dc95e96e87a86bc,Median,0,Descriptive Statistics,79.15,core,16,5,12,1,psychology-barrons-2027-kp-58d873ac62fe4cb7,psychology-myers-2024-kp-31d19690bb5bf948
+psy-concept-84d3afff53c2db46,Fundamental attribution error,4,Attribution Theory,78.68,core,17,0,23,1,psychology-barrons-2027-kp-3a240a2cab88ea3e,psychology-myers-2024-kp-0e1054c38774c674
+psy-concept-31ba0e21589eaa32,Sympathetic nervous system,1,Nervous System,78.57,core,16,3,11,1,psychology-barrons-2027-kp-5cfa915ad799c5a6,psychology-myers-2024-kp-5e977bc1984a6902
+psy-concept-526d997d0cf0de98,Cognitive therapy,5,Types of Therapy,78.26,core,14,9,9,1,psychology-barrons-2027-kp-47d6f9d658811046,psychology-myers-2024-kp-439e20a48e8564b2
+psy-concept-34e4cdb7518eec37,Big Five personality traits,4,Trait Theories,78.06,core,21,0,1,1,psychology-barrons-2027-kp-657875dfa4254068,psychology-myers-2024-kp-35cd814a11e9aa09
+psy-concept-f56b4eb8773d3791,Major depressive disorder,5,Categories of Disorders,77.98,core,15,2,14,1,psychology-barrons-2027-kp-b6a922970279169e,psychology-myers-2024-kp-25ca2ac9d17dff75
+psy-concept-070d5b2d71c9c785,Cross-sectional research,3,Developmental Psychology Research Methods,77.55,core,13,2,24,1,psychology-barrons-2027-kp-d744c15f26bdb5a2,psychology-myers-2024-kp-be046335aafc2750
+psy-concept-6067f5a2c1fc3736,Object permanence,3,Cognitive Development,77.46,core,15,0,23,1,psychology-barrons-2027-kp-7fd8531c450d20d7,psychology-myers-2024-kp-ea77c2d4b05ec3b6
+psy-concept-97ff5dd1b8626af6,reliability,2,Reliability and Validity,77.39,core,15,4,5,1,psychology-barrons-2027-kp-99c14fc6d47410ea,psychology-myers-2024-kp-626c68f8aa293a40
+psy-concept-2e7b61ab01a539a0,Observational learning,3,Cognitive Learning,77.33,core,12,6,18,1,psychology-barrons-2027-kp-e89f7fdd85d5e0d0,psychology-myers-2024-kp-9bc9295ca03b7140
+psy-concept-c4a64977c42a680c,Mode,0,Descriptive Statistics,77.08,core,14,3,9,1,psychology-barrons-2027-kp-e0b4bb60a56233a5,psychology-myers-2024-kp-840492ab0ede7e75
+psy-concept-0d164d7b2c20a674,Generalization,3,Classical Conditioning,76.9,core,14,0,24,1,psychology-barrons-2027-kp-620180d304157d28,psychology-myers-2024-kp-ebdf381b695abf18
+psy-concept-abee1f87f7fa2273,Behavioral Perspective,0,Psychological Perspectives,76.76,core,20,0,0,1,psychology-barrons-2027-kp-733ae90d4a25fcf6,psychology-myers-2024-kp-cb2e67aeb7fac394
+psy-concept-73eae678f6208304,Case study method,0,Qualitative Methods,76.76,core,20,0,0,1,psychology-barrons-2027-kp-15583e48b8b1910f,psychology-myers-2024-kp-6a8cdfb532e3f9c6
+psy-concept-55955e8efc9fad7b,Obsessive-compulsive disorder (OCD),5,Categories of Disorders,76.74,core,14,0,22,1,psychology-barrons-2027-kp-9fcdc7f35cb4e70b,psychology-myers-2024-kp-a99ef77becd1aa85
+psy-concept-16384cd3f0462486,Amygdala and hippocampus,1,The Brain,76.67,core,17,3,0,1,psychology-barrons-2027-kp-265f02a3875b515f,psychology-myers-2024-kp-2cbb8b87cbf729b8
+psy-concept-8b916d20c4d50da6,Range,0,Descriptive Statistics,76.64,core,14,1,11,1,psychology-barrons-2027-kp-02feea242da798fa,psychology-myers-2024-kp-a6d23471dad700c2
+psy-concept-f671eaae03c67950,Drive reduction theory,4,Theories of Motivation,76.47,core,15,2,3,1,psychology-barrons-2027-kp-348371e9d3b437be,psychology-myers-2024-kp-323ed356bc959fbf
+psy-concept-64a758cee46d4f8f,Naturalistic observation,0,Naturalistic Observation,76.14,core,11,0,44,1,psychology-barrons-2027-kp-564c399a81736ad3,psychology-myers-2024-kp-dce85dd93aa14b88
+psy-concept-a50791713c069aa1,Self-serving bias,4,Attribution Theory,75.89,core,12,1,17,1,psychology-barrons-2027-kp-5bea37c8ae607448,psychology-myers-2024-kp-bcf367b6bc8bd163
+psy-concept-b4fedde0527f814f,Extinction,3,Classical Conditioning,75.5,core,12,1,13,1,psychology-barrons-2027-kp-c10e94ed0f715597,psychology-myers-2024-kp-9bc3286ce4cbba99
+psy-concept-7358cd4b9da6582a,algorithm,2,Problem-Solving,75.47,core,14,0,9,1,psychology-barrons-2027-kp-00bf60f397c09b62,psychology-myers-2024-kp-43a09e4329e5b3c4
+psy-concept-30564daf975e5f5e,Negative reinforcement,3,Operant Conditioning,75.47,core,11,0,33,1,psychology-barrons-2027-kp-7a0ed9d010c4fd0f,psychology-myers-2024-kp-e34619e129b659db
+psy-concept-d9c1401de65a0597,specific phobia,5,Categories of Disorders,75.47,core,11,3,13,1,psychology-barrons-2027-kp-3f672bda56153636,psychology-myers-2024-kp-7ba53d442cb677b5
+psy-concept-56a0a72e8aa9482e,Confounding variable,0,Experimental Method,75.16,core,13,1,5,1,psychology-barrons-2027-kp-2ba64cbf27c5dac4,psychology-myers-2024-kp-fe7497111c9e2304
+psy-concept-168dcc3b70564816,Statistical significance,0,Inferential Statistics,75.16,core,13,1,5,1,psychology-barrons-2027-kp-7d25dbae042589cd,psychology-myers-2024-kp-e1817ddc0d134f1d
+psy-concept-a8f4ef419569a3cd,Conditioned stimulus (CS),3,Classical Conditioning,75.11,core,10,12,4,1,psychology-barrons-2027-kp-891241510eeb44ee,psychology-myers-2024-kp-e62fd51d339288d7
+psy-concept-b15e2d2435202cc1,availability heuristic,2,Problem-Solving,75.05,core,13,0,11,1,psychology-barrons-2027-kp-4eba6ba3a11a7f45,psychology-myers-2024-kp-4ebc953fdc2bf671
+psy-concept-f2adec3767853d29,Normal curve,0,Descriptive Statistics,74.97,core,12,3,4,1,psychology-barrons-2027-kp-cc106919a5da0c0f,psychology-myers-2024-kp-ff8afdcb541edb31
+psy-concept-730c5b5ab6a92e1a,Cognitive dissonance theory,4,Attitude Formation and Change,74.91,core,15,0,2,1,psychology-barrons-2027-kp-394e2537c4845a74,psychology-myers-2024-kp-0b756a5b0d313870
+psy-concept-3196a55cbb5b0d71,Mere exposure effect,4,Attitude Formation and Change,74.91,core,15,0,2,1,psychology-barrons-2027-kp-9150e86fe912b579,psychology-myers-2024-kp-aa3783cc06c17847
+psy-concept-e4d2dfffd65abba0,Cones,1,Energy Senses,74.69,core,12,5,1,1,psychology-barrons-2027-kp-51c2f83a8f1d79be,psychology-myers-2024-kp-8c0162cba88ecf05
+psy-concept-2be674f37b68202f,Debriefing,0,APA Ethical Guidelines,74.68,core,11,0,22,1,psychology-barrons-2027-kp-7974e7d150962ccd,psychology-myers-2024-kp-c67632ba670d2b4a
+psy-concept-65fbc4d5508d53f6,Conservation,3,Cognitive Development,74.51,core,11,0,20,1,psychology-barrons-2027-kp-40266b728be21652,psychology-myers-2024-kp-20d7952a044e3c03
+psy-concept-561de0d5dd99f2ac,Latent learning,3,Cognitive Learning,74.43,core,10,1,17,1,psychology-barrons-2027-kp-efc6909361cd51bc,psychology-myers-2024-kp-3749a96549ee8189
+psy-concept-ed3b3cb9541aae2e,Correlation coefficient,0,Correlations,74.3,core,11,2,6,1,psychology-barrons-2027-kp-282a43d8541b8f09,psychology-myers-2024-kp-23258df41dac7667
+psy-concept-cefd52eb2776a835,Occipital lobes,1,The Brain,74.29,core,12,1,4,1,psychology-barrons-2027-kp-e5243e56940ab123,psychology-myers-2024-kp-4bff947c2a14594d
+psy-concept-5ac428a8dfc199d6,Modeling,3,Cognitive Learning,74.22,core,9,10,5,1,psychology-barrons-2027-kp-8e5498d2282e250d,psychology-myers-2024-kp-b21e247b618a318c
+psy-concept-425e1b5ec97b753c,Self-fulfilling prophecy,4,Attribution Theory,74.14,core,10,1,14,1,psychology-barrons-2027-kp-5ac05b4df9c8b706,psychology-myers-2024-kp-f35a43d33ef8fae1
+psy-concept-5c51c9e918b94752,Opponent-process theory,1,Energy Senses,74.09,core,12,1,3,1,psychology-barrons-2027-kp-c50ff7ecb9044e88,psychology-myers-2024-kp-99e2b71a05f160f8
+psy-concept-49834331356f262f,Sensory adaptation,1,Overview,73.96,core,11,2,4,1,psychology-barrons-2027-kp-a4d7aa93d23395f3,psychology-myers-2024-kp-ef53867a8e7e3db8
+psy-concept-161701a95bd78c9e,Group polarization,4,Group Dynamics,73.86,core,9,0,32,1,psychology-barrons-2027-kp-4384693f569990ae,psychology-myers-2024-kp-9bcd27a8d706b57e
+psy-concept-b2055652dff1119b,Anxiety disorders,5,Categories of Disorders,73.77,core,8,21,1,1,psychology-barrons-2027-kp-1fc0b47fc70b76ee,psychology-myers-2024-kp-96296fa5fcdfeec8
+psy-concept-ffd6d8999567f73b,serial position effect,2,Encoding Memories,73.72,core,9,6,6,1,psychology-barrons-2027-kp-e281e81ffd3e59f0,psychology-myers-2024-kp-afe8c67fa00d5535
+psy-concept-0e9bd0ff58e34b61,Parasympathetic nervous system,1,Nervous System,73.39,core,8,3,16,1,psychology-barrons-2027-kp-34b9e4dd2f2fb016,psychology-myers-2024-kp-ba9064c900a5f00c
+psy-concept-4b0767bd3f9ca341,Deindividuation,4,Group Dynamics,73.37,core,9,0,25,1,psychology-barrons-2027-kp-a96188c83ff9ed9f,psychology-myers-2024-kp-23708e3e5225c158
+psy-concept-4aa005c4541975ea,Cerebellum,1,The Brain,73.29,core,9,0,24,1,psychology-barrons-2027-kp-eff04e2ee9d27ff8,psychology-myers-2024-kp-6b6c1373d2430e92
+psy-concept-a93e6c50c9aaaadb,Scatterplot,0,Correlations,73.07,core,9,14,0,1,psychology-barrons-2027-kp-0e2808b5c8f24f64,psychology-myers-2024-kp-dd2b9b3799aa717f
+psy-concept-e4d12f0d322c4b6f,Traits,4,Trait Theories,72.99,core,7,19,2,1,psychology-barrons-2027-kp-195d0d76a03ee026,psychology-myers-2024-kp-b0d91024d65c2688
+psy-concept-62fa4272f2990315,heuristic,2,Problem-Solving,72.9,core,6,15,10,1,psychology-barrons-2027-kp-c04b4bf9743bd9af,psychology-myers-2024-kp-e41cedeed6362f8e
+psy-concept-dbcfdb1cdb06755c,generalized anxiety disorder (GAD),5,Categories of Disorders,72.89,core,9,0,19,1,psychology-barrons-2027-kp-9abe2000b683b2c4,psychology-myers-2024-kp-c5ba00792e4dff3f
+psy-concept-d501ff92aa9bb458,Critical period,3,Language,72.83,core,10,1,4,1,psychology-barrons-2027-kp-36c0ffaa0706dd5b,psychology-myers-2024-kp-3fb79a03413bb008
+psy-concept-4275de995e028b2b,Projective tests,4,Psychodynamic Theories of Personality,72.82,core,11,1,1,1,psychology-barrons-2027-kp-6a78faa0dea11bd9,psychology-myers-2024-kp-6893010e20f7eb3d
+psy-concept-ebb3fc7c72a320ad,Intrinsic motivations,4,Social Motivation,72.75,core,10,3,1,1,psychology-barrons-2027-kp-f04759feca828ec3,psychology-myers-2024-kp-30699644d661c3bf
+psy-concept-dea4ceb5102f3661,Secure attachment,3,Parenting,72.72,core,9,3,4,1,psychology-barrons-2027-kp-75c3c6f05b84e580,psychology-myers-2024-kp-635ed16d880bb883
+psy-concept-3ba15426ce3cd609,Self-efficacy,4,Social Cognitive Theories,72.65,core,10,0,9,1,psychology-barrons-2027-kp-65606b2d05a48673,psychology-myers-2024-kp-073c7f76fb982eab
+psy-concept-7106be5cefb616d7,Social loafing,4,Group Dynamics,72.62,core,9,0,16,1,psychology-barrons-2027-kp-2bf8eb9938fe9b38,psychology-myers-2024-kp-aaf2c391ae740786
+psy-concept-cde1dc7022232958,Circadian rhythm,1,Sleep,72.61,core,12,0,1,1,psychology-barrons-2027-kp-ee4a5adb49102701,psychology-myers-2024-kp-b7b403ded2d1e684
+psy-concept-f8620fc75bb2516c,predictive validity,2,Reliability and Validity,72.52,core,10,0,8,1,psychology-barrons-2027-kp-9651e56924b78946,psychology-myers-2024-kp-e0afe41e8e28114a
+psy-concept-e413bbadcf3626a9,encoding,2,Encoding Memories,72.51,core,8,3,8,1,psychology-barrons-2027-kp-9bacfe2de727f0ff,psychology-myers-2024-kp-c5aab8132a2fa689
+psy-concept-649512c5625627cd,Person-centered therapy,5,Types of Therapy,72.5,core,7,8,7,1,psychology-barrons-2027-kp-81d40fa1affb5854,psychology-myers-2024-kp-6b67aae7866d7aaf
+psy-concept-0b1902734622c3e4,Yerkes-Dodson law,4,Theories of Motivation,72.47,core,10,5,0,1,psychology-barrons-2027-kp-9a7e88c3187aac83,psychology-myers-2024-kp-884f0420879587ac
+psy-concept-8a668a993f87d078,Egocentric,3,Cognitive Development,72.42,core,9,0,14,1,psychology-barrons-2027-kp-ee998a17c33d84e4,psychology-myers-2024-kp-2ce447a4e68719e9
+psy-concept-0db98194431e9931,Assimilation,3,Cognitive Development,72.38,core,10,0,7,1,psychology-barrons-2027-kp-af077c643bc96ded,psychology-myers-2024-kp-1338aaa1dc1f9e78
+psy-concept-f9a7259be624045b,Conformity,4,The Psychology of Social Situations,72.34,core,7,5,10,1,psychology-barrons-2027-kp-ded547ac3d2f0a12,psychology-myers-2024-kp-a3c5481fabe6f256
+psy-concept-f5c6d430826436cd,antisocial personality disorder,5,Categories of Disorders,72.32,core,9,0,13,1,psychology-barrons-2027-kp-604ab22f0be19d88,psychology-myers-2024-kp-deecdaf3c1309242
+psy-concept-555f5ce0ab911bef,Survey method,0,Correlational Method,72.25,core,10,4,0,1,psychology-barrons-2027-kp-81ae40985caed555,psychology-myers-2024-kp-d0156e7ab0046bb3
+psy-concept-2d6193decd1820d0,Hindsight bias,0,Overview,72.24,core,10,0,6,1,psychology-barrons-2027-kp-029a2cc17c732037,psychology-myers-2024-kp-5d866e2aa1387f6f
+psy-concept-81a379381f58a9fa,misinformation effect,2,Constructive Memory,72.04,core,9,1,4,1,psychology-barrons-2027-kp-d74188bf20c72420,psychology-myers-2024-kp-d0543eb15f8333bf
+psy-concept-44095989e16995b7,Shaping,3,Operant Conditioning,71.96,core,8,0,18,1,psychology-barrons-2027-kp-ee8c6ff22c1b610c,psychology-myers-2024-kp-0810694282ca491c
+psy-concept-8f5feb5d3d47f4db,general adaptation syndrome (GAS),5,Stress,71.91,core,8,5,2,1,psychology-barrons-2027-kp-f755914799ba557e,psychology-myers-2024-kp-edff25909d11a128
+psy-concept-616f01a1142c5aa2,Rational emotive behavior therapy (REBT),5,Types of Therapy,71.9,core,10,0,4,1,psychology-barrons-2027-kp-5424450a3dfa3bbe,psychology-myers-2024-kp-b653f8f8a2104230
+psy-concept-c7e46556a39fbd24,Flynn effect,2,Nature vs. Nurture: Intelligence,71.86,core,12,0,0,1,psychology-barrons-2027-kp-a49abf3c69d6958d,psychology-myers-2024-kp-dd899f63fcb0efde
+psy-concept-79f845c9957520c7,difference threshold,2,Thresholds,71.8,core,7,5,6,1,psychology-barrons-2027-kp-645f5419e150b366,psychology-myers-2024-kp-15cf4f5dfdf0f8de
+psy-concept-f463b4868ef10dfd,Hypothalamus,1,The Brain,71.79,core,6,4,16,1,psychology-barrons-2027-kp-81494475a391ed20,psychology-myers-2024-kp-fe76bbd4d763ead6
+psy-concept-0a34d74f64f95d42,Post-traumatic stress disorder (PTSD),5,Categories of Disorders,71.76,core,8,2,5,1,psychology-barrons-2027-kp-392bd5660d39aae2,psychology-myers-2024-kp-963730b9d0a40c97
+psy-concept-5ae2cee9982a971b,Frontal lobes,1,The Brain,71.68,core,8,3,3,1,psychology-barrons-2027-kp-d2b7d44832bf8308,psychology-myers-2024-kp-7f11aa5abb3db675
+psy-concept-f220901c8e0a935c,Norms,4,Group Dynamics,71.68,core,8,3,3,1,psychology-barrons-2027-kp-d168bd3ab2781cc5,psychology-myers-2024-kp-f325e5c843b9adb5
+psy-concept-0f99cc7c78c3a7a2,hallucinations,5,Categories of Disorders,71.64,core,7,5,5,1,psychology-barrons-2027-kp-53a28545f715f785,psychology-myers-2024-kp-d8166799c3397ed3
+psy-concept-4417b67230e3fa89,Stress,5,Stress,71.59,core,7,16,0,1,psychology-barrons-2027-kp-68900f11ef05ab73,psychology-myers-2024-kp-c6a71ea1206aeb9c
+psy-concept-60d99af324e61e96,Unconditioned stimulus (US or UCS),3,Classical Conditioning,71.58,core,6,6,10,1,psychology-barrons-2027-kp-f30fd27442328491,psychology-myers-2024-kp-3c4389cae41c35f1
+psy-concept-ec41aab0f258cda4,top-down processing,2,Perceptual Theories,71.46,core,9,4,0,1,psychology-barrons-2027-kp-39e9d85c44ec8211,psychology-myers-2024-kp-5dc96ef087c0e129
+psy-concept-5730c4fe753b6805,bipolar disorder,5,Categories of Disorders,71.45,core,7,2,9,1,psychology-barrons-2027-kp-5c51349e5b95d528,psychology-myers-2024-kp-41677066ae6446cc
+psy-concept-6598db94c8d0b79c,Extrinsic motivations,4,Social Motivation,71.44,core,8,3,2,1,psychology-barrons-2027-kp-bd8d49bb5ddb2464,psychology-myers-2024-kp-f06b0da0c570ce1b
+psy-concept-e42cf747851083ea,Groupthink,4,Group Dynamics,71.44,core,6,0,36,1,psychology-barrons-2027-kp-e33fbf9e44aa2766,psychology-myers-2024-kp-af86d25e0935c65a
+psy-concept-386c48714e8e42f9,absolute threshold,2,Thresholds,71.38,core,8,0,12,1,psychology-barrons-2027-kp-fffb96ed4cc65a00,psychology-myers-2024-kp-b1e4af89fc74b3d5
+psy-concept-6ce7892a6918c202,Continuous reinforcement,3,Operant Conditioning,71.38,core,8,1,5,1,psychology-barrons-2027-kp-75ef1cc0b306c917,psychology-myers-2024-kp-7d8d90bd9ee11b4e
+psy-concept-139662cf5da65ff3,Homeostasis,4,Theories of Motivation,71.38,core,8,1,5,1,psychology-barrons-2027-kp-57b7d5034a157922,psychology-myers-2024-kp-bd4004725cbca66d
+psy-concept-2f0d91f65f5b2e8a,Negatively skewed distribution,0,Descriptive Statistics,71.38,core,8,1,5,1,psychology-barrons-2027-kp-7c3f69078ee92289,psychology-myers-2024-kp-0d759302ac1a97fb
+psy-concept-082339605b2f9151,Self-actualization,4,Humanistic Theories of Personality,71.26,core,8,0,11,1,psychology-barrons-2027-kp-ac8a8a42f2529fce,psychology-myers-2024-kp-84f50ed919b47705
+psy-concept-ead2e4d0e627a932,Bystander effect,4,Prosocial Behavior,71.17,core,7,3,5,1,psychology-barrons-2027-kp-51651b86a7f0f0fa,psychology-myers-2024-kp-79838a4962c1f32f
+psy-concept-52570b386019ae0d,hippocampus,2,Storing Memories,71.13,core,8,3,1,1,psychology-barrons-2027-kp-f43c26d7b4d29037,psychology-myers-2024-kp-48c9fa1ef2654347
+psy-concept-85ffacbe45848abc,selective attention,2,Sensory Memory,71.13,core,8,3,1,1,psychology-barrons-2027-kp-46713cfd89c8a8a2,psychology-myers-2024-kp-d3fceb0ccc264b12
+psy-concept-030753f3201dd9a7,learned helplessness,5,Categories of Disorders,70.91,core,9,0,3,1,psychology-barrons-2027-kp-2cf8477b9bec8acc,psychology-myers-2024-kp-c81dae840325018c
+psy-concept-0aff118adf8f8b7f,confirmation bias,2,Problem-Solving,70.7,core,7,2,4,1,psychology-barrons-2027-kp-4538ee913ec6cde2,psychology-myers-2024-kp-1555c8b3c908da12
+psy-concept-0059e86f3393f468,Somatosensory cortex,1,The Brain,70.66,core,6,3,8,1,psychology-barrons-2027-kp-8864cf66a9f2cdc3,psychology-myers-2024-kp-8ec953184142fefc
+psy-concept-47b34c9ac5eaf9ad,Insight learning,3,Cognitive Learning,70.61,core,8,0,6,1,psychology-barrons-2027-kp-eddfc51698fbf5b7,psychology-myers-2024-kp-1e3a058ceebf5e69
+psy-concept-16437d9a95461568,depth perception,2,Principles of Visual Perception,70.55,core,7,3,2,1,psychology-barrons-2027-kp-4f4b2f907d56eaeb,psychology-myers-2024-kp-a51d36ef35213a99
+psy-concept-e1be6501b9e3cd35,Dissociative disorders,5,Categories of Disorders,70.55,core,7,3,2,1,psychology-barrons-2027-kp-2e1792c94fae3caf,psychology-myers-2024-kp-0076c118bb87be57
+psy-concept-f483555933fd8766,short-term memory,2,Short-Term and Working Memory,70.5,core,6,2,9,1,psychology-barrons-2027-kp-fc74f4f8284d900d,psychology-myers-2024-kp-2d2ad57ad78e1750
+psy-concept-8b4ed1c8782c7132,crystallized intelligence,2,Theories of Intelligence,70.49,core,7,1,5,1,psychology-barrons-2027-kp-28e6c5ac9a16911e,psychology-myers-2024-kp-4b5c5703601305b9
+psy-concept-fadd8b6d4cf9c481,Wernicke’s area,1,The Brain,70.46,core,6,4,5,1,psychology-barrons-2027-kp-e71da82129e2e062,psychology-myers-2024-kp-067cc3221c63dc56
+psy-concept-d1d367ea382a2a3c,fluid intelligence,2,Theories of Intelligence,70.38,core,6,3,6,1,psychology-barrons-2027-kp-da315882132267ce,psychology-myers-2024-kp-98330436896835f8
+psy-concept-aa637be4c7e2601e,Vestibular sense,1,Body Position Senses,70.25,core,7,2,2,1,psychology-barrons-2027-kp-e3875c9f2abc7aed,psychology-myers-2024-kp-e97866e6ebc1e78d
+psy-concept-0413d87419eeb00c,anterograde amnesia,2,Storing Memories,70.21,core,6,3,5,1,psychology-barrons-2027-kp-cab7dd087f6c8295,psychology-myers-2024-kp-9ac753667c9c0876
+psy-concept-5e4e3e73606f98c8,delusions,5,Categories of Disorders,70.15,core,5,6,7,1,psychology-barrons-2027-kp-cee8478f388ee6fd,psychology-myers-2024-kp-4375805bd15b7716
+psy-concept-e2a3881e518db72d,divergent thinking,2,Creativity,70.14,core,7,0,9,1,psychology-barrons-2027-kp-e9bff66a210c4ca5,psychology-myers-2024-kp-3497e2983b617542
+psy-concept-a8b733137450efc4,Discrimination (conditioning),3,Classical Conditioning,70.12,core,6,0,18,1,psychology-barrons-2027-kp-b4cc49a1156488ab,psychology-myers-2024-kp-6a9687bda9a29cd0
+psy-concept-c9646bab0f58a1f4,Psychodynamic therapy,5,Types of Therapy,70.11,core,7,1,3,1,psychology-barrons-2027-kp-decacd350bb22573,psychology-myers-2024-kp-1e7a77af721efb78
+psy-concept-0ff794dc75ba2e3b,Cognitive map,3,Cognitive Learning,70.08,core,6,4,3,1,psychology-barrons-2027-kp-b704a5dfb85b1e07,psychology-myers-2024-kp-905d5fd37b2c2318
+psy-concept-17609cceb9b37dea,Electroencephalogram (EEG),1,The Brain,70.07,core,8,0,3,1,psychology-barrons-2027-kp-e6ff39a88779c6d4,psychology-myers-2024-kp-84f3f5b7750db33f
+psy-concept-5445b04964c395ef,Biological preparedness,3,Classical Conditioning,69.83,core,8,0,2,1,psychology-barrons-2027-kp-da1691415425a3e6,psychology-myers-2024-kp-535413d282ffd858
+psy-concept-a1ed770013aac583,Descriptive statistics,0,Descriptive Statistics,69.76,core,3,25,5,1,psychology-barrons-2027-kp-fe881b0d5e8a5b8e,psychology-myers-2024-kp-90e49af1f723fb28
+psy-concept-a38b51812ed66cd4,Just-world phenomenon,4,Attribution Theory,69.72,core,7,0,6,1,psychology-barrons-2027-kp-cfb5285008ba6145,psychology-myers-2024-kp-5a706a125e15e5e3
+psy-concept-2dbec75740bf1fa2,Neurotransmitters,1,Neuroanatomy,69.69,core,8,1,0,1,psychology-barrons-2027-kp-2f8510d6401e2668,psychology-myers-2024-kp-20547a251869ed56
+psy-concept-c9947980741fee19,Limbic system,1,The Brain,69.63,core,4,15,3,1,psychology-barrons-2027-kp-dfc122e081c570dd,psychology-myers-2024-kp-f0eff7d55b9e3f5a
+psy-concept-ad2b4ccdce432fda,episodic memory,2,Long-Term Memory,69.62,core,5,3,8,1,psychology-barrons-2027-kp-c4c855113bd02052,psychology-myers-2024-kp-b695a14b20c6a5b8
+psy-concept-cfa986b52da60a26,Conditioned response (CR),3,Classical Conditioning,69.57,core,4,7,10,1,psychology-barrons-2027-kp-9fb46fc99c0eb926,psychology-myers-2024-kp-97ff203d91fdc707
+psy-concept-438e9454ec4c027f,Temporal lobes,1,The Brain,69.54,core,6,2,3,1,psychology-barrons-2027-kp-e9505c2b972d2ef9,psychology-myers-2024-kp-f6be8f552f9a5fc5
+psy-concept-5b47c518b39c8e22,Central route to persuasion,4,Attitude Formation and Change,69.53,core,6,1,5,1,psychology-barrons-2027-kp-0dcb01e2e8b6e68d,psychology-myers-2024-kp-00da0a08d2bd6651
+psy-concept-d17897c9b0e51238,Secondary reinforcers,3,Operant Conditioning,69.3,core,6,2,2,1,psychology-barrons-2027-kp-ea924cc850e32a42,psychology-myers-2024-kp-5249fff1c227da99
+psy-concept-45758d479ebca6db,Experimental group,0,Experimental Method,69.28,core,6,3,1,1,psychology-barrons-2027-kp-6fd4b8758c762b61,psychology-myers-2024-kp-84bcba9ee914770b
+psy-concept-18e93821e174a033,Gestalt psychology,2,Principles of Visual Perception,69.2,core,6,6,0,1,psychology-barrons-2027-kp-7d3bf968acc88a37,psychology-myers-2024-kp-ecf93ee3e6175766
+psy-concept-272dd2cc937c43fa,Attribution theory,4,Attribution Theory,69.08,core,4,15,1,1,psychology-barrons-2027-kp-be65832048082d15,psychology-myers-2024-kp-f94ee90892ffc308
+psy-concept-19c424511b4ea50f,Meta-analysis,0,Inferential Statistics,69.08,core,5,0,18,1,psychology-barrons-2027-kp-63964f4d6196ea74,psychology-myers-2024-kp-2ead4b6dcf76bdca
+psy-concept-20b574ec661d81b3,long-term memory,2,Long-Term Memory,69.04,core,5,4,3,1,psychology-barrons-2027-kp-fd0c2619e75c14ad,psychology-myers-2024-kp-1fbe40a919a0ef2e
+psy-concept-ed6831748825e40b,Unconditional positive regard,5,Types of Therapy,68.94,core,7,0,2,1,psychology-barrons-2027-kp-3edc8d996d85d44a,psychology-myers-2024-kp-0505639d01f46b64
+psy-concept-bbf198f1c2f79ea8,Dissociative amnesia,5,Categories of Disorders,68.92,core,6,1,2,1,psychology-barrons-2027-kp-d7ca85ac7ea72d8f,psychology-myers-2024-kp-1a685d68992f9577
+psy-concept-9cdb9c64b02ca487,Internal locus of control,4,Social Cognitive Theories,68.88,core,5,2,5,1,psychology-barrons-2027-kp-536d8000beba35d7,psychology-myers-2024-kp-a006010ad86e0840
+psy-concept-5dbf0d0d6550544e,implicit memories,2,Long-Term Memory,68.81,core,5,4,2,1,psychology-barrons-2027-kp-92568177a8726c36,psychology-myers-2024-kp-8badb0708796d67a
+psy-concept-3384cea411997b0f,Medulla,1,The Brain,68.8,core,5,0,15,1,psychology-barrons-2027-kp-a70cdbdc91837053,psychology-myers-2024-kp-4a22e09af2a2578f
+psy-concept-0761c4b05ad9ab9d,Punishment,3,Operant Conditioning,68.64,core,3,12,7,1,psychology-barrons-2027-kp-31c3f6e0585df006,psychology-myers-2024-kp-5d1be09cf3fea13f
+psy-concept-1d339f0665a30c58,External locus of control,4,Social Cognitive Theories,68.61,core,6,0,5,1,psychology-barrons-2027-kp-28d0b1b7dde11e45,psychology-myers-2024-kp-e1159d448ea500f0
+psy-concept-dbc0a2ae53f8364e,Broca’s area,1,The Brain,68.6,core,6,1,1,1,psychology-barrons-2027-kp-b587e05eb08b656a,psychology-myers-2024-kp-331ba1f2262e2bec
+psy-concept-9a10f2a0222edb8d,proactive interference,2,Forgetting,68.6,core,5,0,13,1,psychology-barrons-2027-kp-827cff40d4c59841,psychology-myers-2024-kp-bb9c65ce1ff389c9
+psy-concept-2a90bf46b4ee69ea,representativeness heuristic,2,Problem-Solving,68.6,core,5,0,13,1,psychology-barrons-2027-kp-e7bef65f01d01571,psychology-myers-2024-kp-8922df9705d052f9
+psy-concept-5e620248eb743f60,Split-brain patients,1,The Brain,68.6,core,6,1,1,1,psychology-barrons-2027-kp-c9fac2c495996fc4,psychology-myers-2024-kp-179691b8ec1e412c
+psy-concept-b3672a67e177ab1e,Learning,3,Overview,68.57,core,4,11,1,1,psychology-barrons-2027-kp-179d13c7367672bd,psychology-myers-2024-kp-dbddf826f4f1916c
+psy-concept-ebf49a06e600cc4f,REM sleep,1,Sleep,68.53,core,6,3,0,1,psychology-barrons-2027-kp-86de386375672bed,psychology-myers-2024-kp-aa9c6d690e16c198
+psy-concept-750a4324855998b8,Weber’s law,2,Thresholds,68.49,core,5,4,1,1,psychology-barrons-2027-kp-2ee06f184fa9b1c0,psychology-myers-2024-kp-8a30f422f8c1dfcf
+psy-concept-55145bacc327ad5c,Personality disorders,5,Categories of Disorders,68.33,core,3,15,3,1,psychology-barrons-2027-kp-53998d76cba80785,psychology-myers-2024-kp-16ef6841fae17902
+psy-concept-cad2cc21c90612a7,Thalamus,1,The Brain,68.27,core,5,0,10,1,psychology-barrons-2027-kp-1df8f93811c029b7,psychology-myers-2024-kp-e285ab61569bc901
+psy-concept-cb38c6d1e926c075,Reticular formation,1,The Brain,68.23,core,6,0,3,1,psychology-barrons-2027-kp-1c36953a8d6684bf,psychology-myers-2024-kp-eab6b59e2af29845
+psy-concept-db856c1a6e911a13,Foot-in-the-door technique,4,Compliance Strategies,68.01,core,5,0,8,1,psychology-barrons-2027-kp-4938b80e912d5d1c,psychology-myers-2024-kp-da7df6d7b14594a0
+psy-concept-ad33b490efef4e39,spacing effect,2,Encoding Memories,68.01,core,5,0,8,1,psychology-barrons-2027-kp-3e3508070fc8e544,psychology-myers-2024-kp-3b7483179103e9c0
+psy-concept-f71bd3b756c32336,framing,2,Problem-Solving,67.99,core,6,0,2,1,psychology-barrons-2027-kp-6701845493a6e037,psychology-myers-2024-kp-748bc89ed21a5231
+psy-concept-2d067a6b57f808af,Theory of mind,3,Cognitive Development,67.92,core,4,1,9,1,psychology-barrons-2027-kp-7576798fb9ecacc3,psychology-myers-2024-kp-4489d5a5a5437b19
+psy-concept-517ea124ee5a2c97,emotion-focused coping,5,Stress,67.88,core,5,1,2,1,psychology-barrons-2027-kp-6c1357578431319e,psychology-myers-2024-kp-b5720ea6ecbf393e
+psy-concept-82c4e3ee05ce398d,Psychological disorder,5,Defining Psychological Disorders,67.88,core,7,0,0,1,psychology-barrons-2027-kp-2ecf2ee4dc32853f,psychology-myers-2024-kp-168743aa2c9a2c68
+psy-concept-35e3412988b327fa,Facial feedback hypothesis,4,Theories About Emotion,67.73,core,5,0,6,1,psychology-barrons-2027-kp-d311d2b69975eae3,psychology-myers-2024-kp-2a989a6483c04fd6
+psy-concept-06e61f5f2e2f3b45,Blind spot,1,Energy Senses,67.57,core,5,0,5,1,psychology-barrons-2027-kp-badab1b4751f1410,psychology-myers-2024-kp-c1e5bcb862287752
+psy-concept-c40ecc8bebe0b586,Obedience,4,The Psychology of Social Situations,67.55,core,4,0,14,1,psychology-barrons-2027-kp-2e5acd1a3f4775cb,psychology-myers-2024-kp-b801c816afbc1df2
+psy-concept-4f731d82a262c0e3,Control group,0,Experimental Method,67.49,core,2,13,9,1,psychology-barrons-2027-kp-e411d0a3f5f08055,psychology-myers-2024-kp-695016ced1a09e13
+psy-concept-141034a53ae92871,Sleep apnea,1,Sleep,67.39,core,5,0,4,1,psychology-barrons-2027-kp-f138cc6ef02463d7,psychology-myers-2024-kp-937b68cbfb253eaf
+psy-concept-7114b3f5f212dba9,Somatic nervous system,1,Nervous System,67.34,core,4,0,12,1,psychology-barrons-2027-kp-a5e7aeeeb7f1a4c2,psychology-myers-2024-kp-41f91f064a607036
+psy-concept-95b115df7c16bf62,mental set,2,Problem-Solving,67.23,core,4,0,11,1,psychology-barrons-2027-kp-5325beee2e8de48f,psychology-myers-2024-kp-dcade9b938787c22
+psy-concept-ed02c3cceb1db19d,recognition,2,Retrieval,67.19,core,5,0,3,1,psychology-barrons-2027-kp-123d1d4a2336964a,psychology-myers-2024-kp-1480092c4c932cdc
+psy-concept-3e0bd990a3b67d73,Population,0,Validity and Reliability,67.12,core,3,10,1,1,psychology-barrons-2027-kp-90653b869cb2dd66,psychology-myers-2024-kp-fbfe299526f4badd
+psy-concept-b4d1f99f19f14f3c,retroactive interference,2,Forgetting,66.99,core,4,0,9,1,psychology-barrons-2027-kp-c2349f4a23a50a7a,psychology-myers-2024-kp-c7675487e490ea2e
+psy-concept-cd8a9810613b207b,Accommodation (developmental),3,Cognitive Development,66.97,core,3,1,12,1,psychology-barrons-2027-kp-59735d554204bbb1,psychology-myers-2024-kp-cd2f4c92c4453e52
+psy-concept-77970071f5487cf1,convergence,2,Principles of Visual Perception,66.95,core,5,0,2,1,psychology-barrons-2027-kp-108ccd9405ffa0a8,psychology-myers-2024-kp-ab4c4f41d57e14d0
+psy-concept-a2c7572ddc8c8d05,Kinesthetic sense (kinesthesis),1,Body Position Senses,66.95,core,5,0,2,1,psychology-barrons-2027-kp-b611a325c66e3582,psychology-myers-2024-kp-55d73a04f4f52797
+psy-concept-107d4119658fc87e,retinal disparity,2,Principles of Visual Perception,66.95,core,5,0,2,1,psychology-barrons-2027-kp-1895d1d816a77345,psychology-myers-2024-kp-0c16b37b226c2328
+psy-concept-53ea762bf4536580,Myelin sheath,1,Neuroanatomy,66.92,core,6,0,0,1,psychology-barrons-2027-kp-87af544bf850d292,psychology-myers-2024-kp-593d99847aef884d
+psy-concept-c7fa90f0972f356d,Temperament,3,Parenting,66.92,core,6,0,0,1,psychology-barrons-2027-kp-f2a7334e0b0bd8e5,psychology-myers-2024-kp-98d84d092e5a9467
+psy-concept-18b6b7697e354259,IQ,2,Intelligence Tests,66.81,core,5,1,0,1,psychology-barrons-2027-kp-1d861d7d30da1852,psychology-myers-2024-kp-b03db09a46b9ceec
+psy-concept-243b0cbff0cddcf0,Prejudice,4,"Stereotypes, Prejudice, and Discrimination",66.81,core,3,5,3,1,psychology-barrons-2027-kp-efdc127ad0bd3b18,psychology-myers-2024-kp-83d57e21843780bd
+psy-concept-e6f68ae3d4b82e0f,Prosocial behavior,4,Prosocial Behavior,66.81,core,5,1,0,1,psychology-barrons-2027-kp-c8afdd4b938388a6,psychology-myers-2024-kp-90245728237e3b98
+psy-concept-fbfe50d311b2e54c,Fovea,1,Energy Senses,66.8,core,4,2,1,1,psychology-barrons-2027-kp-db86aee641b39e82,psychology-myers-2024-kp-ef0abc6584fb3cbb
+psy-concept-2a2a2508d7231779,Cognitive behavioral therapy (CBT),5,Types of Therapy,66.73,core,4,1,2,1,psychology-barrons-2027-kp-c6aa2f77d4a47772,psychology-myers-2024-kp-ee67b953347a1a71
+psy-concept-f4972d26cd72767c,Active listening,5,Types of Therapy,66.72,core,3,3,5,1,psychology-barrons-2027-kp-d1e25caba035c733,psychology-myers-2024-kp-54600e6a469033c6
+psy-concept-f9662a14fba030a4,aptitude tests,2,Types of Tests,66.64,core,5,0,1,1,psychology-barrons-2027-kp-7e98a26a7aaf8a8a,psychology-myers-2024-kp-6ffa22e2df6293bf
+psy-concept-379c6e8a919e0b85,Replication,0,Inferential Statistics,66.64,core,5,0,1,1,psychology-barrons-2027-kp-f2f72e9d0fe8ae5d,psychology-myers-2024-kp-b45c8041efa2b8b9
+psy-concept-d3fbb19c09a266bd,Actor-observer bias,4,Attribution Theory,66.62,core,3,1,9,1,psychology-barrons-2027-kp-adfb4d2ee7e9d7a2,psychology-myers-2024-kp-1460f8e5632a58f0
+psy-concept-6b00683644d81a1d,Action potential,1,Neuroanatomy,66.59,core,4,4,0,1,psychology-barrons-2027-kp-667ced3af89328a1,psychology-myers-2024-kp-eeb84a91642c6377
+psy-concept-7b796a9f3a41f202,Normative social influence,4,The Psychology of Social Situations,66.59,core,3,4,3,1,psychology-barrons-2027-kp-acddc9786a9a33b5,psychology-myers-2024-kp-886248623fdfa10b
+psy-concept-2605fd43370b5058,Rods,1,Energy Senses,66.59,core,3,2,6,1,psychology-barrons-2027-kp-b42fe0a78dd00371,psychology-myers-2024-kp-defa444470dd894a
+psy-concept-a0e62d92458592a3,Electroconvulsive therapy (ECT),5,Types of Therapy,66.58,core,4,0,6,1,psychology-barrons-2027-kp-8488e39b2bd32f33,psychology-myers-2024-kp-fbb635d360e26742
+psy-concept-463e16cba304fc6f,Parietal lobes,1,The Brain,66.54,core,3,3,4,1,psychology-barrons-2027-kp-853c7eac51d8bc0f,psychology-myers-2024-kp-e235e7681f3216bf
+psy-concept-3d2f5b7bfc63e79d,recall,2,Retrieval,66.54,core,3,3,4,1,psychology-barrons-2027-kp-9257ba3ef6555754,psychology-myers-2024-kp-4f7ef1f8f62b0d20
+psy-concept-174e7750a4007294,perceptual set,2,Perceptual Theories,66.43,core,3,2,5,1,psychology-barrons-2027-kp-8675ac215040c6c4,psychology-myers-2024-kp-bebde4318576de05
+psy-concept-8ec3b5363abedab1,Reciprocal determinism,4,Social Cognitive Theories,66.42,core,4,0,5,1,psychology-barrons-2027-kp-cbbefd62173eafd0,psychology-myers-2024-kp-af0d199ae80f2082
+psy-concept-8b013873f02d46f0,social anxiety disorder,5,Categories of Disorders,66.42,core,4,1,1,1,psychology-barrons-2027-kp-9917a045e4ec3380,psychology-myers-2024-kp-0e3194a4aafa6223
+psy-concept-09f59a43667d8d33,Exposure therapies,5,Types of Therapy,66.35,core,2,8,6,1,psychology-barrons-2027-kp-b1262aa57207ee92,psychology-myers-2024-kp-ce3716c569d73df0
+psy-concept-a812339974edacbe,autism spectrum disorder,5,Categories of Disorders,66.24,core,4,0,4,1,psychology-barrons-2027-kp-6c1f81c395fd5845,psychology-myers-2024-kp-364333ee6bc7da0f
+psy-concept-2b2ddcafba3f7f2c,Dissociative identity disorder (DID),5,Categories of Disorders,66.11,core,2,2,15,1,psychology-barrons-2027-kp-43ed57a4d70c2e36,psychology-myers-2024-kp-d46c209121a9ba38
+psy-concept-e7a8267f5e63f20e,Free association,5,Types of Therapy,66.11,core,2,2,15,1,psychology-barrons-2027-kp-58b2d7b19b979186,psychology-myers-2024-kp-e6d1a36210f6ed5f
+psy-concept-04c35f99655cdda6,bottom-up processing,2,Perceptual Theories,66.04,core,3,1,5,1,psychology-barrons-2027-kp-05c7e896e899bb4c,psychology-myers-2024-kp-9c0871ba23601c7e
+psy-concept-c2ddc7e484554759,Pitch,1,Energy Senses,66.04,core,4,0,3,1,psychology-barrons-2027-kp-79ecaa24cc8e42bf,psychology-myers-2024-kp-847555ce816726b5
+psy-concept-0dc399aaed9e1d49,Depressants,1,Drugs,65.88,core,5,0,0,1,psychology-barrons-2027-kp-8763b3d57deec628,psychology-myers-2024-kp-69bf28a61b1fd860
+psy-concept-b6c3cf40a36f3d08,diathesis-stress model,5,Defining Psychological Disorders,65.88,core,5,0,0,1,psychology-barrons-2027-kp-51ed2fd4494c32b8,psychology-myers-2024-kp-e863caf4789de5fb
+psy-concept-0b0b96dc0b9be158,Endorphins,1,Energy Senses,65.88,core,5,0,0,1,psychology-barrons-2027-kp-2083c0612378b20c,psychology-myers-2024-kp-f3d4ac238ab4e4ff
+psy-concept-8bc7c1cf5c03d3df,Achievement motivation,4,Social Motivation,65.8,core,4,0,2,1,psychology-barrons-2027-kp-3dd2e6c92ff1954e,psychology-myers-2024-kp-f5990f9d5775df63
+psy-concept-78b5420192d4b26d,Variable-ratio (VR) schedule,3,Operant Conditioning,65.8,core,4,0,2,1,psychology-barrons-2027-kp-0df4ae20f8834a32,psychology-myers-2024-kp-5eaa3fad85ba7aec
+psy-concept-0fac3e32e7c25055,Cerebral cortex,1,The Brain,65.79,core,3,3,1,1,psychology-barrons-2027-kp-f682cb5d2ddad669,psychology-myers-2024-kp-d3817e64bf28b5cb
+psy-concept-808c4430acc3a396,Motivation,4,Overview,65.7,core,3,6,0,1,psychology-barrons-2027-kp-762dacdace01e650,psychology-myers-2024-kp-a6b67b451241f3e2
+psy-concept-f9a5591db4121a4a,panic disorder,5,Categories of Disorders,65.7,core,2,2,11,1,psychology-barrons-2027-kp-d640d5292b43ae10,psychology-myers-2024-kp-d9f2be46545fa8fb
+psy-concept-5e77e48c7bbee0d4,Token economy,5,Types of Therapy,65.69,core,3,0,9,1,psychology-barrons-2027-kp-9c9169ae313cd47d,psychology-myers-2024-kp-995c5ee6b96a04f0
+psy-concept-64607f249d5c8f23,Smell (or Olfaction),1,Chemical Senses,65.66,core,4,1,0,1,psychology-barrons-2027-kp-477242c056567256,psychology-myers-2024-kp-a300c242fa2827a4
+psy-concept-88b16602d4ee4572,Autonomic nervous system,1,Nervous System,65.57,core,2,10,1,1,psychology-barrons-2027-kp-481455b565b8fe46,psychology-myers-2024-kp-c6b8ee069c461bc5
+psy-concept-1c0b8281fe09f1a8,Metacognition,3,Cognitive Development,65.49,core,4,0,1,1,psychology-barrons-2027-kp-94893b7507fab3b6,psychology-myers-2024-kp-84dadd7731e217c1
+psy-concept-917c19c264b2e2fc,factor analysis,2,Theories of Intelligence,65.42,core,3,1,2,1,psychology-barrons-2027-kp-70a73f6d79e9b0bd,psychology-myers-2024-kp-ade85bf1ae183b5d
+psy-concept-6926cf45daa9b4e1,Positron emission tomography (PET) scan,1,The Brain,65.28,core,3,0,6,1,psychology-barrons-2027-kp-481dd8e6fc641981,psychology-myers-2024-kp-5b0fc4961c0ef12d
+psy-concept-c86af6f641728884,Experimenter bias,0,Experimental Method,65.18,core,2,3,5,1,psychology-barrons-2027-kp-9dec4a08a3a749cf,psychology-myers-2024-kp-c5afcc7c9e067187
+psy-concept-791fe7e98c43d78e,Validity,0,Validity and Reliability,65.18,core,2,3,5,1,psychology-barrons-2027-kp-4f0c771dce7b11d0,psychology-myers-2024-kp-92d9e4c40c27f4f6
+psy-concept-ce29917f5dc1d3ab,retrieval,2,Retrieval,64.94,core,1,11,7,1,psychology-barrons-2027-kp-e688d245f4ce49f4,psychology-myers-2024-kp-5e94989d470f8dac
+psy-concept-30524b09e13d9efa,agoraphobia,5,Categories of Disorders,64.92,core,1,4,18,1,psychology-barrons-2027-kp-0fca4b92c4716cfe,psychology-myers-2024-kp-66c93ec800b3de25
+psy-concept-1c5798ba3d934123,Broaden-and-build theory,4,Theories About Emotion,64.73,core,4,0,0,1,psychology-barrons-2027-kp-53065df10fa49638,psychology-myers-2024-kp-856bcaf12cc4d9c2
+psy-concept-ea5e80e9dd313976,Teratogens,3,Prenatal Influences,64.73,core,4,0,0,1,psychology-barrons-2027-kp-397fb9bcd6d36474,psychology-myers-2024-kp-5aa4d027248ae4c9
+psy-concept-e90e719b963fe46c,Transference,5,Types of Therapy,64.56,core,2,3,2,1,psychology-barrons-2027-kp-bee544d982de534a,psychology-myers-2024-kp-5d83b0701f0c42ce
+psy-concept-9ab66e228c8d207e,Fixed-ratio (FR) schedule,3,Operant Conditioning,64.5,core,3,0,2,1,psychology-barrons-2027-kp-485f050253101048,psychology-myers-2024-kp-bbeb567134a2a93b
+psy-concept-4fac27655ade35e3,Self-concept,4,Humanistic Theories of Personality,64.5,core,3,0,2,1,psychology-barrons-2027-kp-0ce475cafcf8f903,psychology-myers-2024-kp-e5e2b96b693394a1
+psy-concept-4dd71b4186131d3b,mental age,2,Intelligence Tests,64.49,core,2,4,1,1,psychology-barrons-2027-kp-b9225af68c20d1df,psychology-myers-2024-kp-dc961e8f3a88b501
+psy-concept-4aba528218ec86e6,monocular depth cues,2,Principles of Visual Perception,64.49,core,2,4,1,1,psychology-barrons-2027-kp-d7ae6dd2ec5bc48b,psychology-myers-2024-kp-5b5546f3edc3354c
+psy-concept-9f541b24c7f82a84,Acquisition,3,Classical Conditioning,64.38,core,2,0,11,1,psychology-barrons-2027-kp-83e8af01378a23ae,psychology-myers-2024-kp-b2e1071319a981d9
+psy-concept-5d373271181d7b75,Endocrine system,1,Endocrine System,64.36,core,3,1,0,1,psychology-barrons-2027-kp-7bc4f1c062b17c6e,psychology-myers-2024-kp-e4e5ce57c08c7b5a
+psy-concept-eef8c56ce9b6e45a,inattentional blindness,2,Sensory Memory,64.36,core,3,1,0,1,psychology-barrons-2027-kp-18927e6f67c154f7,psychology-myers-2024-kp-8d397c68791aaa28
+psy-concept-399cc8214a71b56f,Retina,1,Energy Senses,64.34,core,2,7,0,1,psychology-barrons-2027-kp-5ab96e7a0d8d2b3d,psychology-myers-2024-kp-8611ee17f2aec1fe
+psy-concept-f451c19900572634,concepts,2,Describing Thought,64.24,core,2,3,1,1,psychology-barrons-2027-kp-e2acfba06f0bbb89,psychology-myers-2024-kp-7804c9b9d08030ec
+psy-concept-e15eec8b99a234f8,Spontaneous recovery,3,Classical Conditioning,64.19,core,1,2,16,1,psychology-barrons-2027-kp-dba3a0c4ecf5611a,psychology-myers-2024-kp-8671196b8ef8b775
+psy-concept-9f3e5b459bfdbc21,Priming,1,Levels of Consciousness,64.18,core,3,0,1,1,psychology-barrons-2027-kp-a3c0ba6e0d77dbae,psychology-myers-2024-kp-c80d9a4d5c2c500c
+psy-concept-2e747d5b0f72a80c,Quantitative research,0,Overview,64.18,core,3,0,1,1,psychology-barrons-2027-kp-5e4653f80148c87a,psychology-myers-2024-kp-f3b0cd0ab42dee2c
+psy-concept-a1484988f1f7d89e,Variable-interval (VI) schedule,3,Operant Conditioning,64.18,core,3,0,1,1,psychology-barrons-2027-kp-60124a94a908c8e3,psychology-myers-2024-kp-d66c3716cffc69a2
+psy-concept-6f43268aaed42e86,Thematic apperception test (TAT),4,Psychodynamic Theories of Personality,64.16,core,2,6,0,1,psychology-barrons-2027-kp-aebe80f15b0ed4e5,psychology-myers-2024-kp-4b46a2e9583caaf1
+psy-concept-00376ecd53400f44,Morpheme,3,Language,64.12,core,2,1,3,1,psychology-barrons-2027-kp-69112c543e6e67d6,psychology-myers-2024-kp-19e7bdec83c5872c
+psy-concept-4257b5b10221403f,binocular depth cues,2,Principles of Visual Perception,64.11,core,1,10,3,1,psychology-barrons-2027-kp-0e2c247fa215adf9,psychology-myers-2024-kp-3b65fbe0261b0850
+psy-concept-38d574898d7a6d56,content validity,2,Reliability and Validity,64.01,core,2,0,8,1,psychology-barrons-2027-kp-374db41078cef27d,psychology-myers-2024-kp-856ea804a1b8ad6c
+psy-concept-e553a023506b6881,Hypothesis,0,Hypotheses and Variables,63.95,core,2,2,1,1,psychology-barrons-2027-kp-1ca1b1a60f172473,psychology-myers-2024-kp-7d828442c1ede903
+psy-concept-eef2d87e1c19507e,anorexia nervosa,5,Categories of Disorders,63.88,core,2,0,7,1,psychology-barrons-2027-kp-715cd87e32a8f918,psychology-myers-2024-kp-39590ed7047bf378
+psy-concept-74362a24093ee760,Informational social influence,4,The Psychology of Social Situations,63.88,core,2,0,7,1,psychology-barrons-2027-kp-b32bee1c0db87386,psychology-myers-2024-kp-1a07257568fe684e
+psy-concept-b0e4c20f50e8e9be,Narcolepsy,1,Sleep,63.88,core,2,0,7,1,psychology-barrons-2027-kp-3740d981fafa7bf6,psychology-myers-2024-kp-762a10513c26d1b0
+psy-concept-ad3b9803e9fa0de4,achievement tests,2,Types of Tests,63.74,core,2,4,0,1,psychology-barrons-2027-kp-d05c01280e2c78ec,psychology-myers-2024-kp-d31d34c210cacc9a
+psy-concept-882f05341708eb80,Unconditioned response (UR or UCR),3,Classical Conditioning,63.68,core,1,2,11,1,psychology-barrons-2027-kp-996b619220834ed8,psychology-myers-2024-kp-d3d8a6f9d63aec23
+psy-concept-ee59bb80569fbe75,Accommodation (sensory),1,Energy Senses,63.57,core,2,0,5,1,psychology-barrons-2027-kp-2c3adc429d7b1352,psychology-myers-2024-kp-e94201164aba0a80
+psy-concept-1e283006174e5b32,Functional MRI (fMRI),1,The Brain,63.57,core,2,0,5,1,psychology-barrons-2027-kp-2a13c82f5f6b9321,psychology-myers-2024-kp-c9f82215284bc77d
+psy-concept-a1caf92e6912749b,Instincts,4,Theories of Motivation,63.57,core,2,0,5,1,psychology-barrons-2027-kp-36b8e6cab227ffa6,psychology-myers-2024-kp-fe4c54db6319a6d6
+psy-concept-41a41b4f8a16378d,REM rebound,1,Sleep,63.57,core,2,0,5,1,psychology-barrons-2027-kp-57986ae0f76bab94,psychology-myers-2024-kp-a54a784aaf68b598
+psy-concept-665434ee5316dc37,Inferential statistics,0,Inferential Statistics,63.56,core,2,1,1,1,psychology-barrons-2027-kp-2074a9ce88007f7f,psychology-myers-2024-kp-8e454c50c145ef00
+psy-concept-0cb52d641035a7b6,Partial-reinforcement effect,3,Operant Conditioning,63.56,core,1,8,2,1,psychology-barrons-2027-kp-1e87e0edb02a9af4,psychology-myers-2024-kp-06ebaff04bab1cb6
+psy-concept-787e8d0ba0295774,sensory memory,2,Sensory Memory,63.56,core,1,2,10,1,psychology-barrons-2027-kp-7f45c37d76f2f080,psychology-myers-2024-kp-a24f186f00540c21
+psy-concept-9b059c19566fbe9e,Withdrawal symptoms,1,Drugs,63.56,core,2,1,1,1,psychology-barrons-2027-kp-835b4a233c85c79e,psychology-myers-2024-kp-de0522fa0fd2960b
+psy-concept-98484a47e03f26ee,Attention-deficit/hyperactivity disorder (ADHD),5,Categories of Disorders,63.43,core,3,0,0,1,psychology-barrons-2027-kp-002e255c2706ede8,psychology-myers-2024-kp-6471ecfda09dbba6
+psy-concept-a5798070b8b52895,Instinctive drift,3,Operant Conditioning,63.43,core,3,0,0,1,psychology-barrons-2027-kp-29bf437ab71efa3d,psychology-myers-2024-kp-7950a065d140d28e
+psy-concept-91372fd15fcd4ce4,long-term potentiation,2,Levels of Processing Model,63.43,core,3,0,0,1,psychology-barrons-2027-kp-3407987f544fdddc,psychology-myers-2024-kp-198cb3321ec4d1d9
+psy-concept-a2f0d2d956e1b786,Refractory period,4,Sexual Motivation,63.43,core,3,0,0,1,psychology-barrons-2027-kp-8d551041398c6ab3,psychology-myers-2024-kp-cbb77d297baad792
+psy-concept-2f4a8b4e7fcbbed3,Self-disclosure,4,Attraction,63.43,core,3,0,0,1,psychology-barrons-2027-kp-916ac4f97339ff6d,psychology-myers-2024-kp-da299d19865fc040
+psy-concept-dba3b2f004192536,Superordinate goal,4,"Stereotypes, Prejudice, and Discrimination",63.43,core,3,0,0,1,psychology-barrons-2027-kp-b34bd2a3cb0e6c57,psychology-myers-2024-kp-a6a59622a6331164
+psy-concept-23c3594103def45c,signal detection theory,2,Perceptual Theories,63.39,core,2,0,4,1,psychology-barrons-2027-kp-1649b32ac5d91cf1,psychology-myers-2024-kp-8f82689f81a0653c
+psy-concept-d11aefb40fbf5cde,Counterconditioning,5,Types of Therapy,63.32,core,1,3,6,1,psychology-barrons-2027-kp-b645b42f72b7fef5,psychology-myers-2024-kp-e5e73543cbed1763
+psy-concept-0fcc401ea793d47c,Dreams,1,Dreams,63.2,core,2,2,0,1,psychology-barrons-2027-kp-dc020507ed43f2d0,psychology-myers-2024-kp-a483487a1d56c579
+psy-concept-ac975967246d045a,Positive psychology,5,Positive Psychology,63.2,core,2,2,0,1,psychology-barrons-2027-kp-dd3830f5bacfcf5c,psychology-myers-2024-kp-8b9c3015db1a1b54
+psy-concept-afebcfce9f2fc5f3,belief perseverance,2,Problem-Solving,63.19,core,2,0,3,1,psychology-barrons-2027-kp-dbe4b1e3c3ad18f3,psychology-myers-2024-kp-5e8e761068a38e0d
+psy-concept-a4b3c5cf26865898,Cochlea,1,Energy Senses,63.19,core,2,0,3,1,psychology-barrons-2027-kp-23bbda8d1b928301,psychology-myers-2024-kp-d7491766783f7959
+psy-concept-cb7b4927b5684820,Fixed-interval (FI) schedule,3,Operant Conditioning,63.19,core,2,0,3,1,psychology-barrons-2027-kp-7afff3be3d36b7b1,psychology-myers-2024-kp-0f06858c6eadd733
+psy-concept-8c9e52206a0d2359,explicit memories,2,Long-Term Memory,63.03,core,1,4,3,1,psychology-barrons-2027-kp-3bcaad62d0d0b949,psychology-myers-2024-kp-249454e9a3db54c5
+psy-concept-2c92d38b891139e8,Resistance,5,Stress,62.98,core,1,3,4,1,psychology-barrons-2027-kp-84fe7e31e437d2c3,psychology-myers-2024-kp-f4661dd36fd0fc81
+psy-concept-ef8a1942d93ef2ac,Persistent depressive disorder,5,Categories of Disorders,62.95,core,2,0,2,1,psychology-barrons-2027-kp-b0c3b44ad18640a4,psychology-myers-2024-kp-68c164583912dbae
+psy-concept-66d931664262c10f,Stimulants,1,Drugs,62.95,core,2,0,2,1,psychology-barrons-2027-kp-8143f9255206523b,psychology-myers-2024-kp-73bd6b778f204c73
+psy-concept-9554b9ad3fba2fb7,Tolerance,1,Drugs,62.95,core,2,0,2,1,psychology-barrons-2027-kp-78b83c35025eb0fc,psychology-myers-2024-kp-6f3495797e61eab4
+psy-concept-a5e4d1b2d1fea797,Developmental psychology,3,Overview,62.81,core,2,1,0,1,psychology-barrons-2027-kp-0a277d712b8cdfb6,psychology-myers-2024-kp-0343342f9b3c8f1b
+psy-concept-f63a689de61b88ca,gratitude,5,Positive Psychology,62.81,core,2,1,0,1,psychology-barrons-2027-kp-f67a2b019b6b017e,psychology-myers-2024-kp-7a520be93a8fb208
+psy-concept-ed568d7d6a1da964,Central nervous system (CNS),1,Nervous System,62.79,core,1,1,7,1,psychology-barrons-2027-kp-92b8ba83fe476b34,psychology-myers-2024-kp-0b8e2bcaacf6967a
+psy-concept-aa5b8906257435ca,Law of effect,3,Operant Conditioning,62.79,core,1,4,2,1,psychology-barrons-2027-kp-c4b2dce7753fae6e,psychology-myers-2024-kp-ff18161a7e5697d5
+psy-concept-5f89ec9df10d45e4,Magnetic resonance imaging (MRI),1,The Brain,62.69,core,1,2,4,1,psychology-barrons-2027-kp-cbbab50a1d6d1612,psychology-myers-2024-kp-85fdee09be195c86
+psy-concept-a02352022576c73e,Agonists,1,Drugs,62.64,core,2,0,1,1,psychology-barrons-2027-kp-a87012c54b1be77f,psychology-myers-2024-kp-c808694869be9c15
+psy-concept-433cb8c65d06ecd8,Aversive conditioning,3,Classical Conditioning,62.64,core,2,0,1,1,psychology-barrons-2027-kp-03e98105ebcce461,psychology-myers-2024-kp-97739b17d11f8317
+psy-concept-1cdb7cae31c045ad,Eclectic therapy,5,Types of Therapy,62.64,core,2,0,1,1,psychology-barrons-2027-kp-5c27ea5a040497ae,psychology-myers-2024-kp-21ebec6b15c5eba6
+psy-concept-25e21065431025a9,mood-congruent memory,2,Retrieval,62.64,core,2,0,1,1,psychology-barrons-2027-kp-76c6541811ce3371,psychology-myers-2024-kp-ccae66a504058174
+psy-concept-db310255c83557d0,overconfidence,2,Problem-Solving,62.64,core,2,0,1,1,psychology-barrons-2027-kp-ab94f08213b9677d,psychology-myers-2024-kp-48adeba322429305
+psy-concept-923a48fecf8d1234,Qualitative research,0,Overview,62.64,core,2,0,1,1,psychology-barrons-2027-kp-611f64aa7b0b1c5b,psychology-myers-2024-kp-53cdde15e8161a67
+psy-concept-c3d413fd23ca9264,retrograde amnesia,2,Storing Memories,62.64,core,1,1,6,1,psychology-barrons-2027-kp-6cec875308b9feaf,psychology-myers-2024-kp-6cabdbd44c3ac655
+psy-concept-651c88b3b6126b63,visuospatial sketchpad,2,Short-Term and Working Memory,62.64,core,2,0,1,1,psychology-barrons-2027-kp-57624c4d2be29a9e,psychology-myers-2024-kp-8a4a7523a797c4f2
+psy-concept-e4bab971de8e3463,Synapse,1,Neuroanatomy,62.54,core,1,3,2,1,psychology-barrons-2027-kp-1dc94741a0204bfe,psychology-myers-2024-kp-43b1340228aca4ab
+psy-concept-18cea7781cda7709,Sensory neurons (afferent neurons),1,Nervous System,62.49,core,1,2,3,1,psychology-barrons-2027-kp-1de71bb3a5df59a6,psychology-myers-2024-kp-c4342feac0af2f81
+psy-concept-d7879da56fccde51,Identical twins (monozygotic twins),1,Genetics,62.48,core,1,4,1,1,psychology-barrons-2027-kp-549be2ead68ed98f,psychology-myers-2024-kp-af8b87eba665d565
+psy-concept-23ee3e4698b8e891,working memory,2,Short-Term and Working Memory,62.3,core,1,1,4,1,psychology-barrons-2027-kp-e3707347032a3207,psychology-myers-2024-kp-4983944881cf9d44
+psy-concept-4b2ab18b2269ecae,Peripheral nervous system (PNS),1,Nervous System,62.1,core,1,1,3,1,psychology-barrons-2027-kp-465cd85dddaec654,psychology-myers-2024-kp-e7fe4aec75331c1c
+psy-concept-3a89eaa58ff5be02,Sensation,1,Overview,61.93,core,1,2,1,1,psychology-barrons-2027-kp-5bfe221f5a3b0b5d,psychology-myers-2024-kp-e89d11d69476dda4
+psy-concept-c69bf5ed7023bc0d,Antagonists,1,Drugs,61.88,core,2,0,0,1,psychology-barrons-2027-kp-83a13e088c05861e,psychology-myers-2024-kp-295a88b0f07d49bf
+psy-concept-cd35b21896259b84,Falsifiable,0,Hypotheses and Variables,61.88,core,2,0,0,1,psychology-barrons-2027-kp-cfa8e52eaf6a0ed0,psychology-myers-2024-kp-dbe8b67f31923ab5
+psy-concept-b5d8f9d010e43c95,Gate control theory,1,Energy Senses,61.88,core,2,0,0,1,psychology-barrons-2027-kp-006a572718142cb6,psychology-myers-2024-kp-b1f2ec603ef5d731
+psy-concept-ed62835d5368f887,post-traumatic growth,5,Positive Psychology,61.88,core,2,0,0,1,psychology-barrons-2027-kp-5c5b91e0af5ab163,psychology-myers-2024-kp-fa1cfce3cdd3b2e1
+psy-concept-10a535aeb249acbb,Social psychology,4,Overview,61.88,core,2,0,0,1,psychology-barrons-2027-kp-d51e643db412f55f,psychology-myers-2024-kp-db88181aaf3de002
+psy-concept-e6492ba880ffb4e1,subjective well-being,5,Positive Psychology,61.88,core,2,0,0,1,psychology-barrons-2027-kp-595ca30e06c8c9d9,psychology-myers-2024-kp-6c064328104f841b
+psy-concept-2621cbfbf3557239,therapeutic alliance,5,Kinds of Therapists,61.88,core,2,0,0,1,psychology-barrons-2027-kp-63ac16dcca3a87c0,psychology-myers-2024-kp-884354395aab29c8
+psy-concept-dd029962bd7728af,Discrimination (social),4,"Stereotypes, Prejudice, and Discrimination",61.86,core,1,0,7,1,psychology-barrons-2027-kp-b4c060a3c8be2a5c,psychology-myers-2024-kp-59d62b05d8809bc5
+psy-concept-0d524ef495d22bad,chunking,2,Encoding Memories,61.71,core,1,0,6,1,psychology-barrons-2027-kp-5d31489f7095632c,psychology-myers-2024-kp-4d6ae87d8fe97ada
+psy-concept-27d127d4f0d1457b,Higher-order conditioning,3,Classical Conditioning,61.71,core,1,0,6,1,psychology-barrons-2027-kp-c2bad06396b10ccf,psychology-myers-2024-kp-f03b26d6927bc28c
+psy-concept-229ca7f2d4b5f4e1,iconic memory,2,Sensory Memory,61.71,core,1,0,6,1,psychology-barrons-2027-kp-a02dcf455f7cd121,psychology-myers-2024-kp-4da6bdb2433f3b06
+psy-concept-a7b13ded6d92ab61,Imprinting,3,Parenting,61.71,core,1,0,6,1,psychology-barrons-2027-kp-f6ccc28ebc60f42b,psychology-myers-2024-kp-8873b9f33c036e51
+psy-concept-d948e13846367b6c,Telegraphic speech,3,Language,61.71,core,1,0,6,1,psychology-barrons-2027-kp-b8de9ddceb6c3207,psychology-myers-2024-kp-f516bd59da2cad4f
+psy-concept-d31b6c37c47371d2,bulimia,5,Categories of Disorders,61.55,core,1,0,5,1,psychology-barrons-2027-kp-dcbb23b167a1a4da,psychology-myers-2024-kp-2e5c999b0d9258c4
+psy-concept-e5fa6f98218f8960,Group therapy,5,Types of Therapy,61.37,core,1,0,4,1,psychology-barrons-2027-kp-dea9b311d49dfbf1,psychology-myers-2024-kp-9e5b73896fc537c8
+psy-concept-857edbf68ea4a34d,Social trap,4,Compliance Strategies,61.37,core,1,0,4,1,psychology-barrons-2027-kp-c9170326d795c3ba,psychology-myers-2024-kp-d1fa3ab55d31fb2c
+psy-concept-fc3790392bd5c6dc,Ecological systems theory,3,Parenting,61.18,core,1,2,0,1,psychology-barrons-2027-kp-62e437f26193c4b1,psychology-myers-2024-kp-0591f075d34967d8
+psy-concept-d515b0dc50c70fc1,Babbling stage,3,Language,61.17,core,1,0,3,1,psychology-barrons-2027-kp-9f5830480e2e7c88,psychology-myers-2024-kp-f148178aedc539b5
+psy-concept-cb8e2fb314460cb4,Set-point theory,4,Hunger Motivation,60.93,core,1,0,2,1,psychology-barrons-2027-kp-d07b4a9b13e5d3b5,psychology-myers-2024-kp-f4a4ed9552524f92
+psy-concept-d153bbcb6c36443d,Superego,4,Psychodynamic Theories of Personality,60.93,core,1,0,2,1,psychology-barrons-2027-kp-0eb97eba97c6f4f6,psychology-myers-2024-kp-e59e9c1d42b25497
+psy-concept-a4fd220793ae075e,relearning effect,2,Forgetting,60.8,core,1,1,0,1,psychology-barrons-2027-kp-d287d9c94909c095,psychology-myers-2024-kp-da4d97b7e24bbe53
+psy-concept-f23ba67c2ac1f7db,Social-Cognitive Theory,3,Gender and Development,60.8,core,1,1,0,1,psychology-barrons-2027-kp-395769f94473bf3a,psychology-myers-2024-kp-d14e6a85b352fd58
+psy-concept-234f73c18a2fcf6e,Biopsychosocial Perspective,0,Psychological Perspectives,60.62,core,1,0,1,1,psychology-barrons-2027-kp-80086ba13791dd5a,psychology-myers-2024-kp-2db0ff6ad4271fe7
+psy-concept-19ce5d37f7434467,Conduction deafness,1,Energy Senses,60.62,core,1,0,1,1,psychology-barrons-2027-kp-f1aec4ec58b9d718,psychology-myers-2024-kp-bd831cd65c79a322
+psy-concept-bae6f9af9798f1cf,Hues,1,Energy Senses,60.62,core,1,0,1,1,psychology-barrons-2027-kp-53b5c6191daf50e0,psychology-myers-2024-kp-1266890c96dcb10b
+psy-concept-4d363aafc672a416,Perception,1,Overview,60.62,core,1,0,1,1,psychology-barrons-2027-kp-8303b212444e00b5,psychology-myers-2024-kp-ac3bfe04695ea65c
+psy-concept-59b712d4caf75f27,Psychotherapies,5,Types of Therapy,60.62,core,1,0,1,1,psychology-barrons-2027-kp-36e018870c8a59cc,psychology-myers-2024-kp-7263251078afc695
+psy-concept-367603767f6da651,Defense mechanisms,4,Psychodynamic Theories of Personality,60.22,core,0,20,2,1,psychology-barrons-2027-kp-edbba0764dfb7c40,psychology-myers-2024-kp-cbbc8dcf1cfa8f5e
+psy-concept-285cc2eb7533bfff,Hallucinogens,1,Drugs,59.87,core,1,0,0,1,psychology-barrons-2027-kp-734b94f9e7c1430d,psychology-myers-2024-kp-9063e2321b98b503
+psy-concept-700845036ff6ea7e,Interneurons (association neurons),1,Nervous System,59.87,core,1,0,0,1,psychology-barrons-2027-kp-033b022b578e5734,psychology-myers-2024-kp-7d3d43a0da8ade3b
+psy-concept-ea14a8ba244c5784,Personality inventories,4,Social Cognitive Theories,59.87,core,1,0,0,1,psychology-barrons-2027-kp-be33c7da1fea8393,psychology-myers-2024-kp-ebc0bad7d744a91c
+psy-concept-5a2ff12dda1dcebd,Psychophysics,2,Overview,59.87,core,1,0,0,1,psychology-barrons-2027-kp-5790ce1faed1dad9,psychology-myers-2024-kp-eb15d351429c0298
+psy-concept-aa705a91b7a99bbc,Sexual orientation,4,Sexual Motivation,59.87,core,1,0,0,1,psychology-barrons-2027-kp-130a6cb5627b6d54,psychology-myers-2024-kp-621c5420916f5218
+psy-concept-5c28b3d52a99984c,tend-and-befriend theory,5,Stress,59.87,core,1,0,0,1,psychology-barrons-2027-kp-ba92b843fa63a152,psychology-myers-2024-kp-ac08b844845e6f90
+psy-concept-b7349978f8c036b8,Psychoanalysis (therapy),5,Types of Therapy,58.45,core,0,2,8,1,psychology-barrons-2027-kp-2dd745581c0996d9,psychology-myers-2024-kp-13be8e9e9af27b50
+psy-concept-b24a8a3e6f3a8351,Motor cortex,1,The Brain,58.06,core,0,1,8,1,psychology-barrons-2027-kp-3612094a1d506460,psychology-myers-2024-kp-24b1b9dbf3d3e7a9
+psy-concept-059a3b36a6875422,Frequency theory,1,Energy Senses,57.67,core,0,3,2,1,psychology-barrons-2027-kp-7d09bcc2eba24bf6,psychology-myers-2024-kp-5e30f31cfd1bb65e
+psy-concept-56021fe34ac99331,Transduction,1,Overview,57.67,core,0,3,2,1,psychology-barrons-2027-kp-a54901a52d876788,psychology-myers-2024-kp-ee43f276b2b950cc
+psy-concept-1ce8217f135775f7,Threshold,1,Neuroanatomy,57.62,core,0,2,3,1,psychology-barrons-2027-kp-ca64e6b1c5a00c7c,psychology-myers-2024-kp-af84363bd9169874
+psy-concept-477a7848604bd47a,Motor neurons (efferent neurons),1,Nervous System,57.44,core,0,1,4,1,psychology-barrons-2027-kp-d73967309760704e,psychology-myers-2024-kp-8533f11a8d689db5
+psy-concept-710adb159b839460,Rorschach inkblot test,4,Psychodynamic Theories of Personality,57.27,core,0,6,0,1,psychology-barrons-2027-kp-9887b8df8538fb52,psychology-myers-2024-kp-c8dc5ae94cd671db
+psy-concept-1c1120475272b1d1,Place theory,1,Energy Senses,57.23,core,0,1,3,1,psychology-barrons-2027-kp-dcf04c62fb2b1827,psychology-myers-2024-kp-9164e480d2311cf0
+psy-concept-4c5d7dddd5299f93,Hindbrain,1,The Brain,57.08,core,0,5,0,1,psychology-barrons-2027-kp-18ae2d8ed0f409bd,psychology-myers-2024-kp-1406a0bc9e141525
+psy-concept-28011177a762cf19,Axon,1,Neuroanatomy,57.07,core,0,2,1,1,psychology-barrons-2027-kp-296e4916ee6e9b29,psychology-myers-2024-kp-c88b2f3045b3f5d6
+psy-concept-cbfb457dcb316677,Somatic therapies,5,Types of Therapy,56.86,core,0,4,0,1,psychology-barrons-2027-kp-72b7c93aec91a077,psychology-myers-2024-kp-3b87a69344e75a5a
+psy-concept-d1ba5b39de0ad204,Personality,4,Overview,56.86,core,0,4,0,1,psychology-barrons-2027-kp-536ad07baf327b51,psychology-myers-2024-kp-007d9b87d99c6733
+psy-concept-b7742e6e66d6a103,echoic memory,2,Sensory Memory,56.85,core,0,0,6,1,psychology-barrons-2027-kp-7c0da6a4a37912c9,psychology-myers-2024-kp-be62baefbb6402f0
+psy-concept-7b9243938209a9ac,Insomnia,1,Sleep,56.85,core,0,0,6,1,psychology-barrons-2027-kp-42cd2b0653c3f9a5,psychology-myers-2024-kp-4f1dfbd765e6fd73
+psy-concept-3a3eab9d3dec4a96,Neurons,1,Neuroanatomy,56.61,core,0,3,0,1,psychology-barrons-2027-kp-3a3edb6bb2c3d330,psychology-myers-2024-kp-e7e4d219ab1fafd3
+psy-concept-25cc50fceaa72f35,Psychoactive drugs,1,Drugs,56.61,core,0,3,0,1,psychology-barrons-2027-kp-dc338b341d3a93ae,psychology-myers-2024-kp-a80f1d36dd5f5001
+psy-concept-2246b825c0804f1d,Reflexes,3,Motor/Sensory Development,56.61,core,0,3,0,1,psychology-barrons-2027-kp-611e55394c6c9319,psychology-myers-2024-kp-908b2d1a38b31397
+psy-concept-3e47df6e8014360a,Pupil,1,Energy Senses,56.51,core,0,0,4,1,psychology-barrons-2027-kp-9f95d847c84bfc8b,psychology-myers-2024-kp-c025de8a88409589
+psy-concept-4013bb439c3c262f,Repression,4,Psychodynamic Theories of Personality,56.51,core,0,0,4,1,psychology-barrons-2027-kp-74f93eda899f7c48,psychology-myers-2024-kp-d32bca27013fd9e6
+psy-concept-464ca793e54aacd6,Structured interview,0,Qualitative Methods,56.51,core,0,0,4,1,psychology-barrons-2027-kp-39919e56194f9f6a,psychology-myers-2024-kp-0930f76a4feddd0e
+psy-concept-530ab2e8efbe3ea4,Transcranial magnetic stimulation (TMS),5,Types of Therapy,56.51,core,0,0,4,1,psychology-barrons-2027-kp-67c4743e55a96f86,psychology-myers-2024-kp-2e1679e886a8a6d6
+psy-concept-644baea2c66528db,convergent thinking,2,Creativity,56.31,core,0,0,3,1,psychology-barrons-2027-kp-44875f83f5b82e8c,psychology-myers-2024-kp-a890cbe7a365c1b9
+psy-concept-366ec7414e16730f,Discriminative stimulus,3,Operant Conditioning,56.31,core,0,0,3,1,psychology-barrons-2027-kp-daef8b56a8819ef1,psychology-myers-2024-kp-fd9b75de800b79ae
+psy-concept-b66d44e1f1b51785,Primary reinforcers,3,Operant Conditioning,56.31,core,0,2,0,1,psychology-barrons-2027-kp-43b209f9c5f226e7,psychology-myers-2024-kp-67c81d0f385a81d9
+psy-concept-1923b36178fb084f,All-or-none principle,1,Neuroanatomy,56.07,core,0,0,2,1,psychology-barrons-2027-kp-f4b72e18cca667f2,psychology-myers-2024-kp-47459d753128154a
+psy-concept-3277b08369aeedc3,Cell body (soma),1,Neuroanatomy,56.07,core,0,0,2,1,psychology-barrons-2027-kp-76ed3ce75d66b720,psychology-myers-2024-kp-1b5fa6143ee7a430
+psy-concept-7a56f4fdf48d2333,Cornea,1,Energy Senses,56.07,core,0,0,2,1,psychology-barrons-2027-kp-655a6402b25e086f,psychology-myers-2024-kp-3c5b1470089f65b9
+psy-concept-aab25960c7470887,Computerized axial tomography (CAT or CT) scan,1,The Brain,56.07,core,0,0,2,1,psychology-barrons-2027-kp-4bbdb6f573e9dc65,psychology-myers-2024-kp-d2234e31382d95e4
+psy-concept-868ed438516049fe,Ego,4,Psychodynamic Theories of Personality,56.07,core,0,0,2,1,psychology-barrons-2027-kp-96749d5f90c26caa,psychology-myers-2024-kp-e3e7ec2dbee68a5d
+psy-concept-cc443ac180616d66,Family therapy,5,Types of Therapy,56.07,core,0,0,2,1,psychology-barrons-2027-kp-f06cccbc958c1382,psychology-myers-2024-kp-ce342bb36ceb1837
+psy-concept-15df103044b5bf18,Insight therapies,5,Types of Therapy,56.07,core,0,0,2,1,psychology-barrons-2027-kp-e70481408d0e596e,psychology-myers-2024-kp-e85c43036806eed1
+psy-concept-11fe0ed1170ff32b,Forebrain,1,The Brain,55.93,core,0,1,0,1,psychology-barrons-2027-kp-29712646dc4ab73b,psychology-myers-2024-kp-2acd250cc12415b7
+psy-concept-c3c072fd7b281813,Id,4,Psychodynamic Theories of Personality,55.93,core,0,1,0,1,psychology-barrons-2027-kp-9422e1ff1b031f3c,psychology-myers-2024-kp-2fbb3b50db5f742e
+psy-concept-d7df2ee9dad6f417,intelligence,2,Overview,55.93,core,0,1,0,1,psychology-barrons-2027-kp-dd3f899960a0ba38,psychology-myers-2024-kp-f72aa6db74c11404
+psy-concept-b2045793c82c568c,semantic memory,2,Short-Term and Working Memory,55.93,core,0,1,0,1,psychology-barrons-2027-kp-0f0eb028e07a9fe8,psychology-myers-2024-kp-875f83071f3437b7
+psy-concept-3eea8d05802c72f1,Theory,0,Hypotheses and Variables,55.93,core,0,1,0,1,psychology-barrons-2027-kp-df9aa79f54d8d61f,psychology-myers-2024-kp-4267ac8b44e86dc3
+psy-concept-d30e2ee04d19d858,visual cliff,2,Principles of Visual Perception,55.93,core,0,1,0,1,psychology-barrons-2027-kp-f80a7602f1c19305,psychology-myers-2024-kp-a48e57e4c1c0dc0a
+psy-concept-71bbdb4009f7e094,Alpha waves,1,Sleep,55.75,core,0,0,1,1,psychology-barrons-2027-kp-c72a067644f9793f,psychology-myers-2024-kp-f5fdfb505d97f176
+psy-concept-a51e819d6152af62,autokinetic effect,2,Principles of Visual Perception,55.75,core,0,0,1,1,psychology-barrons-2027-kp-1bbab5cc06ff8db9,psychology-myers-2024-kp-68650aaf0e5bb1f3
+psy-concept-a4fdb7259d3bc3ac,central executive,2,Short-Term and Working Memory,55.75,core,0,0,1,1,psychology-barrons-2027-kp-f1b89f7a00391a0a,psychology-myers-2024-kp-ef110714c8383d1c
+psy-concept-fc8688a908144ff6,change blindness,2,Sensory Memory,55.75,core,0,0,1,1,psychology-barrons-2027-kp-a7f29c56d9824e69,psychology-myers-2024-kp-57933cebef782bc0
+psy-concept-558d09c1916e8b3f,Dendrites,1,Neuroanatomy,55.75,core,0,0,1,1,psychology-barrons-2027-kp-1c1756b21d2dfcc8,psychology-myers-2024-kp-6b6e0e7e99170eb8
+psy-concept-9b3825280dc1a862,Fetal alcohol syndrome (FAS),3,Prenatal Influences,55.75,core,0,0,1,1,psychology-barrons-2027-kp-2844cccc82b79530,psychology-myers-2024-kp-09d224c32d77e3b1
+psy-concept-3a2c86dc811f8194,Frustration-aggression hypothesis,4,Aggression and Antisocial Behavior,55.75,core,0,0,1,1,psychology-barrons-2027-kp-13c37f09389d369d,psychology-myers-2024-kp-c67c852bf9246358
+psy-concept-c3706f902f452047,Midbrain,1,The Brain,55.75,core,0,0,1,1,psychology-barrons-2027-kp-d384c083deb475cf,psychology-myers-2024-kp-008e1bdd6416571b
+psy-concept-d5589e4ef156fffc,Peer review,0,Inferential Statistics,55.75,core,0,0,1,1,psychology-barrons-2027-kp-8320c7091e255354,psychology-myers-2024-kp-1dc735cf24b19257
+psy-concept-90bd1ed11d8be278,phi phenomenon,2,Principles of Visual Perception,55.75,core,0,0,1,1,psychology-barrons-2027-kp-5924ded06d0873b9,psychology-myers-2024-kp-9652c64aa2f81cba
+psy-concept-a90aa12b7682665a,Self-determination theory,4,Theories of Motivation,55.75,core,0,0,1,1,psychology-barrons-2027-kp-91dc443068ced6ba,psychology-myers-2024-kp-d07f1daf2cb9d6f8
+psy-concept-858ebb6a79cac63a,subliminal,2,Thresholds,55.75,core,0,0,1,1,psychology-barrons-2027-kp-dcdd517be3b68644,psychology-myers-2024-kp-677a1e2554ed13a4
+psy-concept-d7fdd7160060303f,character strengths,5,Positive Psychology,55.0,core,0,0,0,1,psychology-barrons-2027-kp-bbfb5e34ddd51c74,psychology-myers-2024-kp-0fd06841eb7a3dff
+psy-concept-64b6b9834531505c,Association area,1,The Brain,55.0,core,0,0,0,1,psychology-barrons-2027-kp-7bbbf739d4365ef2,psychology-myers-2024-kp-dcff719e7f67753a
+psy-concept-66035db3580997ba,Blind sight,1,Levels of Consciousness,55.0,core,0,0,0,1,psychology-barrons-2027-kp-2408d066acf9c71e,psychology-myers-2024-kp-d8fd566b7f6d431b
+psy-concept-562cafb9e3ca8a47,Collective unconscious,4,Psychodynamic Theories of Personality,55.0,core,0,0,0,1,psychology-barrons-2027-kp-6f55e3c92f6e58e0,psychology-myers-2024-kp-acb51c693c0fbf06
+psy-concept-16df34296071b9c5,Consciousness,1,Overview,55.0,core,0,0,0,1,psychology-barrons-2027-kp-eddfe14c30462be3,psychology-myers-2024-kp-c9f1a9614ec6e00b
+psy-concept-dc8eb8265ebe6c8a,Feature detectors,1,Energy Senses,55.0,core,0,0,0,1,psychology-barrons-2027-kp-6f6894b150f2dc02,psychology-myers-2024-kp-4f82b546cf2328d1
+psy-concept-5c14dfe4064c020f,figure-ground relationship,2,Principles of Visual Perception,55.0,core,0,0,0,1,psychology-barrons-2027-kp-7bea7ec8bb6c848f,psychology-myers-2024-kp-5e0c85401f3d82fd
+psy-concept-41f2f6ac54622722,flashbulb memories,2,Retrieval,55.0,core,0,0,0,1,psychology-barrons-2027-kp-a4ce586e1f091069,psychology-myers-2024-kp-fa0969b5476c6fb5
+psy-concept-d50722c8718248ec,Genes,1,Genetics,55.0,core,0,0,0,1,psychology-barrons-2027-kp-2dc15dbb40d11af2,psychology-myers-2024-kp-4371801c403fb3f7
+psy-concept-91444105376c6a3d,Prefrontal lobotomy,5,Types of Therapy,55.0,core,0,0,0,1,psychology-barrons-2027-kp-a7b0e87e1e1dd32f,psychology-myers-2024-kp-37460d3a41d7e75c
+psy-concept-55d4fe0f49363f36,Psychosurgery,5,Types of Therapy,55.0,core,0,0,0,1,psychology-barrons-2027-kp-4e0d2a909d7b8932,psychology-myers-2024-kp-c3c1def0d25b6c36
+psy-concept-9ed4245fa3642939,Relative deprivation theory,4,The Psychology of Social Situations,55.0,core,0,0,0,1,psychology-barrons-2027-kp-c2fc9c79c5e81520,psychology-myers-2024-kp-7ee59951632ba44f
+psy-concept-cc1a6a7482940620,resilience,5,Positive Psychology,55.0,core,0,0,0,1,psychology-barrons-2027-kp-2d521612a908ad67,psychology-myers-2024-kp-d29163b6d0f52163
+psy-concept-17bead3d398f6bfe,Social responsibility norm,4,Compliance Strategies,55.0,core,0,0,0,1,psychology-barrons-2027-kp-6f08f4969735aa48,psychology-myers-2024-kp-72b0935e17c9e1ee
+psy-concept-cd6a619017eb90e1,Type A,4,Overview,55.0,core,0,0,0,1,psychology-barrons-2027-kp-af3f5bbacd9872d0,psychology-myers-2024-kp-c18a1db5915e5302
+psy-concept-54c4d2403c1cba67,Type B,4,Overview,55.0,core,0,0,0,1,psychology-barrons-2027-kp-66bd189c692b15b8,psychology-myers-2024-kp-ab3bd1c9a21d04a1
+psy-concept-beea756a5dd2e3ff,Wechsler Adult Intelligence Scale (WAIS),2,Intelligence Tests,55.0,core,0,0,0,1,psychology-barrons-2027-kp-02de9ad3e238b671,psychology-myers-2024-kp-b3739491956dc950
+psy-concept-a8690374931165c1,Psychoanalysis (theory),4,4.5a,30.0,supporting,0,0,0,0,,psychology-myers-2024-kp-d5f03ff9ba5b7dea

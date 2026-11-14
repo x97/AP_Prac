@@ -1,0 +1,56 @@
+<view class="page me-page">
+  <view class="profile-card">
+    <image class="profile-logo" src="/assets/brand/psyprac-logo-sm.png" mode="aspectFit" />
+    <view class="profile-copy">
+      <view class="profile-name">PsyPrac</view>
+      <view class="eyebrow">AP PSYCHOLOGY · 2027</view>
+    </view>
+    <view class="profile-status">已登录</view>
+  </view>
+
+  <view class="section-head">
+    <view class="section-title">学习</view>
+  </view>
+  <view class="row-group card">
+    <view class="row" bindtap="onUnfamiliar">
+      <view class="row-label">知识当前仍不熟悉</view>
+      <view class="row-value row-action">{{unfamiliarLabel}} ›</view>
+    </view>
+  </view>
+
+  <view class="section-head">
+    <view class="section-title">账号</view>
+  </view>
+  <view class="row-group card">
+    <view class="row">
+      <view class="row-label">登录方式</view>
+      <view class="row-value">微信 / 邮箱密码</view>
+    </view>
+    <view class="row" bindtap="onBindEmail">
+      <view class="row-label">绑定邮箱</view>
+      <view class="row-value row-action">{{emailLabel}} ›</view>
+    </view>
+    <view class="row">
+      <view class="row-label">云端同步</view>
+      <view class="row-value">{{syncLabel}}</view>
+    </view>
+  </view>
+
+  <view class="section-head">
+    <view class="section-title">关于</view>
+  </view>
+  <view class="row-group card">
+    <view class="row" bindtap="onAbout">
+      <view class="row-label">关于 PsyPrac</view>
+      <view class="row-value row-action">›</view>
+    </view>
+    <view class="row">
+      <view class="row-label">版本</view>
+      <view class="row-value">0.1.0</view>
+    </view>
+  </view>
+
+  <view class="logout" bindtap="onLogout">退出登录</view>
+
+  <view class="footer-brand">PsyPrac · AP Psychology</view>
+</view>

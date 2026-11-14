@@ -1,0 +1,210 @@
+﻿domain,relation_type,a,b,confidence,note,a_id,b_id
+Unit 0 统计与研究,broader_narrower,Descriptive statistics,Mean,0.98,平均数是一种描述统计量,psy-concept-a1ed770013aac583,psy-concept-00c89f66cf2ec157
+Unit 0 统计与研究,broader_narrower,Descriptive statistics,Median,0.98,中位数是一种描述统计量,psy-concept-a1ed770013aac583,psy-concept-5dc95e96e87a86bc
+Unit 0 统计与研究,broader_narrower,Descriptive statistics,Mode,0.98,众数是一种描述统计量,psy-concept-a1ed770013aac583,psy-concept-c4a64977c42a680c
+Unit 0 统计与研究,broader_narrower,Descriptive statistics,Range,0.98,全距是一种描述统计量,psy-concept-a1ed770013aac583,psy-concept-8b916d20c4d50da6
+Unit 0 统计与研究,broader_narrower,Descriptive statistics,Standard deviation,0.98,标准差是一种描述统计量,psy-concept-a1ed770013aac583,psy-concept-8490c8a6c93b4195
+Unit 0 统计与研究,related_to,Descriptive statistics,Normal curve,0.9,正态曲线是描述统计中常用的分布模型,psy-concept-a1ed770013aac583,psy-concept-f2adec3767853d29
+Unit 0 统计与研究,related_to,Descriptive statistics,Negatively skewed distribution,0.9,负偏态分布是描述统计中常用的分布形态,psy-concept-a1ed770013aac583,psy-concept-2f0d91f65f5b2e8a
+Unit 0 统计与研究,related_to,Inferential statistics,Statistical significance,0.92,统计显著性用于推断统计的结论判断,psy-concept-665434ee5316dc37,psy-concept-168dcc3b70564816
+Unit 0 统计与研究,broader_narrower,Correlation,Correlation coefficient,0.95,相关系数是相关关系的量化指标,psy-concept-9678e607606ec2fd,psy-concept-ed3b3cb9541aae2e
+Unit 0 统计与研究,broader_narrower,Correlation,Positive correlation,0.98,正相关是相关关系的一种,psy-concept-9678e607606ec2fd,psy-support-e77253ab2c30e37e
+Unit 0 统计与研究,broader_narrower,Correlation,Negative correlation,0.98,负相关是相关关系的一种,psy-concept-9678e607606ec2fd,psy-support-5e83d9dad7e404b2
+Unit 0 统计与研究,broader_narrower,Correlation,Spurious correlation,0.9,虚假相关是相关分析中要警惕的一种关系,psy-concept-9678e607606ec2fd,psy-support-218ed6af0ebd72b9
+Unit 0 统计与研究,related_to,Correlation,Illusory correlation,0.85,错觉相关是对相关关系的错误知觉,psy-concept-9678e607606ec2fd,psy-support-2024e24f76a0ea91
+Unit 0 统计与研究,related_to,Random sampling,Representative sample,0.9,随机抽样旨在获得有代表性的样本,psy-support-9208e1f59f3955f8,psy-support-d55d0168ef67ac07
+Unit 0 统计与研究,broader_narrower,Validity,Predictive validity,0.97,预测效度是效度的一种,psy-concept-791fe7e98c43d78e,psy-concept-f8620fc75bb2516c
+Unit 0 统计与研究,broader_narrower,Validity,Content validity,0.97,内容效度是效度的一种,psy-concept-791fe7e98c43d78e,psy-concept-38d574898d7a6d56
+Unit 0 统计与研究,broader_narrower,Qualitative research,Case study method,0.9,个案研究是质性研究方法,psy-concept-923a48fecf8d1234,psy-concept-73eae678f6208304
+Unit 0 统计与研究,broader_narrower,Qualitative research,Naturalistic observation,0.88,自然观察常用于质性研究,psy-concept-923a48fecf8d1234,psy-concept-64a758cee46d4f8f
+Unit 2 感觉与知觉,broader_narrower,Threshold,Absolute threshold,0.98,绝对阈限是阈限的一种,psy-concept-1ce8217f135775f7,psy-concept-386c48714e8e42f9
+Unit 2 感觉与知觉,broader_narrower,Threshold,Difference threshold,0.98,差别阈限是阈限的一种,psy-concept-1ce8217f135775f7,psy-concept-79f845c9957520c7
+Unit 1 生物基础,part_of,Peripheral nervous system (PNS),Somatic nervous system,0.98,躯体神经系统是外周神经系统的一部分,psy-concept-4b2ab18b2269ecae,psy-concept-7114b3f5f212dba9
+Unit 1 生物基础,part_of,Peripheral nervous system (PNS),Autonomic nervous system,0.98,自主神经系统是外周神经系统的一部分,psy-concept-4b2ab18b2269ecae,psy-concept-88b16602d4ee4572
+Unit 1 生物基础,part_of,Autonomic nervous system,Sympathetic nervous system,0.98,交感神经系统是自主神经系统的一部分,psy-concept-88b16602d4ee4572,psy-concept-31ba0e21589eaa32
+Unit 1 生物基础,part_of,Autonomic nervous system,Parasympathetic nervous system,0.98,副交感神经系统是自主神经系统的一部分,psy-concept-88b16602d4ee4572,psy-concept-0e9bd0ff58e34b61
+Unit 1 生物基础,part_of,Central nervous system (CNS),Spinal cord,0.95,脊髓是中枢神经系统的一部分,psy-concept-ed568d7d6a1da964,psy-support-516108462abfa189
+Unit 1 生物基础,part_of,Hindbrain,Cerebellum,0.98,小脑位于后脑,psy-concept-4c5d7dddd5299f93,psy-concept-4aa005c4541975ea
+Unit 1 生物基础,part_of,Hindbrain,Medulla,0.98,延髓位于后脑,psy-concept-4c5d7dddd5299f93,psy-concept-3384cea411997b0f
+Unit 1 生物基础,part_of,Hindbrain,Reticular formation,0.95,网状结构位于后脑/脑干,psy-concept-4c5d7dddd5299f93,psy-concept-cb38c6d1e926c075
+Unit 1 生物基础,part_of,Hindbrain,Pons,0.98,脑桥位于后脑,psy-concept-4c5d7dddd5299f93,psy-support-13f16d2e512edba1
+Unit 1 生物基础,part_of,Forebrain,Thalamus,0.98,丘脑位于前脑,psy-concept-11fe0ed1170ff32b,psy-concept-cad2cc21c90612a7
+Unit 1 生物基础,part_of,Forebrain,Hypothalamus,0.98,下丘脑位于前脑,psy-concept-11fe0ed1170ff32b,psy-concept-f463b4868ef10dfd
+Unit 1 生物基础,part_of,Forebrain,Limbic system,0.95,边缘系统位于前脑,psy-concept-11fe0ed1170ff32b,psy-concept-c9947980741fee19
+Unit 1 生物基础,part_of,Forebrain,Cerebral cortex,0.98,大脑皮层位于前脑,psy-concept-11fe0ed1170ff32b,psy-concept-0fac3e32e7c25055
+Unit 1 生物基础,part_of,Limbic system,Amygdala,0.98,杏仁核是边缘系统的一部分,psy-concept-c9947980741fee19,psy-concept-16384cd3f0462486
+Unit 1 生物基础,part_of,Limbic system,Hippocampus,0.98,海马是边缘系统的一部分,psy-concept-c9947980741fee19,psy-concept-52570b386019ae0d
+Unit 1 生物基础,part_of,Limbic system,Hypothalamus,0.98,下丘脑是边缘系统的一部分,psy-concept-c9947980741fee19,psy-concept-f463b4868ef10dfd
+Unit 1 生物基础,part_of,Cerebral cortex,Frontal lobes,0.98,额叶是大脑皮层的一部分,psy-concept-0fac3e32e7c25055,psy-concept-5ae2cee9982a971b
+Unit 1 生物基础,part_of,Cerebral cortex,Parietal lobes,0.98,顶叶是大脑皮层的一部分,psy-concept-0fac3e32e7c25055,psy-concept-463e16cba304fc6f
+Unit 1 生物基础,part_of,Cerebral cortex,Occipital lobes,0.98,枕叶是大脑皮层的一部分,psy-concept-0fac3e32e7c25055,psy-concept-cefd52eb2776a835
+Unit 1 生物基础,part_of,Cerebral cortex,Temporal lobes,0.98,颞叶是大脑皮层的一部分,psy-concept-0fac3e32e7c25055,psy-concept-438e9454ec4c027f
+Unit 1 生物基础,part_of,Frontal lobes,Motor cortex,0.98,运动皮层位于额叶,psy-concept-5ae2cee9982a971b,psy-concept-b24a8a3e6f3a8351
+Unit 1 生物基础,part_of,Frontal lobes,Broca’s area,0.98,布洛卡区通常位于额叶,psy-concept-5ae2cee9982a971b,psy-concept-dbc0a2ae53f8364e
+Unit 1 生物基础,part_of,Parietal lobes,Somatosensory cortex,0.98,躯体感觉皮层位于顶叶,psy-concept-463e16cba304fc6f,psy-concept-0059e86f3393f468
+Unit 1 生物基础,part_of,Temporal lobes,Wernicke’s area,0.98,韦尼克区通常位于颞叶,psy-concept-438e9454ec4c027f,psy-concept-fadd8b6d4cf9c481
+Unit 1 生物基础,broader_narrower,Neurons,Sensory neurons (afferent neurons),0.98,感觉神经元是神经元的一种,psy-concept-3a3eab9d3dec4a96,psy-concept-18cea7781cda7709
+Unit 1 生物基础,broader_narrower,Neurons,Motor neurons (efferent neurons),0.98,运动神经元是神经元的一种,psy-concept-3a3eab9d3dec4a96,psy-concept-477a7848604bd47a
+Unit 1 生物基础,broader_narrower,Neurons,Interneurons (association neurons),0.98,中间神经元是神经元的一种,psy-concept-3a3eab9d3dec4a96,psy-concept-700845036ff6ea7e
+Unit 1 生物基础,broader_narrower,Psychoactive drugs,Depressants,0.98,抑制剂是精神活性药物的一类,psy-concept-25cc50fceaa72f35,psy-concept-0dc399aaed9e1d49
+Unit 1 生物基础,broader_narrower,Psychoactive drugs,Stimulants,0.98,兴奋剂是精神活性药物的一类,psy-concept-25cc50fceaa72f35,psy-concept-66d931664262c10f
+Unit 1 生物基础,broader_narrower,Psychoactive drugs,Hallucinogens,0.98,致幻剂是精神活性药物的一类,psy-concept-25cc50fceaa72f35,psy-concept-285cc2eb7533bfff
+Unit 1 生物基础,broader_narrower,Consciousness,Sleep,0.9,睡眠是一种意识状态,psy-concept-16df34296071b9c5,psy-support-04ed17ebc83371a6
+Unit 1 生物基础,broader_narrower,Sleep,REM sleep,0.98,REM 睡眠是睡眠的一个阶段,psy-support-04ed17ebc83371a6,psy-concept-ebf49a06e600cc4f
+Unit 1 生物基础,part_of,Retina,Rods,0.98,视杆细胞位于视网膜,psy-concept-399cc8214a71b56f,psy-concept-2605fd43370b5058
+Unit 1 生物基础,part_of,Retina,Cones,0.98,视锥细胞位于视网膜,psy-concept-399cc8214a71b56f,psy-concept-e4d2dfffd65abba0
+Unit 1 生物基础,part_of,Retina,Fovea,0.98,中央凹是视网膜的一部分,psy-concept-399cc8214a71b56f,psy-concept-fbfe50d311b2e54c
+Unit 1 生物基础,related_to,Sensory adaptation,Sensory habituation,0.88,感觉适应与感觉习惯化都涉及反复刺激后的反应下降,psy-concept-49834331356f262f,psy-support-7fecc657e46ac9fc
+Unit 1 生物基础,related_to,Genetic predisposition,Heritability,0.9,遗传易感性与遗传率都用于描述遗传影响,psy-support-a91f96806934f5a0,psy-support-319e46625f9d9fde
+Unit 2 感觉与知觉,broader_narrower,Perception,Depth perception,0.95,深度知觉是知觉的一种,psy-concept-4d363aafc672a416,psy-concept-16437d9a95461568
+Unit 2 感觉与知觉,broader_narrower,Binocular depth cues,Convergence,0.98,辐合是一种双眼深度线索,psy-concept-4257b5b10221403f,psy-concept-77970071f5487cf1
+Unit 2 感觉与知觉,broader_narrower,Binocular depth cues,Retinal disparity,0.98,视网膜像差是一种双眼深度线索,psy-concept-4257b5b10221403f,psy-concept-107d4119658fc87e
+Unit 2 感觉与知觉,part_of,Gestalt psychology,Figure-ground relationship,0.9,图形-背景关系是格式塔组织原则之一,psy-concept-18e93821e174a033,psy-concept-5c14dfe4064c020f
+Unit 2 感觉与知觉,part_of,Gestalt psychology,Proximity (visual),0.9,接近性是格式塔组织原则之一,psy-concept-18e93821e174a033,psy-support-7b6ead9818b15fc6
+Unit 2 感觉与知觉,part_of,Gestalt psychology,Similarity (visual),0.9,相似性是格式塔组织原则之一,psy-concept-18e93821e174a033,psy-support-2f8263902baebcae
+Unit 2 记忆,broader_narrower,Memory,Sensory memory,0.98,感觉记忆是记忆的一种,psy-support-e051d260f3f5839a,psy-concept-787e8d0ba0295774
+Unit 2 记忆,broader_narrower,Memory,Short-term memory,0.98,短时记忆是记忆的一种,psy-support-e051d260f3f5839a,psy-concept-f483555933fd8766
+Unit 2 记忆,broader_narrower,Memory,Long-term memory,0.98,长时记忆是记忆的一种,psy-support-e051d260f3f5839a,psy-concept-20b574ec661d81b3
+Unit 2 记忆,broader_narrower,Memory,Explicit memory,0.98,外显记忆是记忆的一种,psy-support-e051d260f3f5839a,psy-concept-8c9e52206a0d2359
+Unit 2 记忆,broader_narrower,Memory,Implicit memory,0.98,内隐记忆是记忆的一种,psy-support-e051d260f3f5839a,psy-concept-5dbf0d0d6550544e
+Unit 2 记忆,broader_narrower,Sensory memory,Iconic memory,0.98,图像记忆是感觉记忆的一种,psy-concept-787e8d0ba0295774,psy-concept-229ca7f2d4b5f4e1
+Unit 2 记忆,broader_narrower,Sensory memory,Echoic memory,0.98,声像记忆是感觉记忆的一种,psy-concept-787e8d0ba0295774,psy-concept-b7742e6e66d6a103
+Unit 2 记忆,broader_narrower,Short-term memory,Working memory,0.92,工作记忆是短时记忆的主动加工模型,psy-concept-f483555933fd8766,psy-concept-23ee3e4698b8e891
+Unit 2 记忆,broader_narrower,Long-term memory,Episodic memory,0.98,情景记忆是长时记忆的一种,psy-concept-20b574ec661d81b3,psy-concept-ad2b4ccdce432fda
+Unit 2 记忆,broader_narrower,Long-term memory,Semantic memory,0.98,语义记忆是长时记忆的一种,psy-concept-20b574ec661d81b3,psy-concept-b2045793c82c568c
+Unit 2 记忆,broader_narrower,Long-term memory,Procedural memory,0.98,程序记忆是长时记忆的一种,psy-concept-20b574ec661d81b3,psy-support-7d0fa17b198e6cb2
+Unit 2 记忆,broader_narrower,Explicit memory,Episodic memory,0.98,情景记忆属于外显记忆,psy-concept-8c9e52206a0d2359,psy-concept-ad2b4ccdce432fda
+Unit 2 记忆,broader_narrower,Explicit memory,Semantic memory,0.98,语义记忆属于外显记忆,psy-concept-8c9e52206a0d2359,psy-concept-b2045793c82c568c
+Unit 2 记忆,broader_narrower,Implicit memory,Procedural memory,0.98,程序记忆属于内隐记忆,psy-concept-5dbf0d0d6550544e,psy-support-7d0fa17b198e6cb2
+Unit 2 记忆,broader_narrower,Retrieval,Recall,0.95,回忆是提取的一种形式,psy-concept-ce29917f5dc1d3ab,psy-concept-3d2f5b7bfc63e79d
+Unit 2 记忆,broader_narrower,Retrieval,Recognition,0.95,再认是提取的一种形式,psy-concept-ce29917f5dc1d3ab,psy-concept-ed02c3cceb1db19d
+Unit 2 记忆,broader_narrower,Interference,Proactive interference,0.98,前摄干扰是干扰的一种,psy-support-db0ac5ca1accec85,psy-concept-9a10f2a0222edb8d
+Unit 2 记忆,broader_narrower,Interference,Retroactive interference,0.98,倒摄干扰是干扰的一种,psy-support-db0ac5ca1accec85,psy-concept-b4d1f99f19f14f3c
+Unit 2 智力与思维,broader_narrower,Intelligence,Crystallized intelligence,0.95,晶体智力是智力的一种,psy-concept-d7df2ee9dad6f417,psy-concept-8b4ed1c8782c7132
+Unit 2 智力与思维,broader_narrower,Intelligence,Fluid intelligence,0.95,流体智力是智力的一种,psy-concept-d7df2ee9dad6f417,psy-concept-d1d367ea382a2a3c
+Unit 2 智力与思维,broader_narrower,Intelligence,General intelligence (g),0.95,一般智力是智力理论中的一种整体能力,psy-concept-d7df2ee9dad6f417,psy-support-0333f904d50cadd5
+Unit 2 智力与思维,broader_narrower,Intelligence,Emotional intelligence,0.9,情绪智力是智力的一种,psy-concept-d7df2ee9dad6f417,psy-support-8987fc68cc28d946
+Unit 2 智力与思维,broader_narrower,Heuristic,Availability heuristic,0.98,可得性启发是启发式的一种,psy-concept-62fa4272f2990315,psy-concept-b15e2d2435202cc1
+Unit 2 智力与思维,broader_narrower,Heuristic,Representativeness heuristic,0.98,代表性启发是启发式的一种,psy-concept-62fa4272f2990315,psy-concept-2a90bf46b4ee69ea
+Unit 3 学习,broader_narrower,Learning,Classical conditioning,0.95,经典条件作用是学习的一种,psy-concept-b3672a67e177ab1e,psy-concept-69ade8b058134f5c
+Unit 3 学习,broader_narrower,Learning,Operant conditioning,0.95,操作性条件作用是学习的一种,psy-concept-b3672a67e177ab1e,psy-concept-ce55a5f6ed7b2610
+Unit 3 学习,broader_narrower,Learning,Observational learning,0.95,观察学习是学习的一种,psy-concept-b3672a67e177ab1e,psy-concept-2e7b61ab01a539a0
+Unit 3 学习,broader_narrower,Learning,Latent learning,0.95,潜伏学习是学习的一种,psy-concept-b3672a67e177ab1e,psy-concept-561de0d5dd99f2ac
+Unit 3 学习,broader_narrower,Learning,Insight learning,0.95,顿悟学习是学习的一种,psy-concept-b3672a67e177ab1e,psy-concept-47b34c9ac5eaf9ad
+Unit 3 学习,broader_narrower,Classical conditioning,Aversive conditioning,0.95,厌恶条件作用是经典条件作用的一种,psy-concept-69ade8b058134f5c,psy-concept-433cb8c65d06ecd8
+Unit 3 学习,part_of,Classical conditioning,Acquisition,0.95,习得是经典条件作用的阶段,psy-concept-69ade8b058134f5c,psy-concept-9f541b24c7f82a84
+Unit 3 学习,part_of,Classical conditioning,Extinction,0.95,消退是经典条件作用的现象,psy-concept-69ade8b058134f5c,psy-concept-b4fedde0527f814f
+Unit 3 学习,part_of,Classical conditioning,Spontaneous recovery,0.95,自发恢复是经典条件作用的现象,psy-concept-69ade8b058134f5c,psy-concept-e15eec8b99a234f8
+Unit 3 学习,part_of,Classical conditioning,Generalization,0.95,泛化是经典条件作用的现象,psy-concept-69ade8b058134f5c,psy-concept-0d164d7b2c20a674
+Unit 3 学习,part_of,Classical conditioning,Discrimination (conditioning),0.95,辨别是经典条件作用的现象,psy-concept-69ade8b058134f5c,psy-concept-a8b733137450efc4
+Unit 3 学习,part_of,Classical conditioning,Higher-order conditioning,0.95,高级条件作用是经典条件作用的一种程序,psy-concept-69ade8b058134f5c,psy-concept-27d127d4f0d1457b
+Unit 3 学习,part_of,Operant conditioning,Positive reinforcement,0.95,正强化是操作性条件作用的程序,psy-concept-ce55a5f6ed7b2610,psy-concept-75d9e708075db018
+Unit 3 学习,part_of,Operant conditioning,Negative reinforcement,0.95,负强化是操作性条件作用的程序,psy-concept-ce55a5f6ed7b2610,psy-concept-30564daf975e5f5e
+Unit 3 学习,part_of,Operant conditioning,Punishment,0.95,惩罚是操作性条件作用的程序,psy-concept-ce55a5f6ed7b2610,psy-concept-0761c4b05ad9ab9d
+Unit 3 学习,part_of,Operant conditioning,Shaping,0.95,塑造是操作性条件作用的程序,psy-concept-ce55a5f6ed7b2610,psy-concept-44095989e16995b7
+Unit 3 学习,part_of,Operant conditioning,Extinction,0.95,消退是操作性条件作用的现象,psy-concept-ce55a5f6ed7b2610,psy-concept-b4fedde0527f814f
+Unit 3 学习,part_of,Operant conditioning,Generalization,0.95,泛化是操作性条件作用的现象,psy-concept-ce55a5f6ed7b2610,psy-concept-0d164d7b2c20a674
+Unit 3 学习,part_of,Operant conditioning,Discrimination (conditioning),0.95,辨别是操作性条件作用的现象,psy-concept-ce55a5f6ed7b2610,psy-concept-a8b733137450efc4
+Unit 3 学习,part_of,Operant conditioning,Continuous reinforcement,0.95,连续强化是操作性条件作用的强化程序,psy-concept-ce55a5f6ed7b2610,psy-concept-6ce7892a6918c202
+Unit 3 学习,part_of,Operant conditioning,Fixed-ratio (FR) schedule,0.95,定比强化程序属于操作性条件作用,psy-concept-ce55a5f6ed7b2610,psy-concept-9ab66e228c8d207e
+Unit 3 学习,part_of,Operant conditioning,Variable-ratio (VR) schedule,0.95,变比强化程序属于操作性条件作用,psy-concept-ce55a5f6ed7b2610,psy-concept-78b5420192d4b26d
+Unit 3 学习,part_of,Operant conditioning,Fixed-interval (FI) schedule,0.95,定时强化程序属于操作性条件作用,psy-concept-ce55a5f6ed7b2610,psy-concept-cb7b4927b5684820
+Unit 3 学习,part_of,Operant conditioning,Variable-interval (VI) schedule,0.95,变时强化程序属于操作性条件作用,psy-concept-ce55a5f6ed7b2610,psy-concept-a1484988f1f7d89e
+Unit 3 学习,broader_narrower,Reinforcement,Positive reinforcement,0.98,正强化是强化的一种,psy-support-af7e63c618ad5d10,psy-concept-75d9e708075db018
+Unit 3 学习,broader_narrower,Reinforcement,Negative reinforcement,0.98,负强化是强化的一种,psy-support-af7e63c618ad5d10,psy-concept-30564daf975e5f5e
+Unit 3 学习,broader_narrower,Reinforcement schedule,Fixed-ratio (FR) schedule,0.98,定比程序是强化程序的一种,psy-support-fb2f3706cd43df50,psy-concept-9ab66e228c8d207e
+Unit 3 学习,broader_narrower,Reinforcement schedule,Variable-ratio (VR) schedule,0.98,变比程序是强化程序的一种,psy-support-fb2f3706cd43df50,psy-concept-78b5420192d4b26d
+Unit 3 学习,broader_narrower,Reinforcement schedule,Fixed-interval (FI) schedule,0.98,定时程序是强化程序的一种,psy-support-fb2f3706cd43df50,psy-concept-cb7b4927b5684820
+Unit 3 学习,broader_narrower,Reinforcement schedule,Variable-interval (VI) schedule,0.98,变时程序是强化程序的一种,psy-support-fb2f3706cd43df50,psy-concept-a1484988f1f7d89e
+Unit 3 学习,broader_narrower,Reinforcer,Primary reinforcers,0.98,原发性强化物是强化物的一种,psy-support-5a9ba3b6f4c1a800,psy-concept-b66d44e1f1b51785
+Unit 3 学习,broader_narrower,Reinforcer,Secondary reinforcers,0.98,次级强化物是强化物的一种,psy-support-5a9ba3b6f4c1a800,psy-concept-d17897c9b0e51238
+Unit 3 学习,broader_narrower,Reinforcer,Generalized reinforcer,0.98,概括化强化物是强化物的一种,psy-support-5a9ba3b6f4c1a800,psy-support-2d6d18e697a7363d
+Unit 3 学习,broader_narrower,Punishment,Omission training,0.92,遗漏训练/负惩罚是惩罚的一种程序,psy-concept-0761c4b05ad9ab9d,psy-support-97eb1925e762c422
+Unit 4 人格,broader_narrower,Defense mechanisms,Repression,0.95,压抑是防御机制的一种,psy-concept-367603767f6da651,psy-concept-4013bb439c3c262f
+Unit 4 人格,broader_narrower,Defense mechanisms,Projection,0.95,投射是防御机制的一种,psy-concept-367603767f6da651,psy-support-5ffaace66a842b78
+Unit 3 发展,broader_narrower,Attachment,Secure attachment,0.95,安全型依恋是依恋的一种,psy-support-bff6ee547255be09,psy-concept-dea4ceb5102f3661
+Unit 3 发展,part_of,Language,Babbling stage,0.95,咿呀语阶段是语言发展的阶段,psy-support-5c3c114414bab56c,psy-concept-d515b0dc50c70fc1
+Unit 3 发展,part_of,Language,Telegraphic speech,0.95,电报式言语是语言发展的阶段,psy-support-5c3c114414bab56c,psy-concept-d948e13846367b6c
+Unit 3 发展,broader_narrower,Stage theories,Psychosocial stage theory,0.95,心理社会阶段理论是阶段理论的一种,psy-support-a3152aced8132e70,psy-support-651355f213271e4e
+Unit 2 记忆,part_of,Levels of processing model,Deeply encoded,0.9,深加工是加工水平模型的一种编码方式,psy-support-c957f2141af999b7,psy-support-67a0784b9c05bed1
+Unit 2 记忆,part_of,Levels of processing model,Shallowly encoded,0.9,浅加工是加工水平模型的一种编码方式,psy-support-c957f2141af999b7,psy-support-6fd1f81e6695eb44
+Unit 4 社会心理学,related_to,Attribution theory,Fundamental attribution error,0.9,基本归因错误是归因理论研究的偏差,psy-concept-272dd2cc937c43fa,psy-concept-84d3afff53c2db46
+Unit 4 社会心理学,related_to,Attribution theory,Self-serving bias,0.9,自我服务偏差是归因理论研究的偏差,psy-concept-272dd2cc937c43fa,psy-concept-a50791713c069aa1
+Unit 4 社会心理学,related_to,Attribution theory,Actor-observer bias,0.9,行动者-观察者偏差是归因理论研究的偏差,psy-concept-272dd2cc937c43fa,psy-concept-d3fbb19c09a266bd
+Unit 4 社会心理学,related_to,Conformity,Normative social influence,0.92,规范性社会影响是导致从众的影响之一,psy-concept-f9a7259be624045b,psy-concept-7b796a9f3a41f202
+Unit 4 社会心理学,related_to,Conformity,Informational social influence,0.92,信息性社会影响是导致从众的影响之一,psy-concept-f9a7259be624045b,psy-concept-74362a24093ee760
+Unit 4 动机,broader_narrower,Motivation,Intrinsic motivation,0.95,内在动机是动机的一种,psy-concept-808c4430acc3a396,psy-concept-ebb3fc7c72a320ad
+Unit 4 动机,broader_narrower,Motivation,Extrinsic motivation,0.95,外在动机是动机的一种,psy-concept-808c4430acc3a396,psy-concept-6598db94c8d0b79c
+Unit 4 动机,broader_narrower,Motivation,Achievement motivation,0.95,成就动机是动机的一种,psy-concept-808c4430acc3a396,psy-concept-8bc7c1cf5c03d3df
+Unit 4 动机,related_to,Arousal theory,Yerkes-Dodson law,0.9,唤醒理论与耶克斯-多德森定律都解释唤醒水平与表现的关系,psy-support-fa17d990ef4cb7dc,psy-concept-0b1902734622c3e4
+Unit 4 人格,broader_narrower,Traits,Big Five personality traits,0.9,大五人格是特质理论的一种分类,psy-concept-e4d12f0d322c4b6f,psy-concept-34e4cdb7518eec37
+Unit 5 障碍,broader_narrower,Psychological disorder,Anxiety disorders,0.95,焦虑障碍是心理障碍的一大类,psy-concept-82c4e3ee05ce398d,psy-concept-b2055652dff1119b
+Unit 5 障碍,broader_narrower,Psychological disorder,Dissociative disorders,0.95,解离障碍是心理障碍的一大类,psy-concept-82c4e3ee05ce398d,psy-concept-e1be6501b9e3cd35
+Unit 5 障碍,broader_narrower,Psychological disorder,Personality disorders,0.95,人格障碍是心理障碍的一大类,psy-concept-82c4e3ee05ce398d,psy-concept-55145bacc327ad5c
+Unit 5 障碍,broader_narrower,Anxiety disorders,Generalized anxiety disorder (GAD),0.98,广泛性焦虑障碍是焦虑障碍的一种,psy-concept-b2055652dff1119b,psy-concept-dbcfdb1cdb06755c
+Unit 5 障碍,broader_narrower,Anxiety disorders,Social anxiety disorder,0.98,社交焦虑障碍是焦虑障碍的一种,psy-concept-b2055652dff1119b,psy-concept-8b013873f02d46f0
+Unit 5 障碍,broader_narrower,Anxiety disorders,Panic disorder,0.98,惊恐障碍是焦虑障碍的一种,psy-concept-b2055652dff1119b,psy-concept-f9a5591db4121a4a
+Unit 5 障碍,broader_narrower,Anxiety disorders,Specific phobia,0.98,特定恐惧症是焦虑障碍的一种,psy-concept-b2055652dff1119b,psy-concept-d9c1401de65a0597
+Unit 5 障碍,broader_narrower,Anxiety disorders,Agoraphobia,0.98,广场恐惧症是焦虑障碍的一种,psy-concept-b2055652dff1119b,psy-concept-30524b09e13d9efa
+Unit 5 障碍,broader_narrower,Dissociative disorders,Dissociative amnesia,0.98,解离性失忆是解离障碍的一种,psy-concept-e1be6501b9e3cd35,psy-concept-bbf198f1c2f79ea8
+Unit 5 障碍,broader_narrower,Dissociative disorders,Dissociative identity disorder (DID),0.98,解离性身份障碍是解离障碍的一种,psy-concept-e1be6501b9e3cd35,psy-concept-2b2ddcafba3f7f2c
+Unit 5 障碍,broader_narrower,Personality disorders,Antisocial personality disorder,0.98,反社会人格障碍是人格障碍的一种,psy-concept-55145bacc327ad5c,psy-concept-f5c6d430826436cd
+Unit 5 障碍,broader_narrower,Personality disorders,Borderline personality disorder,0.98,边缘型人格障碍是人格障碍的一种,psy-concept-55145bacc327ad5c,psy-support-44d1004b080b9f01
+Unit 5 障碍,broader_narrower,Personality disorders,Narcissistic personality disorder,0.98,自恋型人格障碍是人格障碍的一种,psy-concept-55145bacc327ad5c,psy-support-77ce1a188d5e0d98
+Unit 5 障碍,broader_narrower,Depressive disorders,Major depressive disorder,0.98,重性抑郁障碍是抑郁障碍的一种,psy-support-986c671711b0c30e,psy-concept-f56b4eb8773d3791
+Unit 5 障碍,broader_narrower,Depressive disorders,Persistent depressive disorder,0.98,持续性抑郁障碍是抑郁障碍的一种,psy-support-986c671711b0c30e,psy-concept-ef8a1942d93ef2ac
+Unit 5 障碍,broader_narrower,Bipolar disorder,Bipolar I disorder,0.98,双相 I 型是双相障碍的一种,psy-concept-5730c4fe753b6805,psy-support-7726040f4d5016ba
+Unit 5 障碍,broader_narrower,Bipolar disorder,Bipolar II disorder,0.98,双相 II 型是双相障碍的一种,psy-concept-5730c4fe753b6805,psy-support-cbb6254356c11cdb
+Unit 5 障碍,broader_narrower,Feeding and eating disorders,Anorexia nervosa,0.98,神经性厌食是进食障碍的一种,psy-support-0afc097e0afd829e,psy-concept-eef2d87e1c19507e
+Unit 5 障碍,broader_narrower,Feeding and eating disorders,Bulimia,0.98,神经性贪食是进食障碍的一种,psy-support-0afc097e0afd829e,psy-concept-d31b6c37c47371d2
+Unit 5 障碍,broader_narrower,Feeding and eating disorders,Binge-eating disorder,0.98,暴食障碍是进食障碍的一种,psy-support-0afc097e0afd829e,psy-support-ccc3cf47b8ad6e47
+Unit 5 障碍,broader_narrower,Neurodevelopmental disorders,Autism spectrum disorder,0.98,自闭症谱系障碍是神经发育障碍的一种,psy-support-1aa1ff43cd152559,psy-concept-a812339974edacbe
+Unit 5 障碍,broader_narrower,Neurodevelopmental disorders,Attention-deficit/hyperactivity disorder (ADHD),0.98,ADHD 是神经发育障碍的一种,psy-support-1aa1ff43cd152559,psy-concept-98484a47e03f26ee
+Unit 5 障碍,broader_narrower,Trauma-and-stressor-related disorders,Post-traumatic stress disorder (PTSD),0.98,PTSD 是创伤及应激相关障碍的一种,psy-support-40fa76aa5c73fc1f,psy-concept-0a34d74f64f95d42
+Unit 5 障碍,broader_narrower,Schizophrenia spectrum disorders,Schizophrenia,0.98,精神分裂症属于精神分裂症谱系障碍,psy-support-92546f75f4b84810,psy-support-78257b2019a97390
+Unit 5 障碍,related_to,Dopamine hypothesis,Schizophrenia,0.9,多巴胺假说是解释精神分裂症的一种生物学假说,psy-support-39ce66174261e422,psy-support-78257b2019a97390
+Unit 5 治疗,broader_narrower,Psychotherapies,Insight therapies,0.95,领悟疗法是心理治疗的一大类,psy-concept-59b712d4caf75f27,psy-concept-15df103044b5bf18
+Unit 5 治疗,broader_narrower,Psychotherapies,Cognitive therapy,0.95,认知疗法是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-526d997d0cf0de98
+Unit 5 治疗,broader_narrower,Psychotherapies,Cognitive behavioral therapy (CBT),0.95,CBT 是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-2a2a2508d7231779
+Unit 5 治疗,broader_narrower,Psychotherapies,Person-centered therapy,0.95,来访者中心疗法是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-649512c5625627cd
+Unit 5 治疗,broader_narrower,Psychotherapies,Psychodynamic therapy,0.95,心理动力学治疗是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-c9646bab0f58a1f4
+Unit 5 治疗,broader_narrower,Psychotherapies,Psychoanalysis (therapy),0.95,精神分析是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-b7349978f8c036b8
+Unit 5 治疗,broader_narrower,Psychotherapies,Rational emotive behavior therapy (REBT),0.95,REBT 是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-616f01a1142c5aa2
+Unit 5 治疗,broader_narrower,Psychotherapies,Exposure therapies,0.95,暴露疗法是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-09f59a43667d8d33
+Unit 5 治疗,broader_narrower,Psychotherapies,Systematic desensitization,0.95,系统脱敏是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-concept-1afff06a48f4e4b8
+Unit 5 治疗,broader_narrower,Psychotherapies,Group therapy,0.95,团体治疗是心理治疗的一种形式,psy-concept-59b712d4caf75f27,psy-concept-e5fa6f98218f8960
+Unit 5 治疗,broader_narrower,Psychotherapies,Family therapy,0.95,家庭治疗是心理治疗的一种形式,psy-concept-59b712d4caf75f27,psy-concept-cc443ac180616d66
+Unit 5 治疗,broader_narrower,Psychotherapies,Behavior therapy,0.95,行为治疗是心理治疗的一大类,psy-concept-59b712d4caf75f27,psy-support-740283b677c2bd05
+Unit 5 治疗,broader_narrower,Psychotherapies,Humanistic therapies,0.95,人本主义治疗是心理治疗的一大类,psy-concept-59b712d4caf75f27,psy-support-69516f5402ed5a3b
+Unit 5 治疗,broader_narrower,Psychotherapies,Existential therapies,0.95,存在主义治疗是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-support-70c5d818e3036a3d
+Unit 5 治疗,broader_narrower,Psychotherapies,Gestalt therapy,0.95,格式塔治疗是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-support-2543a3253f87a76e
+Unit 5 治疗,broader_narrower,Psychotherapies,Dialectical behavior therapy (DBT),0.95,DBT 是心理治疗的一种,psy-concept-59b712d4caf75f27,psy-support-8842a1744a256959
+Unit 5 治疗,broader_narrower,Insight therapies,Psychodynamic therapy,0.95,心理动力学治疗是领悟疗法的一种,psy-concept-15df103044b5bf18,psy-concept-c9646bab0f58a1f4
+Unit 5 治疗,broader_narrower,Insight therapies,Person-centered therapy,0.95,来访者中心疗法是领悟疗法的一种,psy-concept-15df103044b5bf18,psy-concept-649512c5625627cd
+Unit 5 治疗,broader_narrower,Insight therapies,Psychoanalysis (therapy),0.95,精神分析是领悟疗法的一种,psy-concept-15df103044b5bf18,psy-concept-b7349978f8c036b8
+Unit 5 治疗,broader_narrower,Psychodynamic therapy,Psychoanalysis (therapy),0.95,精神分析是心理动力学治疗的一种,psy-concept-c9646bab0f58a1f4,psy-concept-b7349978f8c036b8
+Unit 5 治疗,broader_narrower,Cognitive behavioral therapy (CBT),Cognitive therapy,0.95,认知疗法是 CBT 的组成部分/一种形式,psy-concept-2a2a2508d7231779,psy-concept-526d997d0cf0de98
+Unit 5 治疗,broader_narrower,Cognitive behavioral therapy (CBT),Rational emotive behavior therapy (REBT),0.95,REBT 是 CBT 的一种,psy-concept-2a2a2508d7231779,psy-concept-616f01a1142c5aa2
+Unit 5 治疗,broader_narrower,Cognitive behavioral therapy (CBT),Dialectical behavior therapy (DBT),0.9,DBT 是 CBT 衍生的一种治疗,psy-concept-2a2a2508d7231779,psy-support-8842a1744a256959
+Unit 5 治疗,part_of,Behavior therapy,Systematic desensitization,0.95,系统脱敏是行为治疗的技术,psy-support-740283b677c2bd05,psy-concept-1afff06a48f4e4b8
+Unit 5 治疗,broader_narrower,Behavior therapy,Exposure therapies,0.95,暴露疗法是行为治疗的一种,psy-support-740283b677c2bd05,psy-concept-09f59a43667d8d33
+Unit 5 治疗,part_of,Behavior therapy,Token economy,0.92,代币制是行为治疗的技术,psy-support-740283b677c2bd05,psy-concept-5e77e48c7bbee0d4
+Unit 5 治疗,broader_narrower,Behavior therapy,Aversive therapy,0.95,厌恶疗法是行为治疗的一种,psy-support-740283b677c2bd05,psy-support-07cea94521bc3647
+Unit 5 治疗,part_of,Behavior therapy,Counterconditioning,0.95,反条件作用是行为治疗的技术,psy-support-740283b677c2bd05,psy-concept-d11aefb40fbf5cde
+Unit 5 治疗,broader_narrower,Exposure therapies,Systematic desensitization,0.95,系统脱敏是暴露疗法的一种,psy-concept-09f59a43667d8d33,psy-concept-1afff06a48f4e4b8
+Unit 5 治疗,broader_narrower,Somatic therapies,Electroconvulsive therapy (ECT),0.98,ECT 是躯体治疗的一种,psy-concept-cbfb457dcb316677,psy-concept-a0e62d92458592a3
+Unit 5 治疗,broader_narrower,Somatic therapies,Transcranial magnetic stimulation (TMS),0.98,TMS 是躯体治疗的一种,psy-concept-cbfb457dcb316677,psy-concept-530ab2e8efbe3ea4
+Unit 5 治疗,broader_narrower,Somatic therapies,Psychosurgery,0.98,精神外科是躯体治疗的一种,psy-concept-cbfb457dcb316677,psy-concept-55d4fe0f49363f36
+Unit 5 治疗,broader_narrower,Somatic therapies,Drug therapy or psychopharmacology,0.98,药物治疗是躯体治疗的一种,psy-concept-cbfb457dcb316677,psy-support-e8584e0897a75e29
+Unit 5 治疗,broader_narrower,Psychosurgery,Prefrontal lobotomy,0.98,前额叶切除术是精神外科的一种,psy-concept-55d4fe0f49363f36,psy-concept-91444105376c6a3d
+Unit 5 治疗,broader_narrower,Humanistic therapies,Person-centered therapy,0.98,来访者中心疗法是人本主义治疗的一种,psy-support-69516f5402ed5a3b,psy-concept-649512c5625627cd
+Unit 5 治疗,broader_narrower,Humanistic therapies,Gestalt therapy,0.95,格式塔治疗常归入人本主义治疗,psy-support-69516f5402ed5a3b,psy-support-2543a3253f87a76e
+Unit 5 治疗,broader_narrower,Humanistic therapies,Existential therapies,0.95,存在主义治疗常归入人本主义治疗,psy-support-69516f5402ed5a3b,psy-support-70c5d818e3036a3d
+同名异义,same_name_different_sense,Accommodation (sensory),Accommodation (developmental),0.99,感觉适应 vs 皮亚杰认知顺应,psy-concept-ee59bb80569fbe75,psy-concept-cd8a9810613b207b
+同名异义,same_name_different_sense,Discrimination (conditioning),Discrimination (social),0.99,条件作用辨别 vs 社会歧视,psy-concept-a8b733137450efc4,psy-concept-dd029962bd7728af
+同名异义,same_name_different_sense,Psychoanalysis (theory),Psychoanalysis (therapy),0.98,精神分析理论 vs 精神分析治疗,psy-concept-a8690374931165c1,psy-concept-b7349978f8c036b8
+同名异义,same_name_different_sense,Autonomy (Erikson),Autonomy (self-determination),0.98,埃里克森自主 vs 自我决定理论的自主,psy-support-96b3b852347dcf35,psy-support-0949d9f3ea27a865
+同名异义,same_name_different_sense,Proximity (visual),Proximity (attraction),0.98,视觉接近性 vs 人际吸引的接近性,psy-support-7b6ead9818b15fc6,psy-support-4cbca37d61162b80
+同名异义,same_name_different_sense,Similarity (visual),Similarity (attraction),0.98,视觉相似性 vs 人际吸引的相似性,psy-support-2f8263902baebcae,psy-support-edb9841ae4b97ef1
+同名异义,same_name_different_sense,Opponent-process theory (color vision),Opponent-process theory (motivation),0.98,颜色视觉对立过程 vs 动机/情绪对立过程,psy-concept-5c51c9e918b94752,psy-support-cf0b9ebd67060e35
+同名异义,same_name_different_sense,GRIT (conflict resolution),Grit (perseverance),0.99,GRIT 冲突化解策略 vs 坚毅特质,psy-support-ce339d8951331fdd,psy-support-796a28b77b8eaa85

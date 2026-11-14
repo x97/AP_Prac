@@ -1,0 +1,1007 @@
+{
+  "generated_at": "2026-10-27T13:37:38+00:00",
+  "paper_id": "psychology-barrons-2027-ch9-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 13,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-341373d6e8de9c15",
+          "name": "prospective memory",
+          "confidence": 0.97,
+          "evidence": "She wants to use an example of prospective memory.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "prospective memory",
+          "normalized": "prospective memory",
+          "kp_id": "psychology-barrons-2027-kp-341373d6e8de9c15",
+          "kp_name": "prospective memory",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cognitive psychology",
+          "normalized": "cognitive psychology",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "plan",
+          "normalized": "plan",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Prospective memory is the only candidate concept tested; wrong options describe retrospective/reflective memory tasks and do not map to a narrow confusable candidate.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-403a4cbde444e91e",
+          "name": "deeply encoded",
+          "confidence": 0.95,
+          "evidence": "result in a better outcome because it utilizes a deeper level of processing.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4d6283ac9593c072",
+          "name": "levels of processing model",
+          "confidence": 0.8,
+          "evidence": "result in a better outcome because it utilizes a deeper level of processing."
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "deeper level of processing",
+          "normalized": "deeper level of processing",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "flashcards",
+          "normalized": "flashcards",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "mapping system",
+          "normalized": "mapping system",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the Levels of Processing Model: deeper, elaborative processing yields better memory outcomes. Wrong options are generic study-strategy claims rather than near-miss memory concepts, so no confusables are listed.",
+      "warnings": [
+        "keyword 'deeper level of processing': not a known alias of 'deeply encoded'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e281e81ffd3e59f0",
+          "name": "serial position effect",
+          "confidence": 0.97,
+          "evidence": "She would put the most important terms at the beginning and end of the list.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5037996740d6a64b",
+          "name": "recency effect",
+          "confidence": 0.7,
+          "evidence": "She would put the most important terms at the beginning and end of the list."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-653260bf74b27e48",
+          "name": "primacy effect",
+          "confidence": 0.7,
+          "evidence": "She would put the most important terms at the beginning and end of the list."
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "beginning and end of the list",
+          "normalized": "beginning and end of the list",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "beginning",
+          "normalized": "beginning",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "middle of the list",
+          "normalized": "middle of the list",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the serial position effect: placing most important items at the beginning and end exploits primacy and recency. Wrong options A and B concern ordering by importance rather than list position and do not map to a narrow confusable concept in the candidate list.",
+      "warnings": [
+        "keyword 'most important terms at the beginning and end of the list': whole/long option text; dropped",
+        "keyword 'beginning and end of the list': not a known alias of 'recency effect'; stored without a KP",
+        "keyword 'beginning': not a known alias of 'primacy effect'; stored without a KP",
+        "keyword 'middle of the list': not a known alias of 'serial position effect'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-360e6a54e2238b1b",
+          "name": "mnemonic devices",
+          "confidence": 0.95,
+          "evidence": "the use of a mnemonic device.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-653260bf74b27e48",
+          "name": "primacy effect",
+          "option_label": "A",
+          "reason": "Primacy effect is a serial-position explanation for better recall of early list items, tempting because List 1 was heard first."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-3e3508070fc8e544",
+          "name": "spacing effect",
+          "option_label": "C",
+          "reason": "Practice/spacing effects are memory-improvement explanations, tempting because students did the task twice."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "mnemonic device",
+          "normalized": "mnemonic device",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "imagine each friend with one of the toys",
+          "normalized": "imagine each friend with one of the toys",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "heard it first",
+          "normalized": "heard it first",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "practice effect",
+          "normalized": "practice effect",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "List 1 involved an imagery mnemonic; List 2 involved rote repetition (maintenance rehearsal), but the tested concept is mnemonic use.",
+      "warnings": [
+        "supporting 'deeply encoded' is not in the correct option or the core subheading; dropped",
+        "keyword 'mnemonic device': not a known alias of 'mnemonic devices'; stored without a KP",
+        "keyword 'imagine each friend with one of the toys': not a known alias of 'deeply encoded'; stored without a KP",
+        "keyword 'heard it first': not a known alias of 'primacy effect'; stored without a KP",
+        "keyword 'practice effect': not a known alias of 'spacing effect'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "confidence": 0.97,
+          "evidence": "What was the range of scores from List 2?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "range",
+          "normalized": "range",
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "kp_name": "Range",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "scores",
+          "normalized": "scores",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "List 2",
+          "normalized": "list 2",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Item asks for a descriptive statistic (range) computed from table data; no memory concepts are tested despite the memory context.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-46713cfd89c8a8a2",
+          "name": "selective attention",
+          "confidence": 0.97,
+          "evidence": "Selective attention",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "name": "sensory memory",
+          "option_label": "A",
+          "reason": "Sensory memory is a memory store, not a filter that explains why unattended events are not remembered."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-fd0c2619e75c14ad",
+          "name": "long-term memory",
+          "option_label": "C",
+          "reason": "Long-term memory is a storage system and does not by itself contradict the claim of remembering everything."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Selective attention",
+          "normalized": "selective attention",
+          "kp_id": "psychology-barrons-2027-kp-46713cfd89c8a8a2",
+          "kp_name": "selective attention",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Sensory memory",
+          "normalized": "sensory memory",
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "kp_name": "sensory memory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Long-term memory",
+          "normalized": "long term memory",
+          "kp_id": "psychology-barrons-2027-kp-fd0c2619e75c14ad",
+          "kp_name": "long-term memory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Constructive memory",
+          "normalized": "constructive memory",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "memory research",
+          "normalized": "memory research",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests selective attention as the concept that explains why unattended experiences are not encoded or remembered.",
+      "warnings": [
+        "confusable 'constructed memory' is not named in option 'D' and is not in the core subheading; dropped",
+        "supporting 'sensory memory' duplicates a confusable; dropped",
+        "keyword 'Constructive memory': not a known alias of 'constructed memory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "confidence": 0.97,
+          "evidence": "Which will be higher in the Space Method group?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "option_label": "A",
+          "reason": "Range is another measure of spread that is higher in the more variable Cram group, tempting students who confuse spread with central tendency."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e0b4bb60a56233a5",
+          "name": "Mode",
+          "option_label": "B",
+          "reason": "Mode is a measure of central tendency like the mean, tempting students who pick any average without checking frequency."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-db82b3612813c828",
+          "name": "Standard deviation",
+          "option_label": "D",
+          "reason": "Standard deviation is a spread measure that is actually higher in the Cram group, tempting students who assume the better-performing group has higher variability."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Space Method",
+          "normalized": "space method",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Mean",
+          "normalized": "mean",
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "kp_name": "Mean",
+          "role": "core",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Range",
+          "normalized": "range",
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "kp_name": "Range",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Mode",
+          "normalized": "mode",
+          "kp_id": "psychology-barrons-2027-kp-e0b4bb60a56233a5",
+          "kp_name": "Mode",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Standard deviation",
+          "normalized": "standard deviation",
+          "kp_id": "psychology-barrons-2027-kp-db82b3612813c828",
+          "kp_name": "Standard deviation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests identifying which descriptive statistic (mean) is higher for the spaced-practice group; spread measures (range, standard deviation) are higher for the cram group.",
+      "warnings": [
+        "supporting 'Standard deviation' duplicates a confusable; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-57d4f6c94ae650c9",
+          "name": "Ex post facto (quasi-experimental) study",
+          "confidence": 0.9,
+          "evidence": "Matthew decides to compare their performance on the quiz",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f629dbb675459657",
+          "name": "Directionality problem",
+          "option_label": "B",
+          "reason": "A positive relationship between hours studied and scores is a correlational claim, tempting because the data are correlational, but the item asks what can be concluded about the spacing vs. cramming comparison."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Space Method",
+          "normalized": "space method",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cram Method",
+          "normalized": "cram method",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "spaced out their studying",
+          "normalized": "spaced out their studying",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "positively related",
+          "normalized": "positively related",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests recognizing that a comparison of pre-existing groups (spacers vs. crammers) is an ex post facto/quasi-experimental design that cannot establish causation; the correct conclusion is descriptive only.",
+      "warnings": [
+        "supporting 'spacing effect' is not in the correct option or the core subheading; dropped",
+        "keyword 'Space Method': not a known alias of 'spacing effect'; stored without a KP",
+        "keyword 'spaced out their studying': not a known alias of 'spacing effect'; stored without a KP",
+        "keyword 'positively related': not a known alias of 'Directionality problem'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fc74f4f8284d900d",
+          "name": "short-term memory",
+          "confidence": 0.97,
+          "evidence": "Students are able to write these two numbers down a few seconds later when asked.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e3707347032a3207",
+          "name": "working memory",
+          "confidence": 0.97,
+          "evidence": "Mr. Jessup asks the students to subtract 356 from 1129 in their heads.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "name": "sensory memory",
+          "option_label": "B",
+          "reason": "Sensory memory is a different, briefer memory store; the task involves holding and manipulating numbers, not split-second sensory registration."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-fd0c2619e75c14ad",
+          "name": "long-term memory",
+          "option_label": "D",
+          "reason": "Long-term memory is permanent storage, not the brief holding and active manipulation shown in the two tasks."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "short-term memory",
+          "normalized": "short term memory",
+          "kp_id": "psychology-barrons-2027-kp-fc74f4f8284d900d",
+          "kp_name": "short-term memory",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "working memory",
+          "normalized": "working memory",
+          "kp_id": "psychology-barrons-2027-kp-e3707347032a3207",
+          "kp_name": "working memory",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "sensory memory",
+          "normalized": "sensory memory",
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "kp_name": "sensory memory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "long-term memory",
+          "normalized": "long term memory",
+          "kp_id": "psychology-barrons-2027-kp-fd0c2619e75c14ad",
+          "kp_name": "long-term memory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item contrasts passive holding of numbers (short-term memory) with active mental subtraction (working memory).",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fd0c2619e75c14ad",
+          "name": "long-term memory",
+          "confidence": 0.95,
+          "evidence": "What do long-term and sensory memory have in common?",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "name": "sensory memory",
+          "confidence": 0.95,
+          "evidence": "What do long-term and sensory memory have in common?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "long-term",
+          "normalized": "long term",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "sensory memory",
+          "normalized": "sensory memory",
+          "kp_id": "psychology-barrons-2027-kp-7f45c37d76f2f080",
+          "kp_name": "sensory memory",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Large capacity",
+          "normalized": "large capacity",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Long duration",
+          "normalized": "long duration",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Short duration",
+          "normalized": "short duration",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Small capacity",
+          "normalized": "small capacity",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "Item asks for a shared property (large capacity) of long-term and sensory memory; no narrow-domain confusable concept from wrong options.",
+      "warnings": [
+        "keyword 'long-term': not a known alias of 'long-term memory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4d6283ac9593c072",
+          "name": "levels of processing model",
+          "confidence": 0.95,
+          "evidence": "Cramming the night before usually involves a shallow level of processing.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-00164ac03fa483a8",
+          "name": "shallowly encoded",
+          "confidence": 0.9,
+          "evidence": "Cramming the night before usually involves a shallow level of processing.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fc74f4f8284d900d",
+          "name": "short-term memory",
+          "option_label": "A",
+          "reason": "Tempting because cramming feels like it only stays in short-term memory, but STM lasts only seconds, so it cannot explain passing the test yet forgetting weeks later."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-6cec875308b9feaf",
+          "name": "retrograde amnesia",
+          "option_label": "D",
+          "reason": "Retrograde amnesia is a memory-loss concept, but it involves brain trauma and loss of prior events, not ordinary forgetting of crammed material."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "crams",
+          "normalized": "crams",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "remember",
+          "normalized": "remember",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "short-term memory",
+          "normalized": "short term memory",
+          "kp_id": "psychology-barrons-2027-kp-fc74f4f8284d900d",
+          "kp_name": "short-term memory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "shallow level of processing",
+          "normalized": "shallow level of processing",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "constructed",
+          "normalized": "constructed",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "retrograde amnesia",
+          "normalized": "retrograde amnesia",
+          "kp_id": "psychology-barrons-2027-kp-6cec875308b9feaf",
+          "kp_name": "retrograde amnesia",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is the levels-of-processing explanation: shallow processing during cramming leads to poor long-term recall. Supporting long-term memory reflects the weeks-later forgetting.",
+      "warnings": [
+        "supporting 'long-term memory' is not in the correct option or the core subheading; dropped",
+        "confusable 'constructed memory' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'remember': not a known alias of 'retrieval'; stored without a KP",
+        "keyword 'shallow level of processing': not a known alias of 'shallowly encoded'; stored without a KP",
+        "keyword 'constructed': not a known alias of 'constructed memory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-123d1d4a2336964a",
+          "name": "recognition",
+          "confidence": 0.97,
+          "evidence": "What type of memory does Mr. Chai want to test?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-9257ba3ef6555754",
+          "name": "recall",
+          "option_label": "B",
+          "reason": "Recall is the contrasting retrieval type; short-answer questions require pulling information without options, which is what Ms. Esposito wants, not Mr. Chai's multiple-choice format."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "multiple-choice format",
+          "normalized": "multiple choice format",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Recognition",
+          "normalized": "recognition",
+          "kp_id": "psychology-barrons-2027-kp-123d1d4a2336964a",
+          "kp_name": "recognition",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "short answers",
+          "normalized": "short answers",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Recall",
+          "normalized": "recall",
+          "kp_id": "psychology-barrons-2027-kp-9257ba3ef6555754",
+          "kp_name": "recall",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "Recognition (identifying a match among options) is the retrieval type tested by multiple-choice items; recall is the contrasting retrieval type for short-answer items.",
+      "warnings": [
+        "supporting 'recall' duplicates a confusable; dropped",
+        "keyword 'multiple-choice format': not a known alias of 'recognition'; stored without a KP",
+        "keyword 'short answers': not a known alias of 'recall'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch9-review-013",
+      "number": 13,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-76c6541811ce3371",
+          "name": "mood-congruent memory",
+          "confidence": 0.97,
+          "evidence": "Tommy’s experience demonstrates that memory can be",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e688d245f4ce49f4",
+          "name": "retrieval",
+          "confidence": 0.6,
+          "evidence": "finds himself remembering other times in his life that he felt rejected and alone"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "memory",
+          "normalized": "memory",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "affected by mood",
+          "normalized": "affected by mood",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "constructed",
+          "normalized": "constructed",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "inaccurate",
+          "normalized": "inaccurate",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "dependent on physical context",
+          "normalized": "dependent on physical context",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests mood-congruent memory (C01). Option D is a near-miss retrieval concept (state-dependent memory, C04), while option A is a constructive-memory near-miss (C02).",
+      "warnings": [
+        "confusable 'constructed memory' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'state-dependent memory' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'affected by mood': not a known alias of 'mood-congruent memory'; stored without a KP",
+        "keyword 'constructed': not a known alias of 'constructed memory'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

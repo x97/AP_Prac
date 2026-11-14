@@ -1,0 +1,810 @@
+{
+  "generated_at": "2026-10-27T13:36:17+00:00",
+  "paper_id": "psychology-barrons-2027-ch15-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 9,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-1474e0fd8d87293b",
+          "name": "Secondary drives",
+          "confidence": 0.95,
+          "evidence": "The person takes the job to satisfy the secondary drive of increased salary.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-348371e9d3b437be",
+          "name": "Drive reduction theory",
+          "confidence": 0.9,
+          "evidence": "How would the drive reduction theory explain a person accepting a new job",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c98fccde7f764f8a",
+          "name": "Drive",
+          "confidence": 0.7,
+          "evidence": "The person takes the job to satisfy the secondary drive of increased salary."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-99b0e292bb0378a8",
+          "name": "Incentives",
+          "option_label": "A",
+          "reason": "Incentive theory (external pull of money) is a near-miss motivation theory that could be confused with drive reduction."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-ae0d0b8bccb19f5a",
+          "name": "Arousal theory",
+          "option_label": "B",
+          "reason": "Arousal theory (seeking higher activity level) is another motivation theory easily confused with drive reduction."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "drive reduction theory",
+          "normalized": "drive reduction theory",
+          "kp_id": "psychology-barrons-2027-kp-348371e9d3b437be",
+          "kp_name": "Drive reduction theory",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "secondary drive",
+          "normalized": "secondary drive",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "incentive",
+          "normalized": "incentive",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "activity level",
+          "normalized": "activity level",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "higher-level need",
+          "normalized": "higher level need",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is drive reduction theory applied via secondary drive; option C alludes to hierarchy of needs but no candidate key exists, so it is left as a null keyword.",
+      "warnings": [
+        "keyword 'secondary drive': not a known alias of 'Secondary drives'; stored without a KP",
+        "keyword 'incentive': not a known alias of 'Incentives'; stored without a KP",
+        "keyword 'activity level': not a known alias of 'Arousal theory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ae0d0b8bccb19f5a",
+          "name": "Arousal theory",
+          "confidence": 0.97,
+          "evidence": "Arousal theory describes the optimum level of general arousal an individual seeks",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-3dd2e6c92ff1954e",
+          "name": "Achievement motivation",
+          "confidence": 0.97,
+          "evidence": "achievement motivation describes what type of goals the individual is motivated to achieve",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-762dacdace01e650",
+          "name": "Motivation",
+          "confidence": 0.6,
+          "evidence": "explain human motivation"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "achievement motivation theory",
+          "normalized": "achievement motivation theory",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "arousal theory",
+          "normalized": "arousal theory",
+          "kp_id": "psychology-barrons-2027-kp-ae0d0b8bccb19f5a",
+          "kp_name": "Arousal theory",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "human motivation",
+          "normalized": "human motivation",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "optimum level of general arousal",
+          "normalized": "optimum level of general arousal",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "goals",
+          "normalized": "goals",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "general adaptation syndrome",
+          "normalized": "general adaptation syndrome",
+          "kp_id": "psychology-barrons-2027-kp-f755914799ba557e",
+          "kp_name": "general adaptation syndrome (GAS)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "stress",
+          "normalized": "stress",
+          "kp_id": "psychology-barrons-2027-kp-68900f11ef05ab73",
+          "kp_name": "Stress",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item contrasts two motivation theories; C01 and C02 are the tested cores. Option C's GAS reference is the only same-domain near-miss distractor.",
+      "warnings": [
+        "confusable 'general adaptation syndrome (GAS)' is in option 'C' but not in the core's narrow domain; dropped",
+        "keyword 'achievement motivation theory': not a known alias of 'Achievement motivation'; stored without a KP",
+        "keyword 'human motivation': not a known alias of 'Motivation'; stored without a KP",
+        "keyword 'optimum level of general arousal': not a known alias of 'Arousal theory'; stored without a KP",
+        "keyword 'goals': not a known alias of 'Achievement motivation'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-bd8d49bb5ddb2464",
+          "name": "Extrinsic motivations",
+          "confidence": 0.9,
+          "evidence": "extrinsic motivations are usually temporary",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-81b63788e94f4903",
+          "name": "Primary drives",
+          "option_label": "D",
+          "reason": "Tempting because it misclassifies intrinsic motivation as a biological primary drive rather than an internal reward."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-1474e0fd8d87293b",
+          "name": "Secondary drives",
+          "option_label": "D",
+          "reason": "Tempting because it pairs extrinsic motivation with learned secondary drives, confusing drive types with motivation sources."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "intrinsic motivation",
+          "normalized": "intrinsic motivation",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "extrinsic motivation",
+          "normalized": "extrinsic motivation",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "extrinsic motivations",
+          "normalized": "extrinsic motivations",
+          "kp_id": "psychology-barrons-2027-kp-bd8d49bb5ddb2464",
+          "kp_name": "Extrinsic motivations",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "primary drives",
+          "normalized": "primary drives",
+          "kp_id": "psychology-barrons-2027-kp-81b63788e94f4903",
+          "kp_name": "Primary drives",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "secondary drives",
+          "normalized": "secondary drives",
+          "kp_id": "psychology-barrons-2027-kp-1474e0fd8d87293b",
+          "kp_name": "Secondary drives",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the distinction between intrinsic and extrinsic motivation, specifically the greater endurance of intrinsic motivation. Maslow's hierarchy is mentioned only in a distractor and is not a candidate knowledge point.",
+      "warnings": [
+        "core 'Intrinsic motivations': only matches wrong options; dropped",
+        "keyword 'intrinsic motivation': not a known alias of 'Intrinsic motivations'; stored without a KP",
+        "keyword 'extrinsic motivation': not a known alias of 'Extrinsic motivations'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-825da3c37449784a",
+          "name": "Ghrelin",
+          "confidence": 0.97,
+          "evidence": "In which of the following hormones is Dr. Pinchasick most likely to be interested?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "hormones",
+          "normalized": "hormones",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Ghrelin",
+          "normalized": "ghrelin",
+          "kp_id": "psychology-barrons-2027-kp-825da3c37449784a",
+          "kp_name": "Ghrelin",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "GABA",
+          "normalized": "gaba",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Glutamate",
+          "normalized": "glutamate",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Melatonin",
+          "normalized": "melatonin",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Ghrelin is the hunger hormone; GABA and glutamate are neurotransmitters, and melatonin relates to sleep rather than hunger, so no same-domain confusable knowledge point applies.",
+      "warnings": [
+        "supporting 'Endocrine system' is not in the correct option or the core subheading; dropped",
+        "keyword 'hormones': not a known alias of 'Endocrine system'; stored without a KP",
+        "keyword 'GABA': not a known alias of 'Neurotransmitters'; stored without a KP",
+        "keyword 'Glutamate': not a known alias of 'Neurotransmitters'; stored without a KP",
+        "keyword 'Melatonin': not a known alias of 'Sleep cycle'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-8f05fd8d6dafc4fb",
+          "name": "Hypothalamus",
+          "confidence": 0.95,
+          "evidence": "Dr. Pinchasick is a psychiatrist who helps people struggling with their weight.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "PET scan",
+          "normalized": "pet scan",
+          "kp_id": "psychology-barrons-2027-kp-481dd8e6fc641981",
+          "kp_name": "Positron emission tomography (PET) scan",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "brain scans",
+          "normalized": "brain scans",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "weight",
+          "normalized": "weight",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Hypothalamus",
+          "normalized": "hypothalamus",
+          "kp_id": "psychology-barrons-2027-kp-8f05fd8d6dafc4fb",
+          "kp_name": "Hypothalamus",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Occipital lobe",
+          "normalized": "occipital lobe",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Hippocampus",
+          "normalized": "hippocampus",
+          "kp_id": "psychology-barrons-2027-kp-f43c26d7b4d29037",
+          "kp_name": "hippocampus",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Thalamus",
+          "normalized": "thalamus",
+          "kp_id": "psychology-barrons-2027-kp-1df8f93811c029b7",
+          "kp_name": "Thalamus",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests knowledge that the hypothalamus regulates hunger/feeding, relevant to a psychiatrist treating weight issues. PET scan is supporting context.",
+      "warnings": [
+        "supporting 'Positron emission tomography (PET) scan' is not in the correct option or the core subheading; dropped",
+        "confusable 'Thalamus' is in option 'C' but not in the core's narrow domain; dropped",
+        "confusable 'hippocampus' is in option 'B' but not in the core's narrow domain; dropped",
+        "confusable 'Occipital lobes' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'brain scans': not a known alias of 'Positron emission tomography (PET) scan'; stored without a KP",
+        "keyword 'weight': not a known alias of 'Hypothalamus'; stored without a KP",
+        "keyword 'Occipital lobe': not a known alias of 'Occipital lobes'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2096963d7fbfc6bc",
+          "name": "Facial expressions",
+          "confidence": 0.9,
+          "evidence": "to see if a similar number of people recognize the emotions across the different countries",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5b5dac8c44cfe48e",
+          "name": "Sociobiology",
+          "confidence": 0.5,
+          "evidence": "cross-cultural study of emotion across rural villages"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0caa169a26b2f070",
+          "name": "Display rules",
+          "option_label": "D",
+          "reason": "Display rules are cultural rules governing expression, which could tempt students to think recognition differs by country, but the data show similar recognition across countries."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "cross-cultural study",
+          "normalized": "cross cultural study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "emotion",
+          "normalized": "emotion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "recognize the emotions across the different countries",
+          "normalized": "recognize the emotions across the different countries",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "high degree of agreement across countries",
+          "normalized": "high degree of agreement across countries",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "genetically programmed",
+          "normalized": "genetically programmed",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "recognizing emotions in some countries",
+          "normalized": "recognizing emotions in some countries",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the conclusion that basic emotion recognition is culturally universal (C02). Option C tempts a nature/sociobiology inference, and option D tempts a display-rules/cultural-difference inference, but neither is supported by the data.",
+      "warnings": [
+        "confusable 'Nature versus nurture' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'emotion': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'recognize the emotions across the different countries': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'high degree of agreement across countries': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'genetically programmed': not a known alias of 'Sociobiology'; stored without a KP",
+        "keyword 'recognizing emotions in some countries': not a known alias of 'Display rules'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "confidence": 0.97,
+          "evidence": "Which country’s data has the highest range?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fe881b0d5e8a5b8e",
+          "name": "Descriptive statistics",
+          "confidence": 0.6,
+          "evidence": "The data from the study is presented below."
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "range",
+          "normalized": "range",
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "kp_name": "Range",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "data",
+          "normalized": "data",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cross-cultural study",
+          "normalized": "cross cultural study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests understanding of range as a descriptive statistic; no wrong option represents a confusable statistical concept.",
+      "warnings": [
+        "keyword 'data': not a known alias of 'Descriptive statistics'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5c0542318609a4d3",
+          "name": "Two-factor theory",
+          "confidence": 0.95,
+          "evidence": "Emotions involve the cognitive interpretation of physiological responses.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-49993e6746ee5145",
+          "name": "Cannon-Bard theory",
+          "option_label": "B",
+          "reason": "Cannon-Bard also pairs physiological and cognitive components but says they occur simultaneously, not that cognition interprets arousal."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a699f9a0bdcf1000",
+          "name": "James-Lange theory",
+          "option_label": "A",
+          "reason": "James-Lange emphasizes distinct physiological responses causing emotion, omitting the cognitive label central to the two-factor explanation."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "cognitive interpretation of physiological responses",
+          "normalized": "cognitive interpretation of physiological responses",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "physiological and cognitive components that occur simultaneously",
+          "normalized": "physiological and cognitive components that occur simultaneously",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "unique physiological responses",
+          "normalized": "unique physiological responses",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The scenario illustrates two-factor theory: roller-coaster arousal is cognitively labeled as attraction. Option C (adaptation of the species) is too loosely related to be a confusable.",
+      "warnings": [
+        "supporting 'James-Lange theory' duplicates a confusable; dropped",
+        "keyword 'cognitive interpretation of physiological responses': not a known alias of 'Two-factor theory'; stored without a KP",
+        "keyword 'physiological and cognitive components that occur simultaneously': not a known alias of 'Cannon-Bard theory'; stored without a KP",
+        "keyword 'unique physiological responses': not a known alias of 'James-Lange theory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch15-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2096963d7fbfc6bc",
+          "name": "Facial expressions",
+          "confidence": 0.95,
+          "evidence": "adults in cultures with no prior contact with other parts of the world can identify an angry face",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5b5dac8c44cfe48e",
+          "name": "Sociobiology",
+          "confidence": 0.6,
+          "evidence": "the expression of several basic emotions is universal"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0caa169a26b2f070",
+          "name": "Display rules",
+          "option_label": "A",
+          "reason": "Display rules are cultural rules governing expression, which could make cultural learning seem relevant, but the option describes cross-cultural association of smiles with happiness rather than culturally variable display rules."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "basic emotions",
+          "normalized": "basic emotions",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "universal",
+          "normalized": "universal",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cultures with no prior contact",
+          "normalized": "cultures with no prior contact",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "identify an angry face",
+          "normalized": "identify an angry face",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "smiles with happiness",
+          "normalized": "smiles with happiness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests whether cross-cultural identification of a basic emotion expression supports universality. Option A is a weaker cultural-learning example; C is infant attention; D is a sex difference, not universality of expression.",
+      "warnings": [
+        "keyword 'basic emotions': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'universal': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'cultures with no prior contact': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'identify an angry face': not a known alias of 'Facial expressions'; stored without a KP",
+        "keyword 'babies look longer at a smiling face than a sad face': whole/long option text; dropped",
+        "keyword 'women across all continents are quicker to recognize emotions than men': whole/long option text; dropped"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

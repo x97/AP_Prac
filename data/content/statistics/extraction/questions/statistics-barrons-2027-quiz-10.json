@@ -1,0 +1,1218 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-10",
+ "kind": "quiz",
+ "number": 10,
+ "unit_no": 2,
+ "title": "Barron's AP Statistics 2027 Quiz 10 — Unit 2",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 10",
+ "pdf_page_start": 234,
+ "pdf_page_end": 240,
+ "answer_page_start": 726,
+ "answer_page_end": 729,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 234,
+      "bbox": [
+       142.5,
+       621.8,
+       162.8,
+       642.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 234,
+      "bbox": [
+       142.5,
+       645.8,
+       156.0,
+       666.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 234,
+      "bbox": [
+       142.5,
+       670.5,
+       156.0,
+       691.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 234,
+      "bbox": [
+       144.0,
+       694.5,
+       207.8,
+       717.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 234,
+      "bbox": [
+       113.0,
+       621.0,
+       133.5,
+       639.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 234,
+      "bbox": [
+       113.0,
+       645.7,
+       133.3,
+       663.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 234,
+      "bbox": [
+       113.0,
+       669.7,
+       133.5,
+       687.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 234,
+      "bbox": [
+       113.0,
+       694.8,
+       134.7,
+       712.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 234,
+     "bbox": [
+      186.8,
+      444.0,
+      425.2,
+      556.5
+     ]
+    }
+   ],
+   "page_start": 234,
+   "page_end": 234,
+   "stem": "What is the predictive value of the test? That is, what is the probability that a person has strep throat and tests positive?",
+   "context": "Questions 1–4 refer to the following study: Five hundred people used a home test for strep throat, and then all underwent more conclusive testing in a medical office. The accuracy of the home test was evidenced in the following table.",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "35 out of the entire population of 500 both have strep throat and tested positive.",
+   "question_id": "statistics-barrons-2027-quiz-10-001",
+   "source_pages": [
+    234,
+    234
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       129.8,
+       162.8,
+       150.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       153.8,
+       156.0,
+       174.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       178.5,
+       162.8,
+       199.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       144.0,
+       202.5,
+       207.8,
+       224.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       129.0,
+       133.5,
+       147.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       153.7,
+       133.3,
+       171.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       177.7,
+       133.5,
+       195.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       202.5,
+       134.7,
+       220.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 234,
+     "bbox": [
+      186.8,
+      444.0,
+      425.2,
+      556.5
+     ]
+    }
+   ],
+   "page_start": 235,
+   "page_end": 235,
+   "stem": "What is the false-positive rate? That is, what is the probability of testing positive given that the person does not have strep throat?",
+   "context": "Questions 1–4 refer to the following study: Five hundred people used a home test for strep throat, and then all underwent more conclusive testing in a medical office. The accuracy of the home test was evidenced in the following table.",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Of the 460 healthy people, 25 tested positive.",
+   "question_id": "statistics-barrons-2027-quiz-10-002",
+   "source_pages": [
+    235,
+    235
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       303.8,
+       162.8,
+       324.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       328.5,
+       156.0,
+       349.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       352.5,
+       156.0,
+       373.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       144.0,
+       377.2,
+       157.5,
+       398.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       303.7,
+       133.5,
+       321.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       327.7,
+       133.3,
+       345.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       352.5,
+       133.5,
+       370.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       376.5,
+       134.7,
+       394.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 234,
+     "bbox": [
+      186.8,
+      444.0,
+      425.2,
+      556.5
+     ]
+    }
+   ],
+   "page_start": 235,
+   "page_end": 235,
+   "stem": "What is the sensitivity of the test? That is, what is the probability of testing positive given that the person has strep throat?",
+   "context": "Questions 1–4 refer to the following study: Five hundred people used a home test for strep throat, and then all underwent more conclusive testing in a medical office. The accuracy of the home test was evidenced in the following table.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Of the 40 people with strep throat, 35 tested positive.",
+   "question_id": "statistics-barrons-2027-quiz-10-003",
+   "source_pages": [
+    235,
+    235
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       477.8,
+       206.2,
+       500.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       503.2,
+       156.0,
+       524.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       142.5,
+       528.0,
+       162.8,
+       549.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       144.0,
+       552.8,
+       164.2,
+       573.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       478.1,
+       133.5,
+       496.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       503.2,
+       133.3,
+       521.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       527.2,
+       133.5,
+       545.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       552.0,
+       134.7,
+       570.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 234,
+     "bbox": [
+      186.8,
+      444.0,
+      425.2,
+      556.5
+     ]
+    }
+   ],
+   "page_start": 235,
+   "page_end": 235,
+   "stem": "What is the specificity of the test? That is, what is the probability of testing negative given that the person does not have strep throat?",
+   "context": "Questions 1–4 refer to the following study: Five hundred people used a home test for strep throat, and then all underwent more conclusive testing in a medical office. The accuracy of the home test was evidenced in the following table.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Of the 460 healthy people, 435 tested negative.",
+   "question_id": "statistics-barrons-2027-quiz-10-004",
+   "source_pages": [
+    235,
+    235
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "0.5",
+    "B": "(0.5)7",
+    "C": "(0.5)8",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "D": [
+     {
+      "page": 236,
+      "bbox": [
+       144.0,
+       117.8,
+       220.5,
+       140.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 235,
+      "bbox": [
+       113.0,
+       693.7,
+       163.4,
+       711.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       72.0,
+       180.9,
+       92.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       95.2,
+       181.0,
+       115.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       118.1,
+       134.7,
+       136.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 235,
+   "page_end": 236,
+   "stem": "In a 1974 “Dear Abby” letter, a woman lamented that she had just given birth to her eighth child and all were girls! Her doctor had assured her that the chance of the eighth child being a girl was less than 1 in 100. What was the real probability that the eighth child would be a girl?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The probability of the next child being a girl is independent of the sex of the previous children. Before she had any children, if the question had been about the probability of having eight girls in a row, then the answer would have been (0.5)8, or about 1 in 256.",
+   "question_id": "statistics-barrons-2027-quiz-10-005",
+   "source_pages": [
+    235,
+    236
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Hospital A",
+    "B": "Hospital B",
+    "C": "The difference will be negligible.",
+    "D": "By the law of large numbers, this cannot be predicted."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       260.2,
+       209.2,
+       278.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       281.2,
+       208.9,
+       299.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       302.2,
+       356.6,
+       320.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       323.2,
+       504.0,
+       341.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 236,
+   "page_end": 236,
+   "stem": "Hospital A has about 20 births per day, and hospital B has about 40 births per day. About 50% of all babies are boys, but the percentage who are boys varies at each hospital from day to day. Over the course of a year, which hospital will have more days on which 60% or more of the births are boys?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The probability of a boy is given to be about 0.5. By the law of large numbers, the more births (Hospital B has more births per day), the more the relative frequency tends to become closer to this probability. With fewer births (Hospital A has fewer births per day), there is a greater chance of wide swings in the relative frequency.",
+   "question_id": "statistics-barrons-2027-quiz-10-006",
+   "source_pages": [
+    236,
+    236
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "(0.55)(0.3)",
+    "B": "0.55 + 0.3 − (0.55)(0.3)",
+    "C": "(0.55)(0.7) + (0.3)(0.45)",
+    "D": "(0.55)(0.7) + (0.3)(0.45) − (0.55)(0.3)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       497.2,
+       215.5,
+       515.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       518.2,
+       306.0,
+       536.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       539.2,
+       308.5,
+       557.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 236,
+      "bbox": [
+       113.0,
+       560.2,
+       403.0,
+       578.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 236,
+   "page_end": 236,
+   "stem": "The probability that a college’s mathematics department will fill an opening with a female professor is 0.55, while the probability that the college’s physics department will fill an opening with a female professor is 0.3. Assuming these decisions are independent, what is the probability that exactly one of these two departments will fill their position with a female professor?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "P(exactly one) = P(math: yes) P(physics: no) + P(math: no) P(physics: yes) = (0.55)(0.7) + (0.3)(0.45). Note that the events “math and not physics” and “physics and not math” are mutually exclusive.",
+   "question_id": "statistics-barrons-2027-quiz-10-007",
+   "source_pages": [
+    236,
+    236
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "0.02",
+    "B": "(0.02)(0.98)",
+    "C": "(0.02)(0.98) + (0.98)(0.03)",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "D": [
+     {
+      "page": 237,
+      "bbox": [
+       147.0,
+       135.0,
+       286.5,
+       158.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       72.0,
+       171.6,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       93.0,
+       223.5,
+       111.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       114.0,
+       325.2,
+       132.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       135.7,
+       147.2,
+       153.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 236,
+   "page_end": 237,
+   "stem": "Suppose that 2% of a clinic’s patients are known to have cancer. A blood test is developed that is positive in 98% of patients with cancer but is also positive in 3% of patients who do not have cancer. If a person who is chosen at random from the clinic’s patients is given the test and it comes out positive, what is the probability that the person actually has cancer?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "",
+   "question_id": "statistics-barrons-2027-quiz-10-008",
+   "source_pages": [
+    236,
+    237
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "No, because",
+    "B": "No, because",
+    "C": "Yes, because",
+    "D": "Yes, because"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 237,
+      "bbox": [
+       228.0,
+       366.0,
+       306.0,
+       386.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 237,
+      "bbox": [
+       228.0,
+       390.0,
+       305.2,
+       410.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 237,
+      "bbox": [
+       232.5,
+       414.0,
+       310.5,
+       434.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 237,
+      "bbox": [
+       234.0,
+       438.0,
+       312.8,
+       458.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       365.2,
+       228.3,
+       383.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       389.2,
+       228.1,
+       407.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       413.2,
+       232.7,
+       431.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 237,
+      "bbox": [
+       113.0,
+       437.2,
+       233.8,
+       455.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 237,
+   "page_end": 237,
+   "stem": "A teacher has 90 students. Of those students, 21 have at least two analog clocks in their homes, and 62 have at least three television sets in their homes. There are 15 students who do not have at least two analog clocks and do not have at least three television sets in their homes. Let event C represent the event of selecting a student with at least two analog clocks at home, and let event T represent the event of selecting a student with at least three television sets at home. Are C and T mutually exclusive events?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "We have (21 − x) + x + (62 − x) + 15 = 90, which gives x = 8. So there are 8 students who have at least two analog clocks and have at least three television sets in their homes. Because the events can occur at the same time, they are not mutually exclusive.",
+   "question_id": "statistics-barrons-2027-quiz-10-009",
+   "source_pages": [
+    237,
+    237
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability that someone in this sample has taken a college course given that the person has a tattoo is the greater of the two probabilities.",
+    "B": "The probability that someone in this sample has a tattoo given that the person has taken a college course is the greater of the two probabilities.",
+    "C": "The two probabilities are equal.",
+    "D": "This cannot be answered without knowing (1) the probability that someone in this sample has taken a college course, (2) the probability that someone in this sample has a tattoo, and (3) the probability that someone in this sample has taken a college course and has a tattoo."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       151.5,
+       514.0,
+       169.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       208.5,
+       516.4,
+       226.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       265.5,
+       351.7,
+       283.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       286.5,
+       473.8,
+       304.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 237,
+     "bbox": [
+      206.2,
+      567.8,
+      405.8,
+      675.8
+     ]
+    }
+   ],
+   "page_start": 237,
+   "page_end": 238,
+   "stem": "A random sample of adults aged 25 and up were surveyed as to whether or not they had tattoos and whether or not they had ever taken a college course. The mosaic plot below displays the data. Which is greater, the probability that someone in this sample has taken a college course given that they have a tattoo or the probability that someone in this sample has a tattoo, given that they have taken a college course?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Given that a person has a tattoo narrows our interest to and people with at least some college are clearly over half of this group. Given that a person has taken a college course narrows our interest to and people with tattoos are clearly less than half of this group.",
+   "question_id": "statistics-barrons-2027-quiz-10-010",
+   "source_pages": [
+    237,
+    238
+   ]
+  },
+  {
+   "number": 11,
+   "section": "MCQ",
+   "options": {
+    "A": "P(E ∩ F c) = 0.2, P(E ∩ F) = 0.2, P(E c ∩ F) = 0.2",
+    "B": "P(E ∩ F c) = 0.3, P(E ∩ F) = 0.0, P(E c ∩ F) = 0.3",
+    "C": "P(E ∩ F c) = 0.3, P(E ∩ F) = 0.2, P(E c ∩ F) = 0.1",
+    "D": "P(E ∩ F c) = 0.4, P(E ∩ F) = 0.1, P(E c ∩ F) = 0.1"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       435.0,
+       472.9,
+       455.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       458.2,
+       472.7,
+       478.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       480.7,
+       472.9,
+       500.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       504.0,
+       473.9,
+       524.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 238,
+   "page_end": 238,
+   "stem": "For which of the following probability assignments are events E and F independent?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Events E and F are independent if P(E ∩ F) = P(E)P(F). Here, P(E) = 0.4 + 0.1 = 0.5 and P(F) = 0.1 + 0.1 = 0.2. Then P(E)P(F) = (0.5)(0.2) = 0.1 = P(E ∩ F).",
+   "question_id": "statistics-barrons-2027-quiz-10-011",
+   "source_pages": [
+    238,
+    238
+   ]
+  },
+  {
+   "number": 12,
+   "section": "MCQ",
+   "options": {
+    "A": "P(I) < P(II) < P(III)",
+    "B": "P(I) > P(II) > P(III)",
+    "C": "P(I) < P(III) < P(II)",
+    "D": "P(I) > P(III) > P(II)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 238,
+      "bbox": [
+       113.0,
+       695.2,
+       275.9,
+       713.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 239,
+      "bbox": [
+       113.0,
+       72.0,
+       275.8,
+       90.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 239,
+      "bbox": [
+       113.0,
+       93.0,
+       275.9,
+       111.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 239,
+      "bbox": [
+       113.0,
+       114.0,
+       277.1,
+       132.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 238,
+   "page_end": 239,
+   "stem": "What is the proper order of size for the probabilities of the following three events? (I) A randomly selected high school senior eats breakfast. (II) A randomly selected teenager is a high school senior who eats breakfast. (III) A randomly selected teenager who eats breakfast is a high school senior.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "P(I) > P(III) because the denominator in (I) is smaller than the denominator in (III); that is, it is reasonable to assume that the set of all teenagers who are high school seniors is smaller than the set of all teenagers who eat breakfast. P(II) is the smallest because (I) and (III) have denominators that are less than one.",
+   "question_id": "statistics-barrons-2027-quiz-10-012",
+   "source_pages": [
+    238,
+    239
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 239,
+     "bbox": [
+      107.2,
+      343.5,
+      504.8,
+      486.8
+     ]
+    }
+   ],
+   "page_start": 239,
+   "page_end": 240,
+   "stem": "A sample of applicants for a management position yields the following numbers with regard to age and experience: (a) What is the probability that a randomly picked applicant from this sample is less than 50 years old? Has more than 10 years of experience? Is more than 50 years old and has five or fewer years of experience? (b) What is the probability that a randomly picked applicant from this sample is less than 50 years old, given that she has between 6 and 10 years of experience? (c) Are the two events “less than 50 years old” and “more than 10 years of experience” independent events? How about the two events “more than 50 years old and between 6 and 10 years of experience”? Explain.",
+   "correct_answer": null,
+   "answer_text": "It’s easiest to first sum the rows and columns: (a) (b) (c) ; however, P(age < 50 | experience and so they are not independent. and also P(age > 50 | experience 6–10) , and so these two are independent.",
+   "question_id": "statistics-barrons-2027-quiz-10-013",
+   "context": "",
+   "source_pages": [
+    239,
+    240
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 240,
+   "page_end": 240,
+   "stem": "Last year, the acceptance rates at Stanford and MIT were 5% and 7%, respectively. (a) A guidance counselor calculates the probability of a student getting into both of these colleges to be (0.05) (0.07) = 0.0035. What assumption is she making, and does her assumption seem reasonable? Explain. (b) She also calculates the probability of a student getting into at least one of these colleges to be 0.05 + 0.07 = 0.12. What assumption is she making here, and does it seem reasonable?",
+   "correct_answer": null,
+   "answer_text": "(a) She is assuming that acceptances to the two colleges are independent. This does not seem reasonable as most colleges use similar acceptance criteria. (b) She is assuming that acceptances to the two colleges are mutually exclusive. This does not seem reasonable as students can simultaneously be accepted at both of the colleges.",
+   "question_id": "statistics-barrons-2027-quiz-10-014",
+   "context": "",
+   "source_pages": [
+    240,
+    240
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 240,
+   "page_end": 240,
+   "stem": "In one community, 26% of adults identify as Generation X, 38% as Generation Y (Millennials), and 36% as Generation Z. Nine percent of Generation X, 12% of Generation Y, and 15% of Generation Z keep their smartphones at least 3 years. An adult from this community is picked at random. (a) What is the probability the person identifies as Generation X and keeps their smartphone at least 3 years? (b) What is the probability the person keeps their smartphone at least 3 years? (c) If the person keeps their smartphone at least 3 years, what is the probability the person identifies as Generation X?",
+   "correct_answer": null,
+   "answer_text": "(a) P((smartphone ≥ 3 yrs) ∩ Gen X) = (0.26)(0.09) = 0.0234 (b) P(smartphone ≥ 3 yrs) = P(Gen X ∩ (smartphone ≥ 3 yrs)) + P(Gen Y ∩ (smartphone ≥ 3 yrs)) + P(Gen Z ∩ (smartphone ≥ 3 yrs)) = 0.0234 + (0.38)(0.12) + (0.36)(0.15) = 0.123 (c)",
+   "question_id": "statistics-barrons-2027-quiz-10-015",
+   "context": "",
+   "source_pages": [
+    240,
+    240
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 15,
+ "mcq_count": 12,
+ "frq_count": 3
+}

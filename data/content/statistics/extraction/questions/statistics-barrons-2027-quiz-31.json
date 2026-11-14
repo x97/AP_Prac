@@ -1,0 +1,273 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-31",
+ "kind": "quiz",
+ "number": 31,
+ "unit_no": 6,
+ "title": "Barron's AP Statistics 2027 Quiz 31 — Unit 6",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 31",
+ "pdf_page_start": 491,
+ "pdf_page_end": 494,
+ "answer_page_start": 757,
+ "answer_page_end": 759,
+ "has_mcq": false,
+ "questions": [
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 491,
+   "page_end": 491,
+   "stem": "At the high school level, do men and women play varsity sports for the same reasons? Of all students who tried out for varsity sports, a random sample of men and a random sample of women are picked. The selected students are given questionnaires asking which of the following is their primary reason for playing sports: social, health, or status.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Chi-square test for homogeneity (“homogeneity” rather than “independence” because there are two independent samples) Checks: Independent random samples; all expected counts at least 5; n ≤ 0.10N Hypotheses: H0: There are no differences between the true distributions of reasons for trying out for varsity sports (social, health, or status) for men and women. Ha: There is at least one difference between the true distributions of reasons for trying out for varsity sports (social, health, or status) for men and women.",
+   "question_id": "statistics-barrons-2027-quiz-31-001",
+   "context": "",
+   "source_pages": [
+    491,
+    491
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 491,
+   "page_end": 491,
+   "stem": "Estimate the proportion of AP Statistics students who will graduate in the top ten percent of their senior class. There were 150 AP Statistics students tracked.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-interval for population proportion p Parameter: Let p represent the true proportion of the population of AP Statistics students who graduate in the top ten percent of their senior class. Checks: Random sample; at least 10 successes and 10 failures, that is, np̂ ≥ 10 and n(1 − p̂ ) ≥ 10; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-31-002",
+   "context": "",
+   "source_pages": [
+    491,
+    491
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 491,
+   "page_end": 491,
+   "stem": "Estimate the average number of books read by high school students during their four years in secondary school. A random sample of 125 students are followed during their high school years.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample t-interval for population mean μ Parameter: Let μ represent the true mean number of books read by all high school students during their four years in secondary school. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-31-003",
+   "context": "",
+   "source_pages": [
+    491,
+    491
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 491,
+   "page_end": 491,
+   "stem": "To test the claim that over 70 percent of racially motivated hate crimes are motivated by anti-Black bias, a criminologist obtains data from a random sample of police commissioners.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-test for a population proportion p Parameter: Let p represent the true proportion of the population of racially motivated hate crimes that are motivated by anti-Black bias. Checks: Random sample; np0 ≥ 10 and n(1 − p0) ≥ 10; n ≤ 0.10N Hypotheses: H0: p = 0.70, Ha: p > 0.70",
+   "question_id": "statistics-barrons-2027-quiz-31-004",
+   "context": "",
+   "source_pages": [
+    491,
+    491
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 491,
+   "page_end": 491,
+   "stem": "Do baseball pitchers throw harder if they participate in ten- minute yoga sessions before games? A pitcher who normally averages 95 mph with his fastballs participated in ten-minute yoga sessions for a random sample of his games. His fastballs for those games were clocked.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample t-test for population mean μ Parameter: Let μ represent the true mean speed of all fastballs thrown by a particular pitcher when participating in 10-minute yoga sessions. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric Hypotheses: H0: μ = 95, Ha: μ > 95",
+   "question_id": "statistics-barrons-2027-quiz-31-005",
+   "context": "",
+   "source_pages": [
+    491,
+    491
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 6,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "Does family income have an impact on school performance? In a random sample of 100 students, family income and student GPA were recorded. What percentage of the variation in student GPA can be explained by variation in family income?",
+   "correct_answer": null,
+   "answer_text": "Procedure: Linear regression Parameter: Let β represent the true slope of the regression line relating school performance (GPA) to family income. Checks: Random sample; scatterplot is roughly linear; no pattern in the residual plot; The resulting coefficient of determination gives the percent of variability in the dependent variable (school performance) that can be explained by the independent variable (family income).",
+   "question_id": "statistics-barrons-2027-quiz-31-006",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 7,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "A study is planned to find the difference in the proportion of patients with warts who are cured with a treatment of cryotherapy and the proportion cured with a treatment of duct tape occlusion.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample z-interval for difference in population proportions, p1 − p2 Parameters: Let p1 represent the true proportion of the population of patients with warts who are cured with a treatment of cryotherapy. Let p2 represent the true proportion of the population of patients with warts who are cured with a treatment of duct tape occlusion. Checks: Independent random samples; at least 10 successes and 10 failures in each sample, that is, n1p̂ 1 ≥ 10, n1(1 − p̂ 1) ≥ 10, n2 p̂ 2 ≥ 10, n2(1 − p̂ 2) ≥ 10; n1 ≤ 0.10N1 and n2 ≤ 0.10N2",
+   "question_id": "statistics-barrons-2027-quiz-31-007",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 8,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "A study is planned to determine if there is significant evidence that the mean cholesterol level (measured in milligrams per deciliter) for people living in “Western” countries is higher than that of people living in “non-Western” countries.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample t-test for difference in population means, μ1 − μ2 Parameters: Let μ1 represent the true mean cholesterol level (measured in milligrams per deciliter) for all people living in “Western” countries. Let μ2 represent the true mean cholesterol level (measured in milligrams per deciliter) for all people living in “non-Western” countries. Checks: Independent random samples; for each sample, population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; and for each sample n ≤ 0.10N Hypotheses: H0: μ1 − μ2 = 0, Ha: μ1 − μ2 > 0",
+   "question_id": "statistics-barrons-2027-quiz-31-008",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 9,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "What is the average increase in CO2 emissions (in tons per person) for each unit increase in income level (in GDP per capita) among countries of the world?",
+   "correct_answer": null,
+   "answer_text": "Procedure: Linear regression Parameter: Let β represent the true slope of the regression line relating average increase in CO2 emissions (in tons per person) to income level (in GDP per capita) among all countries of the world. Checks: Random sample; scatterplot is roughly linear; no pattern in the residual plot; The resulting slope gives the predicted change in emissions for each unit increase in income level.]",
+   "question_id": "statistics-barrons-2027-quiz-31-009",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 10,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "An economist is interested in whether there is an association between race/ethnicity and whether an adult is unbanked (does not have a checking or savings account). A random sample of 500 adults gives the following table: Hispanic (non- Native White Black White) American Banked 203 98 77 49 Unbanked 18 25 20 10",
+   "correct_answer": null,
+   "answer_text": "Procedure: Chi-square test for independence Checks: Random sample; all expected counts at least 5; n ≤ 0.10N Hypotheses: H0: There is no association between race/ethnicity and whether or not an adult is unbanked. Ha: There is an association between race/ethnicity and whether or not an adult is unbanked.",
+   "question_id": "statistics-barrons-2027-quiz-31-010",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 11,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 492,
+   "page_end": 492,
+   "stem": "For the prevention of strokes, at-risk patients are often given anticlotting drugs. A study is being designed to compare the proportion of patients receiving rivaroxaban who still have strokes to the proportion receiving warfarin who still have strokes.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample z-test for difference in population proportions, p1 − p2 Parameters: Let p1 represent the true proportion of the population of at-risk patients receiving rivaroxaban who still have strokes. Let p2 represent the true proportion of the population of at-risk patients receiving warfarin who still have strokes. Checks: Independent random samples; n1p̂ C ≥ 10, n1(1 − p̂ C) ≥ 10, n2p̂ C ≥ 10, and n2(1 − p̂ C) ≥ 10, where ; n1 ≤ 0.10N1 and n2 ≤ 0.10N2 Hypotheses: H0: p1 − p2 = 0, Ha: p1 − p2 ≠ 0",
+   "question_id": "statistics-barrons-2027-quiz-31-011",
+   "context": "",
+   "source_pages": [
+    492,
+    492
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 12,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 493,
+   "page_end": 493,
+   "stem": "Malaria is endemic in Liberia. Many people contract and are cured of malaria repeatedly during their lifetimes. A new prophylactic medication was developed as a pill taken weekly to prevent the contraction of malaria. A random sample of adults took the pill for one year and took a placebo pill for another year. The year each adult took the prophylactic was decided randomly for each participant. Summary statistics were as follows. Standard n Mean Deviation Episodes on the 1,500 0.22 0.11 prophylactic Episodes on the placebo 1,500 0.84 1.04 Difference (on − off) 1,500 −0.62 0.35",
+   "correct_answer": null,
+   "answer_text": "Procedure: Matched pair t-test for mean difference in population means, μdiff Parameter: Let μdiff represent the true mean difference (with pill − with placebo) in malaria episodes for the population of adults when they take the new pill and when they take the placebo. Checks: Random sample; set of differences is from a normal population or set of differences is large, at least 30, or distribution of set of differences is unimodal and symmetric Hypotheses: H0: μdiff = 0, Ha: μdiff < 0",
+   "question_id": "statistics-barrons-2027-quiz-31-012",
+   "context": "",
+   "source_pages": [
+    493,
+    493
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 13,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 493,
+   "page_end": 493,
+   "stem": "In a random sample of 5,000 live births in the U.S., the infant mortality rate was 5.8 (infant deaths per 1,000 live births). In a random sample of 2,000 live births in Japan, the infant mortality rate was 2.0 (infant deaths per 1,000 live births). What is the 99 percent confidence interval for the difference in mortality rates in the United States and Japan?",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample t-interval for difference in population means, μ1 − μ2 Parameters: Let μ1 represent the true mean infant mortality rate in the population of live births in the U.S. (mean infant deaths for every 1,000 live births). Let μ2 represent the true mean infant mortality rate in the population of live births in Japan (mean infant deaths for every 1,000 live births). Checks: Independent random samples; for each sample, population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; for each sample, n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-31-013",
+   "context": "",
+   "source_pages": [
+    493,
+    493
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 14,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 493,
+   "page_end": 493,
+   "stem": "How much better do students do on national standardized exams if they take them a second time? The scores of 500 students who took a national standardized exam twice are charted.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Matched pair t-interval for mean difference in population means, μdiff Parameter: Let μdiff represent the true mean difference (second score − first score) for the population of students taking a national standardized exam twice. Checks: Random sample; set of differences is from a normal population or set of differences is large, at least 30, or distribution of set of differences is unimodal and symmetric; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-31-014",
+   "context": "",
+   "source_pages": [
+    493,
+    493
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 15,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 493,
+   "page_end": 493,
+   "stem": "What is the mean waist size of male high school math teachers? The waist sizes of a random sample of 50 male high school math teachers are measured. From past studies, it is known that the standard deviation of such waist sizes is 2.15 inches.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-interval for true population mean μ. (Note that we use a normal distribution rather than a t-distribution because the population standard deviation is given.) Parameter: Let μ represent the mean waist size of the population of male high school math teachers. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-31-015",
+   "context": "",
+   "source_pages": [
+    493,
+    493
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 15,
+ "mcq_count": 0,
+ "frq_count": 15
+}

@@ -1,0 +1,245 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-34",
+ "kind": "quiz",
+ "number": 34,
+ "unit_no": 6,
+ "title": "Barron's AP Statistics 2027 Quiz 34 — Unit 6",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 34",
+ "pdf_page_start": 512,
+ "pdf_page_end": 524,
+ "answer_page_start": 766,
+ "answer_page_end": 772,
+ "has_mcq": false,
+ "questions": [
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 512,
+   "page_end": 513,
+   "stem": "Schoolyard and online bullying are leading to increased levels of violence and depression among students. In a national survey15 of 15,686 students in grades six through ten, 19% were involved in moderate to frequent bullying as perpetrators, 17% as victims, and 6% as both victims and perpetrators. (a) What proportion of the students were involved in moderate to frequent bullying? (b) Find a 95% confidence interval for the proportion of students in grades six through ten who are victims of moderate to frequent bullying. (c) Based on this confidence interval, is there convincing evidence that the proportion of students who are victims of moderate to frequent bullying is different from the 22% claimed in one study?16 Explain. (d) School administrators tend to underestimate the rates of bullying because students rarely report it and it often happens when adults are not present. However, knowing the numbers and types of bullying at all grade levels in your school is critical before a plan for bullying prevention and intervention can be developed. How would you plan a survey at your school to assess the frequency and types of bullying present?",
+   "correct_answer": null,
+   "answer_text": "(a) 0.19 + 0.17 − 0.06 = 0.30 (b) Parameter: Let p represent the true proportion of the population of students in grades six through ten who are victims of moderate to frequent bullying. Procedure: One-sample z-interval for a population proportion Checks: We must assume this was a random sample, np̂ = (15,686)(0.17) = 2,667 ≥ 10, n̂ q = (15,686)(0.83) = 13,019 ≥ 10, and n = 15,686 is less than 10% of all students in grades six through ten. Mechanics: Calculator software gives (0.16415, 0.1759). Conclusion in context: We are 95% confident that the proportion of all students in grades six through ten who are victims of moderate to frequent bullying is between 0.16415 and 0.1759. (c) Because 0.22 is not in the interval of plausible values for the population proportion, there is convincing evidence that the proportion of all students who are victims of moderate to frequent bullying is different from the 22% claimed in the one study. (d) Issues that might be addressed in planning a survey include stratification among the grade levels, anonymity, and timing (early enough in the school year to allow implementation of a plan and again later in the year to assess the effectiveness of any prevention and intervention program).",
+   "question_id": "statistics-barrons-2027-quiz-34-001",
+   "context": "",
+   "source_pages": [
+    512,
+    513
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 513,
+     "bbox": [
+      214.5,
+      576.8,
+      397.5,
+      674.2
+     ]
+    }
+   ],
+   "page_start": 513,
+   "page_end": 514,
+   "stem": "Using the Second Amendment to the U.S. Constitution, gun rights proponents have argued for nearly or completely unchecked rights of personal gun ownership. However, because the U.S. has one of the highest rates of gun violence in the world, others have sought to regulate gun ownership. In the news, deaths by firearms are most often associated with murders; however, most firearm-related deaths in the United States are suicides, and most suicides are by guns. According to the CDC,17 in 2021 there were 26,328 suicides in the U.S. using firearms. (a) Assume we have a random sample of 7 years that are considered representative with regard to numbers of firearm suicides: Calculate a 95% confidence interval estimate for the mean number of firearm suicides in the U.S. each year. (b) According to a major recognized survey,18 the U.S. has the highest rate of gun ownership in the world with 120.5 guns per 100 people. The same survey reports Israel with 6.7 guns per 100 people. Given that these figures report only privately owned guns and exclude weapons that are technically owned by the government, how might the apparent wide discrepancy between the U.S. and Israel not be as wide as indicated? (c) When presented with any data set, we should always try to understand what and whose values are implicitly represented. Israel rejects 40% of gun applications and requires yearly renewals for continuing gun ownership. How would this affect the conversation from the statistics quoted in part (b)? (d) The average U.S. gun owner owns 3 guns.19 Comment on measuring rates of suicide by firearms in terms of guns per 100 people (120.5 in the U.S.) versus measuring rates of suicide by firearms in terms of gun owners per 100 people.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: Let μ represent the true mean number of firearm suicides in the U.S. each year among the population of all years. Procedure: A one-sample t-interval Checks: We are given a random sample. The nearly normal condition seems reasonable because the sample data show no outliers or strong skewness. We assume that 7 years are less than 10% of all years under consideration. Under these conditions, the mean firearm suicides per year can be modeled by a t-distribution with n − 1 = 7 − 1 = 6 degrees of freedom. Mechanics: Calculator software gives the interval (20408, 21850). [We can instead calculate 22,128.6 ± 2.447 = 22,128.6 ± 721.0.] Conclusion in context: We are 95% confident that the true mean number of firearm suicides in the U.S. each year is between 21,408 and 22,850. (b) It could well be true (actually, it is true) that most guns in Israel are technically owned by the government (by the IDF—the Israel Defense Forces). The 6.7 guns per 100 people statistic is a significant underestimate of guns in the population. (c) The conversation would change from number of guns in the population to strictness of gun laws pertaining to gun ownership. (d) The U.S. has 120.5 guns per 100 people but only gun owners per 100 people. Thus, the “firearm suicides per gun owner” rate in the U.S. will be three times as great as the “firearm suicides per gun” rate. How “rates” are calculated can lead to different conclusions.",
+   "question_id": "statistics-barrons-2027-quiz-34-002",
+   "context": "",
+   "source_pages": [
+    513,
+    514
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 515,
+     "bbox": [
+      191.2,
+      72.0,
+      420.8,
+      268.5
+     ]
+    }
+   ],
+   "page_start": 514,
+   "page_end": 515,
+   "stem": "As a cost-cutting measure in April 2014, Flint, Michigan, began temporarily drawing its drinking water from the Flint River. The result was dangerous lead contamination in the water supply. (Lead poisoning especially impacts a child’s brain and nervous system.) (a) An independent research team20 tested the Flint water supply for lead. The resulting cumulative frequency plot of the lead levels in ppb (parts per billion) in the water supply of sampled homes is as follows: What is the shape of the histogram of the lead levels in the water supply of sampled homes? How would you expect the mean and median lead levels to compare with each other? Explain. (b) It is recognized that if over 10% of a city’s homes have lead levels in their water supply of over 5 ppb, the city has “a very serious problem with lead.”21 The research team determined that 15 ppb corresponded to the 75th percentile of Flint home water supply lead levels. Does this indicate a very serious problem? (c) Suppose the concern is whether or not the mean lead level in the water supply of the homes is greater than 10 ppb. (The EPA regards 15 ppb in the water supply as a very dangerous level.22) Describe Type I and Type II errors in context. Which is of greater concern, a Type I or Type II error, and what would be a possible consequence? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) A cumulative frequency plot that rises quickly at first and then rises at a much slower rate later corresponds to a histogram with a large area under the curve early and much less area later. Thus, it is skewed right (skewed to the higher values of lead). In skewed right distributions, we expect the mean to be greater than the median. (b) These figures indicate an extremely serious lead problem in the Flint water supply. The research team found that 25% of the homes had a lead water supply level of at least 15 ppb. Because 25% > 10% and 15 ppb > 5 ppb, the percent of homes with at least 5 ppb is larger than 10%. (c) With H0: μ = 10 and Ha: μ > 10, a Type I error (mistaken rejection of a true null hypothesis) means that we think the lead level is greater than 10 ppb when, in fact, it is 10 ppb. So, we might institute costly and unnecessary cleanup measures. A Type II error (mistaken failure to reject a false null hypothesis) means that the mean lead level is greater than 10 ppb but we don’t have enough evidence to think so. So, we might fail to institute a necessary cleanup. Clearly, with people’s, and especially children’s, health at stake, a Type II error should be more of a concern.",
+   "question_id": "statistics-barrons-2027-quiz-34-003",
+   "context": "",
+   "source_pages": [
+    514,
+    515
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 516,
+     "bbox": [
+      191.2,
+      193.5,
+      420.8,
+      376.5
+     ]
+    }
+   ],
+   "page_start": 515,
+   "page_end": 516,
+   "stem": "Even in the highest-paying occupations, non-White workers face racism in the workplace.23 In one study, racially identified names were randomly assigned to resumes, and the number of interviews offered (positive responses) for each group was tabulated. (a) The positive response rate for applicants with “White” names had a 95% confidence interval of (0.21882, 0.28258). What was the sample size for applicants with “White” names? (b) A mosaic plot of responses is shown below. What does it show? (c) A hypothesis test, with Ha: pW > pNW where pW = the true proportion of resumes with “White” names that result in positive responses, and pNW = the true proportion of resumes with “non-White” names that result in positive responses, yields z = 2.585 and P = 0.00486. Is there convincing evidence that resumes with “White” names result in a greater proportion of positive responses than resumes with “non-White” names? (d) A measure of discrimination, the discrimination ratio, for African Americans contrasted to Whites (with positive values indicating discrimination against African Americans and negative values indicating discrimination against Whites) was calculated over a 25-year period, resulting in a confidence interval for the slope of (−0.007, 0.015). Is there convincing evidence that discrimination against African Americans is trending higher?",
+   "correct_answer": null,
+   "answer_text": "(a) The sample proportion is in the middle of the confidence interval, so . The margin of error is 0.28258 − 0.2507 = 0.03188. We have , which gives = 26.64666, and n is about 710. (b) The mosaic plot shows (1) that the sample contained roughly twice as many resumes with “White” names than “non-White” names, and (2) in the sample, a greater proportion of resumes with “White” names than “non-White” names resulted in positive responses (offered interviews). (c) With such a small p-value, 0.00486 < 0.05, there is sufficient evidence to reject H0; that is, there is convincing evidence that resumes with “White” names result in a greater proportion of positive responses (offered interviews) than resumes with “non-White” names. (d) Because 0 is in the confidence interval—that is, the interval contains both negative and positive plausible values—there is not convincing evidence to conclude that discrimination against African-Americans is trending higher.",
+   "question_id": "statistics-barrons-2027-quiz-34-004",
+   "context": "",
+   "source_pages": [
+    515,
+    516
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 517,
+   "page_end": 518,
+   "stem": "Gun violence is now the leading cause of death for children in the United States, and all sides of the political spectrum are concerned. In a recent study, 226 children, ages 8 to 12, were tested in pairs of kids who knew each other, including siblings, cousins, and friends. One of each pair was randomly picked to watch a short video on car safety, while the other of each pair was shown a short video on gun safety. A week later, all 226 children came to a large playroom filled with toys and with two disabled 9 mm handguns. Of those who watched the gun safety video, 34% told an adult that there were guns in the room, while of those who watched the car safety video, 11% told an adult there were guns in the room.24 (a) Is random sampling, random assignment, both, or neither involved in this study? Explain. (b) What are the appropriate hypotheses for testing whether there is convincing evidence that the proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room is greater for those children shown a gun safety video than for those children shown a car safety video? (c) The test statistic is z = 4.167. What does this value mean in context? (d) Is there convincing evidence to reject the null hypothesis at the 0.01 significance level? Explain. (e) A 99% confidence interval for the difference in proportions (gun safety video viewers minus car safety video viewers) based on these data is (0.09342, 0.36676). Interpret this interval in context. (f) Is this confidence interval consistent with the test decision in part (d)? Explain. (g) The above two videos both featured a police chief in full uniform. A second experiment where both videos featured a cartoon figure called Eddie Eagle showed no statistical difference between the proportions of the two groups telling an adult about seeing a gun in the playroom. Give a possible explanation. (h) Another study involved children in homes with a gun in the home and children in homes without a gun in the home. Those children living in homes with a gun in the home were more likely to tell an adult about seeing a gun in the playroom. Give a possible explanation.",
+   "correct_answer": null,
+   "answer_text": "(a) This is an example of random assignment applied to a block design. Each pair of children is a block, and in each block one child is randomly assigned to receive the gun safety “treatment” while the other child receives the car safety “treatment.” (b) H0: pG = pC and Ha: pG > pC where pG = proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room after being shown a gun safety video and where pC = proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room after being shown a car safety video. (c) The two sample proportions, p̂ G and p̂ C, are 4.167 standard errors apart. (d) This is a one-sided test with a p-value of normalcdf(4.167, 1000) = 0.000. With this small a p- value, 0.000 < 0.01, there is sufficient evidence to reject the null hypothesis. In other words, there is convincing evidence that the proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room after being shown a gun safety video is greater than the proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room after being shown a car safety video. (e) We are 99% confident that the proportion of all youths 8 to 12 years old who will tell an adult about a gun in the room after being shown a gun safety video is between 0.09342 and",
+   "question_id": "statistics-barrons-2027-quiz-34-005",
+   "context": "",
+   "source_pages": [
+    517,
+    518
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 6,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 518,
+   "page_end": 519,
+   "stem": "Law Enforcement Assisted Diversion (LEAD) is a prebooking diversion program whereby low-level drug and prostitution offenders are redirected to community-based services instead of jail and prosecution.25 There were 318 offenders who participated in a pilot program in which they were assigned to either the LEAD program (n = 203) or control (i.e., booking as usual; n = 115). All 318 offenders were deemed eligible for participation in the LEAD program. (a) The average yearly criminal and legal system costs of those participating in the LEAD program were $4,763. For the control group, the average was $11,695. (Assume standard deviations of $875 and $2,125, respectively.) Is this statistically significant evidence that the LEAD program has lower costs than the usual booking program? (b) After participation in the program, the LEAD group showed significantly fewer average number of days per year in jail than the control group (p < 0.05). Which error, Type I or Type II, might have been committed and what would be a possible consequence? (c) Even though it was felt that both the LEAD and the control groups were representative of the targeted offender population, a nonrandomized design was used. This may be of concern. What is the purpose of random assignment in such studies? (d) Using your answer from part (a), make an argument in favor of the LEAD program to a city council whose members are unfamiliar with statistical arguments.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameters: Let μLEAD represent the true mean yearly criminal and legal system costs of the population of low-level drug and prostitution offenders who are participating in the LEAD program. Let μcontrol represent the true mean yearly criminal and legal system costs of the population of low-level drug and prostitution offenders who are not participating in the LEAD program. Hypotheses: H0: μLEAD = μcontrol and Ha: μLEAD < μcontrol. Procedure: This is a two-sample t-test for means. Checks: We are given samples that, by design, are assumed representative and independent. The sample sizes, 203 and 115, are large enough so that by the CLT, the distribution of sample means is approximately normal and a t-test may be run. The sample sizes are assumed to be less than 10% of the population of all low-level drug and prostitution offenders. Mechanics: Calculator software gives t = −33.41 with a p-value of » 0.000. Conclusion in context with linkage to the p-value: With this small of a p-value, 0.000 < 0.05, there is very strong evidence to reject H0. In other words, there is convincing evidence that for those adults eligible for the LEAD program, the mean yearly criminal and legal system costs of those participating in the program are less than that for those not participating. (b) The null hypothesis was rejected. So, the possibility is of a Type I error—that is, of rejecting a true null hypothesis. A Type I error would mean that in reality, after participating in the program, the LEAD group would have the same mean days per year in jail as the control group. However, in error, we think the LEAD group has significantly fewer mean days per year in jail than the control group. A possible consequence is that the LEAD program is expanded, thinking it will reduce the future mean days per year in jail when, in reality, it won’t. (c) It is very difficult to “choose” representative samples. Using randomization has been shown to be the most effective technique to minimize the effect of possible confounding variables. (d) “We ran a large sample statistical study and noted that for our sample, the average yearly criminal and legal costs spent on those offenders participating in the LEAD program were significantly lower than the average spent on those not participating in the program. The difference was so great that it is highly unlikely that it could have occurred by chance.”",
+   "question_id": "statistics-barrons-2027-quiz-34-006",
+   "context": "",
+   "source_pages": [
+    518,
+    519
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 7,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 519,
+   "page_end": 519,
+   "stem": "Local activists and community leaders have long maintained that local law enforcement “overpolice” people of color in Berkeley, California. One claim is that people of color are being stopped at a higher rate than their population would indicate and that the stops are often for no legitimate reasons. A study26 of the Police Department found that during the period from January 26 through August 12, 2015, 4,658 civilians were stopped. Of that total, 1,710 were White, 1,423 were African American, and 543 were Hispanic. Of those stopped, 652 of the Whites, 942 of the African Americans, and 306 of the Hispanics were released without arrest or citation. According to 2013 census data, the population of Berkeley was 116,774, of which 64,412 were White, 10,076 were African American, and 11,600 were Hispanic. (a) Sketch side-by-side bar charts to illustrate the population percentage distribution and the percentage distribution of who was stopped by race/ethnicity. (b) Is there statistically significant evidence that African Americans are being stopped at a higher rate than their population would indicate? (Assume that we have a representative sample of common practices for years.) (c) Is there statistically significant evidence of a relationship between race/ethnicity (White, African American, Hispanic) and disposition (arrest/citation or not)? (Assume that we have a representative sample of common practices for years.)",
+   "correct_answer": null,
+   "answer_text": "(a) (b) Parameter: Let p represent the true proportion of the population of all stopped drivers who are African American. Hypotheses: H0: p = 0.086 and Ha: p > 0.086 Procedure: One proportion z-test Checks: A representative (random) sample is assumed; np0 = 4,658(0.086) = 400.6 ≥ 10 and n(1 − p0) = 4,658(0.914) = 4,257.4 ≥ 10. Mechanics: Software such as 1-PropZTest on the TI-84 gives z = 53.4 with a p-value of »",
+   "question_id": "statistics-barrons-2027-quiz-34-007",
+   "context": "",
+   "source_pages": [
+    519,
+    519
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 8,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 519,
+   "page_end": 520,
+   "stem": "Many studies have shown that, in general, higher educational attainment correlates with higher earnings (Carnevale, Anthony, The College Payoff, Georgetown University, 2021). Consider the following data from independent random samples of workers with high school degrees and workers with some college experience. Lifetime earnings High school degree College experience Sample size n 250 200 Mean $1,600,000 $1,900,000 Standard deviation $350,000 $420,000 (a) Determine a 95% confidence interval for the difference in mean lifetime earnings (college experience minus high school degree). (b) Based on this confidence interval, is there convincing evidence that the mean lifetime earnings of workers with some college experience is more than $250,000 greater than the mean lifetime earnings of workers with a high school degree? (c) Name two variables that could impact any conclusion about using the above data to encourage people to attend college.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameters: Let μcollege represent the mean lifetime earnings of all workers with some college experience. Let μhigh school represent the mean lifetime earnings of all workers with a high school degree. Procedure: A two-sample t-interval for the difference of two population means, μcollege − μhigh school Checks: We are given independent random samples, and the sample sizes, 250 and 200, are less than 10% of their respective populations. For normality, both sample sizes, 250 and 200, are greater than 30, so the central limit theorem applies. Calculating a t-interval is appropriate. Mechanics: Calculator software (2-SampTInt) gives (227,000, 373,000). Conclusion in context: We are 95% confident that the true difference in mean lifetime earnings (college experience minus high school degree) between all workers with some college experience and all workers with a high school degree is between $227,000 and $373,000. (b) No, there is not convincing evidence that the mean lifetime earnings of workers with some college experience is more than $250,000 greater than the mean lifetime earnings of workers with a high school degree because the entire interval is not above $250,000. (c) There are many possible answers. One would be the average debt with which people incur for each year of college. A second would be that lifetime earnings for workers with some college experience are probably different depending upon what courses were taken.",
+   "question_id": "statistics-barrons-2027-quiz-34-008",
+   "context": "",
+   "source_pages": [
+    519,
+    520
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 9,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 520,
+   "page_end": 521,
+   "stem": "In 2021 and 2024, the Pew Research Center conducted independent random surveys of U.S. adults asking if they see discrimination against Jews. The following table summarizes the data. Year 2021 2024 Sample size 12,055 12,693 # who see discrimination against Jews 2,411 5,077 (a) Find a 99% confidence interval for the difference in the proportion of U.S. adults between 2024 and 2021 who would say they see discrimination against Jews. (b) Based only on this confidence interval, is there convincing evidence that the difference (2024 minus 2021) in the proportions of U.S. adults who would say they see discrimination against Jews is greater than 15%? (c) How would your answer to (a) probably have differed if the surveys had just been from among the population of Jewish U.S. adults?",
+   "correct_answer": null,
+   "answer_text": "(a) Parameters: Let p2024 represent the proportion of U.S. adults in 2024 who would say they see discrimination against Jews. Let p 2021 represent the proportion of U.S. adults in 2021 who would say they see discrimination against Jews. Procedure: Two-sample z-interval for the difference between population proportions, p2024 − p2021 Checks: We are given independent random samples, and the sample sizes, 12,055 and 12,693, are less than 10% of the U.S. adult population in the two years 2021 and 2024. For normality, n2021 p̂ 2021 = 2,411 ≥ 10, n2021 (1 − p̂ 2021) = 12,055 − 2,411 = 9,644 ≥ 10, n2024 p̂ 2024 = 5,077 ≥ 10, and n2024 (1 − p̂ 2024) = 12,693 − 5,077 = 7,616 ≥ 10. Mechanics: Computer software (2-PropZInt) gives (0.185, 0.215). Conclusion in context: We are 99% confident that the true difference in the proportions (2024 minus 2021) of U.S. adults who would say they see discrimination against Jews is between",
+   "question_id": "statistics-barrons-2027-quiz-34-009",
+   "context": "",
+   "source_pages": [
+    520,
+    521
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 10,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 521,
+   "page_end": 522,
+   "stem": "Immunizations are a cornerstone of the world’s efforts to protect people from infectious diseases. After a 1998 research paper falsely claimed a link between MMR (measles, mumps, rubella) vaccines and ASD (autism spectrum disorder), vaccination rates dropped sharply.27 The World Health Organization estimated that in 2018, over 140,000 people worldwide died of measles. In 2019, the U.S. experienced a large, multistate measles outbreak, involving mostly unvaccinated children. (a) Is there a link between vaccines and autism? A major study28 concluded that between 30% and 36% of all parents have some such concerns. Assuming this is a 95% confidence interval, what was the sample size? (b) The study performed a large-scale test with the following: H0: There is no association between autism and vaccines. Ha: There is an association between autism and vaccines. Given a very large p-value, what was the proper conclusion? (c) In a 2020 Pew Institute Study, 10% of American parents expressed belief that risks outweighed benefits with regard to the MMR (measles, mumps, and rubella) vaccine. Assuming the 10% figure is correct, in a random sample of 500 parents, what is the probability that over 12% express belief that risks outweigh benefits with regard to the MMR vaccine? (d) It has been theorized that the MMR vaccine may protect against or reduce the severity of coronavirus disease (Covid-19) infection. In an NIH (National Institute of Health) study, in a random sample of 50 recovered Covid- 19 patients, a linear regression analysis matching a y- variable, Covid-19 severity (on a 30-point scale), versus an x-variable, mumps IgG titer (measuring mumps antibodies), resulted in a p-value of 0.000 with a correlation of –0.58. Interpret the coefficient of determination in context.",
+   "correct_answer": null,
+   "answer_text": "(a) The sample proportion is in the middle of the interval (0.30, 0.36), so p̂ = 0.33. The margin of error is 0.36 − 0.33 = 0.03. The critical z-scores associated with 95% confidence are ±1.96. We have and n ≥ 943.7. Conclude that the sample size was n = 944. (b) With a very large p-value, there is little or no evidence to reject the null hypothesis. In other words, there is little or no evidence of an association between autism and vaccines. (c) Given p = 0.10 and n = 500, we have μp̃ = 0.10 and . Then P(p̃ > 0.12) = . (d) R2 = (>0.58)2 = 0.336. Conclude that 33.6% of the variation in Covid-19 severity is accounted for by the linear regression model between mumps IgG titer and Covid-19 severity.",
+   "question_id": "statistics-barrons-2027-quiz-34-010",
+   "context": "",
+   "source_pages": [
+    521,
+    522
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 11,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 523,
+     "bbox": [
+      203.2,
+      72.0,
+      408.8,
+      365.2
+     ]
+    }
+   ],
+   "page_start": 522,
+   "page_end": 523,
+   "stem": "There is a strong consensus among scientists that global surface temperatures have increased markedly in recent years and that the trend is caused by emissions of greenhouse gases. However, in the popular media, especially in the United States, there is much debate over whether there is any problem—and even if there is a problem, the debate continues over whether humans are responsible. (China and the U.S. are the two largest producers of greenhouse gases.) (a) Given the following graph, describe the relationship between Temperature Anomaly (deviation) and Time. (b) In a Pew Global Attitudes Project survey in a random sample of 2,029 Indian people, 1,319 expressed a great deal of worry about global warming. In a random sample of 2,180 Chinese people, 436 expressed a great deal of worry about global warming. Is the difference statistically significant? (c) Suppose we wish to conduct a survey among the student body of your high school and calculate a confidence interval for the proportion who worry a great deal about global warming. Comment about bias and direction of bias, from the wording of the following survey: King Charles III has consistently taken a strong stance criticizing both climate change deniers and corporate lobbyists by likening the Earth to a dying patient. Do you have a great deal of worry about global warming?",
+   "correct_answer": null,
+   "answer_text": "(a) There is a positive, linear, moderate to strong relationship between Temperature Anomaly and Time. (b) Parameters: Let pInd represent the true proportion of the population of Indians who express a great deal of worry about global warming. Let pChi represent the true proportion of the population of Chinese who express a great deal of worry about global warming. Hypotheses: H0: pInd = pChi, Ha: pInd ≠ pChi Procedure: Hypothesis test for a difference between two proportions Checks: Independent random samples; nIndp̃C = (2,029)(0.417) = 846 ≥ 10, nInd(1 − p̃C) = (2,029)(0.583) = 1,183 ≥ 10, nChip̃C = (2,180)(0.417) = 909 ≥ 10, and nChi(1 − p̃C) = (2,180) (0.583) = 1,271 ≥ 10, where = 0.417; nInd ≤ 0.10NInd and nChi ≤",
+   "question_id": "statistics-barrons-2027-quiz-34-011",
+   "context": "",
+   "source_pages": [
+    522,
+    523
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 11,
+ "mcq_count": 0,
+ "frq_count": 11
+}

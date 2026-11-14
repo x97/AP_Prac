@@ -1,0 +1,469 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-23",
+ "kind": "quiz",
+ "number": 23,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 23 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 23",
+ "pdf_page_start": 384,
+ "pdf_page_end": 389,
+ "answer_page_start": 744,
+ "answer_page_end": 745,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Both distributions are approximately normal with mean 0.81 and standard deviation 0.24.",
+    "B": "Both distributions are approximately normal. Both the mean and the standard deviation for the n = 10 sampling distribution are greater than for the n = 100 distribution.",
+    "C": "Both distributions are approximately normal with the same mean. The standard deviation for the n = 10 sampling distribution is greater than for the n = 100 distribution.",
+    "D": "Only the n = 100 sampling distribution is approximately normal. Both distributions have the same mean. The standard deviation for the n = 10 sampling distribution is greater than for the n = 100 distribution."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 385,
+      "bbox": [
+       110.0,
+       301.5,
+       503.2,
+       319.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 385,
+      "bbox": [
+       110.0,
+       340.5,
+       494.6,
+       358.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 385,
+      "bbox": [
+       110.0,
+       397.5,
+       527.5,
+       415.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 385,
+      "bbox": [
+       110.0,
+       454.5,
+       509.1,
+       472.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 385,
+   "page_end": 385,
+   "stem": "The distribution for the number of lies college students tell to their mothers during phone conversations is approximately normal with mean 0.81 and standard deviation 0.24. Consider two different random samples taken from the population, one of size 10 and one of size 100. Which of the following is true about the sampling distributions of the sample mean for the two sample sizes?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Because the population is approximately normal, normality can be assumed for both sampling distributions. Both will have mean 0.81. The standard deviation for the n = 10 sampling distribution is , which is greater than the standard deviation for the n = 100 sampling distribution, which is .",
+   "question_id": "statistics-barrons-2027-quiz-23-001",
+   "source_pages": [
+    385,
+    385
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 385,
+      "bbox": [
+       145.5,
+       695.2,
+       297.0,
+       706.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 386,
+      "bbox": [
+       145.5,
+       72.0,
+       315.8,
+       96.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 386,
+      "bbox": [
+       145.5,
+       101.2,
+       314.2,
+       132.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 386,
+      "bbox": [
+       147.0,
+       136.5,
+       315.8,
+       176.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 385,
+      "bbox": [
+       113.0,
+       690.0,
+       133.5,
+       708.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 386,
+      "bbox": [
+       113.0,
+       73.5,
+       133.3,
+       91.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 386,
+      "bbox": [
+       113.0,
+       105.7,
+       133.5,
+       123.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 386,
+      "bbox": [
+       113.0,
+       145.5,
+       134.7,
+       163.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 385,
+   "page_end": 386,
+   "stem": "Suppose that, using accelerometers in helmets, researchers determine that boys playing high school football absorb an average of 355 hits to the head with a standard deviation of 80 hits during a season (including both practices and games). What is the probability on a randomly selected team of 48 players that the average number of head hits per player is between 340 and 360?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "We have a random sample that is less than 10% of the high school football population. With a sample size of 48, the central limit theorem applies, and the sampling distribution of x̅ is approximately normal with mean μx̅ = 355 and standard deviation . The z-scores of 340 and 360 are and , respectively, and the probability of a sample mean between 340 and 360 is P(340 < X < 360) = .",
+   "question_id": "statistics-barrons-2027-quiz-23-002",
+   "source_pages": [
+    385,
+    386
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The sample size was small.",
+    "B": "The population distribution has large variability.",
+    "C": "The samples were not randomly selected.",
+    "D": "The samples were selected without replacement."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 386,
+      "bbox": [
+       110.0,
+       639.0,
+       318.8,
+       657.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 386,
+      "bbox": [
+       110.0,
+       660.0,
+       452.7,
+       678.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 386,
+      "bbox": [
+       110.0,
+       681.0,
+       415.1,
+       699.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 387,
+      "bbox": [
+       110.0,
+       72.0,
+       464.4,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 386,
+     "bbox": [
+      214.5,
+      317.2,
+      397.5,
+      556.5
+     ]
+    }
+   ],
+   "page_start": 386,
+   "page_end": 387,
+   "stem": "A 2021 survey of private, not-for-profit, four-year colleges indicated the mean spent on tuition and fees per year is $39,070. A simulation was conducted to create a sampling distribution of the sample mean for a population with a mean of $39,070. The following histogram shows the result of the simulation. Among the following, which would be the best reason why the simulation of the sampling distribution does not appear roughly normal?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The sampling distribution of the sample mean will be roughly normal if the population is roughly normal or if the sample size is large. Because this sampling distribution is skewed, it is likely that neither of those conditions exist.",
+   "question_id": "statistics-barrons-2027-quiz-23-003",
+   "source_pages": [
+    386,
+    387
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "0.16 minutes",
+    "B": "0.8 minutes",
+    "C": "4 minutes",
+    "D": "20 minutes"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 387,
+      "bbox": [
+       110.0,
+       289.5,
+       225.7,
+       307.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 387,
+      "bbox": [
+       110.0,
+       310.5,
+       217.3,
+       328.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 387,
+      "bbox": [
+       110.0,
+       331.5,
+       204.7,
+       349.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 387,
+      "bbox": [
+       110.0,
+       352.5,
+       214.1,
+       370.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 387,
+   "page_end": 387,
+   "stem": "A human resources specialist for a large international company wanted to estimate the mean amount of wasted time during 8- hour workdays for all employees of the company. The specialist took repeated random samples of size 25 employees and estimated the mean and standard deviation of the sampling distribution to be 95 minutes and 4 minutes, respectively. Based on the estimate for the sampling distribution, which of the following provides the best estimates of the population standard deviation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The mean of the sampling distribution is equal to the population mean. The standard deviation of the sampling distribution is the population standard deviation divided by the square root of the sample size. In this case, gives and thus the population standard deviation equals .",
+   "question_id": "statistics-barrons-2027-quiz-23-004",
+   "source_pages": [
+    387,
+    387
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {},
+   "option_boxes": {},
+   "figure_images": [
+    {
+     "page": 387,
+     "bbox": [
+      123.0,
+      457.5,
+      489.0,
+      503.2
+     ]
+    }
+   ],
+   "page_start": 387,
+   "page_end": 387,
+   "stem": "Three populations all have the same mean of 50 and same standard deviation of 10. They are represented by the following very different probability distributions: Using software, a large number of samples, each of size 100, are selected from each population. Which of the following gives the resulting three most likely distributions of sample means?",
+   "context": "",
+   "option_crops": {
+    "A": {
+     "page": 388,
+     "bbox": [
+      99.8,
+      72.0,
+      512.2,
+      147.75
+     ]
+    },
+    "B": {
+     "page": 388,
+     "bbox": [
+      99.8,
+      147.75,
+      512.2,
+      223.5
+     ]
+    },
+    "C": {
+     "page": 388,
+     "bbox": [
+      99.8,
+      223.5,
+      512.2,
+      299.25
+     ]
+    },
+    "D": {
+     "page": 388,
+     "bbox": [
+      99.8,
+      299.25,
+      512.2,
+      375.0
+     ]
+    }
+   },
+   "correct_answer": "A",
+   "answer_text": "The sampling distribution of x̅ has mean μx̅ = μ = 50 and standard deviation . With this large a sample size, n = 100, the CLT gives that the shape of the sampling distribution will be roughly normal regardless of what the original distribution is.",
+   "question_id": "statistics-barrons-2027-quiz-23-005",
+   "source_pages": [
+    387,
+    387
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 388,
+     "bbox": [
+      99.8,
+      72.0,
+      512.2,
+      375.0
+     ]
+    }
+   ],
+   "page_start": 388,
+   "page_end": 389,
+   "stem": "The amount of fuel used by jumbo jets to take off is approximately normally distributed with a mean of 4,000 gallons and a standard deviation of 125 gallons. (a) What is the probability that a randomly selected jumbo jet will need more than 4,250 gallons of fuel to take off? (b) What are the shape, mean, and standard deviation of the sampling distribution of the mean gallons of fuel to take off of 40 randomly selected jumbo jets? (c) In a random sample of 40 jumbo jets, what is the probability that the mean number of gallons of fuel needed to take off is less than 3,950? (d) Would the answer to (a), (b), or (c) be affected if the original population of gallons of fuel used by jumbo jets to take off were skewed instead of normal? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) [Or normalcdf(4250,10000,4000,125) = 0.0228.] (b) The original population is approximately normal, so the sampling distribution of x̅ is approximately normal with mean μx̅ = μ = 4,000 and standard deviation . (c) . [Or normalcdf(0,3950,4000,19.764) = 0.0057.] (d) The answer to part (a) would be affected because it assumes an approximately normal population. The other answers would not be affected because for large enough n, the central limit theorem gives that the sampling distribution of x̅ is roughly normal regardless of the distribution of the original population.",
+   "question_id": "statistics-barrons-2027-quiz-23-006",
+   "context": "",
+   "source_pages": [
+    388,
+    389
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 389,
+   "page_end": 389,
+   "stem": "One estimate is that the average number of teenagers giving birth per day in the United States is 386.3 with a standard deviation of 21.5 and that the numbers per day are approximately normally distributed. (a) What is the 90th percentile of the distribution of number of teenagers giving birth per day in the United States? (b) What is the probability that at least 3 out of 5 randomly selected days will be such that the number of teenagers giving birth is at least the number calculated in (a)? (c) What is the probability that a randomly selected sample of 5 days will have a mean number of teenagers giving birth at least the number calculated in (a)?",
+   "correct_answer": null,
+   "answer_text": "(a) invNorm(0.90) = 1.282, and 386.3 + 1.282(21.5) = 413.9. [Or invNorm(0.90, 386.3, 21.5) = 413.9.] (b) This is a binomial distribution with n = 5 and p = 0.10. Then P(x ≥ 3) = 1 − binomcdf(5, 0.10, 2) = 0.00856. [Or 10 (0.10)3 (0.90)2 + 5 (0.10)4(0.90) + (0.10)5 = 0.00856. ] (c) This is a normal distribution with . Then .",
+   "question_id": "statistics-barrons-2027-quiz-23-007",
+   "context": "",
+   "source_pages": [
+    389,
+    389
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 7,
+ "mcq_count": 5,
+ "frq_count": 2
+}

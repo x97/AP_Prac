@@ -1,0 +1,1623 @@
+{
+  "generated_at": "2026-11-02T14:06:57+08:00",
+  "papers": [
+    "psychology-ap-2016",
+    "psychology-ap-2017"
+  ],
+  "total_mcq": 200,
+  "count": 198,
+  "skipped": [
+    {
+      "question_id": "psychology-ap-2017-mcq-043",
+      "reason": "Option images; skipped per prompt 05 default."
+    },
+    {
+      "question_id": "psychology-ap-2017-mcq-092",
+      "reason": "Option images; skipped per prompt 05 default."
+    }
+  ],
+  "figure_questions": [
+    "psychology-ap-2016-mcq-031",
+    "psychology-ap-2016-mcq-064",
+    "psychology-ap-2016-mcq-065",
+    "psychology-ap-2016-mcq-069",
+    "psychology-ap-2016-mcq-083",
+    "psychology-ap-2017-mcq-008",
+    "psychology-ap-2017-mcq-009",
+    "psychology-ap-2017-mcq-022",
+    "psychology-ap-2017-mcq-049",
+    "psychology-ap-2017-mcq-067"
+  ],
+  "manual_review": [
+    {
+      "question_id": "psychology-ap-2017-mcq-067",
+      "reason": "Figure-based normal-distribution item; corrected explanation to use mean 70 from the chart."
+    }
+  ],
+  "items": [
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-001",
+      "number": 1,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Random assignment reduces confounding variables by distributing participants' individual differences across experimental conditions, making the groups roughly equivalent before treatment. This helps ensure that differences in the dependent variable are more likely due to the independent variable rather than preexisting characteristics. Descriptive statistics, inferential statistics, meta-analysis, and algorithms do not create equivalent experimental groups."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-002",
+      "number": 2,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Aversion therapy pairs a stimulus or behavior that is desirable but problematic with an unpleasant stimulus in order to create a negative conditioned response. Thomas pairs sweets with broccoli, which he hates, and develops nausea and avoidance toward dessert. This is not systematic desensitization or flooding, which are used to reduce anxiety responses rather than create aversion."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-003",
+      "number": 3,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "During a fight-or-flight reaction, the sympathetic nervous system prepares the body for emergency action by increasing arousal and directing resources to muscles and vital organs. Heart rate, respiration, glucose availability, and adrenaline levels rise, while nonessential functions such as digestion are slowed or inhibited. Digestion is therefore reduced rather than increased."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-004",
+      "number": 4,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Linear perspective is a monocular depth cue based on the apparent convergence of parallel lines as they recede into the distance. Because Ana has vision in only one eye, she cannot use binocular cues such as convergence or binocular disparity, which depend on both eyes working together. Monocular cues like linear perspective remain fully available to her, making it the best choice among the options offered."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-005",
+      "number": 5,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Active listening is the client-centered technique in which the therapist restates, paraphrases, and seeks clarification of what the client has said, communicating that the client has been heard and understood. Empathy, unconditional positive regard, and genuineness are the therapist's core attitudes or conditions rather than this specific verbal behavior. Rephrasing and asking for clarification is the concrete expression of active listening."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-006",
+      "number": 6,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Reliability refers to the consistency and stability of test scores across repeated administrations or occasions. Because the same test was given twice and the question asks how similar the scores are, the property being demonstrated is reliability, specifically test-retest reliability. Validity concerns whether a test measures what it is intended to measure, and standardization concerns uniform administration and scoring."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-007",
+      "number": 7,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The ventromedial hypothalamus acts as a satiety center, signaling the animal to stop eating when it has had enough. If this area is damaged, the animal fails to receive that fullness signal and tends to overeat, leading to weight gain. The lateral hypothalamus instead triggers hunger, and reaching a set point or maintaining homeostasis would promote stable rather than increased weight."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-008",
+      "number": 8,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Levels of processing theory holds that deeper, more meaningful processing produces better memory than shallow processing. Sophie uses maintenance rehearsal by trying to memorize facts, whereas Emma engages in elaborative processing by connecting new material to personal experiences and prior knowledge, which creates richer, more retrievable memories. This difference in depth of encoding should give Emma an advantage on history tests."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-009",
+      "number": 9,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Endorphins are neurotransmitters that reduce pain and produce feelings of well-being or euphoria. Exercise can raise endorphin levels, so Mary's increased energy and positive mood after each session reinforce her continued participation. The other options involve decreasing neurotransmitters or introducing teratogens, which would not explain a rewarding exercise effect."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-010",
+      "number": 10,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Opponent-process theory proposes that color is processed in opposing pairs, such as red-green and blue-yellow. After staring at one color, the opposing color's response can rebound, producing an afterimage in the complementary color. Afterimages therefore provide key support for opponent processing, while the other options concern different visual phenomena."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-011",
+      "number": 11,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Structuralism emerged first, associated with Wundt and Titchener in the late 1800s. Psychoanalysis followed with Freud's work, then behaviorism became prominent with Watson and Skinner in the early twentieth century. Humanism developed later, in the mid-twentieth century, with Maslow and Rogers, giving the order structuralism, psychoanalysis, behaviorism, humanism."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-012",
+      "number": 12,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Incentive theories emphasize that motivation is pulled by external stimuli, such as rewards, goals, or desirable outcomes in the environment. The anticipation of these external incentives affects behavior and effort. Physiological equilibrium and internal tension reflect drive-reduction theory, whereas cognitive dissonance concerns inconsistency among beliefs and actions."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-013",
+      "number": 13,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Proactive interference occurs when previously learned information interferes with the ability to learn or recall new information. Lisa's earlier Japanese vocabulary competes with her new Chinese vocabulary, making the Chinese words harder to learn. Retroactive interference would involve new learning disrupting old learning, and positive transfer would involve old learning helping new learning."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-014",
+      "number": 14,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "An evolutionary psychologist focuses on inherited behavioral tendencies that helped ancestors survive and reproduce. An innate fear of the dark could be explained as an adaptive response to dangers that were present at night, making it a plausible product of natural selection. The other options involve learning, physiology, social acceptance, or human factors rather than evolutionary adaptation."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-015",
+      "number": 15,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Shaping is the operant conditioning technique of reinforcing successive approximations of a desired behavior. Savannah’s father first rewarded a simple step, then required more accurate bed-making before giving praise, gradually guiding her toward the full behavior. Negative reinforcement, latent learning, and implicit learning do not describe this step-by-step reinforcement of closer approximations."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-016",
+      "number": 16,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Sensory adaptation occurs when repeated or constant stimulation causes receptor sensitivity to decrease, so the smell becomes less noticeable over time. Laura initially detects the cookie odor strongly, but after continued exposure her olfactory receptors adapt and she no longer smells it as clearly. Accommodation and assimilation are Piagetian cognitive concepts, while Weber’s law concerns just noticeable differences."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-017",
+      "number": 17,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Systematic desensitization is a behavioral exposure technique in which a client learns relaxation and gradually confronts a feared stimulus while remaining calm. It is most appropriate for anxiety disorders such as specific phobia, where the fear is learned and can be reduced through graded exposure. It is not a primary treatment for depressive, bipolar, psychotic, or antisocial disorders."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-018",
+      "number": 18,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "A social learning theorist emphasizes observational learning, or modeling, so a fear of flying could develop after watching someone else respond fearfully to planes. The person learns through vicarious experience rather than direct conditioning or genetic inheritance. Maladaptive thoughts, direct reinforcement, genetics, and childhood trauma reflect other theoretical perspectives."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-019",
+      "number": 19,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Later research suggests Piaget underestimated children's cognitive abilities, because more sophisticated methods show that infants and young children can master some tasks earlier than he claimed. His stage sequence is still generally supported, but the ages and capacities he described were often too conservative. The gender-based options are unsupported, since the stages are not limited to one sex."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-020",
+      "number": 20,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Functional fixedness is the tendency to think of an object only in terms of its usual function. Gabby overcomes this mental set by using a coin, normally money, as a tool to turn the screw. The other options involve biases in judgment or decision making rather than the inability to see new uses for familiar objects."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-021",
+      "number": 21,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "In Freud's structural model, the superego represents the internalized moral standards and values of society, largely learned from parents and culture. It acts as a conscience that pushes the ego toward socially acceptable behavior. The id seeks immediate gratification, the ego mediates among id, superego, and reality, and the collective unconscious is Jung's concept."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-022",
+      "number": 22,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Gustav's rapid increase in breathing and heart rate reflects the alarm reaction, the first stage of Selye's general adaptation syndrome, in which the sympathetic nervous system mobilizes the body to meet a sudden stressor. The parasympathetic response would slow these functions instead. The other options describe memory effects or motivational conflicts, not immediate physiological arousal."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-023",
+      "number": 23,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Latent learning is learning that occurs without obvious reinforcement and is not demonstrated until it is needed. Kelly apparently learned the campus layout during the earlier tour but showed no evidence of that learning until she had to find her classes. Modeling, spontaneous recovery, classical conditioning, and stimulus generalization do not explain knowledge acquired incidentally and used later."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-024",
+      "number": 24,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "During REM sleep the body is in a state of muscle atonia, so dreams are experienced mentally while the sleeper remains largely still; acting out dreams is atypical and can indicate a sleep disorder. The other statements are inaccurate: physiological measures such as EEG and eye movements do define sleep stages, and longer dreams tend to occur later in the night. This makes the claim that individuals do not typically act out their dreams the valid one."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-025",
+      "number": 25,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Inferential statistics allow researchers to draw conclusions about whether an independent variable produced changes in the dependent variable and whether those results generalize beyond the sample, typically through significance testing. Descriptive statistics merely summarize data, correlational approaches examine relationships without manipulating variables, and qualitative methods rely on nonnumerical data."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-026",
+      "number": 26,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "A cognitive map is a mental representation of the physical arrangement of a place, such as a familiar route or the layout of a room. It allows a person to navigate and reason about space without needing to see it directly. Algorithms, heuristics, mental sets, and insight all refer to problem-solving strategies or sudden understanding rather than spatial representation."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-027",
+      "number": 27,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Displacement is a defense mechanism in which an unacceptable impulse or feeling is redirected from its original source onto a safer, less threatening target. Martin cannot safely express anger at his professor, so he discharges it toward his friend instead. Projection would involve attributing his own angry feelings to someone else, while rationalization, reaction formation, and regression do not fit this redirection of emotion."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-028",
+      "number": 28,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Noam Chomsky argued that children are born with an innate capacity for language and actively apply grammatical rules, so they sometimes overgeneralize a rule to irregular forms, producing errors such as \"goed.\" This error reflects the child's grasp of the past-tense rule rather than simple imitation or reinforcement, which is why Chomsky's nativist view best explains it."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-029",
+      "number": 29,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Foot-in-the-door is the tendency to comply with a larger request after first agreeing to a small one. Chuck first signs a petition, a minor commitment, and then is asked for a donation, a larger request. The initial compliance increases the likelihood that he will agree to the second request, which distinguishes this technique from lowball, door-in-the-face, and bait-and-switch tactics."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-030",
+      "number": 30,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "A meta-analysis statistically combines and summarizes the findings of multiple prior studies on the same topic. Dr. Grayson is not collecting new data through observation, surveys, experiments, or a single case study; instead, he is analyzing existing research on weight loss and mood to identify an overall pattern or effect."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-031",
+      "number": 31,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Observational learning explains behavior acquired by watching and imitating others, especially when the model’s actions are seen as effective or rewarded. The data are best accounted for by modeling rather than by direct reinforcement, conditioned associations, prepared conditioning, or self-actualization. The observer reproduces a behavior after exposure to another person’s example."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-032",
+      "number": 32,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Aphasia is a language impairment, and Wernicke’s area is critical for language comprehension. Damage to Wernicke’s area can produce receptive aphasia, in which a person has difficulty understanding language and may speak in fluent but meaningless phrases. The occipital lobe, auditory cortex, parietal lobe, and basal ganglia are not the primary language-comprehension centers."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-033",
+      "number": 33,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Cocaine is a stimulant, so it increases nervous system activity by boosting arousal, alertness, and energy. Alcohol, barbiturates, morphine, and heroin are generally central nervous system depressants or opioids that slow neural activity and reduce pain or arousal. Therefore, cocaine is the drug among the options that increases nervous system activity."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-034",
+      "number": 34,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "The cerebellum coordinates voluntary movement, balance, and motor timing, so it is essential for smooth, skilled actions such as typing. Damage to it produces clumsy, poorly coordinated movement rather than memory or emotional deficits. The amygdala and hippocampus handle emotion and memory, while the pituitary gland and lateral ventricle are not motor-coordination centers."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-035",
+      "number": 35,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "An algorithm is a systematic, step-by-step procedure that guarantees a solution if followed correctly. Heidi tried every possible rearrangement of the letters one at a time, which is exactly this exhaustive method. A heuristic would be a quicker rule-of-thumb shortcut, such as pairing common letter combinations, which she failed to use."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-036",
+      "number": 36,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Classical conditioning occurs when a neutral stimulus becomes associated with an unconditioned stimulus that naturally elicits a response. The spider bite, an aversive event, was paired with spiders, so the sight of spiders now triggers fear as a conditioned response, and this fear generalizes even to a plastic spider. Operant conditioning would require consequences shaping a voluntary behavior, and observational learning would require watching someone else's reaction."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-037",
+      "number": 37,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Sensory interaction refers to the principle that one sense can influence another, as when smell and taste combine to produce the perception of flavor. A cold interferes with the olfactory contribution to flavor, so Rosa's tasting experience is weakened. The vestibular sense concerns balance, and the other options relate to vision or perceptual thresholds rather than taste and smell working together."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-038",
+      "number": 38,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Research on hemispheric specialization, including split-brain studies, supports the claim that the two cerebral hemispheres are specialized for different cognitive tasks, such as language processing and spatial or visual-motor functions. The other statements are popular myths or unsupported prescriptions, such as the 10 percent brain myth, the idea of being purely right-brained or left-brained, and the false claim that the brain is fully formed at birth."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-039",
+      "number": 39,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Negative reinforcement increases a behavior by removing or avoiding an unpleasant stimulus. Jimmy takes out the garbage to stop his uncle's constant requests, so the annoying requests end and garbage-taking becomes more likely. This is not punishment, since the behavior strengthens, and it is not positive reinforcement because no desirable stimulus is added."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-040",
+      "number": 40,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Transference occurs when a client unconsciously redirects feelings and reactions originally felt toward an important figure, such as a parent, onto the therapist. The client's anger toward the therapist mirrors her anger toward her mother, fitting this psychoanalytic concept. Resistance refers to blocking therapy progress, and countertransference involves the therapist's own feelings toward the client."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-041",
+      "number": 41,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Attribution is the cognitive process by which people explain the causes of behavior, such as deciding whether someone acted because of personality or the situation. It differs from cognitive dissonance, which concerns discomfort from inconsistent beliefs and actions, and from compliance and persuasion, which involve changing behavior or attitudes through social influence."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-042",
+      "number": 42,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Learned helplessness develops when repeated failure leads a person to believe that outcomes are uncontrollable, so effort seems pointless. Clive's history of poor Spanish grades despite studying would lead him to expect that studying cannot help, which is captured by the statement that there is nothing he can do to improve. Attributing failure to effort or seeking a tutor would instead reflect optimism and perceived control."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-043",
+      "number": 43,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Erikson's psychosocial stage for adolescence is identity versus role confusion, in which teenagers work to form a coherent sense of who they are and where they belong. Autonomy versus shame and doubt and initiative versus guilt occur in early childhood, while intimacy versus isolation and generativity versus stagnation belong to young and middle adulthood."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-044",
+      "number": 44,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Hypnosis is defined largely by subjective experience and suggestibility, and researchers lack an objective, reliable marker that confirms a person is truly hypnotized rather than simply complying or imagining. Without such a measure, experimenters cannot be certain of participants' actual state, making controlled comparisons difficult. The other options misstate hypnosis, which does not involve illicit drugs and does not necessarily make people sluggish."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-045",
+      "number": 45,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The strength of a correlation is determined by the absolute value of the coefficient, regardless of whether it is positive or negative. A correlation of -.90 is very close to -1.00, indicating a strong inverse relationship, so its magnitude (.90) is larger than .72, .67, .40, or .23. The negative sign indicates direction only, not weakness."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-046",
+      "number": 46,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Criterion-related validity refers to how well a test predicts performance on a relevant external outcome, called the criterion. Here the test score is correlated with later safe flying hours, which serves as the real-world criterion of pilot performance. Face and content validity concern whether a test appears to measure the construct, and reliability concerns consistency rather than prediction."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-047",
+      "number": 47,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The self-reference effect is the tendency to remember information better when it is related to oneself, because self-relevant material is processed more deeply and elaborately. Linking facts to personal experience creates richer, more distinctive memory traces and more retrieval cues. Visual imagery and dual encoding can aid memory, but they do not specifically explain the advantage for personally relevant information."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-048",
+      "number": 48,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "A key criterion for abnormality is dysfunction: the behavior must interfere with the person's ability to function in daily life, such as at work, in relationships, or in self-care. This maladaptive quality distinguishes genuinely disordered behavior from unusual but harmless eccentricity. Dangerousness, lack of voluntary control, and rarity are sometimes relevant but are not required components of every disorder."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-049",
+      "number": 49,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "The five-factor model is a trait theory that organizes personality into five broad dimensions: openness, conscientiousness, extraversion, agreeableness, and neuroticism. It holds that most specific personality traits can be understood as expressions of these five major factors. The other options describe psychodynamic ideas rather than the five-factor model."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-050",
+      "number": 50,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Cones are the photoreceptors responsible for color vision, but they require relatively bright light to function well. In the dim light of early evening, cones are less effective, so vibrant colors appear muted. Rods are more sensitive in dim light but do not detect color, which is why Latisha has difficulty seeing color rather than simply seeing in the dark."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-051",
+      "number": 51,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Object permanence is the understanding that objects continue to exist even when they are out of sight or hidden by something else. When the man passes behind the clothing rack, Thea looks for him on the other side because she knows he still exists despite being temporarily occluded. This behavior reflects a Piagetian milestone of the sensorimotor stage."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-052",
+      "number": 52,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "A fixed-ratio schedule reinforces a behavior after a set number of responses. The rat is rewarded every third trial, which is a fixed, predictable number of responses, so this is a fixed-ratio schedule. Fixed-interval and variable-interval schedules are based on time, while variable-ratio varies the number of responses required."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-053",
+      "number": 53,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Lester shows a history of depressive episodes and now has a manic episode with elation, excessive excitement, racing thoughts, elevated self-esteem, and decreased need for sleep. Alternating depression and mania is the defining pattern of bipolar disorder. Major depressive disorder would not include a manic episode, and the other options do not match these mood symptoms."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-054",
+      "number": 54,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Adding a constant to every score in a distribution translates the whole distribution without changing its shape or spread. The mode, like the mean and median, shifts upward by exactly 10 points, so it must have changed. Percentile rank stays the same because each student's relative position is unchanged, and the standard deviation, variance, and skew are measures of variability and shape that are unaffected by adding a constant."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-055",
+      "number": 55,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Surgically severing the corpus callosum, the bundle of fibers connecting the two cerebral hemispheres, is a last-resort treatment for severe epilepsy. Cutting this pathway prevents seizure activity from spreading from one hemisphere to the other. The procedure does not treat schizophrenia, narcolepsy, obsessive-compulsive disorder, or major depressive disorder, which are addressed through other medical and psychological interventions."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-056",
+      "number": 56,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Cognitive therapists focus on identifying and restructuring irrational beliefs and maladaptive thought patterns that drive distress. Rochelle's anxiety stems from an unrealistic belief that she must have nearly everyone's approval, so the therapist would help her challenge and reinterpret that belief and the situations that trigger it. Reward, punishment, and desensitization are behavioral approaches, while searching for subconscious sources reflects psychodynamic therapy."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-057",
+      "number": 57,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The independent variable is the factor the researcher manipulates, and here Professor González manipulates the method of note-taking by training one group in the new method and the other in traditional outlining. Grades are the dependent variable, the outcome measured to see whether the manipulation had an effect. Group membership merely reflects which treatment was assigned, and the subject matter and group size would be controlled extraneous variables."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-058",
+      "number": 58,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "In-group bias is the tendency to favor members of one's own group and to view them more positively than outsiders. Fans cheering for their own country's athletes while assuming foreign athletes cheat but their own would not illustrates this favoritism and the harsher judgments applied to an out-group. Scapegoat theory involves blaming a target group for problems, social facilitation concerns performance in the presence of others, and groupthink involves flawed consensus in cohesive groups."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-059",
+      "number": 59,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Savant syndrome describes a person with a generally low IQ or developmental disorder who shows an exceptional, highly specific ability, such as rapid complex mental calculations. Michael’s overall IQ of 60 does not fit giftedness, but his extraordinary numerical skill despite limited social engagement is characteristic of savant syndrome. The other options are specific genetic or psychiatric conditions that do not explain this isolated talent."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-060",
+      "number": 60,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Fine motor skills involve precise coordination of small muscles, especially in the hands and fingers, which is needed for buttoning shirts. Preschoolers’ fine motor control is still developing, so this task can be difficult even though their larger movements may be adequate. Visual acuity, balance, and gross motor skills are less directly responsible for manipulating small buttons."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-061",
+      "number": 61,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Cognitive dissonance is the psychological discomfort that occurs when a person’s behavior conflicts with their beliefs or principles. Because the inconsistency is unpleasant, people are motivated to reduce it by changing their behavior, beliefs, or interpretation of the action. Homeostasis, needs hierarchies, and social facilitation do not describe this internal conflict."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-062",
+      "number": 62,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Research supports the idea that several basic emotions, such as happiness, sadness, anger, fear, and disgust, are universal and can be recognized across cultures. The other statements are not well supported: anger has physiological correlates, polygraphs are not highly reliable lie detectors, emotional intelligence is not strongly tied to Type A personality, and the cerebellum is not the main origin of emotional experience."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-063",
+      "number": 63,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The mere-exposure effect is the tendency to develop greater liking for people or things after repeated exposure to them. George sat next to Kiki and worked with her regularly throughout the semester, so increased familiarity likely contributed to his fondness for her. Companionate love involves deeper intimacy and commitment, while social trap, bystander effect, and altruism describe unrelated social phenomena."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-064",
+      "number": 64,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "SSRIs block the reuptake of serotonin by presynaptic neurons, typically by inhibiting the serotonin transporter. This leaves more serotonin in the synaptic cleft and prolongs its action on postsynaptic receptors. In the figure, the initial effect occurs at the presynaptic reuptake site rather than at the postsynaptic receptors."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-065",
+      "number": 65,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Dopamine is a neurotransmitter that exerts its effects by binding to receptors on the postsynaptic neuron. In the figure, this corresponds to the receptor site where dopamine molecules dock and initiate changes in the receiving cell. SSRIs affect serotonin reuptake, but dopamine's direct action is at these postsynaptic receptors."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-066",
+      "number": 66,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The journalism students surveyed only their friends, so their sample is not representative of the whole student body. Sampling bias occurs when the selection process systematically excludes or overrepresents certain groups, making the results difficult to generalize. Participant bias and social desirability bias concern how respondents behave, not who is selected."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-067",
+      "number": 67,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Using a cell phone while driving requires selective attention, meaning the driver must focus on the phone while filtering out some relevant road information. This competition for limited attentional resources reduces attention to driving and increases accident risk. Perceptual constancy, feature detection, sensory adaptation, and blindsight do not explain this divided focus."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-068",
+      "number": 68,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Token economies use tokens as secondary reinforcers that can be exchanged for desired rewards. This approach is based on behavioral principles, especially operant conditioning, in which reinforcement increases and shapes targeted behaviors. Psychodynamic, humanistic, cognitive, and Gestalt perspectives do not center on reinforcement contingencies."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-069",
+      "number": 69,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Priming is the activation of a concept or mental representation, which then influences how later ambiguous information is perceived. Watching the sarcastic rabbit cartoon made the rabbit concept more accessible for Jorge, so when he saw the duck-rabbit image he readily interpreted it as a rabbit. The other options involve learning processes such as habituation or conditioning, not the temporary readiness produced by prior exposure."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-070",
+      "number": 70,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Social loafing occurs when people put forth less effort on a group task because individual contributions are not easily identified or evaluated. Michael barely works on the group science project because he expects someone else to do the work, showing reduced individual effort in a group setting. Aaron’s improved running reflects social facilitation, not loafing."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-071",
+      "number": 71,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Unconditional positive regard, a concept from humanistic psychology, means accepting and valuing a person without making acceptance conditional on particular behaviors. Nick’s parents were disappointed but still accepted him and offered help rather than withdrawing affection or punishing him. This contrasts with authoritarian parenting, which emphasizes strict control and obedience."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-072",
+      "number": 72,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "In classical conditioning, the conditioned stimulus is an initially neutral stimulus that comes to elicit a conditioned response after being paired with an unconditioned stimulus. Here, the sweetened water was paired repeatedly with the drug that weakened the immune system, so the water became the conditioned stimulus. The drug is the unconditioned stimulus, and immune weakening in response to the water is the conditioned response."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-073",
+      "number": 73,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Hallucinations are perceptual experiences that occur without an external stimulus and are a characteristic positive symptom of schizophrenia, most commonly auditory hallucinations. They reflect distorted sensory perception rather than the disrupted mood, memory, or identity suggested by the other options. Multiple personalities and amnesia are more associated with dissociative disorders, and frequent hand washing is more typical of obsessive-compulsive disorder."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-074",
+      "number": 74,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Social facilitation is the tendency for people to perform simple or well-learned tasks better when others are present because arousal increases the dominant response. Marissa is an experienced racquetball player, so the larger crowd raises her arousal and improves her performance on a familiar skill. The bystander effect concerns helping behavior in emergencies, and self-serving bias involves attributing successes to oneself, so neither fits."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-075",
+      "number": 75,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Whorf's linguistic relativity hypothesis, or linguistic determinism, proposes that the language people speak shapes how they perceive and think about the world. Words and grammatical categories direct attention to certain distinctions, so a culture's concepts and thought processes differ according to its vocabulary. The other options describe universal concepts, private speech, an innate language acquisition device, or schemas, none of which capture Whorf's claim."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-076",
+      "number": 76,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Selective serotonin reuptake inhibitors block the reabsorption of serotonin in the synapse, increasing its availability, and they are most commonly prescribed to treat major depressive disorder. Depression is strongly associated with serotonin function, so this medication matches that diagnosis. SSRIs are not the primary treatment for schizophrenia, antisocial personality disorder, or specific phobia."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-077",
+      "number": 77,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Insight learning is the sudden, unexpected realization of a solution after a period of not consciously working on the problem. Dylan struggled with the physics problem, then abruptly thought of the answer while watching his friend play guitar, which is the classic pattern of insight. Latent learning involves learning that is not demonstrated until reinforcement appears, and spontaneous recovery is the return of a conditioned response."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-078",
+      "number": 78,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Fred's intense fear and apprehension about leaving the house and being in public are characteristic of an anxiety disorder, most likely agoraphobia. Anxiety disorders center on excessive, persistent fear and avoidance of situations perceived as threatening. Bipolar disorder involves mood swings, dissociative disorders involve disruptions in memory or identity, and schizophrenia spectrum disorders involve psychosis rather than a focused fear."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-079",
+      "number": 79,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Prolonged stress triggers release of stress hormones such as cortisol, which can impair immune functioning by suppressing the activity and production of T lymphocytes, white blood cells central to fighting infection. Because Karen had been under chronic stress from working overtime, her immune defenses were weakened, making her more vulnerable to coming down with the flu. The other options describe cardiovascular or neural effects of stress rather than its immune-suppressing action."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-080",
+      "number": 80,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Secure attachment is characterized by an infant who uses the caregiver as a safe base for exploration, shows distress when she leaves, is readily soothed, and greets her warmly on return. Jeremy's happy play with his mother nearby, his quick recovery after her departure, and his positive greeting all fit this pattern. Avoidant infants tend to ignore the caregiver, while ambivalent and disorganized patterns involve more anxious or confused reactions."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-081",
+      "number": 81,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Finding that identical twins raised apart show similar intelligence scores suggests that a shared genetic makeup strongly influences this trait even when environments differ, which supports a biological basis for behavior. Because reared-apart twins do not share a family environment, their similarity is attributed largely to heredity. The other findings illustrate learning, memory distortion, modeling, and social loafing, all of which point to environmental or situational influences."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-082",
+      "number": 82,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The amygdala is a limbic system structure involved in processing emotion, particularly fear and anger, and stimulating it in animals can elicit defensive or aggressive responses. Electrical stimulation of this area would therefore most likely produce aggression rather than calmness, sleep, or memory loss. Memory loss is more closely associated with the hippocampus, and sleep with structures such as the hypothalamus."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-083",
+      "number": 83,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "A positive correlation means that as one variable increases, the other tends to increase as well, which appears as a scatterplot pattern rising from lower left to upper right. If people who report more hours of sleep also tend to score higher on the happiness measure, the relationship is positive. It would not be perfect unless every point fell exactly on a straight line, and a negative correlation would mean more sleep went with less happiness."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-084",
+      "number": 84,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "The evolutionary approach holds that sexual attraction is shaped by behaviors that promoted reproductive success in our ancestors. Because a woman's reproductive capacity is limited by age and health, men are predicted to be drawn to cues associated with fertility, such as youth and physical appearance. Financial resources, social status, height, and education are not the fertility cues this perspective emphasizes for men's mate preferences."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-085",
+      "number": 85,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Drive reduction theory states that a physiological need creates an aroused tension state, a drive, that motivates the organism to satisfy the need and restore homeostasis. Here the need for food produces hunger, a drive that pushes George and his friends to search the refrigerator for a snack. Arousal theory, social learning, and achievement motivation do not explain this biologically based hunger-driven behavior as directly."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-086",
+      "number": 86,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "One standard deviation below the mean is 80 minus 4, or 76, and one standard deviation above the mean is 80 plus 4, or 84, so the range from 76 to 84 falls within one standard deviation. Of the listed scores, only 77 lies inside this interval; 75, 86, 90, and 99 all fall outside it."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-087",
+      "number": 87,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Supertasters have a higher-than-average density of taste buds and papillae on the tongue, which makes them especially sensitive to bitter and spicy flavors. That heightened sensitivity means they tend to react strongly to the burning sensation of hot peppers. It is a biological trait, not a learned behavior, and it is not limited to men or to a majority of the population."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-088",
+      "number": 88,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The occipital lobe, located at the back of the brain, contains the primary visual cortex and is responsible for processing visual information. Damage to a portion of this area therefore most likely produces a visual deficit, such as a blind spot or impaired visual perception. Speech and motor deficits are linked to frontal and other cortical areas, hearing to the temporal lobe, and heart rate to the brainstem."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-089",
+      "number": 89,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Projective tests present ambiguous stimuli, such as inkblots or vague pictures, and assume that test takers project their own unconscious needs, conflicts, and motives onto the material. The Rorschach uses inkblots, while the TAT asks people to invent stories about ambiguous scenes. Objective tests, by contrast, use standardized items with clear-cut scoring, and aptitude and intelligence tests measure cognitive ability rather than personality dynamics."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-090",
+      "number": 90,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "A delusion of reference is a false belief that neutral events, objects, or communications in the environment are directed specifically at the person. Jason believes radio broadcasts contain special messages meant for him that others cannot detect, which is a classic example of this symptom. Catatonia involves disturbances in movement, and visual hallucinations would involve actually seeing things that are not there."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-091",
+      "number": 91,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Language acquisition research points to a sensitive or critical period, so people who begin learning a second language later in life generally have more difficulty mastering native-like pronunciation. Children who are exposed to a second language early tend to develop accents and articulation patterns closer to native speakers. Adults may learn vocabulary and grammar rules efficiently, but their pronunciation typically retains an accent."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-092",
+      "number": 92,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Procedural memory is a form of implicit memory that stores knowledge of how to perform skills and actions, such as riding a bicycle, typing, or swimming. These memories are often recalled automatically through performance rather than conscious verbal description. Semantic memory, by contrast, holds general facts and concepts, and declarative memory covers information that can be consciously stated."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-093",
+      "number": 93,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Antipsychotic medications are primarily used to treat psychotic symptoms such as delusions, hallucinations, and disorganized thinking, which are hallmark features of schizophrenia. These drugs generally work by blocking dopamine receptors in the brain. Obsessive-compulsive, generalized anxiety, somatic symptom, and specific phobia disorders are typically treated with other approaches, such as SSRIs or cognitive-behavioral therapy."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-094",
+      "number": 94,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Dementia is a neurodegenerative condition marked by progressive cognitive decline, and deterioration in memory is its most common and characteristic symptom. Memory problems typically interfere with daily functioning and often appear early, whereas dissociation, delusions, compulsions, and preoccupation with multiple medical issues are associated with other psychological disorders."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-095",
+      "number": 95,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Jung's collective unconscious is the shared storehouse of latent memory traces inherited from the ancestral past, containing universal archetypes. It is distinguished from the personal unconscious, which contains an individual's own forgotten or repressed experiences, and from Freud's id, ego, and superego."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-096",
+      "number": 96,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Bernadette's long-lasting lack of enthusiasm, poor appetite, and fatigue suggest persistent depressive disorder, a chronic form of depression with depressed mood lasting for years. It is not bipolar disorder because no manic or hypomanic episodes are described, and the symptoms are not primarily those of anxiety or antisocial personality."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-097",
+      "number": 97,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The Babinski reflex is elicited by stroking the sole of an infant's foot, which normally causes the toes to fan and then curl. Stroking the cheek tests the rooting reflex, pressing the palm tests the grasping reflex, turning the head tests tonic neck response, and a bright light tests pupillary response."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-098",
+      "number": 98,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Industrial/organizational psychology applies psychological principles to the workplace, including employee hiring, training, leadership, motivation, and productivity. Clinical, educational, comparative, and quantitative psychology focus on other areas and are not specifically centered on business efficiency and workplace behavior."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-099",
+      "number": 99,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The hippocampus is critical for forming new explicit memories, and it continues to mature well after birth. Because it is not fully developed in the first few years of life, very young children cannot encode lasting episodic memories, which helps explain infantile amnesia. The other structures listed are not primarily responsible for the memory formation that infantile amnesia involves."
+    },
+    {
+      "paper_id": "psychology-ap-2016",
+      "question_id": "psychology-ap-2016-mcq-100",
+      "number": 100,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Antisocial personality disorder is characterized by manipulativeness, superficial charm, impulsivity, irresponsibility, and a disregard for social norms and the rights of others, which matches Brandon's pattern. Schizoid personality involves social detachment rather than exploitation, and the remaining options describe dissociative, conversion, or mood symptoms that do not fit his behavior."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-001",
+      "number": 1,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Humanistic therapy emphasizes personal growth, self-actualization, and the client's potential. The psychologist's focus on building a supportive therapeutic relationship so Felicia can explore her potential reflects a client-centered, humanistic approach, which uses empathy and unconditional positive regard rather than primarily analyzing unconscious conflicts or changing specific behaviors."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-002",
+      "number": 2,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Jane is choosing between two attractive alternatives: seeing a movie or going ice skating. An approach-approach conflict occurs when a person must select between two desirable goals or options. Her stress comes from deciding between two positives, not from facing a single option with both good and bad features or from choosing between two unpleasant outcomes."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-003",
+      "number": 3,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Synapses are the junctions or gaps where communication occurs between neurons, not structures that are part of a single neuron itself. Dendrites, somas, axons, and axon terminals are anatomical components of a neuron. Therefore, synapses are the exception among the listed choices."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-004",
+      "number": 4,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Random assignment places participants into experimental and control groups by chance, so preexisting characteristics such as age, motivation, or ability are spread roughly evenly across groups rather than concentrated in one. This helps ensure the groups are comparable before treatment begins. Random sampling and double-blind designs address different concerns, such as selecting a representative sample or reducing bias."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-005",
+      "number": 5,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Alcohol is a depressant that slows central nervous system activity and enhances the effects of GABA, an inhibitory neurotransmitter, producing sedation and impaired coordination and memory. Methamphetamine, cocaine, caffeine, and MDMA are stimulants or otherwise increase arousal rather than reduce nervous system activity."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-006",
+      "number": 6,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Assimilation occurs when a person fits new information into an existing schema without changing that schema. Andrea already has a bird category based on robins, and she interprets the sparrow as another example of it. Accommodation would instead involve revising the category to distinguish robins from sparrows."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-007",
+      "number": 7,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Pitch is the perceptual experience of how high or low a sound seems. It corresponds most directly to a sound wave's frequency, the number of cycles per second measured in hertz, with higher frequencies perceived as higher pitches. Amplitude relates to loudness, while complexity and timbre relate to the quality or tone color of a sound rather than its pitch."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-008",
+      "number": 8,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The task requires noticing and acting on the left side of space, and a failure to slash the circles on one side reflects hemispatial neglect. Neglect is typically associated with damage to the right hemisphere, especially the right parietal lobe, which attends to both sides of space. The left occipital lobe, medulla, cerebellum, and endocrine system do not produce this contralateral neglect pattern."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-009",
+      "number": 9,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Group polarization is the tendency for group discussion to strengthen the members' initial attitudes, pushing the group toward a more extreme position in the direction they already leaned. The chart shows opinions shifting toward a more extreme view after discussion, which is the defining feature of polarization. Groupthink instead involves suppressing dissent to preserve harmony and does not describe this intensification of shared attitudes."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-010",
+      "number": 10,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Withdrawing the hand from a hot stove before the brain registers the pain is enabled by a spinal reflex, in which sensory neurons synapse directly with interneurons and motor neurons in the spinal cord to trigger a rapid response. This shortcut produces a fast protective movement, and the brain is informed afterward. The hypothalamus, cerebellum, hippocampus, and sensory cortex are not responsible for this immediate reflexive withdrawal."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-011",
+      "number": 11,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The mode is the score that occurs most frequently in a distribution. In these data the value 7 appears three times, more than any other score, so 7 is the mode. The value 6 does not appear at all, and the mean, which is the balance point of the distribution, is not what the question asks for."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-012",
+      "number": 12,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The mean is calculated by adding all scores and dividing by the number of scores. The ten ratings sum to 64, and 64 divided by 10 equals 6.4. The value 7 is the median and mode, not the mean."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-013",
+      "number": 13,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "John Watson was a founder of behaviorism, which argued that psychology should study observable behavior rather than unconscious motives or introspection. He rejected hidden mental processes as unscientific. Freud, Rogers, Wundt, and James are associated with approaches that focus more on inner experience or mental processes."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-014",
+      "number": 14,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Companionate love is characterized by deep affection, intimacy, trust, and commitment, often developing over long-term relationships. Andy and Noel's 25-year marriage with warmth and trust fits this pattern. Passionate love involves intense arousal and longing, which is not the main feature described here."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-015",
+      "number": 15,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The Müller-Lyer illusion varies with cultural experience, showing that perception is influenced by learned assumptions about the environment. People raised among square corners and right angles develop perceptual hypotheses that make the illusion stronger. This supports the idea that experience shapes how visual information is interpreted."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-016",
+      "number": 16,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Facial expressions for basic emotions are largely universal, but display rules are cultural norms that govern when and how strongly people express emotion. Therefore, individuals from cultures with different display rules may show different facial expressions while feeling the same emotion. Being blind or deaf would not necessarily create such culturally based differences."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-017",
+      "number": 17,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Positive psychology emphasizes human strengths, well-being, and factors that help people thrive. Research supports that a person’s perception of control, such as feeling able to influence outcomes, is associated with greater optimism, better coping, and improved health and well-being. The other options misstate locus of control or deny its relevance."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-018",
+      "number": 18,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The limbic system is a set of brain structures, including the amygdala and hippocampus, that plays a major role in emotional experience and expression. It contributes to fear, aggression, and emotional memory rather than serving as the primary center for logic, decision making, or auditory comprehension."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-019",
+      "number": 19,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The psychologist is checking whether the depression assessment produces consistent results when given to the same clients at two different times, which is test-retest reliability. Reliability concerns consistency of measurement, whereas validity concerns whether the instrument measures what it is intended to measure."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-020",
+      "number": 20,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Positive symptoms of schizophrenia are additions to normal experience, such as delusions, hallucinations, and disorganized speech. Delusions are false beliefs that persist despite contrary evidence. Flat affect, attention problems, and difficulty reading others’ emotions reflect deficits or negative/cognitive symptoms."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-021",
+      "number": 21,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Milgram’s study demonstrated obedience, in which participants followed the experimenter’s authority and administered increasingly high levels of shock despite the learner’s distress. The key influence was the authority figure’s command, not peer pressure as in conformity, nor deindividuation, group cohesion, or lowballing."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-022",
+      "number": 22,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Cognitive mapping is a mental representation of the layout of an environment. In maze-learning studies, rats can learn the spatial arrangement even before reinforcement is available; when a food reward is introduced, they can use this stored map to navigate efficiently. The reward did not create higher-order conditioning, secondary reinforcement, observational learning, or assimilation, but revealed latent spatial learning."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-023",
+      "number": 23,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Systematic desensitization is based on behavioral learning principles, especially classical conditioning. The client is gradually exposed to feared stimuli while practicing relaxation so that a relaxed response becomes conditioned to replace the fear response. It is not primarily humanistic, cognitive, neurobiological, or psychoanalytic, because the technique focuses on changing learned behavioral and physiological responses through exposure."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-024",
+      "number": 24,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "For study results to be generalizable, the sample must represent the larger population of shoppers. A representative sample accurately reflects relevant characteristics of that population, increasing external validity. A small convenience sample would likely be biased, self-report surveys may introduce reporting problems, and double-blind procedures or experiments address other issues rather than representativeness."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-025",
+      "number": 25,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The hypothalamus controls the pituitary gland through neural and hormonal signals, linking the nervous system with the endocrine system. Often called the master endocrine gland, the pituitary releases hormones that affect other glands, but its activity is regulated by the hypothalamus. The hippocampus, medulla, amygdala, and occipital lobe do not serve this controlling role."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-026",
+      "number": 26,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Down syndrome most often results from trisomy 21, meaning there is an extra copy of chromosome 21. This extra genetic material alters development and causes characteristic physical and cognitive features. Tourette's disorder, autism spectrum disorder, Parkinson's disease, and phenylketonuria are not caused by an extra copy of chromosome 21."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-027",
+      "number": 27,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Person-centered therapy, developed by Carl Rogers, is nondirective: the therapist provides unconditional positive regard, empathy, and genuineness while the client decides what to discuss and which direction therapy takes. The other options are more structured or directive approaches, such as flooding for phobias or rational-emotive behavior therapy's active challenging of irrational beliefs."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-028",
+      "number": 28,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Temperament refers to an infant's characteristic, biologically based style of responding to and interacting with the environment, such as how active, irritable, or adaptable the child is. Resilience, object permanence, and symbolic thought describe other developmental capacities rather than a consistent interactional style."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-029",
+      "number": 29,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "In Freud's structural model, the id operates on the pleasure principle, seeking immediate gratification of instinctual desires without regard for reality or morality. The statement 'More, more, more!' captures this impulsive demand for instant satisfaction, whereas the other statements reflect the ego's reality principle or the superego's moral standards."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-030",
+      "number": 30,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The central route to persuasion involves carefully evaluating the substance and logic of a message, which fits Katie's use of concrete data such as tuition, graduation rates, and financial aid. This route produces persuasion through thoughtful consideration of the arguments rather than through superficial cues or emotional appeals."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-031",
+      "number": 31,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Positive reinforcement occurs when a stimulus is added following a behavior and increases the likelihood of that behavior recurring. Ms. Skinner's scolding adds attention, which Barney enjoys, so it strengthens his misbehavior; punishment would decrease the behavior, and negative reinforcement would involve removing an unpleasant stimulus."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-032",
+      "number": 32,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Habituation is a form of learning in which repeated exposure to a stimulus produces a decreased response. The infants initially attend to the dropping object but eventually look less and show lower heart rate and respiration, indicating they have learned to ignore the now-familiar event. Sensory adaptation is a peripheral receptor change, not this learned response decrement."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-033",
+      "number": 33,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Linguistic determinism, associated with Benjamin Whorf, proposes that the language a person uses shapes and limits how that person thinks and perceives experience. The option stating that language shapes thought and interpretation directly captures this idea. The other options concern universal language features, biological preparedness, critical periods, or cognitive prerequisites, not Whorf's claim."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-034",
+      "number": 34,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "An algorithm is a systematic, step-by-step procedure that guarantees a solution if followed correctly. Cory's exhaustive trial of every possible solution fits this definition because he is using a methodical search rather than a quick mental shortcut. A heuristic would be a faster rule of thumb that does not guarantee the correct answer."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-035",
+      "number": 35,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Social facilitation refers to improved performance on well-learned or simple tasks when others are present. Jonathan's average practice performance became exceptional before a large audience, consistent with audience-induced arousal strengthening his dominant response. Social impairment would involve worse performance, while social loafing concerns reduced effort in group work."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-036",
+      "number": 36,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Shaniqua already reads for intrinsic enjoyment, so adding tangible rewards could undermine that interest through the overjustification effect. When an activity is intrinsically motivating, external rewards may lead a person to attribute reading to the reward rather than to personal enjoyment. Therefore, doing nothing additional is most likely to preserve her existing intrinsic motivation."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-037",
+      "number": 37,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Imprinting is a form of learning in which a newborn animal forms a strong, rapid attachment to the first moving object it encounters during a critical period shortly after birth. Lorenz's goslings followed him because they had imprinted on him as that first object. Object permanence and accommodation are cognitive-developmental concepts, while observational learning and secure attachment involve different processes."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-038",
+      "number": 38,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Intrinsic motivation arises from internal satisfaction or genuine interest in the activity itself, so Rosemary's enjoyment of running is its own reward. Extrinsic motivation would involve an outside incentive such as trophies, praise, or scholarships. Achievement motivation concerns striving for excellence against a standard, and affiliation or belongingness needs concern social connection rather than enjoyment of running."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-039",
+      "number": 39,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The amygdala, located in the limbic system, plays a central role in processing emotional responses, especially fear, including learned fear reactions and the detection of threatening stimuli. The cerebral cortex handles higher cognition, the cerebellum coordinates movement and balance, and the medulla and reticular formation regulate basic life functions and arousal."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-040",
+      "number": 40,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Antipsychotic medications reduce the positive symptoms of schizophrenia, such as hallucinations and delusions, mainly by blocking dopamine activity in the brain. They are considered the most effective biological treatment and are often combined with psychotherapy. Psychoanalysis, insight therapy, and rational emotive behavior therapy target other psychological issues, and antidepressants are used primarily for mood and anxiety disorders."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-041",
+      "number": 41,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "In the Stanford prison simulation, Zimbardo interpreted the guards' harsh behavior as a product of the situational roles and expectations of the prison setting rather than of preexisting cruel personalities. Participants assigned to the guard role conformed to what the situation seemed to demand. This supports social psychology's emphasis on the power of the situation over dispositional explanations."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-042",
+      "number": 42,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The hypothalamus regulates hunger and satiety by integrating signals such as blood glucose, hormones, and body fat. Its lateral area helps initiate eating, while the ventromedial area helps signal fullness. The hippocampus is mainly involved in memory, the medulla controls vital reflexes like breathing, and the occipital cortex processes vision, so they do not have the strongest influence on hunger and satiety."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-044",
+      "number": 44,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Research on motivation and job satisfaction emphasizes intrinsic rewards such as autonomy, responsibility, and challenge. Redesigning jobs to give workers more responsibility and flexibility increases intrinsic motivation and engagement, which tend to improve performance and satisfaction. Extra pay, parties, and close monitoring with punishment are mainly extrinsic or controlling and are less likely to produce lasting high satisfaction."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-045",
+      "number": 45,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The occipital lobe contains the primary visual cortex, where visual information from the eyes is processed into conscious sight. If the eyes function normally but the person cannot see, damage to the occipital lobe can produce cortical blindness. The parietal lobe processes touch and spatial information, the hippocampus supports memory, and Broca's and Wernicke's areas are involved in language."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-046",
+      "number": 46,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Drive-reduction theory explains motivation as the process of restoring homeostasis, the body's stable internal equilibrium. A biological need, such as hunger or thirst, creates a drive that pushes the organism to act in ways that reduce the need and return the body to balance. Instinct theory, incentive theory, arousal theory, and the hierarchy of needs do not center on homeostasis in the same way."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-047",
+      "number": 47,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Procedural memory is a type of implicit memory for skills and how to perform actions, such as playing a violin or riding a bike. Matthew can execute the motor sequences from memory even though he does not consciously recall learning them. Episodic memory involves personal events, semantic memory involves facts, and short-term and sensory memory are brief storage systems rather than stored skills."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-048",
+      "number": 48,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Locus of control refers to where a person places the cause of outcomes. Chris credits his exam performance to luck, an outside force beyond his control, which reflects an external locus of control. An internal locus of control would involve attributing success to his own effort or ability, and self-serving bias concerns taking credit for successes while blaming outside factors for failures."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-049",
+      "number": 49,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The Gestalt principle of similarity states that elements sharing features such as shape or color tend to be perceived as belonging together. Because the columns are made of like elements that group with one another, Carlos perceives vertical columns rather than horizontal rows. Proximity would involve simple closeness of elements, and closure involves filling in gaps to see a complete form."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-050",
+      "number": 50,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "A critical period is a limited developmental window during which exposure to certain experiences, such as language, is necessary for normal development. Genie's deprivation of language input until age 13, followed by her inability to speak fluently despite remediation, was used to illustrate that language acquisition may depend on early exposure. Temperament and cognitive dissonance do not address the timing of language experience."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-051",
+      "number": 51,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "An attribution is an explanation for the cause of a behavior or event. Julie is interpreting the reason behind her boyfriend's gift, concluding that he gave it because he is a nice person, which is a dispositional attribution about his character. A stereotype would involve a generalized belief about a group, and social facilitation concerns performance in the presence of others."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-052",
+      "number": 52,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Dependent personality disorder is characterized by submissive, clinging behavior and an excessive need to be taken care of, leading people to defer to others and struggle to express their own opinions or needs. Mary's consistent deference fits this pattern. Antisocial and narcissistic disorders involve disregard for or inflated views of the self, while obsessive-compulsive disorder centers on orderliness and control."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-053",
+      "number": 53,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The psychodynamic approach, originating with Freud, holds that much of behavior is driven by unconscious conflicts, motives, and desires, often rooted in early experience. The other approaches emphasize different causes: mental processing (cognitive), physiology and genetics (biological), observable learning and reinforcement (behavioral), and social and cultural context (sociocultural)."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-054",
+      "number": 54,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "These changes reflect activation of the sympathetic nervous system, which prepares the body for fight-or-flight by dilating the pupils, slowing digestion, and redirecting blood flow away from the skin toward the muscles. The parasympathetic division does the opposite, promoting calm, digestion, and conservation of energy, while the somatic and central nervous systems are not responsible for these autonomic responses."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-055",
+      "number": 55,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The bystander effect is the finding that people are less likely to help when others are present, because responsibility is diffused among the crowd and each person looks to others for cues. A crowded farmers market therefore reduces the likelihood that Kristin will act. High empathy, personal distress, a family relationship, and a clear request for help would all tend to increase helping."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-056",
+      "number": 56,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "In a positively skewed distribution, a few unusually high scores pull the mean upward, so the mean is greater than the median. A normal distribution is symmetric, with the mean and median equal, and range, standard deviation, and modality do not describe the relationship between the mean and median."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-057",
+      "number": 57,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Projection is a defense mechanism in which a person attributes his or her own unacceptable impulses to others. Colleen's own dependency is uncomfortable to acknowledge, so she accuses other people of being dependent and lazy instead of recognizing it in herself. Displacement, regression, rationalization, and sublimation do not involve attributing one's own trait to someone else."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-058",
+      "number": 58,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Scapegoat theory holds that when people feel frustrated or threatened, they may displace hostility onto a relatively powerless outgroup. Prejudice against that group becomes an outlet for blaming others for one's own troubles. This differs from group polarization, the just-world hypothesis, social facilitation, and deindividuation, which describe other social-psychological phenomena."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-059",
+      "number": 59,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Learned helplessness occurs when repeated failure or lack of control leads an individual to stop trying, even when escape or improvement becomes possible. A perceived lack of control is therefore positively correlated with learned helplessness. The other pairs tend to show negative correlations or relationships opposite to the one listed."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-060",
+      "number": 60,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Medications that alter serotonin or norepinephrine affect neurotransmitter activity in the brain, which is the focus of the biological approach. The reduction of depressive symptoms with such drugs supports the idea that biological factors contribute to major depressive disorder. Cognitive, psychodynamic, sociocultural, and behavioral approaches emphasize different explanatory factors."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-061",
+      "number": 61,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "In the Little Albert study, a young child was conditioned to fear a white rat after it was paired with a loud, frightening noise. This demonstrated that fear responses can be acquired through classical conditioning in humans. It did not primarily show observational learning, biological constraints, punishment, or species differences."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-062",
+      "number": 62,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Erikson's stage of intimacy versus isolation occurs in early adulthood, when individuals form close, committed relationships and share intimate parts of themselves with a partner. Success in this stage involves achieving intimacy, while difficulty can lead to isolation. Generativity versus stagnation occurs in middle adulthood, and the other stages occur earlier in development."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-063",
+      "number": 63,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Conservation is the understanding that quantity remains the same even when its appearance changes. Mary sees the same amount of water poured into a taller, thinner container and judges it as more because she focuses on height rather than the reversible transformation. Her response shows that she has not yet developed conservation, a key limitation of Piaget's preoperational stage."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-064",
+      "number": 64,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "In the retina, visual signals are transduced by rods and cones, then passed to bipolar cells, which relay information to ganglion cells. The axons of ganglion cells gather to form the optic nerve, carrying visual information toward the brain. The other options reverse this sequence or misdescribe the roles of rods, cones, and feature detectors."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-065",
+      "number": 65,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The original dopamine hypothesis proposes that schizophrenia is associated with excessive dopamine activity in the brain. This idea helped explain why drugs that block dopamine receptors can reduce psychotic symptoms. The hypothesis concerns brain dopamine, not the spinal cord or peripheral nervous system, and it does not claim that dopamine is too low."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-066",
+      "number": 66,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The activation-synthesis theory says that during REM sleep the brain stem produces random neural activity, and the brain then tries to weave these signals into a coherent story or dream. Sally's explanation that her circus dream is her brain making sense of random brain-stem stimulation directly matches this theory, rather than wish fulfillment, cognitive problem-solving, or housekeeping."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-067",
+      "number": 67,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "With a normal distribution centered at 70 and a standard deviation of 10, 50 is two standard deviations below the mean and 80 is one standard deviation above. Using the empirical rule, about 47.5% of scores lie between 50 and 70 and about 34% lie between 70 and 80, totaling approximately 82%."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-068",
+      "number": 68,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Intrapersonal intelligence, in Gardner's theory, is the capacity to understand and manage one's own emotions, motives, and inner states. This overlaps closely with emotional intelligence, which includes perceiving, understanding, and regulating emotions. Interpersonal intelligence would relate more to understanding others, while kinesthetic, naturalist, spatial, and linguistic intelligences address different abilities."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-069",
+      "number": 69,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "A standardized test uses uniform procedures for administration and scoring so that scores are comparable across test takers. Standardization does not require individual administration, electronic scoring, experimental verification, or projective items; those features describe particular tests or methods, not standardization itself. The defining feature is consistency in how the test is given and scored."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-070",
+      "number": 70,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "A fixed-ratio schedule reinforces a behavior after a set number of responses. Tom receives a bonus after every twenty phones sold, which is a constant response requirement, so the reinforcement is delivered on a fixed ratio. Interval schedules are based on time rather than number of responses, and variable schedules change the requirement unpredictably."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-071",
+      "number": 71,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The scientific validity of any treatment depends on evidence that it works, so hypnosis as a treatment for psychiatric disorders is most directly challenged by the lack of empirical support for its efficacy. Without reliable controlled evidence, claims about its effectiveness remain questionable. Disagreement among professionals or public bias may affect acceptance but is not the central scientific threat."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-072",
+      "number": 72,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Wernicke's area is involved in language comprehension, so damage there can cause difficulty understanding the meaning of words. Russ's symptom is a receptive language problem rather than a movement, touch, arousal, or circadian rhythm problem. The motor cortex controls movement, the somatosensory cortex processes touch, and the reticular formation regulates arousal."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-073",
+      "number": 73,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "A secondary reinforcer is a stimulus that gains reinforcing value through its association with a primary reinforcer, such as food or a toy. The star is neutral at first but becomes rewarding because it can be exchanged for a prize the child actually wants. It is not a primary reinforcer because it does not satisfy a biological need directly, and it is not a stimulus or response in classical conditioning."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-074",
+      "number": 74,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Conversion disorder involves the sudden loss of a sensory or motor function, such as vision or movement, with no identifiable neurological cause. The symptom typically follows psychological stress, as when Frank became extremely upset after witnessing the burglary. The other options involve mood, psychotic, or medication-related symptoms that do not match this pattern."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-075",
+      "number": 75,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Naturalistic observation involves watching behavior in its usual setting without manipulating variables, so it avoids the artificial conditions that can distort findings in a laboratory. Its main trade-off is that researchers cannot control variables or establish cause and effect, and the data can be hard to quantify. This makes the reduction of artificiality its key strength."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-076",
+      "number": 76,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Stimulus generalization occurs when a response conditioned to one stimulus is also elicited by similar stimuli. Tyler's nausea became linked to the cheeseburger and then spread to fast food in general, even though only one meal made him sick. Shaping, extinction, and spontaneous recovery describe operant conditioning procedures or the weakening and return of a conditioned response, not this spread of aversion."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-077",
+      "number": 77,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The Flynn effect is the observed rise in average intelligence test scores across generations, so higher IQ scores in 2003 than in 1993 in the United States illustrates it. The increase is generally attributed to environmental factors such as better nutrition, schooling, and exposure to complex cognitive demands rather than to genetic change."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-078",
+      "number": 78,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "The cocktail party effect is the ability to focus attention on one conversation while still noticing personally relevant or salient information, such as one's own name or a key word, in the background. Zach's attention was pulled away from his own conversation whenever he heard \"exactly,\" showing that unattended auditory input was still being processed. Closure, sensory adaptation, and bottom-up processing do not describe selective attention to meaningful stimuli in a noisy setting."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-079",
+      "number": 79,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Craik and Tulving found that deeper, semantic processing produces better memory than shallow processing. Deciding whether an umbrella would be useful for a trip requires thinking about the word's meaning and relating it to personal experience, which is elaborative semantic encoding. Counting syllables, spelling, writing, and judging rhyme all involve shallow visual or phonological processing and should produce weaker recall."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-080",
+      "number": 80,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Compliance occurs when a person changes behavior in response to a direct request, even without authority or a change in private belief. Shelby was asked to step aside and did so, which is a straightforward example of yielding to a request. Social facilitation, social impairment, and social loafing concern how the presence of others affects performance, and informed consent is an ethical requirement in research."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-081",
+      "number": 81,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "The Big Five model describes personality in terms of stable, measurable characteristics such as openness, conscientiousness, extraversion, agreeableness, and neuroticism. This approach grew out of trait psychology, which identifies and measures enduring dispositions that predict behavior. Behaviorism, cognitive psychology, neuropsychology, and biopsychology focus on learning, mental processes, brain function, and biology rather than on identifying broad personality traits."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-082",
+      "number": 82,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Encoding failure occurs when information is never adequately processed into memory in the first place, so it cannot later be recalled. Caleb was preoccupied with his history project and never attended to the short story discussion, meaning the details were not encoded. Interference and retrieval failure apply to information that was stored but cannot be accessed, and source amnesia involves forgetting where information came from."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-083",
+      "number": 83,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "An unconditioned stimulus is a stimulus that naturally and automatically triggers a response without any prior learning. In Pavlov's paradigm, the food itself elicited salivation from the outset, before any conditioning trials paired it with a neutral stimulus such as a tone. Salivation to the food is the unconditioned response, while the conditioned stimulus would be the previously neutral tone that acquired the ability to trigger salivation through pairing."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-084",
+      "number": 84,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Psychoanalytic theorists believe that much of personality is driven by unconscious conflicts and motives, so they use projective techniques such as drawing tasks, the Rorschach inkblots, and the thematic apperception test. In a projective measure, the person is thought to project inner needs and conflicts onto an ambiguous stimulus like a drawing, revealing hidden personality characteristics. Behavioral, cognitive, humanistic, and social cognitive theorists instead rely on observation, self-report, or measurable thought and learning patterns."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-085",
+      "number": 85,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "Cognitive therapy targets maladaptive or distorted thought patterns, such as irrational beliefs and negative automatic thoughts, and works to replace them with more realistic appraisals so that behavior and mood change. For example, a cognitive therapist might challenge a client's catastrophizing assumptions about failure. Behavioral therapy instead directly alters contingencies and learned responses, while biological therapy relies on medication or other physiological interventions."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-086",
+      "number": 86,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "A mental set is the tendency to apply a previously successful strategy or procedure to new problems, even when the situation calls for a different approach. Raj learned that pulling the handle opens doors, so he keeps using that solution on every door and is puzzled when it fails, showing a fixed problem-solving approach. Accommodation would mean changing his schema of doors, whereas conservation and object permanence are unrelated Piagetian concepts."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-087",
+      "number": 87,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Sensory adaptation is the diminished sensitivity to an unchanging stimulus after prolonged exposure to it. Because Rebecca has been in the kitchen for hours, her olfactory receptors habituate to the constant garlic odor and she stops registering it, until her guests' comments direct her attention back to the smell. Anosmia refers to a loss of smell, synesthesia to crossed senses, and the just-noticeable difference to detecting a change between two stimuli."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-088",
+      "number": 88,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Aging produces a sharper decline in fluid intelligence, which involves processing speed, working memory, and learning new procedures, than in crystallized intelligence, the accumulated knowledge and verbal skills that stay stable or improve. Mastering unfamiliar Internet publishing software is a novel learning task and therefore the most vulnerable. Recalling presidents, book titles, and grandchildren's names draws on well-established crystallized memory, which declines far less."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-089",
+      "number": 89,
+      "correct_answer": "C",
+      "label": "C",
+      "ai_explanation": "Edward Tolman's maze experiments with rats showed latent learning: animals that explored without reward later ran the maze efficiently once reinforcement was introduced, demonstrating that they had formed a cognitive map, a mental representation of the spatial layout, without any observable learning at the time. This challenged strict behaviorist claims that learning requires reinforcement, and Tolman called his view purposive behaviorism."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-090",
+      "number": 90,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "An aptitude test is designed to predict a person's capacity to learn or perform in a future domain, so it estimates potential rather than past accomplishment. Achievement tests, by contrast, measure how much a student has already learned in a specific content area. An intelligence test estimates general cognitive ability, while personality and interest inventories assess traits and preferences rather than ability."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-091",
+      "number": 91,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "In the DSM-5 classification, posttraumatic stress disorder belongs to the trauma- and stressor-related disorders, a category defined by exposure to a traumatic or stressful event as the required cause. The other pairings misplace each disorder: specific phobia is an anxiety disorder, major depressive disorder is a depressive disorder, obsessive-compulsive disorder has its own category, and conversion disorder is a somatic symptom disorder."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-093",
+      "number": 93,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Flavor is a combined experience produced by taste on the tongue plus retronasal olfaction, so as older adults lose olfactory sensitivity they often report that food tastes bland even when gustatory receptors are intact. The other statements are inaccurate: the five basic tastes are sweet, sour, salty, bitter, and umami; taste buds are distributed across the tongue and mouth; and the basilar membrane serves hearing, not taste."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-094",
+      "number": 94,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Hillary is briefly holding a visual image of the graph after it is no longer in view. This is iconic memory, a type of sensory memory that stores visual information for less than a second. Echoic memory would involve briefly retaining sounds, while procedural, implicit, and declarative memory involve other kinds of knowledge."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-095",
+      "number": 95,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Mikayla searches for information that supports her existing opposition to video games and thereby tends to find only evidence consistent with her belief. This is confirmation bias, the tendency to seek out and favor information that confirms one's preconceptions while ignoring contradictory evidence. It is not self-serving bias, insight, or functional fixedness."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-096",
+      "number": 96,
+      "correct_answer": "E",
+      "label": "E",
+      "ai_explanation": "The psychologist manipulates whether participants talk on a cell phone while driving and randomly assigns them to conditions, then measures driving safety. Because there is a controlled manipulation and random assignment, the study is experimental. It is not merely correlational, observational, or a case study, since those designs do not involve random assignment to manipulated conditions."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-097",
+      "number": 97,
+      "correct_answer": "B",
+      "label": "B",
+      "ai_explanation": "Cell phone use is the variable that the researcher deliberately manipulates by assigning some participants to talk on a phone and others not to. Therefore, it is the independent variable. Driving safety would be the dependent variable, because it is the outcome measured to see whether the manipulation had an effect."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-098",
+      "number": 98,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "The same statistical information is presented either positively as a 95 percent success rate or negatively as a 5 percent failure rate, and this changes how favorably people respond. This illustrates framing, in which the wording or presentation of equivalent information influences judgments and decisions. It is not simply intuition, overconfidence, or a representative heuristic."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-099",
+      "number": 99,
+      "correct_answer": "A",
+      "label": "A",
+      "ai_explanation": "Suzie is likely imitating behavior she has observed. Her mother reprimands her by yelling, which models the very behavior Suzie continues to use with her brother. Observational learning occurs when a person acquires or performs a behavior after watching others, so the mother's yelling serves as an example rather than effectively suppressing Suzie's yelling."
+    },
+    {
+      "paper_id": "psychology-ap-2017",
+      "question_id": "psychology-ap-2017-mcq-100",
+      "number": 100,
+      "correct_answer": "D",
+      "label": "D",
+      "ai_explanation": "Robert's fear of having a heart attack in public leads him to avoid leaving the house, which is characteristic of agoraphobia. Agoraphobia involves intense fear and avoidance of situations where escape might be difficult or help unavailable, often related to panic-like symptoms. Social anxiety centers on scrutiny by others, while OCD involves obsessions and compulsions and generalized anxiety is more diffuse."
+    }
+  ]
+}

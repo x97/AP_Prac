@@ -1,0 +1,642 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-17",
+ "kind": "quiz",
+ "number": 17,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 17 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 17",
+ "pdf_page_start": 322,
+ "pdf_page_end": 326,
+ "answer_page_start": 735,
+ "answer_page_end": 736,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "n = 25 and = 0.35",
+    "B": "n = 50 and = 0.17",
+    "C": "n = 75 and = 0.15",
+    "D": "n = 100 and = 0.91"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 322,
+      "bbox": [
+       217.3,
+       324.0,
+       224.5,
+       335.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 322,
+      "bbox": [
+       217.3,
+       345.4,
+       224.5,
+       356.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 322,
+      "bbox": [
+       217.3,
+       366.9,
+       224.5,
+       378.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 322,
+      "bbox": [
+       226.6,
+       388.4,
+       233.8,
+       399.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       319.7,
+       217.5,
+       336.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       341.1,
+       130.5,
+       358.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       362.6,
+       217.5,
+       379.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       384.1,
+       131.8,
+       401.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 322,
+     "bbox": [
+      253.1,
+      292.5,
+      260.3,
+      303.9
+     ]
+    }
+   ],
+   "page_start": 322,
+   "page_end": 322,
+   "stem": "For a class project, an AP Statistics student wishes to determine a 95% confidence interval for the proportion of students in the school building who have social media profile pages. The total number of students in the building is 3,520. Which of the following combinations of n and will satisfy the conditions for inference?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The relevant condition is that both np̂ and n̂ q ≥ 10, and only choice (C) with np̂ = (75)(0.15) = 11.25 and n̂ q = (75)(0.85) = 63.75 satisfies this.",
+   "question_id": "statistics-barrons-2027-quiz-17-001",
+   "source_pages": [
+    322,
+    322
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 322,
+      "bbox": [
+       142.2,
+       505.8,
+       250.2,
+       531.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 322,
+      "bbox": [
+       142.2,
+       535.9,
+       252.4,
+       561.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 322,
+      "bbox": [
+       142.2,
+       565.9,
+       252.4,
+       591.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 322,
+      "bbox": [
+       143.6,
+       596.0,
+       253.8,
+       621.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       508.3,
+       130.7,
+       525.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       538.3,
+       130.5,
+       555.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       568.4,
+       130.7,
+       585.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 322,
+      "bbox": [
+       111.1,
+       598.4,
+       131.8,
+       615.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 322,
+   "page_end": 322,
+   "stem": "In a simple random sample of 60 teenagers, two-thirds said they would rather text a friend than call. What is the 98% confidence interval for the proportion of all teenagers who would rather text than call a friend?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The critical z-scores with 0.01 in the tails are ±invNorm(0.99)= ±2.326 and . The confidence interval is .",
+   "question_id": "statistics-barrons-2027-quiz-17-002",
+   "source_pages": [
+    322,
+    322
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, the conditions for inference have been met.",
+    "B": "No, because the sample likely has undercoverage bias.",
+    "C": "No, because the sample size is not large enough to ensure that the sampling distribution is approximately normal.",
+    "D": "No, because the sample size violates the 10% condition."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       155.0,
+       442.4,
+       172.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       175.1,
+       481.5,
+       192.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       195.1,
+       506.3,
+       212.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       232.3,
+       494.0,
+       249.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 322,
+   "page_end": 323,
+   "stem": "A school district has 250 teachers. A member of the Board of Education wanted to estimate the percentage of teachers who would be willing to accept a lower pay raise in return for a substantial increase in health benefits. Thirty randomly selected teachers were surveyed. Of the 30 selected teachers, 14 expressed a willingness to accept a lower pay raise in return for a substantial increase in health benefits. Have the conditions been met for inference with a one-sample z-interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The sample size of 30 is greater than ten percent of the population; that is, 30 > (0.10)(250) = 25. This violates the 10% condition. Note that np̂ = 14 ≥ 10, and n(1 − p̂ ) = 16 ≥ 10, which ensures that the sampling distribution of p̂ is approximately normal.",
+   "question_id": "statistics-barrons-2027-quiz-17-003",
+   "source_pages": [
+    322,
+    323
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "We are 95 percent confident that the true proportion of all adults who would admit to feeling lonely at least once during the previous week is between 0.3216 and 0.4784.",
+    "B": "If the proportion of adults who would admit to feeling lonely at least once during the previous week is calculated for repeated samples of 150 adults, 95 percent of these sample proportions will fall between 0.3216 and 0.4784.",
+    "C": "In repeated samplings of 150 adults, approximately 95 percent of the calculated confidence intervals for the proportion of adults who would admit to feeling lonely at least once during the previous week will capture the associated sample proportion.",
+    "D": "If a confidence interval for the proportion of adults who would admit to feeling lonely at least once during the previous week is calculated for repeated samples of 150 adults, approximately 95 percent of these intervals will contain the true population proportion."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       388.4,
+       505.4,
+       405.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       442.8,
+       534.6,
+       460.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       514.4,
+       533.7,
+       531.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 323,
+      "bbox": [
+       108.3,
+       603.1,
+       531.1,
+       620.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 323,
+   "page_end": 323,
+   "stem": "In a random sample of 150 adults, 60 admitted to feeling lonely at least once during the previous week. A 95 percent confidence interval for the proportion of all adults who would admit to feeling lonely at least once during the previous week is given by (0.3216, 0.4784). Which of the following is a correct interpretation of the confidence level of 95 percent?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "A confidence level of 95 percent gives the percent of all possible confidence intervals of the given size that will capture the population parameter. Choice (A) is a correct interpretation of the confidence interval.",
+   "question_id": "statistics-barrons-2027-quiz-17-004",
+   "source_pages": [
+    323,
+    323
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "49.5%",
+    "B": "90%",
+    "C": "95%",
+    "D": "99%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       189.4,
+       178.2,
+       206.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       209.4,
+       165.9,
+       226.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       229.5,
+       166.0,
+       246.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       249.5,
+       167.2,
+       266.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 324,
+   "page_end": 324,
+   "stem": "A 2020 random survey of 1,470 adult Americans found that 29% of the American adult population would be willing to pay higher taxes if the government offered “Medicare for All.” With what degree of confidence can it be concluded that 29% ± 3% of the American adult population would be willing to pay higher taxes if the government offered “Medicare for All”?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The margin of error is ±z*SE(p̂ ), where . Then z*(0.011835) = 0.03, z* = 2.535, and normalcdf(-2.535, 2.535) = 0.9888, or about 99%.",
+   "question_id": "statistics-barrons-2027-quiz-17-005",
+   "source_pages": [
+    324,
+    324
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "150",
+    "B": "1,500",
+    "C": "15,000",
+    "D": "150,000"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       405.6,
+       159.9,
+       422.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       425.6,
+       171.9,
+       442.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       445.7,
+       179.8,
+       462.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       465.7,
+       188.8,
+       483.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 324,
+   "page_end": 324,
+   "stem": "The population of the United States is about 330,000,000. During a time that it is strongly suggested to regularly wear face masks, suppose that a public health official wants to estimate, with 95 percent confidence, the proportion of Americans who do so within a margin of error of 2.5 percentage points. Approximately how many people would she need to randomly sample?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": ". Note that the population size is not relevant here.",
+   "question_id": "statistics-barrons-2027-quiz-17-006",
+   "source_pages": [
+    324,
+    324
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "We are 95 percent confident that between 40% and 46% of the sample dog owners allow their dogs to sleep in bed with them.",
+    "B": "We are 95 percent confident that between 40% and 46% of the population of dog owners allow their dogs to sleep in bed with them.",
+    "C": "There is a 0.95 probability that between 40% and 46% of the population of dog owners allow their dogs to sleep in bed with them.",
+    "D": "If 95 percent confidence intervals are calculated from all possible samples of the given size, 95 percent of these intervals will capture the true percentage of the population of dog owners who allow their dogs to sleep in bed with them."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       604.6,
+       516.7,
+       621.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 324,
+      "bbox": [
+       108.3,
+       659.0,
+       516.5,
+       676.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 325,
+      "bbox": [
+       108.3,
+       72.0,
+       527.2,
+       89.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 325,
+      "bbox": [
+       108.3,
+       126.4,
+       493.5,
+       143.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 324,
+   "page_end": 325,
+   "stem": "From a random sample of dog owners, 43% indicated that they allow their dogs to sleep in bed with them. A 95 percent confidence interval was constructed from the sample, and the margin of error for the estimate was 3%. Which of the following is the best interpretation of the interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The interval is a statement about how confident we are that the interval has captured the population parameter. The confidence interval is about the population, not the sample. The probability the true percentage is between 40% and 46% is either 1 or 0 depending upon whether it is or is not in the interval. Choice (D) is a correct interpretation of the confidence level, not the confidence interval.",
+   "question_id": "statistics-barrons-2027-quiz-17-007",
+   "source_pages": [
+    324,
+    325
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 325,
+   "page_end": 325,
+   "stem": "Net neutrality is the idea that all Internet traffic should be treated equally—that is, no Internet service provider (ISP) should have the power to favor one source over another by blocking or paid prioritization. An online survey, responded to by 155,612 Internet users, reported that 93% favor net neutrality with a margin of error of 0.1%. (a) Is “93%” a statistic or a parameter? Explain. (b) Without doing an actual calculation, explain why the margin of error is so small. (c) How confident should you be that between 92.9% and 93.1% of all Internet users favor net neutrality?",
+   "correct_answer": null,
+   "answer_text": "(a) The figure 93% comes from a sample, so it is a statistic. (b) The margin of error is proportional to . With such a very large sample size n, the margin of error will be very small. (c) This is a voluntary response survey, and so we should have very little confidence in the conclusion.",
+   "question_id": "statistics-barrons-2027-quiz-17-008",
+   "context": "",
+   "source_pages": [
+    325,
+    325
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 325,
+   "page_end": 326,
+   "stem": "In a random sample of 500 American women between the ages of 45 and 64, 305 said that breast cancer was the medical condition they feared most. (a) Calculate a 99% confidence interval for the proportion of all American women between the ages of 45 and 64 who would say that breast cancer was the medical condition they fear most. (b) Explain the meaning of “99% confidence level” in this example. (c) Currently, about 3% of female deaths are due to breast cancer. Is the value 3% consistent with the confidence interval obtained in (a)? Explain. The answers to this Quiz can be found beginning on page 491.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: Let p represent the proportion of the population of American women between the ages of 45 and 64 who would say that breast cancer is the medical condition they fear most. Procedure: One-sample z-interval for a population proportion. Checks: We check independence and normality. For independence, we are given that this is a random sample, and clearly 500 is less than 10% of all American women between the ages of 45 and 64. For normality, np̂ = 305 ≥ 10 and n(1 − p̂ ) = 195 ≥ 10. Mechanics: Calculator software gives (0.554, 0.666). [For instructional purposes, we note that or (0.554, 0.666).] Conclusion in context: We are 99% confident that the true proportion of all American women between the ages of 45 and 64 who would say that breast cancer is the medical condition they most fear is between 0.554 and 0.666. (b) If all possible random samples of 500 women between the ages of 45 and 64 were surveyed, we would expect about 99% of the resulting confidence intervals to contain the true proportion of all American women between the ages of 45 and 64 who would say that breast cancer is the medical condition they fear most. (c) No, the 3% value is not consistent with the confidence interval because 0.03 is not in the interval (0.554, 0.666).",
+   "question_id": "statistics-barrons-2027-quiz-17-009",
+   "context": "",
+   "source_pages": [
+    325,
+    326
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 9,
+ "mcq_count": 7,
+ "frq_count": 2
+}

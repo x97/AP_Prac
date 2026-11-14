@@ -1,0 +1,565 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-26",
+ "kind": "quiz",
+ "number": 26,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 26 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 26",
+ "pdf_page_start": 428,
+ "pdf_page_end": 432,
+ "answer_page_start": 749,
+ "answer_page_end": 751,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, all conditions have been met.",
+    "B": "No, while a random sample was selected, there is no mention of random assignment.",
+    "C": "No, there is no indication of whether the sample distribution is approximately normal.",
+    "D": "No, independence is violated."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 428,
+      "bbox": [
+       110.0,
+       425.2,
+       365.3,
+       443.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 428,
+      "bbox": [
+       110.0,
+       446.2,
+       488.6,
+       464.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 428,
+      "bbox": [
+       110.0,
+       485.2,
+       459.0,
+       503.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 428,
+      "bbox": [
+       110.0,
+       524.2,
+       335.4,
+       542.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 428,
+   "page_end": 428,
+   "stem": "It is hypothesized that grandmothers spend more hours per week on FaceTime with their grandchildren than do grandfathers. A random sample of 100 couples who have at least one grandchild are interviewed, and a two-sample t-test is performed. Have all conditions for inference been met?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Since couples are chosen, the samples of grandmothers and grandfathers are not independent, so a two-sample t-test cannot be performed. If the procedure would be to perform a one-sample t-test on the set of differences, then the conditions for inference would be met. Random assignment does not make sense here. The sample size, n = 100, is large enough for the central limit theorem to apply, so the population distribution need not be approximately normal. One hundred grandparents is clearly less than 10% of all grandparents.",
+   "question_id": "statistics-barrons-2027-quiz-26-001",
+   "source_pages": [
+    428,
+    428
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "A one-sample t-test for a population mean",
+    "B": "A matched pairs t-test for a mean difference",
+    "C": "A two-sample t-test for a difference between sample means",
+    "D": "A two-sample t-test for a difference between population means"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 429,
+      "bbox": [
+       110.0,
+       123.0,
+       420.5,
+       141.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 429,
+      "bbox": [
+       110.0,
+       144.0,
+       433.0,
+       162.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 429,
+      "bbox": [
+       110.0,
+       165.0,
+       487.6,
+       183.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 429,
+      "bbox": [
+       110.0,
+       204.0,
+       511.4,
+       222.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 428,
+   "page_end": 429,
+   "stem": "Head injuries are a major concern in the sport of football. Five hundred D-1 football players were randomly picked. Half were randomly assigned to wear helmets based on foam padding. The other half were randomly assigned to wear helmets using padding that was custom 3D-printed to the shape of their heads. The helmets were used for an entire season including practices, preseason games, and regular season games. The mean number of head injuries was recorded for each group. Which of the following is an appropriate inference procedure for analyzing the results of the investigation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "There were two independent groups, and the data were collected on a single quantitative variable (number of head injuries). The correct procedure is a two-sample t-test for a difference in population means.",
+   "question_id": "statistics-barrons-2027-quiz-26-002",
+   "source_pages": [
+    428,
+    429
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 429,
+      "bbox": [
+       145.5,
+       457.5,
+       341.2,
+       482.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 429,
+      "bbox": [
+       145.5,
+       486.8,
+       326.2,
+       510.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 429,
+      "bbox": [
+       145.5,
+       515.2,
+       341.2,
+       540.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 429,
+      "bbox": [
+       147.0,
+       544.5,
+       327.0,
+       568.5
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 429,
+      "bbox": [
+       113.0,
+       459.0,
+       133.5,
+       477.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 429,
+      "bbox": [
+       113.0,
+       487.8,
+       133.3,
+       505.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 429,
+      "bbox": [
+       113.0,
+       516.7,
+       133.5,
+       534.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 429,
+      "bbox": [
+       113.0,
+       545.6,
+       134.7,
+       563.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 429,
+   "page_end": 429,
+   "stem": "In a study aimed at reducing developmental problems in low birth weight babies (under 2,500 grams), 347 infants were exposed to a special educational curriculum while 561 did not receive any special help. After 3 years, the children exposed to the special curriculum showed a mean IQ of 93.5 with a standard deviation of 19.1; the other children had a mean IQ of 84.5 with a standard deviation of 19.9. Find a 95% confidence interval estimate for the difference in mean IQs of all low birth weight babies who receive special intervention and those who do not. (Assume that all conditions for inference are met.)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "and with such large sample sizes, the critical t-scores should be just slightly greater than the critical z-scores of ±1.96 associated with 95% confidence. The confidence interval is .",
+   "question_id": "statistics-barrons-2027-quiz-26-003",
+   "source_pages": [
+    429,
+    429
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 430,
+      "bbox": [
+       145.5,
+       72.0,
+       246.0,
+       108.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 430,
+      "bbox": [
+       145.5,
+       112.5,
+       249.8,
+       149.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 430,
+      "bbox": [
+       145.5,
+       153.8,
+       219.0,
+       187.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 430,
+      "bbox": [
+       147.0,
+       192.0,
+       222.8,
+       225.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 430,
+      "bbox": [
+       113.0,
+       79.1,
+       133.5,
+       97.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 430,
+      "bbox": [
+       113.0,
+       120.0,
+       133.3,
+       138.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 430,
+      "bbox": [
+       113.0,
+       159.7,
+       133.5,
+       177.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 430,
+      "bbox": [
+       113.0,
+       198.0,
+       134.7,
+       216.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 429,
+   "page_end": 430,
+   "stem": "A researcher believes a new diet should improve weight gain in laboratory mice. If ten control mice on the old diet gain an average of 4 ounces with a standard deviation of 0.3 ounces, while the average gain for ten mice on the new diet is 4.8 ounces with a standard deviation of 0.2 ounces, what is the test statistic? (Assume that all conditions for inference are met.)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "With unknown population standard deviations, the t-distribution must be used, and . The critical t-score is .",
+   "question_id": "statistics-barrons-2027-quiz-26-004",
+   "source_pages": [
+    429,
+    430
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "I and II only",
+    "B": "III only",
+    "C": "II and III only",
+    "D": "I, II, and III"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 430,
+      "bbox": [
+       110.0,
+       459.0,
+       222.3,
+       477.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 430,
+      "bbox": [
+       110.0,
+       480.0,
+       188.2,
+       498.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 430,
+      "bbox": [
+       110.0,
+       501.0,
+       233.5,
+       519.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 430,
+      "bbox": [
+       110.0,
+       522.0,
+       221.9,
+       540.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 430,
+     "bbox": [
+      110.2,
+      287.2,
+      309.0,
+      303.0
+     ]
+    }
+   ],
+   "page_start": 430,
+   "page_end": 430,
+   "stem": "Do high school girls apply to more colleges than high school boys? A two-sample t-test of the hypotheses results in a p-value of 0.02. Which of the following statements must be true? I. A 90% confidence interval for the difference in means contains 0. II. A 95% confidence interval for the difference in means contains 0. III. A 99% confidence interval for the difference in means contains 0.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "With 0.02 in the tail, a confidence interval over 0.48 + 0.48 = 0.96 = 96% will contain 0.",
+   "question_id": "statistics-barrons-2027-quiz-26-005",
+   "source_pages": [
+    430,
+    430
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 430,
+     "bbox": [
+      145.5,
+      72.0,
+      246.0,
+      108.0
+     ]
+    },
+    {
+     "page": 430,
+     "bbox": [
+      145.5,
+      112.5,
+      249.8,
+      149.2
+     ]
+    },
+    {
+     "page": 430,
+     "bbox": [
+      145.5,
+      153.8,
+      219.0,
+      187.5
+     ]
+    },
+    {
+     "page": 430,
+     "bbox": [
+      147.0,
+      192.0,
+      222.8,
+      225.8
+     ]
+    },
+    {
+     "page": 430,
+     "bbox": [
+      110.2,
+      287.2,
+      309.0,
+      303.0
+     ]
+    }
+   ],
+   "page_start": 431,
+   "page_end": 431,
+   "stem": "Bisphenol A (BPA), a synthetic estrogen found in packaging materials, has been shown to leach into infant formula and beverages. More recently, BPA has been detected in high concentrations in cash register receipts. Random sample biomonitoring data to see if retail workers carry higher amounts of BPA concentration in their bodies than nonretail workers are as follows: BPA concentration (μg/L) Sample Mean Standard deviation size Nonretail workers 528",
+   "correct_answer": null,
+   "answer_text": "(a) Procedure: A two-sample t-interval for μNRW − μRW, the difference in population means of BPA body concentrations in nonretail workers and retail workers. Checks: We are given random samples. It is reasonable to assume the samples are independent, and we assume the sample sizes are less than 10% of the populations. For normality, both sample sizes, 528 ≥ 30 and 197 ≥ 30, are large enough so that the CLT applies. Mechanics: Calculator software gives (−0.9521, −0.7479) with df = 332.3. Conclusion in context: We are 99% confident that the difference in true means of BPA body concentrations in all nonretail and retail workers (nonretail mean minus retail mean) is between −0.75 and −0.95 μg/L. (b) Because 0 is not in the interval of plausible values for the difference of population means and the entire interval is negative, the interval does support the belief that retail workers carry higher amounts of BPA in their bodies than nonretail workers.",
+   "question_id": "statistics-barrons-2027-quiz-26-006",
+   "context": "",
+   "source_pages": [
+    431,
+    431
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 431,
+   "page_end": 431,
+   "stem": "43 0.45 Retail workers 197",
+   "correct_answer": null,
+   "answer_text": "(a) Since couples are chosen, the samples of husbands’ ages and wives’ ages are not independent. So a two-sample t-interval cannot be found. If the procedure would be to calculate a one-sample t-interval on the set of differences, then the conditions would be met. (b) Because there is a clear relationship between husbands and wives in couples, the proper procedure is to form the set of 50 differences and to perform a one-sample t-test as follows. Parameter: Let μdiff = the true mean difference in ages at wedding between husbands and wives (husbands minus wives). Hypotheses: H0: μdiff = 0 and Ha: μdiff > 0. Procedure: A paired t-test—that is, a one-sample t-test on the set of differences. Checks: We are given a random sample, and n = 50 is less than 10% of all married couples. For normality, n = 50 is large enough for the CLT to apply. Mechanics: A t-test gives t = 3.780 with a p-value of 0.000213. [Or we can calculate . With df = n – 1 = 49, the p-value is P(t > 3.780) = tcdf(3.780, 1,000, 49) = 0.000213.] Conclusion in context with linkage to the p-value: With this small of a p-value, 0.000213 <",
+   "question_id": "statistics-barrons-2027-quiz-26-007",
+   "context": "",
+   "source_pages": [
+    431,
+    431
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 431,
+   "page_end": 432,
+   "stem": "28 0.48 (a) Calculate a 99% confidence interval for the difference in mean BPA body concentrations of nonretail and retail workers. (b) Does the confidence interval support the belief that retail workers carry higher amounts of BPA in their bodies than nonretail workers? Explain. 2. A random sample of 50 married couples were surveyed as to age at wedding. Following are data with regard to husbands, wives, and couple differences (husband’s age minus wife’s age). Ages at date of wedding Sample size Mean Standard n deviation Husbands 50 30.6 8.792 Wives 50 28.6 7.977 Differences 50 2.0 3.742 (a) A sociologist believes that the above table is evidence that the mean age at wedding for all husbands is greater than the mean age at wedding for all wives. He calculates (−1.332, 5.332) to be a two-sample, 95% confidence interval for the true difference in mean ages of husbands and wives. He then concludes that there is not convincing evidence that the true mean age at wedding for husbands is greater than the true mean age at wedding for wives because the interval contains both positive and negative values. Is this a statistically valid argument? Explain. (b) Perform a hypothesis test at the 0.05 significance level with regard to the sociologist’s claim. (c) Given your conclusion, what type of error, Type I or Type II, might have been committed, and what would be a possible consequence?",
+   "correct_answer": null,
+   "answer_text": null,
+   "question_id": "statistics-barrons-2027-quiz-26-008",
+   "context": "",
+   "source_pages": [
+    431,
+    432
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 8,
+ "mcq_count": 5,
+ "frq_count": 3
+}

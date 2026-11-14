@@ -1,0 +1,868 @@
+[
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Population",
+  "page": 62,
+  "definition_type": "explicit",
+  "quote": "A population consists of the entire set of individuals or objects that you want to learn about.",
+  "plain_en": "every individual or object of interest"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Sample",
+  "page": 62,
+  "definition_type": "explicit",
+  "quote": "A sample is a subset of the population that is selected for study.",
+  "plain_en": "the part of a population studied"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Statistics",
+  "page": 62,
+  "definition_type": "explicit",
+  "quote": "The field of statistics is all about collecting, describing, analyzing, and drawing conclusions from data.",
+  "plain_en": "science of collecting and analyzing data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Parameter",
+  "page": 63,
+  "definition_type": "explicit",
+  "quote": "A parameter is a numerical summary of a population, while a statistic is a numerical summary of sample data.",
+  "plain_en": "numerical summary of a whole population",
+  "covers_concepts": "Parameter; Statistic"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Statistic",
+  "page": 63,
+  "definition_type": "explicit",
+  "quote": "A parameter is a numerical summary of a population, while a statistic is a numerical summary of sample data.",
+  "plain_en": "numerical summary calculated from sample data",
+  "covers_concepts": "Parameter; Statistic"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s01",
+  "name": "Conclusion in context",
+  "page": 63,
+  "definition_type": "explicit",
+  "quote": "Conclusions should be given in context, that is, should refer back to the population in a real-world frame of reference.",
+  "plain_en": "answer stated in the real-world setting"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Data",
+  "page": 66,
+  "definition_type": "explicit",
+  "quote": "Data are pieces of information about observational units (items or individuals).",
+  "plain_en": "information recorded about individuals or objects"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Observational unit",
+  "page": 66,
+  "definition_type": "implicit",
+  "quote": "Data are pieces of information about observational units (items or individuals).",
+  "plain_en": "item or individual being studied"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Variables",
+  "page": 66,
+  "definition_type": "explicit",
+  "quote": "Variables are characteristics that may change from one observational unit to another.",
+  "plain_en": "characteristics that can vary between units"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Categorical variable",
+  "page": 66,
+  "definition_type": "explicit",
+  "quote": "A categorical variable (or qualitative variable) places individuals into groups called categories.",
+  "plain_en": "variable placing individuals into groups",
+  "covers_concepts": "Categorical variable; Qualitative variable"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Qualitative variable",
+  "page": 66,
+  "definition_type": "explicit",
+  "quote": "A categorical variable (or qualitative variable) places individuals into groups called categories.",
+  "plain_en": "variable describing a category or group",
+  "covers_concepts": "Categorical variable; Qualitative variable"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s02",
+  "name": "Quantitative variable",
+  "page": 66,
+  "definition_type": "explicit",
+  "quote": "A quantitative variable (or numerical variable) takes on values for a measurable quantity.",
+  "plain_en": "variable measuring a numerical quantity"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Frequency table",
+  "page": 67,
+  "definition_type": "explicit",
+  "quote": "The values taken on by categorical variables can be organized into frequency tables or relative frequency tables.",
+  "plain_en": "table counting values in each category",
+  "covers_concepts": "Frequency table; Relative frequency table"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Relative frequency table",
+  "page": 67,
+  "definition_type": "explicit",
+  "quote": "The values taken on by categorical variables can be organized into frequency tables or relative frequency tables.",
+  "plain_en": "table showing proportions in each category",
+  "covers_concepts": "Frequency table; Relative frequency table"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Frequency",
+  "page": 68,
+  "definition_type": "explicit",
+  "quote": "Frequency gives the number of cases falling into each category, while relative frequency gives the proportion or percent of cases falling into each category.",
+  "plain_en": "number of cases in a category",
+  "covers_concepts": "Frequency; Relative frequency"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Relative frequency",
+  "page": 68,
+  "definition_type": "explicit",
+  "quote": "Frequency gives the number of cases falling into each category, while relative frequency gives the proportion or percent of cases falling into each category.",
+  "plain_en": "proportion of cases in a category",
+  "covers_concepts": "Frequency; Relative frequency"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Distribution",
+  "page": 68,
+  "definition_type": "explicit",
+  "quote": "The distribution of a variable describes the possible values the variable could assume and how often each of those values occurs.",
+  "plain_en": "possible values and how often they occur"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Bar chart",
+  "page": 67,
+  "definition_type": "implicit",
+  "quote": "They can be represented graphically by displays such as bar charts (bar graphs) and pie charts.",
+  "plain_en": "graph with bars for categories",
+  "covers_concepts": "Bar chart; Pie chart"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s03",
+  "name": "Pie chart",
+  "page": 67,
+  "definition_type": "implicit",
+  "quote": "They can be represented graphically by displays such as bar charts (bar graphs) and pie charts.",
+  "plain_en": "circle divided into category slices",
+  "covers_concepts": "Bar chart; Pie chart"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Discrete quantitative variable",
+  "page": 71,
+  "definition_type": "explicit",
+  "quote": "A discrete quantitative variable takes on a finite or countable number of values.",
+  "plain_en": "countable numerical variable with gaps"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Continuous quantitative variable",
+  "page": 71,
+  "definition_type": "explicit",
+  "quote": "A continuous quantitative variable can take on uncountable or infinite values with no gaps, such as heights and weights of students.",
+  "plain_en": "numerical variable taking any value in an interval"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Histogram",
+  "page": 72,
+  "definition_type": "explicit",
+  "quote": "Histograms, which are useful for large data sets involving quantitative variables, show frequencies or relative frequencies with bars over intervals called bins.",
+  "plain_en": "bars showing frequencies over intervals",
+  "covers_concepts": "Histogram; Bin"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Bin",
+  "page": 72,
+  "definition_type": "explicit",
+  "quote": "Histograms, which are useful for large data sets involving quantitative variables, show frequencies or relative frequencies with bars over intervals called bins.",
+  "plain_en": "interval used for histogram bars",
+  "covers_concepts": "Histogram; Bin"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Dotplot",
+  "page": 71,
+  "definition_type": "implicit",
+  "quote": "A quantitative variable takes on numerical values for a measured or counted quantity. The values can be organized into frequency tables or relative frequency tables or can be represented graphically by displays such as dotplots, histograms, stemplots, cumulative relative frequency plots, or boxplots.",
+  "plain_en": "graph with dots for each value"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Stemplot",
+  "page": 75,
+  "definition_type": "explicit",
+  "quote": "An alternative pictorial display, called a stemplot (also called a stem and leaf display), retains this individual information and is useful for giving a quick overview of a distribution, displaying the relative density and shape of the data.",
+  "plain_en": "display splitting each value into stem and leaf",
+  "covers_concepts": "Stemplot; Stem and leaf display"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s04",
+  "name": "Ogive",
+  "page": 77,
+  "definition_type": "explicit",
+  "quote": "Sometimes we sum frequencies and show the result visually in a cumulative relative frequency plot (also known as an ogive).",
+  "plain_en": "graph of cumulative relative frequencies",
+  "covers_concepts": "Ogive; Cumulative relative frequency plot"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "SOCS",
+  "page": 78,
+  "definition_type": "explicit",
+  "quote": "When describing a distribution, always comment on Shape, Outliers, Center, and Spread (SOCS).",
+  "plain_en": "shape, outliers, center, and spread"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Symmetric distribution",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A symmetric distribution is one in which the two halves are mirror images of each other.",
+  "plain_en": "distribution with mirror-image halves"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Skewed right",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A distribution is skewed to the right if it spreads far and thinly toward the higher values.",
+  "plain_en": "distribution with a long right tail"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Skewed left",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A distribution is skewed to the left if it spreads far and thinly toward the lower values.",
+  "plain_en": "distribution with a long left tail"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Bell-shaped distribution",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A bell-shaped distribution is symmetric with a center mound and two sloping tails.",
+  "plain_en": "symmetric distribution with a central mound"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Uniform distribution",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A distribution is uniform if its histogram is a horizontal line.",
+  "plain_en": "distribution with equally likely values"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Unimodal",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A distribution with one main peak is called unimodal and with two distinct peaks is called bimodal.",
+  "plain_en": "distribution with one main peak",
+  "covers_concepts": "Unimodal; Bimodal"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Bimodal",
+  "page": 79,
+  "definition_type": "explicit",
+  "quote": "A distribution with one main peak is called unimodal and with two distinct peaks is called bimodal.",
+  "plain_en": "distribution with two distinct peaks",
+  "covers_concepts": "Unimodal; Bimodal"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Outliers",
+  "page": 80,
+  "definition_type": "explicit",
+  "quote": "Outliers are values that are unusually small or large relative to the rest of the data.",
+  "plain_en": "values far from the rest of the data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Gaps",
+  "page": 80,
+  "definition_type": "explicit",
+  "quote": "Gaps show holes where no values fall.",
+  "plain_en": "intervals with no data values"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Clusters",
+  "page": 80,
+  "definition_type": "explicit",
+  "quote": "Clusters show natural subgroups into which the values fall.",
+  "plain_en": "natural subgroups of data values"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Center",
+  "page": 80,
+  "definition_type": "explicit",
+  "quote": "The center either separates the values (or the area under the curve in a histogram) roughly in half (the median) or is calculated as an average (the mean).",
+  "plain_en": "typical middle value of a distribution"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s05",
+  "name": "Spread",
+  "page": 80,
+  "definition_type": "explicit",
+  "quote": "The spread or variability is the scope of the values from smallest to largest.",
+  "plain_en": "range of values from smallest to largest"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Median",
+  "page": 100,
+  "definition_type": "explicit",
+  "quote": "The median, which is the middle number of a set of numbers arranged in numerical order.",
+  "plain_en": "middle value when data are ordered"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Mean",
+  "page": 101,
+  "definition_type": "explicit",
+  "quote": "The mean, which is found by summing items in a set and dividing by the number of items.",
+  "plain_en": "sum of values divided by count"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Resistant measure",
+  "page": 105,
+  "definition_type": "explicit",
+  "quote": "The median and IQR are called resistant or robust measures because outliers do not greatly (if at all) affect their values.",
+  "plain_en": "measure not greatly affected by outliers",
+  "covers_concepts": "Resistant measure; Robust measure"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Nonresistant measure",
+  "page": 105,
+  "definition_type": "explicit",
+  "quote": "The mean, range, variance, and standard deviation are called nonresistant or nonrobust measures because outliers can greatly affect their values.",
+  "plain_en": "measure strongly affected by outliers",
+  "covers_concepts": "Nonresistant measure; Nonrobust measure"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Five-number summary",
+  "page": 104,
+  "definition_type": "explicit",
+  "quote": "To understand variability, we either calculate the mean and standard deviation (defined below) or calculate the following five-number summary of a data set:",
+  "plain_en": "minimum, Q1, median, Q3, maximum"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "First quartile (Q1)",
+  "page": 104,
+  "definition_type": "explicit",
+  "quote": "The 25th percentile, Q1, is the median of the lower half of the data set.",
+  "plain_en": "median of the lower half of data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Third quartile (Q3)",
+  "page": 104,
+  "definition_type": "explicit",
+  "quote": "The 75th percentile, Q3, is the median of the upper half of the data set.",
+  "plain_en": "median of the upper half of data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Range",
+  "page": 104,
+  "definition_type": "explicit",
+  "quote": "Range: the difference between the largest and smallest values (maximum minus minimum).",
+  "plain_en": "maximum value minus minimum value"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Interquartile range (IQR)",
+  "page": 104,
+  "definition_type": "explicit",
+  "quote": "Interquartile range (IQR): the difference between the largest and smallest values after removing the lower and upper quartiles.",
+  "plain_en": "spread of the middle half of data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Variance",
+  "page": 105,
+  "definition_type": "explicit",
+  "quote": "Variance: the average of the squared differences from the mean.",
+  "plain_en": "average squared distance from the mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Standard deviation",
+  "page": 105,
+  "definition_type": "explicit",
+  "quote": "Standard deviation (SD): the square root of the variance.",
+  "plain_en": "typical distance of values from the mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "1.5 × IQR rule",
+  "page": 105,
+  "definition_type": "explicit",
+  "quote": "The more common rule is that outliers are any value less than Q1 – 1.5(IQR) or greater than Q3 + 1.5(IQR).",
+  "plain_en": "rule flagging values beyond 1.5 IQR"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Simple ranking",
+  "page": 108,
+  "definition_type": "explicit",
+  "quote": "Simple ranking, which involves arranging the elements in some order and noting where in that order a particular value falls.",
+  "plain_en": "position of a value in an ordered list"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Percentile ranking",
+  "page": 108,
+  "definition_type": "explicit",
+  "quote": "Percentile ranking, which indicates what percentage of all values fall at or below the value under consideration.",
+  "plain_en": "percent of values at or below a value"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "z-score",
+  "page": 108,
+  "definition_type": "explicit",
+  "quote": "The z-score, which states very specifically the number of standard deviations a particular value is above or below the mean.",
+  "plain_en": "number of standard deviations from the mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Quartiles",
+  "page": 109,
+  "definition_type": "explicit",
+  "quote": "Quartiles split data into four equal parts.",
+  "plain_en": "values dividing data into four parts"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Deciles",
+  "page": 109,
+  "definition_type": "explicit",
+  "quote": "Deciles split data into 10 equal parts.",
+  "plain_en": "values dividing data into ten parts"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s08",
+  "name": "Boxplot",
+  "page": 117,
+  "definition_type": "explicit",
+  "quote": "A boxplot (also called a box and whisker display) is a visual representation displaying the distribution of data that shows the smallest value, the largest value, the middle (median), the middle of the bottom half of the set (Q1), and the middle of the top half of the set (Q3).",
+  "plain_en": "display showing five-number summary and outliers",
+  "covers_concepts": "Boxplot; Box and whisker display"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s09",
+  "name": "Comparing distributions",
+  "page": 121,
+  "definition_type": "explicit",
+  "quote": "When asked for a comparison, don’t forget to address Shape, Unusual features (Outliers, gaps, clusters), Center, and Spread (SOCS or CUSS) and to refer to context.",
+  "plain_en": "describe shape, outliers, center, and spread comparatively"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s12",
+  "name": "Investigative question",
+  "page": 139,
+  "definition_type": "implicit",
+  "quote": "There are three principal components to the investigative question:",
+  "plain_en": "question a study is designed to answer"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Random sample",
+  "page": 142,
+  "definition_type": "explicit",
+  "quote": "A sample is considered random when all observational units in the sample are selected from the population using some type of random mechanism.",
+  "plain_en": "sample selected using chance"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Randomization in sampling",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "The use of randomization in sample selection increases the chance that the resulting sample exhibits all the known and unknown features of the population.",
+  "plain_en": "using chance to select a sample"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Generalizability",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "A sample is generalizable only to the population from which the sample was selected.",
+  "plain_en": "applying sample results only to its population"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Observational study",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "In an observational study, we simply observe and measure something that has taken place or is taking place while trying not to cause any changes by our presence.",
+  "plain_en": "study observing without imposing a treatment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Experiment",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "In an experiment, we impose some change or treatment and measure the response.",
+  "plain_en": "study imposing a treatment and measuring response"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Cause-and-effect conclusion",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "It is not possible to conclude a cause-and-effect relationship between variables using data collected from an observational study.",
+  "plain_en": "concluding one variable causes another"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s13",
+  "name": "Blocking",
+  "page": 143,
+  "definition_type": "explicit",
+  "quote": "If there is an important difference among the subjects, similar subjects should be grouped into blocks, and treatments should be randomized within the blocks.",
+  "plain_en": "grouping similar subjects before random treatment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Observational studies",
+  "page": 146,
+  "definition_type": "explicit",
+  "quote": "Observational studies aim to gather information about a population without disturbing the population.",
+  "plain_en": "studies observing a population undisturbed"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Retrospective study",
+  "page": 146,
+  "definition_type": "explicit",
+  "quote": "Retrospective studies look backward, examining existing data, while prospective studies watch for outcomes, tracking individuals into the future.",
+  "plain_en": "study examining existing past data",
+  "covers_concepts": "Retrospective study; Prospective study"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Prospective study",
+  "page": 146,
+  "definition_type": "explicit",
+  "quote": "Retrospective studies look backward, examining existing data, while prospective studies watch for outcomes, tracking individuals into the future.",
+  "plain_en": "study tracking individuals into the future",
+  "covers_concepts": "Retrospective study; Prospective study"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Sampling variability",
+  "page": 147,
+  "definition_type": "implicit",
+  "quote": "Different samples give different statistics, all of which are estimates for the same population parameter.",
+  "plain_en": "statistics varying from sample to sample"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Census",
+  "page": 148,
+  "definition_type": "explicit",
+  "quote": "Collecting data from every individual in a population, called a census, might seem to provide complete information, but unless the population is small, this method would be prohibitively expensive and time-consuming.",
+  "plain_en": "attempt to measure an entire population"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Sampling frame",
+  "page": 148,
+  "definition_type": "explicit",
+  "quote": "The list of all individuals from which the sample is drawn is called the sampling frame.",
+  "plain_en": "list from which a sample is drawn"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Simple random sample (SRS)",
+  "page": 148,
+  "definition_type": "explicit",
+  "quote": "A simple random sample (SRS) is one in which every possible sample of the desired size has an equal chance of being selected.",
+  "plain_en": "sample where every sample size n is equally likely",
+  "covers_concepts": "Simple random sample; SRS"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Stratified random sampling",
+  "page": 150,
+  "definition_type": "explicit",
+  "quote": "Stratified random sampling involves dividing the population into non-overlapping homogeneous groups called strata, then picking random samples from each of the strata, and finally combining these individual samples into what is called a stratified random sample.",
+  "plain_en": "random samples from homogeneous subgroups",
+  "covers_concepts": "Stratified random sampling; Strata"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Strata",
+  "page": 150,
+  "definition_type": "explicit",
+  "quote": "Stratified random sampling involves dividing the population into non-overlapping homogeneous groups called strata, then picking random samples from each of the strata, and finally combining these individual samples into what is called a stratified random sample.",
+  "plain_en": "homogeneous subgroups of a population",
+  "covers_concepts": "Stratified random sampling; Strata"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Proportional sampling",
+  "page": 151,
+  "definition_type": "explicit",
+  "quote": "We could further do proportional sampling, where the sizes of the random samples from each stratum depend on the proportion of the total population represented by the stratum.",
+  "plain_en": "stratum sample sizes matched to population proportions"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Cluster random sampling",
+  "page": 151,
+  "definition_type": "explicit",
+  "quote": "Cluster random sampling involves dividing the population into non-overlapping heterogeneous groups called clusters, each similar to each other, and then picking everyone or everything in a random selection of one or more of the clusters.",
+  "plain_en": "sample whole randomly chosen heterogeneous groups",
+  "covers_concepts": "Cluster random sampling; Clusters"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Systematic random sampling",
+  "page": 152,
+  "definition_type": "explicit",
+  "quote": "Systematic random sampling is a relatively simple and quick method. It involves listing the population in some order (for example, alphabetically), choosing a random point to start, and then picking every tenth (or hundredth, or thousandth, or kth) person from the list.",
+  "plain_en": "choose random start then every kth unit"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Sampling for homogeneity",
+  "page": 154,
+  "definition_type": "explicit",
+  "quote": "However, sometimes we instead randomly pick a sample from each of two or more populations and then compare the distribution of some variable among the different populations. This second method is called sampling for homogeneity.",
+  "plain_en": "random samples from several populations compared"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Sampling bias",
+  "page": 154,
+  "definition_type": "explicit",
+  "quote": "A sampling method is biased if in some critical way it consistently results in samples that do not represent the population.",
+  "plain_en": "method consistently producing unrepresentative samples"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Voluntary response survey",
+  "page": 155,
+  "definition_type": "explicit",
+  "quote": "Voluntary response surveys are based on individuals who choose to participate",
+  "plain_en": "survey of people who choose to respond"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Convenience survey",
+  "page": 155,
+  "definition_type": "explicit",
+  "quote": "Convenience surveys are based on choosing individuals who are easy to reach",
+  "plain_en": "survey using easily reached individuals"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Undercoverage bias",
+  "page": 156,
+  "definition_type": "explicit",
+  "quote": "Undercoverage bias happens when there is inadequate representation, and thus some groups in the population are left out of the process of choosing the sample.",
+  "plain_en": "some population groups left out of sampling"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Response bias",
+  "page": 156,
+  "definition_type": "explicit",
+  "quote": "Response bias occurs when the question itself can lead to misleading results because people don’t want to be perceived as having unpopular or unsavory views or don’t want to admit to having committed crimes.",
+  "plain_en": "question wording leads to misleading answers"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s14",
+  "name": "Nonresponse bias",
+  "page": 157,
+  "definition_type": "explicit",
+  "quote": "Nonresponse bias, where there are low response rates, occurs when individuals chosen for the sample can’t be contacted or refuse to participate, and it is often unclear which part of the population is responding.",
+  "plain_en": "bias from people refusing to respond"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Experimental unit",
+  "page": 174,
+  "definition_type": "explicit",
+  "quote": "An experiment is performed on objects called experimental units.",
+  "plain_en": "object on which an experiment is performed"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Subject",
+  "page": 174,
+  "definition_type": "explicit",
+  "quote": "If the units are people, they are called subjects.",
+  "plain_en": "person participating in an experiment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Factor",
+  "page": 174,
+  "definition_type": "explicit",
+  "quote": "Experiments involve explanatory variables, called factors, that are believed to have an effect on response variables.",
+  "plain_en": "explanatory variable in an experiment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Response variable",
+  "page": 174,
+  "definition_type": "implicit",
+  "quote": "A group is intentionally treated with some level of the explanatory variable, and the outcome of the response variable is measured.",
+  "plain_en": "outcome measured in an experiment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Comparison",
+  "page": 175,
+  "definition_type": "explicit",
+  "quote": "In comparison, we wish to compare a response variable with regard to two or more experimental conditions (treatments)",
+  "plain_en": "comparing responses across treatments"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Control group",
+  "page": 175,
+  "definition_type": "explicit",
+  "quote": "If the purpose of an experiment is to determine whether some treatment has an effect, we compare to a control group that doesn’t receive that treatment.",
+  "plain_en": "group not receiving the treatment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Placebo",
+  "page": 175,
+  "definition_type": "explicit",
+  "quote": "Depending on the experiment, a control group may be given an inactive treatment (a placebo), an established active treatment, or no treatment at all.",
+  "plain_en": "inactive dummy treatment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Blinding",
+  "page": 176,
+  "definition_type": "explicit",
+  "quote": "Blinding occurs when the subjects don’t know which of the different treatments (such as placebos) they are receiving.",
+  "plain_en": "subjects unaware of treatment received"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Double-blinding",
+  "page": 176,
+  "definition_type": "explicit",
+  "quote": "Double-blinding is when neither the subjects nor the response evaluators know who is receiving which treatment.",
+  "plain_en": "subjects and evaluators unaware of treatments"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Random assignment",
+  "page": 176,
+  "definition_type": "explicit",
+  "quote": "In random assignment, we use chance to randomly assign treatments to experimental units:",
+  "plain_en": "using chance to assign treatments"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Replication",
+  "page": 176,
+  "definition_type": "explicit",
+  "quote": "In replication, the larger the sample is, the more significant the observation:",
+  "plain_en": "using enough subjects in each treatment"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Control",
+  "page": 176,
+  "definition_type": "explicit",
+  "quote": "Control allows us to minimize the sources of variation other than the treatments by making conditions as similar as possible for all treatment groups:",
+  "plain_en": "keeping conditions similar across groups"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Confounding",
+  "page": 178,
+  "definition_type": "explicit",
+  "quote": "Two variables are confounded when both are associated with a response variable and are also associated with each other.",
+  "plain_en": "two variables effects cannot be separated"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Completely randomized design",
+  "page": 180,
+  "definition_type": "explicit",
+  "quote": "Random assignment to treatments, called completely randomized design, is critical in good experimental design.",
+  "plain_en": "all subjects randomly assigned to treatments"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Matched pairs design",
+  "page": 181,
+  "definition_type": "explicit",
+  "quote": "A matched pairs design (also called a paired comparison design) is when two treatments are compared based on the responses of paired subjects, one of whom receives one treatment while the other receives the second treatment.",
+  "plain_en": "treatments compared using paired subjects",
+  "covers_concepts": "Matched pairs design; Paired comparison design"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Block design",
+  "page": 182,
+  "definition_type": "explicit",
+  "quote": "blocking, in experimental design, first divides the subjects into representative groups called blocks based on similar characteristics. Subjects within each block are randomly assigned treatments.",
+  "plain_en": "randomize treatments within similar blocks"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Statistically significant",
+  "page": 184,
+  "definition_type": "explicit",
+  "quote": "something is statistically significant if the probability of it happening just by chance is so small that you’re convinced there must be another explanation.",
+  "plain_en": "result unlikely to occur by chance alone"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s20",
+  "name": "Bias",
+  "page": 198,
+  "definition_type": "glossary",
+  "quote": "Bias: when a study systematically favors certain outcomes",
+  "plain_en": "study systematically favors certain outcomes"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s20",
+  "name": "Block design (glossary)",
+  "page": 198,
+  "definition_type": "glossary",
+  "quote": "Block design: an experimental design where subjects are divided into representative groups to bring certain differences into the picture and reduce variation (for example, blocking by gender, age, or race) and randomization then takes place within each block",
+  "plain_en": "divide subjects into groups then randomize"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u1-s17",
+  "name": "Explanatory variable",
+  "page": 174,
+  "definition_type": "explicit",
+  "quote": "Experiments involve explanatory variables, called factors, that are believed to have an effect on response variables.",
+  "plain_en": "variable thought to affect the response"
+ }
+]

@@ -1,0 +1,804 @@
+{
+  "generated_at": "2026-10-27T13:37:18+00:00",
+  "paper_id": "psychology-barrons-2027-ch7-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 9,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-108ccd9405ffa0a8",
+          "name": "convergence",
+          "confidence": 0.97,
+          "evidence": "Convergence",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2c247fa215adf9",
+          "name": "binocular depth cues",
+          "confidence": 0.9,
+          "evidence": "If you had sight in only one eye"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-d7ae6dd2ec5bc48b",
+          "name": "monocular depth cues",
+          "confidence": 0.75,
+          "evidence": "which of the following depth cues could you NOT use?"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-b0dacbd927b554c4",
+          "name": "texture gradient",
+          "option_label": "A",
+          "reason": "Texture gradient is a depth cue, but it is monocular and still usable with one eye."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-9f77c57f81bc82c5",
+          "name": "linear perspective",
+          "option_label": "C",
+          "reason": "Linear perspective is a depth cue, but it is monocular and still usable with one eye."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a060c663134dc5e8",
+          "name": "interposition",
+          "option_label": "D",
+          "reason": "Interposition is a depth cue, but it is monocular and still usable with one eye."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "sight in only one eye",
+          "normalized": "sight in only one eye",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "depth cues",
+          "normalized": "depth cues",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Convergence",
+          "normalized": "convergence",
+          "kp_id": "psychology-barrons-2027-kp-108ccd9405ffa0a8",
+          "kp_name": "convergence",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Texture gradient",
+          "normalized": "texture gradient",
+          "kp_id": "psychology-barrons-2027-kp-b0dacbd927b554c4",
+          "kp_name": "texture gradient",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Linear perspective",
+          "normalized": "linear perspective",
+          "kp_id": "psychology-barrons-2027-kp-9f77c57f81bc82c5",
+          "kp_name": "linear perspective",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Interposition",
+          "normalized": "interposition",
+          "kp_id": "psychology-barrons-2027-kp-a060c663134dc5e8",
+          "kp_name": "interposition",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Convergence is the tested binocular cue; the other options are monocular depth cues that remain usable with one eye.",
+      "warnings": [
+        "keyword 'sight in only one eye': not a known alias of 'monocular depth cues'; stored without a KP",
+        "keyword 'depth cues': not a known alias of 'depth perception'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-39e9d85c44ec8211",
+          "name": "top-down processing",
+          "confidence": 0.97,
+          "evidence": "Which type of processing best explains this example of perception?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-05c7e896e899bb4c",
+          "name": "bottom-up processing",
+          "option_label": "A",
+          "reason": "Bottom-up processing is the opposing perceptual processing type; tempting because the image is built from visible features, but the item tests filling in missing information."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-1649b32ac5d91cf1",
+          "name": "signal detection theory",
+          "option_label": "B",
+          "reason": "Signal detection theory is another perceptual theory about detecting stimuli, but it does not explain filling in missing visual elements."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "processing",
+          "normalized": "processing",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "perception",
+          "normalized": "perception",
+          "kp_id": "psychology-barrons-2027-kp-d955e979790dcd37",
+          "kp_name": "Perception",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Bottom-up processing",
+          "normalized": "bottom up processing",
+          "kp_id": "psychology-barrons-2027-kp-05c7e896e899bb4c",
+          "kp_name": "bottom-up processing",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Signal detection theory",
+          "normalized": "signal detection theory",
+          "kp_id": "psychology-barrons-2027-kp-1649b32ac5d91cf1",
+          "kp_name": "signal detection theory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Top-down processing",
+          "normalized": "top down processing",
+          "kp_id": "psychology-barrons-2027-kp-39e9d85c44ec8211",
+          "kp_name": "top-down processing",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Opponent-process theory",
+          "normalized": "opponent process theory",
+          "kp_id": "psychology-barrons-2027-kp-c50ff7ecb9044e88",
+          "kp_name": "Opponent-process theory",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is top-down processing because the correct answer requires understanding that background knowledge fills perceptual gaps. Bottom-up processing is the closest confusable.",
+      "warnings": [
+        "confusable 'Opponent-process theory' is in option 'D' but not in the core's narrow domain; dropped",
+        "supporting 'bottom-up processing' duplicates a confusable; dropped",
+        "keyword 'processing': not a known alias of 'top-down processing'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dcd5a7fcef424469",
+          "name": "perceptual sets",
+          "confidence": 0.95,
+          "evidence": "some perceptual rules are learned and vary among cultures",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "culture",
+          "normalized": "culture",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "perception",
+          "normalized": "perception",
+          "kp_id": "psychology-barrons-2027-kp-d955e979790dcd37",
+          "kp_name": "Perception",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "perceptual rules",
+          "normalized": "perceptual rules",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "learned",
+          "normalized": "learned",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "inborn",
+          "normalized": "inborn",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "sensory apparatuses",
+          "normalized": "sensory apparatuses",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests cultural variation in learned perceptual rules (perceptual sets); wrong options A, B, D are not close enough to candidate concepts to serve as confusables.",
+      "warnings": [
+        "supporting 'Perception' is not in the correct option or the core subheading; dropped",
+        "keyword 'perceptual rules': not a known alias of 'perceptual sets'; stored without a KP",
+        "keyword 'learned': not a known alias of 'perceptual sets'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-6a34719b1be66982",
+          "name": "shape constancy",
+          "confidence": 0.97,
+          "evidence": "describe the shape of the top of a box as the box is slowly rotated",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fb798cb6dbc031ea",
+          "name": "constancy",
+          "confidence": 0.7,
+          "evidence": "shape of the top of a box as the box is slowly rotated"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2c247fa215adf9",
+          "name": "binocular depth cues",
+          "option_label": "D",
+          "reason": "Binocular depth cues are another visual perception topic, but they concern depth rather than shape constancy."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "shape",
+          "normalized": "shape",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "rotated",
+          "normalized": "rotated",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Shape constancy",
+          "normalized": "shape constancy",
+          "kp_id": "psychology-barrons-2027-kp-6a34719b1be66982",
+          "kp_name": "shape constancy",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Feature detectors",
+          "normalized": "feature detectors",
+          "kp_id": "psychology-barrons-2027-kp-6f6894b150f2dc02",
+          "kp_name": "Feature detectors",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "rods and cones",
+          "normalized": "rods and cones",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Binocular depth cues",
+          "normalized": "binocular depth cues",
+          "kp_id": "psychology-barrons-2027-kp-0e2c247fa215adf9",
+          "kp_name": "binocular depth cues",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests shape constancy: recognizing that an object's shape is perceived as constant despite changes in viewing angle. Option C is only loosely related to perception and is not treated as a confusable.",
+      "warnings": [
+        "confusable 'Feature detectors' is in option 'B' but not in the core's narrow domain; dropped",
+        "keyword 'shape': not a known alias of 'shape constancy'; stored without a KP",
+        "keyword 'rotated': not a known alias of 'shape constancy'; stored without a KP",
+        "keyword 'rods and cones': not a known alias of 'Rods'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-05c7e896e899bb4c",
+          "name": "bottom-up processing",
+          "confidence": 0.95,
+          "evidence": "Bottom-up processing",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-6d0903335b76380b",
+          "name": "Similarity",
+          "option_label": "D",
+          "reason": "Similarity is a Gestalt grouping principle, tempting because the band forms groups of members, but it concerns grouping similar-looking items rather than building perception from features."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a060c663134dc5e8",
+          "name": "interposition",
+          "option_label": "A",
+          "reason": "Interposition is a depth cue, tempting as a perceptual principle but unrelated to building an overall interpretation from sensory features."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Bottom-up processing",
+          "normalized": "bottom up processing",
+          "kp_id": "psychology-barrons-2027-kp-05c7e896e899bb4c",
+          "kp_name": "bottom-up processing",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "perceptual principles",
+          "normalized": "perceptual principles",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Interposition",
+          "normalized": "interposition",
+          "kp_id": "psychology-barrons-2027-kp-a060c663134dc5e8",
+          "kp_name": "interposition",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Stroboscopic motion",
+          "normalized": "stroboscopic motion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Similarity",
+          "normalized": "similarity",
+          "kp_id": "psychology-barrons-2027-kp-6d0903335b76380b",
+          "kp_name": "Similarity",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests bottom-up processing as building perception from sensory features; the band members use local positional information to construct the overall word perception.",
+      "warnings": [
+        "supporting 'Perception' is not in the correct option or the core subheading; dropped",
+        "confusable 'stroboscopic effect' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'Stroboscopic motion': not a known alias of 'stroboscopic effect'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "name": "Scatterplot",
+          "confidence": 0.97,
+          "evidence": "what kind of graph would be most helpful?",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-80ad125e9a28b707",
+          "name": "Correlation",
+          "confidence": 0.9,
+          "evidence": "If the researchers’ wanted to see if there was a relationship between recognizing your own name and recognizing the other name",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "relationship",
+          "normalized": "relationship",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "graph",
+          "normalized": "graph",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Scatter plot",
+          "normalized": "scatter plot",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Frequency distribution",
+          "normalized": "frequency distribution",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item asks which graph best displays a relationship between two variables; scatterplot is the core graph concept, with correlation as the underlying statistical relationship.",
+      "warnings": [
+        "supporting 'Correlation' is not in the correct option or the core subheading; dropped",
+        "confusable 'Percentiles' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'relationship': not a known alias of 'Correlation'; stored without a KP",
+        "keyword 'graph': not a known alias of 'Scatterplot'; stored without a KP",
+        "keyword 'Scatter plot': not a known alias of 'Scatterplot'; stored without a KP",
+        "keyword 'Frequency distribution': not a known alias of 'Percentiles'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "confidence": 0.95,
+          "evidence": "Which of the variables has the highest mean?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "option_label": "D",
+          "reason": "Students may confuse comparing means with comparing spread (range) of the data columns."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "mean",
+          "normalized": "mean",
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "kp_name": "Mean",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "variables",
+          "normalized": "variables",
+          "kp_id": "psychology-barrons-2027-kp-d85e742380078417",
+          "kp_name": "Variables",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests identifying which variable has the highest mean from a data table; core is the mean concept, with variables as supporting context.",
+      "warnings": [
+        "supporting 'Variables' is not in the correct option or the core subheading; dropped",
+        "keyword 'Percent Recognition of Own Name': whole/long option text; dropped",
+        "keyword 'Percent Recognition of Other Name': whole/long option text; dropped",
+        "keyword 'Percent grade on Questions about Video': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7609a89455567181",
+          "name": "Cocktail party effect",
+          "confidence": 0.95,
+          "evidence": "participants were better able to recognize their own name than someone else’s",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-46b73446afcc002a",
+          "name": "cocktail party effect",
+          "confidence": 0.6,
+          "evidence": "recognize their own name"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "recognize their own name",
+          "normalized": "recognize their own name",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cocktail party effect",
+          "normalized": "cocktail party effect",
+          "kp_id": "psychology-barrons-2027-kp-7609a89455567181",
+          "kp_name": "Cocktail party effect",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Top-down processing",
+          "normalized": "top down processing",
+          "kp_id": "psychology-barrons-2027-kp-39e9d85c44ec8211",
+          "kp_name": "top-down processing",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Gestalt principles of perception",
+          "normalized": "gestalt principles of perception",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Bottom-up processing",
+          "normalized": "bottom up processing",
+          "kp_id": "psychology-barrons-2027-kp-05c7e896e899bb4c",
+          "kp_name": "bottom-up processing",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the cocktail party effect as the specific phenomenon of noticing one's own name; perceptual processing and Gestalt options are same-domain near-misses.",
+      "warnings": [
+        "confusable 'top-down processing' is in option 'A' but not in the core's narrow domain; dropped",
+        "confusable 'bottom-up processing' is in option 'D' but not in the core's narrow domain; dropped",
+        "confusable 'Gestalt psychology' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'recognize their own name': not a known alias of 'Cocktail party effect'; stored without a KP",
+        "keyword 'Gestalt principles of perception': not a known alias of 'Gestalt psychology'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch7-review-009",
+      "number": 9,
+      "status": "needs_review",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c85ea5616fa2c51a",
+          "name": "Dependent variable",
+          "confidence": 0.9,
+          "evidence": "the dependent variable in the study is not a numerical measure but rather a report of whether participants noticed the mascot or not",
+          "evidence_source": "explanation"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-58d873ac62fe4cb7",
+          "name": "Median",
+          "option_label": "B",
+          "reason": "Median is a measure of central tendency that requires numerical scores, so it is tempting but cannot describe a categorical yes/no outcome."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "option_label": "A",
+          "reason": "Range is a descriptive statistic for numerical data, so it seems relevant but cannot be computed for a categorical outcome."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "option_label": "D",
+          "reason": "Mean is the most familiar average, so it is tempting, but it requires numerical scores rather than a noticed/not-noticed report."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "replication",
+          "normalized": "replication",
+          "kp_id": "psychology-barrons-2027-kp-f2f72e9d0fe8ae5d",
+          "kp_name": "Replication",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "range",
+          "normalized": "range",
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "kp_name": "Range",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "median",
+          "normalized": "median",
+          "kp_id": "psychology-barrons-2027-kp-58d873ac62fe4cb7",
+          "kp_name": "Median",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "percent",
+          "normalized": "percent",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "mean",
+          "normalized": "mean",
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "kp_name": "Mean",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests choosing a descriptive statistic appropriate for categorical (noticed/not noticed) data; percent is the correct answer, while range, median, and mean require numerical scores.",
+      "warnings": [
+        "supporting 'Median' is not in the correct option or the core subheading; dropped",
+        "core 'Dependent variable': evidence is not an exact quote from stem/context/correct option"
+      ],
+      "errors": [
+        "keyword 'dependent variable': not found in context"
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,678 @@
+=== PAGE 1 ===
+
+=== PAGE 2 ===
+
+=== PAGE 3 ===
+
+=== PAGE 4 ===
+
+=== PAGE 5 ===
+Dedication
+To Kristin, Esme, and Guy.—R.M.
+To Sara, Kate, and EIi.—A.W.
+=== PAGE 6 ===
+About the Authors
+Rob McEntarffer taught AP Psychology at Lincoln Southeast High School in Lincoln, NE,
+for 13 years and Psychology at Nebraska Wesleyan University for 7 years. He earned his
+teaching certificate in psychology from the University of Nebraska, a master’s degree in
+educational psychology, and a Ph.D. in education. He has extensive experience in scoring
+the Advanced Placement Psychology free-response questions, having served as a Reader
+and Table Leader, and as the high school Question Leader. He is past chair of the national
+organization Teachers of Psychology in Secondary Schools, worked with the committee on
+the National Standards for the Teaching of High School Psychology, and is involved in
+writing assessment materials for high school- and college-level introductory psychology
+textbooks. He works as an assessment specialist for his school district.
+Allyson Weseley has taught AP Psychology and run a Behavioral Science Research
+Program at Roslyn High School in Roslyn Heights, NY, for over 25 years. Her students have
+enjoyed great success on the AP exam, with a 100 percent passing rate and well over 80
+percent earning 5s. She earned an undergraduate degree in psychology from Princeton
+University, a master’s degree from the Harvard Graduate School of Education, and a
+doctorate from Columbia University’s Teachers College. Dr. Weseley has served as a Reader
+and Table Leader for the AP Psychology exam, published a number of psychology-related
+activities, led several psychology teacher workshops, and served on the board of Teachers
+of Psychology in Secondary Schools.
+=== PAGE 7 ===
+AP® is a registered trademark of the College Board, which is not affiliated with Barron’s
+and was not involved in the production of, and does not endorse, this product.
+© Copyright 2026, 2025, 2024, 2023, 2022, 2020, 2018, 2016, 2014, 2012, 2010, 2007,
+2004, 2000 by Kaplan North America, LLC, d/b/a Barron’s Educational Series
+All Rights Reserved. This material is protected under International and Pan-American
+Copyright Conventions. By payment of the required fees, you have been granted the non-
+exclusive, non-transferable right to access and read the text of this eBook on screen. No
+part of this eBook may be reproduced, distributed, or transmitted in any form or by any
+means—including downloading, decompiling, reverse engineering, duplicating, reselling,
+storing in, introducing into, or incorporating into any information storage or retrieval
+system, or used in any artificial intelligence analysis software, such as generative AI
+systems or machine learning models, without the express written permission of Kaplan
+North America, LLC.
+Published by Kaplan North America, LLC, d/b/a Barron’s Educational Series
+1515 West Cypress Creek Road
+Fort Lauderdale, Florida 33309
+www.barronseduc.com
+ISBN: 979-8-3497-0153-5
+10 9 8 7 6 5 4 3 2 1
+=== PAGE 8 ===
+Table of Contents
+How to Use This Book
+B arron’ s Essential 5
+AP Psychology Course and Exam Description
+UNIT 0: SCIENCE PRACTICES
+1 History of Psychology
+Psychological Perspectives
+Summary
+2 Research Methods
+Overview
+Hypotheses and Variables
+Validity and Reliability
+Experimental Method
+Correlational Method
+Naturalistic Observation
+Qualitative Methods
+3 Statistics and Ethics in Research
+Overview
+Descriptive Statistics
+Correlations
+Inferential Statistics
+APA Ethical Guidelines
+UNIT 1: BIOLOGICAL BASES OF BEHAVIOR
+4 Biological Bases of Behavior
+=== PAGE 9 ===
+Overview
+Genetics
+Neuroanatomy
+Nervous System
+Endocrine System
+The Brain
+Review Questions
+5 States of Consciousness
+Overview
+Levels of Consciousness
+Drugs
+Sleep
+Dreams
+Review Questions
+6 Sensation
+Overview
+Energy Senses
+Chemical Senses
+Body Position Senses
+Review Questions
+UNIT 2: COGNITION
+7 Perception
+Overview
+Thresholds
+Perceptual Theories
+Principles of Visual Perception
+Effects of Culture on Perception
+Extrasensory Perception
+Review Questions
+8 Thinking and Creativity
+Overview
+=== PAGE 10 ===
+Describing Thought
+Problem-Solving
+Creativity
+Review Questions
+9 Memory
+Overview
+Three-Box/Information-Processing Model
+Sensory Memory
+Short-Term and Working Memory
+Long-Term Memory
+Levels of Processing Model
+Encoding Memories
+Storing Memories
+Retrieval
+Constructive Memory
+Forgetting
+Review Questions
+10 Testing and Individual Differences
+Overview
+Standardization and Norms
+Reliability and Validity
+Types of Tests
+Theories of Intelligence
+Intelligence Tests
+Nature vs. Nurture: Intelligence
+Review Questions
+UNIT 3: DEVELOPMENT AND LEARNING
+11 Developmental Psychology
+Overview
+Developmental Psychology Research Methods
+Prenatal Influences
+=== PAGE 11 ===
+Motor/Sensory Development
+Gender and Development
+Stage Theories
+Cognitive Development
+Language
+Parenting
+Review Questions
+12 Learning
+Overview
+Classical Conditioning
+Operant Conditioning
+Cognitive Learning
+Review Questions
+UNIT 4: SOCIAL PSYCHOLOGY, PERSONALITY,
+MOTIVATION, AND EMOTION
+13 Social Psychology
+Overview
+Attribution Theory
+Attitude Formation and Change
+Compliance Strategies
+Stereotypes, Prejudice, and Discrimination
+Aggression and Antisocial Behavior
+Prosocial Behavior
+Attraction
+The Psychology of Social Situations
+Group Dynamics
+Review Questions
+14 Personality
+Overview
+Psychodynamic Theories of Personality
+Humanistic Theories of Personality
+=== PAGE 12 ===
+Trait Theories
+Social Cognitive Theories
+Review Questions
+15 Motivation and Emotion
+Overview
+Theories of Motivation
+Hunger Motivation
+Sexual Motivation
+Social Motivation
+Theories About Emotion
+Nonverbal Expressions of Emotion
+Review Questions
+UNIT 5: MENTAL AND PHYSICAL HEALTH
+16 Health Psychology
+Overview
+Stress
+Positive Psychology
+Review Questions
+17 Psychological Disorders
+Overview
+Defining Psychological Disorders
+Categories of Disorders
+The Advantages and Disadvantages of Diagnostic Labels
+Review Questions
+18 Treatment of Psychological Disorders
+Overview
+Types of Therapy
+Kinds of Therapists
+Review Questions
+19 Multiple-Choice Test-Taking Tips
+=== PAGE 13 ===
+Overview
+Test-Taking Strategies
+Skills
+20 Answering Free-Response Questions
+Overview
+Article Analysis Question (AAQ)
+Evidence-Based Question (EBQ)
+PRACTICE TESTS
+Practice Test 1
+Answer Explanations
+Practice Test 2
+Answer Explanations
+Practice Test 3
+Answer Explanations
+=== PAGE 14 ===
+How to Use This Book
+Barron’s AP Psychology is designed to help you master key
+psychological concepts while developing the analytical skills required
+for success on the AP Psychology Exam. You can use this book
+alongside your course or as a comprehensive review tool as you
+prepare for the exam.
+Course Content
+This book provides a thorough review of AP Psychology, organized to
+build understanding and reinforce skills progressively. You may work
+through the book sequentially or focus on specific units as needed.
+Features of this edition include:
+■ A clear overview of the AP Psychology course framework and
+exam format
+■ A foundational section focused on the science practices used
+throughout the course
+■ Key vocabulary terms highlighted in bold to emphasize
+essential concepts
+■ AP-style multiple-choice questions at the end of each chapter
+reinforce what you have learned
+As you move through each chapter, review the content carefully
+before attempting the practice questions to check your
+understanding.
+Multiple-Choice Questions
+=== PAGE 15 ===
+Multiple-choice questions on the AP Psychology Exam emphasize
+application and analysis rather than memorization. In this book:
+■ End-of-chapter questions and practice test items reflect the
+style and rigor of the exam
+■ Questions require you to apply psychological concepts to
+research-based and real-world scenarios
+■ A dedicated chapter provides strategies for approaching
+multiple-choice questions effectively
+Use these questions to identify areas of strength and topics that may
+require additional review.
+NOTE
+You will find multiple choice practice items for Unit 0 (chapters 1–3)
+integrated into the end of chapter multiple choice items for Units 1–5
+(chapters 4–18). The College Board CED recommends that information/skills
+from Unit 0 are INTEGRATED into the other content chapters, so we crafted
+multiple choice items at the ends of chapters 4–18 to reflect that
+recommendation. Also, note that some chapters have more end of chapter
+multiple choice items than others — this is deliberate! We based the number
+of end of chapter questions on what chapters/concepts are more likely to be
+tested on the AP test.
+Free-Response Questions (FRQs)
+The AP Psychology Exam includes two free-response questions that
+assess your ability to explain and apply psychological concepts
+clearly and accurately. This book includes:
+■ An overview of the free-response question format
+■ Sample questions with explanations
+■ Guidance on how responses are scored
+Practice outlining responses before writing full answers, and review
+scoring guidance to understand what earns credit.
+=== PAGE 16 ===
+Practice Exams
+This edition includes four full-length practice tests—three in the book
+and one online—designed to mirror the structure, difficulty, and
+emphasis of the AP Psychology Exam. Use these exams to gauge
+your readiness, identify areas of weakness, and target your final
+review on the topics and skills that need the most attention.
+=== PAGE 17 ===
+Barron’s
+Essential
+5
+As you review the content in this book to work toward earning that
+5 on your AP PSYCHOLOGY exam, here are five things that you
+MUST know above everything else:
+Psychology is a science. Psychological researchers
+use the scientific method to gather data and test
+hypotheses about the mind and behavior instead of
+relying on intuition, what the majority of people
+believe, or “common sense.” Often what people refer
+to as “common sense” offers contradictory ideas.
+Regarding attraction, common sense tells us both that
+“opposites attract” and that “birds of a feather flock
+together.” Psychological researchers carefully gather
+data about topics like attraction to reach conclusions
+rather than rely on intuition or belief. Unit 0 describes
+in detail how psychologists gather data and test
+hypotheses. Understanding research methodology is
+vital to your performance on the exam and your
+understanding of the science of psychology.
+Know the psychological perspectives.
+Psychological researchers study the mind and behavior
+from different “perspectives.” Each perspective uses
+some unique research methods, concepts, and
+vocabulary to describe and explain thinking and
+behavior. Knowing the vocabulary and concepts
+=== PAGE 18 ===
+associated with each perspective can help you better
+understand psychological theories and quickly narrow
+down possible answers to exam questions. For
+instance, if a question uses the term classical
+condi tioning, you should be able to immediately
+identify the question as belonging in the “behavioral”
+area of psychology and look for answers that include
+other behavioral terms. The psychological perspectives
+are introduced in Unit 0 and form the basis for the
+discussion of personality, psychological disorders, and
+treatment of psychological disorders found in later
+units.
+Know your terms. Psychological terms refer to
+specific concepts, and it is important that you don’t
+confuse these terms with “pop” psychological ideas or
+the casual ways nonpsychologists use the same words.
+For example:
+• To a psychologist, people diagnosed with antisocial
+personality disorder (Unit 5) are not shy or
+unfriendly but, rather, callous and unfeeling toward
+others.
+• “Learning” in psychological terms refers to much
+more than learning in school and is divided into
+many specific kinds of learning such as classical and
+operant conditioning. You can read more about this
+in Unit 3.
+You should make sure that you understand the
+specific, scientific meaning of psychological terms.
+Most of the multiple-choice items on the exam (which
+determine the majority of your final score) measure
+your ability to apply psychological terminology.
+=== PAGE 19 ===
+Application is key. The AP Psychology test is
+designed to measure your knowledge of psychological
+concepts and ability to apply these concepts. Exam
+items (especially the free-response questions) usually
+require you to go beyond defining terms by applying
+them to a scenario or making connections between
+different concepts. However, the AP Psychology exam
+is not designed to measure your writing ability or
+ability to express your knowledge in creative or unique
+ways. The measurement goals of this exam are to
+assess your knowledge of psychological concepts and
+your ability to apply this knowledge.
+Use what psychology teaches you about
+cognition (Unit 2) to improve your study habits.
+You have been a student for many years, and no
+doubt you’ve received advice about how to study and
+have developed your own study habits. Use what
+psychology teaches you about cognition to improve
+your study habits. Studying for the AP Psychology
+exam is an opportunity for you to modify your study
+methods based on the research findings about the
+effectiveness of different encoding and recall
+techniques. For example:
+• Memory research clearly indicates that “distributed
+practice” (spacing your studying over a span of
+days or weeks) is much more effective than
+“massed practice” (“cramming” all your studying
+just before the test).
+• Memory techniques like chunking, mnemonic
+devices, and context cues can dramatically improve
+your ability to recall sets of terms and save you
+hours of study time.
+=== PAGE 20 ===
+• The information-processing model predicts that
+focusing on the meaning, context, and application
+of psychological ideas will increase your ability to
+recall and use psychological ideas.
+• Research indicates that students can (and should)
+take advantage of the “testing effect” (also known
+as the “retrieval practice”): you should interrupt
+your reading and studying with frequent small
+“tests” of your knowledge. Use the practice
+questions at the end of each unit to test your
+knowledge.
+=== PAGE 21 ===
+AP Psychology Course and
+Exam Description
+Traditional Chapters in College Intro.
+Psych. Textbooks (aligned with this
+Kaplan book)
+History of Psychology Research Methods and Ethics
+Statistics and Data Interpretation
+Biological Bases of Behavior States of Consciousness
+AP Psychology Course and Exam
+Description (2024–25 CED Revision)
+Unit 0: Research methods (research
+methods, data interpretation, scientific
+argumentation infused throughout the
+curriculum and test)
+Sensation
+Unit 1: Biological Bases of Behavior
+(Heredity/Environment, Nervous
+system, Neurons, Brain, Sleep,
+Sensation)
+15–25%
+Perception
+Thinking and Creativity
+Memory
+Testing and Individual Differences
+Developmental
+Unit 2: Cognition (perception,
+thinking/problem solving, memory
+(encoding/storing/retrieving),
+forgetting, intelligence)
+15–25%
+Unit 3: Development and Learning
+(themes and methods, physical
+development, gender/sexual
+orientation, cognitive development,
+=== PAGE 22 ===
+Traditional Chapters in College Intro.
+Psych. Textbooks (aligned with this
+Kaplan book)
+Learning
+AP Psychology Course and Exam
+Description (2024–25 CED Revision)
+language, social-emotional, classical
+conditioning, operant conditioning,
+social/cognitive and neuro factors in
+learning)
+15–25%
+Social Personality
+Motivation and Emotion
+Unit 4: Social and Personality
+(attribution/person perception, attitude
+formation, social situations,
+psychoanalytic and humanistic, social-
+cognitive and trait, motivation,
+emotion)
+15–25%
+Disorders Treatment
+Unit 5: Mental and Physical health
+(health, positive psychology, disorders,
+treatment)
+15–25%
+Because this is a review book, our aim is to emphasize the
+information you need to understand in order to be successful on the
+AP Psychology exam. However, some of these theories and ideas are
+particularly important. (Some are keys necessary for understanding
+concepts later. We believe that some of these theories and ideas will
+be emphasized on the exam. Finally, some are just very important
+for understanding the science of thinking and behavior.) We convey
+this importance by highlighting this material as Tips in the text.
+Terms that also appear in the College Board’s AP Psychology Course
+and Exam Description are set in bold in the text. These terms can
+also be found in the index.
+Science Practices
+=== PAGE 23 ===
+The AP Psychology Exam includes multiple-choice questions that are
+keyed to one of three science practices in addition to the relevant
+content area. These science practices reflect the skills you are
+expected to apply when analyzing psychological information. More
+detailed guidance on these practices is provided in Chapter 19,
+“Multiple-Choice Test-Taking Tips.” Below is a brief overview of what
+you should know about the science practices.
+Science Practice 1: Concept Application
+This skill simply refers to your ability to USE the concepts, theories,
+terms, perspectives, and other ideas in the AP Psychology
+curriculum. All the multiple-choice and free-response questions on
+the exam require you to USE your knowledge rather than just recall
+it. For instance, you will be asked about concepts as they relate to
+specific scenarios and to compare concepts with one another. Being
+able to define the terms in this book is a good first step. Remember,
+though, that you need to understand how to use and apply these
+terms, not just repeat their definitions. We always emphasize
+examples and applications in this book, and you should do the same
+as you study these terms. Creating your own examples and
+applications of these terms will help you more on the test than
+memorizing definitions. About 65 percent of the multiple-choice
+items on the test (about 49 of the 75 items) will be keyed as
+concept application items in addition to being keyed to one of the
+five content units.
+Science Practice 2: Research Methods and Design
+This skill refers to your understanding of how psychological
+researchers design research studies. In this book, we call this
+content Unit 0, “Science Practices.” In that unit, you will learn about
+the unique research methods psychologists use to try to answer the
+complex research questions posed by psychological research. About
+25 percent of the multiple-choice items on the test (about 18 of the
+75 items) will be keyed as research methods items in addition to
+being keyed to one of the five content units.
+=== PAGE 24 ===
+NOTE
+You will find a fourth science practice listed in the AP Psychology Course and
+Exam Description: “Science Practice 4: Argumentation.” This skill is measured
+by only one of the free-response questions, not the multiple-choice questions.
+You will find more information about argumentation in Chapter 20,
+“Answering Free-Response Questions.”
+Science Practice 3: Data Interpretation
+This skill refers to analyzing quantitative data—numbers! You will
+learn in Chapter 2 “Research Methods” that psychological
+researchers usually try to measure psychological variables
+numerically. Then researchers use statistical methods to analyze
+what these measurements might mean about thinking and behavior.
+You will learn about a few basic statistical techniques researchers
+use in psychology and then you can use the data interpretation
+multiple-choice questions to measure your ability to use those
+statistical techniques in specific examples. About 10 percent of the
+multiple-choice items on the test (7 or 8 of the 75 items) will be
+keyed as data interpretation items, in addition to being keyed to one
+of the five content units.
+Practice Questions, Test Tips, and Practice
+Exams
+Multiple-choice practice questions and explanations of the correct
+answers are provided at the end of each chapter. We recommend
+that you first review the material in the chapter and then close the
+book and try to answer all the review questions with your book
+closed. Then open the book to check your answers and carefully
+review the explanations to make sure of the following:
+■ If you answered the question right, you got it right for the
+correct reasons!
+=== PAGE 25 ===
+■ If you got the question wrong, review the explanation for the
+correct answer and why the incorrect answers are wrong. Then
+close the book again and write out what you remember about
+how that concept applied to that question. This will help you
+encode the correct understanding of that term or idea.
+To help you prepare for the exam, we include three sections with
+detailed information about the exam:
+■ Overview of the AP Psychology exam: includes details about
+the structure of the exam, timing, and scoring.
+■ Multiple-choice test-taking tips: includes an analysis of the
+kinds of multiple-choice items you will see on the exam and a
+suggested process you can use to think your way through AP
+Psychology multiple-choice questions to determine the correct
+answer.
+■ Answering the free-response questions: includes descriptions
+of both free-response questions as well as complete sample
+questions and answers.
+Using Psychology to Study Psychology
+Research by cognitive and educational psychologists indicates that
+the following three principles are the most powerful techniques you
+can use to make your studying more efficient. This book is designed
+and organized to help you use these principles. If you read this
+section carefully and plan how you will use these three ideas, you
+will learn the content for the AP Psychology exam more quickly. You
+will also increase the chances that you can recall the ideas when you
+need them on the exam (and in situations you encounter in your
+life!)
+Distributed Practice
+Studies consistently show that spreading out your studying over a
+period of time is much more effective than “massing” studying just
+=== PAGE 26 ===
+before you have to use the information (in other words, cramming
+for a test). You should use this finding to plan how to distribute your
+studying time. You are probably busy with many other activities
+during the weeks before the AP exam, so you should use the
+distributed practice principle to start thinking and planning now
+about how to distribute your AP Psychology practice. Studying 15–30
+minutes a night for three weeks before the exam will be much more
+effective than waiting until two days before the test and cramming in
+all your study time right before the exam. We suggest that you make
+yourself a schedule based on the table of contents of this book and
+devote shorter study sessions for each of the units in this book.
+Depth of Processing
+Encoding the meaning of terms and how those ideas apply in
+realistic examples is an example of deep processing. As you read
+about the theories, terms, and perspectives in this book, think about
+what they mean to you and how they apply to your life. Create and
+describe your own personal examples of these terms rather than
+spending time copying down definitions. In this book, we provide
+multiple examples of the terms and concepts. Information that you
+deeply process is much more likely to be encoded into your long-
+term memory. The more you personalize the terms and examples,
+thinking about how they apply to you and your life, the more likely
+you are to be able to recall those terms on the exam. Remember,
+learning is a cognitively active process. The more you involve
+yourself in the process by thinking about how the terms and theories
+apply to you and your life, which is called the sel f-ref erence ef f ect ,
+the better you’ll remember what you need to remember. You’ll also
+reduce the overall amount of time you need to study!
+Retrieval Practice
+Using the principle of retrieval practice (also called the testing
+ef f ect ) simply means that you stop and test yourself to see what you
+encoded based on what you just read or studied. Interrupting your
+studying with frequent small quizzes is very effective. Students who
+=== PAGE 27 ===
+frequently answer questions about the content they are studying are
+more likely to remember that content, even if they don’t answer the
+questions on that small quiz correctly. This book is designed to help
+you take advantage of the power of retrieval practice. Each unit ends
+with practice questions. Treat these practice questions like a minitest
+after you are done studying the unit. Answer the question WITHOUT
+looking back at the text or looking ahead at the correct answers. Use
+the practice questions like a real test, and try to answer them based
+only on what you can pull out of your long-term memory. Even if you
+don’t feel ready for the quiz at the end of the unit or if you get many
+of the questions wrong, the experience of taking the test and
+thinking about your answers will help you learn and remember these
+ideas long-term. In fact, taking the AP exam will even feel easier!
+Overview of the AP Psychology Exam
+The AP Psychology exam has two parts: a multiple-choice section
+and a free-response section. You will have 2 hours and 40 minutes
+to complete the whole test.
+The multiple-choice portion of the exam contains 75 four-choice
+(A to D) questions. You have 90 minutes to complete these 75
+multiple-choice questions. The score for the multiple-choice section
+of the AP exam is based on the number of questions answered
+correctly. No points are deducted for questions answered incorrectly
+or left blank. Since there is no guessing penalty, make sure you
+answer every multiple-choice question on the exam. Chapter 19,
+“Multiple-Choice Test-Taking Tips,” explains important tips for
+correctly answering AP Psychology multiple-choice questions.
+The free-response section of the test consists of two questions:
+the Article Analysis Question (AAQ) and the Evidence-Based
+Question (EBQ). You must answer both free-response questions.
+Unlike many other AP exams, you will not be given a choice of topics
+(although you will be able to choose to use two of the three
+available article summaries for the EBQ question). You will have a
+total of 70 minutes for the free-response portion of the exam: 25
+=== PAGE 28 ===
+minutes for the AAQ and 45 minutes for the EBQ. Some students
+find that completing two free-response answers under a specific
+time limit is challenging. Chapter 20, “Answering Free-Response
+Questions,” provides important tips for answering AP Psychology
+AAQ and EBQ free-response questions. In addition, when you write
+about the sample item in Chapter 20, you get experience completing
+these types of questions within the time limit.
+Your overall composite score on the exam will range from 1 to 5
+and will take into account your performance on both the multiple-
+choice and free-response questions. The multiple-choice sections will
+count for twice as much in the final composite score: the multiple-
+choice section is weighted 66.7% on the exam and the free-
+response section is weighted 33.3%. So two-thirds of your score
+depends on your performance on the multiple-choice section, and
+the other one-third of your score depends on your writing during the
+free-response section.
+Each year, the percentage of students who earn each score differs
+slightly. More information on the score distributions from past years
+is available from College Board (see the College Board website:
+www .col legeboard.or g/ap).
+=== PAGE 29 ===
+Unit 0
+Science Practices
+This first unit focuses on current psychological perspectives and the research methods
+psychologists use to gather data about human thinking and behavior. You will find the
+content from this unit in the textbook you use in your AP Psychology class in the history
+and research methods chapters. Note that the research methods concepts you learn in this
+unit are important throughout the rest of the curriculum! On the AP test, you'll be asked to
+apply research methods to answer multiple-choice questions from each unit and in the free-
+response questions.
+=== PAGE 30 ===
+1
+History of Psychology
+Learning Objectives
+In this chapter, you will learn about:
+➔ Psychological Perspectives
+Psychological Perspectives
+Different contemporary psychologists look at human thought and
+behavior from different perspectives. Contemporary perspectives can
+be placed into eight broad categories.
+Humanist Perspective
+Humanists, including theorists Abraham Maslow (1908–1970) and
+Carl Rogers (1902–1987), stressed individual choice and free will.
+This contrasts with the deterministic behaviorists, who theorized that
+all behaviors are caused by past conditioning. Humanists believe that
+we choose most of our behaviors and these choices are guided by
+physiological, emotional, or spiritual needs. A humanistic
+psychologist might explain that an introverted person may choose to
+limit social contact with others because he or she finds that social
+needs are better satisfied by contact with a few close friends rather
+than large groups. Humanistic theories are not easily tested by the
+scientific method. Some psychological historians view them as more
+historical perspectives than current ones. However, some therapists
+find humanistic ideas helpful in aiding clients to overcome obstacles
+in their lives.

@@ -1,0 +1,167 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 88rpx 44rpx calc(56rpx + env(safe-area-inset-bottom));
+  background: var(--bg);
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo {
+  display: block;
+  width: 132rpx;
+  height: 132rpx;
+}
+
+.login-name {
+  margin-top: 18rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.login-sub {
+  margin-top: 8rpx;
+  color: var(--muted);
+  font-size: 23rpx;
+  letter-spacing: 0.08em;
+}
+
+.login-panel {
+  width: 100%;
+  max-width: 600rpx;
+  margin-top: 56rpx;
+}
+
+.login-btn {
+  min-height: 84rpx;
+  font-size: 27rpx;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  gap: 18rpx;
+  margin: 34rpx 0 26rpx;
+  color: var(--faint);
+  font-size: 21rpx;
+}
+
+.login-divider-line {
+  flex: 1;
+  height: 1rpx;
+  background: var(--line);
+}
+
+.login-tabs {
+  display: flex;
+  gap: 8rpx;
+  padding: 6rpx;
+  border-radius: 16rpx;
+  background: var(--surface-2);
+}
+
+.login-tab {
+  flex: 1;
+  padding: 14rpx 0;
+  border-radius: 12rpx;
+  color: var(--muted);
+  font-size: 23rpx;
+  text-align: center;
+}
+
+.login-tab-active {
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.login-form {
+  margin-top: 24rpx;
+}
+
+.login-input {
+  width: 100%;
+  height: 88rpx;
+  padding: 0 26rpx;
+  margin-bottom: 18rpx;
+  border: 1rpx solid var(--line);
+  border-radius: 16rpx;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 27rpx;
+}
+
+.login-code-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14rpx;
+}
+
+.login-code-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.login-code-btn {
+  flex: 0 0 auto;
+  height: 88rpx;
+  padding: 0 22rpx;
+  border: 1rpx solid var(--line);
+  border-radius: 16rpx;
+  background: var(--surface);
+  color: var(--primary);
+  font-size: 23rpx;
+  font-weight: 600;
+  line-height: 88rpx;
+}
+
+.login-code-btn[disabled] {
+  color: var(--faint);
+}
+
+.login-hint {
+  margin: -6rpx 0 14rpx;
+  color: var(--faint);
+  font-size: 21rpx;
+}
+
+.login-notice {
+  margin-bottom: 14rpx;
+  color: var(--success);
+  font-size: 22rpx;
+}
+
+.login-error {
+  margin-bottom: 14rpx;
+  color: var(--danger);
+  font-size: 22rpx;
+  line-height: 1.5;
+}
+
+.login-submit {
+  min-height: 88rpx;
+  margin-top: 8rpx;
+}
+
+.login-offline {
+  margin-top: 26rpx;
+  color: var(--muted);
+  font-size: 22rpx;
+  text-decoration: underline;
+  text-underline-offset: 4rpx;
+}
+
+.login-foot {
+  margin-top: auto;
+  padding-top: 40rpx;
+  color: var(--faint);
+  font-size: 20rpx;
+  letter-spacing: 0.14em;
+}

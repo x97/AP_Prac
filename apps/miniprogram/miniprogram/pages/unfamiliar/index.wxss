@@ -1,0 +1,149 @@
+.unfamiliar-page {
+  background: var(--bg);
+}
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  margin-top: 8rpx;
+  font-family: "Times New Roman", "Songti SC", "STSong", Georgia, serif;
+  font-size: 56rpx;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.page-sub {
+  margin-top: 14rpx;
+  color: var(--muted);
+  font-size: 24rpx;
+  line-height: 1.55;
+}
+
+.list-meta {
+  margin: 30rpx 4rpx 16rpx;
+  color: var(--faint);
+  font-size: 22rpx;
+  letter-spacing: 0.06em;
+}
+
+.list-loading {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.list-skeleton {
+  height: 220rpx;
+  border-radius: 22rpx;
+}
+
+.unfamiliar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.unfamiliar-card {
+  padding: 28rpx 30rpx;
+}
+
+.unfamiliar-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16rpx;
+}
+
+.unfamiliar-term {
+  flex: 1;
+  min-width: 0;
+  font-family: "Times New Roman", "Songti SC", "STSong", Georgia, serif;
+  font-size: 38rpx;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+.unfamiliar-stars {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 3rpx;
+}
+
+.unfamiliar-star {
+  color: rgba(107, 114, 128, 0.22);
+  font-size: 22rpx;
+  line-height: 1;
+}
+
+.unfamiliar-star.is-on {
+  color: var(--accent);
+}
+
+.unfamiliar-ipa {
+  margin-top: 6rpx;
+  color: var(--muted);
+  font-family: "Charis SIL", "Doulos SIL", "Times New Roman", serif;
+  font-size: 24rpx;
+  line-height: 1.5;
+}
+
+.unfamiliar-def {
+  display: -webkit-box;
+  margin-top: 16rpx;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 28rpx;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.unfamiliar-meta {
+  margin-top: 16rpx;
+  color: var(--faint);
+  font-size: 21rpx;
+  line-height: 1.45;
+}
+
+.meta-dot {
+  margin: 0 8rpx;
+}
+
+.unfamiliar-time {
+  margin-top: 6rpx;
+  color: var(--faint);
+  font-size: 20rpx;
+}
+
+.list-foot {
+  padding: 28rpx 0 8rpx;
+  color: var(--faint);
+  font-size: 21rpx;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.empty-title {
+  font-family: "Times New Roman", "Songti SC", "STSong", Georgia, serif;
+  font-size: 32rpx;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.empty-sub {
+  margin-top: 10rpx;
+  color: var(--muted);
+  font-size: 23rpx;
+  line-height: 1.55;
+}
+
+.retry-btn {
+  width: 240rpx;
+  margin: 20rpx auto 0;
+}

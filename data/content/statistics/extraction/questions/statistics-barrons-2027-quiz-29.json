@@ -1,0 +1,957 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-29",
+ "kind": "quiz",
+ "number": 29,
+ "unit_no": 5,
+ "title": "Barron's AP Statistics 2027 Quiz 29 — Unit 5",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 29",
+ "pdf_page_start": 470,
+ "pdf_page_end": 478,
+ "answer_page_start": 752,
+ "answer_page_end": 754,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The predicted noise level is greater than the measured noise level.",
+    "B": "The measured noise level is greater than the predicted noise level.",
+    "C": "The predicted noise level is 0.74 times the measured noise level.",
+    "D": "The slope of the regression line at that point must also be negative."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       431.9,
+       442.4,
+       445.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       447.1,
+       442.3,
+       460.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       462.3,
+       433.0,
+       475.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       477.5,
+       449.5,
+       490.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 470,
+   "page_end": 470,
+   "stem": "A rural college is considering constructing a windmill to generate electricity but is concerned over noise levels. A study is performed measuring noise levels (in decibels) at various distances (in feet) from the campus library, and a least squares regression line is calculated with a correlation of 0.74. Which of the following is a proper and most informative conclusion for an observation with a negative residual?",
+   "context": "answers the question.",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Residual = Measured − Predicted, so if the residual is negative, the predicted must be greater than the measured (observed).",
+   "question_id": "statistics-barrons-2027-quiz-29-001",
+   "source_pages": [
+    470,
+    470
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "0.67",
+    "B": "0.67 hits per hour",
+    "C": "0.67 hours per hit",
+    "D": "0.67 hit hours"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       570.0,
+       144.2,
+       583.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       585.2,
+       208.9,
+       598.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       600.4,
+       209.0,
+       613.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 470,
+      "bbox": [
+       101.7,
+       615.6,
+       190.8,
+       628.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 470,
+   "page_end": 470,
+   "stem": "A college baseball coach tabulates the number of practice hours in a batting cage and the number of hits over the course of a season for a random sample of players. When the least squares regression analysis is performed, the correlation is 0.67. Which of the following is the correct way to label the correlation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The correlation r is unit-free.",
+   "question_id": "statistics-barrons-2027-quiz-29-002",
+   "source_pages": [
+    470,
+    470
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 471,
+      "bbox": [
+       123.1,
+       210.1,
+       234.0,
+       226.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 471,
+      "bbox": [
+       123.1,
+       229.6,
+       234.0,
+       243.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 471,
+      "bbox": [
+       123.1,
+       246.5,
+       234.0,
+       260.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 471,
+      "bbox": [
+       124.2,
+       263.4,
+       235.1,
+       276.9
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       210.3,
+       116.6,
+       223.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       228.6,
+       116.4,
+       241.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       245.4,
+       116.6,
+       258.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       262.3,
+       117.4,
+       275.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 471,
+     "bbox": [
+      167.7,
+      72.0,
+      444.4,
+      130.7
+     ]
+    }
+   ],
+   "page_start": 471,
+   "page_end": 471,
+   "stem": "What is the equation of the regression line, where “facing” and “back” are the winning game proportions when facing the sun and with back to the sun, respectively?",
+   "context": "Questions 3–5 refer to the following: The relationship between winning game proportions when facing the sun and when the sun is on one’s back is analyzed for a random sample of 10 professional tennis players. The computer printout for regression is below:",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The “Predictor” column indicates the independent variable, x, with its coefficient, b, to the right.",
+   "question_id": "statistics-barrons-2027-quiz-29-003",
+   "source_pages": [
+    471,
+    471
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "−0.986",
+    "B": "0.984",
+    "C": "0.986",
+    "D": "0.993"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       317.2,
+       158.0,
+       330.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       332.4,
+       150.0,
+       345.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       347.6,
+       150.1,
+       360.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       362.8,
+       151.0,
+       376.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 471,
+     "bbox": [
+      167.7,
+      72.0,
+      444.4,
+      130.7
+     ]
+    }
+   ],
+   "page_start": 471,
+   "page_end": 471,
+   "stem": "What is the correlation?",
+   "context": "Questions 3–5 refer to the following: The relationship between winning game proportions when facing the sun and when the sun is on one’s back is analyzed for a random sample of 10 professional tennis players. The computer printout for regression is below:",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": ". (The sign is the same as the sign of the slope, which in this case is positive.)",
+   "question_id": "statistics-barrons-2027-quiz-29-004",
+   "source_pages": [
+    471,
+    471
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "−0.0488",
+    "B": "−0.028",
+    "C": "0.028",
+    "D": "0.0488"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       429.2,
+       164.0,
+       442.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       444.4,
+       157.9,
+       457.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       459.6,
+       150.1,
+       472.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       474.8,
+       156.9,
+       487.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 471,
+     "bbox": [
+      167.7,
+      72.0,
+      444.4,
+      130.7
+     ]
+    }
+   ],
+   "page_start": 471,
+   "page_end": 471,
+   "stem": "For one player, the winning game proportions were 0.55 and 0.59 for “facing” and “back,” respectively. What was the associated residual?",
+   "context": "Questions 3–5 refer to the following: The relationship between winning game proportions when facing the sun and when the sun is on one’s back is analyzed for a random sample of 10 professional tennis players. The computer printout for regression is below:",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": ", and so the residual = 0.59 − 0.562 = 0.028.",
+   "question_id": "statistics-barrons-2027-quiz-29-005",
+   "source_pages": [
+    471,
+    471
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "0.161%",
+    "B": "16.1%",
+    "C": "39.9%",
+    "D": "63.2%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       621.1,
+       160.7,
+       634.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       636.3,
+       154.7,
+       649.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       651.5,
+       154.8,
+       664.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 471,
+      "bbox": [
+       101.7,
+       666.7,
+       155.7,
+       679.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 471,
+     "bbox": [
+      99.7,
+      568.9,
+      116.0,
+      578.1
+     ]
+    }
+   ],
+   "page_start": 471,
+   "page_end": 471,
+   "stem": "Data are obtained for a group of college freshmen examining their total SAT scores from their senior year of high school and their GPAs during their first year of college. The resulting regression equation is = 0.55 + 0.00161(SAT score) with r = 0.632 What percentage of the variation in GPAs can be accounted for by looking at the linear relationship between GPAs and SAT scores?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The coefficient of determination r2 gives the proportion of the y-variance that is accountable from a knowledge of the variability of x. In this case, r2 = (0.632)2 = 0.399 or 39.9%.",
+   "question_id": "statistics-barrons-2027-quiz-29-006",
+   "source_pages": [
+    471,
+    471
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "0.23",
+    "B": "0.74",
+    "C": "−0.23",
+    "D": "−0.74"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       122.0,
+       144.2,
+       135.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       137.2,
+       143.8,
+       150.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       152.5,
+       152.1,
+       165.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       167.7,
+       152.7,
+       180.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 472,
+   "page_end": 472,
+   "stem": "Suppose the correlation between two variables is r = 0.23. What will the new correlation be if 0.14 is added to all values of the x-variable, every value of the y-variable is doubled, and the two variables are interchanged?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The correlation is not changed by adding the same number to every value of one of the variables, by multiplying every value of one of the variables by the same positive number, or by interchanging the x- and y-variables.",
+   "question_id": "statistics-barrons-2027-quiz-29-007",
+   "source_pages": [
+    472,
+    472
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "If a given region has a lower percentage of seat belt usage than a second region, the given region will have a higher number of highway deaths due to failure to wear seat belts than the second region.",
+    "B": "Regions with a higher percentage of seat belt usage tend to have lower numbers of highway deaths due to failure to wear seat belts.",
+    "C": "If a region has a 1 percent gain in seat belt usage, then it will have a reduction of 305 highway deaths due to failure to wear seat belts, on average.",
+    "D": "The correlation, r, between the number of highway deaths due to failure to wear seat belts and the percentage of seat belt usage is negative."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       260.1,
+       533.3,
+       273.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       301.4,
+       524.3,
+       314.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       329.7,
+       515.9,
+       342.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       357.9,
+       534.9,
+       371.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 472,
+   "page_end": 472,
+   "stem": "A study of the number of highway deaths due to failure to wear seat belts in a year versus percentage seat belt usage in that year in 300 national regions shows a strong negative linear association. The least squares regression equation is: Predicted number of deaths = 11,100 − 305.1(Belt usage). What does “negative” mean in this context?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The word “negative” in the phrase “strong negative linear association” means that generally as one variable increases, the other variable decreases. Thus, regions with a higher percentage of seat belt usage tend to have lower numbers of highway deaths due to failure to wear seat belts. Choice (A) is an interpretation of the y-intercept. Correlation is a measure of the strength of a linear relationship but does not by itself explain the meaning of “positive” or “negative.” While the overall pattern is of a negative association, anything can be true about two points on the scatterplot. Choice (C) is an interpretation of the slope.",
+   "question_id": "statistics-barrons-2027-quiz-29-008",
+   "source_pages": [
+    472,
+    472
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "21",
+    "B": "24",
+    "C": "25",
+    "D": "No value for n can make r = 1."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       437.3,
+       135.0,
+       450.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       452.5,
+       134.8,
+       465.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       467.8,
+       135.0,
+       480.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 472,
+      "bbox": [
+       101.7,
+       483.0,
+       272.5,
+       496.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 472,
+   "page_end": 472,
+   "stem": "Consider the set of points {(2, 5), (3, 7), (4, 9), (5, 12), (10, n)}. What should n be so that the correlation between the x- and y-values is 1?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "A scatterplot readily shows that while the first three points lie on a straight line, the fourth point does not lie on this line. Thus, no matter what the fifth point is, all the points cannot lie on a straight line, and so r cannot be 1.",
+   "question_id": "statistics-barrons-2027-quiz-29-009",
+   "source_pages": [
+    472,
+    472
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "X and 1, Y and 3, Z and 2",
+    "B": "X and 2, Y and 1, Z and 3",
+    "C": "X and 2, Y and 3, Z and 1",
+    "D": "X and 3, Y and 1, Z and 2"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 473,
+      "bbox": [
+       101.7,
+       311.7,
+       246.7,
+       324.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 473,
+      "bbox": [
+       101.7,
+       327.0,
+       246.6,
+       340.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 473,
+      "bbox": [
+       101.7,
+       342.2,
+       246.7,
+       355.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 473,
+      "bbox": [
+       101.7,
+       357.4,
+       247.5,
+       370.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 473,
+     "bbox": [
+      75.8,
+      72.0,
+      536.3,
+      250.9
+     ]
+    }
+   ],
+   "page_start": 472,
+   "page_end": 473,
+   "stem": "The following are the graphs of three scatterplots, X, Y, Z, and of three residual plots, 1, 2, 3. Which scatterplot corresponds to which residual plot?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Note that the smallest and largest x-values in X have y-values below the regression line—that is, with negative residuals—and so X corresponds to 2. Note that the three largest x-values in Z have y-values with positive residuals, and so Z corresponds to 3.",
+   "question_id": "statistics-barrons-2027-quiz-29-010",
+   "source_pages": [
+    472,
+    473
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 473,
+     "bbox": [
+      75.8,
+      72.0,
+      536.3,
+      250.9
+     ]
+    },
+    {
+     "page": 473,
+     "bbox": [
+      121.5,
+      533.0,
+      490.6,
+      712.9
+     ]
+    }
+   ],
+   "page_start": 473,
+   "page_end": 474,
+   "stem": "Comic book heroes and villains can be compared with regard to various attributes. The scatterplot below looks at speed (measured on a 20-point scale) versus strength (measured on a 50-point scale) for 17 such characters. Computer software showing the results of fitting a straight line to the data by the method of least squares gives: Predicted speed = 4.626 + 0.283(Strength) R-sq = 84.28% (a) Find the correlation for the linear relationship between speed and strength. (b) What is the slope of the regression line, and what does it signify? (c) Given that the mean of the strength values is 30.47, what is the mean of the speed values? (d) Interpret the coefficient of determination in context. (e) Thanos has a strength score of 45 and a speed score of 18. Does the linear model underestimate or overestimate his speed and by how much? (f) How will the correlation change if the point (42, 16.5), which corresponds to Supergirl, is removed? Explain. (g) If the points corresponding to both Superman and the Penguin are removed, will the slope increase, decrease, or remain unchanged? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) The correlation . It is positive because the slope of the regression line is positive. (b) The slope is 0.283, signifying that each unit increase in strength is associated with a predicted increase of 0.283 in speed. (c) The linear regression line passes through (x̅ , y̅ ) so the mean speed = 4.626 + 0.283(30.47) =",
+   "question_id": "statistics-barrons-2027-quiz-29-011",
+   "context": "",
+   "source_pages": [
+    473,
+    474
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 474,
+     "bbox": [
+      121.5,
+      339.5,
+      490.6,
+      488.4
+     ]
+    }
+   ],
+   "page_start": 474,
+   "page_end": 474,
+   "stem": "An outlier can have a striking effect on the correlation r. Consider the following three scatterplots: (a) How do the outliers in II and III affect the correlation from I? (b) Insert a fourth point in I such that the correlation doesn’t change.",
+   "correct_answer": null,
+   "answer_text": "(a) In scatterplot I, the points fall exactly on a downward sloping straight line, so r = −1. In scatterplot II, the isolated point is an influential point, and r is close to +1. In scatterplot III, the isolated point is also influential, and r is close to 0. (b) Inserting a point that lies directly on a straight line drawn through the three points will not change the correlation of r = −1.",
+   "question_id": "statistics-barrons-2027-quiz-29-012",
+   "context": "",
+   "source_pages": [
+    474,
+    474
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 475,
+     "bbox": [
+      167.7,
+      72.0,
+      444.4,
+      264.4
+     ]
+    },
+    {
+     "page": 475,
+     "bbox": [
+      167.7,
+      294.9,
+      444.4,
+      343.3
+     ]
+    },
+    {
+     "page": 475,
+     "bbox": [
+      110.1,
+      485.7,
+      502.0,
+      612.9
+     ]
+    }
+   ],
+   "page_start": 474,
+   "page_end": 475,
+   "stem": "A continuing political debate concerns how to address the large student debt carried by college graduates. Graph (I) is a scatterplot showing the amount of student debt of 25 randomly selected college graduates and their stress level as self-reported on a 1–100 scale. Computer output from linear regression gives: (a) Describe the association between stress level and debt for this sample of 25 college graduates. (b) The point labeled X represents a student with $60,000 debt and a stress level of 25. Calculate and interpret the residual of that point. Two other possible explanatory variables with regard to stress level are income and health as measured on a 3 to 8 HRQoL (health-related quality of life) index. Graph (II) is a scatterplot of health plotted with the corresponding residuals from the regression of stress on debt. Graph (III) is a scatterplot of income plotted with the corresponding residuals from the regression of stress on debt. (c) Which variable, health or income, in addition to debt should be used to improve the prediction of stress level? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) The association between stress level and debt for this sample of 25 college graduates is linear, moderate, and positive. (b) 19.376 + 0.42640(60) = 44.96 and Observed − Predicted = 25 − 44.96 = −19.96. The residual value means that the stress level is 19.96 points less than what would be predicted for a student with a $60,000 debt. (c) Health is a better choice than income for including with debt in a regression model for predicting stress. The relatively strong association between health and residuals from regression of stress on debt shows that health will help explain the unexplained variation (the residuals) between stress and debt. The random scatter in the plot with income versus residuals from regression of stress on debt shows that income will not help explain the unexplained variation (the residuals) between stress and debt.",
+   "question_id": "statistics-barrons-2027-quiz-29-013",
+   "context": "",
+   "source_pages": [
+    474,
+    475
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 476,
+     "bbox": [
+      167.7,
+      105.7,
+      444.4,
+      600.9
+     ]
+    },
+    {
+     "page": 477,
+     "bbox": [
+      98.6,
+      144.8,
+      513.4,
+      517.2
+     ]
+    }
+   ],
+   "page_start": 475,
+   "page_end": 478,
+   "stem": "A researcher was interested in whether or not there is an association between House membership in midterm elections and House membership in the following presidential elections. Data were collected on the difference in the number of House members (Republicans minus Democrats) for midterm elections and the difference in number of House members (Republicans minus Democrats) for the following presidential elections for the years 1946 through 2020. The data are summarized in the following scatterplot. (a) Based of the scatterplot, describe the relationship between the difference in House membership (Republicans minus Democrats) in midterm elections and the difference in House membership (Republicans minus Democrats) in the following presidential elections. Let x represent the difference in number of House members (Republicans minus Democrats) for midterm elections, and let y represent the difference in number of House members (Republicans minus Democrats) for the following presidential elections. Graph 1 shows the data with the least squares regression line, y = 0.257 − 0.546x. Graph 2 shows the data with the line y = − x. Consider the following criteria for classifying overall vote margins. Republican majority Balanced Democrat majority x + y > 0 (y > −x) x + y = 0 (y = −x) x + y < 0 (y < −x) (b) For which graph, 1 or 2, is the line more helpful classifying overall vote margins? Explain. (c) Using the answer from part (b), how many of the points in the scatterplot should be classified in each of the three categories? (d) Using the best model for prediction, predict the difference in number of House members (Republicans minus Democrats) for the following presidential election if the difference in number of House members (Republicans minus Democrats) for a congressional election is R − D = 7 where R is Republicans and D is Democrats.",
+   "correct_answer": null,
+   "answer_text": "(a) There is a weak, negative, linear relationship between the difference in House membership (Republicans minus Democrats) in midterm elections and the difference in House membership (Republicans minus Democrats) in the following presidential elections. (b) Graph 2 would be more helpful. For each point in the scatterplot, x + y > 0 (Republican majority) if the point is above the line y = − x, x + y = 0 (balanced) if the point is on the line y = − x, and x + y < 0 (Democrat majority) if the point is below the line y = − x. (c) In the scatterplot, 10 points would be classified as “Republican majority,” no points would be classified as “Balanced,” and 8 points would be classified as “Democrat majority.” (d) The predicted difference in number of House members (Republicans minus Democrats) for the following presidential election would be ŷ = 0.257 − 0.546(7) = − 3.565.",
+   "question_id": "statistics-barrons-2027-quiz-29-014",
+   "context": "",
+   "source_pages": [
+    475,
+    478
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 14,
+ "mcq_count": 10,
+ "frq_count": 4
+}

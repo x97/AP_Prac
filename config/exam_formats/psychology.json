@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "subject_id": "psychology",
+  "papers": {
+    "psychology-ap-2018": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": false,
+      "expected_frq_points": 7,
+      "notes": "Points 1-3 are from the source PDF; points 4-7 were manually reconstructed because the source PDF ends after Point 3."
+    },
+    "psychology-ap-2019": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": ""
+    },
+    "psychology-ap-2021": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": ""
+    },
+    "psychology-ap-2022": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": ""
+    },
+    "psychology-ap-2023": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": ""
+    },
+    "psychology-ap-2024": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": [
+          "Set 1",
+          "Set 2"
+        ]
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Two FRQ sets; a student attempts one."
+    },
+    "psychology-ap-2025": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 70,
+        "forms": [
+          "Set 1",
+          "Set 2"
+        ]
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "2025 redesign: AAQ + EBQ, 7 points each; two FRQ sets."
+    },
+    "psychology-ap-2016": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Released 2016 exam; both FRQs are 7 points."
+    },
+    "psychology-ap-2017": {
+      "format_code": "legacy_100",
+      "mcq": {
+        "count": 100,
+        "minutes": 70
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 50,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Released 2017 exam; FRQ 1 is 6 points, FRQ 2 is 7 points."
+    },
+    "psychology-barrons-2027-pt1": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 70,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Barron's practice test; timing follows the 2025 format."
+    },
+    "psychology-barrons-2027-pt2": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 70,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Barron's practice test; timing follows the 2025 format."
+    },
+    "psychology-barrons-2027-pt3": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 2,
+        "minutes": 70,
+        "forms": []
+      },
+      "section_order": [
+        "mcq",
+        "frq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 7,
+      "notes": "Barron's practice test; timing follows the 2025 format."
+    },
+    "psychology-ap-2026": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 0,
+        "minutes": 0,
+        "forms": []
+      },
+      "section_order": [
+        "mcq"
+      ],
+      "is_complete": false,
+      "frq_rubric_complete": false,
+      "expected_frq_points": 0,
+      "notes": "2026 MCQ-only import; FRQ sources/rubrics are not in the PDF yet."
+    },
+    "psychology-cb-2026-mock-1": {
+      "format_code": "2025_75",
+      "mcq": {
+        "count": 75,
+        "minutes": 90
+      },
+      "frq": {
+        "count": 0,
+        "minutes": 0,
+        "forms": []
+      },
+      "section_order": [
+        "mcq"
+      ],
+      "is_complete": true,
+      "frq_rubric_complete": true,
+      "expected_frq_points": 0,
+      "notes": "MCQ-only CB supplemental mock."
+    }
+  }
+}

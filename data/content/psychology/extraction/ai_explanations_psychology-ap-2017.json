@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-02T05:55:01+00:00",
+  "model": "deepseek-flash[1m]",
+  "language": "en",
+  "papers": [
+    "psychology-ap-2017"
+  ],
+  "count": 3,
+  "usage": {
+    "input_tokens": 470,
+    "output_tokens": 388
+  },
+  "items": [
+    {
+      "question_id": "psychology-ap-2017-mcq-001",
+      "paper_id": "psychology-ap-2017",
+      "number": 1,
+      "answer_label": "A",
+      "answer_content": "Humanistic",
+      "explanation": "Humanistic therapy emphasizes personal growth, self-actualization, and the client's potential. The psychologist's focus on building a supportive therapeutic relationship so Felicia can explore her potential reflects a client-centered, humanistic approach, which uses empathy and unconditional positive regard rather than primarily analyzing unconscious conflicts or changing specific behaviors.",
+      "has_figure": false
+    },
+    {
+      "question_id": "psychology-ap-2017-mcq-002",
+      "paper_id": "psychology-ap-2017",
+      "number": 2,
+      "answer_label": "C",
+      "answer_content": "Approach-approach",
+      "explanation": "Jane is choosing between two attractive alternatives: seeing a movie or going ice skating. An approach-approach conflict occurs when a person must select between two desirable goals or options. Her stress comes from deciding between two positives, not from facing a single option with both good and bad features or from choosing between two unpleasant outcomes.",
+      "has_figure": false
+    },
+    {
+      "question_id": "psychology-ap-2017-mcq-003",
+      "paper_id": "psychology-ap-2017",
+      "number": 3,
+      "answer_label": "A",
+      "answer_content": "Synapses",
+      "explanation": "Synapses are the junctions or gaps where communication occurs between neurons, not structures that are part of a single neuron itself. Dendrites, somas, axons, and axon terminals are anatomical components of a neuron. Therefore, synapses are the exception among the listed choices.",
+      "has_figure": false
+    }
+  ],
+  "errors": []
+}

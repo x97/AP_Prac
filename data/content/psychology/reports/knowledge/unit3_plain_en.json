@@ -1,0 +1,725 @@
+{
+  "unit": 3,
+  "items": [
+    {
+      "chapter": 11,
+      "section": "Overview",
+      "name": "Developmental psychology",
+      "plain_en": "study of behavior and thought changes across lifespan"
+    },
+    {
+      "chapter": 11,
+      "section": "Overview",
+      "name": "Nature versus nurture",
+      "plain_en": "heredity versus environment as influences on development"
+    },
+    {
+      "chapter": 11,
+      "section": "Developmental Psychology Research Methods",
+      "name": "Cross-sectional research",
+      "plain_en": "compares different ages at one point in time"
+    },
+    {
+      "chapter": 11,
+      "section": "Developmental Psychology Research Methods",
+      "name": "Longitudinal research",
+      "plain_en": "follows one group of participants over time"
+    },
+    {
+      "chapter": 11,
+      "section": "Prenatal Influences",
+      "name": "Genetics",
+      "plain_en": "genes shape inborn abilities and motor development"
+    },
+    {
+      "chapter": 11,
+      "section": "Prenatal Influences",
+      "name": "Teratogens",
+      "plain_en": "chemicals or agents that can harm fetus"
+    },
+    {
+      "chapter": 11,
+      "section": "Prenatal Influences",
+      "name": "Fetal alcohol syndrome (FAS)",
+      "plain_en": "severe developmental disorder from heavy prenatal alcohol"
+    },
+    {
+      "chapter": 11,
+      "section": "Prenatal Influences",
+      "name": "Fetal alcohol effect",
+      "plain_en": "milder effect of moderate drinking during pregnancy"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Reflexes",
+      "plain_en": "inborn automatic responses to specific stimuli"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Rooting reflex",
+      "plain_en": "baby turns head toward cheek touch"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Sucking reflex",
+      "plain_en": "infant sucks objects placed in mouth"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Grasping reflex",
+      "plain_en": "baby grasps objects touching palm or foot"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Moro reflex",
+      "plain_en": "startled baby flings out then retracts limbs"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Babinski reflex",
+      "plain_en": "stroked foot makes baby spread toes"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Visual cliff",
+      "plain_en": "apparatus testing infant depth perception"
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "name": "Motor development",
+      "plain_en": "motor skills develop in same sequence"
+    },
+    {
+      "chapter": 11,
+      "section": "Gender and Development",
+      "name": "Gender roles",
+      "plain_en": "behaviors a culture associates with each gender"
+    },
+    {
+      "chapter": 11,
+      "section": "Gender and Development",
+      "name": "Biopsychological (Neuropsychological) Theory",
+      "plain_en": "biological factors explain gender role development"
+    },
+    {
+      "chapter": 11,
+      "section": "Gender and Development",
+      "name": "Social-Cognitive Theory",
+      "plain_en": "society and thoughts shape gender roles"
+    },
+    {
+      "chapter": 11,
+      "section": "Gender and Development",
+      "name": "Gender schema theory",
+      "plain_en": "internal interpretations of environmental gender messages"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Stage theories",
+      "plain_en": "development occurs in distinct discontinuous stages"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Zone of proximal development",
+      "plain_en": "tasks child can do alone versus with help"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Psychosocial stage theory",
+      "plain_en": "eight stages each centered on social conflict"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Autonomy",
+      "plain_en": "control over one's own body"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Inferiority complex",
+      "plain_en": "feeling inadequate compared with peers"
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "name": "Imaginary audience",
+      "plain_en": "adolescents believe others constantly watch them"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Schemata",
+      "plain_en": "cognitive rules used to interpret world"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Assimilation",
+      "plain_en": "fitting new experiences into existing schemata"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Accommodation",
+      "plain_en": "changing schemata when new information does not fit"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Object permanence",
+      "plain_en": "objects continue existing when out of sight"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Egocentric",
+      "plain_en": "unable to see another person's perspective"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Theory of mind",
+      "plain_en": "ability to consider others' mental states"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Conservation",
+      "plain_en": "properties stay same despite changes in shape"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Abstract reasoning",
+      "plain_en": "manipulating ideas mentally without concrete objects"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Metacognition",
+      "plain_en": "thinking about one's own thinking"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Personal fable",
+      "plain_en": "belief in own uniqueness and invulnerability"
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "name": "Information processing model",
+      "plain_en": "cognitive abilities develop gradually with age"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Phonemes",
+      "plain_en": "smallest units of sound in language"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Morpheme",
+      "plain_en": "smallest meaningful unit of sound"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Syntax",
+      "plain_en": "rules for ordering words in sentences"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Semantics",
+      "plain_en": "meanings of words and sentences"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Babbling stage",
+      "plain_en": "first language stage beginning around four months"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Holophrases",
+      "plain_en": "one-word stage of language acquisition"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Telegraphic speech",
+      "plain_en": "two-word stage beginning around eighteen months"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Overgeneralization",
+      "plain_en": "misapplying grammar rules to new cases"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Language acquisition device",
+      "plain_en": "inborn ability to learn language rapidly"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Critical period",
+      "plain_en": "limited window when a skill must develop"
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "name": "Linguistic relativity hypothesis",
+      "plain_en": "language controls and limits our thinking"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Attachment parenting",
+      "plain_en": "reciprocal relationship between caregiver and child"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Imprinting",
+      "plain_en": "infant animals attach to first seen object"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Contact comfort",
+      "plain_en": "physical comfort fosters attachment to parents"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Temperament",
+      "plain_en": "typical emotional style of reacting to stress"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Secure attachment",
+      "plain_en": "explores confidently but distressed by parent leaving"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Avoidant attachment",
+      "plain_en": "resists being held, avoids parent contact"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Anxious/ambivalent attachment",
+      "plain_en": "ambivalent anxious reactions toward the parent"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Ecological systems theory",
+      "plain_en": "development shaped by nested environmental relationship systems"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Microsystem",
+      "plain_en": "child's direct interactions with immediate surroundings"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Mesosystem",
+      "plain_en": "interactions among the five ecological systems"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Exosystem",
+      "plain_en": "indirect environmental influences on child development"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Macrosystem",
+      "plain_en": "cultural influences on a child's development"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Chronosystem",
+      "plain_en": "timing of transitions across child's life"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Authoritarian parents",
+      "plain_en": "strict standards enforced through punishment"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Permissive parents",
+      "plain_en": "few or unclear guidelines for children"
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "name": "Authoritative parents",
+      "plain_en": "consistent reasonable standards explained to children"
+    },
+    {
+      "chapter": 12,
+      "section": "Overview",
+      "name": "Learning",
+      "plain_en": "lasting behavior change caused by experience"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Classical conditioning",
+      "plain_en": "neutral stimulus paired with reflexive response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Unconditioned stimulus (US or UCS)",
+      "plain_en": "stimulus naturally eliciting an unlearned response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Unconditioned response (UR or UCR)",
+      "plain_en": "natural involuntary response to unconditioned stimulus"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Conditioned stimulus (CS)",
+      "plain_en": "previously neutral stimulus that now elicits response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Conditioned response (CR)",
+      "plain_en": "learned response to conditioned stimulus"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Acquisition",
+      "plain_en": "learning a new conditioned response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Delayed conditioning",
+      "plain_en": "CS presented before US while still present"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Trace conditioning",
+      "plain_en": "CS then pause then US"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Simultaneous conditioning",
+      "plain_en": "CS and US presented together"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Backward conditioning",
+      "plain_en": "US presented before the CS"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Extinction",
+      "plain_en": "weakening and unlearning a conditioned response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Spontaneous recovery",
+      "plain_en": "extinguished response briefly returns after conditioned stimulus"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Generalization",
+      "plain_en": "responding to similar conditioned stimuli"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Discrimination",
+      "plain_en": "learning to distinguish among similar stimuli"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Aversive conditioning",
+      "plain_en": "pairing neutral stimulus with unpleasant response"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Higher-order conditioning",
+      "plain_en": "using conditioned stimulus to condition new one"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Taste aversion",
+      "plain_en": "aversion to food after nausea"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Biological preparedness",
+      "plain_en": "biological predisposition to learn certain associations"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Salient stimuli",
+      "plain_en": "noticeable stimuli produce stronger conditioned responses"
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "name": "Garcia effect",
+      "plain_en": "animals easily learn taste aversions"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Operant conditioning",
+      "plain_en": "learning based on consequences of behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Law of effect",
+      "plain_en": "pleasant consequences strengthen stimulus-response connection"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Instrumental learning",
+      "plain_en": "consequences shape future behaviors"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Reinforcer",
+      "plain_en": "anything making behavior more likely"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Positive reinforcement",
+      "plain_en": "adding pleasant stimulus strengthens behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Negative reinforcement",
+      "plain_en": "removing unpleasant stimulus strengthens behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Escape learning",
+      "plain_en": "learning to terminate aversive stimulus"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Avoidance learning",
+      "plain_en": "learning to prevent unpleasant stimulus entirely"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Punishment",
+      "plain_en": "anything making behavior less likely"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Positive punishment",
+      "plain_en": "adding unpleasant stimulus reduces behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Omission training",
+      "plain_en": "removing pleasant stimulus reduces behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Shaping",
+      "plain_en": "reinforcing steps toward desired behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Chaining",
+      "plain_en": "linking successive responses for a reward"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Discriminative stimulus",
+      "plain_en": "signal indicating reinforcement is available"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Primary reinforcers",
+      "plain_en": "reinforcers rewarding in themselves"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Secondary reinforcers",
+      "plain_en": "learned reinforcers such as praise"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Generalized reinforcer",
+      "plain_en": "secondary reinforcer exchangeable for many things"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Token economy",
+      "plain_en": "tokens earned for desired behaviors"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Premack principle",
+      "plain_en": "preferred activity reinforces less preferred activity"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Continuous reinforcement",
+      "plain_en": "rewarding every target behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Partial-reinforcement effect",
+      "plain_en": "intermittent reinforcement makes extinction harder"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Fixed-ratio (FR) schedule",
+      "plain_en": "reinforcement after set number of responses"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Variable-ratio (VR) schedule",
+      "plain_en": "reinforcement after varying number of responses"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Fixed-interval (FI) schedule",
+      "plain_en": "reinforcement after fixed time interval"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Variable-interval (VI) schedule",
+      "plain_en": "reinforcement after varying time intervals"
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "name": "Instinctive drift",
+      "plain_en": "animals revert to instinctive behavior over rewards"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Contiguity model",
+      "plain_en": "more pairings produce stronger learning"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Contingency model of classical conditioning",
+      "plain_en": "one event reliably predicting another creates association"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Observational learning",
+      "plain_en": "learning by observing others"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Species specific",
+      "plain_en": "occurs only among same species members"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Modeling",
+      "plain_en": "observation and imitation of behavior"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Latent learning",
+      "plain_en": "hidden learning shown only with reward"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Cognitive map",
+      "plain_en": "mental representation of spatial layout"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Abstract learning",
+      "plain_en": "understanding concepts rather than simple responses"
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "name": "Insight learning",
+      "plain_en": "sudden realization of problem solution"
+    }
+  ]
+}

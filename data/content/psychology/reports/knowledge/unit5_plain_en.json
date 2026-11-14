@@ -1,0 +1,923 @@
+{
+  "unit": 5,
+  "items": [
+    {
+      "chapter": 16,
+      "section": "Overview",
+      "name": "Health",
+      "plain_en": "physical and mental health matter to psychologists"
+    },
+    {
+      "chapter": 16,
+      "section": "Overview",
+      "name": "Psychological factors",
+      "plain_en": "psychological factors influence physical health"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "Stress",
+      "plain_en": "life events or our reactions to them"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "social readjustment rating scale (SRRS)",
+      "plain_en": "scale measuring stress using life change units"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "life change units (LCUs)",
+      "plain_en": "points assigned to different life changes"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "general adaptation syndrome (GAS)",
+      "plain_en": "Selye's general bodily response to stressful events"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "Alarm reaction",
+      "plain_en": "heart rate rises, blood goes to muscles"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "Resistance",
+      "plain_en": "body stays physiologically ready during ongoing stress"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "Exhaustion",
+      "plain_en": "body's resources depleted after prolonged resistance"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "tend-and-befriend theory",
+      "plain_en": "managing stress by caring for self and others"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "emotion-focused coping",
+      "plain_en": "managing emotions through meditation and breathing"
+    },
+    {
+      "chapter": 16,
+      "section": "Stress",
+      "name": "perceived control",
+      "plain_en": "believing one can control events reduces stress"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "Positive psychology",
+      "plain_en": "studies human strengths, virtues, and happiness"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "subjective well-being",
+      "plain_en": "how satisfied a person feels with life"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "character strengths",
+      "plain_en": "measurable positive personality traits and virtues"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "six core virtues",
+      "plain_en": "six virtues valued across cultures and philosophies"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "well-being",
+      "plain_en": "perception of functioning effectively in life and groups"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "gratitude",
+      "plain_en": "expressing thankfulness toward others increases happiness"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "resilience",
+      "plain_en": "adapting well after trauma and extreme stress"
+    },
+    {
+      "chapter": 16,
+      "section": "Positive Psychology",
+      "name": "post-traumatic growth",
+      "plain_en": "finding meaning and growth after trauma"
+    },
+    {
+      "chapter": 17,
+      "section": "Overview",
+      "name": "Psychological disorders",
+      "plain_en": "disorders visible in behavior or thinking"
+    },
+    {
+      "chapter": 17,
+      "section": "Overview",
+      "name": "abnormal psychology",
+      "plain_en": "field studying psychological disorders and their treatment"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "Psychological disorder",
+      "plain_en": "dysfunction, distress, and deviance from typical behavior"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "insanity",
+      "plain_en": "legal concept judging criminal responsibility"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "International Classification of Mental Disorders (ICD)",
+      "plain_en": "World Health Organization's mental disorder classification"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "Diagnostic and Statistical Manual of Mental Disorders (DSM)",
+      "plain_en": "American manual used to diagnose mental disorders"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "etiologies",
+      "plain_en": "causes of psychological disorders"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "biomedical model",
+      "plain_en": "disorders caused by biological factors"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "biopsychosocial view",
+      "plain_en": "biological, psychological, and social factors interact"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "diathesis-stress model",
+      "plain_en": "stress triggers inherited vulnerability to illness"
+    },
+    {
+      "chapter": 17,
+      "section": "Defining Psychological Disorders",
+      "name": "eclectic",
+      "plain_en": "using several theoretical perspectives together"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "autism spectrum disorder",
+      "plain_en": "reduced social and emotional contact with others"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Attention-deficit/hyperactivity disorder (ADHD)",
+      "plain_en": "difficulty paying attention or sitting still"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "neurocognitive disorders",
+      "plain_en": "cognitive decline disorders like Alzheimer's disease"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Alzheimer’s disease",
+      "plain_en": "dementia with deteriorating memory and cognition"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Anxiety disorders",
+      "plain_en": "disorders sharing anxiety as their common symptom"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "specific phobia",
+      "plain_en": "intense unwarranted fear of a specific object"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "agoraphobia",
+      "plain_en": "fear of open or public spaces"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "social anxiety disorder",
+      "plain_en": "fear of embarrassing oneself in public"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "taijin kyofusho",
+      "plain_en": "Japanese social anxiety about one's body displeasing others"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "generalized anxiety disorder (GAD)",
+      "plain_en": "constant low-level anxiety"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "panic disorder",
+      "plain_en": "acute intense anxiety without apparent provocation"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Psychodynamic theorists on anxiety disorders",
+      "plain_en": "unresolved unconscious conflicts cause anxiety disorders"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Behaviorists on anxiety disorders",
+      "plain_en": "anxiety disorders are learned behaviors"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Cognitive theorists",
+      "plain_en": "disorders come from dysfunctional thinking patterns"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Somatic symptom disorders",
+      "plain_en": "psychological problems expressed through physical symptoms"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "conversion disorder",
+      "plain_en": "loss of physical function without physical cause"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Psychodynamic theorists on somatic symptom disorders",
+      "plain_en": "unconscious conflicts expressed as physical symptoms"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Behaviorists on somatic symptom disorders",
+      "plain_en": "physical symptoms are reinforced behaviors"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Dissociative disorders",
+      "plain_en": "disruption in consciousness, memory, or identity"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Dissociative amnesia",
+      "plain_en": "memory loss without physiological cause"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "organic amnesia",
+      "plain_en": "amnesia caused by biological factors"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Dissociative identity disorder (DID)",
+      "plain_en": "several personalities instead of one integrated identity"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Psychodynamic theorists on dissociative disorders",
+      "plain_en": "repressed trauma splits consciousness"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Behaviorists on dissociative disorders",
+      "plain_en": "not thinking about trauma is rewarded"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "mood or affective disorder",
+      "plain_en": "extreme or inappropriate emotions"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Major depressive disorder",
+      "plain_en": "most common mood disorder, unipolar depression"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Persistent depressive disorder",
+      "plain_en": "long-lasting but less severe depression"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Seasonal affective disorder (SAD)",
+      "plain_en": "depression tied to seasonal sunlight changes"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Psychodynamic theorists on depressive disorders",
+      "plain_en": "anger turned inward or harsh superego"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Learning theorists",
+      "plain_en": "depression reinforced by attention and sympathy"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "cognitive triad",
+      "plain_en": "unreasonably negative ideas about self, world, future"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "attribution",
+      "plain_en": "explanation of a cause"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "internal, global, and stable attributions",
+      "plain_en": "attributing bad events to internal, global, stable causes"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "learned helplessness",
+      "plain_en": "believing one cannot control future outcomes"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "bipolar disorder",
+      "plain_en": "alternating depressive and manic episodes"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "manic episodes",
+      "plain_en": "periods of unusually high energy"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "hypomania",
+      "plain_en": "less extreme form of mania"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "schizophrenia",
+      "plain_en": "disordered thinking with delusions and hallucinations"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "delusions",
+      "plain_en": "beliefs with no basis in reality"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "hallucinations",
+      "plain_en": "perceptions without sensory stimulation"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "neologisms",
+      "plain_en": "invented meaningless words"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "word salad",
+      "plain_en": "disorganized speech difficult to understand"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "flat affect",
+      "plain_en": "almost no emotional response"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "catatonia",
+      "plain_en": "abnormal motor behavior"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "positive symptoms",
+      "plain_en": "excesses in behavior, thought, or mood"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "negative symptoms",
+      "plain_en": "deficits in normal functioning"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "dopamine hypothesis",
+      "plain_en": "high dopamine levels associated with schizophrenia"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "tardive dyskinesia",
+      "plain_en": "muscle tremors from prolonged antipsychotic drug use"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "double bind",
+      "plain_en": "receiving contradictory messages"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Personality disorders",
+      "plain_en": "enduring maladaptive behavior patterns impairing functioning"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Cluster A",
+      "plain_en": "suspicious or eccentric personality disorders"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Cluster B",
+      "plain_en": "impulsive, dramatic, erratic personality disorders"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "antisocial personality disorder",
+      "plain_en": "little regard for others' feelings"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "borderline personality disorder",
+      "plain_en": "unstable relationships and shifting emotions"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "narcissistic personality disorder",
+      "plain_en": "seeing oneself as center of universe"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Cluster C",
+      "plain_en": "personality disorders marked by anxiety"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Obsessive-compulsive disorder (OCD)",
+      "plain_en": "persistent unwanted thoughts drive compulsive actions"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "body dysmorphic disorder",
+      "plain_en": "obsession with perceived appearance defects"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Post-traumatic stress disorder (PTSD)",
+      "plain_en": "flashbacks or nightmares after trauma"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Paraphilias",
+      "plain_en": "attraction to objects, people, or activities not usually sexual"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "pedophilia",
+      "plain_en": "sexual attraction to children"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "anorexia nervosa",
+      "plain_en": "low weight, fear of fat, distorted body image"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "bulimia",
+      "plain_en": "binge eating followed by purging"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "binge-eating disorder",
+      "plain_en": "large amounts of food, loss of control"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "Substance-related and addictive disorders",
+      "plain_en": "substance use regularly harms one's life"
+    },
+    {
+      "chapter": 17,
+      "section": "Categories of Disorders",
+      "name": "diagnostic labels",
+      "plain_en": "labels may be inaccurate and outlast usefulness"
+    },
+    {
+      "chapter": 17,
+      "section": "The Advantages and Disadvantages of Diagnostic Labels",
+      "name": "The Rosenhan study",
+      "plain_en": "fake patients admitted to mental hospitals"
+    },
+    {
+      "chapter": 18,
+      "section": "Overview",
+      "name": "methods of treatment",
+      "plain_en": "treatment aims to change behavior, thoughts, feelings"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Psychotherapies",
+      "plain_en": "therapy mainly through talking with a psychologist"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Psychoanalysis",
+      "plain_en": "Freud's therapeutic technique"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Psychodynamic therapy",
+      "plain_en": "therapy derived from Freud's psychoanalysis"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Symptom substitution",
+      "plain_en": "new problem appears after successful treatment"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Free association",
+      "plain_en": "saying whatever comes to mind uncensored"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Manifest content",
+      "plain_en": "dream's surface content as reported"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Latent content",
+      "plain_en": "hidden meaning of a dream"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Resistance",
+      "plain_en": "avoiding painful repressed thoughts during therapy"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Transference",
+      "plain_en": "strong feelings toward the therapist"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Insight therapies",
+      "plain_en": "therapies emphasizing insight into one's problems"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Humanistic therapies",
+      "plain_en": "helping clients accept themselves and self-actualize"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Self-actualization",
+      "plain_en": "reaching one's highest potential"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Determinism",
+      "plain_en": "choices predetermined by forces outside one's control"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Person-centered therapy",
+      "plain_en": "Rogers therapy centered on unconditional positive regard"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Unconditional positive regard",
+      "plain_en": "total acceptance regardless of what client does"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Active listening",
+      "plain_en": "listening and mirroring back client's feelings"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Gestalt therapy",
+      "plain_en": "Perls's therapy emphasizing whole self and present"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Existential therapies",
+      "plain_en": "helping clients find meaning in life"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Applied behavior analysis (ABA)",
+      "plain_en": "using reinforcement to shape behavior"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Counterconditioning",
+      "plain_en": "replacing unpleasant conditioned response with pleasant one"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Systematic desensitization",
+      "plain_en": "gradually replacing anxiety with relaxation"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Anxiety hierarchy",
+      "plain_en": "ranked list of fears, least to most frightening"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Flooding",
+      "plain_en": "confronting the most frightening situation first"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Modeling",
+      "plain_en": "learning by observing and imitating others"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Exposure therapies",
+      "plain_en": "therapy involving contact with feared stimuli"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Aversive therapy",
+      "plain_en": "pairing bad habit with unpleasant stimulus"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Token economy",
+      "plain_en": "rewarding desired behaviors with tokens"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Cognitive therapy",
+      "plain_en": "changing unhealthy thought patterns"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Cognitive restructuring",
+      "plain_en": "challenging maladaptive thinking patterns"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Cognitive triad",
+      "plain_en": "negative beliefs about self, world, future"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Cognitive behavioral therapy (CBT)",
+      "plain_en": "combines cognitive and behavioral therapy techniques"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Rational emotive behavior therapy (REBT)",
+      "plain_en": "exposing and confronting clients' dysfunctional thoughts"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Dialectical behavior therapy (DBT)",
+      "plain_en": "cognitive behavioral therapy emphasizing emotion regulation"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Group therapy",
+      "plain_en": "multiple people receive therapy together"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Family therapy",
+      "plain_en": "treating the whole family together"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Self-help groups",
+      "plain_en": "group therapy without a therapist"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Somatic therapies",
+      "plain_en": "therapies that produce bodily changes"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Drug therapy or psychopharmacology",
+      "plain_en": "using medication to treat psychological disorders"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Antipsychotic medications",
+      "plain_en": "block dopamine receptors to treat schizophrenia"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Tardive dyskinesia",
+      "plain_en": "chronic muscle tremors from antipsychotic medication"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "serotonin selective reuptake inhibitor drugs (SSRIs)",
+      "plain_en": "antidepressants that increase serotonin activity"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Lithium",
+      "plain_en": "metal drug treating manic episodes"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Biofeedback",
+      "plain_en": "learning to control physiological responses"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Transcranial magnetic stimulation (TMS)",
+      "plain_en": "magnets alter brain activity to treat depression"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Electroconvulsive therapy (ECT)",
+      "plain_en": "electrical current inducing a brief seizure"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Psychosurgery",
+      "plain_en": "destroying brain tissue to change behavior"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Prefrontal lobotomy",
+      "plain_en": "cutting neurons leading to the frontal lobe"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Eclectic therapy",
+      "plain_en": "combining multiple therapy approaches"
+    },
+    {
+      "chapter": 18,
+      "section": "Types of Therapy",
+      "name": "Somatic cognitive therapy",
+      "plain_en": "medication combined with cognitive talk therapy"
+    },
+    {
+      "chapter": 18,
+      "section": "Kinds of Therapists",
+      "name": "Psychiatrists",
+      "plain_en": "medical doctors who can prescribe medication"
+    },
+    {
+      "chapter": 18,
+      "section": "Kinds of Therapists",
+      "name": "Clinical psychologists",
+      "plain_en": "psychologists holding doctoral degrees"
+    },
+    {
+      "chapter": 18,
+      "section": "Kinds of Therapists",
+      "name": "Counseling therapists",
+      "plain_en": "therapists with graduate degrees treating milder problems"
+    },
+    {
+      "chapter": 18,
+      "section": "Kinds of Therapists",
+      "name": "therapeutic alliance",
+      "plain_en": "client-therapist relationship affecting treatment success"
+    },
+    {
+      "chapter": 18,
+      "section": "Kinds of Therapists",
+      "name": "Evidence-based interventions",
+      "plain_en": "interventions proven effective through research"
+    }
+  ]
+}

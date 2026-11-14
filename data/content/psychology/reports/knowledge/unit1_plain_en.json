@@ -1,0 +1,1049 @@
+{
+  "unit": 1,
+  "items": [
+    {
+      "chapter": 4,
+      "section": "Overview",
+      "name": "Neuroscience or biopsychological perspective",
+      "plain_en": "studies psychology from a biological viewpoint"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Genetic predisposition",
+      "plain_en": "inherited tendency toward a trait or condition"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "DNA",
+      "plain_en": "chromosome material holding genetic information"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Genes",
+      "plain_en": "DNA segments controlling specific protein production"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Dominant or recessive genes",
+      "plain_en": "dominant expressed with one copy; recessive two"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Identical twins (monozygotic twins)",
+      "plain_en": "twins from one fertilized egg sharing all genes"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Chromosomal abnormality",
+      "plain_en": "unusual chromosome combination or number"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Turner’s syndrome",
+      "plain_en": "born with only one X chromosome"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Klinefelter’s syndrome",
+      "plain_en": "extra X chromosome producing XXY pattern"
+    },
+    {
+      "chapter": 4,
+      "section": "Genetics",
+      "name": "Down syndrome",
+      "plain_en": "extra chromosome on chromosome pair 21"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Neuroanatomy",
+      "plain_en": "study of neuron parts and functions"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Neurons",
+      "plain_en": "individual nerve cells"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Dendrites",
+      "plain_en": "rootlike branches extending from cell body"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Cell body (soma)",
+      "plain_en": "neuron's main part containing the nucleus"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Axon",
+      "plain_en": "wirelike structure extending from the cell body"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Myelin sheath",
+      "plain_en": "fatty covering around axon, speeds impulses"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Terminal buttons",
+      "plain_en": "branched axon ends containing neurotransmitters"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Synapse",
+      "plain_en": "space between terminal buttons and next dendrites"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Neurotransmitters",
+      "plain_en": "chemicals enabling communication between neurons"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Resting potential",
+      "plain_en": "slightly negative neuron charge at rest"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Threshold",
+      "plain_en": "stimulation level required to trigger firing"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Action potential",
+      "plain_en": "electric impulse traveling along the neuron"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "All-or-none principle",
+      "plain_en": "neuron either fires completely or not at all"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Depolarization",
+      "plain_en": "positive ions entering make charge positive"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Excitatory neurotransmitters",
+      "plain_en": "neurotransmitters that excite the next cell"
+    },
+    {
+      "chapter": 4,
+      "section": "Neuroanatomy",
+      "name": "Inhibitory neurotransmitters",
+      "plain_en": "neurotransmitters that inhibit the next cell"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Sensory neurons (afferent neurons)",
+      "plain_en": "carry sensory information from senses to brain"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Interneurons (association neurons)",
+      "plain_en": "connect sensory and motor neurons within CNS"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Motor neurons (efferent neurons)",
+      "plain_en": "carry information from brain to body"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Organization of the Nervous System",
+      "plain_en": "two divisions: central and peripheral nervous systems"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Central nervous system (CNS)",
+      "plain_en": "brain and spinal cord"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Spinal cord",
+      "plain_en": "nerve bundle running through center of spine"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Afferent nerves",
+      "plain_en": "nerves carrying sensory messages toward CNS"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Reflex arcs",
+      "plain_en": "involuntary reactions handled by the spinal cord"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Peripheral nervous system (PNS)",
+      "plain_en": "nerves outside CNS, not encased in bone"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Somatic nervous system",
+      "plain_en": "controls voluntary muscle movements"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Autonomic nervous system",
+      "plain_en": "controls automatic functions like heart and organs"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Fight-or-flight response",
+      "plain_en": "body prepares to respond to perceived threat"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Sympathetic nervous system",
+      "plain_en": "mobilizes body to respond to stress"
+    },
+    {
+      "chapter": 4,
+      "section": "Nervous System",
+      "name": "Parasympathetic nervous system",
+      "plain_en": "calms body, returns it to homeostasis"
+    },
+    {
+      "chapter": 4,
+      "section": "Endocrine System",
+      "name": "Endocrine system",
+      "plain_en": "glands secreting hormones affecting body processes"
+    },
+    {
+      "chapter": 4,
+      "section": "Endocrine System",
+      "name": "Adrenal glands",
+      "plain_en": "produce adrenaline preparing body for fight or flight"
+    },
+    {
+      "chapter": 4,
+      "section": "Endocrine System",
+      "name": "Ovaries and testes",
+      "plain_en": "produce sex hormones estrogen and testosterone"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Ways of Studying the Brain",
+      "plain_en": "methods for detecting brain function"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Accidents",
+      "plain_en": "brain injuries give clues about function"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Phineas Gage",
+      "plain_en": "brain injury changed his emotions and impulses"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Lesioning",
+      "plain_en": "destroying or removing brain tissue"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Electroencephalogram (EEG)",
+      "plain_en": "detects and records brain waves"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Computerized axial tomography (CAT or CT) scan",
+      "plain_en": "sophisticated X-ray image of brain"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Magnetic resonance imaging (MRI)",
+      "plain_en": "magnetic scan producing detailed brain images"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Positron emission tomography (PET) scan",
+      "plain_en": "shows brain areas active during tasks"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Functional MRI (fMRI)",
+      "plain_en": "combines MRI and PET scan elements"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Brain Structure and Function",
+      "plain_en": "brain's three sections: hindbrain, midbrain, forebrain"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Hindbrain",
+      "plain_en": "life support; controls basic biological functions"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Medulla",
+      "plain_en": "controls blood pressure, heart rate, breathing"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Pons",
+      "plain_en": "connects hindbrain with midbrain and forebrain"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Cerebellum",
+      "plain_en": "coordinates habitual muscle movements"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Midbrain",
+      "plain_en": "coordinates simple movements with sensory information"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Reticular formation",
+      "plain_en": "netlike cells controlling arousal and attention"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Forebrain",
+      "plain_en": "brain areas controlling thought and reasoning"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Thalamus",
+      "plain_en": "relays sensory signals to appropriate forebrain areas"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Hypothalamus",
+      "plain_en": "regulates temperature, hunger, thirst, and endocrine system"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Amygdala and hippocampus",
+      "plain_en": "amygdala handles emotion; hippocampus handles memory"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Limbic system",
+      "plain_en": "group of emotion and memory regions"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Cerebral cortex",
+      "plain_en": "thin gray wrinkled layer of neurons"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Pruning",
+      "plain_en": "trimming neural connections into complex networks"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Hemispheres",
+      "plain_en": "cortex divided into left and right halves"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Contralateral hemispheric organization",
+      "plain_en": "each brain side controls the opposite body side"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Hemispheric specialization (brain lateralization)",
+      "plain_en": "each hemisphere specializes in different functions"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Split-brain patients",
+      "plain_en": "patients whose corpus callosum was cut"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Association area",
+      "plain_en": "cortex areas neither sensory nor motor"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Frontal lobes",
+      "plain_en": "cortex at top front of brain"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Prefrontal cortex",
+      "plain_en": "directs thought, planning, and emotional control"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Broca’s area",
+      "plain_en": "controls muscles producing speech"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Motor cortex",
+      "plain_en": "sends signals controlling voluntary movements"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Parietal lobes",
+      "plain_en": "cortex behind frontal lobe, top of brain"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Somatosensory cortex",
+      "plain_en": "receives touch information from the body"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Phantom limb syndrome",
+      "plain_en": "sensations perceived from missing body part"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Occipital lobes",
+      "plain_en": "back of brain; interprets visual messages"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Temporal lobes",
+      "plain_en": "process sound sensed by ears"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Wernicke’s area",
+      "plain_en": "language processing for written and spoken speech"
+    },
+    {
+      "chapter": 4,
+      "section": "The Brain",
+      "name": "Brain plasticity",
+      "plain_en": "brain flexibility to reorganize after damage"
+    },
+    {
+      "chapter": 5,
+      "section": "Overview",
+      "name": "Consciousness",
+      "plain_en": "awareness of one's own mental state"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Mere exposure effect",
+      "plain_en": "prefer familiar stimuli over novel ones"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Priming",
+      "plain_en": "prior exposure speeds later responses"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Blind sight",
+      "plain_en": "blind people accurately sense unseen objects"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Conscious level",
+      "plain_en": "information currently within awareness"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Nonconscious level",
+      "plain_en": "body processes outside our awareness"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Preconscious level",
+      "plain_en": "information retrievable into conscious awareness"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Subconscious level",
+      "plain_en": "unaware information inferred from behavior"
+    },
+    {
+      "chapter": 5,
+      "section": "Levels of Consciousness",
+      "name": "Unconscious level",
+      "plain_en": "repressed unacceptable feelings and events"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Psychoactive drugs",
+      "plain_en": "chemicals changing brain chemistry and consciousness"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Blood-brain barrier",
+      "plain_en": "protects brain from harmful blood chemicals"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Agonists",
+      "plain_en": "drugs mimicking neurotransmitter effects"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Antagonists",
+      "plain_en": "drugs blocking neurotransmitter effects"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Selective serotonin reuptake inhibitor",
+      "plain_en": "prevents serotonin reabsorption back into neuron"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Tolerance",
+      "plain_en": "need more drug for same effect"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Withdrawal symptoms",
+      "plain_en": "uncomfortable effects after stopping drug use"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Psychological dependence",
+      "plain_en": "intense psychological desire or craving"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Physical dependence",
+      "plain_en": "body needs drug to avoid withdrawal"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Stimulants",
+      "plain_en": "speed up body processes and heart rate"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Depressants",
+      "plain_en": "slow down body systems"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Hallucinogens",
+      "plain_en": "cause perceptual changes and hallucinations"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Reverse tolerance",
+      "plain_en": "smaller doses cause same or stronger effects"
+    },
+    {
+      "chapter": 5,
+      "section": "Drugs",
+      "name": "Opiates",
+      "plain_en": "endorphin agonists; powerful painkillers and mood elevators"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Sleep deprived",
+      "plain_en": "not getting as much sleep as needed"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Circadian rhythm",
+      "plain_en": "roughly 24-hour biological rhythm"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Sleep cycle",
+      "plain_en": "typical pattern of sleep stages"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Sleep onset",
+      "plain_en": "period of falling asleep"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Alpha waves",
+      "plain_en": "brain waves when drowsy but awake"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Theta waves",
+      "plain_en": "high-frequency, low-amplitude waves in NREM 1 and 2"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Sleep spindles",
+      "plain_en": "short bursts of rapid brain waves"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Delta sleep",
+      "plain_en": "deep slow-wave sleep with delta waves"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Restoration of resources",
+      "plain_en": "sleep rebuilds resources used while awake"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "REM sleep",
+      "plain_en": "rapid eye movement; brain waves appear active"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "REM rebound",
+      "plain_en": "more REM after REM deprivation"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Insomnia",
+      "plain_en": "persistent trouble falling or staying asleep"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Narcolepsy",
+      "plain_en": "intense sleepiness; falls asleep at inappropriate times"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Sleep apnea",
+      "plain_en": "breathing stops briefly during the night"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Night terrors",
+      "plain_en": "children wake from terror, remember nothing"
+    },
+    {
+      "chapter": 5,
+      "section": "Sleep",
+      "name": "Somnambulism (sleepwalking)",
+      "plain_en": "walking while asleep"
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "name": "Dreams",
+      "plain_en": "storylike images experienced during sleep"
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "name": "Lucid dreams",
+      "plain_en": "aware of dreaming and controlling storyline"
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "name": "Activation-synthesis theory of dreaming",
+      "plain_en": "dreams interpret physiological brain activity during REM"
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "name": "Information-processing theory of dreaming",
+      "plain_en": "dreams process events of the day"
+    },
+    {
+      "chapter": 5,
+      "section": "Dreams",
+      "name": "Consolidation theory of dreams",
+      "plain_en": "dreams help consolidate short-term into long-term memory"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Sensation",
+      "plain_en": "activation of the senses"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Perception",
+      "plain_en": "process of understanding sensations"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Transduction",
+      "plain_en": "signals transformed into neural impulses"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Sensory adaptation",
+      "plain_en": "decreasing responsiveness to constant stimulation"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Sensory habituation",
+      "plain_en": "perception depends partly on attention focus"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Cocktail party effect",
+      "plain_en": "involuntarily notice your name across the room"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Synesthesia",
+      "plain_en": "one sense activates another sense"
+    },
+    {
+      "chapter": 6,
+      "section": "Overview",
+      "name": "Prosopagnosia",
+      "plain_en": "inability to recognize faces"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Vision",
+      "plain_en": "dominant human sense"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Retina",
+      "plain_en": "screen at the back of the eye"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Hues",
+      "plain_en": "different wavelengths appear as different hues"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Amplitude",
+      "plain_en": "wave height determines intensity"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Cornea",
+      "plain_en": "eye's first structure light passes through"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Pupil",
+      "plain_en": "opening controlling amount of light entering"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Accommodation",
+      "plain_en": "lens changes shape to focus light"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Transduction",
+      "plain_en": "stimuli translated into neural signals"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Cones",
+      "plain_en": "retina cells activated by color"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Rods",
+      "plain_en": "cells responding to black and white"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Fovea",
+      "plain_en": "retina center with highest cone concentration"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Blind spot",
+      "plain_en": "no receptors where optic nerve exits"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Optic chiasm",
+      "plain_en": "where optic nerves cross"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Feature detectors",
+      "plain_en": "neurons responding to specific visual features"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Theories of color vision",
+      "plain_en": "competing explanations of color perception"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Trichromatic theory",
+      "plain_en": "three cone types detect red, green, blue"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Afterimage",
+      "plain_en": "complementary color seen after staring"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Dichromatism",
+      "plain_en": "cannot see red-green or blue-yellow shades"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Opponent-process theory",
+      "plain_en": "color receptors arranged in opposing pairs"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Pitch",
+      "plain_en": "wave frequency determines pitch"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Loudness",
+      "plain_en": "wave amplitude determines loudness"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Cochlea",
+      "plain_en": "snail-shaped fluid-filled inner ear structure"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Sound localization",
+      "plain_en": "judging where a sound originated"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Pitch theories",
+      "plain_en": "two theories explaining pitch perception"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Place theory",
+      "plain_en": "hair cells respond based on location"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Frequency theory",
+      "plain_en": "hair cells fire at different rates"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Conduction deafness",
+      "plain_en": "sound conduction pathway is damaged"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Nerve deafness",
+      "plain_en": "damaged cochlear hair cells cause deafness"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Gate control theory",
+      "plain_en": "some pain messages have higher priority"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Pain receptors",
+      "plain_en": "nerve endings firing with sharp stimulation"
+    },
+    {
+      "chapter": 6,
+      "section": "Energy Senses",
+      "name": "Endorphins",
+      "plain_en": "natural pain-killing chemicals in the body"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Taste buds",
+      "plain_en": "tongue structures absorbing food chemicals"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Papillae",
+      "plain_en": "visible bumps on the tongue"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Five different types of tastes",
+      "plain_en": "sweet, salty, sour, bitter, umami, fat"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Supertasters",
+      "plain_en": "densely packed taste buds, intense taste"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Smell (or Olfaction)",
+      "plain_en": "depends on chemicals emitted by substances"
+    },
+    {
+      "chapter": 6,
+      "section": "Chemical Senses",
+      "name": "Olfactory bulb",
+      "plain_en": "gathers smell messages, sends to brain"
+    },
+    {
+      "chapter": 6,
+      "section": "Body Position Senses",
+      "name": "Vestibular sense",
+      "plain_en": "body orientation in space"
+    },
+    {
+      "chapter": 6,
+      "section": "Body Position Senses",
+      "name": "Semicircular canals",
+      "plain_en": "inner ear canals giving orientation feedback"
+    },
+    {
+      "chapter": 6,
+      "section": "Body Position Senses",
+      "name": "Kinesthetic sense (kinesthesis)",
+      "plain_en": "position and movement of specific body parts"
+    }
+  ]
+}

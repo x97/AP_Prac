@@ -1,0 +1,826 @@
+{
+  "generated_at": "2026-10-27T13:37:28+00:00",
+  "paper_id": "psychology-barrons-2027-ch8-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 9,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f3fc8d2034535e58",
+          "name": "functional fixedness",
+          "confidence": 0.98,
+          "evidence": "He overlooks the fact that he could use the tennis trophy sitting above the workbench to pound in the nail.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "option_label": "A",
+          "reason": "Representativeness heuristic is another problem-solving shortcut, tempting because it is a well-known heuristic, but it concerns judging by prototype similarity rather than failing to see an object's alternative use."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-c7b172d06fba2a1d",
+          "name": "belief bias",
+          "option_label": "D",
+          "reason": "Belief bias is another reasoning pitfall in the same problem-solving domain, but it involves sticking with beliefs despite contrary evidence rather than object-use rigidity."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Functional fixedness",
+          "normalized": "functional fixedness",
+          "kp_id": "psychology-barrons-2027-kp-f3fc8d2034535e58",
+          "kp_name": "functional fixedness",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Representativeness heuristic",
+          "normalized": "representativeness heuristic",
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "kp_name": "representativeness heuristic",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Retrieval",
+          "normalized": "retrieval",
+          "kp_id": "psychology-barrons-2027-kp-e688d245f4ce49f4",
+          "kp_name": "retrieval",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Belief bias",
+          "normalized": "belief bias",
+          "kp_id": "psychology-barrons-2027-kp-c7b172d06fba2a1d",
+          "kp_name": "belief bias",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests functional fixedness: failing to see an object's alternative use. The other options are same-domain problem-solving/memory pitfalls but not the correct explanation.",
+      "warnings": [
+        "confusable 'retrieval' is in option 'B' but not in the core's narrow domain; dropped",
+        "keyword 'overlooks the fact that he could use the tennis trophy': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "confidence": 0.97,
+          "evidence": "Which of the following is an example of the use of the representativeness heuristic?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-53866941c7e8ed54",
+          "name": "subgoals",
+          "option_label": "B",
+          "reason": "Breaking a problem into smaller parts is a problem-solving technique (subgoals), not the representativeness heuristic."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-c04b4bf9743bd9af",
+          "name": "heuristic",
+          "option_label": "C",
+          "reason": "A rule that is usually but not always true describes heuristics in general, not specifically the representativeness heuristic."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-00bf60f397c09b62",
+          "name": "algorithm",
+          "option_label": "D",
+          "reason": "A rule guaranteeing the right answer describes an algorithm, not a heuristic."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "representativeness heuristic",
+          "normalized": "representativeness heuristic",
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "kp_name": "representativeness heuristic",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "younger people are more likely to start fights",
+          "normalized": "younger people are more likely to start fights",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "smaller, representative parts",
+          "normalized": "smaller representative parts",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "rule that is usually, but not always, true",
+          "normalized": "rule that is usually but not always true",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "rule that guarantees the right",
+          "normalized": "rule that guarantees the right",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Correct option illustrates judging by similarity to a prototype (young people as aggressive).",
+      "warnings": [
+        "supporting 'prototypes' is not in the correct option or the core subheading; dropped",
+        "keyword 'younger people are more likely to start fights': not a known alias of 'prototypes'; stored without a KP",
+        "keyword 'smaller, representative parts': not a known alias of 'subgoals'; stored without a KP",
+        "keyword 'rule that is usually, but not always, true': not a known alias of 'heuristic'; stored without a KP",
+        "keyword 'rule that guarantees the right': not a known alias of 'algorithm'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4eba6ba3a11a7f45",
+          "name": "availability heuristic",
+          "confidence": 0.98,
+          "evidence": "Making a judgment according to past experiences that are most easily recalled",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "option_label": "D",
+          "reason": "Representativeness heuristic also involves judging based on what is usually true, but by similarity to prototypes rather than ease of recall."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-00bf60f397c09b62",
+          "name": "algorithm",
+          "option_label": "C",
+          "reason": "An algorithm is a formula guaranteeing a correct answer, contrasted with the quick, error-prone availability heuristic."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-c04b4bf9743bd9af",
+          "name": "heuristic",
+          "option_label": "A",
+          "reason": "This describes heuristics in general (quick rules that are usually but not always true), not specifically the availability heuristic."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "availability heuristic",
+          "normalized": "availability heuristic",
+          "kp_id": "psychology-barrons-2027-kp-4eba6ba3a11a7f45",
+          "kp_name": "availability heuristic",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "most easily recalled",
+          "normalized": "most easily recalled",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "formula that guarantees the right answer",
+          "normalized": "formula that guarantees the right answer",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "usually true in your experience",
+          "normalized": "usually true in your experience",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Option A describes heuristics generally (C03) and is a near-miss for the availability heuristic; option D is a near-miss for representativeness (C04).",
+      "warnings": [
+        "supporting 'heuristic' duplicates a confusable; dropped",
+        "keyword 'most easily recalled': not a known alias of 'availability heuristic'; stored without a KP",
+        "keyword 'formula that guarantees the right answer': not a known alias of 'algorithm'; stored without a KP",
+        "keyword 'usually true in your experience': not a known alias of 'representativeness heuristic'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "confidence": 0.97,
+          "evidence": "The representativeness heuristic.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7c8f5f1b30ccfcb7",
+          "name": "gambler’s fallacy",
+          "option_label": "B",
+          "reason": "Gambler's fallacy is another judgment/probability error in the same problem-solving domain, tempting students who see a probability-based reasoning error."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "representativeness heuristic",
+          "normalized": "representativeness heuristic",
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "kp_name": "representativeness heuristic",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "gambler’s fallacy",
+          "normalized": "gambler's fallacy",
+          "kp_id": "psychology-barrons-2027-kp-7c8f5f1b30ccfcb7",
+          "kp_name": "gambler’s fallacy",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "divergent thinking",
+          "normalized": "divergent thinking",
+          "kp_id": "psychology-barrons-2027-kp-e9bff66a210c4ca5",
+          "kp_name": "divergent thinking",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "False consensus",
+          "normalized": "false consensus",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "professional basketball player",
+          "normalized": "professional basketball player",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "Core is the representativeness heuristic; the stereotype-similarity reasoning in the stem supports it. Divergent thinking is unrelated to the judgment error, so it is only a keyword distractor, not a confusable.",
+      "warnings": [
+        "supporting 'prototypes' is not in the correct option or the core subheading; dropped",
+        "confusable 'False-consensus effect' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'False consensus': not a known alias of 'False-consensus effect'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f3fc8d2034535e58",
+          "name": "functional fixedness",
+          "confidence": 0.97,
+          "evidence": "Functional fixedness",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5325beee2e8de48f",
+          "name": "mental set",
+          "option_label": "C",
+          "reason": "Mental set is a closely related problem-solving obstacle involving sticking to established thought patterns, tempting when a solver fails to approach a problem freshly."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e9bff66a210c4ca5",
+          "name": "divergent thinking",
+          "option_label": "B",
+          "reason": "Divergent thinking is the creativity concept often contrasted with functional fixedness, tempting as the 'opposite' of the correct answer."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-4538ee913ec6cde2",
+          "name": "confirmation bias",
+          "option_label": "A",
+          "reason": "Confirmation bias is another problem-solving/judgment bias, tempting as a generic 'thinking error' label."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Functional fixedness",
+          "normalized": "functional fixedness",
+          "kp_id": "psychology-barrons-2027-kp-f3fc8d2034535e58",
+          "kp_name": "functional fixedness",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Mental set",
+          "normalized": "mental set",
+          "kp_id": "psychology-barrons-2027-kp-5325beee2e8de48f",
+          "kp_name": "mental set",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Divergent thinking",
+          "normalized": "divergent thinking",
+          "kp_id": "psychology-barrons-2027-kp-e9bff66a210c4ca5",
+          "kp_name": "divergent thinking",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Confirmation bias",
+          "normalized": "confirmation bias",
+          "kp_id": "psychology-barrons-2027-kp-4538ee913ec6cde2",
+          "kp_name": "confirmation bias",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests failure to see a new use for a familiar object (book as doorstop), which is functional fixedness. Mental set and divergent thinking are the most tempting near-miss problem-solving/creativity concepts.",
+      "warnings": [
+        "supporting 'mental set' duplicates a confusable; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-00bf60f397c09b62",
+          "name": "algorithm",
+          "confidence": 0.95,
+          "evidence": "Ally insists on using a tape measure to get the exact length and width so they can multiply it and get the exact area",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-c04b4bf9743bd9af",
+          "name": "heuristic",
+          "confidence": 0.95,
+          "evidence": "Alex suggests using his iPhone to get a ballpark measurement",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4eba6ba3a11a7f45",
+          "name": "availability heuristic",
+          "option_label": "A",
+          "reason": "Availability heuristic is a problem-solving shortcut, tempting as a heuristic-type distractor, but it concerns judging by easily recalled examples, not ballpark measurement."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "option_label": "A",
+          "reason": "Representativeness heuristic is another heuristic-type shortcut, but it involves judging by similarity to prototypes rather than a quick approximate measurement."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e9bff66a210c4ca5",
+          "name": "divergent thinking",
+          "option_label": "B",
+          "reason": "Divergent thinking is a creativity concept that might seem like a shortcut approach, but it concerns generating many possible answers."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "algorithm",
+          "normalized": "algorithm",
+          "kp_id": "psychology-barrons-2027-kp-00bf60f397c09b62",
+          "kp_name": "algorithm",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "heuristic",
+          "normalized": "heuristic",
+          "kp_id": "psychology-barrons-2027-kp-c04b4bf9743bd9af",
+          "kp_name": "heuristic",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "availability",
+          "normalized": "availability",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "representativeness heuristic",
+          "normalized": "representativeness heuristic",
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "kp_name": "representativeness heuristic",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "convergent",
+          "normalized": "convergent",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "divergent thinking",
+          "normalized": "divergent thinking",
+          "kp_id": "psychology-barrons-2027-kp-e9bff66a210c4ca5",
+          "kp_name": "divergent thinking",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "confirmation bias",
+          "normalized": "confirmation bias",
+          "kp_id": "psychology-barrons-2027-kp-215a836fd725f1c8",
+          "kp_name": "Confirmation bias",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "hindsight bias",
+          "normalized": "hindsight bias",
+          "kp_id": "psychology-barrons-2027-kp-029a2cc17c732037",
+          "kp_name": "Hindsight bias",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item contrasts a guaranteed step-by-step procedure (algorithm) with a quick rule-of-thumb shortcut (heuristic).",
+      "warnings": [
+        "confusable 'convergent thinking' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Confirmation bias' is in option 'D' but not in the core's narrow domain; dropped",
+        "confusable 'Hindsight bias' is in option 'D' but not in the core's narrow domain; dropped",
+        "keyword 'availability': not a known alias of 'availability heuristic'; stored without a KP",
+        "keyword 'convergent': not a known alias of 'convergent thinking'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "name": "Scatterplot",
+          "confidence": 0.97,
+          "evidence": "a scatterplot that plots the number of math classes on one axis and the percent guessed on the other",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "option_label": "C",
+          "reason": "Summarizing with means is a tempting descriptive-statistics choice, but it loses the paired data needed to show a correlation."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "scatterplot",
+          "normalized": "scatterplot",
+          "kp_id": "psychology-barrons-2027-kp-0e2808b5c8f24f64",
+          "kp_name": "Scatterplot",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "hypothesis",
+          "normalized": "hypothesis",
+          "kp_id": "psychology-barrons-2027-kp-1ca1b1a60f172473",
+          "kp_name": "Hypothesis",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "math classes",
+          "normalized": "math classes",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "percent guessed",
+          "normalized": "percent guessed",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "bar graph",
+          "normalized": "bar graph",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "mean",
+          "normalized": "mean",
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "kp_name": "Mean",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests choosing an appropriate graph for correlational data; the scatterplot is the core. The mean option is the closest same-domain distractor (descriptive statistics).",
+      "warnings": [
+        "supporting 'Correlation' is not in the correct option or the core subheading; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7c8f5f1b30ccfcb7",
+          "name": "gambler’s fallacy",
+          "confidence": 0.97,
+          "evidence": "the less likely they are to believe that after a fair coin is tossed three times and comes up heads each time, the next coin toss will result in tails",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-f767b89b9a0d17f6",
+          "name": "sunk-cost fallacy",
+          "option_label": "B",
+          "reason": "Sunk-cost fallacy is another judgment error involving past outcomes, but it concerns refusing to change course due to prior investment rather than expecting chance outcomes to balance out."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "name": "representativeness heuristic",
+          "option_label": "D",
+          "reason": "Representativeness heuristic is a related judgment shortcut about probability, but it involves judging by similarity to prototypes rather than believing past random outcomes change future odds."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "gambler’s fallacy",
+          "normalized": "gambler's fallacy",
+          "kp_id": "psychology-barrons-2027-kp-7c8f5f1b30ccfcb7",
+          "kp_name": "gambler’s fallacy",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "fair coin",
+          "normalized": "fair coin",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "sunk-cost fallacy",
+          "normalized": "sunk cost fallacy",
+          "kp_id": "psychology-barrons-2027-kp-f767b89b9a0d17f6",
+          "kp_name": "sunk-cost fallacy",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "representativeness heuristic",
+          "normalized": "representativeness heuristic",
+          "kp_id": "psychology-barrons-2027-kp-e7bef65f01d01571",
+          "kp_name": "representativeness heuristic",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "algorithms",
+          "normalized": "algorithms",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the gambler's fallacy: believing a fair coin is more likely to land tails after a run of heads. Option A (algorithms) is unrelated to the scenario and omitted from confusables.",
+      "warnings": [
+        "keyword 'fair coin': not a known alias of 'gambler’s fallacy'; stored without a KP",
+        "keyword 'algorithms': not a known alias of 'algorithm'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch8-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4235404d1c8584c0",
+          "name": "Correlation",
+          "confidence": 0.95,
+          "evidence": "Amelia wants to investigate the hypothesis that the more math classes people have taken, the less likely they are to believe",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "name": "Naturalistic observation",
+          "option_label": "C",
+          "reason": "Naturalistic observation is another nonexperimental research method, tempting students who see the study as observing people's beliefs."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "correlational",
+          "normalized": "correlational",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "case study",
+          "normalized": "case study",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "naturalistic observation",
+          "normalized": "naturalistic observation",
+          "kp_id": "psychology-barrons-2027-kp-564c399a81736ad3",
+          "kp_name": "Naturalistic observation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "experimental",
+          "normalized": "experimental",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "hypothesis",
+          "normalized": "hypothesis",
+          "kp_id": "psychology-barrons-2027-kp-1ca1b1a60f172473",
+          "kp_name": "Hypothesis",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests identifying a correlational design: two unmanipulated variables are measured to see their relationship. The experimental option is a distractor because it would require manipulation of an independent variable.",
+      "warnings": [
+        "supporting 'Independent variable' is not in the correct option or the core subheading; dropped",
+        "confusable 'Case study method' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'correlational': not a known alias of 'Correlation'; stored without a KP",
+        "keyword 'case study': not a known alias of 'Case study method'; stored without a KP",
+        "keyword 'experimental': not a known alias of 'Independent variable'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

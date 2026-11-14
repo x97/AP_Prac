@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "记忆卡片",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#F7F6F2",
+  "usingComponents": {}
+}

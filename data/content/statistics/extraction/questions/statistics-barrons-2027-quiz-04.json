@@ -1,0 +1,886 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-04",
+ "kind": "quiz",
+ "number": 4,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 4 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 4",
+ "pdf_page_start": 131,
+ "pdf_page_end": 139,
+ "answer_page_start": 716,
+ "answer_page_end": 717,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The distributions of both underclassmen and upperclassmen times are skewed left.",
+    "B": "The distributions of both underclassmen and upperclassmen times are skewed right.",
+    "C": "The distribution of underclassmen times is skewed left, and the distribution of upperclassmen times is skewed right.",
+    "D": "The distribution of underclassmen times is skewed right, and the distribution of upperclassmen times is skewed left."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 131,
+      "bbox": [
+       110.0,
+       568.9,
+       507.0,
+       585.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 131,
+      "bbox": [
+       110.0,
+       605.1,
+       506.9,
+       621.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 131,
+      "bbox": [
+       110.0,
+       641.3,
+       526.4,
+       658.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 131,
+      "bbox": [
+       110.0,
+       677.5,
+       512.1,
+       694.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 131,
+     "bbox": [
+      205.6,
+      303.1,
+      406.8,
+      464.5
+     ]
+    }
+   ],
+   "page_start": 131,
+   "page_end": 131,
+   "stem": "A school nutritionist surveys random samples of underclassmen and upperclassmen as to the number of minutes it takes to eat a cafeteria lunch. The data are shown in the following back-to-back stemplot. Which of the following statements is true about the distributions of eating times?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Both distributions are skewed toward the lower values—that is, skewed left.",
+   "question_id": "statistics-barrons-2027-quiz-04-001",
+   "source_pages": [
+    131,
+    131
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "The mean time was 13 minutes.",
+    "B": "More teachers took at least 14 minutes than took at most 10 minutes.",
+    "C": "Approximately 50% of the teachers took between 10 and 14 minutes.",
+    "D": "25% of the teachers took over 10 minutes."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 132,
+      "bbox": [
+       110.0,
+       295.4,
+       335.1,
+       312.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 132,
+      "bbox": [
+       110.0,
+       314.9,
+       510.3,
+       331.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 132,
+      "bbox": [
+       110.0,
+       351.1,
+       508.7,
+       367.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 132,
+      "bbox": [
+       110.0,
+       387.3,
+       402.9,
+       404.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 132,
+     "bbox": [
+      104.7,
+      126.3,
+      507.7,
+      207.7
+     ]
+    }
+   ],
+   "page_start": 132,
+   "page_end": 132,
+   "stem": "The following boxplot summarizes the times (in minutes) that it took a random sample of teachers to walk/run a mile. Which of the following statements is supported by the boxplot?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The interquartile range, Q3 − Q1 = 14 − 10, accounts for about 50% of the data.",
+   "question_id": "statistics-barrons-2027-quiz-04-002",
+   "source_pages": [
+    132,
+    132
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The ranges are approximately equal, and the mean of the Area 1 distribution is less than the mean of the Area 2 distribution.",
+    "B": "The ranges are approximately equal, and the mean of the Area 1 distribution is greater than the mean of the Area 2 distribution.",
+    "C": "The range of the Area 1 distribution is less than that of Area 2, and the mean of the Area 1 distribution is greater than the mean of the Area 2 distribution.",
+    "D": "The range of the Area 1 distribution is less than that of Area 2, and the mean of the Area 1 distribution is less than the mean of the Area 2 distribution."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       122.1,
+       524.8,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       158.3,
+       524.6,
+       175.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       211.2,
+       523.8,
+       228.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       264.1,
+       524.9,
+       280.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 132,
+     "bbox": [
+      145.1,
+      479.2,
+      467.3,
+      652.5
+     ]
+    }
+   ],
+   "page_start": 132,
+   "page_end": 133,
+   "stem": "The kilowatt-hours (kWh) generated in a random sample of days from solar panel setups in two areas are shown below. Based on the dotplots, which of the following is the best comparison of the ranges and means of the two distributions?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The range of the Area 1 distribution is a little greater than 50, while the range of the Area 2 distribution is a little greater than 100. The Area 1 distribution is roughly bell-shaped, and its mean is close to its median, while the Area 2 distribution is skewed left, so its mean is less than its median.",
+   "question_id": "statistics-barrons-2027-quiz-04-003",
+   "source_pages": [
+    132,
+    133
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "1.3",
+    "B": "1.4",
+    "C": "1.43",
+    "D": "This depends on knowing the mean and standard deviation of the company salaries."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       418.6,
+       156.8,
+       435.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       438.1,
+       156.7,
+       454.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       457.6,
+       164.4,
+       474.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       477.1,
+       519.0,
+       493.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 133,
+   "page_end": 133,
+   "stem": "An employee’s salary of $80,000 has a standardized score of z = 1.3 among all employees in the company. If everyone receives a 10% raise, what will be the standardized score of the employee’s new salary of $88,000?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Multiplying every value in a set by the same constant (in this case by 1.1) multiplies both the mean and the standard deviation by the same constant and leaves the standardized score unchanged.",
+   "question_id": "statistics-barrons-2027-quiz-04-004",
+   "source_pages": [
+    133,
+    133
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and III only",
+    "D": "I and II only"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 133,
+      "bbox": [
+       110.0,
+       695.6,
+       172.4,
+       712.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       72.0,
+       177.4,
+       88.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       91.5,
+       219.5,
+       108.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       111.0,
+       215.4,
+       127.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 133,
+   "page_end": 134,
+   "stem": "The distribution of temperatures of 25 spring break vacation destinations has mean 75 degrees and standard deviation 4 degrees. Suppose an Alaskan glacier destination is added to the set with a temperature of 35 degrees. Which of the following claims about the new distribution is supported? I. The median temperature is not likely to change. II. The mean is likely to decrease. III. The range is not likely to change.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The new temperature is an outlier since it is far below the rest of the data. The median is resistant to outliers, so it is unlikely to change. The mean is not resistant to outliers, so it is likely to change, in this case decrease. The range is not resistant to outliers, so it is likely to change.",
+   "question_id": "statistics-barrons-2027-quiz-04-005",
+   "source_pages": [
+    133,
+    134
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "Team 1 has more players than Team 2.",
+    "B": "On both teams, at least half their players have an average over .250.",
+    "C": "On Team 2, more players have an average over .255 than under .255.",
+    "D": "Both team batting average distributions are roughly bell-shaped."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       431.1,
+       377.1,
+       447.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       450.6,
+       525.8,
+       467.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       486.8,
+       532.1,
+       503.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 134,
+      "bbox": [
+       110.0,
+       523.0,
+       534.4,
+       539.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 134,
+     "bbox": [
+      104.7,
+      202.8,
+      507.7,
+      326.7
+     ]
+    }
+   ],
+   "page_start": 134,
+   "page_end": 134,
+   "stem": "The boxplots below summarize the batting averages for the players on two college baseball teams. Which of the following statements must be true based on the boxplots?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Both teams have a median of .255, with 50% of the averages to either side. So on both teams at least half their players have an average over .250. There is no way of knowing how many players are on either team, and there is no way of concluding “roughly bell-shaped” from a boxplot.",
+   "question_id": "statistics-barrons-2027-quiz-04-006",
+   "source_pages": [
+    134,
+    134
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "The medians of the two distributions must be the same.",
+    "B": "The means of the two distributions must be the same.",
+    "C": "The standard deviation of the distribution from Site X is less than the standard deviation of the distribution from Site Y.",
+    "D": "The standard deviation of the distribution from Site X is greater than the standard deviation of the distribution from Site Y."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 135,
+      "bbox": [
+       110.0,
+       289.1,
+       481.9,
+       305.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 135,
+      "bbox": [
+       110.0,
+       308.6,
+       470.8,
+       325.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 135,
+      "bbox": [
+       110.0,
+       328.1,
+       505.5,
+       344.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 135,
+      "bbox": [
+       110.0,
+       364.3,
+       527.9,
+       381.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 135,
+     "bbox": [
+      145.1,
+      72.0,
+      467.3,
+      184.8
+     ]
+    }
+   ],
+   "page_start": 134,
+   "page_end": 135,
+   "stem": "The histograms below show the distribution of weights of small broken pieces of pottery found at two different archeological sites. Which of the following statements must be true based on the histograms above?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The weight distribution from Site X is much more spread out from roughly where the mean would be than the weight distribution from Site Y, leading to a greater standard deviation of the distribution from Site X. Values may be anywhere in the bins, so there is no way of exactly knowing the median or mean.",
+   "question_id": "statistics-barrons-2027-quiz-04-007",
+   "source_pages": [
+    134,
+    135
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "Median = $90, Mean = $75",
+    "B": "Median = $90, Mean = $110",
+    "C": "Median = $160, Mean = $110",
+    "D": "Median = $160, Mean = $190"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       122.1,
+       306.4,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       141.6,
+       313.9,
+       158.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       161.1,
+       321.6,
+       177.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       180.6,
+       322.7,
+       197.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 135,
+     "bbox": [
+      185.4,
+      472.9,
+      427.0,
+      633.0
+     ]
+    }
+   ],
+   "page_start": 135,
+   "page_end": 136,
+   "stem": "The histogram below summarizes summer savings for a random sample of high school students. Which of the following could be the median and mean of the summer savings data?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The median should be a point with half the values on either side; thus, it is in the interval from 100 to 200. With a right-skewed distribution, the mean will be greater than the median.",
+   "question_id": "statistics-barrons-2027-quiz-04-008",
+   "source_pages": [
+    135,
+    136
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "Both distributions have at least one low outlier and at least one high outlier.",
+    "B": "The men’s distribution has at least one low outlier, and the women’s distribution has no outliers.",
+    "C": "The women’s distribution has at least one low outlier, and the men’s distribution has no outliers.",
+    "D": "The men’s distribution has at least one low outlier, and the women’s distribution has at least one high outlier."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       432.5,
+       526.5,
+       449.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       468.7,
+       497.2,
+       485.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       504.9,
+       515.2,
+       521.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 136,
+      "bbox": [
+       110.0,
+       541.1,
+       498.4,
+       557.9
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 136,
+   "page_end": 136,
+   "stem": "At an international swimming event, the times for the men’s and women’s 100-meter freestyle event are summarized in the following table where all values are in seconds. Third Minimum First quartile Median quartile Maximum Men 47.0 47.6 47.7 47.9 48.3 Women 51.7 52.8 53.2 53.6 54.7 Which of the following statements is a correct comparison of the two distributions with regard to outliers?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "For the men, Q1 − 1.5(IQR) = 47.6 − 1.5(47.9 − 47.6) = 47.15 and Q3 + 1.5(IQR) = 47.9 + 1.5(47.9 − 47.6) = 48.35. So there is at least one low outlier for the men. For the women, Q1 − 1.5(IQR) = 52.8 − 1.5(53.6 − 52.8) = 51.6 and Q3 + 1.5(IQR) = 53.6 + 1.5(53.6 − 52.8) = 54.8. So there are no outliers for the women.",
+   "question_id": "statistics-barrons-2027-quiz-04-009",
+   "source_pages": [
+    136,
+    136
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "IQR = 85 and SD = 25",
+    "B": "IQR = 85 and SD = 50",
+    "C": "IQR = 110 and SD = 25",
+    "D": "IQR = 110 and SD = 50"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 137,
+      "bbox": [
+       110.0,
+       155.5,
+       277.9,
+       172.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 137,
+      "bbox": [
+       110.0,
+       175.0,
+       277.7,
+       191.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 137,
+      "bbox": [
+       110.0,
+       194.5,
+       285.5,
+       211.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 137,
+      "bbox": [
+       110.0,
+       214.0,
+       286.6,
+       230.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 136,
+   "page_end": 137,
+   "stem": "The set of SAT Math scores for students attending a charter STEM high school has summary statistics reported in the following table. Standard Q1 Q3 Minimum Median Maximum Mean deviation 620 650 695 735 775 710 25 It was later reported that an error was made in the initial reporting of the scores and that all scores were 25 greater than what was initially reported. What are the interquartile range (IQR) and the standard deviation (SD) of the corrected scores?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Adding the same number to every value will increase Q1 and Q3 by the same value. So their difference, which is the IQR, will remain the same. Similarly, the mean will also increase by the same value but differences from the mean will remain the same. So the SD will remain unchanged.",
+   "question_id": "statistics-barrons-2027-quiz-04-010",
+   "source_pages": [
+    136,
+    137
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 137,
+     "bbox": [
+      104.7,
+      417.2,
+      507.7,
+      573.1
+     ]
+    }
+   ],
+   "page_start": 137,
+   "page_end": 137,
+   "stem": "The following parallel boxplots give the daily fluctuations (in dollars) of two stocks over the course of a year. (a) Compare the two distributions. (b) Based on the boxplots, give a reason for preferring Stock E. (c) Based on the boxplots, give a reason for preferring Stock F.",
+   "correct_answer": null,
+   "answer_text": "5(1.5) = Q1 − 2.25 or above Q3 + 1.5(1.5) = Q3 + 2.25 as outliers. Therefore, the smaller IQR would potentially identify more textbook weights as outliers.",
+   "question_id": "statistics-barrons-2027-quiz-04-011",
+   "context": "",
+   "source_pages": [
+    137,
+    137
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 138,
+     "bbox": [
+      165.3,
+      209.8,
+      447.1,
+      380.3
+     ]
+    }
+   ],
+   "page_start": 138,
+   "page_end": 138,
+   "stem": "An entrepreneur owns two restaurants, one advertised as casual dining and the other advertised as fine dining. To estimate time spent in his restaurants, the entrepreneur randomly samples 42 customers, 14 with reservations at the casual dining site and 28 with reservations at the fine dining site. The following histograms summarize the times spent. (Each interval includes values from the left endpoint up to but not including the right endpoint.) (a) Compare the two distributions of dining times. (b) How many of the dining times were under 90 minutes? (c) Based on the histograms, what is a reasonable estimate for the median dining time for this random sample of 42 customers?",
+   "correct_answer": null,
+   "answer_text": "(a) The distribution of casual dining times is roughly right skewed, while the distribution of fine dining times is roughly bell-shaped. Both the center and the spread are greater for the fine dining times. (b) There were 12 + 3 = 15 dining times under 90 minutes. (c) All 14 casual dining times were under 105 minutes as were 5 of the fine dining times. A total of 19 dining times were under 105 minutes, and a total of 19 + 4 = 23 were under 120 minutes. With a total of 42 dining times, the median is between the 21st and 22nd times, so it must be somewhere between 105 and 120 minutes.",
+   "question_id": "statistics-barrons-2027-quiz-04-012",
+   "context": "",
+   "source_pages": [
+    138,
+    138
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 138,
+     "bbox": [
+      205.6,
+      601.6,
+      406.8,
+      700.5
+     ]
+    }
+   ],
+   "page_start": 138,
+   "page_end": 139,
+   "stem": "The following back-to-back stemplot summarizes the average first- serve speeds for random samples of 15 male and 15 female professional tennis players. (a) Compare the distributions. (b) How many average first serves were over 125 mph among the 30 players? (c) What was the median first-serve speed among the 30 players?",
+   "correct_answer": null,
+   "answer_text": "(a) The distribution of first serve speeds for the male players was roughly bell-shaped, while the distribution of first serve speeds for the female players was skewed right. The center of the male distribution was greater than that of the female distribution (a median of 127 versus 114). The spread of the male distribution was greater than that of the female distribution (a range of 32 versus 28). (b) There were 8 + 1 = 9 first serves over 125 mph. (c) There were 4 + 10 = 14 first serves under 118 mph and 11 + 3 = 14 first serves over 118. The median first serve speed among the 30 players was 118 mph.",
+   "question_id": "statistics-barrons-2027-quiz-04-013",
+   "context": "",
+   "source_pages": [
+    138,
+    139
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 139,
+     "bbox": [
+      205.6,
+      253.0,
+      406.8,
+      351.8
+     ]
+    }
+   ],
+   "page_start": 139,
+   "page_end": 139,
+   "stem": "In a random sample of 397 textbooks in a college bookstore, the weights of the textbooks are summarized in the following histogram. (a) What would be a statistical advantage to using the sample median rather than the sample mean as an estimate for the typical weight of the textbooks sold in that bookstore? (b) Explain a method to find the median weight, and then use your method to find the median weight. (c) Based on the histogram, the interquartile range is between 0.5 and 1.5 pounds. Which of these two IQR values would potentially identify more textbook weights as outliers? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) In a skewed right distribution, the mean is pulled to the right. So the median, which is resistant to outliers, is a more typical value of the weights of the textbooks. (b) For the 397 weights, the median will be the 199th weight in order. Add weights from the left, 18 + 68 + 85 = 171. It is seen that the 199th weight will be in the 2.5 to 3.0 bin. The median weight is between 2.5 and 3.0 pounds. (c) The smaller IQR would identify those weights below Q1 − 1.5(0.5) = Q1 − 0.75 or above Q3 +",
+   "question_id": "statistics-barrons-2027-quiz-04-014",
+   "context": "",
+   "source_pages": [
+    139,
+    139
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 14,
+ "mcq_count": 10,
+ "frq_count": 4
+}

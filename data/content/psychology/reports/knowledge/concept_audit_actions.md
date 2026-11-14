@@ -1,0 +1,574 @@
+# Core 概念复核执行记录
+
+> 复核基线 393 core；三批合并后 402 core。原因是有 9 个概念原本被拆成 Barron/Myers 两条：`In-group bias`、`General intelligence (g)`、`Emotional intelligence`、`Antipsychotic drugs`、`Neuroplasticity`、`Double-blind procedure`、`Percentile rank`、`Phoneme`、`Random sampling`；合并后恢复跨书身份。
+
+- 备份：`ap_knowledge.db.bak-20261028-003951-before-concept-audit-apply`
+- 合并重复概念：11 组
+- 重命名：483 个
+- 写入关系：193 条（计划 193 条）
+
+## 合并
+
+- `Garcia effect (Unit 4)` → `Garcia effect`
+- `Hypothalamus (Unit 4)` → `Hypothalamus`
+- `Mere exposure effect (Unit 1)` → `Mere exposure effect`
+- `Modeling (Unit 5)` → `Modeling`
+- `Perception (Unit 2)` → `Perception`
+- `Self-actualization (Unit 5)` → `Self-actualization`
+- `Token economy (Unit 3)` → `Token economy`
+- `Unconditional positive regard (Unit 4)` → `Unconditional positive regard`
+- `Determinism (Unit 5)` → `Determinism`
+- `eclectic (Unit 0)` → `eclectic`
+- `ingroup bias` → `In-group bias`
+
+## 重命名
+
+- `Operational definitions` → `Operational definition`
+- `reliability` → `Reliability`
+- `Behavioral Perspective` → `Behavioral perspective`
+- `Amygdala and hippocampus` → `Amygdala`
+- `confirmation bias` → `Confirmation bias`
+- `specific phobia` → `Specific phobia`
+- `algorithm` → `Algorithm`
+- `availability heuristic` → `Availability heuristic`
+- `Opponent-process theory` → `Opponent-process theory (color vision)`
+- `serial position effect` → `Serial position effect`
+- `heuristic` → `Heuristic`
+- `generalized anxiety disorder (GAD)` → `Generalized anxiety disorder (GAD)`
+- `Intrinsic motivations` → `Intrinsic motivation`
+- `encoding` → `Encoding`
+- `predictive validity` → `Predictive validity`
+- `antisocial personality disorder` → `Antisocial personality disorder`
+- `misinformation effect` → `Misinformation effect`
+- `general adaptation syndrome (GAS)` → `General adaptation syndrome (GAS)`
+- `difference threshold` → `Difference threshold`
+- `semantic memory` → `Semantic memory`
+- `hallucinations` → `Hallucinations`
+- `bipolar disorder` → `Bipolar disorder`
+- `Extrinsic motivations` → `Extrinsic motivation`
+- `top-down processing` → `Top-down processing`
+- `absolute threshold` → `Absolute threshold`
+- `hippocampus` → `Hippocampus`
+- `selective attention` → `Selective attention`
+- `learned helplessness` → `Learned helplessness`
+- `depth perception` → `Depth perception`
+- `short-term memory` → `Short-term memory`
+- `crystallized intelligence` → `Crystallized intelligence`
+- `fluid intelligence` → `Fluid intelligence`
+- `anterograde amnesia` → `Anterograde amnesia`
+- `delusions` → `Delusions`
+- `divergent thinking` → `Divergent thinking`
+- `episodic memory` → `Episodic memory`
+- `long-term memory` → `Long-term memory`
+- `implicit memories` → `Implicit memory`
+- `proactive interference` → `Proactive interference`
+- `representativeness heuristic` → `Representativeness heuristic`
+- `spacing effect` → `Spacing effect`
+- `framing` → `Framing`
+- `emotion-focused coping` → `Emotion-focused coping`
+- `mental set` → `Mental set`
+- `recognition` → `Recognition`
+- `factor analysis` → `Factor analysis`
+- `retroactive interference` → `Retroactive interference`
+- `convergence` → `Convergence`
+- `retinal disparity` → `Retinal disparity`
+- `aptitude tests` → `Aptitude tests`
+- `recall` → `Recall`
+- `perceptual set` → `Perceptual set`
+- `overconfidence` → `Overconfidence`
+- `social anxiety disorder` → `Social anxiety disorder`
+- `autism spectrum disorder` → `Autism spectrum disorder`
+- `bottom-up processing` → `Bottom-up processing`
+- `diathesis-stress model` → `Diathesis-stress model`
+- `panic disorder` → `Panic disorder`
+- `Smell (or Olfaction)` → `Smell (Olfaction)`
+- `retrieval` → `Retrieval`
+- `agoraphobia` → `Agoraphobia`
+- `mental age` → `Mental age`
+- `monocular depth cues` → `Monocular depth cues`
+- `inattentional blindness` → `Inattentional blindness`
+- `concepts` → `Concepts`
+- `binocular depth cues` → `Binocular depth cues`
+- `anorexia nervosa` → `Anorexia nervosa`
+- `content validity` → `Content validity`
+- `achievement tests` → `Achievement tests`
+- `sensory memory` → `Sensory memory`
+- `visual cliff` → `Visual cliff`
+- `long-term potentiation` → `Long-term potentiation`
+- `signal detection theory` → `Signal detection theory`
+- `belief perseverance` → `Belief perseverance`
+- `explicit memories` → `Explicit memory`
+- `gratitude` → `Gratitude`
+- `retrograde amnesia` → `Retrograde amnesia`
+- `mood-congruent memory` → `Mood-congruent memory`
+- `visuospatial sketchpad` → `Visuospatial sketchpad`
+- `bulimia` → `Bulimia`
+- `intelligence` → `Intelligence`
+- `working memory` → `Working memory`
+- `post-traumatic growth` → `Post-traumatic growth`
+- `subjective well-being` → `Subjective well-being`
+- `therapeutic alliance` → `Therapeutic alliance`
+- `chunking` → `Chunking`
+- `iconic memory` → `Iconic memory`
+- `Social-Cognitive Theory` → `Social-cognitive theory`
+- `relearning effect` → `Relearning effect`
+- `tend-and-befriend theory` → `Tend-and-befriend theory`
+- `echoic memory` → `Echoic memory`
+- `convergent thinking` → `Convergent thinking`
+- `autokinetic effect` → `Autokinetic effect`
+- `central executive` → `Central executive`
+- `change blindness` → `Change blindness`
+- `phi phenomenon` → `Phi phenomenon`
+- `subliminal` → `Subliminal`
+- `Blind sight` → `Blindsight`
+- `character strengths` → `Character strengths`
+- `figure-ground relationship` → `Figure-ground relationship`
+- `flashbulb memories` → `Flashbulb memory`
+- `resilience` → `Resilience`
+- `schizophrenia` → `Schizophrenia`
+- `deeply encoded` → `Deeply encoded`
+- `procedural memory` → `Procedural memory`
+- `levels of processing model` → `Levels of processing model`
+- `functional fixedness` → `Functional fixedness`
+- `narcissistic personality disorder` → `Narcissistic personality disorder`
+- `test-retest reliability` → `Test-retest reliability`
+- `primacy effect` → `Primacy effect`
+- `shallowly encoded` → `Shallowly encoded`
+- `gambler’s fallacy` → `Gambler’s fallacy`
+- `constancy` → `Constancy`
+- `nurture` → `Nurture`
+- `dopamine hypothesis` → `Dopamine hypothesis`
+- `schemata` → `Schemata`
+- `retrieval cues` → `Retrieval cues`
+- `recency effect` → `Recency effect`
+- `heritability` → `Heritability`
+- `method of loci` → `Method of loci`
+- `triarchic theory` → `Triarchic theory`
+- `linear perspective` → `Linear perspective`
+- `size constancy` → `Size constancy`
+- `GRIT` → `GRIT (conflict resolution)`
+- `acute schizophrenia` → `Acute schizophrenia`
+- `adaptation-level phenomenon` → `Adaptation-level phenomenon`
+- `addiction` → `Addiction`
+- `adolescence` → `Adolescence`
+- `aerobic exercise` → `Aerobic exercise`
+- `affiliation need` → `Affiliation need`
+- `aggression` → `Aggression`
+- `altruism` → `Altruism`
+- `androgyny` → `Androgyny`
+- `antianxiety drugs` → `Antianxiety drugs`
+- `antidepressant drugs` → `Antidepressant drugs`
+- `antipsychotic drugs` → `Antipsychotic drugs`
+- `antisocial behavior` → `Antisocial behavior`
+- `aphasia` → `Aphasia`
+- `approach and avoidance motives` → `Approach and avoidance motives`
+- `asexual` → `Asexual`
+- `associative learning` → `Associative learning`
+- `attachment` → `Attachment`
+- `attitudes` → `Attitudes`
+- `audition` → `Audition`
+- `automatic processing` → `Automatic processing`
+- `barbiturates` → `Barbiturates`
+- `basal metabolic rate` → `Basal metabolic rate`
+- `basic trust` → `Basic trust`
+- `behavior feedback effect` → `Behavior feedback effect`
+- `behavior genetics` → `Behavior genetics`
+- `behavior therapy` → `Behavior therapy`
+- `behaviorism` → `Behaviorism`
+- `biological psychology` → `Biological psychology`
+- `bipolar I disorder` → `Bipolar I disorder`
+- `bipolar II disorder` → `Bipolar II disorder`
+- `brainstem` → `Brainstem`
+- `catharsis` → `Catharsis`
+- `chronic schizophrenia` → `Chronic schizophrenia`
+- `cochlear implant` → `Cochlear implant`
+- `cognition` → `Cognition`
+- `cognitive learning` → `Cognitive learning`
+- `cognitive neuroscience` → `Cognitive neuroscience`
+- `cohort` → `Cohort`
+- `collectivism` → `Collectivism`
+- `color constancy` → `Color constancy`
+- `companionate love` → `Companionate love`
+- `concrete operational stage` → `Concrete operational stage`
+- `conflict` → `Conflict`
+- `construct validity` → `Construct validity`
+- `coping` → `Coping`
+- `coronary heart disease` → `Coronary heart disease`
+- `corpus callosum` → `Corpus callosum`
+- `creativity` → `Creativity`
+- `critical thinking` → `Critical thinking`
+- `culture` → `Culture`
+- `deep processing` → `Deep processing`
+- `deinstitutionalization` → `Deinstitutionalization`
+- `delta waves` → `Delta waves`
+- `depressive disorders` → `Depressive disorders`
+- `dissociation` → `Dissociation`
+- `double-blind procedure` → `Double-blind procedure`
+- `dual processing` → `Dual processing`
+- `déjà vu` → `Déjà vu`
+- `effect size` → `Effect size`
+- `effortful processing` → `Effortful processing`
+- `embodied cognition` → `Embodied cognition`
+- `emerging adulthood` → `Emerging adulthood`
+- `emotion` → `Emotion`
+- `emotional intelligence` → `Emotional intelligence`
+- `empirically derived test` → `Empirically derived test`
+- `encoding specificity principle` → `Encoding specificity principle`
+- `environment` → `Environment`
+- `epigenetics` → `Epigenetics`
+- `equity` → `Equity`
+- `estrogens` → `Estrogens`
+- `evidence-based practice` → `Evidence-based practice`
+- `evolutionary psychology` → `Evolutionary psychology`
+- `executive functions` → `Executive functions`
+- `experiment` → `Experiment`
+- `feeding and eating disorders` → `Feeding and eating disorders`
+- `feel-good, do-good phenomenon` → `Feel-good, do-good phenomenon`
+- `fixation` → `Fixation`
+- `fixed mindset` → `Fixed mindset`
+- `formal operational stage` → `Formal operational stage`
+- `fraternal (dizygotic) twins` → `Fraternal (dizygotic) twins`
+- `frequency` → `Frequency`
+- `gender` → `Gender`
+- `gender identity` → `Gender identity`
+- `gender role` → `Gender role`
+- `gender typing` → `Gender typing`
+- `general intelligence ( g )` → `General intelligence ( g )`
+- `genome` → `Genome`
+- `glial cells (glia)` → `Glial cells (glia)`
+- `glucose` → `Glucose`
+- `grammar` → `Grammar`
+- `grit` → `Grit (perseverance)`
+- `grouping` → `Grouping`
+- `growth mindset` → `Growth mindset`
+- `gustation` → `Gustation`
+- `habituation` → `Habituation`
+- `health psychology` → `Health psychology`
+- `heredity` → `Heredity`
+- `hierarchy of needs` → `Hierarchy of needs`
+- `histogram` → `Histogram`
+- `hoarding disorder` → `Hoarding disorder`
+- `hormones` → `Hormones`
+- `humanistic theories` → `Humanistic theories`
+- `hypnagogic sensations` → `Hypnagogic sensations`
+- `hypnosis` → `Hypnosis`
+- `identity` → `Identity`
+- `illusory correlation` → `Illusory correlation`
+- `incentive` → `Incentive`
+- `individualism` → `Individualism`
+- `ingroup` → `Ingroup`
+- `inner ear` → `Inner ear`
+- `insecure attachment` → `Insecure attachment`
+- `insight` → `Insight`
+- `intelligence test` → `Intelligence test`
+- `intensity` → `Intensity`
+- `interaction` → `Interaction`
+- `interleaving` → `Interleaving`
+- `interpretation` → `Interpretation`
+- `intersex` → `Intersex`
+- `intimacy` → `Intimacy`
+- `intuition` → `Intuition`
+- `iris` → `Iris`
+- `language` → `Language`
+- `lens` → `Lens`
+- `lesion` → `Lesion`
+- `levels of analysis` → `Levels of analysis`
+- `linguistic determinism` → `Linguistic determinism`
+- `linguistic relativism` → `Linguistic relativism`
+- `loose culture` → `Loose culture`
+- `mania` → `Mania`
+- `maturation` → `Maturation`
+- `medical model` → `Medical model`
+- `memory` → `Memory`
+- `memory consolidation` → `Memory consolidation`
+- `menarche` → `Menarche`
+- `menopause` → `Menopause`
+- `middle ear` → `Middle ear`
+- `mindfulness meditation` → `Mindfulness meditation`
+- `mirror neurons` → `Mirror neurons`
+- `mirror-image perceptions` → `Mirror-image perceptions`
+- `mnemonics` → `Mnemonics`
+- `mutation` → `Mutation`
+- `narcissism` → `Narcissism`
+- `natural selection` → `Natural selection`
+- `nature-nurture issue` → `Nature-nurture issue`
+- `near-death experience` → `Near-death experience`
+- `nerves` → `Nerves`
+- `nervous system` → `Nervous system`
+- `neurodevelopmental disorders` → `Neurodevelopmental disorders`
+- `neurogenesis` → `Neurogenesis`
+- `neuroplasticity` → `Neuroplasticity`
+- `neutral stimulus (NS)` → `Neutral stimulus (NS)`
+- `nudge` → `Nudge`
+- `obesity` → `Obesity`
+- `one-word stage` → `One-word stage`
+- `operant behavior` → `Operant behavior`
+- `operant chamber` → `Operant chamber`
+- `opioids` → `Opioids`
+- `optic nerve` → `Optic nerve`
+- `ostracism` → `Ostracism`
+- `other-race effect` → `Other-race effect`
+- `outgroup` → `Outgroup`
+- `parallel processing` → `Parallel processing`
+- `passionate love` → `Passionate love`
+- `percentile rank` → `Percentile rank`
+- `perceptual adaptation` → `Perceptual adaptation`
+- `perceptual constancy` → `Perceptual constancy`
+- `peripheral route persuasion` → `Peripheral route persuasion`
+- `person perception` → `Person perception`
+- `personal control` → `Personal control`
+- `personality psychology` → `Personality psychology`
+- `persuasion` → `Persuasion`
+- `phoneme` → `Phoneme`
+- `phonological loop` → `Phonological loop`
+- `physiological need` → `Physiological need`
+- `placebo effect` → `Placebo effect`
+- `polygraph` → `Polygraph`
+- `posthypnotic suggestion` → `Posthypnotic suggestion`
+- `preoperational stage` → `Preoperational stage`
+- `primary sex characteristics` → `Primary sex characteristics`
+- `problem-focused coping` → `Problem-focused coping`
+- `prototype` → `Prototype`
+- `psychodynamic theories` → `Psychodynamic theories`
+- `psychology` → `Psychology`
+- `psychometrics` → `Psychometrics`
+- `psychoneuroimmunology` → `Psychoneuroimmunology`
+- `psychopharmacology` → `Psychopharmacology`
+- `psychotic disorders` → `Psychotic disorders`
+- `puberty` → `Puberty`
+- `random sample` → `Random sample`
+- `reciprocity norm` → `Reciprocity norm`
+- `reconsolidation` → `Reconsolidation`
+- `regression toward the mean` → `Regression toward the mean`
+- `reinforcement` → `Reinforcement`
+- `reinforcement schedule` → `Reinforcement schedule`
+- `relational aggression` → `Relational aggression`
+- `respondent behavior` → `Respondent behavior`
+- `reuptake` → `Reuptake`
+- `role` → `Role`
+- `rumination` → `Rumination`
+- `sampling bias` → `Sampling bias`
+- `savant syndrome` → `Savant syndrome`
+- `scaffold` → `Scaffold`
+- `scapegoat theory` → `Scapegoat theory`
+- `schema` → `Schema`
+- `schizophrenia spectrum disorders` → `Schizophrenia spectrum disorders`
+- `secondary sex characteristics` → `Secondary sex characteristics`
+- `self` → `Self`
+- `self-control` → `Self-control`
+- `self-esteem` → `Self-esteem`
+- `self-report bias` → `Self-report bias`
+- `self-transcendence` → `Self-transcendence`
+- `sensorimotor stage` → `Sensorimotor stage`
+- `sensorineural hearing loss` → `Sensorineural hearing loss`
+- `sensory interaction` → `Sensory interaction`
+- `sensory receptors` → `Sensory receptors`
+- `sequential processing` → `Sequential processing`
+- `sex` → `Sex`
+- `sexual aggression` → `Sexual aggression`
+- `sexuality` → `Sexuality`
+- `shallow processing` → `Shallow processing`
+- `single-blind procedure` → `Single-blind procedure`
+- `sleep` → `Sleep`
+- `social clock` → `Social clock`
+- `social desirability bias` → `Social desirability bias`
+- `social exchange theory` → `Social exchange theory`
+- `social identity` → `Social identity`
+- `social learning theory` → `Social learning theory`
+- `social script` → `Social script`
+- `source amnesia` → `Source amnesia`
+- `spermarche` → `Spermarche`
+- `spotlight effect` → `Spotlight effect`
+- `standardization` → `Standardization`
+- `stereotype` → `Stereotype`
+- `stereotype threat` → `Stereotype threat`
+- `stimulus` → `Stimulus`
+- `storage` → `Storage`
+- `strange situation` → `Strange situation`
+- `stranger anxiety` → `Stranger anxiety`
+- `stroboscopic movement` → `Stroboscopic movement`
+- `substance use disorder` → `Substance use disorder`
+- `suprachiasmatic nucleus (SCN)` → `Suprachiasmatic nucleus (SCN)`
+- `terror-management theory` → `Terror-management theory`
+- `testing effect` → `Testing effect`
+- `testosterone` → `Testosterone`
+- `tight culture` → `Tight culture`
+- `trauma-and-stressor-related disorders` → `Trauma-and-stressor-related disorders`
+- `two-word stage` → `Two-word stage`
+- `unconscious` → `Unconscious`
+- `universal grammar` → `Universal grammar`
+- `variable` → `Variable`
+- `virtual reality exposure therapy` → `Virtual reality exposure therapy`
+- `wavelength` → `Wavelength`
+- `biomedical model` → `Biomedical model`
+- `elaborative rehearsal` → `Elaborative rehearsal`
+- `cocktail party effect` → `Cocktail party effect`
+- `z-scores` → `Z-scores`
+- `shape constancy` → `Shape constancy`
+- `decay` → `Decay`
+- `multiple intelligences` → `Multiple intelligences`
+- `prospective memory` → `Prospective memory`
+- `sunk-cost fallacy` → `Sunk-cost fallacy`
+- `maintenance rehearsal` → `Maintenance rehearsal`
+- `standardized test` → `Standardized test`
+- `flat affect` → `Flat affect`
+- `state-dependent memory` → `State-dependent memory`
+- `conversion disorder` → `Conversion disorder`
+- `nature` → `Nature`
+- `p-value` → `P-value`
+- `catatonia` → `Catatonia`
+- `prototypes` → `Prototypes`
+- `positive symptoms` → `Positive symptoms`
+- `eidetic memory` → `Eidetic memory`
+- `g` → `G`
+- `well-being` → `Well-being`
+- `tip-of-the-tongue phenomenon` → `Tip-of-the-tongue phenomenon`
+- `mnemonic devices` → `Mnemonic devices`
+- `serotonin selective reuptake inhibitor drugs (SSRIs)` → `Serotonin selective reuptake inhibitor drugs (SSRIs)`
+- `borderline personality disorder` → `Borderline personality disorder`
+- `constructed memory` → `Constructed memory`
+- `Similarity (Unit 4)` → `Similarity (attraction)`
+- `negative symptoms` → `Negative symptoms`
+- `perceptual sets` → `Perceptual sets`
+- `three-box/information-processing model` → `Three-box/information-processing model`
+- `manic episodes` → `Manic episodes`
+- `Similarity` → `Similarity (visual)`
+- `attribution` → `Attribution`
+- `practical intelligence` → `Practical intelligence`
+- `Proximity` → `Proximity (attraction)`
+- `abnormal psychology` → `Abnormal psychology`
+- `etiologies` → `Etiologies`
+- `internal, global, and stable attributions` → `Internal, global, and stable attributions`
+- `methods of treatment` → `Methods of treatment`
+- `burnout` → `Burnout`
+- `flow` → `Flow`
+- `human factors psychology` → `Human factors psychology`
+- `industrial-organizational (I/O) psychology` → `Industrial-organizational (I/O) psychology`
+- `leadership` → `Leadership`
+- `organizational psychology` → `Organizational psychology`
+- `personnel psychology` → `Personnel psychology`
+- `social leadership` → `Social leadership`
+- `task leadership` → `Task leadership`
+- `auditory loop` → `Auditory loop`
+- `biopsychosocial view` → `Biopsychosocial view`
+- `deviation IQ` → `Deviation IQ`
+- `false positive` → `False positive`
+- `hypomania` → `Hypomania`
+- `images` → `Images`
+- `intrapersonal intelligence` → `Intrapersonal intelligence`
+- `stroboscopic effect` → `Stroboscopic effect`
+- `interference` → `Interference`
+- `split-half reliability` → `Split-half reliability`
+- `Proximity (Unit 2)` → `Proximity (visual)`
+- `Autonomy` → `Autonomy (Erikson)`
+- `interposition` → `Interposition`
+- `relative size` → `Relative size`
+- `brightness constancy` → `Brightness constancy`
+- `concurrent validity` → `Concurrent validity`
+- `texture gradient` → `Texture gradient`
+- `creative intelligence` → `Creative intelligence`
+- `mood or affective disorder` → `Mood or affective disorder`
+- `equivalent-form reliability` → `Equivalent-form reliability`
+- `organic amnesia` → `Organic amnesia`
+- `word salad` → `Word salad`
+- `belief bias` → `Belief bias`
+- `binge-eating disorder` → `Binge-eating disorder`
+- `cognitive triad` → `Cognitive triad`
+- `eclectic` → `Eclecticism`
+- `neurocognitive disorders` → `Neurocognitive disorders`
+- `noncarpentered cultures` → `Noncarpentered cultures`
+- `psychometricians` → `Psychometricians`
+- `differences within groups` → `Differences within groups`
+- `false negative` → `False negative`
+- `insanity` → `Insanity`
+- `subgoals` → `Subgoals`
+- `taijin kyofusho` → `Taijin kyofusho`
+- `Autonomy (Unit 4)` → `Autonomy (self-determination)`
+- `Opponent-process theory (Unit 4)` → `Opponent-process theory (motivation)`
+- `body dysmorphic disorder` → `Body dysmorphic disorder`
+- `diagnostic labels` → `Diagnostic labels`
+- `double bind` → `Double bind`
+- `extrasensory perception (ESP)` → `Extrasensory perception (ESP)`
+- `face validity` → `Face validity`
+- `group tests` → `Group tests`
+- `individual tests` → `Individual tests`
+- `interpersonal intelligence` → `Interpersonal intelligence`
+- `life change units (LCUs)` → `Life change units (LCUs)`
+- `models, or explanations, of how memory works` → `Models, or explanations, of how memory works`
+- `naturalist intelligence` → `Naturalist intelligence`
+- `neologisms` → `Neologisms`
+- `pedophilia` → `Pedophilia`
+- `perceived control` → `Perceived control`
+- `power tests` → `Power tests`
+- `semantic network theory` → `Semantic network theory`
+- `shadowing` → `Shadowing`
+- `six core virtues` → `Six core virtues`
+- `social readjustment rating scale (SRRS)` → `Social readjustment rating scale (SRRS)`
+- `speed tests` → `Speed tests`
+- `thinking and creativity` → `Thinking and creativity`
+
+## 关系类型
+
+- 上下位：124
+- 整体-部分：53
+- 相关：8
+- 同名异义：8
+
+
+---
+
+# Core 概念复核执行记录（20261028-004308）
+
+- 备份：`ap_knowledge.db.bak-20261028-004308-before-concept-audit-apply`
+- 合并重复概念：2 组
+- 重命名：3 个
+- 写入关系：2 条（计划 195 条）
+
+## 合并
+
+- `G` → `General intelligence ( g )`
+- `EQ` → `Emotional intelligence`
+
+## 重命名
+
+- `General intelligence ( g )` → `General intelligence (g)`
+- `Z-scores` → `z-scores`
+- `P-value` → `p-value`
+
+## 关系类型
+
+- 上下位：126
+- 整体-部分：53
+- 相关：8
+- 同名异义：8
+
+
+---
+
+# Core 概念复核执行记录（20261028-004513）
+
+- 备份：`ap_knowledge.db.bak-20261028-004513-before-concept-audit-apply`
+- 合并重复概念：7 组
+- 重命名：1 个
+- 写入关系：14 条（计划 209 条）
+
+## 合并
+
+- `Antipsychotic drugs` → `Antipsychotic medications`
+- `Brain plasticity` → `Neuroplasticity`
+- `Double-blind study` → `Double-blind procedure`
+- `Monozygotic (identical) twins` → `Identical twins (monozygotic twins)`
+- `Percentiles` → `Percentile rank`
+- `Phonemes` → `Phoneme`
+- `Random sample` → `Random sampling`
+
+## 重命名
+
+- `Antipsychotic medications` → `Antipsychotic drugs`
+
+## 关系类型
+
+- 上下位：132
+- 整体-部分：55
+- 相关：14
+- 同名异义：8

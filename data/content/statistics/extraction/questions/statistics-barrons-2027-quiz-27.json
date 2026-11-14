@@ -1,0 +1,286 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-27",
+ "kind": "quiz",
+ "number": 27,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 27 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 27",
+ "pdf_page_start": 435,
+ "pdf_page_end": 440,
+ "answer_page_start": 751,
+ "answer_page_end": 752,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "0.01",
+    "B": "0.02",
+    "C": "0.03",
+    "D": "0.04"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 436,
+      "bbox": [
+       110.0,
+       469.5,
+       168.6,
+       487.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 436,
+      "bbox": [
+       110.0,
+       490.5,
+       168.4,
+       508.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 436,
+      "bbox": [
+       110.0,
+       511.5,
+       168.6,
+       529.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 436,
+      "bbox": [
+       110.0,
+       532.5,
+       169.8,
+       550.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 435,
+     "bbox": [
+      110.2,
+      641.2,
+      194.2,
+      661.5
+     ]
+    },
+    {
+     "page": 436,
+     "bbox": [
+      168.8,
+      136.5,
+      443.2,
+      282.0
+     ]
+    }
+   ],
+   "page_start": 435,
+   "page_end": 436,
+   "stem": "A company engineer creates a diagnostic measurement, which should be at least 34.60 in a sample of size 10 if certain machinery is operating correctly. To explore this diagnostic measurement, the machine is perfectly calibrated, and 100 random samples of size 10 of the product are taken from the assembly line. For each of these 100 samples, the diagnostic measurement G is calculated and shown plotted below. Each day, one sample of size 10 is taken from the assembly line and the diagnostic measurement G is calculated. If G drops too low, a decision to recalibrate the machinery is made. One day the random sample is {34.89, 35.55, 33.93, 34.4, 35.51, 33.51, 35.0, 34.73, 35.19, 33.71}. For the hypothesis test H0: G = 34.60, Ha: G < 34.60, what is the estimated p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "For this day’s sample, . A value of 34.53 or less occurred only twice in the 100 samples. Thus, the estimated p-value is . If the machinery was operating properly, a G measurement of 34.53 would be very unusual. The conclusion should be to recalibrate the machine.",
+   "question_id": "statistics-barrons-2027-quiz-27-001",
+   "source_pages": [
+    435,
+    436
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "0.007",
+    "B": "0.01",
+    "C": "0.02",
+    "D": "0.027"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 437,
+      "bbox": [
+       110.0,
+       327.7,
+       176.8,
+       345.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 437,
+      "bbox": [
+       110.0,
+       348.7,
+       168.4,
+       366.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 437,
+      "bbox": [
+       110.0,
+       369.7,
+       168.6,
+       387.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 437,
+      "bbox": [
+       110.0,
+       390.7,
+       178.0,
+       408.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 437,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      245.2
+     ]
+    }
+   ],
+   "page_start": 436,
+   "page_end": 437,
+   "stem": "A dietitian compares the effects of two diet pills. Using 25 participants taking each pill, she calculates a statistic W by computing a mean difference in weight loss expressed in pooled standard deviation units. The dietitian calculates W = −0.7 in her experiment. One thousand simulations assuming no real difference between the two pills gives the plot below for W. What is the estimated p-value for her observed value of W = −0.7 for the null hypothesis of no difference in effect versus the alternative hypothesis that there is a difference in effect?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The p-value is a conditional probability, the probability of as extreme as (or more extreme) a result as the one obtained, given that the null hypothesis is true. This is a two-tailed test. In the situation, there were 12 + 7 + 1 = 20 values on the lower end and 5 + 2 = 7 values on the upper end that are at least as extreme as the W = −0.7 value. Thus, the estimated p-value is .",
+   "question_id": "statistics-barrons-2027-quiz-27-002",
+   "source_pages": [
+    436,
+    437
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 437,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      245.2
+     ]
+    },
+    {
+     "page": 438,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      131.2
+     ]
+    },
+    {
+     "page": 438,
+     "bbox": [
+      168.8,
+      324.8,
+      443.2,
+      489.0
+     ]
+    }
+   ],
+   "page_start": 437,
+   "page_end": 439,
+   "stem": "College coaches often strongly stress study hours out of concern that their players remain academically eligible to play. In one study at a Division III college, 25 students participating and 25 students not participating in a varsity sport were surveyed as to the number of hours per week spent with academic studies outside the classroom. The survey results are summarized in the following parallel boxplots. (a) Compare the two distributions. To test whether the observed difference in medians is significant, a simulation is conducted. For each trial of the simulation, the 25 values from each survey were combined into one group of size 50 and then randomly split into two groups of 25. The difference in medians (athletes minus nonathletes) of the groups were calculated for each trial. The following dotplot shows the difference in the medians for 110 trials of the simulation. (b) In how many of the trials was the athletes’ median 3 or more than the nonathletes’ median? (c) Using the observed difference (athletes – nonathletes) in median study hours and using the results of the simulation, what is the estimated probability of the observed difference or more occurring if there were really no difference in study hours (the assumption of the simulation methodology)? (d) Based on the answer to (b), is there convincing statistical evidence that athletes participating in varsity sports at this college spend more hours per week with academic studies outside the classroom than do nonathletes?",
+   "correct_answer": null,
+   "answer_text": "(a) Although shape cannot accurately be gauged from boxplots, a complete answer here must address center, spread, and outliers, and mention context. The distribution of study hours per week for athletes at this college has a greater center (median) and a smaller spread (range) than the distribution of study hours per week for nonathletes at this college. The nonathlete distribution has three low end outliers while the athlete distribution has no outliers. (b) The value of +3 or above occurred in 7 + 10 + 4 + 1 = 22 of the trials. (c) The observed difference in median study hours was 21 − 18 = +3. From (b), this occurred in 22 of the 110 trials giving a probability of . (d) The observed difference in study hours was three hours, and this value or more will occur an estimated 20% of the time just by chance. Thus, there is not convincing statistical evidence that athletes participating in varsity sports at this college spend more hours per week with academic studies outside the classroom than do nonathletes.",
+   "question_id": "statistics-barrons-2027-quiz-27-003",
+   "context": "",
+   "source_pages": [
+    437,
+    439
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 439,
+     "bbox": [
+      168.8,
+      375.0,
+      443.2,
+      524.2
+     ]
+    }
+   ],
+   "page_start": 439,
+   "page_end": 439,
+   "stem": "A battery manufacturer advertises that a 12-volt lawn and garden battery it sells has an average cranking power of 350 CCA (cold cranking amps). A consumer group believes that the true figure is lower. The consumer group obtains a random sample of 5 of the company’s batteries and determines an average of 320 CCA. Is this significant? The company claims that perfectly good batteries do vary in CCA. To illustrate its point, the company runs a simulation by randomly picking 5 batteries 160 times from a group of new batteries manufactured to have 350 CCA strength and calculating the resulting averages to show that the consumer group’s sample average of 320 CCA was possible. The company makes the following dotplot. (a) What are the hypotheses for an appropriate test? (b) Explain why or why not the conditions for a t-test of a mean are met. (c) What is the estimated p-value? (d) Based on the estimated p-value, what is the appropriate conclusion in context?",
+   "correct_answer": null,
+   "answer_text": "(a) H0: μ = 350 and Ha: μ < 350 (b) The Normal condition is not met. There is no indication that the population of all battery cranking powers have a roughly normal distribution; the sample size, n = 5, is not large enough for the central limit theorem to apply; and since the sample data are not given, there is no way to determine if it is reasonable to assume that the sample data come from a roughly normal distribution. (c) The consumer group’s random sample of 5 batteries had an average cranking power of only 320 CCA. The simulation indicates that the chance of picking 5 batteries with an average of 320 CCA or lower from a group of new batteries manufactured to have 350 CCA power is 4 out of 160 or 0.025. So, the estimated p-value is 0.025. (d) With a p-value this small, 0.025 < 0.05, there is sufficient evidence to reject H0; that is, there is convincing evidence that the true mean cranking power of these batteries is less than the company’s claim of 350 CCA.",
+   "question_id": "statistics-barrons-2027-quiz-27-004",
+   "context": "",
+   "source_pages": [
+    439,
+    439
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 440,
+     "bbox": [
+      168.8,
+      262.5,
+      443.2,
+      496.5
+     ]
+    }
+   ],
+   "page_start": 439,
+   "page_end": 440,
+   "stem": "A medical researcher believes that the antidepressant desipramine is more effective than the mood stabilizer lithium in treating cocaine addiction. In a randomized experiment, 50 cocaine addicts were randomly assigned to take either desipramine or lithium. Fourteen out of the 25 addicts taking desipramine had not relapsed after one year, while only 6 of the 25 addicts taking lithium had not relapsed. These numbers were too small to use in our standard proportion hypothesis tests. In a simulation of 500 sets of 50 addicts undergoing this experiment, assuming the null hypothesis of no difference in the treatments, the difference in proportions of addicts not relapsing (desipramine minus lithium) yields: (a) In terms of appropriate proportions, what are the hypotheses? (b) What is the observed difference in proportions? (c) What is the estimated p-value? (d) What is the appropriate conclusion in context?",
+   "correct_answer": null,
+   "answer_text": "(a) H0: p1 = p2 and Ha: p1 > p2, where p1 is the proportion of all addicts taking desipramine who would not have relapsed after one year and p2 is the proportion of all addicts taking lithium who would not have relapsed after one year. (b) (c) There are 3 values out of 500 that are 0.32 or greater, so the estimated p-value is . (d) With this small of a p-value, 0.006 < 0.05, there is sufficient evidence to reject the null hypothesis; that is, there is convincing evidence that the antidepressant desipramine is more effective than the mood stabilizer lithium in treating cocaine addiction.",
+   "question_id": "statistics-barrons-2027-quiz-27-005",
+   "context": "",
+   "source_pages": [
+    439,
+    440
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 5,
+ "mcq_count": 2,
+ "frq_count": 3
+}

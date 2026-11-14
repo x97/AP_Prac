@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-02T05:54:50+00:00",
+  "model": "deepseek-flash[1m]",
+  "language": "en",
+  "papers": [
+    "psychology-ap-2016"
+  ],
+  "count": 3,
+  "usage": {
+    "input_tokens": 477,
+    "output_tokens": 423
+  },
+  "items": [
+    {
+      "question_id": "psychology-ap-2016-mcq-001",
+      "paper_id": "psychology-ap-2016",
+      "number": 1,
+      "answer_label": "E",
+      "answer_content": "Random assignment",
+      "explanation": "Random assignment reduces confounding variables by distributing participants' individual differences across experimental conditions, making the groups roughly equivalent before treatment. This helps ensure that differences in the dependent variable are more likely due to the independent variable rather than preexisting characteristics. Descriptive statistics, inferential statistics, meta-analysis, and algorithms do not create equivalent experimental groups.",
+      "has_figure": false
+    },
+    {
+      "question_id": "psychology-ap-2016-mcq-002",
+      "paper_id": "psychology-ap-2016",
+      "number": 2,
+      "answer_label": "E",
+      "answer_content": "aversion therapy",
+      "explanation": "Aversion therapy pairs a stimulus or behavior that is desirable but problematic with an unpleasant stimulus in order to create a negative conditioned response. Thomas pairs sweets with broccoli, which he hates, and develops nausea and avoidance toward dessert. This is not systematic desensitization or flooding, which are used to reduce anxiety responses rather than create aversion.",
+      "has_figure": false
+    },
+    {
+      "question_id": "psychology-ap-2016-mcq-003",
+      "paper_id": "psychology-ap-2016",
+      "number": 3,
+      "answer_label": "E",
+      "answer_content": "Digestion",
+      "explanation": "During a fight-or-flight reaction, the sympathetic nervous system prepares the body for emergency action by increasing arousal and directing resources to muscles and vital organs. Heart rate, respiration, glucose availability, and adrenaline levels rise, while nonessential functions such as digestion are slowed or inhibited. Digestion is therefore reduced rather than increased.",
+      "has_figure": false
+    }
+  ],
+  "errors": []
+}

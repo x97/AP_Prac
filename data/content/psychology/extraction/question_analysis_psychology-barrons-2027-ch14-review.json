@@ -1,0 +1,717 @@
+{
+  "generated_at": "2026-10-27T13:36:09+00:00",
+  "paper_id": "psychology-barrons-2027-ch14-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 8,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-a5acf08109e5b666",
+          "name": "Projection",
+          "confidence": 0.98,
+          "evidence": "he tells all who will listen that Sally is really “into him.”",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-edbba0764dfb7c40",
+          "name": "Defense mechanisms",
+          "confidence": 0.7,
+          "evidence": "Psychoanalysts would see Juan’s bragging as an example of"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-025197946c3ffff1",
+          "name": "Displacement",
+          "option_label": "A",
+          "reason": "Displacement is another psychodynamic defense mechanism involving redirecting feelings, tempting for students who confuse redirecting feelings with attributing them to others."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-b918650116b82357",
+          "name": "Sublimation",
+          "option_label": "C",
+          "reason": "Sublimation is a related defense mechanism channeling impulses into acceptable outlets, easily confused with other defense mechanisms."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-19fc6b606270bba7",
+          "name": "Denial",
+          "option_label": "D",
+          "reason": "Denial is a defense mechanism refusing to accept a threatening truth, close to Juan not admitting his crush, making it a tempting near-miss."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Psychoanalysts",
+          "normalized": "psychoanalysts",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "projection",
+          "normalized": "projection",
+          "kp_id": "psychology-barrons-2027-kp-a5acf08109e5b666",
+          "kp_name": "Projection",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "displacement",
+          "normalized": "displacement",
+          "kp_id": "psychology-barrons-2027-kp-025197946c3ffff1",
+          "kp_name": "Displacement",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "sublimation",
+          "normalized": "sublimation",
+          "kp_id": "psychology-barrons-2027-kp-b918650116b82357",
+          "kp_name": "Sublimation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "denial",
+          "normalized": "denial",
+          "kp_id": "psychology-barrons-2027-kp-19fc6b606270bba7",
+          "kp_name": "Denial",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is projection: Juan attributes his own feelings to Sally. Supporting defense mechanisms concept helps frame the item.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-6a78faa0dea11bd9",
+          "name": "Projective tests",
+          "confidence": 0.9,
+          "evidence": "The psychologist asks Subash what the man is thinking and what he is likely to do next.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-3c22f0c7ac5f1516",
+          "name": "Unconscious level",
+          "confidence": 0.85,
+          "evidence": "Subash’s unconscious.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-aebe80f15b0ed4e5",
+          "name": "Thematic apperception test (TAT)",
+          "confidence": 0.7,
+          "evidence": "The psychologist asks Subash what the man is thinking and what he is likely to do next."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-216d3b32382e04e2",
+          "name": "Explanatory style",
+          "option_label": "B",
+          "reason": "Explanatory style is a social-cognitive concept about attributions, not unconscious interpretation of ambiguous pictures."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-195d0d76a03ee026",
+          "name": "Traits",
+          "option_label": "A",
+          "reason": "Traits are stable characteristics from trait theories, not unconscious content elicited by ambiguous pictures."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "unconscious",
+          "normalized": "unconscious",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "what the man is thinking",
+          "normalized": "what the man is thinking",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "dominant traits",
+          "normalized": "dominant traits",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "explanatory style",
+          "normalized": "explanatory style",
+          "kp_id": "psychology-barrons-2027-kp-216d3b32382e04e2",
+          "kp_name": "Explanatory style",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "history of reinforcement",
+          "normalized": "history of reinforcement",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests projective testing and the psychodynamic focus on the unconscious. TAT is a plausible supporting concept because the described picture-story task resembles it, but the stem does not name the test.",
+      "warnings": [
+        "keyword 'unconscious': not a known alias of 'Unconscious level'; stored without a KP",
+        "keyword 'what the man is thinking': not a known alias of 'Projective tests'; stored without a KP",
+        "keyword 'dominant traits': not a known alias of 'Traits'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0dc315bc732862a6",
+          "name": "Humanistic therapies",
+          "confidence": 0.9,
+          "evidence": "Dr. Stella is a clinical psychologist who believes that the most important thing with which she can provide her patients is a warm and accepting environment.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-daa048a563060199",
+          "name": "Unconditional positive regard",
+          "confidence": 0.85,
+          "evidence": "she gathers data on her patients’ initial subjective well-being and on whether or not they report getting unconditional positive regard from the important people in their lives",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-81d40fa1affb5854",
+          "name": "Person-centered therapy",
+          "confidence": 0.7,
+          "evidence": "warm and accepting environment"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "clinical psychologist",
+          "normalized": "clinical psychologist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "warm and accepting environment",
+          "normalized": "warm and accepting environment",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "unconditional positive regard",
+          "normalized": "unconditional positive regard",
+          "kp_id": "psychology-barrons-2027-kp-daa048a563060199",
+          "kp_name": "Unconditional positive regard",
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "subjective well-being",
+          "normalized": "subjective well being",
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "kp_name": "subjective well-being",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Humanistic",
+          "normalized": "humanistic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cognitive",
+          "normalized": "cognitive",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Psychodynamic",
+          "normalized": "psychodynamic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Behaviorist option has no close candidate concept in the list, so it is omitted from confusables.",
+      "warnings": [
+        "confusable 'Cognitive Perspective' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Psychodynamic Perspective' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'clinical psychologist': not a known alias of 'Clinical psychologists'; stored without a KP",
+        "keyword 'warm and accepting environment': not a known alias of 'Humanistic therapies'; stored without a KP",
+        "keyword 'Humanistic': not a known alias of 'Humanistic therapies'; stored without a KP",
+        "keyword 'Cognitive': not a known alias of 'Cognitive Perspective'; stored without a KP",
+        "keyword 'Psychodynamic': not a known alias of 'Psychodynamic Perspective'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2074a9ce88007f7f",
+          "name": "Inferential statistics",
+          "confidence": 0.97,
+          "evidence": "Maybe, you need to check the inferential statistics",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-7d25dbae042589cd",
+          "name": "Statistical significance",
+          "confidence": 0.9,
+          "evidence": "Is the difference in subjective well-being between the two groups of patients statistically significant?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-fe881b0d5e8a5b8e",
+          "name": "Descriptive statistics",
+          "option_label": "C",
+          "reason": "Descriptive statistics summarize the data but cannot determine whether a group difference is statistically significant; inferential statistics are needed."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "statistically significant",
+          "normalized": "statistically significant",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "inferential statistics",
+          "normalized": "inferential statistics",
+          "kp_id": "psychology-barrons-2027-kp-2074a9ce88007f7f",
+          "kp_name": "Inferential statistics",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "descriptive statistics",
+          "normalized": "descriptive statistics",
+          "kp_id": "psychology-barrons-2027-kp-fe881b0d5e8a5b8e",
+          "kp_name": "Descriptive statistics",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "subjective well-being",
+          "normalized": "subjective well being",
+          "kp_id": "psychology-barrons-2027-kp-595ca30e06c8c9d9",
+          "kp_name": "subjective well-being",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests whether students know that statistical significance is determined with inferential statistics rather than descriptive statistics or a raw percentage difference.",
+      "warnings": [
+        "supporting 'Descriptive statistics' is not in the correct option or the core subheading; dropped",
+        "keyword 'statistically significant': not a known alias of 'Statistical significance'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-657875dfa4254068",
+          "name": "Big Five personality traits",
+          "confidence": 0.95,
+          "evidence": "individualistic and collectivist cultures differ most in terms of",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "individualistic and collectivist cultures",
+          "normalized": "individualistic and collectivist cultures",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "agreeableness",
+          "normalized": "agreeableness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "conscientiousness",
+          "normalized": "conscientiousness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "openness",
+          "normalized": "openness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "extraversion",
+          "normalized": "extraversion",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests knowledge of Big Five trait dimensions (agreeableness) as they vary across cultures; no narrow-domain confusable from wrong options since all are Big Five traits rather than near-miss concepts.",
+      "warnings": [
+        "supporting 'Social-Cultural (or Sociocultural) Perspective' is not in the correct option or the core subheading; dropped",
+        "keyword 'individualistic and collectivist cultures': not a known alias of 'Social-Cultural (or Sociocultural) Perspective'; stored without a KP",
+        "keyword 'agreeableness': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'conscientiousness': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'openness': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'extraversion': not a known alias of 'Big Five personality traits'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-db82b3612813c828",
+          "name": "Standard deviation",
+          "confidence": 0.95,
+          "evidence": "Which group-trait combination resulted in the most consistent responses to the personality inventory?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "most consistent responses",
+          "normalized": "most consistent responses",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "personality inventory",
+          "normalized": "personality inventory",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Conscientiousness",
+          "normalized": "conscientiousness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Emotional Stability",
+          "normalized": "emotional stability",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Agreeableness",
+          "normalized": "agreeableness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Openness",
+          "normalized": "openness",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests interpreting consistency via standard deviation (lowest SD = most consistent), not the Big Five traits themselves; traits appear only as group labels.",
+      "warnings": [
+        "supporting 'Big Five personality traits' is not in the correct option or the core subheading; dropped",
+        "keyword 'most consistent responses': not a known alias of 'Standard deviation'; stored without a KP",
+        "keyword 'personality inventory': not a known alias of 'Personality inventories'; stored without a KP",
+        "keyword 'Conscientiousness': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'Emotional Stability': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'Agreeableness': not a known alias of 'Big Five personality traits'; stored without a KP",
+        "keyword 'Openness': not a known alias of 'Big Five personality traits'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-195d0d76a03ee026",
+          "name": "Traits",
+          "confidence": 0.9,
+          "evidence": "No, personality traits are relatively stable across the lifespan.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-536ad07baf327b51",
+          "name": "Personality",
+          "confidence": 0.7,
+          "evidence": "personality traits are relatively stable across the lifespan"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "personality traits",
+          "normalized": "personality traits",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "stable across the lifespan",
+          "normalized": "stable across the lifespan",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "personalities develop and change",
+          "normalized": "personalities develop and change",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "traits",
+          "normalized": "traits",
+          "kp_id": "psychology-barrons-2027-kp-195d0d76a03ee026",
+          "kp_name": "Traits",
+          "role": "core",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "innate",
+          "normalized": "innate",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Item tests trait stability across the lifespan; wrong options A/B/D are not narrow-domain near-misses of a specific trait theory concept, so no confusables listed.",
+      "warnings": [
+        "keyword 'personality traits': not a known alias of 'Traits'; stored without a KP",
+        "keyword 'stable across the lifespan': not a known alias of 'Traits'; stored without a KP",
+        "keyword 'personalities develop and change': not a known alias of 'Personality'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch14-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-a77071942954a934",
+          "name": "Reliability",
+          "confidence": 0.95,
+          "evidence": "The results of each administration of the test are extremely different.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "personality inventory",
+          "normalized": "personality inventory",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "reliable",
+          "normalized": "reliable",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "standardized",
+          "normalized": "standardized",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "projective",
+          "normalized": "projective",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests reliability as consistency of test results; standardization/norms and projective tests are near-miss testing concepts.",
+      "warnings": [
+        "supporting 'reliability' is not in the correct option or the core subheading; dropped",
+        "confusable 'standardized test' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'personality inventory': not a known alias of 'Personality inventories'; stored without a KP",
+        "keyword 'reliable': not a known alias of 'Reliability'; stored without a KP",
+        "keyword 'standardized': not a known alias of 'standardized test'; stored without a KP",
+        "keyword 'projective': not a known alias of 'Projective tests'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

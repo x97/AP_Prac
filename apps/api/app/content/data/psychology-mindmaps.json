@@ -1,0 +1,4988 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "心理学思维导图.pdf",
+    "parser": "vector-connectors-v1",
+    "units": {
+      "1": [
+        "p15",
+        "p14",
+        "p14",
+        "p17",
+        "p18",
+        "p14",
+        "p20"
+      ],
+      "2": [
+        "p24",
+        "p25",
+        "p26",
+        "p26",
+        "p26",
+        "p26",
+        "p26",
+        "p27"
+      ],
+      "3": [
+        "p32",
+        "p32",
+        "p32",
+        "p32",
+        "p32",
+        "p32",
+        "p33",
+        "p34",
+        "p35"
+      ],
+      "4": [
+        "p40",
+        "p41",
+        "p42",
+        "p43",
+        "p43",
+        "p43",
+        "p43",
+        "p44",
+        "p45"
+      ],
+      "5": [
+        "p51",
+        "p51",
+        "p49",
+        "p52",
+        "p53"
+      ]
+    }
+  },
+  "units": {
+    "1": {
+      "title": "Biological Bases of Behavior",
+      "topics": {
+        "1.1": {
+          "label": "Interaction of Heredity and Environment",
+          "node_count": 25,
+          "matched_count": 21,
+          "children": [
+            {
+              "label": "Behavioral Genetics",
+              "children": [
+                {
+                  "label": "Genes",
+                  "concept": "Genes"
+                },
+                {
+                  "label": "DNA",
+                  "concept": "DNA"
+                },
+                {
+                  "label": "Genome",
+                  "concept": "Genome"
+                },
+                {
+                  "label": "Epigenetics",
+                  "concept": "Epigenetics"
+                },
+                {
+                  "label": "Behavior Genetics",
+                  "concept": "Behavior genetics"
+                },
+                {
+                  "label": "Genetic Predisposition",
+                  "concept": "Genetic predisposition"
+                },
+                {
+                  "label": "Mutation",
+                  "concept": "Mutation"
+                },
+                {
+                  "label": "Chromosomal Abnormalities",
+                  "concept": "Chromosomal abnormality"
+                }
+              ]
+            },
+            {
+              "label": "Nature & Nurture",
+              "children": [
+                {
+                  "label": "Nature-Nurture Issue",
+                  "concept": "Nature-nurture issue"
+                },
+                {
+                  "label": "Heredity",
+                  "concept": "Heredity"
+                },
+                {
+                  "label": "Environment",
+                  "concept": "Environment"
+                },
+                {
+                  "label": "Interaction",
+                  "concept": "Interaction"
+                }
+              ]
+            },
+            {
+              "label": "Twin & Family Studies",
+              "children": [
+                {
+                  "label": "Family Studies",
+                  "supplement": {
+                    "id": "psy-supp-1-family-studies-b51b5a98",
+                    "name": "Family Studies",
+                    "definition": "Research that compares relatives to estimate how much a trait is influenced by shared genes and shared environment.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.1"
+                  }
+                },
+                {
+                  "label": "Twin Studies",
+                  "children": [
+                    {
+                      "label": "Identical (Monozygotic) Twins",
+                      "concept": "Identical twins (monozygotic twins)"
+                    },
+                    {
+                      "label": "Fraternal (Dizygotic) Twins",
+                      "concept": "Fraternal (dizygotic) twins"
+                    }
+                  ]
+                },
+                {
+                  "label": "Adoption Studies",
+                  "supplement": {
+                    "id": "psy-supp-1-adoption-studies-f66d0145",
+                    "name": "Adoption Studies",
+                    "definition": "Research comparing adopted children with their biological and adoptive relatives to separate genetic from environmental influences.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.1"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Evolutionary Psychology",
+              "concept": "Evolutionary psychology",
+              "children": [
+                {
+                  "label": "Natural Selection",
+                  "concept": "Natural selection"
+                },
+                {
+                  "label": "Adaptation",
+                  "supplement": {
+                    "id": "psy-supp-1-adaptation-29adb1d3",
+                    "name": "Adaptation",
+                    "definition": "An inherited or learned characteristic that increases an organism's chances of survival and reproduction.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.1"
+                  }
+                },
+                {
+                  "label": "Survival & Reproduction",
+                  "supplement": {
+                    "id": "psy-supp-1-survival-reproduction-fd6c6c7a",
+                    "name": "Survival & Reproduction",
+                    "definition": "The evolutionary outcomes favored by natural selection: living long enough to reproduce and passing genes to the next generation.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.1"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Eugenics",
+              "supplement": {
+                "id": "psy-supp-1-eugenics-78a192d0",
+                "name": "Eugenics",
+                "definition": "The discredited attempt to improve a population's genetic quality through selective breeding or reproduction policies.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "1.1"
+              }
+            }
+          ]
+        },
+        "1.2": {
+          "label": "Overview of the Nervous System",
+          "node_count": 25,
+          "matched_count": 24,
+          "children": [
+            {
+              "label": "Nervous System",
+              "concept": "Nervous system",
+              "children": [
+                {
+                  "label": "Central Nervous System",
+                  "concept": "Central nervous system (CNS)",
+                  "children": [
+                    {
+                      "label": "Brain",
+                      "supplement": {
+                        "id": "psy-supp-1-brain-ebf9504b",
+                        "name": "Brain",
+                        "definition": "The organ of the central nervous system that integrates sensory information, coordinates behavior, and supports cognition.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    },
+                    {
+                      "label": "Spinal Cord",
+                      "concept": "Spinal cord"
+                    },
+                    {
+                      "label": "Interneurons",
+                      "concept": "Interneurons (association neurons)"
+                    }
+                  ]
+                },
+                {
+                  "label": "Peripheral Nervous System",
+                  "concept": "Peripheral nervous system (PNS)",
+                  "children": [
+                    {
+                      "label": "Somatic Nervous System",
+                      "concept": "Somatic nervous system",
+                      "children": [
+                        {
+                          "label": "Sensory (Afferent) Neurons",
+                          "concept": "Sensory neurons (afferent neurons)"
+                        },
+                        {
+                          "label": "Motor (Efferent) Neurons",
+                          "concept": "Motor neurons (efferent neurons)"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Autonomic Nervous System",
+                      "concept": "Autonomic nervous system",
+                      "children": [
+                        {
+                          "label": "Sympathetic Nervous System",
+                          "concept": "Sympathetic nervous system",
+                          "children": [
+                            {
+                              "label": "Fight-or-Flight Response",
+                              "concept": "Fight-or-flight response"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Parasympathetic Nervous System",
+                          "concept": "Parasympathetic nervous system"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Reflex Arcs",
+                  "concept": "Reflex arcs"
+                }
+              ]
+            },
+            {
+              "label": "Endocrine System",
+              "concept": "Endocrine system",
+              "children": [
+                {
+                  "label": "Glands",
+                  "children": [
+                    {
+                      "label": "Pituitary Gland",
+                      "supplement": {
+                        "id": "psy-supp-1-pituitary-gland-9149ae7d",
+                        "name": "Pituitary Gland",
+                        "definition": "The 'master gland' at the base of the brain that releases hormones controlling growth, reproduction, and other endocrine glands.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    },
+                    {
+                      "label": "Adrenal Glands",
+                      "concept": "Adrenal glands"
+                    },
+                    {
+                      "label": "Ovaries & Testes",
+                      "concept": "Ovaries and testes"
+                    }
+                  ]
+                },
+                {
+                  "label": "Hormones",
+                  "concept": "Hormones",
+                  "children": [
+                    {
+                      "label": "Adrenaline / Epinephrine",
+                      "supplement": {
+                        "id": "psy-supp-1-adrenaline-epinephrine-1a389063",
+                        "name": "Adrenaline / Epinephrine",
+                        "definition": "A hormone and neurotransmitter released by the adrenal glands that increases arousal and supports the fight-or-flight response.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    },
+                    {
+                      "label": "Leptin & Ghrelin",
+                      "supplement": {
+                        "id": "psy-supp-1-leptin-ghrelin-d23de62b",
+                        "name": "Leptin & Ghrelin",
+                        "definition": "Appetite-regulating hormones: leptin signals satiety, while ghrelin signals hunger.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    },
+                    {
+                      "label": "Melatonin",
+                      "supplement": {
+                        "id": "psy-supp-1-melatonin-4b140127",
+                        "name": "Melatonin",
+                        "definition": "A hormone secreted by the pineal gland that helps regulate the sleep-wake cycle and circadian rhythm.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    },
+                    {
+                      "label": "Oxytocin",
+                      "supplement": {
+                        "id": "psy-supp-1-oxytocin-84169961",
+                        "name": "Oxytocin",
+                        "definition": "A hormone associated with bonding, trust, childbirth, and social affiliation.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Homeostasis",
+                  "supplement": {
+                    "id": "psy-supp-1-homeostasis-343ed123",
+                    "name": "Homeostasis",
+                    "definition": "The body's tendency to maintain a stable internal state around a set point.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "1.3": {
+          "label": "The Neuron and Neural Firing",
+          "node_count": 31,
+          "matched_count": 27,
+          "children": [
+            {
+              "label": "Neuron Structure",
+              "children": [
+                {
+                  "label": "Dendrites",
+                  "concept": "Dendrites"
+                },
+                {
+                  "label": "Axon",
+                  "concept": "Axon"
+                },
+                {
+                  "label": "Axon Terminals",
+                  "concept": "Terminal buttons"
+                },
+                {
+                  "label": "Myelin Sheath",
+                  "concept": "Myelin sheath",
+                  "children": [
+                    {
+                      "label": "Glial Cells",
+                      "concept": "Glial cells (glia)"
+                    }
+                  ]
+                },
+                {
+                  "label": "Soma (Cell Body)",
+                  "concept": "Cell body (soma)"
+                }
+              ]
+            },
+            {
+              "label": "Neural Firing",
+              "children": [
+                {
+                  "label": "Electrical Signal",
+                  "children": [
+                    {
+                      "label": "Resting Potential",
+                      "concept": "Resting potential"
+                    },
+                    {
+                      "label": "Action Potential",
+                      "concept": "Action potential"
+                    },
+                    {
+                      "label": "Depolarization",
+                      "concept": "Depolarization"
+                    },
+                    {
+                      "label": "Repolarization",
+                      "supplement": {
+                        "id": "psy-supp-1-repolarization-91f2a23f",
+                        "name": "Repolarization",
+                        "definition": "The phase of an action potential in which the neuron's membrane potential returns toward its resting negative charge.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.3"
+                      }
+                    },
+                    {
+                      "label": "All-or-None Principle",
+                      "concept": "All-or-none principle"
+                    },
+                    {
+                      "label": "Threshold",
+                      "concept": "Threshold"
+                    },
+                    {
+                      "label": "Refractory Period",
+                      "supplement": {
+                        "id": "psy-supp-1-refractory-period-758161a3",
+                        "name": "Refractory Period",
+                        "definition": "A brief period after an action potential when a neuron cannot fire again or is harder to excite.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Chemical Signal",
+                  "children": [
+                    {
+                      "label": "Synaptic Cleft",
+                      "concept": "Synapse"
+                    },
+                    {
+                      "label": "Neurotransmitters",
+                      "concept": "Neurotransmitters",
+                      "children": [
+                        {
+                          "label": "Excitatory",
+                          "concept": "Excitatory neurotransmitters"
+                        },
+                        {
+                          "label": "Inhibitory",
+                          "concept": "Inhibitory neurotransmitters"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Psychoactive Drugs",
+              "concept": "Psychoactive drugs",
+              "children": [
+                {
+                  "label": "Depressants",
+                  "concept": "Depressants"
+                },
+                {
+                  "label": "Hallucinogens",
+                  "concept": "Hallucinogens"
+                },
+                {
+                  "label": "Agonists",
+                  "concept": "Agonists"
+                },
+                {
+                  "label": "Antagonists",
+                  "concept": "Antagonists"
+                },
+                {
+                  "label": "Reuptake Inhibitors (SSRIs)",
+                  "concept": "Selective serotonin reuptake inhibitor"
+                },
+                {
+                  "label": "Stimulants",
+                  "concept": "Stimulants"
+                },
+                {
+                  "label": "Drug Dependence",
+                  "concept": "Physical dependence"
+                },
+                {
+                  "label": "Tolerance",
+                  "concept": "Tolerance"
+                },
+                {
+                  "label": "Withdrawal",
+                  "concept": "Withdrawal symptoms"
+                }
+              ]
+            }
+          ]
+        },
+        "1.4": {
+          "label": "The Brain",
+          "node_count": 44,
+          "matched_count": 40,
+          "children": [
+            {
+              "label": "Hindbrain",
+              "concept": "Hindbrain",
+              "children": [
+                {
+                  "label": "Brainstem",
+                  "concept": "Brainstem",
+                  "children": [
+                    {
+                      "label": "Midbrain",
+                      "concept": "Midbrain"
+                    },
+                    {
+                      "label": "Pons",
+                      "concept": "Pons"
+                    },
+                    {
+                      "label": "Medulla",
+                      "concept": "Medulla"
+                    }
+                  ]
+                },
+                {
+                  "label": "Cerebellum",
+                  "concept": "Cerebellum"
+                }
+              ]
+            },
+            {
+              "label": "Limbic System",
+              "concept": "Limbic system",
+              "children": [
+                {
+                  "label": "Thalamus",
+                  "concept": "Thalamus"
+                },
+                {
+                  "label": "Hypothalamus",
+                  "concept": "Hypothalamus"
+                },
+                {
+                  "label": "Pituitary Gland",
+                  "supplement": {
+                    "id": "psy-supp-1-pituitary-gland-91d5656e",
+                    "name": "Pituitary Gland",
+                    "definition": "The 'master gland' at the base of the brain that releases hormones controlling growth, reproduction, and other endocrine glands.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Hippocampus",
+                  "supplement": {
+                    "id": "psy-supp-1-hippocampus-5f2c611b",
+                    "name": "Hippocampus",
+                    "definition": "A limbic-system structure important for forming new explicit memories and for spatial navigation.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Amygdala",
+                  "concept": "Amygdala"
+                }
+              ]
+            },
+            {
+              "label": "Cerebral Cortex",
+              "children": [
+                {
+                  "label": "Frontal Lobe",
+                  "concept": "Frontal lobes",
+                  "children": [
+                    {
+                      "label": "Prefrontal Cortex",
+                      "concept": "Prefrontal cortex"
+                    },
+                    {
+                      "label": "Primary Motor Cortex",
+                      "concept": "Motor cortex"
+                    },
+                    {
+                      "label": "Broca's Area",
+                      "concept": "Broca’s area"
+                    }
+                  ]
+                },
+                {
+                  "label": "Parietal Lobe",
+                  "concept": "Parietal lobes",
+                  "children": [
+                    {
+                      "label": "Somatosensory Cortex",
+                      "concept": "Somatosensory cortex"
+                    }
+                  ]
+                },
+                {
+                  "label": "Occipital Lobe",
+                  "concept": "Occipital lobes",
+                  "children": [
+                    {
+                      "label": "Visual Cortex",
+                      "supplement": {
+                        "id": "psy-supp-1-visual-cortex-3213f6d4",
+                        "name": "Visual Cortex",
+                        "definition": "The occipital-lobe area that processes visual features such as edges, color, and motion.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Temporal Lobe",
+                  "concept": "Temporal lobes",
+                  "children": [
+                    {
+                      "label": "Auditory Cortex",
+                      "supplement": {
+                        "id": "psy-supp-1-auditory-cortex-03fd780d",
+                        "name": "Auditory Cortex",
+                        "definition": "The temporal-lobe area that processes sound and supports hearing.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.4"
+                      }
+                    },
+                    {
+                      "label": "Wernicke's Area",
+                      "concept": "Wernicke’s area"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Other Structures",
+              "children": [
+                {
+                  "label": "Corpus Callosum",
+                  "concept": "Corpus callosum"
+                },
+                {
+                  "label": "Reticular Activating System",
+                  "concept": "Reticular formation"
+                },
+                {
+                  "label": "Rewarding Center",
+                  "supplement": {
+                    "id": "psy-supp-1-rewarding-center-74ad13fc",
+                    "name": "Rewarding Center",
+                    "definition": "A brain circuit, including limbic and dopamine pathways, that produces reinforcement and pleasure.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Split-Brain Patients",
+                  "concept": "Split-brain patients"
+                },
+                {
+                  "label": "Cerebral Hemispheres",
+                  "children": [
+                    {
+                      "label": "Left vs Right Functions",
+                      "concept": "Hemispheric specialization (brain lateralization)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Neuroplasticity",
+              "concept": "Neuroplasticity",
+              "children": [
+                {
+                  "label": "Younger Brains Are More Malleable",
+                  "supplement": {
+                    "id": "psy-supp-1-younger-brains-are-more-malleable-36f59086",
+                    "name": "Younger Brains Are More Malleable",
+                    "definition": "The developing brain shows greater neuroplasticity, making it more adaptable to experience and injury than the adult brain.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Long-Term Potentiation (LTP)",
+                  "supplement": {
+                    "id": "psy-supp-1-long-term-potentiation-ltp-33af1a7b",
+                    "name": "Long-Term Potentiation (LTP)",
+                    "definition": "A lasting increase in synaptic strength after repeated stimulation, considered a cellular basis of learning and memory.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Neurogenesis",
+                  "concept": "Neurogenesis"
+                },
+                {
+                  "label": "Pruning",
+                  "concept": "Pruning"
+                }
+              ]
+            },
+            {
+              "label": "Tools for Examining the Brain",
+              "children": [
+                {
+                  "label": "Lesioning",
+                  "concept": "Lesioning"
+                },
+                {
+                  "label": "Brain Stimulation",
+                  "supplement": {
+                    "id": "psy-supp-1-brain-stimulation-be9ee44c",
+                    "name": "Brain Stimulation",
+                    "definition": "Research or clinical techniques that apply electrical or magnetic stimulation to brain regions to study or alter function.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.4"
+                  }
+                },
+                {
+                  "label": "Electroencephalogram (EEG)",
+                  "concept": "Electroencephalogram (EEG)"
+                },
+                {
+                  "label": "Magnetic Resonance Imaging (MRI)",
+                  "concept": "Magnetic resonance imaging (MRI)"
+                },
+                {
+                  "label": "Functional MRI (fMRI)",
+                  "concept": "Functional MRI (fMRI)"
+                },
+                {
+                  "label": "CAT / CT Scan",
+                  "concept": "Computerized axial tomography (CAT or CT) scan"
+                },
+                {
+                  "label": "PET Scan",
+                  "concept": "Positron emission tomography (PET) scan"
+                }
+              ]
+            }
+          ]
+        },
+        "1.5": {
+          "label": "Sleep",
+          "node_count": 24,
+          "matched_count": 21,
+          "children": [
+            {
+              "label": "Consciousness",
+              "concept": "Consciousness",
+              "children": [
+                {
+                  "label": "Circadian Rhythm",
+                  "concept": "Circadian rhythm"
+                },
+                {
+                  "label": "Sleep Cycle",
+                  "concept": "Sleep cycle"
+                }
+              ]
+            },
+            {
+              "label": "NREM Sleep",
+              "concept": "NREM sleep",
+              "children": [
+                {
+                  "label": "Stage 1: Theta Waves",
+                  "concept": "Theta waves"
+                },
+                {
+                  "label": "Stage 2: Sleep Spindles",
+                  "concept": "Sleep spindles"
+                },
+                {
+                  "label": "Stage 3/4: Delta Sleep",
+                  "concept": "Delta sleep"
+                }
+              ]
+            },
+            {
+              "label": "REM Sleep",
+              "concept": "REM sleep",
+              "children": [
+                {
+                  "label": "Dreams",
+                  "concept": "Dreams"
+                }
+              ]
+            },
+            {
+              "label": "Sleep Theories",
+              "children": [
+                {
+                  "label": "Adaptive Theory",
+                  "supplement": {
+                    "id": "psy-supp-1-adaptive-theory-adb6bd00",
+                    "name": "Adaptive Theory",
+                    "definition": "The theory that sleep evolved because it provided survival advantages, such as conserving energy and avoiding danger.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.5"
+                  }
+                },
+                {
+                  "label": "Restorative Theory",
+                  "concept": "Restoration of resources"
+                }
+              ]
+            },
+            {
+              "label": "Dream Theories",
+              "children": [
+                {
+                  "label": "Consolidation Theory",
+                  "concept": "Consolidation theory of dreams"
+                },
+                {
+                  "label": "Activation-Synthesis Theory",
+                  "concept": "Activation-synthesis theory of dreaming"
+                }
+              ]
+            },
+            {
+              "label": "Sleep Disorders",
+              "children": [
+                {
+                  "label": "Insomnia",
+                  "concept": "Insomnia"
+                },
+                {
+                  "label": "Narcolepsy",
+                  "concept": "Narcolepsy"
+                },
+                {
+                  "label": "Sleep Apnea",
+                  "concept": "Sleep apnea"
+                },
+                {
+                  "label": "REM Sleep Behavior Disorder",
+                  "concept": "REM sleep behavior disorder"
+                },
+                {
+                  "label": "Somnambulism",
+                  "concept": "Somnambulism (sleepwalking)"
+                },
+                {
+                  "label": "Night Terrors",
+                  "concept": "Night terrors"
+                }
+              ]
+            },
+            {
+              "label": "Sleep Deprivation",
+              "concept": "Sleep deprived",
+              "children": [
+                {
+                  "label": "REM Rebound",
+                  "concept": "REM rebound"
+                }
+              ]
+            }
+          ]
+        },
+        "1.6": {
+          "label": "Sensation",
+          "node_count": 56,
+          "matched_count": 45,
+          "children": [
+            {
+              "label": "Basic Concepts",
+              "children": [
+                {
+                  "label": "Sensation",
+                  "concept": "Sensation"
+                },
+                {
+                  "label": "Perception",
+                  "concept": "Perception"
+                },
+                {
+                  "label": "Transduction",
+                  "concept": "Transduction"
+                },
+                {
+                  "label": "Sensory Receptors",
+                  "concept": "Sensory receptors"
+                },
+                {
+                  "label": "Absolute Threshold",
+                  "concept": "Threshold"
+                },
+                {
+                  "label": "Difference Threshold",
+                  "supplement": {
+                    "id": "psy-supp-1-difference-threshold-e9959433",
+                    "name": "Difference Threshold",
+                    "definition": "The smallest detectable difference between two stimuli, also called the just-noticeable difference.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "1.6"
+                  }
+                },
+                {
+                  "label": "Sensory Adaptation",
+                  "concept": "Sensory adaptation"
+                },
+                {
+                  "label": "Habituation & Dishabituation",
+                  "concept": "Sensory habituation"
+                },
+                {
+                  "label": "Synesthesia",
+                  "concept": "Synesthesia"
+                }
+              ]
+            },
+            {
+              "label": "Vision",
+              "concept": "Vision",
+              "children": [
+                {
+                  "label": "Structure of the Eye",
+                  "children": [
+                    {
+                      "label": "Cornea",
+                      "concept": "Cornea"
+                    },
+                    {
+                      "label": "Pupil",
+                      "concept": "Pupil"
+                    },
+                    {
+                      "label": "Lens",
+                      "concept": "Lens"
+                    },
+                    {
+                      "label": "Retina",
+                      "concept": "Retina"
+                    },
+                    {
+                      "label": "Rods",
+                      "concept": "Rods"
+                    },
+                    {
+                      "label": "Cones",
+                      "concept": "Cones"
+                    },
+                    {
+                      "label": "Fovea",
+                      "concept": "Fovea"
+                    },
+                    {
+                      "label": "Optic Nerve",
+                      "concept": "Optic nerve"
+                    },
+                    {
+                      "label": "Optic Chiasm",
+                      "concept": "Optic chiasm"
+                    },
+                    {
+                      "label": "Blind Spot",
+                      "concept": "Blind spot"
+                    }
+                  ]
+                },
+                {
+                  "label": "Visual Processing",
+                  "children": [
+                    {
+                      "label": "Feature Detectors",
+                      "concept": "Feature detectors"
+                    },
+                    {
+                      "label": "Visual Cortex",
+                      "supplement": {
+                        "id": "psy-supp-1-visual-cortex-b229226b",
+                        "name": "Visual Cortex",
+                        "definition": "The occipital-lobe area that processes visual features such as edges, color, and motion.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Color Vision",
+                  "children": [
+                    {
+                      "label": "Trichromatic Theory",
+                      "concept": "Young-Helmholtz trichromatic (three-color) theory"
+                    },
+                    {
+                      "label": "Opponent-Process Theory",
+                      "concept": "Opponent-process theory (color vision)"
+                    }
+                  ]
+                },
+                {
+                  "label": "Light & Dark Adaptation",
+                  "children": [
+                    {
+                      "label": "Light Adaptation",
+                      "supplement": {
+                        "id": "psy-supp-1-light-adaptation-8e1af721",
+                        "name": "Light Adaptation",
+                        "definition": "The process by which the eyes adjust to bright light, reducing sensitivity and shifting from rods to cones.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    },
+                    {
+                      "label": "Dark Adaptation",
+                      "supplement": {
+                        "id": "psy-supp-1-dark-adaptation-7a6c9200",
+                        "name": "Dark Adaptation",
+                        "definition": "The process by which the eyes adjust to dim light, increasing sensitivity as rods take over.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Audition",
+              "concept": "Audition",
+              "children": [
+                {
+                  "label": "Structure of the Ear",
+                  "children": [
+                    {
+                      "label": "External Ear",
+                      "supplement": {
+                        "id": "psy-supp-1-external-ear-73eafc1b",
+                        "name": "External Ear",
+                        "definition": "The outer part of the ear, including the pinna and ear canal, that collects and directs sound waves.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    },
+                    {
+                      "label": "Middle Ear",
+                      "concept": "Middle ear"
+                    },
+                    {
+                      "label": "Inner Ear",
+                      "concept": "Inner ear"
+                    },
+                    {
+                      "label": "Cochlea",
+                      "concept": "Cochlea"
+                    },
+                    {
+                      "label": "Basilar Membrane",
+                      "supplement": {
+                        "id": "psy-supp-1-basilar-membrane-131b8c81",
+                        "name": "Basilar Membrane",
+                        "definition": "The membrane inside the cochlea that vibrates in response to sound and supports hair cells that transduce pitch.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Pitch Theories",
+                  "children": [
+                    {
+                      "label": "Place Theory",
+                      "concept": "Place theory"
+                    },
+                    {
+                      "label": "Frequency Theory",
+                      "concept": "Frequency theory"
+                    },
+                    {
+                      "label": "Volley Theory",
+                      "supplement": {
+                        "id": "psy-supp-1-volley-theory-8adb4587",
+                        "name": "Volley Theory",
+                        "definition": "A pitch theory proposing that groups of auditory neurons fire in alternating volleys to encode frequencies higher than any single neuron can follow.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "1.6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Hearing Loss",
+                  "children": [
+                    {
+                      "label": "Conduction Deafness",
+                      "concept": "Conduction deafness"
+                    },
+                    {
+                      "label": "Sensorineural Hearing Loss",
+                      "concept": "Sensorineural hearing loss"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Chemical Senses",
+              "children": [
+                {
+                  "label": "Gustation",
+                  "concept": "Gustation",
+                  "children": [
+                    {
+                      "label": "Taste Buds",
+                      "concept": "Taste buds"
+                    },
+                    {
+                      "label": "Five Basic Tastes",
+                      "concept": "Five different types of tastes"
+                    }
+                  ]
+                },
+                {
+                  "label": "Olfaction",
+                  "concept": "Smell (Olfaction)",
+                  "children": [
+                    {
+                      "label": "Olfactory Bulb",
+                      "concept": "Olfactory bulb"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Body Senses",
+              "children": [
+                {
+                  "label": "Touch & Pain",
+                  "children": [
+                    {
+                      "label": "Gate Control Theory",
+                      "concept": "Gate control theory"
+                    }
+                  ]
+                },
+                {
+                  "label": "Vestibular Sense",
+                  "concept": "Vestibular sense"
+                },
+                {
+                  "label": "Kinesthetic Sense",
+                  "concept": "Kinesthetic sense (kinesthesis)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "title": "Cognition",
+      "topics": {
+        "2.1": {
+          "label": "Perception",
+          "node_count": 28,
+          "matched_count": 21,
+          "children": [
+            {
+              "label": "Attention",
+              "children": [
+                {
+                  "label": "Selective Attention",
+                  "concept": "Selective attention",
+                  "children": [
+                    {
+                      "label": "Cocktail party effect",
+                      "concept": "Cocktail party effect"
+                    },
+                    {
+                      "label": "Inattentional blindness",
+                      "concept": "Inattentional blindness"
+                    },
+                    {
+                      "label": "Change blindness",
+                      "concept": "Change blindness"
+                    }
+                  ]
+                },
+                {
+                  "label": "Divided Attention",
+                  "supplement": {
+                    "id": "psy-supp-2-divided-attention-28af47f0",
+                    "name": "Divided Attention",
+                    "definition": "The attempt to process two or more streams of information at the same time, often with reduced performance on at least one task.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.1"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Basic Principles",
+              "children": [
+                {
+                  "label": "Bottom-up processing",
+                  "concept": "Bottom-up processing"
+                },
+                {
+                  "label": "Top-down processing",
+                  "concept": "Top-down processing"
+                },
+                {
+                  "label": "Context effect",
+                  "supplement": {
+                    "id": "psy-supp-2-context-effect-645e0929",
+                    "name": "Context effect",
+                    "definition": "The influence of surrounding context or setting on perception, memory, or interpretation.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.1"
+                  }
+                },
+                {
+                  "label": "Perceptual set",
+                  "concept": "Perceptual set"
+                }
+              ]
+            },
+            {
+              "label": "Visual Perception",
+              "children": [
+                {
+                  "label": "Illusions",
+                  "children": [
+                    {
+                      "label": "Apparent movement",
+                      "supplement": {
+                        "id": "psy-supp-2-apparent-movement-c22aa920",
+                        "name": "Apparent movement",
+                        "definition": "The illusion that a stationary object is moving, or that movement occurs between separated stimuli, as in the phi phenomenon.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Depth Perception",
+                  "concept": "Depth perception",
+                  "children": [
+                    {
+                      "label": "Monocular depth",
+                      "concept": "Monocular depth cues",
+                      "children": [
+                        {
+                          "label": "Pictorial Depth Cues",
+                          "supplement": {
+                            "id": "psy-supp-2-pictorial-depth-cues-3ebd1c95",
+                            "name": "Pictorial Depth Cues",
+                            "definition": "Monocular cues in a flat image—such as linear perspective, relative size, and overlap—that create an impression of depth.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Binocular depth",
+                      "concept": "Binocular depth cues",
+                      "children": [
+                        {
+                          "label": "Retinal Disparity",
+                          "concept": "Retinal disparity"
+                        },
+                        {
+                          "label": "Convergence",
+                          "concept": "Convergence"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Visual cliff experiment",
+                      "concept": "Visual cliff"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Constancies",
+              "supplement": {
+                "id": "psy-supp-2-constancies-cc394a77",
+                "name": "Constancies",
+                "definition": "Perceptual constancies are the tendency to perceive objects as stable in size, shape, brightness, or color despite changes in the retinal image.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "2.1"
+              }
+            },
+            {
+              "label": "Gestalt Principles",
+              "children": [
+                {
+                  "label": "Proximity",
+                  "supplement": {
+                    "id": "psy-supp-2-proximity-a7b62dc5",
+                    "name": "Proximity",
+                    "definition": "A Gestalt grouping principle: stimuli near one another tend to be perceived as belonging together.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.1"
+                  }
+                },
+                {
+                  "label": "Similarity",
+                  "supplement": {
+                    "id": "psy-supp-2-similarity-27081a12",
+                    "name": "Similarity",
+                    "definition": "A Gestalt grouping principle: stimuli that look alike tend to be grouped together.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.1"
+                  }
+                },
+                {
+                  "label": "Closure",
+                  "concept": "Closure"
+                },
+                {
+                  "label": "Continuity",
+                  "concept": "Continuity"
+                },
+                {
+                  "label": "Figure-ground illusion",
+                  "supplement": {
+                    "id": "psy-supp-2-figure-ground-illusion-914489bc",
+                    "name": "Figure-ground illusion",
+                    "definition": "A perceptual illusion in which the distinction between the main object (figure) and its background (ground) becomes ambiguous or reversible.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.1"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "2.2": {
+          "label": "Thinking, Problem-Solving, Judgments, and Decision-Making",
+          "node_count": 24,
+          "matched_count": 20,
+          "children": [
+            {
+              "label": "Theories",
+              "children": [
+                {
+                  "label": "Prototype Theory",
+                  "concept": "Prototype"
+                },
+                {
+                  "label": "Schema Theory",
+                  "concept": "Schema",
+                  "children": [
+                    {
+                      "label": "Assimilation",
+                      "supplement": {
+                        "id": "psy-supp-2-assimilation-0495b845",
+                        "name": "Assimilation",
+                        "definition": "Interpreting new experiences in terms of existing schemas or mental frameworks.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.2"
+                      }
+                    },
+                    {
+                      "label": "Accommodation",
+                      "supplement": {
+                        "id": "psy-supp-2-accommodation-8813af0c",
+                        "name": "Accommodation",
+                        "definition": "Changing an existing schema or creating a new one to fit new information.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Problem Solving",
+              "children": [
+                {
+                  "label": "Algorithms",
+                  "concept": "Algorithm"
+                },
+                {
+                  "label": "Heuristics",
+                  "concept": "Heuristic",
+                  "children": [
+                    {
+                      "label": "Availability Heuristic",
+                      "concept": "Availability heuristic"
+                    },
+                    {
+                      "label": "Representativeness Heuristic",
+                      "concept": "Representativeness heuristic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Obstacles",
+              "children": [
+                {
+                  "label": "Functional Fixedness",
+                  "concept": "Functional fixedness"
+                },
+                {
+                  "label": "Mental Set",
+                  "concept": "Mental set"
+                }
+              ]
+            },
+            {
+              "label": "Decision Making & Judgment",
+              "children": [
+                {
+                  "label": "Framing",
+                  "concept": "Framing"
+                },
+                {
+                  "label": "Hindsight Bias",
+                  "supplement": {
+                    "id": "psy-supp-2-hindsight-bias-49a53238",
+                    "name": "Hindsight Bias",
+                    "definition": "The tendency to believe, after learning an outcome, that one would have foreseen it; the 'I-knew-it-all-along' effect.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.2"
+                  }
+                },
+                {
+                  "label": "Confirmation Bias",
+                  "concept": "Confirmation bias"
+                },
+                {
+                  "label": "Belief Perseverance",
+                  "concept": "Belief perseverance"
+                },
+                {
+                  "label": "Gambler's Fallacy",
+                  "concept": "Gambler’s fallacy"
+                },
+                {
+                  "label": "Sunk-Cost Fallacy",
+                  "concept": "Sunk-cost fallacy"
+                },
+                {
+                  "label": "Priming",
+                  "supplement": {
+                    "id": "psy-supp-2-priming-53273672",
+                    "name": "Priming",
+                    "definition": "The activation of a prior stimulus or memory that influences later perception, thinking, or behavior, often outside awareness.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Creativity",
+              "concept": "Creativity",
+              "children": [
+                {
+                  "label": "Convergent Thinking",
+                  "concept": "Convergent thinking"
+                },
+                {
+                  "label": "Divergent Thinking",
+                  "concept": "Divergent thinking"
+                }
+              ]
+            }
+          ]
+        },
+        "2.3": {
+          "label": "Introduction to Memory",
+          "node_count": 22,
+          "matched_count": 15,
+          "children": [
+            {
+              "label": "Introduction",
+              "children": [
+                {
+                  "label": "Basic procedure",
+                  "children": [
+                    {
+                      "label": "Encoding",
+                      "concept": "Encoding"
+                    },
+                    {
+                      "label": "Storage",
+                      "concept": "Storage"
+                    },
+                    {
+                      "label": "Retrieval",
+                      "concept": "Retrieval"
+                    }
+                  ]
+                },
+                {
+                  "label": "Types",
+                  "children": [
+                    {
+                      "label": "Declarative memory/explicit memory",
+                      "children": [
+                        {
+                          "label": "Episodic memory",
+                          "concept": "Episodic memory"
+                        },
+                        {
+                          "label": "Semantic memory",
+                          "concept": "Semantic memory"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Nondeclarative memory/implicit memory",
+                      "children": [
+                        {
+                          "label": "Procedural memory",
+                          "concept": "Procedural memory"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Prospective memory",
+                      "concept": "Prospective memory"
+                    },
+                    {
+                      "label": "Retrospective memory",
+                      "supplement": {
+                        "id": "psy-supp-2-retrospective-memory-a65a78e6",
+                        "name": "Retrospective memory",
+                        "definition": "Memory for information or events from the past, such as facts, experiences, or prior actions.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Memory Models",
+                  "children": [
+                    {
+                      "label": "Multi-Store Model",
+                      "children": [
+                        {
+                          "label": "Sensory memory",
+                          "concept": "Sensory memory"
+                        },
+                        {
+                          "label": "Short-term memory",
+                          "concept": "Short-term memory"
+                        },
+                        {
+                          "label": "Long-term memory",
+                          "concept": "Long-term memory"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Levels of Processing",
+                      "concept": "Levels of processing model",
+                      "children": [
+                        {
+                          "label": "Shallow/structural encoding",
+                          "concept": "Shallowly encoded"
+                        },
+                        {
+                          "label": "Intermediate/phonemic encoding",
+                          "supplement": {
+                            "id": "psy-supp-2-intermediate-phonemic-encoding-0523c61d",
+                            "name": "Intermediate/phonemic encoding",
+                            "definition": "Encoding based on the sound of information, such as repeating or rehearsing words by how they sound.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.3"
+                          }
+                        },
+                        {
+                          "label": "Deep/semantic encoding",
+                          "concept": "Deeply encoded"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "2.4": {
+          "label": "Encoding Memories",
+          "node_count": 9,
+          "matched_count": 8,
+          "children": [
+            {
+              "label": "Encoding",
+              "concept": "Encoding",
+              "children": [
+                {
+                  "label": "Mnemonic device",
+                  "concept": "Mnemonics"
+                },
+                {
+                  "label": "Effects",
+                  "children": [
+                    {
+                      "label": "Serial Position Effect",
+                      "concept": "Serial position effect",
+                      "children": [
+                        {
+                          "label": "Primacy effect",
+                          "concept": "Primacy effect"
+                        },
+                        {
+                          "label": "Recency effect",
+                          "concept": "Recency effect"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Distributed Practice",
+                      "supplement": {
+                        "id": "psy-supp-2-distributed-practice-c825b5b2",
+                        "name": "Distributed Practice",
+                        "definition": "Spacing study or practice across multiple sessions over time, which usually improves long-term retention compared with massed practice.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.4"
+                      }
+                    },
+                    {
+                      "label": "Chunking",
+                      "concept": "Chunking"
+                    },
+                    {
+                      "label": "Spacing effect/distributional practice",
+                      "concept": "Spacing effect"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "2.5": {
+          "label": "Storing Memories",
+          "node_count": 14,
+          "matched_count": 12,
+          "children": [
+            {
+              "label": "Memory Consolidation",
+              "concept": "Memory consolidation"
+            },
+            {
+              "label": "Long-Term Potentiation",
+              "concept": "Long-term potentiation"
+            },
+            {
+              "label": "Brain Structures",
+              "children": [
+                {
+                  "label": "Hippocampus",
+                  "concept": "Hippocampus"
+                },
+                {
+                  "label": "Cerebellum",
+                  "supplement": {
+                    "id": "psy-supp-2-cerebellum-9f0101f4",
+                    "name": "Cerebellum",
+                    "definition": "A hindbrain structure important for balance, coordination, and motor learning.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.5"
+                  }
+                },
+                {
+                  "label": "Amygdala",
+                  "supplement": {
+                    "id": "psy-supp-2-amygdala-ee0bb488",
+                    "name": "Amygdala",
+                    "definition": "A limbic-system structure involved in emotion, especially fear learning and emotional salience.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.5"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Explicit Memory",
+              "concept": "Explicit memory",
+              "children": [
+                {
+                  "label": "Episodic Memory",
+                  "concept": "Episodic memory"
+                },
+                {
+                  "label": "Semantic Memory",
+                  "concept": "Semantic memory"
+                }
+              ]
+            },
+            {
+              "label": "Implicit Memory",
+              "concept": "Implicit memory",
+              "children": [
+                {
+                  "label": "Procedural Memory",
+                  "concept": "Procedural memory"
+                }
+              ]
+            },
+            {
+              "label": "Storage Problems",
+              "children": [
+                {
+                  "label": "Anterograde Amnesia",
+                  "concept": "Anterograde amnesia"
+                },
+                {
+                  "label": "Retrograde Amnesia",
+                  "concept": "Retrograde amnesia"
+                }
+              ]
+            }
+          ]
+        },
+        "2.6": {
+          "label": "Retrieving Memories",
+          "node_count": 16,
+          "matched_count": 13,
+          "children": [
+            {
+              "label": "Recall & Recognition",
+              "children": [
+                {
+                  "label": "Recall",
+                  "concept": "Recall"
+                },
+                {
+                  "label": "Recognition",
+                  "concept": "Recognition"
+                }
+              ]
+            },
+            {
+              "label": "Retrieval Cues",
+              "concept": "Retrieval cues",
+              "children": [
+                {
+                  "label": "Context-Dependent Memory",
+                  "supplement": {
+                    "id": "psy-supp-2-context-dependent-memory-39320b0e",
+                    "name": "Context-Dependent Memory",
+                    "definition": "Memory that is better recalled when the retrieval context matches the encoding context.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.6"
+                  }
+                },
+                {
+                  "label": "State-Dependent Memory",
+                  "concept": "State-dependent memory"
+                },
+                {
+                  "label": "Mood-Congruent Memory",
+                  "concept": "Mood-congruent memory"
+                }
+              ]
+            },
+            {
+              "label": "Enhancing Retrieval",
+              "children": [
+                {
+                  "label": "Testing Effect",
+                  "concept": "Testing effect"
+                },
+                {
+                  "label": "Spacing Effect",
+                  "concept": "Spacing effect"
+                },
+                {
+                  "label": "Interleaving",
+                  "concept": "Interleaving"
+                }
+              ]
+            },
+            {
+              "label": "Memory Distortion",
+              "children": [
+                {
+                  "label": "Tip-of-the-Tongue Phenomenon",
+                  "concept": "Tip-of-the-tongue phenomenon"
+                },
+                {
+                  "label": "Flashbulb Memory",
+                  "concept": "Flashbulb memory"
+                },
+                {
+                  "label": "Encoding Specificity",
+                  "concept": "Encoding specificity principle"
+                }
+              ]
+            },
+            {
+              "label": "Metacognition",
+              "supplement": {
+                "id": "psy-supp-2-metacognition-8071d4b0",
+                "name": "Metacognition",
+                "definition": "Thinking about one's own thinking; monitoring and regulating cognitive processes.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "2.6"
+              }
+            }
+          ]
+        },
+        "2.7": {
+          "label": "Forgetting and Other Memory Challenges",
+          "node_count": 19,
+          "matched_count": 16,
+          "children": [
+            {
+              "label": "Forgetting",
+              "children": [
+                {
+                  "label": "Ebbinghaus Forgetting Curve",
+                  "children": [
+                    {
+                      "label": "Nonsense Syllables",
+                      "supplement": {
+                        "id": "psy-supp-2-nonsense-syllables-5a5219f5",
+                        "name": "Nonsense Syllables",
+                        "definition": "Meaningless consonant-vowel-consonant strings used by Ebbinghaus to study learning and forgetting without prior associations.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.7"
+                      }
+                    },
+                    {
+                      "label": "Retention",
+                      "supplement": {
+                        "id": "psy-supp-2-retention-4a78b540",
+                        "name": "Retention",
+                        "definition": "The amount of learned material that can be recalled or recognized after a delay.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.7"
+                      }
+                    },
+                    {
+                      "label": "Savings Scores",
+                      "supplement": {
+                        "id": "psy-supp-2-savings-scores-acb097b6",
+                        "name": "Savings Scores",
+                        "definition": "Ebbinghaus's measure of retention based on how much faster relearning is compared with original learning.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Why We Forget",
+                  "children": [
+                    {
+                      "label": "Encoding failure theory",
+                      "supplement": {
+                        "id": "psy-supp-2-encoding-failure-theory-245b76c9",
+                        "name": "Encoding failure theory",
+                        "definition": "The explanation that forgetting occurs because information was never successfully encoded into long-term memory.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.7"
+                      }
+                    },
+                    {
+                      "label": "Interference theory",
+                      "concept": "Interference",
+                      "children": [
+                        {
+                          "label": "Retroactive Interference",
+                          "concept": "Retroactive interference"
+                        },
+                        {
+                          "label": "Proactive Interference",
+                          "concept": "Proactive interference"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Decay theory",
+                      "concept": "Decay"
+                    },
+                    {
+                      "label": "Tip-of-the-tongue,phenomenon",
+                      "concept": "Tip-of-the-tongue phenomenon"
+                    },
+                    {
+                      "label": "Repression",
+                      "supplement": {
+                        "id": "psy-supp-2-repression-7a873202",
+                        "name": "Repression",
+                        "definition": "A defense mechanism in which anxiety-provoking thoughts or memories are pushed out of conscious awareness.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "The misinformation effect",
+                  "concept": "Misinformation effect",
+                  "children": [
+                    {
+                      "label": "Source monitoring/source amnesia",
+                      "concept": "Source amnesia"
+                    },
+                    {
+                      "label": "Framing",
+                      "concept": "Framing"
+                    },
+                    {
+                      "label": "Constructive memory",
+                      "concept": "Constructed memory",
+                      "children": [
+                        {
+                          "label": "Memory consolidation",
+                          "concept": "Memory consolidation"
+                        },
+                        {
+                          "label": "Imagination inflation",
+                          "supplement": {
+                            "id": "psy-supp-2-imagination-inflation-aa2669a0",
+                            "name": "Imagination inflation",
+                            "definition": "The finding that imagining an event can increase confidence that it actually occurred.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.7"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "2.8": {
+          "label": "Intelligence and Achievement",
+          "node_count": 28,
+          "matched_count": 23,
+          "children": [
+            {
+              "label": "Intelligence",
+              "concept": "Intelligence",
+              "children": [
+                {
+                  "label": "Giftedness",
+                  "supplement": {
+                    "id": "psy-supp-2-giftedness-a3988b11",
+                    "name": "Giftedness",
+                    "definition": "Exceptional intellectual ability, often defined by high IQ or outstanding performance in a domain.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.8"
+                  }
+                },
+                {
+                  "label": "Theories",
+                  "children": [
+                    {
+                      "label": "Spearman’s G Factor",
+                      "concept": "General intelligence (g)"
+                    },
+                    {
+                      "label": "Gardner’s Multiple Intelligences",
+                      "concept": "Multiple intelligences"
+                    }
+                  ]
+                },
+                {
+                  "label": "Fluid intelligence",
+                  "concept": "Fluid intelligence"
+                },
+                {
+                  "label": "Crystallized intelligence",
+                  "concept": "Crystallized intelligence"
+                },
+                {
+                  "label": "Develpoment",
+                  "children": [
+                    {
+                      "label": "Francis Galton",
+                      "children": [
+                        {
+                          "label": "Hereditary Genius",
+                          "supplement": {
+                            "id": "psy-supp-2-hereditary-genius-62a16544",
+                            "name": "Hereditary Genius",
+                            "definition": "Galton's idea that eminence runs in families and is strongly influenced by heredity.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.8"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Alfred Binet",
+                      "supplement": {
+                        "id": "psy-supp-2-alfred-binet-26bfa337",
+                        "name": "Alfred Binet",
+                        "definition": "French psychologist who developed an early intelligence test to identify children needing educational support.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.8"
+                      }
+                    },
+                    {
+                      "label": "David Wechsler",
+                      "concept": "Wechsler Adult Intelligence Scale (WAIS)",
+                      "children": [
+                        {
+                          "label": "Deviation IQ scores",
+                          "supplement": {
+                            "id": "psy-supp-2-deviation-iq-scores-43e4b175",
+                            "name": "Deviation IQ scores",
+                            "definition": "IQ scores based on how far a person's score deviates from the age-group average, expressed with a standard deviation.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.8"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Mental Retardation",
+                  "supplement": {
+                    "id": "psy-supp-2-mental-retardation-553af481",
+                    "name": "Intellectual Disability",
+                    "definition": "A condition involving significantly below-average intellectual functioning and limitations in adaptive behavior; the modern term is intellectual disability.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.8"
+                  }
+                },
+                {
+                  "label": "Reaction range",
+                  "supplement": {
+                    "id": "psy-supp-2-reaction-range-8aca5520",
+                    "name": "Reaction range",
+                    "definition": "The idea that genotype sets a range of possible phenotypes, with environment determining where within that range a person develops.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "2.8"
+                  }
+                },
+                {
+                  "label": "The Flynn Effect",
+                  "concept": "Flynn effect"
+                },
+                {
+                  "label": "Stereotype threat",
+                  "concept": "Stereotype threat"
+                },
+                {
+                  "label": "Psychological Tests",
+                  "children": [
+                    {
+                      "label": "Standardization",
+                      "concept": "Standardization"
+                    },
+                    {
+                      "label": "Test norms",
+                      "supplement": {
+                        "id": "psy-supp-2-test-norms-4062f826",
+                        "name": "Test norms",
+                        "definition": "Performance standards based on a representative sample, used to interpret test scores.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "2.8"
+                      }
+                    },
+                    {
+                      "label": "Reliability",
+                      "concept": "Reliability",
+                      "children": [
+                        {
+                          "label": "Test-retest reliability",
+                          "concept": "Test-retest reliability"
+                        },
+                        {
+                          "label": "Split-half reliability",
+                          "concept": "Split-half reliability"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Validity",
+                      "children": [
+                        {
+                          "label": "Content validity",
+                          "concept": "Content validity"
+                        },
+                        {
+                          "label": "Construct Validity",
+                          "concept": "Construct validity"
+                        },
+                        {
+                          "label": "Criterion-related validity",
+                          "supplement": {
+                            "id": "psy-supp-2-criterion-related-validity-5e7ef4a6",
+                            "name": "Criterion-related validity",
+                            "definition": "The degree to which test scores predict or correlate with a relevant external criterion.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "2.8"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Savant syndrome",
+                  "concept": "Savant syndrome"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "title": "Development and Learning",
+      "topics": {
+        "3.1": {
+          "label": "Themes and Methods in Developmental Psychology",
+          "node_count": 13,
+          "matched_count": 11,
+          "children": [
+            {
+              "label": "Nature vs Nurture",
+              "concept": "Nature versus nurture"
+            },
+            {
+              "label": "Continuity vs Discontinuity",
+              "supplement": {
+                "id": "psy-supp-3-continuity-vs-discontinuity-52dad8ef",
+                "name": "Continuity vs Discontinuity",
+                "definition": "The developmental issue of whether development is gradual and continuous or occurs in distinct stages.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.1"
+              }
+            },
+            {
+              "label": "Stability vs Change",
+              "supplement": {
+                "id": "psy-supp-3-stability-vs-change-af655135",
+                "name": "Stability vs Change",
+                "definition": "The developmental issue of whether traits remain stable across the lifespan or change with age and experience.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.1"
+              }
+            },
+            {
+              "label": "Research Designs",
+              "children": [
+                {
+                  "label": "Cross-Sectional Research",
+                  "concept": "Cross-sectional research"
+                },
+                {
+                  "label": "Longitudinal Research",
+                  "concept": "Longitudinal research"
+                },
+                {
+                  "label": "Naturalistic Observation",
+                  "supplement": {
+                    "id": "psy-supp-3-naturalistic-observation-22935aee",
+                    "name": "Naturalistic Observation",
+                    "definition": "Observing behavior in naturally occurring settings without manipulating variables.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.1"
+                  }
+                },
+                {
+                  "label": "Meta-Analysis",
+                  "supplement": {
+                    "id": "psy-supp-3-meta-analysis-5565eab8",
+                    "name": "Meta-Analysis",
+                    "definition": "A statistical technique that combines results from many studies to estimate an overall effect.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.1"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Developmental Psychology",
+              "concept": "Developmental psychology"
+            },
+            {
+              "label": "Ethics & Bias",
+              "children": [
+                {
+                  "label": "Experimenter Bias",
+                  "supplement": {
+                    "id": "psy-supp-3-experimenter-bias-0aef20d8",
+                    "name": "Experimenter Bias",
+                    "definition": "Researcher expectations influencing the results or the behavior of participants.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.1"
+                  }
+                },
+                {
+                  "label": "Informed Consent",
+                  "supplement": {
+                    "id": "psy-supp-3-informed-consent-1af1ae5f",
+                    "name": "Informed Consent",
+                    "definition": "Participants receive enough information to decide voluntarily whether to take part in research.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.1"
+                  }
+                },
+                {
+                  "label": "Confidentiality",
+                  "supplement": {
+                    "id": "psy-supp-3-confidentiality-4c3f81af",
+                    "name": "Confidentiality",
+                    "definition": "Researchers protect participants' identity and data from unauthorized disclosure.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.1"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "3.2": {
+          "label": "Physical Development Across the Lifespan",
+          "node_count": 26,
+          "matched_count": 22,
+          "children": [
+            {
+              "label": "Prenatal Development",
+              "children": [
+                {
+                  "label": "Teratogens",
+                  "concept": "Teratogens"
+                },
+                {
+                  "label": "Fetal Alcohol Syndrome",
+                  "concept": "Fetal alcohol syndrome (FAS)"
+                },
+                {
+                  "label": "Critical Period",
+                  "concept": "Critical period"
+                }
+              ]
+            },
+            {
+              "label": "Infancy",
+              "children": [
+                {
+                  "label": "Reflexes",
+                  "concept": "Reflexes",
+                  "children": [
+                    {
+                      "label": "Rooting Reflex",
+                      "concept": "Rooting reflex"
+                    },
+                    {
+                      "label": "Sucking Reflex",
+                      "concept": "Sucking reflex"
+                    },
+                    {
+                      "label": "Grasping Reflex",
+                      "concept": "Grasping reflex"
+                    },
+                    {
+                      "label": "Babinski Reflex",
+                      "concept": "Babinski reflex"
+                    },
+                    {
+                      "label": "Moro Reflex",
+                      "concept": "Moro reflex"
+                    }
+                  ]
+                },
+                {
+                  "label": "Motor Development",
+                  "concept": "Motor development",
+                  "children": [
+                    {
+                      "label": "Gross-to-Fine Direction",
+                      "supplement": {
+                        "id": "psy-supp-3-gross-to-fine-direction-fb6dad26",
+                        "name": "Gross-to-Fine Direction",
+                        "definition": "Motor development proceeds from large, gross movements to precise, fine movements.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.2"
+                      }
+                    },
+                    {
+                      "label": "Head-to-Foot Direction",
+                      "supplement": {
+                        "id": "psy-supp-3-head-to-foot-direction-09e84c30",
+                        "name": "Head-to-Foot Direction",
+                        "definition": "Motor development proceeds from the head and upper body toward the lower body.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Imprinting",
+                  "concept": "Imprinting"
+                }
+              ]
+            },
+            {
+              "label": "Adolescence",
+              "children": [
+                {
+                  "label": "Puberty",
+                  "concept": "Puberty"
+                },
+                {
+                  "label": "Primary Sex Characteristics",
+                  "concept": "Primary sex characteristics"
+                },
+                {
+                  "label": "Secondary Sex Characteristics",
+                  "concept": "Secondary sex characteristics"
+                },
+                {
+                  "label": "Menarche",
+                  "concept": "Menarche"
+                },
+                {
+                  "label": "Spermarche",
+                  "concept": "Spermarche"
+                }
+              ]
+            },
+            {
+              "label": "Adulthood",
+              "children": [
+                {
+                  "label": "Menopause",
+                  "concept": "Menopause"
+                },
+                {
+                  "label": "Hormonal Changes",
+                  "supplement": {
+                    "id": "psy-supp-3-hormonal-changes-162a3c94",
+                    "name": "Hormonal Changes",
+                    "definition": "Age-related shifts in hormone levels that affect physical, reproductive, and emotional development.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.2"
+                  }
+                },
+                {
+                  "label": "Hearing & Vision Decline",
+                  "supplement": {
+                    "id": "psy-supp-3-hearing-vision-decline-7d1b1992",
+                    "name": "Hearing & Vision Decline",
+                    "definition": "Normal aging changes that reduce sensory acuity, especially high-frequency hearing and near vision.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.2"
+                  }
+                },
+                {
+                  "label": "Dementia",
+                  "supplement": {
+                    "id": "psy-supp-3-dementia-0e324bc5",
+                    "name": "Dementia",
+                    "definition": "A progressive cognitive decline affecting memory, reasoning, language, and daily functioning.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.2"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "3.3": {
+          "label": "Gender and Sexual Orientation",
+          "node_count": 13,
+          "matched_count": 11,
+          "children": [
+            {
+              "label": "Sex vs Gender",
+              "children": [
+                {
+                  "label": "Sex",
+                  "concept": "Sex"
+                },
+                {
+                  "label": "Gender",
+                  "concept": "Gender"
+                }
+              ]
+            },
+            {
+              "label": "Gender Identity",
+              "concept": "Gender identity"
+            },
+            {
+              "label": "Gender Roles",
+              "concept": "Gender roles"
+            },
+            {
+              "label": "Gender Stereotypes",
+              "supplement": {
+                "id": "psy-supp-3-gender-stereotypes-b16b8725",
+                "name": "Gender Stereotypes",
+                "definition": "Widely held beliefs about the traits and behaviors considered appropriate for men and women.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.3"
+              }
+            },
+            {
+              "label": "Gender Schema Theory",
+              "concept": "Gender schema theory"
+            },
+            {
+              "label": "Social-Cognitive Theory",
+              "concept": "Social-cognitive theory"
+            },
+            {
+              "label": "Biological Influences",
+              "children": [
+                {
+                  "label": "Biopsychological Theory",
+                  "concept": "Biopsychological (Neuropsychological) Theory"
+                },
+                {
+                  "label": "Primary Sex Characteristics",
+                  "concept": "Primary sex characteristics"
+                },
+                {
+                  "label": "Secondary Sex Characteristics",
+                  "concept": "Secondary sex characteristics"
+                }
+              ]
+            },
+            {
+              "label": "Sexual Orientation",
+              "supplement": {
+                "id": "psy-supp-3-sexual-orientation-f362709e",
+                "name": "Sexual Orientation",
+                "definition": "A person's enduring pattern of emotional, romantic, or sexual attraction.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.3"
+              }
+            }
+          ]
+        },
+        "3.4": {
+          "label": "Cognitive Development Across the Lifespan",
+          "node_count": 19,
+          "matched_count": 16,
+          "children": [
+            {
+              "label": "Piaget",
+              "children": [
+                {
+                  "label": "Schema Theory",
+                  "supplement": {
+                    "id": "psy-supp-3-schema-theory-d3473354",
+                    "name": "Schema Theory",
+                    "definition": "The idea that people organize knowledge into mental frameworks (schemas) that guide interpretation and memory.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.4"
+                  }
+                },
+                {
+                  "label": "Assimilation",
+                  "concept": "Assimilation"
+                },
+                {
+                  "label": "Accommodation",
+                  "concept": "Accommodation (developmental)"
+                },
+                {
+                  "label": "Piaget's Stages",
+                  "children": [
+                    {
+                      "label": "Sensorimotor Stage",
+                      "concept": "Sensorimotor stage"
+                    },
+                    {
+                      "label": "Preoperational Stage",
+                      "concept": "Preoperational stage"
+                    },
+                    {
+                      "label": "Concrete Operational Stage",
+                      "concept": "Concrete operational stage"
+                    },
+                    {
+                      "label": "Formal Operational Stage",
+                      "concept": "Formal operational stage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Object Permanence",
+                  "concept": "Object permanence"
+                },
+                {
+                  "label": "Conservation",
+                  "concept": "Conservation"
+                },
+                {
+                  "label": "Egocentrism",
+                  "concept": "Egocentric"
+                },
+                {
+                  "label": "Theory of Mind",
+                  "concept": "Theory of mind"
+                }
+              ]
+            },
+            {
+              "label": "Vygotsky",
+              "children": [
+                {
+                  "label": "Zone of Proximal Development",
+                  "concept": "Zone of proximal development"
+                },
+                {
+                  "label": "Scaffolding",
+                  "concept": "Scaffold"
+                }
+              ]
+            },
+            {
+              "label": "Language & Thought",
+              "supplement": {
+                "id": "psy-supp-3-language-thought-4512adb2",
+                "name": "Language & Thought",
+                "definition": "The relationship between language and cognition, including claims that language shapes thought.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.4"
+              }
+            },
+            {
+              "label": "Fluid vs Crystallized Intelligence",
+              "supplement": {
+                "id": "psy-supp-3-fluid-vs-crystallized-intelligence-ad2b3dc4",
+                "name": "Fluid vs Crystallized Intelligence",
+                "definition": "Fluid intelligence is reasoning and solving new problems; crystallized intelligence is accumulated knowledge and skills.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.4"
+              }
+            },
+            {
+              "label": "Dementia",
+              "supplement": {
+                "id": "psy-supp-3-dementia-6ba0f996",
+                "name": "Dementia",
+                "definition": "A progressive cognitive decline affecting memory, reasoning, language, and daily functioning.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.4"
+              }
+            }
+          ]
+        },
+        "3.5": {
+          "label": "Communication and Language Development",
+          "node_count": 14,
+          "matched_count": 12,
+          "children": [
+            {
+              "label": "Language",
+              "concept": "Language",
+              "children": [
+                {
+                  "label": "Structure",
+                  "children": [
+                    {
+                      "label": "Phonemes",
+                      "concept": "Phoneme"
+                    },
+                    {
+                      "label": "Morphemes",
+                      "concept": "Morpheme"
+                    },
+                    {
+                      "label": "Semantics",
+                      "concept": "Semantics"
+                    },
+                    {
+                      "label": "Syntax",
+                      "concept": "Syntax"
+                    }
+                  ]
+                },
+                {
+                  "label": "Nonverbal gesture",
+                  "supplement": {
+                    "id": "psy-supp-3-nonverbal-gesture-4b95a948",
+                    "name": "Nonverbal gesture",
+                    "definition": "Communication through body movements, facial expressions, posture, and gestures rather than words.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.5"
+                  }
+                },
+                {
+                  "label": "Development",
+                  "children": [
+                    {
+                      "label": "Cooing",
+                      "supplement": {
+                        "id": "psy-supp-3-cooing-1465085d",
+                        "name": "Cooing",
+                        "definition": "Early infant vowel-like sounds produced before canonical babbling.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.5"
+                      }
+                    },
+                    {
+                      "label": "Babbling",
+                      "supplement": {
+                        "id": "psy-supp-3-babbling-0bf7cadd",
+                        "name": "Babbling",
+                        "definition": "Repetitive consonant-vowel sounds in infancy that precede first words.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.5"
+                      }
+                    },
+                    {
+                      "label": "One-word stage",
+                      "concept": "One-word stage"
+                    },
+                    {
+                      "label": "Two-word stage",
+                      "concept": "Two-word stage"
+                    },
+                    {
+                      "label": "Overgeneralization",
+                      "concept": "Overgeneralization"
+                    },
+                    {
+                      "label": "Critical period",
+                      "concept": "Critical period"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "3.6": {
+          "label": "Social-Emotional Development Across the Lifespan",
+          "node_count": 28,
+          "matched_count": 25,
+          "children": [
+            {
+              "label": "Ecological Systems Theory",
+              "concept": "Ecological systems theory",
+              "children": [
+                {
+                  "label": "Microsystem",
+                  "concept": "Microsystem"
+                },
+                {
+                  "label": "Mesosystem",
+                  "concept": "Mesosystem"
+                },
+                {
+                  "label": "Exosystem",
+                  "concept": "Exosystem"
+                },
+                {
+                  "label": "Macrosystem",
+                  "concept": "Macrosystem"
+                },
+                {
+                  "label": "Chronosystem",
+                  "concept": "Chronosystem"
+                }
+              ]
+            },
+            {
+              "label": "Parenting Styles",
+              "children": [
+                {
+                  "label": "Authoritarian",
+                  "concept": "Authoritarian parents"
+                },
+                {
+                  "label": "Permissive",
+                  "concept": "Permissive parents"
+                },
+                {
+                  "label": "Authoritative",
+                  "concept": "Authoritative parents"
+                },
+                {
+                  "label": "Neglectful",
+                  "supplement": {
+                    "id": "psy-supp-3-neglectful-1eb54f7c",
+                    "name": "Neglectful Parenting",
+                    "definition": "A parenting style low in warmth and low in control, in which caregivers are relatively uninvolved.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Attachment",
+              "concept": "Attachment",
+              "children": [
+                {
+                  "label": "Harlow & Contact Comfort",
+                  "concept": "Contact comfort"
+                },
+                {
+                  "label": "Strange Situation",
+                  "concept": "Strange situation"
+                },
+                {
+                  "label": "Secure Attachment",
+                  "concept": "Secure attachment"
+                },
+                {
+                  "label": "Avoidant Attachment",
+                  "concept": "Avoidant attachment"
+                },
+                {
+                  "label": "Anxious / Ambivalent Attachment",
+                  "concept": "Anxious/ambivalent attachment"
+                },
+                {
+                  "label": "Disorganized Attachment",
+                  "supplement": {
+                    "id": "psy-supp-3-disorganized-attachment-80504f55",
+                    "name": "Disorganized Attachment",
+                    "definition": "Inconsistent or contradictory attachment behavior, often associated with frightening or unpredictable caregiving.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Temperament",
+              "concept": "Temperament"
+            },
+            {
+              "label": "Play",
+              "children": [
+                {
+                  "label": "Pretend Play",
+                  "supplement": {
+                    "id": "psy-supp-3-pretend-play-31c49188",
+                    "name": "Pretend Play",
+                    "definition": "Symbolic play in which children act out roles, scenarios, or imaginary situations.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                },
+                {
+                  "label": "Parallel Play",
+                  "supplement": {
+                    "id": "psy-supp-3-parallel-play-27b0defb",
+                    "name": "Parallel Play",
+                    "definition": "Children play side by side with similar toys but with little direct interaction.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Adolescent Development",
+              "children": [
+                {
+                  "label": "Adolescent Egocentrism",
+                  "supplement": {
+                    "id": "psy-supp-3-adolescent-egocentrism-8164e6a4",
+                    "name": "Adolescent Egocentrism",
+                    "definition": "Heightened self-consciousness and difficulty distinguishing one's own perspective from others'.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                },
+                {
+                  "label": "Imaginary Audience",
+                  "concept": "Imaginary audience"
+                },
+                {
+                  "label": "Identity Statuses (Marcia)",
+                  "supplement": {
+                    "id": "psy-supp-3-identity-statuses-marcia-51be0875",
+                    "name": "Identity Statuses (Marcia)",
+                    "definition": "Four identity statuses—diffusion, foreclosure, moratorium, and achievement—based on exploration and commitment.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.6"
+                  }
+                },
+                {
+                  "label": "Erikson's Psychosocial Stages",
+                  "concept": "Erikson's psychosocial stage theory"
+                }
+              ]
+            },
+            {
+              "label": "Adverse Childhood Experiences (ACEs)",
+              "supplement": {
+                "id": "psy-supp-3-adverse-childhood-experiences-aces-53a0d587",
+                "name": "Adverse Childhood Experiences (ACEs)",
+                "definition": "Potentially traumatic childhood events associated with later psychological and physical health risk.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.6"
+              }
+            }
+          ]
+        },
+        "3.7": {
+          "label": "Classical Conditioning",
+          "node_count": 18,
+          "matched_count": 15,
+          "children": [
+            {
+              "label": "Phenomenon",
+              "children": [
+                {
+                  "label": "Generalization",
+                  "concept": "Generalization"
+                },
+                {
+                  "label": "Stimulus discrimination",
+                  "concept": "Discrimination (conditioning)"
+                },
+                {
+                  "label": "Higher-order learning",
+                  "concept": "Higher-order conditioning"
+                },
+                {
+                  "label": "One trial learning",
+                  "concept": "Taste aversion"
+                },
+                {
+                  "label": "Garcia‘s Aversion",
+                  "concept": "Garcia effect"
+                },
+                {
+                  "label": "Biological preparedness",
+                  "concept": "Biological preparedness"
+                },
+                {
+                  "label": "Habituation",
+                  "concept": "Habituation"
+                }
+              ]
+            },
+            {
+              "label": "Process",
+              "children": [
+                {
+                  "label": "Acquisition",
+                  "concept": "Acquisition"
+                },
+                {
+                  "label": "Extinction",
+                  "concept": "Extinction"
+                },
+                {
+                  "label": "Spontaneous recovery",
+                  "concept": "Spontaneous recovery"
+                }
+              ]
+            },
+            {
+              "label": "Factors",
+              "children": [
+                {
+                  "label": "Unconditioned stimulus (UCS)",
+                  "concept": "Unconditioned stimulus (US or UCS)"
+                },
+                {
+                  "label": "Unconditioned response (UCR)",
+                  "concept": "Unconditioned response (UR or UCR)"
+                },
+                {
+                  "label": "Neutral stimulus",
+                  "concept": "Neutral stimulus (NS)",
+                  "children": [
+                    {
+                      "label": "Conditioned stimulus (CS)",
+                      "concept": "Conditioned stimulus (CS)"
+                    }
+                  ]
+                },
+                {
+                  "label": "Conditioned response (CR)",
+                  "concept": "Conditioned response (CR)"
+                }
+              ]
+            }
+          ]
+        },
+        "3.8": {
+          "label": "Operant Conditioning",
+          "node_count": 28,
+          "matched_count": 21,
+          "children": [
+            {
+              "label": "Skinner",
+              "children": [
+                {
+                  "label": "Reinforcement",
+                  "concept": "Reinforcement",
+                  "children": [
+                    {
+                      "label": "Positive Reinforcement",
+                      "supplement": {
+                        "id": "psy-supp-3-positive-reinforcement-53109a3f",
+                        "name": "Positive Reinforcement",
+                        "definition": "Increasing a behavior by adding a desirable consequence after it occurs.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.8"
+                      }
+                    },
+                    {
+                      "label": "Negative Reinforcement",
+                      "supplement": {
+                        "id": "psy-supp-3-negative-reinforcement-c471c805",
+                        "name": "Negative Reinforcement",
+                        "definition": "Increasing a behavior by removing or avoiding an unpleasant consequence.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.8"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Punishment",
+                  "concept": "Punishment",
+                  "children": [
+                    {
+                      "label": "Positive Punishment",
+                      "supplement": {
+                        "id": "psy-supp-3-positive-punishment-49f95eb6",
+                        "name": "Positive Punishment",
+                        "definition": "Decreasing a behavior by adding an unpleasant consequence.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.8"
+                      }
+                    },
+                    {
+                      "label": "Negative Punishment",
+                      "supplement": {
+                        "id": "psy-supp-3-negative-punishment-f71d40a8",
+                        "name": "Negative Punishment",
+                        "definition": "Decreasing a behavior by removing a desirable consequence.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "3.8"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Schedules of Reinforcement",
+                  "children": [
+                    {
+                      "label": "Fifixed ratio",
+                      "concept": "Fixed-ratio (FR) schedule"
+                    },
+                    {
+                      "label": "Fifixed interval",
+                      "concept": "Fixed-interval (FI) schedule"
+                    },
+                    {
+                      "label": "Variable ratio",
+                      "concept": "Variable-ratio (VR) schedule"
+                    },
+                    {
+                      "label": "Variable interval",
+                      "concept": "Variable-interval (VI) schedule"
+                    }
+                  ]
+                },
+                {
+                  "label": "Phenomenon",
+                  "children": [
+                    {
+                      "label": "Superstitious Behavior",
+                      "children": [
+                        {
+                          "label": "Illusory correlation",
+                          "supplement": {
+                            "id": "psy-supp-3-illusory-correlation-f23d928f",
+                            "name": "Illusory correlation",
+                            "definition": "Perceiving a relationship between variables that does not exist or is weaker than believed.",
+                            "source": "ai_supplement",
+                            "review_status": "draft",
+                            "topic_code": "3.8"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Primary Reinforcers",
+                      "concept": "Primary reinforcers"
+                    },
+                    {
+                      "label": "Secondary Reinforcers",
+                      "concept": "Secondary reinforcers"
+                    },
+                    {
+                      "label": "Shaping",
+                      "concept": "Shaping"
+                    },
+                    {
+                      "label": "Instinctive drift",
+                      "concept": "Instinctive drift"
+                    }
+                  ]
+                },
+                {
+                  "label": "Process",
+                  "children": [
+                    {
+                      "label": "Acquisition",
+                      "concept": "Acquisition"
+                    },
+                    {
+                      "label": "Extinction",
+                      "concept": "Extinction"
+                    },
+                    {
+                      "label": "Spontaneous recovery",
+                      "concept": "Spontaneous recovery"
+                    },
+                    {
+                      "label": "Generalization",
+                      "concept": "Generalization"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Seligman",
+              "children": [
+                {
+                  "label": "Learned Helplessness",
+                  "supplement": {
+                    "id": "psy-supp-3-learned-helplessness-1970bca1",
+                    "name": "Learned Helplessness",
+                    "definition": "Passivity and reduced effort after repeated exposure to uncontrollable failure.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "3.8"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Thorndike",
+              "children": [
+                {
+                  "label": "Law of Effect",
+                  "concept": "Law of effect"
+                }
+              ]
+            }
+          ]
+        },
+        "3.9": {
+          "label": "Social, Cognitive, and Neurological Factors in Learning",
+          "node_count": 9,
+          "matched_count": 9,
+          "children": [
+            {
+              "label": "Latent Learning",
+              "concept": "Latent learning",
+              "children": [
+                {
+                  "label": "Cognitive Maps",
+                  "concept": "Cognitive map"
+                }
+              ]
+            },
+            {
+              "label": "Observational Learning",
+              "concept": "Observational learning",
+              "children": [
+                {
+                  "label": "Modeling",
+                  "concept": "Modeling"
+                },
+                {
+                  "label": "Mirror Neurons",
+                  "concept": "Mirror neurons"
+                },
+                {
+                  "label": "Vicarious Conditioning",
+                  "concept": "Vicarious conditioning"
+                }
+              ]
+            },
+            {
+              "label": "Insight Learning",
+              "concept": "Insight learning"
+            },
+            {
+              "label": "Cognitive Learning",
+              "concept": "Cognitive learning"
+            },
+            {
+              "label": "Self-Efficacy",
+              "supplement": {
+                "id": "psy-supp-3-self-efficacy-fc54bdb5",
+                "name": "Self-Efficacy",
+                "definition": "Belief in one's ability to succeed at a specific task or in a particular situation.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "3.9"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "4": {
+      "title": "Social Psychology and Personality",
+      "topics": {
+        "4.1": {
+          "label": "Attribution Theory and Person Perception",
+          "node_count": 25,
+          "matched_count": 19,
+          "children": [
+            {
+              "label": "Attribution",
+              "children": [
+                {
+                  "label": "Attributions",
+                  "supplement": {
+                    "id": "psy-supp-4-attributions-bb3727d5",
+                    "name": "Attributions",
+                    "definition": "Explanations people construct for the causes of events and behavior.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.1"
+                  }
+                },
+                {
+                  "label": "Rotter’s locus of control theory",
+                  "children": [
+                    {
+                      "label": "Internal",
+                      "concept": "Internal locus of control"
+                    },
+                    {
+                      "label": "External",
+                      "concept": "External locus of control"
+                    }
+                  ]
+                },
+                {
+                  "label": "Explanatory style",
+                  "concept": "Explanatory style",
+                  "children": [
+                    {
+                      "label": "Optimistic Explanatory Style",
+                      "supplement": {
+                        "id": "psy-supp-4-optimistic-explanatory-style-8ae603ed",
+                        "name": "Optimistic Explanatory Style",
+                        "definition": "Explaining negative events with external, temporary, and specific causes.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.1"
+                      }
+                    },
+                    {
+                      "label": "Pessimistic Explanatory Style",
+                      "supplement": {
+                        "id": "psy-supp-4-pessimistic-explanatory-style-e8573cf2",
+                        "name": "Pessimistic Explanatory Style",
+                        "definition": "Explaining negative events with internal, stable, and global causes.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Effects",
+                  "children": [
+                    {
+                      "label": "Mere-exposure effect",
+                      "concept": "Mere exposure effect"
+                    },
+                    {
+                      "label": "Self-fulfilling prophecy",
+                      "concept": "Self-fulfilling prophecy"
+                    }
+                  ]
+                },
+                {
+                  "label": "Social comparison",
+                  "children": [
+                    {
+                      "label": "Upward",
+                      "concept": "Upward social comparison"
+                    },
+                    {
+                      "label": "Downward",
+                      "concept": "Downward social comparison"
+                    },
+                    {
+                      "label": "Relative deprivation",
+                      "concept": "Relative deprivation theory"
+                    }
+                  ]
+                },
+                {
+                  "label": "Bias in Attribution",
+                  "children": [
+                    {
+                      "label": "Fundamental attribution error",
+                      "concept": "Fundamental attribution error"
+                    },
+                    {
+                      "label": "Defensive attribution",
+                      "children": [
+                        {
+                          "label": "Self-serving bias",
+                          "concept": "Self-serving bias"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Actor-observer bias",
+                      "concept": "Actor-observer bias"
+                    },
+                    {
+                      "label": "Culture and Attributional Tendencies",
+                      "supplement": {
+                        "id": "psy-supp-4-culture-and-attributional-tendencies-87f35993",
+                        "name": "Culture and Attributional Tendencies",
+                        "definition": "Cultural differences in attribution, such as individualistic cultures favoring dispositional explanations.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.1"
+                      }
+                    },
+                    {
+                      "label": "False consensus effect",
+                      "concept": "False-consensus effect"
+                    },
+                    {
+                      "label": "Just-world hypothesis",
+                      "concept": "Just-world phenomenon"
+                    },
+                    {
+                      "label": "Halo effect",
+                      "concept": "Halo effect"
+                    },
+                    {
+                      "label": "Self-fulfilling prophecy",
+                      "concept": "Self-fulfilling prophecy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "4.2": {
+          "label": "Attitude Formation and Attitude Change",
+          "node_count": 16,
+          "matched_count": 13,
+          "children": [
+            {
+              "label": "Attitude Formation",
+              "children": [
+                {
+                  "label": "Attitude",
+                  "concept": "Attitude"
+                },
+                {
+                  "label": "Implicit Attitude",
+                  "concept": "Implicit attitude"
+                }
+              ]
+            },
+            {
+              "label": "Attitude Change",
+              "children": [
+                {
+                  "label": "Cognitive Dissonance",
+                  "concept": "Cognitive dissonance theory"
+                },
+                {
+                  "label": "Persuasion",
+                  "concept": "Persuasion",
+                  "children": [
+                    {
+                      "label": "Central Route",
+                      "concept": "Central route to persuasion"
+                    },
+                    {
+                      "label": "Peripheral Route",
+                      "concept": "Peripheral route persuasion"
+                    }
+                  ]
+                },
+                {
+                  "label": "Elaboration Likelihood Model",
+                  "concept": "Elaboration likelihood model"
+                }
+              ]
+            },
+            {
+              "label": "Bias & Prejudice",
+              "children": [
+                {
+                  "label": "Stereotype / Prejudice / Discrimination",
+                  "supplement": {
+                    "id": "psy-supp-4-stereotype-prejudice-discrimination-41e9e873",
+                    "name": "Stereotypes, Prejudice & Discrimination",
+                    "definition": "Stereotypes are beliefs, prejudice is negative attitude, and discrimination is unequal behavior toward a group.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.2"
+                  }
+                },
+                {
+                  "label": "Just-World Phenomenon",
+                  "concept": "Just-world phenomenon"
+                },
+                {
+                  "label": "In-Group / Out-Group Bias",
+                  "concept": "In-group bias"
+                },
+                {
+                  "label": "Belief Perseverance",
+                  "supplement": {
+                    "id": "psy-supp-4-belief-perseverance-9e82f127",
+                    "name": "Belief Perseverance",
+                    "definition": "Clinging to a belief even after the evidence supporting it has been discredited.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.2"
+                  }
+                },
+                {
+                  "label": "Confirmation Bias",
+                  "supplement": {
+                    "id": "psy-supp-4-confirmation-bias-06332175",
+                    "name": "Confirmation Bias",
+                    "definition": "Seeking or interpreting information in ways that support existing beliefs.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.2"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Self-Fulfilling Prophecy",
+              "concept": "Self-fulfilling prophecy"
+            }
+          ]
+        },
+        "4.3": {
+          "label": "Psychology of Social Situations",
+          "node_count": 30,
+          "matched_count": 28,
+          "children": [
+            {
+              "label": "Psychology in Social Situations",
+              "children": [
+                {
+                  "label": "Groupthink",
+                  "concept": "Groupthink",
+                  "children": [
+                    {
+                      "label": "Group polarization",
+                      "concept": "Group polarization"
+                    }
+                  ]
+                },
+                {
+                  "label": "Social norm",
+                  "concept": "Norms"
+                },
+                {
+                  "label": "Bystander Effect",
+                  "concept": "Bystander effect",
+                  "children": [
+                    {
+                      "label": "Diffusion of responsibility",
+                      "concept": "Diffusion of responsibility"
+                    }
+                  ]
+                },
+                {
+                  "label": "Social influence theory",
+                  "concept": "Social influence theory",
+                  "children": [
+                    {
+                      "label": "Informational Social Influence",
+                      "supplement": {
+                        "id": "psy-supp-4-informational-social-influence-5db9f612",
+                        "name": "Informational Social Influence",
+                        "definition": "Conformity because one believes others have accurate information.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.3"
+                      }
+                    },
+                    {
+                      "label": "Normative Social Influence",
+                      "supplement": {
+                        "id": "psy-supp-4-normative-social-influence-f2f7ce8e",
+                        "name": "Normative Social Influence",
+                        "definition": "Conformity to gain social approval or avoid rejection.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Social loafing",
+                  "concept": "Social loafing"
+                },
+                {
+                  "label": "Persuade Model",
+                  "children": [
+                    {
+                      "label": "Elaboration likelihood model ELM",
+                      "concept": "Elaboration likelihood model"
+                    }
+                  ]
+                },
+                {
+                  "label": "Deindividuation",
+                  "concept": "Deindividuation"
+                },
+                {
+                  "label": "Social facilitation",
+                  "concept": "Social facilitation"
+                },
+                {
+                  "label": "Compliance",
+                  "supplement": {
+                    "id": "psy-supp-4-compliance-87f6138a",
+                    "name": "Compliance",
+                    "definition": "Changing behavior in response to a direct request, without necessarily changing private beliefs.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.3"
+                  }
+                },
+                {
+                  "label": "Social inhibition",
+                  "supplement": {
+                    "id": "psy-supp-4-social-inhibition-f61609a1",
+                    "name": "Social inhibition",
+                    "definition": "Reduced performance or expressiveness when others are present.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.3"
+                  }
+                },
+                {
+                  "label": "Conformity",
+                  "concept": "Conformity"
+                },
+                {
+                  "label": "False consensus effect",
+                  "concept": "False-consensus effect"
+                },
+                {
+                  "label": "Superordinate goals",
+                  "concept": "Superordinate goal"
+                },
+                {
+                  "label": "Obedience",
+                  "concept": "Obedience",
+                  "children": [
+                    {
+                      "label": "Milgram’s experiment",
+                      "supplement": {
+                        "id": "psy-supp-4-milgrams-experiment-679df6ed",
+                        "name": "Milgram's Experiment",
+                        "definition": "An obedience study in which participants followed authority instructions to administer apparently painful shocks.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Social traps",
+                  "concept": "Social trap",
+                  "children": [
+                    {
+                      "label": "Prisoner's Dilemma",
+                      "supplement": {
+                        "id": "psy-supp-4-prisoner-s-dilemma-4311272d",
+                        "name": "Prisoner's Dilemma",
+                        "definition": "A social trap in which individual self-interest produces a worse joint outcome.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Culture",
+                  "concept": "Culture",
+                  "children": [
+                    {
+                      "label": "Individualism",
+                      "concept": "Individualism"
+                    },
+                    {
+                      "label": "Collectivism",
+                      "concept": "Collectivism"
+                    },
+                    {
+                      "label": "Multiculturalism",
+                      "supplement": {
+                        "id": "psy-supp-4-multiculturalism-07de27a9",
+                        "name": "Multiculturalism",
+                        "definition": "Recognizing and maintaining multiple cultural identities within a society or person.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Altruism",
+                  "concept": "Altruism",
+                  "children": [
+                    {
+                      "label": "Social reciprocity norm",
+                      "concept": "Norms of reciprocity"
+                    },
+                    {
+                      "label": "Social responsibility norm",
+                      "concept": "Social responsibility norm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "4.4": {
+          "label": "Psychodynamic and Humanistic Theories of Personality",
+          "node_count": 27,
+          "matched_count": 24,
+          "children": [
+            {
+              "label": "Psychodynamic",
+              "concept": "Psychodynamic theories",
+              "children": [
+                {
+                  "label": "Freud's Structure of Personality",
+                  "concept": "Psychoanalysis (theory)",
+                  "children": [
+                    {
+                      "label": "Id",
+                      "concept": "Id"
+                    },
+                    {
+                      "label": "Ego",
+                      "concept": "Ego"
+                    },
+                    {
+                      "label": "Superego",
+                      "concept": "Superego"
+                    }
+                  ]
+                },
+                {
+                  "label": "Levels of Awareness",
+                  "children": [
+                    {
+                      "label": "Conscious",
+                      "supplement": {
+                        "id": "psy-supp-4-conscious-9310fd7d",
+                        "name": "Conscious",
+                        "definition": "The level of awareness that includes current thoughts, perceptions, and feelings.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.4"
+                      }
+                    },
+                    {
+                      "label": "Preconscious",
+                      "supplement": {
+                        "id": "psy-supp-4-preconscious-c3f076fe",
+                        "name": "Preconscious",
+                        "definition": "Information outside current awareness that can be brought into consciousness easily.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.4"
+                      }
+                    },
+                    {
+                      "label": "Unconscious",
+                      "concept": "Unconscious"
+                    }
+                  ]
+                },
+                {
+                  "label": "Anxiety & Defense Mechanisms",
+                  "concept": "Defense mechanisms",
+                  "children": [
+                    {
+                      "label": "Repression",
+                      "concept": "Repression"
+                    },
+                    {
+                      "label": "Projection",
+                      "concept": "Projection"
+                    },
+                    {
+                      "label": "Reaction Formation",
+                      "concept": "Reaction Formation"
+                    },
+                    {
+                      "label": "Rationalization",
+                      "concept": "Rationalization"
+                    },
+                    {
+                      "label": "Denial",
+                      "concept": "Denial"
+                    },
+                    {
+                      "label": "Displacement",
+                      "concept": "Displacement"
+                    },
+                    {
+                      "label": "Sublimation",
+                      "concept": "Sublimation"
+                    }
+                  ]
+                },
+                {
+                  "label": "Psychosexual Stages",
+                  "supplement": {
+                    "id": "psy-supp-4-psychosexual-stages-d71189aa",
+                    "name": "Psychosexual Stages",
+                    "definition": "Freud's oral, anal, phallic, latency, and genital stages of personality development.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.4"
+                  }
+                },
+                {
+                  "label": "Projective Tests",
+                  "concept": "Projective tests",
+                  "children": [
+                    {
+                      "label": "Rorschach Inkblot",
+                      "concept": "Rorschach inkblot test"
+                    },
+                    {
+                      "label": "Thematic Apperception Test (TAT)",
+                      "concept": "Thematic apperception test (TAT)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Humanistic",
+              "children": [
+                {
+                  "label": "Rogers's Person-Centered Theory",
+                  "children": [
+                    {
+                      "label": "Self-Concept",
+                      "concept": "Self-concept"
+                    },
+                    {
+                      "label": "Incongruence",
+                      "supplement": {
+                        "id": "psy-supp-4-incongruence-383cdbe8",
+                        "name": "Incongruence",
+                        "definition": "A mismatch between one's real self and ideal self, which Rogers saw as a source of distress.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.4"
+                      }
+                    },
+                    {
+                      "label": "Unconditional Positive Regard",
+                      "supplement": {
+                        "id": "psy-supp-4-unconditional-positive-regard-9b5d931e",
+                        "name": "Unconditional Positive Regard",
+                        "definition": "Acceptance and valuing of a person without conditions or contingencies.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Self-Actualization",
+                  "concept": "Self-actualization"
+                }
+              ]
+            }
+          ]
+        },
+        "4.5": {
+          "label": "Social-Cognitive and Trait Theories of Personality",
+          "node_count": 18,
+          "matched_count": 16,
+          "children": [
+            {
+              "label": "Bandura's Social-Cognitive Theory",
+              "children": [
+                {
+                  "label": "Observational Learning",
+                  "supplement": {
+                    "id": "psy-supp-4-observational-learning-c52da0cf",
+                    "name": "Observational Learning",
+                    "definition": "Learning by watching the behavior and consequences of models.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.5"
+                  }
+                },
+                {
+                  "label": "Reciprocal Determinism",
+                  "concept": "Reciprocal determinism"
+                },
+                {
+                  "label": "Self-Efficacy",
+                  "concept": "Self-efficacy"
+                },
+                {
+                  "label": "Self-Esteem",
+                  "concept": "Self-esteem"
+                }
+              ]
+            },
+            {
+              "label": "Locus of Control",
+              "concept": "Locus of control",
+              "children": [
+                {
+                  "label": "Internal Locus of Control",
+                  "concept": "Internal locus of control"
+                },
+                {
+                  "label": "External Locus of Control",
+                  "concept": "External locus of control"
+                }
+              ]
+            },
+            {
+              "label": "Trait Theories",
+              "children": [
+                {
+                  "label": "Factor Analysis",
+                  "supplement": {
+                    "id": "psy-supp-4-factor-analysis-ee07b396",
+                    "name": "Factor Analysis",
+                    "definition": "A statistical method for identifying clusters of items or traits that correlate.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.5"
+                  }
+                },
+                {
+                  "label": "Big Five",
+                  "concept": "Big Five personality traits",
+                  "children": [
+                    {
+                      "label": "Openness",
+                      "supplement": {
+                        "id": "psy-supp-4-openness-c6a1332d",
+                        "name": "Openness",
+                        "definition": "Big Five trait reflecting imagination, curiosity, and openness to new experience.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.5"
+                      }
+                    },
+                    {
+                      "label": "Conscientiousness",
+                      "supplement": {
+                        "id": "psy-supp-4-conscientiousness-7ddbff5c",
+                        "name": "Conscientiousness",
+                        "definition": "Big Five trait reflecting organization, responsibility, and self-discipline.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.5"
+                      }
+                    },
+                    {
+                      "label": "Extraversion",
+                      "supplement": {
+                        "id": "psy-supp-4-extraversion-d9a96e50",
+                        "name": "Extraversion",
+                        "definition": "Big Five trait reflecting sociability, assertiveness, and positive emotionality.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.5"
+                      }
+                    },
+                    {
+                      "label": "Agreeableness",
+                      "supplement": {
+                        "id": "psy-supp-4-agreeableness-71d36fba",
+                        "name": "Agreeableness",
+                        "definition": "Big Five trait reflecting cooperation, trust, and concern for others.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.5"
+                      }
+                    },
+                    {
+                      "label": "Neuroticism",
+                      "supplement": {
+                        "id": "psy-supp-4-neuroticism-23470db9",
+                        "name": "Neuroticism",
+                        "definition": "Big Five trait reflecting emotional instability and proneness to negative affect.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Personality Inventories",
+                  "concept": "Personality inventories"
+                }
+              ]
+            },
+            {
+              "label": "Person-Situation Controversy",
+              "supplement": {
+                "id": "psy-supp-4-person-situation-controversy-fb47377f",
+                "name": "Person-Situation Controversy",
+                "definition": "The debate over whether personality traits or situational factors better predict behavior.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "4.5"
+              }
+            }
+          ]
+        },
+        "4.6": {
+          "label": "Motivation",
+          "node_count": 22,
+          "matched_count": 19,
+          "children": [
+            {
+              "label": "Lewin's conflict theory",
+              "children": [
+                {
+                  "label": "Approach-approach",
+                  "supplement": {
+                    "id": "psy-supp-4-approach-approach-453c7cc9",
+                    "name": "Approach-Approach",
+                    "definition": "A conflict between two desirable options.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                },
+                {
+                  "label": "Avoidance-avoidance",
+                  "supplement": {
+                    "id": "psy-supp-4-avoidance-avoidance-98c1926a",
+                    "name": "Avoidance-Avoidance",
+                    "definition": "A conflict between two undesirable options.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                },
+                {
+                  "label": "Avoidance-approach",
+                  "supplement": {
+                    "id": "psy-supp-4-avoidance-approach-0b50a594",
+                    "name": "Avoidance-Approach",
+                    "definition": "A conflict involving a single option with both desirable and undesirable features.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Drive reduction theory",
+              "concept": "Drive reduction theory",
+              "children": [
+                {
+                  "label": "Drive",
+                  "concept": "Drive"
+                },
+                {
+                  "label": "Need",
+                  "concept": "Need"
+                },
+                {
+                  "label": "Homeostasis",
+                  "concept": "Homeostasis"
+                }
+              ]
+            },
+            {
+              "label": "Arousal theory",
+              "concept": "Arousal theory",
+              "children": [
+                {
+                  "label": "Yerkes-Dodson Law",
+                  "concept": "Yerkes-Dodson law"
+                }
+              ]
+            },
+            {
+              "label": "Sensation-seeking theory",
+              "children": [
+                {
+                  "label": "Thrill and Adventure Seeking (TAS)",
+                  "supplement": {
+                    "id": "psy-supp-4-thrill-and-adventure-seeking-tas-cb0af489",
+                    "name": "Thrill and Adventure Seeking (TAS)",
+                    "definition": "Sensation-seeking facet involving attraction to risky, exciting activities.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                },
+                {
+                  "label": "Experience Seeking (ES)",
+                  "supplement": {
+                    "id": "psy-supp-4-experience-seeking-es-4c2e776f",
+                    "name": "Experience Seeking (ES)",
+                    "definition": "Sensation-seeking facet involving novelty and unconventional experiences.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                },
+                {
+                  "label": "Disinhibition (DS)",
+                  "supplement": {
+                    "id": "psy-supp-4-disinhibition-ds-5baac3de",
+                    "name": "Disinhibition (DS)",
+                    "definition": "Sensation-seeking facet involving reduced restraint and enjoyment of losing inhibitions.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                },
+                {
+                  "label": "Boredom Susceptibility (BS)",
+                  "supplement": {
+                    "id": "psy-supp-4-boredom-susceptibility-bs-b2d93b51",
+                    "name": "Boredom Susceptibility (BS)",
+                    "definition": "Sensation-seeking facet involving intolerance of repetitive or boring situations.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.6"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Self-determination theory",
+              "concept": "Self-determination theory",
+              "children": [
+                {
+                  "label": "Intrinsic Motivation",
+                  "concept": "Intrinsic motivation"
+                },
+                {
+                  "label": "Extrinsic motivation",
+                  "concept": "Extrinsic motivation"
+                }
+              ]
+            },
+            {
+              "label": "Incentive theories",
+              "supplement": {
+                "id": "psy-supp-4-incentive-theories-ee02bb2c",
+                "name": "Incentive theories",
+                "definition": "Theories that motivation is driven by external rewards, punishments, and incentives.",
+                "source": "ai_supplement",
+                "review_status": "draft",
+                "topic_code": "4.6"
+              }
+            },
+            {
+              "label": "Eating",
+              "children": [
+                {
+                  "label": "Ghrelin",
+                  "concept": "Ghrelin"
+                },
+                {
+                  "label": "Leptin",
+                  "concept": "Leptin"
+                }
+              ]
+            }
+          ]
+        },
+        "4.7": {
+          "label": "Emotion",
+          "node_count": 14,
+          "matched_count": 11,
+          "children": [
+            {
+              "label": "Physiological",
+              "children": [
+                {
+                  "label": "Amygdala",
+                  "supplement": {
+                    "id": "psy-supp-4-amygdala-98dcf63d",
+                    "name": "Amygdala",
+                    "definition": "A limbic-system structure involved in emotion, especially fear learning and emotional salience.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.7"
+                  }
+                },
+                {
+                  "label": "ANS",
+                  "children": [
+                    {
+                      "label": "Sympathetic nervous system",
+                      "supplement": {
+                        "id": "psy-supp-4-sympathetic-nervous-system-9d29c060",
+                        "name": "Sympathetic nervous system",
+                        "definition": "The branch of the autonomic nervous system that prepares the body for fight-or-flight.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.7"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Display rule",
+              "concept": "Display rules"
+            },
+            {
+              "label": "Theories",
+              "children": [
+                {
+                  "label": "James–Lange Theory",
+                  "concept": "James-Lange theory"
+                },
+                {
+                  "label": "Cannon–Bard Theory",
+                  "concept": "Cannon-Bard theory"
+                },
+                {
+                  "label": "Schachter two-factor theory",
+                  "supplement": {
+                    "id": "psy-supp-4-schachter-two-factor-theory-595fda1f",
+                    "name": "Schachter Two-Factor Theory",
+                    "definition": "Emotion results from physiological arousal plus a cognitive label for that arousal.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.7"
+                  }
+                },
+                {
+                  "label": "Richard Lazarus’s appraisal theory",
+                  "supplement": {
+                    "id": "psy-supp-4-richard-lazaruss-appraisal-theory-739e2df0",
+                    "name": "Lazarus's Appraisal Theory",
+                    "definition": "Emotion depends on cognitive appraisal of an event's meaning and significance.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.7"
+                  }
+                },
+                {
+                  "label": "Facial feedback hypothesis",
+                  "concept": "Facial feedback hypothesis"
+                },
+                {
+                  "label": "Broaden-and-build theory",
+                  "concept": "Broaden-and-build theory",
+                  "children": [
+                    {
+                      "label": "Positive and Negative Emotions",
+                      "supplement": {
+                        "id": "psy-supp-4-positive-and-negative-emotions-c54f5283",
+                        "name": "Positive and Negative Emotions",
+                        "definition": "Positive emotions tend to broaden thinking and build resources; negative emotions tend to narrow attention and support specific responses.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "4.7"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Universal/Evolutionary Theories of Emotion",
+                  "supplement": {
+                    "id": "psy-supp-4-universal-evolutionary-theories-of-emoti-bcd32670",
+                    "name": "Universal/Evolutionary Theories of Emotion",
+                    "definition": "The view that certain basic emotions are innate and universally recognizable because they had adaptive value.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "4.7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "5": {
+      "title": "Mental and Physical Health",
+      "topics": {
+        "5.1": {
+          "label": "Introduction to Health Psychology",
+          "node_count": 12,
+          "matched_count": 11,
+          "children": [
+            {
+              "label": "Stress & Health",
+              "concept": "Stress",
+              "children": [
+                {
+                  "label": "Tend-and-befriend theory",
+                  "concept": "Tend-and-befriend theory"
+                },
+                {
+                  "label": "Stressor",
+                  "children": [
+                    {
+                      "label": "Eustress",
+                      "supplement": {
+                        "id": "psy-supp-5-eustress-a0157083",
+                        "name": "Eustress",
+                        "definition": "Positive or motivating stress that can improve performance and growth.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.1"
+                      }
+                    },
+                    {
+                      "label": "Distress",
+                      "supplement": {
+                        "id": "psy-supp-5-distress-17b2f8a1",
+                        "name": "Distress",
+                        "definition": "Negative stress that feels overwhelming and can impair health and performance.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Coping",
+                  "concept": "Coping",
+                  "children": [
+                    {
+                      "label": "Emotion-focused coping",
+                      "concept": "Emotion-focused coping"
+                    },
+                    {
+                      "label": "Problem-focused coping",
+                      "concept": "Problem-focused coping"
+                    }
+                  ]
+                },
+                {
+                  "label": "General Adaptation Syndrome (GAS)",
+                  "concept": "General adaptation syndrome (GAS)",
+                  "children": [
+                    {
+                      "label": "Alarm Reaction",
+                      "supplement": {
+                        "id": "psy-supp-5-alarm-reaction-5eee63e6",
+                        "name": "Alarm Reaction",
+                        "definition": "The first stage of the general adaptation syndrome, when the body mobilizes resources to meet a stressor.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.1"
+                      }
+                    },
+                    {
+                      "label": "Resistance",
+                      "concept": "Resistance"
+                    },
+                    {
+                      "label": "Exhaustion",
+                      "concept": "Exhaustion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "5.2": {
+          "label": "Positive Psychology",
+          "node_count": 7,
+          "matched_count": 7,
+          "children": [
+            {
+              "label": "Positive Psychology",
+              "concept": "Positive psychology"
+            },
+            {
+              "label": "Subjective Well-Being",
+              "concept": "Subjective well-being"
+            },
+            {
+              "label": "Character Strengths",
+              "concept": "Character strengths"
+            },
+            {
+              "label": "Gratitude",
+              "concept": "Gratitude"
+            },
+            {
+              "label": "Post-Traumatic Growth",
+              "concept": "Post-traumatic growth"
+            },
+            {
+              "label": "Mindfulness",
+              "concept": "Mindfulness meditation"
+            },
+            {
+              "label": "Well-Being",
+              "concept": "Well-being"
+            }
+          ]
+        },
+        "5.3": {
+          "label": "Explaining and Classifying Psychological Disorders",
+          "node_count": 16,
+          "matched_count": 13,
+          "children": [
+            {
+              "label": "Defining Abnormality",
+              "children": [
+                {
+                  "label": "Deviance",
+                  "supplement": {
+                    "id": "psy-supp-5-deviance-90ede5a9",
+                    "name": "Deviance",
+                    "definition": "Behavior that violates social norms or expectations and is one criterion of abnormality.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                },
+                {
+                  "label": "Personal Distress",
+                  "supplement": {
+                    "id": "psy-supp-5-personal-distress-f1e85c3d",
+                    "name": "Personal Distress",
+                    "definition": "Subjective suffering or impairment that is one criterion of abnormal behavior.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                },
+                {
+                  "label": "Maladaptive Behavior",
+                  "supplement": {
+                    "id": "psy-supp-5-maladaptive-behavior-731c1865",
+                    "name": "Maladaptive Behavior",
+                    "definition": "Behavior that interferes with everyday functioning and well-being.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Diagnosis",
+              "concept": "Diagnostic and Statistical Manual of Mental Disorders (DSM)",
+              "children": [
+                {
+                  "label": "DSM-5-TR",
+                  "concept": "DSM-5-TR"
+                },
+                {
+                  "label": "Diathesis-Stress Model",
+                  "concept": "Diathesis-stress model"
+                }
+              ]
+            },
+            {
+              "label": "Theoretical Approaches",
+              "children": [
+                {
+                  "label": "Psychodynamic",
+                  "concept": "Psychodynamic therapy"
+                },
+                {
+                  "label": "Humanistic",
+                  "concept": "Humanistic therapies"
+                },
+                {
+                  "label": "Cognitive",
+                  "concept": "Cognitive therapy"
+                },
+                {
+                  "label": "Evolutionary Perspective",
+                  "supplement": {
+                    "id": "psy-supp-5-evolutionary-perspective-b86d9e80",
+                    "name": "Evolutionary Perspective",
+                    "definition": "Explaining behavior through the adaptive value of traits selected over evolutionary history.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                },
+                {
+                  "label": "Sociocultural Perspective",
+                  "supplement": {
+                    "id": "psy-supp-5-sociocultural-perspective-8b09a63f",
+                    "name": "Sociocultural Perspective",
+                    "definition": "Explaining behavior through social and cultural context, norms, and group membership.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                },
+                {
+                  "label": "Biological Perspective",
+                  "supplement": {
+                    "id": "psy-supp-5-biological-perspective-ee678b5f",
+                    "name": "Biological Perspective",
+                    "definition": "Explaining behavior through genetics, brain structure, neurotransmitters, and physiology.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Classification",
+              "children": [
+                {
+                  "label": "Categories of Disorders",
+                  "supplement": {
+                    "id": "psy-supp-5-categories-of-disorders-7557b4c6",
+                    "name": "Categories of Disorders",
+                    "definition": "DSM categories group disorders by shared symptoms, course, and clinical features.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.3"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "5.4": {
+          "label": "Selection of Categories of Psychological Disorders",
+          "node_count": 55,
+          "matched_count": 49,
+          "children": [
+            {
+              "label": "Schizophrenia Spectrum",
+              "concept": "Schizophrenia spectrum disorders",
+              "children": [
+                {
+                  "label": "Schizophrenia",
+                  "concept": "Schizophrenia"
+                },
+                {
+                  "label": "Delusions",
+                  "concept": "Delusions"
+                },
+                {
+                  "label": "Hallucinations",
+                  "concept": "Hallucinations"
+                },
+                {
+                  "label": "Positive Symptoms",
+                  "concept": "Positive symptoms"
+                },
+                {
+                  "label": "Negative Symptoms",
+                  "concept": "Negative symptoms"
+                },
+                {
+                  "label": "Etiology",
+                  "children": [
+                    {
+                      "label": "Genetic Vulnerability",
+                      "supplement": {
+                        "id": "psy-supp-5-genetic-vulnerability-69b593d7",
+                        "name": "Genetic Vulnerability",
+                        "definition": "Inherited predisposition that increases risk for a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Neurochemical Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-neurochemical-factors-ae5a6aac",
+                        "name": "Neurochemical Factors",
+                        "definition": "Differences in neurotransmitter activity or brain chemistry associated with a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Neurodevelopmental Hypothesis",
+                      "supplement": {
+                        "id": "psy-supp-5-neurodevelopmental-hypothesis-57e0224f",
+                        "name": "Neurodevelopmental Hypothesis",
+                        "definition": "The idea that schizophrenia results in part from disrupted brain development early in life.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Expressed Emotion",
+                      "supplement": {
+                        "id": "psy-supp-5-expressed-emotion-18586a0b",
+                        "name": "Expressed Emotion",
+                        "definition": "Family criticism, hostility, or emotional overinvolvement associated with relapse risk.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Mood Disorders",
+              "children": [
+                {
+                  "label": "Major Depressive Disorder",
+                  "concept": "Major depressive disorder"
+                },
+                {
+                  "label": "Persistent Depressive Disorder",
+                  "concept": "Persistent depressive disorder"
+                },
+                {
+                  "label": "Bipolar I Disorder",
+                  "concept": "Bipolar I disorder"
+                },
+                {
+                  "label": "Bipolar II Disorder",
+                  "concept": "Bipolar II disorder"
+                },
+                {
+                  "label": "Mania",
+                  "concept": "Mania"
+                },
+                {
+                  "label": "Hypomania",
+                  "concept": "Hypomania"
+                },
+                {
+                  "label": "Etiology",
+                  "children": [
+                    {
+                      "label": "Genetic Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-genetic-factors-d3c4bf8b",
+                        "name": "Genetic Factors",
+                        "definition": "Inherited influences that contribute to risk for a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Neurochemical Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-neurochemical-factors-ae5a6aac",
+                        "name": "Neurochemical Factors",
+                        "definition": "Differences in neurotransmitter activity or brain chemistry associated with a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Cognitive Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-cognitive-factors-c5d8994f",
+                        "name": "Cognitive Factors",
+                        "definition": "Maladaptive beliefs, appraisals, and thinking patterns that contribute to a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Anxiety Disorders",
+              "concept": "Anxiety disorders",
+              "children": [
+                {
+                  "label": "Generalized Anxiety Disorder (GAD)",
+                  "concept": "Generalized anxiety disorder (GAD)"
+                },
+                {
+                  "label": "Panic Disorder",
+                  "concept": "Panic disorder"
+                },
+                {
+                  "label": "Specific Phobia",
+                  "concept": "Specific phobia"
+                },
+                {
+                  "label": "Social Anxiety Disorder",
+                  "concept": "Social anxiety disorder"
+                },
+                {
+                  "label": "Agoraphobia",
+                  "concept": "Agoraphobia"
+                },
+                {
+                  "label": "Etiology",
+                  "children": [
+                    {
+                      "label": "Biological Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-biological-factors-2f082d24",
+                        "name": "Biological Factors",
+                        "definition": "Genetic, neurological, or physiological influences on a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Conditioning & Learning",
+                      "supplement": {
+                        "id": "psy-supp-5-conditioning-learning-2690eb82",
+                        "name": "Conditioning & Learning",
+                        "definition": "Classical and operant learning processes that can create or maintain fear and avoidance.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Cognitive Factors",
+                      "supplement": {
+                        "id": "psy-supp-5-cognitive-factors-c5d8994f",
+                        "name": "Cognitive Factors",
+                        "definition": "Maladaptive beliefs, appraisals, and thinking patterns that contribute to a disorder.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    },
+                    {
+                      "label": "Stress",
+                      "supplement": {
+                        "id": "psy-supp-5-stress-c04f4bc4",
+                        "name": "Stress",
+                        "definition": "Psychological and physiological strain produced by demanding or threatening events.",
+                        "source": "ai_supplement",
+                        "review_status": "draft",
+                        "topic_code": "5.4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Obsessive-Compulsive Disorder (OCD)",
+              "concept": "Obsessive-compulsive disorder (OCD)",
+              "children": [
+                {
+                  "label": "Obsessions",
+                  "supplement": {
+                    "id": "psy-supp-5-obsessions-ee8fc9f6",
+                    "name": "Obsessions",
+                    "definition": "Intrusive, unwanted thoughts, images, or urges that cause distress.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.4"
+                  }
+                },
+                {
+                  "label": "Compulsions",
+                  "supplement": {
+                    "id": "psy-supp-5-compulsions-4811af81",
+                    "name": "Compulsions",
+                    "definition": "Repetitive behaviors or mental acts performed to reduce distress or prevent a feared outcome.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.4"
+                  }
+                },
+                {
+                  "label": "Hoarding Disorder",
+                  "concept": "Hoarding disorder"
+                }
+              ]
+            },
+            {
+              "label": "Dissociative Disorders",
+              "concept": "Dissociative disorders",
+              "children": [
+                {
+                  "label": "Dissociative Amnesia",
+                  "concept": "Dissociative amnesia"
+                },
+                {
+                  "label": "Dissociative Fugue",
+                  "supplement": {
+                    "id": "psy-supp-5-dissociative-fugue-8e32321d",
+                    "name": "Dissociative Fugue",
+                    "definition": "Sudden travel away from home with confusion about identity, often following stress or trauma.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.4"
+                  }
+                },
+                {
+                  "label": "Dissociative Identity Disorder (DID)",
+                  "concept": "Dissociative identity disorder (DID)"
+                }
+              ]
+            },
+            {
+              "label": "Post-Traumatic Stress Disorder (PTSD)",
+              "concept": "Post-traumatic stress disorder (PTSD)"
+            },
+            {
+              "label": "Eating Disorders",
+              "children": [
+                {
+                  "label": "Anorexia Nervosa",
+                  "concept": "Anorexia nervosa"
+                },
+                {
+                  "label": "Bulimia Nervosa",
+                  "concept": "Bulimia"
+                },
+                {
+                  "label": "Binge-Eating Disorder",
+                  "concept": "Binge-eating disorder"
+                },
+                {
+                  "label": "Etiology",
+                  "supplement": {
+                    "id": "psy-supp-5-etiology-ce7cc451",
+                    "name": "Etiology",
+                    "definition": "The causes and maintaining factors that explain how a disorder develops.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.4"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Personality Disorders",
+              "children": [
+                {
+                  "label": "Antisocial Personality Disorder",
+                  "concept": "Antisocial personality disorder"
+                },
+                {
+                  "label": "Borderline Personality Disorder",
+                  "concept": "Borderline personality disorder"
+                },
+                {
+                  "label": "Narcissistic Personality Disorder",
+                  "concept": "Narcissistic personality disorder"
+                },
+                {
+                  "label": "Histrionic Personality Disorder",
+                  "supplement": {
+                    "id": "psy-supp-5-histrionic-personality-disorder-5864ddd9",
+                    "name": "Histrionic Personality Disorder",
+                    "definition": "A personality disorder marked by attention-seeking, dramatic behavior, and shallow emotions.",
+                    "source": "ai_supplement",
+                    "review_status": "draft",
+                    "topic_code": "5.4"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Neurodevelopmental Disorders",
+              "concept": "Neurodevelopmental disorders",
+              "children": [
+                {
+                  "label": "ADHD",
+                  "concept": "Attention-deficit/hyperactivity disorder (ADHD)"
+                },
+                {
+                  "label": "Autism Spectrum Disorder",
+                  "concept": "Autism spectrum disorder"
+                }
+              ]
+            }
+          ]
+        },
+        "5.5": {
+          "label": "Treatment of Psychological Disorders",
+          "node_count": 27,
+          "matched_count": 26,
+          "children": [
+            {
+              "label": "Insight Therapies",
+              "concept": "Insight therapies",
+              "children": [
+                {
+                  "label": "Psychoanalysis",
+                  "concept": "Psychoanalysis (therapy)",
+                  "children": [
+                    {
+                      "label": "Free Association",
+                      "concept": "Free association"
+                    },
+                    {
+                      "label": "Interpretation",
+                      "concept": "Interpretation"
+                    },
+                    {
+                      "label": "Resistance",
+                      "concept": "Resistance"
+                    },
+                    {
+                      "label": "Transference",
+                      "concept": "Transference"
+                    }
+                  ]
+                },
+                {
+                  "label": "Humanistic Therapy",
+                  "concept": "Humanistic therapies",
+                  "children": [
+                    {
+                      "label": "Person-Centered Therapy",
+                      "concept": "Person-centered therapy"
+                    },
+                    {
+                      "label": "Active Listening",
+                      "concept": "Active listening"
+                    },
+                    {
+                      "label": "Unconditional Positive Regard",
+                      "concept": "Unconditional positive regard"
+                    }
+                  ]
+                },
+                {
+                  "label": "Group Therapy",
+                  "concept": "Group therapy"
+                },
+                {
+                  "label": "Family Therapy",
+                  "concept": "Family therapy"
+                }
+              ]
+            },
+            {
+              "label": "Behavior Therapies",
+              "concept": "Behavior therapy",
+              "children": [
+                {
+                  "label": "Systematic Desensitization",
+                  "concept": "Systematic desensitization"
+                },
+                {
+                  "label": "Exposure Therapies",
+                  "concept": "Exposure therapies"
+                },
+                {
+                  "label": "Aversion Therapy",
+                  "concept": "Aversive therapy"
+                },
+                {
+                  "label": "Token Economy",
+                  "concept": "Token economy"
+                }
+              ]
+            },
+            {
+              "label": "Cognitive Therapies",
+              "children": [
+                {
+                  "label": "Cognitive Therapy",
+                  "concept": "Cognitive therapy"
+                },
+                {
+                  "label": "Rational-Emotive Behavior Therapy (REBT)",
+                  "concept": "Rational emotive behavior therapy (REBT)"
+                },
+                {
+                  "label": "Cognitive Behavioral Therapy (CBT)",
+                  "concept": "Cognitive behavioral therapy (CBT)"
+                }
+              ]
+            },
+            {
+              "label": "Biomedical Therapies",
+              "concept": "Biomedical model",
+              "children": [
+                {
+                  "label": "Antipsychotic Drugs",
+                  "concept": "Antipsychotic drugs"
+                },
+                {
+                  "label": "Antidepressant Drugs",
+                  "concept": "Antidepressant drugs"
+                },
+                {
+                  "label": "Antianxiety Drugs",
+                  "concept": "Antianxiety drugs"
+                },
+                {
+                  "label": "Electroconvulsive Therapy (ECT)",
+                  "concept": "Electroconvulsive therapy (ECT)"
+                }
+              ]
+            },
+            {
+              "label": "Eclectic Therapy",
+              "concept": "Eclectic therapy"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

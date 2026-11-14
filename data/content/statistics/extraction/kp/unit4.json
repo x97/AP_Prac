@@ -1,0 +1,226 @@
+[
+ {
+  "section_id": "statistics-barrons-2027-u4-s01",
+  "name": "Sampling distribution of the sample mean",
+  "page": 383,
+  "definition_type": "explicit",
+  "quote": "If the population is approximately normal, or if the sample size is large enough (at least 30) for the central limit theorem to apply, we also have that the set of sample means is approximately normally distributed.",
+  "plain_en": "distribution of sample means over repeated samples"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s01",
+  "name": "Mean of the sampling distribution of the sample mean",
+  "page": 383,
+  "definition_type": "explicit",
+  "quote": "The mean of the set of sample means equals",
+  "plain_en": "sample means average to population mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s01",
+  "name": "Standard deviation of the sampling distribution of the sample mean",
+  "page": 383,
+  "definition_type": "explicit",
+  "quote": "The standard deviation of the set of sample means is approximately equal to",
+  "plain_en": "population SD divided by square root n"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s01",
+  "name": "Normality condition for means",
+  "page": 383,
+  "definition_type": "explicit",
+  "quote": "The normality condition: Either the population distribution should be approximately normal or the sample size n should be ≥ 30, or if n < 30, the sample data should be free from strong skewness and outliers.",
+  "plain_en": "normal population or large sample or symmetric data"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s03",
+  "name": "t-distribution",
+  "page": 390,
+  "definition_type": "explicit",
+  "quote": "with a resulting t-distribution that is bell-shaped and symmetric but lower at the mean, higher at the tails, and so more spread out than the normal distribution.",
+  "plain_en": "bell-shaped distribution with heavier tails"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s03",
+  "name": "Degrees of freedom",
+  "page": 390,
+  "definition_type": "explicit",
+  "quote": "In the tables, these distinct t-distributions are associated with the values for degrees of freedom (df). For this discussion, the df value is equal to the sample size minus 1.",
+  "plain_en": "sample size minus one for one-sample t"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s03",
+  "name": "When to use the t-distribution",
+  "page": 390,
+  "definition_type": "explicit",
+  "quote": "Thus, the t-distribution is the proper choice whenever the population standard deviation σ is unknown.",
+  "plain_en": "use t when population SD is unknown"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s04",
+  "name": "Critical value t*",
+  "page": 391,
+  "definition_type": "explicit",
+  "quote": "where the critical value, t*, depends on the chosen confidence level and on the degrees of freedom, df = n – 1.",
+  "plain_en": "t multiplier for confidence level and df"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s04",
+  "name": "One-sample t-interval for a population mean",
+  "page": 391,
+  "definition_type": "implicit",
+  "quote": "Naming the procedure is easiest done by simply stating “one-sample t-interval for a population mean.”",
+  "plain_en": "confidence interval for one mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s04",
+  "name": "One-sample t-interval for a population mean difference",
+  "page": 396,
+  "definition_type": "explicit",
+  "quote": "For this matched pairs design, the procedure is called a “one-sample t-interval for a population mean difference.”",
+  "plain_en": "interval for mean of paired differences"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s06",
+  "name": "One-sample t-test for a population mean",
+  "page": 406,
+  "definition_type": "explicit",
+  "quote": "Procedure: A one-sample t-test for a population mean (population SD is unknown)",
+  "plain_en": "hypothesis test for one mean"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s06",
+  "name": "One-sample t-test for a population mean difference",
+  "page": 410,
+  "definition_type": "explicit",
+  "quote": "Procedure: A one-sample t-test for a population mean difference (the mean difference of reaction times, before minus after)",
+  "plain_en": "hypothesis test for paired differences"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s08",
+  "name": "Mean of the difference in sample means",
+  "page": 419,
+  "definition_type": "explicit",
+  "quote": "The mean of the set of differences of sample means equals the difference of population means.",
+  "plain_en": "difference averages to population difference"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s08",
+  "name": "Standard deviation of the difference in sample means",
+  "page": 419,
+  "definition_type": "explicit",
+  "quote": "The standard deviation of the set of differences of sample means is approximately equal to",
+  "plain_en": "spread of difference between sample means"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s08",
+  "name": "Normality of the difference in sample means",
+  "page": 419,
+  "definition_type": "explicit",
+  "quote": "If the populations are normal or if the sample sizes are large enough (at least 30) for the central limit theorem to apply, we also have that the set of all differences of sample means is approximately normally distributed.",
+  "plain_en": "difference of means is approximately normal"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s09",
+  "name": "Two-sample t-interval for a difference of means",
+  "page": 421,
+  "definition_type": "implicit",
+  "quote": "The confidence interval takes the following form:",
+  "plain_en": "interval estimate for difference of two means"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s10",
+  "name": "Null hypothesis for two means",
+  "page": 423,
+  "definition_type": "explicit",
+  "quote": "The null hypothesis is usually that the means of the populations are the same or, equivalently, that their difference is 0:",
+  "plain_en": "hypothesis that two population means are equal"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s10",
+  "name": "Alternative hypothesis for two means",
+  "page": 423,
+  "definition_type": "explicit",
+  "quote": "The alternative hypothesis is then:",
+  "plain_en": "hypothesis that the two means differ"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s10",
+  "name": "Two-sample t-test for a difference of means",
+  "page": 427,
+  "definition_type": "explicit",
+  "quote": "Procedure: A two-sample t-test for the difference of two population means",
+  "plain_en": "hypothesis test comparing two means"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s10",
+  "name": "No pooling in a two-sample t-test",
+  "page": 428,
+  "definition_type": "explicit",
+  "quote": "You should not pool in a two-sample t-test like we did in a two- proportion z- test.",
+  "plain_en": "do not pool standard deviations for two means"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s12",
+  "name": "Simulation p-value",
+  "page": 432,
+  "definition_type": "explicit",
+  "quote": "We can use a simulation to determine what values of a test statistic are likely to occur by random chance alone, assuming the null hypothesis is true. Then looking at where our test statistic falls, we can estimate a p-value.",
+  "plain_en": "estimate p-value from simulated statistics"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s14",
+  "name": "Power given a specific alternative",
+  "page": 441,
+  "definition_type": "explicit",
+  "quote": "Given a specific alternative hypothesis, a Type II error is a mistaken failure to reject the false null hypothesis, while the power is the probability of rejecting that false null hypothesis.",
+  "plain_en": "probability of rejecting a false null"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s14",
+  "name": "Factors that increase power",
+  "page": 442,
+  "definition_type": "explicit",
+  "quote": "A general conclusion is that if the other three values below are unchanged, the power will increase (and the probability of a Type II error will decrease) if any of the following occur:",
+  "plain_en": "power rises with alpha, n, effect, lower SE"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s14",
+  "name": "Effect size",
+  "page": 442,
+  "definition_type": "explicit",
+  "quote": "The difference between p0 and p is sometimes called the effect—thus the greater the effect, the greater is the power.",
+  "plain_en": "distance between null and true parameter"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s16",
+  "name": "Choosing a confidence interval",
+  "page": 447,
+  "definition_type": "explicit",
+  "quote": "An estimate of an unknown population parameter indicates a confidence interval.",
+  "plain_en": "estimate requested means use interval"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s16",
+  "name": "Choosing a hypothesis test",
+  "page": 447,
+  "definition_type": "explicit",
+  "quote": "A claim about a population parameter indicates a hypothesis test.",
+  "plain_en": "claim requested means use hypothesis test"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s16",
+  "name": "Confidence interval and hypothesis test consistency",
+  "page": 448,
+  "definition_type": "explicit",
+  "quote": "If a 95% confidence interval for μ captures μ0, there is not sufficient evidence to reject H0 : μ = μ0 in a two-sided test with α = 0.05.",
+  "plain_en": "interval containing null value matches non-rejection"
+ },
+ {
+  "section_id": "statistics-barrons-2027-u4-s04",
+  "name": "Standard error",
+  "page": 391,
+  "definition_type": "explicit",
+  "quote": "In this case is called the standard error, , and is used as an estimate for",
+  "plain_en": "estimated standard deviation of a statistic"
+ }
+]

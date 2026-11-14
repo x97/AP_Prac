@@ -1,0 +1,103 @@
+.bind-page {
+  background: var(--bg);
+}
+
+.bind-head {
+  margin: 8rpx 4rpx 32rpx;
+}
+
+.bind-desc {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  line-height: 1.6;
+}
+
+.bind-card {
+  padding: 34rpx 30rpx;
+}
+
+.bind-field {
+  margin-bottom: 24rpx;
+}
+
+.bind-label {
+  margin-bottom: 10rpx;
+  color: var(--muted);
+  font-size: 22rpx;
+}
+
+.bind-input {
+  width: 100%;
+  height: 86rpx;
+  padding: 0 24rpx;
+  border: 1rpx solid var(--line);
+  border-radius: 16rpx;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 27rpx;
+}
+
+.bind-code-row {
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+}
+
+.bind-code-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.bind-code-btn {
+  flex: 0 0 auto;
+  height: 86rpx;
+  padding: 0 22rpx;
+  border: 1rpx solid var(--line);
+  border-radius: 16rpx;
+  background: var(--surface);
+  color: var(--primary);
+  font-size: 23rpx;
+  font-weight: 600;
+  line-height: 86rpx;
+}
+
+.bind-code-btn[disabled] {
+  color: var(--faint);
+}
+
+.bind-hint {
+  color: var(--faint);
+  font-size: 21rpx;
+}
+
+.bind-notice {
+  margin-top: 12rpx;
+  color: var(--success);
+  font-size: 22rpx;
+}
+
+.bind-error {
+  margin-top: 12rpx;
+  color: var(--danger);
+  font-size: 22rpx;
+  line-height: 1.5;
+}
+
+.bind-submit {
+  min-height: 88rpx;
+  margin-top: 14rpx;
+}
+
+.bind-email {
+  margin-top: 10rpx;
+  font-family: "Times New Roman", "Songti SC", "STSong", Georgia, serif;
+  font-size: 38rpx;
+  font-weight: 600;
+}
+
+.bind-note {
+  margin-top: 18rpx;
+  color: var(--faint);
+  font-size: 21rpx;
+  line-height: 1.6;
+}

@@ -1,0 +1,1183 @@
+{
+  "generated_at": "2026-10-27T13:36:02+00:00",
+  "paper_id": "psychology-barrons-2027-ch13-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 14,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3a240a2cab88ea3e",
+          "name": "Fundamental attribution error",
+          "confidence": 0.97,
+          "evidence": "You do not consider that she might already have learned about ancient Greece in her old school.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-77363402a3fbd564",
+          "name": "Dispositional attribution",
+          "confidence": 0.6,
+          "evidence": "You conclude that she is brilliant."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5ac05b4df9c8b706",
+          "name": "Self-fulfilling prophecy",
+          "option_label": "A",
+          "reason": "Self-fulfilling prophecy is another social-cognitive attribution-adjacent concept involving expectations, tempting when the neighbor's behavior seems to confirm a belief."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "fundamental attribution error",
+          "normalized": "fundamental attribution error",
+          "kp_id": "psychology-barrons-2027-kp-3a240a2cab88ea3e",
+          "kp_name": "Fundamental attribution error",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "self-fulfilling prophecy effect",
+          "normalized": "self fulfilling prophecy effect",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "pluralistic ignorance",
+          "normalized": "pluralistic ignorance",
+          "kp_id": "psychology-barrons-2027-kp-be40c25aed6dd14f",
+          "kp_name": "Pluralistic ignorance",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "confirmation bias",
+          "normalized": "confirmation bias",
+          "kp_id": "psychology-barrons-2027-kp-215a836fd725f1c8",
+          "kp_name": "Confirmation bias",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests dispositional vs. situational attribution of another person's behavior, which is the fundamental attribution error.",
+      "warnings": [
+        "confusable 'Confirmation bias' is in option 'C' but not in the core's narrow domain; dropped",
+        "keyword 'self-fulfilling prophecy effect': not a known alias of 'Self-fulfilling prophecy'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5bea37c8ae607448",
+          "name": "Self-serving bias",
+          "confidence": 0.97,
+          "evidence": "The difference in these comments illustrates",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-be65832048082d15",
+          "name": "Attribution theory",
+          "confidence": 0.6,
+          "evidence": ""
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-3a240a2cab88ea3e",
+          "name": "Fundamental attribution error",
+          "option_label": "A",
+          "reason": "Fundamental attribution error is a closely related attributional bias, tempting because the students explain the loss by blaming the players' dispositions."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-5ac05b4df9c8b706",
+          "name": "Self-fulfilling prophecy",
+          "option_label": "C",
+          "reason": "Self-fulfilling prophecy is another social-cognitive effect involving expectations, tempting as a near-miss social psychology concept."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "self-serving bias",
+          "normalized": "self serving bias",
+          "kp_id": "psychology-barrons-2027-kp-5bea37c8ae607448",
+          "kp_name": "Self-serving bias",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "fundamental attribution error",
+          "normalized": "fundamental attribution error",
+          "kp_id": "psychology-barrons-2027-kp-3a240a2cab88ea3e",
+          "kp_name": "Fundamental attribution error",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "self-fulfilling prophecy effect",
+          "normalized": "self fulfilling prophecy effect",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "false consensus effect",
+          "normalized": "false consensus effect",
+          "kp_id": "psychology-barrons-2027-kp-be575d42b489dbbb",
+          "kp_name": "False-consensus effect",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests self-serving bias: students claim credit for wins ('We are awesome') and deny responsibility for losses ('They were terrible').",
+      "warnings": [
+        "confusable 'False-consensus effect' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'self-fulfilling prophecy effect': not a known alias of 'Self-fulfilling prophecy'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4235404d1c8584c0",
+          "name": "Correlation",
+          "confidence": 0.95,
+          "evidence": "Better health is associated with having an internal locus of control.",
+          "evidence_source": "question"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-536d8000beba35d7",
+          "name": "Internal locus of control",
+          "confidence": 0.9,
+          "evidence": "Better health is associated with having an internal locus of control.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e4044c2e2465216e",
+          "name": "Locus of control",
+          "confidence": 0.8,
+          "evidence": "relationship between locus of control and overall health"
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a2e3fc0258eebedd",
+          "name": "Positive correlation",
+          "confidence": 0.7,
+          "evidence": "higher scores are indicative of a more internal locus of control"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-28d0b1b7dde11e45",
+          "name": "External locus of control",
+          "option_label": "B",
+          "reason": "External locus of control is the opposite pole of the same personality dimension, tempting students who reverse the direction of the relationship."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-57d4f6c94ae650c9",
+          "name": "Ex post facto (quasi-experimental) study",
+          "option_label": "A",
+          "reason": "Option A claims causation, which a correlational/quasi-experimental design cannot establish."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "locus of control",
+          "normalized": "locus of control",
+          "kp_id": "psychology-barrons-2027-kp-e4044c2e2465216e",
+          "kp_name": "Locus of control",
+          "role": "supporting",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "internal locus of control",
+          "normalized": "internal locus of control",
+          "kp_id": "psychology-barrons-2027-kp-536d8000beba35d7",
+          "kp_name": "Internal locus of control",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "relationship",
+          "normalized": "relationship",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "external locus of control",
+          "normalized": "external locus of control",
+          "kp_id": "psychology-barrons-2027-kp-28d0b1b7dde11e45",
+          "kp_name": "External locus of control",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "leads to",
+          "normalized": "leads to",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "health",
+          "normalized": "health",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests reading a positive correlation between internal locus of control and health while avoiding a causal claim. Option A is a causation error; option B reverses the direction; option C denies the relationship.",
+      "warnings": [
+        "keyword 'relationship': not a known alias of 'Correlation'; stored without a KP",
+        "keyword 'leads to': not a known alias of 'Correlation'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-dcfa1daad1387b72",
+          "name": "Confidentiality (or anonymity)",
+          "confidence": 0.97,
+          "evidence": "Confidentiality",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-74c19290bb2ab0ec",
+          "name": "Institutional review board (IRB)",
+          "confidence": 0.7,
+          "evidence": "an IRB reviewing this study"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "IRB",
+          "normalized": "irb",
+          "kp_id": "psychology-barrons-2027-kp-74c19290bb2ab0ec",
+          "kp_name": "Institutional review board (IRB)",
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Confidentiality",
+          "normalized": "confidentiality",
+          "kp_id": "psychology-barrons-2027-kp-dcfa1daad1387b72",
+          "kp_name": "Confidentiality (or anonymity)",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Psychological harm",
+          "normalized": "psychological harm",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Physical harm",
+          "normalized": "physical harm",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Deception",
+          "normalized": "deception",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "locus of control",
+          "normalized": "locus of control",
+          "kp_id": "psychology-barrons-2027-kp-e4044c2e2465216e",
+          "kp_name": "Locus of control",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "health",
+          "normalized": "health",
+          "kp_id": "psychology-barrons-2027-kp-589fffc946c195f4",
+          "kp_name": "Health",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests which APA ethical concern an IRB would prioritize; confidentiality is the core, with IRB as supporting context. Harm and deception options are same-domain ethics distractors.",
+      "warnings": [
+        "confusable 'Risk' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Risk' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Debriefing' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Psychological harm': not a known alias of 'Risk'; stored without a KP",
+        "keyword 'Physical harm': not a known alias of 'Risk'; stored without a KP",
+        "keyword 'Deception': not a known alias of 'Debriefing'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-553fcc3785478bcf",
+          "name": "Operational definitions",
+          "confidence": 0.97,
+          "evidence": "operational definitions of variables",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d85e742380078417",
+          "name": "Variables",
+          "confidence": 0.6,
+          "evidence": "add several factors to his measure of health"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "operational definitions of variables",
+          "normalized": "operational definitions of variables",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "measure of health",
+          "normalized": "measure of health",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "factors",
+          "normalized": "factors",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "significant results",
+          "normalized": "significant results",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "generalize his findings",
+          "normalized": "generalize his findings",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests whether students recognize that changing the components of the health measure changes its operational definition. Generalizability (A) and publication (D) are unrelated distractors; only statistical significance (B) is a plausible near-miss.",
+      "warnings": [
+        "confusable 'Statistical significance' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'operational definitions of variables': not a known alias of 'Operational definitions'; stored without a KP",
+        "keyword 'measure of health': not a known alias of 'Operational definitions'; stored without a KP",
+        "keyword 'factors': not a known alias of 'Variables'; stored without a KP",
+        "keyword 'significant results': not a known alias of 'Statistical significance'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-394e2537c4845a74",
+          "name": "Cognitive dissonance theory",
+          "confidence": 0.98,
+          "evidence": "The discomfort caused by her long-standing dislike of the color orange and her current ownership of so much orange-and-black-striped clothing is known as",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "cognitive dissonance",
+          "normalized": "cognitive dissonance",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "discomfort",
+          "normalized": "discomfort",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "contradictory concepts",
+          "normalized": "contradictory concepts",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "conflicting motives",
+          "normalized": "conflicting motives",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "opposing cognitions",
+          "normalized": "opposing cognitions",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "Distractors B, C, and D are made-up terms with no corresponding candidate knowledge point, so no confusables are listed.",
+      "warnings": [
+        "keyword 'cognitive dissonance': not a known alias of 'Cognitive dissonance theory'; stored without a KP",
+        "keyword 'discomfort': not a known alias of 'Cognitive dissonance theory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-efdc127ad0bd3b18",
+          "name": "Prejudice",
+          "confidence": 0.97,
+          "evidence": "Santiago dislikes cheerleaders.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-b4c060a3c8be2a5c",
+          "name": "Discrimination",
+          "option_label": "A",
+          "reason": "Billy's exclusion of girls is an action (discrimination), not merely a prejudiced attitude, so it tempts students who conflate attitude with behavior."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-b4c060a3c8be2a5c",
+          "name": "Discrimination",
+          "option_label": "D",
+          "reason": "Mr. Tamp's differential treatment of boys and girls is discriminatory behavior rather than an attitude, making it a near-miss for prejudice."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "prejudice",
+          "normalized": "prejudice",
+          "kp_id": "psychology-barrons-2027-kp-efdc127ad0bd3b18",
+          "kp_name": "Prejudice",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Santiago dislikes cheerleaders",
+          "normalized": "santiago dislikes cheerleaders",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests distinguishing prejudice (an attitude) from discrimination (an action). Options A and D illustrate discrimination; option C is unrelated to intergroup attitudes.",
+      "warnings": [
+        "supporting 'Discrimination' duplicates a confusable; dropped",
+        "keyword 'Santiago dislikes cheerleaders': not a known alias of 'Prejudice'; stored without a KP",
+        "keyword 'Billy will not let girls play on his hockey team': whole/long option text; dropped",
+        "keyword 'Mr. Tamp calls on boys more often than girls': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-008",
+      "number": 8,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-c60e0c9a8ab0b411",
+          "name": "In-group bias",
+          "confidence": 0.9,
+          "evidence": "Jody is sent to the principal for kicking members of the other groups",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-efdc127ad0bd3b18",
+          "name": "Prejudice",
+          "confidence": 0.6,
+          "evidence": "divides his class into four competing groups"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4384693f569990ae",
+          "name": "Group polarization",
+          "option_label": "A",
+          "reason": "Group polarization is another group-dynamics concept involving groups taking more extreme positions, tempting when the stem mentions competing groups."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-a96188c83ff9ed9f",
+          "name": "Deindividuation",
+          "option_label": "B",
+          "reason": "Deindividuation is another group-dynamics concept about reduced self-restraint in groups, tempting because Jody's aggression occurs in a group setting."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "competing groups",
+          "normalized": "competing groups",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "other groups",
+          "normalized": "other groups",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "out-group bias",
+          "normalized": "out group bias",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "group polarization",
+          "normalized": "group polarization",
+          "kp_id": "psychology-barrons-2027-kp-4384693f569990ae",
+          "kp_name": "Group polarization",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "deindividuation",
+          "normalized": "deindividuation",
+          "kp_id": "psychology-barrons-2027-kp-a96188c83ff9ed9f",
+          "kp_name": "Deindividuation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "superordinate goals",
+          "normalized": "superordinate goals",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The correct answer 'out-group bias' is best matched to C05 (in-group bias/preference for one's own group), which encompasses in-group/out-group bias. C03 (out-group homogeneity) is a different bias and not the tested concept.",
+      "warnings": [
+        "confusable 'Superordinate goal' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'other groups': not a known alias of 'In-group bias'; stored without a KP",
+        "keyword 'out-group bias': not a known alias of 'In-group bias'; stored without a KP",
+        "keyword 'superordinate goals': not a known alias of 'Superordinate goal'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-009",
+      "number": 9,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-051bf841c876f846",
+          "name": "Implicit attitude",
+          "confidence": 0.95,
+          "evidence": "Explicit attitudes often don’t match implicit attitudes",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "Explicit attitudes",
+          "normalized": "explicit attitudes",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "implicit attitudes",
+          "normalized": "implicit attitudes",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "survey",
+          "normalized": "survey",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "online test",
+          "normalized": "online test",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "associate male names with positions of leadership",
+          "normalized": "associate male names with positions of leadership",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests the explicit/implicit attitude distinction; the survey-vs-online sampling difference is a plausible but weaker distractor.",
+      "warnings": [
+        "supporting 'LaPiere study' is not in the correct option or the core subheading; dropped",
+        "confusable 'Survey method' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'Explicit attitudes': not a known alias of 'Implicit attitude'; stored without a KP",
+        "keyword 'implicit attitudes': not a known alias of 'Implicit attitude'; stored without a KP",
+        "keyword 'survey': not a known alias of 'Survey method'; stored without a KP",
+        "keyword 'associate male names with positions of leadership': not a known alias of 'Stereotypes'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-010",
+      "number": 10,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-90653b869cb2dd66",
+          "name": "Population",
+          "confidence": 0.95,
+          "evidence": "Who is the population for the in-person survey Arturo conducted?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-8c677600dba5afaa",
+          "name": "Representative sample",
+          "option_label": "A",
+          "reason": "The people who answered the survey are the sample, not the population; students often confuse sample with population."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "population",
+          "normalized": "population",
+          "kp_id": "psychology-barrons-2027-kp-90653b869cb2dd66",
+          "kp_name": "Population",
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "survey",
+          "normalized": "survey",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The population is the larger group to which results are generalized; option A describes the sample.",
+      "warnings": [
+        "supporting 'Survey method' is not in the correct option or the core subheading; dropped",
+        "keyword 'survey': not a known alias of 'Survey method'; stored without a KP",
+        "keyword 'The people who answered his survey': whole/long option text; dropped"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-011",
+      "number": 11,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-b34bd2a3cb0e6c57",
+          "name": "Superordinate goal",
+          "confidence": 0.97,
+          "evidence": "Give the groups a task that cannot be solved unless they work together.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-70afdfcab7a1d578",
+          "name": "Contact theory",
+          "option_label": "A",
+          "reason": "Mere contact between groups is a related intergroup strategy but is less effective without cooperative superordinate goals."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "hostility",
+          "normalized": "hostility",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "antagonistic groups",
+          "normalized": "antagonistic groups",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "work together",
+          "normalized": "work together",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "spend a lot of time together",
+          "normalized": "spend a lot of time together",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        }
+      ],
+      "notes": "Correct option describes a superordinate goal requiring cooperation. Option A reflects contact theory, a near-miss intergroup strategy.",
+      "warnings": [
+        "supporting 'Contact theory' duplicates a confusable; dropped",
+        "keyword 'work together': not a known alias of 'Superordinate goal'; stored without a KP",
+        "keyword 'spend a lot of time together': not a known alias of 'Contact theory'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-012",
+      "number": 12,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-5f0a0ab3bd253162",
+          "name": "Door-in-the-face technique",
+          "confidence": 0.97,
+          "evidence": "After her teacher flatly refused, Tanya asked the teacher to push the test back one day, to Wednesday.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-a2e2f06c3077d608",
+          "name": "Norms of reciprocity",
+          "option_label": "B",
+          "reason": "Norms of reciprocity is another compliance strategy (returning a favor), tempting because it is a social influence tactic, but no favor was given here."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "compliance strategy",
+          "normalized": "compliance strategy",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "door-in-the-face",
+          "normalized": "door in the face",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "norms of reciprocity",
+          "normalized": "norms of reciprocity",
+          "kp_id": "psychology-barrons-2027-kp-a2e2f06c3077d608",
+          "kp_name": "Norms of reciprocity",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes a large request followed by a smaller one after refusal, matching door-in-the-face. Options C and D are generic terms without matching candidate knowledge points.",
+      "warnings": [
+        "supporting 'Norms of reciprocity' duplicates a confusable; dropped",
+        "keyword 'compliance strategy': not a known alias of 'Door-in-the-face technique'; stored without a KP",
+        "keyword 'door-in-the-face': not a known alias of 'Door-in-the-face technique'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-013",
+      "number": 13,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e8e0f6c791a577a6",
+          "name": "Social facilitation",
+          "confidence": 0.97,
+          "evidence": "Social facilitation",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-e33fbf9e44aa2766",
+          "name": "Groupthink",
+          "option_label": "B",
+          "reason": "Groupthink is a group-dynamics concept about poor decisions under pressure, tempting when a team context is described."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-ded547ac3d2f0a12",
+          "name": "Conformity",
+          "option_label": "C",
+          "reason": "Conformity involves changing behavior to fit in with a group, tempting when explaining players' behavior in a team setting."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-4384693f569990ae",
+          "name": "Group polarization",
+          "option_label": "D",
+          "reason": "Group polarization is another group-dynamics concept about groups making more extreme decisions, tempting as a group explanation."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Social facilitation",
+          "normalized": "social facilitation",
+          "kp_id": "psychology-barrons-2027-kp-e8e0f6c791a577a6",
+          "kp_name": "Social facilitation",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Groupthink",
+          "normalized": "groupthink",
+          "kp_id": "psychology-barrons-2027-kp-e33fbf9e44aa2766",
+          "kp_name": "Groupthink",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Conformity",
+          "normalized": "conformity",
+          "kp_id": "psychology-barrons-2027-kp-ded547ac3d2f0a12",
+          "kp_name": "Conformity",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Group polarization",
+          "normalized": "group polarization",
+          "kp_id": "psychology-barrons-2027-kp-4384693f569990ae",
+          "kp_name": "Group polarization",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "team",
+          "normalized": "team",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "practices",
+          "normalized": "practices",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "games",
+          "normalized": "games",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests social facilitation: improved performance of a well-practiced task in the presence of others. Groupthink, conformity, and group polarization are same-domain group/social influence distractors.",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch13-review-014",
+      "number": 14,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "name": "Range",
+          "confidence": 0.97,
+          "evidence": "Which of the following values is larger in the distribution of free throws taken during practices than in the distribution of free throws taken during games?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-58d873ac62fe4cb7",
+          "name": "Median",
+          "option_label": "A",
+          "reason": "Median is another measure of central tendency that could be compared across the two distributions, but it is not larger in practice."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "option_label": "C",
+          "reason": "Mean is a central tendency measure that students may confuse with range when comparing distributions."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-e0b4bb60a56233a5",
+          "name": "Mode",
+          "option_label": "D",
+          "reason": "Mode is another descriptive statistic that could be compared, but neither distribution has a mode."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "distribution",
+          "normalized": "distribution",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Range",
+          "normalized": "range",
+          "kp_id": "psychology-barrons-2027-kp-02feea242da798fa",
+          "kp_name": "Range",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Median",
+          "normalized": "median",
+          "kp_id": "psychology-barrons-2027-kp-58d873ac62fe4cb7",
+          "kp_name": "Median",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Mean",
+          "normalized": "mean",
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "kp_name": "Mean",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Mode",
+          "normalized": "mode",
+          "kp_id": "psychology-barrons-2027-kp-e0b4bb60a56233a5",
+          "kp_name": "Mode",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item asks which descriptive statistic is larger in the practice distribution; the range is the correct answer, while median, mean, and mode are confusable descriptive statistics.",
+      "warnings": [
+        "supporting 'Science Practice 3—Data Analysis' is not in the correct option or the core subheading; dropped"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

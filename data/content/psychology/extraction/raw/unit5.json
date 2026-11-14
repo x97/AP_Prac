@@ -1,0 +1,1146 @@
+{
+ "unit": 5,
+ "sections": [
+  {
+   "chapter": 16,
+   "section": "Overview",
+   "page": 338,
+   "knowledge_points": [
+    {
+     "name": "Health",
+     "subheading": "",
+     "definition_quote": "Health is an important area of interest for psychologists.",
+     "researchers": "本节未提及",
+     "plain": "身心健康是心理学重要领域"
+    },
+    {
+     "name": "Psychological factors",
+     "subheading": "",
+     "definition_quote": "Psychological factors can affect physical factors as well as mental ones, and psychologists study how to encourage people to live healthy lives, manage stress, grow emotionally, and deal with mental illness.",
+     "researchers": "本节未提及",
+     "plain": "心理因素会影响身体健康"
+    }
+   ]
+  },
+  {
+   "chapter": 16,
+   "section": "Stress",
+   "page": 338,
+   "knowledge_points": [
+    {
+     "name": "Stress",
+     "subheading": "",
+     "definition_quote": "The term stress can refer to either certain life events (stressors) or how we react to these changes in the environment (stress reactions).",
+     "researchers": "本节未提及",
+     "plain": "压力指生活事件或应激反应"
+    },
+    {
+     "name": "social readjustment rating scale (SRRS)",
+     "subheading": "Measuring Stress",
+     "definition_quote": "Their social readjustment rating scale (SRRS) measured stress using life change units (LCUs).",
+     "researchers": "Thomas Holmes, Richard Rahe",
+     "plain": "用生活变化单位测量压力"
+    },
+    {
+     "name": "life change units (LCUs)",
+     "subheading": "Measuring Stress",
+     "definition_quote": "Different changes in life were assigned different LCUs; making a career change would be counted as more LCUs than moving to a new apartment.",
+     "researchers": "Thomas Holmes, Richard Rahe",
+     "plain": "不同生活变化对应不同分数"
+    },
+    {
+     "name": "general adaptation syndrome (GAS)",
+     "subheading": "General Adaptation Syndrome",
+     "definition_quote": "Hans Selye’s general adaptation syndrome (GAS) describes the general response humans and other animals have to a stressful event.",
+     "researchers": "Hans Selye",
+     "plain": "面对压力的一般生理反应模式"
+    },
+    {
+     "name": "Alarm reaction",
+     "subheading": "General Adaptation Syndrome",
+     "definition_quote": "Our heart rate increases, and blood is diverted away from other body functions to muscles that are needed to react.",
+     "researchers": "Hans Selye",
+     "plain": "心跳加快、血液流向肌肉"
+    },
+    {
+     "name": "Resistance",
+     "subheading": "General Adaptation Syndrome",
+     "definition_quote": "Our body remains physiologically ready (high heart rate, and so on). Hormones are released to maintain this state of readiness.",
+     "researchers": "Hans Selye",
+     "plain": "身体保持生理戒备状态"
+    },
+    {
+     "name": "Exhaustion",
+     "subheading": "General Adaptation Syndrome",
+     "definition_quote": "If the resistance stage lasts too long, our body can deplete its resources.",
+     "researchers": "Hans Selye",
+     "plain": "长期抵抗耗尽身体资源"
+    },
+    {
+     "name": "tend-and-befriend theory",
+     "subheading": "Managing Stress",
+     "definition_quote": "Some people successfully manage stress by actively seeking ways to tend to their own self-care needs and attend to the needs of friends and family members.",
+     "researchers": "本节未提及",
+     "plain": "通过照顾他人来减压"
+    },
+    {
+     "name": "emotion-focused coping",
+     "subheading": "Managing Stress",
+     "definition_quote": "Some people use specific stress management techniques such as meditation/mindfulness exercises, breathing techniques, or combining these stress management techniques with medications prescribed by clinical psychologists.",
+     "researchers": "本节未提及",
+     "plain": "用冥想呼吸等方式调节情绪"
+    },
+    {
+     "name": "perceived control",
+     "subheading": "Perceived Control",
+     "definition_quote": "Control over events tends to lessen stress, while a perceived lack of control generally makes the event more stressful.",
+     "researchers": "本节未提及",
+     "plain": "对事件的控制感影响压力"
+    }
+   ]
+  },
+  {
+   "chapter": 16,
+   "section": "Positive Psychology",
+   "page": 341,
+   "knowledge_points": [
+    {
+     "name": "Positive psychology",
+     "subheading": "",
+     "definition_quote": "The field of positive psychology emerged in the 1990s to counter what some saw as the overly negative focus of psychology on human error, weakness, and sickness.",
+     "researchers": "本节未提及",
+     "plain": "研究人类优势与幸福的心理学"
+    },
+    {
+     "name": "subjective well-being",
+     "subheading": "",
+     "definition_quote": "One area studied by positive psychologists is subjective well-being, which is a sense of how satisfied a person is with their life overall.",
+     "researchers": "本节未提及",
+     "plain": "对整体生活满意度的感受"
+    },
+    {
+     "name": "character strengths",
+     "subheading": "",
+     "definition_quote": "Positive psychology researchers investigate how aspects of personality they call character strengths or virtues can be measured and how using these strengths relates to life satisfaction and achievement.",
+     "researchers": "本节未提及",
+     "plain": "可测量的积极人格特质"
+    },
+    {
+     "name": "six core virtues",
+     "subheading": "",
+     "definition_quote": "These researchers identify six core virtues that seem to be valued across all major religions and philosophies: wisdom, courage, humanity, justice, temperance, and transcendence.",
+     "researchers": "本节未提及",
+     "plain": "跨文化重视的六种美德"
+    },
+    {
+     "name": "well-being",
+     "subheading": "",
+     "definition_quote": "Well-being refers to our perception of how effectively we function in our personal lives and our role in the groups to which we belong.",
+     "researchers": "本节未提及",
+     "plain": "对生活质量的整体感知"
+    },
+    {
+     "name": "gratitude",
+     "subheading": "",
+     "definition_quote": "Practicing gratitude (by expressing thankfulness toward others verbally or in writing) is associated with increases in our perceptions of happiness and satisfaction in life",
+     "researchers": "本节未提及",
+     "plain": "表达感谢能提升幸福感"
+    },
+    {
+     "name": "resilience",
+     "subheading": "",
+     "definition_quote": "Studies indicate that some people are more able to adapt effectively when faced with trauma and extreme stress and that some people experience post-traumatic growth after these intensely negative experiences.",
+     "researchers": "本节未提及",
+     "plain": "面对创伤仍能良好适应"
+    },
+    {
+     "name": "post-traumatic growth",
+     "subheading": "",
+     "definition_quote": "One concept positive psychologists talk about with regard to stress and difficult situations is post-traumatic growth, which is the ability to construct a meaningful experience in response to a period of trauma.",
+     "researchers": "本节未提及",
+     "plain": "创伤后获得积极成长"
+    }
+   ]
+  },
+  {
+   "chapter": 17,
+   "section": "Overview",
+   "page": 352,
+   "knowledge_points": [
+    {
+     "name": "Psychological disorders",
+     "subheading": "",
+     "definition_quote": "Psychological disorders may manifest in a person’s behavior and/or thoughts.",
+     "researchers": "本节未提及",
+     "plain": "心理障碍可表现在行为或思维"
+    },
+    {
+     "name": "abnormal psychology",
+     "subheading": "",
+     "definition_quote": "The field of psychological disorders (or abnormal psychology) encompasses the study of relatively common problems such as depression, substance abuse, and learning difficulties as well as the study of fairly rare, and particularly severe, disorders such as bipolar disorder and schizophrenia.",
+     "researchers": "本节未提及",
+     "plain": "研究心理障碍的心理学分支"
+    }
+   ]
+  },
+  {
+   "chapter": 17,
+   "section": "Defining Psychological Disorders",
+   "page": 352,
+   "knowledge_points": [
+    {
+     "name": "Psychological disorder",
+     "subheading": "",
+     "definition_quote": "Disorders are often characterized by causing dysfunction, by resulting in distress, and as being deviant (different) from what is typical.",
+     "researchers": "本节未提及",
+     "plain": "以功能失调、痛苦、异常为特征"
+    },
+    {
+     "name": "insanity",
+     "subheading": "",
+     "definition_quote": "The reason behind the legal definition of insanity is to differentiate between those people who can be held entirely responsible for their crimes (the sane) and those people who, because of a psychological disorder, cannot be held fully responsible for their actions.",
+     "researchers": "本节未提及",
+     "plain": "判定刑事责任的法律概念"
+    },
+    {
+     "name": "International Classification of Mental Disorders (ICD)",
+     "subheading": "",
+     "definition_quote": "The World Health Organization (WHO) created the International Classification of Mental Disorders (ICD) for this purpose, and the American Psychiatric Association uses the Diagnostic and Statistical Manual of Mental Disorders (DSM).",
+     "researchers": "本节未提及",
+     "plain": "世卫组织的疾病分类手册"
+    },
+    {
+     "name": "Diagnostic and Statistical Manual of Mental Disorders (DSM)",
+     "subheading": "",
+     "definition_quote": "The DSM, as its name suggests, provides a way for psychologists to diagnose their patients.",
+     "researchers": "本节未提及",
+     "plain": "美国精神障碍诊断手册"
+    },
+    {
+     "name": "etiologies",
+     "subheading": "",
+     "definition_quote": "These resources do not include much discussion of the causes (also called etiologies) or treatments of the various disorders, because adherents to each of the psychological perspectives disagree (see Table 17.1).",
+     "researchers": "本节未提及",
+     "plain": "心理障碍的成因"
+    },
+    {
+     "name": "biomedical model",
+     "subheading": "",
+     "definition_quote": "the biomedical model (or biological perspective) sees psychological disorders as caused by biological factors such as hormonal or neurotransmitter imbalances or by differences in brain structure.",
+     "researchers": "本节未提及",
+     "plain": "从生物因素解释心理障碍"
+    },
+    {
+     "name": "biopsychosocial view",
+     "subheading": "",
+     "definition_quote": "the biopsychosocial view is that problems likely result from the interplay of biological, psychological, and social factors.",
+     "researchers": "本节未提及",
+     "plain": "生物心理社会因素共同作用"
+    },
+    {
+     "name": "diathesis-stress model",
+     "subheading": "",
+     "definition_quote": "According to this model, environmental stressors can provide circumstances under which a biological predisposition for illness can express itself.",
+     "researchers": "本节未提及",
+     "plain": "压力触发先天的易感素质"
+    },
+    {
+     "name": "eclectic",
+     "subheading": "",
+     "definition_quote": "Psychologists who do not subscribe strictly to one perspective or another are known as eclectic.",
+     "researchers": "本节未提及",
+     "plain": "兼用多种理论观点"
+    }
+   ]
+  },
+  {
+   "chapter": 17,
+   "section": "Categories of Disorders",
+   "page": 355,
+   "knowledge_points": [
+    {
+     "name": "autism spectrum disorder",
+     "subheading": "Neurocognitive Disorders",
+     "definition_quote": "Children with autism spectrum disorder seek out less social and emotional contact than do other children and are less likely to seek out parental support when distressed.",
+     "researchers": "本节未提及",
+     "plain": "社交与情感互动较少"
+    },
+    {
+     "name": "Attention-deficit/hyperactivity disorder (ADHD)",
+     "subheading": "Neurocognitive Disorders",
+     "definition_quote": "A child with ADHD may have difficulty paying attention or sitting still.",
+     "researchers": "本节未提及",
+     "plain": "注意力难集中、坐不住"
+    },
+    {
+     "name": "neurocognitive disorders",
+     "subheading": "Neurocognitive Disorders",
+     "definition_quote": "The DSM-5 also discusses neurocognitive disorders, the most well-known of which may be Alzheimer’s disease.",
+     "researchers": "本节未提及",
+     "plain": "认知能力退化的障碍"
+    },
+    {
+     "name": "Alzheimer’s disease",
+     "subheading": "Neurocognitive Disorders",
+     "definition_quote": "Alzheimer’s is a form of dementia, a deterioration of cognitive abilities, often seen most dramatically in memory.",
+     "researchers": "本节未提及",
+     "plain": "以记忆衰退为主的痴呆症"
+    },
+    {
+     "name": "Anxiety disorders",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "Anxiety disorders, as their name suggests, share a common symptom of anxiety.",
+     "researchers": "本节未提及",
+     "plain": "以焦虑为共同症状"
+    },
+    {
+     "name": "specific phobia",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "A simple or specific phobia is an intense unwarranted fear of a situation or an object such as claustrophobia (fear of enclosed spaces) or arachnophobia (fear of spiders).",
+     "researchers": "本节未提及",
+     "plain": "对特定事物不合理的恐惧"
+    },
+    {
+     "name": "agoraphobia",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "Agoraphobia is a fear of open, public spaces.",
+     "researchers": "本节未提及",
+     "plain": "害怕开阔或公共空间"
+    },
+    {
+     "name": "social anxiety disorder",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "Social anxiety disorder, formerly known as social phobia, is a fear of a situation in which one could embarrass oneself in public, such as when eating in a restaurant or giving a lecture.",
+     "researchers": "本节未提及",
+     "plain": "害怕在公众场合出丑"
+    },
+    {
+     "name": "taijin kyofusho",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "It is a type of social anxiety that involves concern that one’s body is displeasing to others.",
+     "researchers": "本节未提及",
+     "plain": "日本文化中的社交焦虑"
+    },
+    {
+     "name": "generalized anxiety disorder (GAD)",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "A person who suffers from generalized anxiety disorder, often referred to as GAD, experiences constant, low-level anxiety.",
+     "researchers": "本节未提及",
+     "plain": "持续低水平的焦虑"
+    },
+    {
+     "name": "panic disorder",
+     "subheading": "Anxiety Disorders",
+     "definition_quote": "On the other hand, someone with panic disorder suffers from acute episodes of intense anxiety without any apparent provocation.",
+     "researchers": "本节未提及",
+     "plain": "无明显诱因的急性焦虑"
+    },
+    {
+     "name": "Psychodynamic theorists on anxiety disorders",
+     "subheading": "Theories About the Cause of Anxiety Disorders",
+     "definition_quote": "Psychodynamic theorists see psychological disorders as caused by unresolved, unconscious conflicts.",
+     "researchers": "本节未提及",
+     "plain": "无意识冲突导致焦虑"
+    },
+    {
+     "name": "Behaviorists on anxiety disorders",
+     "subheading": "Theories About the Cause of Anxiety Disorders",
+     "definition_quote": "Behaviorists believe all behaviors are learned. Therefore, they assert that anxiety disorders are learned.",
+     "researchers": "本节未提及",
+     "plain": "焦虑是习得的反应"
+    },
+    {
+     "name": "Cognitive theorists",
+     "subheading": "Theories About the Cause of Anxiety Disorders",
+     "definition_quote": "Cognitive theorists believe that disorders result from dysfunctional ways of thinking.",
+     "researchers": "本节未提及",
+     "plain": "适应不良的思维方式致病"
+    },
+    {
+     "name": "Somatic symptom disorders",
+     "subheading": "Somatic Symptom and Related Disorders",
+     "definition_quote": "Somatic symptom disorders occur when a person manifests a psychological problem through a physiological symptom.",
+     "researchers": "本节未提及",
+     "plain": "心理问题表现为躯体症状"
+    },
+    {
+     "name": "conversion disorder",
+     "subheading": "Somatic Symptom and Related Disorders",
+     "definition_quote": "People who have conversion disorder report the existence of a severe physical problem such as paralysis or blindness, and they will, in fact, be unable to move their arms or see.",
+     "researchers": "本节未提及",
+     "plain": "无生理原因的躯体功能丧失"
+    },
+    {
+     "name": "Psychodynamic theorists on somatic symptom disorders",
+     "subheading": "Theories About the Cause of Somatic Symptom Disorders",
+     "definition_quote": "Psychodynamic theorists would assert that somatic symptom disorders are merely outward manifestations of unresolved unconscious conflicts.",
+     "researchers": "本节未提及",
+     "plain": "无意识冲突的向外表现"
+    },
+    {
+     "name": "Behaviorists on somatic symptom disorders",
+     "subheading": "Theories About the Cause of Somatic Symptom Disorders",
+     "definition_quote": "Behaviorists would say that people with somatic symptom disorders are being reinforced for their behavior.",
+     "researchers": "本节未提及",
+     "plain": "躯体症状受到强化"
+    },
+    {
+     "name": "Dissociative disorders",
+     "subheading": "Dissociative Disorders",
+     "definition_quote": "Dissociative disorders involve a disruption in conscious processes; dissociation involves a break or separation from memories and thoughts or even a sense of who the person is.",
+     "researchers": "本节未提及",
+     "plain": "意识、记忆或身份出现断裂"
+    },
+    {
+     "name": "Dissociative amnesia",
+     "subheading": "Dissociative Disorders",
+     "definition_quote": "Dissociative amnesia is when a person cannot remember things and no physiological basis for the disruption in memory can be identified.",
+     "researchers": "本节未提及",
+     "plain": "无生理原因的记忆丧失"
+    },
+    {
+     "name": "organic amnesia",
+     "subheading": "Dissociative Disorders",
+     "definition_quote": "Biologically induced amnesia is called organic amnesia.",
+     "researchers": "本节未提及",
+     "plain": "生理原因导致的失忆"
+    },
+    {
+     "name": "Dissociative identity disorder (DID)",
+     "subheading": "Dissociative Disorders",
+     "definition_quote": "Dissociative identity disorder, formerly known as multiple personality disorder, is when a person has several personalities rather than one integrated personality.",
+     "researchers": "本节未提及",
+     "plain": "一个人表现出多重人格"
+    },
+    {
+     "name": "Psychodynamic theorists on dissociative disorders",
+     "subheading": "Theories About the Cause of Dissociative Disorders",
+     "definition_quote": "Psychodynamic theorists believe that dissociative disorders result when an extremely traumatic event has been so thoroughly repressed that a split in consciousness results.",
+     "researchers": "本节未提及",
+     "plain": "创伤被压抑导致意识分裂"
+    },
+    {
+     "name": "Behaviorists on dissociative disorders",
+     "subheading": "Theories About the Cause of Dissociative Disorders",
+     "definition_quote": "Behaviorists posit that people who have experienced trauma simply find not thinking about it to be rewarding, thus producing amnesia or, in extreme cases, DID.",
+     "researchers": "本节未提及",
+     "plain": "不去想创伤得到强化"
+    },
+    {
+     "name": "mood or affective disorder",
+     "subheading": "Depressive Disorders",
+     "definition_quote": "Someone with a mood or affective disorder experiences extreme or inappropriate emotions.",
+     "researchers": "本节未提及",
+     "plain": "情绪极端或不恰当"
+    },
+    {
+     "name": "Major depressive disorder",
+     "subheading": "Depressive Disorders",
+     "definition_quote": "Major depressive disorder, also known as unipolar depression, is the most common mood disorder and is often referred to as the common cold of all psychological disorders.",
+     "researchers": "本节未提及",
+     "plain": "最常见的心境障碍"
+    },
+    {
+     "name": "Persistent depressive disorder",
+     "subheading": "Depressive Disorders",
+     "definition_quote": "Persistent depressive disorder is diagnosed when the depression is long-lasting but not as severe.",
+     "researchers": "本节未提及",
+     "plain": "长期但较轻的抑郁"
+    },
+    {
+     "name": "Seasonal affective disorder (SAD)",
+     "subheading": "Depressive Disorders",
+     "definition_quote": "Finally, some people experience depression but only during certain times of the year, usually winter when there is less sunlight.",
+     "researchers": "本节未提及",
+     "plain": "季节变化引发的抑郁"
+    },
+    {
+     "name": "Psychodynamic theorists on depressive disorders",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "Psychodynamic theorists may view depression as the product of anger directed inward or an overly punitive superego.",
+     "researchers": "本节未提及",
+     "plain": "愤怒内投或超我过严"
+    },
+    {
+     "name": "Learning theorists",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "Learning theorists view the mood disorder as bringing about some kind of reinforcement such as attention or sympathy.",
+     "researchers": "本节未提及",
+     "plain": "抑郁带来关注与同情"
+    },
+    {
+     "name": "cognitive triad",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "Aaron Beck, a cognitive theorist, believed that depression results from unreasonably negative ideas that people have about themselves, their world, and their futures. Beck calls these three components the cognitive triad.",
+     "researchers": "Aaron Beck",
+     "plain": "对自我世界未来的消极看法"
+    },
+    {
+     "name": "attribution",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "An attribution is an explanation of cause.",
+     "researchers": "本节未提及",
+     "plain": "对原因的解释"
+    },
+    {
+     "name": "internal, global, and stable attributions",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "People who tend to make internal, global, and stable attributions for bad events are more likely to be depressed.",
+     "researchers": "本节未提及",
+     "plain": "把坏事归于内在普遍稳定因素"
+    },
+    {
+     "name": "learned helplessness",
+     "subheading": "Theories About the Cause of Depressive Disorders",
+     "definition_quote": "Learned helplessness is when one’s prior experiences have caused that person to view himself or herself as unable to control aspects of the future that are controllable.",
+     "researchers": "Martin Seligman",
+     "plain": "认为无法控制未来而放弃"
+    },
+    {
+     "name": "bipolar disorder",
+     "subheading": "Bipolar and Related Disorders",
+     "definition_quote": "Unlike unipolar depression, bipolar disorder, formerly known as manic depression, usually involves both depressed and manic episodes.",
+     "researchers": "本节未提及",
+     "plain": "抑郁与躁狂交替出现"
+    },
+    {
+     "name": "manic episodes",
+     "subheading": "Bipolar and Related Disorders",
+     "definition_quote": "People experience manic episodes in different ways, but they usually involve feelings of high energy.",
+     "researchers": "本节未提及",
+     "plain": "精力异常旺盛的发作期"
+    },
+    {
+     "name": "hypomania",
+     "subheading": "Bipolar and Related Disorders",
+     "definition_quote": "The major difference is that bipolar II involves at least one episode of hypomania, which is a less extreme level of mania than in bipolar I.",
+     "researchers": "本节未提及",
+     "plain": "程度较轻的躁狂"
+    },
+    {
+     "name": "schizophrenia",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "The fundamental symptom of schizophrenia is disordered, distorted thinking often demonstrated through delusions, hallucinations, disorganized thinking, disorganized speech, and/or disorganized motor behavior.",
+     "researchers": "本节未提及",
+     "plain": "思维紊乱、脱离现实的精神病"
+    },
+    {
+     "name": "delusions",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Delusions are beliefs that have no basis in reality.",
+     "researchers": "本节未提及",
+     "plain": "与现实不符的错误信念"
+    },
+    {
+     "name": "hallucinations",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Hallucinations are perceptions in the absence of any sensory stimulation.",
+     "researchers": "本节未提及",
+     "plain": "无外界刺激的知觉"
+    },
+    {
+     "name": "neologisms",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "They may make up their own words (neologisms) or string together a series of nonsense words that rhyme (clang associations).",
+     "researchers": "本节未提及",
+     "plain": "自创无意义的新词"
+    },
+    {
+     "name": "word salad",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "As a result, it may be difficult to understand what they are trying to communicate, and the resultant speech has been described as word salad.",
+     "researchers": "本节未提及",
+     "plain": "杂乱无章、难以理解的言语"
+    },
+    {
+     "name": "flat affect",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Alternatively, they may consistently have essentially no emotional response at all (flat affect).",
+     "researchers": "本节未提及",
+     "plain": "几乎没有情绪反应"
+    },
+    {
+     "name": "catatonia",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Some schizophrenics suffer from catatonia, a motor problem.",
+     "researchers": "本节未提及",
+     "plain": "运动行为异常"
+    },
+    {
+     "name": "positive symptoms",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Positive symptoms refer to excesses in behavior, thought, or mood such as neologisms and hallucinations, whereas negative symptoms correspond to deficits such as flat affect or catatonic stupor.",
+     "researchers": "本节未提及",
+     "plain": "行为思维或情绪的过度"
+    },
+    {
+     "name": "negative symptoms",
+     "subheading": "Schizophrenia Spectrum Disorders",
+     "definition_quote": "Positive symptoms refer to excesses in behavior, thought, or mood such as neologisms and hallucinations, whereas negative symptoms correspond to deficits such as flat affect or catatonic stupor.",
+     "researchers": "本节未提及",
+     "plain": "正常功能的缺失"
+    },
+    {
+     "name": "dopamine hypothesis",
+     "subheading": "Theories About the Cause of Schizophrenic Disorders",
+     "definition_quote": "The basic idea behind the dopamine hypothesis is that high levels of dopamine seem to be associated with schizophrenia.",
+     "researchers": "本节未提及",
+     "plain": "多巴胺水平过高致病"
+    },
+    {
+     "name": "tardive dyskinesia",
+     "subheading": "Theories About the Cause of Schizophrenic Disorders",
+     "definition_quote": "However, extensive use of these drugs may also cause negative side effects such as muscle tremors and stiffness, a problem known as tardive dyskinesia.",
+     "researchers": "本节未提及",
+     "plain": "长期用药致肌肉震颤"
+    },
+    {
+     "name": "double bind",
+     "subheading": "Theories About the Cause of Schizophrenic Disorders",
+     "definition_quote": "A double bind is when a person is given contradictory messages.",
+     "researchers": "本节未提及",
+     "plain": "收到互相矛盾的信息"
+    },
+    {
+     "name": "Personality disorders",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Personality disorders are well-established, maladaptive ways of behaving that negatively affect people’s ability to function.",
+     "researchers": "本节未提及",
+     "plain": "长期适应不良的行为模式"
+    },
+    {
+     "name": "Cluster A",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Cluster A is associated with suspicious or eccentric behaviors and includes paranoid, schizoid, and schizotypal personality disorders.",
+     "researchers": "本节未提及",
+     "plain": "多疑古怪的行为集群"
+    },
+    {
+     "name": "Cluster B",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Cluster B is marked by impulsive or emotional, dramatic, and erratic tendencies and includes antisocial, histrionic, narcissistic, and borderline personality disorders.",
+     "researchers": "本节未提及",
+     "plain": "冲动戏剧化的行为集群"
+    },
+    {
+     "name": "antisocial personality disorder",
+     "subheading": "Personality Disorders",
+     "definition_quote": "People with antisocial personality disorder have little regard for other people’s feelings.",
+     "researchers": "本节未提及",
+     "plain": "漠视他人感受与权利"
+    },
+    {
+     "name": "borderline personality disorder",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Borderline personality disorder can result in unstable social relationships; people who suffer from it can fear abandonment and switch back and forth between how they feel about and act toward others.",
+     "researchers": "本节未提及",
+     "plain": "人际关系与情绪不稳定"
+    },
+    {
+     "name": "narcissistic personality disorder",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Narcissistic personality disorder involves seeing oneself as the center of the universe (narcissism means “self-love”), and histrionic personality disorder connotes overly dramatic behavior (histrionics).",
+     "researchers": "本节未提及",
+     "plain": "以自我为中心"
+    },
+    {
+     "name": "Cluster C",
+     "subheading": "Personality Disorders",
+     "definition_quote": "Anxiety is the hallmark of Cluster C, which includes avoidant, dependent, and obsessive-compulsive personality disorders.",
+     "researchers": "本节未提及",
+     "plain": "以焦虑为特征的行为集群"
+    },
+    {
+     "name": "Obsessive-compulsive disorder (OCD)",
+     "subheading": "Obsessive-Compulsive and Related Disorders",
+     "definition_quote": "Obsessive-compulsive disorder (OCD) is when persistent, unwanted thoughts (obsessions) cause someone to feel the need (compulsion) to engage in a particular action.",
+     "researchers": "本节未提及",
+     "plain": "强迫思维引发强迫行为"
+    },
+    {
+     "name": "body dysmorphic disorder",
+     "subheading": "Obsessive-Compulsive and Related Disorders",
+     "definition_quote": "However, the DSM-5 has created a separate classification for OCD and related disorders, including hoarding disorder and body dysmorphic disorder (an obsession with perceived defects related to one’s appearance).",
+     "researchers": "本节未提及",
+     "plain": "过度担心外貌缺陷"
+    },
+    {
+     "name": "Post-traumatic stress disorder (PTSD)",
+     "subheading": "Obsessive-Compulsive and Related Disorders",
+     "definition_quote": "PTSD usually involves flashbacks or nightmares following a person’s involvement in or observation of an extremely troubling event such as a war or natural disaster.",
+     "researchers": "本节未提及",
+     "plain": "创伤后反复闪回或噩梦"
+    },
+    {
+     "name": "Paraphilias",
+     "subheading": "Paraphilic Disorders",
+     "definition_quote": "Paraphilias, or psychosexual disorders, are marked by the sexual attraction to an object, a person, or an activity not usually seen as sexual.",
+     "researchers": "本节未提及",
+     "plain": "非常规对象引发的性唤起"
+    },
+    {
+     "name": "pedophilia",
+     "subheading": "Paraphilic Disorders",
+     "definition_quote": "For instance, attraction to children is called pedophilia, to animals is called zoophilia, and to objects, such as shoes, is called fetishism.",
+     "researchers": "本节未提及",
+     "plain": "对儿童的性吸引"
+    },
+    {
+     "name": "anorexia nervosa",
+     "subheading": "Feeding and Eating Disorders",
+     "definition_quote": "The basic symptoms that result in a diagnosis of anorexia nervosa are being at significantly low weight for one’s age and size, an intense fear of fat and food, and a distorted body image.",
+     "researchers": "本节未提及",
+     "plain": "害怕发胖而自我饥饿"
+    },
+    {
+     "name": "bulimia",
+     "subheading": "Feeding and Eating Disorders",
+     "definition_quote": "Bulimia commonly involves a binge-purge cycle in which sufferers eat large quantities of food and then attempt to purge the food from their bodies by throwing up or using laxatives.",
+     "researchers": "本节未提及",
+     "plain": "暴食后催吐或导泻"
+    },
+    {
+     "name": "binge-eating disorder",
+     "subheading": "Feeding and Eating Disorders",
+     "definition_quote": "Binge-eating disorder is thought to be the most commonly occurring eating disorder in the United States. It involves eating very large quantities of food in a short time while experiencing feelings of loss of control.",
+     "researchers": "本节未提及",
+     "plain": "短时间大量进食并失控"
+    },
+    {
+     "name": "Substance-related and addictive disorders",
+     "subheading": "Substance-Related and Addictive Disorders",
+     "definition_quote": "Substance-related and addictive disorders is a diagnosis made when the use of such substances or behaviors, like gambling, regularly negatively affects a person’s life.",
+     "researchers": "本节未提及",
+     "plain": "物质使用造成负面影响的诊断"
+    },
+    {
+     "name": "diagnostic labels",
+     "subheading": "A CAUTIONARY NOTE",
+     "definition_quote": "However, keep in mind that diagnostic labels are not always correct and tend to outlast their usefulness.",
+     "researchers": "本节未提及",
+     "plain": "诊断标签可能不准确"
+    }
+   ]
+  },
+  {
+   "chapter": 17,
+   "section": "The Advantages and Disadvantages of Diagnostic Labels",
+   "page": 368,
+   "knowledge_points": [
+    {
+     "name": "The Rosenhan study",
+     "subheading": "",
+     "definition_quote": "In 1978, David Rosenhan conducted a study in which he and several associates sought admission to a number of mental hospitals.",
+     "researchers": "David Rosenhan",
+     "plain": "假病人入住精神病院的研究"
+    }
+   ]
+  },
+  {
+   "chapter": 18,
+   "section": "Overview",
+   "page": 378,
+   "knowledge_points": [
+    {
+     "name": "methods of treatment",
+     "subheading": "",
+     "definition_quote": "All the methods of treatment, however, share a common purpose: to alter the client’s behavior, thoughts, and/or feelings.",
+     "researchers": "本节未提及",
+     "plain": "治疗旨在改变行为想法或感受"
+    }
+   ]
+  },
+  {
+   "chapter": 18,
+   "section": "Types of Therapy",
+   "page": 378,
+   "knowledge_points": [
+    {
+     "name": "Psychotherapies",
+     "subheading": "",
+     "definition_quote": "Psychotherapies, except for behavioral treatments, largely consist of talking to a psychologist.",
+     "researchers": "本节未提及",
+     "plain": "主要通过谈话进行的心理治疗"
+    },
+    {
+     "name": "Psychoanalysis",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Psychoanalysis is a therapeutic technique developed by Sigmund Freud.",
+     "researchers": "Sigmund Freud",
+     "plain": "弗洛伊德创立的精神分析疗法"
+    },
+    {
+     "name": "Psychodynamic therapy",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Psychodynamic therapy grew out of Sigmund Freud’s psychoanalytic approach.",
+     "researchers": "Sigmund Freud",
+     "plain": "源于精神分析的心理动力疗法"
+    },
+    {
+     "name": "Symptom substitution",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Symptom substitution is when, after a person has been successfully treated for one psychological disorder, that person begins to experience a new psychological problem.",
+     "researchers": "本节未提及",
+     "plain": "治愈后出现新的心理问题"
+    },
+    {
+     "name": "Free association",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "More commonly, psychodynamic theorists might ask patients to free associate—to say whatever comes to mind without thinking.",
+     "researchers": "本节未提及",
+     "plain": "不假思索说出脑中一切"
+    },
+    {
+     "name": "Manifest content",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "In dream analysis, what the patient reports is called the manifest content of the dream.",
+     "researchers": "本节未提及",
+     "plain": "梦中表面可见的内容"
+    },
+    {
+     "name": "Latent content",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "What is really of interest to the analyst is the latent or hidden content.",
+     "researchers": "本节未提及",
+     "plain": "梦隐藏的真实含义"
+    },
+    {
+     "name": "Resistance",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Since analysis can be a painful process of coming to terms with deeply repressed, troubling thoughts, people are thought to try to protect themselves through resistance.",
+     "researchers": "本节未提及",
+     "plain": "抗拒触及压抑的痛苦想法"
+    },
+    {
+     "name": "Transference",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Transference is when, during therapy, patients begin to have strong feelings toward their therapists.",
+     "researchers": "本节未提及",
+     "plain": "把情感转移到治疗师身上"
+    },
+    {
+     "name": "Insight therapies",
+     "subheading": "Psychodynamic Therapy",
+     "definition_quote": "Insight therapies highlight the importance of the patients/clients gaining an understanding of their problems.",
+     "researchers": "本节未提及",
+     "plain": "强调领悟问题本质的疗法"
+    },
+    {
+     "name": "Humanistic therapies",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "Humanistic therapies focus on helping people to understand and accept themselves and strive to self-actualize.",
+     "researchers": "本节未提及",
+     "plain": "帮助人接纳自我并自我实现"
+    },
+    {
+     "name": "Self-actualization",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "Self-actualization means to reach one’s highest potential.",
+     "researchers": "本节未提及",
+     "plain": "发挥最高潜能"
+    },
+    {
+     "name": "Determinism",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "It holds that people have no influence over what happens to them and that their choices are predetermined by forces outside of their control.",
+     "researchers": "本节未提及",
+     "plain": "行为由外部力量决定"
+    },
+    {
+     "name": "Person-centered therapy",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "This therapeutic method hinges on the therapist providing the client with what Rogers termed unconditional positive regard.",
+     "researchers": "Carl Rogers",
+     "plain": "以无条件积极关注为核心"
+    },
+    {
+     "name": "Unconditional positive regard",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "Unconditional positive regard is blanket acceptance and support of a person regardless of what the person says or does.",
+     "researchers": "Carl Rogers",
+     "plain": "无条件接纳与支持来访者"
+    },
+    {
+     "name": "Active listening",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "They encourage the clients to talk a lot about how they feel and sometimes mirror back those feelings to help clarify the feelings for the client.",
+     "researchers": "本节未提及",
+     "plain": "倾听并回映来访者感受"
+    },
+    {
+     "name": "Gestalt therapy",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "Another type of humanistic therapy is Gestalt therapy, developed by Fritz Perls.",
+     "researchers": "Fritz Perls",
+     "plain": "强调整个自我与当下"
+    },
+    {
+     "name": "Existential therapies",
+     "subheading": "Humanistic Therapies",
+     "definition_quote": "Existential therapies are humanistic therapies that focus on helping clients achieve a subjectively meaningful perception of their lives.",
+     "researchers": "本节未提及",
+     "plain": "帮助来访者寻找生活意义"
+    },
+    {
+     "name": "Applied behavior analysis (ABA)",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "One behavioral approach, most used to help people with developmental disorders like autism spectrum disorder, is known as applied behavior analysis (ABA).",
+     "researchers": "本节未提及",
+     "plain": "用强化系统塑造行为"
+    },
+    {
+     "name": "Counterconditioning",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "One technique is counterconditioning, a kind of classical conditioning in which an unpleasant conditioned response is replaced with a pleasant one.",
+     "researchers": "本节未提及",
+     "plain": "用愉快反应替代不愉快反应"
+    },
+    {
+     "name": "Systematic desensitization",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "This process involves teaching the client to replace the feelings of anxiety with relaxation.",
+     "researchers": "Joseph Wolpe",
+     "plain": "逐步放松以消除焦虑"
+    },
+    {
+     "name": "Anxiety hierarchy",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "An anxiety hierarchy is a rank-ordered list of what the client fears, starting with the least frightening and ending with the most frightening.",
+     "researchers": "本节未提及",
+     "plain": "按恐惧程度排列的清单"
+    },
+    {
+     "name": "Flooding",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "Unlike the gradual process of systematic desensitization, flooding involves having the client address the most frightening scenario first.",
+     "researchers": "本节未提及",
+     "plain": "直接面对最恐惧的情境"
+    },
+    {
+     "name": "Modeling",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "Modeling, as you will recall from Unit 3, is a process through which one person learns by observing and then imitating the behavior of another.",
+     "researchers": "本节未提及",
+     "plain": "通过观察模仿他人学习"
+    },
+    {
+     "name": "Exposure therapies",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "However, discussing it with systematic desensitization and flooding makes sense because all three are exposure therapies; all involve some degree of contact with the feared stimuli.",
+     "researchers": "本节未提及",
+     "plain": "让来访者接触恐惧刺激"
+    },
+    {
+     "name": "Aversive therapy",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "This process involves pairing a habit a person wishes to break, such as smoking or bed- wetting, with an unpleasant stimulus such as electric shock or nausea.",
+     "researchers": "本节未提及",
+     "plain": "将坏习惯与厌恶刺激配对"
+    },
+    {
+     "name": "Token economy",
+     "subheading": "Behavioral Therapies",
+     "definition_quote": "In a token economy, desired behaviors are identified and rewarded with tokens.",
+     "researchers": "本节未提及",
+     "plain": "用代币奖励期望行为"
+    },
+    {
+     "name": "Cognitive therapy",
+     "subheading": "Cognitive Therapies",
+     "definition_quote": "As cognitive therapists locate the cause of psychological problems in the way people think, their methods of therapy concentrate on changing these unhealthy thought patterns.",
+     "researchers": "Aaron Beck",
+     "plain": "通过改变思维模式治疗"
+    },
+    {
+     "name": "Cognitive restructuring",
+     "subheading": "Cognitive Therapies",
+     "definition_quote": "The goal of cognitive therapy is often referred to as cognitive restructuring, which involves challenging people’s patterns of maladaptive thinking.",
+     "researchers": "本节未提及",
+     "plain": "挑战适应不良的思维"
+    },
+    {
+     "name": "Cognitive triad",
+     "subheading": "Cognitive Therapies",
+     "definition_quote": "Beck explains depression using the cognitive triad: people’s beliefs about themselves, their worlds, and their futures.",
+     "researchers": "Aaron Beck",
+     "plain": "对自我世界未来的消极信念"
+    },
+    {
+     "name": "Cognitive behavioral therapy (CBT)",
+     "subheading": "Cognitive Behavioral Therapies",
+     "definition_quote": "One popular group of therapies combines the ideas and techniques of both cognitive and behavioral psychologists. This approach to therapy is known as cognitive behavioral therapy (CBT).",
+     "researchers": "本节未提及",
+     "plain": "结合认知与行为技术"
+    },
+    {
+     "name": "Rational emotive behavior therapy (REBT)",
+     "subheading": "Cognitive Behavioral Therapies",
+     "definition_quote": "Therapists employing REBT look to expose and confront the dysfunctional thoughts of their clients.",
+     "researchers": "Albert Ellis",
+     "plain": "驳斥不合理信念的疗法"
+    },
+    {
+     "name": "Dialectical behavior therapy (DBT)",
+     "subheading": "Cognitive Behavioral Therapies",
+     "definition_quote": "DBT focuses more on emotions than thought patterns and is often used to help people who have extreme emotional reactions interact with others and their environments in healthier ways.",
+     "researchers": "本节未提及",
+     "plain": "侧重情绪调节的认知行为疗法"
+    },
+    {
+     "name": "Group therapy",
+     "subheading": "Group Therapy",
+     "definition_quote": "Sometimes group therapy involves meeting with several people experiencing similar difficulties.",
+     "researchers": "本节未提及",
+     "plain": "多人同时接受心理治疗"
+    },
+    {
+     "name": "Family therapy",
+     "subheading": "Group Therapy",
+     "definition_quote": "Since a client’s problems do not occur in a vacuum, many therapists find meeting with the whole family helpful in revealing the patterns of interaction among family members and altering the behavior of the whole family rather than just one member.",
+     "researchers": "本节未提及",
+     "plain": "以整个家庭为单位的治疗"
+    },
+    {
+     "name": "Self-help groups",
+     "subheading": "Group Therapy",
+     "definition_quote": "Self-help groups such as Alcoholics Anonymous (AA) are a form of group therapy that does not involve a therapist at all.",
+     "researchers": "本节未提及",
+     "plain": "无治疗师带领的互助团体"
+    },
+    {
+     "name": "Somatic therapies",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Therefore, these psychologists advocate the use of somatic therapies—therapies that produce bodily changes.",
+     "researchers": "本节未提及",
+     "plain": "通过身体改变治疗心理障碍"
+    },
+    {
+     "name": "Drug therapy or psychopharmacology",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "The most common type of somatic therapy is drug therapy or psychopharmacology, also known as chemotherapy (see Table 18.2).",
+     "researchers": "本节未提及",
+     "plain": "用药物治疗心理障碍"
+    },
+    {
+     "name": "Antipsychotic medications",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Schizophrenia is generally treated with antipsychotic medications such as Thorazine or Haldol. These drugs generally function by blocking the receptor sites for dopamine.",
+     "researchers": "本节未提及",
+     "plain": "阻断多巴胺受体"
+    },
+    {
+     "name": "Tardive dyskinesia",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "An unfortunate side effect of antipsychotic medication is tardive dyskinesia—Parkinsonian-like, chronic muscle tremors.",
+     "researchers": "本节未提及",
+     "plain": "抗精神病药致肌肉震颤"
+    },
+    {
+     "name": "serotonin selective reuptake inhibitor drugs (SSRIs)",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "The three most common kinds of drugs used to treat unipolar depression are tricyclic antidepressants, monoamine oxidase (MAO) inhibitors, and serotonin selective reuptake inhibitor drugs or SSRIs (most notably Prozac).",
+     "researchers": "本节未提及",
+     "plain": "提高血清素活动的抗抑郁药"
+    },
+    {
+     "name": "Lithium",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Lithium, a metal, is often used to treat the manic phase of bipolar disorder.",
+     "researchers": "本节未提及",
+     "plain": "治疗躁狂发作的金属药物"
+    },
+    {
+     "name": "Biofeedback",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "During biofeedback, a patient is taught to recognize and then control various physiological responses such as breathing, heart rate, or even brain activity (neurofeedback) without medication.",
+     "researchers": "本节未提及",
+     "plain": "学习控制生理反应"
+    },
+    {
+     "name": "Transcranial magnetic stimulation (TMS)",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Transcranial magnetic stimulation (TMS) employs magnets to alter brain activity and is mainly used in the treatment of depression.",
+     "researchers": "本节未提及",
+     "plain": "用磁刺激改变脑活动"
+    },
+    {
+     "name": "Electroconvulsive therapy (ECT)",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Another approach targeted at changing brain activity is electroconvulsive therapy (ECT).",
+     "researchers": "本节未提及",
+     "plain": "电击诱发短暂癫痫发作"
+    },
+    {
+     "name": "Psychosurgery",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "Psychosurgery involves the purposeful destruction of part of the brain to alter a person’s behavior.",
+     "researchers": "本节未提及",
+     "plain": "破坏部分脑组织以改变行为"
+    },
+    {
+     "name": "Prefrontal lobotomy",
+     "subheading": "Somatic Therapies",
+     "definition_quote": "This operation involved cutting the main neurons leading to the frontal lobe of the brain.",
+     "researchers": "本节未提及",
+     "plain": "切断通往额叶的神经元"
+    },
+    {
+     "name": "Eclectic therapy",
+     "subheading": "Eclectic Therapies",
+     "definition_quote": "Many therapists do not exclusively use one type of therapy.",
+     "researchers": "本节未提及",
+     "plain": "综合使用多种疗法"
+    },
+    {
+     "name": "Somatic cognitive therapy",
+     "subheading": "Eclectic Therapies",
+     "definition_quote": "Somatic cognitive therapy is another very common combination eclectic therapy.",
+     "researchers": "本节未提及",
+     "plain": "药物与认知谈话治疗结合"
+    }
+   ]
+  },
+  {
+   "chapter": 18,
+   "section": "Kinds of Therapists",
+   "page": 391,
+   "knowledge_points": [
+    {
+     "name": "Psychiatrists",
+     "subheading": "",
+     "definition_quote": "Psychiatrists are medical doctors and are therefore the only therapists permitted to prescribe medication in most U.S. states.",
+     "researchers": "本节未提及",
+     "plain": "可开药的医学博士"
+    },
+    {
+     "name": "Clinical psychologists",
+     "subheading": "",
+     "definition_quote": "Clinical psychologists earn doctoral degrees (PhDs) that require four or more years of study.",
+     "researchers": "本节未提及",
+     "plain": "获得博士学位的心理学家"
+    },
+    {
+     "name": "Counseling therapists",
+     "subheading": "",
+     "definition_quote": "Counseling therapists or counseling psychotherapists typically have some kind of graduate degree in psychology.",
+     "researchers": "本节未提及",
+     "plain": "处理较轻问题的咨询师"
+    },
+    {
+     "name": "therapeutic alliance",
+     "subheading": "HOW EFFECTIVE IS THERAPY?",
+     "definition_quote": "The success of the treatment process is also clearly affected by the relationship between client and therapist—the therapeutic alliance.",
+     "researchers": "本节未提及",
+     "plain": "来访者与治疗师的关系"
+    },
+    {
+     "name": "Evidence-based interventions",
+     "subheading": "HOW EFFECTIVE IS THERAPY?",
+     "definition_quote": "Evidence-based interventions have been demonstrated to work through research, but even these approaches will not be effective for everyone all the time.",
+     "researchers": "本节未提及",
+     "plain": "经研究证实有效的干预"
+    }
+   ]
+  }
+ ]
+}

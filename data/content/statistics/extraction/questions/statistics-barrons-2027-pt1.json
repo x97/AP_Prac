@@ -1,0 +1,3452 @@
+{
+ "paper_id": "statistics-barrons-2027-pt1",
+ "kind": "practice_test",
+ "number": 1,
+ "unit_no": null,
+ "title": "Barron's AP Statistics 2027 Practice Test 1",
+ "chinese_title": "巴朗 AP 统计 2027 模拟卷 1",
+ "pdf_page_start": 549,
+ "pdf_page_end": 570,
+ "answer_page_start": 571,
+ "answer_page_end": 588,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "$175,000",
+    "B": "$187,500",
+    "C": "$212,500",
+    "D": "$237,500"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 549,
+      "bbox": [
+       113.0,
+       653.2,
+       207.4,
+       671.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 549,
+      "bbox": [
+       113.0,
+       675.7,
+       133.3,
+       693.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 549,
+      "bbox": [
+       113.0,
+       698.2,
+       207.4,
+       716.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       72.0,
+       134.7,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 549,
+     "bbox": [
+      168.8,
+      451.5,
+      443.2,
+      606.8
+     ]
+    }
+   ],
+   "page_start": 549,
+   "page_end": 550,
+   "stem": "The following is a histogram of 87 home sale prices (in thousands of dollars) in one community: Which of the following could be the median of the sale prices?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "With 87 home sale prices, the median is between the 43rd and 44th values when placed in either ascending or descending order. There appear to be around 40 values between $225,000 and $250,000 and 25 more values between $200,000 and $225,000. So, both the 43rd and 44th values are in the 200 to 225 interval in the histogram.",
+   "question_id": "statistics-barrons-2027-pt1-001",
+   "source_pages": [
+    549,
+    550
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "A complete census",
+    "B": "A least squares regression line showing high correlation",
+    "C": "A simple random sample",
+    "D": "An experiment"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       151.5,
+       269.0,
+       169.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       174.0,
+       133.3,
+       192.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       196.5,
+       308.1,
+       214.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       219.0,
+       134.7,
+       237.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 550,
+   "page_end": 550,
+   "stem": "Which of the following is most useful in establishing cause-and- effect relationships?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Regression lines show association, not causation. Surveys suggest relationships, which experiments can help to show to be cause and effect.",
+   "question_id": "statistics-barrons-2027-pt1-002",
+   "source_pages": [
+    550,
+    550
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, because 6′1″ > 5′6″ + 2(0.6745)(2.5″)",
+    "B": "Yes, because 6′1″ > 5′6″ + 3(0.6745)(2.5″)",
+    "C": "Yes, because 6′1″ > 5′6″ + 4(0.6745)(2.5″)",
+    "D": "No, because 6′1″ < 5′6″ + 3(2.5″)"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       357.0,
+       436.8,
+       375.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       379.5,
+       133.3,
+       397.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       402.0,
+       436.8,
+       420.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       424.5,
+       134.7,
+       442.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 550,
+   "page_end": 550,
+   "stem": "The average height of ancient Egyptian men was 5′6″. Assuming a roughly normal distribution of heights, with a standard deviation of 2.5″, would Pharaoh Sa-Nakht’s height of 6′1″ be considered an outlier using our standard definition of outliers? (invNorm(0.75) = 0.6745)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "invNorm(0.75) = 0.6745, so Q3 = 5′6″ + 0.6745(2.5″), Q1 = 5′6″ − 0.6745(2.5″), and IQR = Q3 − Q1 = 2(0.6745)(2.5″). On the higher side, outliers are values greater than Q3 + 1.5(IQR) = [5′6″ + 0.6745(2.5″)] + 1.5[2(0.6745)(2.5″)] = 5′6″ + 4(0.6745)(2.5″) = 6′0.745″ and 6′1″ > 6′0.745″.",
+   "question_id": "statistics-barrons-2027-pt1-003",
+   "source_pages": [
+    550,
+    550
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "Of all politicians running for a congressional seat, 90% spend between $1,794,000 and $1,856,000.",
+    "B": "Of all politicians running for a congressional seat, 90% spend a mean dollar amount that is between $1,794,000 and $1,856,000.",
+    "C": "We are 90% confident that politicians running for a congressional seat spend between $1,794,000 and $1,856,000.",
+    "D": "We are 90% confident that politicians running for a congressional seat spend a mean dollar amount between $1,794,000 and $1,856,000."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       580.5,
+       507.5,
+       598.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       621.0,
+       133.3,
+       639.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 550,
+      "bbox": [
+       113.0,
+       679.5,
+       485.2,
+       697.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       94.5,
+       134.7,
+       112.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 550,
+   "page_end": 551,
+   "stem": "To determine the average cost of running for a congressional seat, a simple random sample of 50 politicians is chosen and the politicians’ records examined. The cost figures show a mean of $1,825,000 with a standard deviation of $132,000. Which of the following is the best interpretation of a 90% confidence interval estimate for the average cost of running for office?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Calculator software gives (1,794,000, 1,856,000). We are 90% confident that the population mean is within the interval calculated using the data from the sample.",
+   "question_id": "statistics-barrons-2027-pt1-004",
+   "source_pages": [
+    550,
+    551
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "The first study is a controlled experiment, while the second is an observational study.",
+    "B": "The first study is an observational study, while the second is a controlled experiment.",
+    "C": "Both studies are controlled experiments.",
+    "D": "Both studies are observational studies."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       354.0,
+       486.5,
+       372.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       394.5,
+       133.3,
+       412.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       435.0,
+       412.6,
+       453.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       457.5,
+       134.7,
+       475.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 551,
+   "page_end": 551,
+   "stem": "In one study on the effect that eating meat products has on weight level, a simple random sample (SRS) of 500 subjects who admitted to eating meat at least once a day had their weights compared with those of an independent SRS of 500 people who claimed to be vegetarians. In a second study, an SRS of 500 subjects was served at least one meat meal per day for 6 months, while an independent SRS of 500 others were chosen to receive a strictly vegetarian diet for 6 months, with weights compared after 6 months. Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The first study was observational because the subjects were not chosen for treatment; their current eating habits were simply noted. In the second study, two treatments were applied (meat meals and vegetarian meals).",
+   "question_id": "statistics-barrons-2027-pt1-005",
+   "source_pages": [
+    551,
+    551
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "(0.6)(0.005)"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 551,
+      "bbox": [
+       145.5,
+       577.5,
+       285.0,
+       601.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 551,
+      "bbox": [
+       145.5,
+       606.0,
+       285.0,
+       628.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 551,
+      "bbox": [
+       145.5,
+       633.0,
+       285.0,
+       655.5
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       578.6,
+       133.5,
+       596.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       606.3,
+       133.3,
+       624.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       633.3,
+       133.5,
+       651.4
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 551,
+      "bbox": [
+       113.0,
+       660.0,
+       134.7,
+       678.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 551,
+   "page_end": 551,
+   "stem": "A plumbing contractor obtains 60% of her boiler circulators from a company whose defect rate is 0.005 and the rest from a company whose defect rate is 0.010. If a circulator is defective, what is the probability that it came from the first company?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "",
+   "question_id": "statistics-barrons-2027-pt1-006",
+   "source_pages": [
+    551,
+    551
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Dialysis center: Type I error; towel manufacturer: Type I error",
+    "B": "Dialysis center: Type I error; towel manufacturer: Type II error",
+    "C": "Dialysis center: Type II error; towel manufacturer: Type I error",
+    "D": "Dialysis center: Type II error; towel manufacturer: Type II error"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       231.0,
+       519.2,
+       249.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       271.5,
+       133.3,
+       289.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       312.0,
+       524.8,
+       330.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       352.5,
+       134.7,
+       370.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 552,
+   "page_end": 552,
+   "stem": "A kidney dialysis center periodically checks a sample of its equipment and performs a major recalibration if readings are sufficiently off target. Similarly, a fabric factory periodically checks the sizes of towels coming off an assembly line and halts production if measurements are sufficiently off target. In both situations, we have the null hypothesis that the equipment is performing satisfactorily. For each situation, which is the more serious concern, a Type I or Type II error?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "At the dialysis center the more serious concern would be a Type II error, which is that the equipment is not performing correctly yet the check does not pick this up; however, at the towel manufacturing plant the more serious concern would be a Type I error, which is that the equipment is performing correctly yet the check causes a production halt.",
+   "question_id": "statistics-barrons-2027-pt1-007",
+   "source_pages": [
+    552,
+    552
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "The sampling distribution of the sample proportion with n = 10 and p = 0.75",
+    "B": "The sampling distribution of the sample mean with x̅ = 10(0.75) and",
+    "C": "The binomial distribution with n = 10 and p = 0.75",
+    "D": "The binomial distribution with n = 50 and p = 0.75"
+   },
+   "option_images": {
+    "B": [
+     {
+      "page": 552,
+      "bbox": [
+       233.2,
+       572.2,
+       336.8,
+       584.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       508.5,
+       530.5,
+       526.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       549.0,
+       133.3,
+       567.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       589.5,
+       482.9,
+       607.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 552,
+      "bbox": [
+       113.0,
+       612.0,
+       134.7,
+       630.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 552,
+   "page_end": 552,
+   "stem": "A coin is weighted so that the probability of heads is 0.75. The coin is tossed 10 times, and the number of heads is noted. This procedure is repeated a total of 50 times, and the number of heads is recorded each time. What kind of distribution has been simulated?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "There are two possible outcomes (heads and tails), with the probability of heads always 0.75 (independent of what happened on the previous toss), and we are interested in the number of heads in 10 tosses. Thus, this is a binomial model with n = 10 and p = 0.75. Repeating this over and over (in this case 50 times) simulates the resulting binomial distribution.",
+   "question_id": "statistics-barrons-2027-pt1-008",
+   "source_pages": [
+    552,
+    552
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "(0.61)3 (0.39)2 + (0.61)4(0.39) + (0.61)5",
+    "B": "[see image]",
+    "C": "1 − [(0.39)5 + 5(0.61) (0.39)4 + 10(0.61)2 (0.39)3 + 10(0.61)3 (0.39)2]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 553,
+      "bbox": [
+       145.5,
+       174.0,
+       240.0,
+       195.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 553,
+      "bbox": [
+       147.0,
+       269.2,
+       358.5,
+       304.5
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       174.0,
+       133.5,
+       192.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       202.2,
+       133.3,
+       220.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       225.0,
+       497.4,
+       245.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       276.0,
+       134.7,
+       294.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 553,
+   "page_end": 553,
+   "stem": "If there are five cyclones in one year, what is the probability that at least three become hurricanes?",
+   "context": "Questions 9–11 refer to the following: Past studies indicate that the probability of a tropical cyclone becoming a hurricane is 0.61. Assume that the probability of any cyclone becoming a hurricane is independent of what happens to any other cyclone.",
+   "option_crops": {
+    "B": {
+     "page": 553,
+     "bbox": [
+      90.0,
+      199.2,
+      550.0,
+      222.0
+     ]
+    }
+   },
+   "correct_answer": "D",
+   "answer_text": "In a binomial distribution with n = 5 and p = 0.61, the probability of at least 3 successes is P(3 successes) + P(4 successes) + P(5 successes)",
+   "question_id": "statistics-barrons-2027-pt1-009",
+   "source_pages": [
+    553,
+    553
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "5(0.39)",
+    "B": "5(0.61)",
+    "C": "5(0.39)(0.61)",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "D": [
+     {
+      "page": 553,
+      "bbox": [
+       147.0,
+       442.5,
+       222.0,
+       455.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       370.5,
+       194.3,
+       388.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       393.0,
+       133.3,
+       411.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       415.5,
+       234.9,
+       433.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       438.0,
+       134.7,
+       456.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 553,
+   "page_end": 553,
+   "stem": "For years with five cyclones, what is the expected number of those that become hurricanes?",
+   "context": "Questions 9–11 refer to the following: Past studies indicate that the probability of a tropical cyclone becoming a hurricane is 0.61. Assume that the probability of any cyclone becoming a hurricane is independent of what happens to any other cyclone.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The mean or expected value of a binomial = np. Here we have np = 5(0.61).",
+   "question_id": "statistics-barrons-2027-pt1-010",
+   "source_pages": [
+    553,
+    553
+   ]
+  },
+  {
+   "number": 11,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "D": [
+     {
+      "page": 554,
+      "bbox": [
+       147.0,
+       172.5,
+       255.8,
+       239.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       522.0,
+       133.5,
+       540.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 553,
+      "bbox": [
+       113.0,
+       621.7,
+       133.3,
+       639.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       72.0,
+       133.5,
+       90.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       172.5,
+       134.7,
+       190.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 553,
+     "bbox": [
+      145.5,
+      522.0,
+      275.2,
+      606.8
+     ]
+    },
+    {
+     "page": 553,
+     "bbox": [
+      145.5,
+      621.8,
+      253.5,
+      705.8
+     ]
+    },
+    {
+     "page": 554,
+     "bbox": [
+      145.5,
+      72.0,
+      275.2,
+      157.5
+     ]
+    }
+   ],
+   "page_start": 553,
+   "page_end": 554,
+   "stem": "Which of the following histograms best illustrates a binomial probability distribution with n = 5 and p = 0.61?",
+   "context": "Questions 9–11 refer to the following: Past studies indicate that the probability of a tropical cyclone becoming a hurricane is 0.61. Assume that the probability of any cyclone becoming a hurricane is independent of what happens to any other cyclone.",
+   "option_crops": {
+    "A": {
+     "page": 553,
+     "bbox": [
+      90.0,
+      519.0,
+      550.0,
+      618.7
+     ]
+    },
+    "B": {
+     "page": 553,
+     "bbox": [
+      90.0,
+      618.7,
+      550.0,
+      665.8
+     ]
+    },
+    "C": {
+     "page": 554,
+     "bbox": [
+      90.0,
+      69.0,
+      550.0,
+      169.5
+     ]
+    }
+   },
+   "correct_answer": "A",
+   "answer_text": "With n = 5, we expect 6 bars corresponding to 0, 1, 2, 3, 4, and 5 “successes.” With p = 0.61, there are higher probabilities associated with the larger number of successes. We expect the histogram to be slightly skewed left.",
+   "question_id": "statistics-barrons-2027-pt1-011",
+   "source_pages": [
+    553,
+    554
+   ]
+  },
+  {
+   "number": 12,
+   "section": "MCQ",
+   "options": {
+    "A": "0.5, 0.44, 0.3",
+    "B": "0.5, 0.44, 0.2",
+    "C": "0.44, 0.5, 0.3",
+    "D": "0, 0.5, 0.3"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       340.5,
+       234.7,
+       358.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       363.0,
+       133.3,
+       381.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       385.5,
+       234.8,
+       403.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       408.0,
+       134.7,
+       426.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 554,
+   "page_end": 554,
+   "stem": "Given the probabilities P(A) = 0.3 and P(B) = 0.2, what is the probability of the union P(A ∪ B) if A and B are mutually exclusive? If A and B are independent? If B is a subset of A?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "If A and B are mutually exclusive, then P(A ∩ B) = 0, and so P(A ∪ B) = 0.3 + 0.2 − 0 = 0.5. If A and B are independent, then P(A ∩ B) = P(A)P(B), and so P(A ∪ B) = 0.3 + 0.2 − (0.3) (0.2) = 0.44. If B is a subset of A, then A ∪ B = A, and so P(A ∪ B) = P(A) = 0.3.",
+   "question_id": "statistics-barrons-2027-pt1-012",
+   "source_pages": [
+    554,
+    554
+   ]
+  },
+  {
+   "number": 13,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 554,
+      "bbox": [
+       145.5,
+       549.0,
+       294.0,
+       579.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 554,
+      "bbox": [
+       145.5,
+       584.2,
+       294.0,
+       621.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 554,
+      "bbox": [
+       145.5,
+       626.2,
+       273.0,
+       670.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 554,
+      "bbox": [
+       147.0,
+       675.0,
+       271.5,
+       720.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       553.5,
+       133.5,
+       571.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       592.1,
+       133.3,
+       610.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       637.5,
+       133.5,
+       655.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 554,
+      "bbox": [
+       113.0,
+       686.6,
+       134.7,
+       704.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 554,
+   "page_end": 554,
+   "stem": "A social science researcher is testing the claim that 69 percent of Americans use social media every day. In a survey involving a simple random sample (SRS) of 1,100 Americans, 770 say that they use social media every day. With H0: p = 0.69 and Ha: p ≠ 0.69, what is the value of the test statistic?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The standard deviation of the test statistic is and . Then . Since this is a two-sided test, the p- value will be twice the tail probability of the test statistic; however, the test statistic itself is not doubled.",
+   "question_id": "statistics-barrons-2027-pt1-013",
+   "source_pages": [
+    554,
+    554
+   ]
+  },
+  {
+   "number": 14,
+   "section": "MCQ",
+   "options": {
+    "A": "Each explanatory level has an associated level of response.",
+    "B": "Tumor reduction is the only explanatory variable, but there are three response variables corresponding to the different dosages.",
+    "C": "There are three explanatory variables and one response variable.",
+    "D": "There are three levels of a single explanatory variable."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       141.0,
+       468.0,
+       159.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       181.5,
+       133.3,
+       199.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       240.0,
+       515.7,
+       258.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       280.5,
+       134.7,
+       298.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 555,
+   "page_end": 555,
+   "stem": "A medical research team tests for tumor reduction in a sample of patients using three different dosages of an experimental cancer drug. Which of the following is true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Dosage is the only explanatory variable, and it is being tested at three levels. Tumor reduction is the single response variable.",
+   "question_id": "statistics-barrons-2027-pt1-014",
+   "source_pages": [
+    555,
+    555
+   ]
+  },
+  {
+   "number": 15,
+   "section": "MCQ",
+   "options": {
+    "A": "The data could be used to estimate a population mean since the data collected are numerical.",
+    "B": "The data could be used to estimate a population proportion since the data collected are numerical.",
+    "C": "The data could be used to estimate a population mean since the data collected are categorical.",
+    "D": "The data could be used to estimate a population proportion since the data collected are categorical."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       436.5,
+       507.9,
+       454.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       477.0,
+       133.3,
+       495.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       517.5,
+       507.9,
+       535.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 555,
+      "bbox": [
+       113.0,
+       558.0,
+       134.7,
+       576.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 555,
+   "page_end": 555,
+   "stem": "Suppose that a study was carried out in which each CEO in a random sample of U.S. electric utility companies was asked whether he or she thought the federal government is doing enough to safeguard against a cyberattack on the electric grid. Which of the following is a correct understanding of the type of investigative question this study might address?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The data are categorical as each CEO responds either “yes” or “no.” This leads to estimating a population proportion—that is, the proportion of all CEOs who feel that the federal government is doing enough to safeguard against a cyberattack on the electric grid.",
+   "question_id": "statistics-barrons-2027-pt1-015",
+   "source_pages": [
+    555,
+    555
+   ]
+  },
+  {
+   "number": 16,
+   "section": "MCQ",
+   "options": {
+    "A": "Mr. Bee’s class is less heterogeneous than Ms. Em’s.",
+    "B": "Ms. Em’s class is more homogeneous than Mr. Bee’s.",
+    "C": "Mr. Bee’s class performed twice as well as Ms. Em’s.",
+    "D": "Ms. Em’s class did not do as well as Mr. Bee’s."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       72.0,
+       488.6,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       94.5,
+       133.3,
+       112.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       117.0,
+       488.6,
+       135.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       139.5,
+       134.7,
+       157.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 555,
+   "page_end": 556,
+   "stem": "Mr. Bee’s statistics class had a standard deviation of 11.2 on a standardized test, while Mr. Em’s class had a standard deviation of 5.6 on the same test. Which of the following is the most reasonable conclusion concerning the two classes’ performance on the test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Standard deviation is a measure of variability. The less variability, the more homogeneity there is.",
+   "question_id": "statistics-barrons-2027-pt1-016",
+   "source_pages": [
+    555,
+    556
+   ]
+  },
+  {
+   "number": 17,
+   "section": "MCQ",
+   "options": {
+    "A": "The population variances from each group are known.",
+    "B": "The population variances from the two groups are equal.",
+    "C": "The population of all SAT scores from each group is roughly normally distributed.",
+    "D": "The samples must be independent simple random samples, and for each sample, np and n(1 − p) must both be at least 10."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       313.5,
+       503.7,
+       331.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       336.0,
+       133.3,
+       354.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       358.5,
+       487.0,
+       376.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       399.0,
+       134.7,
+       417.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 556,
+   "page_end": 556,
+   "stem": "A college admissions officer is interested in comparing the SAT Math scores of high school applicants who have and have not taken AP Statistics. She randomly pulls the files of five applicants who took AP Statistics and five applicants who did not, and proceeds to run a t-test to compare the mean SAT Math scores of the two groups. Which of the following is a necessary assumption?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Since the sample sizes are small, the samples must come from roughly normally distributed populations. While the samples should be independent simple random samples, np and n(1 − p) refer to conditions for tests involving sample proportions, not means.",
+   "question_id": "statistics-barrons-2027-pt1-017",
+   "source_pages": [
+    556,
+    556
+   ]
+  },
+  {
+   "number": 18,
+   "section": "MCQ",
+   "options": {
+    "A": "$23,000",
+    "B": "$25,300",
+    "C": "$28,000",
+    "D": "$30,300"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       627.0,
+       199.2,
+       645.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       649.5,
+       133.3,
+       667.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       672.0,
+       199.2,
+       690.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 556,
+      "bbox": [
+       113.0,
+       694.5,
+       134.7,
+       712.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 556,
+   "page_end": 556,
+   "stem": "The appraised values of houses in a city have a mean of $195,000 with a standard deviation of $23,000. Because of a new teachers’ contract, the school district needs an extra 10% in funds compared with the previous year. To raise this additional money, the city instructs the assessment office to raise all appraised house values by $5,000. What will be the new standard deviation of the appraised values of houses in the city?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Adding the same constant to all values in a set will increase the mean by that constant but will leave the standard deviation unchanged.",
+   "question_id": "statistics-barrons-2027-pt1-018",
+   "source_pages": [
+    556,
+    556
+   ]
+  },
+  {
+   "number": 19,
+   "section": "MCQ",
+   "options": {
+    "A": "0.041 is the probability that the null hypothesis is false.",
+    "B": "0.041 is the probability of obtaining a sample proportion as large as or larger than the one obtained by the tournament director.",
+    "C": "If it is true that 20% of tennis players would give up their life savings to be able to play in a grand slam, 0.041 is the probability of obtaining a sample proportion equal to or greater than 0.20.",
+    "D": "If it is true that 20% of tennis players would give up their life savings to be able to play in a grand slam, 0.041 is the probability of obtaining a sample proportion as large as or larger than the one obtained by the tournament director."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       216.0,
+       511.8,
+       234.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       238.5,
+       133.3,
+       256.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       297.0,
+       527.3,
+       315.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       373.5,
+       134.7,
+       391.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 557,
+   "page_end": 557,
+   "stem": "Past studies indicate that 20% of tennis players say they would give up their life savings to be able to play in a grand slam. A tournament director believes that the proportion might be greater than 0.20. A random sample of players was surveyed. With H0: p = 0.20 and Ha: p > 0.20, the p-value of the test is 0.041. Which of the following is a correct interpretation of the p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The null hypothesis is that 20% of tennis players would give up their life savings to be able to play in a grand slam. The p-value, 0.041, is the probability of obtaining a sample statistic, p̃, as extreme as or more extreme than the one obtained if the null hypothesis is assumed to be true.",
+   "question_id": "statistics-barrons-2027-pt1-019",
+   "source_pages": [
+    557,
+    557
+   ]
+  },
+  {
+   "number": 20,
+   "section": "MCQ",
+   "options": {
+    "A": "The survey is meaningless because of voluntary response bias.",
+    "B": "No meaningful conclusion is possible without knowing something more about the characteristics of his listeners.",
+    "C": "The survey would have been more meaningful if he had picked a random sample of the 2,500 listeners who responded.",
+    "D": "This was a legitimate sample, randomly drawn from his listeners, and of sufficient size to be able to conclude that most of his listeners support the death penalty for such a crime."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       565.5,
+       525.7,
+       583.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       606.0,
+       133.3,
+       624.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 557,
+      "bbox": [
+       113.0,
+       646.5,
+       515.3,
+       664.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       72.0,
+       134.7,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 557,
+   "page_end": 558,
+   "stem": "A talk show host recently reported that in response to his on-air question, 82% of the more than 2,500 email messages received through his publicized address supported the death penalty for anyone convicted of selling drugs to children. What does this show?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "This is a good example of voluntary response bias, which often overrepresents strong or negative opinions. The people who chose to respond were very possibly the parents of children facing drug problems or people who had had bad experiences with drugs being sold in their neighborhoods. There is very little chance that the 2,500 respondents were representative of the population. Knowing more about his listeners or taking a sample of the sample would not have helped.",
+   "question_id": "statistics-barrons-2027-pt1-020",
+   "source_pages": [
+    557,
+    558
+   ]
+  },
+  {
+   "number": 21,
+   "section": "MCQ",
+   "options": {
+    "A": "The number of bagels purchased by a random sample of customers is expected to be 1.5 from the mean.",
+    "B": "The number of bagels purchased by a randomly selected customer will be 1.5 from the mean.",
+    "C": "On average, the number of bagels purchased by customers varies from the mean by 1.5.",
+    "D": "On average, the number of bagels purchased by customers will be 1.5 standard deviations from the mean."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       246.0,
+       520.8,
+       264.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       286.5,
+       133.3,
+       304.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       327.0,
+       465.4,
+       345.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       367.5,
+       134.7,
+       385.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 558,
+   "page_end": 558,
+   "stem": "At a certain bakery, the number of bagels purchased by customers is a random variable with a standard deviation of 1.5. Which of the following is the best interpretation of the standard deviation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The standard deviation of a random variable is roughly the average or typical amount of variability from the mean.",
+   "question_id": "statistics-barrons-2027-pt1-021",
+   "source_pages": [
+    558,
+    558
+   ]
+  },
+  {
+   "number": 22,
+   "section": "MCQ",
+   "options": {
+    "A": "A change in measurement units",
+    "B": "A change in which variable is called x and which is called y",
+    "C": "Adding the same constant to all values of the x-variable",
+    "D": "None of the above can affect the r-value."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       451.5,
+       355.1,
+       469.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       474.0,
+       133.3,
+       492.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       496.5,
+       513.6,
+       514.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       519.0,
+       134.7,
+       537.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 558,
+   "page_end": 558,
+   "stem": "Which of the following can affect the value of the correlation r?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The correlation coefficient r is not affected by changes in units, by which variable is called x or y, by adding the same number to all values of a variable, or by multiplying all values of a variable by the same positive number.",
+   "question_id": "statistics-barrons-2027-pt1-022",
+   "source_pages": [
+    558,
+    558
+   ]
+  },
+  {
+   "number": 23,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 558,
+      "bbox": [
+       145.5,
+       675.0,
+       240.0,
+       701.2
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 559,
+      "bbox": [
+       145.5,
+       72.0,
+       269.2,
+       99.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 559,
+      "bbox": [
+       145.5,
+       103.5,
+       268.5,
+       132.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 559,
+      "bbox": [
+       147.0,
+       136.5,
+       240.8,
+       160.5
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 558,
+      "bbox": [
+       113.0,
+       677.2,
+       133.5,
+       695.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       74.6,
+       133.3,
+       92.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       106.8,
+       133.5,
+       124.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       137.6,
+       134.7,
+       155.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 558,
+   "page_end": 559,
+   "stem": "The American Medical Association (AMA) wishes to determine the percentage of obstetricians who are considering leaving the profession because of the rapidly increasing number of lawsuits against obstetricians. The AMA would like an answer to within ±3% at the 95% confidence level. Which of the following should be used to find the sample size (n) needed?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The critical z-score for a 95% confidence interval is invNorm(0.975) = 1.96. With unknown p, we use p = 0.5 in our calculation of n.",
+   "question_id": "statistics-barrons-2027-pt1-023",
+   "source_pages": [
+    558,
+    559
+   ]
+  },
+  {
+   "number": 24,
+   "section": "MCQ",
+   "options": {
+    "A": "0.05",
+    "B": "0.40",
+    "C": "0.60",
+    "D": "0.95"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       271.5,
+       174.6,
+       289.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       294.0,
+       133.3,
+       312.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       316.5,
+       174.6,
+       334.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       339.0,
+       134.7,
+       357.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 559,
+   "page_end": 559,
+   "stem": "Suppose you did 10 independent tests of the form H0: μ = 25 versus Ha: μ < 25, each at the α = 0.05 significance level. What is the probability of committing a Type I error and incorrectly rejecting a true H0 with at least one of the 10 tests?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "With α = 0.05, the probability of committing a Type I error is 0.05, and the probability of not committing a Type I error is 0.95. P(at least one Type I error in 10 tests) = 1 − P(no Type I errors in 10 tests) = 1 − (0.95)10 = 0.40.",
+   "question_id": "statistics-barrons-2027-pt1-024",
+   "source_pages": [
+    559,
+    559
+   ]
+  },
+  {
+   "number": 25,
+   "section": "MCQ",
+   "options": {
+    "A": "Smallest SD: I; largest SD: II",
+    "B": "Smallest SD: II; largest SD: III",
+    "C": "Smallest SD: III; largest SD: I",
+    "D": "Smallest SD: III; largest SD: II"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       492.0,
+       338.5,
+       510.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       514.5,
+       133.3,
+       532.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       537.0,
+       344.1,
+       555.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 559,
+      "bbox": [
+       113.0,
+       559.5,
+       134.7,
+       577.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 559,
+   "page_end": 559,
+   "stem": "Which of the following sets has the smallest standard deviation? Which has the largest? I. 1, 2, 3, 4, 5, 6, 7 II. 1, 1, 1, 4, 7, 7, 7 III. 1, 4, 4, 4, 4, 4, 7",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Note that all three sets have the same mean and the same range. The third set has most of its values concentrated right at the mean, while the second set has most of its values concentrated far from the mean.",
+   "question_id": "statistics-barrons-2027-pt1-025",
+   "source_pages": [
+    559,
+    559
+   ]
+  },
+  {
+   "number": 26,
+   "section": "MCQ",
+   "options": {
+    "A": "Proper use of chance as evidenced by the simple random sample makes this a well-designed survey.",
+    "B": "The high response rate makes this a well-designed survey.",
+    "C": "Selection bias makes this a poorly designed survey.",
+    "D": "Lack of anonymity makes this a poorly designed survey."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       72.0,
+       524.0,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       112.5,
+       133.3,
+       130.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       135.0,
+       484.3,
+       153.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       157.5,
+       134.7,
+       175.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 559,
+   "page_end": 560,
+   "stem": "A researcher plans a study to examine long-term confidence in the U.S. economy among the adult population. She obtains a simple random sample of 30 adults as they leave a Wall Street office building one weekday afternoon. All but two of the adults agree to participate in the survey. Which of the following conclusions is correct?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "People coming out of a Wall Street office building are a very unrepresentative sample of the adult population, especially given the question under consideration. Using chance and obtaining a high response rate will not change the selection bias and make this into a well-designed survey. This is a convenience sample, not a voluntary response sample.",
+   "question_id": "statistics-barrons-2027-pt1-026",
+   "source_pages": [
+    559,
+    560
+   ]
+  },
+  {
+   "number": 27,
+   "section": "MCQ",
+   "options": {
+    "A": "Small sample size and 95% confidence",
+    "B": "Small sample size and 99% confidence",
+    "C": "Large sample size and 95% confidence",
+    "D": "Large sample size and 99% confidence"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       241.5,
+       402.6,
+       259.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       264.0,
+       133.3,
+       282.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       286.5,
+       403.8,
+       304.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       309.0,
+       134.7,
+       327.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 560,
+   "page_end": 560,
+   "stem": "Which among the following would result in the narrowest confidence interval?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Larger samples (so is smaller) and less confidence (so the critical z or t is smaller) both result in smaller intervals.",
+   "question_id": "statistics-barrons-2027-pt1-027",
+   "source_pages": [
+    560,
+    560
+   ]
+  },
+  {
+   "number": 28,
+   "section": "MCQ",
+   "options": {
+    "A": "0.38",
+    "B": "0.38 dollars per inch",
+    "C": "0.38 inches per dollar",
+    "D": "0.38 dollar inches"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       447.0,
+       174.6,
+       465.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       469.5,
+       133.3,
+       487.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       492.0,
+       288.5,
+       510.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       514.5,
+       134.7,
+       532.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 560,
+   "page_end": 560,
+   "stem": "In a random sample of 500 working adults, heights x (in inches) and annual salaries y (in dollars) are tabulated. When the least-squares regression analysis is performed, the correlation is 0.38. Which of the following is the correct way to label the correlation?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The correlation r is unit-free.",
+   "question_id": "statistics-barrons-2027-pt1-028",
+   "source_pages": [
+    560,
+    560
+   ]
+  },
+  {
+   "number": 29,
+   "section": "MCQ",
+   "options": {
+    "A": "The outcomes of the games do not depend on the number of flips.",
+    "B": "300 times for each game",
+    "C": "30 times for the first game and 300 times for the second",
+    "D": "300 times for the first game and 30 times for the second"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       652.5,
+       534.5,
+       670.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 560,
+      "bbox": [
+       113.0,
+       693.0,
+       133.3,
+       711.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       72.0,
+       521.0,
+       90.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       94.5,
+       134.7,
+       112.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 560,
+   "page_end": 561,
+   "stem": "There are two games involving flipping a fair coin. In the first game, you win a prize if you can throw between 45% and 55% heads. In the second game, you win if you can throw more than 80% heads. For each game, would you rather flip the coin 30 times or 300 times?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The probability of throwing heads is 0.5. By the law of large numbers, the more times you flip the coin, the more the relative frequency tends to become closer to this probability. With fewer tosses there is more chance for wide swings in the relative frequency.",
+   "question_id": "statistics-barrons-2027-pt1-029",
+   "source_pages": [
+    560,
+    561
+   ]
+  },
+  {
+   "number": 30,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 561,
+      "bbox": [
+       145.5,
+       358.5,
+       236.2,
+       390.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 561,
+      "bbox": [
+       145.5,
+       394.5,
+       236.2,
+       424.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 561,
+      "bbox": [
+       145.5,
+       429.0,
+       233.2,
+       459.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 561,
+      "bbox": [
+       147.0,
+       464.2,
+       237.0,
+       492.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       363.3,
+       133.5,
+       381.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       398.6,
+       133.3,
+       416.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       433.5,
+       133.5,
+       451.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 561,
+      "bbox": [
+       113.0,
+       467.6,
+       134.7,
+       485.7
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 561,
+   "page_end": 561,
+   "stem": "City planners are trying to decide among various parking plan options ranging from more on-street spaces to multilevel facilities to spread-out small lots. Before making a decision, they wish to test the downtown merchants’ claim that shoppers park for an average of only 47 minutes in the downtown area. The planners have decided to tabulate parking durations for 225 shoppers and to reject the merchants’ claim if the sample mean exceeds 50 minutes. If the merchants’ claim is wrong and the true mean is 51 minutes, what is the probability that the random sample will lead to a mistaken failure to reject the merchants’ claim? Assume that the standard deviation in parking durations is 27 minutes.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": ". If the true mean parking duration is 51 minutes, the normal curve should be centered at 51. The critical value of 50 has a z-score of . The city planners will reject the merchants’ claim if the sample mean is greater than 50 and so will fail to reject if less than 50.",
+   "question_id": "statistics-barrons-2027-pt1-030",
+   "source_pages": [
+    561,
+    561
+   ]
+  },
+  {
+   "number": 31,
+   "section": "MCQ",
+   "options": {
+    "A": "The ranges of the distributions are the same.",
+    "B": "In each distribution, the mean is equal to the median.",
+    "C": "Each distribution is symmetric.",
+    "D": "The distributions are outliers of each other."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       72.0,
+       444.3,
+       90.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       94.5,
+       133.3,
+       112.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       117.0,
+       347.7,
+       135.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       139.5,
+       134.7,
+       157.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 561,
+     "bbox": [
+      168.8,
+      572.2,
+      443.2,
+      688.5
+     ]
+    }
+   ],
+   "page_start": 561,
+   "page_end": 562,
+   "stem": "Consider the following parallel boxplots indicating the starting salaries (in thousands of dollars) for blue-collar and white-collar workers at a particular production plant: Which of the following is a correct conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The overall lengths (between tips of whiskers) are the same, and so the ranges are the same. Just because the min and max are equidistant from the median, and Q1 and Q3 are equidistant from the median, does not imply that a distribution is symmetric or that the mean and median are equal. Even if a distribution is symmetric, this does not imply that it is roughly normal. Particular values, not distributions, may be outliers.",
+   "question_id": "statistics-barrons-2027-pt1-031",
+   "source_pages": [
+    561,
+    562
+   ]
+  },
+  {
+   "number": 32,
+   "section": "MCQ",
+   "options": {
+    "A": "17.1%",
+    "B": "82.9%",
+    "C": "86.7%",
+    "D": "97.7%"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       295.5,
+       188.1,
+       313.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       318.0,
+       133.3,
+       336.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       340.5,
+       188.9,
+       358.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       363.0,
+       134.7,
+       381.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 562,
+   "page_end": 562,
+   "stem": "The mean Law School Aptitude Test (LSAT) score for applicants to a particular law school is 650 with a standard deviation of 45. Suppose that only applicants with scores above 700 are considered. What percentage of the applicants considered have scores below 740? (Assume the scores are approximately normally distributed.)",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Critical z-scores are and with right tail probabilities of 0.1335 and 0.0228, respectively. The percentage below 740 given that the scores are above 700 is Or .",
+   "question_id": "statistics-barrons-2027-pt1-032",
+   "source_pages": [
+    562,
+    562
+   ]
+  },
+  {
+   "number": 33,
+   "section": "MCQ",
+   "options": {
+    "A": "The parameter is the mean number of older adults who struggle to meet basic needs, and the alternative hypothesis is greater than .",
+    "B": "The parameter is the mean number of older adults who struggle to meet basic needs, and the alternative hypothesis is not equal to .",
+    "C": "The parameter is the proportion of all sampled older adults who struggle to meet basic needs, and the alternative hypothesis is greater than .",
+    "D": "The parameter is the proportion of all older adults who struggle to meet basic needs, and the alternative hypothesis is greater than ."
+   },
+   "option_images": {
+    "B": [
+     {
+      "page": 562,
+      "bbox": [
+       322.5,
+       538.5,
+       330.0,
+       558.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 562,
+      "bbox": [
+       317.2,
+       599.2,
+       324.8,
+       618.8
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       501.0,
+       513.2,
+       519.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       562.5,
+       133.3,
+       580.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 562,
+      "bbox": [
+       113.0,
+       623.2,
+       491.9,
+       641.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       72.0,
+       134.7,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 562,
+     "bbox": [
+      393.8,
+      660.8,
+      401.2,
+      680.2
+     ]
+    },
+    {
+     "page": 563,
+     "bbox": [
+      319.5,
+      109.5,
+      327.0,
+      129.0
+     ]
+    }
+   ],
+   "page_start": 562,
+   "page_end": 563,
+   "stem": "It has been reported that 1 in 3 older adults struggle to meet basic needs. A health statistician believes that this problem is even worse today and would like to create a study to test her belief. Which of the following would be an appropriate component for the health statistician’s investigative question?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The parameter involves a proportion of older adults who struggle to meet basic needs, and the parameter refers to a population, not a sample.",
+   "question_id": "statistics-barrons-2027-pt1-033",
+   "source_pages": [
+    562,
+    563
+   ]
+  },
+  {
+   "number": 34,
+   "section": "MCQ",
+   "options": {
+    "A": "This is a simple random sample obtained in an easier and less costly manner than procedures involving sampling from the entire population of principals.",
+    "B": "This is a cluster random sample in which the population was divided into heterogeneous groups called clusters.",
+    "C": "This is an example of systematic random sampling, which gives a reasonable sample as long as the original order of the list is not related to the variables under consideration.",
+    "D": "This is a stratified random sample, which may give comparative information that a simple random sample wouldn’t give."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       267.0,
+       526.3,
+       285.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       325.5,
+       133.3,
+       343.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       366.0,
+       526.7,
+       384.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       424.5,
+       134.7,
+       442.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 563,
+   "page_end": 563,
+   "stem": "A researcher planning a survey of school principals in a particular state has lists of the school principals employed in each of the 125 school districts. The procedure is to obtain a random sample of principals from each of the districts rather than grouping all the lists together and obtaining a sample from the entire group. Which of the following is a correct conclusion?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Stratified random samples are often easier and less costly to obtain and also make comparative data available. In this case, responses can be compared among various districts. This is not a simple random sample because all possible sets of the required size do not have the same chance of being picked. For example, a set of principals all from just half the school districts has no chance of being picked to be the sample. This is not a cluster random sample in that there is no reason to believe that each school district resembles the population as a whole, and furthermore, there was no random sample taken of the school districts. This is not systematic random sampling as the districts were not put in some order with every nth district chosen.",
+   "question_id": "statistics-barrons-2027-pt1-034",
+   "source_pages": [
+    563,
+    563
+   ]
+  },
+  {
+   "number": 35,
+   "section": "MCQ",
+   "options": {
+    "A": "the method of selection.",
+    "B": "examination of the outcome.",
+    "C": "how representative the sample is of the population.",
+    "D": "the size of the sample versus the size of the population."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       526.5,
+       306.4,
+       544.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       549.0,
+       133.3,
+       567.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       571.5,
+       486.6,
+       589.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 563,
+      "bbox": [
+       113.0,
+       594.0,
+       134.7,
+       612.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 563,
+   "page_end": 563,
+   "stem": "A simple random sample is defined by",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "A simple random sample can be any size and may or may not be representative of the population. It is a method of selection in which every possible sample of the desired size has an equal chance of being selected.",
+   "question_id": "statistics-barrons-2027-pt1-035",
+   "source_pages": [
+    563,
+    563
+   ]
+  },
+  {
+   "number": 36,
+   "section": "MCQ",
+   "options": {
+    "A": "If a student is seated in a lower-numbered row than a second student, the first student will have a higher test score than the second student.",
+    "B": "Students sitting in lower-numbered rows tend to have higher test scores.",
+    "C": "A student moving to the next lower-numbered row will have an increased test score.",
+    "D": "The points in the scatterplot fall on a straight line sloping downward."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 564,
+      "bbox": [
+       113.0,
+       424.5,
+       504.1,
+       442.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 564,
+      "bbox": [
+       113.0,
+       483.0,
+       133.3,
+       501.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 564,
+      "bbox": [
+       113.0,
+       523.5,
+       507.4,
+       541.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 564,
+      "bbox": [
+       113.0,
+       564.0,
+       134.7,
+       582.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 564,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      355.5
+     ]
+    }
+   ],
+   "page_start": 564,
+   "page_end": 564,
+   "stem": "The association is weak, negative, and linear. What does “negative” mean in this context?",
+   "context": "Questions 36–38 refer to the following situation: A teacher randomly assigns students to seat locations and then notes final test scores versus assigned row. Some computer output of the regression analysis follows.",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The word “negative” means that generally as one variable increases, the other variable decreases. Equivalently, as one decreases, the other increases. Although the overall pattern is negative, anything can happen with regard to two specific points.",
+   "question_id": "statistics-barrons-2027-pt1-036",
+   "source_pages": [
+    564,
+    564
+   ]
+  },
+  {
+   "number": 37,
+   "section": "MCQ",
+   "options": {
+    "A": "A decrease of 0.9410",
+    "B": "A decrease of 1.9214",
+    "C": "An increase of 1.9214",
+    "D": "An increase of 7.87264"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 564,
+      "bbox": [
+       113.0,
+       684.0,
+       285.7,
+       702.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       72.0,
+       133.3,
+       90.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       94.5,
+       289.7,
+       112.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       117.0,
+       134.7,
+       135.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 564,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      355.5
+     ]
+    }
+   ],
+   "page_start": 564,
+   "page_end": 565,
+   "stem": "If a student moves a row closer to the front, what does the linear model predict as a change in that student’s final exam score?",
+   "context": "Questions 36–38 refer to the following situation: A teacher randomly assigns students to seat locations and then notes final test scores versus assigned row. Some computer output of the regression analysis follows.",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The slope, –1.9214, gives the predicted change in the dependent variable for a 1 unit increase in the independent variable. In this case, decreasing a row by moving toward the front will give a predicted increase of 1.9214 in the final exam score.",
+   "question_id": "statistics-barrons-2027-pt1-037",
+   "source_pages": [
+    564,
+    565
+   ]
+  },
+  {
+   "number": 38,
+   "section": "MCQ",
+   "options": {
+    "A": "The linear model underestimated the student’s score by 1.4186.",
+    "B": "The linear model overestimated the student’s score by 1.4186.",
+    "C": "The linear model underestimated the student’s score by 10.031.",
+    "D": "The linear model overestimated the student’s score by 10.031."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       201.0,
+       514.2,
+       219.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       241.5,
+       133.3,
+       259.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       282.0,
+       514.2,
+       300.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       322.5,
+       134.7,
+       340.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 564,
+     "bbox": [
+      168.8,
+      72.0,
+      443.2,
+      355.5
+     ]
+    }
+   ],
+   "page_start": 565,
+   "page_end": 565,
+   "stem": "One student in row 4 scored 80 on the final exam. Which of the following is a correct interpretation of the residual?",
+   "context": "Questions 36–38 refer to the following situation: A teacher randomly assigns students to seat locations and then notes final test scores versus assigned row. Some computer output of the regression analysis follows.",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The predicted final exam score for a student in row 4 is 86.267 – 1.9214(4) = 78.5814, giving a residual of 80 – 78.5814 = 1.4186. The linear model underestimated the student’s actual score by 1.4186.",
+   "question_id": "statistics-barrons-2027-pt1-038",
+   "source_pages": [
+    565,
+    565
+   ]
+  },
+  {
+   "number": 39,
+   "section": "MCQ",
+   "options": {
+    "A": "If there is sufficient evidence to reject a null hypothesis at the 10% level, there is sufficient evidence to reject it at the 5% level.",
+    "B": "Whether to use a one- or a two-sided test is typically decided after the data are gathered.",
+    "C": "If a hypothesis test is conducted at the 1% level, there is a 1% chance of rejecting the null hypothesis.",
+    "D": "The power of a test concerns its ability to detect an alternative hypothesis."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       440.2,
+       530.1,
+       458.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       498.7,
+       133.3,
+       516.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       539.2,
+       524.7,
+       557.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       579.7,
+       134.7,
+       597.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 565,
+   "page_end": 565,
+   "stem": "Which of the following is a true statement about hypothesis testing?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "If the p-value is less than 0.10, it does not follow that it is less than 0.05. Decisions such as whether a test should be one- or two-sided are made before the data are gathered. If α = 0.01, there is a 1% chance of rejecting the null hypothesis if the null hypothesis is true. There is one probability of a Type I error, the significance level, while there is a different probability of a Type II error associated with each possible correct alternative, so the sum does not equal 1. When given a true alternative, power is the probability of rejecting the false null hypothesis.",
+   "question_id": "statistics-barrons-2027-pt1-039",
+   "source_pages": [
+    565,
+    565
+   ]
+  },
+  {
+   "number": 40,
+   "section": "MCQ",
+   "options": {
+    "A": "has a normal distribution.",
+    "B": "has a t-distribution with df = 10.",
+    "C": "has a t-distribution with df = 9.",
+    "D": "has either a normal or a t-distribution depending on the characteristics of the population standard deviation."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 565,
+      "bbox": [
+       113.0,
+       697.5,
+       314.6,
+       715.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       72.0,
+       133.3,
+       90.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       94.5,
+       353.5,
+       112.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       117.0,
+       134.7,
+       135.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 565,
+     "bbox": [
+      326.2,
+      648.8,
+      363.0,
+      682.5
+     ]
+    }
+   ],
+   "page_start": 565,
+   "page_end": 566,
+   "stem": "A population is normally distributed with mean 25. Consider all samples of size 10. The variable",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "If the population is normally distributed, then is normally distributed, but has a t-distribution with df = n − 1.",
+   "question_id": "statistics-barrons-2027-pt1-040",
+   "source_pages": [
+    565,
+    566
+   ]
+  },
+  {
+   "number": 41,
+   "section": "MCQ",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "6"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       237.0,
+       153.7,
+       255.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       259.5,
+       133.3,
+       277.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       282.0,
+       153.7,
+       300.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       304.5,
+       134.7,
+       322.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 566,
+   "page_end": 566,
+   "stem": "A correlation of 0.6 indicates that the percentage of variation in y that is explained by the variation in x is how many times the percentage indicated by a correlation of 0.3?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "A correlation of 0.6 explains (0.6)2, or 36%, of the variation in y, while a correlation of 0.3 explains only (0.3)2, or 9%, of the variation in y.",
+   "question_id": "statistics-barrons-2027-pt1-041",
+   "source_pages": [
+    566,
+    566
+   ]
+  },
+  {
+   "number": 42,
+   "section": "MCQ",
+   "options": {
+    "A": "Plan I",
+    "B": "Plan II",
+    "C": "Both plans use random samples and so will produce equivalent results.",
+    "D": "The resulting data must be seen to evaluate which is the better plan."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       586.5,
+       183.7,
+       604.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       609.0,
+       133.3,
+       627.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       631.5,
+       489.0,
+       649.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 566,
+      "bbox": [
+       113.0,
+       672.0,
+       134.7,
+       690.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 567,
+     "bbox": [
+      123.0,
+      72.0,
+      489.0,
+      113.2
+     ]
+    }
+   ],
+   "page_start": 566,
+   "page_end": 566,
+   "stem": "In a high school of 1,650 students, 132 have personal investments in the stock market. To estimate the total stock investment by students in this school, two plans are proposed. Plan I would sample 30 students at random, find a confidence interval estimate of their average investment, and then multiply both ends of this interval by 1,650 to get an interval estimate of the total investment. Plan II would sample 30 students at random from among the 132 who have investments in the market, find a confidence interval estimate of their average investment, and then multiply both ends of this interval by 132 to get an interval estimate of the total investment. Which is the better plan for estimating the total stock market investment by students in this school?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "With Plan I, the expected number of students with stock investments is only out of 30. Plan II allows an estimate to be made using a full 30 investors.",
+   "question_id": "statistics-barrons-2027-pt1-042",
+   "source_pages": [
+    566,
+    566
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 567,
+     "bbox": [
+      123.0,
+      72.0,
+      489.0,
+      113.2
+     ]
+    }
+   ],
+   "page_start": 567,
+   "page_end": 568,
+   "stem": "When students do not understand an author’s vocabulary, they often miss subtleties of meaning in the text; thus, learning vocabulary is recognized as one of the most important skills in all subject areas. A school system is planning a study to see which of two programs is more effective in ninth grade. Program A involves teaching students to apply morphemic analysis, which is the process of deriving a word’s meaning by analyzing its meaningful parts, such as roots, prefixes, and suffixes. Program B involves teaching students to apply contextual analysis, which is the process of inferring the meaning of an unfamiliar word by examining the surrounding text. To comply with informed consent laws, parents will be asked to give consent for their children to be randomly assigned to be taught in either one of the new programs or using the local standard method. Ninety students will be randomly selected from ninth-grade students whose parents returned the form giving their consent. A. Identify and classify the variable(s) in the study. B. i. Explain the purpose of incorporating a control group in this experiment. ii. Explain why students without parental consent should not be included in this experiment, not even in the control group. C. i. Explain how teachers could be a confounding variable. ii. Suppose the students were allowed to select which instructional program they preferred to take. Explain how that self-selection process might jeopardize a statistically valid comparison between the programs of study. Provide a specific example to support your answer. D. Determine whether it is or is not reasonable to generalize the results of this study beyond the 90 participants. E. The school would like to compare the performance of students taking Programs A and B using national standardized tests. Determine a valid investigative question. Ensure all three components of a valid investigative question are included in your response.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. The explanatory variable is the version of ninth-grade program used to learn vocabulary. The variable is categorical, with categories Program A, Program B, and a local standard method of instruction. B. i. Incorporating a control group would allow the school system to compare the effectiveness of each of the new programs to the local standard method currently being used. ii. Parents who fail to return the consent form are a group who may well place less priority on education. The effect of using their children may distort results. Also, their children could be placed only in the control group. C. i. If an exceptional teacher is teaching one of the groups and that group does particularly well, it would not be clear if the reason is due to the program used or due to the instructional technique of the exceptional teacher. ii. For example, if all the students with the highest grade point averages selected the same program, this would be a confounding variable. The success of that group could be because of the program itself or could be because of the academically better students in that class. D. Results of the study can be generalized to all ninth-grade students whose parents are willing to give parental consent to their participation in such a study. E. Is there convincing statistical evidence to suggest that the mean scores on national standardized tests are different for students learning ninth-grade vocabulary using Program A and Program B? A. Identify the Ninth-grade program 1 point variable(s). used to learn vocabulary. Classify the Categorical. 1 point variable(s). B. i. Explain the use To compare the 1 point of a control effectiveness of each of group. the new programs to the local standard method. ii. Explain why Parents who fail to 1 point students without return the consent form parental consent are a group who may should not be well place less priority part of this study. on education. C. i. Explain how If an exceptional 1 point teachers could be teacher is teaching one a confounding of the groups and that variable. group does particularly well, it would not be clear if the reason is due to the program used or due to the instructional technique of the exceptional teacher. ii. Explain how If all the students with 1 point allowing students the highest GPA to self-select selected the same might jeopardize program, success of the study. that group could be because of the program itself or could be because of the academically better students in that class. D. Determine The study results can 1 point whether the be generalized to all results can be ninth-grade students generalized. whose parents are willing to give parental consent to their participation E. First component: The variable is the 1 point identify the ninth-grade program variables of used to learn interest. vocabulary, either Program A or Program B. Second The mean scores on 1 point component: national standardized identify the tests are different for parameter and students taking direction of the Program A and Program alternative B. hypothesis. Third component: The conclusion can be 1 point identify the applied to all ninth- population to grade students at the which the school who have conclusion is parental consent to applicable. participate in such a study.",
+   "question_id": "statistics-barrons-2027-pt1-043",
+   "context": "",
+   "source_pages": [
+    567,
+    568
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 568,
+     "bbox": [
+      145.5,
+      399.0,
+      466.5,
+      538.5
+     ]
+    }
+   ],
+   "page_start": 568,
+   "page_end": 569,
+   "stem": "A diner manager is interested in the length of time customers spend at their table for dinner. He randomly samples 20 large groups and 40 small groups. The following histograms summarize the times spent. A. i. Identify the type of study the manager conducted. ii. Identify the categorical variable in the manager’s study. B. i. Justify whether the proportion of diners in large groups spending over 70 minutes is less than, equal to, or greater than the proportion of diners in small groups spending over 70 minutes. ii. Calculate how many of the diners spent over 60 minutes at their tables. C. i. Compare the shapes of the two distributions. ii. Compare the centers and spreads of the two distributions. D. Suppose the data from the large and small groups are combined. i. Describe the shape of the histogram of the combined data. ii. Estimate the median time that the combined 60 groups spend at their table for dinner. iii. Estimate the range of the combined data. E. Determine the population for a valid investigative question for the manager’s study.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. i. Observational study ii. Group size, either large or small B. i. The proportion of diners in large groups spending over 70 minutes, , is greater than the proportion of diners in small groups spending over 70 minutes, . ii. 4 + 3 + 2 = 9 of diners in large groups and 2 + 1 + 2 = 5 of diners in small groups spent over 60 minutes at their tables, for a total of 9 + 5 = 14. C. i. The distribution of times for the large groups is roughly symmetric, while the distribution of times for the small groups is skewed right. Both are unimodal. ii. The median time of the large group distribution is greater than the median time of the small group distribution. The spread of the large group distribution is less than the spread of the small group distribution. D. i. The shape of a histogram of the combined data is bimodal with one cluster centered between 20 and 25 and the other cluster centered between 55 and 60. The middle bar of each cluster shows 7 diners. ii. There are a total of 60 times, so the median will be between the 30th and 31st times. The time of 45 has 1 + 28 = 29 times below it, and the time of 50 has 3 + 31 = 34 times below it. So the median time is between 45 and 50 minutes. iii. The range of the combined data is between 70 – 10 = 60 minutes and 75 – 5 = 70 minutes. E. The population is all small and large groups of customers coming to the diner for dinner. A. i. Identify the Observational. 1 point type of study. ii. Identify the Group size. 1 point variable. B. i. Compare the Proportion of diners in 1 point proportions of large groups is greater diners in each than proportion of group who spent diners in small groups. over 70 minutes. ii. Calculate the (4 + 3 + 2) + (2 + 1 + 1 point number of diners 2) = 14 in both groups who spent over 60 minutes. C. i. Compare the The distribution of 1 point shapes of the times for the large distributions. groups is roughly symmetric while the distribution of times for the small group is skewed right. ii. Compare the The distribution for 1 point centers and large groups has a ranges. greater center and smaller spread than the distribution for small groups. D. i. Describe the The combined 1 point shape of a histogram is bimodal histogram with one cluster showing the centered between 20 combined data. and 25 and the other cluster centered between 55 and 60. ii. Estimate the The median is between 1 point median of the the 30th and 31st combined data. times. 45 has 1 + 28 = 29 times below it, and 50 has 3 + 31 = 34 times below it. So the median time is between 45 and 50 minutes. iii. Estimate the The range is between 1 point range of the 70 – 10 = 60 minutes combined data. and 75 – 5 = 70 minutes. E. Determine the The population consists 1 point population for an of all small and large investigative groups of customers question. coming to the diner for dinner.",
+   "question_id": "statistics-barrons-2027-pt1-044",
+   "context": "",
+   "source_pages": [
+    568,
+    569
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 569,
+   "page_end": 570,
+   "stem": "A new anti-spam software program is field-tested on 250 randomly selected spam emails and on 750 randomly selected legitimate emails. The results are summarized in the following table (positive test = program labels email as spam): Total Spam Legitimate Positive 205 90 295 test Negative 45 660 705 test Total 250 750 1,000 The software developer claims that the proportion of all spam emails for which the tests are positive equals the proportion of all legitimate emails for which the tests are negative. A. Identify and classify the variable(s) in this study. B. Identify the appropriate inference procedure. C. Complete the inference procedure, including calculating the appropriate statistics. D. Justify a conclusion in context.",
+   "correct_answer": null,
+   "answer_text": "Model Solution: A. The explanatory variables are whether an email is spam or legitimate and whether the test is positive or negative. Both variables are categorical. B. An appropriate inference procedure is a two-sample z-test for the difference between two population proportions. C. The null hypothesis is H0: p1 = p2, and the alternative hypothesis is Ha: p1 ≠ p2, where p1 is the proportion of all positive tests from among the emails that are spam and p2 is the proportion of all negative tests from among the emails that are legitimate. The randomization condition is satisfied as the spam and legitimate emails were randomly and independently chosen. The sample sizes can be assumed to be less than 10% of the respective populations. The combined proportion is The normality condition is met because 250(0.865) = 216.25, 250(0.135) = 33.75, 750(0.865) = 648.75, and 750(0.135) = 101.25 are all at least 10. The value of the test statistic is z = −2.404, and the p-value is 0.0162. D. With this small a p-value, 0.016 < 0.05, there is sufficient evidence to reject the null hypothesis. There is convincing evidence that the proportion of all spam emails for which the tests are positive does not equal the proportion of all legitimate emails for which the tests are negative. This goes against the developer’s claim. A. Identify the Spam or legitimate email 1 point variable(s). and positive or negative test. Classify the Both are categorical 1 point variable(s). variables. B. Identify the Use a two-sample z-test 1 point inference for the difference procedure. between two population proportions. C. Identify H0 and H0: p1 = p2 and Ha: p1 ≠ 1 point Ha. p2 Identify the p1 is the proportion of all 1 point parameters. positive tests for which the emails are spam, and p2 is the proportion of all negative tests for which the emails are legitimate. Justify whether The spam and legitimate 1 point the randomization emails were randomly condition is met. and independently chosen. The sample sizes can be assumed to be less than 10% of the respective populations. Justify whether 1 point . The the normality normality condition is condition is met. met because 250(0.865) = 216.25, 250(0.135) =",
+   "question_id": "statistics-barrons-2027-pt1-045",
+   "context": "",
+   "source_pages": [
+    569,
+    570
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 570,
+   "page_end": 570,
+   "stem": "Cumulative exposure to nitrogen dioxide (NO2) is a major risk factor for lung disease in tunnel construction workers. In one study, researchers compared cumulative exposure to NO2 (in parts per million per year, ppm/yr) for a random sample of drill and blast workers and for an independent random sample of concrete workers. Summary statistics are shown in the following table: Standard Mean Deviation in Cumulative Cumulative NO2 Exposure NO2 Exposure Tunnel Worker Activity Sample Size (ppm/yr) (ppm/yr) Drill and 115 4.1 1.8 blast Concrete 69 4.8 2.4 A. i. Determine whether random sampling, random assignment, both, or neither is involved in this study. ii. Calculate what levels of NO2 exposure would be considered upper outliers for each of these professions based on the above data. B. The researchers believe that the average cumulative NO2 exposure for the concrete workers is greater than for the drill and blast workers. Determine whether this conclusion is supported by the data and justify your response without conducting an inference procedure. C. The researchers want to conduct an inference procedure to estimate the difference in the true mean cumulative NO2 exposure between drill and blast workers and",
+   "correct_answer": null,
+   "answer_text": "1. C. Identify the Two-sample t-interval 1 point appropriate for the difference inference between population procedure. means. D. i. Calculate a (−1.362, −0.0381) 1 point confidence ppm/yr for drill and interval. blast workers minus concrete workers mean cumulative NO2 exposure. ii. Interpret a The researchers are 1 point conclusion. 95% confident that the true mean difference in cumulative NO2 exposure between drill and blast workers and concrete workers falls between −1.362 and −0.0381. Determine There is sufficient 1 point iii. whether a claim statistical evidence of a is supported. difference in the true mean cumulative NO2 exposure between drill and blast workers and concrete workers Justify a claim. 0 is not in the interval 1 point (−1.362, −0.0381). E. Determine With sample sizes this 1 point whether the large, our analysis is analysis is valid. valid. Determine if a Both 115 and 69 are 1 point condition is greater than 30, so the violated. central limit theorem applies.",
+   "question_id": "statistics-barrons-2027-pt1-046",
+   "context": "",
+   "source_pages": [
+    570,
+    570
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 46,
+ "mcq_count": 42,
+ "frq_count": 4
+}

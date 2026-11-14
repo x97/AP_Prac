@@ -1,0 +1,665 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-19",
+ "kind": "quiz",
+ "number": 19,
+ "unit_no": 3,
+ "title": "Barron's AP Statistics 2027 Quiz 19 — Unit 3",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 19",
+ "pdf_page_start": 339,
+ "pdf_page_end": 344,
+ "answer_page_start": 737,
+ "answer_page_end": 739,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Null hypothesis: parameter Alternative hypothesis: parameter",
+    "B": "Null hypothesis: parameter Alternative hypothesis: statistic",
+    "C": "Null hypothesis: statistic Alternative hypothesis: parameter",
+    "D": "Null hypothesis: statistic Alternative hypothesis: statistic"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 339,
+      "bbox": [
+       108.3,
+       613.2,
+       524.3,
+       630.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 339,
+      "bbox": [
+       108.3,
+       633.2,
+       507.1,
+       650.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 339,
+      "bbox": [
+       108.3,
+       653.2,
+       507.3,
+       670.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 339,
+      "bbox": [
+       108.3,
+       673.3,
+       491.3,
+       690.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 339,
+   "page_end": 339,
+   "stem": "Consider the null and alternative hypotheses in a hypothesis test. Are these statements about a parameter or a statistic?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Both the null hypothesis H0 and the alternative hypothesis Ha are always about a population parameter, never about a sample statistic.",
+   "question_id": "statistics-barrons-2027-quiz-19-001",
+   "source_pages": [
+    339,
+    339
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "If it is true that 70 percent of teens in the city pass their driving test on the first attempt, 0.035 is the probability of obtaining a population proportion greater than 0.70.",
+    "B": "If it is true that 70 percent of teens in the city pass their driving test on the first attempt, 0.035 is the probability of obtaining a sample proportion as small as or smaller than the one obtained by the administrator.",
+    "C": "If it is true that 70 percent of teens in the city pass their driving test on the first attempt, 0.035 is the probability of obtaining a sample proportion as large as or larger than the one obtained by the administrator.",
+    "D": "If it is not true that 70 percent of teens in the city pass their driving test on the first attempt, 0.035 is the probability of obtaining a sample proportion as large as or larger than the one obtained by the administrator."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       226.6,
+       492.6,
+       243.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       281.0,
+       492.4,
+       298.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       352.6,
+       492.6,
+       369.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       424.2,
+       518.7,
+       441.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 340,
+   "page_end": 340,
+   "stem": "Past studies indicate that 70 percent of teens in a large city pass their driving test on the first attempt. A city administrator believes that because of an economic slowdown resulting in fewer cars on the road, the proportion might be greater than 0.70. A random sample of teens taking their driving test for the first time was surveyed. With H0: p = 0.70 and Ha: p > 0.70, the p-value of the test is 0.035. Which of the following is a correct interpretation of the p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "If the null hypothesis is true, the p-value represents the probability of obtaining a sample proportion as extreme as or more extreme than the one obtained for the hypothesis test, in the direction of the alternative hypothesis. In this case, the null hypothesis is that 70 percent of teens in the city pass their driving test on the first attempt; given the direction of the alternative hypothesis, “extreme as or more extreme” means “as large as or larger.”",
+   "question_id": "statistics-barrons-2027-quiz-19-002",
+   "source_pages": [
+    340,
+    340
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "Correctly recognizing someone has ESP",
+    "B": "Mistakenly thinking someone has ESP",
+    "C": "Not recognizing that someone really has ESP",
+    "D": "Correctly realizing that someone doesn’t have ESP"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       654.7,
+       384.8,
+       672.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       674.7,
+       373.2,
+       692.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 340,
+      "bbox": [
+       108.3,
+       694.8,
+       418.8,
+       712.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       72.0,
+       454.2,
+       89.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 340,
+   "page_end": 341,
+   "stem": "One extrasensory perception (ESP) test asks the subject to view the backs of cards and identify whether a circle, square, star, or cross is on the front of each card. If p is the proportion of correct answers, this may be viewed as a hypothesis test with H0: p = 0.25 and Ha: p > 0.25. The subject is recognized to have ESP when the null hypothesis is rejected. What would a Type II error result in?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "A Type II error is a mistaken failure to reject a false null hypothesis or, in this case, a failure to realize that a person really does have ESP.",
+   "question_id": "statistics-barrons-2027-quiz-19-003",
+   "source_pages": [
+    340,
+    341
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 341,
+      "bbox": [
+       142.2,
+       210.9,
+       266.7,
+       236.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 341,
+      "bbox": [
+       142.2,
+       240.9,
+       271.7,
+       271.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 341,
+      "bbox": [
+       142.2,
+       276.0,
+       280.3,
+       303.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 341,
+      "bbox": [
+       143.6,
+       308.2,
+       284.6,
+       334.0
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 341,
+      "bbox": [
+       111.1,
+       213.3,
+       130.7,
+       230.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 341,
+      "bbox": [
+       111.1,
+       245.9,
+       130.5,
+       263.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 341,
+      "bbox": [
+       111.1,
+       279.5,
+       130.7,
+       296.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 341,
+      "bbox": [
+       111.1,
+       310.7,
+       131.8,
+       328.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 341,
+   "page_end": 341,
+   "stem": "A research dermatologist believes that skin cancer presenting on the head or neck will occur most often on the left side, the side next to a window when a person is driving. In a review of 565 cases of skin cancer on the head or neck, 305 occurred on the left side. What is the resulting p-value?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "This is a one-sided z-test, H0: p = 0.5, Ha: p > 0.5, with . The p-value equals .",
+   "question_id": "statistics-barrons-2027-quiz-19-004",
+   "source_pages": [
+    341,
+    341
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Yes, because the p-value is 0.0062.",
+    "B": "Yes, because the p-value is 0.0124.",
+    "C": "No, because the p-value is 0.0062.",
+    "D": "No, because the p-value is 0.0124."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       455.7,
+       359.7,
+       473.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       475.7,
+       359.3,
+       493.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       495.8,
+       355.5,
+       513.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       515.8,
+       356.4,
+       533.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 341,
+   "page_end": 341,
+   "stem": "A sociologist claims that over two-thirds of White adults have entirely White social networks without any minority presence. In a random sample of 200 White adults, 150 of them have entirely White social networks. Is this convincing evidence in support of the sociologist’s claim?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "With H0: p = and Ha: p > , 1PropZTest gives P = 0.0062. [For instructional purposes, we note that and normalcdf(2.5, 100) = 0.0062.] With this small of a p-value, 0.0062 < 0.01, there is sufficient evidence to reject the null hypothesis; that is, there is convincing evidence in support of the sociologist’s claim that over two-thirds of adult Whites have entirely White social networks without any minority presence.",
+   "question_id": "statistics-barrons-2027-quiz-19-005",
+   "source_pages": [
+    341,
+    341
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "the smaller the risk of a Type II error and the smaller the power.",
+    "B": "the smaller the risk of a Type II error and the greater the power.",
+    "C": "the greater the risk of a Type II error and the smaller the power.",
+    "D": "the greater the risk of a Type II error and the greater the power."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       603.1,
+       497.9,
+       620.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       640.4,
+       498.1,
+       657.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 341,
+      "bbox": [
+       108.3,
+       677.6,
+       498.3,
+       694.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 342,
+      "bbox": [
+       108.3,
+       72.0,
+       499.7,
+       89.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 341,
+   "page_end": 342,
+   "stem": "The greater the difference between the null hypothesis claim and the true value of the population parameter,",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "If the null hypothesis is far off from the true parameter value, there is a greater chance of rejecting the false null hypothesis and thus a smaller risk of a Type II error. Power is the probability that a Type II error is not committed, so a lower Type II error results in higher power.",
+   "question_id": "statistics-barrons-2027-quiz-19-006",
+   "source_pages": [
+    341,
+    342
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "To prove that p0 either is or is not true",
+    "B": "To estimate the population proportion",
+    "C": "To estimate a margin of error for",
+    "D": "To estimate the probability of observing a value as extreme or more extreme than given that p0 is true"
+   },
+   "option_images": {
+    "C": [
+     {
+      "page": 342,
+      "bbox": [
+       348.3,
+       244.5,
+       355.5,
+       256.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 342,
+      "bbox": [
+       262.4,
+       281.7,
+       269.6,
+       293.2
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 342,
+      "bbox": [
+       108.3,
+       196.5,
+       380.0,
+       216.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 342,
+      "bbox": [
+       108.3,
+       219.5,
+       374.6,
+       236.7
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 342,
+      "bbox": [
+       108.3,
+       239.5,
+       348.0,
+       256.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 342,
+      "bbox": [
+       108.3,
+       259.5,
+       529.4,
+       276.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 342,
+     "bbox": [
+      227.3,
+      152.9,
+      234.5,
+      164.3
+     ]
+    }
+   ],
+   "page_start": 342,
+   "page_end": 342,
+   "stem": "Consider a claimed population proportion p0, and a sample with sample proportion . Which of the following best describes the purpose of a one-sample z-test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The one-sample z-test for a population proportion results in a p-value (the probability of observing a value as extreme as or more extreme than p̂ given that p0 is true), which is a measure of the inconsistency between the claimed p0 and the observed p̂ . It can be used to make a decision as to whether or not there is convincing evidence to reject the claimed p0. Choice (C) concerns confidence intervals, not hypothesis tests.",
+   "question_id": "statistics-barrons-2027-quiz-19-007",
+   "source_pages": [
+    342,
+    342
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 342,
+     "bbox": [
+      227.3,
+      152.9,
+      234.5,
+      164.3
+     ]
+    },
+    {
+     "page": 342,
+     "bbox": [
+      348.3,
+      244.5,
+      355.5,
+      256.0
+     ]
+    },
+    {
+     "page": 342,
+     "bbox": [
+      262.4,
+      281.7,
+      269.6,
+      293.2
+     ]
+    }
+   ],
+   "page_start": 342,
+   "page_end": 343,
+   "stem": "Microplastics are tiny polymer fragments. They are found in many popular foods and, in large quantities, can pose dangers to body organs and functions. An environmental health scientist is concerned that the percentage of animal and vegetable protein samples that contain measurable amounts of microplastics is now over 90%. A random sample of 500 animal and vegetable products is taken, and 462 are found to contain measurable amounts of microplastics. (a) What is the parameter of interest? (b) What are the hypotheses? (c) One condition for a hypothesis test of a population proportion is that the appropriate sampling distribution is approximately normal. Is that condition met? Explain. (d) The standard error of the sampling distribution is 0.0134. Show how this is calculated. (e) What is the test statistic z? Show how it can be calculated.",
+   "correct_answer": null,
+   "answer_text": "(a) The parameter of interest is p = the proportion of the population of animal and vegetable protein products that contain measurable amounts of microplastics. (b) H0: p = 0.90 and Ha: p > 0.90 (c) n p0 = (500)(0.90) = 450 ≥ 10 and n(1 − p0) = (500)(0.10) = 50 ≥ 10, so the condition that the sampling distribution of p̂ is approximately normal is met. (d) (e) and the test statistic",
+   "question_id": "statistics-barrons-2027-quiz-19-008",
+   "context": "",
+   "source_pages": [
+    342,
+    343
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 343,
+   "page_end": 343,
+   "stem": "No vaccination is 100% risk free, and the theoretical risk of rare complications always has to be balanced against the severity of the disease. Suppose the CDC (Centers for Disease Control) decides that a risk of one in a million is the maximum acceptable risk of Guillain-Barré syndrome (GBS) complications for a new vaccine for a particularly serious strain of influenza. A large sample study of the new vaccine is conducted with the following hypotheses: H0: The proportion of GBS complications is 0.000001 (one in a million). Ha: The proportion of GBS complications is greater than 0.000001 (one in a million). The p-value of the test is 0.138. (a) Interpret the p-value in the context of this study. (b) What conclusion should be drawn at the α = 0.10 significance level? (c) Using your conclusion from part (b), what possible error, Type I or Type II, might be committed? Give a possible consequence of committing this error.",
+   "correct_answer": null,
+   "answer_text": "(a) The p-value of 0.138 gives the probability of observing a sample proportion of GBS complications as great as (or greater than) the proportion found in the study if, in fact, the proportion of GBS complications is 0.000001. (b) Since 0.138 > 0.10, there is not sufficient evidence to reject H0; that is, there is not convincing evidence that under the new vaccine, the true proportion of GBS complications is greater than",
+   "question_id": "statistics-barrons-2027-quiz-19-009",
+   "context": "",
+   "source_pages": [
+    343,
+    343
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 343,
+   "page_end": 343,
+   "stem": "It is estimated that 17.4% of all U.S. households own a Roth IRA, a retirement savings account. The American Association of University Professors (AAUP) believes this figure is higher among their members and commissions a study. In the study, 150 out of a random sample of 750 AAUP members own Roth IRAs. (a) Is this convincing evidence to support the AAUP belief? (b) What error might have been committed, Type I or Type II, and what would be a possible consequence? (c) Interpret the p-value in context.",
+   "correct_answer": null,
+   "answer_text": "(a) Parameter: Let p represent the proportion of the population of AAUP members who own a Roth IRA. Hypotheses: H0: p = 0.174 and Ha: p > 0.174, where p is the proportion of all AAUP members who own Roth IRAs. Procedure: A one-sample z-test for a population proportion. Checks: Random sample (given), np0 = 750(0.174) = 130.5 ≥ 10 and n(1 − p0) = 750(0.826) = 619.5 ≥ 10 (where p0 is the claimed 0.174) and the sample size, n = 750, is assumed to be less than 10% of all AAUP members. Mechanics: Calculator software gives z = 1.878 and p = 0.030. [For instructional purposes, we note that: Conclusion in context with linkage to the p-value: With a p-value this small, 0.030 < 0.05, there is sufficient evidence to reject H0; that is, there is sufficient evidence that more than",
+   "question_id": "statistics-barrons-2027-quiz-19-010",
+   "context": "",
+   "source_pages": [
+    343,
+    343
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 10,
+ "mcq_count": 7,
+ "frq_count": 3
+}

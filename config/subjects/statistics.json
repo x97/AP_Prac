@@ -1,0 +1,14 @@
+{
+  "subject_id": "statistics",
+  "name": "AP Statistics",
+  "name_zh": "AP 统计学",
+  "enabled": false,
+  "source_dir": "data/content/statistics",
+  "exam_db": "statistics_exam.db",
+  "knowledge_db": "statistics_knowledge.db",
+  "asset_root": "assets/statistics",
+  "exam_config": "config/exam_formats/statistics.json",
+  "practice_topics": "config/practice_topics/statistics.json",
+  "exclusions": "config/content_exclusions/statistics.json",
+  "notes": "Statistics source/concepts are not production-ready yet; keep disabled until the subject pipeline is complete."
+}

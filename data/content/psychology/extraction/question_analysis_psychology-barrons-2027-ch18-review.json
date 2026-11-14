@@ -1,0 +1,622 @@
+{
+  "generated_at": "2026-10-27T13:36:43+00:00",
+  "paper_id": "psychology-barrons-2027-ch18-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 7,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0dc315bc732862a6",
+          "name": "Humanistic therapies",
+          "confidence": 0.95,
+          "evidence": "What kind of therapy does Coretta’s therapist most likely practice?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-81d40fa1affb5854",
+          "name": "Person-centered therapy",
+          "confidence": 0.7,
+          "evidence": "Coretta’s therapist says little during their sessions and never makes any recommendations"
+        }
+      ],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "therapist",
+          "normalized": "therapist",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "therapy",
+          "normalized": "therapy",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Humanistic",
+          "normalized": "humanistic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Behavioral",
+          "normalized": "behavioral",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Cognitive",
+          "normalized": "cognitive",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "Biomedical",
+          "normalized": "biomedical",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes a nondirective therapist, which points to humanistic therapy. Person-centered therapy is a supporting example of humanistic therapy.",
+      "warnings": [
+        "confusable 'Cognitive behavioral therapy (CBT)' is not named in option 'C' and is not in the core subheading; dropped",
+        "confusable 'Somatic therapies' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Humanistic': not a known alias of 'Humanistic therapies'; stored without a KP",
+        "keyword 'Cognitive': not a known alias of 'Cognitive therapy'; stored without a KP",
+        "keyword 'Biomedical': not a known alias of 'Somatic therapies'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4a57b1e6d889d4c5",
+          "name": "Modeling",
+          "confidence": 0.95,
+          "evidence": "Dr. Flores and her assistant demonstrate how Jeb might go about asking for a raise. Then the assistant pretends to be Jeb’s boss, and Jeb practices asking for a raise.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-8e5498d2282e250d",
+          "name": "Modeling",
+          "confidence": 0.7,
+          "evidence": "Dr. Flores and her assistant demonstrate how Jeb might go about asking for a raise."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-58b2d7b19b979186",
+          "name": "Free association",
+          "option_label": "D",
+          "reason": "Free association is another therapy technique, but it involves uncensored verbalization rather than observing and imitating a modeled behavior."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-5424450a3dfa3bbe",
+          "name": "Rational emotive behavior therapy (REBT)",
+          "option_label": "A",
+          "reason": "REBT is a therapy approach, but it focuses on confronting dysfunctional thoughts rather than demonstrating and practicing a behavior."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "modeling",
+          "normalized": "modeling",
+          "kp_id": "psychology-barrons-2027-kp-4a57b1e6d889d4c5",
+          "kp_name": "Modeling",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "demonstrate",
+          "normalized": "demonstrate",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "practices asking for a raise",
+          "normalized": "practices asking for a raise",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "REBT",
+          "normalized": "rebt",
+          "kp_id": "psychology-barrons-2027-kp-5424450a3dfa3bbe",
+          "kp_name": "Rational emotive behavior therapy (REBT)",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "existential therapy",
+          "normalized": "existential therapy",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "free association",
+          "normalized": "free association",
+          "kp_id": "psychology-barrons-2027-kp-58b2d7b19b979186",
+          "kp_name": "Free association",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests modeling as a therapy/behavioral technique: Jeb observes a demonstration and then imitates/practices the behavior. C02 is the closest candidate because it frames modeling within types of therapy; C01 is a supporting learning-theory framing.",
+      "warnings": [
+        "confusable 'Existential therapies' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'demonstrate': not a known alias of 'Modeling'; stored without a KP",
+        "keyword 'practices asking for a raise': not a known alias of 'Modeling'; stored without a KP",
+        "keyword 'existential therapy': not a known alias of 'Existential therapies'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-47d6f9d658811046",
+          "name": "Cognitive therapy",
+          "confidence": 0.95,
+          "evidence": "cognitive therapists",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-decacd350bb22573",
+          "name": "Psychodynamic therapy",
+          "confidence": 0.7,
+          "evidence": "One difference between psychodynamic and cognitive modes of treatment"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-2dd745581c0996d9",
+          "name": "Psychoanalysis",
+          "option_label": "D",
+          "reason": "Psychoanalysis, not cognitive therapy, views repressed childhood thoughts as the root of problems; tempting because it describes the psychodynamic side of the contrast."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "psychodynamic",
+          "normalized": "psychodynamic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "supporting",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cognitive therapists",
+          "normalized": "cognitive therapists",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "focus on the present",
+          "normalized": "focus on the present",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "repressed thoughts about one’s childhood",
+          "normalized": "repressed thoughts about one's childhood",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The item contrasts cognitive therapy's present focus with psychoanalysis's emphasis on early childhood and repressed thoughts.",
+      "warnings": [
+        "keyword 'psychodynamic': not a known alias of 'Psychodynamic therapy'; stored without a KP",
+        "keyword 'cognitive therapists': not a known alias of 'Cognitive therapy'; stored without a KP",
+        "keyword 'focus on the present': not a known alias of 'Cognitive therapy'; stored without a KP",
+        "keyword 'repressed thoughts about one’s childhood': not a known alias of 'Psychoanalysis'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-004",
+      "number": 4,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-6637ce091fa4848e",
+          "name": "Evidence-based interventions",
+          "confidence": 0.72,
+          "evidence": "Both treatment groups experienced a similar level of improvement.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "cognitive behavioral therapy (CBT)",
+          "normalized": "cognitive behavioral therapy cbt",
+          "kp_id": "psychology-barrons-2027-kp-c6aa2f77d4a47772",
+          "kp_name": "Cognitive behavioral therapy (CBT)",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "drug therapy",
+          "normalized": "drug therapy",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "control group",
+          "normalized": "control group",
+          "kp_id": "psychology-barrons-2027-kp-e411d0a3f5f08055",
+          "kp_name": "Control group",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "placebo",
+          "normalized": "placebo",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "major depressive disorder",
+          "normalized": "major depressive disorder",
+          "kp_id": "psychology-barrons-2027-kp-b6a922970279169e",
+          "kp_name": "Major depressive disorder",
+          "role": "mentioned",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "control",
+          "normalized": "control",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "medication",
+          "normalized": "medication",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests interpreting comparative outcome data across treatment and control conditions; the closest candidate is evidence-based interventions (C05). CBT, drug therapy, control group, and placebo are mentioned but not the tested concept.",
+      "warnings": [
+        "supporting 'Cognitive behavioral therapy (CBT)' is not in the correct option or the core subheading; dropped",
+        "supporting 'Drug therapy or psychopharmacology' is not in the correct option or the core subheading; dropped",
+        "supporting 'Control group' is not in the correct option or the core subheading; dropped",
+        "confusable 'Placebo method' is not named in option 'A' and is not in the core subheading; dropped",
+        "keyword 'drug therapy': not a known alias of 'Drug therapy or psychopharmacology'; stored without a KP",
+        "keyword 'placebo': not a known alias of 'Placebo method'; stored without a KP",
+        "keyword 'control': not a known alias of 'Control group'; stored without a KP",
+        "keyword 'medication': not a known alias of 'Drug therapy or psychopharmacology'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-005",
+      "number": 5,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0a6f3f52c8fd0cd8",
+          "name": "Mean",
+          "confidence": 0.9,
+          "evidence": "What phenomenon is illustrated by the change in distress in the control group?",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-0ecc5a6bb294a5bb",
+          "name": "Negative correlation",
+          "option_label": "C",
+          "reason": "A correlation type is a tempting statistical near-miss for explaining change in scores."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "Regression to the mean",
+          "normalized": "regression to the mean",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "control group",
+          "normalized": "control group",
+          "kp_id": "psychology-barrons-2027-kp-e411d0a3f5f08055",
+          "kp_name": "Control group",
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "placebo",
+          "normalized": "placebo",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "context",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Negative correlation",
+          "normalized": "negative correlation",
+          "kp_id": "psychology-barrons-2027-kp-0ecc5a6bb294a5bb",
+          "kp_name": "Negative correlation",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The core concept is regression to the mean, which is not represented by a dedicated candidate key; C45 (Mean) is the closest available statistical concept. Statistical significance (option B) has no matching candidate and is not included as a confusable.",
+      "warnings": [
+        "supporting 'Control group' is not in the correct option or the core subheading; dropped",
+        "confusable 'Placebo method' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'Regression to the mean': not a known alias of 'Mean'; stored without a KP",
+        "keyword 'placebo': not a known alias of 'Placebo method'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-006",
+      "number": 6,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-383f7f7f0323a76f",
+          "name": "Random assignment",
+          "confidence": 0.97,
+          "evidence": "Random assignment enables researchers to show cause- effect relationships.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "randomly assign",
+          "normalized": "randomly assign",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Random assignment",
+          "normalized": "random assignment",
+          "kp_id": "psychology-barrons-2027-kp-383f7f7f0323a76f",
+          "kp_name": "Random assignment",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "cause- effect relationships",
+          "normalized": "cause effect relationships",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Random samples",
+          "normalized": "random samples",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "represent populations",
+          "normalized": "represent populations",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "The item tests why random assignment supports causal inference; random sampling (C) is the key confusable.",
+      "warnings": [
+        "supporting 'Random sampling' is not in the correct option or the core subheading; dropped",
+        "confusable 'Random sampling' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'randomly assign': not a known alias of 'Random assignment'; stored without a KP",
+        "keyword 'cause- effect relationships': not a known alias of 'Random assignment'; stored without a KP",
+        "keyword 'Random samples': not a known alias of 'Random sampling'; stored without a KP",
+        "keyword 'represent populations': not a known alias of 'Random sampling'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch18-review-007",
+      "number": 7,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-47d6f9d658811046",
+          "name": "Cognitive therapy",
+          "confidence": 0.9,
+          "evidence": "She helps him see that he has some unrealistic expectations about college",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [],
+      "confusables": [],
+      "keywords": [
+        {
+          "surface": "unrealistic expectations",
+          "normalized": "unrealistic expectations",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Cognitive",
+          "normalized": "cognitive",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "Psychodynamic",
+          "normalized": "psychodynamic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "Eclectic",
+          "normalized": "eclectic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "Humanistic",
+          "normalized": "humanistic",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        }
+      ],
+      "notes": "Core is cognitive therapy (changing unhealthy thought patterns); the cognitive perspective is supporting. Humanistic is a near-miss because of the listening/understanding description.",
+      "warnings": [
+        "supporting 'Cognitive Perspective' is not in the correct option or the core subheading; dropped",
+        "confusable 'Psychodynamic therapy' is not named in option 'A' and is not in the core subheading; dropped",
+        "confusable 'Eclectic therapy' is not named in option 'B' and is not in the core subheading; dropped",
+        "confusable 'Humanistic therapies' is not named in option 'C' and is not in the core subheading; dropped",
+        "keyword 'unrealistic expectations': not a known alias of 'Cognitive therapy'; stored without a KP",
+        "keyword 'Cognitive': not a known alias of 'Cognitive therapy'; stored without a KP",
+        "keyword 'Psychodynamic': not a known alias of 'Psychodynamic therapy'; stored without a KP",
+        "keyword 'Eclectic': not a known alias of 'Eclectic therapy'; stored without a KP",
+        "keyword 'Humanistic': not a known alias of 'Humanistic therapies'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

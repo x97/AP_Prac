@@ -1,0 +1,89 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ap_psych
+      POSTGRES_USER: ap_psych
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ap_psych -d ap_psych"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build:
+      context: ../../apps/api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      APP_ENV: prod
+      DATABASE_URL: postgresql+psycopg://ap_psych:${POSTGRES_PASSWORD}@postgres:5432/ap_psych
+      CONTENT_DIR: /srv/ap-psych/releases/active
+      ASSET_BASE_URL: /assets
+      COOKIE_SECURE: "true"
+      AUTO_CREATE_TABLES: "true"
+      EXPOSE_DEV_OTP: "false"
+    volumes:
+      - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/readyz')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  worker:
+    build:
+      context: ../../apps/api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      APP_ENV: prod
+      DATABASE_URL: postgresql+psycopg://ap_psych:${POSTGRES_PASSWORD}@postgres:5432/ap_psych
+      CONTENT_DIR: /srv/ap-psych/releases/active
+      COOKIE_SECURE: "true"
+      AUTO_CREATE_TABLES: "false"
+    command: ["python", "-m", "app.jobs.sweep_expired"]
+    volumes:
+      - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      api:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ../../apps/web
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+    depends_on:
+      api:
+        condition: service_started
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certs:/etc/nginx/certs:ro
+      - /srv/ap-psych/releases:/srv/ap-psych/releases:ro
+    depends_on:
+      - web
+      - api
+
+volumes:
+  pgdata:

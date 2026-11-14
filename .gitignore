@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Local backups / legacy archive: keep out of git
+_archive/
+
+# Source PDFs are backed up to OSS/NAS, not Git
+assets/**/*.pdf
+
+# Database backups: keep local/NAS/object storage, not git
+backups/*
+!backups/README.md
+*.bak-*
+*.db-wal
+*.db-shm
+
+# Content releases are build artifacts; upload them to object storage
+data/releases/*
+!data/releases/.gitkeep
+
+# IDE / tooling
+.idea/
+.ruff_cache/
+
+# WeChat DevTools local private settings
+apps/miniprogram/miniprogram/project.private.config.json
+
+# TLS certificates / private keys
+infra/compose/certs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Local app DB (users/attempts)
+data/app/*.db
+data/app/effective/

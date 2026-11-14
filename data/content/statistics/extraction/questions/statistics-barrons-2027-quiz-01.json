@@ -1,0 +1,741 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-01",
+ "kind": "quiz",
+ "number": 1,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 1 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 1",
+ "pdf_page_start": 84,
+ "pdf_page_end": 91,
+ "answer_page_start": 711,
+ "answer_page_end": 713,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "Both are categorical.",
+    "B": "Both are quantitative.",
+    "C": "Primary color is categorical and width is quantitative.",
+    "D": "Primary color is quantitative and width is categorical."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       385.2,
+       264.2,
+       402.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       404.7,
+       270.3,
+       421.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       424.2,
+       462.2,
+       441.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       443.7,
+       463.3,
+       460.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 84,
+   "page_end": 84,
+   "stem": "Data were collected on 100 stamps from around the world. Two variables were primary color and width of stamp. Are these variables categorical or quantitative?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Primary color is categorical (it takes values that are names), and width is quantitative (it takes values that can be measured).",
+   "question_id": "statistics-barrons-2027-quiz-01-001",
+   "source_pages": [
+    84,
+    84
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "Both are discrete.",
+    "B": "Number of passengers is discrete and weight is continuous.",
+    "C": "Number of passengers is continuous and weight is discrete.",
+    "D": "These are categorical, not quantitative, variables, so neither is discrete or continuous."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       548.1,
+       245.9,
+       564.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       567.5,
+       502.8,
+       584.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       587.0,
+       502.8,
+       603.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 84,
+      "bbox": [
+       110.0,
+       606.5,
+       520.8,
+       623.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 84,
+   "page_end": 84,
+   "stem": "An elevator manufacturing company rates each elevator type with two variables: maximum number of passengers and maximum weight. Are these variables discrete or continuous?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Number of passengers is an integer, a countable variable, thus is discrete. Weight can take on an infinite number of values between any two values, thus is continuous.",
+   "question_id": "statistics-barrons-2027-quiz-01-002",
+   "source_pages": [
+    84,
+    84
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "The data could be used to estimate a population mean since the data collected are numerical.",
+    "B": "The data could be used to estimate a population proportion since the data collected are numerical.",
+    "C": "The data could be used to estimate a population mean since the data collected are categorical.",
+    "D": "The data could be used to estimate a population proportion since the data collected are categorical."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 85,
+      "bbox": [
+       110.0,
+       122.1,
+       533.1,
+       138.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 85,
+      "bbox": [
+       110.0,
+       158.3,
+       503.1,
+       175.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 85,
+      "bbox": [
+       110.0,
+       194.5,
+       533.1,
+       211.3
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 85,
+      "bbox": [
+       110.0,
+       230.7,
+       504.3,
+       247.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 84,
+   "page_end": 85,
+   "stem": "Suppose that a study was carried out in which each student in a random sample of students at a particular high school was asked whether he or she thought too much homework was assigned in most classes. Which of the following is a correct understanding of the type of investigative question this study might address?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The data are categorical because each student responds yes or no. This leads to estimating a population proportion, that is, the proportion of students who feel that too much homework is assigned in most classes.",
+   "question_id": "statistics-barrons-2027-quiz-01-003",
+   "source_pages": [
+    84,
+    85
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The minimum time taken by any of these students was 5 minutes.",
+    "B": "The maximum time taken by any of these students was 35 minutes.",
+    "C": "If the times are arranged in order, the middle time would be between 10 and 15 minutes.",
+    "D": "If the times are arranged in order, the middle time would be between 15 and 20 minutes."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 85,
+      "bbox": [
+       110.0,
+       671.2,
+       487.2,
+       688.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       72.0,
+       497.9,
+       88.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       108.2,
+       507.0,
+       125.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       144.4,
+       508.0,
+       161.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 85,
+     "bbox": [
+      152.7,
+      356.0,
+      459.7,
+      614.2
+     ]
+    }
+   ],
+   "page_start": 85,
+   "page_end": 86,
+   "stem": "The times, in minutes, taken by 155 high school students to complete a level of the video game Angry Birds are summarized in the histogram below. Based on the histogram, which of the following must be true?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "The minimum time is somewhere between 5 and 10 minutes but might not be exactly 5 minutes. Similarly, the maximum time is somewhere between 30 and 35 minutes. With 155 times, the middle time will be the 78th time if the times are arranged in order. There are 70 times less than 15 minutes and 40 times between 15 and 20 minutes, so the 78th time must be between 15 and 20 minutes.",
+   "question_id": "statistics-barrons-2027-quiz-01-004",
+   "source_pages": [
+    85,
+    86
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "Stemplots are useful for both quantitative and categorical data sets.",
+    "B": "Stemplots are equally useful for small and very large data sets.",
+    "C": "Stemplots can show symmetry, gaps, clusters, and outliers.",
+    "D": "Stemplots may or may not show individual values."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       232.1,
+       521.7,
+       248.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       268.3,
+       524.4,
+       285.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       287.8,
+       501.4,
+       304.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       307.2,
+       446.3,
+       324.0
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 86,
+   "page_end": 86,
+   "stem": "Which of the following is a true statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Stemplots are not used for categorical data sets, are too unwieldy to be used for very large data sets, and show every individual value. Stems should never be skipped over—gaps are important to see.",
+   "question_id": "statistics-barrons-2027-quiz-01-005",
+   "source_pages": [
+    86,
+    86
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "In histograms, relative areas correspond to relative frequencies.",
+    "B": "In histograms, frequencies can be determined from relative heights.",
+    "C": "Symmetric histograms may have multiple peaks.",
+    "D": "Two students working with the same set of data may come up with histograms that look different."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       378.2,
+       529.5,
+       395.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       397.7,
+       501.7,
+       414.5
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       433.9,
+       434.0,
+       450.7
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 86,
+      "bbox": [
+       110.0,
+       453.4,
+       521.5,
+       470.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 86,
+   "page_end": 86,
+   "stem": "Which of the following is an incorrect statement?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Histograms give information about relative frequencies (relative areas correspond to relative frequencies) and may or may not have an axis with actual frequencies. Symmetric histograms can have any number of peaks. Choice of width and number of classes changes the appearance of a histogram. Stemplots clearly show outliers; however, in histograms outliers may be hidden in large class widths.",
+   "question_id": "statistics-barrons-2027-quiz-01-006",
+   "source_pages": [
+    86,
+    86
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "The same percentage of Millennials and Generation Z preferred Company B.",
+    "B": "The percentage of Generation X who preferred Company B is greater than the percentage of Millennials who preferred Company B.",
+    "C": "Of those who preferred Company A, more than half were either Generation X or Millennials.",
+    "D": "Of those who preferred Company B, less than half were not Generation Z."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       72.0,
+       525.5,
+       88.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       108.2,
+       512.1,
+       125.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       161.1,
+       527.6,
+       177.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       197.3,
+       504.5,
+       214.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 86,
+   "page_end": 87,
+   "stem": "A sales rep asked 50 Generation X, 75 Millennial, and 100 Generation Z respondents their preference between Company A and Company B with regard to sound quality of their smart speakers. The results are shown in the following table. Company A Company B Generation X 19 31 Millennials 43 32 Generation Z 68 32 Which of the following statements is supported by the table?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The percentage of Generation X who preferred Company B is , while the percentage of Millennials who preferred Company B is .",
+   "question_id": "statistics-barrons-2027-quiz-01-007",
+   "source_pages": [
+    86,
+    87
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "[see image]",
+    "B": "[see image]",
+    "C": "[see image]",
+    "D": "[see image]"
+   },
+   "option_images": {
+    "A": [
+     {
+      "page": 87,
+      "bbox": [
+       137.4,
+       614.9,
+       164.6,
+       636.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 87,
+      "bbox": [
+       137.4,
+       639.2,
+       197.3,
+       662.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 87,
+      "bbox": [
+       137.4,
+       665.0,
+       197.3,
+       688.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 87,
+      "bbox": [
+       138.8,
+       691.4,
+       166.0,
+       711.6
+      ]
+     }
+    ]
+   },
+   "option_boxes": {
+    "A": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       615.5,
+       129.1,
+       632.3
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       640.6,
+       128.9,
+       657.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       666.7,
+       129.1,
+       683.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 87,
+      "bbox": [
+       110.0,
+       691.4,
+       130.1,
+       708.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 87,
+     "bbox": [
+      205.6,
+      322.6,
+      406.8,
+      541.1
+     ]
+    }
+   ],
+   "page_start": 87,
+   "page_end": 87,
+   "stem": "In a favorite movie survey of 20 AP Statistics students, 4 chose Comedy, 5 chose Action, 6 chose Romance, 1 chose Drama, and 4 chose Sci-Fi. These data are illustrated in the following pie chart. Among those not choosing Comedy or Romance, what proportion chose Sci-Fi or Action?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The number of students not choosing Comedy or Romance was 20 − (4 + 6) or 5 + 1 + 4. Of these, 4 + 5 chose Sci-Fi or Action for a proportion of .",
+   "question_id": "statistics-barrons-2027-quiz-01-008",
+   "source_pages": [
+    87,
+    87
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 88,
+   "page_end": 88,
+   "stem": "The miles run by 25 randomly selected runners during a given week are given below. Miles run 5 ≤ x < 10 10 ≤ x < 15 ≤ x < 20 ≤ x < (x) 15 20 25 Frequency 3 11 7 4 (a) Which is more appropriate for displaying these data, a dotplot, a stemplot, or a histogram? Explain. (b) What percent of the runners ran under 15 miles? (c) If each of the four intervals is divided in half and the corresponding numbers given, what percent would be under 15 miles?",
+   "correct_answer": null,
+   "answer_text": "(a) Given numerical data and four bins with corresponding frequencies immediately leads to the construction of a histogram. Dotplots and stemplots cannot be constructed when individual values are unknown. (b) (c) The answer would still be 56%.",
+   "question_id": "statistics-barrons-2027-quiz-01-009",
+   "context": "",
+   "source_pages": [
+    88,
+    88
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 89,
+     "bbox": [
+      152.7,
+      72.0,
+      459.7,
+      283.6
+     ]
+    }
+   ],
+   "page_start": 88,
+   "page_end": 89,
+   "stem": "The dotplot below shows the numbers of goals scored by the 20 teams playing in a city’s high school soccer games on a particular day. (a) Describe the distribution. (b) One superstar scored six goals, but his team still lost. What are all possible final scores for that game? Explain. (c) Is it possible that each of the teams that scored exactly two goals were the winners of that game? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) A complete answer mentions shape, center, spread, and unusual features (such as outliers) while including context within the description. Shape: Unimodal, skewed right, probable outlier at 10. Center: Around 2 or 3. Spread: From 0 to 10 goals were scored by each team. (b) If the player scored six goals on his own, then his/her team must have scored either 7 or 10 goals. Since the team lost, the only possible final score is 10 to 7. (c) No, there were six teams that scored exactly two goals, but there were only five teams that scored less than two goals. So, not all the two-goal teams could have won.",
+   "question_id": "statistics-barrons-2027-quiz-01-010",
+   "context": "",
+   "source_pages": [
+    88,
+    89
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 89,
+     "bbox": [
+      246.0,
+      471.5,
+      366.4,
+      653.8
+     ]
+    }
+   ],
+   "page_start": 89,
+   "page_end": 90,
+   "stem": "The winning percentages for a major league baseball team over the past 22 years are shown in the following stemplot: (a) Interpret the lowest value. (b) Describe the distribution. (c) Give a reason that one might argue that the team is more likely to lose a given game than win it. (d) Give a reason that one might argue that the team is more likely to win a given game than lose it.",
+   "correct_answer": null,
+   "answer_text": "(a) The lowest winning percentage over the past 22 years was 46.0%. (b) A complete answer mentions shape, center, spread, and unusual features (such as outliers) while including context within the description. Shape: Two clusters, each somewhat bell-shaped. Center: Around 50%. Spread: The winning percentages were between 46.0% and 55.6%. (c) The team had more losing seasons (13) than winning seasons (9). (d) The cluster of winning percentages is further away from 50% than the cluster of losing percentages.",
+   "question_id": "statistics-barrons-2027-quiz-01-011",
+   "context": "",
+   "source_pages": [
+    89,
+    90
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 91,
+     "bbox": [
+      193.1,
+      72.0,
+      419.3,
+      296.1
+     ]
+    }
+   ],
+   "page_start": 90,
+   "page_end": 90,
+   "stem": "Data collected from over 10,000 graduating college seniors asked about economic backgrounds and leadership position experiences. The data are summarized in the following table: Economic background Medium Lower income income Higher income Number of students 1,450 8,280 2,975 Number claiming leadership role 377 2,760 1,428 (a) What is the investigative question of interest? (b) Are the data categorical or numerical? Explain. (c) Explain why a relative frequency distribution is more appropriate than a frequency distribution in analyzing the data. (d) The following bar chart is constructed from the data. What does it indicate about the relationship between college students’ economic backgrounds and leadership position experience?",
+   "correct_answer": null,
+   "answer_text": "(a) Is there a relationship between college students’ economic backgrounds and leadership position experience? (b) Categorical, taking on values that are categories (economic background). (c) Relative frequencies are more appropriate in analyzing these data because there are different numbers of students who were surveyed from each economic category. (d) Students who enter college with certain advantages seem to accrue additional advantages in college. In this survey, higher-income economic backgrounds were associated with higher levels of leadership position experience.",
+   "question_id": "statistics-barrons-2027-quiz-01-012",
+   "context": "",
+   "source_pages": [
+    90,
+    90
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 12,
+ "mcq_count": 8,
+ "frq_count": 4
+}

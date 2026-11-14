@@ -1,0 +1,936 @@
+{
+  "unit": 3,
+  "sections": [
+    {
+      "chapter": 11,
+      "section": "Overview",
+      "page": 206,
+      "knowledge_points": [
+        {
+          "name": "Developmental psychology",
+          "subheading": "",
+          "definition_quote": "Developmental psychologists study how our behaviors and thoughts change over the course of our entire lives, from birth to death (or from conception to cremation).",
+          "researchers": "本节未提及",
+          "plain": "研究人一生中行为与思维的变化"
+        },
+        {
+          "name": "Nature versus nurture",
+          "subheading": "",
+          "definition_quote": "This chapter discusses influences on development from nature (genetic factors) first and then moves on to theories about nurture (environmental factors).",
+          "researchers": "本节未提及",
+          "plain": "先天遗传与后天环境的争论"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Developmental Psychology Research Methods",
+      "page": 206,
+      "knowledge_points": [
+        {
+          "name": "Cross-sectional research",
+          "subheading": "",
+          "definition_quote": "Cross-sectional research uses participants of different ages to compare how certain variables may change over the lifespan.",
+          "researchers": "本节未提及",
+          "plain": "比较不同年龄组以研究变化"
+        },
+        {
+          "name": "Longitudinal research",
+          "subheading": "",
+          "definition_quote": "Instead of sampling from various age groups as in cross-sectional research, a longitudinal study examines one group of participants over time.",
+          "researchers": "本节未提及",
+          "plain": "长期追踪同一组受试者"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Prenatal Influences",
+      "page": 207,
+      "knowledge_points": [
+        {
+          "name": "Genetics",
+          "subheading": "Genetics",
+          "definition_quote": "Our genes also help determine what abilities we are born with, such as our reflexes and our process of developing motor skills.",
+          "researchers": "Bouchard",
+          "plain": "基因影响先天能力发展"
+        },
+        {
+          "name": "Teratogens",
+          "subheading": "Teratogens",
+          "definition_quote": "Certain chemicals or agents (called teratogens) can cause harm if ingested or contracted by the mother.",
+          "researchers": "本节未提及",
+          "plain": "可危害胎儿的化学物质或病原体"
+        },
+        {
+          "name": "Fetal alcohol syndrome (FAS)",
+          "subheading": "Teratogens",
+          "definition_quote": "Children of alcoholic mothers who drink heavily during pregnancy are at high risk for fetal alcohol syndrome (FAS).",
+          "researchers": "本节未提及",
+          "plain": "孕期酗酒导致胎儿发育障碍"
+        },
+        {
+          "name": "Fetal alcohol effect",
+          "subheading": "Teratogens",
+          "definition_quote": "Researchers are also investigating a less severe effect of moderate drinking during pregnancy, fetal alcohol effect.",
+          "researchers": "本节未提及",
+          "plain": "孕期适度饮酒的较轻影响"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Motor/Sensory Development",
+      "page": 209,
+      "knowledge_points": [
+        {
+          "name": "Reflexes",
+          "subheading": "Reflexes",
+          "definition_quote": "All babies exhibit a set of reflexes, which are specific, inborn, automatic responses to certain specific stimuli.",
+          "researchers": "本节未提及",
+          "plain": "婴儿天生的自动反应"
+        },
+        {
+          "name": "Rooting reflex",
+          "subheading": "Reflexes",
+          "definition_quote": "When touched on the cheek, a baby will turn his or her head to the side where he or she felt the touch and seek to put the object into his or her mouth.",
+          "researchers": "本节未提及",
+          "plain": "触碰脸颊时婴儿转头寻食"
+        },
+        {
+          "name": "Sucking reflex",
+          "subheading": "Reflexes",
+          "definition_quote": "When an object is placed into the baby’s mouth, the infant will suck on it.",
+          "researchers": "本节未提及",
+          "plain": "吸吮入口中的物体"
+        },
+        {
+          "name": "Grasping reflex",
+          "subheading": "Reflexes",
+          "definition_quote": "If an object is placed into a baby’s palm or foot pad, the baby will try to grasp the object with his or her fingers or toes.",
+          "researchers": "本节未提及",
+          "plain": "抓握手掌或脚掌上的物体"
+        },
+        {
+          "name": "Moro reflex",
+          "subheading": "Reflexes",
+          "definition_quote": "When startled, a baby will fling his or her limbs out and then quickly retract them, making himself or herself as small as possible.",
+          "researchers": "本节未提及",
+          "plain": "受惊时四肢外展再收回"
+        },
+        {
+          "name": "Babinski reflex",
+          "subheading": "Reflexes",
+          "definition_quote": "When a baby’s foot is stroked, he or she will spread the toes.",
+          "researchers": "本节未提及",
+          "plain": "足底受刺激时脚趾张开"
+        },
+        {
+          "name": "Visual cliff",
+          "subheading": "The Newborn’s Senses",
+          "definition_quote": "Some researchers develop innovative techniques like the visual cliff to measure what babies can perceive visually.",
+          "researchers": "本节未提及",
+          "plain": "测量婴儿深度知觉的实验装置"
+        },
+        {
+          "name": "Motor development",
+          "subheading": "Motor Development",
+          "definition_quote": "Barring developmental difficulties, all humans develop the same basic motor skills in the same sequence, especially our gross motor skills like the examples described in this section.",
+          "researchers": "本节未提及",
+          "plain": "运动技能按固定顺序发展"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Gender and Development",
+      "page": 211,
+      "knowledge_points": [
+        {
+          "name": "Gender roles",
+          "subheading": "",
+          "definition_quote": "Different cultures encourage different gender roles, which are behaviors that a culture associates with a gender.",
+          "researchers": "本节未提及",
+          "plain": "文化赋予性别的行为期望"
+        },
+        {
+          "name": "Biopsychological (Neuropsychological) Theory",
+          "subheading": "Biopsychological (Neuropsychological) Theory",
+          "definition_quote": "Biopsychological psychologists concentrate on the nature element in the nature/nurture combination that produces our gender roles.",
+          "researchers": "本节未提及",
+          "plain": "从生物因素解释性别角色"
+        },
+        {
+          "name": "Social-Cognitive Theory",
+          "subheading": "Social-Cognitive Theory",
+          "definition_quote": "Social-cognitive psychologists concentrate on the effects society and our own thoughts about gender have on role development.",
+          "researchers": "本节未提及",
+          "plain": "社会与认知影响性别角色发展"
+        },
+        {
+          "name": "Gender schema theory",
+          "subheading": "Social-Cognitive Theory",
+          "definition_quote": "These psychologists focus on the internal interpretations we make about the gender messages we get from our environment (also known as gender schema theory).",
+          "researchers": "本节未提及",
+          "plain": "用内部解释理解性别信息"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Stage Theories",
+      "page": 212,
+      "knowledge_points": [
+        {
+          "name": "Stage theories",
+          "subheading": "",
+          "definition_quote": "Stage theories are, by definition, discontinuous theories of development.",
+          "researchers": "本节未提及",
+          "plain": "将发展视为分阶段突变的理论"
+        },
+        {
+          "name": "Zone of proximal development",
+          "subheading": "",
+          "definition_quote": "a child’s zone of proximal development is the range of tasks the child can perform independently and those tasks the child needs assistance with.",
+          "researchers": "Lev Vygotsky",
+          "plain": "儿童独立完成与需协助的任务范围"
+        },
+        {
+          "name": "Psychosocial stage theory",
+          "subheading": "Erik Erikson",
+          "definition_quote": "He thought that our personality was profoundly influenced by our experiences with others, so he created the psychosocial stage theory. It consists of eight stages, each stage centering on a specific social conflict (see Table 11.2).",
+          "researchers": "Erik Erikson",
+          "plain": "人生八个阶段各含社会冲突"
+        },
+        {
+          "name": "Autonomy",
+          "subheading": "Erik Erikson",
+          "definition_quote": "Autonomy is our control over our own body, and Erikson thought that potty training was an early effort at gaining this control.",
+          "researchers": "Erik Erikson",
+          "plain": "对自身身体的控制"
+        },
+        {
+          "name": "Inferiority complex",
+          "subheading": "Erik Erikson",
+          "definition_quote": "If we realize that we are behind or cannot do as well as our peers, which is having an inferiority complex, we may feel anxious about our performance in that area throughout the rest of the stages.",
+          "researchers": "Erik Erikson",
+          "plain": "因落后于同伴而产生的自卑"
+        },
+        {
+          "name": "Imaginary audience",
+          "subheading": "Erik Erikson",
+          "definition_quote": "Other researchers connect this idea with the tendency of adolescents to think about how they are viewed by an imaginary audience and overestimate how much other people are thinking about or focusing on them.",
+          "researchers": "本节未提及",
+          "plain": "以为别人都在关注自己"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Cognitive Development",
+      "page": 215,
+      "knowledge_points": [
+        {
+          "name": "Schemata",
+          "subheading": "Jean Piaget",
+          "definition_quote": "Piaget described how children viewed the world through schemata, cognitive rules we use to interpret the world.",
+          "researchers": "Jean Piaget",
+          "plain": "解释世界的认知规则"
+        },
+        {
+          "name": "Assimilation",
+          "subheading": "Jean Piaget",
+          "definition_quote": "Typically, we incorporate our experiences into these existing schemata in a process called assimilation.",
+          "researchers": "Jean Piaget",
+          "plain": "把新经验纳入已有认知规则"
+        },
+        {
+          "name": "Accommodation",
+          "subheading": "Jean Piaget",
+          "definition_quote": "Sometimes, information does not fit into or violates our schemata, so we must accommodate and change our schemata.",
+          "researchers": "Jean Piaget",
+          "plain": "改变认知规则以适应新信息"
+        },
+        {
+          "name": "Object permanence",
+          "subheading": "Sensorimotor Stage (Birth to Approximately Two Years Old)",
+          "definition_quote": "When babies start to look for or somehow acknowledge that objects do exist when they cannot see them, they have object permanence.",
+          "researchers": "Jean Piaget",
+          "plain": "物体看不见时仍然存在"
+        },
+        {
+          "name": "Egocentric",
+          "subheading": "Preoperational Stage (Two to Approximately Seven Years Old)",
+          "definition_quote": "Children in this stage are also egocentric in their thinking since they cannot look at the world from anyone’s perspective but their own.",
+          "researchers": "Jean Piaget",
+          "plain": "只能从自己视角看世界"
+        },
+        {
+          "name": "Theory of mind",
+          "subheading": "Preoperational Stage (Two to Approximately Seven Years Old)",
+          "definition_quote": "Modern developmental and cognitive psychologists call the ability to think about and consider the mental states of others the theory of mind.",
+          "researchers": "本节未提及",
+          "plain": "理解他人心理状态的能力"
+        },
+        {
+          "name": "Conservation",
+          "subheading": "Concrete Operational Stage (Eight to Approximately Twelve Years Old)",
+          "definition_quote": "Piaget categorized children as being in the concrete operational stage when they demonstrated knowledge of concepts of conservation, the realization that properties of objects remain the same even when their shapes change.",
+          "researchers": "Jean Piaget",
+          "plain": "物体外形改变但属性不变"
+        },
+        {
+          "name": "Abstract reasoning",
+          "subheading": "Formal Operational Stage (Twelve Through Adulthood)",
+          "definition_quote": "Through abstract reasoning, we can manipulate objects and contrast ideas in our mind without physically seeing them or having real-world correlates.",
+          "researchers": "Jean Piaget",
+          "plain": "脱离具体事物进行抽象思考"
+        },
+        {
+          "name": "Metacognition",
+          "subheading": "Formal Operational Stage (Twelve Through Adulthood)",
+          "definition_quote": "Also, in the formal operational stage, we gain the ability to think about the way we think; this is called metacognition.",
+          "researchers": "Jean Piaget",
+          "plain": "思考自己的思维过程"
+        },
+        {
+          "name": "Personal fable",
+          "subheading": "Formal Operational Stage (Twelve Through Adulthood)",
+          "definition_quote": "This new ability to think abstractly can lead some adolescents into a different kind of egocentric thinking: they can develop a personal fable, which is a belief that they are unique or different from everyone else, or they can develop an attitude of superiority or invulnerability.",
+          "researchers": "Jean Piaget",
+          "plain": "认为自己独特且不会受伤害"
+        },
+        {
+          "name": "Information processing model",
+          "subheading": "Criticisms of Piaget: Information Processing Model",
+          "definition_quote": "Information processing points out that our abilities to memorize, interpret, and perceive gradually develop as we age rather than developing in distinct stages.",
+          "researchers": "本节未提及",
+          "plain": "认知能力随年龄逐渐发展"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Language",
+      "page": 219,
+      "knowledge_points": [
+        {
+          "name": "Phonemes",
+          "subheading": "Elements of Language",
+          "definition_quote": "Phonemes are the smallest units of sound used in a language.",
+          "researchers": "本节未提及",
+          "plain": "语言中最小的语音单位"
+        },
+        {
+          "name": "Morpheme",
+          "subheading": "Elements of Language",
+          "definition_quote": "A morpheme is the smallest unit of meaningful sound.",
+          "researchers": "本节未提及",
+          "plain": "最小的有意义语音单位"
+        },
+        {
+          "name": "Syntax",
+          "subheading": "Elements of Language",
+          "definition_quote": "These words are then spoken or written in a particular order, called syntax.",
+          "researchers": "本节未提及",
+          "plain": "词语排列的规则"
+        },
+        {
+          "name": "Semantics",
+          "subheading": "Elements of Language",
+          "definition_quote": "The meanings of words, and the combinations of words in phrases and sentences, is referred to as semantics.",
+          "researchers": "本节未提及",
+          "plain": "词语及句子的意义"
+        },
+        {
+          "name": "Babbling stage",
+          "subheading": "Language Acquisition",
+          "definition_quote": "First, if you have ever been around babies, you know that babies babble. This is often cute, and it is the first stage of language acquisition that occurs about four months of age.",
+          "researchers": "本节未提及",
+          "plain": "约四个月开始咿呀学语"
+        },
+        {
+          "name": "Holophrases",
+          "subheading": "Language Acquisition",
+          "definition_quote": "The time during which babies speak in single words (holophrases) is sometimes called the holophrastic stage or one-word stage.",
+          "researchers": "本节未提及",
+          "plain": "用单个词表达意思的阶段"
+        },
+        {
+          "name": "Telegraphic speech",
+          "subheading": "Language Acquisition",
+          "definition_quote": "The next language acquisition stage occurs at around 18 months and is called the telegraphic speech or two-word stage.",
+          "researchers": "本节未提及",
+          "plain": "约18个月开始说两个词"
+        },
+        {
+          "name": "Overgeneralization",
+          "subheading": "Language Acquisition",
+          "definition_quote": "This misapplication of grammar rules is called overgeneralization or overregularization.",
+          "researchers": "本节未提及",
+          "plain": "错误套用语法规则"
+        },
+        {
+          "name": "Language acquisition device",
+          "subheading": "Language Acquisition",
+          "definition_quote": "Researcher Noam Chomsky theorized that humans are born with a language acquisition device, the ability to learn a language rapidly as children.",
+          "researchers": "Noam Chomsky",
+          "plain": "人类与生俱来的语言学习能力"
+        },
+        {
+          "name": "Critical period",
+          "subheading": "Language Acquisition",
+          "definition_quote": "He theorized that a critical period (a window of opportunity during which we must learn a skill or our development will permanently suffer) for learning language may exist.",
+          "researchers": "Noam Chomsky",
+          "plain": "必须学习某项技能的有限时期"
+        },
+        {
+          "name": "Linguistic relativity hypothesis",
+          "subheading": "Language and Cognition",
+          "definition_quote": "Psychologist Benjamin Whorf theorized that the language we use might control, and in some ways limit, our thinking. This theory is called the linguistic relativity hypothesis.",
+          "researchers": "Benjamin Whorf",
+          "plain": "语言影响并限制思维方式"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "section": "Parenting",
+      "page": 222,
+      "knowledge_points": [
+        {
+          "name": "Attachment parenting",
+          "subheading": "Attachment Theory",
+          "definition_quote": "Some research focused on how attachment parenting, or the reciprocal relationship between caregiver and child, affects development.",
+          "researchers": "本节未提及",
+          "plain": "照护者与孩子间的互惠关系"
+        },
+        {
+          "name": "Imprinting",
+          "subheading": "Attachment Theory",
+          "definition_quote": "Biologist Konrad Lorenz established that some infant animals (such as geese) become attached to (imprint on) individuals or even objects they see during a critical period after birth.",
+          "researchers": "Konrad Lorenz",
+          "plain": "幼动物出生后对所见对象依恋"
+        },
+        {
+          "name": "Contact comfort",
+          "subheading": "Contact Comfort",
+          "definition_quote": "Harlow’s studies demonstrated the importance of physical comfort in the formation of attachment to parents.",
+          "researchers": "Harry Harlow",
+          "plain": "身体接触带来的舒适感有助依恋"
+        },
+        {
+          "name": "Temperament",
+          "subheading": "Contact Comfort",
+          "definition_quote": "Some researchers try to investigate the possible influences of attachment experiences on our later temperament— our emotional style or typical way we react to stressful situations.",
+          "researchers": "本节未提及",
+          "plain": "对压力的典型情绪反应风格"
+        },
+        {
+          "name": "Secure attachment",
+          "subheading": "Secure Attachment",
+          "definition_quote": "Infants with secure attachments (about 66 percent of the participants) confidently explored the novel environment while the parents were present, were distressed when the parents left, and came to the parents when they returned.",
+          "researchers": "Mary Ainsworth",
+          "plain": "安心探索、父母离开时不安"
+        },
+        {
+          "name": "Avoidant attachment",
+          "subheading": "Secure Attachment",
+          "definition_quote": "Infants with avoidant attachments (about 21 percent of the participants) resisted being held by the parents and explored the novel environment.",
+          "researchers": "Mary Ainsworth",
+          "plain": "回避与父母的身体接触"
+        },
+        {
+          "name": "Anxious/ambivalent attachment",
+          "subheading": "Secure Attachment",
+          "definition_quote": "Infants with anxious/ambivalent attachments (also called resistant attachments or insecure attachments, about 12 percent of the participants) had ambivalent reactions to the parents.",
+          "researchers": "Mary Ainsworth",
+          "plain": "对父母反应矛盾、既焦虑又抗拒"
+        },
+        {
+          "name": "Ecological systems theory",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "This theory views human development as a system of relationships that is impacted by our environment.",
+          "researchers": "本节未提及",
+          "plain": "环境关系系统影响人的发展"
+        },
+        {
+          "name": "Microsystem",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "Microsystem: direct interactions between the child and their immediate surroundings, including their caregivers.",
+          "researchers": "本节未提及",
+          "plain": "儿童与身边人的直接互动"
+        },
+        {
+          "name": "Mesosystem",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "The mesosystem acknowledges that each of the five ecological systems interact.",
+          "researchers": "本节未提及",
+          "plain": "各微观系统之间的相互影响"
+        },
+        {
+          "name": "Exosystem",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "Exosystem: this system involves indirect influences on the child’s development.",
+          "researchers": "本节未提及",
+          "plain": "对儿童发展的间接影响"
+        },
+        {
+          "name": "Macrosystem",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "Macrosystem: influences of the cultures a child is immersed in will also influence his or her development.",
+          "researchers": "本节未提及",
+          "plain": "文化对儿童发展的影响"
+        },
+        {
+          "name": "Chronosystem",
+          "subheading": "Ecological Systems Theory",
+          "definition_quote": "Chronosystem: times of transition or change that occur over the chronology or timeline of a child’s life that influence development.",
+          "researchers": "本节未提及",
+          "plain": "人生时间线上的转变影响发展"
+        },
+        {
+          "name": "Authoritarian parents",
+          "subheading": "Parenting Styles",
+          "definition_quote": "Authoritarian parents set strict standards for their children’s behavior and apply punishments for violations of these rules.",
+          "researchers": "Diana Baumrind",
+          "plain": "严格立规并以惩罚执行"
+        },
+        {
+          "name": "Permissive parents",
+          "subheading": "Parenting Styles",
+          "definition_quote": "Permissive parents do not set clear guidelines for their children.",
+          "researchers": "Diana Baumrind",
+          "plain": "不设明确规则、管教宽松"
+        },
+        {
+          "name": "Authoritative parents",
+          "subheading": "Parenting Styles",
+          "definition_quote": "Authoritative parents have set consistent standards for their children’s behavior, but the standards are reasonable and explained.",
+          "researchers": "Diana Baumrind",
+          "plain": "规则合理且解释清楚"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "Overview",
+      "page": 238,
+      "knowledge_points": [
+        {
+          "name": "Learning",
+          "subheading": "",
+          "definition_quote": "Learning is commonly defined as a long-lasting change in behavior resulting from experience.",
+          "researchers": "本节未提及",
+          "plain": "由经验引起的持久行为变化"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "Classical Conditioning",
+      "page": 239,
+      "knowledge_points": [
+        {
+          "name": "Classical conditioning",
+          "subheading": "",
+          "definition_quote": "As a result, Pavlov deduced the basic principle of classical conditioning (also called associative learning). People and animals can learn to associate neutral stimuli (e.g., sounds) with stimuli that produce reflexive, involuntary responses (e.g., food) and will learn to respond similarly to the new stimulus as they did to the old one (e.g., salivate).",
+          "researchers": "Ivan Pavlov",
+          "plain": "中性刺激与反应建立联结"
+        },
+        {
+          "name": "Unconditioned stimulus (US or UCS)",
+          "subheading": "",
+          "definition_quote": "The original stimulus that elicits a response is known as the unconditioned stimulus (US or UCS).",
+          "researchers": "Ivan Pavlov",
+          "plain": "天生引发反应的刺激"
+        },
+        {
+          "name": "Unconditioned response (UR or UCR)",
+          "subheading": "",
+          "definition_quote": "Food elicits the natural, involuntary response of salivation. This response is called the unconditioned response (UR or UCR).",
+          "researchers": "Ivan Pavlov",
+          "plain": "对无条件刺激的自然反应"
+        },
+        {
+          "name": "Conditioned stimulus (CS)",
+          "subheading": "",
+          "definition_quote": "Once the bell elicits salivation, which is now a conditioned response (CR), the bell is no longer a neutral stimulus but, rather, a conditioned stimulus (CS).",
+          "researchers": "Ivan Pavlov",
+          "plain": "经条件作用能引发反应的刺激"
+        },
+        {
+          "name": "Conditioned response (CR)",
+          "subheading": "",
+          "definition_quote": "Once the bell elicits salivation, which is now a conditioned response (CR), the bell is no longer a neutral stimulus but, rather, a conditioned stimulus (CS).",
+          "researchers": "Ivan Pavlov",
+          "plain": "经条件作用习得的反应"
+        },
+        {
+          "name": "Acquisition",
+          "subheading": "",
+          "definition_quote": "This learning is also called acquisition since the animals have acquired a new behavior.",
+          "researchers": "Ivan Pavlov",
+          "plain": "习得新行为的过程"
+        },
+        {
+          "name": "Delayed conditioning",
+          "subheading": "",
+          "definition_quote": "Generally, the most effective method of conditioning is to present the CS first and then to introduce the US while the CS is still evident.",
+          "researchers": "Ivan Pavlov",
+          "plain": "先呈现条件刺激再给无条件刺激"
+        },
+        {
+          "name": "Trace conditioning",
+          "subheading": "",
+          "definition_quote": "Trace conditioning—Presentation of the CS, followed by a short break, followed by presentation of the US.",
+          "researchers": "Ivan Pavlov",
+          "plain": "条件刺激后停顿再给无条件刺激"
+        },
+        {
+          "name": "Simultaneous conditioning",
+          "subheading": "",
+          "definition_quote": "Simultaneous conditioning—Presentation of the CS and US at the same time.",
+          "researchers": "Ivan Pavlov",
+          "plain": "条件与无条件刺激同时出现"
+        },
+        {
+          "name": "Backward conditioning",
+          "subheading": "",
+          "definition_quote": "Backward conditioning—Presentation of the US first, followed by presentation of the CS.",
+          "researchers": "Ivan Pavlov",
+          "plain": "先给无条件刺激再给条件刺激"
+        },
+        {
+          "name": "Extinction",
+          "subheading": "",
+          "definition_quote": "In psychological terminology, the process of unlearning a behavior is known as extinction.",
+          "researchers": "Ivan Pavlov",
+          "plain": "消除已习得的条件反应"
+        },
+        {
+          "name": "Spontaneous recovery",
+          "subheading": "",
+          "definition_quote": "Sometimes, after a conditioned response has been extinguished and no further training of the animals has taken place, the response briefly reappears upon presentation of the conditioned stimulus.",
+          "researchers": "Ivan Pavlov",
+          "plain": "消退后反应短暂重现"
+        },
+        {
+          "name": "Generalization",
+          "subheading": "",
+          "definition_quote": "This tendency to respond to similar CSs is known as generalization.",
+          "researchers": "Ivan Pavlov",
+          "plain": "对相似刺激产生相同反应"
+        },
+        {
+          "name": "Discrimination",
+          "subheading": "",
+          "definition_quote": "Subjects can be trained, however, to tell the difference, or discriminate, among various stimuli. This is called discrimination.",
+          "researchers": "Ivan Pavlov",
+          "plain": "区分相似刺激只对特定者反应"
+        },
+        {
+          "name": "Aversive conditioning",
+          "subheading": "",
+          "definition_quote": "This example is an illustration of what is known as aversion conditioning. Whereas Pavlov’s dogs were conditioned with something pleasant (food), baby Albert was conditioned to have a negative response to the white rat.",
+          "researchers": "John B. Watson, Rosalie Rayner",
+          "plain": "将中性刺激与厌恶反应联结"
+        },
+        {
+          "name": "Higher-order conditioning",
+          "subheading": "",
+          "definition_quote": "Once a CS elicits a CR, it is possible, briefly, to use that CS as a US in order to condition a response to a new stimulus. This process is known as higher-order conditioning or second-order conditioning.",
+          "researchers": "Ivan Pavlov",
+          "plain": "用已条件化刺激再训练新刺激"
+        },
+        {
+          "name": "Taste aversion",
+          "subheading": "Biology and Classical Conditioning",
+          "definition_quote": "If you ingest an unusual food or drink and then become nauseous, you may develop an aversion to the food or drink.",
+          "researchers": "John Garcia, Robert Koelling",
+          "plain": "对某种味道食物的厌恶"
+        },
+        {
+          "name": "Biological preparedness",
+          "subheading": "Biology and Classical Conditioning",
+          "definition_quote": "This type of powerful conditioning may occur because of biological preparedness: we are biologically predisposed to associate nausea with something we ate or drank.",
+          "researchers": "John Garcia, Robert Koelling",
+          "plain": "天生易形成某些联想"
+        },
+        {
+          "name": "Salient stimuli",
+          "subheading": "Biology and Classical Conditioning",
+          "definition_quote": "Salient stimuli are easily noticeable and therefore create a more powerful conditioned response.",
+          "researchers": "本节未提及",
+          "plain": "易于注意、条件反应更强"
+        },
+        {
+          "name": "Garcia effect",
+          "subheading": "Biology and Classical Conditioning",
+          "definition_quote": "The ease with which animals learn taste aversions is known as the Garcia effect.",
+          "researchers": "John Garcia, Robert Koelling",
+          "plain": "动物容易学会味觉厌恶"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "Operant Conditioning",
+      "page": 245,
+      "knowledge_points": [
+        {
+          "name": "Operant conditioning",
+          "subheading": "",
+          "definition_quote": "Whereas classical conditioning is a type of learning based on association of stimuli, operant conditioning is a kind of learning based on the association of consequences with one’s behaviors.",
+          "researchers": "Edward Thorndike, B. F. Skinner",
+          "plain": "行为后果与行为的联结"
+        },
+        {
+          "name": "Law of effect",
+          "subheading": "",
+          "definition_quote": "Thorndike put forth the law of effect that states that if the consequences of a behavior are pleasant, the stimulus-response (S- R) connection will be strengthened and the likelihood of the behavior will increase.",
+          "researchers": "Edward Thorndike",
+          "plain": "愉快后果强化刺激反应联结"
+        },
+        {
+          "name": "Instrumental learning",
+          "subheading": "",
+          "definition_quote": "He used the term instrumental learning to describe his work because he believed the consequence was instrumental in shaping future behaviors.",
+          "researchers": "Edward Thorndike",
+          "plain": "后果在塑造行为中起关键作用"
+        },
+        {
+          "name": "Reinforcer",
+          "subheading": "",
+          "definition_quote": "Reinforcement is defined by its consequences; anything that makes a behavior more likely to occur is a reinforcer.",
+          "researchers": "B. F. Skinner",
+          "plain": "使行为更可能发生的刺激"
+        },
+        {
+          "name": "Positive reinforcement",
+          "subheading": "",
+          "definition_quote": "Positive reinforcement refers to the addition of something pleasant.",
+          "researchers": "B. F. Skinner",
+          "plain": "增加愉快刺激以强化行为"
+        },
+        {
+          "name": "Negative reinforcement",
+          "subheading": "",
+          "definition_quote": "Negative reinforcement refers to the removal of something unpleasant.",
+          "researchers": "B. F. Skinner",
+          "plain": "移除不快刺激以强化行为"
+        },
+        {
+          "name": "Escape learning",
+          "subheading": "",
+          "definition_quote": "Escape learning allows one to terminate an aversive stimulus; avoidance learning, on the other hand, enables one to avoid the unpleasant stimulus altogether.",
+          "researchers": "B. F. Skinner",
+          "plain": "学会终止不愉快刺激"
+        },
+        {
+          "name": "Avoidance learning",
+          "subheading": "",
+          "definition_quote": "avoidance learning, on the other hand, enables one to avoid the unpleasant stimulus altogether.",
+          "researchers": "B. F. Skinner",
+          "plain": "学会预先避开不愉快刺激"
+        },
+        {
+          "name": "Punishment",
+          "subheading": "",
+          "definition_quote": "By definition, punishment is anything that makes a behavior less likely.",
+          "researchers": "B. F. Skinner",
+          "plain": "使行为更不可能发生的后果"
+        },
+        {
+          "name": "Positive punishment",
+          "subheading": "",
+          "definition_quote": "The two types of punishment are known as positive punishment (usually referred to simply as punishment), which is the addition of something unpleasant, and omission training or negative punishment, which is the removal of something pleasant.",
+          "researchers": "B. F. Skinner",
+          "plain": "增加不快刺激以减少行为"
+        },
+        {
+          "name": "Omission training",
+          "subheading": "",
+          "definition_quote": "The two types of punishment are known as positive punishment (usually referred to simply as punishment), which is the addition of something unpleasant, and omission training or negative punishment, which is the removal of something pleasant.",
+          "researchers": "B. F. Skinner",
+          "plain": "移除愉快刺激以减少行为"
+        },
+        {
+          "name": "Shaping",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Shaping reinforces the steps used to reach the desired behavior.",
+          "researchers": "B. F. Skinner",
+          "plain": "逐步强化接近目标的行为"
+        },
+        {
+          "name": "Chaining",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Animals can also be taught to perform several responses successively in order to get a reward. This process is known as chaining.",
+          "researchers": "本节未提及",
+          "plain": "把多个行为连成复杂活动"
+        },
+        {
+          "name": "Discriminative stimulus",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Discrimination (also called reinforcement discrimination) would involve teaching the rat to press only a particular bar or to press the bar only under certain conditions (e.g., when a tone is sounded). In this last example, the tone is called a discriminative stimulus.",
+          "researchers": "B. F. Skinner",
+          "plain": "特定情境下引发反应的信号"
+        },
+        {
+          "name": "Primary reinforcers",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Primary reinforcers are, in and of themselves, rewarding.",
+          "researchers": "本节未提及",
+          "plain": "本身即具有强化作用的刺激"
+        },
+        {
+          "name": "Secondary reinforcers",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Secondary reinforcers are things we have learned to value such as praise or the chance to play a video game.",
+          "researchers": "本节未提及",
+          "plain": "后天学会重视的强化物"
+        },
+        {
+          "name": "Generalized reinforcer",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "Money is a special kind of secondary reinforcer, called a generalized reinforcer, because it can be traded for virtually anything.",
+          "researchers": "本节未提及",
+          "plain": "可交换多种强化物的强化物"
+        },
+        {
+          "name": "Token economy",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "In a token economy, every time people perform a desired behavior, they are given a token.",
+          "researchers": "本节未提及",
+          "plain": "用代币奖励目标行为"
+        },
+        {
+          "name": "Premack principle",
+          "subheading": "Punishment Versus Reinforcement",
+          "definition_quote": "This idea, that the reinforcing properties of something depend on the situation, is expressed in the Premack principle. It explains that whichever of two activities is preferred can be used to reinforce the activity that is not preferred.",
+          "researchers": "Premack",
+          "plain": "用偏好的活动强化不偏好活动"
+        },
+        {
+          "name": "Continuous reinforcement",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "When you are first teaching a new behavior, rewarding the behavior each time is best. This process is known as continuous reinforcement.",
+          "researchers": "本节未提及",
+          "plain": "每次目标行为都给予强化"
+        },
+        {
+          "name": "Partial-reinforcement effect",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "In addition, according to the partial- reinforcement effect, behaviors will be more resistant to extinction if the animal has not been reinforced continuously.",
+          "researchers": "本节未提及",
+          "plain": "非连续强化使行为更难消退"
+        },
+        {
+          "name": "Fixed-ratio (FR) schedule",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "A fixed-ratio (FR) schedule provides reinforcement after a set number of responses.",
+          "researchers": "本节未提及",
+          "plain": "固定次数反应后给予强化"
+        },
+        {
+          "name": "Variable-ratio (VR) schedule",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "A variable-ratio (VR) schedule also provides reinforcement based on the number of bar presses, but that number varies.",
+          "researchers": "本节未提及",
+          "plain": "平均次数不定地给予强化"
+        },
+        {
+          "name": "Fixed-interval (FI) schedule",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "A fixed-interval (FI) schedule requires that a certain amount of time elapses before a bar press will result in a reward.",
+          "researchers": "本节未提及",
+          "plain": "固定时间后首次反应获强化"
+        },
+        {
+          "name": "Variable-interval (VI) schedule",
+          "subheading": "Reinforcement Schedules",
+          "definition_quote": "A variable- interval (VI) schedule varies the amount of time required to elapse before a response will result in reinforcement.",
+          "researchers": "本节未提及",
+          "plain": "不定时间后首次反应获强化"
+        },
+        {
+          "name": "Instinctive drift",
+          "subheading": "Biology and Operant Conditioning",
+          "definition_quote": "The tendency for animals to forgo rewards to pursue their typical patterns of behavior is called instinctive drift.",
+          "researchers": "本节未提及",
+          "plain": "动物放弃奖励而按本能行事"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "section": "Cognitive Learning",
+      "page": 253,
+      "knowledge_points": [
+        {
+          "name": "Contiguity model",
+          "subheading": "The Contingency Model of Classical Conditioning",
+          "definition_quote": "The Pavlovian model of classical conditioning is known as the contiguity model because it postulates that the more times two things are paired, the greater the learning that will take place.",
+          "researchers": "Pavlov",
+          "plain": "配对次数越多学习越强"
+        },
+        {
+          "name": "Contingency model of classical conditioning",
+          "subheading": "The Contingency Model of Classical Conditioning",
+          "definition_quote": "Rescorla’s contingency model of classical conditioning reflects more of a cognitive spin, positing that it is necessary for one event to reliably predict another for a strong association between the two to result.",
+          "researchers": "Robert Rescorla",
+          "plain": "一事件可靠预测另一事件才形成联结"
+        },
+        {
+          "name": "Observational learning",
+          "subheading": "Observational Learning",
+          "definition_quote": "As you are no doubt aware, people and animals learn many things simply by observing others.",
+          "researchers": "Albert Bandura",
+          "plain": "通过观察他人进行学习"
+        },
+        {
+          "name": "Species specific",
+          "subheading": "Observational Learning",
+          "definition_quote": "This type of learning is said to be species specific; it occurs only among members of the same species.",
+          "researchers": "本节未提及",
+          "plain": "只发生在同一物种成员之间"
+        },
+        {
+          "name": "Modeling",
+          "subheading": "Observational Learning",
+          "definition_quote": "Modeling has two basic components: observation and imitation.",
+          "researchers": "Albert Bandura",
+          "plain": "观察并模仿他人行为"
+        },
+        {
+          "name": "Latent learning",
+          "subheading": "Latent Learning",
+          "definition_quote": "Latent means hidden, and latent learning is learning that becomes obvious only once a reinforcement is given for demonstrating it.",
+          "researchers": "Edward Tolman",
+          "plain": "奖励出现才显现的潜在学习"
+        },
+        {
+          "name": "Cognitive map",
+          "subheading": "Latent Learning",
+          "definition_quote": "He suggested they had made a mental representation, or cognitive map, of the maze during the first half of the trials and evidenced this knowledge once it would earn them a reward.",
+          "researchers": "Edward Tolman",
+          "plain": "对空间布局的心理表征"
+        },
+        {
+          "name": "Abstract learning",
+          "subheading": "Abstract Learning",
+          "definition_quote": "Abstract learning involves understanding concepts such as tree or same rather than learning simply to press a bar or peck a disk to secure a reward.",
+          "researchers": "本节未提及",
+          "plain": "理解概念而非简单刺激反应"
+        },
+        {
+          "name": "Insight learning",
+          "subheading": "Insight Learning",
+          "definition_quote": "Insight learning occurs when one suddenly realizes how to solve a problem.",
+          "researchers": "Wolfgang Köhler",
+          "plain": "突然领悟问题解决办法"
+        }
+      ]
+    }
+  ]
+}

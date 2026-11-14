@@ -1,0 +1,1106 @@
+﻿cluster_id,canonical_name,ap_unit,weight,weight_tier,member_count
+psy-concept-9678e607606ec2fd,Correlation,0,92.25,core,3
+psy-concept-421ad41850aa666b,Independent variable,0,90.31,core,2
+psy-concept-00c89f66cf2ec157,Mean,0,87.85,core,2
+psy-concept-8490c8a6c93b4195,Standard deviation,0,87.83,core,2
+psy-concept-a9553a18a96f7551,Dependent variable,0,86.74,core,2
+psy-concept-ce55a5f6ed7b2610,Operant conditioning,3,86.62,core,2
+psy-concept-f37a921aea24b88b,Random assignment,0,85.71,core,2
+psy-concept-0f27489ca7b90465,Informed consent,0,84.28,core,2
+psy-concept-80d1c7f25a1f7e9c,Operational definition,0,81.62,core,2
+psy-concept-69ade8b058134f5c,Classical conditioning,3,80.04,core,2
+psy-concept-1afff06a48f4e4b8,Systematic desensitization,5,79.75,core,2
+psy-concept-75d9e708075db018,Positive reinforcement,3,79.74,core,2
+psy-concept-421739841f0babba,Social facilitation,4,79.55,core,2
+psy-concept-791fe7e98c43d78e,Validity,0,79.47,core,3
+psy-concept-036d22af10909281,Longitudinal research,3,78.86,core,2
+psy-concept-5dc95e96e87a86bc,Median,0,78.66,core,2
+psy-concept-84d3afff53c2db46,Fundamental attribution error,4,78.17,core,2
+psy-concept-31ba0e21589eaa32,Sympathetic nervous system,1,78.08,core,2
+psy-concept-97ff5dd1b8626af6,Reliability,2,77.96,core,3
+psy-concept-526d997d0cf0de98,Cognitive therapy,5,77.8,core,2
+psy-concept-f56b4eb8773d3791,Major depressive disorder,5,77.5,core,2
+psy-concept-34e4cdb7518eec37,Big Five personality traits,4,77.49,core,2
+psy-concept-070d5b2d71c9c785,Cross-sectional research,3,77.11,core,2
+psy-concept-6067f5a2c1fc3736,Object permanence,3,76.99,core,2
+psy-concept-f463b4868ef10dfd,Hypothalamus,1,76.9,core,3
+psy-concept-2e7b61ab01a539a0,Observational learning,3,76.9,core,2
+psy-concept-c4a64977c42a680c,Mode,0,76.62,core,2
+psy-concept-0d164d7b2c20a674,Generalization,3,76.44,core,2
+psy-concept-55955e8efc9fad7b,Obsessive-compulsive disorder (OCD),5,76.28,core,2
+psy-concept-abee1f87f7fa2273,Behavioral perspective,0,76.21,core,2
+psy-concept-73eae678f6208304,Case study method,0,76.21,core,2
+psy-concept-8b916d20c4d50da6,Range,0,76.18,core,2
+psy-concept-16384cd3f0462486,Amygdala,1,76.17,core,2
+psy-concept-f671eaae03c67950,Drive reduction theory,4,75.99,core,2
+psy-concept-5ac428a8dfc199d6,Modeling,3,75.81,core,3
+psy-concept-0aff118adf8f8b7f,Confirmation bias,2,75.79,core,3
+psy-concept-64a758cee46d4f8f,Naturalistic observation,0,75.73,core,2
+psy-concept-a50791713c069aa1,Self-serving bias,4,75.47,core,2
+psy-concept-4aa005c4541975ea,Cerebellum,1,75.42,core,3
+psy-concept-b4fedde0527f814f,Extinction,3,75.08,core,2
+psy-concept-30564daf975e5f5e,Negative reinforcement,3,75.06,core,2
+psy-concept-d9c1401de65a0597,Specific phobia,5,75.06,core,2
+psy-concept-7358cd4b9da6582a,Algorithm,2,75.01,core,2
+psy-concept-a8f4ef419569a3cd,Conditioned stimulus (CS),3,74.72,core,2
+psy-concept-56a0a72e8aa9482e,Confounding variable,0,74.72,core,2
+psy-concept-168dcc3b70564816,Statistical significance,0,74.72,core,2
+psy-concept-b15e2d2435202cc1,Availability heuristic,2,74.6,core,2
+psy-concept-f2adec3767853d29,Normal curve,0,74.55,core,2
+psy-concept-730c5b5ab6a92e1a,Cognitive dissonance theory,4,74.44,core,2
+psy-concept-3196a55cbb5b0d71,Mere exposure effect,4,74.44,core,3
+psy-concept-2be674f37b68202f,Debriefing,0,74.27,core,2
+psy-concept-e4d2dfffd65abba0,Cones,1,74.26,core,2
+psy-concept-65fbc4d5508d53f6,Conservation,3,74.1,core,2
+psy-concept-ed6831748825e40b,Unconditional positive regard,5,74.05,core,3
+psy-concept-561de0d5dd99f2ac,Latent learning,3,74.04,core,2
+psy-concept-ed3b3cb9541aae2e,Correlation coefficient,0,73.89,core,2
+psy-concept-cefd52eb2776a835,Occipital lobes,1,73.87,core,2
+psy-concept-425e1b5ec97b753c,Self-fulfilling prophecy,4,73.75,core,2
+psy-concept-5c51c9e918b94752,Opponent-process theory (color vision),1,73.67,core,2
+psy-concept-49834331356f262f,Sensory adaptation,1,73.55,core,2
+psy-concept-161701a95bd78c9e,Group polarization,4,73.49,core,2
+psy-concept-b2055652dff1119b,Anxiety disorders,5,73.43,core,2
+psy-concept-ffd6d8999567f73b,Serial position effect,2,73.35,core,2
+psy-concept-0e9bd0ff58e34b61,Parasympathetic nervous system,1,73.04,core,2
+psy-concept-4b0767bd3f9ca341,Deindividuation,4,73.0,core,2
+psy-concept-d7879da56fccde51,Identical twins (monozygotic twins),1,72.92,core,3
+psy-concept-5e77e48c7bbee0d4,Token economy,5,72.75,core,3
+psy-concept-a93e6c50c9aaaadb,Scatterplot,0,72.7,core,2
+psy-concept-e4d12f0d322c4b6f,Traits,4,72.66,core,2
+psy-concept-62fa4272f2990315,Heuristic,2,72.6,core,2
+psy-concept-dbcfdb1cdb06755c,Generalized anxiety disorder (GAD),5,72.52,core,2
+psy-concept-d501ff92aa9bb458,Critical period,3,72.44,core,2
+psy-concept-4275de995e028b2b,Projective tests,4,72.41,core,2
+psy-concept-ebb3fc7c72a320ad,Intrinsic motivation,4,72.36,core,2
+psy-concept-dea4ceb5102f3661,Secure attachment,3,72.35,core,2
+psy-concept-3ba15426ce3cd609,Self-efficacy,4,72.26,core,2
+psy-concept-7106be5cefb616d7,Social loafing,4,72.25,core,2
+psy-concept-cde1dc7022232958,Circadian rhythm,1,72.19,core,2
+psy-concept-649512c5625627cd,Person-centered therapy,5,72.17,core,2
+psy-concept-e413bbadcf3626a9,Encoding,2,72.16,core,2
+psy-concept-8a668a993f87d078,Egocentric,3,72.15,core,2
+psy-concept-f8620fc75bb2516c,Predictive validity,2,72.13,core,2
+psy-concept-0b1902734622c3e4,Yerkes-Dodson law,4,72.08,core,2
+psy-concept-082339605b2f9151,Self-actualization,4,72.06,core,3
+psy-concept-f9a7259be624045b,Conformity,4,72.01,core,2
+psy-concept-0db98194431e9931,Assimilation,3,71.99,core,2
+psy-concept-f5c6d430826436cd,Antisocial personality disorder,5,71.95,core,2
+psy-concept-555f5ce0ab911bef,Survey method,0,71.86,core,2
+psy-concept-2d6193decd1820d0,Hindsight bias,0,71.85,core,2
+psy-concept-81a379381f58a9fa,Misinformation effect,2,71.67,core,2
+psy-concept-44095989e16995b7,Shaping,3,71.61,core,2
+psy-concept-8f5feb5d3d47f4db,General adaptation syndrome (GAS),5,71.56,core,2
+psy-support-9208e1f59f3955f8,Random sampling,0,71.54,core,2
+psy-concept-616f01a1142c5aa2,Rational emotive behavior therapy (REBT),5,71.51,core,2
+psy-support-b08c41f8d8568009,Neuroplasticity,1,71.49,core,2
+psy-concept-79f845c9957520c7,Difference threshold,2,71.47,core,2
+psy-concept-b2045793c82c568c,Semantic memory,2,71.46,core,3
+psy-concept-c7e46556a39fbd24,Flynn effect,2,71.43,core,2
+psy-concept-0a34d74f64f95d42,Post-traumatic stress disorder (PTSD),5,71.41,core,2
+psy-concept-5ae2cee9982a971b,Frontal lobes,1,71.33,core,2
+psy-concept-f220901c8e0a935c,Norms,4,71.33,core,2
+psy-concept-0f99cc7c78c3a7a2,Hallucinations,5,71.31,core,2
+psy-concept-60d99af324e61e96,Unconditioned stimulus (US or UCS),3,71.28,core,2
+psy-concept-4417b67230e3fa89,Stress,5,71.26,core,2
+psy-support-aff228ca92ee881f,In-group bias,4,71.15,core,2
+psy-concept-e42cf747851083ea,Groupthink,4,71.14,core,2
+psy-concept-5730c4fe753b6805,Bipolar disorder,5,71.12,core,2
+psy-concept-6598db94c8d0b79c,Extrinsic motivation,4,71.09,core,2
+psy-concept-ec41aab0f258cda4,Top-down processing,2,71.09,core,2
+psy-support-cd8cfb77adbfc10c,Percentile rank,0,71.04,core,2
+psy-concept-386c48714e8e42f9,Absolute threshold,2,71.03,core,2
+psy-concept-6ce7892a6918c202,Continuous reinforcement,3,71.03,core,2
+psy-concept-139662cf5da65ff3,Homeostasis,4,71.03,core,2
+psy-concept-2f0d91f65f5b2e8a,Negatively skewed distribution,0,71.03,core,2
+psy-concept-ead2e4d0e627a932,Bystander effect,4,70.84,core,2
+psy-concept-52570b386019ae0d,Hippocampus,2,70.78,core,2
+psy-concept-85ffacbe45848abc,Selective attention,2,70.78,core,2
+psy-concept-030753f3201dd9a7,Learned helplessness,5,70.54,core,2
+psy-concept-0059e86f3393f468,Somatosensory cortex,1,70.36,core,2
+psy-concept-47b34c9ac5eaf9ad,Insight learning,3,70.26,core,2
+psy-concept-16437d9a95461568,Depth perception,2,70.22,core,2
+psy-concept-e1be6501b9e3cd35,Dissociative disorders,5,70.22,core,2
+psy-concept-f483555933fd8766,Short-term memory,2,70.19,core,2
+psy-concept-8b4ed1c8782c7132,Crystallized intelligence,2,70.16,core,2
+psy-concept-fadd8b6d4cf9c481,Wernicke’s area,1,70.16,core,2
+psy-support-bd2c7f08b95f5eea,Antipsychotic drugs,5,70.16,core,2
+psy-concept-d1d367ea382a2a3c,Fluid intelligence,2,70.07,core,2
+psy-concept-aa637be4c7e2601e,Vestibular sense,1,69.93,core,2
+psy-concept-0413d87419eeb00c,Anterograde amnesia,2,69.91,core,2
+psy-concept-5e4e3e73606f98c8,Delusions,5,69.88,core,2
+psy-concept-a8b733137450efc4,Discrimination (conditioning),3,69.82,core,2
+psy-concept-e2a3881e518db72d,Divergent thinking,2,69.81,core,2
+psy-concept-0ff794dc75ba2e3b,Cognitive map,3,69.78,core,2
+psy-concept-c9646bab0f58a1f4,Psychodynamic therapy,5,69.78,core,2
+psy-concept-17609cceb9b37dea,Electroencephalogram (EEG),1,69.72,core,2
+psy-concept-a1ed770013aac583,Descriptive statistics,0,69.54,core,2
+psy-concept-56021fe34ac99331,Transduction,1,69.54,core,3
+psy-concept-5445b04964c395ef,Biological preparedness,3,69.48,core,2
+psy-support-2bcb244125b3afc1,Phoneme,3,69.48,core,2
+psy-concept-a38b51812ed66cd4,Just-world phenomenon,4,69.4,core,2
+psy-concept-c9947980741fee19,Limbic system,1,69.39,core,2
+psy-concept-ad2b4ccdce432fda,Episodic memory,2,69.35,core,2
+psy-concept-2dbec75740bf1fa2,Neurotransmitters,1,69.34,core,2
+psy-concept-cfa986b52da60a26,Conditioned response (CR),3,69.33,core,2
+psy-concept-438e9454ec4c027f,Temporal lobes,1,69.24,core,2
+psy-concept-5b47c518b39c8e22,Central route to persuasion,4,69.23,core,2
+psy-concept-d17897c9b0e51238,Secondary reinforcers,3,69.0,core,2
+psy-concept-45758d479ebca6db,Experimental group,0,68.98,core,2
+psy-concept-18e93821e174a033,Gestalt psychology,2,68.89,core,2
+psy-support-b724ff9a3d2d144b,Double-blind procedure,0,68.86,core,2
+psy-concept-272dd2cc937c43fa,Attribution theory,4,68.84,core,2
+psy-concept-19c424511b4ea50f,Meta-analysis,0,68.8,core,2
+psy-concept-20b574ec661d81b3,Long-term memory,2,68.77,core,2
+psy-concept-bbf198f1c2f79ea8,Dissociative amnesia,5,68.61,core,2
+psy-concept-9cdb9c64b02ca487,Internal locus of control,4,68.61,core,2
+psy-concept-5dbf0d0d6550544e,Implicit memory,2,68.53,core,2
+psy-concept-3384cea411997b0f,Medulla,1,68.53,core,2
+psy-concept-0761c4b05ad9ab9d,Punishment,3,68.43,core,2
+psy-concept-b3672a67e177ab1e,Learning,3,68.32,core,2
+psy-concept-9a10f2a0222edb8d,Proactive interference,2,68.32,core,2
+psy-concept-2a90bf46b4ee69ea,Representativeness heuristic,2,68.32,core,2
+psy-concept-dbc0a2ae53f8364e,Broca’s area,1,68.3,core,2
+psy-concept-1d339f0665a30c58,External locus of control,4,68.3,core,2
+psy-concept-5e620248eb743f60,Split-brain patients,1,68.3,core,2
+psy-concept-ebf49a06e600cc4f,REM sleep,1,68.23,core,2
+psy-concept-750a4324855998b8,Weber’s law,2,68.22,core,2
+psy-concept-55145bacc327ad5c,Personality disorders,5,68.12,core,2
+psy-concept-cad2cc21c90612a7,Thalamus,1,67.99,core,2
+psy-concept-cb38c6d1e926c075,Reticular formation,1,67.92,core,2
+psy-concept-db856c1a6e911a13,Foot-in-the-door technique,4,67.74,core,2
+psy-concept-ad33b490efef4e39,Spacing effect,2,67.74,core,2
+psy-concept-f71bd3b756c32336,Framing,2,67.68,core,2
+psy-concept-2d067a6b57f808af,Theory of mind,3,67.68,core,2
+psy-concept-517ea124ee5a2c97,Emotion-focused coping,5,67.6,core,2
+psy-concept-82c4e3ee05ce398d,Psychological disorder,5,67.55,core,2
+psy-concept-35e3412988b327fa,Facial feedback hypothesis,4,67.45,core,2
+psy-concept-4f731d82a262c0e3,Control group,0,67.32,core,2
+psy-concept-c40ecc8bebe0b586,Obedience,4,67.31,core,2
+psy-concept-06e61f5f2e2f3b45,Blind spot,1,67.29,core,2
+psy-concept-141034a53ae92871,Sleep apnea,1,67.11,core,2
+psy-concept-7114b3f5f212dba9,Somatic nervous system,1,67.1,core,2
+psy-concept-95b115df7c16bf62,Mental set,2,66.99,core,2
+psy-concept-3e0bd990a3b67d73,Population,0,66.91,core,2
+psy-concept-ed02c3cceb1db19d,Recognition,2,66.91,core,2
+psy-concept-917c19c264b2e2fc,Factor analysis,2,66.87,core,3
+psy-concept-cd8a9810613b207b,Accommodation (developmental),3,66.76,core,2
+psy-concept-b4d1f99f19f14f3c,Retroactive interference,2,66.75,core,2
+psy-concept-77970071f5487cf1,Convergence,2,66.67,core,2
+psy-concept-a2c7572ddc8c8d05,Kinesthetic sense (kinesthesis),1,66.67,core,2
+psy-concept-107d4119658fc87e,Retinal disparity,2,66.67,core,2
+psy-concept-53ea762bf4536580,Myelin sheath,1,66.62,core,2
+psy-concept-c7fa90f0972f356d,Temperament,3,66.62,core,2
+psy-concept-243b0cbff0cddcf0,Prejudice,4,66.6,core,2
+psy-concept-fbfe50d311b2e54c,Fovea,1,66.55,core,2
+psy-concept-18b6b7697e354259,IQ,2,66.54,core,2
+psy-concept-e6f68ae3d4b82e0f,Prosocial behavior,4,66.54,core,2
+psy-concept-f4972d26cd72767c,Active listening,5,66.51,core,2
+psy-concept-2a2a2508d7231779,Cognitive behavioral therapy (CBT),5,66.48,core,2
+psy-concept-d3fbb19c09a266bd,Actor-observer bias,4,66.41,core,2
+psy-concept-7b796a9f3a41f202,Normative social influence,4,66.38,core,2
+psy-concept-2605fd43370b5058,Rods,1,66.38,core,2
+psy-concept-f9662a14fba030a4,Aptitude tests,2,66.36,core,2
+psy-concept-379c6e8a919e0b85,Replication,0,66.36,core,2
+psy-concept-6b00683644d81a1d,Action potential,1,66.34,core,2
+psy-concept-a0e62d92458592a3,Electroconvulsive therapy (ECT),5,66.33,core,2
+psy-concept-463e16cba304fc6f,Parietal lobes,1,66.33,core,2
+psy-concept-3d2f5b7bfc63e79d,Recall,2,66.33,core,2
+psy-concept-174e7750a4007294,Perceptual set,2,66.21,core,2
+psy-concept-09f59a43667d8d33,Exposure therapies,5,66.18,core,2
+psy-concept-db310255c83557d0,Overconfidence,2,66.17,core,3
+psy-concept-8ec3b5363abedab1,Reciprocal determinism,4,66.17,core,2
+psy-concept-8b013873f02d46f0,Social anxiety disorder,5,66.17,core,2
+psy-concept-a812339974edacbe,Autism spectrum disorder,5,65.99,core,2
+psy-concept-2b2ddcafba3f7f2c,Dissociative identity disorder (DID),5,65.94,core,2
+psy-concept-e7a8267f5e63f20e,Free association,5,65.94,core,2
+psy-concept-04c35f99655cdda6,Bottom-up processing,2,65.83,core,2
+psy-concept-c2ddc7e484554759,Pitch,1,65.79,core,2
+psy-concept-0dc399aaed9e1d49,Depressants,1,65.61,core,2
+psy-concept-b6c3cf40a36f3d08,Diathesis-stress model,5,65.61,core,2
+psy-concept-0b0b96dc0b9be158,Endorphins,1,65.61,core,2
+psy-concept-0fac3e32e7c25055,Cerebral cortex,1,65.58,core,2
+psy-concept-8bc7c1cf5c03d3df,Achievement motivation,4,65.55,core,2
+psy-concept-78b5420192d4b26d,Variable-ratio (VR) schedule,3,65.55,core,2
+psy-concept-f9a5591db4121a4a,Panic disorder,5,65.52,core,2
+psy-concept-808c4430acc3a396,Motivation,4,65.49,core,2
+psy-concept-64607f249d5c8f23,Smell (Olfaction),1,65.42,core,2
+psy-concept-88b16602d4ee4572,Autonomic nervous system,1,65.4,core,2
+psy-concept-1c0b8281fe09f1a8,Metacognition,3,65.24,core,2
+psy-concept-6926cf45daa9b4e1,Positron emission tomography (PET) scan,1,65.06,core,2
+psy-concept-c86af6f641728884,Experimenter bias,0,65.0,core,2
+psy-concept-ce29917f5dc1d3ab,Retrieval,2,64.82,core,2
+psy-concept-30524b09e13d9efa,Agoraphobia,5,64.8,core,2
+psy-concept-1c5798ba3d934123,Broaden-and-build theory,4,64.49,core,2
+psy-concept-ea5e80e9dd313976,Teratogens,3,64.49,core,2
+psy-concept-e90e719b963fe46c,Transference,5,64.38,core,2
+psy-concept-4dd71b4186131d3b,Mental age,2,64.32,core,2
+psy-concept-4aba528218ec86e6,Monocular depth cues,2,64.32,core,2
+psy-concept-9ab66e228c8d207e,Fixed-ratio (FR) schedule,3,64.28,core,2
+psy-concept-4fac27655ade35e3,Self-concept,4,64.28,core,2
+psy-concept-9f541b24c7f82a84,Acquisition,3,64.21,core,2
+psy-concept-399cc8214a71b56f,Retina,1,64.16,core,2
+psy-concept-5d373271181d7b75,Endocrine system,1,64.14,core,2
+psy-concept-eef8c56ce9b6e45a,Inattentional blindness,2,64.14,core,2
+psy-concept-f451c19900572634,Concepts,2,64.07,core,2
+psy-concept-e15eec8b99a234f8,Spontaneous recovery,3,64.07,core,2
+psy-concept-4257b5b10221403f,Binocular depth cues,2,63.99,core,2
+psy-concept-6f43268aaed42e86,Thematic apperception test (TAT),4,63.98,core,2
+psy-concept-9f3e5b459bfdbc21,Priming,1,63.97,core,2
+psy-concept-2e747d5b0f72a80c,Quantitative research,0,63.97,core,2
+psy-concept-a1484988f1f7d89e,Variable-interval (VI) schedule,3,63.97,core,2
+psy-concept-00376ecd53400f44,Morpheme,3,63.94,core,2
+psy-concept-eef2d87e1c19507e,Anorexia nervosa,5,63.84,core,3
+psy-concept-38d574898d7a6d56,Content validity,2,63.84,core,2
+psy-concept-e553a023506b6881,Hypothesis,0,63.78,core,2
+psy-concept-74362a24093ee760,Informational social influence,4,63.7,core,2
+psy-concept-b0e4c20f50e8e9be,Narcolepsy,1,63.7,core,2
+psy-concept-2c92d38b891139e8,Resistance,5,63.59,core,3
+psy-concept-ad3b9803e9fa0de4,Achievement tests,2,63.57,core,2
+psy-concept-882f05341708eb80,Unconditioned response (UR or UCR),3,63.56,core,2
+psy-concept-0cb52d641035a7b6,Partial-reinforcement effect,3,63.44,core,2
+psy-concept-787e8d0ba0295774,Sensory memory,2,63.44,core,2
+psy-concept-ee59bb80569fbe75,Accommodation (sensory),1,63.39,core,2
+psy-concept-1e283006174e5b32,Functional MRI (fMRI),1,63.39,core,2
+psy-concept-665434ee5316dc37,Inferential statistics,0,63.39,core,2
+psy-concept-a1caf92e6912749b,Instincts,4,63.39,core,2
+psy-concept-41a41b4f8a16378d,REM rebound,1,63.39,core,2
+psy-concept-d30e2ee04d19d858,Visual cliff,2,63.39,core,3
+psy-concept-9b059c19566fbe9e,Withdrawal symptoms,1,63.39,core,2
+psy-concept-98484a47e03f26ee,Attention-deficit/hyperactivity disorder (ADHD),5,63.22,core,2
+psy-concept-a5798070b8b52895,Instinctive drift,3,63.22,core,2
+psy-concept-91372fd15fcd4ce4,Long-term potentiation,2,63.22,core,2
+psy-concept-a2f0d2d956e1b786,Refractory period,4,63.22,core,2
+psy-concept-2f4a8b4e7fcbbed3,Self-disclosure,4,63.22,core,2
+psy-concept-23c3594103def45c,Signal detection theory,2,63.22,core,2
+psy-concept-dba3b2f004192536,Superordinate goal,4,63.22,core,2
+psy-support-407f7895c4adf45f,Tardive dyskinesia,5,63.22,core,3
+psy-concept-d11aefb40fbf5cde,Counterconditioning,5,63.2,core,2
+psy-concept-0fcc401ea793d47c,Dreams,1,63.02,core,2
+psy-concept-ac975967246d045a,Positive psychology,5,63.02,core,2
+psy-concept-afebcfce9f2fc5f3,Belief perseverance,2,63.01,core,2
+psy-concept-a4b3c5cf26865898,Cochlea,1,63.01,core,2
+psy-concept-cb7b4927b5684820,Fixed-interval (FI) schedule,3,63.01,core,2
+psy-concept-8c9e52206a0d2359,Explicit memory,2,62.91,core,2
+psy-concept-ef8a1942d93ef2ac,Persistent depressive disorder,5,62.77,core,2
+psy-concept-66d931664262c10f,Stimulants,1,62.77,core,2
+psy-concept-9554b9ad3fba2fb7,Tolerance,1,62.77,core,2
+psy-support-0333f904d50cadd5,General intelligence (g),2,62.77,core,2
+psy-concept-ed568d7d6a1da964,Central nervous system (CNS),1,62.67,core,2
+psy-concept-aa5b8906257435ca,Law of effect,3,62.67,core,2
+psy-concept-a5e4d1b2d1fea797,Developmental psychology,3,62.64,core,2
+psy-concept-f63a689de61b88ca,Gratitude,5,62.64,core,2
+psy-concept-5f89ec9df10d45e4,Magnetic resonance imaging (MRI),1,62.56,core,2
+psy-concept-c3d413fd23ca9264,Retrograde amnesia,2,62.52,core,2
+psy-concept-a02352022576c73e,Agonists,1,62.46,core,2
+psy-concept-433cb8c65d06ecd8,Aversive conditioning,3,62.46,core,2
+psy-concept-1cdb7cae31c045ad,Eclectic therapy,5,62.46,core,2
+psy-concept-25e21065431025a9,Mood-congruent memory,2,62.46,core,2
+psy-concept-4d363aafc672a416,Perception,1,62.46,core,3
+psy-concept-923a48fecf8d1234,Qualitative research,0,62.46,core,2
+psy-concept-651c88b3b6126b63,Visuospatial sketchpad,2,62.46,core,2
+psy-concept-e4bab971de8e3463,Synapse,1,62.42,core,2
+psy-concept-d31b6c37c47371d2,Bulimia,5,62.36,core,3
+psy-concept-18cea7781cda7709,Sensory neurons (afferent neurons),1,62.36,core,2
+psy-concept-d7df2ee9dad6f417,Intelligence,2,62.35,core,3
+psy-concept-23ee3e4698b8e891,Working memory,2,62.18,core,2
+psy-concept-4b2ab18b2269ecae,Peripheral nervous system (PNS),1,61.98,core,2
+psy-concept-3a89eaa58ff5be02,Sensation,1,61.81,core,2
+psy-concept-dd029962bd7728af,Discrimination (social),4,61.74,core,2
+psy-concept-c69bf5ed7023bc0d,Antagonists,1,61.71,core,2
+psy-concept-cd35b21896259b84,Falsifiable,0,61.71,core,2
+psy-concept-b5d8f9d010e43c95,Gate control theory,1,61.71,core,2
+psy-concept-ed62835d5368f887,Post-traumatic growth,5,61.71,core,2
+psy-concept-10a535aeb249acbb,Social psychology,4,61.71,core,2
+psy-concept-e6492ba880ffb4e1,Subjective well-being,5,61.71,core,2
+psy-concept-2621cbfbf3557239,Therapeutic alliance,5,61.71,core,2
+psy-concept-0d524ef495d22bad,Chunking,2,61.59,core,2
+psy-concept-27d127d4f0d1457b,Higher-order conditioning,3,61.59,core,2
+psy-concept-229ca7f2d4b5f4e1,Iconic memory,2,61.59,core,2
+psy-concept-a7b13ded6d92ab61,Imprinting,3,61.59,core,2
+psy-concept-d948e13846367b6c,Telegraphic speech,3,61.59,core,2
+psy-concept-e5fa6f98218f8960,Group therapy,5,61.25,core,2
+psy-concept-857edbf68ea4a34d,Social trap,4,61.25,core,2
+psy-concept-fc3790392bd5c6dc,Ecological systems theory,3,61.06,core,2
+psy-concept-d515b0dc50c70fc1,Babbling stage,3,61.05,core,2
+psy-concept-cb8e2fb314460cb4,Set-point theory,4,60.81,core,2
+psy-concept-d153bbcb6c36443d,Superego,4,60.81,core,2
+psy-concept-a4fd220793ae075e,Relearning effect,2,60.67,core,2
+psy-concept-f23ba67c2ac1f7db,Social-cognitive theory,3,60.67,core,2
+psy-concept-234f73c18a2fcf6e,Biopsychosocial Perspective,0,60.5,core,2
+psy-concept-19ce5d37f7434467,Conduction deafness,1,60.5,core,2
+psy-concept-bae6f9af9798f1cf,Hues,1,60.5,core,2
+psy-concept-59b712d4caf75f27,Psychotherapies,5,60.5,core,2
+psy-concept-367603767f6da651,Defense mechanisms,4,60.22,core,2
+psy-concept-285cc2eb7533bfff,Hallucinogens,1,59.74,core,2
+psy-concept-700845036ff6ea7e,Interneurons (association neurons),1,59.74,core,2
+psy-concept-ea14a8ba244c5784,Personality inventories,4,59.74,core,2
+psy-concept-5a2ff12dda1dcebd,Psychophysics,2,59.74,core,2
+psy-concept-aa705a91b7a99bbc,Sexual orientation,4,59.74,core,2
+psy-concept-5c28b3d52a99984c,Tend-and-befriend theory,5,59.74,core,2
+psy-concept-b7349978f8c036b8,Psychoanalysis (therapy),5,58.45,core,2
+psy-concept-b24a8a3e6f3a8351,Motor cortex,1,58.06,core,2
+psy-concept-059a3b36a6875422,Frequency theory,1,57.67,core,2
+psy-concept-1ce8217f135775f7,Threshold,1,57.62,core,2
+psy-concept-477a7848604bd47a,Motor neurons (efferent neurons),1,57.44,core,2
+psy-concept-710adb159b839460,Rorschach inkblot test,4,57.27,core,2
+psy-concept-1c1120475272b1d1,Place theory,1,57.23,core,2
+psy-concept-4c5d7dddd5299f93,Hindbrain,1,57.08,core,2
+psy-concept-28011177a762cf19,Axon,1,57.07,core,2
+psy-concept-cbfb457dcb316677,Somatic therapies,5,56.86,core,2
+psy-concept-d1ba5b39de0ad204,Personality,4,56.86,core,2
+psy-concept-b7742e6e66d6a103,Echoic memory,2,56.85,core,2
+psy-concept-7b9243938209a9ac,Insomnia,1,56.85,core,2
+psy-concept-3a3eab9d3dec4a96,Neurons,1,56.61,core,2
+psy-concept-25cc50fceaa72f35,Psychoactive drugs,1,56.61,core,2
+psy-concept-2246b825c0804f1d,Reflexes,3,56.61,core,2
+psy-concept-3e47df6e8014360a,Pupil,1,56.51,core,2
+psy-concept-4013bb439c3c262f,Repression,4,56.51,core,2
+psy-concept-464ca793e54aacd6,Structured interview,0,56.51,core,2
+psy-concept-530ab2e8efbe3ea4,Transcranial magnetic stimulation (TMS),5,56.51,core,2
+psy-concept-644baea2c66528db,Convergent thinking,2,56.31,core,2
+psy-concept-366ec7414e16730f,Discriminative stimulus,3,56.31,core,2
+psy-concept-b66d44e1f1b51785,Primary reinforcers,3,56.31,core,2
+psy-concept-1923b36178fb084f,All-or-none principle,1,56.07,core,2
+psy-concept-3277b08369aeedc3,Cell body (soma),1,56.07,core,2
+psy-concept-7a56f4fdf48d2333,Cornea,1,56.07,core,2
+psy-concept-aab25960c7470887,Computerized axial tomography (CAT or CT) scan,1,56.07,core,2
+psy-concept-868ed438516049fe,Ego,4,56.07,core,2
+psy-concept-cc443ac180616d66,Family therapy,5,56.07,core,2
+psy-concept-15df103044b5bf18,Insight therapies,5,56.07,core,2
+psy-concept-11fe0ed1170ff32b,Forebrain,1,55.93,core,2
+psy-concept-c3c072fd7b281813,Id,4,55.93,core,2
+psy-concept-3eea8d05802c72f1,Theory,0,55.93,core,2
+psy-concept-71bbdb4009f7e094,Alpha waves,1,55.75,core,2
+psy-concept-a51e819d6152af62,Autokinetic effect,2,55.75,core,2
+psy-concept-a4fdb7259d3bc3ac,Central executive,2,55.75,core,2
+psy-concept-fc8688a908144ff6,Change blindness,2,55.75,core,2
+psy-concept-558d09c1916e8b3f,Dendrites,1,55.75,core,2
+psy-concept-9b3825280dc1a862,Fetal alcohol syndrome (FAS),3,55.75,core,2
+psy-concept-3a2c86dc811f8194,Frustration-aggression hypothesis,4,55.75,core,2
+psy-concept-c3706f902f452047,Midbrain,1,55.75,core,2
+psy-concept-d5589e4ef156fffc,Peer review,0,55.75,core,2
+psy-concept-90bd1ed11d8be278,Phi phenomenon,2,55.75,core,2
+psy-concept-a90aa12b7682665a,Self-determination theory,4,55.75,core,2
+psy-concept-858ebb6a79cac63a,Subliminal,2,55.75,core,2
+psy-support-8987fc68cc28d946,Emotional intelligence,2,55.75,core,2
+psy-concept-d7fdd7160060303f,Character strengths,5,55.0,core,2
+psy-concept-64b6b9834531505c,Association area,1,55.0,core,2
+psy-concept-66035db3580997ba,Blindsight,1,55.0,core,2
+psy-concept-562cafb9e3ca8a47,Collective unconscious,4,55.0,core,2
+psy-concept-16df34296071b9c5,Consciousness,1,55.0,core,2
+psy-concept-dc8eb8265ebe6c8a,Feature detectors,1,55.0,core,2
+psy-concept-5c14dfe4064c020f,Figure-ground relationship,2,55.0,core,2
+psy-concept-41f2f6ac54622722,Flashbulb memory,2,55.0,core,2
+psy-concept-d50722c8718248ec,Genes,1,55.0,core,2
+psy-concept-91444105376c6a3d,Prefrontal lobotomy,5,55.0,core,2
+psy-concept-55d4fe0f49363f36,Psychosurgery,5,55.0,core,2
+psy-concept-9ed4245fa3642939,Relative deprivation theory,4,55.0,core,2
+psy-concept-cc1a6a7482940620,Resilience,5,55.0,core,2
+psy-concept-17bead3d398f6bfe,Social responsibility norm,4,55.0,core,2
+psy-concept-cd6a619017eb90e1,Type A,4,55.0,core,2
+psy-concept-54c4d2403c1cba67,Type B,4,55.0,core,2
+psy-concept-beea756a5dd2e3ff,Wechsler Adult Intelligence Scale (WAIS),2,55.0,core,2
+psy-support-78257b2019a97390,Schizophrenia,5,48.81,supporting,1
+psy-support-e77253ab2c30e37e,Positive correlation,0,45.03,supporting,2
+psy-support-5e83d9dad7e404b2,Negative correlation,0,43.1,supporting,2
+psy-support-fc89ec40aea51208,Risk,0,42.9,supporting,1
+psy-support-651355f213271e4e,Psychosocial stage theory,3,42.12,supporting,1
+psy-support-012512d5a73f2605,Social-Cultural (or Sociocultural) Perspective,0,39.73,supporting,1
+psy-support-11074dacf916dcdf,Evolutionary (or Darwinian) Perspective,0,39.56,supporting,1
+psy-support-7dc09ea34131145b,Institutional review board (IRB),0,39.44,supporting,1
+psy-support-7e2715437f2b4338,Confidentiality (or anonymity),0,38.75,supporting,1
+psy-support-67a0784b9c05bed1,Deeply encoded,2,38.71,supporting,1
+psy-support-7d0fa17b198e6cb2,Procedural memory,2,38.65,supporting,1
+psy-support-c957f2141af999b7,Levels of processing model,2,38.52,supporting,1
+psy-support-fa17d990ef4cb7dc,Arousal theory,4,38.41,supporting,1
+psy-support-f90983478af15923,Functional fixedness,2,38.23,supporting,1
+psy-support-a3152aced8132e70,Stage theories,3,38.2,supporting,1
+psy-support-72f19fd48c3c7344,Psychodynamic Perspective,0,37.86,supporting,1
+psy-support-d55d0168ef67ac07,Representative sample,0,37.61,supporting,1
+psy-support-d8de12e87db30296,Two-factor theory,4,37.19,supporting,1
+psy-support-97eb1925e762c422,Omission training,3,36.72,supporting,1
+psy-support-a5f93a3112ad4a9c,Nature versus nurture,3,36.43,supporting,1
+psy-support-69516f5402ed5a3b,Humanistic therapies,5,36.31,supporting,1
+psy-support-77ce1a188d5e0d98,Narcissistic personality disorder,5,36.31,supporting,1
+psy-support-506b9f01264229e5,Test-retest reliability,2,36.15,supporting,1
+psy-support-c69450253e0b5ccc,Primacy effect,2,35.75,supporting,1
+psy-support-2e5a504b14fab706,Prefrontal cortex,1,35.69,supporting,1
+psy-support-dcb6aa010ed0525e,Facial expressions,4,35.49,supporting,1
+psy-support-5ffaace66a842b78,Projection,4,35.47,supporting,1
+psy-support-0a33292f2f0e5782,Cognitive Perspective,0,35.3,supporting,1
+psy-support-7fecc657e46ac9fc,Sensory habituation,1,35.16,supporting,1
+psy-support-6fd1f81e6695eb44,Shallowly encoded,2,34.78,supporting,1
+psy-support-a208208744c1cd23,Animism,3,34.74,supporting,1
+psy-support-cd86bcbecc0538b5,Gambler’s fallacy,2,34.72,supporting,1
+psy-support-c944828379f7498d,Display rules,4,34.54,supporting,1
+psy-support-2e3f1e09ce2c3c79,Overgeneralization,3,34.54,supporting,1
+psy-support-cd5ce6e06fd01285,Nurture,2,34.53,supporting,1
+psy-support-69a472eb707beedd,Constancy,2,34.53,supporting,1
+psy-support-c9d6a0185b8542df,Situation attribution,4,34.48,supporting,1
+psy-support-854b2b2569dc306d,Diffusion of responsibility,4,34.37,supporting,1
+psy-support-b719649eed4290c2,Sampling,0,34.23,supporting,1
+psy-support-bbc85dd552bb1ce4,Exhaustion,5,34.23,supporting,1
+psy-support-42a604b13093c310,Dispositional attribution,4,34.15,supporting,1
+psy-support-fe0ac2b35bf4d484,Afterimage,1,34.08,supporting,1
+psy-support-3be30acebf63769c,Ex post facto (quasi-experimental) study,0,33.77,supporting,1
+psy-support-c302a7ce0e169770,Peripheral route,4,33.69,supporting,1
+psy-support-3643fe0544d98e61,Contralateral hemispheric organization,1,33.62,supporting,1
+psy-support-77c4fb6820e1e04a,Positively skewed distribution,0,33.48,supporting,1
+psy-support-84304aa4954868e1,Zone of proximal development,3,33.3,supporting,1
+psy-support-39ce66174261e422,Dopamine hypothesis,5,33.3,supporting,1
+psy-support-77cc960ca304fe2a,Closure,2,33.13,supporting,1
+psy-support-9a023d59eb5098a9,Schemata,2,33.06,supporting,2
+psy-support-27dc9e68815d28cf,Retrieval cues,2,32.93,supporting,1
+psy-support-6b2277f3ff40c016,Hemispheric specialization (brain lateralization),1,32.93,supporting,1
+psy-support-531d0f0734d755f7,Norms of reciprocity,4,32.92,supporting,1
+psy-support-1d6211465ad6c0f4,Incentives,4,32.68,supporting,1
+psy-support-64b25f9d784e9fbb,Stereotypes,4,32.65,supporting,1
+psy-support-7037d5d8b4e7510d,Science Practice 3—Data Analysis,0,32.55,supporting,1
+psy-support-a91f96806934f5a0,Genetic predisposition,1,32.55,supporting,1
+psy-support-7714b6e47d0e329a,Reaction Formation,4,32.45,supporting,1
+psy-support-e8584e0897a75e29,Drug therapy or psychopharmacology,5,32.4,supporting,1
+psy-support-1dce1f0585b430ad,Biopsychology (or Neuroscience) Perspective,0,32.37,supporting,1
+psy-support-37b84bc99bc7bbc2,Likert scales,0,32.37,supporting,1
+psy-support-2a725c3d291e8929,Door-in-the-face technique,4,32.29,supporting,1
+psy-support-d9a3ce24f7e8f2ac,Authoritative parents,3,31.92,supporting,1
+psy-support-07cea94521bc3647,Aversive therapy,5,31.91,supporting,1
+psy-support-5a9ba3b6f4c1a800,Reinforcer,3,31.72,supporting,1
+psy-support-d2d39c15bb0c05af,Motor development,3,31.62,supporting,1
+psy-support-ead88acee74935e2,Contact comfort,3,31.54,supporting,1
+psy-support-36b84ad0a3b3fb55,Syntax,3,31.41,supporting,1
+psy-support-2cb9ff21a06b247c,Drive,4,31.37,supporting,1
+psy-support-528c4f7c6cc7c27b,James-Lange theory,4,31.28,supporting,1
+psy-support-60fb723d0388ec3f,Recency effect,2,31.18,supporting,1
+psy-support-b5faf862d4254274,Convenience sampling,0,31.05,supporting,1
+psy-support-b0a4914d2ce29f16,Approach-avoidance conflict,4,30.99,supporting,1
+psy-support-32a07e93d0fc403c,Trichromatic theory,1,30.92,supporting,1
+psy-support-126e4efbe9d04ad2,Semicircular canals,1,30.83,supporting,1
+psy-support-319e46625f9d9fde,Heritability,2,30.83,supporting,1
+psy-support-fdf947f5e224aa90,Method of loci,2,30.79,supporting,1
+psy-support-52a5d58d10eebda6,Out-group homogeneity bias,4,30.79,supporting,1
+psy-support-780d798f6de49752,Implicit attitude,4,30.61,supporting,1
+psy-support-95ba92542f514786,Triarchic theory,2,30.61,supporting,1
+psy-support-1757acde121cc7e4,Cognitive theorists,5,30.61,supporting,1
+psy-support-47f9e9d01f8e0730,Cognitive restructuring,5,30.4,supporting,1
+psy-support-2e610738ecd735f9,Ethnocentrism,4,30.35,supporting,1
+psy-support-3a470baa1f4183d3,Linear perspective,2,30.35,supporting,1
+psy-support-2ffacea783db2347,Fight-or-flight response,1,30.3,supporting,1
+psy-support-44894d332d5b39d6,Size constancy,2,30.28,supporting,1
+psy-support-218ed6af0ebd72b9,Spurious correlation,0,30.25,supporting,1
+psy-support-19ef66c5bac0b84d,Authoritarian parents,3,30.24,supporting,1
+psy-support-d3f71038827213c3,Qualitative data,0,30.24,supporting,1
+psy-support-d7a420e80e98b473,Amplitude,1,30.21,supporting,1
+psy-support-ae8d9788eaa4b027,Rationalization,4,30.21,supporting,1
+psy-concept-a8690374931165c1,Psychoanalysis (theory),4,30.0,supporting,1
+psy-support-896cf774499a4446,Gender identity,3,30.0,supporting,1
+psy-support-2024e24f76a0ea91,Illusory correlation,0,30.0,supporting,1
+psy-support-22dbd8c2fea5bc91,Approach and avoidance motives,5,30.0,supporting,1
+psy-support-0c7277f1a13c2729,Spermarche,3,30.0,supporting,1
+psy-support-59ce292428b32029,Operant behavior,3,30.0,supporting,1
+psy-support-92370315031df3bd,Evolutionary psychology,1,30.0,supporting,1
+psy-support-3a762467cca2e71d,Social learning theory,3,30.0,supporting,1
+psy-support-b76699da0bad56bd,Humanistic theories,4,30.0,supporting,1
+psy-support-883843870f0117ac,Incentive,4,30.0,supporting,1
+psy-support-0d7ef68ff4176e29,Behaviorism,3,30.0,supporting,1
+psy-support-efacf30d1fbdf5b5,Antisocial behavior,3,30.0,supporting,1
+psy-support-a29d4585e7ab597d,Obesity,4,30.0,supporting,1
+psy-support-5c3c114414bab56c,Language,3,30.0,supporting,1
+psy-support-864c4a8efdd0f26d,Passionate love,4,30.0,supporting,1
+psy-support-6ce1936e3e5c452a,Asexual,3,30.0,supporting,1
+psy-support-f77a0503b3276374,Vicarious conditioning,3,30.0,supporting,1
+psy-support-4ebf136d53dac24b,Tight culture,4,30.0,supporting,1
+psy-support-01c13503784974cd,Puberty,3,30.0,supporting,1
+psy-support-98d572a4b6bbe158,Prototype,2,30.0,supporting,1
+psy-support-65bf407e337650ad,Cochlear implant,1,30.0,supporting,1
+psy-support-e19e194fd932fa2c,Cognition,2,30.0,supporting,1
+psy-support-3c8a4ff07e4cfa8e,Linguistic relativism,3,30.0,supporting,1
+psy-support-fb2f3706cd43df50,Reinforcement schedule,3,30.0,supporting,1
+psy-support-b813e24575bda067,Social identity,3,30.0,supporting,1
+psy-support-298839770e331771,Deep processing,2,30.0,supporting,1
+psy-support-23555c0fdc1f6465,Minnesota Multiphasic Personality Inventory (MMPI),4,30.0,supporting,1
+psy-support-7c5fcb5077754cee,Humility,0,30.0,supporting,1
+psy-support-c80793c433c3739a,Natural selection,1,30.0,supporting,1
+psy-support-740283b677c2bd05,Behavior therapy,5,30.0,supporting,1
+psy-support-a53c40be9b150ef8,Psychodynamic theories,4,30.0,supporting,1
+psy-support-804d0c9a73d1d7c0,Spotlight effect,4,30.0,supporting,1
+psy-support-9e4551d574e39ffb,Estrogens,3,30.0,supporting,1
+psy-support-eff73a3188bda813,"Feel-good, do-good phenomenon",5,30.0,supporting,1
+psy-support-653c55c4b6f9e536,Schema,2,30.0,supporting,1
+psy-support-6db8158861664fc5,Persuasion,4,30.0,supporting,1
+psy-support-b0bd6dfb6cb25a6c,Delta waves,1,30.0,supporting,1
+psy-support-ed109e15e1567762,Sensory interaction,1,30.0,supporting,1
+psy-support-5444919ec78a5dd3,Perceptual adaptation,2,30.0,supporting,1
+psy-support-dcc0a79a53c3a798,Brainstem,1,30.0,supporting,1
+psy-support-764c89ed53a6b857,Y chromosome,3,30.0,supporting,1
+psy-support-4d4026ed60afb0aa,Stereotype,4,30.0,supporting,1
+psy-support-24344d384840451b,Person perception,4,30.0,supporting,1
+psy-support-8acd1c90a5074379,Addiction,1,30.0,supporting,1
+psy-support-50b7abf4154bfc4c,Evidence-based practice,5,30.0,supporting,1
+psy-support-f43d99555d6c1e9a,Effect size,0,30.0,supporting,1
+psy-support-51336f559242a4a5,Opioids,1,30.0,supporting,1
+psy-support-dbe1dc07b287e9d6,Embodied cognition,1,30.0,supporting,1
+psy-support-2fb678fa740c260d,Neurogenesis,1,30.0,supporting,1
+psy-support-cbb6254356c11cdb,Bipolar II disorder,5,30.0,supporting,1
+psy-support-7c9eb0abe0ce0951,Overlearning,2,30.0,supporting,1
+psy-support-b542f68c3142fcb6,Self-report bias,0,30.0,supporting,1
+psy-support-ed815eecf7d51e13,Individualism,4,30.0,supporting,1
+psy-support-3354aedd4747b5c4,Empirically derived test,4,30.0,supporting,1
+psy-support-01645ddb531beb9b,Acute schizophrenia,5,30.0,supporting,1
+psy-support-377ff5555ca8493f,Psychopharmacology,5,30.0,supporting,1
+psy-support-874221a86ae282ec,Histogram,0,30.0,supporting,1
+psy-support-4ed60da287f5a4c8,Corpus callosum,1,30.0,supporting,1
+psy-support-1571fdab28fec745,Role,3,30.0,supporting,1
+psy-support-bfe35624bfccb8d6,Stimulus,3,30.0,supporting,1
+psy-support-eb21eef6a4dea1ef,Fraternal (dizygotic) twins,1,30.0,supporting,1
+psy-support-fb07df7c3ac5826b,Standardization,2,30.0,supporting,1
+psy-support-0882ea56b111ae32,Regression toward the mean,0,30.0,supporting,1
+psy-support-c48b10e712c4132b,Savant syndrome,2,30.0,supporting,1
+psy-support-71026a2e40dd2d02,Executive functions,2,30.0,supporting,1
+psy-support-2af3583288038b33,Self,4,30.0,supporting,1
+psy-support-8307f2ff3bd9f8d0,Secondary sex characteristics,3,30.0,supporting,1
+psy-support-75e62cf1a5b4fb2c,Hierarchy of needs,4,30.0,supporting,1
+psy-support-eb2c3ce45ada5454,Behavior genetics,1,30.0,supporting,1
+psy-support-50d93ea8f6618e99,Construct validity,2,30.0,supporting,1
+psy-support-fe4b6eb49c8853c8,Preoperational stage,3,30.0,supporting,1
+psy-support-d888c40c272ff7fe,Heredity,1,30.0,supporting,1
+psy-support-a67a9de40b250231,Culture,4,30.0,supporting,1
+psy-support-423b9a28b6c56135,Psychometrics,2,30.0,supporting,1
+psy-support-17d66dcfec4da4d4,Rumination,5,30.0,supporting,1
+psy-support-9db960b48d4cb22f,Erikson's psychosocial stage theory,3,30.0,supporting,1
+psy-support-ebbbda6ec8433c5b,Grammar,3,30.0,supporting,1
+psy-support-6a66734bdfbc63a0,Cognitive neuroscience,1,30.0,supporting,1
+psy-support-a9c0d946a21edfb1,Suprachiasmatic nucleus (SCN),1,30.0,supporting,1
+psy-support-fa3ecb1a0b260296,Social desirability bias,0,30.0,supporting,1
+psy-support-8185b2ec4aea3ba3,Neutral stimulus (NS),3,30.0,supporting,1
+psy-support-d999cfbff72ac2d5,Genome,1,30.0,supporting,1
+psy-support-85fba5bd12fec9d9,Antianxiety drugs,5,30.0,supporting,1
+psy-support-cefae7f31b91b06b,Encoding specificity principle,2,30.0,supporting,1
+psy-support-c7174285dc971fce,Emotion,4,30.0,supporting,1
+psy-support-dd40ffae46cfce56,Creativity,2,30.0,supporting,1
+psy-support-2c695909ea62d7a4,Nervous system,1,30.0,supporting,1
+psy-support-236118cc4e96d44e,Psychotic disorders,5,30.0,supporting,1
+psy-support-c017410f501b7137,Personality psychology,4,30.0,supporting,1
+psy-support-0c27506a64778eb0,Skepticism,0,30.0,supporting,1
+psy-support-9d1b4a575fe70378,Storage,2,30.0,supporting,1
+psy-support-30f011bd4cf34a3c,Barbiturates,1,30.0,supporting,1
+psy-support-e4e289d543365ed6,Mindfulness meditation,5,30.0,supporting,1
+psy-support-49d335fd3a0af08a,Posthypnotic suggestion,5,30.0,supporting,1
+psy-support-78a10a0880d5d253,Concrete operational stage,3,30.0,supporting,1
+psy-support-1aa1ff43cd152559,Neurodevelopmental disorders,5,30.0,supporting,1
+psy-support-4a06c7a12005c78b,Operant chamber,3,30.0,supporting,1
+psy-support-0afc097e0afd829e,Feeding and eating disorders,5,30.0,supporting,1
+psy-support-a88354a8d7f6e5b6,Aphasia,3,30.0,supporting,1
+psy-support-2ab89ebb1c2ff18a,Audition,1,30.0,supporting,1
+psy-support-b3f90f99f00e2572,Maturation,3,30.0,supporting,1
+psy-support-247bacc02fd49158,Basic trust,3,30.0,supporting,1
+psy-support-af7e63c618ad5d10,Reinforcement,3,30.0,supporting,1
+psy-support-0060709a8ee2a6c2,Virtual reality exposure therapy,5,30.0,supporting,1
+psy-support-9313d1b072273747,Formal operational stage,3,30.0,supporting,1
+psy-support-40fa76aa5c73fc1f,Trauma-and-stressor-related disorders,5,30.0,supporting,1
+psy-support-03863b2ecc057e43,Respondent behavior,3,30.0,supporting,1
+psy-support-986c671711b0c30e,Depressive disorders,5,30.0,supporting,1
+psy-support-ed44af7f9447417e,Insecure attachment,3,30.0,supporting,1
+psy-support-7726040f4d5016ba,Bipolar I disorder,5,30.0,supporting,1
+psy-support-7b35eb9351b50fec,Narcissism,4,30.0,supporting,1
+psy-support-c3ed89e0bba6d492,Identity,3,30.0,supporting,1
+psy-support-2dd71fa787f60d9e,Reconsolidation,2,30.0,supporting,1
+psy-support-748838b38285a020,Intensity,1,30.0,supporting,1
+psy-support-da1e8ea14bb1c292,Intimacy,3,30.0,supporting,1
+psy-support-52431a2e12c43774,Social script,3,30.0,supporting,1
+psy-support-05912deaf2a7fca2,Substance use disorder,1,30.0,supporting,1
+psy-support-03fcbd4eddb54136,Stroboscopic movement,2,30.0,supporting,1
+psy-support-4f72c5799f4f2add,Gender role,3,30.0,supporting,1
+psy-support-f7deae18fb8724cf,Lesion,1,30.0,supporting,1
+psy-support-41fbdf9019a07973,Testing effect,2,30.0,supporting,1
+psy-support-1523577f4287f2e2,Medical model,5,30.0,supporting,1
+psy-support-ff46d77bfced1f80,Terror-management theory,4,30.0,supporting,1
+psy-support-087d7b900dcf9598,Environment,1,30.0,supporting,1
+psy-support-170709a7312308ca,Placebo effect,0,30.0,supporting,1
+psy-support-70bb896349a5a031,Strange situation,3,30.0,supporting,1
+psy-support-ca51183d94cbe7fe,Peripheral route persuasion,4,30.0,supporting,1
+psy-support-be4fbaee58df45b8,Stranger anxiety,3,30.0,supporting,1
+psy-support-e50adea53a8e16b6,Fixation,2,30.0,supporting,1
+psy-support-aac0f5b3f3a661fd,Hypnagogic sensations,1,30.0,supporting,1
+psy-support-3ac0f0dec5b59cf1,Sex,3,30.0,supporting,1
+psy-support-9253980334cc3053,Wavelength,1,30.0,supporting,1
+psy-support-6e8012d2ab700e9b,Curiosity,0,30.0,supporting,1
+psy-support-a357ec35eab000fe,Conflict,4,30.0,supporting,1
+psy-support-375c4921219a7f8f,Companionate love,4,30.0,supporting,1
+psy-support-2c7678e78c710d2b,Physiological need,4,30.0,supporting,1
+psy-support-b37d28c4b7ec9186,Inner ear,1,30.0,supporting,1
+psy-support-f13246454d20742b,Equity,4,30.0,supporting,1
+psy-support-f09a4e0aed55de1c,Menarche,3,30.0,supporting,1
+psy-support-b64d74520260a960,Emerging adulthood,3,30.0,supporting,1
+psy-support-dd13bd41f06239be,Young-Helmholtz trichromatic (three-color) theory,1,30.0,supporting,1
+psy-support-b61a7330eff9ba33,Psychology,0,30.0,supporting,1
+psy-support-413386748bf312b8,Mirror neurons,3,30.0,supporting,1
+psy-support-01c90b5b9597d181,Ostracism,4,30.0,supporting,1
+psy-support-c24d8e72a790476a,Intersex,3,30.0,supporting,1
+psy-support-e3e4d09ab227842f,One-word stage,3,30.0,supporting,1
+psy-support-a853aa241e7f4b4d,Halo effect,4,30.0,supporting,1
+psy-support-b019343389f4ed4e,Intelligence test,2,30.0,supporting,1
+psy-support-c99f65a0b95a49d6,Testosterone,3,30.0,supporting,1
+psy-support-12c878dcec00b530,Deinstitutionalization,5,30.0,supporting,1
+psy-support-0a165e9d531ecdb5,Nerves,1,30.0,supporting,1
+psy-support-78f24d4910cd0a23,Social exchange theory,4,30.0,supporting,1
+psy-support-52b5fdf3c3d8290f,Polygraph,4,30.0,supporting,1
+psy-support-e29d1ae39495343f,Adaptation-level phenomenon,5,30.0,supporting,1
+psy-support-82c5d394efa6960d,Sequential processing,1,30.0,supporting,1
+psy-support-04ed17ebc83371a6,Sleep,1,30.0,supporting,1
+psy-support-f7d9409d17c03395,Self-control,5,30.0,supporting,1
+psy-support-4a6d742015a237d6,Effortful processing,2,30.0,supporting,1
+psy-support-cbc1c44d2b6a6a4e,Other-race effect,4,30.0,supporting,1
+psy-support-c38c7140ea330e53,Phonological loop,2,30.0,supporting,1
+psy-support-e69e11932b471150,Social clock,3,30.0,supporting,1
+psy-support-95a4f1cfbf7901d8,Déjà vu,2,30.0,supporting,1
+psy-support-142867161cb00c95,Androgyny,3,30.0,supporting,1
+psy-support-af1ddd01e08659ca,Experiment,0,30.0,supporting,1
+psy-support-df4914e9215b2c04,Middle ear,1,30.0,supporting,1
+psy-support-54a5f7b9afd2208d,Sensorimotor stage,3,30.0,supporting,1
+psy-support-87b1e871ad7570d4,Self-esteem,4,30.0,supporting,1
+psy-support-fb60747059cbd826,Gender,3,30.0,supporting,1
+psy-support-0a97e4ba205ae7a5,Collectivism,4,30.0,supporting,1
+psy-support-1c43270eafac618e,Two-word stage,3,30.0,supporting,1
+psy-support-71c4257145fdbf40,Sensory receptors,1,30.0,supporting,1
+psy-support-470a51ece6ab50d5,Primary sex characteristics,3,30.0,supporting,1
+psy-support-25f61d16d4f12d04,Critical thinking,0,30.0,supporting,1
+psy-support-2aac936042bf92d2,Lens,1,30.0,supporting,1
+psy-support-ce339d8951331fdd,GRIT (conflict resolution),4,30.0,supporting,1
+psy-support-2dc0891285cb8647,Sensorineural hearing loss,1,30.0,supporting,1
+psy-support-bbd935962b948365,Basal metabolic rate,4,30.0,supporting,1
+psy-support-61bf8bea1a266c5f,Grouping,2,30.0,supporting,1
+psy-support-8dbef205efce2d58,Sampling bias,0,30.0,supporting,1
+psy-support-3ca3a989b96f3d8a,Nudge,2,30.0,supporting,1
+psy-support-90d054aa20b62bdd,Gustation,1,30.0,supporting,1
+psy-support-a03b03e8d3c8577d,Dual processing,1,30.0,supporting,1
+psy-support-87e0e2eb16cfd799,Parallel processing,1,30.0,supporting,1
+psy-support-13616b5d5d951974,Universal grammar,3,30.0,supporting,1
+psy-support-41f8110daaf09129,Epigenetics,1,30.0,supporting,1
+psy-support-475496de0fcd2d4a,Optic nerve,1,30.0,supporting,1
+psy-support-a55bd34f31b3a9aa,Sexual aggression,3,30.0,supporting,1
+psy-support-b140c30747000783,Behavior feedback effect,4,30.0,supporting,1
+psy-support-13a00220eab53e23,Personal control,5,30.0,supporting,1
+psy-support-8acd55e0a0fb0508,Belongingness,4,30.0,supporting,1
+psy-support-20a22dd82c9ae084,Interaction,1,30.0,supporting,1
+psy-support-fe931b2b4af8c534,Levels of analysis,1,30.0,supporting,1
+psy-support-f00c4033025a3163,Variable,0,30.0,supporting,1
+psy-support-7540666201810b01,Self-transcendence,4,30.0,supporting,1
+psy-support-98b0d1f7df7fe864,Hoarding disorder,5,30.0,supporting,1
+psy-support-92546f75f4b84810,Schizophrenia spectrum disorders,5,30.0,supporting,1
+psy-support-720ec28e9d9fb15e,Glucose,4,30.0,supporting,1
+psy-support-f14f0c6b9425ccce,Single-blind procedure,0,30.0,supporting,1
+psy-support-8aefc8a80e2ade9e,Interleaving,2,30.0,supporting,1
+psy-support-78229e93888cb149,Catharsis,5,30.0,supporting,1
+psy-support-b40b32e48853664e,Dissociation,5,30.0,supporting,1
+psy-support-21995051108ad797,Psychoneuroimmunology,5,30.0,supporting,1
+psy-support-05648c580665376d,Cohort,2,30.0,supporting,1
+psy-support-62306b5dac70adf8,Altruism,4,30.0,supporting,1
+psy-support-58032c8c18014b6d,Loose culture,4,30.0,supporting,1
+psy-support-3975f19b65839c8b,Mnemonics,2,30.0,supporting,1
+psy-support-fe7feac982235d3c,Frequency,1,30.0,supporting,1
+psy-support-de84dc431317a7b7,Near-death experience,1,30.0,supporting,1
+psy-support-709f4fa170ef818c,Shallow processing,2,30.0,supporting,1
+psy-support-53dc5f39cfa6d0fa,Insight,2,30.0,supporting,1
+psy-support-70c2b1fd6b709dbd,Reuptake,1,30.0,supporting,1
+psy-support-685af3c9c0c76456,Mutation,1,30.0,supporting,1
+psy-support-11cad638fc9d97d4,Coping,5,30.0,supporting,1
+psy-support-b7ec6e738a54ffca,X chromosome,3,30.0,supporting,1
+psy-support-b895bc16658d985b,Chronic schizophrenia,5,30.0,supporting,1
+psy-support-93032ddcf803ad13,Habituation,3,30.0,supporting,1
+psy-support-2e261b15d038f4e7,Aggression,3,30.0,supporting,1
+psy-support-242a5820a1044e6a,Ingroup,4,30.0,supporting,1
+psy-support-73f1642ef9b72e6e,Hormones,1,30.0,supporting,1
+psy-support-2ebcf47a87f3a290,Attitudes,4,30.0,supporting,1
+psy-support-01d34e8ecee6977f,Cattell-Horn-Carroll (CHC) theory,2,30.0,supporting,1
+psy-support-eb6ff295ccbcd714,Outgroup,4,30.0,supporting,1
+psy-support-b9bca0bc1554dfab,Associative learning,3,30.0,supporting,1
+psy-support-f6decb3b6328286c,Source amnesia,2,30.0,supporting,1
+psy-support-e8c1f1a9f33d4f0b,Sexuality,3,30.0,supporting,1
+psy-support-e1a022c4c892f765,Intuition,2,30.0,supporting,1
+psy-support-946d84532f3c0081,Mania,5,30.0,supporting,1
+psy-support-6b0edaff79ec2c45,Adolescence,3,30.0,supporting,1
+psy-support-24ae4832028f6d86,Hypnosis,5,30.0,supporting,1
+psy-support-130e263704f7ae56,Interpretation,5,30.0,supporting,1
+psy-support-8eba742dca97d41d,Scaffold,3,30.0,supporting,1
+psy-support-8d5073b0757e7d28,Biological psychology,1,30.0,supporting,1
+psy-support-3f82899ea1009a21,Antidepressant drugs,5,30.0,supporting,1
+psy-support-206d6d26e07b9e66,Iris,1,30.0,supporting,1
+psy-support-57905b2ad33b4e68,Fixed mindset,2,30.0,supporting,1
+psy-support-13c38aa2d8b4e599,Stanford-Binet,2,30.0,supporting,1
+psy-support-baadebecef638702,Growth mindset,2,30.0,supporting,1
+psy-support-2e84af37cd564a24,REM sleep behavior disorder,1,30.0,supporting,1
+psy-support-0c208488c60b3c97,Unconscious,4,30.0,supporting,1
+psy-support-5d94fc9832a9889d,Linguistic determinism,3,30.0,supporting,1
+psy-support-f4087ff70385decc,Affiliation need,4,30.0,supporting,1
+psy-support-e2a95ffe6b9625e5,Relational aggression,3,30.0,supporting,1
+psy-support-09ad12bce03526c2,Mirror-image perceptions,4,30.0,supporting,1
+psy-support-a8ce81f9d0363a1b,DSM-5-TR,5,30.0,supporting,1
+psy-support-0d3919fdf53895d7,Scientific attitude,0,30.0,supporting,1
+psy-support-8959ad4dce0d7384,Health psychology,5,30.0,supporting,1
+psy-support-7b4dc1c8b6236eb0,Reciprocity norm,4,30.0,supporting,1
+psy-support-088cd544ff170774,Coronary heart disease,5,30.0,supporting,1
+psy-support-bff6ee547255be09,Attachment,3,30.0,supporting,1
+psy-support-e051d260f3f5839a,Memory,2,30.0,supporting,1
+psy-support-43c42fb6b14d5f42,Gender typing,3,30.0,supporting,1
+psy-support-4bba0bd2ac0d12ad,Glial cells (glia),1,30.0,supporting,1
+psy-support-b16d1cc8a0b1f8d4,Stereotype threat,2,30.0,supporting,1
+psy-support-796a28b77b8eaa85,Grit (perseverance),2,30.0,supporting,1
+psy-support-664aa66ec2bf696f,Problem-focused coping,5,30.0,supporting,1
+psy-support-90f0daf54a23ed5a,Menopause,3,30.0,supporting,1
+psy-support-936d49c3e3d027db,Cognitive learning,3,30.0,supporting,1
+psy-support-d80e00aae3a9c560,Perceptual constancy,2,30.0,supporting,1
+psy-support-a95df62133a0eb71,MEG (magnetoencephalography),1,30.0,supporting,1
+psy-support-a2663322e02c2a94,Aerobic exercise,5,30.0,supporting,1
+psy-support-30cfe3f49d4cdff6,Memory consolidation,2,30.0,supporting,1
+psy-support-697262990803f8ac,NREM sleep,1,30.0,supporting,1
+psy-support-8498566c6104aaa1,Nature-nurture issue,1,30.0,supporting,1
+psy-support-6ada8cb9c0a62734,Color constancy,2,30.0,supporting,1
+psy-support-241e6afb1f235994,Scapegoat theory,4,30.0,supporting,1
+psy-support-5f177ac15f587aae,Automatic processing,2,30.0,supporting,1
+psy-support-f887ed883a9f89ee,Denial,4,29.9,supporting,1
+psy-support-1c8018601c17ba9c,Biomedical model,5,29.9,supporting,1
+psy-support-b67cc43e21350ae4,Elaborative rehearsal,2,29.9,supporting,1
+psy-support-36795e2ed074ab23,Cocktail party effect,2,29.82,supporting,2
+psy-support-7079e953e70f8403,Taste aversion,3,29.82,supporting,1
+psy-support-254c6a5c644b862f,z-scores,0,29.82,supporting,1
+psy-support-f405230a9b79d94b,Shape constancy,2,29.72,supporting,1
+psy-support-06186f421ad55a80,Decay,2,29.52,supporting,1
+psy-support-14913024abd05329,Ovaries and testes,1,29.49,supporting,1
+psy-support-8baf78082e98eefd,Humanist Perspective,0,29.49,supporting,1
+psy-support-24892d7c8e117bc5,Locus of control,4,29.47,supporting,1
+psy-support-7fa221eb77f06bf8,Multiple intelligences,2,29.33,supporting,1
+psy-support-fcf8b8d2c9db24f4,Approach-approach conflict,4,29.28,supporting,1
+psy-support-2b21f2523b82620d,Prospective memory,2,29.28,supporting,1
+psy-support-0231c05567ec883d,Sunk-cost fallacy,2,29.28,supporting,1
+psy-support-a1cde680ece817fc,Maintenance rehearsal,2,29.14,supporting,1
+psy-support-65c1fdc3874d31a6,Free will,4,29.14,supporting,1
+psy-support-af3304b349dd38eb,Psychological disorders,5,29.14,supporting,1
+psy-support-56d344f3b358bae8,Placebo method,0,29.09,supporting,1
+psy-support-10b5892d46ed5e64,No coercion,0,29.09,supporting,1
+psy-support-6214de5585d7f3b7,Anxiety hierarchy,5,28.98,supporting,1
+psy-support-bf41cfc0459747ad,Lithium,5,28.97,supporting,1
+psy-support-c2532e02b92befe5,Standardized test,2,28.97,supporting,1
+psy-support-fa229cd748c456f6,Lateral hypothalamus,4,28.97,supporting,1
+psy-support-d8c04ec2e0a15608,Reflex arcs,1,28.97,supporting,1
+psy-support-99f862e16619d0f6,False-consensus effect,4,28.97,supporting,1
+psy-support-d6cd6782905f0815,Anxious/ambivalent attachment,3,28.7,supporting,1
+psy-support-4ac236405af14067,Sleep cycle,1,28.51,supporting,1
+psy-support-34f843562a28306f,Flat affect,5,28.39,supporting,1
+psy-support-206c623d13e59628,State-dependent memory,2,28.39,supporting,1
+psy-support-e04108aa4ab468a2,Genetics,3,28.32,supporting,1
+psy-support-a7826ce6f352c7a8,Conversion disorder,5,28.28,supporting,1
+psy-support-ef960febbaf65fa2,Nature,2,28.28,supporting,1
+psy-support-1d611d72b5823511,Hemispheres,1,28.28,supporting,1
+psy-support-ef59197202c4403a,p-value,0,28.28,supporting,1
+psy-support-6c29c9208ed951be,Bobo doll experiment,4,28.22,supporting,1
+psy-support-a4786fde8b343300,Delta sleep,1,28.22,supporting,1
+psy-support-3021c4209e14c621,Prototypes,2,28.22,supporting,1
+psy-support-21f93fd0eae176df,Practical significance,0,28.22,supporting,1
+psy-support-ead31b5d3c059c76,Catatonia,5,28.22,supporting,1
+psy-support-e040052ccdac041d,Pitch theories,1,28.22,supporting,1
+psy-support-981c499c4a85abb0,Sublimation,4,28.22,supporting,1
+psy-support-fd13b3c67d179abe,Rooting reflex,3,28.22,supporting,1
+psy-support-9b39dbdb98afcb18,Gender roles,3,28.22,supporting,1
+psy-support-c1c9e4dc4ba3311d,Positive punishment,3,28.03,supporting,1
+psy-support-b8d6ad795f448769,Attitude,4,28.02,supporting,1
+psy-support-042b108ad04e74ea,Categorization,4,28.02,supporting,1
+psy-support-581eedd2d5f1b068,Somatic symptom disorders,5,28.01,supporting,1
+psy-support-a8b3e67332939b8b,Positive symptoms,5,27.91,supporting,1
+psy-support-6f14463d89a9064a,Eidetic memory,2,27.77,supporting,1
+psy-support-c84bcc3ad07e89f6,Displacement,4,27.66,supporting,1
+psy-support-293050b0cdd4460b,Loudness,1,27.66,supporting,1
+psy-support-48c60a0159d8a402,Social impairment,4,27.66,supporting,1
+psy-support-ba93c99c82b16a68,Information processing model,3,27.64,supporting,1
+psy-support-4fc299d27aa7b2bf,Cluster C,5,27.64,supporting,1
+psy-support-b005f707e281e95a,Well-being,5,27.64,supporting,1
+psy-support-42f677e37065ecf4,Least amount of suffering feasible,0,27.64,supporting,1
+psy-support-3adbd43ba421475e,Cannon-Bard theory,4,27.52,supporting,1
+psy-support-0cdeceafc3b1d89a,Tip-of-the-tongue phenomenon,2,27.46,supporting,1
+psy-support-7043bd273f3fd842,Depolarization,1,27.46,supporting,1
+psy-support-ef0e3c6aa796abde,Adrenal glands,1,27.46,supporting,1
+psy-support-ea2b1f545f8c5f99,Linguistic relativity hypothesis,3,27.46,supporting,1
+psy-support-15cd37aebbeab5fc,Alzheimer’s disease,5,27.46,supporting,1
+psy-support-5f8468646871cfa0,Elaboration likelihood model,4,27.37,supporting,1
+psy-support-a42d7edfcde9cf0a,Instrumental learning,3,27.36,supporting,1
+psy-support-7c84d8c6da50986a,Vision,1,27.36,supporting,1
+psy-support-1f1083ccba5f037a,Alarm reaction,5,27.36,supporting,1
+psy-support-629acea738f3a78d,Single-blind study,0,27.11,supporting,1
+psy-support-258572044717b6ec,Variables,0,27.02,supporting,1
+psy-support-11380dfc66a0bd17,Need,4,27.02,supporting,1
+psy-support-4a715172903e07b0,Regression,4,27.0,supporting,1
+psy-support-bf8a830eeaca9eb2,Mnemonic devices,2,26.98,supporting,1
+psy-support-5617a2be9658e931,Serotonin selective reuptake inhibitor drugs (SSRIs),5,26.98,supporting,1
+psy-support-5f72b2f4119ce7af,Applied behavior analysis (ABA),5,26.98,supporting,1
+psy-support-9df3dddc7321300a,Directionality problem,0,26.98,supporting,1
+psy-support-44d1004b080b9f01,Borderline personality disorder,5,26.88,supporting,1
+psy-support-cdafdf1c006e4a31,Third force,4,26.82,supporting,1
+psy-support-c0b50535628c4f5e,Constructed memory,2,26.82,supporting,1
+psy-support-a319fa588f3c92cb,Attachment parenting,3,26.82,supporting,1
+psy-support-faf538a13bf6f9c7,Resting potential,1,26.81,supporting,1
+psy-support-145aad601ea309d1,"Componential, or analytic, intelligence",2,26.81,supporting,1
+psy-support-32f1ce5c4a7b667c,Sleep deprived,1,26.81,supporting,1
+psy-support-8b77e1fff2b9d193,Language acquisition device,3,26.81,supporting,1
+psy-support-b14a6aa1e18304c4,Sucking reflex,3,26.71,supporting,1
+psy-support-4e8f2744e731074e,Brain Structure and Function,1,26.71,supporting,1
+psy-support-5b6fa0d59d6504e3,Excitatory neurotransmitters,1,26.71,supporting,1
+psy-support-ca27c6d9fc7e6c00,Selective serotonin reuptake inhibitor,1,26.71,supporting,1
+psy-support-94eca5271789d6cb,Abstract reasoning,3,26.71,supporting,1
+psy-support-da11be992fe50dfa,Three-box/information-processing model,2,26.71,supporting,1
+psy-support-5f861b3bb49a1eae,Evidence-based interventions,5,26.71,supporting,1
+psy-support-f3cba1685ccaa395,Bias in testing,2,26.71,supporting,1
+psy-support-68febf5cf825e09f,Theory Y,4,26.71,supporting,1
+psy-support-9bd72021b1c948e0,Zimbardo’s prison experiment,4,26.71,supporting,1
+psy-support-52bae198e442c088,Negative symptoms,5,26.71,supporting,1
+psy-support-8d213f20229fba2f,Activation-synthesis theory of dreaming,1,26.71,supporting,1
+psy-support-a607bfb9bcd00daa,Perceptual sets,2,26.71,supporting,1
+psy-support-edb9841ae4b97ef1,Similarity (attraction),4,26.71,supporting,1
+psy-support-afcc1fe68d1b1f18,Manic episodes,5,26.6,supporting,1
+psy-support-1c1a20ed83134119,Bystander intervention,4,26.6,supporting,1
+psy-support-2f8263902baebcae,Similarity (visual),2,26.59,supporting,1
+psy-support-b482a6cc0517d65e,Opiates,1,26.43,supporting,1
+psy-support-c33798d2aa7507a1,Contact theory,4,26.43,supporting,1
+psy-support-c64b5a8c19102e87,Semantics,3,26.43,supporting,1
+psy-support-f30584bb34078c62,Flooding,5,26.43,supporting,1
+psy-support-b60792b69026f416,Chaining,3,26.25,supporting,1
+psy-support-b78eba81ac59e878,Practical intelligence,2,26.06,supporting,1
+psy-support-d1c48635b23606ed,Attribution,5,26.06,supporting,1
+psy-support-fd46ccaaaefe7633,Secondary drives,4,25.81,supporting,1
+psy-support-a1fc34a54a32be6e,Explanatory style,4,25.81,supporting,1
+psy-support-4cbca37d61162b80,Proximity (attraction),4,25.81,supporting,1
+psy-support-7f2d0fe5f7f79920,Ghrelin,4,25.81,supporting,1
+psy-support-ed6b557721c21277,Dichromatism,1,25.81,supporting,1
+psy-support-fa25244cf7d85211,Sleep spindles,1,25.81,supporting,1
+psy-support-e6dfb90bc0535538,Seasonal affective disorder (SAD),5,25.81,supporting,1
+psy-support-a804a47753e5c8f8,Group matching,0,25.81,supporting,1
+psy-support-ab749ce99babb498,Theory X,4,25.81,supporting,1
+psy-support-030de9c38a6850f8,Taste buds,1,25.81,supporting,1
+psy-support-59cbf33f32bc5e02,Continuity,2,25.81,supporting,1
+psy-support-84237d8e3717f3f6,Synesthesia,1,25.81,supporting,1
+psy-support-1f973e8035fbd990,Abnormal psychology,5,25.67,supporting,1
+psy-support-15dff9b656294a18,Organization of the Nervous System,1,25.67,supporting,1
+psy-support-9319f599d697e096,Health,5,25.67,supporting,1
+psy-support-17f242ddb697dcce,"Internal, global, and stable attributions",5,25.67,supporting,1
+psy-support-bec8a5c92fca7326,Optic chiasm,1,25.67,supporting,1
+psy-support-516108462abfa189,Spinal cord,1,25.67,supporting,1
+psy-support-936e8bdc0582cfa0,Etiologies,5,25.67,supporting,1
+psy-support-a528c5e16c2ac725,Methods of treatment,5,25.67,supporting,1
+psy-support-20732dd6444c4eea,Terminal buttons,1,25.5,supporting,1
+psy-support-8842a1744a256959,Dialectical behavior therapy (DBT),5,25.5,supporting,1
+psy-support-1a5aba0e8156e4f0,Psychodynamic theorists on anxiety disorders,5,25.5,supporting,1
+psy-support-b6886b1872f669ff,Experimental hypothesis,0,25.5,supporting,1
+psy-support-bc6fd4f2ac41c564,Cluster A,5,25.5,supporting,1
+psy-support-250c5c8ac0627207,MMPI-2,4,25.5,supporting,1
+psy-support-5379819d23404edc,Imaginary audience,3,25.5,supporting,1
+psy-support-5e3a73d9791e5b2a,Ventromedial hypothalamus,4,25.5,supporting,1
+psy-support-712a089b8583628a,Human factors psychology,EM,25.0,supporting,1
+psy-support-7aab97be768af996,Leadership,EM,25.0,supporting,1
+psy-support-d91115f44f78aa62,Social leadership,EM,25.0,supporting,1
+psy-support-11ca0cefb11ca404,Personnel psychology,EM,25.0,supporting,1
+psy-support-2b81b67782cf16b8,Flow,EM,25.0,supporting,1
+psy-support-f45a487eaa08bda1,Industrial-organizational (I/O) psychology,EM,25.0,supporting,1
+psy-support-4ec787671ae19920,Task leadership,EM,25.0,supporting,1
+psy-support-f7e144d07db779a5,Organizational psychology,EM,25.0,supporting,1
+psy-support-986cdb25805e7588,Burnout,EM,25.0,supporting,1
+psy-support-8b695cf560556717,Consistency,4,24.74,supporting,1
+psy-support-4d039829617658bf,Manifest content,5,24.74,supporting,1
+psy-support-8d10f4e2ec49b692,Permissive parents,3,24.74,supporting,1
+psy-support-1688bdf122b7ad4d,Auditory loop,2,24.74,supporting,1
+psy-support-7f6a209f1c592b6b,Restoration of resources,1,24.74,supporting,1
+psy-support-b94d7fe493153b34,Unconscious level,1,24.74,supporting,1
+psy-support-13f36a52062ebcad,Biopsychosocial view,5,24.74,supporting,1
+psy-support-9137ecbd66d85146,Nerve deafness,1,24.74,supporting,1
+psy-support-1d964f7cd1690d20,Stroboscopic effect,2,24.74,supporting,1
+psy-support-c93087d64c9790e6,Deviation IQ,2,24.74,supporting,1
+psy-support-327e3efd1ec4b680,Chronosystem,3,24.74,supporting,1
+psy-support-f4b34554eaf1945c,Images,2,24.74,supporting,1
+psy-support-378559490b8639d4,Intrapersonal intelligence,2,24.74,supporting,1
+psy-support-26a8b154a50b8073,Upward social comparison,4,24.74,supporting,1
+psy-support-fb24df260f72d6e1,Hypomania,5,24.74,supporting,1
+psy-support-22deed9183ab492f,Biofeedback,5,24.74,supporting,1
+psy-support-6da455f07f9859b9,Barnum effect,4,24.74,supporting,1
+psy-support-c7c3b6695fe0b658,Sound localization,1,24.74,supporting,1
+psy-support-765a1b2d42941fdd,Supertasters,1,24.74,supporting,1
+psy-support-4bc0d8979c0909c5,Neuroanatomy,1,24.74,supporting,1
+psy-support-90021fcc3d82d9b5,Social cognition,4,24.74,supporting,1
+psy-support-61b88db7512b18be,Instrumental aggression,4,24.74,supporting,1
+psy-support-9ec7cee983a665cf,Microsystem,3,24.74,supporting,1
+psy-support-72fb3c4f5abe609c,False positive,2,24.74,supporting,1
+psy-support-db0ac5ca1accec85,Interference,2,23.69,supporting,1
+psy-support-75ecc8b948ae7747,Split-half reliability,2,23.29,supporting,1
+psy-support-7b6ead9818b15fc6,Proximity (visual),2,23.06,supporting,1
+psy-support-ae8a5c1bb68a2bdf,Ways of Studying the Brain,1,22.63,supporting,1
+psy-support-d6bbb2f9efdd2b00,Sociobiology,4,22.63,supporting,1
+psy-support-cd28e196adafce6d,Avoidant attachment,3,22.61,supporting,1
+psy-support-8ca86de5a8d0a366,Cluster B,5,22.46,supporting,1
+psy-support-7937dcecd0efff59,Interposition,2,22.38,supporting,1
+psy-support-96b3b852347dcf35,Autonomy (Erikson),3,22.38,supporting,1
+psy-support-c737fdbf0ea56d63,Consensus,4,22.36,supporting,1
+psy-support-0422146db5daf1fb,Inferiority complex,3,22.23,supporting,1
+psy-support-6301315bf3b07fd9,Relative size,2,22.13,supporting,1
+psy-support-8332740fe878552a,Garcia effect,3,22.08,supporting,2
+psy-support-4d8ecb7466dd08f1,Brightness constancy,2,22.07,supporting,1
+psy-support-72762dfae754e92c,Texture gradient,2,21.99,supporting,1
+psy-support-0cb88217d4b81bcd,Stratified sampling,0,21.99,supporting,1
+psy-support-c25cb260b6a525ab,Concurrent validity,2,21.99,supporting,1
+psy-support-b84d7f94d931d8ca,Somnambulism (sleepwalking),1,21.85,supporting,1
+psy-support-66ff9035ca0ac964,Night terrors,1,21.85,supporting,1
+psy-support-3468e92da30f83fa,Primary drives,4,21.68,supporting,1
+psy-support-2d6d18e697a7363d,Generalized reinforcer,3,21.68,supporting,1
+psy-support-f767b4ad2b421029,Creative intelligence,2,21.68,supporting,1
+psy-support-6864b960196d7bd4,Lesioning,1,21.68,supporting,1
+psy-support-81a348b88e520321,Semistructured or unstructured interviews,0,21.68,supporting,1
+psy-support-30aaa3bb9a0361f8,Accidents,1,21.61,supporting,1
+psy-support-b92b165d18a8da4d,Line of best fit,0,21.61,supporting,1
+psy-support-ad92db73850aa4f3,Mood or affective disorder,5,21.61,supporting,1
+psy-support-350ed2e3240f7eba,Avoidance-avoidance conflict,4,21.51,supporting,1
+psy-support-13f16d2e512edba1,Pons,1,21.51,supporting,1
+psy-support-b4d5e7ecf09eedbc,Physical dependence,1,21.31,supporting,1
+psy-support-690b456b9b9bcc36,Equivalent-form reliability,2,21.31,supporting,1
+psy-support-237143c286cec9d5,Moro reflex,3,21.31,supporting,1
+psy-support-bdc62d31cd33265b,Organic amnesia,5,21.31,supporting,1
+psy-support-1a0c1c0aac54ee8d,Simultaneous conditioning,3,21.31,supporting,1
+psy-support-b152bac871c32f38,Diagnostic and Statistical Manual of Mental Disorders (DSM),5,21.31,supporting,1
+psy-support-bfb661e1c280e389,Eclecticism,5,21.31,supporting,2
+psy-support-f9bdb29142f0ef91,Word salad,5,21.31,supporting,1
+psy-support-75399e4b49497be6,Premack principle,3,21.31,supporting,1
+psy-support-3bcef0019f67745f,Clinical psychologists,5,21.31,supporting,1
+psy-support-ccc3cf47b8ad6e47,Binge-eating disorder,5,21.07,supporting,1
+psy-support-bb3035091aeec908,Inhibitory neurotransmitters,1,21.07,supporting,1
+psy-support-46ffc53ab5c2bc61,Latent content,5,21.07,supporting,1
+psy-support-ca98bd629d5e5b13,Exosystem,3,21.07,supporting,1
+psy-support-59874f43d3a6f698,Avoidance learning,3,21.07,supporting,1
+psy-support-130c276e96090383,Backward conditioning,3,21.07,supporting,1
+psy-support-7218fb773d1f2716,Pluralistic ignorance,4,21.07,supporting,1
+psy-support-e31847bd87d46411,Mesosystem,3,21.07,supporting,1
+psy-support-59311bbc2397380d,Belief bias,2,21.07,supporting,1
+psy-support-bd2d285764c65303,Macrosystem,3,21.07,supporting,1
+psy-support-f485de39f3732df2,Determinism,4,21.07,supporting,2
+psy-support-41b668120db4a174,Prosopagnosia,1,21.07,supporting,1
+psy-support-7e9fcc59773cec90,Clear scientific purpose,0,20.93,supporting,1
+psy-support-345c8b9d3dd5f227,Escape learning,3,20.93,supporting,1
+psy-support-63149d965172d9a3,Psychodynamic theorists on dissociative disorders,5,20.93,supporting,1
+psy-support-f69cd79bded80ddb,Cognitive triad,5,20.93,supporting,2
+psy-support-399a2e4a2853e641,Self-help groups,5,20.93,supporting,1
+psy-support-43409e10d4b33934,Psychological factors,5,20.93,supporting,1
+psy-support-7470b62bf72ca7a3,Muller-Lyer illusion,2,20.93,supporting,1
+psy-support-22620781bd442160,Phineas Gage,1,20.93,supporting,1
+psy-support-694fc82e712de77a,Olfactory bulb,1,20.93,supporting,1
+psy-support-71a2d1d06c3e8f2f,Nomothetic approach,4,20.93,supporting,1
+psy-support-5ca2da762bb6b72a,Psychometricians,2,20.93,supporting,1
+psy-support-5d5f199487d58f5d,Neurocognitive disorders,5,20.93,supporting,1
+psy-support-051801ad8262a7d3,Holophrases,3,20.93,supporting,1
+psy-support-1dba73e3ce3de776,Noncarpentered cultures,2,20.93,supporting,1
+psy-support-0e86795d0c92b4f1,Inferiority,4,20.93,supporting,1
+psy-support-b480a47582d1536c,Theories of color vision,1,20.93,supporting,1
+psy-support-648ea401b24f890b,Differences within groups,2,20.75,supporting,1
+psy-support-afe4ffc8e0878cd9,Klinefelter’s syndrome,1,20.75,supporting,1
+psy-support-3bb6d2b30c7937b3,False negative,2,20.75,supporting,1
+psy-support-900fba6f61dd0247,Behaviorists on dissociative disorders,5,20.75,supporting,1
+psy-support-31be2ddeacc8b473,Taijin kyofusho,5,20.75,supporting,1
+psy-support-c718723e3d343415,Psychodynamic theorists on depressive disorders,5,20.75,supporting,1
+psy-support-bc58dce6b3a65b6e,Insanity,5,20.75,supporting,1
+psy-support-0e44dc2b274d84ef,Subgoals,2,20.75,supporting,1
+psy-support-216fa6f6430b135c,Multiple approach-avoidance conflicts,4,20.75,supporting,1
+psy-support-0a35e75e3c280e6f,Learning theorists,5,20.75,supporting,1
+psy-support-e80dcd130da04c28,Five different types of tastes,1,20.75,supporting,1
+psy-support-1954babb0a20b3c4,Trace conditioning,3,20.75,supporting,1
+psy-support-73d50cf82c1338a7,Fetal alcohol effect,3,20.75,supporting,1
+psy-support-e42f63ace02af50b,Personal fable,3,20.75,supporting,1
+psy-support-482948a26382c592,Biopsychological (Neuropsychological) Theory,3,20.75,supporting,1
+psy-support-bdd31631e488b8fe,Hostile aggression,4,20.75,supporting,1
+psy-support-926a9b4118ccb7c8,Head Start,2,20.75,supporting,1
+psy-support-6446b21b0e9d49dc,Behaviorists on anxiety disorders,5,20.75,supporting,1
+psy-support-10d00391815b4ede,Gender schema theory,3,20.75,supporting,1
+psy-support-bf2310162b863d1a,Afferent nerves,1,20.75,supporting,1
+psy-support-95e5814ec9f919b6,Externals,4,20.75,supporting,1
+psy-support-69472ef5f92bf6c6,Grasping reflex,3,20.75,supporting,1
+psy-support-10fddd3995d43603,Social influence theory,4,20.0,supporting,1
+psy-support-3ebb208af1951f73,Subconscious level,1,20.0,supporting,1
+psy-support-8ec2c342784fb66c,Pain receptors,1,20.0,supporting,1
+psy-support-6ca1a4b9d1a23de3,Psychiatrists,5,20.0,supporting,1
+psy-support-2a1fd85067589060,Conscious level,1,20.0,supporting,1
+psy-support-dc76136df9ca92a5,Power tests,2,20.0,supporting,1
+psy-support-346b6f3b3bce152b,Reciprocal liking,4,20.0,supporting,1
+psy-support-1e657db4d30c5a22,Sexual desire,4,20.0,supporting,1
+psy-support-44b04c13028ec041,Sampling error,0,20.0,supporting,1
+psy-support-04fbb2a724e89850,Intellectualization,4,20.0,supporting,1
+psy-support-392a13b446f32520,Psychological dependence,1,20.0,supporting,1
+psy-support-30821bd36fe5e7f6,Individual tests,2,20.0,supporting,1
+psy-support-5ba3f07bcb43b8ab,The Rosenhan study,5,20.0,supporting,1
+psy-support-8b7e9c871b5e3b01,Six core virtues,5,20.0,supporting,1
+psy-support-6265add2a41a50f0,Species specific,3,20.0,supporting,1
+psy-support-b4c249a4c637b698,Pedophilia,5,20.0,supporting,1
+psy-support-5b47a7e199db9591,Preconscious level,1,20.0,supporting,1
+psy-support-0abfe4ee70dbb403,Diagnostic labels,5,20.0,supporting,1
+psy-support-5d711d27714ea29d,International Classification of Mental Disorders (ICD),5,20.0,supporting,1
+psy-support-43a2bc9f0a1dd98b,Demand characteristics,0,20.0,supporting,1
+psy-support-58260b50517a54b4,Distinctiveness,4,20.0,supporting,1
+psy-support-e1a5b05e8f0bbb9d,Consolidation theory of dreams,1,20.0,supporting,1
+psy-support-2b6b74bf548bccb6,Contiguity model,3,20.0,supporting,1
+psy-support-9cda5594228601a1,16 PF,4,20.0,supporting,1
+psy-support-d4354f9cf5b45b81,Competence,4,20.0,supporting,1
+psy-support-12b4bf74b5cfd337,LaPiere study,4,20.0,supporting,1
+psy-support-d2ffb3724ba49f53,Salient stimuli,3,20.0,supporting,1
+psy-support-e87bf2c41a274b4c,Idiographic theorists,4,20.0,supporting,1
+psy-support-70c5d818e3036a3d,Existential therapies,5,20.0,supporting,1
+psy-support-121d68786587fd11,Semantic network theory,2,20.0,supporting,1
+psy-support-0239c3b3560f7dfc,Symptom substitution,5,20.0,supporting,1
+psy-support-d9e6b44c8d5ddf45,Sleep onset,1,20.0,supporting,1
+psy-support-79c9598fb31ddf5c,DNA,1,20.0,supporting,1
+psy-support-ecf4ee8560ad54a7,Lucid dreams,1,20.0,supporting,1
+psy-support-d97f987e16017412,Extrasensory perception (ESP),2,20.0,supporting,1
+psy-support-a0b607fb8719d14e,Thanatos,4,20.0,supporting,1
+psy-support-0426c5ec1e2abb75,Life change units (LCUs),5,20.0,supporting,1
+psy-support-56520c91f5bedb98,Down syndrome,1,20.0,supporting,1
+psy-support-9efcc671dab49fb0,Neuroscience or biopsychological perspective,1,20.0,supporting,1
+psy-support-daae059922dba443,Behaviorists on somatic symptom disorders,5,20.0,supporting,1
+psy-support-4781bf411933a527,Relatedness,4,20.0,supporting,1
+psy-support-0ff3e793db3e26bf,Double bind,5,20.0,supporting,1
+psy-support-52ac491291300fe8,Theta waves,1,20.0,supporting,1
+psy-support-2e6b13c40fb35a00,Group tests,2,20.0,supporting,1
+psy-support-addb76ea17dd2e8c,Counseling therapists,5,20.0,supporting,1
+psy-support-e5b209d0c8838f9b,Optimistic explanatory style,4,20.0,supporting,1
+psy-support-9cb62106e3bde3ef,Face validity,2,20.0,supporting,1
+psy-support-2543a3253f87a76e,Gestalt therapy,5,20.0,supporting,1
+psy-support-d4e65e800f8cd11b,Abstract learning,3,20.0,supporting,1
+psy-support-080810b448bcff32,Body dysmorphic disorder,5,20.0,supporting,1
+psy-support-6ccd66b542448424,Central dispositions,4,20.0,supporting,1
+psy-support-a6500dc275cf4598,Naturalist intelligence,2,20.0,supporting,1
+psy-support-1ad1da32c8a6930b,Nonconscious level,1,20.0,supporting,1
+psy-support-1a92c1daecd0b848,Perceived control,5,20.0,supporting,1
+psy-support-777d05ef87b6b33d,Thinking and creativity,2,20.0,supporting,1
+psy-support-84731578e97143e8,Psychodynamic theorists on somatic symptom disorders,5,20.0,supporting,1
+psy-support-e065df43a038f9fc,Chromosomal abnormality,1,20.0,supporting,1
+psy-support-a8967d09b237a32e,Shadowing,2,20.0,supporting,1
+psy-support-5878a467f937e957,Internals,4,20.0,supporting,1
+psy-support-f2d7bc7a2d2925b0,Phantom limb syndrome,1,20.0,supporting,1
+psy-support-d0fdcdb32960e4c9,Babinski reflex,3,20.0,supporting,1
+psy-support-6051ed3b569ecd75,"Models, or explanations, of how memory works",2,20.0,supporting,1
+psy-support-56f77de20babc6bc,Speed tests,2,20.0,supporting,1
+psy-support-0949d9f3ea27a865,Autonomy (self-determination),4,20.0,supporting,1
+psy-support-ddb7c2c01a01dad3,Applied research,0,20.0,supporting,1
+psy-support-928272eae2b0b7bd,Delayed conditioning,3,20.0,supporting,1
+psy-support-0c942b2b0db636fa,Substance-related and addictive disorders,5,20.0,supporting,1
+psy-support-c9576cd4b48201b3,Basic research,0,20.0,supporting,1
+psy-support-550e7f54e55aa80b,Papillae,1,20.0,supporting,1
+psy-support-3832a5a72653bba5,Paraphilias,5,20.0,supporting,1
+psy-support-09c6b7307f554151,Contingency model of classical conditioning,3,20.0,supporting,1
+psy-support-65ab2c1d77e398e0,Neologisms,5,20.0,supporting,1
+psy-support-0ce673416edd006f,Social readjustment rating scale (SRRS),5,20.0,supporting,1
+psy-support-80b49231e9b95fb3,Turner’s syndrome,1,20.0,supporting,1
+psy-support-3de1f16dc29b7244,Dominant or recessive genes,1,20.0,supporting,1
+psy-support-646343867e19a9fc,Archetypes,4,20.0,supporting,1
+psy-support-1de75e4f5944a5f9,Kinsey Reports,4,20.0,supporting,1
+psy-support-f99aed1e99311a6b,Information-processing theory of dreaming,1,20.0,supporting,1
+psy-support-87d593968676a8b3,Leptin,4,20.0,supporting,1
+psy-support-cf0b9ebd67060e35,Opponent-process theory (motivation),4,20.0,supporting,1
+psy-support-b89d0c0978eac9b5,Downward social comparison,4,20.0,supporting,1
+psy-support-d6fe759c1b41364d,Blood-brain barrier,1,20.0,supporting,1
+psy-support-87012f08c4060dfe,Cardinal dispositions,4,20.0,supporting,1
+psy-support-6527ab00545f8e3d,A CAUTIONARY NOTE,2,20.0,supporting,1
+psy-support-a803c4b404a04a30,Interpersonal intelligence,2,20.0,supporting,1
+psy-support-fbdfbb20e9f50036,Somatic cognitive therapy,5,20.0,supporting,1
+psy-support-b6ee3979c2c190d5,Pruning,1,20.0,supporting,1
+psy-support-b939a4064cad426d,Reverse tolerance,1,20.0,supporting,1
+psy-support-e3af8f7bb1820de8,Sexual response cycle,4,20.0,supporting,1

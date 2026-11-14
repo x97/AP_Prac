@@ -1,0 +1,2730 @@
+{
+ "pdf": "AP Psychology Premium, 2027 - Allyson J. Weseley & Robert McEntarffer.pdf",
+ "chapters": [
+  {
+   "chapter": 4,
+   "unit": 1,
+   "chapter_title": "Biological Bases of Behavior",
+   "paper_id": "psychology-barrons-2027-ch4-review",
+   "review_page_start": 86,
+   "answer_page_start": 91,
+   "page_end": 95,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Which of the following provides the best evidence for the influence of heredity as opposed to environment?",
+     "options": {
+      "A": "Fraternal twins have more similar interests than typical siblings.",
+      "B": "Identical twins raised together score less similarly on intelligence tests than identical twins raised separately.",
+      "C": "Fraternal twins raised together score more similarly on intelligence tests than fraternal twins raised separately.",
+      "D": "Identical twins raised separately tend to resemble their birth parents more than their adoptive parents."
+     },
+     "context": "",
+     "page_start": 86,
+     "page_end": 86,
+     "correct_answer": "D",
+     "answer_text": "Identical twins raised separately tend to resemble their birth parents more than their adoptive parents in many ways, which suggests that genetics plays a stronger role than the family environment. Identical twins share 100 percent of their genetic material, so differences between them are attributed to their environments. Because, on average, fraternal twins share the same amount of genetic material as siblings born at different times, any greater similarity between them must be due to environmental factors. Likewise, given that fraternal twins share an average of 50 percent of their genes, differences between them are likely due to the environment.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Psychologists have long debated the relative influence of nature and nurture. Which of the following statements provides the strongest evidence in support of the influence of nature?",
+     "options": {
+      "A": "Identical twins raised separately often exhibit striking similarities in personality.",
+      "B": "Identical twins raised together often exhibit striking similarities in personality.",
+      "C": "Fraternal twins raised together often exhibit striking similarities in personality.",
+      "D": "Fraternal twins raised separately often exhibit striking similarities in personality."
+     },
+     "context": "",
+     "page_start": 86,
+     "page_end": 87,
+     "correct_answer": "A",
+     "answer_text": "Since identical twins share 100 percent of their genetic material, when identical twins are raised in separate environments, psychological researchers are very interested in looking at their similarities and differences. Whatever is similar between identical twins raised in separate environments may be largely influenced by genetics since they share the same genetic code (nature) but experienced different environments (nurture). Fraternal twins aren’t as useful as identical twins for this kind of research because they don’t share as similar a genetic code as identical twins.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "The study design used by Dr. Perez would be classified as",
+     "options": {
+      "A": "experimental.",
+      "B": "cross-sectional.",
+      "C": "meta-analytic.",
+      "D": "longitudinal."
+     },
+     "context": "Use the following information to answer questions 3 and 4. Dr. Perez and her research assistant are interested in how extraversion changes over the lifespan. Over the course of several months, they survey 40 people in their early teens, 40 people in their early 30’s, and 40 people in their early 50’s, and they use this data to make comparisons across cohorts of different ages.",
+     "page_start": 87,
+     "page_end": 87,
+     "correct_answer": "B",
+     "answer_text": "Developmental psychology researchers who use the cross- sectional research method typically gather a large group of participants and compare the same variable (such as extraversion) between groups based on age. They obviously can’t randomly assign people to different age groups (which would be required in a true experiment). Meta-analysis is a research technique that combines statistical data across many different studies. True longitudinal studies study the same group of people over a long period of years (which was not done in Dr. Perez’s study).",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Which of the following is likely to be the biggest issue in Dr. Perez’s study?",
+     "options": {
+      "A": "Participants may drop out midway through the study.",
+      "B": "Ten years is not enough time for extraversion to change.",
+      "C": "Differences between groups may be due to factors other than age.",
+      "D": "Surveys are not appropriate tools with which to answer this question."
+     },
+     "context": "Use the following information to answer questions 3 and 4. Dr. Perez and her research assistant are interested in how extraversion changes over the lifespan. Over the course of several months, they survey 40 people in their early teens, 40 people in their early 30’s, and 40 people in their early 50’s, and they use this data to make comparisons across cohorts of different ages.",
+     "page_start": 87,
+     "page_end": 87,
+     "correct_answer": "C",
+     "answer_text": "One of the limitations of cross sectional studies (and any nonexperimental study that can’t use random assignment to groups) is that there may be differences between the groups other than the variable researchers want to study (confounding variables). Answers A, B, and D may turn out to be issues with Dr. Perez’s study, but they are not necessarily issues unique to the cross sectional method used in this research, and they are not more likely to be issues in this study than other research.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "A deer runs into the road while Harry is driving, and he has to swerve and hit the brakes. As he slows to a stop, Harry’s heart is pounding and his breathing rate is elevated. Harry’s reaction is controlled by the",
+     "options": {
+      "A": "peripheral nervous system.",
+      "B": "central nervous system.",
+      "C": "parasympathetic nervous system.",
+      "D": "sympathetic nervous system."
+     },
+     "context": "",
+     "page_start": 87,
+     "page_end": 88,
+     "correct_answer": "D",
+     "answer_text": "Harry’s reaction is controlled by the sympathetic nervous system. The sympathetic and parasympathetic nervous systems make up the autonomic nervous system, which controls our involuntary actions. The sympathetic nervous system prepares us to react to stressful situations, while the parasympathetic symptom calms us back down after the threat has passed.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Shortly after birth, Katerina’s pediatrician refers her to a specialist because he is concerned about her reflexes. Which part of the nervous system is the doctor probably least worried about?",
+     "options": {
+      "A": "Motor neurons",
+      "B": "Sensory neurons",
+      "C": "Cerebral cortex",
+      "D": "Peripheral nervous system"
+     },
+     "context": "",
+     "page_start": 88,
+     "page_end": 88,
+     "correct_answer": "C",
+     "answer_text": "As Katerina’s pediatrician explores potential physiological issues that might be causing Katerina’s reflex issues, they are unlikely to start with the cerebral cortex as the root cause because reflex actions are controlled in the spinal cord (see “reflex arcs”), not the cerebral cortex. Katerina’s pediatrician is more likely to explore potential problems in the motor neurons, sensory neurons, and peripheral nervous system than the cerebral cortex.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "A drug that blocks the perception of pain is most likely to be",
+     "options": {
+      "A": "an acetylcholine agonist.",
+      "B": "an endorphin agonist.",
+      "C": "a serotonin antagonist.",
+      "D": "a glutamate antagonist. Use this diagram for items 8–10."
+     },
+     "context": "",
+     "page_start": 88,
+     "page_end": 88,
+     "correct_answer": "B",
+     "answer_text": "Endorphins are the body’s natural painkillers. Agonists mimic the effect of other compounds; thus, an endorphin agonist would decrease the perception of pain.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "In the diagram, X represents one neuron and Y represents another neuron. The process depicted in the diagram would best be described as",
+     "options": {
+      "A": "evolutionary.",
+      "B": "electrical.",
+      "C": "chemical.",
+      "D": "correlational."
+     },
+     "context": "",
+     "page_start": 88,
+     "page_end": 89,
+     "correct_answer": "C",
+     "answer_text": "The diagram focuses on transfer of neurotransmitters across the synaptic gap. This is a chemical process, not an electrical one (action potentials operate within a neuron, not across the synaptic gap). Correlation (a research method) and Evolutionary perspective (a psychological perspective related to the biological perspective) are not specifically related to neural transmission across the synaptic gap.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "Which of the following could be represented by the small circles in the diagram including those indicated by letter E?",
+     "options": {
+      "A": "Leptin",
+      "B": "Acetylcholine",
+      "C": "Testosterone",
+      "D": "Cortisol"
+     },
+     "context": "",
+     "page_start": 89,
+     "page_end": 89,
+     "correct_answer": "B",
+     "answer_text": "Answer B, Acetylcholine, is the only answer choice that is a neurotransmitter (leptin, testosterone, and cortisol are hormones). The letter E in the diagram is referring to neurotransmitters crossing the synaptic gap, so the answer must be a neurotransmitter.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "The area in the diagram marked by C is referred to as the",
+     "options": {
+      "A": "Soma",
+      "B": "Axon",
+      "C": "Dendrite",
+      "D": "Synapse"
+     },
+     "context": "",
+     "page_start": 89,
+     "page_end": 89,
+     "correct_answer": "D",
+     "answer_text": "The area in the diagram marked by C refers to the space between neuron X and neuron Y. This space is called the “synaptic gap” or simply the synapse. Answer choices A, B, and C are individual parts of a neuron, not the gap between neurons.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "Antonia goes to the doctor complaining of tiredness and periods when she feels numbness and tingling in various parts of her body. She tells the doctor that she has also been feeling weak and having trouble with her balance. The doctor sends her for an MRI to test whether she is suffering from a loss of myelination in her neurons. What is the doctor likely concerned about?",
+     "options": {
+      "A": "Multiple sclerosis",
+      "B": "Schiziophrenia",
+      "C": "Alzheimer’s",
+      "D": "Myasthenia gravis"
+     },
+     "context": "",
+     "page_start": 89,
+     "page_end": 89,
+     "correct_answer": "A",
+     "answer_text": "Multiple sclerosis is associated with the deterioration of the myelin sheath in brain neurons because patient’s immune systems begin to mistakenly attack myelin cells. Myelin deterioration is not commonly associated with schizophrenia, Alzheimer’s disease, or Myasthenia gravis.",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "Dr. Dahab, a brain researcher, is investigating the connection between certain environmental stimuli and brain processes. Which types of brain scans is he most likely to use?",
+     "options": {
+      "A": "MRI and CAT",
+      "B": "CAT and EKG",
+      "C": "PET and EEG",
+      "D": "EKG and CAT"
+     },
+     "context": "",
+     "page_start": 89,
+     "page_end": 90,
+     "correct_answer": "C",
+     "answer_text": "The PET and EEG scans both give information about brain function. (The PET measures brain activity, and the EEG measures brain waves.) The MRI and CAT scans give information about brain structure, not function. An EKG is a medical test for heart function.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "Split-brain patients are unable to",
+     "options": {
+      "A": "coordinate movements between their major and minor muscle groups.",
+      "B": "speak about information received exclusively in their right hemisphere.",
+      "C": "speak about information received exclusively in their left hemisphere.",
+      "D": "solve abstract problems involving integrating logical (left- hemisphere) and spatial (right-hemisphere) information."
+     },
+     "context": "",
+     "page_start": 90,
+     "page_end": 90,
+     "correct_answer": "B",
+     "answer_text": "Since the left hemisphere typically controls speech, split- brain patients are usually unable to talk about information exposed to only the right hemisphere. Their muscle coordination is usually normal (possible after a short adjustment period). Their ability to solve abstract problems is not affected.",
+     "section": "MCQ"
+    },
+    {
+     "number": 14,
+     "stem": "Mr. Spam is a 39-year-old male who has been brought into your neurology clinic by his wife. She has become increasingly alarmed by her husband’s behavior over the last four months. You recommend a CAT scan to look for tumors in the brain. Which two parts of the brain would you predict are being affected by the tumors? List of symptoms: vastly increased appetite, body temperature fluctuations, decreased sexual desire, jerky movements, poor balance when walking and standing, inability to throw objects, and exaggerated efforts to coordinate movements in a task",
+     "options": {
+      "A": "Motor cortex and emotion cortex",
+      "B": "Somatosensory cortex and hypothalamus",
+      "C": "Hypothalamus and cerebellum",
+      "D": "Cerebellum and medulla"
+     },
+     "context": "",
+     "page_start": 90,
+     "page_end": 90,
+     "correct_answer": "C",
+     "answer_text": "A tumor on the hypothalamus would explain the first three symptoms since the hypothalamus controls (at least in part) body temperature, libido, and hunger. The cerebellum coordinates some types of movements, including throwing objects and our sense of balance. The motor cortex controls voluntary muscle movements, but the specific movements described in the question are controlled by the cerebellum. The medulla controls our life-support functions, like heart rate and respiration.",
+     "section": "MCQ"
+    },
+    {
+     "number": 15,
+     "stem": "After being in a car accident, Suzy is having difficulty with her vision. Which part of her brain is most likely to have been affected?",
+     "options": {
+      "A": "Cerebellum",
+      "B": "Thalamus",
+      "C": "Parietal lobe",
+      "D": "Amygdala"
+     },
+     "context": "",
+     "page_start": 90,
+     "page_end": 91,
+     "correct_answer": "B",
+     "answer_text": "The thalamus is the relay station for all sensory information except for smell. Information coming from the optic nerve is routed to the lateral geniculate nucleus in the thalamus and then on to the occipital lobe of the brain. Suzy is having difficulty with her vision most likely because her thalamus was affected by the car accident.",
+     "section": "MCQ"
+    },
+    {
+     "number": 16,
+     "stem": "After a minor stroke, Jeri is having difficulty moving her left arm and hand, and she has also been struggling with identifying items when she closes her eyes and feels them with her left hand. Which parts of the brain did the stroke most likely damage?",
+     "options": {
+      "A": "Left frontal and parietal lobes",
+      "B": "Left occipital and temporal lobes",
+      "C": "Right frontal and parietal lobes",
+      "D": "Right occipital and temporal lobes"
+     },
+     "context": "",
+     "page_start": 91,
+     "page_end": 91,
+     "correct_answer": "C",
+     "answer_text": "Jeri’s brain issue is clearly focused in the right hemisphere, since all the reported symptoms involve movement with her left arm or hand, so choices A and B are incorrect. The symptoms include difficulty in sensing touch information from the left hand (sensorimotor cortex, parietal lobe) and moving the left hand and arm (motor cortex, frontal lobe). There is no indication of vision or hearing issues, which rules out option D.",
+     "section": "MCQ"
+    },
+    {
+     "number": 17,
+     "stem": "Kate’s cat Wilma seems unable to relax. Even after living with Kate in the same quiet apartment for years, Wilma remains nearly constantly vigilant. Which part of Wilma’s brain likely accounts for this aspect of her personality?",
+     "options": {
+      "A": "Reticular formation",
+      "B": "Thalamus",
+      "C": "Pons",
+      "D": "Hippocampus"
+     },
+     "context": "",
+     "page_start": 91,
+     "page_end": 91,
+     "correct_answer": "A",
+     "answer_text": "The reticular formation is a brain structure directly above the spinal cord, deep within the brain, that is directly involved in attention and arousal. An issue with this brain structure might help explain Wilma the cat’s “vigilance” behaviors. The other brain structures are less likely to be involved: the thalamus controls basic “life support” functions, the pons is involved with sleep/wake cycles, and the hippocampus is primarily involved in memory.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 5,
+   "unit": 1,
+   "chapter_title": "States of Consciousness",
+   "paper_id": "psychology-barrons-2027-ch5-review",
+   "review_page_start": 108,
+   "answer_page_start": 111,
+   "page_end": 113,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Bertrand falls asleep at unusual times, including in the middle of arguments. With which disorder is he most likely to be diagnosed?",
+     "options": {
+      "A": "Sleep apnea",
+      "B": "Insomnia",
+      "C": "Narcolepsy",
+      "D": "Somnambulism"
+     },
+     "context": "",
+     "page_start": 108,
+     "page_end": 109,
+     "correct_answer": "C",
+     "answer_text": "Narcolepsy typically involves falling asleep at unusual, often stressful, times. Sleep apnea is characterized by waking up in the middle of the night and struggling to breathe, insomnia is difficulty falling or staying asleep, and somnambulism is sleepwalking.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "The results provide the strongest support for the argument that sleep has a",
+     "options": {
+      "A": "biological purpose.",
+      "B": "cognitive purpose.",
+      "C": "social purpose.",
+      "D": "psychodynamic purpose."
+     },
+     "context": "Questions 2 through 4 refer to the following. Dr. Webb is studying what happens when people are deprived of REM sleep. In his university lab, 40 students from his Introduction to Psychology class are randomly assigned either to a control condition in which they are left to sleep without disruption or to a REM deprivation condition in which they are awakened every time an EEG indicates that they are entering REM. The students report to the lab directly after Dr. Webb’s class on Monday, and at the next class meeting, they take a quiz on the material taught Monday. The graph below shows the results of the study.",
+     "page_start": 109,
+     "page_end": 110,
+     "correct_answer": "B",
+     "answer_text": "Memory is a cognitive function. Therefore, the finding that depriving people of REM sleep interferes with the memory of information taught suggests that REM sleep has a cognitive function.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "The biggest ethical concern associated with Dr. Webb’s study would be",
+     "options": {
+      "A": "deception.",
+      "B": "privacy.",
+      "C": "long-lasting harm.",
+      "D": "consent."
+     },
+     "context": "Questions 2 through 4 refer to the following. Dr. Webb is studying what happens when people are deprived of REM sleep. In his university lab, 40 students from his Introduction to Psychology class are randomly assigned either to a control condition in which they are left to sleep without disruption or to a REM deprivation condition in which they are awakened every time an EEG indicates that they are entering REM. The students report to the lab directly after Dr. Webb’s class on Monday, and at the next class meeting, they take a quiz on the material taught Monday. The graph below shows the results of the study.",
+     "page_start": 110,
+     "page_end": 110,
+     "correct_answer": "D",
+     "answer_text": "Given that Dr. Webb is experimenting on his own students, he needs to be especially concerned about their ability to freely consent (or not) to their participation. As he is their professor, they may feel some pressure to agree to be in the study. Dr. Webb would therefore need to make clear that their participation or lack thereof will have no effect on their performance in his class or on their relationship with him outside of the class.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "If Dr. Webb wants to generalize his findings beyond his sample, it would be most valuable for him to",
+     "options": {
+      "A": "test these students again later in the semester.",
+      "B": "test students from a class he will teach the following semester.",
+      "C": "test students of different ages from a variety of schools.",
+      "D": "test students from a variety of colleges and classes."
+     },
+     "context": "Questions 2 through 4 refer to the following. Dr. Webb is studying what happens when people are deprived of REM sleep. In his university lab, 40 students from his Introduction to Psychology class are randomly assigned either to a control condition in which they are left to sleep without disruption or to a REM deprivation condition in which they are awakened every time an EEG indicates that they are entering REM. The students report to the lab directly after Dr. Webb’s class on Monday, and at the next class meeting, they take a quiz on the material taught Monday. The graph below shows the results of the study.",
+     "page_start": 110,
+     "page_end": 110,
+     "correct_answer": "C",
+     "answer_text": "Although all the replications mentioned would be useful, if Dr. Webb wants to make the argument that REM sleep is important for learning and remembering information in a broader population than college students, choice (C) is the best method.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "The chart below depicts a man named James’ sleep over the course of one night. Use the chart to answer the following questions. Over the course of the night, this person spent the least amount of time in which stage?",
+     "options": {
+      "A": "REM",
+      "B": "non-REM 1",
+      "C": "non-REM 2",
+      "D": "non-REM 3"
+     },
+     "context": "",
+     "page_start": 110,
+     "page_end": 111,
+     "correct_answer": "D",
+     "answer_text": "The graph shows that James spent the least amount of time, about 1–1.5 hours, in non-REM 3 sleep (marked “N3” in the graph). James spent the most amount of time in non-REM 2 sleep (“N2” in the graph).",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "A psychologist monitoring James’ sleep would be most likely to see sleep spindles during which stage of sleep?",
+     "options": {
+      "A": "REM",
+      "B": "non-REM 1",
+      "C": "non-REM 2",
+      "D": "non-REM 3"
+     },
+     "context": "",
+     "page_start": 111,
+     "page_end": 111,
+     "correct_answer": "C",
+     "answer_text": "Sleep Spindles are specific patterns of brain waves that are detected during an EEG scan. Sleep spindles may occur in any stages of non-REM sleep, but they are most prevalent in stage 2 (non-REM 2).",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "In order to determine which stage of sleep James was in over the course of the night, the psychologists monitoring James would be most likely to make use of",
+     "options": {
+      "A": "PET scans",
+      "B": "EEGs",
+      "C": "EMGs",
+      "D": "MRIs"
+     },
+     "context": "",
+     "page_start": 111,
+     "page_end": 111,
+     "correct_answer": "B",
+     "answer_text": "EEG scans measure brain wave activity, and that is the most likely technology a psychologist would use to monitor James’s brain activity during sleep. PET scans also can measure brain activity but are usually “one time” scans used to take a snapshot of brain activity at a specific moment, while EEG scans can be more easily continuously used over a long period of time (such as an entire night of sleep). MRI scans are used to examine brain structure, not activity. EMG scans are used to detect electrical activity in specific muscles, not brain waves.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 6,
+   "unit": 1,
+   "chapter_title": "Sensation",
+   "paper_id": "psychology-barrons-2027-ch6-review",
+   "review_page_start": 129,
+   "answer_page_start": 131,
+   "page_end": 133,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "What is the principal difference between amplitude and frequency in the context of sound waves?",
+     "options": {
+      "A": "Amplitude is the tone or timbre of a sound, whereas frequency is the pitch.",
+      "B": "Amplitude is detected in the cochlea, whereas frequency is detected in the auditory cortex.",
+      "C": "Amplitude is the height of the sound wave, whereas frequency is a measure of how frequently the sound waves pass a given point.",
+      "D": "Both measure qualities of sound, but frequency is a more accurate measure since it measures the shapes of the waves rather than the strength of the waves."
+     },
+     "context": "",
+     "page_start": 129,
+     "page_end": 129,
+     "correct_answer": "C",
+     "answer_text": "Amplitude is a measure of the height of the wave, creating the volume of the sound. Frequency is the measure of how quickly the waves pass a point, causing the pitch of the sound. The other choices are incorrect distractions.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "What behavior would be difficult without our vestibular sense?",
+     "options": {
+      "A": "Integrating what we see and hear",
+      "B": "Writing our name",
+      "C": "Repeating a list of digits",
+      "D": "Walking a straight line with our eyes closed"
+     },
+     "context": "",
+     "page_start": 129,
+     "page_end": 129,
+     "correct_answer": "D",
+     "answer_text": "Our vestibular sense helps with our sense of balance and orientation in space. Our vestibular sense has little to do with our sense of sight or hearing. Repeating digits would not be affected by the vestibular sense.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "How do chemical senses differ from energy senses?",
+     "options": {
+      "A": "People need to interact more closely with a chemical stimulus sense.",
+      "B": "The chemical senses are more important to most people than the energy senses.",
+      "C": "More research has focused on chemical senses than on energy senses.",
+      "D": "More of the brain is devoted to processing chemical sensation than energy sensation."
+     },
+     "context": "",
+     "page_start": 129,
+     "page_end": 130,
+     "correct_answer": "A",
+     "answer_text": "Chemical senses include smell and taste. To smell or taste things, they need to come into contact with our receptors—our olfactory and taste cells. Vision, which is an energy sense, is thought of as humans’ dominant sense. Because most humans rely on their vision more than their other senses, more research has been done on vision and more of the brain’s real estate is devoted to processing this energy sense.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Eli plays percussion in a band. He’s been urged to wear earplugs in order to protect his hearing. Which part of the ear is most likely to be protected by earplugs?",
+     "options": {
+      "A": "Hair cells",
+      "B": "Ossicles",
+      "C": "Pinna",
+      "D": "Tympanic membrane"
+     },
+     "context": "",
+     "page_start": 130,
+     "page_end": 130,
+     "correct_answer": "A",
+     "answer_text": "Hair cells are the receptors for hearing, which means they are where transduction (the conversion of one form of energy to another) takes place. Although it is not impossible to damage the ossicles (bones in the middle ear) or tympanic membrane (ear drum) with loud noise, this type of hearing loss is usually caused by damage to the hair cells. The pinna, the outer part of the ear, is not damaged by noise.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Dr. Simons studies the relationship between the various senses. The results of her most recent study are graphed in the scatter plot below. Which of the following statements best summarizes the data in the chart?",
+     "options": {
+      "A": "Both vision and hearing decline after age 65.",
+      "B": "People with poor vision tend to make up for it with better hearing.",
+      "C": "Deficits in vision lead to similar deficits in hearing.",
+      "D": "The participants with better hearing tended to have better vision."
+     },
+     "context": "",
+     "page_start": 130,
+     "page_end": 131,
+     "correct_answer": "D",
+     "answer_text": "The scatter plot indicates at least a slightly positive correlation between auditory acuity and visual acuity (the “trend line” or line of best fit for this scatter plot would travel from the lower left part of the graph toward the upper right). A positive correlation between two variables indicates that as one variable increases, the other variable tends to increase. Therefore, option D is the correct answer. Option A includes information about age which is not represented in the scatter plot. Options B and C refer to a causal relationship between the two variables, and correlational data cannot be used to infer cause.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "At a birthday party, the host has children play a game where they need to identify common objects like a comb and a set of dice while blindfolded and using only the back of their hands. What makes this task difficult?",
+     "options": {
+      "A": "The neurons that identify objects by touch are only located in our fingertips.",
+      "B": "Our sense of touch depends on our ability to see the objects we are touching.",
+      "C": "Children are less familiar with many common objects than are adults.",
+      "D": "We have far fewer somatosensory receptors in the back of our hands than in the front."
+     },
+     "context": "",
+     "page_start": 131,
+     "page_end": 131,
+     "correct_answer": "D",
+     "answer_text": "The specialized neurons in our skin that detect touch sensations are concentrated in the parts of our body that are the most “sensitive” to touch, such as our fingertips and lips. These touch receptors are not concentrated in many other areas of our body, including the backs of our hands. Options A and B are factually incorrect statements, and option C may be true for some children, but all the objects in the game were common objects, so this point is irrelevant.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 7,
+   "unit": 2,
+   "chapter_title": "Perception",
+   "paper_id": "psychology-barrons-2027-ch7-review",
+   "review_page_start": 146,
+   "answer_page_start": 149,
+   "page_end": 151,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "If you had sight in only one eye, which of the following depth cues could you NOT use?",
+     "options": {
+      "A": "Texture gradient",
+      "B": "Convergence",
+      "C": "Linear perspective",
+      "D": "Interposition"
+     },
+     "context": "",
+     "page_start": 146,
+     "page_end": 146,
+     "correct_answer": "B",
+     "answer_text": "All the other choices are monocular cues for depth, so they could be used by a person sighted in only one eye. Convergence is a binocular cue and does not work without two functioning eyes. When an object is close to our face and our eyes have to point toward each other slightly, our brain senses this convergence and uses it to help gauge distance.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "You are shown a picture of your grandfather’s face, but the eyes and mouth are blocked out. You still recognize it as a picture of your grandfather. Which type of processing best explains this example of perception?",
+     "options": {
+      "A": "Bottom-up processing",
+      "B": "Signal detection theory",
+      "C": "Top-down processing",
+      "D": "Opponent-process theory"
+     },
+     "context": "",
+     "page_start": 146,
+     "page_end": 146,
+     "correct_answer": "C",
+     "answer_text": "Your mind filled in the information from the picture by drawing on your experience. This is top-down processing. The example does not reflect bottom-up processing because information is being filled in instead of an image being built from the elements present. Signal detection theory has to do with what sensations we pay attention to, not filling in missing elements in a picture. Opponent-process theory explains color vision.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Which of the following sentences best describes the relationship between culture and perception?",
+     "options": {
+      "A": "Our perceptual rules are inborn and not affected by culture.",
+      "B": "Perceptual rules are culturally based, so rules that apply to one culture rarely apply to another.",
+      "C": "Most perceptual rules apply in all cultures, but some perceptual rules are learned and vary among cultures.",
+      "D": "Slight variations in sensory apparatuses among cultures create slight differences in perception."
+     },
+     "context": "",
+     "page_start": 146,
+     "page_end": 147,
+     "correct_answer": "C",
+     "answer_text": "Most perceptual principles apply in all cultures. However, some perceptual sets are learned and do vary, so choices (A) and (B) are incorrect. Sensory apparatuses do not vary among cultures.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "In a perception research lab, you are asked to describe the shape of the top of a box as the box is slowly rotated. Which concept are the researchers most likely investigating?",
+     "options": {
+      "A": "Shape constancy",
+      "B": "Feature detectors in the retina",
+      "C": "Placement of rods and cones in the retina",
+      "D": "Binocular depth cues"
+     },
+     "context": "",
+     "page_start": 147,
+     "page_end": 147,
+     "correct_answer": "A",
+     "answer_text": "According to shape constancy, we know shapes remain constant even when our viewing angle changes. This experiment would not be investigating feature detectors, because the equipment required to measure the firing of feature detectors is not described. Placement of rods and cones in the retina would not affect perception of the top of the box. Binocular depth cues are probably not the target of the research because the researchers are not asking questions about depth.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "In preparation for the upcoming homecoming game, the marching band is drilling on how to create different formations to spell out words including “Go Team” and “Touchdown”. Which of the following perceptual principles is the band most likely to rely on in creating the sense that they are spelling out words?",
+     "options": {
+      "A": "Interposition",
+      "B": "Bottom-up processing",
+      "C": "Stroboscopic motion",
+      "D": "Similarity"
+     },
+     "context": "",
+     "page_start": 147,
+     "page_end": 147,
+     "correct_answer": "B",
+     "answer_text": "The marching band members would need to pay close attention to the sensory information available to them on the field, such as the position of the other band members near them and then use that information to “build up” to the sense that they are successfully spelling out the words. This is bottom-up processing: using sensations to build up to an overall interpretation or perception. Interposition is a depth cue involving looking for objects overlapping one another. Stroboscopic motion is involved in perceiving motion because of quickly presented still images (such as flip books), and similarity is a Gestalt principle involved in whether we see items as belonging to a group or not.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "If the researchers’ wanted to see if there was a relationship between recognizing your own name and recognizing the other name, what kind of graph would be most helpful?",
+     "options": {
+      "A": "Scatter plot",
+      "B": "Bar graph",
+      "C": "Frequency distribution",
+      "D": "Pie chart"
+     },
+     "context": "Use the information below to answer questions 6–8. In one study, researchers compared students’ ability to notice their own name being spoken as opposed to someone else’s name. Students were assigned to watch a video wearing headphones while simultaneously pressing the X on the keyboard every time they heard a name spoken in their right ear. Each time students pressed the X was recorded and the researchers were able to tell which name they were responding to by the timestamp. Any presses of the X more than 2 seconds after a name was presented, did not count. After listening to the video, students were given a 10-item multiple choice quiz. The data appear in the table below Percent Percent Percent Grade on Participant Recognition of Recognition of Questions about Number Own Name Other Name Video 1 90 30 80 2 80 40 90 3 100 100 40 4 80 30 80 5 80 20 90 6 90 50 90 7 70 50 80 8 100 40 70",
+     "page_start": 148,
+     "page_end": 148,
+     "correct_answer": "A",
+     "answer_text": "These researchers are trying to determine if there is a relationship, a correlation, between the variables in their study. Scatter plots are the most useful and common kind of graph in correlational studies because they can best represent any existing relationship between the variables (i.e. whether the value of one variable increases or decreases when the other variable changes). The other kinds of data representations in options B, C, and D are useful for other situations, but not in this correlational example.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Which of the variables has the highest mean?",
+     "options": {
+      "A": "Percent Recognition of Own Name",
+      "B": "Percent Recognition of Other Name",
+      "C": "Percent grade on Questions about Video",
+      "D": "Not enough information provided to answer the question"
+     },
+     "context": "Use the information below to answer questions 6–8. In one study, researchers compared students’ ability to notice their own name being spoken as opposed to someone else’s name. Students were assigned to watch a video wearing headphones while simultaneously pressing the X on the keyboard every time they heard a name spoken in their right ear. Each time students pressed the X was recorded and the researchers were able to tell which name they were responding to by the timestamp. Any presses of the X more than 2 seconds after a name was presented, did not count. After listening to the video, students were given a 10-item multiple choice quiz. The data appear in the table below Percent Percent Percent Grade on Participant Recognition of Recognition of Questions about Number Own Name Other Name Video 1 90 30 80 2 80 40 90 3 100 100 40 4 80 30 80 5 80 20 90 6 90 50 90 7 70 50 80 8 100 40 70",
+     "page_start": 148,
+     "page_end": 149,
+     "correct_answer": "A",
+     "answer_text": "The percentages in the Percent Recognition of Own Name column range from 70–100, with an approximate mean of around 80. The percentages in the Percent Recognition of Other Name range from 20–100, and the mean of those scores is much lower (approximately 50). The percentages in Percent grade on Questions about Video are higher (range = 40 – 90), but not as high as the percentages in the Percent Recognition of Own Name column.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "The fact that participants were better able to recognize their own name than someone else’s illustrates",
+     "options": {
+      "A": "Top-down processing",
+      "B": "The cocktail party effect",
+      "C": "The Gestalt principles of perception",
+      "D": "Bottom-up processing"
+     },
+     "context": "Use the information below to answer questions 6–8. In one study, researchers compared students’ ability to notice their own name being spoken as opposed to someone else’s name. Students were assigned to watch a video wearing headphones while simultaneously pressing the X on the keyboard every time they heard a name spoken in their right ear. Each time students pressed the X was recorded and the researchers were able to tell which name they were responding to by the timestamp. Any presses of the X more than 2 seconds after a name was presented, did not count. After listening to the video, students were given a 10-item multiple choice quiz. The data appear in the table below Percent Percent Percent Grade on Participant Recognition of Recognition of Questions about Number Own Name Other Name Video 1 90 30 80 2 80 40 90 3 100 100 40 4 80 30 80 5 80 20 90 6 90 50 90 7 70 50 80 8 100 40 70",
+     "page_start": 149,
+     "page_end": 149,
+     "correct_answer": "B",
+     "answer_text": "This research study almost reflects the exact definition of the cocktail party effect: our tendency to perceive our own name over almost any other stimuli. Top-down processing and bottom-up processing are both perceptual principles involved in how we create an overall perception of sensations. The Gestalt principles of perception involve the rules our brains use to organize objects into groups.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "In a replication of a famous study, most participants directed to count the number of passes made by a basketball team, failed to notice that their school mascot, a bulldog, ran through the game. The most useful statistic that could be used to describe this result is the",
+     "options": {
+      "A": "range.",
+      "B": "median.",
+      "C": "percent.",
+      "D": "mean."
+     },
+     "context": "",
+     "page_start": 149,
+     "page_end": 149,
+     "correct_answer": "C",
+     "answer_text": "Because the dependent variable in the study is not a numerical measure but rather a report of whether participants noticed the mascot or not, no range, median, or mean can be computed. The main way to describe the result is by reporting the percentage of participants who responded each way or the modal (most typical) response.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 8,
+   "unit": 2,
+   "chapter_title": "Thinking and Creativity",
+   "paper_id": "psychology-barrons-2027-ch8-review",
+   "review_page_start": 157,
+   "answer_page_start": 160,
+   "page_end": 163,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Mr. Krohn, a carpenter, is frustrated because he misplaced his hammer and needs to pound in the last nail in the bookcase he is building. He overlooks the fact that he could use the tennis trophy sitting above the workbench to pound in the nail. Which concept best explains why Mr. Krohn overlooked the trophy?",
+     "options": {
+      "A": "Representativeness heuristic",
+      "B": "Retrieval",
+      "C": "Functional fixedness",
+      "D": "Belief bias"
+     },
+     "context": "",
+     "page_start": 157,
+     "page_end": 158,
+     "correct_answer": "C",
+     "answer_text": "Functional fixedness would explain why Mr. Krohn did not think of another use for the trophy: to use it as a hammer. The representativeness heuristic is a rule of thumb for making a judgment that does not apply well to this example. Retrieval is a step in the memory process. Belief bias is our tendency to stick with a belief even when presented with evidence to the contrary.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Which of the following is an example of the use of the representativeness heuristic?",
+     "options": {
+      "A": "Judging that a young person is more likely to be the instigator of an argument than an older person because you believe younger people are more likely to start fights",
+      "B": "Breaking down a math story problem into smaller, representative parts in order to solve it",
+      "C": "Judging a situation by a rule that is usually, but not always, true",
+      "D": "Solving a problem with a rule that guarantees the right, more representative answer"
+     },
+     "context": "",
+     "page_start": 158,
+     "page_end": 158,
+     "correct_answer": "A",
+     "answer_text": "The representativeness heuristic is judging a situation based on how similar the aspects are to prototypes the person holds in his or her mind. If a person has a prototype of young people as aggressive, he or she might use the representativeness heuristic to judge the situation. Breaking down the problem into smaller parts is a problem-solving technique. Judging a situation by a rule that is usually, but not always, true is a description of heuristics in general, not specifically the representativeness heuristic. An algorithm is a rule that guarantees the right answer.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Which of the following is the best example of the use of the availability heuristic?",
+     "options": {
+      "A": "Judging a situation by a rule that is usually, but not always, true",
+      "B": "Making a judgment according to past experiences that are most easily recalled",
+      "C": "Judging that a problem should be solved using a formula that guarantees the right answer",
+      "D": "Making a judgment according to what is usually true in your experience"
+     },
+     "context": "",
+     "page_start": 158,
+     "page_end": 158,
+     "correct_answer": "B",
+     "answer_text": "By using the availability heuristic, we draw on examples that are the most readily recalled. Choice (A) is a good description of heuristics in general but not specifically the availability heuristic. Using a formula or rule that always gets the correct answer is an algorithm, so choice (C) is incorrect. Choice (D) more accurately describes the representativeness heuristic.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Marc is 6'7\", loves sports, and Las Vegas. Given the choice, many people will say that Marc is more likely to be a professional basketball player than a high school history teacher. Such an answer results from",
+     "options": {
+      "A": "The representativeness heuristic.",
+      "B": "The gambler’s fallacy.",
+      "C": "divergent thinking.",
+      "D": "False consensus."
+     },
+     "context": "",
+     "page_start": 158,
+     "page_end": 158,
+     "correct_answer": "A",
+     "answer_text": "Marc is tall and loves sports so to many people he resembles their stereotype of a professional basketball player more than a high school history teacher. When we reason this way, by thinking primarily about similarity to a stereotype, we are using the representativeness heuristic, which often leads to errors due to people’s likelihood to ignore base rate probabilities—that is, there are way more high school history teachers than professional basketball players.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "The door to Mr. Dorsey’s English classroom automatically shuts, and he can’t find the door stop to prop it open between classes. Samantha, one of his students, suggests he could use one of the old paperback books on his shelf. “Good idea, Samantha; I didn’t think of that!” said Mr. Dorsey. Mr. Dorsey’s difficulty stems from",
+     "options": {
+      "A": "Confirmation bias",
+      "B": "Divergent thinking",
+      "C": "Mental set",
+      "D": "Functional fixedness"
+     },
+     "context": "",
+     "page_start": 159,
+     "page_end": 159,
+     "correct_answer": "D",
+     "answer_text": "Functional fixedness occurs when we fail to identify new uses for familiar objects. In this case, Mr. Dorsey didn’t think about using a paperback book as a wedge to put under the door to keep it from closing. Confirmation bias occurs when we pay more attention to evidence that supports our pre-existing beliefs. Mental set is a kind of concept formation process, and divergent thinking is the opposite of functional fixedness— divergent thinking occurs when we think about a situation or a problem in new ways.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Ally and Alex need to measure the gym to get ready for a science fair. Alex suggests using his iPhone to get a ballpark measurement, but Ally insists on using a tape measure to get the exact length and width so they can multiply it and get the exact area. The difference between their two approaches represents the difference between",
+     "options": {
+      "A": "the availability and representativeness heuristic.",
+      "B": "convergent and divergent thinking.",
+      "C": "an algorithm and a heuristic.",
+      "D": "confirmation bias and hindsight bias."
+     },
+     "context": "",
+     "page_start": 159,
+     "page_end": 159,
+     "correct_answer": "C",
+     "answer_text": "An algorithm is a step by step process that guarantees an accurate answer (such as trying every key on a key ring one by one in order). Using a tape measure is also an example of an algorithm: it will likely take longer to measure each side of the gym, but it guarantees the right answer. Using an app on a phone to get a “ballpark” measurement is an example of a heuristic: a “rule of thumb” shortcut to problem solving that is often successful but may not work 100% of the time. The other cognitive concepts listed in the other answer options do not relate directly to the area-computation problem presented in the scenario.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "The best way for Amelia to display her findings would be with",
+     "options": {
+      "A": "a table that lists the number of classes and percent guessed by each person.",
+      "B": "a bar graph that contrasts the percents guessed by people who took three or fewer math classes with those who took four or more math classes.",
+      "C": "a sentence that states the mean number of math classes and the mean percentage guessed.",
+      "D": "a scatterplot that plots the number of math classes on one axis and the percent guessed on the other."
+     },
+     "context": "Questions 7 through 9 refer to the following. Amelia wants to investigate the hypothesis that the more math classes people have taken, the less likely they are to believe that after a fair coin is tossed three times and comes up heads each time, the next coin toss will result in tails. She asks 30 people to report how many math classes they took in high school and college and then to rate the likelihood of the fourth coin toss coming up tails on a scale from 50 percent to 100 percent.",
+     "page_start": 159,
+     "page_end": 160,
+     "correct_answer": "D",
+     "answer_text": "Because the data for both variables Amelia collects will be numerical (more specifically interval), she can plot each variable on an axis and represent each person’s pair of scores with a dot —this is called a scatterplot. Scatterplots are typically used to depict correlational relationships like the one Amelia is studying. Such a graph would be a more effective summary of 30 people’s scores than a table, so choice (A) is incorrect. The options described in choices (B) and (C) involve a loss of data specificity. For instance, if you know how many math classes people took, you don’t want to reduce that information into a group of three or fewer versus a group of four or more.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Based on the description of her study, Amelia seems most interested in",
+     "options": {
+      "A": "algorithms.",
+      "B": "the sunk-cost fallacy.",
+      "C": "the gambler’s fallacy.",
+      "D": "representativeness heuristic."
+     },
+     "context": "Questions 7 through 9 refer to the following. Amelia wants to investigate the hypothesis that the more math classes people have taken, the less likely they are to believe that after a fair coin is tossed three times and comes up heads each time, the next coin toss will result in tails. She asks 30 people to report how many math classes they took in high school and college and then to rate the likelihood of the fourth coin toss coming up tails on a scale from 50 percent to 100 percent.",
+     "page_start": 160,
+     "page_end": 160,
+     "correct_answer": "C",
+     "answer_text": "The gambler’s fallacy is the belief that after a string of losses (or wins) in a game of chance, one is more likely to experience the opposite outcome to balance out things. Every time you flip a fair coin, you have a 50 percent chance of it landing on heads and a 50 percent chance of it landing on tails. Those probabilities do not change just because your last 3, 5, or 27 flips came up the same way; the gambler’s fallacy is the belief that those probabilities do change.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "The design of Amelia’s study would best be described as",
+     "options": {
+      "A": "correlational.",
+      "B": "a case study.",
+      "C": "naturalistic observation.",
+      "D": "experimental."
+     },
+     "context": "Questions 7 through 9 refer to the following. Amelia wants to investigate the hypothesis that the more math classes people have taken, the less likely they are to believe that after a fair coin is tossed three times and comes up heads each time, the next coin toss will result in tails. She asks 30 people to report how many math classes they took in high school and college and then to rate the likelihood of the fourth coin toss coming up tails on a scale from 50 percent to 100 percent.",
+     "page_start": 160,
+     "page_end": 160,
+     "correct_answer": "A",
+     "answer_text": "Because Amelia is not manipulating a variable but, rather, is looking at the relationship between two unmanipulated variables, her study is correlational. A case study is a research method that focuses on one or a small group of participants. Naturalistic observation is when the researcher watches the organisms in a study unobtrusively in order to obtain a realistic picture of what they do. An experimental study involves the manipulation of an independent variable.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 9,
+   "unit": 2,
+   "chapter_title": "Memory",
+   "paper_id": "psychology-barrons-2027-ch9-review",
+   "review_page_start": 176,
+   "answer_page_start": 183,
+   "page_end": 185,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Dr. Saltzman is planning the midterm exam for her cognitive psychology class. She wants to use an example of prospective memory. Which of the following examples would be best?",
+     "options": {
+      "A": "After swim practice, Carina reflects on the parts of the workout that were most difficult for her.",
+      "B": "Jasmine creates a plan for how best to prepare for the math tournament at the end of the month.",
+      "C": "Daniel studies various wrestling holds from matches on YouTube and practices using them on Adam.",
+      "D": "Claire thinks back to the first time she went to her current dentist and the movie she watched during the examination."
+     },
+     "context": "",
+     "page_start": 176,
+     "page_end": 177,
+     "correct_answer": "B",
+     "answer_text": "Prospective memory involves remembering to do tasks, etc. in the future. Answer B is a good example: Jasmine is remembering a plan to prep for a math contest. Options A, C, and D all involve memory tasks related to the past or present.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "To prepare for Ms. Sorise’s AP Psychology midterm, Tamara makes hundreds of flashcards with the definitions of every term they have learned. Her twin sister Johanna writes down all the main topics and then creates a mapping system to tie the various concepts together. Johanna’s system is likely to",
+     "options": {
+      "A": "result in a worse outcome because she is more likely to overlook some terms.",
+      "B": "result in a worse outcome because using flashcards is better than making up your own system.",
+      "C": "result in a better outcome but only if she spends more time studying than her sister.",
+      "D": "result in a better outcome because it utilizes a deeper level of processing."
+     },
+     "context": "",
+     "page_start": 177,
+     "page_end": 177,
+     "correct_answer": "D",
+     "answer_text": "Deep processing is associated with more effective encoding of information into long-term memory and can increase the chances that information will be able to be retrieved when needed. Deep processing occurs when we think “deeply” (in complex and elaborative ways) about information in our working memory. Johanna’s studying method is a good example of deep processing, and since her method is more cognitively complex (“deeper”) than Tamara’s we can predict that it will result in a better outcome.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Ms. Pavlova is in a panic as the AP Psychology exam draws near. This is her first year teaching the class, and she wants to prove that she can be just as effective as her more experienced colleague Dr. Skinny. She creates a list for her students of the most important things they need to remember for the exam. Assuming Ms. Pavlova knows what she’s doing, which of the following describes how she would have ordered that list?",
+     "options": {
+      "A": "She would list all the terms in increasing order of importance.",
+      "B": "She would list all the terms in decreasing order of importance.",
+      "C": "She would put the most important terms in the middle of the list.",
+      "D": "She would put the most important terms at the beginning and end of the list."
+     },
+     "context": "",
+     "page_start": 177,
+     "page_end": 178,
+     "correct_answer": "D",
+     "answer_text": "The correct answer choice, option D, acknowledges the Serial Position Effect: our tendency to remember the first and last items on a list better than items in the middle of the list. The other answer choices do not employ the serial position effect, and they do not align with other memory principles or research.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "The better performance with List 1 is most likely due to",
+     "options": {
+      "A": "the greater time students were exposed to that list since they heard it first.",
+      "B": "the use of a mnemonic device.",
+      "C": "a practice effect through which students improved at the task.",
+      "D": "differences in motivation."
+     },
+     "context": "Use the information below to answer questions 4 and 5. Mistral volunteers to teach an after school class to elementary students about learning and memory. He gives them a list of 10 toys and asks them to look around the classroom at their friends and imagine each friend with one of the toys. Immediately after, he gives them another list of 10 toys and asks them to read the list over and over. During the next day’s class, Mistral asks the students to recall both lists of toys. Their performance is summarized in the table below. Number of toys recalled Number of toys from List 1 recalled from List 2 Petey 8 5 Bubbles 6 4 Bliss 6 5 Rocco 5 3 Freddy 9 6 Sami 7 6 Flip 6 4 Queeni 4 5 Danny 8 6 Jen 7 4 Bree 6 4",
+     "page_start": 179,
+     "page_end": 179,
+     "correct_answer": "B",
+     "answer_text": "When they were thinking about List 1, students imagined each classmate holding a toy. This mnemonic device helped them think more deeply about each toy, increasing the chance that they would remember the toy on the recall task. The other explanations listed are unlikely to dramatically influence performance on the recall task across the whole class.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "What was the range of scores from List 2?",
+     "options": {
+      "A": "6",
+      "B": "5",
+      "C": "3",
+      "D": "2"
+     },
+     "context": "Use the information below to answer questions 4 and 5. Mistral volunteers to teach an after school class to elementary students about learning and memory. He gives them a list of 10 toys and asks them to look around the classroom at their friends and imagine each friend with one of the toys. Immediately after, he gives them another list of 10 toys and asks them to read the list over and over. During the next day’s class, Mistral asks the students to recall both lists of toys. Their performance is summarized in the table below. Number of toys recalled Number of toys from List 1 recalled from List 2 Petey 8 5 Bubbles 6 4 Bliss 6 5 Rocco 5 3 Freddy 9 6 Sami 7 6 Flip 6 4 Queeni 4 5 Danny 8 6 Jen 7 4 Bree 6 4",
+     "page_start": 179,
+     "page_end": 179,
+     "correct_answer": "C",
+     "answer_text": "The lowest score on List 2 was 3 and the highest score was 6, so the range is 3.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "A friend mentions to you that she heard humans never forget anything; we remember everything that ever happens to us. What concept from memory research most directly contradicts this belief?",
+     "options": {
+      "A": "Sensory memory",
+      "B": "Selective attention",
+      "C": "Long-term memory",
+      "D": "Constructive memory"
+     },
+     "context": "",
+     "page_start": 179,
+     "page_end": 179,
+     "correct_answer": "B",
+     "answer_text": "The concept of selective attention contradicts this statement. Selective attention determines what sensations we attend to and encode into short-term memory. Research shows that stimuli not attended to are not remembered, so we do not remember everything that happens to us. Sensory memory, long-term memory, and constructed memories do not obviously contradict the statement.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Which will be higher in the Space Method group?",
+     "options": {
+      "A": "Range",
+      "B": "Mode",
+      "C": "Mean",
+      "D": "Standard deviation"
+     },
+     "context": "Questions 7 and 8 refer to the following. Matthew’s chemistry teacher assigns the class to memorize the periodic table for a quiz in two weeks. Matthew notices that some of his classmates tell him they have been reviewing for a few minutes each night (Space Method) while others tell him they intend to cram a day or two before the quiz (Cram Method). Matthew decides to compare their performance on the quiz and some of the data appear in the table below. Study Method Score on Test (percent) Cram 82 Space 90 Cram 76 Cram 92 Space 86 Cram 86 Space 82 Space 94 Space 88 Cram 80",
+     "page_start": 180,
+     "page_end": 180,
+     "correct_answer": "C",
+     "answer_text": "The group that spaced out their studying clearly has a higher mean than the Cram group because their scores tend to be higher. Neither distribution has a clear mode because each score only appears once in each distribution. The scores in the Cram group are more spread out than those in the Space group, which will lead them to have both a higher range and standard deviation.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "What will Mathew be able to conclude from this data?",
+     "options": {
+      "A": "Spacing out studying improved test performance in this chemistry class.",
+      "B": "Hours spent studying was positively related to test scores on this exam.",
+      "C": "Students who begin studying earlier are better at chemistry than those who cram.",
+      "D": "The students who spaced out their studying did better than the students who crammed."
+     },
+     "context": "Questions 7 and 8 refer to the following. Matthew’s chemistry teacher assigns the class to memorize the periodic table for a quiz in two weeks. Matthew notices that some of his classmates tell him they have been reviewing for a few minutes each night (Space Method) while others tell him they intend to cram a day or two before the quiz (Cram Method). Matthew decides to compare their performance on the quiz and some of the data appear in the table below. Study Method Score on Test (percent) Cram 82 Space 90 Cram 76 Cram 92 Space 86 Cram 86 Space 82 Space 94 Space 88 Cram 80",
+     "page_start": 180,
+     "page_end": 180,
+     "correct_answer": "D",
+     "answer_text": "The data show that students who spaced their studying performed better on the test than those who crammed. However, the data do not show that spacing out studying caused that difference. Matthew did not conduct an experiment, therefore, he cannot conclude that the timing of the studying caused the difference in performance.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "During class one day, Mr. Jessup asks his students to remember two numbers—356 and 1129. Students are able to write these two numbers down a few seconds later when asked. Next, Mr. Jessup asks the students to subtract 356 from 1129 in their heads. Most quickly give up. These two tasks illustrate the difference between",
+     "options": {
+      "A": "short-term memory and working memory.",
+      "B": "sensory memory and short-term memory.",
+      "C": "Working memory and long-term memory.",
+      "D": "Long-term memory and short-term memory."
+     },
+     "context": "",
+     "page_start": 181,
+     "page_end": 181,
+     "correct_answer": "A",
+     "answer_text": "Short-term memory is responsible for “holding” events/information for a few seconds so that we can use it if needed. Working memory is more “active;” it is the space we use to do “cognitive work” like subtraction. Sensory memory (the split-second awareness and memory of sensory events) and long-term memory are not involved in Mr. Jessup’s tasks.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "What do long-term and sensory memory have in common?",
+     "options": {
+      "A": "Long duration",
+      "B": "Short duration",
+      "C": "Small capacity",
+      "D": "Large capacity"
+     },
+     "context": "",
+     "page_start": 181,
+     "page_end": 181,
+     "correct_answer": "D",
+     "answer_text": "Both long-term and sensory memory have huge capacity; all the sensory information we receive moment by moment are held for a split second in sensory memory, and all the events, information, skills, etc. we can recall or use from our past are held in long-term memory. The during of sensory memory and long-term memory are very different: sensory memory is a split second, and long-term memories can last our entire lives.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "Simeon finds that when he crams for a test the night before, he usually does well but is almost completely unable to remember the material he studied a few weeks later. What best explains why this might happen?",
+     "options": {
+      "A": "The material he crams only makes it into his short-term memory.",
+      "B": "Cramming the night before usually involves a shallow level of processing.",
+      "C": "After a few weeks, he misremembers because memory is often constructed.",
+      "D": "Simeon is suffering from retrograde amnesia."
+     },
+     "context": "",
+     "page_start": 181,
+     "page_end": 181,
+     "correct_answer": "B",
+     "answer_text": "Cramming the night before typically involves relatively superficial forms of processing that make recalling the information later difficult. Choice (A) is incorrect because short- term memory (STM) only lasts 20–30 seconds. So, if the information never made it out of the STM, Simeon would forget it long before the test. The idea that we construct our memories could explain some errors in memory like source amnesia but is unlikely to explain the inability to recall a topic at all. Finally, amnesia isn’t the same as not remembering something you once learned; it typically involves learning a larger amount of information and is most often due to a brain injury.",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "Ms. Esposito and Mr. Chai are working together to write a common midterm exam for their statistics classes. Ms. Esposito wants most of the questions to ask students to provide short answers of a few words to a set of questions, while Mr. Chai prefers the use of a multiple-choice format. What type of memory does Mr. Chai want to test?",
+     "options": {
+      "A": "Divergent",
+      "B": "Recall",
+      "C": "Recognition",
+      "D": "Projective"
+     },
+     "context": "",
+     "page_start": 181,
+     "page_end": 182,
+     "correct_answer": "C",
+     "answer_text": "Recognition involves being able to identify whether a correct answer matches an existing option. Multiple choice items are a perfect example of recognition; to get an item correct, students need to be able to determine whether one of the existing answer options matches their understanding of the most correct answer. Fill in the blank or short answer questions are Recall questions: students have to pull information from their long-term memories without having correct answers in front of them. Answer choices A and D do not relate to Mr. Chai’s tests.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "After a recent break-up, Tommy finds himself unable to think of much going well in his life. He misses his boyfriend and finds himself remembering other times in his life that he felt rejected and alone. Tommy’s experience demonstrates that memory can be",
+     "options": {
+      "A": "constructed.",
+      "B": "inaccurate.",
+      "C": "affected by mood.",
+      "D": "dependent on physical context."
+     },
+     "context": "",
+     "page_start": 182,
+     "page_end": 182,
+     "correct_answer": "C",
+     "answer_text": "Tommy’s experience is an example of “mood-congruent memory.” Our current mood can influence the likelihood that we will remember events that “align” with our mood. The other answer choices relate to memory in general but are not related to the example of Tommy only being able to remember other events that align with his current sorrowful mood.",
+     "section": "MCQ"
+    },
+    {
+     "number": 14,
+     "stem": "Over the years, the Jones family took many driving vacations across the United States. Looking back, the two (now grown) children and their parents have very different memories of some aspects of these trips. These differences are most likely explained by",
+     "options": {
+      "A": "Reconstructive memory",
+      "B": "Levels of processing",
+      "C": "Amnesia",
+      "D": "Limited storage capacity"
+     },
+     "context": "",
+     "page_start": 182,
+     "page_end": 182,
+     "correct_answer": null,
+     "answer_text": "",
+     "section": "MCQ"
+    },
+    {
+     "number": 15,
+     "stem": "On one trip, 8-year-old Blake wandered away from the family and got lost in the woods. While everyone else recalls this incident, including Blake’s younger brother Sam, Blake has no memory of it. Which type of psychologist would provide the best explanation for Blake’s forgetting of this incident?",
+     "options": {
+      "A": "Clinical",
+      "B": "Biological",
+      "C": "Personality",
+      "D": "Psychodynamic"
+     },
+     "context": "",
+     "page_start": 182,
+     "page_end": 183,
+     "correct_answer": null,
+     "answer_text": "",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 10,
+   "unit": 2,
+   "chapter_title": "Testing and Individual Differences",
+   "paper_id": "psychology-barrons-2027-ch10-review",
+   "review_page_start": 200,
+   "answer_page_start": 202,
+   "page_end": 203,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Paul takes a test in the army to see if he would make a good pilot. Such a test is a (an)",
+     "options": {
+      "A": "standardized test.",
+      "B": "aptitude test.",
+      "C": "intelligence test.",
+      "D": "achievement test."
+     },
+     "context": "",
+     "page_start": 200,
+     "page_end": 200,
+     "correct_answer": "B",
+     "answer_text": "Aptitude tests aim to measure someone’s ability or potential. In this case, the test is supposed to show whether Paul has the ability to be a pilot. The test may or may not be standardized. The test is not attempting to measure Paul’s intelligence. Since Paul has not yet been trained as a pilot, the test is not an achievement test.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Mrs. Cho is careful to make sure that she fairly represents the whole year’s work on the final exam for her American literature class. If Mrs. Cho achieves this goal, her test will have",
+     "options": {
+      "A": "test-retest reliability.",
+      "B": "construct validity.",
+      "C": "content validity.",
+      "D": "split-half reliability."
+     },
+     "context": "",
+     "page_start": 200,
+     "page_end": 200,
+     "correct_answer": "C",
+     "answer_text": "Mrs. Cho is concerned about the content validity of her test. A test that fairly represents all the material taught in her class has content validity. Validity, in general, measures how well a test measures what it is supposed to measure. For Mrs. Cho’s test to have construct validity, we would need to know that the test was successful in differentiating among varying levels of achievement in her class. Reliability is a measure of how consistent the scores are on a test. Test-retest reliability involves giving the same test to the same population on at least two different occasions and measuring the correlation between the sets of scores. Split-half reliability is when one test is divided into two parts and the correlation between people’s scores on the two halves is measured.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Mr. Rosenboom teaches two history classes, one in the morning and one in the afternoon. He has heard students in his morning class complain that people tell the students in the afternoon class about his test questions. He decides he needs to make two copies of the test, but he wants to make sure that they are equally difficult, so he decides to randomly assign an equal number of questions from the test bank to each class. Mr. Rosenboom’s concern is most closely related to",
+     "options": {
+      "A": "construct validity.",
+      "B": "split half reliability .",
+      "C": "test-retest reliability.",
+      "D": "predictive validity."
+     },
+     "context": "",
+     "page_start": 200,
+     "page_end": 201,
+     "correct_answer": "A",
+     "answer_text": "A test is considered valid if it measures what it is designed to measure. Types of validity include construct and predictive. In this case, Mr. Rosenboom is most interested in guaranteeing",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "These results best support the idea that academic achievement can be enhanced",
+     "options": {
+      "A": "By many different types of praise",
+      "B": "By praise of effort rather than criticism of lack of effort",
+      "C": "By thinking about intelligence as an innate characteristic",
+      "D": "By the belief in a growth mindset"
+     },
+     "context": "Use the information below to answer questions 4 and 5. In her educational psychology course, Dr. Burkholder has students write weekly reflections on the class readings. During the first 3 weeks of the semester, Dr. Burkholder gives each student a grade out of 10 points for their response. She then randomly assigns half to receive praise that focuses on their capabilities including statements like “You are really good at these!” while the other half receive praise that focuses on their effort like “You must have worked really hard on this!” This intervention lasts from Week 4 to Week 6. During Weeks 7–9, Dr. Burkholder replaces these statements with constructive criticism such as “Your writing could be a bit clearer” or “Make sure to proofread your work before turning it in.” During Weeks 10–12, students receive no more feedback—just grades out of 10. Dr. Burkholder then gives her teaching assistants (TAs) pairs of responses from each student—one from the first week and one from the twelfth without telling them which response is which. The TAs grade the assignments out of 10 points and return the grades to Dr. Burkholder. The results are displayed in the table below. Average Score: Week Average Score: Week 1 12 Capability Praise 7.2 7.0 Effort Praise 7.0 8.2",
+     "page_start": 201,
+     "page_end": 202,
+     "correct_answer": null,
+     "answer_text": "",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Based on the description, Dr. Burkholder can be credited with using",
+     "options": {
+      "A": "A debriefing",
+      "B": "A double-blind design",
+      "C": "A control group",
+      "D": "A clear hypothesis"
+     },
+     "context": "Use the information below to answer questions 4 and 5. In her educational psychology course, Dr. Burkholder has students write weekly reflections on the class readings. During the first 3 weeks of the semester, Dr. Burkholder gives each student a grade out of 10 points for their response. She then randomly assigns half to receive praise that focuses on their capabilities including statements like “You are really good at these!” while the other half receive praise that focuses on their effort like “You must have worked really hard on this!” This intervention lasts from Week 4 to Week 6. During Weeks 7–9, Dr. Burkholder replaces these statements with constructive criticism such as “Your writing could be a bit clearer” or “Make sure to proofread your work before turning it in.” During Weeks 10–12, students receive no more feedback—just grades out of 10. Dr. Burkholder then gives her teaching assistants (TAs) pairs of responses from each student—one from the first week and one from the twelfth without telling them which response is which. The TAs grade the assignments out of 10 points and return the grades to Dr. Burkholder. The results are displayed in the table below. Average Score: Week Average Score: Week 1 12 Capability Praise 7.2 7.0 Effort Praise 7.0 8.2",
+     "page_start": 202,
+     "page_end": 202,
+     "correct_answer": null,
+     "answer_text": "",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 11,
+   "unit": 3,
+   "chapter_title": "Developmental Psychology",
+   "paper_id": "psychology-barrons-2027-ch11-review",
+   "review_page_start": 227,
+   "answer_page_start": 232,
+   "page_end": 236,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "What kind of study is this?",
+     "options": {
+      "A": "Naturalistic observation",
+      "B": "Longitudinal",
+      "C": "Case study",
+      "D": "Cross-sectional"
+     },
+     "context": "Use the information below to answer questions 1–3. Dr. Cao studies children during their years in school. She is primarily interested in how children’s introversion and extraversion develop. She recruits 150 kindergarteners in her school district to be in her study and uses behavioral measures to assess their introversion/extraversion that spring and in the spring of third and sixth grade.",
+     "page_start": 227,
+     "page_end": 227,
+     "correct_answer": "B",
+     "answer_text": "Since Dr. Cao recruited a group of kindergarten students now and plans on studying their introversion/extraversion in the spring and in the spring years later (in grade 3 and grade 6), this is longitudinal study: a study that researches one group of people over many years. It is not a naturalistic observation study because Dr. Cao is interacting with her participants by measuring a variable (introversion/extraversion). It’s not a case study because many participants are involved, and this is not a cross-sectional study because different age groups are not all being studied at the same time.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "The graph below shows the average change in extraversion between kindergarten and grade 3 and between grades 3 and 6 as measured on a 50-point scale. Which of the following conclusions is best supported by the data?",
+     "options": {
+      "A": "Children become more introverted as they move through elementary school.",
+      "B": "Extraversion levels do not change much during the elementary years.",
+      "C": "Extraversion levels change more dramatically during the late elementary years.",
+      "D": "Children in elementary school tend to be introverted."
+     },
+     "context": "Use the information below to answer questions 1–3. Dr. Cao studies children during their years in school. She is primarily interested in how children’s introversion and extraversion develop. She recruits 150 kindergarteners in her school district to be in her study and uses behavioral measures to assess their introversion/extraversion that spring and in the spring of third and sixth grade.",
+     "page_start": 227,
+     "page_end": 228,
+     "correct_answer": "B",
+     "answer_text": "Notice that the label on the y axis is “Change in Extraversion on 50-point scale” and that the only changes indicated in the graph are less than one point (.8 and .6). This indicates that Dr. Cao did not detect much change at all in introversion/extraversion during the elementary school years.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Which of the following is the most important ethical concern that Dr. Cao should consider?",
+     "options": {
+      "A": "During the course of the study, some children may move out of the district",
+      "B": "Some children are innately more extraverted than others",
+      "C": "The need to obtain parental consent and the children’s assent",
+      "D": "The possibility that the study could cause lasting physical harm"
+     },
+     "context": "Use the information below to answer questions 1–3. Dr. Cao studies children during their years in school. She is primarily interested in how children’s introversion and extraversion develop. She recruits 150 kindergarteners in her school district to be in her study and uses behavioral measures to assess their introversion/extraversion that spring and in the spring of third and sixth grade.",
+     "page_start": 228,
+     "page_end": 228,
+     "correct_answer": "C",
+     "answer_text": "One of the most important ethical principles for research with human participants is informed consent: participants need to consent to involvement with a research study. Since this study is using children, informed consent from parents is even more important: children can’t provide informed consent to participate in the study so obtaining parental consent is vital. Options A and B are not relevant to ethical concerns. Option D is important, but unlikely to apply to this study because Dr. Cao is only measuring existing levels of introversion/extraversion, so harm is not at all likely in this research design.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Elinor just gave birth to her first baby about four weeks ago. When Elinor strokes her baby’s cheek with her hand, which is most likely to be the baby’s response?",
+     "options": {
+      "A": "The baby will feel soothed and fall asleep.",
+      "B": "The baby will get agitated and flap their arms in an uncoordinated manner.",
+      "C": "The baby will feel surprised and its eyes will open wider.",
+      "D": "The baby will turn its head toward Elinor’s hand."
+     },
+     "context": "",
+     "page_start": 228,
+     "page_end": 228,
+     "correct_answer": "D",
+     "answer_text": "Babies are born with a set of reflexes including the rooting reflex, which helps them learn to breastfeed by turning their heads toward anything that touches their cheeks. Answers A–C are not reflexes that babies are born with.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Spencer is his parents’ first child, and they delight in observing him as he progresses through various developmental milestones. Which of the following tasks is Spencer most likely to master first?",
+     "options": {
+      "A": "Using a paint brush",
+      "B": "Writing his name",
+      "C": "Kicking a ball",
+      "D": "Brushing his teeth"
+     },
+     "context": "",
+     "page_start": 228,
+     "page_end": 229,
+     "correct_answer": "C",
+     "answer_text": "Motor development, especially “gross” motor skills like kicking a ball, develop more quickly than “fine” motor skills, like using a paintbrush, pencil, or toothbrush.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Superintendent Lopez is concerned that, despite studying a second language for six years in secondary school, the children in her district struggle to achieve proficiency. Budgetary concerns prevent her from simply adding more language classes. Given your knowledge of psychology, which of the following curriculum changes would you recommend she implement?",
+     "options": {
+      "A": "Assign more homework in the high school level language classes",
+      "B": "Require students to divide their time between two languages in middle school",
+      "C": "Reduce homework in the language classes",
+      "D": "Shift the required language instruction to elementary school"
+     },
+     "context": "",
+     "page_start": 229,
+     "page_end": 229,
+     "correct_answer": "D",
+     "answer_text": "Many developmental psychological findings support the conclusion that children learn language more quickly when they are younger (elementary age) so moving language learning from secondary to elementary school may help with language proficiency. The other suggestions in options A–C do not align with well-known psychological findings.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Janey is very excited about the Super Bowl and the big party her parents are having that night. Unfortunately for the guests, Janey keeps positioning herself right in front of the television so that the people on the couch behind her are unable to see. Janey’s inability to appreciate that she might be blocking others’ view is emblematic of which stage of development?",
+     "options": {
+      "A": "Formal operations",
+      "B": "Preoperational",
+      "C": "Sensorimotor",
+      "D": "Concrete operational"
+     },
+     "context": "",
+     "page_start": 229,
+     "page_end": 229,
+     "correct_answer": "B",
+     "answer_text": "Janey may be viewing and acting in the world via “egocentrism,” the inability to view the world from the perspective of someone else. This scheme is typical of children during the preoperational stage. Janey is unable to understand or think about the perspective of someone else, so does not understand that she may be blocking the view of the TV.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Mitchell knocks his fishbowl off a shelf. Much to his mother’s horror, his pet fish, Ziggy, is severed in two during the fall. “Don’t worry, Mommy,” says Mitchell. “Daddy can fix it.” Mitchell’s faith in his father’s ability to fix the fish illustrates",
+     "options": {
+      "A": "Animism.",
+      "B": "Egocentrism.",
+      "C": "Identification.",
+      "D": "Reversibility."
+     },
+     "context": "",
+     "page_start": 230,
+     "page_end": 230,
+     "correct_answer": "A",
+     "answer_text": "Young children have naive views of life and death, often attributing “life” to inanimate objects (such as stuffed animals) and not understanding the irreversibility of death. Developmental psychologists call this misunderstanding about life and death “animism.” The developmental psychological principles in options B–D are not relevant to the death of Ziggy.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "Ever since he was little, Eli played a lot of games with his grandma. Their favorites include speed chess and the word game, Scrabble. As Eli (and his grandmother) get older, we should expect that",
+     "options": {
+      "A": "Eli will quickly gain dominance in both games.",
+      "B": "Eli will outpace Granny in speed chess before Scrabble.",
+      "C": "Eli will outpace Granny in Scrabble before speed chess.",
+      "D": "Eli will consistently lose to his grandma."
+     },
+     "context": "",
+     "page_start": 230,
+     "page_end": 230,
+     "correct_answer": "B",
+     "answer_text": "As humans age, our fluid intelligence—our ability to come up with creative solutions or problem solve quickly in new situations—fades as we become older adults. Chess often involves fluid intelligence, since players need to think about novel chess situations they haven’t encountered before. However, crystallized intelligence—our ability to use information already in our long-term memory—does not fade. Scrabble relies more on crystallized intelligence, since players need to know a large number of words and how to spell them.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "“ Pet doggy!” exclaims two-year old Beckett. This is an example of",
+     "options": {
+      "A": "Telegraphic speech.",
+      "B": "Overgeneralization.",
+      "C": "Babbling.",
+      "D": "Syntax."
+     },
+     "context": "",
+     "page_start": 230,
+     "page_end": 230,
+     "correct_answer": "A",
+     "answer_text": "After the one-word stage of speech, children usually begin to communicate in two-word phrases; this usually happens at the age of about two years and is known as telegraphic speech. Options B, C, and D are all elements of language learning, but do not apply to this example.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "How would you describe Professor Spencer’s research design?",
+     "options": {
+      "A": "Field experiment",
+      "B": "Case study",
+      "C": "Cross-sectional",
+      "D": "Naturalistic observation"
+     },
+     "context": "Use the following information to answer questions 11, 12 and 13. Professor Spencer is interested in how children overgeneralize grammatical rules and at what age these types of errors decrease. He partners with an elementary school and sits in during classroom Show and Tell in first- and third-grade classrooms for the month of March during which he records all overgeneralization errors students make.",
+     "page_start": 231,
+     "page_end": 231,
+     "correct_answer": "C",
+     "answer_text": "Because Professor Spencer is contrasting two groups of children at different ages, his design is cross sectional. The study cannot be considered a field experiment, because, while it’s in the field, it’s not an experiment—no variable is manipulated by the experimenter. Spencer is studying too large a group and in insufficient depth to be a case study. Finally, the study would not be termed naturalistic observation both because the students will realize they are being observed and because Spencer is interested only in a very specific behavior.",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "What would you expect Professor Spencer to find?",
+     "options": {
+      "A": "No overgeneralization errors in any of the classrooms",
+      "B": "Many overgeneralization errors in all of the classrooms",
+      "C": "More overgeneralization errors in the first-grade classrooms",
+      "D": "More overgeneralization errors in the third-grade classrooms"
+     },
+     "context": "Use the following information to answer questions 11, 12 and 13. Professor Spencer is interested in how children overgeneralize grammatical rules and at what age these types of errors decrease. He partners with an elementary school and sits in during classroom Show and Tell in first- and third-grade classrooms for the month of March during which he records all overgeneralization errors students make.",
+     "page_start": 231,
+     "page_end": 231,
+     "correct_answer": "C",
+     "answer_text": "Overgeneralization errors—such as regularizing irregular verbs such as saying “I goed” instead of “I went”—are more common in younger children and typically decrease with experience.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "Should Professor Spencer get IRB approval for his study?",
+     "options": {
+      "A": "No, it’s just a typical classroom activity.",
+      "B": "No, the students are too young to consent.",
+      "C": "Yes, there’s a dangerous level of deception involved.",
+      "D": "Yes, all research with humans should be reviewed."
+     },
+     "context": "Use the following information to answer questions 11, 12 and 13. Professor Spencer is interested in how children overgeneralize grammatical rules and at what age these types of errors decrease. He partners with an elementary school and sits in during classroom Show and Tell in first- and third-grade classrooms for the month of March during which he records all overgeneralization errors students make.",
+     "page_start": 231,
+     "page_end": 231,
+     "correct_answer": "D",
+     "answer_text": "Generally speaking, all research using human participants should be reviewed. Although Professor Spencer’s study doesn’t sound especially dangerous and does not involve a lot of deception, it is always preferable to have a qualified group of people not associated with the study look it over with the goal of protecting the participants. While show and tell is a typical classroom activity, the introduction of the professor into the classroom and the fact that he is recording information for research purposes is enough reason to ask for IRB review. The students are, in fact, too young to consent to participate in the study. Part of the IRB’s job would be to decide whether to require parental consent and/or assent from the children.",
+     "section": "MCQ"
+    },
+    {
+     "number": 14,
+     "stem": "Seven-year-old Jeri’s parents are recent immigrants who are very strict and traditional. Jeri’s teacher, Mr. Hubert, is easygoing and allows students a lot of freedom in his classroom. Combined, these two factors are part of Jeri’s",
+     "options": {
+      "A": "macrosystem.",
+      "B": "microsystem.",
+      "C": "exosystem.",
+      "D": "mesosystem."
+     },
+     "context": "",
+     "page_start": 231,
+     "page_end": 231,
+     "correct_answer": "B",
+     "answer_text": "According to Bronfenbrenner’s Ecological Model, our microsystem involves our immediate interactions with the most direct, immediate impact, including our interactions with our parents and teachers. The other possible answers listed in options A, C, and D are other elements of Bronfenbrenner’s Ecological Model, but do not apply as well as option B to interactions with a child’s parents and teacher.",
+     "section": "MCQ"
+    },
+    {
+     "number": 15,
+     "stem": "Three-year old Roberta accompanies her dad to a community meeting at a local library she has never been to before. If she is securely attached, how would you expect her to behave?",
+     "options": {
+      "A": "She will be interested in her surroundings but will remain with her father at all times.",
+      "B": "She will explore the library but check in periodically with her father.",
+      "C": "She will wander around the library and avoid her father until the meeting is over.",
+      "D": "She will hide behind her father or under his chair to minimize the chance anyone notices her."
+     },
+     "context": "",
+     "page_start": 232,
+     "page_end": 232,
+     "correct_answer": "B",
+     "answer_text": "Children with secure attachments generally feel comfortable exploring their surroundings in a new situation but frequently come back to check in with their caregiver(s). An insecurely attached child is more likely to be unwilling to leave their caregiver (option A or D). Option C may indicate an avoidant attachment style (one of the types of insecure attachments) that involves children avoiding contact with their parents when possible.",
+     "section": "MCQ"
+    },
+    {
+     "number": 16,
+     "stem": "You have a cousin named Holden who flunked out of three expensive private schools and was arrested for wandering the streets of New York using his parents’ credit card. Holden is intelligent but cannot seem to get motivated toward any career. What conflict would the psychosocial stage theory say Holden is struggling with?",
+     "options": {
+      "A": "Autonomy versus authority",
+      "B": "Identity versus role confusion",
+      "C": "Integrity versus despair",
+      "D": "Industry versus inferiority"
+     },
+     "context": "",
+     "page_start": 232,
+     "page_end": 232,
+     "correct_answer": "B",
+     "answer_text": "Holden’s inability to stay in school and decide about goals indicates a search for identity according to Erikson.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 12,
+   "unit": 3,
+   "chapter_title": "Learning",
+   "paper_id": "psychology-barrons-2027-ch12-review",
+   "review_page_start": 258,
+   "answer_page_start": 263,
+   "page_end": 266,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Just before something scary happens in a horror film, they often play scary-sounding music. When I hear the music, I tense up in anticipation of the scary event. In this situation, the music serves as a(n)",
+     "options": {
+      "A": "US.",
+      "B": "CS.",
+      "C": "UR.",
+      "D": "CR."
+     },
+     "context": "",
+     "page_start": 258,
+     "page_end": 258,
+     "correct_answer": "B",
+     "answer_text": "The music before a scary event in a horror movie serves as a CS. It is something we associate with a fear-inducing event (the US). In this example, preparing to be scared is the CR and the fear caused by the event in the movie is the UR.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "What is a reasonable conclusion based on the information provided?",
+     "options": {
+      "A": "Fluffy learned to swim to the top of her tank via positive reinforcement.",
+      "B": "Fluffy came to associate Vinny’s typical behavior each morning with her breakfast.",
+      "C": "Fluffy had the insight that each morning when Vinny touched the fish food, she was about to be fed.",
+      "D": "Fluffy developed a cognitive map of her tank."
+     },
+     "context": "Use the information below to answer questions 2 and 3. Every day, Vinny feeds his new fish, Fluffy, right before school. The graph below shows how many seconds elapse between Vinny picking up the container fish food and Fluffy swimming to the top of her tank over her first eight days in Vinny’s house.",
+     "page_start": 259,
+     "page_end": 259,
+     "correct_answer": "B",
+     "answer_text": "This is most likely an example of classical conditioning. In the early days, Vinny sprinkled food on the water (UCS) and Fluffy came to the top to eat the food (UCR). Then, Fluffy started to associate some previously neutral stimulus that is part of Vinny’s typical behavior with the food (such as picking up the container of food) as a CS. From that point on, Fluffy came to the top of the water (CR) whenever the CS was perceived. Since this is an example of classical conditioning, options A, C, and D are not applicable.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Over Thanksgiving, Vinny goes to visit his Aunt Myrtle for a few days. While he’s away, his friend Ming takes care of Fluffy. Ming likes to sing to Fluffy before feeding her and sometimes uses the fish food container as a percussion instrument. When Vinny returns and resumes his typical feeding routine, Fluffy takes about six seconds to swim to the top of her tank. This behavior is evidence of",
+     "options": {
+      "A": "acquisition.",
+      "B": "extinction.",
+      "C": "spontaneous recovery.",
+      "D": "discrimination."
+     },
+     "context": "Use the information below to answer questions 2 and 3. Every day, Vinny feeds his new fish, Fluffy, right before school. The graph below shows how many seconds elapse between Vinny picking up the container fish food and Fluffy swimming to the top of her tank over her first eight days in Vinny’s house.",
+     "page_start": 259,
+     "page_end": 259,
+     "correct_answer": "B",
+     "answer_text": "Fluffy’s previously classically conditioned response became extinct, which occurred whenever a CS (such as grabbing the fish food container) was no longer associated with a UCS (sprinkling food on the top of the water). Since Ming uses the food container as a percussion instrument, they probably hold on to it for a while before sprinkling food. This delay “breaks” the classically conditioned association between grabbing the food container and the sprinkling of the food. Options A, C, and D are principles of conditioning, but do not apply to this example.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Two-year-old Kwame’s family recently moved, and their new house has a garage. After about a week, when Kwame hears the garage door in the evening, he excitedly toddles over to the front door to see his parents. One night, Kwame gets violently sick after a dinner that includes a new food: beets. He immediately develops a hatred of beets and refuses to eat them for the rest of his childhood. What explains why Kwame learned to dislike beets more quickly than he learned that the sound of the garage door meant his parents were home?",
+     "options": {
+      "A": "The feeling of dislike is a more powerful motivator than the feeling of liking.",
+      "B": "Food is one of the most powerful reinforcers known to humankind.",
+      "C": "Operant conditioning is more effective than classical conditioning.",
+      "D": "We are predisposed to avoid foods we associate with nausea and vomiting."
+     },
+     "context": "",
+     "page_start": 260,
+     "page_end": 260,
+     "correct_answer": "D",
+     "answer_text": "This powerful example of “one trial” classical conditioning is called the “Garcia Effect.” Humans and other animals are biologically predisposed to associate food or drink with nausea after only “one trial.” Other classically conditioned responses (such as associating parents arriving with the sound of the garage door) require repeated pairing, but the Garcia effect predicts that it only takes one pairing of food or drink with nausea to produce a powerfully classically conditioned response. Options A–C are not relevant to classically conditioned responses.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Try as you might, you are unable to teach your dog to do a somersault. He will roll around on the ground, but he refuses to execute the gymnastic move you desire because of",
+     "options": {
+      "A": "equipotentiality.",
+      "B": "preparedness.",
+      "C": "instinctive drift.",
+      "D": "chaining."
+     },
+     "context": "",
+     "page_start": 260,
+     "page_end": 260,
+     "correct_answer": "C",
+     "answer_text": "Instinctive drift limits your pet’s gymnastic abilities. Instinctively, your dog will perform certain behaviors and will drift toward these rather than learning behaviors that go against his nature. Equipotentiality is the opposite position that asserts that any animal can be conditioned to do anything. Preparedness refers to a biological predisposition to learn some things more quickly than others. Preparedness explains why teaching a dog to fetch a stick is easier than teaching it to do a somersault. Chaining is when one has to perform a number of discrete steps in order to secure a reward.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "When teaching your cat to jump through a hoop, which reinforcement schedule would facilitate the most rapid learning?",
+     "options": {
+      "A": "Continuous",
+      "B": "Fixed-ratio",
+      "C": "Variable-ratio",
+      "D": "Fixed-interval"
+     },
+     "context": "",
+     "page_start": 260,
+     "page_end": 261,
+     "correct_answer": "A",
+     "answer_text": "When teaching your cat to jump through a hoop, continuous reinforcement would result in the most rapid learning. New behaviors are learned most quickly when they are rewarded every time. However, once the skill has been learned, partial reinforcement schedules—which all the other choices are examples of—will make the behaviors more resistant to extinction.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Tina likes to play with slugs, but she can find them by the shed only after it rains. On what kind of reinforcement schedule is Tina’s slug hunting?",
+     "options": {
+      "A": "Continuous",
+      "B": "Fixed-interval",
+      "C": "Fixed-ratio",
+      "D": "Variable-interval"
+     },
+     "context": "",
+     "page_start": 261,
+     "page_end": 261,
+     "correct_answer": "D",
+     "answer_text": "Tina’s slug hunting is rewarded on a variable-interval schedule. The passage of time is a key element in when she is reinforced because the slugs appear only after it rains. Since rain does not fall on a fixed schedule (e.g., every third day), she is on a VI schedule. If she were on a continuous schedule, Tina would find slugs whenever she looked. If the slugs appeared every three days, Tina would be on a fixed-interval schedule. If she needed to turn over three rocks to find a slug, she would be on a fixed-ratio schedule.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Just before the doors of the elevator close, Lola, a coworker you despise, enters the elevator. You immediately leave, mumbling about having forgotten something. Your behavior results in",
+     "options": {
+      "A": "positive reinforcement.",
+      "B": "a secondary reinforcer.",
+      "C": "punishment.",
+      "D": "negative reinforcement."
+     },
+     "context": "",
+     "page_start": 261,
+     "page_end": 261,
+     "correct_answer": "D",
+     "answer_text": "Exiting the elevator to avoid Lola is negative reinforcement. Your behavior, leaving the elevator, is reinforced by the removal of an aversive stimulus (Lola). Remember that reinforcement (including negative reinforcement) always increases the likelihood of a behavior as opposed to punishment, which decreases the likelihood of a behavior.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "When Tito was young, his parents decided to give him a quarter every day he made his bed. Tito started to make his siblings’ beds also and to help with other chores. Behaviorists would say that Tito was experiencing",
+     "options": {
+      "A": "internal motivation.",
+      "B": "spontaneous recovery.",
+      "C": "acquisition.",
+      "D": "generalization."
+     },
+     "context": "",
+     "page_start": 261,
+     "page_end": 261,
+     "correct_answer": "D",
+     "answer_text": "Tito’s new bed-making and chore-doing regime indicates that he is generalizing. Just as a rat will press other levers in other cages, Tito is performing more chores in an attempt to maximize his rewards. Behaviorists minimize the role of internal motivation; they believe that the environment motivates. Spontaneous recovery would be correct if Tito began making his bed again after his parents had stopped rewarding him and he had returned to his slovenly ways. Acquisition occurred when Tito initially learned to make his bed to earn a quarter.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "Before his parents will read him a bedtime story, Charley has to brush his teeth, put on his pajamas, kiss his grandmother good night, and put away his toys. This example illustrates",
+     "options": {
+      "A": "shaping.",
+      "B": "acquisition.",
+      "C": "generalization.",
+      "D": "chaining."
+     },
+     "context": "",
+     "page_start": 261,
+     "page_end": 262,
+     "correct_answer": "D",
+     "answer_text": "Charley needs to chain together a series of behaviors in order to get a reward (the bedtime story). Shaping is reinforcing approximations of a desired behavior, usually in an effort to teach it. Acquisition, in operant conditioning, is the learning of a behavior. Generalization is when one performs similar behaviors to those that will result in reinforcement.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "Which of the following is an example of positive reinforcement?",
+     "options": {
+      "A": "Buying a child a video game after she throws a tantrum",
+      "B": "Going inside to escape a thunderstorm",
+      "C": "Assigning a student detention for fighting",
+      "D": "Getting a cavity filled at the dentist to halt a toothache"
+     },
+     "context": "",
+     "page_start": 262,
+     "page_end": 262,
+     "correct_answer": "A",
+     "answer_text": "Buying a child a video game after she throws a tantrum is an example of positively reinforcing a behavior you probably do not want (the tantrum). This example raises an important point: the word posi tive in positive reinforcement refers to the addition of a reinforcer and not to the goodness or badness of the act that is being reinforced. Going inside to escape a thunderstorm and getting a cavity filled at the dentist to halt a toothache are both examples of negative reinforcement (removing something unpleasant). Assigning a student detention for fighting is an example of punishment (adding something unpleasant).",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "Lily keeps poking Jared in Mr. Clayton’s third-grade class. Mr. Clayton tells Jared to ignore Lily. Mr. Clayton is hoping that ignoring Lily’s behavior will",
+     "options": {
+      "A": "punish her.",
+      "B": "extinguish the behavior.",
+      "C": "negatively reinforce the behavior.",
+      "D": "cause Lily to generalize."
+     },
+     "context": "",
+     "page_start": 262,
+     "page_end": 262,
+     "correct_answer": "B",
+     "answer_text": "Mr. Clayton is hoping that ignoring Lily’s behavior will extinguish the behavior. Something that is not reinforced is put onto an extinction schedule.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "Many psychologists believe that children of parents who beat them are likely to beat their own children. One common explanation for this phenomenon is",
+     "options": {
+      "A": "modeling.",
+      "B": "latent learning.",
+      "C": "abstract learning.",
+      "D": "instrumental learning."
+     },
+     "context": "",
+     "page_start": 262,
+     "page_end": 262,
+     "correct_answer": "A",
+     "answer_text": "Many psychologists believe that children of parents who beat them are likely to beat their own children. One common explanation for this phenomenon is modeling. Modeling, or observational learning, is the idea that people or animals can learn from watching and copying the behavior of others.",
+     "section": "MCQ"
+    },
+    {
+     "number": 14,
+     "stem": "In a famous study, a researcher showed that rats put in a maze for a set of trials without a reward suddenly completed the maze much faster once a reward was introduced. This finding shows that the rats",
+     "options": {
+      "A": "learned during the initial trials.",
+      "B": "evidenced spontaneous recovery.",
+      "C": "improved by instrumental learning.",
+      "D": "failed to make use of cognitive processes."
+     },
+     "context": "",
+     "page_start": 262,
+     "page_end": 263,
+     "correct_answer": "A",
+     "answer_text": "This is an example of “cognitive mapping” research. Rats able to explore a maze without reinforcement or punishment were able to complete that same maze later when rewarded. Researchers explain this finding by pointing out that the rats must have learned a mental picture—a cognitive map—of the maze in the early trials. Options B and C are elements of operant conditioning but are not relevant to this example. Option D is the opposite of the correct conclusion: the rats did make use of a cognitive process—a cognitive map.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 13,
+   "unit": 4,
+   "chapter_title": "Social Psychology",
+   "paper_id": "psychology-barrons-2027-ch13-review",
+   "review_page_start": 290,
+   "answer_page_start": 295,
+   "page_end": 299,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Your new neighbor seems to know everything about ancient Greece that your social studies teacher says during the first week of school. You conclude that she is brilliant. You do not consider that she might already have learned about ancient Greece in her old school. You are evidencing",
+     "options": {
+      "A": "the self-fulfilling prophecy effect.",
+      "B": "pluralistic ignorance.",
+      "C": "confirmation bias.",
+      "D": "the fundamental attribution error."
+     },
+     "context": "",
+     "page_start": 290,
+     "page_end": 290,
+     "correct_answer": "D",
+     "answer_text": "Your failure to consider the role of situational factors in explaining your new neighbor’s knowledge of ancient Greece is known as the fundamental attribution error. The self-fulfilling prophecy effect is when one person’s expectations affect another person’s behavior. Pluralistic ignorance is the tendency to look to others for hints about how one is supposed to act in certain situations. Confirmation bias is the tendency to focus on information that supports one’s initial ideas.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "After your school’s football team has a big win, students in the halls can be heard saying “We are awesome.” The next week, after the team loses to the last-place team in the league, the same students lament that “They were terrible.” The difference in these comments illustrates",
+     "options": {
+      "A": "the fundamental attribution error.",
+      "B": "self-serving bias.",
+      "C": "the self-fulfilling prophecy effect.",
+      "D": "the false consensus effect."
+     },
+     "context": "",
+     "page_start": 290,
+     "page_end": 291,
+     "correct_answer": "B",
+     "answer_text": "The students in the school are evidencing self-serving bias, which is the tendency to take more credit for good outcomes than bad ones. When the football team wins, they want to identify with them and therefore say “We are awesome.” When that same team loses, the students distance themselves from the players, explaining that “They were terrible.” Fundamental attribution error is a different attributional bias. It explains that people overestimate the role of personal factors when explaining other people’s behavior. The self-fulfilling prophecy effect is the finding that people’s expectations about others can influence the behavior of those others. The false consensus effect is another example of an attributional bias. It says that people overestimate the number of people who share their beliefs.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Based on the graph and your knowledge of psychology, which of the following statements best summarizes Dr. Julian’s findings?",
+     "options": {
+      "A": "Having an internal locus of control leads to better health.",
+      "B": "People with an external locus of control tend to enjoy better health.",
+      "C": "No significant relationship exists between locus of control and health.",
+      "D": "Better health is associated with having an internal locus of control."
+     },
+     "context": "Use the information below to answer questions 3–5. Dr. Julian is a primary care physician studying the relationship between locus of control and overall health. He measures the health of the adult patients he sees in June using a combination of blood pressure, pulse rate, and cholesterol level, and uses a 9- point measure on which higher scores are indicative of a more internal locus of control. His findings are shown below.",
+     "page_start": 291,
+     "page_end": 292,
+     "correct_answer": "D",
+     "answer_text": "Dr. Julian is researching a correlation between health and locus of control. The scatter plot indicates that higher health scores are associated with higher internal locus of control scores. This is a positive correlation, indicating that options B and D are incorrect. Option A is wrong because correlation does not indicate causation.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "With which of the issues below would an IRB reviewing this study be most concerned?",
+     "options": {
+      "A": "Confidentiality",
+      "B": "Psychological harm",
+      "C": "Physical harm",
+      "D": "Deception"
+     },
+     "context": "Use the information below to answer questions 3–5. Dr. Julian is a primary care physician studying the relationship between locus of control and overall health. He measures the health of the adult patients he sees in June using a combination of blood pressure, pulse rate, and cholesterol level, and uses a 9- point measure on which higher scores are indicative of a more internal locus of control. His findings are shown below.",
+     "page_start": 292,
+     "page_end": 292,
+     "correct_answer": "A",
+     "answer_text": "There is very little risk of psychological or physical harm as a result of this study. If participants have access to their health or locus of control scores, they are unlikely to reveal anything those patients don’t already know. There is no indication deception is used in the study. But confidentiality is always an important ethical consideration, especially when health results are part of the research.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Dr. Julian’s colleague suggests that he add several factors to his measure of health. This suggestion is most related to Dr. Julian’s",
+     "options": {
+      "A": "ability to generalize his findings.",
+      "B": "likelihood of finding significant results.",
+      "C": "operational definitions of variables.",
+      "D": "chance to be published."
+     },
+     "context": "Use the information below to answer questions 3–5. Dr. Julian is a primary care physician studying the relationship between locus of control and overall health. He measures the health of the adult patients he sees in June using a combination of blood pressure, pulse rate, and cholesterol level, and uses a 9- point measure on which higher scores are indicative of a more internal locus of control. His findings are shown below.",
+     "page_start": 292,
+     "page_end": 292,
+     "correct_answer": "C",
+     "answer_text": "The operational definition of health in the original study is “...a combination of blood pressure, pulse r ate, and cholesterol level.” Adding factors to the health score is a change in how health is being operationally defined. Adding factors to the health measure won’t necessarily influence generalizability, statistical significance, or chances of being accepted to a journal.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Janine has always hated the color orange. However, once she became a student at Princeton, she began to wear a lot of orange Princeton Tiger clothing. The discomfort caused by her long-standing dislike of the color orange and her current ownership of so much orange-and-black-striped clothing is known as",
+     "options": {
+      "A": "cognitive dissonance.",
+      "B": "contradictory concepts.",
+      "C": "conflicting motives.",
+      "D": "opposing cognitions."
+     },
+     "context": "",
+     "page_start": 292,
+     "page_end": 292,
+     "correct_answer": "A",
+     "answer_text": "Janine is experiencing cognitive dissonance. The combination of her hatred of the color orange and her ownership of a lot of orange clothing results in a tension called cognitive dissonance. It will motivate her to reduce the tension by either changing her opinion of orange or radically altering her wardrobe. All of the other terms are made up.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Which of the following is the best example of prejudice?",
+     "options": {
+      "A": "Billy will not let girls play on his hockey team.",
+      "B": "Santiago dislikes cheerleaders.",
+      "C": "Athena says she can run faster than anybody on the playground.",
+      "D": "Mr. Tamp calls on boys more often than girls."
+     },
+     "context": "",
+     "page_start": 292,
+     "page_end": 293,
+     "correct_answer": "B",
+     "answer_text": "A prejudice is an attitude, while discrimination involves an action. Santiago has a negative attitude or prejudice toward cheerleaders. Billy and Mr. Tamp are engaging in discrimination by acting differently toward different groups of people. Athena may be either really fast or overconfident, but she is not evidencing a prejudice.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "On the first day of class, Mr. Simpson divides his class into four competing groups. On the fifth day of school, Jody is sent to the principal for kicking members of the other groups. Mr. Simpson can be faulted for encouraging the creation of",
+     "options": {
+      "A": "group polarization.",
+      "B": "deindividuation.",
+      "C": "out-group bias.",
+      "D": "superordinate goals."
+     },
+     "context": "",
+     "page_start": 293,
+     "page_end": 293,
+     "correct_answer": "C",
+     "answer_text": "By dividing his students into groups, Mr. Simpson fostered the development of in-group and out-group bias, the belief that members of one’s own group are superior to members of other groups. Although Jody’s aggressive behavior cannot be fully explained by Mr. Simpson’s grouping, the fact that he attacks only members of other groups suggests that out-group bias may play a role. Group polarization is the tendency of groups to take more extreme positions than those taken by their individual members. Since Jody acts alone and not as part of a group, his aggression cannot be seen as an example of deindividuation. Superordinate goals are helpful in reducing conflict between groups by making the groups’ success contingent upon their cooperation.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "What is most likely to explain the difference in findings between the two parts of the study?",
+     "options": {
+      "A": "People are more likely to take an online study seriously than an in-person survey",
+      "B": "Differences between commuters and people taking online tests",
+      "C": "Explicit attitudes often don’t match implicit attitudes",
+      "D": "The two studies weren’t done at the same time"
+     },
+     "context": "Use the information below to answer questions 9 and 10. Arturo is interested in why the United States has never elected a woman to be president. Over a school vacation, he goes to a busy commuter rail station and surveys people about whether they would be willing to vote for a woman for the presidency. Approximately 95 percent of the people Arturo surveys say they would be just as likely to vote for a woman for president as for a man. Arturo then sets up an online test to show whether people are more likely to associate male names with positions of leadership than female names. He advertises for respondents on several community message boards, and he finds that nearly 95 percent of people are quicker to pair male names with leadership positions.",
+     "page_start": 293,
+     "page_end": 294,
+     "correct_answer": "C",
+     "answer_text": "Options A, B, and D are possible, but the question asks for the most likely explanation, which is that our explicit attitudes (such as opinions measured on a self-report survey) can be very different from our implicit attitudes (such as our tendency to associate leadership with male names due to internalized stereotypes).",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "Who is the population for the in-person survey Arturo conducted?",
+     "options": {
+      "A": "The people who answered his survey",
+      "B": "The people who were at the train station when he conducted the survey",
+      "C": "Americans who commute by train",
+      "D": "Working Americans"
+     },
+     "context": "Use the information below to answer questions 9 and 10. Arturo is interested in why the United States has never elected a woman to be president. Over a school vacation, he goes to a busy commuter rail station and surveys people about whether they would be willing to vote for a woman for the presidency. Approximately 95 percent of the people Arturo surveys say they would be just as likely to vote for a woman for president as for a man. Arturo then sets up an online test to show whether people are more likely to associate male names with positions of leadership than female names. He advertises for respondents on several community message boards, and he finds that nearly 95 percent of people are quicker to pair male names with leadership positions.",
+     "page_start": 294,
+     "page_end": 294,
+     "correct_answer": "D",
+     "answer_text": "The population for a study is the larger group that a researcher wants to “generalize” the results to. In this study, the researcher is “... is interested in wh y the Uni ted States has never elected a woman to be president.” This research question indicates that Arturo wants know about attitudes and behaviors of all voters in the US.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "Which of the following suggestions is most likely to reduce the hostility felt between antagonistic groups?",
+     "options": {
+      "A": "Force the groups to spend a lot of time together.",
+      "B": "Encourage the groups to avoid each other as much as possible.",
+      "C": "Give the groups a task that cannot be solved unless they work together.",
+      "D": "Set up a program in which speakers attempt to persuade the groups to get along."
+     },
+     "context": "",
+     "page_start": 294,
+     "page_end": 294,
+     "correct_answer": "C",
+     "answer_text": "A task that requires groups to cooperate is an example of a superordinate goal. Such superordinate goals are effective in breaking down hostility between groups. Contact between antagonistic groups without superordinate goals is less successful, and simply avoiding members of the other group is unlikely to decrease the intergroup hostility. Although guest speakers may be able to influence the group members’ attitudes, they will be less effective than the use of superordinate goals.",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "On Monday, Tanya asked her teacher to postpone Tuesday’s test until Friday. After her teacher flatly refused, Tanya asked the teacher to push the test back one day, to Wednesday. Tanya is using the compliance strategy known as",
+     "options": {
+      "A": "door-in-the-face.",
+      "B": "norms of reciprocity.",
+      "C": "compromise.",
+      "D": "strategic bargaining."
+     },
+     "context": "",
+     "page_start": 294,
+     "page_end": 294,
+     "correct_answer": "A",
+     "answer_text": "Tanya made a large request and, when refused, came back with a smaller, more reasonable sounding request. This compliance strategy is known as door-in-the-face. Had Tanya brought her teacher an apple and then made her request, she would have been attempting to capitalize on norms of reciprocity, the idea that one good turn deserves another. Although Tanya is, in fact, attempting to broker a compromise and engage in some bargaining, the strategy she used has a more specific, psychological name.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "What might explain the phenomenon noticed by Coach Price?",
+     "options": {
+      "A": "Social facilitation",
+      "B": "Groupthink",
+      "C": "Conformity",
+      "D": "Group polarization"
+     },
+     "context": "Questions 13 and 14 refer to the following. Coach Price believes her varsity basketball team isn’t trying hard enough at its practices. As evidence, she shows them the table below that includes the free throw percentages for the starting five players across the last few practices as opposed to the last few games. Average Percent of Average Percent of Free Free Throws Made in Throws Made in Practices Games Cathy 65 75 LaTonia 70 72 Tina 56 60 Thalia 64 76 Deb 51 68",
+     "page_start": 295,
+     "page_end": 295,
+     "correct_answer": "A",
+     "answer_text": "Social facilitation is when people perform a well-practiced task better when other people are present. The varsity players are good free throw shooters, and the presence of other people is likely to improve their performance. Groupthink is the tendency of groups to make poor decisions under conditions of high pressure because people are afraid to speak up and oppose what appears to be the group consensus. Conformity is when individuals change their behavior to fit in with a group. Group polarization is when groups make more extreme decisions than their members would have made separately.",
+     "section": "MCQ"
+    },
+    {
+     "number": 14,
+     "stem": "Which of the following values is larger in the distribution of free throws taken during practices than in the distribution of free throws taken during games?",
+     "options": {
+      "A": "Median",
+      "B": "Range",
+      "C": "Mean",
+      "D": "Mode"
+     },
+     "context": "Questions 13 and 14 refer to the following. Coach Price believes her varsity basketball team isn’t trying hard enough at its practices. As evidence, she shows them the table below that includes the free throw percentages for the starting five players across the last few practices as opposed to the last few games. Average Percent of Average Percent of Free Free Throws Made in Throws Made in Practices Games Cathy 65 75 LaTonia 70 72 Tina 56 60 Thalia 64 76 Deb 51 68",
+     "page_start": 295,
+     "page_end": 295,
+     "correct_answer": "B",
+     "answer_text": "The range is the highest score minus the lowest score: 19 (70 – 51) for free throws made in practice and 16 (76 – 60) for free throws made during games. The median (middle number when ordered from high to low or vice versa) and mean (numerical average) are both higher in the game distribution. Neither distribution has a mode—the most commonly occurring value—because each value appears only once in each distribution.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 14,
+   "unit": 4,
+   "chapter_title": "Personality",
+   "paper_id": "psychology-barrons-2027-ch14-review",
+   "review_page_start": 309,
+   "answer_page_start": 312,
+   "page_end": 313,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Juan has a huge crush on Sally, but he never admits it. Instead, he tells all who will listen that Sally is really “into him.” Psychoanalysts would see Juan’s bragging as an example of",
+     "options": {
+      "A": "displacement.",
+      "B": "projection.",
+      "C": "sublimation.",
+      "D": "denial."
+     },
+     "context": "",
+     "page_start": 310,
+     "page_end": 310,
+     "correct_answer": "B",
+     "answer_text": "Juan is projecting. Instead of acknowledging the feelings he has toward Sally, he views Sally as having those feelings toward him. Were Juan to displace his feelings, he would express love for someone else or something else. Juan could sublimate by directing his energies toward honing his ice hockey skills or writing poetry. Finally, were Juan to deny his crush, when asked about it, he would continue to deny it.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Subash visits a psychologist who shows him a picture of a man standing on a dock and staring off into the distance. The psychologist asks Subash what the man is thinking and what he is likely to do next. The psychologist seems most interested in",
+     "options": {
+      "A": "Subash’s dominant traits.",
+      "B": "Subash’s explanatory style.",
+      "C": "Subash’s history of reinforcement.",
+      "D": "Subash’s unconscious."
+     },
+     "context": "",
+     "page_start": 310,
+     "page_end": 310,
+     "correct_answer": "D",
+     "answer_text": "The test this psychologist is using seems to be a projective test (possibly the Thematic Apperception Test, TAT, which involves clients looking at pictures and telling their “story.”) Projective tests are most frequently used by psychodynamic psychologists who interpret the stories people tell as a way to uncover what they believe may be conflicts, stresses, etc. in their unconscious minds.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "What kind of psychologist is Stella likely to consider herself?",
+     "options": {
+      "A": "Behaviorist",
+      "B": "Humanistic",
+      "C": "Cognitive",
+      "D": "Psychodynamic"
+     },
+     "context": "Use the information below to answer questions 3 and 4. Dr. Stella is a clinical psychologist who believes that the most important thing with which she can provide her patients is a warm and accepting environment. As part of her patient intake process, she gathers data on her patients’ initial subjective well-being and on whether or not they report getting unconditional positive regard from the important people in their lives. The data she has collected is graphed below.",
+     "page_start": 311,
+     "page_end": 311,
+     "correct_answer": "B",
+     "answer_text": "Humanistic psychologists are interested in helping their clients develop into their “best” (most “actualized”) selves. One of the most important tools to accomplish this according to the humanistic psychological perspective is providing individuals with unconditional positive regard, which is similar to a “...a warm and accepting environment.”",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Is the difference in subjective well-being between the two groups of patients statistically significant?",
+     "options": {
+      "A": "Yes, because it’s more than a 5% difference",
+      "B": "No, the group means are too similar",
+      "C": "Maybe, you need to check the descriptive statistics",
+      "D": "Maybe, you need to check the inferential statistics"
+     },
+     "context": "Use the information below to answer questions 3 and 4. Dr. Stella is a clinical psychologist who believes that the most important thing with which she can provide her patients is a warm and accepting environment. As part of her patient intake process, she gathers data on her patients’ initial subjective well-being and on whether or not they report getting unconditional positive regard from the important people in their lives. The data she has collected is graphed below.",
+     "page_start": 311,
+     "page_end": 311,
+     "correct_answer": "D",
+     "answer_text": "The bar graph indicates a difference between the unconditional positive regard (UPR) and non-unconditional positive regard (No UPR) groups, but in order to determine whether this difference is statistically significant, the researchers would need to use inferential statistics. These statistical techniques are designed to determine whether a difference between groups is likely to be due to the independent variable or random factors.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "According to the data, individualistic and collectivist cultures differ most in terms of",
+     "options": {
+      "A": "conscientiousness.",
+      "B": "agreeableness.",
+      "C": "openness.",
+      "D": "extraversion."
+     },
+     "context": "Use the information below to answer questions 5–7. Neuroticism (emotional Culture Conscientiousness Agreeableness stability) Openness Extraversion M SD M SD M SD M SD M SD Individualist 5.8 .8 4.7 .5 3.6 .6 5.4 .6 5.3 .7 Collectivist 5.7 .2 6.2 .6 3.5 .9 5.0 .8 4.9 .7",
+     "page_start": 311,
+     "page_end": 311,
+     "correct_answer": "B",
+     "answer_text": "Examining the means in the data table reveals that the difference in means between the individualist and collectivist groups are the most different in the area of Agreeableness (4.7 and 6.2). The means of the groups are more similar in all the other areas.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Which group-trait combination resulted in the most consistent responses to the personality inventory?",
+     "options": {
+      "A": "Collectivist-Conscientiousness",
+      "B": "Collectivist-Emotional Stability",
+      "C": "Individualist-Agreeableness",
+      "D": "Individualist-Openness"
+     },
+     "context": "Use the information below to answer questions 5–7. Neuroticism (emotional Culture Conscientiousness Agreeableness stability) Openness Extraversion M SD M SD M SD M SD M SD Individualist 5.8 .8 4.7 .5 3.6 .6 5.4 .6 5.3 .7 Collectivist 5.7 .2 6.2 .6 3.5 .9 5.0 .8 4.9 .7",
+     "page_start": 311,
+     "page_end": 311,
+     "correct_answer": "A",
+     "answer_text": "The most consistent results would indicate that all the scores are similar and close to the mean (in this case, 5.7.) The table also includes standard deviation (SD) scores. Standard deviation is an indication of how far, on average, all scores are “away” from the mean. Since the standard deviation for the Collectivist-Conscientiousness group is the lowest SD (.2), that means these scores are the most consistent.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "If Dion surveyed the same people in 10 years, would you expect his change a lot?",
+     "options": {
+      "A": "Yes, personalities develop and change lot over time.",
+      "B": "Yes, at least one or two of the traits are likely to change significantly.",
+      "C": "No, personality traits are relatively stable across the lifespan.",
+      "D": "No, personality traits are innate and cannot be changed."
+     },
+     "context": "Use the information below to answer questions 5–7. Neuroticism (emotional Culture Conscientiousness Agreeableness stability) Openness Extraversion M SD M SD M SD M SD M SD Individualist 5.8 .8 4.7 .5 3.6 .6 5.4 .6 5.3 .7 Collectivist 5.7 .2 6.2 .6 3.5 .9 5.0 .8 4.9 .7",
+     "page_start": 312,
+     "page_end": 312,
+     "correct_answer": "C",
+     "answer_text": "Reliable and valid personality tests (such as the “Big 5” personality tests that measure conscientiousness, agreeableness, neuroticism, openness, and extraversion) are generally stable over the lifespan, but they often change at least slightly over time.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Cettina fills out a personality inventory several times over the course of one year. The results of each administration of the test are extremely different. Cettina’s situation suggests that this personality inventory may not be",
+     "options": {
+      "A": "reliable.",
+      "B": "standardized.",
+      "C": "normed.",
+      "D": "projective."
+     },
+     "context": "",
+     "page_start": 312,
+     "page_end": 312,
+     "correct_answer": "A",
+     "answer_text": "A test that does not yield consistent results is not reliable. Such a test may still have been standardized and normed, both of which mean that it has been pretested on a large population and structured so that certain percentages of people answer each question in certain ways. Projective tests are used by psychoanalysts to try to see what is in a person’s unconscious.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 15,
+   "unit": 4,
+   "chapter_title": "Motivation and Emotion",
+   "paper_id": "psychology-barrons-2027-ch15-review",
+   "review_page_start": 329,
+   "answer_page_start": 333,
+   "page_end": 335,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "How would the drive reduction theory explain a person accepting a new job with a higher salary but that requires more work and responsibility?",
+     "options": {
+      "A": "Money is a more powerful incentive for this individual than free time.",
+      "B": "This person seeks a higher activity level and takes the job in order to satisfy this drive.",
+      "C": "For this person, money is a higher-level need than free time.",
+      "D": "The person takes the job to satisfy the secondary drive of increased salary."
+     },
+     "context": "",
+     "page_start": 329,
+     "page_end": 330,
+     "correct_answer": "D",
+     "answer_text": "Money is a secondary drive people learn to associate with primary drives. Choice (A) refers to incentive theory, choice (B) refers to arousal theory, and choice (C) refers to the hierarchy of needs.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "What is the principal difference between how achievement motivation theory and arousal theory explain human motivation?",
+     "options": {
+      "A": "Achievement motivation is a specific example of arousal motivation.",
+      "B": "Arousal theory describes the optimum level of general arousal an individual seeks, while achievement motivation describes what type of goals the individual is motivated to achieve.",
+      "C": "Arousal theory describes motivation by referring to stages in our responses to stress (the general adaptation syndrome), while achievement motivation is not used to describe motivation due to stress.",
+      "D": "A person with a low optimum level of arousal according to arousal theory would have a high achievement motivation."
+     },
+     "context": "",
+     "page_start": 330,
+     "page_end": 330,
+     "correct_answer": "B",
+     "answer_text": "Arousal theory says that humans are motivated to seek a certain level of arousal. Achievement motivation theory describes how we are motivated to meet goals and master our environment. The rest of the choices describe the theories incorrectly.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Which of the following are reasons why intrinsic motivation might be more advantageous than extrinsic motivation?",
+     "options": {
+      "A": "Intrinsic motivation might be more enduring since extrinsic motivations are usually temporary.",
+      "B": "Intrinsic motivations are easier and more convenient to provide.",
+      "C": "Intrinsic motivations are higher on Maslow’s hierarchy of needs, so we are motivated to meet them before extrinsic needs.",
+      "D": "Intrinsic motivations are more likely to be primary drives. Extrinsic motivations are secondary drives."
+     },
+     "context": "",
+     "page_start": 330,
+     "page_end": 331,
+     "correct_answer": "A",
+     "answer_text": "An intrinsically motivated person motivates himself or herself with internal rewards like satisfaction. Extrinsic motivators like money are usually temporary, and the individual may lose motivation for the task when the motivator stops or does not increase. Intrinsic motivators are not easier to provide. In fact, inspiring people to become intrinsically motivated may be more difficult. Intrinsic/extrinsic motivation does not relate to Maslow’s hierarchy or to primary and secondary drives.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "In which of the following hormones is Dr. Pinchasick most likely to be interested?",
+     "options": {
+      "A": "GABA",
+      "B": "Glutamate",
+      "C": "Ghrelin",
+      "D": "Melatonin"
+     },
+     "context": "Use the information below to answer questions 4 and 5. Dr. Pinchasick is a psychiatrist who helps people struggling with their weight. She uses a combination of methods including brain scans and blood tests to monitor the physiological factors that might influence people’s weight.",
+     "page_start": 331,
+     "page_end": 331,
+     "correct_answer": "C",
+     "answer_text": "Some researchers call Ghrelin the “hunger hormone” because it is an important component of the systems in our body that produce our perceptions of hunger and feelings of being full. GABA and Glutamate are brain neurotransmitters. Melatonin is a hormone, but is more involved in our sleep/wake cycle than hunger perceptions.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Dr. Pinchasick is looking at a PET scan of one of her patients’ brains. Which of the following regions of the brain is likely to draw her interest?",
+     "options": {
+      "A": "Occipital lobe",
+      "B": "Hippocampus",
+      "C": "Thalamus",
+      "D": "Hypothalamus"
+     },
+     "context": "Use the information below to answer questions 4 and 5. Dr. Pinchasick is a psychiatrist who helps people struggling with their weight. She uses a combination of methods including brain scans and blood tests to monitor the physiological factors that might influence people’s weight.",
+     "page_start": 331,
+     "page_end": 331,
+     "correct_answer": "D",
+     "answer_text": "The hypothalamus is an important part of the control system for several bodily systems, including “feeding” (hunger and feelings of satiety). The hypothalamus is involved in the processes of hormones influencing behaviors, including the impact of Ghrelin on hunger perception. The other brain areas listed are less likely to be involved in hunger perception.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Which of the following is an appropriate conclusion to draw based on the data?",
+     "options": {
+      "A": "Children across the world learn to recognize emotions at about the same age.",
+      "B": "There was a high degree of agreement across countries.",
+      "C": "Expressions of emotion are genetically programmed.",
+      "D": "People are much better at recognizing emotions in some countries than in others."
+     },
+     "context": "Questions 6 and 7 refer to the following. Dr. Habib is the primary investigator in a cross-cultural study of emotion across rural villages in India, Mexico, Chad, and Croatia. Her team shows thousands of children between the ages of 10 and 12 the same set of photos of people depicting the emotions of happiness, sadness, and disgust to see if a similar number of people recognize the emotions across the different countries. The data from the study is presented below. India Mexico Chad Croatia Happy 97% 95% 90% 96% Angry 93% 94% 96% 92% Disgusted 78% 80% 80% 76%",
+     "page_start": 332,
+     "page_end": 332,
+     "correct_answer": "B",
+     "answer_text": "With between 76 percent and 97 percent of people agreeing on all emotions and in all countries, it is reasonable to conclude that there was a high degree of agreement. Since the data were collected from children who were already at least 10 years of age and therefore have been extensively influenced by both nature and nurture, it isn’t possible to conclude anything about when or how this information was learned. All the countries appear to perform similarly on the task, according to the data.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Which country’s data has the highest range?",
+     "options": {
+      "A": "India",
+      "B": "Mexico",
+      "C": "Chad",
+      "D": "Croatia"
+     },
+     "context": "Questions 6 and 7 refer to the following. Dr. Habib is the primary investigator in a cross-cultural study of emotion across rural villages in India, Mexico, Chad, and Croatia. Her team shows thousands of children between the ages of 10 and 12 the same set of photos of people depicting the emotions of happiness, sadness, and disgust to see if a similar number of people recognize the emotions across the different countries. The data from the study is presented below. India Mexico Chad Croatia Happy 97% 95% 90% 96% Angry 93% 94% 96% 92% Disgusted 78% 80% 80% 76%",
+     "page_start": 332,
+     "page_end": 332,
+     "correct_answer": "D",
+     "answer_text": "The range is the high score minus the low score. Croatia’s range is 20, one point higher than India’s range of 19.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Miki meets Nicky at Six Flags while waiting in a long line for a rollercoaster. They end up in the same car, and after the thrilling ride, exchange numbers and agree to get together later in the week. Three nights later, over tacos, Miki realizes that she finds Nicky to be incredibly dull. What might explain her initial attraction to him?",
+     "options": {
+      "A": "Emotions involve unique physiological responses.",
+      "B": "Emotions have physiological and cognitive components that occur simultaneously.",
+      "C": "Emotions are essential to the adaptation of the species.",
+      "D": "Emotions involve the cognitive interpretation of physiological responses."
+     },
+     "context": "",
+     "page_start": 332,
+     "page_end": 333,
+     "correct_answer": "D",
+     "answer_text": "Miki and Nicky’s situation is a good example of the “two factor” theory of emotion: the idea that emotions are a combination of physiological arousal (which would be heightened by being on a roller coaster) and a cognitive label or interpretation of an experience. Options A, B, and C are possibly true statements, but do not apply as specifically to Miki and Nicky’s situation.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "Some research suggests that the expression of several basic emotions is universal. Which would be the best evidence for this claim.",
+     "options": {
+      "A": "A study that showed that children in Bangkok, Nairobi, and New York, all associate smiles with happiness.",
+      "B": "A study that showed that adults in cultures with no prior contact with other parts of the world can identify an angry face.",
+      "C": "A study that showed that babies look longer at a smiling face than a sad face.",
+      "D": "A study that showed that women across all continents are quicker to recognize emotions than men."
+     },
+     "context": "",
+     "page_start": 333,
+     "page_end": 333,
+     "correct_answer": "B",
+     "answer_text": "If people from cultures who have had no previous contact with each other all interpret the same facial expression as “anger,” that’s the most direct evidence that some basic human emotions might be universal (rather than culture-specific). Options A, C, and D may be related to the idea that some emotions are universal, but these pieces of evidence are not as direct or conclusive as the evidence described in answer B.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 16,
+   "unit": 5,
+   "chapter_title": "Health Psychology",
+   "paper_id": "psychology-barrons-2027-ch16-review",
+   "review_page_start": 342,
+   "answer_page_start": 347,
+   "page_end": 349,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "When Shannon lost her job, she found herself devoting more time to her family and friends. What is the best way to describe this response?",
+     "options": {
+      "A": "Fight-or-flight",
+      "B": "Dysfunctional",
+      "C": "Eclectic",
+      "D": "Tend or befriend"
+     },
+     "context": "",
+     "page_start": 342,
+     "page_end": 342,
+     "correct_answer": "D",
+     "answer_text": "Tend and befriend is one way people deal with stressful situations like losing a job; it involves bolstering one’s social connections and relationships with others. Fight-or-flight is another common response to stressful situations, but it involves either fighting against or fleeing from the cause of the stress, which is not what this example describes.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Jenna recently got married. She and her new spouse moved to another state because Jenna got a significant promotion at work. Everything in her life is going just as she had hoped and she is busy and happy with her situation. Which of the following is Jenna most likely to be experiencing?",
+     "options": {
+      "A": "Eustress",
+      "B": "ACEs",
+      "C": "Diathesis-stress",
+      "D": "Disorganized thinking"
+     },
+     "context": "",
+     "page_start": 343,
+     "page_end": 343,
+     "correct_answer": "A",
+     "answer_text": "Change has been found to correlate with stress. Jenna has had a lot of change in her life recently—most of it clearly associated with good things. Eustress (as opposed to distress) is motivating stress.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "The increased percentage of students seeking help during the break is most likely explained by",
+     "options": {
+      "A": "the general adaptation syndrome.",
+      "B": "emotion-focused coping strategies.",
+      "C": "subjective well being.",
+      "D": "the evolutionary perspective."
+     },
+     "context": "Use the information below to answer questions 3–5. In a study of visits to the student health center at his university, Jaime collects the data shown in the graph below.",
+     "page_start": 343,
+     "page_end": 343,
+     "correct_answer": "A",
+     "answer_text": "According to the general adaptation syndrome (GAS), people are most likely to report being sick when they reach the final of the three phases of GAS—exhaustion. It is possible that students might be going through the first two stages—alarm and resistance—earlier in the semester. By mid-semester break, students may be in the exhaustion phase, leading to them actually recognizing/feeling the effects of stress-related illness, leading to the increased percentage of health center visits at that time. Options B, C, and D are related to emotional well being, but do not apply as directly to this scenario as answer A.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Which would be the best way for Jaime to have collected the data for this study?",
+     "options": {
+      "A": "By randomly surveying at least 100 students at the school",
+      "B": "By observing how many people entered the health center on one day during each time period",
+      "C": "By obtaining data from the health center without any student identifiers",
+      "D": "By conducting a meta-analysis"
+     },
+     "context": "Use the information below to answer questions 3–5. In a study of visits to the student health center at his university, Jaime collects the data shown in the graph below.",
+     "page_start": 344,
+     "page_end": 344,
+     "correct_answer": "C",
+     "answer_text": "Options A and B are possible methods Jamie could have used, but obviously these sampling methods would only provide an estimate or what Jamie wants to measure: “... visi ts to the student heal th center at his universi t y . ” The best way to gather the data would be the most complete and accurate method: getting actual data about visits from the health center itself. Option D refers to a research method that does not involve this kind of data collection.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "If Jaime wanted to make a statement about how much more likely people were to go to the health center during break than during the beginning of the semester, he would be most interested in computing the",
+     "options": {
+      "A": "statistical significance of the difference.",
+      "B": "validity of the difference.",
+      "C": "reliability of the difference.",
+      "D": "effect size of the difference."
+     },
+     "context": "Use the information below to answer questions 3–5. In a study of visits to the student health center at his university, Jaime collects the data shown in the graph below.",
+     "page_start": 344,
+     "page_end": 344,
+     "correct_answer": "A",
+     "answer_text": "If Jamie used inferential statistical techniques, they could make a statement like “Students are much more likely to visit the health center during mid-semester break, and these results are unlikely to be due to chance because the differences are statistically significant.” The other options—validity, reliability, and effect size—do not relate directly to the likelihood of visits.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Is Professor Blythe likely to be surprised by his findings?",
+     "options": {
+      "A": "Yes, he likely expected there to be larger differences between the groups.",
+      "B": "Yes, he likely expected the grateful group to have much lower SWB than the other group.",
+      "C": "No, the size and direction of the difference is likely what he expected.",
+      "D": "No, he probably expected both groups to have very high SWB levels."
+     },
+     "context": "Questions 6 and 7 refer to the following. Professor Blythe randomly assigns half of the students in his clinical psychology class to keep a journal in which they record one thing they are grateful for each day. The other students are asked to record one thing that happened each day. At the end of the semester, Professor Blythe surveys the students about their subjective well-being (SWB) on an 11-point scale; his findings appear in the table below. Standard Mean SWB Deviation One thing that made them grateful 8.2 1.2 One thing that happened 8.1 1.5",
+     "page_start": 345,
+     "page_end": 345,
+     "correct_answer": "A",
+     "answer_text": "Research suggests that keeping gratitude journals is an effective means of elevating SWB. Therefore, Professor Blythe likely expected to see the group keeping the journals to report markedly higher SWB scores than the group that did not.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Which of the following is the best definition of SWB?",
+     "options": {
+      "A": "The frequency with which one experiences high levels of joy",
+      "B": "How financially well off a person feels relative to others around them",
+      "C": "A person’s overall sense of satisfaction with their life",
+      "D": "The variation of moods between different people experiencing similar life circumstances"
+     },
+     "context": "Questions 6 and 7 refer to the following. Professor Blythe randomly assigns half of the students in his clinical psychology class to keep a journal in which they record one thing they are grateful for each day. The other students are asked to record one thing that happened each day. At the end of the semester, Professor Blythe surveys the students about their subjective well-being (SWB) on an 11-point scale; his findings appear in the table below. Standard Mean SWB Deviation One thing that made them grateful 8.2 1.2 One thing that happened 8.1 1.5",
+     "page_start": 345,
+     "page_end": 345,
+     "correct_answer": "C",
+     "answer_text": "Subjective well-being is most commonly defined as someone’s level of happiness and satisfaction with life.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Based on the values presented in the table, knowledge of which trait will best enable the prediction of someone’s happiness level?",
+     "options": {
+      "A": "Wisdom",
+      "B": "Justice",
+      "C": "Narcissism",
+      "D": "Courage"
+     },
+     "context": "",
+     "page_start": 346,
+     "page_end": 346,
+     "correct_answer": "C",
+     "answer_text": "Correlations range from 0 (no correlation) to 1 or –1— equally strong correlations that denote direct and inverse relationships respectively. Since –0.8 is the furthest number from 0, the correlation between happiness and narcissism is the strongest correlation of the ones presented—it just happens to show an inverse relationship where greater happiness is associated with lower levels of narcissism.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "Based on the data in the graph, which can Ms. Jenson conclude?",
+     "options": {
+      "A": "Journaling leads to happiness",
+      "B": "Journaling is strongly associated with greater happiness",
+      "C": "Journaling is not associated with greater happiness",
+      "D": "Journaling is strongly associated with less happiness"
+     },
+     "context": "Use the information below to answer questions 9–11. Ms. Jenson teaches her AP psychology class about gratitude journaling and assigns them to keep a journal for one school term. At the end of the term, she surveys students about their happiness, counts the number of times they wrote in their journals, and creates the graph below.",
+     "page_start": 346,
+     "page_end": 347,
+     "correct_answer": "C",
+     "answer_text": "This scatter plot does not clearly indicate a positive or negative correlation between journal entries and happiness. There isn’t a clear relationship between these two variables. Therefore, the only conclusion Ms. Jensen should draw from these data is that these two variables are not associated with each other in a predictable way.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "The graph above is usually called",
+     "options": {
+      "A": "a double blind.",
+      "B": "the normal curve.",
+      "C": "a scatterplot.",
+      "D": "regression to the mean."
+     },
+     "context": "Use the information below to answer questions 9–11. Ms. Jenson teaches her AP psychology class about gratitude journaling and assigns them to keep a journal for one school term. At the end of the term, she surveys students about their happiness, counts the number of times they wrote in their journals, and creates the graph below.",
+     "page_start": 347,
+     "page_end": 347,
+     "correct_answer": "C",
+     "answer_text": "This type of graph, with individual points each representing two values about one individual or instance, is called a scatterplot and is used to represent correlational data. Option B and D represent statistical terms but they do not relate to this kind of graph. Option A refers to an element of experimental design, not a scatterplot graph.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "Friedrich Nietzsche is credited with saying that what doesn’t kill you makes you stronger. This idea is most in line with the psychological concept of",
+     "options": {
+      "A": "temperament.",
+      "B": "resistance.",
+      "C": "humanism.",
+      "D": "posttraumatic growth."
+     },
+     "context": "Use the information below to answer questions 9–11. Ms. Jenson teaches her AP psychology class about gratitude journaling and assigns them to keep a journal for one school term. At the end of the term, she surveys students about their happiness, counts the number of times they wrote in their journals, and creates the graph below.",
+     "page_start": 347,
+     "page_end": 347,
+     "correct_answer": "D",
+     "answer_text": "Posttraumatic growth refers to positive experiences that may result after trauma or stress. The quote by Nietzsche refers to a similar idea: a stressful event may make us stronger. Options A, B, and C are terms related to emotions/well-being, but do not apply specific to this quotation.",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 17,
+   "unit": 5,
+   "chapter_title": "Psychological Disorders",
+   "paper_id": "psychology-barrons-2027-ch17-review",
+   "review_page_start": 369,
+   "answer_page_start": 374,
+   "page_end": 376,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Women in the United States have a higher rate of depression than do men. Which kind of psychologist would be most likely to explain this higher incidence in terms of the pressures and prejudices that women suffer?",
+     "options": {
+      "A": "Humanistic",
+      "B": "Psychodynamic",
+      "C": "Sociocultural",
+      "D": "Behavioral"
+     },
+     "context": "",
+     "page_start": 369,
+     "page_end": 369,
+     "correct_answer": "C",
+     "answer_text": "Sociocultural psychologists believe that mental illness is mainly caused by certain negative aspects of society such as sexism and poverty.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "At his last appointment with his therapist, Ivan explained that since he lost his job, he has felt completely worthless and depressed. Which of the following statements would a strictly cognitive therapist be most likely to say?",
+     "options": {
+      "A": "“Tell me about your recent dreams.”",
+      "B": "“I’m going to give you a homework assignment to do three things that you used to enjoy. ”",
+      "C": "“That’s ridiculous; no one is completely worthless.”",
+      "D": "“So, you’re feeling very down.”"
+     },
+     "context": "",
+     "page_start": 369,
+     "page_end": 370,
+     "correct_answer": "C",
+     "answer_text": "Cognitive therapy is often somewhat confrontational as cognitive psychologists attempt to change the irrational ways their clients think. A common problem that cognitive psychologists fight is depressed people’s tendency to globalize and internalize negative thoughts. This is evidenced by Ivan’s assertion that he is completely worthless. The statement in choice (A) would more likely be made by a psychoanalytic or psychodynamic therapist. They suggest that the roots of many problems are laid in childhood, and they stress the importance of the unconscious mind to which dreams are clues. The statement in choice (B) would most likely be made by a behaviorist as it stresses the importance of behavior. The statement in choice (D) reflects humanistic psychologists’ belief in being nondirective and reflecting back what their clients say.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "Carla, a clinical social worker, works with young adults at high risk for suicide to improve their mindset. When asked about her favorite approaches, Carla says that she uses whatever works. Carla’s approach to therapy would best be described as",
+     "options": {
+      "A": "Psychodynamic.",
+      "B": "Biopsychosocial.",
+      "C": "Eclectic.",
+      "D": "Evidence-based."
+     },
+     "context": "",
+     "page_start": 370,
+     "page_end": 370,
+     "correct_answer": "C",
+     "answer_text": "Clinical psychologists who use a variety of theoretical orientations based on which might be most effective in specific situations are called “eclectic.” Options A and B refer to specific clinical orientations but do not match Carla’s description. Option D is accurate—all therapy should be evidence-based—but isn’t specific to Carl’s statement.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "From the data, Luisa will be able to calculate the",
+     "options": {
+      "A": "mean response.",
+      "B": "effect size response.",
+      "C": "median response.",
+      "D": "modal response."
+     },
+     "context": "Use the information below to answer questions 4–6. For a school project on clinical psychology, Luisa Googles psychologists in her zip code and then contacts everyone she finds via email. Luisa provides the psychologists with a list of perspectives and asks with which they most closely identify. Approximately, one-third of the psychologists reply. Luisa analyzes the data and produces the graph below.",
+     "page_start": 371,
+     "page_end": 371,
+     "correct_answer": "D",
+     "answer_text": "Based on the data Luisa gathered, they can determine the most frequent response (the modal response): cognitive perspective. Options A, B, and C are statistical terms, but do not apply to this data set gathered by Luisa.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "Before Luisa concludes that the dominant perspective in her geographical area is the cognitive one, she should consider",
+     "options": {
+      "A": "whether cognitive psychologists may be more likely to respond than adherents of other perspectives.",
+      "B": "whether confounding variables in her research design could have affected the responses she received.",
+      "C": "whether the social desirability bias could have made her participants less likely to select the cognitive perspective.",
+      "D": "whether there were a sufficient number of psychologists in her zip code to answer this question."
+     },
+     "context": "Use the information below to answer questions 4–6. For a school project on clinical psychology, Luisa Googles psychologists in her zip code and then contacts everyone she finds via email. Luisa provides the psychologists with a list of perspectives and asks with which they most closely identify. Approximately, one-third of the psychologists reply. Luisa analyzes the data and produces the graph below.",
+     "page_start": 371,
+     "page_end": 371,
+     "correct_answer": "A",
+     "answer_text": "If cognitive psychologists are more likely to respond to an email like the one Luisa sent, that would explain the preponderance of cognitive psychology responses she received (this is a kind of response bias). Option B is also true but is not as specific or correct as answer A. Options C and D do not make sense in the context of this question.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "If Luisa were looking for a clinician for herself and she most wanted to see someone who will provide her with the emotional support she needs to fulfill her own inner potential, the graph above suggests that she will have a minimum of __ choices in her zip code.",
+     "options": {
+      "A": "0",
+      "B": "2",
+      "C": "5",
+      "D": "12"
+     },
+     "context": "Use the information below to answer questions 4–6. For a school project on clinical psychology, Luisa Googles psychologists in her zip code and then contacts everyone she finds via email. Luisa provides the psychologists with a list of perspectives and asks with which they most closely identify. Approximately, one-third of the psychologists reply. Luisa analyzes the data and produces the graph below.",
+     "page_start": 372,
+     "page_end": 372,
+     "correct_answer": "B",
+     "answer_text": "The phrase “...provide her wi th the emotional support she needs to f ul fi l l her own inner potential” most clearly aligns with the Humanistic clinical perspective. Luisa received two responses from humanistic therapists.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Juan hears voices that tell him to kill people. Juan is experiencing",
+     "options": {
+      "A": "delusions.",
+      "B": "obsessions.",
+      "C": "anxiety.",
+      "D": "hallucinations."
+     },
+     "context": "",
+     "page_start": 372,
+     "page_end": 372,
+     "correct_answer": "D",
+     "answer_text": "Perceiving sensory stimulation when none exists defines a hallucination. Delusions are irrational thoughts but do not involve a belief in the existence of sensory stimulation. Obsessions are persistent, unwanted thoughts.",
+     "section": "MCQ"
+    },
+    {
+     "number": 8,
+     "stem": "Linda’s neighbors describe her as typically shy and mild mannered. She seems to be a devoted wife and mother to her husband and three children. Unbeknownst to these neighbors, Linda sometimes dresses up in flashy, revealing clothing and goes to bars to pick up strange men. At such times, she is boisterous and overbearing. She tells everyone she meets that her name is Jen. At other times, when she is upset, Linda slips into childlike behavior and responds only to the name Sally. Linda is suffering from a",
+     "options": {
+      "A": "schizophrenic disorder.",
+      "B": "mood disorder.",
+      "C": "dissociative disorder.",
+      "D": "somatic symptom disorder."
+     },
+     "context": "",
+     "page_start": 372,
+     "page_end": 372,
+     "correct_answer": "C",
+     "answer_text": "Linda is suffering from dissociative identity disorder, a type of dissociative disorder. People diagnosed with dissociative identity disorder sometimes behave as if they are experiencing multiple identities with different personalities and habits, such as Linda’s variety of behaviors described in this scenario.",
+     "section": "MCQ"
+    },
+    {
+     "number": 9,
+     "stem": "“I am the most important person in the world” is a statement that might characterize the views of someone with which of the following personality disorders?",
+     "options": {
+      "A": "Schizoid",
+      "B": "Narcissistic",
+      "C": "Histrionic",
+      "D": "Dependent"
+     },
+     "context": "",
+     "page_start": 373,
+     "page_end": 373,
+     "correct_answer": "B",
+     "answer_text": "Narcissism is the love of oneself. People who view themselves as the focus of the world would most likely be classified as having narcissistic personality disorder.",
+     "section": "MCQ"
+    },
+    {
+     "number": 10,
+     "stem": "Stefan was kidnapped when he was 6 and held by his captors for 19 days before he was found and returned to his family. This experience most notably elevates Stefan’s risk for which of the following types of disorders?",
+     "options": {
+      "A": "Schizophrenic",
+      "B": "Dissociative",
+      "C": "Eating",
+      "D": "Personality"
+     },
+     "context": "",
+     "page_start": 373,
+     "page_end": 373,
+     "correct_answer": "B",
+     "answer_text": "Dissociative disorders, in particular, have been linked to traumatic experiences like the ones Stefan experienced. The other disorders listed may be related to stress, but not as specifically as answer choice B.",
+     "section": "MCQ"
+    },
+    {
+     "number": 11,
+     "stem": "How would you describe Dr. Costello’s research?",
+     "options": {
+      "A": "Cross-sectional",
+      "B": "Experimental",
+      "C": "Ex post facto",
+      "D": "Longitudinal"
+     },
+     "context": "Use the information below to answer questions 11–13. Dr. Costello believes that childhood poverty is associated with higher levels of anxiety disorders later in life. She recruits participants in their pre-teens at a community center in an economically disadvantaged part of a city to fill out a battery of tests and surveys and contacts them every 5 years for the next 20 years to complete follow-up measures. From her analysis of the participants’ responses to her open-ended survey questions, Dr. Costello concludes that poverty increases the risk of adult anxiety by nearly 30 percent.",
+     "page_start": 373,
+     "page_end": 374,
+     "correct_answer": "D",
+     "answer_text": "A study that takes place over 20 years, gathering data from the same group of participants over that time, is longitudinal. The options listed in A, B, and C are research methods terms but do not apply specifically to this example.",
+     "section": "MCQ"
+    },
+    {
+     "number": 12,
+     "stem": "Which of the following criticisms of Dr. Costello’s methodology is most valid?",
+     "options": {
+      "A": "It’s subject to hindsight bias.",
+      "B": "Her conclusions could be impacted by social desirability bias.",
+      "C": "Confirmation bias could have influenced her interpretations of the responses.",
+      "D": "She is likely to have been affected by the false consensus effect."
+     },
+     "context": "Use the information below to answer questions 11–13. Dr. Costello believes that childhood poverty is associated with higher levels of anxiety disorders later in life. She recruits participants in their pre-teens at a community center in an economically disadvantaged part of a city to fill out a battery of tests and surveys and contacts them every 5 years for the next 20 years to complete follow-up measures. From her analysis of the participants’ responses to her open-ended survey questions, Dr. Costello concludes that poverty increases the risk of adult anxiety by nearly 30 percent.",
+     "page_start": 374,
+     "page_end": 374,
+     "correct_answer": "C",
+     "answer_text": "Since Dr. Costello interpreted the open-ended survey questions herself, it is possible that she unconsciously looked for evidence that confirmed her initial belief. Options A, B, and D refer to possible issues regarding data interpretation, but do not apply to this scenario as specifically as answer C.",
+     "section": "MCQ"
+    },
+    {
+     "number": 13,
+     "stem": "Dr. Costello’s finding that poverty increases the risk of anxiety by 30 percent indicates the research",
+     "options": {
+      "A": "has a strong effect size.",
+      "B": "is valid.",
+      "C": "show statistical significance.",
+      "D": "represents the population."
+     },
+     "context": "Use the information below to answer questions 11–13. Dr. Costello believes that childhood poverty is associated with higher levels of anxiety disorders later in life. She recruits participants in their pre-teens at a community center in an economically disadvantaged part of a city to fill out a battery of tests and surveys and contacts them every 5 years for the next 20 years to complete follow-up measures. From her analysis of the participants’ responses to her open-ended survey questions, Dr. Costello concludes that poverty increases the risk of adult anxiety by nearly 30 percent.",
+     "page_start": 374,
+     "page_end": 374,
+     "correct_answer": "A",
+     "answer_text": "Effect size is a measure of the “impact” or amount of change associated with the target variables in a study. The finding that poverty increases risk of anxiety by 30 percent indicates that Dr. Costello’s data shows something similar—the impact or amount of change, so this 30 percent increase could also be represented by an effect size, and it would probably be a strong or somewhat large effect size. This 30 percent increase finding does not necessarily indicate anything about the other answer choices (validity, statistical significance, or representativeness).",
+     "section": "MCQ"
+    }
+   ]
+  },
+  {
+   "chapter": 18,
+   "unit": 5,
+   "chapter_title": "Treatment of Psychological Disorders",
+   "paper_id": "psychology-barrons-2027-ch18-review",
+   "review_page_start": 392,
+   "answer_page_start": 395,
+   "page_end": 397,
+   "questions": [
+    {
+     "number": 1,
+     "stem": "Coretta’s therapist says little during their sessions and never makes any recommendations about what Coretta ought to do. What kind of therapy does Coretta’s therapist most likely practice?",
+     "options": {
+      "A": "Humanistic",
+      "B": "Behavioral",
+      "C": "Cognitive",
+      "D": "Biomedical"
+     },
+     "context": "",
+     "page_start": 392,
+     "page_end": 393,
+     "correct_answer": "A",
+     "answer_text": "Coretta’s therapist is nondirective and, therefore, is most likely to have a humanistic orientation. An example of such a therapy is Carl Rogers’s client-centered therapy.",
+     "section": "MCQ"
+    },
+    {
+     "number": 2,
+     "stem": "Jeb has been working for the same company for three years. Although his responsibilities have increased, his salary has not. Every time he resolves to talk with his supervisor about a raise, he loses his nerve. In therapy, Dr. Flores and her assistant demonstrate how Jeb might go about asking for a raise. Then the assistant pretends to be Jeb’s boss, and Jeb practices asking for a raise. This process most closely resembles",
+     "options": {
+      "A": "REBT.",
+      "B": "existential therapy.",
+      "C": "modeling.",
+      "D": "free association."
+     },
+     "context": "",
+     "page_start": 393,
+     "page_end": 393,
+     "correct_answer": "C",
+     "answer_text": "Modeling consists of observation and imitation. Jeb first watches someone model how to ask for a raise, and then he practices that skill himself.",
+     "section": "MCQ"
+    },
+    {
+     "number": 3,
+     "stem": "One difference between psychodynamic and cognitive modes of treatment is that cognitive therapists",
+     "options": {
+      "A": "say little during sessions.",
+      "B": "emphasize the primacy of behavior.",
+      "C": "focus on the present.",
+      "D": "view repressed thoughts about one’s childhood as the root of most problems."
+     },
+     "context": "",
+     "page_start": 393,
+     "page_end": 393,
+     "correct_answer": "C",
+     "answer_text": "Psychoanalysis stresses the importance of early childhood experience. Psychoanalysts spend a lot of time exploring patients’ early lives. Cognitive therapists focus on helping their clients deal with the present. Neither type of therapist is particularly reticent; humanistic therapists are. Neither psychoanalysts nor cognitive therapists emphasize the importance of behavior; that focus characterizes behaviorists. Psychoanalysts, not cognitive psychologists, do see repressed thoughts from childhood as the root of most adult problems.",
+     "section": "MCQ"
+    },
+    {
+     "number": 4,
+     "stem": "Which conclusion is best supported by the data?",
+     "options": {
+      "A": "Everyone improved so there is no evidence that either treatment is superior to the control.",
+      "B": "The treatments had a negative effect on the sample.",
+      "C": "The group given medication improved significantly more than both other groups.",
+      "D": "Both treatment groups experienced a similar level of improvement."
+     },
+     "context": "Questions 4 through 6 refer to the following. A sample of 60 people diagnosed with major depressive disorder are randomly assigned to receive cognitive behavioral therapy (CBT), drug therapy, or a control group given a placebo. Before the study, they are given a standard measure of psychological distress (on which a score of 1 indicates little distress and 10 indicates tremendous distress). They complete the measure again three months after beginning their assigned therapy. Their mean ratings, divided by condition, are seen in the table below. Control CBT Medication Baseline 7.2 7.4 7.0 After 3 months 5.8 4.2 3.7",
+     "page_start": 394,
+     "page_end": 394,
+     "correct_answer": "D",
+     "answer_text": "Choice (A) is incorrect because although everyone improved, both treatment groups improved nearly twice as much as the control group. Seeing as the treatment groups improved similarly, choice (C) is incorrect. Given that all groups improved, choice (B) is incorrect.",
+     "section": "MCQ"
+    },
+    {
+     "number": 5,
+     "stem": "What phenomenon is illustrated by the change in distress in the control group?",
+     "options": {
+      "A": "Regression to the mean",
+      "B": "Statistical significance",
+      "C": "Negative correlation",
+      "D": "Placebo effect"
+     },
+     "context": "Questions 4 through 6 refer to the following. A sample of 60 people diagnosed with major depressive disorder are randomly assigned to receive cognitive behavioral therapy (CBT), drug therapy, or a control group given a placebo. Before the study, they are given a standard measure of psychological distress (on which a score of 1 indicates little distress and 10 indicates tremendous distress). They complete the measure again three months after beginning their assigned therapy. Their mean ratings, divided by condition, are seen in the table below. Control CBT Medication Baseline 7.2 7.4 7.0 After 3 months 5.8 4.2 3.7",
+     "page_start": 394,
+     "page_end": 394,
+     "correct_answer": "A",
+     "answer_text": "Whenever we feel or do unusually well or unusually poorly, it is likely that later measurements will be less extreme, that they will regress to the mean. Within the context of the question, people are more likely to seek help with their depression when it is very severe. For instance, someone who would usually report being at a 5 on the scale is more likely to go for treatment at a moment in time they are feeling at a 7 or 8 rather than staying at a 5. Therefore, that person may feel better a few months later even without treatment because the natural course of life is that, over time, things tend to drift back toward the mean.",
+     "section": "MCQ"
+    },
+    {
+     "number": 6,
+     "stem": "Why is it preferable to randomly assign people to treatments rather than let them choose what they prefer?",
+     "options": {
+      "A": "Psychologists have important medical expertise so they should do the assignment.",
+      "B": "People may choose treatments without considering all the important factors.",
+      "C": "Random samples better represent populations.",
+      "D": "Random assignment enables researchers to show cause- effect relationships."
+     },
+     "context": "Questions 4 through 6 refer to the following. A sample of 60 people diagnosed with major depressive disorder are randomly assigned to receive cognitive behavioral therapy (CBT), drug therapy, or a control group given a placebo. Before the study, they are given a standard measure of psychological distress (on which a score of 1 indicates little distress and 10 indicates tremendous distress). They complete the measure again three months after beginning their assigned therapy. Their mean ratings, divided by condition, are seen in the table below. Control CBT Medication Baseline 7.2 7.4 7.0 After 3 months 5.8 4.2 3.7",
+     "page_start": 394,
+     "page_end": 395,
+     "correct_answer": "D",
+     "answer_text": "Random assignment is one of the hallmarks of an experiment. The goal of random assignment is to eliminate differences among the groups so that a difference in groups at the end can be ascribed to the independent variable. When people are divided into groups based on their own preferences or a researcher’s preferences, the possibility that the assignment has been affected by extraneous factors is introduced. Choice (C) is incorrect because although random samples are used to better represent populations, random sampling is a different process than the random assignment of participants to groups.",
+     "section": "MCQ"
+    },
+    {
+     "number": 7,
+     "stem": "Gregor was a popular and successful student in high school. During his first semester of college, he begins to struggle with feelings of anxiety and inadequacy. He goes to the university’s mental health center where he begins to meet with a counselor named Shayla. Gregor quickly begins to feel like Shayla understands, listens to, and really gets him. She helps him see that he has some unrealistic expectations about college, and she works with him to identify activities that will make him happier. How would you describe Shayla’s approach to therapy?",
+     "options": {
+      "A": "Psychodynamic",
+      "B": "Eclectic",
+      "C": "Humanistic",
+      "D": "Cognitive"
+     },
+     "context": "",
+     "page_start": 395,
+     "page_end": 395,
+     "correct_answer": "D",
+     "answer_text": "Shayla’s therapeutic approach is most similar to the cognitive perspective on treatment. Cognitive therapists help clients like Gregor examine their own thinking—how they mentally interpret and react to the world. By helping Gregor examine his own cognitive interpretations and expectations about college and recognize what activities electricity joy/happiness/satisfaction, Shayla is helping him change how he thinks about events and memories, which may help him relieve the feelings of anxiety and inadequacy he’s experiencing. Options A–C describe other treatment perspectives, but they do not closely align with the description of Shayla’s therapy techniques.",
+     "section": "MCQ"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,651 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-28",
+ "kind": "quiz",
+ "number": 28,
+ "unit_no": 4,
+ "title": "Barron's AP Statistics 2027 Quiz 28 — Unit 4",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 28",
+ "pdf_page_start": 443,
+ "pdf_page_end": 447,
+ "answer_page_start": 752,
+ "answer_page_end": 754,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability of a warning when the air quality is poor",
+    "B": "The probability of a warning when the air quality is good",
+    "C": "The probability of not giving a warning when the air quality is poor",
+    "D": "The probability of not giving a warning when the air quality is good"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 443,
+      "bbox": [
+       110.0,
+       561.0,
+       511.4,
+       579.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 443,
+      "bbox": [
+       110.0,
+       582.0,
+       514.2,
+       600.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 443,
+      "bbox": [
+       110.0,
+       603.0,
+       532.1,
+       621.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 443,
+      "bbox": [
+       110.0,
+       642.0,
+       533.3,
+       660.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 443,
+   "page_end": 443,
+   "stem": "An air quality monitor gives a warning when the air quality is unhealthy for sensitive groups. The situation can be stated in terms of hypotheses as follows. H0: The air quality is good. Ha: The air quality is poor. Which of the following best describes the power of the test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The power is the probability of not committing a Type II error—that is, the power is the probability of correctly rejecting a false null hypothesis. In this context, a false null hypothesis means the air quality is poor, and thus, power is the probability of correctly giving a warning when the air quality is poor.",
+   "question_id": "statistics-barrons-2027-quiz-28-001",
+   "source_pages": [
+    443,
+    443
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "The power",
+    "B": "The standard error",
+    "C": "The significance level",
+    "D": "The p-value"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       123.0,
+       210.1,
+       141.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       144.0,
+       263.6,
+       162.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       165.0,
+       280.3,
+       183.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       186.0,
+       218.6,
+       204.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 444,
+   "page_end": 444,
+   "stem": "Which of the following gives the probability of committing a Type I error?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The α-risk, also called the significance level of the test, is the probability of committing a Type I error and mistakenly rejecting a true null hypothesis.",
+   "question_id": "statistics-barrons-2027-quiz-28-002",
+   "source_pages": [
+    444,
+    444
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "0.1",
+    "B": "0.5",
+    "C": "0.6",
+    "D": "0.9"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       277.5,
+       160.4,
+       295.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       298.5,
+       160.2,
+       316.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       319.5,
+       160.4,
+       337.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       340.5,
+       161.6,
+       358.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 444,
+   "page_end": 444,
+   "stem": "If the significance level is 0.1, and the probability of a Type II error is 0.4, what is the resulting power?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "Power is the probability of not committing a Type II error. Here, 1 − 0.4 = 0.6.",
+   "question_id": "statistics-barrons-2027-quiz-28-003",
+   "source_pages": [
+    444,
+    444
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "The power of the test would increase, and the probability of a Type II error would decrease.",
+    "B": "The power of the test would decrease, and the probability of a Type II error would increase.",
+    "C": "Both the power of the test and the probability of a Type II error would increase.",
+    "D": "Both the power of the test and the probability of a Type II error would decrease."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       568.5,
+       519.4,
+       586.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       607.5,
+       523.6,
+       625.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 444,
+      "bbox": [
+       110.0,
+       646.5,
+       524.9,
+       664.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       72.0,
+       526.0,
+       90.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 444,
+   "page_end": 445,
+   "stem": "A nutritionist conducts a study as to whether children prefer candy or toys for Halloween treats. The hypotheses are as follows. H0: The probability a child chooses candy is 0.50. Ha: The probability a child chooses candy is greater than 0.50. Suppose the null hypothesis is false. What is the effect on power and the probability of a Type II error if the significance level is changed from 0.05 to 0.01?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "Changing from a significance level of 0.05 to one of 0.01 makes it more difficult to reject the null hypothesis. Thus, there is a smaller probability of being able to reject a false null hypothesis. This gives a decrease in power and an increase in the probability of a Type II error.",
+   "question_id": "statistics-barrons-2027-quiz-28-004",
+   "source_pages": [
+    444,
+    445
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "The probability of correctly detecting an effect that exists",
+    "B": "The probability of incorrectly detecting an effect when no effect exists",
+    "C": "The probability of correctly not detecting an effect when no effect exists",
+    "D": "The probability of detecting an effect whether or not one exists"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       181.5,
+       518.1,
+       199.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       202.5,
+       518.7,
+       220.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       241.5,
+       533.2,
+       259.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       280.5,
+       517.6,
+       298.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 445,
+   "page_end": 445,
+   "stem": "Which of the following is the best explanation of the power of a test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The null hypothesis is typically that no effect exists. Power, the probability of correctly rejecting a false null hypothesis, is thus the probability of correctly detecting an effect that exists. Choice (B) is a Type I error, and choice (C) is a Type II error.",
+   "question_id": "statistics-barrons-2027-quiz-28-005",
+   "source_pages": [
+    445,
+    445
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "6",
+    "B": "7",
+    "C": "9",
+    "D": "11"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       544.5,
+       147.7,
+       562.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       565.5,
+       147.5,
+       583.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       586.5,
+       147.7,
+       604.6
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 445,
+      "bbox": [
+       110.0,
+       607.5,
+       157.0,
+       625.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [
+    {
+     "page": 445,
+     "bbox": [
+      138.0,
+      407.2,
+      146.2,
+      416.2
+     ]
+    },
+    {
+     "page": 445,
+     "bbox": [
+      137.2,
+      435.8,
+      145.5,
+      444.8
+     ]
+    },
+    {
+     "page": 445,
+     "bbox": [
+      452.2,
+      464.2,
+      460.5,
+      473.2
+     ]
+    }
+   ],
+   "page_start": 445,
+   "page_end": 445,
+   "stem": "A guidance counselor believes that students studying for an AP exam get less than 8 hours of sleep the night before the exam. The hypotheses are as follows: H0: = 8 Ha: < 8 Assume that the guidance counselor is correct that < 8. For a fixed sample size and significance level, the power of the test will be greatest if the actual mean hours of sleep before the AP exam is which of the following?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Power is the probability of correctly rejecting a false null hypothesis. All other things being equal, power will be greatest if the true mean is furthest from the mean claimed in the null hypothesis in the direction of the alternative.",
+   "question_id": "statistics-barrons-2027-quiz-28-006",
+   "source_pages": [
+    445,
+    445
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "A sample size of 300 and a true proportion of 40 percent",
+    "B": "A sample size of 500 and a true proportion of 20 percent",
+    "C": "A sample size of 500 and a true proportion of 40 percent",
+    "D": "A sample size of 700 and a true proportion of 40 percent"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       216.0,
+       515.6,
+       234.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       237.0,
+       515.4,
+       255.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       258.0,
+       515.6,
+       276.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       279.0,
+       516.7,
+       297.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 445,
+   "page_end": 446,
+   "stem": "A better business agency claims that over 20 percent of merchants favor eliminating the penny from circulation. To test this claim at a 5 percent significance level, a random sample of n merchants will be interviewed. The hypotheses are as follows. H0: Twenty percent of merchants favor eliminating the penny from circulation. Ha: More than twenty percent of merchants favor eliminating the penny from circulation. Which of the following would result in the greatest power for this test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "A larger sample size gives a smaller standard error and thus a greater probability of picking up that the null hypothesis is incorrect. Also, the further the true parameter is from the claimed null hypothesis about the parameter, the greater the probability of picking up that the null hypothesis is incorrect.",
+   "question_id": "statistics-barrons-2027-quiz-28-007",
+   "source_pages": [
+    445,
+    446
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "A significance level of 0.01 and 100 shots",
+    "B": "A significance level of 0.01 and 200 shots",
+    "C": "A significance level of 0.05 and 200 shots",
+    "D": "A significance level of 0.05 and 300 shots"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       489.0,
+       413.8,
+       507.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       510.0,
+       413.6,
+       528.1
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       531.0,
+       413.8,
+       549.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 446,
+      "bbox": [
+       110.0,
+       552.0,
+       415.0,
+       570.1
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 446,
+   "page_end": 446,
+   "stem": "Suppose that your friend claims that he can shoot free throws at a 70 percent rate. You don’t believe he is that good and decide to test him. The hypotheses are as follows. H0: p = 0.70 Ha: p < 0.70 Suppose his real rate is 65 percent. Which of the following would result in the highest power for this test?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "With a greater significance level, 0.05 rather than 0.01, there is a greater chance of rejecting the null hypothesis. Also, a larger sample size gives a smaller standard error and thus a greater probability of picking up that the null hypothesis is incorrect.",
+   "question_id": "statistics-barrons-2027-quiz-28-008",
+   "source_pages": [
+    446,
+    446
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [
+    {
+     "page": 445,
+     "bbox": [
+      138.0,
+      407.2,
+      146.2,
+      416.2
+     ]
+    },
+    {
+     "page": 445,
+     "bbox": [
+      137.2,
+      435.8,
+      145.5,
+      444.8
+     ]
+    },
+    {
+     "page": 445,
+     "bbox": [
+      452.2,
+      464.2,
+      460.5,
+      473.2
+     ]
+    }
+   ],
+   "page_start": 447,
+   "page_end": 447,
+   "stem": "The amount of active ingredient per tablet of an advertised medication has an approximately normal distribution with mean 81 mg and standard deviation 0.3 mg. To pass quality inspection, tablets should have between 80.5 and 81.5 mg of active ingredient. (a) What is the probability that a single selected tablet passes inspection? As each shipment arrives, an inspector randomly chooses five tablets from that shipment. She finds the mean active ingredient in the five tablets and rejects the entire shipment if the sample mean is less than 80.5 mg or greater than 81.5 mg. (b) Describe the sampling distribution of the sample mean for samples of size five. (c) What is the probability that a Type I error is committed? Suppose the true mean active ingredient in a particular shipment is 80.4 mg with a standard deviation of 0.3 mg. (d) What is the probability a Type II error is committed for this shipment? The answers to this Quiz are found beginning on page 508.",
+   "correct_answer": null,
+   "answer_text": "(a) Given N(81, 0.3), P(80.5 < X < 81.5) = 0.904. (b) The sampling distribution of x̅ is approximately normal with mean μx̅ = μ = 81 and standard deviation . (c) A Type I error will be committed if the null hypothesis is true but is mistakenly rejected. Given N(81, 0.1342), P(X < 80.5) + P(X > 81.5) = 0.0002. (d) A Type II error will be committed if the null hypothesis is false, but is mistakenly not rejected. Given N(80.4, 0.1342), P(80.5 < X < 81.5) = 0.228.",
+   "question_id": "statistics-barrons-2027-quiz-28-009",
+   "context": "",
+   "source_pages": [
+    447,
+    447
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 9,
+ "mcq_count": 8,
+ "frq_count": 1
+}

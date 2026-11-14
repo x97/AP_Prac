@@ -1,0 +1,786 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-08",
+ "kind": "quiz",
+ "number": 8,
+ "unit_no": 1,
+ "title": "Barron's AP Statistics 2027 Quiz 8 — Unit 1",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 8",
+ "pdf_page_start": 191,
+ "pdf_page_end": 198,
+ "answer_page_start": 723,
+ "answer_page_end": 725,
+ "has_mcq": true,
+ "questions": [
+  {
+   "number": 1,
+   "section": "MCQ",
+   "options": {
+    "A": "All teenagers with chronic eczema",
+    "B": "The 5 days of treatment",
+    "C": "The sample of 20 teenagers",
+    "D": "The new calcineurin inhibitor and the topical corticosteroid"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       72.0,
+       346.4,
+       88.8
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       91.5,
+       285.8,
+       108.3
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       111.0,
+       309.3,
+       127.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       130.4,
+       497.8,
+       147.2
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 191,
+   "page_end": 192,
+   "stem": "Some diseases have developed resistance to medications that were once commonly used to treat them. A dermatologist conducted an experiment on a form of chronic eczema that had become increasingly difficult to treat. From a sample of 20 teenagers with the disease, he treated 10 with a new calcineurin inhibitor for 5 days and treated the remaining people with a standard treatment of topical corticosteroids for 5 days. He had all 20 teenagers rate their itch intensity on a scale of 0 to 10 before and after their respective treatments. What were the experimental units of this study?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The experimental units are the people who participated in the study.",
+   "question_id": "statistics-barrons-2027-quiz-08-001",
+   "source_pages": [
+    191,
+    192
+   ]
+  },
+  {
+   "number": 2,
+   "section": "MCQ",
+   "options": {
+    "A": "The variation in THC content among the dried flowers is different from the variation in the THC content among the fresh flowers.",
+    "B": "The variation in the THC content within each group is small compared with the variation in the THC content between the two groups.",
+    "C": "The variation in the THC content within each group is large compared with the variation in the THC content between the two groups.",
+    "D": "The variation in the THC content within each group is the same as the variation in the THC content between the two groups."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       254.3,
+       481.6,
+       271.1
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       307.2,
+       501.7,
+       324.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       360.1,
+       500.7,
+       376.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       413.0,
+       528.0,
+       429.8
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 192,
+   "page_end": 192,
+   "stem": "A new strain of flower is being tested for THC content. Fifty flowers of the strain are randomly assigned to be analyzed when either dried or fresh. Which of the following would provide the best evidence that the average THC content of the flower is different when dried or fresh?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "If the variation in the THC content within each group is small compared with the variation in the THC content between the two groups, then the THC content data would look like two clusters with a gap between. This would provide convincing evidence that the average THC content of the flower is different when dried or fresh.",
+   "question_id": "statistics-barrons-2027-quiz-08-002",
+   "source_pages": [
+    192,
+    192
+   ]
+  },
+  {
+   "number": 3,
+   "section": "MCQ",
+   "options": {
+    "A": "I only",
+    "B": "II only",
+    "C": "III only",
+    "D": "None of the above elements are missing."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       678.9,
+       172.4,
+       695.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 192,
+      "bbox": [
+       110.0,
+       698.4,
+       177.4,
+       715.2
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       72.0,
+       182.8,
+       88.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       91.5,
+       390.1,
+       108.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 192,
+   "page_end": 193,
+   "stem": "An experiment was conducted to investigate whether teenagers can stand longer on one foot with their eyes open or closed. Thirty students from a teacher’s math classes volunteered to participate. Drawing names out of a hat resulted in two groups of equal size, one to stand with eyes open and the other with eyes closed. The mean number of seconds volunteers could stand on one foot with their eyes closed was calculated to be shorter than with eyes open. Which of the following elements of a well-designed experiment is missing? I. Random assignment of treatments to experimental units II. Comparison of at least two treatment groups III. Replication",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Picking names out of a hat gives random assignment. There was a comparison of the two treatments, standing with eyes open or with eyes closed, and there were 15 subjects in each treatment group. Note that replication refers to having more than one experimental unit in treatment groups, not to repeating the experiment multiple times.",
+   "question_id": "statistics-barrons-2027-quiz-08-003",
+   "source_pages": [
+    192,
+    193
+   ]
+  },
+  {
+   "number": 4,
+   "section": "MCQ",
+   "options": {
+    "A": "Each of the music genres is a block, and the volunteers were randomly assigned to the blocks.",
+    "B": "Each of the volunteers is a block with randomly assigned music piped in through his or her headphones.",
+    "C": "There is no blocking variable, and the music genres will be randomly assigned to the volunteers.",
+    "D": "There is no blocking variable, and the volunteers were selected at random."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       298.9,
+       511.6,
+       315.7
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       335.1,
+       525.5,
+       351.9
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       371.3,
+       497.4,
+       388.1
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       407.5,
+       526.4,
+       424.3
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 193,
+   "page_end": 193,
+   "stem": "A game designer plans to test whether any of three different background music genres leads to improved game enjoyment. Sixty gamers who actively play Minecraft volunteer for the study and will be randomly assigned to 3 groups of 20 volunteers each. Three musical genres will be randomly assigned to be piped in through headphones to the volunteers so that each group of 20 volunteers receive a different genre for 1 hour while playing Minecraft. Before and after the session, everyone rates their enjoyment of playing Minecraft, and changes are recorded. Why is this considered to be a completely randomized design?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "The treatments, which are the three musical genres piped into the headphones, will be randomly assigned to the volunteers.",
+   "question_id": "statistics-barrons-2027-quiz-08-004",
+   "source_pages": [
+    193,
+    193
+   ]
+  },
+  {
+   "number": 5,
+   "section": "MCQ",
+   "options": {
+    "A": "The study had no control.",
+    "B": "The study used volunteers.",
+    "C": "The sample size was too small.",
+    "D": "The volunteers self-reported pain relief."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       598.2,
+       295.7,
+       615.0
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       617.6,
+       303.6,
+       634.4
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       637.1,
+       328.0,
+       653.9
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 193,
+      "bbox": [
+       110.0,
+       656.6,
+       380.3,
+       673.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 193,
+   "page_end": 193,
+   "stem": "A study was conducted to evaluate the effectiveness of a topical cream for relief of arthritis. Sixteen volunteers suffering from moderate arthritis rubbed the cream on painful joints for 10 days. Twelve of the volunteers reported some pain relief. The company concluded that the topical cream was more effective than no treatment for moderate arthritis 75% of the time. Which of the following best explains why the company’s conclusion is not supported by this study?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "Using volunteers makes it difficult to generalize to a population. However, the main problem here is the lack of a control group. Without a control group, there could well have been confounding variables, including the placebo effect.",
+   "question_id": "statistics-barrons-2027-quiz-08-005",
+   "source_pages": [
+    193,
+    193
+   ]
+  },
+  {
+   "number": 6,
+   "section": "MCQ",
+   "options": {
+    "A": "The child will know whether he or she is a boy or a girl.",
+    "B": "The child will know whether or not a parent is sitting beside him or her.",
+    "C": "The person running the experiment will know whether a child is a boy or a girl.",
+    "D": "The person running the experiment will know whether or not a parent is sitting beside a child."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       191.7,
+       479.1,
+       208.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       211.2,
+       531.9,
+       228.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       247.4,
+       528.9,
+       264.2
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       283.6,
+       524.9,
+       300.4
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 194,
+   "page_end": 194,
+   "stem": "An experiment will be conducted to determine whether first graders do better on a standardized aptitude test if a parent is sitting beside them. Participating children will be randomly assigned to take the test alone or with a parent sitting beside them. Because girls generally mature earlier than boys, it is felt that gender might influence the outcome, so blocking by gender will be used. Explain why it will be impossible to incorporate blinding in this experiment.",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "B",
+   "answer_text": "The experiment is to determine the effect of having a parent sitting beside a child, and clearly a child will know if a parent is beside him or her.",
+   "question_id": "statistics-barrons-2027-quiz-08-006",
+   "source_pages": [
+    194,
+    194
+   ]
+  },
+  {
+   "number": 7,
+   "section": "MCQ",
+   "options": {
+    "A": "Because the seamstresses used their own patterns, choice of pattern is confounded with who can sew a better dress.",
+    "B": "Because the seamstresses used their own machines, machine quality is confounded with who can sew a better dress.",
+    "C": "Because the seamstresses have different populations of customers, customer population is confounded with who can sew a better dress.",
+    "D": "Because the seamstresses used the same questionnaire, the conclusions can be generalized to the population of their combined customer bases."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       457.6,
+       512.2,
+       474.4
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       493.8,
+       515.7,
+       510.6
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       529.9,
+       478.8,
+       546.8
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 194,
+      "bbox": [
+       110.0,
+       582.8,
+       508.9,
+       599.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 194,
+   "page_end": 194,
+   "stem": "A study is conducted to determine which of two seamstresses can sew a better dress. They each sew a dress using their own pattern, material, and sewing machine. Both seamstresses then use the same questionnaire passed out to a random sample of their customers who view and evaluate their final product. Answers on the questionnaires were then compared. Which of the following is not true about this study?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "D",
+   "answer_text": "Combining two different populations each possibly subject to several confounding variables will not allow generalizing to any population.",
+   "question_id": "statistics-barrons-2027-quiz-08-007",
+   "source_pages": [
+    194,
+    194
+   ]
+  },
+  {
+   "number": 8,
+   "section": "MCQ",
+   "options": {
+    "A": "The reported 1470 result is an average; there could have been a wide spread of exam scores for students using either of the review books.",
+    "B": "The student probably used the review book for the other group either intentionally or by mistake.",
+    "C": "This indicates some form of bias in the original experiment.",
+    "D": "This indicates a confounding variable in the original experiment."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       225.1,
+       534.2,
+       241.9
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       278.0,
+       526.2,
+       294.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       314.2,
+       502.0,
+       331.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       333.7,
+       531.5,
+       350.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 194,
+   "page_end": 195,
+   "stem": "A school is trying to evaluate two SAT prep review books. Two- hundred twenty of the school’s students are signed up to take the SAT exam in 2 months. The school randomly assigns 110 of these students to receive a free copy of one of the review books and gives the other 110 students a free copy of the other review book. After the exam, the school notes that the students given the first review book averaged 1470 for the combined SAT score, while those given the second review book averaged 1250. Based on this, the school orders copies of the first review book for all of its students planning to take the next SAT exam. One of those students ends up scoring 1255. Which of the following is the best explanation of the difference between that student’s score and the score reported in the study for those using that review book?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "The students using the first review book average 1470 on the SAT exam. This says nothing about the spread of exam scores among the 110 students using the book. The spread could be dramatic with nothing unusual about a single score of 1255.",
+   "question_id": "statistics-barrons-2027-quiz-08-008",
+   "source_pages": [
+    194,
+    195
+   ]
+  },
+  {
+   "number": 9,
+   "section": "MCQ",
+   "options": {
+    "A": "The 18 batches",
+    "B": "The choices of sugar, oil, flour, and chips",
+    "C": "Being baked immediately, chilled for 1 hour before baking, or chilled for 24 hours before baking",
+    "D": "Chewy interior, soft interior, and crisp exterior"
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       507.7,
+       231.9,
+       524.5
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       527.2,
+       386.6,
+       544.0
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       546.7,
+       512.7,
+       563.5
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       582.8,
+       418.5,
+       599.6
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 195,
+   "page_end": 195,
+   "stem": "In search for the perfect chocolate chip cookie, 16 separate batches were prepared using white or brown sugar, butter or vegetable oil, all-purpose or bread flour, and semisweet or milk chocolate chips. Each of the batches was divided into three parts, with the three parts randomly assigned to be baked immediately, chilled for 1 hour before baking, or chilled for 24 hours before baking. The cookies were then judged on a 1 to 10 scale as to whether they were chewy and soft with a crisp exterior. What were the treatments in this experiment?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "C",
+   "answer_text": "What is being manipulated on all the preparations is whether they are baked immediately, chilled for 1 hour before baking, or chilled for 24 hours before baking.",
+   "question_id": "statistics-barrons-2027-quiz-08-009",
+   "source_pages": [
+    195,
+    195
+   ]
+  },
+  {
+   "number": 10,
+   "section": "MCQ",
+   "options": {
+    "A": "Students in each block should be as similar as possible, for example, similar IQ scores.",
+    "B": "Students in each block should be as different as possible, for example, different IQ scores.",
+    "C": "Students should be randomly assigned to the blocks.",
+    "D": "Students in the same block should receive the same teaching method."
+   },
+   "option_images": {},
+   "option_boxes": {
+    "A": [
+     {
+      "page": 195,
+      "bbox": [
+       110.0,
+       667.8,
+       498.4,
+       684.6
+      ]
+     }
+    ],
+    "B": [
+     {
+      "page": 196,
+      "bbox": [
+       110.0,
+       72.0,
+       510.1,
+       88.8
+      ]
+     }
+    ],
+    "C": [
+     {
+      "page": 196,
+      "bbox": [
+       110.0,
+       108.2,
+       461.4,
+       125.0
+      ]
+     }
+    ],
+    "D": [
+     {
+      "page": 196,
+      "bbox": [
+       110.0,
+       127.7,
+       514.4,
+       144.5
+      ]
+     }
+    ]
+   },
+   "figure_images": [],
+   "page_start": 195,
+   "page_end": 196,
+   "stem": "A randomized block design tests the effect of three teaching methods on student performance. Which of the following should guide the formation of blocks?",
+   "context": "",
+   "option_crops": {},
+   "correct_answer": "A",
+   "answer_text": "In a randomized block design, the subjects are grouped into blocks based on similar characteristics and then randomly assigned treatments within each block. For example, the researchers in this example might want to test the three different teaching methods separately on students with high IQs, on students with average IQs, and on students with low IQs.",
+   "question_id": "statistics-barrons-2027-quiz-08-010",
+   "source_pages": [
+    195,
+    196
+   ]
+  },
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 196,
+   "page_end": 196,
+   "stem": "A medical researcher plans to test a new medication to improve focus and reduce impulsivity in teens with ADHD (attention deficit hyperactivity disorder). The researcher has recruited 25 pairs of teens, each pair with the same age, same gender, same ADHD diagnosis (inattentive, hyperactive-impulsive, or combined), and same severity of symptoms. Each teen will receive either the new medication or a placebo for 1 month. At the end of the month, each teen will be evaluated as to lessening of symptoms. (a) Identify the treatments, experimental units, and response variable. (b) Describe a statistical advantage of using a matched pairs design rather than using a completely randomized design. (c) Describe how the treatments can be randomly assigned using a matched pairs design.",
+   "correct_answer": null,
+   "answer_text": "(a) Treatments: New medication, placebo Experimental units: 50 teens with ADHD Response variable: Lessening of ADHD symptoms (b) Pairing similar teens (same age, same gender, same ADHD diagnosis, and same severity of symptoms) allows for variation in ADHD symptoms due to the new medication, which could be distinguished from the listed common variables. This would not be possible in a completely randomized experiment. By using the matched pairs design, the difference in symptom lessening between the new medication and a placebo is easier to measure. It is easier to find convincing evidence that the new medication is better than a placebo. (c) Label each pair of similar teens as A and B. For each pair, toss a coin. If heads, teen A gets the new medication and teen B gets the placebo. If tails, teen B gets the new medication and teen A gets the placebo.",
+   "question_id": "statistics-barrons-2027-quiz-08-011",
+   "context": "",
+   "source_pages": [
+    196,
+    196
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 196,
+   "page_end": 197,
+   "stem": "A bike-riding school teaches children to ride on bikes with training wheels before teaching them to ride on bikes without training wheels. A study was conducted with 25 children to determine if first using a balance bike (remove the pedals) before using training wheels would be quicker. Each of 15 children participating in the study first trained on a balance bike for 1 lesson followed by using training wheels until they could ride without the training wheels. Each of the other 10 children participating in the study first trained on a balance bike for 2 lessons followed by using training wheels until they could ride without the training wheels. (a) Was this an observational study or an experiment? Explain. (b) When the study ended, it was clear that first training on a balance bike for 2 lessons followed by using training wheels was more successful than training on a balance bike for 1 lesson followed by using training wheels. Would the researchers be justified in saying that first training on a balance bike for 2 lessons followed by using training wheels is a quicker method of learning to ride a bike than just using lessons with training wheels? Explain. (c) Does it matter how the 25 children were separated into the two groups? Explain.",
+   "correct_answer": null,
+   "answer_text": "(a) This was an experiment because two treatments were applied: 1 lesson followed by using training wheels and 2 lessons followed by using training wheels. (b) No, they would not be justified. The experiment did not compare 2 lessons followed by using training wheels with just using lessons with training wheels. (c) It would be important to use random assignment for the two groups. For example, if all the older children were put in one of the groups, then age would have been a confounding variable.",
+   "question_id": "statistics-barrons-2027-quiz-08-012",
+   "context": "",
+   "source_pages": [
+    196,
+    197
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 197,
+   "page_end": 197,
+   "stem": "For each of the following, would you recommend using random sampling, random assignment, both, or neither? Explain. (a) A teacher wants to investigate whether the promise of bonus points or a chocolate chip cookie motivates students to study more for a test. (b) A sports statistician wants to investigate whether a greater proportion of high school students would rather attend a football game or a basketball game. (c) A student wants to know if the average age of administrators is greater than the average age of teachers at her school.",
+   "correct_answer": null,
+   "answer_text": "(a) It is important for the teacher to use random assignment for choosing which students are offered bonus points and which are offered a chocolate chip cookie because a cause-and-effect conclusion is of interest. (b) This cannot be random assignment because you don’t want to assign students to go to a game. Instead, you want to know their preferences. However, it would be good to use random sampling to increase the chance of getting a representative sample and being able to generalize to the whole population. (c) The student would probably want to interview all the administrators and teachers at the school. So neither sampling method is appropriate.",
+   "question_id": "statistics-barrons-2027-quiz-08-013",
+   "context": "",
+   "source_pages": [
+    197,
+    197
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 197,
+   "page_end": 198,
+   "stem": "There is a pressure point on the wrist that some doctors believe can be used to help control the nausea experienced following certain medical procedures. The idea is to place a band containing a small marble firmly on a patient’s wrist so that the marble is located directly over the pressure point. A certain procedure involves a 2-day hospital stay because of severe nausea complications. A doctor plans to test the correct pressure point placement versus an improper marble placement on 50 patients. He will use a matched pair test where each patient is a block. Each day, patients will rate their nausea level on a scale of 1 to 10. (a) Identify the explanatory variable in this study and classify it as categorical or quantitative. (b) Identify the response variable in this study and classify it as categorical or quantitative. (c) Is this a prospective observational study, a retrospective observational study, or an experiment? Explain. (d) Should blinding be incorporated? Explain. (e) Should random sampling or random assignment be incorporated? Explain how. (f) Why is it important for there to be some kind of control with regard to which days the correct pressure point is used? (g) In context, explain how a cause-and-effect conclusion will or will not be justified. USE CORRECT TERMINOLOGY! Bias: when a study systematically favors certain outcomes Blinding: refers to subjects not knowing which treatment they are receiving Block design: an experimental design where subjects are divided into representative groups to bring certain differences into the picture and reduce variation (for example, blocking by gender, age, or race) and randomization then takes place within each block Census: an attempt to include the entire population Cluster random sample: involves dividing the population into heterogeneous groups called clusters and then picking everyone in a random sample of the clusters Completely randomized design: an experimental design in which everyone has an equal chance of receiving any treatment Confounding: when there is uncertainty as to which variable is causing an effect Control group: a group given no treatment or a sham treatment Double-blinding: refers to subjects and those evaluating their responses not knowing who received which treatments Experimental study: involves applying a treatment to one or more groups and observing the responses",
+   "correct_answer": null,
+   "answer_text": "(a) The explanatory variable is the correct or improper placing of the marble. This is a categorical variable. (b) The response variable is self-reported nausea level. This is a numerical variable as it is on a 1 to 10 scale. (c) This is an experiment with two treatments: correct and improper placement of a marble to a pressure point. (d) Yes, blinding should be incorporated because of a possible placebo effect. If patients knew they were receiving the correct marble placement, they might psychologically feel less nauseous even if the marble was ineffective. Similarly, if patients knew they were receiving the improper marble placement, they might psychologically feel more nausea than expected. (e) Random assignment should be incorporated. Each patient is a block and so should receive both treatments, one each of the two days, randomly chosen. For example, number the patients 1 to 50. Use a random number generator to pick integers between 1 and 50, throwing out repeats, until 25 unique integers are picked. The patients with numbers corresponding to the 25 picked integers should receive correct marble placement the first day, while the remaining 25 patients should receive correct marble placement the second day. (f) For example, nausea levels might naturally be less on the second day. If all the patients received the correct pressure point placement on the second day and seemed to feel relief, it would be unclear whether the marble or the day was the cause of the relief. Marble and day would be confounded. This variable is controlled by the random assignment of treatments to days. (g) This is a well-designed experiment incorporating comparison, replication, random assignment, and control. So if patients rate nausea relief differently depending upon correct or improper placement of the marble, a cause-and-effect conclusion is justified.",
+   "question_id": "statistics-barrons-2027-quiz-08-014",
+   "context": "",
+   "source_pages": [
+    197,
+    198
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 14,
+ "mcq_count": 10,
+ "frq_count": 4
+}

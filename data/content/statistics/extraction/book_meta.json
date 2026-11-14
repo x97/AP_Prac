@@ -1,0 +1,381 @@
+{
+ "book_id": "statistics-barrons-2027",
+ "subject_id": "statistics",
+ "title": "AP Statistics Premium, 2027",
+ "authors": "Martin Sternstein",
+ "publisher": "Barron's Educational Series (Kaplan)",
+ "edition": "2027",
+ "year": 2026,
+ "isbn": "979-8-3497-0157-3",
+ "language": "en",
+ "book_type": "review_book",
+ "target_exam": "AP Statistics",
+ "target_year": 2027,
+ "source_path": "assets/statistics/books/AP Statistics Premium, 2027 - Martin Sternstein.pdf",
+ "total_pages": 890,
+ "pdf_printed_offset": 33,
+ "ocr_used": 0,
+ "classification_status": "confirmed",
+ "classification_evidence": {
+  "signals": [
+   "title:AP Statistics Premium 2027",
+   "author:Martin Sternstein",
+   "publisher:Barron's",
+   "toc:Diagnostic Test + Units 1-5 + Practice Tests 1-4",
+   "target_exam:AP Statistics",
+   "language:en"
+  ],
+  "subject_match": "statistics",
+  "confidence": 0.99
+ },
+ "units": [
+  {
+   "unit_no": 1,
+   "heading": "Unit 1: Exploring One-Variable Data and Collecting Data",
+   "pdf_page_start": 61,
+   "pdf_page_end": 203
+  },
+  {
+   "unit_no": 2,
+   "heading": "Unit 2: Probability, Random Variables, and Probability Distributions",
+   "pdf_page_start": 204,
+   "pdf_page_end": 301
+  },
+  {
+   "unit_no": 3,
+   "heading": "Unit 3: Inference for Categorical Data: Proportions",
+   "pdf_page_start": 302,
+   "pdf_page_end": 381
+  },
+  {
+   "unit_no": 4,
+   "heading": "Unit 4: Inference for Quantitative Data: Means",
+   "pdf_page_start": 382,
+   "pdf_page_end": 453
+  },
+  {
+   "unit_no": 5,
+   "heading": "Unit 5: Regression Analysis",
+   "pdf_page_start": 454,
+   "pdf_page_end": 484
+  }
+ ],
+ "reference_parent": {
+  "section_id": "statistics-barrons-2027-ref",
+  "heading": "Reference",
+  "pdf_page_start": 486,
+  "pdf_page_end": 711
+ },
+ "excluded": [
+  {
+   "heading": "Answer Explanations",
+   "pdf_page": 47,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 1",
+   "pdf_page": 84,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 2",
+   "pdf_page": 91,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 3",
+   "pdf_page": 123,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 4",
+   "pdf_page": 131,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 5",
+   "pdf_page": 159,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 6",
+   "pdf_page": 168,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 7",
+   "pdf_page": 186,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 8",
+   "pdf_page": 191,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Summary",
+   "pdf_page": 200,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 9",
+   "pdf_page": 215,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 10",
+   "pdf_page": 234,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 11",
+   "pdf_page": 246,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 12",
+   "pdf_page": 257,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 13",
+   "pdf_page": 267,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 14",
+   "pdf_page": 281,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 15",
+   "pdf_page": 292,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Summary",
+   "pdf_page": 300,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 16",
+   "pdf_page": 310,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 17",
+   "pdf_page": 322,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 18",
+   "pdf_page": 326,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 19",
+   "pdf_page": 339,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 20",
+   "pdf_page": 353,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 21",
+   "pdf_page": 358,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 22",
+   "pdf_page": 372,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Summary",
+   "pdf_page": 376,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 23",
+   "pdf_page": 384,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 24",
+   "pdf_page": 398,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 25",
+   "pdf_page": 412,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 26",
+   "pdf_page": 428,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 27",
+   "pdf_page": 435,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 28",
+   "pdf_page": 443,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Summary",
+   "pdf_page": 450,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 29",
+   "pdf_page": 470,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 30",
+   "pdf_page": 478,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Summary",
+   "pdf_page": 483,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 31",
+   "pdf_page": 491,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 32",
+   "pdf_page": 494,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Statistical Insights into Social Issues",
+   "pdf_page": 496,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 33",
+   "pdf_page": 498,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Quiz 34",
+   "pdf_page": 512,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "50 Misconceptions",
+   "pdf_page": 524,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "50 Common Errors on the AP Exam",
+   "pdf_page": 533,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "50 AP Exam Hints, Advice, and Reminders",
+   "pdf_page": 539,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Answer Explanations",
+   "pdf_page": 571,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Answer Explanations",
+   "pdf_page": 607,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Answer Explanations",
+   "pdf_page": 644,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Answer Explanations",
+   "pdf_page": 685,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Answer Explanations for Quizzes 1–34",
+   "pdf_page": 711,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Formulas Given on the AP Statistics Exam",
+   "pdf_page": 772,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "AP Scoring Guide",
+   "pdf_page": 773,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Table A: Standard Normal Probabilities",
+   "pdf_page": 774,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Table B: t-Distribution Critical Values",
+   "pdf_page": 776,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Table C: χ2 Critical Values",
+   "pdf_page": 778,
+   "reason": "exercise_or_answer_or_advice"
+  },
+  {
+   "heading": "Title Page",
+   "pdf_page": 2,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "Acknowledgments",
+   "pdf_page": 4,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "Copyright",
+   "pdf_page": 5,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "About the Author",
+   "pdf_page": 7,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "Table of Contents",
+   "pdf_page": 8,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "How to Use This Book",
+   "pdf_page": 12,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "Barron’s Essential 5",
+   "pdf_page": 16,
+   "reason": "front_matter"
+  },
+  {
+   "heading": "Exam Overview",
+   "pdf_page": 20,
+   "reason": "front_matter"
+  }
+ ]
+}

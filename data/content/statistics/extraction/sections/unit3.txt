@@ -1,0 +1,1522 @@
+
+
+########## SECTION statistics-barrons-2027-u3-s01 | Biased and Unbiased Estimators | PDF pages 302-306 ##########
+
+[[PAGE 302]]
+Biased and Unbiased Estimators
+In Unit 1, we discussed bias in the context of surveys as a tendency to
+favor the selection of certain members of a population. In the context of
+sampling distributions, bias means that the sampling distribution of an
+estimator is not centered on the population parameter. An estimator is
+
+[[PAGE 303]]
+unbiased if, on average, it does not underestimate or overestimate the
+population parameter. The sampling distributions of proportions, means,
+and slopes are unbiased. That is, for a given sample size, the set of all
+sample proportions, , is centered on the population proportion, p; the
+set of all sample means, , is centered on the population mean, μ; and
+the set of all sample slopes, b, is centered on the population slope, β.
+Here are some illustrative simulations:
+However, the sampling distribution for the maximum is clearly biased.
+That is, for a given sample size, the set of all sample maxima, , is not
+centered on the population maximum, V. The estimator consistently
+underestimates the parameter V. For example, here is one simulation of
+sample maxima. Note that V falls far right of the center of the
+distribution of .
+Example 3.1
+Note the following simulations for sampling distributions of
+, both from a population with variance σ2 = 25.
+NOTE
+
+[[PAGE 304]]
+This shows why we divide by n − 1 when calculating a sample variance and
+standard deviation.
+We see that
+is a biased estimator for σ2 (that is, the
+distribution, with mean 20.05, is not approximately centered at σ2),
+while
+is an unbiased estimator for σ2 (that is, the distribution,
+with mean 25.04, is approximately centered at σ2).
+Example 3.2
+Five new estimators are being evaluated with regard to quality control in
+manufacturing professional baseballs of a given weight. Each estimator
+is tested every day for a month on samples of sizes n = 10, n = 20, and
+n = 40. The baseballs actually produced that month had a consistent
+mean weight of 146 grams. The distributions given by each estimator
+are as follows:
+
+[[PAGE 305]]
+(a) Which of the above appear to be unbiased estimators of the
+population parameter?
+(b) Which of the above exhibits the lowest variability for n = 40?
+(c)
+Which of the above is the best estimator if the selected
+estimator will eventually be used with a sample of size n = 100?
+Solutions
+(a) Estimators B, C, and D are unbiased estimators because they
+appear to have means approximately equal to the population
+mean of 146. A statistic used to estimate whether a population
+parameter is unbiased is if the mean of the sampling distribution
+of the statistic is equal to the true value of the parameter being
+estimated.
+(b) For n = 40, Estimator A exhibits the lowest variability, with a
+range of only 2 grams compared with the other ranges of 6
+
+[[PAGE 306]]
+grams, 4 grams, 4 grams, and 4 grams, respectively.
+(c)
+Estimator D is best because we should choose an unbiased
+estimator with low variability. From part (a), we have Estimators
+B, C, and D as unbiased estimators. Now we look at the
+variability of these three statistics. As n increases, D shows
+tighter clustering around 146 than does B. Finally, while C looks
+better than D for n = 40, the estimator will be used with n =
+100, and the D distribution is clearly converging as the sample
+size increases while the C distribution remains the same. Choose
+Estimator D.
+There are three key ideas to keep in mind:
+■
+Sample statistics are point estimators for population parameters.
+■
+Estimators have variability, which can be modeled using
+probability.
+■
+An estimator is unbiased if, on average, the value of the estimator
+equals the population parameter. Stated another way, an
+estimator is unbiased if, on average, it does not underestimate or
+overestimate the population parameter.
+Sampling Distribution for Sample
+Proportions
+We are interested in estimating a population proportion p by considering
+a single sample proportion . This sample proportion is just one of a
+whole universe of sample proportions. To judge the significance of a
+sample proportion, we must know how sample proportions vary; that is,
+we need to know the shape and parameters of the sampling distribution
+of .
+Start with a population with a given proportion p. Take all samples of size n.
+Compute the proportion
+in each of these samples. Once this is done:
+1. The set of all sample proportions is approximately
+normally distributed.
+
+########## SECTION statistics-barrons-2027-u3-s02 | Sampling Distribution for Sample Proportions | PDF pages 306-310 ##########
+
+[[PAGE 306]]
+Sampling Distribution for Sample
+Proportions
+We are interested in estimating a population proportion p by considering
+a single sample proportion . This sample proportion is just one of a
+whole universe of sample proportions. To judge the significance of a
+sample proportion, we must know how sample proportions vary; that is,
+we need to know the shape and parameters of the sampling distribution
+of .
+Start with a population with a given proportion p. Take all samples of size n.
+Compute the proportion
+in each of these samples. Once this is done:
+1. The set of all sample proportions is approximately
+normally distributed.
+
+[[PAGE 307]]
+2. The mean
+of the set of sample proportions equals p,
+the population proportion.
+3. The standard deviation
+of the set of sample
+proportions is approximately equal to
+.
+We say that the sampling distribution of is approximately normal with mean
+p and standard deviation
+.
+When making calculations and drawing conclusions from a specific
+sample, the following three conditions must be checked:
+■
+The randomization condition: The data should be collected
+using a random sample.
+■
+The 10% condition: When sampling without replacement, the
+sample size n should be no larger than 10% of the population.
+■
+The normality condition: The number of successes, np, and
+the number of failures, n(1 − p), should both be at least 10.
+NOTE
+The third condition is also written as np ≥ 10 and nq ≥ 10 where q = 1 − p.
+Example 3.3
+If we pick a simple random sample of size 80 from a large population,
+which of the following values of the population proportion p would allow
+use of the normal model for the sampling distribution of ?
+(A) 0.10
+(B)
+0.15
+(C) 0.90
+(D)
+0.95
+(E)
+0.99
+
+[[PAGE 308]]
+Solution
+(B) The relevant condition is that both np and nq ≥ 10. In (A), np =
+(80)(0.10) = 8; in (C), nq = (80)(0.10) = 8; in (D), nq = (80)(0.05) =
+4; and in (E), nq = (80)(0.01) = 0.8. However, in (B), np = (80)(0.15)
+= 12 and nq = (0.85)(80) = 68 are both ≥ 10.
+Example 3.4
+It is hypothesized that the ratio
+is most pleasing when
+equal to the golden ratio, ≈ 1.618. A student would like to calculate
+the mean ratio for students in her high school and plans to randomly
+sample 50 out of the 780 students at the school. Does this satisfy the
+10% condition?
+Solution
+10% of 780 = 78, and 50 < 78, so yes, the 10% condition is satisfied.
+Example 3.5
+A human resources director is interested in the proportion of employees
+in an 85-member department who believe they are saving enough for
+retirement. She randomly selects 12 employees to interview. Explain
+whether conditions for inference are satisfied.
+Solution
+It is stated that a random sample was taken, satisfying the
+randomization condition. The 10% condition is violated because 10% of
+85 is 8.5, and 12 is greater than 8.5. The normality condition is also
+violated because np and nq total 12, so both cannot be ≥ 10.
+Example 3.6
+It is estimated that 80% of people with high math anxiety experience
+brain activity similar to that experienced under physical pain when
+anticipating doing a math problem.
+
+[[PAGE 309]]
+(a)
+If a simple random sample of 110 people with high math anxiety
+is taken, are the conditions for inference satisfied?
+(b)
+In a simple random sample of 110 people with high math anxiety,
+what is the probability that less than 75% experience the physical
+pain brain activity?
+(c)
+For this problem, interpret the mean and standard deviation of the
+sampling distribution of in context.
+Solutions
+(a)
+The sample is given to be random, both np = (110)(0.80) = 88 ≥
+10 and n(1 − p) = (110)(0.20) = 22 ≥ 10, and our sample is
+clearly less than 10% of all people with math anxiety.
+(b)
+The sampling distribution of is approximately normal with mean
+0.80 and standard deviation
+[normalcdf(–1000, –1.312) = 0.0948 and normalcdf(–1000, 0.75,
+0.80, 0.0381) = 0.0947]
+Getting a sample proportion of 0.75 or less happens in about 9.48% of
+all possible samples of size 110 from this population.
+(c)
+We say: For all random samples of size n = 110 from the
+population of people with high math anxiety, the sample
+proportions of people who experience physical pain brain activity
+when anticipating doing a math problem will have a mean of 0.80
+
+[[PAGE 310]]
+and will typically vary by about 0.0381 from the population
+proportion of 0.80.
+
+########## SECTION statistics-barrons-2027-u3-s04 | Confidence Interval for a Proportion | PDF pages 313-322 ##########
+
+[[PAGE 313]]
+Confidence Interval for a Proportion
+By using what we know about sampling distributions, we can establish a
+certain confidence that a sample proportion lies within a specified
+interval around the population proportion. Equivalently, we can say that
+we are equally confident that the population proportion lies within a
+specified interval around the sample proportion.
+Typically, we consider 90%, 95%, and 99% confidence interval
+estimates, but any percent can be used. The percent is the percent of
+samples that would pinpoint the unknown p within plus or minus
+respective margins of error. We cannot say there is a 0.90, 0.95, or 0.99
+probability that the proportion p is within a certain margin of error of a
+given sample proportion. The population proportion p either is or isn’t
+within the specified interval, and so the probability it is within this
+interval is either 1 or 0.
+As will be seen, there are two aspects to this concept:
+■
+First, there is the confidence interval. This gives an interval of
+plausible values and is expressed in the following form:
+estimate ± margin of error
+■
+Second, there is the success rate for the method, called the
+confidence level. This is the proportion of times repeated
+applications of this method would capture the true population
+parameter.
+All of the above assume that certain conditions are met. For confidence
+interval estimates, the true population proportion p is unknown, so we
+
+[[PAGE 314]]
+use the sample proportion in checking the normality condition.
+Similarly, since p is unknown, we estimate the standard deviation
+The three conditions to be met and that we must check when finding a
+confidence interval for a proportion are as follows:
+■
+The randomization condition: The data should be collected
+using a random sample.
+■
+The 10% condition: When sampling without replacement, the
+sample size n should be no larger than 10% of the population.
+■
+The normality condition: The number of successes, n , and
+the number of failures, n(1 − ), should be at least 10.
+Our confidence interval will take the form:
+where the critical value, z*, depends on the chosen confidence level.
+In the following examples, important points to keep in mind include:
+■
+When naming the parameter, reference the proportion, the
+response variable, and the population in context.
+■
+Naming the procedure is most easily done by simply stating “one-
+sample z-interval for a population proportion.”
+■
+Verifying conditions means more than simply listing them with
+check marks. You must show work or give some reason to
+confirm verification.
+■
+Finding the interval can be accomplished using calculator
+software (such as 1-PropZInt) instead of using the above formula,
+but answer choices using formulas may well appear on multiple-
+choice questions.
+■
+Interpreting the interval in context must include mentioning the
+confidence level and parameter, and it must refer to the
+population, not the sample.
+■
+Interpreting the confidence level never involves mentioning a
+specific interval.
+
+[[PAGE 315]]
+Example 3.7
+(a)
+In a simple random sample of couples kissing in public places,
+such as airports, beaches, and parks, 80 out of 124 leaned their
+heads to the right. Establish a 95% confidence interval for the true
+proportion of public kissing couples who lean their heads to the
+right.
+(b)
+Suppose a sociologist claimed that over 60% of all public kissing
+couples lean their heads to the right. Does this confidence interval
+give convincing evidence in support of the sociologist’s claim?
+(c)
+Give an interpretation of the confidence level.
+NOTE
+80 is the number of “successes.”
+Solutions
+(a)
+Parameter: Let p represent the proportion of the population of
+public kissing couples who lean their heads to the right.
+Procedure: One sample z-interval for a population proportion.
+Checks: We are given that the sample is an SRS, and we assume
+that 124 is less than 10% of all public kissing couples. For
+normality,
+.
+Mechanics: Calculator software (such as 1-PropZInt) gives
+(0.56095, 0.72938).
+[For instructional purposes, we note that
+Conclusion in context: We are 95% confident that the true
+proportion of all public kissing couples who lean their heads to the
+right is between 0.561 and 0.729. Alternatively, we can say the
+following: “We are 95% confident that the interval from 0.561 to
+0.729 captures the true proportion of all public kissing couples who
+lean their heads to the right.”
+
+[[PAGE 316]]
+(b)
+No, the confidence interval (0.561 to 0.729) gives an interval of
+plausible values. Because all the values in the interval are not
+greater than 0.60, this confidence interval does not give convincing
+evidence in support of the sociologist’s claim that over 60% of all
+public kissing couples lean their heads to the right.
+(c)
+If all possible samples of 124 couples kissing in public places were
+observed, about 95% of the resulting confidence intervals would
+capture the true proportion of couples who lean their heads to the
+right.
+In the above example, note the following:
+■
+On the TI-84, for a confidence interval of a proportion, use 1-
+PropZInt, not ZInterval. Additionally, x must be an integer.
+■
+The words “true” and “all” in the conclusion satisfy the
+requirement of referring to the population.
+■
+In (b), the fact that = 0.64516 > 0.60 is not enough evidence
+to support the sociologist’s claim.
+Example 3.8
+(a)
+If 42% of a simple random sample of 550 young adults say that
+whoever asks for the date should pay for the first date, determine
+a 99% confidence interval estimate for the true proportion of all
+young adults who would say that whoever asks for the date should
+pay for the first date.
+(b)
+Does this confidence interval give convincing evidence in support
+of the claim that fewer than 50% of young adults would say that
+whoever asks for the date should pay for the first date?
+(c)
+Determine a 90% confidence interval. Note what effect going from
+99% to 90% confidence has on the interval size.
+(d) What would the 99% confidence interval be if the sample
+proportion of 42% had come from a sample of size 2,200, which is
+four times the sample size of 550? Note what increasing the
+sample size fourfold does to the interval size.
+Solutions
+
+[[PAGE 317]]
+(a)
+Parameter: Let p represent the proportion of the population of
+young adults who would say that whoever asks for the date should
+pay for the first date.
+Procedure: One-sample z-interval for a population proportion
+Checks: We are given that the sample is an SRS, and 550 is clearly
+less than 10% of the number of all young adults. For normality, n
+Mechanics: Calculator software gives (0.36579, 0.47421). [For
+instructional purposes, we note that
+Conclusion in context: We are 99% confident that the true
+proportion of all young adults who would say that whoever asks
+for the date should pay for the first date is between 0.366 and
+0.474. [Alternatively, we can say: “We are 99% confident that the
+interval from 0.366 to 0.474 captures the true proportion of all
+young adults who would say that whoever asks for the date should
+pay for the first date.”]
+(b)
+Yes, the confidence interval (0.366 to 0.474) gives an interval of
+plausible values. Because all these values are less than 0.50, this
+confidence interval gives convincing evidence in support of the
+claim that fewer than 50% of young adults would say that
+whoever asks for the date should pay for the first date.
+(c)
+Here, 1-PropZInt gives (0.38538, 0.45462). Note that the interval
+width decreased from 0.47421 – 0.36579 = 0.10842 to 0.45462 –
+0.38538 = 0.06924. If we’re willing to settle for a lower confidence
+(90% instead of 99%), the result is a smaller interval width.
+(d)
+Here, 1-PropZInt gives (0.3929, 0.4471). Note that the interval
+width decreased from 0.47421 – 0.36579 = 0.10842 to 0.4471 –
+0.3929 = 0.0542. If the sample size had been fourfold larger, the
+interval width would have been cut in half.
+As seen in the above example, for a given sample, decreasing the
+confidence level will result in the following:
+
+[[PAGE 318]]
+■
+The critical value z* will decrease.
+■
+The margin of error z*
+will decrease.
+■
+The width of the confidence interval will decrease.
+As seen in the above example, when all other things remain the same,
+increasing the sample size will result in the following:
+■
+The margin of error
+will decrease.
+■
+The width of the confidence interval will decrease by a factor of
+if the sample size is increased by a factor of d2.
+Example 3.9
+In a telephone survey of a random sample of 1,000 high school seniors,
+832 answered yes to the question: “Do you want to get married
+someday?”
+(a)
+What is the parameter of interest?
+(b)
+Are the conditions for inference satisfied?
+(c)
+With what confidence can it be asserted that 83.2 % ± 3% of the
+high school population want to get married someday?
+Solutions
+(a)
+The parameter is p, which represents the proportion of the
+population of high school seniors who would answer yes to the
+question: “Do you want to get married someday?”
+(b)
+We are given that there was a random sample, and clearly 1,000
+is less than 10% of all high school seniors. For normality, n = 832
+≥ 10 and n(1 − ) = 1,000 − 832 = 168 ≥ 10.
+(c)
+The relevant z-scores are
+In other words, 83.2% ± 3% is a 98.89% confidence interval estimate
+for the proportion of all high school seniors who would answer yes to
+the question: “Do you want to get married someday?”
+
+[[PAGE 319]]
+As we have seen, there are two types of statements that come out of
+confidence intervals. First, we can interpret the confidence interval
+and say we are 90% confident that, for example, between 60% and
+66% of all voters favor a bond issue. Second, we can interpret the
+confidence level and say that if this survey were conducted many
+times, about 90% of the resulting confidence intervals would contain
+the true proportion of voters who favor the bond issue.
+If (0.60, 0.66) is a 90% confidence interval for the proportion of all
+voters who favor a bond issue, following are three common
+misconceptions:
+MISCONCEPTION #1: The true proportion of all voters who support the bond issue is
+between 0.60 and 0.66.
+Fact: The true proportion may or may not be in the specified interval; we are only 90%
+confident that it is in the interval.
+MISCONCEPTION #2: There is a 0.90 probability that the true proportion of all voters who
+favor the bond issue is between 0.60 and 0.66.
+Fact: For a given confidence interval, the true proportion either is or is not within the
+specified interval, and so the probability is either 1 or 0.
+MISCONCEPTION #3: If this survey were conducted many times, about 90% of the
+sample proportions would be in the interval (0.60, 0.66).
+Fact: (0.60, 0.66) is one specific interval derived from one sample proportion and has
+nothing to do with other samples and other sample proportions.
+One important consideration in setting up a survey is the choice of
+sample size. To obtain a smaller, more precise interval estimate of the
+population proportion, we must either decrease the degree of
+confidence or increase the sample size. Similarly, if we want to increase
+the degree of confidence, we can either accept a wider interval estimate
+or increase the sample size. Again, while choosing a larger sample size
+may seem desirable, in the real world this decision involves time and
+cost considerations.
+In setting up a survey to obtain a confidence interval estimate of the
+population proportion, what should we use for
+? Algebraically it can
+be shown that
+) is greatest when p = 0.5, and in this case
+Thus,
+is at most
+We make
+use of this fact to determine sample sizes in questions such as those in
+Examples 3.10 and 3.11.
+
+[[PAGE 320]]
+Example 3.10
+A CDC investigator wants to know the proportion of all adults who are
+fully vaccinated and boostered against Covid-19. If the answer must be
+within ±0.03 at the 96% confidence level, how many adults should be
+in the selected sample?
+For 96% confidence, there is 0.02 in each tail and invNorm(0.02) = -2.05 or
+invNorm(0.98) = 2.05.
+TIP
+Noting the inequality, you must round a result “up” if it is a decimal.
+Solution
+The parameter is p, which represents the proportion of all adults who
+are fully vaccinated and boostered against Covid-19. We want 2.05
+≤
+0.03. From the above
+is at most
+, and so it is sufficient to consider
+. Algebraically, we have
+.
+Therefore, choosing a sample of 1,168 adults gives the true vaccinated
+and boostered proportion to within ±0.03 at the 96% level.
+Note that the accuracy of the estimate does not depend on what
+fraction of the whole population we have sampled. What is critical is the
+absolute size of the sample. Is some minimal value of n necessary for
+the procedures we are using to be meaningful? Since we are using the
+normal approximation to the binomial, both np and n(1 − p) should be
+at least 10.
+Example 3.11
+A study is undertaken to determine the proportion of industry
+executives who believe that workers’ pay should be based on individual
+performance. How many executives should be interviewed if an
+
+[[PAGE 321]]
+estimate is desired at the 99% confidence level to within ±0.06? To
+within ±0.03? To within ±0.02?
+Solution
+The parameter is p, which represents the proportion of the population
+of industry executives who believe that workers’ pay should be based on
+individual performance. Algebraically,
+Thus, at the 99%
+confidence level, at least 463 executives should be interviewed for a
+margin of error of ±0.06, at least 1,841 should be interviewed for a
+margin of error of ±0.03, and at least 4,148 should be interviewed for a
+margin of error of ±0.02.
+Note that to cut the interval estimate in half (from ±0.06 to ±0.03),
+we would have to increase the sample size fourfold. To cut the interval
+estimate to a third (from ±0.06 to ±0.02), a ninefold increase in the
+sample size would be required (answers are not exact because of
+round-off error).
+More generally, to divide the interval estimate by d without affecting
+the confidence level, we must increase the sample size by a multiple of
+d2.
+A formula for choosing the sample size n for a specific margin of
+error, MOE, can be found by algebraically solving for n in the equation
+to obtain:
+When cannot be roughly calculated, use = 0.5 to obtain:
+So in the previous example, with 99% confidence and
+, which can be rounded up to 4,148.
+
+########## SECTION statistics-barrons-2027-u3-s07 | Logic of Hypothesis Testing | PDF pages 330-334 ##########
+
+[[PAGE 330]]
+Logic of Hypothesis Testing
+Closely related to the problem of estimating a population proportion or
+mean is the problem of testing a hypothesis about a population
+proportion or mean. For example, a travel agency might determine an
+interval estimate for the proportion of sunny days in the Virgin Islands
+or, alternatively, might test a tourist bureau’s claim about the proportion
+of sunny days. A consumer protection agency might determine an
+interval estimate for the mean nicotine content of a particular brand of
+cigarettes or, alternatively, might test a manufacturer’s claim about the
+mean nicotine content of its cigarettes. In each of these cases, the
+experimenter must decide whether the interest lies in estimating a
+population proportion or mean or in testing a claimed proportion or
+mean.
+The general testing procedure is to choose a specific hypothesis to
+be tested, called the null hypothesis, pick an appropriate random
+sample, and then use measurements from the sample to determine the
+likelihood of the null hypothesis. If the sample statistic is far enough
+away from the claimed population parameter, we say that there is
+sufficient evidence to reject the null hypothesis. We attempt to show
+that the null hypothesis is unacceptable by showing that it is
+improbable.
+
+[[PAGE 331]]
+Consider the context of the population proportion. The null
+hypothesis H0 is stated in the form of an equality statement about the
+population proportion (for example, H0: p = 0.37). There is an
+alternative hypothesis, stated in the form of a strict inequality (for
+example, Ha: p < 0.37 or Ha: p > 0.37 or Ha: p ≠ 0.37). The strength of
+the sample statistic can be gauged through its associated p-value,
+which is the probability of obtaining a sample statistic as extreme (or
+more extreme) as the one obtained if the null hypothesis is assumed to
+be true. The smaller the p-value, the more significant the difference
+between the null hypothesis and the sample results.
+Several points worth noting:
+■
+Understand that the sample statistic almost never equals the
+claimed population parameter. Either the sample statistic differs
+by random chance or the claimed parameter is wrong. If you can
+eliminate random chance as a plausible explanation for the
+sample statistic, then you can say that there is convincing
+evidence that the claimed parameter is wrong.
+■
+The equality reference in the null hypothesis can be stated using
+≥ or ≤ when the alternative is one-sided in the other direction.
+■
+Never base your hypotheses on what you find in the sample data.
+■
+Note that only population parameter symbols like μ, p, and β
+appear in H0 and Ha. Sample statistics like , , and b do NOT
+appear in H0 or Ha.
+■
+The p-value is a conditional probability; it assumes the null
+hypothesis is true. Assuming that H0 is true, the p-value
+measures how likely it is to get evidence for Ha as strong as or
+stronger than the observed evidence by chance alone.
+■
+For a one-sided test (the alternative is < or >), the p-value is the
+proportion of values at or more extreme than the test statistic (in
+the direction of the alternative). For a two-sided test (the
+alternative is ≠), the p-value is the proportion of values at or
+more extreme than the test statistic in either direction; that is, it
+is twice the calculated tail probability.
+■
+The p-value is NOT the probability of the null hypothesis being
+true.
+
+[[PAGE 332]]
+■
+The significance level, α, is fixed at the beginning of the
+hypothesis test. The conclusion to the test will be based upon
+whether or not the calculated p-value is less than or greater than
+α. If the p-value ≤α, reject H0; there is convincing evidence for
+Ha. If the p-value >α, fail to reject H0; there is not convincing
+evidence for Ha.
+There are two types of possible errors: the error of mistakenly rejecting
+a true null hypothesis and the error of mistakenly failing to reject a false
+null hypothesis. The α-risk, also called the significance level of the test,
+is the probability of committing a Type I error and mistakenly rejecting a
+true null hypothesis. A Type II error, a mistaken failure to reject a false
+null hypothesis, has associated probability β. There is a different value
+of β for each possible correct value for the population parameter p. For
+each β, 1 − β is called the “power” of the test against the associated
+correct value. The power of a hypothesis test is the probability that a
+Type II error is not committed. That is, given a true alternative, the
+power is the probability of rejecting the false null hypothesis. Increasing
+the sample size and increasing the significance level are both ways of
+increasing the power. Also note that a true null that is further away from
+the hypothesized null is more likely to be detected, thus offering a more
+powerful test.
+TIP
+Be able to identify Type I and Type II errors in context and give possible
+consequences of each in context.
+A simple illustration of the difference between a Type I and a Type II
+error is as follows. Suppose the null hypothesis is that all systems are
+
+[[PAGE 333]]
+operating satisfactorily with regard to a NASA launch. A Type I error
+would be to delay the launch mistakenly thinking that something was
+malfunctioning when everything was actually OK. A Type II error would
+be to fail to delay the launch mistakenly thinking everything was OK
+when something was actually malfunctioning. The power is the
+probability of recognizing a particular malfunction. (Note the
+complementary aspect of power, a “good” thing, with Type II error, a
+“bad” thing.)
+The U.S. justice system provides another often-quoted illustration. If
+the null hypothesis is that a person is innocent, a Type I error results
+when an innocent person is found guilty while a Type II error results
+when a guilty person is not convicted. We try to minimize Type I errors
+in criminal trials by demanding unanimous jury guilty verdicts. In civil
+suits, however, many states try to minimize Type II errors by accepting
+simple majority verdicts.
+It should be emphasized that with regard to calculations, questions
+like “What is the power of this test?” and “What is the probability of a
+Type II error in this test?” cannot be answered without reference to a
+specific alternative hypothesis. Furthermore, AP students are not
+required to know how to calculate these probabilities. However, you are
+required to understand the concepts and interactions among the
+concepts.
+Example 3.12
+Research is conducted on a new weight loss medication with the
+following null hypothesis:
+H 0: The medication is effective in promoting weight loss
+(a)
+What would be the results of a Type I error?
+(b)
+What would be the results of a Type II error?
+Solutions
+(a)
+A Type I error is falsely rejecting a true null hypothesis. In this
+case, if H0 were true, the new medication would be effective in
+promoting weight loss. If you reject H0, the result would be a
+
+[[PAGE 334]]
+failure to recognize, manufacture, and make available an effective
+weight loss medication.
+(b)
+A Type II error is failing to reject a false null hypothesis. In this
+case, if H0 were false, the new medication would not be effective
+in promoting weight loss. If you fail to reject H0, an ineffective
+drug would be needlessly produced and marketed to the public.
+TIP
+For a hypothesis test, we check if np0 and n(1 – p0) are ≥ 10. For a confidence
+interval, we check if n
+and n(1 −
+) are ≥ 10.
+
+########## SECTION statistics-barrons-2027-u3-s08 | Hypothesis Test for a Proportion | PDF pages 334-339 ##########
+
+[[PAGE 334]]
+Hypothesis Test for a Proportion
+Three conditions must be met and checked for:
+■
+The randomization condition: The data should be collected
+using a random sample.
+■
+The 10% condition: When sampling without replacement, the
+sample size n should be no larger than 10% of the population.
+■
+The normality condition: The number of successes, n p0, and
+the number of failures, n(1 − p0), should both be at least 10,
+where p0 is the claimed null hypothesis proportion.
+Example 3.13
+(a)
+A union spokesperson claims that 75% of union members will
+support a strike if their basic demands are not met. A company
+negotiator believes the true percentage is lower and runs a
+hypothesis test. What is the conclusion if 87 out of a simple
+random sample of 125 union members say they will strike? (Give
+conclusions both at the 0.05 and the 0.10 significance levels.)
+(b)
+For each of the two possible answers to part (a), what error might
+have been committed, Type I or Type II, and what would be a
+possible consequence?
+(c)
+Interpret the p-value in context.
+
+[[PAGE 335]]
+Solutions
+TIP
+Hypotheses are always about the population, never about a sample; note that H0
+is p = 0.75, not = 0.75.
+(a)
+Parameter: Let p represent the proportion of all union members
+who will support a strike if their basic demands are not met.
+Hypotheses: H0: p = 0.75 and Ha: p < 0.75.
+Procedure: One-sample z-test for a population proportion.
+Checks: It is given that we have an SRS, and we must assume that
+125 is less than 10% of the total union membership. For normality,
+np0 = 125(0.75) = 93.75 ≥ 10 and n (1 − p0) = 125(0.25) =
+31.25 ≥ 10.
+Mechanics: Calculator software (1-PropZTest) gives z = −1.394
+and a p-value of 0.0816.
+[For instructional purposes, we note that the observed sample
+proportion is
+, and using the claimed proportion, 0.75,
+we have
+and
+with a
+resulting p-value of 0.0817.]
+Important
+We never “accept” a null hypothesis; we either do or do not have sufficient evidence to
+reject it.
+Conclusion in context with linkage to the p-value: There are different
+answers depending on the choice of significance level. Answers using α
+= 0.05 and α = 0.10 are as follows:
+1. With this large of a p-value, 0.0816 > 0.05, there is not
+sufficient evidence to reject H0; that is, there is not convincing
+
+[[PAGE 336]]
+evidence at the 5% significance level that the true percentage of
+union members who support a strike is less than 75%.
+2. With this small of a p-value, 0.0816 < 0.10, there is sufficient
+evidence to reject H0; that is, there is convincing evidence at the
+10% significance level that the true percentage of union
+members who support a strike is less than 75%.
+TIP
+Always give the conclusion in context, and, in general, the conclusion should be
+about the alternative hypothesis, Ha.
+(b) If the p-value is considered large, 0.0816 > 0.05, so that there is
+not sufficient evidence to reject the null hypothesis, there is the
+possibility that a false null hypothesis would mistakenly not be
+rejected and thus a Type II error would be committed. In this
+case, the union might call a strike thinking they have greater
+support than they actually do. If the p-value is considered small,
+0.0816 < 0.10, so that there is sufficient evidence to reject the null
+hypothesis, there is the possibility that a true null hypothesis would
+mistakenly be rejected, and thus a Type I error would be
+committed. In this case, the union might not call for a strike
+thinking they don’t have sufficient support when they actually do
+have support.
+(c)
+Assuming that 75% of union members will support a strike, there is
+a probability of 0.0817 of getting a sample proportion of 0.696 or
+lower by chance alone in a random sample of 125 union members.
+
+[[PAGE 337]]
+NOTE
+Absence of evidence does not constitute evidence of absence. Just because there
+is not convincing evidence to reject H0 does not mean that there is evidence that
+H0 is true or that Ha is false.
+TIP
+If the question does not suggest a direction for the alternative, use a two-sided
+test.
+Example 3.14
+(a) A cancer research group surveys a random sample of 500
+women more than 40 years old to test the hypothesis that 28%
+of women in this age group have regularly scheduled
+mammograms. Should the hypothesis be rejected at the 5%
+significance level if 151 of the women respond affirmatively?
+(b) In the answer to (a) above, what error might have been
+committed, Type I or Type II, and what would be a possible
+consequence?
+(c)
+Interpret the p-value in context.
+Solutions
+(a)
+Parameter: Let p represent the proportion of the population of
+women over 40 years old who have regularly scheduled
+mammograms.
+Hypotheses: H0: p = 0.28 and Ha: p ≠ 0.28. (Since no suspicion is
+voiced that the 28% claim is low or high, we run a two-sided z-test
+for proportions.)
+Procedure: One-sample z-test for a population proportion.
+Checks: We are given a random sample, and clearly 500 < 10% of
+all women over 40 years old. For normality, np0 = 500(0.28) = 140
+≥ 10 and n (1 − p0) = 500(0.72) = 360 ≥ 10.
+Mechanics: Calculator software gives z = 1.0956 and p = 0.2732.
+
+[[PAGE 338]]
+[For instructional purposes, we note that the observed
+,
+and
+which
+corresponds to a tail probability of 0.1366. Doubling this value
+(because the test is two-sided) gives a p-value of 0.2732.]
+Conclusion in context with linkage to the p-value: With this large of
+a p-value, 0.2732 > 0.05, there is not sufficient evidence to reject
+H0; that is, the cancer research group does not have convincing
+evidence to dispute the claim that 28% of all women in this age
+group have regularly scheduled mammograms.
+(b)
+There was not sufficient evidence to reject the null hypothesis. So
+a Type II error might be committed, that is, failing to reject a false
+null hypothesis. If so, the cancer research group would be doing
+their research assuming that 28% of women over 40 years old
+have regularly scheduled mammograms whereas the true figure is
+different.
+(c)
+Interpretation of p-value: Assuming that 28% of women over 40
+years old have regularly scheduled mammograms, there is a
+0.2732 probability of getting a sample proportion as extreme or
+more extreme than 0.302 in either direction by chance alone in a
+random sample of 500 women over 40 years old.
+TIP
+When we fail to reject H0, we are not accepting it. It simply means that there is
+not sufficient evidence against H0; that is, we cannot rule out random chance as
+the explanation.
+
+[[PAGE 339]]
+If H0: p = 0.28 and Ha: p ≠ 0.28, where p = the proportion of women
+over 40 years old who have regularly scheduled mammograms, with =
+0.302 and a p-value of 0.2732, and with a significance level of α = 0.05,
+following are three common misconceptions:
+MISCONCEPTION #1: H0 and Ha are alternative conclusions.
+Fact: A hypothesis test is a decision-making process in order to reject or fail to reject a
+null hypothesis, H0. You are not deciding that one of H0 or Ha is true. Your conclusion
+should be either that there is sufficient evidence to reject H0 (that is, there is convincing
+evidence in support of Ha) or that there is not sufficient evidence to reject H0 (that is,
+there is not convincing evidence in support of Ha).
+MISCONCEPTION #2: The significance level α = 0.05 is the probability that the alternative
+hypothesis is true. That is, the probability is 0.05 that the proportion of women over 40 years
+old who have regularly scheduled mammograms is different from 0.28.
+Fact: The significance level is a fixed value we use to decide how small a p-value is
+required to be in order to reject the null hypothesis.
+MISCONCEPTION #3: The p-value of 0.2732 is the probability of obtaining by chance
+alone a statistic as extreme or more extreme than the observed event of = 0.302.
+Fact: This misses that the p-value is a conditional probability. The p-value is the
+probability of obtaining a statistic as extreme or more extreme than the one actually
+observed, by chance alone, when assuming that the null hypothesis is true.
+
+########## SECTION statistics-barrons-2027-u3-s10 | Sampling Distribution for the Difference Between Sample Proportions | PDF pages 344-346 ##########
+
+[[PAGE 344]]
+Sampling Distribution for the Difference
+Between Sample Proportions
+We are interested in comparing two population proportions, p1 and p2,
+by considering two sample proportions, 1 and 2. These sample
+proportions are from a whole universe of sample proportions. To judge
+their significance, we must know how differences of sample proportions
+vary; that is, we need to know the shape and parameters of the
+sampling distribution of 1 – 2.
+Start with two populations with given proportions p1 and p2. Take all samples
+of sizes n1 and n2, respectively. Compute the difference 1 −
+2 of the two
+proportions in each pair of samples. The following are now true:
+1. The set of all differences of sample proportions is
+approximately normally distributed.
+2. The mean
+of the set of differences of sample
+proportions equals p1 − p2, the difference of population
+proportions.
+3. The standard deviation
+of the set of differences of
+sample proportions is approximately equal to
+.
+We say that the sampling distribution of
+is approximately normal with
+mean p1 − p2 and standard deviation
+.
+When making calculations and drawing conclusions from two specific
+samples, the following three conditions must be checked:
+■
+The randomization condition: The data should be collected
+using random samples, and the samples must be taken
+independently of each other.
+■
+The 10% condition: When sampling without replacement, the
+sample sizes n1 and n2 should be no larger than 10% of the
+
+[[PAGE 345]]
+respective populations.
+■
+The normality condition: The numbers of successes, n1 p1 and
+n2 p2, and the numbers of failures, n1(1 − p1) and n2(1 − p2),
+should all be at least 10.
+Example 3.15
+In an ideal world, everyone washes their hands after using the
+restroom. Unfortunately, this is not the reality. Previous epidemiological
+studies of college dormitory restrooms indicate that 54% of women and
+41% of men wash their hands after using a restroom. In independent
+random samples of 110 women and 120 men living in college
+dormitories, what is the probability that the difference in percentages
+washing their hands after using a restroom (women minus men) is more
+than 15%?
+Solution
+We have independent random samples, each less than 10% of their
+respective populations. So both the randomization condition and the
+10% condition are met. For the normality condition, we note that n1p1
+= 110(0.54) = 59.4, n1(1 – p1) = 110(0.46) = 50.6, n2p2 = 120(0.41) =
+49.2, and n2(1 – p2) = 120(0.59) = 70.8 are all ≥10. Thus, the
+sampling distribution of 1 − 2 is approximately normal with mean
+= 0.54 − 0.41 = 0.13 and standard
+Then
+[normalcdf(0.3058, 1000) = 0.380 and normalcdf(0.15, 1000, 0.13,
+0.0654) = 0.380]
+
+[[PAGE 346]]
+Confidence Interval for the Difference of
+Two Proportions
+For confidence interval estimates, the true population proportions p1
+and p2 are unknown, so we use the sample proportions 1 and 2 in
+checking the normality condition. Similarly, since p1 and p2 are
+unknown, we estimate the standard deviation
+with the standard error defined by:
+Thus, to find a confidence interval for the difference of two proportions,
+the three conditions to be met and that must be checked for are as
+follows:
+■
+The randomization condition: The data should be collected
+using random samples, and the samples must be taken
+independently of each other. (Alternatively, the data should be
+from a randomized experiment.)
+■
+The 10% condition: When sampling without replacement, the
+sample sizes n1 and n2 should be no larger than 10% of the
+respective populations. (This condition is unnecessary when the
+data are from a randomized experiment.)
+
+########## SECTION statistics-barrons-2027-u3-s11 | Confidence Interval for the Difference of Two Proportions | PDF pages 346-350 ##########
+
+[[PAGE 346]]
+Confidence Interval for the Difference of
+Two Proportions
+For confidence interval estimates, the true population proportions p1
+and p2 are unknown, so we use the sample proportions 1 and 2 in
+checking the normality condition. Similarly, since p1 and p2 are
+unknown, we estimate the standard deviation
+with the standard error defined by:
+Thus, to find a confidence interval for the difference of two proportions,
+the three conditions to be met and that must be checked for are as
+follows:
+■
+The randomization condition: The data should be collected
+using random samples, and the samples must be taken
+independently of each other. (Alternatively, the data should be
+from a randomized experiment.)
+■
+The 10% condition: When sampling without replacement, the
+sample sizes n1 and n2 should be no larger than 10% of the
+respective populations. (This condition is unnecessary when the
+data are from a randomized experiment.)
+
+[[PAGE 347]]
+■
+The normality condition: n1 1, n2 2, n1(1 − 1), and n2(1 −
+2) are all ≥ 10.
+A confidence interval for the difference of two proportions will take the
+following form:
+Example 3.16
+Is high-speed Internet access critical to educational opportunities? A
+researcher believes that a greater proportion of adults living in urban
+areas than rural areas are in favor of spending more government funds
+to expand high-speed Internet access. To investigate this belief,
+independent simple random samples of 1,017 adults living in urban
+settings and 801 adults living in rural areas were selected. Of those
+surveyed, 612 of the urban residents and 137 of the rural residents said
+they were in favor of spending more government funds to expand high-
+speed Internet access.
+(a)
+Use a 99% confidence interval to estimate the difference in the
+proportions of urban residents and rural residents who are in favor
+of spending more government funds to expand high-speed
+Internet access.
+(b)
+Based on only this confidence interval, is there convincing
+evidence that a greater proportion of urban residents than rural
+residents are in favor of spending more government funds to
+expand high-speed Internet access?
+Interpretation of the confidence level: If all possible random samples of 1,017 urban
+residents and 801 rural residents are surveyed and if a confidence interval for the
+difference in proportions of those who are in favor of spending more government funds to
+expand high-speed Internet access (urban residents minus rural residents) is constructed
+from each pair of samples, then 99% of these intervals would capture the true difference
+in proportions between urban residents and rural residents who are in favor of spending
+more government funds to expand high-speed Internet access.
+Solutions
+
+[[PAGE 348]]
+(a)
+Parameters: Let pU represent the proportion of the population of
+urban residents who are in favor of spending more government
+funds to expand high-speed Internet access. Let pR represent the
+proportion of the population of rural residents who are in favor of
+spending more government funds to expand high-speed Internet
+access.
+Procedure: Two-sample z-interval for the difference between
+population proportions, pU − pR.
+Checks: We are given independent SRSs. The sample sizes are
+clearly less than 10% of the population of all urban residents and
+of all rural residents, respectively. For normality,
+Mechanics: Computer software (2-PropZInt) gives (0.378, 0.483).
+[For instructional purposes, we have
+The observed difference is 0.602 − 0.171 = 0.431, and the critical
+z-scores are ±2.576. The confidence interval is 0.431 ±
+2.576(0.0203) = 0.431 ± 0.052 or (0.379, 0.483).]
+Conclusion in context: We are 99% confident that the true
+proportion of urban residents who are in favor of spending more
+government funds to expand high-speed Internet access is
+between 0.378 and 0.483 higher than the true proportion of rural
+residents who are in favor of spending more government funds to
+expand high-speed Internet access. [Or we are 99% confident that
+the interval from 0.378 and 0.483 captures the true difference
+(urban residents minus rural residents) in the proportions of urban
+residents and rural residents who are in favor of spending more
+government funds to expand high-speed Internet access.]
+(b)
+Yes, because the entire confidence interval from 0.378 to 0.483 is
+positive, there is convincing evidence that a greater proportion of
+urban residents than rural residents are in favor of spending more
+government funds to expand high-speed Internet access.
+
+[[PAGE 349]]
+NOTE
+If the value in question was ANYWHERE in the interval, even at the very edge,
+then there is not convincing evidence of a significant difference from that value.
+Example 3.17
+A dermatologist asked a random sample of 950 teenagers suffering
+from moderate cases of acne to choose from among the following three
+statements:
+■
+Glycemic diet statement: A low-glycemic diet is the most
+important action one can take to control acne outbreaks.
+■
+Dairy statement: Avoiding dairy products is the most important
+action one can take to control acne outbreaks.
+■
+No right diet: Diets are of minor importance in controlling acne
+outbreaks.
+The number of teenagers choosing each statement is given in the
+following table.
+Glycemic Diet
+Dairy
+No Right Diet
+Number of
+teenagers
+(a)
+Assuming all conditions for inference are met, find a 95%
+confidence interval for the proportion of teenagers suffering from
+moderate cases of acne who would choose the glycemic diet
+statement.
+(b)
+One of the conditions that was met is that the number of
+teenagers who chose the glycemic diet statement and the number
+who did not choose the glycemic diet statement are both at least
+10. Explain why it is necessary to satisfy this condition.
+(c)
+The dermatologist would like to use a two-sample z-interval to find
+a confidence interval for the difference in proportions of teenagers
+who would choose the glycemic diet statement and the proportion
+who would choose the dairy statement. Is this an appropriate
+procedure using these data? Explain.
+
+[[PAGE 350]]
+Solutions
+(a)
+Parameter: Let p represent the proportion of the population of
+teenagers suffering from moderate cases of acne who would
+choose the glycemic diet statement.
+Procedure: One-sample z-interval for a population proportion.
+Checks: It is given that all conditions for inference are met.
+Mechanics: Calculator software gives (0.271, 0.329).
+Conclusion in context: We are 95% confident that the true
+proportion of teenagers suffering from moderate cases of acne
+who would choose the glycemic diet statement is between 0.271
+and 0.329.
+(b)
+The formula for the confidence interval relies on the fact that the
+binomial distribution can be approximated by a normal distribution
+so that the sampling distribution of is approximately normal. This
+works if both n and n(1 – ) are at least 10.
+(c)
+No, it would not be appropriate, because to use a two-sample z-
+interval to find a confidence interval for the difference in
+proportions, there has to be two independent random samples.
+The data here are from only a single sample.
+Hypothesis Test for the Difference of Two
+Proportions
+The null hypothesis for a difference of two proportions is H0 : p1 = p2.
+The alternative hypothesis is Ha : p1 > p2, Ha : p1 < p2, or Ha : p1 ≠ p2.
+Equivalently, we can instead use H0 : p1 − p2 = 0 and Ha : p1 − p2 > 0,
+Ha : p1 − p2 < 0, or Ha : p1 − p2 ≠ 0.
+With a null hypothesis of H0 : p1 = p2, we use the combined (or pooled)
+proportion in the normality condition and in calculating the standard
+error.
+Thus, the three conditions to be met and must be checked for are as
+follows:
+
+########## SECTION statistics-barrons-2027-u3-s12 | Hypothesis Test for the Difference of Two Proportions | PDF pages 350-353 ##########
+
+[[PAGE 350]]
+Hypothesis Test for the Difference of Two
+Proportions
+The null hypothesis for a difference of two proportions is H0 : p1 = p2.
+The alternative hypothesis is Ha : p1 > p2, Ha : p1 < p2, or Ha : p1 ≠ p2.
+Equivalently, we can instead use H0 : p1 − p2 = 0 and Ha : p1 − p2 > 0,
+Ha : p1 − p2 < 0, or Ha : p1 − p2 ≠ 0.
+With a null hypothesis of H0 : p1 = p2, we use the combined (or pooled)
+proportion in the normality condition and in calculating the standard
+error.
+Thus, the three conditions to be met and must be checked for are as
+follows:
+
+[[PAGE 351]]
+■
+The randomization condition: The data should be collected
+using random samples, and the samples must be taken
+independently of each other. (Alternatively, the data are from a
+randomized experiment.)
+■
+The 10% condition: When sampling without replacement, the
+sample sizes n1 and n2 should be no larger than 10% of their
+respective populations. (This condition is unnecessary when the
+data are from a randomized experiment.)
+■
+The normality condition:
+The standard error becomes:
+The relevant test statistic z takes the form:
+Example 3.18
+FEMA aid denial was a big problem after Hurricane Harvey hit the Gulf
+Coast in 2018. In a random sample of 775 District X homeowners, 403
+said they were able to get the help they needed. In an independent
+random sample of 825 District Y homeowners, 264 said they were able
+to get the help they needed.
+(a)
+Do the above data give convincing evidence that a greater
+proportion of District X homeowners than District Y homeowners
+were able to get the help they needed?
+(b)
+The 95% confidence interval for the difference in proportions is
+(0.153, 0.257). Is this result consistent with the above conclusion?
+(c)
+Based on your conclusion in part (a), which type of error, Type I or
+Type II, could have been made? What is one potential
+consequence of this error?
+Solutions
+
+[[PAGE 352]]
+Interpretation of p-value: Assuming that there is no difference in the proportions of
+District X and District Y homeowners who were able to get the help they needed, there is
+a probability of 0.000 of getting an observed proportion difference of 0.20 or greater by
+chance alone in random samples of 775 District X homeowners and 825 District Y
+homeowners.
+(a)
+Parameters: Let pX represent the proportion of the population of
+District X homeowners who were able to get the help they needed.
+Let pY represent the proportion of the population of District Y
+homeowners who were able to get the help they needed.
+Hypotheses: H0 : pX − pY = 0 or H0 : pX = pY and Ha : pX – pY > 0
+or Ha : pX > pY
+Procedure: Two-sample z-test for a difference of two population
+proportions.
+Checks: We are given independent random samples and must
+assume that the sample sizes are less than 10% of the respective
+populations. For normality and with
+Mechanics: Calculator software (2-PropZTest) gives z = 8.11 and p
+≈ 0.000.
+[For instructional purposes, we note that
+0.32. The observed difference is
+and the tail
+probability gives a p-value of normalcdf(8.11, 1000) » 0.000.]
+Conclusion in context with linkage to the p-value: With this small a
+p-value, 0.000 < 0.05, there is sufficient evidence to reject H0. In
+other words, there is convincing evidence that after Hurricane
+Harvey hit the Gulf Coast, a greater proportion of all District X
+homeowners than all District Y homeowners were able to get the
+help they needed.
+(b)
+We are 95% confident that the true difference in proportions (true
+proportion of all District X homeowners who received the help they
+
+[[PAGE 353]]
+needed minus the true proportion of District Y homeowners who
+received the help they needed) is between 0.153 and 0.247. Since
+this interval is entirely positive, it is consistent with the conclusion
+from the hypothesis test.
+(c)
+Since we rejected H0, there is the possibility that a true null
+hypothesis was mistakenly rejected, which would have been a
+Type I error. A possible consequence would have been claims of
+district inequities in FEMA aid distribution when none actually
+existed.
+
+########## SECTION statistics-barrons-2027-u3-s15 | Chi-Square Test for Independence or Homogeneity | PDF pages 363-372 ##########
+
+[[PAGE 363]]
+Chi-Square Test for Independence or
+Homogeneity
+There is a class of real-world problems in which we want to determine if
+there is a significant association between two categorical variables.
+We cross-classify a single sample of observations from a single
+population in two ways and then ask whether the two variables are
+independent of each other. This leads to chi-square tests for
+independence with hypotheses:
+■
+H0: There is no association between two categorical variables in a
+given population, or equivalently, two categorical variables in a
+
+[[PAGE 364]]
+given population are independent.
+■
+Ha: There is an association between two categorical variables in a
+given population, or equivalently, two categorical variables in a
+given population are not independent.
+There is a related class of problems in which we have a single
+categorical variable and obtain independent samples from two or
+more populations to determine whether the distributions of that
+variable are different for the populations. This leads to chi-square tests
+for homogeneity with hypotheses:
+■
+H0: There is no difference in the distributions of the categorical
+variable across populations.
+■
+Ha: There is a difference in the distributions of the categorical
+variable across populations.
+Tests for independence and tests for homogeneity must meet the
+following set of three conditions:
+■
+The randomization condition: For tests of independence, the
+data should be collected using a random sample. For tests of
+homogeneity, the data should be collected using independent
+random samples.
+■
+The 10% condition: When sampling without replacement,
+sample sizes should be no larger than 10% of respective
+population sizes.
+■
+The expected values condition: All expected values should be
+greater than 5.
+Expected values are calculated assuming the null hypothesis is true.
+We then compare these expected values with the observed values and
+ask if the differences are reasonable if H0 is true. The significance of the
+differences is gauged by a χ2-value of weighted squared differences
+defined by:
+
+[[PAGE 365]]
+where the sum is taken over all values in a two-way table. The chi-
+square statistics have a chi-square distribution with degrees of freedom
+equal to:
+df = (rows – 1)(columns – 1)
+The smaller the resulting χ2-value, the more reasonable is the null
+hypothesis. If the χ2-value is large enough—that is, if the p-value is
+small enough—we can say that the evidence is sufficient to reject the
+null hypothesis and to claim there is convincing evidence of the
+alternative hypothesis. To calculate p-values, we use software such as
+χ2-Test or χ2 cdf.
+A point worth noting is that even if there is sufficient evidence to
+reject the null hypothesis of independence, we cannot necessarily claim
+any direct causal relationship. In other words, although we can make a
+statement about some link or relationship between two variables, we
+are not justified in claiming that one causes the other. For example, we
+may demonstrate a relationship between salary level and job
+satisfaction, but our methods would not show that higher salaries cause
+higher job satisfaction. Perhaps an employee’s higher job satisfaction
+impresses his superiors and thus leads to larger increases in pay. Or
+perhaps there is a third variable, such as training, education, or
+personality, that has a direct causal relationship to both salary level and
+job satisfaction.
+Example 3.19
+A growing number of states have legalized marijuana for medical or
+recreational purposes. In a nationwide telephone poll of 1,000 randomly
+selected adults representing Democrats, Republicans, and
+Independents, respondents were asked two questions: their party
+affiliation and if they supported the legalization of marijuana. The
+answers, cross-classified by party affiliation, are given in the following
+two-way table (also called a contingency table).
+Support Legalization
+
+[[PAGE 366]]
+Yes
+No
+No
+Opinion
+Totals
+Democrats
+Republicans
+Independents
+Totals
+1000
+Test the null hypothesis that support for legalizing marijuana is
+independent of party affiliation. Use a 5% significance level.
+NOTE
+Another acceptable statement of the hypotheses:
+H0: There is no association between party affiliation and support for legalizing
+marijuana.
+Ha: There is an association between party affiliation and support for legalizing
+marijuana.
+Solution
+Hypotheses: H0: Party affiliation and support for legalizing marijuana
+are independent.
+Ha: Party affiliation and support for legalizing marijuana are not
+independent.
+Procedure: Chi-square test for independence.
+Checks: We are given a random sample, and n = 1,000 is less than
+10% of all adults. For the expected value condition, by putting the
+observed data into a calculator matrix, calculator software such as χ2-
+Test gives the expected cells in a second matrix and all are >5:
+249.1
+139.7
+16.2
+
+[[PAGE 367]]
+218.3
+122.5
+14.2
+147.6
+82.8
+9.6
+NOTE
+Put the data, but not the totals, into a matrix on your calculator.
+Mechanics: The χ2-Test software gives χ2 = 94.5 and p ≈ 0.000.
+Conclusion with linkage to the p-value: With this small of a p-value,
+0.000 < 0.05, there is sufficient evidence to reject H0; that is, among all
+adults there is convincing evidence of a relationship between party
+affiliation and support for legalizing marijuana.
+[For instructional purposes, we note that the expected values, χ2, and p
+can be calculated as follows:
+The formula for an expected cell count is the following: expected count
+=
+. Thus, for example, the expected value for the
+middle cell, which corresponds to Republican no responses, is
+Continuing in this manner, we fill in the table of expected values as
+follows:
+Support Legalization
+Yes
+No
+No
+Opinion
+Totals
+Democrats
+249.1
+139.7
+16.2
+Republicans
+218.3
+122.5
+14.2
+Independents
+147.6
+82.8
+9.6
+Totals
+1000
+
+[[PAGE 368]]
+(An appropriate check at this point is that each expected cell count is
+greater than 5.)
+Next we calculate the value of the chi-square statistic:
+The p-value is then calculated using calculator software such as
+χ2cdf(94.5, 1000, 4) » 0.000.]
+If asked, the largest contributions to the chi-square statistics were
+two of the Republican responses, with fewer yes responses and more no
+responses than would be expected with independence.
+While it is important to understand these calculations, on the exam
+the calculations should be made quickly by putting the observed data
+into a matrix and using the χ2-Test on your calculator.
+Example 3.20
+Young adults from different generations have had entirely different
+religious and social experiences that have led to profound religious
+changes over the generations. Has this affected spirituality? In a
+nationwide poll of 500 randomly selected adults, respondents were
+asked two questions: their age and whether spirituality was important in
+their lives. The cross-classified answers are given in the following two-
+way table:
+Age (Generation)
+Baby
+Boomers
+Generation
+X
+Millennials
+Generation
+Z
+Is
+spirituality
+in one’s
+life
+important?
+Yes
+No
+
+[[PAGE 369]]
+(a) Test the null hypothesis that importance of spirituality is
+independent of generational age. Use a 5% significance level.
+(b) Interpret the p-value in context.
+Solutions
+(a)
+Hypotheses:
+H0: Importance of spirituality and generational age are
+independent.
+Ha: Importance of spirituality and generational age are not
+independent.
+Procedure: Chi-square test of independence.
+Checks: We are given a random sample, and n = 500 is less than
+10% of all adults. All expected cells (calculated below) are greater
+than 5.
+Mechanics: Using a calculator matrix and χ2-Test software gives χ2
+= 7.220, p = 0.0652, df = 3, and the following expected cell
+counts:
+61.3
+81.8
+75.9
+43.7
+58.2
+54.1
+Conclusion in context with linkage to the p-value: With this large a
+p-value, 0.0652 > ٥٠.٠, there is not sufficient evidence to reject
+the null hypothesis. There is not convincing evidence of a
+relationship between importance of spirituality and generational
+age.
+(b)
+Assuming that importance of spirituality and generational age are
+independent, there is a 0.0652 probability of getting a χ2-value of
+7.220 or greater by chance alone in a random sample of 500
+adults.
+Example 3.21
+In a large city, a group of AP Statistics students work together on a
+project to determine which group of school employees has the greatest
+
+[[PAGE 370]]
+proportion who are satisfied with their jobs. In independent simple
+random samples of 100 teachers, 60 administrators, 45 custodians, and
+55 secretaries, the numbers satisfied with their jobs were found to be
+82, 38, 34, and 36, respectively. Is there convincing evidence that the
+proportion of employees satisfied with their jobs is different in different
+school system job categories?
+Solution
+Hypotheses:
+H0: The proportion of employees satisfied with their jobs is the same
+across the various school system job categories.
+Ha: At least two of the job categories differ in the proportion of
+employees satisfied with their jobs.
+Procedure: A chi-square test for homogeneity with observed data:
+TeachersAdministratorsCustodiansSecretaries
+Satisfied
+Not
+satisfied
+Checks: We are given independent random samples, and we assume
+that the four samples are each less than 10% of their respective
+populations in the large city. For the expected value condition, using a
+calculator matrix and χ2-Test gives the expected cells in a second
+matrix, and these are all >5:
+NOTE
+Interpretation of the p-value: Assuming there is no difference in the proportion of
+employees satisfied with their jobs across the various school system job
+categories, there is a 0.0335 probability of getting a χ2 of 8.707 or greater by
+chance alone in the random samples of the designated sizes.
+73.1
+43.8
+32.9
+40.2
+
+[[PAGE 371]]
+26.9
+16.2
+12.1
+14.8
+Mechanics: The χ2-Test software gives χ2 = 8.707, p = 0.0335, and df
+= 3.
+Conclusion in context with linkage to the p-value:
+With this small of a p-value, 0.0335 < 0.05, there is convincing evidence
+to reject H0; that is, there is convincing evidence that the true
+proportion of employees satisfied with their jobs is not the same across
+all the school system job categories.
+The difference between the test for independence and the test for
+homogeneity can be confusing. When we’re simply given a two-way
+table, it’s not obvious which test should be performed. The crucial
+difference is in the design of the study. Did we pick samples from each
+of two or more populations to compare the distribution of some variable
+(one question) among the different populations? If so, we are doing a
+test for homogeneity. Did we pick one sample from a single population
+and cross-categorize on two variables (two questions) to see if there is
+an association between the variables? If so, we are doing a test for
+independence.
+For example, if we separately sample Democrats, Republicans, and
+Independents to determine whether they are for, against, or have no
+opinion with regard to stem cell research (several samples, one
+variable), we do a test for homogeneity with a null hypothesis that the
+distribution of opinions on stem cell research is the same among
+Democrats, Republicans, and Independents. However, if we sample the
+general population, noting the political preference and opinions on stem
+cell research of the respondents (one sample, two variables), we do a
+test for independence with a null hypothesis that political preference is
+independent of opinion on stem cell research.
+Finally, it should be remembered that while we used χ2 for
+categorical data, the χ2-distribution is a continuous distribution.
+Applying it to counting data is just an approximation.

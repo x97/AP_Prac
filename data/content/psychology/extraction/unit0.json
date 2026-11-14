@@ -1,0 +1,726 @@
+{
+ "unit": 0,
+ "sections": [
+  {
+   "chapter": 1,
+   "section": "Psychological Perspectives",
+   "page": 30,
+   "knowledge_points": [
+    {
+     "name": "Humanist Perspective",
+     "subheading": "Humanist Perspective",
+     "definition_quote": "Humanists, including theorists Abraham Maslow (1908–1970) and Carl Rogers (1902–1987), stressed individual choice and free will.",
+     "researchers": "Abraham Maslow, Carl Rogers",
+     "plain": "强调自由选择与个人成长"
+    },
+    {
+     "name": "Psychodynamic Perspective",
+     "subheading": "Psychodynamic Perspective",
+     "definition_quote": "Psychologists using this perspective believe that the unconscious mind—a part of our mind that we do not have conscious control over or access to—controls much of our thought and action.",
+     "researchers": "本节未提及",
+     "plain": "强调无意识对行为的控制"
+    },
+    {
+     "name": "Biopsychology (or Neuroscience) Perspective",
+     "subheading": "Biopsychology (or Neuroscience) Perspective",
+     "definition_quote": "Biopsychologists explain human thought and behavior strictly in terms of biological processes.",
+     "researchers": "本节未提及",
+     "plain": "用生物过程解释心理行为"
+    },
+    {
+     "name": "Evolutionary (or Darwinian) Perspective",
+     "subheading": "Evolutionary (or Darwinian) Perspective",
+     "definition_quote": "Evolutionary psychologists (also sometimes called sociobiologists) examine human thoughts and actions in terms of natural selection.",
+     "researchers": "Charles Darwin",
+     "plain": "从自然选择角度解释心理"
+    },
+    {
+     "name": "Behavioral Perspective",
+     "subheading": "Behavioral Perspective",
+     "definition_quote": "Behaviorists explain human thought and behavior in terms of conditioning.",
+     "researchers": "本节未提及",
+     "plain": "用条件作用解释行为"
+    },
+    {
+     "name": "Cognitive Perspective",
+     "subheading": "Cognitive Perspective",
+     "definition_quote": "Cognitive psychologists examine human thought and behavior in terms of how we interpret, process, and remember environmental events.",
+     "researchers": "Jean Piaget",
+     "plain": "研究人如何解释与记忆信息"
+    },
+    {
+     "name": "Social-Cultural (or Sociocultural) Perspective",
+     "subheading": "Social-Cultural (or Sociocultural) Perspective",
+     "definition_quote": "Social-cultural psychologists look at how our thoughts and behaviors vary among cultures.",
+     "researchers": "本节未提及",
+     "plain": "关注文化如何影响思想行为"
+    },
+    {
+     "name": "Biopsychosocial Perspective",
+     "subheading": "Biopsychosocial Perspective",
+     "definition_quote": "This modern perspective acknowledges that human thinking and behavior results from combinations of biological (“bio”), psychological (“psycho”), and social (“social”) factors.",
+     "researchers": "本节未提及",
+     "plain": "生物心理社会因素共同作用"
+    }
+   ]
+  },
+  {
+   "chapter": 1,
+   "section": "Summary",
+   "page": 33,
+   "knowledge_points": [
+    {
+     "name": "eclectic",
+     "subheading": "",
+     "definition_quote": "This point of view, sometimes called eclectic, claims that no one perspective has all the answers to the variety of human thought and behavior.",
+     "researchers": "本节未提及",
+     "plain": "综合多种视角解释心理现象"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Overview",
+   "page": 36,
+   "knowledge_points": [
+    {
+     "name": "Hindsight bias",
+     "subheading": "",
+     "definition_quote": "People have the tendency upon hearing about research findings (and many other things) to think that they knew it all along; this tendency is called hindsight bias.",
+     "researchers": "本节未提及",
+     "plain": "高估自己事前已知的倾向"
+    },
+    {
+     "name": "Confirmation bias",
+     "subheading": "",
+     "definition_quote": "Confirmation bias is the tendency to pay more attention to information that supports our preexisting ideas",
+     "researchers": "本节未提及",
+     "plain": "只关注支持既有想法的信息"
+    },
+    {
+     "name": "Overconfidence",
+     "subheading": "",
+     "definition_quote": "overconfidence is the tendency to be, well, overconfident about the things we believe",
+     "researchers": "本节未提及",
+     "plain": "高估自己判断的准确性"
+    },
+    {
+     "name": "Applied research",
+     "subheading": "",
+     "definition_quote": "This type of research is known as applied research because it has clear, practical applications.",
+     "researchers": "本节未提及",
+     "plain": "有明确实际应用的研究"
+    },
+    {
+     "name": "Basic research",
+     "subheading": "",
+     "definition_quote": "Basic research explores questions that are of interest to psychologists but are not intended to have immediate, real-world applications.",
+     "researchers": "本节未提及",
+     "plain": "不以即时应用为目的的研究"
+    },
+    {
+     "name": "Quantitative research",
+     "subheading": "",
+     "definition_quote": "Quantitative research uses numerical measures",
+     "researchers": "本节未提及",
+     "plain": "使用数值测量的研究"
+    },
+    {
+     "name": "Qualitative research",
+     "subheading": "",
+     "definition_quote": "qualitative research typically uses more complex textual responses and looks for key themes within them.",
+     "researchers": "本节未提及",
+     "plain": "分析文本主题的研究"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Hypotheses and Variables",
+   "page": 37,
+   "knowledge_points": [
+    {
+     "name": "Hypothesis",
+     "subheading": "",
+     "definition_quote": "A hypothesis expresses a relationship between two variables.",
+     "researchers": "本节未提及",
+     "plain": "表述两个变量间的关系"
+    },
+    {
+     "name": "Variables",
+     "subheading": "",
+     "definition_quote": "Variables, by definition, are things that can vary among the participants in the research.",
+     "researchers": "本节未提及",
+     "plain": "研究中可变化的因素"
+    },
+    {
+     "name": "Experimental hypothesis",
+     "subheading": "",
+     "definition_quote": "According to an experimental hypothesis, the dependent variable depends on the independent variable.",
+     "researchers": "本节未提及",
+     "plain": "因变量取决于自变量"
+    },
+    {
+     "name": "Independent variable",
+     "subheading": "",
+     "definition_quote": "In this hypothesis, watching television violence is the independent variable since the hypothesis suggests that a change in television viewing will result in a change in behavior.",
+     "researchers": "本节未提及",
+     "plain": "研究者操纵的变量"
+    },
+    {
+     "name": "Dependent variable",
+     "subheading": "",
+     "definition_quote": "In testing a hypothesis, researchers manipulate the independent variable and measure the dependent variable.",
+     "researchers": "本节未提及",
+     "plain": "实验中测量到的结果变量"
+    },
+    {
+     "name": "Theory",
+     "subheading": "",
+     "definition_quote": "A theory aims to explain some phenomenon and allows researchers to generate testable hypotheses with the hope of collecting data that support the theory.",
+     "researchers": "本节未提及",
+     "plain": "解释现象并生成假设"
+    },
+    {
+     "name": "Falsifiable",
+     "subheading": "",
+     "definition_quote": "It is essential the hypotheses be falsifiable; that is, it must be possible to gather data that would controvert the hypothesis.",
+     "researchers": "本节未提及",
+     "plain": "可被数据否定的性质"
+    },
+    {
+     "name": "Operational definitions",
+     "subheading": "",
+     "definition_quote": "When you operationalize a variable, you explain how you will measure it.",
+     "researchers": "本节未提及",
+     "plain": "说明变量如何测量"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Validity and Reliability",
+   "page": 38,
+   "knowledge_points": [
+    {
+     "name": "Validity",
+     "subheading": "",
+     "definition_quote": "Research is valid when it measures what the researcher set out to measure; it is accurate.",
+     "researchers": "本节未提及",
+     "plain": "研究测量到所测内容"
+    },
+    {
+     "name": "Reliability",
+     "subheading": "",
+     "definition_quote": "Research is reliable when it can be replicated; it is consistent.",
+     "researchers": "本节未提及",
+     "plain": "研究结果可重复且一致"
+    },
+    {
+     "name": "Sampling",
+     "subheading": "Sampling",
+     "definition_quote": "The individuals on which the research will be conducted are called participants (or subjects), and the process by which participants are selected is called sampling.",
+     "researchers": "本节未提及",
+     "plain": "从总体中选取参与者的过程"
+    },
+    {
+     "name": "Population",
+     "subheading": "Sampling",
+     "definition_quote": "The population includes anyone or anything that could possibly be selected to be in the sample.",
+     "researchers": "本节未提及",
+     "plain": "可能被选取的全部对象"
+    },
+    {
+     "name": "Representative sample",
+     "subheading": "Sampling",
+     "definition_quote": "The goal in selecting a sample is that it be representative of a larger population.",
+     "researchers": "本节未提及",
+     "plain": "能代表总体的样本"
+    },
+    {
+     "name": "Random sampling",
+     "subheading": "Sampling",
+     "definition_quote": "The definition of random sampling is that every member of the population has an equal chance of being selected.",
+     "researchers": "本节未提及",
+     "plain": "人人机会均等的抽样"
+    },
+    {
+     "name": "Convenience sampling",
+     "subheading": "Sampling",
+     "definition_quote": "Using my own students for the research is an example of convenience sampling, collecting data from a group of people who are easily accessible to you.",
+     "researchers": "本节未提及",
+     "plain": "选取易接触人群的抽样"
+    },
+    {
+     "name": "Stratified sampling",
+     "subheading": "Sampling",
+     "definition_quote": "Stratified sampling is a process that allows a researcher to ensure that the sample represents the population on some criteria.",
+     "researchers": "本节未提及",
+     "plain": "按比例分层抽取样本"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Experimental Method",
+   "page": 40,
+   "knowledge_points": [
+    {
+     "name": "Confounding variable",
+     "subheading": "",
+     "definition_quote": "A confounding variable is any difference between the experimental and control conditions, except for the independent variable, that might affect the dependent variable.",
+     "researchers": "本节未提及",
+     "plain": "自变量之外影响因变量的差异"
+    },
+    {
+     "name": "Random assignment",
+     "subheading": "",
+     "definition_quote": "Random assignment means that each participant has an equal chance of being placed into either group.",
+     "researchers": "本节未提及",
+     "plain": "等概率分配参与者入组"
+    },
+    {
+     "name": "Group matching",
+     "subheading": "",
+     "definition_quote": "If one wanted to ensure that the experimental and control groups were equivalent on some criterion (e.g., sex, IQ scores, age), one could use group matching.",
+     "researchers": "本节未提及",
+     "plain": "按特征匹配实验与控制组"
+    },
+    {
+     "name": "Experimenter bias",
+     "subheading": "",
+     "definition_quote": "Experimenter bias is the unconscious tendency for researchers to treat members of the experimental and control groups differently to increase the chance of confirming the researchers' hypothesis.",
+     "researchers": "本节未提及",
+     "plain": "研究者无意识区别对待各组"
+    },
+    {
+     "name": "Double-blind study",
+     "subheading": "",
+     "definition_quote": "A double-blind study occurs when neither the participants nor the researcher are able to affect the outcome of the research.",
+     "researchers": "本节未提及",
+     "plain": "研究者和参与者都不知情"
+    },
+    {
+     "name": "Single-blind study",
+     "subheading": "",
+     "definition_quote": "A single-blind study occurs when only the participants do not know to which group they have been assigned; this strategy minimizes the effect of demand characteristics as well as certain kinds of response or participant bias.",
+     "researchers": "本节未提及",
+     "plain": "仅参与者不知所在组别"
+    },
+    {
+     "name": "Demand characteristics",
+     "subheading": "",
+     "definition_quote": "Demand characteristics are cues about the purpose of the study.",
+     "researchers": "本节未提及",
+     "plain": "提示研究目的的线索"
+    },
+    {
+     "name": "Experimental group",
+     "subheading": "",
+     "definition_quote": "The experimental group is the one that gets the treatment operationalized in the independent variable.",
+     "researchers": "本节未提及",
+     "plain": "接受实验处理的组"
+    },
+    {
+     "name": "Control group",
+     "subheading": "",
+     "definition_quote": "The control group gets none of the independent variable.",
+     "researchers": "本节未提及",
+     "plain": "不接受实验处理的比较组"
+    },
+    {
+     "name": "Placebo method",
+     "subheading": "",
+     "definition_quote": "Whenever participants in the experimental group are supposed to ingest a drug, participants in the control group are given an inert but otherwise identical substance.",
+     "researchers": "本节未提及",
+     "plain": "控制组服用无活性物质"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Correlational Method",
+   "page": 45,
+   "knowledge_points": [
+    {
+     "name": "Correlation",
+     "subheading": "",
+     "definition_quote": "A correlation expresses a relationship between two variables without ascribing cause.",
+     "researchers": "本节未提及",
+     "plain": "两个变量间的关系"
+    },
+    {
+     "name": "Positive correlation",
+     "subheading": "",
+     "definition_quote": "A positive correlation between two things means that the presence of one thing predicts the presence of the other.",
+     "researchers": "本节未提及",
+     "plain": "一个出现预示另一个出现"
+    },
+    {
+     "name": "Negative correlation",
+     "subheading": "",
+     "definition_quote": "A negative correlation means that the presence of one thing predicts the absence of the other.",
+     "researchers": "本节未提及",
+     "plain": "一个出现预示另一个不出现"
+    },
+    {
+     "name": "Ex post facto (quasi-experimental) study",
+     "subheading": "",
+     "definition_quote": "If I seek to control all other aspects of the research process, as I would in an experiment, I will have conducted an ex post facto (quasi-experimental) study.",
+     "researchers": "本节未提及",
+     "plain": "无法确定因果的准实验"
+    },
+    {
+     "name": "Survey method",
+     "subheading": "",
+     "definition_quote": "The survey method, as common sense suggests, involves asking people to fill out surveys.",
+     "researchers": "本节未提及",
+     "plain": "让参与者填写问卷"
+    },
+    {
+     "name": "Likert scales",
+     "subheading": "",
+     "definition_quote": "One common type of item used on surveys are Likert scales, which pose a statement and ask people to express their level of agreement/disagreement with the statement.",
+     "researchers": "本节未提及",
+     "plain": "测量同意程度的量表"
+    },
+    {
+     "name": "Directionality problem",
+     "subheading": "",
+     "definition_quote": "The inability to tell which of the variables came first (also known as temporal precedence) is called the directionality problem.",
+     "researchers": "本节未提及",
+     "plain": "无法判断变量先后顺序"
+    },
+    {
+     "name": "Spurious correlation",
+     "subheading": "",
+     "definition_quote": "In this case, there is no real relationship between the two variables being studied at all, and the correlation is known as a spurious (false) correlation.",
+     "researchers": "本节未提及",
+     "plain": "第三变量导致的虚假相关"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Naturalistic Observation",
+   "page": 47,
+   "knowledge_points": [
+    {
+     "name": "Naturalistic observation",
+     "subheading": "",
+     "definition_quote": "Sometimes researchers opt to observe participants in their natural habitats without interacting with them at all.",
+     "researchers": "本节未提及",
+     "plain": "在自然环境中不干预地观察"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "section": "Qualitative Methods",
+   "page": 48,
+   "knowledge_points": [
+    {
+     "name": "Qualitative data",
+     "subheading": "",
+     "definition_quote": "Although many surveys are comprised of items that participants select from a set of choices, they also can include open-ended questions where participants can write in their responses; this type of data are qualitative.",
+     "researchers": "本节未提及",
+     "plain": "开放式文本形式的资料"
+    },
+    {
+     "name": "Structured interview",
+     "subheading": "",
+     "definition_quote": "A structured interview is like a survey in that there are fixed number of questions asked in a set order.",
+     "researchers": "本节未提及",
+     "plain": "固定问题与顺序的访谈"
+    },
+    {
+     "name": "Semistructured or unstructured interviews",
+     "subheading": "",
+     "definition_quote": "However, interviews can also be semistructured or unstructured, allowing more opportunity for the interviewer to react to the participants' responses and obtain a richer, albeit less controlled, set of data.",
+     "researchers": "本节未提及",
+     "plain": "允许灵活追问的访谈"
+    },
+    {
+     "name": "Case study method",
+     "subheading": "",
+     "definition_quote": "The case study method is used to get a full, detailed picture of one participant or a small group of participants.",
+     "researchers": "本节未提及",
+     "plain": "深入描述个案的研究"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "section": "Overview",
+   "page": 50,
+   "knowledge_points": [
+    {
+     "name": "Science Practice 3—Data Analysis",
+     "subheading": "",
+     "definition_quote": "Specifically, in this section you will learn about what the College Board calls Science Practice 3—Data Analysis: understanding and making inferences based on numerical data.",
+     "researchers": "本节未提及",
+     "plain": "依据数值数据进行推断"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "section": "Descriptive Statistics",
+   "page": 50,
+   "knowledge_points": [
+    {
+     "name": "Descriptive statistics",
+     "subheading": "",
+     "definition_quote": "Descriptive statistics, as the name suggests, simply describe a set of data.",
+     "researchers": "本节未提及",
+     "plain": "概括描述数据的统计"
+    },
+    {
+     "name": "Mean",
+     "subheading": "",
+     "definition_quote": "The mean is what we usually refer to as the average of all the scores in a distribution.",
+     "researchers": "本节未提及",
+     "plain": "全部得分的算术平均"
+    },
+    {
+     "name": "Median",
+     "subheading": "",
+     "definition_quote": "The median is the central score in the distribution.",
+     "researchers": "本节未提及",
+     "plain": "分布中居中的分数"
+    },
+    {
+     "name": "Mode",
+     "subheading": "",
+     "definition_quote": "The mode is the score that appears most frequently.",
+     "researchers": "本节未提及",
+     "plain": "出现次数最多的分数"
+    },
+    {
+     "name": "Positively skewed distribution",
+     "subheading": "",
+     "definition_quote": "When a distribution includes an extreme score (or group of scores) that is very high, as in the car example above, the distribution is said to be positively skewed.",
+     "researchers": "本节未提及",
+     "plain": "极端高值造成正偏态"
+    },
+    {
+     "name": "Negatively skewed distribution",
+     "subheading": "",
+     "definition_quote": "When the skew is caused by a particularly low score (or group of scores), the distribution is negatively skewed.",
+     "researchers": "本节未提及",
+     "plain": "极端低值造成负偏态"
+    },
+    {
+     "name": "Range",
+     "subheading": "",
+     "definition_quote": "The range is the distance between the highest and lowest scores in a distribution.",
+     "researchers": "本节未提及",
+     "plain": "最高分与最低分之差"
+    },
+    {
+     "name": "Standard deviation",
+     "subheading": "",
+     "definition_quote": "The variance and standard deviation are closely related; standard deviation is simply the square root of the variance.",
+     "researchers": "本节未提及",
+     "plain": "衡量分数离散程度"
+    },
+    {
+     "name": "z-scores",
+     "subheading": "",
+     "definition_quote": "These z-scores measure the distance of a score from the mean in units of standard deviation.",
+     "researchers": "本节未提及",
+     "plain": "以标准差为单位表示距均值"
+    },
+    {
+     "name": "Normal curve",
+     "subheading": "",
+     "definition_quote": "The normal curve is a theoretical bell-shaped curve for which the area under the curve lying between any two z-scores has been predetermined.",
+     "researchers": "本节未提及",
+     "plain": "钟形理论分布曲线"
+    },
+    {
+     "name": "Percentiles",
+     "subheading": "",
+     "definition_quote": "Someone who scores in the 90th percentile on a test has scored better than 90 percent of the people who took the test.",
+     "researchers": "本节未提及",
+     "plain": "表示低于某分数者比例"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "section": "Correlations",
+   "page": 54,
+   "knowledge_points": [
+    {
+     "name": "Correlation",
+     "subheading": "",
+     "definition_quote": "A correlation measures the relationship between two variables.",
+     "researchers": "本节未提及",
+     "plain": "衡量两个变量的关系"
+    },
+    {
+     "name": "Positive correlation",
+     "subheading": "",
+     "definition_quote": "If two things are positively correlated, the presence of one thing predicts the presence of the other.",
+     "researchers": "本节未提及",
+     "plain": "一个出现预示另一个出现"
+    },
+    {
+     "name": "Negative correlation",
+     "subheading": "",
+     "definition_quote": "In contrast, a negative correlation means that the presence of one thing predicts the absence of the other.",
+     "researchers": "本节未提及",
+     "plain": "一个出现预示另一个不出现"
+    },
+    {
+     "name": "Correlation coefficient",
+     "subheading": "",
+     "definition_quote": "The strength of a correlation can be computed by a statistic called the correlation coefficient.",
+     "researchers": "本节未提及",
+     "plain": "表示相关强度的数值"
+    },
+    {
+     "name": "Scatterplot",
+     "subheading": "",
+     "definition_quote": "A scatterplot graphs pairs of values, one on the y-axis and one on the x-axis.",
+     "researchers": "本节未提及",
+     "plain": "用点显示成对数值"
+    },
+    {
+     "name": "Line of best fit",
+     "subheading": "",
+     "definition_quote": "The line of best fit, or regression line, is the line drawn through the scatter plot that minimizes the distance of all the points from the line.",
+     "researchers": "本节未提及",
+     "plain": "最贴合散点数据的直线"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "section": "Inferential Statistics",
+   "page": 56,
+   "knowledge_points": [
+    {
+     "name": "Inferential statistics",
+     "subheading": "",
+     "definition_quote": "Whereas descriptive statistics provide a way to summarize information about the sample studied, the purpose of inferential statistics is to determine whether findings can be applied to the larger population from which the sample was selected.",
+     "researchers": "本节未提及",
+     "plain": "将样本结果推广到总体"
+    },
+    {
+     "name": "Sampling error",
+     "subheading": "",
+     "definition_quote": "The extent to which the sample differs from the population is known as sampling error.",
+     "researchers": "本节未提及",
+     "plain": "样本与总体的差异"
+    },
+    {
+     "name": "p-value",
+     "subheading": "",
+     "definition_quote": "The p-value gives the probability that the difference between the groups is due to chance.",
+     "researchers": "本节未提及",
+     "plain": "结果由偶然造成的概率"
+    },
+    {
+     "name": "Statistical significance",
+     "subheading": "",
+     "definition_quote": "Scientists have decided that a p-value of 0.05 is the cutoff for statistically significant results.",
+     "researchers": "本节未提及",
+     "plain": "结果不太可能出于偶然"
+    },
+    {
+     "name": "Practical significance",
+     "subheading": "",
+     "definition_quote": "In addition to statistical significance, psychologists are interested in practical significance—or how large an effect is.",
+     "researchers": "本节未提及",
+     "plain": "效应在实际中的大小"
+    },
+    {
+     "name": "Replication",
+     "subheading": "",
+     "definition_quote": "When we replicate a study, we conduct it again using the same methodology in an attempt to see if the results will be the same.",
+     "researchers": "本节未提及",
+     "plain": "重复研究检验结果"
+    },
+    {
+     "name": "Meta-analysis",
+     "subheading": "",
+     "definition_quote": "Meta-analysis is a type of research that combines the results of many studies on the same topic in order to approximate an average effect.",
+     "researchers": "本节未提及",
+     "plain": "合并多项研究求平均效应"
+    },
+    {
+     "name": "Peer review",
+     "subheading": "",
+     "definition_quote": "Prior to publication, psychology studies undergo peer review, a process by which a paper is read by several others in the field and the author is asked to make revisions in order to ensure high quality publications.",
+     "researchers": "本节未提及",
+     "plain": "发表前的同行评审"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "section": "APA Ethical Guidelines",
+   "page": 58,
+   "knowledge_points": [
+    {
+     "name": "Institutional review board (IRB)",
+     "subheading": "",
+     "definition_quote": "Any type of academic research must first propose the study to the ethics board or institutional review board (IRB) at the institution.",
+     "researchers": "本节未提及",
+     "plain": "审查研究伦理的机构"
+    },
+    {
+     "name": "Clear scientific purpose",
+     "subheading": "Animal Research",
+     "definition_quote": "The research must have a clear scientific purpose.",
+     "researchers": "本节未提及",
+     "plain": "研究须有明确科学目的"
+    },
+    {
+     "name": "Least amount of suffering feasible",
+     "subheading": "Animal Research",
+     "definition_quote": "Researchers must design experimental procedures that employ the least amount of suffering feasible.",
+     "researchers": "本节未提及",
+     "plain": "尽量减少动物痛苦"
+    },
+    {
+     "name": "No coercion",
+     "subheading": "Human Research",
+     "definition_quote": "No coercion—Participation should be voluntary.",
+     "researchers": "本节未提及",
+     "plain": "参与必须完全自愿"
+    },
+    {
+     "name": "Informed consent",
+     "subheading": "Human Research",
+     "definition_quote": "Informed consent—Participants must know that they are involved in research and give their consent.",
+     "researchers": "本节未提及",
+     "plain": "知情并自愿同意参与"
+    },
+    {
+     "name": "Confidentiality (or anonymity)",
+     "subheading": "Human Research",
+     "definition_quote": "Confidentiality (or anonymity)—Participants’ privacy must be protected.",
+     "researchers": "本节未提及",
+     "plain": "保护参与者隐私身份"
+    },
+    {
+     "name": "Risk",
+     "subheading": "Human Research",
+     "definition_quote": "Risk—Participants cannot be placed at significant mental or physical risk; they must have protection from harm.",
+     "researchers": "Stanley Milgram的服从研究",
+     "plain": "避免严重身心伤害"
+    },
+    {
+     "name": "Debriefing",
+     "subheading": "Human Research",
+     "definition_quote": "Debriefing—After the study, participants should be told the purpose of the study and provided with ways to contact the researchers about the results.",
+     "researchers": "本节未提及",
+     "plain": "研究后说明目的结果"
+    }
+   ]
+  }
+ ]
+}

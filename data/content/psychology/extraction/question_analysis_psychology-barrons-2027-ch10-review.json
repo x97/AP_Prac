@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-10-27T13:35:39+00:00",
+  "paper_id": "psychology-barrons-2027-ch10-review",
+  "model": "deepseek-flash[1m]",
+  "prompt_version": "question-kp-link-v1",
+  "count": 3,
+  "items": [
+    {
+      "question_id": "psychology-barrons-2027-ch10-review-001",
+      "number": 1,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7e98a26a7aaf8a8a",
+          "name": "aptitude tests",
+          "confidence": 0.97,
+          "evidence": "Paul takes a test in the army to see if he would make a good pilot.",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-d05c01280e2c78ec",
+          "name": "achievement tests",
+          "confidence": 0.7,
+          "evidence": "Such a test is a (an)"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-7caf50ffb3351cfe",
+          "name": "standardized test",
+          "option_label": "A",
+          "reason": "A standardized test is a tempting near-miss because it is another test category, but standardization concerns uniform administration and norms rather than measuring potential."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-2ff423f8b44b9b96",
+          "name": "intelligence",
+          "option_label": "C",
+          "reason": "Intelligence tests are a related testing category, but the item asks about measuring potential to be a pilot, not general cognitive capacity."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "aptitude test",
+          "normalized": "aptitude test",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "standardized test",
+          "normalized": "standardized test",
+          "kp_id": "psychology-barrons-2027-kp-7caf50ffb3351cfe",
+          "kp_name": "standardized test",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "intelligence test",
+          "normalized": "intelligence test",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "achievement test",
+          "normalized": "achievement test",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "good pilot",
+          "normalized": "good pilot",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes measuring potential ability for a future role, which is the defining feature of an aptitude test.",
+      "warnings": [
+        "confusable 'achievement tests' is not named in option 'D' and is not in the core subheading; dropped",
+        "keyword 'aptitude test': not a known alias of 'aptitude tests'; stored without a KP",
+        "keyword 'intelligence test': not a known alias of 'intelligence'; stored without a KP",
+        "keyword 'achievement test': not a known alias of 'achievement tests'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch10-review-002",
+      "number": 2,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-374db41078cef27d",
+          "name": "content validity",
+          "confidence": 0.97,
+          "evidence": "fairly represents the whole year’s work on the final exam",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ce763ea2eb824536",
+          "name": "validity",
+          "confidence": 0.6,
+          "evidence": "her test will have"
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-df688492e9375427",
+          "name": "test-retest reliability",
+          "option_label": "A",
+          "reason": "Test-retest reliability is another test-quality concept, but it concerns consistency across two administrations rather than coverage of material."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-8a7ec5866d057b3b",
+          "name": "split-half reliability",
+          "option_label": "D",
+          "reason": "Split-half reliability is a reliability type in the same domain, but it concerns internal consistency between halves, not representativeness of content."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-4f0c771dce7b11d0",
+          "name": "Validity",
+          "option_label": "B",
+          "reason": "Construct validity is a validity type, but it concerns measuring the intended construct rather than covering the full range of taught material."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "content validity",
+          "normalized": "content validity",
+          "kp_id": "psychology-barrons-2027-kp-374db41078cef27d",
+          "kp_name": "content validity",
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "test-retest reliability",
+          "normalized": "test retest reliability",
+          "kp_id": "psychology-barrons-2027-kp-df688492e9375427",
+          "kp_name": "test-retest reliability",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "A",
+          "confidence": null
+        },
+        {
+          "surface": "construct validity",
+          "normalized": "construct validity",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "split-half reliability",
+          "normalized": "split half reliability",
+          "kp_id": "psychology-barrons-2027-kp-8a7ec5866d057b3b",
+          "kp_name": "split-half reliability",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes representativeness of the full year's material, which maps to content validity. Reliability and construct validity options are same-domain near-misses.",
+      "warnings": [
+        "keyword 'construct validity': not a known alias of 'Validity'; stored without a KP"
+      ],
+      "errors": []
+    },
+    {
+      "question_id": "psychology-barrons-2027-ch10-review-003",
+      "number": 3,
+      "status": "linked",
+      "core": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-ce763ea2eb824536",
+          "name": "validity",
+          "confidence": 0.95,
+          "evidence": "Mr. Rosenboom’s concern is most closely related to",
+          "evidence_source": "question"
+        }
+      ],
+      "supporting": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-4f0c771dce7b11d0",
+          "name": "Validity",
+          "confidence": 0.7,
+          "evidence": "construct validity."
+        }
+      ],
+      "confusables": [
+        {
+          "kp_id": "psychology-barrons-2027-kp-df688492e9375427",
+          "name": "test-retest reliability",
+          "option_label": "C",
+          "reason": "Test-retest reliability involves two administrations of a test, tempting because the stem describes two classes taking tests."
+        },
+        {
+          "kp_id": "psychology-barrons-2027-kp-9651e56924b78946",
+          "name": "predictive validity",
+          "option_label": "D",
+          "reason": "Predictive validity is another validity type, tempting because the stem asks about validity-related concerns."
+        }
+      ],
+      "keywords": [
+        {
+          "surface": "construct validity",
+          "normalized": "construct validity",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "core",
+          "location": "correct_option",
+          "option_label": null,
+          "confidence": null
+        },
+        {
+          "surface": "split half reliability",
+          "normalized": "split half reliability",
+          "kp_id": "psychology-barrons-2027-kp-8a7ec5866d057b3b",
+          "kp_name": "split-half reliability",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "B",
+          "confidence": null
+        },
+        {
+          "surface": "test-retest reliability",
+          "normalized": "test retest reliability",
+          "kp_id": "psychology-barrons-2027-kp-df688492e9375427",
+          "kp_name": "test-retest reliability",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "C",
+          "confidence": null
+        },
+        {
+          "surface": "predictive validity",
+          "normalized": "predictive validity",
+          "kp_id": "psychology-barrons-2027-kp-9651e56924b78946",
+          "kp_name": "predictive validity",
+          "role": "distractor",
+          "location": "option",
+          "option_label": "D",
+          "confidence": null
+        },
+        {
+          "surface": "randomly assign",
+          "normalized": "randomly assign",
+          "kp_id": null,
+          "kp_name": null,
+          "role": "mentioned",
+          "location": "stem",
+          "option_label": null,
+          "confidence": null
+        }
+      ],
+      "notes": "The stem describes concern about whether two test versions are equally difficult, which relates to validity; the correct option is construct validity.",
+      "warnings": [
+        "confusable 'split-half reliability' is not named in option 'B' and is not in the core subheading; dropped",
+        "keyword 'construct validity': not a known alias of 'validity'; stored without a KP"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

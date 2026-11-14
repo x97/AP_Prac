@@ -1,0 +1,273 @@
+{
+ "paper_id": "statistics-barrons-2027-quiz-32",
+ "kind": "quiz",
+ "number": 32,
+ "unit_no": 6,
+ "title": "Barron's AP Statistics 2027 Quiz 32 — Unit 6",
+ "chinese_title": "巴朗 AP 统计 2027 Quiz 32",
+ "pdf_page_start": 494,
+ "pdf_page_end": 496,
+ "answer_page_start": 759,
+ "answer_page_end": 760,
+ "has_mcq": false,
+ "questions": [
+  {
+   "number": 1,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 494,
+   "page_end": 494,
+   "stem": "College advisers suspect that first-year students study more hours per week than sophomores.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample t-test for difference in population means, μ1 − μ2 Parameters: Let μ1 represent the true mean number of hours per week that first-year students study. Let μ2 represent the true mean number of hours per week that sophomores study. Checks: Independent random samples; for each sample, population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; for each sample, n ≤ 0.10N Hypotheses: H0: μ1 − μ2 = 0, Ha: μ1 − μ2 > 0",
+   "question_id": "statistics-barrons-2027-quiz-32-001",
+   "context": "",
+   "source_pages": [
+    494,
+    494
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 2,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 494,
+   "page_end": 494,
+   "stem": "Are students willing to report cheating by other students? Students from a random sample are asked to fill out an anonymous questionnaire asking whether they would report cheating by other students.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-interval for population proportion p Parameter: Let p represent the true proportion of the population of students who would report cheating by other students. Checks: Random sample; at least 10 successes and 10 failures, that is, np̂ ≥ 10 and n(1 − p̂ ) ≥ 10; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-32-002",
+   "context": "",
+   "source_pages": [
+    494,
+    494
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 3,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 494,
+   "page_end": 494,
+   "stem": "A cardiologist is interested in whether there is a relationship between blood pressure level (low, average, or high) and personality type (high-strung or easygoing).",
+   "correct_answer": null,
+   "answer_text": "Procedure: Chi-square test for independence Checks: Random sample; all expected counts at least 5; n ≤ 0.10N Hypotheses: H0: There is no association between blood pressure level (low, average, or high) and personality type (high-strung or easygoing). Ha: There is an association between blood pressure level (low, average, or high) and personality type (high-strung or easygoing).",
+   "question_id": "statistics-barrons-2027-quiz-32-003",
+   "context": "",
+   "source_pages": [
+    494,
+    494
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 4,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 494,
+   "page_end": 494,
+   "stem": "During a previous season, Division 1 college basketball players successfully made 34% of their 3-point shot attempts. A sports magazine is interested in determining if the percentage is lower this year.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-test for a population proportion p Parameter: Let p represent the true proportion of 3-point shot attempts successfully made by the population of Division 1 college basketball players this year. Checks: Random sample; np0 ≥ 10 and n(1 − p0) ≥ 10; n ≤ 0.10N Hypotheses: H0: p = 0.34, Ha: p < 0.34",
+   "question_id": "statistics-barrons-2027-quiz-32-004",
+   "context": "",
+   "source_pages": [
+    494,
+    494
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 5,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 494,
+   "page_end": 494,
+   "stem": "The director of a health clinic is interested in finding out if participating in a particular month-long workout program will increase the average number of push-ups that can be completed by clinic members. Enrollees will be asked to do as many push-ups as possible in a 90-second period before the program begins and then again a month later when the program ends.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Matched pair t-test for mean difference in population means μdiff Parameter: Let μdiff represent the true mean difference (after program − before program) in the number of push-ups a clinic member can complete in 90 seconds. Checks: Random sample; set of differences is from a normal population or set of differences is large, at least 30, or distribution of set of differences is unimodal and symmetric Hypotheses: H0: μdiff = 0, Ha: μdiff > 0",
+   "question_id": "statistics-barrons-2027-quiz-32-005",
+   "context": "",
+   "source_pages": [
+    494,
+    494
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 6,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 495,
+   "page_end": 495,
+   "stem": "It is hypothesized that the average body temperature is less than 98.6°F.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample t-test for population mean μ Parameter: Let μ represent the true mean body temperature in the population. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; n ≤ 0.10N Hypotheses: H0: μ = 98.6, Ha: μ < 98.6",
+   "question_id": "statistics-barrons-2027-quiz-32-006",
+   "context": "",
+   "source_pages": [
+    495,
+    495
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 7,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 495,
+   "page_end": 495,
+   "stem": "By how much does exercise lower resting heart rates for teenagers? Ninety teenagers took part in a survey where their resting heart rates were tested before and after an extensive exercise program.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Matched pair t-interval for mean difference in population means μdiff Parameter: Let μdiff represent the true mean difference in resting heart rates before and after an extensive exercise program for teenagers. Checks: Random sample; set of differences is from a normal population or set of differences is large, at least 30, or distribution of set of differences is unimodal and symmetric",
+   "question_id": "statistics-barrons-2027-quiz-32-007",
+   "context": "",
+   "source_pages": [
+    495,
+    495
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 8,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 495,
+   "page_end": 495,
+   "stem": "A study about racism in the business world involved sending resumes with stereotypically “White” names and identical resumes except with stereotypically “Black” names. Twelve out of 110 job applications with stereotypically “White” names received callbacks, while only 10 out of 155 job applications with stereotypically “Black” names received callbacks. Establish a 90 percent confidence interval for the difference in proportions of callbacks between applications with stereotypically “White” and stereotypically “Black” names.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample z-interval for difference in population proportions, p1 − p2 Parameters: Let p1 represent the true proportion of the population of job applications with stereotypically “White” names who receive callbacks. Let p2 represent the true proportion of the population of job applications with stereotypically “Black” names who receive callbacks. Checks: Independent random samples; at least 10 successes and 10 failures in each sample, that is, n1p̂ 1 ≥ 10, n1(1 − p̂ 1) ≥ 10, n2p̂ 2 ≥ 10, n2(1 − p̂ 2) ≥ 10",
+   "question_id": "statistics-barrons-2027-quiz-32-008",
+   "context": "",
+   "source_pages": [
+    495,
+    495
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 9,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 495,
+   "page_end": 495,
+   "stem": "Is there a significant difference in the distribution of highest school level attained between Whites, Blacks, Asians, and Hispanics (non-White)? Random samples of 200 people from each population interviewed resulted in the following summary table. High School Undergraduate Graduate or Less Degree Degree White 130 58 12 Black 168 27 5 Asian 98 82 20 Hispanic (non-White) 172 24 4",
+   "correct_answer": null,
+   "answer_text": "Procedure: Chi-square test for homogeneity Checks: Independent random samples; all expected counts at least 5; n ≤ 0.10N Hypotheses: H0: There is no difference in the true distributions of highest school levels attained between Whites, Blacks, Asians, and Hispanics (non-White). Ha: There is a difference in the true distributions of highest school level attained between Whites, Blacks, Asians, and Hispanics (non-White).",
+   "question_id": "statistics-barrons-2027-quiz-32-009",
+   "context": "",
+   "source_pages": [
+    495,
+    495
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 10,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 495,
+   "page_end": 496,
+   "stem": "A reporter for a national car magazine plans to sample used cars of a certain model in hopes of being able to determine what percent of the variation in selling price can be explained by variation in miles noted on the odometer.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Linear regression Parameter: Let β represent the true slope of the regression line relating selling price to miles noted on the odometer for all used cars of a particular model. Checks: Random sample; scatterplot is roughly linear; no pattern in the residual plot; The resulting coefficient of determination gives the percent of variability in the dependent variable (selling price) that can be explained by the independent variable (miles on odometer).",
+   "question_id": "statistics-barrons-2027-quiz-32-010",
+   "context": "",
+   "source_pages": [
+    495,
+    496
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 11,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 496,
+   "page_end": 496,
+   "stem": "After answering your phone, if there is an initial pause on the other end, it often means that the call is from a telemarketer. A study is conducted to estimate the average pause length for telemarketing calls.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample t-interval for population mean μ Parameter: Let μ represent the true mean pause length in the population of telemarketing calls. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-32-011",
+   "context": "",
+   "source_pages": [
+    496,
+    496
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 12,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 496,
+   "page_end": 496,
+   "stem": "In a random sample of 550 White students, 4.1 percent reported that, at times, they felt unsafe to go to school, while in an independent random sample of 425 non-White students, 7.8 percent reported that, at times, they felt unsafe to go to school. A sociologist believes that the difference is significant, meaning non-White students are more likely than White students to feel unsafe to go to school, at times.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample z-test for difference in population proportions, p1 − p2 Parameters: Let p1 represent the true proportion of the population of White students who report that, at times, they feel unsafe to go to school. Let p2 represent the true proportion of the population of non-White students who report that, at times, they feel unsafe to go to school. Checks: Independent random samples; n1p̂ C ≥ 10, n1(1 − p̂ C) ≥ 10, n2p̂ C ≥ 10, and n2(1 − p̂ C) ≥ 10, where ; n1 ≤ 0.10N1 and n2 ≤ 0.10N2 Hypotheses: H0: p1 − p2 = 0, Ha: p1 − p2 < 0",
+   "question_id": "statistics-barrons-2027-quiz-32-012",
+   "context": "",
+   "source_pages": [
+    496,
+    496
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 13,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 496,
+   "page_end": 496,
+   "stem": "Conservationists plan to determine the mean difference in weights between elephants living in captivity and those in the wild.",
+   "correct_answer": null,
+   "answer_text": "Procedure: Two-sample t-interval for difference in population means, μ1 − μ2 Parameters: Let μ1 represent the true mean weight of the population of elephants living in captivity. Let μ2 represent the true mean weight of the population of elephants living in the wild. Checks: Independent random samples; for each sample, population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; for each sample, n ≤ 0.10N",
+   "question_id": "statistics-barrons-2027-quiz-32-013",
+   "context": "",
+   "source_pages": [
+    496,
+    496
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 14,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 496,
+   "page_end": 496,
+   "stem": "What is the predicted increase in sitting pulse rate for each additional ounce of coffee consumed?",
+   "correct_answer": null,
+   "answer_text": "Procedure: Linear regression Parameter: Let β represent the true slope of the regression line relating pulse rate to quantity of caffeine consumed in a sitting. Checks: Random sample; scatterplot is roughly linear; no pattern in the residual plot; The resulting slope gives the predicted change in pulse rate per additional ounce of coffee consumed.",
+   "question_id": "statistics-barrons-2027-quiz-32-014",
+   "context": "",
+   "source_pages": [
+    496,
+    496
+   ],
+   "option_images": {}
+  },
+  {
+   "number": 15,
+   "section": "FRQ",
+   "figure_images": [],
+   "page_start": 496,
+   "page_end": 496,
+   "stem": "It is hypothesized that the mean hourly wage of summer work available for high school students is $10.50. A city planner believes the true mean is lower. She randomly surveys 75 high school students with summer jobs. From past studies, it is known that the standard deviation of such jobs is $1.83.",
+   "correct_answer": null,
+   "answer_text": "Procedure: One-sample z-test for population mean μ. (Note that we use a normal distribution rather than a t-distribution because the population standard deviation is given.) Parameter: Let μ represent the true mean hourly wage paid for summer work to the population of high school students. Checks: Random sample; population is normal or sample is large, at least 30, or sample distribution is unimodal and symmetric; n ≤ 0.10N Hypotheses: H0: μ = 10.50, Ha: μ < 10.50",
+   "question_id": "statistics-barrons-2027-quiz-32-015",
+   "context": "",
+   "source_pages": [
+    496,
+    496
+   ],
+   "option_images": {}
+  }
+ ],
+ "question_count": 15,
+ "mcq_count": 0,
+ "frq_count": 15
+}

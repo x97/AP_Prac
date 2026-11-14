@@ -1,0 +1,312 @@
+{
+  "engine": "kokoro-onnx",
+  "model": "kokoro-v1.0.onnx",
+  "voice": "af_heart",
+  "speed": 0.9,
+  "terms": [
+    {
+      "term": "Correlation",
+      "weight": 92.25,
+      "file": "01-correlation.wav",
+      "voice": "af_heart",
+      "duration": 1.0453333333333332,
+      "sample_rate": 24000,
+      "size_kb": 49
+    },
+    {
+      "term": "Independent variable",
+      "weight": 90.31,
+      "file": "02-independent-variable.wav",
+      "voice": "af_heart",
+      "duration": 1.4293333333333333,
+      "sample_rate": 24000,
+      "size_kb": 67
+    },
+    {
+      "term": "Mean",
+      "weight": 87.85,
+      "file": "03-mean.wav",
+      "voice": "af_heart",
+      "duration": 0.832,
+      "sample_rate": 24000,
+      "size_kb": 39
+    },
+    {
+      "term": "Standard deviation",
+      "weight": 87.83,
+      "file": "04-standard-deviation.wav",
+      "voice": "af_heart",
+      "duration": 1.3866666666666667,
+      "sample_rate": 24000,
+      "size_kb": 65
+    },
+    {
+      "term": "Dependent variable",
+      "weight": 86.74,
+      "file": "05-dependent-variable.wav",
+      "voice": "af_heart",
+      "duration": 1.3013333333333332,
+      "sample_rate": 24000,
+      "size_kb": 61
+    },
+    {
+      "term": "Operant conditioning",
+      "weight": 86.62,
+      "file": "06-operant-conditioning.wav",
+      "voice": "af_heart",
+      "duration": 1.344,
+      "sample_rate": 24000,
+      "size_kb": 63
+    },
+    {
+      "term": "Random assignment",
+      "weight": 85.71,
+      "file": "07-random-assignment.wav",
+      "voice": "af_heart",
+      "duration": 1.2373333333333334,
+      "sample_rate": 24000,
+      "size_kb": 58
+    },
+    {
+      "term": "Informed consent",
+      "weight": 84.28,
+      "file": "08-informed-consent.wav",
+      "voice": "af_heart",
+      "duration": 1.28,
+      "sample_rate": 24000,
+      "size_kb": 60
+    },
+    {
+      "term": "Operational definition",
+      "weight": 81.62,
+      "file": "09-operational-definition.wav",
+      "voice": "af_heart",
+      "duration": 1.5786666666666667,
+      "sample_rate": 24000,
+      "size_kb": 74
+    },
+    {
+      "term": "Classical conditioning",
+      "weight": 80.04,
+      "file": "10-classical-conditioning.wav",
+      "voice": "af_heart",
+      "duration": 1.3866666666666667,
+      "sample_rate": 24000,
+      "size_kb": 65
+    },
+    {
+      "term": "Systematic desensitization",
+      "weight": 79.75,
+      "file": "11-systematic-desensitization.wav",
+      "voice": "af_heart",
+      "duration": 1.92,
+      "sample_rate": 24000,
+      "size_kb": 90
+    },
+    {
+      "term": "Positive reinforcement",
+      "weight": 79.74,
+      "file": "12-positive-reinforcement.wav",
+      "voice": "af_heart",
+      "duration": 1.536,
+      "sample_rate": 24000,
+      "size_kb": 72
+    },
+    {
+      "term": "Social facilitation",
+      "weight": 79.55,
+      "file": "13-social-facilitation.wav",
+      "voice": "af_heart",
+      "duration": 1.5786666666666667,
+      "sample_rate": 24000,
+      "size_kb": 74
+    },
+    {
+      "term": "Validity",
+      "weight": 79.47,
+      "file": "14-validity.wav",
+      "voice": "af_heart",
+      "duration": 0.896,
+      "sample_rate": 24000,
+      "size_kb": 42
+    },
+    {
+      "term": "Longitudinal research",
+      "weight": 78.86,
+      "file": "15-longitudinal-research.wav",
+      "voice": "af_heart",
+      "duration": 1.5786666666666667,
+      "sample_rate": 24000,
+      "size_kb": 74
+    },
+    {
+      "term": "Median",
+      "weight": 78.66,
+      "file": "16-median.wav",
+      "voice": "af_heart",
+      "duration": 0.96,
+      "sample_rate": 24000,
+      "size_kb": 45
+    },
+    {
+      "term": "Fundamental attribution error",
+      "weight": 78.17,
+      "file": "17-fundamental-attribution-error.wav",
+      "voice": "af_heart",
+      "duration": 1.92,
+      "sample_rate": 24000,
+      "size_kb": 90
+    },
+    {
+      "term": "Sympathetic nervous system",
+      "weight": 78.08,
+      "file": "18-sympathetic-nervous-system.wav",
+      "voice": "af_heart",
+      "duration": 1.664,
+      "sample_rate": 24000,
+      "size_kb": 78
+    },
+    {
+      "term": "Reliability",
+      "weight": 77.96,
+      "file": "19-reliability.wav",
+      "voice": "af_heart",
+      "duration": 1.1093333333333333,
+      "sample_rate": 24000,
+      "size_kb": 52
+    },
+    {
+      "term": "Cognitive therapy",
+      "weight": 77.8,
+      "file": "20-cognitive-therapy.wav",
+      "voice": "af_heart",
+      "duration": 1.344,
+      "sample_rate": 24000,
+      "size_kb": 63
+    },
+    {
+      "term": "Major depressive disorder",
+      "weight": 77.5,
+      "file": "21-major-depressive-disorder.wav",
+      "voice": "af_heart",
+      "duration": 1.792,
+      "sample_rate": 24000,
+      "size_kb": 84
+    },
+    {
+      "term": "Big Five personality traits",
+      "weight": 77.49,
+      "file": "22-big-five-personality-traits.wav",
+      "voice": "af_heart",
+      "duration": 1.8133333333333332,
+      "sample_rate": 24000,
+      "size_kb": 85
+    },
+    {
+      "term": "Cross-sectional research",
+      "weight": 77.11,
+      "file": "23-cross-sectional-research.wav",
+      "voice": "af_heart",
+      "duration": 1.472,
+      "sample_rate": 24000,
+      "size_kb": 69
+    },
+    {
+      "term": "Object permanence",
+      "weight": 76.99,
+      "file": "24-object-permanence.wav",
+      "voice": "af_heart",
+      "duration": 1.344,
+      "sample_rate": 24000,
+      "size_kb": 63
+    },
+    {
+      "term": "Hypothalamus",
+      "weight": 76.9,
+      "file": "25-hypothalamus.wav",
+      "voice": "af_heart",
+      "duration": 1.1946666666666668,
+      "sample_rate": 24000,
+      "size_kb": 56
+    },
+    {
+      "term": "Observational learning",
+      "weight": 76.9,
+      "file": "26-observational-learning.wav",
+      "voice": "af_heart",
+      "duration": 1.4506666666666668,
+      "sample_rate": 24000,
+      "size_kb": 68
+    },
+    {
+      "term": "Mode",
+      "weight": 76.62,
+      "file": "27-mode.wav",
+      "voice": "af_heart",
+      "duration": 0.49066666666666664,
+      "sample_rate": 24000,
+      "size_kb": 23
+    },
+    {
+      "term": "Generalization",
+      "weight": 76.44,
+      "file": "28-generalization.wav",
+      "voice": "af_heart",
+      "duration": 1.2586666666666666,
+      "sample_rate": 24000,
+      "size_kb": 59
+    },
+    {
+      "term": "Obsessive-compulsive disorder (OCD)",
+      "weight": 76.28,
+      "file": "29-obsessive-compulsive-disorder-ocd.wav",
+      "voice": "af_heart",
+      "duration": 2.624,
+      "sample_rate": 24000,
+      "size_kb": 123
+    },
+    {
+      "term": "Behavioral perspective",
+      "weight": 76.21,
+      "file": "30-behavioral-perspective.wav",
+      "voice": "af_heart",
+      "duration": 1.536,
+      "sample_rate": 24000,
+      "size_kb": 72
+    }
+  ],
+  "voice_comparison": [
+    {
+      "term": "Operant conditioning",
+      "file": "voice-af_heart-operant-conditioning.wav",
+      "voice": "af_heart",
+      "duration": 1.344,
+      "sample_rate": 24000,
+      "size_kb": 63
+    },
+    {
+      "term": "Operant conditioning",
+      "file": "voice-af_bella-operant-conditioning.wav",
+      "voice": "af_bella",
+      "duration": 1.28,
+      "sample_rate": 24000,
+      "size_kb": 60
+    },
+    {
+      "term": "Operant conditioning",
+      "file": "voice-am_michael-operant-conditioning.wav",
+      "voice": "am_michael",
+      "duration": 1.5573333333333332,
+      "sample_rate": 24000,
+      "size_kb": 73
+    },
+    {
+      "term": "Operant conditioning",
+      "file": "voice-bf_emma-operant-conditioning.wav",
+      "voice": "bf_emma",
+      "duration": 1.4933333333333334,
+      "sample_rate": 24000,
+      "size_kb": 70
+    }
+  ]
+}
