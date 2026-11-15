@@ -19,10 +19,19 @@ type Mode = "login" | "register" | "reset";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 const COPY: Record<Mode, { eyebrow: string; title: string; submit: string }> = {
-  login: { eyebrow: "欢迎回来", title: "登录开始练习", submit: "登录" },
-  register: { eyebrow: "创建账号", title: "用邮箱注册", submit: "注册并登录" },
-  reset: { eyebrow: "找回密码", title: "重置密码", submit: "设置新密码" },
+  login: { eyebrow: "欢迎回来", title: "登录 PsyPrac", submit: "登录" },
+  register: { eyebrow: "创建账号", title: "创建新账户", submit: "注册并登录" },
+  reset: { eyebrow: "找回密码", title: "修改密码", submit: "设置新密码" },
 };
+
+function updateModeInUrl(mode: Mode) {
+  if (typeof window === "undefined") return;
+  const params = new URLSearchParams(window.location.search);
+  if (mode === "login") params.delete("mode");
+  else params.set("mode", mode);
+  const query = params.toString();
+  window.history.replaceState(null, "", `/login${query ? `?${query}` : ""}`);
+}
 
 export default function LoginPage() {
   const [mode, setMode] = useState<Mode>("login");
@@ -42,9 +51,14 @@ export default function LoginPage() {
   const copy = COPY[mode];
 
   useEffect(() => {
-    const target = new URLSearchParams(window.location.search).get("next");
+    const params = new URLSearchParams(window.location.search);
+    const target = params.get("next");
     if (target && target.startsWith("/") && !target.startsWith("//")) {
       setNext(target);
+    }
+    const initialMode = params.get("mode");
+    if (initialMode === "register" || initialMode === "reset") {
+      setMode(initialMode);
     }
   }, []);
 
@@ -64,6 +78,7 @@ export default function LoginPage() {
     setDevCode(null);
     setError(null);
     setNotice(null);
+    updateModeInUrl(nextMode);
   }
 
   async function sendCode() {
@@ -129,10 +144,7 @@ export default function LoginPage() {
         code,
         password,
       });
-      setMode("login");
-      setPassword("");
-      setCode("");
-      setDevCode(null);
+      switchMode("login");
       setNotice("密码已重置，请用新密码登录");
     } catch (err) {
       setError(err instanceof Error ? err.message : "操作失败，请重试");
@@ -167,35 +179,12 @@ export default function LoginPage() {
           <p className="muted text-[13px] mt-2">
             {mode === "reset"
               ? "输入注册邮箱，验证后设置新密码。"
-              : "单元练习、整卷模考、错题和笔记都会保存到你的账号。"}
+              : mode === "register"
+                ? "用邮箱创建账号，验证码会发送到该邮箱。"
+                : "单元练习、整卷模考、错题和笔记都会保存到你的账号。"}
           </p>
 
-          <div className="mt-5 grid grid-cols-2 gap-1 rounded-xl bg-[var(--surface-2)] p-1 text-[12.5px]">
-            <button
-              type="button"
-              className={`rounded-lg py-2 transition ${
-                mode === "login"
-                  ? "bg-[var(--surface)] font-semibold shadow-sm"
-                  : "muted"
-              }`}
-              onClick={() => switchMode("login")}
-            >
-              登录
-            </button>
-            <button
-              type="button"
-              className={`rounded-lg py-2 transition ${
-                mode === "register"
-                  ? "bg-[var(--surface)] font-semibold shadow-sm"
-                  : "muted"
-              }`}
-              onClick={() => switchMode("register")}
-            >
-              注册
-            </button>
-          </div>
-
-          <form className="mt-4 space-y-4" onSubmit={submit}>
+          <form className="mt-5 space-y-4" onSubmit={submit}>
             <label className="block">
               <span className="text-[12px] muted">邮箱</span>
               <div className="relative mt-1.5">
@@ -296,26 +285,35 @@ export default function LoginPage() {
               {copy.submit}
             </button>
 
-            <div className="flex items-center justify-between text-[12px]">
-              {mode === "login" ? (
+            {mode === "login" ? (
+              <>
                 <button
                   type="button"
-                  className="muted hover:text-[var(--text)]"
-                  onClick={() => switchMode("reset")}
+                  className="btn w-full"
+                  onClick={() => switchMode("register")}
                 >
-                  忘记密码？
+                  创建新账户
                 </button>
-              ) : (
-                <button
-                  type="button"
-                  className="muted hover:text-[var(--text)]"
-                  onClick={() => switchMode("login")}
-                >
-                  返回登录
-                </button>
-              )}
-              <span className="faint">邮箱是账号的唯一凭证</span>
-            </div>
+                <div className="flex items-center justify-between text-[12px]">
+                  <button
+                    type="button"
+                    className="muted hover:text-[var(--text)]"
+                    onClick={() => switchMode("reset")}
+                  >
+                    修改密码
+                  </button>
+                  <span className="faint">邮箱是账号的唯一凭证</span>
+                </div>
+              </>
+            ) : (
+              <button
+                type="button"
+                className="btn w-full"
+                onClick={() => switchMode("login")}
+              >
+                {mode === "register" ? "已有账号？登录" : "返回登录"}
+              </button>
+            )}
           </form>
         </div>
 

@@ -122,8 +122,11 @@ export default function LandingPage() {
             <Link href="/login?next=/dashboard" className="btn btn-sm btn-ghost">
               登录
             </Link>
-            <Link href="/dashboard" className="btn btn-sm btn-primary">
-              开始练习 <ArrowRight size={14} />
+            <Link
+              href="/login?mode=register&next=/dashboard"
+              className="btn btn-sm btn-primary"
+            >
+              注册
             </Link>
           </div>
         </div>
@@ -154,7 +157,7 @@ export default function LandingPage() {
                 先做一道样题
               </a>
             </div>
-            <p className="landing-note">手机号登录 · 进度自动保存 · 从 Unit 1 开始</p>
+            <p className="landing-note">邮箱登录 · 进度自动保存 · 从 Unit 1 开始</p>
             <p className="landing-focus-note">
               <span>Focus</span> 目前专注 AP Psychology，其他 AP 科目会在后续逐步加入。
             </p>
@@ -441,7 +444,11 @@ export default function LandingPage() {
         <div>
           AP® 是 College Board 的注册商标；本站与 College Board 无隶属关系。
         </div>
-        <Link href="/login?next=/dashboard">登录</Link>
+        <div>
+          <Link href="/login?next=/dashboard">登录</Link>
+          <span className="mx-2">·</span>
+          <Link href="/login?mode=register&next=/dashboard">注册</Link>
+        </div>
       </footer>
     </div>
   );
