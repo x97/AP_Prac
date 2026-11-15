@@ -2922,3 +2922,46 @@ textarea {
     --primary-soft: #1b2544 !important;
   }
 }
+
+/* Language switcher + first-visit language picker */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.lang-switch button {
+  min-width: 30px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1.5;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lang-switch button[data-active="true"] {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.lang-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgba(15, 23, 42, 0.42);
+  backdrop-filter: blur(2px);
+}
+
+.lang-modal {
+  width: 100%;
+  max-width: 380px;
+}

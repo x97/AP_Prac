@@ -5,9 +5,11 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { apiDelete, apiGet, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { Bookmark as BookmarkType, SessionPayload } from "@/lib/types";
 
 export default function BookmarksPage() {
+  const { t } = useLanguage();
   const router = useRouter();
   const [items, setItems] = useState<BookmarkType[] | null>(null);
   const [busy, setBusy] = useState(false);
@@ -35,7 +37,7 @@ export default function BookmarksPage() {
   }
 
   async function remove(questionId: string) {
-    if (!window.confirm("移除这道题的收藏？")) return;
+    if (!window.confirm(t("移除这道题的收藏？"))) return;
     try {
       await apiDelete(`/me/bookmarks/${questionId}`);
       setItems((prev) => (prev ? prev.filter((x) => x.question_id !== questionId) : prev));

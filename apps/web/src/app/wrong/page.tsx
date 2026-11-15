@@ -17,6 +17,7 @@ import { Modal } from "@/components/Modal";
 import { QuestionSourceLine } from "@/components/QuestionSourceLine";
 import { QuestionView } from "@/components/QuestionView";
 import { apiGet, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type {
   SessionPayload,
   WrongQuestion,
@@ -32,6 +33,7 @@ const TABS = [
 ];
 
 export default function WrongPage() {
+  const { t } = useLanguage();
   const router = useRouter();
   const [tab, setTab] = useState("");
   const [allItems, setAllItems] = useState<WrongQuestion[] | null>(null);
@@ -100,7 +102,7 @@ export default function WrongPage() {
       });
       router.push(`/practice/session/${session.session.id}`);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "错题练习启动失败");
+      setError(e instanceof Error ? e.message : t("错题练习启动失败"));
       setBusy(false);
     }
   }
@@ -138,7 +140,7 @@ export default function WrongPage() {
         next.delete(questionId);
         return next;
       });
-      setError(e instanceof Error ? e.message : "操作失败");
+      setError(e instanceof Error ? e.message : t("操作失败"));
     }
   }
 
@@ -153,7 +155,7 @@ export default function WrongPage() {
       );
       setDetail(data);
     } catch (e) {
-      setDetailError(e instanceof Error ? e.message : "题目加载失败");
+      setDetailError(e instanceof Error ? e.message : t("题目加载失败"));
     } finally {
       setDetailLoading(false);
     }
@@ -169,10 +171,10 @@ export default function WrongPage() {
     <div>
       <div className="page-head">
         <div>
-          <div className="eyebrow">错题本</div>
-          <h1 className="h1">错题本</h1>
+          <div className="eyebrow">{t("错题本")}</div>
+          <h1 className="h1">{t("错题本")}</h1>
           <p className="muted text-[13px] mt-2">
-            答错的题目会自动记录。点击卡片查看完整题目、正确答案和解析。
+            {t("答错的题目会自动记录。点击卡片查看完整题目、正确答案和解析。")}
           </p>
         </div>
       </div>
@@ -180,19 +182,22 @@ export default function WrongPage() {
       <div className="card card-pad mb-4">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
-            <div className="eyebrow">错题练习卷</div>
-            <h2 className="h2 mt-1">错题练习卷</h2>
+            <div className="eyebrow">{t("错题练习卷")}</div>
+            <h2 className="h2 mt-1">{t("错题练习卷")}</h2>
             <p className="text-[13px] muted mt-1">
-              独立于原单元的错题练习卷，包含未掌握和复习中的题目。
+              {t("独立于原单元的错题练习卷，包含未掌握和复习中的题目。")}
             </p>
             <p className="text-[12px] faint mt-2">
-              {counts.learning} 道未掌握 · {counts.reviewing} 道复习中 · 已掌握题目不包含在内
+              {t("{learning} 道未掌握 · {reviewing} 道复习中 · 已掌握题目不包含在内", {
+                learning: counts.learning,
+                reviewing: counts.reviewing,
+              })}
             </p>
             <p className="text-[11.5px] muted mt-2 leading-5">
-              这份练习卷是动态的：新错题会自动加入，已掌握题目会移除，已作答进度会保留。
+              {t("这份练习卷是动态的：新错题会自动加入，已掌握题目会移除，已作答进度会保留。")}
             </p>
             <p className="text-[11.5px] muted mt-1 leading-5">
-              复习中 = 答错后已经答对一次；再连续答对一次即可标记为已掌握。
+              {t("复习中 = 答错后已经答对一次；再连续答对一次即可标记为已掌握。")}
             </p>
           </div>
           <button
@@ -205,20 +210,20 @@ export default function WrongPage() {
             ) : (
               <Play size={15} />
             )}
-            {practiceCount > 0 ? "开始练习" : "暂无可练习题目"}
+            {practiceCount > 0 ? t("开始练习") : t("暂无可练习题目")}
           </button>
         </div>
       </div>
 
       <div className="flex gap-2 mb-4 flex-wrap">
-        {TABS.map((t) => (
+        {TABS.map((item) => (
           <button
-            key={t.key}
-            className={t.key === tab ? "btn btn-sm btn-primary" : "btn btn-sm"}
-            onClick={() => setTab(t.key)}
+            key={item.key}
+            className={item.key === tab ? "btn btn-sm btn-primary" : "btn btn-sm"}
+            onClick={() => setTab(item.key)}
           >
-            {t.label}
-            <span className="ml-1 text-[10px] opacity-70">{counts[t.key]}</span>
+            {t(item.label)}
+            <span className="ml-1 text-[10px] opacity-70">{counts[item.key]}</span>
           </button>
         ))}
       </div>
@@ -232,9 +237,11 @@ export default function WrongPage() {
           <AlertCircle size={26} className="mx-auto mb-2 text-[var(--faint)]" />
           {allItems && allItems.length > 0
             ? tab === ""
-              ? "当前没有进行中的错题。已掌握的题目在「已掌握」标签中。"
-              : `「${TABS.find((t) => t.key === tab)?.label || "全部进行中"}」中没有题目。`
-            : "还没有错题。练习中答错的题目会自动出现在这里。"}
+              ? t("当前没有进行中的错题。已掌握的题目在「已掌握」标签中。")
+              : t("「{tab}」中没有题目。", {
+                  tab: t(TABS.find((item) => item.key === tab)?.label || "全部进行中"),
+                })
+            : t("还没有错题。练习中答错的题目会自动出现在这里。")}
         </div>
       )}
 
@@ -250,19 +257,19 @@ export default function WrongPage() {
               <div className="flex items-start justify-between gap-3">
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <span className="pill pill-warn">错 {item.wrong_count} 次</span>
+                    <span className="pill pill-warn">{t("错 {count} 次", { count: item.wrong_count })}</span>
                     <span className="badge">
                       {item.mastery === "mastered"
-                        ? "已掌握"
+                        ? t("已掌握")
                         : item.mastery === "reviewing"
-                          ? "复习中"
-                          : "未掌握"}
+                          ? t("复习中")
+                          : t("未掌握")}
                     </span>
                     {item.mastery === "reviewing" && (
-                      <span className="badge badge-core">再答对一次即掌握</span>
+                      <span className="badge badge-core">{t("再答对一次即掌握")}</span>
                     )}
                     {item.mastery === "learning" && (
-                      <span className="badge">答对一次进入复习中</span>
+                      <span className="badge">{t("答对一次进入复习中")}</span>
                     )}
                   </div>
                   <QuestionSourceLine
@@ -288,7 +295,7 @@ export default function WrongPage() {
                       ) : (
                         <RotateCcw size={13} />
                       )}
-                      标记为未掌握
+                      {t("标记为未掌握")}
                     </button>
                   ) : (
                     <button
@@ -301,7 +308,7 @@ export default function WrongPage() {
                       ) : (
                         <Check size={13} />
                       )}
-                      标记为已掌握
+                      {t("标记为已掌握")}
                     </button>
                   )}
                   <span className="text-[10px] faint font-mono text-right">
@@ -316,9 +323,9 @@ export default function WrongPage() {
                   onClick={() => openQuestion(item)}
                 >
                   <BookOpen size={14} />
-                  查看题目、答案与解析
+                  {t("查看题目、答案与解析")}
                 </button>
-                <span className="text-[11px] faint">弹窗查看</span>
+                <span className="text-[11px] faint">{t("弹窗查看")}</span>
               </div>
           </div>
         ))}
@@ -329,8 +336,8 @@ export default function WrongPage() {
         onClose={closeQuestion}
         title={
           openItem?.display_number
-            ? `题目回顾 · Q${openItem.display_number}`
-            : "题目回顾"
+            ? t("题目回顾 · Q{number}", { number: openItem.display_number })
+            : t("题目回顾")
         }
         wide
       >
@@ -347,7 +354,7 @@ export default function WrongPage() {
             {detail.question.concepts && detail.question.concepts.length > 0 && (
               <div className="card card-pad mb-3">
                 <div className="text-[11px] faint mb-2">
-                  相关概念（点击查看详情）
+                  {t("相关概念（点击查看详情）")}
                 </div>
                 <ConceptTags concepts={detail.question.concepts} limit={12} />
               </div>
@@ -362,10 +369,10 @@ export default function WrongPage() {
               }}
               onSelect={() => undefined}
               disabled
-              resultLabel="你当时答错了"
+              resultLabel={t("你当时答错了")}
             />
             <div className="mt-3 text-[11px] faint">
-              错 {openItem.wrong_count} 次 · 正确答案与解析仅供复习
+              {t("错 {count} 次 · 正确答案与解析仅供复习", { count: openItem.wrong_count })}
             </div>
           </>
         )}

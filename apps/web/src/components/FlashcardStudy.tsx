@@ -13,6 +13,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { apiGet, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { FlashcardDeck, FlashcardNext } from "@/lib/types";
 
 const UNIT_LABEL: Record<string, string> = {
@@ -69,6 +70,7 @@ export function FlashcardStudy({
   preview?: boolean;
   continuous?: boolean;
 }) {
+  const { t } = useLanguage();
   const [deck, setDeck] = useState<FlashcardDeck | null>(null);
   const [queue, setQueue] = useState<FlashcardNext | null>(null);
   const [index, setIndex] = useState(0);
@@ -129,12 +131,12 @@ export function FlashcardStudy({
         setQueue(null);
       }
     } catch (e) {
-      setError(e instanceof Error ? e.message : "加载卡片失败");
+      setError(e instanceof Error ? e.message : t("加载卡片失败"));
       setDeck(null);
     } finally {
       if (!silent) setLoading(false);
     }
-  }, [unit, minStars, limit, custom, preview, continuous]);
+  }, [unit, minStars, limit, custom, preview, continuous, t]);
 
   useEffect(() => {
     void load(true);
@@ -256,7 +258,7 @@ export function FlashcardStudy({
         setIndex((current) => current + 1);
       }
     } catch (e) {
-      setError(e instanceof Error ? e.message : "保存卡片进度失败");
+      setError(e instanceof Error ? e.message : t("保存卡片进度失败"));
     } finally {
       setRating(null);
     }
@@ -283,30 +285,34 @@ export function FlashcardStudy({
   if (continuousDone) {
     return (
       <div className="card card-pad text-center">
-        <div className="eyebrow">今日学习完成</div>
-        <h2 className="h1 text-[26px] mt-2">今天到期的卡片已经复习完</h2>
+        <div className="eyebrow">{t("今日学习完成")}</div>
+        <h2 className="h1 text-[26px] mt-2">{t("今天到期的卡片已经复习完")}</h2>
         <p className="muted text-[13px] mt-2">
           {custom
-            ? `今日已复习 ${queue?.reviewed_today ?? 0} 张`
-            : `今日新卡 ${queue?.new_today ?? 0} / ${queue?.new_limit ?? 0} · 今日已复习 ${queue?.reviewed_today ?? 0} 张`}
+            ? t("今日已复习 {n} 张", { n: queue?.reviewed_today ?? 0 })
+            : t("今日新卡 {today} / {limit} · 今日已复习 {reviewed} 张", {
+                today: queue?.new_today ?? 0,
+                limit: queue?.new_limit ?? 0,
+                reviewed: queue?.reviewed_today ?? 0,
+              })}
         </p>
         {queue?.new_limit_reached && (
           <p className="muted text-[12.5px] mt-2">
-            今日新卡上限已到。到期卡片仍会按时间自动出现。
+            {t("今日新卡上限已到。到期卡片仍会按时间自动出现。")}
           </p>
         )}
         {queue?.next_due_at && (
           <p className="muted text-[12.5px] mt-2">
-            后续到期卡片会在到时间后重新进入队列。
+            {t("后续到期卡片会在到时间后重新进入队列。")}
           </p>
         )}
         <div className="flex flex-wrap justify-center gap-2 mt-5">
           <button className="btn btn-primary" onClick={() => void load(true)}>
-            <RotateCcw size={15} /> 重新检查
+            <RotateCcw size={15} /> {t("重新检查")}
           </button>
           {showAllLink && (
             <Link href="/cards" className="btn">
-              全部卡片
+              {t("全部卡片")}
             </Link>
           )}
         </div>
@@ -318,7 +324,7 @@ export function FlashcardStudy({
     return (
       <div className="card empty">
         <Sparkles size={26} className="mx-auto mb-2 text-[var(--faint)]" />
-        {custom ? "还没有创建任何卡片。" : "当前筛选范围没有卡片。"}
+        {custom ? t("还没有创建任何卡片。") : t("当前筛选范围没有卡片。")}
       </div>
     );
   }
@@ -326,18 +332,21 @@ export function FlashcardStudy({
   if (done) {
     return (
       <div className="card card-pad text-center">
-        <div className="eyebrow">本组完成</div>
-        <h2 className="h1 text-[26px] mt-2">本组完成</h2>
+        <div className="eyebrow">{t("本组完成")}</div>
+        <h2 className="h1 text-[26px] mt-2">{t("本组完成")}</h2>
         <p className="muted text-[13px] mt-2">
-          认识了 {known} 张 · 还不熟 {again} 张。没记住的卡片会更早再次出现。
+          {t("认识了 {known} 张 · 还不熟 {again} 张。没记住的卡片会更早再次出现。", {
+            known,
+            again,
+          })}
         </p>
         <div className="flex flex-wrap justify-center gap-2 mt-5">
           <button className="btn btn-primary" onClick={() => void load(true)}>
-            <RotateCcw size={15} /> 新一组
+            <RotateCcw size={15} /> {t("新一组")}
           </button>
           {showAllLink && (
             <Link href="/cards" className="btn">
-              全部卡片
+              {t("全部卡片")}
             </Link>
           )}
         </div>
@@ -356,14 +365,31 @@ export function FlashcardStudy({
           <span>
             {continuous && queue
               ? custom
-                ? `待复习 ${queue.due} · 新卡 ${queue.new_remaining}`
-                : `待复习 ${queue.due} · 今日新卡 ${queue.new_today}/${queue.new_limit}`
-              : `本组 ${deck.cards.length} 张 · 共 ${deck.stats.total} 张`}
+                ? t("待复习 {due} · 新卡 {new}", {
+                    due: queue.due,
+                    new: queue.new_remaining,
+                  })
+                : t("待复习 {due} · 今日新卡 {today}/{limit}", {
+                    due: queue.due,
+                    today: queue.new_today,
+                    limit: queue.new_limit,
+                  })
+              : t("本组 {n} 张 · 共 {total} 张", {
+                  n: deck.cards.length,
+                  total: deck.stats.total,
+                })}
           </span>
           <span>
             {continuous && queue
-              ? `今日已复习 ${queue.reviewed_today} 张 · 本次 ${known + again} 张`
-              : `待复习 ${deck.stats.due} · 新卡 ${deck.stats.new} · 已复习 ${deck.stats.reviewed}`}
+              ? t("今日已复习 {reviewed} 张 · 本次 {session} 张", {
+                  reviewed: queue.reviewed_today,
+                  session: known + again,
+                })
+              : t("待复习 {due} · 新卡 {new} · 已复习 {reviewed}", {
+                  due: deck.stats.due,
+                  new: deck.stats.new,
+                  reviewed: deck.stats.reviewed,
+                })}
           </span>
         </div>
       )}
@@ -376,7 +402,7 @@ export function FlashcardStudy({
             </span>
             <div className="flex items-center gap-2">
               <span>
-                认识了 {known} 张 · 还不熟 {again} 张
+                {t("认识了 {known} 张 · 还不熟 {again} 张", { known, again })}
               </span>
             </div>
           </div>
@@ -401,7 +427,7 @@ export function FlashcardStudy({
             flipped ? "flipped" : "",
           ].join(" ")}
           onClick={toggleFlip}
-          aria-label={flipped ? "显示术语" : "显示释义"}
+          aria-label={flipped ? t("显示术语") : t("显示释义")}
         >
           <div className="flashcard-inner">
             <div className="flashcard-face flashcard-front">
@@ -414,13 +440,13 @@ export function FlashcardStudy({
                 className="eyebrow flashcard-origin"
                 title={
                   custom
-                    ? "我的卡片"
+                    ? t("我的卡片")
                     : `${UNIT_LABEL[card.ap_unit || ""] || "AP Psychology"}${
                         card.topic ? ` · ${card.topic}` : ""
                       }`
                 }
               >
-                {custom ? "我的卡片" : UNIT_LABEL[card.ap_unit || ""] || "AP Psychology"}
+                {custom ? t("我的卡片") : UNIT_LABEL[card.ap_unit || ""] || "AP Psychology"}
                 {!custom && card.topic ? ` · ${card.topic}` : ""}
               </div>
               <div className="flashcard-term" lang="en">
@@ -430,13 +456,13 @@ export function FlashcardStudy({
                 <div
                   className="flashcard-ipa"
                   lang="en"
-                  aria-label={`音标 ${card.ipa}`}
-                  title="IPA 音标"
+                  aria-label={t("音标 {ipa}", { ipa: card.ipa })}
+                  title={t("IPA 音标")}
                 >
                   /{card.ipa}/
                 </div>
               )}
-              <div className="flashcard-hint">点击翻面</div>
+              <div className="flashcard-hint">{t("点击翻面")}</div>
             </div>
             <div className="flashcard-face flashcard-back">
               <div className="flashcard-back-inner">
@@ -460,15 +486,15 @@ export function FlashcardStudy({
               className="flashcard-speak"
               onClick={speakTerm}
               disabled={speaking}
-              aria-label="朗读术语"
-              title="朗读术语"
+              aria-label={t("朗读术语")}
+              title={t("朗读术语")}
             >
               {speaking ? (
                 <Loader2 size={13} className="animate-spin" />
               ) : (
                 <Volume2 size={13} />
               )}
-              朗读
+              {t("朗读")}
             </button>
           )}
           {!custom && !flipped && <StarRow count={card.stars} weight={card.weight} />}
@@ -503,7 +529,7 @@ export function FlashcardStudy({
       </div>
       {!preview && (
         <p className="text-center text-[11px] faint mt-2">
-          点击卡片查看释义。可随时选择 Already Know 或 Review Later。
+          {t("点击卡片查看释义。可随时选择 Already Know 或 Review Later。")}
         </p>
       )}
     </div>

@@ -16,9 +16,11 @@ import { ThemeColorPicker } from "@/components/ThemeColorPicker";
 import { useMe } from "@/hooks/useMe";
 import { QuietLink } from "@/components/QuietLink";
 import { apiGet, apiPatch, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { Dashboard, User } from "@/lib/types";
 
 export default function MePage() {
+  const { t } = useLanguage();
   const { user, error: meError } = useMe();
   const [dashboard, setDashboard] = useState<Dashboard | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -48,7 +50,7 @@ export default function MePage() {
     event.preventDefault();
     const value = nickname.trim();
     if (!value) {
-      setNicknameError("昵称不能为空");
+      setNicknameError(t("昵称不能为空"));
       return;
     }
     setSavingNickname(true);
@@ -62,7 +64,7 @@ export default function MePage() {
         new CustomEvent("ap:user-updated", { detail: response.user }),
       );
     } catch (e) {
-      setNicknameError(e instanceof Error ? e.message : "昵称保存失败");
+      setNicknameError(e instanceof Error ? e.message : t("昵称保存失败"));
     } finally {
       setSavingNickname(false);
     }
@@ -73,11 +75,11 @@ export default function MePage() {
     setPasswordError(null);
     setPasswordSaved(false);
     if (newPassword.length < 8) {
-      setPasswordError("新密码至少需要 8 位");
+      setPasswordError(t("新密码至少需要 8 位"));
       return;
     }
     if (newPassword !== confirmPassword) {
-      setPasswordError("两次输入的新密码不一致");
+      setPasswordError(t("两次输入的新密码不一致"));
       return;
     }
     setSavingPassword(true);
@@ -92,7 +94,7 @@ export default function MePage() {
       setPasswordSaved(true);
     } catch (error) {
       setPasswordError(
-        error instanceof Error ? error.message : "密码修改失败",
+        error instanceof Error ? error.message : t("密码修改失败"),
       );
     } finally {
       setSavingPassword(false);
@@ -126,7 +128,7 @@ export default function MePage() {
           <div>
             <div className="font-semibold text-[16px]">{user?.nickname || "AP Student"}</div>
             <div className="text-[12px] muted font-mono mt-0.5">
-              {user?.email_masked || user?.phone_masked || "未绑定邮箱"}
+              {user?.email_masked || user?.phone_masked || t("未绑定邮箱")}
             </div>
           </div>
         </div>
@@ -194,10 +196,12 @@ export default function MePage() {
 
         <div className="mt-6 border-t border-[var(--line)] pt-5">
           <div className="flex items-center gap-2 text-[13px] font-semibold">
-            <KeyRound size={15} /> 账号安全
+            <KeyRound size={15} /> {t("账号安全")}
           </div>
           <div className="text-[11.5px] faint mt-1">
-            登录邮箱：{user?.email_masked || "未绑定"}
+            {t("登录邮箱：{email}", {
+              email: user?.email_masked || t("未绑定"),
+            })}
           </div>
           {user?.has_password ? (
             <form className="mt-3 space-y-2" onSubmit={changePassword}>
@@ -205,8 +209,8 @@ export default function MePage() {
                 className="input"
                 type="password"
                 autoComplete="current-password"
-                placeholder="当前密码"
-                aria-label="当前密码"
+                placeholder={t("当前密码")}
+                aria-label={t("当前密码")}
                 value={oldPassword}
                 onChange={(event) => {
                   setOldPassword(event.target.value);
@@ -218,8 +222,8 @@ export default function MePage() {
                   className="input"
                   type="password"
                   autoComplete="new-password"
-                  placeholder="新密码（至少 8 位）"
-                  aria-label="新密码"
+                  placeholder={t("新密码（至少 8 位）")}
+                  aria-label={t("新密码")}
                   value={newPassword}
                   onChange={(event) => {
                     setNewPassword(event.target.value);
@@ -230,8 +234,8 @@ export default function MePage() {
                   className="input"
                   type="password"
                   autoComplete="new-password"
-                  placeholder="确认新密码"
-                  aria-label="确认新密码"
+                  placeholder={t("确认新密码")}
+                  aria-label={t("确认新密码")}
                   value={confirmPassword}
                   onChange={(event) => {
                     setConfirmPassword(event.target.value);
@@ -247,11 +251,11 @@ export default function MePage() {
                     savingPassword || !oldPassword || !newPassword || !confirmPassword
                   }
                 >
-                  {savingPassword ? "保存中…" : "修改密码"}
+                  {savingPassword ? t("保存中…") : t("修改密码")}
                 </button>
                 {passwordSaved && (
                   <span className="text-[11px] text-[var(--success)]">
-                    密码已更新，其他设备已退出
+                    {t("密码已更新，其他设备已退出")}
                   </span>
                 )}
               </div>
@@ -261,7 +265,7 @@ export default function MePage() {
             </form>
           ) : (
             <div className="text-[11.5px] muted mt-2">
-              当前账号还没有密码。请在微信端绑定邮箱后设置密码。
+              {t("当前账号还没有密码。请在微信端绑定邮箱后设置密码。")}
             </div>
           )}
         </div>

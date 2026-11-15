@@ -6,9 +6,11 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { KnowledgeGraph } from "@/components/KnowledgeGraph";
 import { RedeemCodeModal } from "@/components/RedeemCodeModal";
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { KnowledgeGraphResponse } from "@/lib/types";
 
 export default function KnowledgePage() {
+  const { t } = useLanguage();
   const [data, setData] = useState<KnowledgeGraphResponse | null>(null);
   const [activeUnitId, setActiveUnitId] = useState<string | null>(null);
   const [unitResetToken, setUnitResetToken] = useState(0);
@@ -44,9 +46,9 @@ export default function KnowledgePage() {
       <div className="page-head">
         <div>
           <div className="eyebrow">Knowledge graph</div>
-          <h1 className="h1">知识图谱</h1>
+          <h1 className="h1">{t("知识图谱")}</h1>
           <p className="muted text-[13px] mt-2">
-            按账号已解锁的 Unit 展示。先看 Unit 结构，再点 Topic 进入章节思维导图，最后点叶子概念查看详情。
+            {t("按账号已解锁的 Unit 展示。先看 Unit 结构，再点 Topic 进入章节思维导图，最后点叶子概念查看详情。")}
           </p>
         </div>
         <span className="pill">
@@ -96,13 +98,12 @@ export default function KnowledgePage() {
                   <LockKeyhole size={20} />
                 </span>
                 <div>
-                  <h2 className="h2">Unit {activeUnit.unit_id} 尚未解锁</h2>
+                  <h2 className="h2">{t("Unit {number} 尚未解锁", { number: activeUnit.unit_id })}</h2>
                   <p className="mt-1 text-[12px] leading-5 muted">
-                    知识图谱与 Unit 练习共用权限。当前账号只能查看已解锁 Unit 的图谱；
-                    激活后会自动显示其余 Unit 的结构和知识点关系。
+                    {t("知识图谱与 Unit 练习共用权限。当前账号只能查看已解锁 Unit 的图谱；激活后会自动显示其余 Unit 的结构和知识点关系。")}
                   </p>
                   <button type="button" className="btn btn-primary mt-4" onClick={() => setRedeemOpen(true)}>
-                    <KeyRound size={14} /> 使用激活码
+                    <KeyRound size={14} /> {t("使用激活码")}
                   </button>
                 </div>
               </div>
@@ -110,11 +111,11 @@ export default function KnowledgePage() {
           ) : activeUnit ? (
             <KnowledgeGraph key={`${activeUnit.unit_id}:${unitResetToken}`} unit={activeUnit} />
           ) : (
-            <div className="empty">暂无可用知识图谱。</div>
+            <div className="empty">{t("暂无可用知识图谱。")}</div>
           )}
 
           <p className="mt-3 text-[10.5px] faint">
-            图谱为只读内容，跟随当前内容 Release 生成；未解锁 Unit 不返回概念和关系数据。
+            {t("图谱为只读内容，跟随当前内容 Release 生成；未解锁 Unit 不返回概念和关系数据。")}
           </p>
         </>
       )}
@@ -122,7 +123,7 @@ export default function KnowledgePage() {
       <RedeemCodeModal open={redeemOpen} onClose={() => setRedeemOpen(false)} onRedeemed={() => load()} />
       {!data && !error && (
         <div className="mt-3 flex items-center gap-2 text-[11px] muted">
-          <RefreshCw size={12} className="animate-spin" /> 正在生成知识图谱…
+          <RefreshCw size={12} className="animate-spin" /> {t("正在生成知识图谱…")}
         </div>
       )}
     </div>

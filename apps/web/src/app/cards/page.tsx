@@ -13,6 +13,7 @@ import { useState } from "react";
 
 import { FlashcardStudy } from "@/components/FlashcardStudy";
 import { MyFlashcards } from "@/components/MyFlashcards";
+import { useLanguage } from "@/lib/i18n";
 
 const UNITS = [
   { value: "", label: "全部单元" },
@@ -31,6 +32,7 @@ const STAR_OPTIONS = [
 ];
 
 export default function CardsPage() {
+  const { t } = useLanguage();
   const [tab, setTab] = useState<"official" | "my">("official");
   const [unit, setUnit] = useState("");
   const [minStars, setMinStars] = useState(0);
@@ -39,33 +41,33 @@ export default function CardsPage() {
     <div>
       <div className="flex items-center justify-between gap-3 mb-4">
         <Link href="/dashboard" className="btn btn-ghost btn-sm -ml-2">
-          <ArrowLeft size={14} /> 首页
+          <ArrowLeft size={14} /> {t("首页")}
         </Link>
         <Link href="/history" className="btn btn-sm btn-ghost">
-          做题记录
+          {t("做题记录")}
         </Link>
       </div>
 
       <div className="page-head">
         <div>
-          <div className="eyebrow">记忆卡片</div>
-          <h1 className="h1">记忆卡片</h1>
+          <div className="eyebrow">{t("记忆卡片")}</div>
+          <h1 className="h1">{t("记忆卡片")}</h1>
           <p className="muted text-[13px] mt-2">
             {tab === "official"
-              ? "先看术语，翻面查看释义。按到期顺序连续出现，学完可以随时停下。"
-              : "自己创建卡片：术语、简短含义和详细解释。只有你自己能看到。"}
+              ? t("先看术语，翻面查看释义。按到期顺序连续出现，学完可以随时停下。")
+              : t("自己创建卡片：术语、简短含义和详细解释。只有你自己能看到。")}
           </p>
         </div>
         {tab === "official" && (
           <span className="pill">
-            <Star size={13} /> 按权重排序
+            <Star size={13} /> {t("按权重排序")}
           </span>
         )}
       </div>
 
       <div className="max-w-5xl mx-auto">
         <div className="cards-controls mb-4">
-          <div className="source-tabs" role="group" aria-label="卡片来源">
+          <div className="source-tabs" role="group" aria-label={t("卡片来源")}>
             <button
               type="button"
               className="source-tab"
@@ -73,7 +75,7 @@ export default function CardsPage() {
               onClick={() => setTab("official")}
             >
               <BookOpen size={14} className="source-tab-icon" />
-              官方卡片
+              {t("官方卡片")}
             </button>
             <button
               type="button"
@@ -82,7 +84,7 @@ export default function CardsPage() {
               onClick={() => setTab("my")}
             >
               <User size={14} className="source-tab-icon" />
-              我的卡片
+              {t("我的卡片")}
             </button>
           </div>
 
@@ -91,13 +93,13 @@ export default function CardsPage() {
               <span className="filter-select-wrap">
                 <select
                   className="filter-select"
-                  aria-label="按单元筛选"
+                  aria-label={t("按单元筛选")}
                   value={unit}
                   onChange={(event) => setUnit(event.target.value)}
                 >
                   {UNITS.map((item) => (
                     <option key={item.value} value={item.value}>
-                      {item.label}
+                      {t(item.label)}
                     </option>
                   ))}
                 </select>
@@ -109,8 +111,8 @@ export default function CardsPage() {
               </span>
 
               <div className="filter-inline-group">
-                <span className="filter-field-label">重要程度</span>
-                <div className="segmented" role="group" aria-label="按重要程度筛选">
+                <span className="filter-field-label">{t("重要程度")}</span>
+                <div className="segmented" role="group" aria-label={t("按重要程度筛选")}>
                   {STAR_OPTIONS.map((item) => (
                     <button
                       type="button"
@@ -119,7 +121,7 @@ export default function CardsPage() {
                       aria-pressed={minStars === item.value}
                       onClick={() => setMinStars(item.value)}
                     >
-                      {item.label}
+                      {t(item.label)}
                     </button>
                   ))}
                 </div>
@@ -141,11 +143,7 @@ export default function CardsPage() {
             <div className="mt-4 text-[11px] faint leading-5">
               <p className="flex items-start gap-1.5">
                 <Sparkles size={12} className="mt-0.5 shrink-0" />
-                星星表示概念权重：5★ 最重要。高权重卡片优先出现，也可以在上方筛选
-                4★+。卡片按到期顺序连续出现，不再按组抽取。每天最多引入 60 张新卡；
-                新卡第一次选择「Already Know」后 30 分钟内会再次出现，第二次后进入
-                1 / 2 / 4 / 7 / 15 天间隔；「Review Later」10 分钟后再次出现。逾期卡片显示
-                「逾期 N 天」，最长间隔为 15 天。
+                {t("星星表示概念权重：5★ 最重要。高权重卡片优先出现，也可以在上方筛选 4★+。卡片按到期顺序连续出现，不再按组抽取。每天最多引入 60 张新卡；新卡第一次选择「Already Know」后 30 分钟内会再次出现，第二次后进入 1 / 2 / 4 / 7 / 15 天间隔；「Review Later」10 分钟后再次出现。逾期卡片显示「逾期 N 天」，最长间隔为 15 天。")}
               </p>
             </div>
           </>

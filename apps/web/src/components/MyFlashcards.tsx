@@ -15,6 +15,7 @@ import { useCallback, useEffect, useState } from "react";
 import { FlashcardStudy } from "@/components/FlashcardStudy";
 import { Modal } from "@/components/Modal";
 import { apiDelete, apiGet, apiPatch, apiPost } from "@/lib/api";
+import { useLanguage, type Vars } from "@/lib/i18n";
 import type { UserFlashcard, UserFlashcardList } from "@/lib/types";
 
 type CardForm = {
@@ -29,15 +30,16 @@ const EMPTY_FORM: CardForm = {
   detail_meaning: "",
 };
 
-function cardStatus(card: UserFlashcard) {
-  if (card.seen_count === 0) return "新卡";
+function cardStatus(card: UserFlashcard, t: (zh: string, vars?: Vars) => string) {
+  if (card.seen_count === 0) return t("新卡");
   if (card.next_due_at && new Date(card.next_due_at).getTime() <= Date.now()) {
-    return "到期";
+    return t("到期");
   }
-  return `第 ${card.box} 盒`;
+  return t("第 {box} 盒", { box: card.box });
 }
 
 export function MyFlashcards() {
+  const { t } = useLanguage();
   const [data, setData] = useState<UserFlashcardList | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -57,11 +59,11 @@ export function MyFlashcards() {
     try {
       setData(await apiGet<UserFlashcardList>("/flashcards/custom"));
     } catch (e) {
-      setError(e instanceof Error ? e.message : "加载卡片失败");
+      setError(e instanceof Error ? e.message : t("加载卡片失败"));
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [t]);
 
   useEffect(() => {
     void load();
@@ -96,7 +98,7 @@ export function MyFlashcards() {
     const term = form.term.trim();
     const shortMeaning = form.short_meaning.trim();
     if (!term || !shortMeaning) {
-      setFormError("术语和简短含义不能为空。");
+      setFormError(t("术语和简短含义不能为空。"));
       return;
     }
     setSaving(true);
@@ -115,7 +117,7 @@ export function MyFlashcards() {
       await load();
       setFormOpen(false);
     } catch (e) {
-      setFormError(e instanceof Error ? e.message : "保存卡片失败");
+      setFormError(e instanceof Error ? e.message : t("保存卡片失败"));
     } finally {
       setSaving(false);
     }
@@ -138,7 +140,7 @@ export function MyFlashcards() {
       );
       setDeleteTarget(null);
     } catch (e) {
-      setDeleteError(e instanceof Error ? e.message : "删除卡片失败");
+      setDeleteError(e instanceof Error ? e.message : t("删除卡片失败"));
     } finally {
       setDeleting(false);
     }
@@ -155,9 +157,9 @@ export function MyFlashcards() {
               void load();
             }}
           >
-            <ArrowLeft size={14} /> 我的卡片
+            <ArrowLeft size={14} /> {t("我的卡片")}
           </button>
-          <span className="pill">个人卡组</span>
+          <span className="pill">{t("个人卡组")}</span>
         </div>
         <FlashcardStudy custom continuous limit={20} showAllLink={false} />
       </div>
@@ -173,10 +175,10 @@ export function MyFlashcards() {
       <div className="card card-pad">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <div className="eyebrow">个人卡组</div>
-            <h2 className="h2 mt-1">我的卡片</h2>
+            <div className="eyebrow">{t("个人卡组")}</div>
+            <h2 className="h2 mt-1">{t("我的卡片")}</h2>
             <p className="text-[12px] muted mt-1">
-              {total} / {limit} 张。只有你自己能看到这些卡片。
+              {t("{total} / {limit} 张。只有你自己能看到这些卡片。", { total, limit })}
             </p>
           </div>
           <div className="flex items-center gap-2">
@@ -185,20 +187,20 @@ export function MyFlashcards() {
               onClick={openNew}
               disabled={atLimit || loading}
             >
-              <Plus size={14} /> 新建卡片
+              <Plus size={14} /> {t("新建卡片")}
             </button>
             <button
               className="btn btn-sm"
               onClick={() => setStudying(true)}
               disabled={total === 0 || loading}
             >
-              <Play size={14} /> 开始学习
+              <Play size={14} /> {t("开始学习")}
             </button>
           </div>
         </div>
         {atLimit && (
           <div className="feedback mt-3 text-[12px] leading-5">
-            已达到 200 张上限。删除一张卡片后才能继续新建。
+            {t("已达到 {limit} 张上限。删除一张卡片后才能继续新建。", { limit })}
           </div>
         )}
       </div>
@@ -213,12 +215,12 @@ export function MyFlashcards() {
       ) : total === 0 ? (
         <div className="card empty mt-4">
           <Sparkles size={26} className="mx-auto mb-2 text-[var(--faint)]" />
-          <div className="font-medium">还没有个人卡片</div>
+          <div className="font-medium">{t("还没有个人卡片")}</div>
           <p className="text-[12px] muted mt-1">
-            添加术语、简短含义，以及可选的详细解释。
+            {t("添加术语、简短含义，以及可选的详细解释。")}
           </p>
           <button className="btn btn-primary btn-sm mt-4" onClick={openNew}>
-            <Plus size={14} /> 创建第一张卡片
+            <Plus size={14} /> {t("创建第一张卡片")}
           </button>
         </div>
       ) : (
@@ -229,7 +231,7 @@ export function MyFlashcards() {
                 <h3 className="text-[16px] font-semibold leading-6" lang="en">
                   {card.term}
                 </h3>
-                <span className="badge shrink-0">{cardStatus(card)}</span>
+                <span className="badge shrink-0">{cardStatus(card, t)}</span>
               </div>
               <p className="text-[13px] leading-6 mt-2 whitespace-pre-wrap" lang="en">
                 {card.short_meaning}
@@ -242,15 +244,18 @@ export function MyFlashcards() {
               <div className="flex items-center justify-between gap-2 mt-4 pt-3 border-t border-[var(--line)]">
                 <span className="text-[10.5px] faint">
                   {card.seen_count > 0
-                    ? `认识 ${card.known_count} 次 · 已复习 ${card.seen_count} 次`
-                    : "尚未复习"}
+                    ? t("认识 {known} 次 · 已复习 {seen} 次", {
+                        known: card.known_count,
+                        seen: card.seen_count,
+                      })
+                    : t("尚未复习")}
                 </span>
                 <div className="flex items-center gap-1">
                   <button
                     className="btn btn-ghost btn-sm"
                     onClick={() => openEdit(card)}
                   >
-                    <Pencil size={13} /> 编辑
+                    <Pencil size={13} /> {t("编辑")}
                   </button>
                   <button
                     className="btn btn-ghost btn-sm text-[var(--danger)]"
@@ -259,7 +264,7 @@ export function MyFlashcards() {
                       setDeleteTarget(card);
                     }}
                   >
-                    <Trash2 size={13} /> 删除
+                    <Trash2 size={13} /> {t("删除")}
                   </button>
                 </div>
               </div>
@@ -271,12 +276,12 @@ export function MyFlashcards() {
       <Modal
         open={formOpen}
         onClose={closeForm}
-        title={editing ? "编辑卡片" : "新建卡片"}
+        title={editing ? t("编辑卡片") : t("新建卡片")}
         dismissible={!saving}
       >
         <form onSubmit={saveCard}>
           <label className="block text-[12px] font-medium">
-            术语 / 卡片名
+            {t("术语 / 卡片名")}
             <input
               className="input mt-1.5"
               value={form.term}
@@ -284,14 +289,14 @@ export function MyFlashcards() {
                 setForm((prev) => ({ ...prev, term: event.target.value }))
               }
               maxLength={200}
-              placeholder="例如：Spacing effect"
+              placeholder={t("例如：Spacing effect")}
               autoFocus
               required
               lang="en"
             />
           </label>
           <label className="block text-[12px] font-medium mt-3">
-            简短含义
+            {t("简短含义")}
             <textarea
               className="input mt-1.5 min-h-[82px] resize-y leading-6"
               value={form.short_meaning}
@@ -299,13 +304,13 @@ export function MyFlashcards() {
                 setForm((prev) => ({ ...prev, short_meaning: event.target.value }))
               }
               maxLength={500}
-              placeholder="一句容易回忆的清晰解释。"
+              placeholder={t("一句容易回忆的清晰解释。")}
               required
               lang="en"
             />
           </label>
           <label className="block text-[12px] font-medium mt-3">
-            详细解释
+            {t("详细解释")}
             <textarea
               className="input mt-1.5 min-h-[150px] resize-y leading-6"
               value={form.detail_meaning}
@@ -313,18 +318,18 @@ export function MyFlashcards() {
                 setForm((prev) => ({ ...prev, detail_meaning: event.target.value }))
               }
               maxLength={5000}
-              placeholder="可选：例子、语境或完整解释。"
+              placeholder={t("可选：例子、语境或完整解释。")}
               lang="en"
             />
           </label>
           {formError && <div className="feedback feedback-bad mt-3 text-[12px]">{formError}</div>}
           <div className="flex justify-end gap-2 mt-4">
             <button type="button" className="btn" onClick={closeForm} disabled={saving}>
-              取消
+              {t("取消")}
             </button>
             <button type="submit" className="btn btn-primary" disabled={saving}>
               {saving ? <Loader2 size={15} className="animate-spin" /> : null}
-              {editing ? "保存修改" : "创建卡片"}
+              {editing ? t("保存修改") : t("创建卡片")}
             </button>
           </div>
         </form>
@@ -335,7 +340,7 @@ export function MyFlashcards() {
         onClose={() => {
           if (!deleting) setDeleteTarget(null);
         }}
-        title="删除卡片？"
+        title={t("删除卡片？")}
         narrow
         dismissible={!deleting}
       >
@@ -344,8 +349,9 @@ export function MyFlashcards() {
             <AlertTriangle size={22} />
           </div>
           <p className="mt-3 text-[13px] muted leading-6">
-            确定删除 <span className="font-semibold text-[var(--ink)]">{deleteTarget?.term}</span>？
-            它的复习进度也会一起删除。
+            {t("确定删除")}{" "}
+            <span className="font-semibold text-[var(--ink)]">{deleteTarget?.term}</span>
+            {t("？它的复习进度也会一起删除。")}
           </p>
         </div>
         {deleteError && <div className="feedback feedback-bad mt-3 text-[12px]">{deleteError}</div>}
@@ -355,7 +361,7 @@ export function MyFlashcards() {
             onClick={() => setDeleteTarget(null)}
             disabled={deleting}
           >
-            保留卡片
+            {t("保留卡片")}
           </button>
           <button
             className="btn btn-danger"
@@ -363,7 +369,7 @@ export function MyFlashcards() {
             disabled={deleting}
           >
             {deleting ? <Loader2 size={15} className="animate-spin" /> : <Trash2 size={15} />}
-            删除
+            {t("删除")}
           </button>
         </div>
       </Modal>

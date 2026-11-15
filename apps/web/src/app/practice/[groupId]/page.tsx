@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { apiGet, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { PracticeGroup, SessionPayload, Topic } from "@/lib/types";
 
 function sessionLabel(topic: Topic) {
@@ -17,6 +18,7 @@ function sessionLabel(topic: Topic) {
 }
 
 export default function GroupPage() {
+  const { t } = useLanguage();
   const params = useParams<{ groupId: string }>();
   const router = useRouter();
   const groupId = params.groupId;
@@ -86,7 +88,7 @@ export default function GroupPage() {
           <h1 className="h1">{group?.title_en || group?.title || "Unit Practice"}</h1>
           {group?.locked && (
             <p className="mt-2 inline-flex items-center gap-1.5 rounded-lg border border-[color-mix(in_srgb,var(--danger)_22%,var(--line))] bg-[var(--danger-soft)] px-2.5 py-1 text-[11.5px] text-[var(--danger)]">
-              <LockKeyhole size={12} /> 需要激活码，章节暂不可开始
+              <LockKeyhole size={12} /> {t("需要激活码，章节暂不可开始")}
             </p>
           )}
           <p className="muted text-[13px] mt-2">

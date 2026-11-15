@@ -22,7 +22,7 @@ function PaperCard({ paper, showFree = false }: { paper: Paper; showFree?: boole
             {paper.paper_type === "real_exam" ? "Real Exam" : "Mock Exam"} · {paper.year}
           </div>
           <h2 className="font-semibold mt-1.5 leading-6">
-            {paper.title || paper.chinese_title || paper.paper_id}
+            {paper.title || paper.paper_id}
           </h2>
         </div>
         {paper.locked ? (

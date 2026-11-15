@@ -4,6 +4,8 @@ import { ArrowRight, BookOpen, Lightbulb, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
+import { useLanguage } from "@/lib/i18n";
+
 const OPTIONS = [
   { label: "A", text: "Amygdala" },
   { label: "B", text: "Hippocampus" },
@@ -51,6 +53,7 @@ const QUESTION_CONCEPTS = [
 const CORRECT_LABEL = "B";
 
 export function LandingSampleQuestion() {
+  const { t } = useLanguage();
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [tab, setTab] = useState<"question" | "topic">("question");
@@ -78,7 +81,7 @@ export function LandingSampleQuestion() {
             <div className="eyebrow">Free sample · Unit 1</div>
             <div className="mt-1 text-[12px] muted">1.4 The Brain · MCQ</div>
           </div>
-          <span className="pill">即时解析</span>
+          <span className="pill">{t("即时解析")}</span>
         </div>
 
         <h3 className="mt-5 text-[21px] font-semibold leading-8 tracking-[-0.02em]" lang="en">
@@ -133,9 +136,14 @@ export function LandingSampleQuestion() {
           >
             <div className="flex items-center gap-2 text-[13.5px] font-semibold">
               {correct ? (
-                <>正确</>
+                <>{t("正确")}</>
               ) : (
-                <>正确答案是 B · Hippocampus</>
+                <>
+                  {t("正确答案是 {label} · {concept}", {
+                    label: CORRECT_LABEL,
+                    concept: "Hippocampus",
+                  })}
+                </>
               )}
             </div>
             <p className="mt-2 text-[13px] leading-6" lang="en">
@@ -149,10 +157,10 @@ export function LandingSampleQuestion() {
         {revealed && (
           <div className="mt-4 flex flex-wrap items-center gap-2">
             <Link href="/dashboard" className="btn btn-primary btn-sm">
-              登录后继续做 Unit 1 <ArrowRight size={14} />
+              {t("登录后继续做 Unit 1")} <ArrowRight size={14} />
             </Link>
             <button type="button" className="btn btn-sm btn-ghost" onClick={reset}>
-              <RotateCcw size={13} /> 再试一次
+              <RotateCcw size={13} /> {t("再试一次")}
             </button>
           </div>
         )}
@@ -169,7 +177,7 @@ export function LandingSampleQuestion() {
           </span>
         </div>
 
-        <div className="rail-tabs" role="group" aria-label="概念分类">
+        <div className="rail-tabs" role="group" aria-label={t("概念分类")}>
           <button
             type="button"
             className={tab === "question" ? "rail-tab active" : "rail-tab"}
@@ -196,7 +204,7 @@ export function LandingSampleQuestion() {
             <div>
               <div className="text-[12.5px] font-medium">Answer first, then review concepts</div>
               <p className="text-[11.5px] muted mt-1 leading-5">
-                选完答案后，这里会显示本题的核心概念和易混概念。
+                {t("选完答案后，这里会显示本题的核心概念和易混概念。")}
               </p>
               <button
                 type="button"

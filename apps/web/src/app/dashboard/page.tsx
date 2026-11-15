@@ -10,6 +10,7 @@ import { TeacherPromoCard } from "@/components/TeacherPromoCard";
 import { useExamCountdown } from "@/hooks/useExamCountdown";
 import { QuietLink } from "@/components/QuietLink";
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { Dashboard } from "@/lib/types";
 
 
@@ -50,6 +51,7 @@ function recentPill(r: Dashboard["recent"][number]) {
 }
 
 export default function DashboardPage() {
+  const { t } = useLanguage();
   const [data, setData] = useState<Dashboard | null>(null);
   const [error, setError] = useState<string | null>(null);
   const activeSubjectId = "psychology";
@@ -126,7 +128,7 @@ export default function DashboardPage() {
             <div className="skeleton h-11 w-64 mt-2" />
           ) : countdown.kind === "upcoming" ? (
             <h1 className="mt-1 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-              <CountdownUnit value={countdown.days} label="天" />
+              <CountdownUnit value={countdown.days} label={t("天")} />
             </h1>
           ) : (
             <h1 className="h1">
@@ -199,23 +201,23 @@ export default function DashboardPage() {
 
         <div className="space-y-4">
           <div className="card card-pad">
-            <h2 className="h2">学习建议</h2>
+            <h2 className="h2">{t("学习建议")}</h2>
             <div className="mt-3 space-y-3">
               <div className="flex gap-3">
                 <BookOpen size={18} className="mt-0.5 text-[var(--primary)]" />
                 <div>
-                  <div className="text-[13px] font-medium">先按单元练习</div>
+                  <div className="text-[13px] font-medium">{t("先按单元练习")}</div>
                   <div className="text-[12px] muted mt-0.5">
-                    单元练习会即时给出解析和知识点；整套真题用来训练节奏和耐力。
+                    {t("单元练习会即时给出解析和知识点；整套真题用来训练节奏和耐力。")}
                   </div>
                 </div>
               </div>
               <div className="flex gap-3">
                 <Flame size={18} className="mt-0.5 text-[var(--accent)]" />
                 <div>
-                  <div className="text-[13px] font-medium">连续答对两次才算掌握</div>
+                  <div className="text-[13px] font-medium">{t("连续答对两次才算掌握")}</div>
                   <div className="text-[12px] muted mt-0.5">
-                    错题本会自动记录；连续答对后再标记为已掌握，仍可在「已掌握」中查看。
+                    {t("错题本会自动记录；连续答对后再标记为已掌握，仍可在「已掌握」中查看。")}
                   </div>
                 </div>
               </div>

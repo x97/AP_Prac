@@ -22,6 +22,7 @@ import { ExamQuestionSplit } from "@/components/ExamQuestionSplit";
 import { Modal } from "@/components/Modal";
 import { QuestionReportButton } from "@/components/QuestionReportButton";
 import { apiGet, apiPatch, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { AttemptAnswer, AttemptState, Paper } from "@/lib/types";
 
 type LocalAnswer = {
@@ -41,6 +42,7 @@ function formatTime(ms: number) {
 }
 
 export default function ExamAttemptPage() {
+  const { t } = useLanguage();
   const params = useParams<{ paperId: string; attemptId: string }>();
   const router = useRouter();
   const { paperId, attemptId } = params;
@@ -234,7 +236,7 @@ export default function ExamAttemptPage() {
       await waitForLoading();
       setLeavePausing(false);
       setLeavePauseError(
-        e instanceof Error ? e.message : "暂停考试失败，请重试。",
+        e instanceof Error ? e.message : t("暂停考试失败，请重试。"),
       );
       pushExamGuard();
     } finally {
@@ -617,7 +619,7 @@ export default function ExamAttemptPage() {
             <div className="min-w-0 flex-1">
               <div className="eyebrow">Section I submitted</div>
               <div className="font-semibold text-[14px] truncate">
-                {paper.title || paper.chinese_title || paper.paper_id}
+                {paper.title || paper.paper_id}
               </div>
             </div>
             <span className="pill">Section II · FRQ</span>
@@ -681,7 +683,7 @@ export default function ExamAttemptPage() {
               {paper.frq_forms.length ? ` · ${data.attempt.frq_form || ""}` : ""}
             </div>
             <div className="font-semibold text-[14px] truncate">
-              {paper.title || paper.chinese_title || paper.paper_id}
+              {paper.title || paper.paper_id}
             </div>
           </div>
           <div className="text-center shrink-0">
@@ -915,9 +917,9 @@ export default function ExamAttemptPage() {
         <div className="exam-grading-overlay" role="status" aria-live="assertive">
           <div className="exam-grading-card">
             <Loader2 size={30} className="animate-spin text-[var(--primary)]" />
-            <div className="exam-grading-title">正在暂停考试…</div>
+            <div className="exam-grading-title">{t("正在暂停考试…")}</div>
             <p className="exam-grading-copy">
-              正在保存考试状态并冻结计时，暂停成功后会返回上一页。
+              {t("正在保存考试状态并冻结计时，暂停成功后会返回上一页。")}
             </p>
           </div>
         </div>
@@ -926,7 +928,7 @@ export default function ExamAttemptPage() {
       <Modal
         open={Boolean(leavePauseError)}
         onClose={() => setLeavePauseError(null)}
-        title="暂停失败"
+        title={t("暂停失败")}
         narrow
         dismissible={false}
       >
@@ -934,7 +936,7 @@ export default function ExamAttemptPage() {
           {leavePauseError}
         </p>
         <p className="mt-2 text-[11.5px] faint leading-5">
-          暂停请求没有成功，考试仍在计时。请重试；只有暂停成功后才会返回上一页。
+          {t("暂停请求没有成功，考试仍在计时。请重试；只有暂停成功后才会返回上一页。")}
         </p>
         <div className="mt-4 flex justify-end gap-2">
           <button
@@ -942,7 +944,7 @@ export default function ExamAttemptPage() {
             className="btn"
             onClick={() => setLeavePauseError(null)}
           >
-            继续考试
+            {t("继续考试")}
           </button>
           <button
             type="button"
@@ -953,7 +955,7 @@ export default function ExamAttemptPage() {
             }}
           >
             <Loader2 size={14} className={leavePausing ? "animate-spin" : ""} />
-            重试暂停
+            {t("重试暂停")}
           </button>
         </div>
       </Modal>
@@ -1265,12 +1267,12 @@ export default function ExamAttemptPage() {
           <div className="exam-grading-card">
             <Loader2 size={30} className="animate-spin text-[var(--primary)]" />
             <div className="exam-grading-title">
-              {sectionName === "frq" ? "正在交卷…" : "正在批改中…"}
+              {sectionName === "frq" ? t("正在交卷…") : t("正在批改中…")}
             </div>
             <p className="exam-grading-copy">
               {sectionName === "frq"
-                ? "交卷后进入评分标准自评；错题会在整卷完成后统一记录。"
-                : "交卷后统一批改；错题会在批改完成后进入错题本。"}
+                ? t("交卷后进入评分标准自评；错题会在整卷完成后统一记录。")
+                : t("交卷后统一批改；错题会在批改完成后进入错题本。")}
             </p>
           </div>
         </div>

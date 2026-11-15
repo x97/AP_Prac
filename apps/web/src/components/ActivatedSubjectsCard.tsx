@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { SubjectEntitlement } from "@/lib/types";
 
 function formatDate(value: string | null) {
@@ -17,6 +18,7 @@ function formatDate(value: string | null) {
 }
 
 export function ActivatedSubjectsCard() {
+  const { t } = useLanguage();
   const [items, setItems] = useState<SubjectEntitlement[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -39,17 +41,17 @@ export function ActivatedSubjectsCard() {
   const active = (items || []).filter((item) => item.active);
 
   return (
-    <section className="card card-pad mt-4" aria-label="已激活科目">
+    <section className="card card-pad mt-4" aria-label={t("已激活科目")}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <div className="eyebrow">Activated subjects</div>
-          <h2 className="h2 mt-1">已激活科目</h2>
+          <h2 className="h2 mt-1">{t("已激活科目")}</h2>
           <p className="mt-1 text-[11.5px] muted">
-            当前账号已开通的科目和有效期；未开通科目仍可免费体验部分内容。
+            {t("当前账号已开通的科目和有效期；未开通科目仍可免费体验部分内容。")}
           </p>
         </div>
         <Link href="/me" className="btn btn-sm">
-          <KeyRound size={13} /> 管理 / 激活
+          <KeyRound size={13} /> {t("管理 / 激活")}
           <ArrowRight size={13} />
         </Link>
       </div>
@@ -69,7 +71,7 @@ export function ActivatedSubjectsCard() {
                   {item.name || item.subject_id}
                 </div>
                 <div className="text-[10.5px] muted">
-                  有效期至 {formatDate(item.expires_at)}
+                  {t("有效期至 {date}", { date: formatDate(item.expires_at) })}
                 </div>
               </div>
             </div>
@@ -78,9 +80,9 @@ export function ActivatedSubjectsCard() {
       )}
       {items && active.length === 0 && (
         <div className="mt-3 flex flex-wrap items-center gap-2 text-[12px] text-[var(--muted)]">
-          暂无已激活科目。
+          {t("暂无已激活科目。")}
           <Link href="/me" className="text-[var(--primary)] hover:underline">
-            去输入激活码 →
+            {t("去输入激活码 →")}
           </Link>
         </div>
       )}

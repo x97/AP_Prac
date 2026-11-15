@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import { Modal } from "@/components/Modal";
 import { apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { SubjectEntitlement } from "@/lib/types";
 
 type RedeemResult = {
@@ -35,6 +36,7 @@ export function RedeemCodeModal({
   onClose: () => void;
   onRedeemed?: (result: RedeemResult) => void;
 }) {
+  const { t } = useLanguage();
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [confirming, setConfirming] = useState(false);
@@ -68,7 +70,7 @@ export function RedeemCodeModal({
       setConfirming(false);
       onRedeemed?.(response);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "激活失败，请检查激活码");
+      setError(e instanceof Error ? e.message : t("激活失败，请检查激活码"));
     } finally {
       setBusy(false);
     }
@@ -78,7 +80,7 @@ export function RedeemCodeModal({
     <Modal
       open={open}
       onClose={busy ? () => undefined : onClose}
-      title={result ? "激活成功" : confirming ? "确认激活" : "使用激活码"}
+      title={result ? t("激活成功") : confirming ? t("确认激活") : t("使用激活码")}
       narrow
       dismissible={!busy}
     >
@@ -87,7 +89,7 @@ export function RedeemCodeModal({
           <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-[var(--success-soft)] text-[var(--success)]">
             <CheckCircle2 size={28} />
           </div>
-          <h3 className="mt-4 text-[17px] font-semibold">课程已激活</h3>
+          <h3 className="mt-4 text-[17px] font-semibold">{t("课程已激活")}</h3>
           <div className="mx-auto mt-4 max-w-[320px] space-y-2">
             {result.subjects.map((item) => (
               <div
@@ -95,12 +97,12 @@ export function RedeemCodeModal({
                 className="flex items-center justify-between gap-3 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] px-3.5 py-2.5 text-left text-[12px]"
               >
                 <span className="font-medium">{item.subject_id}</span>
-                <span className="text-[var(--muted)]">至 {formatDate(item.expires_at)}</span>
+                <span className="text-[var(--muted)]">{t("至 {date}", { date: formatDate(item.expires_at) })}</span>
               </div>
             ))}
           </div>
           <button type="button" className="btn btn-primary mt-5" onClick={onClose}>
-            开始使用
+            {t("开始使用")}
           </button>
         </div>
       ) : confirming ? (
@@ -108,9 +110,9 @@ export function RedeemCodeModal({
           <div className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-[var(--accent-soft)] text-[var(--accent)]">
             <KeyRound size={27} />
           </div>
-          <h3 className="mt-4 text-[17px] font-semibold">确认使用这个激活码？</h3>
+          <h3 className="mt-4 text-[17px] font-semibold">{t("确认使用这个激活码？")}</h3>
           <p className="mx-auto mt-2 max-w-[280px] text-[12px] leading-5 muted">
-            激活后会绑定当前账号，不能转给其他账号。确认后立即生效。
+            {t("激活后会绑定当前账号，不能转给其他账号。确认后立即生效。")}
           </p>
           <div className="mx-auto mt-4 max-w-[280px] rounded-xl border border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 font-mono text-[14px] tracking-[0.08em]">
             {code}
@@ -122,7 +124,7 @@ export function RedeemCodeModal({
               onClick={() => setConfirming(false)}
               disabled={busy}
             >
-              返回修改
+              {t("返回修改")}
             </button>
             <button
               type="button"
@@ -131,7 +133,7 @@ export function RedeemCodeModal({
               disabled={busy}
             >
               {busy ? <Loader2 size={15} className="animate-spin" /> : <KeyRound size={15} />}
-              {busy ? "激活中…" : "确认激活"}
+              {busy ? t("激活中…") : t("确认激活")}
             </button>
           </div>
           {error && (
@@ -147,7 +149,7 @@ export function RedeemCodeModal({
               <KeyRound size={17} />
             </div>
             <p className="text-[12px] leading-5 muted">
-              激活码会绑定当前账号。新时长会叠加到已有有效期上；指定日期码会延长到该日期。
+              {t("激活码会绑定当前账号。新时长会叠加到已有有效期上；指定日期码会延长到该日期。")}
             </p>
           </div>
 
@@ -175,7 +177,7 @@ export function RedeemCodeModal({
 
           <div className="flex justify-end gap-2 border-t border-[var(--line)] pt-4">
             <button type="button" className="btn" onClick={onClose} disabled={busy}>
-              取消
+              {t("取消")}
             </button>
             <button
               type="submit"
@@ -183,7 +185,7 @@ export function RedeemCodeModal({
               disabled={busy || code.trim().length < 6}
             >
               {busy ? <Loader2 size={15} className="animate-spin" /> : <KeyRound size={15} />}
-              下一步
+              {t("下一步")}
             </button>
           </div>
         </form>

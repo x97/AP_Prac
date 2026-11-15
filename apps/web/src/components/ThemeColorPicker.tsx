@@ -10,8 +10,10 @@ import {
   THEME_STORAGE_KEY,
   type ThemeAccentId,
 } from "@/lib/theme";
+import { useLanguage } from "@/lib/i18n";
 
 export function ThemeColorPicker({ embedded = false }: { embedded?: boolean }) {
+  const { t } = useLanguage();
   const [active, setActive] = useState<ThemeAccentId>("blue");
   const [saved, setSaved] = useState(false);
 
@@ -40,13 +42,13 @@ export function ThemeColorPicker({ embedded = false }: { embedded?: boolean }) {
             Appearance
           </div>
           <h2 className="h2 mt-1 flex items-center gap-2">
-            <Palette size={18} className="text-[var(--primary)]" /> 主题颜色
+            <Palette size={18} className="text-[var(--primary)]" /> {t("主题颜色")}
           </h2>
         </div>
-        {saved && <span className="text-[10.5px] text-[var(--success)]">已保存</span>}
+        {saved && <span className="text-[10.5px] text-[var(--success)]">{t("已保存")}</span>}
       </div>
       <p className="mt-1 text-[11.5px] muted leading-5">
-        选择一套强调色，应用到练习、考试、知识图谱和卡片。默认是经典蓝。
+        {t("选择一套强调色，应用到练习、考试、知识图谱和卡片。默认是经典蓝。")}
       </p>
 
       <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
@@ -72,7 +74,7 @@ export function ThemeColorPicker({ embedded = false }: { embedded?: boolean }) {
                 {selected && <Check size={14} strokeWidth={2.6} />}
               </span>
               <span className="min-w-0">
-                <span className="block truncate text-[12px] font-semibold">{theme.label}</span>
+                <span className="block truncate text-[12px] font-semibold">{t(theme.label)}</span>
                 <span className="mt-0.5 block truncate text-[9.5px] text-[var(--faint)]">
                   {theme.tone}
                 </span>
@@ -82,7 +84,7 @@ export function ThemeColorPicker({ embedded = false }: { embedded?: boolean }) {
         })}
       </div>
       <p className="mt-3 text-[10px] leading-4 faint">
-        主题保存在当前浏览器；换设备或清除浏览器数据后需要重新选择。
+        {t("主题保存在当前浏览器；换设备或清除浏览器数据后需要重新选择。")}
       </p>
     </div>
   );

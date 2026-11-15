@@ -18,6 +18,7 @@ import { KnowledgeRail } from "@/components/KnowledgeRail";
 import { QuestionView } from "@/components/QuestionView";
 import { TeacherPromoCard } from "@/components/TeacherPromoCard";
 import { apiDelete, apiGet, apiPost, apiPut } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type {
   Note,
   Question,
@@ -69,6 +70,7 @@ function pagerItems(total: number, current: number): Array<number | "ellipsis"> 
 }
 
 export default function PracticeSessionPage() {
+  const { t } = useLanguage();
   const params = useParams<{ sessionId: string }>();
   const router = useRouter();
   const sessionId = params.sessionId;
@@ -245,7 +247,7 @@ export default function PracticeSessionPage() {
   async function toggleBookmark() {
     if (!current) return;
     const isBookmarked = bookmarkSet.has(current.question_id);
-    if (isBookmarked && !window.confirm("移除这道题的收藏？")) return;
+    if (isBookmarked && !window.confirm(t("移除这道题的收藏？"))) return;
     try {
       if (isBookmarked) {
         await apiDelete(`/me/bookmarks/${current.question_id}`);
@@ -292,8 +294,8 @@ export default function PracticeSessionPage() {
     if (
       !window.confirm(
         wrongPractice
-          ? "重新开始错题练习？当前答题记录会保留在「做题记录」，新练习会从第一题开始。"
-          : "重新开始本次练习？当前答题记录会保留在「做题记录」。",
+          ? t("重新开始错题练习？当前答题记录会保留在「做题记录」，新练习会从第一题开始。")
+          : t("重新开始本次练习？当前答题记录会保留在「做题记录」。"),
       )
     ) {
       return;
@@ -373,9 +375,9 @@ export default function PracticeSessionPage() {
       <div>
         <div className="flex items-center gap-2 mb-4">
           <Link href={backHref} className="btn btn-ghost btn-sm -ml-2">
-            <ArrowLeft size={14} /> {isWrongPractice ? "返回错题本" : "Back to Unit"}
+            <ArrowLeft size={14} /> {isWrongPractice ? t("返回错题本") : "Back to Unit"}
           </Link>
-          {isWrongPractice && <span className="pill pill-primary">错题练习卷</span>}
+          {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
         </div>
         <div className="card empty">
           {isWrongPractice
@@ -383,7 +385,7 @@ export default function PracticeSessionPage() {
             : "This practice session has no questions."}
           <div className="mt-4">
             <Link href={backHref} className="btn btn-sm">
-              {isWrongPractice ? "退出错题本" : "Back"}
+              {isWrongPractice ? t("退出错题本") : "Back"}
             </Link>
           </div>
         </div>
@@ -407,9 +409,9 @@ export default function PracticeSessionPage() {
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2">
           <Link href={backHref} className="btn btn-ghost btn-sm -ml-2">
-            <ArrowLeft size={14} /> {isWrongPractice ? "返回错题本" : "Back to Unit"}
+            <ArrowLeft size={14} /> {isWrongPractice ? t("返回错题本") : "Back to Unit"}
           </Link>
-          {isWrongPractice && <span className="pill pill-primary">错题练习卷</span>}
+          {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <span className="pill">
@@ -421,7 +423,7 @@ export default function PracticeSessionPage() {
           </span>
           {isWrongPractice && (
             <button className="btn btn-sm btn-ghost" onClick={restart} disabled={busy}>
-              <RotateCcw size={13} /> 重新开始
+              <RotateCcw size={13} /> {t("重新开始")}
             </button>
           )}
           {data.session.status === "in_progress" && (
@@ -445,8 +447,8 @@ export default function PracticeSessionPage() {
             <h2 className="h2">
               {isWrongPractice
                 ? data.session.status === "submitted"
-                  ? "错题练习完成"
-                  : "错题练习已结束"
+                  ? t("错题练习完成")
+                  : t("错题练习已结束")
                 : data.session.status === "submitted"
                   ? "Chapter Complete"
                   : "Session Ended Early"}
@@ -467,7 +469,7 @@ export default function PracticeSessionPage() {
               href="/wrong"
               className={isWrongPractice ? "btn btn-sm btn-primary" : "btn btn-sm"}
             >
-              {isWrongPractice ? "退出错题本" : "Wrong Book"}
+              {isWrongPractice ? t("退出错题本") : "Wrong Book"}
             </Link>
             {data.session.topic_id && (
               <button className="btn btn-sm" onClick={restart} disabled={busy}>

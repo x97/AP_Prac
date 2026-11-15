@@ -15,6 +15,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { apiGet, apiPost } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { Paper } from "@/lib/types";
 
 type AttemptState = {
@@ -28,6 +29,7 @@ const MODE_LABEL: Record<string, string> = {
 };
 
 export default function PaperPage() {
+  const { t } = useLanguage();
   const params = useParams<{ paperId: string }>();
   const router = useRouter();
   const paperId = params.paperId;
@@ -93,7 +95,7 @@ export default function PaperPage() {
           <div className="eyebrow">
             {paper.paper_type === "real_exam" ? "Real Exam" : "Mock Exam"} · {paper.year} · {formatLabel}
           </div>
-          <h1 className="h1">{paper.title || paper.chinese_title || paper.paper_id}</h1>
+          <h1 className="h1">{paper.title || paper.paper_id}</h1>
         </div>
       </div>
 
@@ -260,14 +262,14 @@ export default function PaperPage() {
               <Play size={15} />
             )}
             {paper.locked
-              ? "需要解锁"
+              ? t("需要解锁")
               : activeAttempts.length > 0
                 ? "Continue or restart above first"
                 : "Start Exam"}
           </button>
           <p className="text-[11px] faint mt-2 leading-5">
             {paper.locked
-              ? "这套试卷需要激活码。可在「我的 → 课程权限」中输入激活码后开始。"
+              ? t("这套试卷需要激活码。可在「我的 → 课程权限」中输入激活码后开始。")
               : "The timer starts immediately. Refreshing or leaving the page restores saved answers. Explanations remain locked until submission."}
           </p>
         </div>

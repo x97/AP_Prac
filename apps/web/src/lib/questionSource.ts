@@ -5,6 +5,10 @@ const SECTION_LABEL: Record<string, string> = {
   FRQ: "Section II · FRQ",
 };
 
+// Chinese UI label kept as the i18n dictionary source key. Consumers translate
+// it with t(); question titles and other content are never run through t().
+export const EXAM_PAPER_FALLBACK_LABEL = "真题 / 模拟";
+
 export function questionSourceParts(
   question?: QuestionSourceInfo | null,
 ): { primary: string; secondary: string } {
@@ -18,7 +22,7 @@ export function questionSourceParts(
 
   if (isExam) {
     return {
-      primary: paper || "真题 / 模拟",
+      primary: paper || EXAM_PAPER_FALLBACK_LABEL,
       secondary: section,
     };
   }

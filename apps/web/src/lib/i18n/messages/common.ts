@@ -1,0 +1,97 @@
+const messages: Record<string, string> = {
+  // AppShell navigation
+  "首页": "Home",
+  "单元练习": "Unit Practice",
+  "知识图谱": "Knowledge Graph",
+  "真题": "Past Papers",
+  "记忆卡片": "Flashcards",
+  "错题本": "Wrong Book",
+  "笔记本": "Notebook",
+  "做题记录": "History",
+  "我的": "Profile",
+  "练习": "Practice",
+  "图谱": "Graph",
+  "错题": "Mistakes",
+  "AP 学员": "AP Student",
+
+  // Login / register / reset
+  "欢迎回来": "Welcome back",
+  "登录 PsyPrac": "Sign in to PsyPrac",
+  "登录": "Sign in",
+  "创建账号": "Create account",
+  "创建新账户": "Create a new account",
+  "注册并登录": "Sign up and sign in",
+  "找回密码": "Reset password",
+  "修改密码": "Change password",
+  "设置新密码": "Set new password",
+  "请输入有效的邮箱地址": "Enter a valid email address",
+  "验证码已发送，请查收邮箱": "Verification code sent. Check your inbox.",
+  "验证码发送失败": "Failed to send verification code",
+  "请填写邮箱、验证码和密码": "Enter your email, verification code, and password",
+  "请填写邮箱和密码": "Enter your email and password",
+  "密码已重置，请用新密码登录": "Password reset. Sign in with your new password.",
+  "操作失败，请重试": "Something went wrong. Please try again.",
+  "返回首页": "Back to home",
+  "输入注册邮箱，验证后设置新密码。": "Enter your registered email, verify it, and set a new password.",
+  "用邮箱创建账号，验证码会发送到该邮箱。": "Create an account with your email. We'll send a verification code to it.",
+  "单元练习、整卷模考、错题和笔记都会保存到你的账号。":
+    "Unit practice, full-length mock exams, mistakes, and notes are saved to your account.",
+  "邮箱": "Email",
+  "新密码": "New password",
+  "密码": "Password",
+  "输入密码": "Enter password",
+  "至少 8 位": "At least 8 characters",
+  "验证码": "Verification code",
+  "6 位验证码": "6-digit code",
+  "发送验证码": "Send code",
+  "测试验证码：": "Test code:",
+  "邮箱是账号的唯一凭证": "Your email is the only credential for your account.",
+  "已有账号？登录": "Already have an account? Sign in",
+  "返回登录": "Back to sign in",
+  "登录即表示你同意用户协议与隐私政策。邮箱仅用于登录和账号找回。":
+    "By signing in, you agree to the User Agreement and Privacy Policy. Your email is used only for sign-in and account recovery.",
+
+  // Profile page
+  "昵称不能为空": "Nickname can't be empty",
+  "昵称保存失败": "Failed to save nickname",
+  "新密码至少需要 8 位": "New password must be at least 8 characters",
+  "两次输入的新密码不一致": "The new passwords don't match",
+  "密码修改失败": "Failed to change password",
+  "未绑定邮箱": "No email linked",
+  "未绑定": "Not linked",
+  "账号安全": "Account security",
+  "登录邮箱：{email}": "Sign-in email: {email}",
+  "当前密码": "Current password",
+  "新密码（至少 8 位）": "New password (at least 8 characters)",
+  "确认新密码": "Confirm new password",
+  "保存中…": "Saving…",
+  "密码已更新，其他设备已退出": "Password updated. Other devices have been signed out.",
+  "当前账号还没有密码。请在微信端绑定邮箱后设置密码。":
+    "This account doesn't have a password yet. Link an email in WeChat, then set a password.",
+
+  // Theme color picker
+  "主题颜色": "Theme color",
+  "已保存": "Saved",
+  "选择一套强调色，应用到练习、考试、知识图谱和卡片。默认是经典蓝。":
+    "Choose an accent color for practice, exams, the knowledge graph, and flashcards. Classic Blue is the default.",
+  "主题保存在当前浏览器；换设备或清除浏览器数据后需要重新选择。":
+    "Your theme is stored in this browser. Choose again on another device or after clearing browser data.",
+  "经典蓝": "Classic Blue",
+  "海盐蓝": "Sea Salt Blue",
+  "青碧": "Teal",
+  "森林绿": "Forest Green",
+  "薄荷绿": "Mint Green",
+  "琥珀金": "Amber Gold",
+  "日落橙": "Sunset Orange",
+  "赤红": "Crimson",
+  "樱花粉": "Sakura Pink",
+  "紫罗兰": "Violet",
+  "靛蓝": "Indigo",
+  "石墨灰": "Graphite Gray",
+
+  // API fallback errors (non-React)
+  "请先登录": "Please sign in first",
+  "请求失败（{status}）": "Request failed ({status})",
+};
+
+export default messages;

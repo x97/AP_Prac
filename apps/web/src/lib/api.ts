@@ -1,3 +1,5 @@
+import commonMessages from "@/lib/i18n/messages/common";
+
 export class ApiError extends Error {
   status: number;
   code: string;
@@ -28,6 +30,58 @@ function isSecurePath(path: string) {
     (prefix) => path === prefix || path.startsWith(`${prefix}/`) || path.startsWith(`${prefix}?`),
   );
 }
+
+// Non-React copy: use the same `ap_lang` preference the LanguageProvider
+// persists. `api.ts` can be imported outside React, so it cannot use hooks.
+function currentLang(): "zh" | "en" {
+  if (typeof window === "undefined") return "en";
+  try {
+    return window.localStorage.getItem("ap_lang") === "zh" ? "zh" : "en";
+  } catch {
+    return "en";
+  }
+}
+
+function uiText(zh: string, vars?: Record<string, string | number>): string {
+  const template = currentLang() === "zh" ? zh : (commonMessages[zh] ?? zh);
+  if (!vars) return template;
+  return template.replace(/\{(\w+)\}/g, (_, key: string) =>
+    String(vars[key] ?? `{${key}}`),
+  );
+}
+
+// Backend error messages are Chinese; map the common codes so the English UI
+// never falls back to a Chinese `message` payload.
+const EN_ERROR_MESSAGES: Record<string, string> = {
+  AUTH_REQUIRED: "Please sign in first",
+  EMAIL_OR_PASSWORD_INVALID: "Email or password is incorrect",
+  EMAIL_ALREADY_REGISTERED: "This email is already registered. Sign in or reset your password.",
+  EMAIL_CODE_EXPIRED: "The verification code has expired. Request a new one.",
+  EMAIL_CODE_INVALID: "The verification code is incorrect",
+  EMAIL_CODE_LOCKED: "Too many attempts. Request a new verification code.",
+  EMAIL_CODE_RATE_LIMITED: "Too many requests. Please wait and try again.",
+  EMAIL_SEND_FAILED: "Failed to send the verification email. Please try again later.",
+  INVALID_EMAIL: "Enter a valid email address",
+  PASSWORD_TOO_SHORT: "Password is too short",
+  PASSWORD_TOO_LONG: "Password is too long",
+  PASSWORD_INVALID: "Current password is incorrect",
+  PASSWORD_REQUIRED: "Set a password first",
+  PASSWORD_NOT_SET: "This account has no password yet",
+  OLD_PASSWORD_INVALID: "Current password is incorrect",
+  EMAIL_ALREADY_BOUND: "This account already has an email",
+  EMAIL_BOUND_TO_OTHER_WECHAT: "This email is linked to another WeChat account",
+  EMAIL_ACCOUNT_UNAVAILABLE: "This email account is unavailable",
+  WECHAT_NOT_CONFIGURED: "WeChat sign-in is not configured yet",
+  ACCOUNT_DISABLED: "This account is disabled",
+  CONTENT_KEY_REQUIRED: "This client cannot decrypt the content",
+  CONTENT_KEY_INVALID: "Invalid content decryption key",
+  ASSET_SIGNATURE_INVALID: "This asset link is invalid or has expired",
+  NICKNAME_REQUIRED: "Nickname can't be empty",
+  NICKNAME_INVALID: "Nickname contains unsupported characters",
+  ORIGIN_REJECTED: "Request origin is not allowed",
+  RATE_LIMITED: "Too many requests. Please slow down.",
+  REQUEST_FAILED: "Request failed",
+};
 
 function bytesToBase64(value: ArrayBuffer): string {
   const bytes = new Uint8Array(value);
@@ -159,7 +213,7 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
   });
   if (res.status === 401) {
     redirectToLogin();
-    throw new ApiError(401, "AUTH_REQUIRED", "请先登录");
+    throw new ApiError(401, "AUTH_REQUIRED", uiText("请先登录"));
   }
   if (!res.ok) {
     let payload: { code?: string; message?: string; details?: unknown } = {};
@@ -168,12 +222,13 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     } catch {
       // ignore non-JSON errors
     }
-    throw new ApiError(
-      res.status,
-      payload.code || "REQUEST_FAILED",
-      payload.message || `请求失败（${res.status}）`,
-      payload.details,
-    );
+    const code = payload.code || "REQUEST_FAILED";
+    const message =
+      currentLang() === "zh"
+        ? (payload.message || uiText("请求失败（{status}）", { status: res.status }))
+        : (EN_ERROR_MESSAGES[code] ||
+          `Request failed (${res.status})`);
+    throw new ApiError(res.status, code, message, payload.details);
   }
   if (res.status === 204) return undefined as T;
   if (res.headers.get("x-content-encrypted") === "1" && secure) {

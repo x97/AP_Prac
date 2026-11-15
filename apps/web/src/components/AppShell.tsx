@@ -18,6 +18,7 @@ import { QuietLink } from "@/components/QuietLink";
 
 import { brand } from "@/config/brand";
 import { useMe } from "@/hooks/useMe";
+import { LanguageSwitcher, useLanguage } from "@/lib/i18n";
 import { TeacherPromoCard } from "@/components/TeacherPromoCard";
 
 const NAV = [
@@ -47,6 +48,7 @@ function isActive(pathname: string, href: string) {
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
+  const { t } = useLanguage();
   const isLogin = pathname === "/login";
   const isLanding = pathname === "/";
   const isReview = pathname.endsWith("/review");
@@ -60,6 +62,9 @@ export function AppShell({ children }: { children: ReactNode }) {
   if (isReview) {
     return (
       <main className="main">
+        <div className="fixed right-4 top-3 z-40">
+          <LanguageSwitcher />
+        </div>
         <div className="page">{children}</div>
       </main>
     );
@@ -109,14 +114,17 @@ export function AppShell({ children }: { children: ReactNode }) {
                 data-active={isActive(pathname, item.href)}
               >
                 <Icon size={16} strokeWidth={1.8} />
-                {item.label}
+                {t(item.label)}
               </QuietLink>
             );
           })}
         </nav>
         <div className="sidebar-foot">
+          <div className="mb-3">
+            <LanguageSwitcher />
+          </div>
           {showSidebarPromo && <TeacherPromoCard variant="sidebar" className="mb-3" />}
-          <div className="truncate">{user?.nickname || "AP 学员"}</div>
+          <div className="truncate">{user?.nickname || t("AP 学员")}</div>
           <div className="font-mono text-[11px] mt-1 truncate">
             {user?.email_masked || user?.phone_masked}
           </div>
@@ -126,6 +134,10 @@ export function AppShell({ children }: { children: ReactNode }) {
       <main className="main">
         <div className="page">{children}</div>
       </main>
+
+      <div className="fixed right-3 top-3 z-40 md:hidden">
+        <LanguageSwitcher />
+      </div>
 
       <nav className="tabbar">
         {TABS.map((item) => {
@@ -139,7 +151,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               data-active={isActive(pathname, item.href)}
             >
               <Icon size={18} strokeWidth={1.8} />
-              {item.label}
+              {t(item.label)}
             </QuietLink>
           );
         })}

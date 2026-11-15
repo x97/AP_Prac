@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 
 import { RedeemCodeModal } from "@/components/RedeemCodeModal";
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { SubjectEntitlement } from "@/lib/types";
 
 const SUBJECT_NAMES: Record<string, string> = {
@@ -22,6 +23,7 @@ function formatDate(value: string | null) {
 }
 
 export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
+  const { t } = useLanguage();
   const [items, setItems] = useState<SubjectEntitlement[] | null>(null);
   const [activeCount, setActiveCount] = useState(0);
   const [error, setError] = useState<string | null>(null);
@@ -54,15 +56,15 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
             Activated subjects
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
-            <h2 className="h2">已激活科目</h2>
-            <span className="badge badge-core">{activeCount} 个</span>
+            <h2 className="h2">{t("已激活科目")}</h2>
+            <span className="badge badge-core">{t("{count} 个", { count: activeCount })}</span>
           </div>
           <p className="mt-1 text-[11.5px] text-[var(--muted)]">
-            这里列出当前账号可用的科目和有效期；未激活科目可继续使用免费内容。
+            {t("这里列出当前账号可用的科目和有效期；未激活科目可继续使用免费内容。")}
           </p>
         </div>
         <button type="button" className="btn btn-primary btn-sm" onClick={() => setOpen(true)}>
-          <KeyRound size={13} /> 使用激活码
+          <KeyRound size={13} /> {t("使用激活码")}
         </button>
       </div>
 
@@ -71,7 +73,7 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
       <div className="mt-3 divide-y divide-[var(--line)]">
         {!items && (
           <div className="flex items-center gap-2 py-4 text-[12px] text-[var(--muted)]">
-            <RefreshCw size={13} className="animate-spin" /> 正在读取课程权限…
+            <RefreshCw size={13} className="animate-spin" /> {t("正在读取课程权限…")}
           </div>
         )}
         {items
@@ -93,15 +95,15 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
                 <div className="text-[13px] font-medium">
                   {item.name || SUBJECT_NAMES[item.subject_id] || item.subject_id}
                   {!item.enabled && (
-                    <span className="ml-2 text-[10px] text-[var(--accent)]">内容暂未开放</span>
+                    <span className="ml-2 text-[10px] text-[var(--accent)]">{t("内容暂未开放")}</span>
                   )}
                 </div>
                 <div className="mt-0.5 text-[11px] text-[var(--muted)]">
                   {item.active
-                    ? `已激活 · 有效期至 ${formatDate(item.expires_at)}`
+                    ? t("已激活 · 有效期至 {date}", { date: formatDate(item.expires_at) })
                     : item.free_unit_ids.length > 0 || item.free_paper_ids.length > 0
-                      ? "未激活 · 可免费体验部分内容"
-                      : "未激活"}
+                      ? t("未激活 · 可免费体验部分内容")
+                      : t("未激活")}
                 </div>
               </div>
             </div>
@@ -112,7 +114,7 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
                   : "badge"
               }
             >
-              {item.active ? "已激活" : "未激活"}
+              {item.active ? t("已激活") : t("未激活")}
             </span>
           </div>
         ))}

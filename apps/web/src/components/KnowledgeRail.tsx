@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
+import { useLanguage } from "@/lib/i18n";
 import type { Concept } from "@/lib/types";
 
 const REL_LABEL: Record<string, string> = {
@@ -80,6 +81,7 @@ export function KnowledgeRail({
   answered: boolean;
   questionId: string;
 }) {
+  const { t } = useLanguage();
   const [tab, setTab] = useState<"question" | "topic">("question");
   const [collapsed, setCollapsed] = useState(false);
 
@@ -150,7 +152,7 @@ export function KnowledgeRail({
             <div className="mb-1 mt-2 font-mono text-[10px] text-[var(--muted)]">
               {topicTitle}
               {topicInferred && (
-                <span className="ml-1.5 text-[var(--accent)]">近似匹配</span>
+                <span className="ml-1.5 text-[var(--accent)]">{t("近似匹配")}</span>
               )}
             </div>
           )}

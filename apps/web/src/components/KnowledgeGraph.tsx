@@ -7,6 +7,7 @@ import { Modal } from "@/components/Modal";
 import { QuestionView } from "@/components/QuestionView";
 import styles from "@/components/KnowledgeGraph.module.css";
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type {
   KnowledgeGraphConcept,
   KnowledgeGraphMindNode,
@@ -173,6 +174,7 @@ function StructureGraph({
   unit: KnowledgeGraphUnit;
   onOpenTopic: (topic: KnowledgeGraphTopic, conceptId?: string) => void;
 }) {
+  const { t } = useLanguage();
   const topics = unit.topics || [];
   const centers = useMemo(() => structureCenters(topics), [topics]);
   const bridges = useMemo(() => {
@@ -215,7 +217,11 @@ function StructureGraph({
             className={cx(styles.bridge, kind === "contrast" ? styles.contrast : kind === "semantic" ? styles.semantic : styles.co)}
             style={{ opacity: 0.2 + Math.min(0.42, Math.log2(1 + weight) * 0.06) }}
           >
-            <title>{`${bridge.source} ↔ ${bridge.target} · 教材 ${bridge.semantic} · 易混 ${bridge.contrast} · 同题 ${bridge.co}`}</title>
+            <title>{`${bridge.source} ↔ ${bridge.target} · ${t("教材 {semantic} · 易混 {contrast} · 同题 {co}", {
+              semantic: bridge.semantic,
+              contrast: bridge.contrast,
+              co: bridge.co,
+            })}`}</title>
           </path>
         );
       })}
@@ -595,6 +601,7 @@ function TopicMindMap({
   onSelectConcept: (id: string) => void;
   onBack: () => void;
 }) {
+  const { t } = useLanguage();
   const fallbackBranches = useMemo(
     () => (topic.mindmap?.children?.length ? [] : fallbackMindBranches(topic)),
     [topic],
@@ -924,7 +931,7 @@ function TopicMindMap({
     <>
       <div className={styles.mindTop}>
         <button type="button" className={styles.stageBack} onClick={onBack} aria-label="Back to Unit structure">
-          <ArrowLeft size={13} /> 返回结构图
+          <ArrowLeft size={13} /> {t("返回结构图")}
         </button>
         <div className={styles.mindTools} role="group" aria-label="Mind map zoom controls">
           <button type="button" className={styles.mindTool} onClick={() => zoom(0.8)} aria-label="Zoom out">−</button>
@@ -1001,6 +1008,7 @@ function UnitInspector({
   unit: KnowledgeGraphUnit;
   onOpenTopic: (topic: KnowledgeGraphTopic) => void;
 }) {
+  const { t } = useLanguage();
   return (
     <>
       <div className={styles.inspectorHead}>
@@ -1013,10 +1021,10 @@ function UnitInspector({
         </div>
       </div>
       <section className={styles.section}>
-        <div className={styles.sectionLabel}>How to use <span>先把结构看懂</span></div>
+        <div className={styles.sectionLabel}>How to use <span>{t("先把结构看懂")}</span></div>
         <p className={styles.definition}>
-          这是按已解锁 Unit 生成的知识图谱。默认只展示 Topic 结构和每个 Topic 的 3 个核心概念；
-          点击 Topic 节点查看内部概念图，再点概念查看定义、关系和关联题目。
+          {t("这是按已解锁 Unit 生成的知识图谱。默认只展示 Topic 结构和每个 Topic 的 3 个核心概念；")}{" "}
+          {t("点击 Topic 节点查看内部概念图，再点概念查看定义、关系和关联题目。")}
         </p>
       </section>
       <section className={styles.section}>
@@ -1044,6 +1052,7 @@ function TopicInspector({
   topic: KnowledgeGraphTopic;
   onOpenConcept: (conceptId: string) => void;
 }) {
+  const { t } = useLanguage();
   return (
     <>
       <div className={styles.inspectorHead}>
@@ -1058,11 +1067,11 @@ function TopicInspector({
         <div className={styles.topicCard}>
           <div className={styles.eyebrow}>{topic.code} · Topic</div>
           <h3>{topic.title_en}</h3>
-          <p>点击导图中的英文概念节点查看定义、关系和关联题目。返回结构图请用导图左上角按钮。</p>
+          <p>{t("点击导图中的英文概念节点查看定义、关系和关联题目。返回结构图请用导图左上角按钮。")}</p>
         </div>
       </section>
       <section className={styles.section}>
-        <div className={styles.sectionLabel}>Concepts <span>按权重排序</span></div>
+        <div className={styles.sectionLabel}>Concepts <span>{t("按权重排序")}</span></div>
         <div className={styles.conceptList}>
           {topic.concepts.map((concept) => (
             <button key={concept.concept_id} type="button" className={styles.conceptRow} onClick={() => onOpenConcept(concept.concept_id)}>
@@ -1092,6 +1101,7 @@ function ConceptInspector({
   onBackTopic: () => void;
   onPreviewQuestion: (questionId: string, sample?: KnowledgeGraphSample) => void;
 }) {
+  const { t } = useLanguage();
   const lookup = useMemo(() => conceptIndex(unit), [unit]);
   const rows = relationRows(concept, lookup);
   return (
@@ -1102,7 +1112,7 @@ function ConceptInspector({
         <div className={styles.chips}>
           <span className={cx(styles.chip, concept.tier === "core" ? styles.core : styles.accent)}>{concept.tier}</span>
           <span className={styles.chip}>{concept.questions.total} questions</span>
-          <span className={styles.chip}>{concept.contrast.length} 易混</span>
+          <span className={styles.chip}>{t("{n} 易混", { n: concept.contrast.length })}</span>
           {concept.supplement && (
             <span className={styles.chip}>
               {concept.supplement_source === "admin" ? "Admin supplement" : "AI supplement"}
@@ -1113,7 +1123,7 @@ function ConceptInspector({
 
       <section className={styles.section}>
         <div className={styles.sectionLabel}>Definition <span>{concept.book}</span></div>
-        <p className={styles.definition}>{concept.definition || "暂无定义。"}</p>
+        <p className={styles.definition}>{concept.definition || t("暂无定义。")}</p>
         {concept.quote && concept.quote !== concept.definition && (
           <blockquote className={styles.quote}>“{concept.quote}”</blockquote>
         )}
@@ -1130,7 +1140,7 @@ function ConceptInspector({
       </section>
 
       <section className={styles.section}>
-        <div className={styles.sectionLabel}>教材关系 <span>{rows.length} 条</span></div>
+        <div className={styles.sectionLabel}>{t("教材关系")} <span>{t("{n} 条", { n: rows.length })}</span></div>
         {rows.length ? (
           <div className={styles.relationList}>
             {rows.map((relation) => (
@@ -1143,7 +1153,7 @@ function ConceptInspector({
                   if (relation.exists) onOpenConcept(lookup.get(relation.id)!.topic.code, relation.id);
                 }}
               >
-                <span className={styles.relLabel}>{relation.label || RELATION_LABELS[relation.type] || "相关"}</span>
+                <span className={styles.relLabel}>{relation.label || t(RELATION_LABELS[relation.type] || "相关")}</span>
                 <span className={styles.relName}>{relation.name}</span>
                 <span className={styles.relMeta}>{relation.confidence ? `${Math.round(relation.confidence * 100)}%` : ""}</span>
                 {relation.evidence && <span className={styles.relEvidence}>{relation.evidence}</span>}
@@ -1151,12 +1161,12 @@ function ConceptInspector({
             ))}
           </div>
         ) : (
-          <div className={styles.empty}>暂无教材显式关系。</div>
+          <div className={styles.empty}>{t("暂无教材显式关系。")}</div>
         )}
       </section>
 
       <section className={styles.section}>
-        <div className={styles.sectionLabel}>真题易混 <span>来自同题正确项 / 干扰项</span></div>
+        <div className={styles.sectionLabel}>{t("真题易混")} <span>{t("来自同题正确项 / 干扰项")}</span></div>
         {concept.contrast.length ? (
           <div className={styles.relationList}>
             {concept.contrast.map((relation) => {
@@ -1171,7 +1181,7 @@ function ConceptInspector({
                     if (sample) onPreviewQuestion(sample.question_id, sample);
                   }}
                 >
-                  <span className={styles.relLabel}>易混</span>
+                  <span className={styles.relLabel}>{t("易混")}</span>
                   <span className={styles.relName}>{relation.name}</span>
                   <span className={styles.relMeta}>×{relation.weight}</span>
                   {relation.questions[0] && (
@@ -1184,12 +1194,12 @@ function ConceptInspector({
             })}
           </div>
         ) : (
-          <div className={styles.empty}>暂无真题层面的易混记录。</div>
+          <div className={styles.empty}>{t("暂无真题层面的易混记录。")}</div>
         )}
       </section>
 
       <section className={styles.section}>
-        <div className={styles.sectionLabel}>Related Questions <span>按概念角色分组</span></div>
+        <div className={styles.sectionLabel}>Related Questions <span>{t("按概念角色分组")}</span></div>
         <div className={styles.chips} style={{ marginBottom: 8 }}>
           <span className={styles.chip}><b>{concept.questions.core}</b> core</span>
           <span className={styles.chip}><b>{concept.questions.supporting}</b> supporting</span>
@@ -1203,7 +1213,7 @@ function ConceptInspector({
                   key={`${sample.question_id}-${sample.role}`}
                   type="button"
                   className={styles.questionNumber}
-                  title={`${sample.paper} · Q${sample.number}${sample.role ? ` · ${ROLE_LABELS[sample.role] || sample.role}` : ""}`}
+                  title={`${sample.paper} · Q${sample.number}${sample.role ? ` · ${t(ROLE_LABELS[sample.role] || sample.role)}` : ""}`}
                   aria-label={`Question ${index + 1}: ${sample.paper} Q${sample.number}`}
                   onClick={() => onPreviewQuestion(sample.question_id, sample)}
                 >
@@ -1211,14 +1221,14 @@ function ConceptInspector({
                 </button>
               ))}
             </div>
-            <p className={styles.questionHint}>点击题号，只读查看题目</p>
+            <p className={styles.questionHint}>{t("点击题号，只读查看题目")}</p>
           </>
         ) : (
-          <div className={styles.empty}>暂无直接关联题目。</div>
+          <div className={styles.empty}>{t("暂无直接关联题目。")}</div>
         )}
         <div className={styles.actions}>
           <button type="button" className={styles.ghostAction} onClick={onBackTopic}>
-            <ArrowLeft size={13} /> 返回 Topic
+            <ArrowLeft size={13} /> {t("返回 Topic")}
           </button>
         </div>
       </section>
@@ -1227,6 +1237,7 @@ function ConceptInspector({
 }
 
 export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
+  const { t } = useLanguage();
   const [topicCode, setTopicCode] = useState<string | null>(null);
   const [conceptId, setConceptId] = useState<string | null>(null);
   const [previewOpen, setPreviewOpen] = useState(false);
@@ -1321,13 +1332,13 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
               type="button"
               className={styles.fullscreenBtn}
               onClick={() => setFullscreen((current) => !current)}
-              aria-label={fullscreen ? "退出全屏" : "全屏查看知识图谱"}
-              title={fullscreen ? "退出全屏（Esc）" : "全屏查看"}
+              aria-label={fullscreen ? t("退出全屏") : t("全屏查看知识图谱")}
+              title={fullscreen ? t("退出全屏（Esc）") : t("全屏查看")}
             >
               {fullscreen ? <Minimize2 size={13} /> : <Maximize2 size={13} />}
-              <span>{fullscreen ? "退出全屏" : "全屏"}</span>
+              <span>{fullscreen ? t("退出全屏") : t("全屏")}</span>
             </button>
-            <span className={styles.mobileHint}>左右滑动查看完整图</span>
+            <span className={styles.mobileHint}>{t("左右滑动查看完整图")}</span>
             <span className={styles.hint}>{topic ? "Drag to pan · Ctrl + wheel to zoom · click a concept" : "Click a Topic to open its mind map"}</span>
           </div>
         </div>
@@ -1353,12 +1364,12 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
               <span className={styles.key}>concept = click to inspect</span>
             ) : (
               <>
-                <span className={styles.key}><span className={styles.keyLine} /> 教材关系</span>
-                <span className={styles.key}><span className={cx(styles.keyLine, styles.contrast)} /> 真题易混</span>
+                <span className={styles.key}><span className={styles.keyLine} /> {t("教材关系")}</span>
+                <span className={styles.key}><span className={cx(styles.keyLine, styles.contrast)} /> {t("真题易混")}</span>
               </>
             )}
           </div>
-          <span>{topic ? `${topic.mindmap?.node_count ?? topic.concept_count} nodes · XMind mind map` : "Unit 级先看结构，Topic 级进入思维导图"}</span>
+          <span>{topic ? `${topic.mindmap?.node_count ?? topic.concept_count} nodes · XMind mind map` : t("Unit 级先看结构，Topic 级进入思维导图")}</span>
         </div>
       </div>
 
@@ -1390,7 +1401,7 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
         wide
       >
         <div className="mb-3 rounded-lg border border-[var(--line)] bg-[var(--surface-2)] px-3 py-2 text-[11px] muted">
-          只读预览 · 不记录作答 · 题目来自当前知识图谱关联
+          {t("只读预览 · 不记录作答 · 题目来自当前知识图谱关联")}
         </div>
         {previewLoading && <div className="skeleton h-40 w-full" />}
         {previewError && <div className="feedback feedback-bad">{previewError}</div>}

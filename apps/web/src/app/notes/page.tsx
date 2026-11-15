@@ -15,9 +15,11 @@ import { Modal } from "@/components/Modal";
 import { QuestionSourceLine } from "@/components/QuestionSourceLine";
 import { QuestionView } from "@/components/QuestionView";
 import { apiDelete, apiGet, apiPatch } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { Feedback, Note } from "@/lib/types";
 
 export default function NotesPage() {
+  const { t } = useLanguage();
   const [items, setItems] = useState<Note[] | null>(null);
   const [q, setQ] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -48,7 +50,7 @@ export default function NotesPage() {
   }, [items, q]);
 
   async function remove(id: string) {
-    if (!window.confirm("删除这条笔记？删除后无法恢复。")) return;
+    if (!window.confirm(t("删除这条笔记？删除后无法恢复。"))) return;
     try {
       await apiDelete(`/me/notes/${id}`);
       setItems((prev) => (prev ? prev.filter((n) => n.id !== id) : prev));

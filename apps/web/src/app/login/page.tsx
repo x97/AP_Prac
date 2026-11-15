@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 
 import { brand } from "@/config/brand";
 import { apiPost } from "@/lib/api";
+import { LanguageSwitcher, useLanguage } from "@/lib/i18n";
 
 type Mode = "login" | "register" | "reset";
 
@@ -34,6 +35,7 @@ function updateModeInUrl(mode: Mode) {
 }
 
 export default function LoginPage() {
+  const { t } = useLanguage();
   const [mode, setMode] = useState<Mode>("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -83,7 +85,7 @@ export default function LoginPage() {
 
   async function sendCode() {
     if (!emailValid) {
-      setError("请输入有效的邮箱地址");
+      setError(t("请输入有效的邮箱地址"));
       return;
     }
     setSending(true);
@@ -100,9 +102,9 @@ export default function LoginPage() {
       });
       setDevCode(res.debug_code || null);
       setCountdown(60);
-      setNotice("验证码已发送，请查收邮箱");
+      setNotice(t("验证码已发送，请查收邮箱"));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "验证码发送失败");
+      setError(err instanceof Error ? err.message : t("验证码发送失败"));
     } finally {
       setSending(false);
     }
@@ -113,11 +115,15 @@ export default function LoginPage() {
     setError(null);
     setNotice(null);
     if (!emailValid) {
-      setError("请输入有效的邮箱地址");
+      setError(t("请输入有效的邮箱地址"));
       return;
     }
     if (!password || (needsCode && code.length < 4)) {
-      setError(needsCode ? "请填写邮箱、验证码和密码" : "请填写邮箱和密码");
+      setError(
+        needsCode
+          ? t("请填写邮箱、验证码和密码")
+          : t("请填写邮箱和密码"),
+      );
       return;
     }
     setLoading(true);
@@ -145,9 +151,9 @@ export default function LoginPage() {
         password,
       });
       switchMode("login");
-      setNotice("密码已重置，请用新密码登录");
+      setNotice(t("密码已重置，请用新密码登录"));
     } catch (err) {
-      setError(err instanceof Error ? err.message : "操作失败，请重试");
+      setError(err instanceof Error ? err.message : t("操作失败，请重试"));
     } finally {
       setLoading(false);
     }
@@ -156,9 +162,12 @@ export default function LoginPage() {
   return (
     <main className="min-h-screen grid place-items-center px-4 py-10">
       <div className="w-full max-w-[420px]">
-        <Link href="/" className="btn btn-sm btn-ghost -ml-2 mb-4">
-          <ArrowLeft size={14} /> 返回首页
-        </Link>
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <Link href="/" className="btn btn-sm btn-ghost -ml-2">
+            <ArrowLeft size={14} /> {t("返回首页")}
+          </Link>
+          <LanguageSwitcher />
+        </div>
         <div className="flex items-center gap-3 mb-7 px-2">
           <img
             src={brand.logo}
@@ -174,19 +183,19 @@ export default function LoginPage() {
         </div>
 
         <div className="card card-pad">
-          <div className="eyebrow">{copy.eyebrow}</div>
-          <h1 className="h1 mt-2 text-[28px]">{copy.title}</h1>
+          <div className="eyebrow">{t(copy.eyebrow)}</div>
+          <h1 className="h1 mt-2 text-[28px]">{t(copy.title)}</h1>
           <p className="muted text-[13px] mt-2">
             {mode === "reset"
-              ? "输入注册邮箱，验证后设置新密码。"
+              ? t("输入注册邮箱，验证后设置新密码。")
               : mode === "register"
-                ? "用邮箱创建账号，验证码会发送到该邮箱。"
-                : "单元练习、整卷模考、错题和笔记都会保存到你的账号。"}
+                ? t("用邮箱创建账号，验证码会发送到该邮箱。")
+                : t("单元练习、整卷模考、错题和笔记都会保存到你的账号。")}
           </p>
 
           <form className="mt-5 space-y-4" onSubmit={submit}>
             <label className="block">
-              <span className="text-[12px] muted">邮箱</span>
+              <span className="text-[12px] muted">{t("邮箱")}</span>
               <div className="relative mt-1.5">
                 <Mail
                   size={15}
@@ -206,7 +215,7 @@ export default function LoginPage() {
 
             <label className="block">
               <span className="text-[12px] muted">
-                {mode === "reset" ? "新密码" : "密码"}
+                {mode === "reset" ? t("新密码") : t("密码")}
               </span>
               <div className="relative mt-1.5">
                 <Lock
@@ -219,7 +228,7 @@ export default function LoginPage() {
                   autoComplete={
                     mode === "login" ? "current-password" : "new-password"
                   }
-                  placeholder={mode === "login" ? "输入密码" : "至少 8 位"}
+                  placeholder={mode === "login" ? t("输入密码") : t("至少 8 位")}
                   value={password}
                   onChange={(event) => setPassword(event.target.value)}
                 />
@@ -228,14 +237,14 @@ export default function LoginPage() {
 
             {needsCode && (
               <label className="block">
-                <span className="text-[12px] muted">验证码</span>
+                <span className="text-[12px] muted">{t("验证码")}</span>
                 <div className="flex items-center gap-2 mt-1.5">
                   <input
                     className="input tracking-[0.35em] font-mono"
                     inputMode="numeric"
                     autoComplete="one-time-code"
                     maxLength={6}
-                    placeholder="6 位验证码"
+                    placeholder={t("6 位验证码")}
                     value={code}
                     onChange={(event) =>
                       setCode(event.target.value.replace(/\D/g, ""))
@@ -252,12 +261,12 @@ export default function LoginPage() {
                     ) : (
                       <ShieldCheck size={14} />
                     )}
-                    {countdown > 0 ? `${countdown}s` : "发送验证码"}
+                    {countdown > 0 ? `${countdown}s` : t("发送验证码")}
                   </button>
                 </div>
                 {devCode && (
                   <span className="text-[11px] faint mt-1 block">
-                    测试验证码： {devCode}
+                    {t("测试验证码：")} {devCode}
                   </span>
                 )}
               </label>
@@ -282,7 +291,7 @@ export default function LoginPage() {
               ) : (
                 <ArrowRight size={16} />
               )}
-              {copy.submit}
+              {t(copy.submit)}
             </button>
 
             {mode === "login" ? (
@@ -292,7 +301,7 @@ export default function LoginPage() {
                   className="btn w-full"
                   onClick={() => switchMode("register")}
                 >
-                  创建新账户
+                  {t("创建新账户")}
                 </button>
                 <div className="flex items-center justify-between text-[12px]">
                   <button
@@ -300,9 +309,9 @@ export default function LoginPage() {
                     className="muted hover:text-[var(--text)]"
                     onClick={() => switchMode("reset")}
                   >
-                    修改密码
+                    {t("修改密码")}
                   </button>
-                  <span className="faint">邮箱是账号的唯一凭证</span>
+                  <span className="faint">{t("邮箱是账号的唯一凭证")}</span>
                 </div>
               </>
             ) : (
@@ -311,14 +320,14 @@ export default function LoginPage() {
                 className="btn w-full"
                 onClick={() => switchMode("login")}
               >
-                {mode === "register" ? "已有账号？登录" : "返回登录"}
+                {mode === "register" ? t("已有账号？登录") : t("返回登录")}
               </button>
             )}
           </form>
         </div>
 
         <p className="text-center text-[11px] faint mt-5 leading-5">
-          登录即表示你同意用户协议与隐私政策。邮箱仅用于登录和账号找回。
+          {t("登录即表示你同意用户协议与隐私政策。邮箱仅用于登录和账号找回。")}
         </p>
       </div>
     </main>
