@@ -312,8 +312,8 @@ export default function LandingPage() {
 
             <div className="landing-graph-visual" aria-label="Knowledge graph preview">
               <div className="landing-graph-bar">
-                <span><Network size={13} /> THE BRAIN · CHAPTER MAP</span>
-                <span>XMind style</span>
+                <span><Network size={13} /> UNIT 1 · 1.2 NERVOUS SYSTEM</span>
+                <span>25 nodes</span>
               </div>
               <div className="landing-graph-canvas">
                 <svg className="landing-graph-svg" viewBox="0 0 560 320" role="img" aria-label="Chapter mind map preview">
@@ -327,23 +327,23 @@ export default function LandingPage() {
                   ))}
 
                   <rect x="230" y="136" width="100" height="48" rx="12" className="landing-kg-root" />
-                  <text x="280" y="152" textAnchor="middle" className="landing-kg-code">1.4</text>
-                  <text x="280" y="168" textAnchor="middle" className="landing-kg-root-title">The Brain</text>
-                  <text x="280" y="178" textAnchor="middle" className="landing-kg-root-sub">20 concepts</text>
+                  <text x="280" y="152" textAnchor="middle" className="landing-kg-code">1.2</text>
+                  <text x="280" y="168" textAnchor="middle" className="landing-kg-root-title">Nervous System</text>
+                  <text x="280" y="178" textAnchor="middle" className="landing-kg-root-sub">25 concepts</text>
 
                   <rect x="143" y="145" width="80" height="30" rx="8" className="landing-kg-branch" />
-                  <text x="183" y="157" textAnchor="middle" className="landing-kg-branch-title">Core content</text>
-                  <text x="183" y="167" textAnchor="middle" className="landing-kg-branch-sub">16 concepts</text>
+                  <text x="183" y="157" textAnchor="middle" className="landing-kg-branch-title">Nervous System</text>
+                  <text x="183" y="167" textAnchor="middle" className="landing-kg-branch-sub">14 nodes</text>
 
                   <rect x="337" y="145" width="80" height="30" rx="8" className="landing-kg-branch" />
-                  <text x="377" y="157" textAnchor="middle" className="landing-kg-branch-title">Nervous system</text>
-                  <text x="377" y="167" textAnchor="middle" className="landing-kg-branch-sub">2 concepts</text>
+                  <text x="377" y="157" textAnchor="middle" className="landing-kg-branch-title">Endocrine System</text>
+                  <text x="377" y="167" textAnchor="middle" className="landing-kg-branch-sub">11 nodes</text>
 
                   {[
-                    ["Hypothalamus", 50, "Core content"],
-                    ["Amygdala", 90, "Core content"],
-                    ["Cerebellum", 130, "Core content"],
-                    ["Limbic system", 170, "Core content"],
+                    ["Central NS", 50],
+                    ["Peripheral NS", 90],
+                    ["Somatic NS", 130],
+                    ["Autonomic NS", 170],
                   ].map(([label, y]) => (
                     <g key={label}>
                       <rect x="18" y={Number(y) - 11} width="118" height="22" rx="6" className="landing-kg-leaf" />
@@ -352,10 +352,10 @@ export default function LandingPage() {
                     </g>
                   ))}
                   {[
-                    ["Sympathetic NS", 50],
-                    ["Parasympathetic", 90],
-                    ["Neuroplasticity", 130],
-                    ["Hippocampus", 170],
+                    ["Glands", 50],
+                    ["Hormones", 90],
+                    ["Pituitary", 130],
+                    ["Adrenal Glands", 170],
                   ].map(([label, y]) => (
                     <g key={label}>
                       <rect x="424" y={Number(y) - 11} width="118" height="22" rx="6" className="landing-kg-leaf" />
@@ -366,8 +366,8 @@ export default function LandingPage() {
                 </svg>
               </div>
               <div className="landing-graph-caption">
-                <span>Unit 1 → 1.4 The Brain</span>
-                <span>8 Topics · 197 concepts</span>
+                <span>Unit 1 → 1.2 Nervous System &amp; Endocrine</span>
+                <span>25 nodes · 24 concepts</span>
               </div>
             </div>
           </div>
