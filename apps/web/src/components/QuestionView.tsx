@@ -57,6 +57,12 @@ export function QuestionView({
         </div>
       </div>
 
+      {question.context && (
+        <div className="mt-4 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[13.5px] whitespace-pre-wrap muted" lang="en">
+          {question.context}
+        </div>
+      )}
+
       {stemAssets.length > 0 && (
         <div className="mt-4 space-y-2">
           {stemAssets.map((asset) => (
@@ -75,12 +81,6 @@ export function QuestionView({
       <div className="question-stem mt-5" lang="en">
         {question.stem}
       </div>
-
-      {question.context && (
-        <div className="mt-4 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[13.5px] whitespace-pre-wrap muted" lang="en">
-          {question.context}
-        </div>
-      )}
 
       <div className="mt-5 space-y-2.5">
         {options.map((option) => {

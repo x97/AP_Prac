@@ -87,10 +87,6 @@ export function ExamQuestionSplit({
           </div>
         </div>
 
-        <div className="question-stem mt-5" lang="en">
-          {question.stem}
-        </div>
-
         {question.context && (
           <div
             className="mt-4 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[13.5px] leading-6 whitespace-pre-wrap muted"
@@ -123,6 +119,10 @@ export function ExamQuestionSplit({
             ))}
           </div>
         )}
+
+        <div className="question-stem mt-5" lang="en">
+          {question.stem}
+        </div>
       </section>
 
       <div

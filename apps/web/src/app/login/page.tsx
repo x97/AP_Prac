@@ -22,7 +22,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 const COPY: Record<Mode, { eyebrow: string; title: string; submit: string }> = {
   login: { eyebrow: "欢迎回来", title: "登录 PsyPrac", submit: "登录" },
   register: { eyebrow: "创建账号", title: "创建新账户", submit: "注册并登录" },
-  reset: { eyebrow: "找回密码", title: "修改密码", submit: "设置新密码" },
+  reset: { eyebrow: "找回密码", title: "修改密码", submit: "修改密码" },
 };
 
 function updateModeInUrl(mode: Mode) {

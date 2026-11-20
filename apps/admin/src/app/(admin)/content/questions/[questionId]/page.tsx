@@ -424,6 +424,12 @@ export default function QuestionDetailPage() {
           )}
         </AdminModal>
 
+        {question.context && (
+          <div className="mt-4 whitespace-pre-wrap rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[13px] leading-6 text-[var(--muted)]">
+            {question.context}
+          </div>
+        )}
+
         {question.assets.filter((asset) => !asset.option_label).map((asset) => (
           <a
             key={asset.asset_id}
@@ -441,12 +447,6 @@ export default function QuestionDetailPage() {
         ))}
 
         <div className="mt-5 whitespace-pre-wrap text-[15px] leading-7">{question.stem}</div>
-
-        {question.context && (
-          <div className="mt-4 whitespace-pre-wrap rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[13px] leading-6 text-[var(--muted)]">
-            {question.context}
-          </div>
-        )}
 
         {question.options.length > 0 && (
           <div className="mt-5 space-y-2">
