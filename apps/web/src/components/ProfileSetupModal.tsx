@@ -78,99 +78,103 @@ export function ProfileSetupModal({
   }
 
   return (
-    <Modal open={open} onClose={onClose} title={t("完善个人信息")} narrow>
+    <Modal open={open} onClose={onClose} title={t("完善个人信息")}>
       <form className="space-y-3.5" onSubmit={submit}>
         <p className="text-[12px] leading-5 muted">
           {t("想填几项就填几项，保存后也可以在「我的」页面继续补充；填写的信息会同步给老师。")}
         </p>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("昵称")}</span>
-          <input
-            className="input mt-1.5"
-            value={nickname}
-            onChange={(event) => setNickname(event.target.value)}
-            maxLength={64}
-            placeholder={t("设置昵称")}
-            autoFocus
-          />
-        </label>
+        <div className="grid grid-cols-2 gap-x-3 gap-y-3">
+          <label className="block">
+            <span className="text-[12px] muted">{t("昵称")}</span>
+            <input
+              className="input mt-1.5"
+              value={nickname}
+              onChange={(event) => setNickname(event.target.value)}
+              maxLength={64}
+              placeholder={t("设置昵称")}
+              autoFocus
+            />
+          </label>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("年级")}</span>
-          <select
-            className="input mt-1.5"
-            value={grade}
-            onChange={(event) => setGrade(event.target.value)}
-          >
-            <option value="">{t("请选择年级")}</option>
-            {GRADE_VALUES.map((value) => (
-              <option key={value} value={value}>
-                {gradeLabel(value, t)}
-              </option>
-            ))}
-          </select>
-        </label>
+          <label className="block">
+            <span className="text-[12px] muted">{t("年级")}</span>
+            <select
+              className="input mt-1.5"
+              value={grade}
+              onChange={(event) => setGrade(event.target.value)}
+            >
+              <option value="">{t("请选择年级")}</option>
+              {GRADE_VALUES.map((value) => (
+                <option key={value} value={value}>
+                  {gradeLabel(value, t)}
+                </option>
+              ))}
+            </select>
+          </label>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("地区")}</span>
-          <input
-            className="input mt-1.5"
-            value={region}
-            onChange={(event) => setRegion(event.target.value)}
-            maxLength={64}
-            placeholder={t("例如：上海 / 北京 / 美国")}
-          />
-        </label>
+          <label className="block">
+            <span className="text-[12px] muted">{t("地区")}</span>
+            <input
+              className="input mt-1.5"
+              value={region}
+              onChange={(event) => setRegion(event.target.value)}
+              maxLength={64}
+              placeholder={t("例如：上海 / 北京 / 美国")}
+            />
+          </label>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("目标分数")}</span>
-          <select
-            className="input mt-1.5"
-            value={targetScore}
-            onChange={(event) => setTargetScore(event.target.value)}
-          >
-            <option value="">{t("请选择目标分数")}</option>
-            {[1, 2, 3, 4, 5].map((score) => (
-              <option key={score} value={score}>
-                {t("{score} 分", { score })}
-              </option>
-            ))}
-          </select>
-        </label>
+          <label className="block">
+            <span className="text-[12px] muted">{t("目标分数")}</span>
+            <select
+              className="input mt-1.5"
+              value={targetScore}
+              onChange={(event) => setTargetScore(event.target.value)}
+            >
+              <option value="">{t("请选择目标分数")}</option>
+              {[1, 2, 3, 4, 5].map((score) => (
+                <option key={score} value={score}>
+                  {t("{score} 分", { score })}
+                </option>
+              ))}
+            </select>
+          </label>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("学习方式")}</span>
-          <select
-            className="input mt-1.5"
-            value={studyMode}
-            onChange={(event) => setStudyMode(event.target.value)}
-          >
-            <option value="">{t("请选择学习方式")}</option>
-            {STUDY_MODE_VALUES.map((value) => (
-              <option key={value} value={value}>
-                {studyModeLabel(value, t)}
-              </option>
-            ))}
-          </select>
-        </label>
+          <label className="block">
+            <span className="text-[12px] muted">{t("学习方式")}</span>
+            <select
+              className="input mt-1.5"
+              value={studyMode}
+              onChange={(event) => setStudyMode(event.target.value)}
+            >
+              <option value="">{t("请选择学习方式")}</option>
+              {STUDY_MODE_VALUES.map((value) => (
+                <option key={value} value={value}>
+                  {studyModeLabel(value, t)}
+                </option>
+              ))}
+            </select>
+          </label>
 
-        <label className="block">
-          <span className="text-[12px] muted">{t("考试时间")}</span>
-          <select
-            className="input mt-1.5"
-            value={examTime}
-            onChange={(event) => setExamTime(event.target.value)}
-          >
-            {EXAM_TIME_VALUES.map((value) => (
-              <option key={value} value={value}>
-                {examTimeLabel(value, t)}
-              </option>
-            ))}
-          </select>
-        </label>
+          <label className="block">
+            <span className="text-[12px] muted">{t("考试时间")}</span>
+            <select
+              className="input mt-1.5"
+              value={examTime}
+              onChange={(event) => setExamTime(event.target.value)}
+            >
+              {EXAM_TIME_VALUES.map((value) => (
+                <option key={value} value={value}>
+                  {examTimeLabel(value, t)}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
 
-        {error && <div className="text-[12px] text-[var(--danger)]">{error}</div>}
+        {error && (
+          <div className="text-[12px] text-[var(--danger)]">{error}</div>
+        )}
 
         <div className="flex items-center gap-2 pt-1">
           <button className="btn btn-primary flex-1" type="submit" disabled={saving}>
