@@ -84,6 +84,8 @@ class UserProfilePatch(BaseModel):
     region: Optional[str] = Field(default=None, max_length=64)
     target_score: Optional[int] = Field(default=None, ge=1, le=5)
     studied_psychology: Optional[bool] = None
+    study_mode: Optional[Literal["school", "tutoring", "self", "not_yet"]] = None
+    exam_time: Optional[Literal["2027", "2028", "undecided"]] = None
     complete_profile: bool = False
 
 

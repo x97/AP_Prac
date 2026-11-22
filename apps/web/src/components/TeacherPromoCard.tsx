@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, CalendarClock, Check, Copy, MessageCircle, X } from "lucide-react";
+import { ArrowRight, CalendarClock, Check, Copy, Mail, MessageCircle, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { Modal } from "@/components/Modal";
@@ -24,6 +24,7 @@ export function TeacherPromoCard({
   const [hidden, setHidden] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [emailCopied, setEmailCopied] = useState(false);
   const storageKey = "ap:teacher-promo-dismissed-on";
 
   useEffect(() => {
@@ -64,6 +65,17 @@ export function TeacherPromoCard({
       window.setTimeout(() => setCopied(false), 1600);
     } catch {
       setCopied(false);
+    }
+  }
+
+  async function copyEmail() {
+    if (!teacherProfile.email) return;
+    try {
+      await navigator.clipboard.writeText(teacherProfile.email);
+      setEmailCopied(true);
+      window.setTimeout(() => setEmailCopied(false), 1600);
+    } catch {
+      setEmailCopied(false);
     }
   }
 
@@ -189,6 +201,35 @@ export function TeacherPromoCard({
                   {t("在")} <code>config/teacher.ts</code> {t("配置二维码")}
                 </div>
               </div>
+            </div>
+          )}
+
+          {teacherProfile.email && (
+            <div className="flex items-center justify-between gap-3 rounded-xl border border-[var(--line)] px-3.5 py-3">
+              <a
+                href={`mailto:${teacherProfile.email}`}
+                className="flex min-w-0 items-center gap-2.5"
+              >
+                <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[var(--primary-soft)] text-[var(--primary)]">
+                  <Mail size={15} />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-[10px] uppercase tracking-[0.1em] text-[var(--faint)]">
+                    {t("邮箱")}
+                  </span>
+                  <span className="mt-0.5 block truncate font-mono text-[13px]">
+                    {teacherProfile.email}
+                  </span>
+                </span>
+              </a>
+              <button
+                type="button"
+                onClick={copyEmail}
+                className="flex shrink-0 items-center gap-1 text-[11px] text-[var(--primary)]"
+              >
+                {emailCopied ? <Check size={13} /> : <Copy size={13} />}
+                {emailCopied ? t("已复制") : t("复制")}
+              </button>
             </div>
           )}
 

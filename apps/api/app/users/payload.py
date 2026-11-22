@@ -17,6 +17,8 @@ def user_payload(user: User) -> dict:
         "region": user.region,
         "target_score": user.target_score,
         "studied_psychology": user.studied_psychology,
+        "study_mode": user.study_mode,
+        "exam_time": user.exam_time,
         "profile_completed": user.profile_completed_at is not None,
         "role": user.role,
     }

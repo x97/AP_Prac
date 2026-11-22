@@ -19,7 +19,14 @@ import { ThemeColorPicker } from "@/components/ThemeColorPicker";
 import { useMe } from "@/hooks/useMe";
 import { apiGet, apiPatch, apiPost } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
-import { GRADE_VALUES, gradeLabel } from "@/lib/profile";
+import {
+  EXAM_TIME_VALUES,
+  GRADE_VALUES,
+  STUDY_MODE_VALUES,
+  examTimeLabel,
+  gradeLabel,
+  studyModeLabel,
+} from "@/lib/profile";
 import type { Dashboard, User } from "@/lib/types";
 
 export default function MePage() {
@@ -31,7 +38,8 @@ export default function MePage() {
   const [grade, setGrade] = useState("");
   const [region, setRegion] = useState("");
   const [targetScore, setTargetScore] = useState("");
-  const [studied, setStudied] = useState("");
+  const [studyMode, setStudyMode] = useState("");
+  const [examTime, setExamTime] = useState("2027");
   const [savingProfile, setSavingProfile] = useState(false);
   const [profileError, setProfileError] = useState<string | null>(null);
   const [profileSaved, setProfileSaved] = useState(false);
@@ -48,13 +56,8 @@ export default function MePage() {
     setGrade(user.grade || "");
     setRegion(user.region || "");
     setTargetScore(user.target_score ? String(user.target_score) : "");
-    setStudied(
-      user.studied_psychology === null || user.studied_psychology === undefined
-        ? ""
-        : user.studied_psychology
-          ? "yes"
-          : "no",
-    );
+    setStudyMode(user.study_mode || "");
+    setExamTime(user.exam_time || "2027");
   }, [user]);
 
   useEffect(() => {
@@ -88,7 +91,8 @@ export default function MePage() {
         grade: grade || null,
         region: region.trim(),
         target_score: targetScore ? Number(targetScore) : null,
-        studied_psychology: studied === "" ? null : studied === "yes",
+        study_mode: studyMode || null,
+        exam_time: examTime || "2027",
       });
       window.dispatchEvent(
         new CustomEvent("ap:user-updated", { detail: response.user }),
@@ -239,21 +243,43 @@ export default function MePage() {
                     ))}
                   </select>
                 </label>
-                <label className="block sm:col-span-2">
+                <label className="block">
                   <span className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
-                    {t("是否学过心理课")}
+                    {t("学习方式")}
                   </span>
                   <select
                     className="input mt-1.5"
-                    value={studied}
+                    value={studyMode}
                     onChange={(event) => {
-                      setStudied(event.target.value);
+                      setStudyMode(event.target.value);
                       setProfileSaved(false);
                     }}
                   >
-                    <option value="">{t("请选择")}</option>
-                    <option value="yes">{t("学过")}</option>
-                    <option value="no">{t("没有学过")}</option>
+                    <option value="">{t("请选择学习方式")}</option>
+                    {STUDY_MODE_VALUES.map((value) => (
+                      <option key={value} value={value}>
+                        {studyModeLabel(value, t)}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="block">
+                  <span className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
+                    {t("考试时间")}
+                  </span>
+                  <select
+                    className="input mt-1.5"
+                    value={examTime}
+                    onChange={(event) => {
+                      setExamTime(event.target.value);
+                      setProfileSaved(false);
+                    }}
+                  >
+                    {EXAM_TIME_VALUES.map((value) => (
+                      <option key={value} value={value}>
+                        {examTimeLabel(value, t)}
+                      </option>
+                    ))}
                   </select>
                 </label>
               </div>

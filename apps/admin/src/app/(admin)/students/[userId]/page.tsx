@@ -24,6 +24,21 @@ function gradeText(grade: string | null | undefined) {
   return grade === "other" ? "其他" : `${grade} 年级`;
 }
 
+function studyModeText(value: string | null | undefined) {
+  const labels: Record<string, string> = {
+    school: "学校教授",
+    tutoring: "机构辅导",
+    self: "自学",
+    not_yet: "还未学习",
+  };
+  return value ? labels[value] || value : "未填写";
+}
+
+function examTimeText(value: string | null | undefined) {
+  if (!value) return "未填写";
+  return value === "undecided" ? "观望中" : value;
+}
+
 export default function StudentDetailPage() {
   const params = useParams<{ userId: string }>();
   const [data, setData] = useState<StudentDetail | null>(null);
@@ -115,15 +130,8 @@ export default function StudentDetailPage() {
               ["年级", gradeText(student.grade)],
               ["地区", student.region || "—"],
               ["目标分数", student.target_score ? `${student.target_score} 分` : "—"],
-              [
-                "是否学过心理课",
-                student.studied_psychology === null ||
-                student.studied_psychology === undefined
-                  ? "未填写"
-                  : student.studied_psychology
-                    ? "学过"
-                    : "没有学过",
-              ],
+              ["学习方式", studyModeText(student.study_mode)],
+              ["考试时间", examTimeText(student.exam_time)],
             ].map(([label, value]) => (
               <div
                 key={label}

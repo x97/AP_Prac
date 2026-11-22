@@ -152,8 +152,8 @@ const messages: Record<string, string> = {
   "预约 20 分钟诊断": "Book a 20-minute diagnostic",
   "1v1 诊断 · FRQ 批改 · 学习规划":
     "1v1 diagnostic · FRQ feedback · study planning",
-  "我是 Elfie，系统里的题目、解析和练习节奏由我维护。需要学习诊断、课程规划或获取激活码，可以直接加微信。":
-    "Hi there, I'm Elfreda. I curate the questions, explanations and practice schedule for this platform and help you stay on pace with practice. Feel free to add me on WeChat if you need an activation code, a learning assessment or study plan.",
+  "我是 Elfreda，系统里的题目、解析和练习节奏由我维护。需要学习诊断、课程规划或获取激活码，可以直接加微信或发邮件。":
+    "Hi there, I'm Elfreda. I curate the questions, explanations and practice schedule for this platform and help you stay on pace with practice. Feel free to add me on WeChat or email me if you need an activation code, a learning assessment or study plan.",
   "加微信时备注「AP」": "Mention \"AP\" when adding me on WeChat.",
 };
 

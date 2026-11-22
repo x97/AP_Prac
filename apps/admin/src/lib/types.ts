@@ -54,6 +54,8 @@ export type StudentListItem = {
   region: string | null;
   target_score: number | null;
   studied_psychology: boolean | null;
+  study_mode: string | null;
+  exam_time: string | null;
   status: string;
   created_at: string;
   last_login_at: string | null;
@@ -83,6 +85,8 @@ export type StudentDetail = {
     region: string | null;
     target_score: number | null;
     studied_psychology: boolean | null;
+    study_mode: string | null;
+    exam_time: string | null;
     teacher_note: string | null;
     profile_completed_at: string | null;
     status: string;

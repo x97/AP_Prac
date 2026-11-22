@@ -23,6 +23,21 @@ function gradeText(grade: string | null) {
   return grade === "other" ? "其他" : `${grade} 年级`;
 }
 
+function studyModeText(value: string | null) {
+  const labels: Record<string, string> = {
+    school: "学校教授",
+    tutoring: "机构辅导",
+    self: "自学",
+    not_yet: "还未学习",
+  };
+  return value ? labels[value] || value : "—";
+}
+
+function examTimeText(value: string | null) {
+  if (!value) return "—";
+  return value === "undecided" ? "观望中" : value;
+}
+
 export default function StudentsPage() {
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
@@ -106,17 +121,18 @@ export default function StudentsPage() {
           </div>
         ) : data && data.students.length > 0 ? (
           <div className="overflow-x-auto">
-            <table className="a-table min-w-[980px]">
+            <table className="a-table min-w-[1060px]">
               <thead>
                 <tr>
                   <th>学生</th>
                   <th>年级 / 地区</th>
                   <th>目标分</th>
-                  <th>学过心理</th>
+                  <th>学习方式</th>
+                  <th>考试时间</th>
                   <th>已答</th>
                   <th>正确率</th>
                   <th>练习</th>
-                  <th>考试</th>
+                  <th>考试次数</th>
                   <th>注册时间</th>
                   <th>最近活跃</th>
                   <th />
@@ -144,15 +160,9 @@ export default function StudentsPage() {
                     </td>
                     <td className="font-mono">{student.target_score ?? "—"}</td>
                     <td>
-                      {student.studied_psychology === null ||
-                      student.studied_psychology === undefined ? (
-                        "—"
-                      ) : (
-                        <span className="a-badge">
-                          {student.studied_psychology ? "是" : "否"}
-                        </span>
-                      )}
+                      <span className="a-badge">{studyModeText(student.study_mode)}</span>
                     </td>
+                    <td className="font-mono">{examTimeText(student.exam_time)}</td>
                     <td className="font-mono">{student.answered.toLocaleString()}</td>
                     <td>{percent(student.accuracy)}</td>
                     <td className="font-mono">{student.practice_count}</td>

@@ -60,7 +60,13 @@ export function AppShell({ children }: { children: ReactNode }) {
   const [setupOpen, setSetupOpen] = useState(false);
 
   useEffect(() => {
-    if (!user || user.profile_completed) {
+    if (!user) {
+      setSetupOpen(false);
+      return;
+    }
+    const needsProfile =
+      !user.profile_completed || !user.study_mode || !user.exam_time;
+    if (!needsProfile) {
       setSetupOpen(false);
       return;
     }

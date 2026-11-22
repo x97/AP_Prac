@@ -2,10 +2,11 @@
 // Replace the placeholder values before going live.
 export const teacherProfile = {
   enabled: true,
-  name: "Elfie",
+  name: "Elfreda",
   subject: "Psychology Educator",
   tagline: "1v1 诊断 · FRQ 批改 · 学习规划",
-  intro: "我是 Elfie，系统里的题目、解析和练习节奏由我维护。需要学习诊断、课程规划或获取激活码，可以直接加微信。",
+  intro: "我是 Elfreda，系统里的题目、解析和练习节奏由我维护。需要学习诊断、课程规划或获取激活码，可以直接加微信或发邮件。",
+  email: "elfreda@psyprac.com",
   wechatId: "",
   qrImage: "/brand/elfie-wechat-gold.png",
   bookingUrl: "",

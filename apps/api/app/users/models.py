@@ -44,6 +44,8 @@ class User(Base):
     region: Mapped[Optional[str]] = mapped_column(String(64))
     target_score: Mapped[Optional[int]] = mapped_column(Integer)
     studied_psychology: Mapped[Optional[bool]] = mapped_column(Boolean)
+    study_mode: Mapped[Optional[str]] = mapped_column(String(32))
+    exam_time: Mapped[Optional[str]] = mapped_column(String(16))
     teacher_note: Mapped[Optional[str]] = mapped_column(Text)
     profile_completed_at: Mapped[Optional[datetime]] = mapped_column(
         DateTime(timezone=True)

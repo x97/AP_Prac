@@ -6,7 +6,14 @@ import { useEffect, useState } from "react";
 import { Modal } from "@/components/Modal";
 import { apiPatch } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
-import { GRADE_VALUES, gradeLabel } from "@/lib/profile";
+import {
+  EXAM_TIME_VALUES,
+  GRADE_VALUES,
+  STUDY_MODE_VALUES,
+  examTimeLabel,
+  gradeLabel,
+  studyModeLabel,
+} from "@/lib/profile";
 import type { User } from "@/lib/types";
 
 export function ProfileSetupModal({
@@ -25,7 +32,8 @@ export function ProfileSetupModal({
   const [grade, setGrade] = useState("");
   const [region, setRegion] = useState("");
   const [targetScore, setTargetScore] = useState("");
-  const [studied, setStudied] = useState("");
+  const [studyMode, setStudyMode] = useState("");
+  const [examTime, setExamTime] = useState("2027");
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -35,13 +43,8 @@ export function ProfileSetupModal({
     setGrade(user.grade || "");
     setRegion(user.region || "");
     setTargetScore(user.target_score ? String(user.target_score) : "");
-    setStudied(
-      user.studied_psychology === null || user.studied_psychology === undefined
-        ? ""
-        : user.studied_psychology
-          ? "yes"
-          : "no",
-    );
+    setStudyMode(user.study_mode || "");
+    setExamTime(user.exam_time || "2027");
     setError(null);
   }, [open, user]);
 
@@ -52,9 +55,10 @@ export function ProfileSetupModal({
     try {
       const payload: Record<string, unknown> = {
         grade: grade || null,
-        region: region.trim(),
+        region: region || null,
         target_score: targetScore ? Number(targetScore) : null,
-        studied_psychology: studied === "" ? null : studied === "yes",
+        study_mode: studyMode || null,
+        exam_time: examTime || "2027",
         complete_profile: true,
       };
       // All fields are optional here. Only send a nickname when one was
@@ -136,15 +140,33 @@ export function ProfileSetupModal({
         </label>
 
         <label className="block">
-          <span className="text-[12px] muted">{t("是否学过心理课")}</span>
+          <span className="text-[12px] muted">{t("学习方式")}</span>
           <select
             className="input mt-1.5"
-            value={studied}
-            onChange={(event) => setStudied(event.target.value)}
+            value={studyMode}
+            onChange={(event) => setStudyMode(event.target.value)}
           >
-            <option value="">{t("请选择")}</option>
-            <option value="yes">{t("学过")}</option>
-            <option value="no">{t("没有学过")}</option>
+            <option value="">{t("请选择学习方式")}</option>
+            {STUDY_MODE_VALUES.map((value) => (
+              <option key={value} value={value}>
+                {studyModeLabel(value, t)}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="block">
+          <span className="text-[12px] muted">{t("考试时间")}</span>
+          <select
+            className="input mt-1.5"
+            value={examTime}
+            onChange={(event) => setExamTime(event.target.value)}
+          >
+            {EXAM_TIME_VALUES.map((value) => (
+              <option key={value} value={value}>
+                {examTimeLabel(value, t)}
+              </option>
+            ))}
           </select>
         </label>
 

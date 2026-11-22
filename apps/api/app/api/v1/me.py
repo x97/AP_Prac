@@ -258,13 +258,18 @@ def update_me(
         user.target_score = body.target_score
     if "studied_psychology" in provided:
         user.studied_psychology = body.studied_psychology
+    if "study_mode" in provided:
+        user.study_mode = body.study_mode
+    if "exam_time" in provided:
+        user.exam_time = body.exam_time
 
     profile_complete = bool(
         user.nickname
         and user.grade
         and user.region
         and user.target_score is not None
-        and user.studied_psychology is not None
+        and user.study_mode is not None
+        and user.exam_time is not None
     )
     if body.complete_profile or profile_complete:
         user.profile_completed_at = user.profile_completed_at or utcnow()

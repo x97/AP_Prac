@@ -10,6 +10,8 @@ export type User = {
   region: string | null;
   target_score: number | null;
   studied_psychology: boolean | null;
+  study_mode: string | null;
+  exam_time: string | null;
   profile_completed: boolean;
   role: string;
 };
