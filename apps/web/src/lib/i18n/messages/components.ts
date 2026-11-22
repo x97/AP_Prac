@@ -125,6 +125,9 @@ const messages: Record<string, string> = {
   "{n} 个节点": "{n} nodes",
   "只读预览 · 不记录作答 · 题目来自当前知识图谱关联":
     "Read-only preview · answers are not recorded · questions come from the current knowledge graph",
+  "该题所在 Unit 尚未解锁": "This question's Unit is locked",
+  "激活课程后即可查看题目、答案与解析。":
+    "Activate the course to view the question, answer, and explanation.",
 
   // KnowledgeRail
   "近似匹配": "Approximate match",

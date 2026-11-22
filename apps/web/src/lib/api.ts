@@ -74,6 +74,7 @@ const EN_ERROR_MESSAGES: Record<string, string> = {
   EMAIL_ACCOUNT_UNAVAILABLE: "This email account is unavailable",
   WECHAT_NOT_CONFIGURED: "WeChat sign-in is not configured yet",
   ACCOUNT_DISABLED: "This account is disabled",
+  CONTENT_LOCKED: "This content is locked. Activate the course to view it.",
   CONTENT_KEY_REQUIRED: "This client cannot decrypt the content",
   CONTENT_KEY_INVALID: "Invalid content decryption key",
   ASSET_SIGNATURE_INVALID: "This asset link is invalid or has expired",

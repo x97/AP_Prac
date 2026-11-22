@@ -109,7 +109,11 @@ export default function KnowledgePage() {
               </div>
             </div>
           ) : activeUnit ? (
-            <KnowledgeGraph key={`${activeUnit.unit_id}:${unitResetToken}`} unit={activeUnit} />
+            <KnowledgeGraph
+              key={`${activeUnit.unit_id}:${unitResetToken}`}
+              unit={activeUnit}
+              onRequestActivation={() => setRedeemOpen(true)}
+            />
           ) : (
             <div className="empty">{t("暂无可用知识图谱。")}</div>
           )}

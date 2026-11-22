@@ -1,12 +1,13 @@
 "use client";
 
-import { ArrowLeft, Maximize2, Minimize2 } from "lucide-react";
+import { ArrowLeft, KeyRound, LockKeyhole, Maximize2, Minimize2 } from "lucide-react";
+import Link from "next/link";
 import { type CSSProperties, useEffect, useMemo, useRef, useState } from "react";
 
 import { Modal } from "@/components/Modal";
 import { QuestionView } from "@/components/QuestionView";
 import styles from "@/components/KnowledgeGraph.module.css";
-import { apiGet } from "@/lib/api";
+import { ApiError, apiGet } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
 import type {
   KnowledgeGraphConcept,
@@ -1241,7 +1242,13 @@ function ConceptInspector({
   );
 }
 
-export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
+export function KnowledgeGraph({
+  unit,
+  onRequestActivation,
+}: {
+  unit: KnowledgeGraphUnit;
+  onRequestActivation?: () => void;
+}) {
   const { t } = useLanguage();
   const [topicCode, setTopicCode] = useState<string | null>(null);
   const [conceptId, setConceptId] = useState<string | null>(null);
@@ -1249,6 +1256,7 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
   const [previewQuestion, setPreviewQuestion] = useState<Question | null>(null);
   const [previewMeta, setPreviewMeta] = useState<KnowledgeGraphSample | null>(null);
   const [previewError, setPreviewError] = useState<string | null>(null);
+  const [previewLocked, setPreviewLocked] = useState(false);
   const [previewLoading, setPreviewLoading] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
   const graphScrollRef = useRef<HTMLDivElement | null>(null);
@@ -1306,10 +1314,21 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
     setPreviewMeta(sample || null);
     setPreviewQuestion(null);
     setPreviewError(null);
+    setPreviewLocked(false);
     setPreviewLoading(true);
     apiGet<Question>(`/knowledge-graph/questions/${encodeURIComponent(questionId)}`)
       .then((question) => setPreviewQuestion(question))
-      .catch((error: Error) => setPreviewError(error.message))
+      .catch((error: Error) => {
+        if (
+          error instanceof ApiError &&
+          error.status === 403 &&
+          error.code === "CONTENT_LOCKED"
+        ) {
+          setPreviewLocked(true);
+          return;
+        }
+        setPreviewError(error.message);
+      })
       .finally(() => setPreviewLoading(false));
   }
 
@@ -1317,6 +1336,7 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
     setPreviewOpen(false);
     setPreviewQuestion(null);
     setPreviewError(null);
+    setPreviewLocked(false);
     setPreviewMeta(null);
   }
 
@@ -1411,10 +1431,39 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
         title={previewMeta ? `${previewMeta.paper} · Q${previewMeta.number}` : "Question preview"}
         wide
       >
-        <div className="mb-3 rounded-lg border border-[var(--line)] bg-[var(--surface-2)] px-3 py-2 text-[11px] muted">
-          {t("只读预览 · 不记录作答 · 题目来自当前知识图谱关联")}
-        </div>
+        {!previewLocked && (
+          <div className="mb-3 rounded-lg border border-[var(--line)] bg-[var(--surface-2)] px-3 py-2 text-[11px] muted">
+            {t("只读预览 · 不记录作答 · 题目来自当前知识图谱关联")}
+          </div>
+        )}
         {previewLoading && <div className="skeleton h-40 w-full" />}
+        {previewLocked && (
+          <div className="rounded-xl border border-[color-mix(in_srgb,var(--primary)_24%,var(--line))] bg-[var(--surface-2)] px-5 py-7 text-center">
+            <span className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-[var(--primary-soft)] text-[var(--primary)]">
+              <LockKeyhole size={22} />
+            </span>
+            <h3 className="h2 mt-3 text-[17px]">{t("该题所在 Unit 尚未解锁")}</h3>
+            <p className="mx-auto mt-2 max-w-[420px] text-[12.5px] leading-5 muted">
+              {t("激活课程后即可查看题目、答案与解析。")}
+            </p>
+            {onRequestActivation ? (
+              <button
+                type="button"
+                className="btn btn-primary mt-4"
+                onClick={() => {
+                  closePreview();
+                  onRequestActivation();
+                }}
+              >
+                <KeyRound size={15} /> {t("使用激活码")}
+              </button>
+            ) : (
+              <Link href="/me#access" className="btn btn-primary mt-4" onClick={closePreview}>
+                <KeyRound size={15} /> {t("使用激活码")}
+              </Link>
+            )}
+          </div>
+        )}
         {previewError && <div className="feedback feedback-bad">{previewError}</div>}
         {previewQuestion && (
           <QuestionView
