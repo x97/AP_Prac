@@ -6,6 +6,11 @@ export type User = {
   has_password: boolean;
   phone_masked: string | null;
   nickname: string | null;
+  grade: string | null;
+  region: string | null;
+  target_score: number | null;
+  studied_psychology: boolean | null;
+  profile_completed: boolean;
   role: string;
 };
 
@@ -240,13 +245,9 @@ export type WrongQuestion = {
   topic_id: string | null;
 } & QuestionSourceInfo;
 
-export type Bookmark = {
+export type Bookmark = QuestionSourceInfo & {
   question_id: string;
   created_at: string;
-  paper_id?: string;
-  section?: string;
-  display_number?: number;
-  stem?: string;
 };
 
 export type Note = {

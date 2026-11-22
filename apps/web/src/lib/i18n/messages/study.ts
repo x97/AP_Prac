@@ -12,6 +12,41 @@ const messages: Record<string, string> = {
   // Practice group
   "需要激活码，章节暂不可开始":
     "An activation code is required; chapters cannot be started yet.",
+  "先选择 Unit，再选择章节。答题后即时判分，右侧同步显示相关概念。":
+    "Choose a Unit, then a chapter. Answers are checked instantly with concepts on the right.",
+  "{count} 个 Unit": "{count} Units",
+  "独立的错题练习卷，包含未掌握和复习中的题目，并随错题本更新。":
+    "A separate wrong-question paper. It includes unmastered and reviewing questions and updates with your wrong book.",
+  "{topics} 个 Topic · {questions} 道练习题":
+    "{topics} topics · {questions} practice questions",
+  "已答 {answered}/{total}": "{answered}/{total} answered",
+  "查看章节": "View chapters",
+  "进入 Unit": "Enter Unit",
+  "返回单元列表": "Back to Units",
+  "继续": "Continue",
+  "查看记录": "View Record",
+  "开始新一组": "Start New Set",
+  "{questions} 道练习题 · 已答 {answered} · 正确率 {accuracy}":
+    "{questions} practice questions · {answered} answered · Accuracy {accuracy}",
+  "章节": "Chapters",
+  "点击章节继续上次进度。选择「重新练习」会从第 1 题开始新的记录。":
+    "Click a chapter to resume. Choose “Practice Again” to start a new record from Question 1.",
+  "{count} 个 Topic": "{count} topics",
+  "已完成": "Completed",
+  "进行中": "In Progress",
+  "提前结束": "Ended Early",
+  "已完成 {total}/{total} · 答对 {correct} 道":
+    "Completed {total}/{total} · {correct} correct",
+  "已完成 {answered}/{total} · 从第 {question} 题继续":
+    "{answered}/{total} done · Continue at Question {question}",
+  "提前结束 · 已答 {answered}/{total}":
+    "Ended early · {answered}/{total} answered",
+  "{count} 道题": "{count} questions",
+  "累计 {answered}/{total} · {accuracy}":
+    "Cumulative {answered}/{total} · {accuracy}",
+  "未解锁": "Locked",
+  "重新练习": "Practice Again",
+  "这个 Unit 还没有练习题。": "This Unit has no practice questions yet.",
 
   // Practice session
   "移除这道题的收藏？": "Remove this question from your bookmarks?",
@@ -108,6 +143,17 @@ const messages: Record<string, string> = {
   "你当时答错了": "You answered incorrectly",
   "错 {count} 次 · 正确答案与解析仅供复习":
     "Wrong {count} times · Correct answer and explanation are for review only",
+
+  // Bookmarks
+  "长期收藏的题目，与考试中的「标记待复查」分开。":
+    "Long-term saved questions, separate from Mark for Review inside an exam.",
+  "练习收藏题目": "Practice Bookmarks",
+  "收藏练习启动失败": "Failed to start bookmark practice",
+  "移除收藏失败": "Failed to remove bookmark",
+  "移除收藏": "Remove",
+  "还没有收藏题目。练习时点题目右上角的「收藏」即可加入。":
+    "No bookmarks yet. Tap “Bookmark” on a question during practice to add it here.",
+  "收藏题目回顾": "Bookmarked question",
 
   // Notebook
   "删除这条笔记？删除后无法恢复。": "Delete this note? This cannot be undone.",

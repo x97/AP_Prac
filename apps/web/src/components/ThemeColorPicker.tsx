@@ -35,11 +35,11 @@ export function ThemeColorPicker({ embedded = false }: { embedded?: boolean }) {
   }
 
   return (
-    <div className={embedded ? "" : "card card-pad max-w-xl mt-4"}>
+    <div className={embedded ? "" : "card card-pad"}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <div className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
-            Appearance
+            {t("外观")}
           </div>
           <h2 className="h2 mt-1 flex items-center gap-2">
             <Palette size={18} className="text-[var(--primary)]" /> {t("主题颜色")}

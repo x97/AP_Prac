@@ -2,6 +2,7 @@
 
 import {
   AlertCircle,
+  Bookmark,
   BookOpen,
   FileText,
   History,
@@ -9,17 +10,18 @@ import {
   Layers,
   Network,
   NotebookPen,
-  User as UserIcon,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
-import type { ReactNode } from "react";
+import { type ReactNode, useEffect, useState } from "react";
 
 import { QuietLink } from "@/components/QuietLink";
 
 import { brand } from "@/config/brand";
 import { useMe } from "@/hooks/useMe";
 import { LanguageSwitcher, useLanguage } from "@/lib/i18n";
+import { ProfileSetupModal } from "@/components/ProfileSetupModal";
 import { TeacherPromoCard } from "@/components/TeacherPromoCard";
+import { UserMenu } from "@/components/UserMenu";
 
 const NAV = [
   { href: "/dashboard", label: "首页", icon: Home },
@@ -28,9 +30,9 @@ const NAV = [
   { href: "/exams", label: "真题", icon: FileText },
   { href: "/cards", label: "记忆卡片", icon: Layers },
   { href: "/wrong", label: "错题本", icon: AlertCircle },
+  { href: "/bookmarks", label: "收藏题目", icon: Bookmark },
   { href: "/notes", label: "笔记本", icon: NotebookPen },
   { href: "/history", label: "做题记录", icon: History },
-  { href: "/me", label: "我的", icon: UserIcon },
 ];
 
 const TABS = [
@@ -38,7 +40,6 @@ const TABS = [
   { href: "/knowledge", label: "图谱", icon: Network },
   { href: "/exams", label: "真题", icon: FileText },
   { href: "/wrong", label: "错题", icon: AlertCircle },
-  { href: "/me", label: "我的", icon: UserIcon },
 ];
 
 function isActive(pathname: string, href: string) {
@@ -56,14 +57,42 @@ export function AppShell({ children }: { children: ReactNode }) {
   const showSidebarPromo =
     pathname !== "/dashboard" && !pathname.startsWith("/practice/session/");
   const { user, loading } = useMe(!isLogin && !isLanding);
+  const [setupOpen, setSetupOpen] = useState(false);
+
+  useEffect(() => {
+    if (!user || user.profile_completed) {
+      setSetupOpen(false);
+      return;
+    }
+    try {
+      // Dismissal lasts for this sign-in session; the prompt returns on the
+      // next fresh session until the profile is completed.
+      if (window.sessionStorage.getItem(`ap:profile-setup-dismissed:${user.id}`)) {
+        return;
+      }
+    } catch {
+      // Browser storage can be unavailable; show the prompt.
+    }
+    setSetupOpen(true);
+  }, [user]);
+
+  function closeSetup() {
+    setSetupOpen(false);
+    if (!user) return;
+    try {
+      window.sessionStorage.setItem(`ap:profile-setup-dismissed:${user.id}`, "1");
+    } catch {
+      // Ignore storage failure; dismissal still applies to this page view.
+    }
+  }
 
   if (isLogin || isLanding) return <>{children}</>;
 
   if (isReview) {
     return (
       <main className="main">
-        <div className="fixed right-4 top-3 z-40">
-          <LanguageSwitcher />
+        <div className="user-corner">
+          <UserMenu user={user} />
         </div>
         <div className="page">{children}</div>
       </main>
@@ -135,8 +164,8 @@ export function AppShell({ children }: { children: ReactNode }) {
         <div className="page">{children}</div>
       </main>
 
-      <div className="fixed right-3 top-3 z-40 md:hidden">
-        <LanguageSwitcher />
+      <div className="user-corner">
+        <UserMenu user={user} />
       </div>
 
       <nav className="tabbar">
@@ -156,6 +185,13 @@ export function AppShell({ children }: { children: ReactNode }) {
           );
         })}
       </nav>
+
+      <ProfileSetupModal
+        open={setupOpen}
+        user={user}
+        onClose={closeSetup}
+        onSaved={() => setSetupOpen(false)}
+      />
     </div>
   );
 }

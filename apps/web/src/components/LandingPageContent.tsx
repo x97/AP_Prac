@@ -8,8 +8,10 @@ import {
   FileText,
   Layers,
   Network,
+  UserRound,
 } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { FlashcardStudy } from "@/components/FlashcardStudy";
 import { LandingCountdown } from "@/components/LandingCountdown";
@@ -76,6 +78,24 @@ const FAQ = [
 
 export function LandingPageContent() {
   const { t } = useLanguage();
+  const [signedIn, setSignedIn] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    // /auth/me is outside the redirecting API wrapper: a 401 simply means the
+    // visitor is signed out and should still see the landing page.
+    fetch("/api/v1/auth/me", { credentials: "include", cache: "no-store" })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data: { user?: unknown } | null) => {
+        if (alive) setSignedIn(Boolean(data?.user));
+      })
+      .catch(() => {
+        if (alive) setSignedIn(false);
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   return (
     <div className="landing">
@@ -105,15 +125,28 @@ export function LandingPageContent() {
 
           <div className="landing-actions">
             <LanguageSwitcher />
-            <Link href="/login?next=/dashboard" className="btn btn-sm btn-ghost">
-              {t("登录")}
-            </Link>
-            <Link
-              href="/login?mode=register&next=/dashboard"
-              className="btn btn-sm btn-primary"
-            >
-              {t("注册")}
-            </Link>
+            {signedIn ? (
+              <Link
+                href="/dashboard"
+                className="grid h-10 w-10 place-items-center rounded-full border border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] shadow-sm transition hover:border-[var(--primary)] hover:text-[var(--primary)]"
+                aria-label={t("进入学习中心")}
+                title={t("进入学习中心")}
+              >
+                <UserRound size={19} strokeWidth={1.9} />
+              </Link>
+            ) : signedIn === false ? (
+              <>
+                <Link href="/login?next=/dashboard" className="btn btn-sm btn-ghost">
+                  {t("登录")}
+                </Link>
+                <Link
+                  href="/login?mode=register&next=/dashboard"
+                  className="btn btn-sm btn-primary"
+                >
+                  {t("注册")}
+                </Link>
+              </>
+            ) : null}
           </div>
         </div>
       </header>

@@ -79,7 +79,16 @@ class FlashcardReviewRequest(BaseModel):
 
 
 class UserProfilePatch(BaseModel):
-    nickname: str = Field(min_length=1, max_length=64)
+    nickname: Optional[str] = Field(default=None, max_length=64)
+    grade: Optional[str] = Field(default=None, max_length=32)
+    region: Optional[str] = Field(default=None, max_length=64)
+    target_score: Optional[int] = Field(default=None, ge=1, le=5)
+    studied_psychology: Optional[bool] = None
+    complete_profile: bool = False
+
+
+class AdminStudentPatch(BaseModel):
+    teacher_note: Optional[str] = Field(default=None, max_length=5000)
 
 
 class PaperPatch(BaseModel):

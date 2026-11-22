@@ -49,18 +49,18 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
   }, [load]);
 
   return (
-    <div className={embedded ? "" : "card card-pad max-w-xl mt-4"}>
+    <div className={embedded ? "" : "card card-pad"}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <div className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
-            Activated subjects
+            {t("课程权限")}
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2">
             <h2 className="h2">{t("已激活科目")}</h2>
             <span className="badge badge-core">{t("{count} 个", { count: activeCount })}</span>
           </div>
           <p className="mt-1 text-[11.5px] text-[var(--muted)]">
-            {t("这里列出当前账号可用的科目和有效期；未激活科目可继续使用免费内容。")}
+            {t("这里列出你已激活的科目及有效期。即使尚未激活的科目，也有部分免费内容可以体验。")}
           </p>
         </div>
         <button type="button" className="btn btn-primary btn-sm" onClick={() => setOpen(true)}>
@@ -119,6 +119,19 @@ export function CourseAccessCard({ embedded = false }: { embedded?: boolean }) {
           </div>
         ))}
       </div>
+
+      {items && activeCount === 0 && (
+        <div className="mt-3 flex flex-wrap items-center gap-1.5 text-[12px] text-[var(--muted)]">
+          {t("你还没有已激活的科目。")}
+          <button
+            type="button"
+            className="text-[var(--primary)] hover:underline"
+            onClick={() => setOpen(true)}
+          >
+            {t("输入激活码 →")}
+          </button>
+        </div>
+      )}
 
       <RedeemCodeModal
         open={open}

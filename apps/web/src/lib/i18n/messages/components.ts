@@ -122,6 +122,7 @@ const messages: Record<string, string> = {
   "左右滑动查看完整图": "Swipe left or right to see the full graph",
   "Unit 级先看结构，Topic 级进入思维导图":
     "Unit view shows structure; open a Topic for its mind map",
+  "{n} 个节点": "{n} nodes",
   "只读预览 · 不记录作答 · 题目来自当前知识图谱关联":
     "Read-only preview · answers are not recorded · questions come from the current knowledge graph",
 

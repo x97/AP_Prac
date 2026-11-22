@@ -9,16 +9,16 @@ import { apiGet, apiPost } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
 import type { PracticeGroup, SessionPayload, Topic } from "@/lib/types";
 
-function sessionLabel(topic: Topic) {
+function sessionLabel(topic: Topic, t: (zh: string) => string) {
   const current = topic.current_session;
-  if (!current) return "Start Practice";
-  if (current.status === "in_progress") return "Continue";
-  if (current.status === "submitted") return "View Record";
-  return "Start New Set";
+  if (!current) return t("开始练习");
+  if (current.status === "in_progress") return t("继续");
+  if (current.status === "submitted") return t("查看记录");
+  return t("开始新一组");
 }
 
 export default function GroupPage() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const params = useParams<{ groupId: string }>();
   const router = useRouter();
   const groupId = params.groupId;
@@ -79,23 +79,31 @@ export default function GroupPage() {
   return (
     <div>
       <Link href="/practice" className="btn btn-ghost btn-sm -ml-2 mb-4">
-        <ArrowLeft size={14} /> Back to Units
+        <ArrowLeft size={14} /> {t("返回单元列表")}
       </Link>
 
       <div className="page-head">
         <div>
           <div className="eyebrow">Unit {group?.unit_id}</div>
-          <h1 className="h1">{group?.title_en || group?.title || "Unit Practice"}</h1>
+          <h1 className="h1">
+            {lang === "zh"
+              ? group?.title || group?.title_en || t("单元练习")
+              : group?.title_en || group?.title || t("单元练习")}
+          </h1>
           {group?.locked && (
             <p className="mt-2 inline-flex items-center gap-1.5 rounded-lg border border-[color-mix(in_srgb,var(--danger)_22%,var(--line))] bg-[var(--danger-soft)] px-2.5 py-1 text-[11.5px] text-[var(--danger)]">
               <LockKeyhole size={12} /> {t("需要激活码，章节暂不可开始")}
             </p>
           )}
           <p className="muted text-[13px] mt-2">
-            {group?.question_count} practice questions · {group?.answered ?? 0} answered · Accuracy{" "}
-            {group?.accuracy === null || group?.accuracy === undefined
-              ? "—"
-              : `${Math.round(group.accuracy * 100)}%`}
+            {t("{questions} 道练习题 · 已答 {answered} · 正确率 {accuracy}", {
+              questions: group?.question_count ?? 0,
+              answered: group?.answered ?? 0,
+              accuracy:
+                group?.accuracy === null || group?.accuracy === undefined
+                  ? "—"
+                  : `${Math.round(group.accuracy * 100)}%`,
+            })}
           </p>
         </div>
       </div>
@@ -105,12 +113,14 @@ export default function GroupPage() {
       <div className="card card-pad">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="h2">Chapters</h2>
+            <h2 className="h2">{t("章节")}</h2>
             <p className="text-[12px] muted mt-1">
-              Click a chapter to resume. Choose “Practice Again” to start a new record from Question 1.
+              {t("点击章节继续上次进度。选择「重新练习」会从第 1 题开始新的记录。")}
             </p>
           </div>
-          <span className="pill">{topics?.length ?? 0} topics</span>
+          <span className="pill">
+            {t("{count} 个 Topic", { count: topics?.length ?? 0 })}
+          </span>
         </div>
 
         <div className="mt-3">
@@ -121,19 +131,26 @@ export default function GroupPage() {
             const progress = total ? Math.round((answered / total) * 100) : 0;
             const status =
               current?.status === "submitted"
-                ? "Completed"
+                ? t("已完成")
                 : current?.status === "in_progress"
-                  ? "In Progress"
+                  ? t("进行中")
                   : current?.status === "abandoned"
-                    ? "Ended Early"
+                    ? t("提前结束")
                     : null;
             const detail = current
               ? current.status === "submitted"
-                ? `Completed ${total}/${total} · ${current.correct} correct`
+                ? t("已完成 {total}/{total} · 答对 {correct} 道", {
+                    total,
+                    correct: current.correct,
+                  })
                 : current.status === "in_progress"
-                  ? `${answered}/${total} done · Continue at Question ${Math.min((current.next_index ?? answered) + 1, total)}`
-                  : `Ended early · ${answered}/${total} answered`
-              : `${topic.question_count} questions`;
+                  ? t("已完成 {answered}/{total} · 从第 {question} 题继续", {
+                      answered,
+                      total,
+                      question: Math.min((current.next_index ?? answered) + 1, total),
+                    })
+                  : t("提前结束 · 已答 {answered}/{total}", { answered, total })
+              : t("{count} 道题", { count: topic.question_count });
             const locked = Boolean(group?.locked || topic.locked);
             return (
               <div
@@ -154,12 +171,12 @@ export default function GroupPage() {
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="pill font-mono">{topic.code}</span>
-                    <span className="font-semibold text-[15px]" lang="en">
-                      {topic.title_en}
+                    <span className="font-semibold text-[15px]" lang={lang}>
+                      {lang === "zh" ? topic.title_zh || topic.title_en : topic.title_en}
                     </span>
                     {topic.kind !== "ced" && (
                       <span className="badge">
-                        {topic.kind === "methods" ? "Research Methods" : "Other"}
+                        {topic.kind === "methods" ? t("研究方法") : t("其他")}
                       </span>
                     )}
                   </div>
@@ -167,10 +184,14 @@ export default function GroupPage() {
                     <span>{detail}</span>
                     {status && <span>{status}</span>}
                     <span>
-                      Cumulative {topic.answered}/{topic.total} ·{" "}
-                      {topic.accuracy === null
-                        ? "—"
-                        : `${Math.round(topic.accuracy * 100)}%`}
+                      {t("累计 {answered}/{total} · {accuracy}", {
+                        answered: topic.answered,
+                        total: topic.total,
+                        accuracy:
+                          topic.accuracy === null
+                            ? "—"
+                            : `${Math.round(topic.accuracy * 100)}%`,
+                      })}
                     </span>
                   </div>
                   <div className="progress mt-1.5 max-w-[320px]">
@@ -179,7 +200,7 @@ export default function GroupPage() {
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
                   {locked ? (
-                    <span className="pill pill-locked" aria-label="Locked">
+                    <span className="pill pill-locked" aria-label={t("未解锁")}>
                       <LockKeyhole size={13} />
                     </span>
                   ) : (
@@ -197,10 +218,10 @@ export default function GroupPage() {
                         ) : (
                           <RotateCcw size={13} />
                         )}
-                        Practice Again
+                        {t("重新练习")}
                       </button>
                       <span className="btn btn-sm pointer-events-none">
-                        {sessionLabel(topic)}
+                        {sessionLabel(topic, t)}
                         <ArrowRight size={13} />
                       </span>
                     </>
@@ -209,7 +230,9 @@ export default function GroupPage() {
               </div>
             );
           })}
-          {topics?.length === 0 && <div className="empty">This Unit has no practice questions yet.</div>}
+          {topics?.length === 0 && (
+            <div className="empty">{t("这个 Unit 还没有练习题。")}</div>
+          )}
         </div>
       </div>
     </div>

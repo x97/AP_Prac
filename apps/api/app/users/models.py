@@ -38,6 +38,16 @@ class User(Base):
     password_hash: Mapped[Optional[str]] = mapped_column(String(255))
     password_changed_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
     nickname: Mapped[Optional[str]] = mapped_column(String(64))
+    # Student profile collected on first sign-in. NULL means "not answered
+    # yet", which is why studied_psychology is a nullable Boolean.
+    grade: Mapped[Optional[str]] = mapped_column(String(32))
+    region: Mapped[Optional[str]] = mapped_column(String(64))
+    target_score: Mapped[Optional[int]] = mapped_column(Integer)
+    studied_psychology: Mapped[Optional[bool]] = mapped_column(Boolean)
+    teacher_note: Mapped[Optional[str]] = mapped_column(Text)
+    profile_completed_at: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True)
+    )
     role: Mapped[str] = mapped_column(String(16), default="student", nullable=False)
     status: Mapped[str] = mapped_column(String(16), default="active", nullable=False)
     # Set on a source account after it is merged into another account. The row

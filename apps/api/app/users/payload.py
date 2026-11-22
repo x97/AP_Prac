@@ -13,5 +13,10 @@ def user_payload(user: User) -> dict:
         "has_password": bool(user.password_hash),
         "phone_masked": mask_phone(user.phone),
         "nickname": user.nickname,
+        "grade": user.grade,
+        "region": user.region,
+        "target_score": user.target_score,
+        "studied_psychology": user.studied_psychology,
+        "profile_completed": user.profile_completed_at is not None,
         "role": user.role,
     }

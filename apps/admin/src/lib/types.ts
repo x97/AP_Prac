@@ -50,6 +50,10 @@ export type StudentListItem = {
   email_masked: string | null;
   phone_masked: string | null;
   nickname: string | null;
+  grade: string | null;
+  region: string | null;
+  target_score: number | null;
+  studied_psychology: boolean | null;
   status: string;
   created_at: string;
   last_login_at: string | null;
@@ -75,6 +79,12 @@ export type StudentDetail = {
     email_masked: string | null;
     phone_masked: string | null;
     nickname: string | null;
+    grade: string | null;
+    region: string | null;
+    target_score: number | null;
+    studied_psychology: boolean | null;
+    teacher_note: string | null;
+    profile_completed_at: string | null;
     status: string;
     created_at: string;
     last_login_at: string | null;

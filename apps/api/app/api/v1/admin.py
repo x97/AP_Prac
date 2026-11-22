@@ -18,6 +18,7 @@ from app.api.v1.schemas import (
     AdminLoginRequest,
     AdminQuestionConceptLinkCreate,
     AdminQuestionCreate,
+    AdminStudentPatch,
     ConceptPatch,
     KnowledgePointPatch,
     PaperPatch,
@@ -276,6 +277,10 @@ def admin_students(
                 "email_masked": mask_email(user.email),
                 "phone_masked": mask_phone(user.phone),
                 "nickname": user.nickname,
+                "grade": user.grade,
+                "region": user.region,
+                "target_score": user.target_score,
+                "studied_psychology": user.studied_psychology,
                 "status": user.status,
                 "created_at": user.created_at,
                 "last_login_at": user.last_login_at,
@@ -378,6 +383,12 @@ def admin_student_detail(
             "email_masked": mask_email(user.email),
             "phone_masked": mask_phone(user.phone),
             "nickname": user.nickname,
+            "grade": user.grade,
+            "region": user.region,
+            "target_score": user.target_score,
+            "studied_psychology": user.studied_psychology,
+            "teacher_note": user.teacher_note,
+            "profile_completed_at": user.profile_completed_at,
             "status": user.status,
             "created_at": user.created_at,
             "last_login_at": user.last_login_at,
@@ -386,6 +397,36 @@ def admin_student_detail(
         "sessions": sessions,
         "attempts": attempts,
         "wrong_summary": wrong_summary,
+    }
+
+
+@router.patch("/students/{user_id}")
+def admin_update_student(
+    user_id: str,
+    body: AdminStudentPatch,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(get_current_admin),
+):
+    user = db.get(User, user_id)
+    if not user:
+        raise AppError(404, "STUDENT_NOT_FOUND", "学生不存在")
+    if body.teacher_note is not None:
+        user.teacher_note = body.teacher_note.strip() or None
+    record_audit(
+        db,
+        admin,
+        "student.note.update",
+        target_type="student",
+        target_id=user.id,
+        detail={"has_note": bool(user.teacher_note)},
+    )
+    db.commit()
+    db.refresh(user)
+    return {
+        "student": {
+            "id": user.id,
+            "teacher_note": user.teacher_note,
+        }
     }
 
 

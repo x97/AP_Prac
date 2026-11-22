@@ -5,9 +5,11 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
 import { apiGet } from "@/lib/api";
+import { useLanguage } from "@/lib/i18n";
 import type { PracticeGroup } from "@/lib/types";
 
 export default function PracticePage() {
+  const { t, lang } = useLanguage();
   const [groups, setGroups] = useState<PracticeGroup[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,14 +27,14 @@ export default function PracticePage() {
     <div>
       <div className="page-head">
         <div>
-          <div className="eyebrow">Unit practice</div>
-          <h1 className="h1">Practice by Unit</h1>
+          <div className="eyebrow">{t("单元练习")}</div>
+          <h1 className="h1">{t("按 Unit 练习")}</h1>
           <p className="muted text-[13px] mt-2">
-            Choose a Unit, then a chapter. Answers are checked instantly with concepts on the right.
+            {t("先选择 Unit，再选择章节。答题后即时判分，右侧同步显示相关概念。")}
           </p>
         </div>
         <span className="pill">
-          <Layers size={13} /> 5 Units
+          <Layers size={13} /> {t("{count} 个 Unit", { count: groups?.length ?? 5 })}
         </span>
       </div>
 
@@ -45,9 +47,9 @@ export default function PracticePage() {
             <AlertCircle size={18} />
           </span>
           <div>
-            <div className="font-semibold text-[14px]">Wrong Practice Paper</div>
+            <div className="font-semibold text-[14px]">{t("错题练习卷")}</div>
             <div className="text-[12px] muted mt-0.5">
-              A separate wrong-question paper. It includes unmastered and reviewing questions and updates with your wrong book.
+              {t("独立的错题练习卷，包含未掌握和复习中的题目，并随错题本更新。")}
             </div>
           </div>
         </div>
@@ -78,15 +80,21 @@ export default function PracticePage() {
                   <BookOpen size={16} className="text-[var(--muted)]" />
                 )}
               </div>
-              <h2 className="h2 mt-4" lang="en">
-                {g.title_en || g.title}
+              <h2 className="h2 mt-4" lang={lang}>
+                {lang === "zh" ? g.title || g.title_en : g.title_en || g.title}
               </h2>
               <div className="mt-1 text-[12px] muted">
-                {g.topic_count} topics · {g.question_count} practice questions
+                {t("{topics} 个 Topic · {questions} 道练习题", {
+                  topics: g.topic_count,
+                  questions: g.question_count,
+                })}
               </div>
               <div className="mt-5 flex items-center justify-between text-[12px] muted">
                 <span>
-                  {g.answered}/{g.total} answered
+                  {t("已答 {answered}/{total}", {
+                    answered: g.answered,
+                    total: g.total,
+                  })}
                 </span>
                 <span>{g.accuracy === null ? "—" : `${Math.round(g.accuracy * 100)}%`}</span>
               </div>
@@ -95,7 +103,7 @@ export default function PracticePage() {
               </div>
               <div className="mt-4 flex items-center justify-between">
                 <span className={g.locked ? "text-[12px] text-[var(--muted)]" : "text-[12px] text-[var(--primary)] font-medium"}>
-                  {g.locked ? "View chapters" : "Enter Unit"}
+                  {g.locked ? t("查看章节") : t("进入 Unit")}
                 </span>
                 {g.locked ? (
                   <LockKeyhole size={15} className="text-[var(--danger)]" />

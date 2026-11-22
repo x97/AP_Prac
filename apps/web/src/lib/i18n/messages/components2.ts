@@ -1,7 +1,12 @@
 const messages: Record<string, string> = {
   // CourseAccessCard
+  "课程权限": "Course access",
   "已激活科目": "Activated subjects",
   "{count} 个": "{count} active",
+  "这里列出你已激活的科目及有效期。即使尚未激活的科目，也有部分免费内容可以体验。":
+    "These are the subjects you've activated, along with their access dates. Even subjects you haven't activated still include some free content for you to explore.",
+  "你还没有已激活的科目。": "You don't have any activated subjects yet.",
+  "输入激活码 →": "Enter an activation code →",
   "这里列出当前账号可用的科目和有效期；未激活科目可继续使用免费内容。":
     "Subjects available to this account and their access dates. Inactive subjects can still access free content.",
   "使用激活码": "Use Activation Code",

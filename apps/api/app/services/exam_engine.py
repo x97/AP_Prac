@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import timedelta
 from typing import Any
 
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.orm import Session
 
 from app.api.v1.schemas import AttemptAnswerItem, AttemptCreate, FrqScoreItem
@@ -503,6 +503,32 @@ def submit_section(
         raise AppError(409, "SECTION_NOT_ACTIVE", "section 尚未开始")
     if _pause_row(db, attempt.id, section.section):
         raise AppError(409, "SECTION_PAUSED", "考试已暂停，请继续考试后再交卷")
+
+    # Two requests can finalize the same expired attempt at once (for example
+    # React StrictMode double-fetching the dashboard, or the sweep job racing a
+    # page load). Claim the section with a conditional UPDATE so exactly one of
+    # them records answers and writes daily/question statistics. The runner-up
+    # blocks on the row/table lock, then sees status != active.
+    claimed = db.execute(
+        update(AttemptSection)
+        .where(
+            AttemptSection.attempt_id == attempt.id,
+            AttemptSection.section == section.section,
+            AttemptSection.status == "active",
+        )
+        .values(status="submitting")
+    )
+    if claimed.rowcount == 0:
+        db.rollback()
+        attempt = db.get(Attempt, attempt_id)
+        section = _get_section(db, attempt.id, section_name)
+        return {
+            "attempt_id": attempt.id,
+            "section": section.section,
+            "status": attempt.status,
+            "score": section.score,
+            "total": section.total,
+        }
 
     now = utcnow()
     if section_name == "mcq":

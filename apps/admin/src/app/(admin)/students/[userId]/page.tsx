@@ -1,11 +1,11 @@
 "use client";
 
-import { ArrowLeft, Loader2 } from "lucide-react";
+import { ArrowLeft, Loader2, Save } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { apiGet } from "@/lib/api";
+import { apiGet, apiPatch } from "@/lib/api";
 import type { StudentDetail } from "@/lib/types";
 
 function date(value: string | null | undefined) {
@@ -19,20 +19,49 @@ function percent(value: number | null | undefined) {
     : `${Math.round(value * 100)}%`;
 }
 
+function gradeText(grade: string | null | undefined) {
+  if (!grade) return "—";
+  return grade === "other" ? "其他" : `${grade} 年级`;
+}
+
 export default function StudentDetailPage() {
   const params = useParams<{ userId: string }>();
   const [data, setData] = useState<StudentDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [teacherNote, setTeacherNote] = useState("");
+  const [savingNote, setSavingNote] = useState(false);
+  const [noteError, setNoteError] = useState<string | null>(null);
+  const [noteSaved, setNoteSaved] = useState(false);
 
   useEffect(() => {
     let alive = true;
     apiGet<StudentDetail>(`/students/${params.userId}`)
-      .then((value) => alive && setData(value))
+      .then((value) => {
+        if (!alive) return;
+        setData(value);
+        setTeacherNote(value.student.teacher_note || "");
+      })
       .catch((e: Error) => alive && setError(e.message));
     return () => {
       alive = false;
     };
   }, [params.userId]);
+
+  async function saveNote() {
+    setSavingNote(true);
+    setNoteError(null);
+    setNoteSaved(false);
+    try {
+      await apiPatch(`/students/${params.userId}`, {
+        teacher_note: teacherNote,
+      });
+      setNoteSaved(true);
+    } catch (e) {
+      setNoteError(e instanceof Error ? e.message : "保存失败");
+    } finally {
+      setSavingNote(false);
+    }
+  }
 
   if (error) {
     return (
@@ -76,6 +105,83 @@ export default function StudentDetailPage() {
           </p>
         </div>
         <span className="a-badge">{student.status}</span>
+      </div>
+
+      <div className="mb-4 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
+        <section className="a-card p-5">
+          <h2 className="text-[15px] font-semibold">学生档案</h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {[
+              ["年级", gradeText(student.grade)],
+              ["地区", student.region || "—"],
+              ["目标分数", student.target_score ? `${student.target_score} 分` : "—"],
+              [
+                "是否学过心理课",
+                student.studied_psychology === null ||
+                student.studied_psychology === undefined
+                  ? "未填写"
+                  : student.studied_psychology
+                    ? "学过"
+                    : "没有学过",
+              ],
+            ].map(([label, value]) => (
+              <div
+                key={label}
+                className="rounded-xl border border-[var(--line)] bg-[var(--surface-2)] px-3 py-2.5"
+              >
+                <div className="text-[10.5px] uppercase tracking-[0.1em] text-[var(--faint)]">
+                  {label}
+                </div>
+                <div className="mt-1 text-[13.5px] font-medium">{value}</div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-3 text-[10.5px] text-[var(--faint)]">
+            {student.profile_completed_at
+              ? `资料完善于 ${date(student.profile_completed_at)}`
+              : "学生尚未完善个人资料"}
+          </p>
+        </section>
+
+        <section className="a-card p-5">
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="text-[15px] font-semibold">老师备注</h2>
+            {noteSaved && (
+              <span className="text-[11px] text-[var(--success)]">已保存</span>
+            )}
+          </div>
+          <textarea
+            className="a-input mt-3 min-h-[132px] resize-y"
+            value={teacherNote}
+            onChange={(event) => {
+              setTeacherNote(event.target.value);
+              setNoteSaved(false);
+            }}
+            maxLength={5000}
+            placeholder="记录学生的学习情况、沟通要点或需要跟进的事项…"
+          />
+          <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
+            <span className="text-[10.5px] text-[var(--faint)]">
+              {teacherNote.length}/5000 · 仅后台可见
+            </span>
+            <button
+              type="button"
+              className="a-btn a-btn-primary a-btn-sm"
+              onClick={saveNote}
+              disabled={savingNote}
+            >
+              {savingNote ? (
+                <Loader2 size={13} className="animate-spin" />
+              ) : (
+                <Save size={13} />
+              )}
+              保存备注
+            </button>
+          </div>
+          {noteError && (
+            <div className="mt-2 text-[11px] text-[var(--danger)]">{noteError}</div>
+          )}
+        </section>
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">

@@ -54,7 +54,8 @@ function uiText(zh: string, vars?: Record<string, string | number>): string {
 // never falls back to a Chinese `message` payload.
 const EN_ERROR_MESSAGES: Record<string, string> = {
   AUTH_REQUIRED: "Please sign in first",
-  EMAIL_OR_PASSWORD_INVALID: "Email or password is incorrect",
+  EMAIL_OR_PASSWORD_INVALID:
+    "Email or password is incorrect. If you don't have an account yet, please sign up first.",
   EMAIL_ALREADY_REGISTERED: "This email is already registered. Sign in or reset your password.",
   EMAIL_CODE_EXPIRED: "The verification code has expired. Request a new one.",
   EMAIL_CODE_INVALID: "The verification code is incorrect",
@@ -81,6 +82,14 @@ const EN_ERROR_MESSAGES: Record<string, string> = {
   ORIGIN_REJECTED: "Request origin is not allowed",
   RATE_LIMITED: "Too many requests. Please slow down.",
   REQUEST_FAILED: "Request failed",
+};
+
+// Backend error messages are Chinese. The login endpoint also answers 401 for
+// a wrong password, so only an explicit AUTH_REQUIRED should redirect; every
+// other 401 keeps its own code and message.
+const ZH_ERROR_MESSAGES: Record<string, string> = {
+  EMAIL_OR_PASSWORD_INVALID:
+    "邮箱或密码不正确。如果还没有注册，请先创建账号。",
 };
 
 function bytesToBase64(value: ArrayBuffer): string {
@@ -211,10 +220,6 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     credentials: "include",
     cache: "no-store",
   });
-  if (res.status === 401) {
-    redirectToLogin();
-    throw new ApiError(401, "AUTH_REQUIRED", uiText("请先登录"));
-  }
   if (!res.ok) {
     let payload: { code?: string; message?: string; details?: unknown } = {};
     try {
@@ -223,11 +228,16 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
       // ignore non-JSON errors
     }
     const code = payload.code || "REQUEST_FAILED";
+    if (res.status === 401 && (code === "AUTH_REQUIRED" || !payload.code)) {
+      redirectToLogin();
+      throw new ApiError(401, "AUTH_REQUIRED", uiText("请先登录"));
+    }
     const message =
       currentLang() === "zh"
-        ? (payload.message || uiText("请求失败（{status}）", { status: res.status }))
-        : (EN_ERROR_MESSAGES[code] ||
-          `Request failed (${res.status})`);
+        ? (ZH_ERROR_MESSAGES[code] ||
+          payload.message ||
+          uiText("请求失败（{status}）", { status: res.status }))
+        : (EN_ERROR_MESSAGES[code] || `Request failed (${res.status})`);
     throw new ApiError(res.status, code, message, payload.details);
   }
   if (res.status === 204) return undefined as T;

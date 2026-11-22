@@ -406,7 +406,7 @@ export default function PracticeSessionPage() {
 
   return (
     <div>
-      <div className="flex items-center justify-between gap-3 mb-4">
+      <div className="top-row-clear flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2">
           <Link href={backHref} className="btn btn-ghost btn-sm -ml-2">
             <ArrowLeft size={14} /> {isWrongPractice ? t("返回错题本") : "Back to Unit"}

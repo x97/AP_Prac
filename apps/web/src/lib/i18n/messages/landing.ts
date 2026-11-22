@@ -8,6 +8,7 @@ const messages: Record<string, string> = {
   "关于题库": "About the question bank",
   "登录": "Sign in",
   "注册": "Sign up",
+  "进入学习中心": "Open dashboard",
 
   // Hero
   "把每个 Unit，": "Turn every Unit",
@@ -152,7 +153,7 @@ const messages: Record<string, string> = {
   "1v1 诊断 · FRQ 批改 · 学习规划":
     "1v1 diagnostic · FRQ feedback · study planning",
   "我是 Elfie，系统里的题目、解析和练习节奏由我维护。需要学习诊断、课程规划或获取激活码，可以直接加微信。":
-    "I'm Elfie. I maintain the questions, explanations, and practice pace in this system. For a learning diagnostic, course planning, or an activation code, just add me on WeChat.",
+    "Hi there, I'm Elfreda. I curate the questions, explanations and practice schedule for this platform and help you stay on pace with practice. Feel free to add me on WeChat if you need an activation code, a learning assessment or study plan.",
   "加微信时备注「AP」": "Mention \"AP\" when adding me on WeChat.",
 };
 

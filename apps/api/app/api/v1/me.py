@@ -241,12 +241,34 @@ def update_me(
     db: Session = Depends(get_db),
     user: User = Depends(get_current_user),
 ):
-    nickname = body.nickname.strip()
-    if not nickname:
-        raise AppError(400, "NICKNAME_REQUIRED", "昵称不能为空")
-    if any(char in nickname for char in "\r\n\t"):
-        raise AppError(400, "NICKNAME_INVALID", "昵称不能包含换行或制表符")
-    user.nickname = nickname
+    provided = body.model_fields_set
+    if "nickname" in provided:
+        nickname = (body.nickname or "").strip()
+        if not nickname:
+            raise AppError(400, "NICKNAME_REQUIRED", "昵称不能为空")
+        if any(char in nickname for char in "\r\n\t"):
+            raise AppError(400, "NICKNAME_INVALID", "昵称不能包含换行或制表符")
+        user.nickname = nickname
+    # An explicit null clears the field; an omitted field stays untouched.
+    if "grade" in provided:
+        user.grade = (body.grade or "").strip() or None
+    if "region" in provided:
+        user.region = (body.region or "").strip() or None
+    if "target_score" in provided:
+        user.target_score = body.target_score
+    if "studied_psychology" in provided:
+        user.studied_psychology = body.studied_psychology
+
+    profile_complete = bool(
+        user.nickname
+        and user.grade
+        and user.region
+        and user.target_score is not None
+        and user.studied_psychology is not None
+    )
+    if body.complete_profile or profile_complete:
+        user.profile_completed_at = user.profile_completed_at or utcnow()
+
     db.commit()
     db.refresh(user)
     return {"user": user_payload(user)}

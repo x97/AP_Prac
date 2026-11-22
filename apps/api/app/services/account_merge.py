@@ -244,6 +244,13 @@ def merge_users(db: Session, source: User, target: User) -> dict[str, int]:
     counts["bookmarks"] = _merge_bookmarks(db, source.id, target.id)
     counts["notes"] = _merge_notes(db, source.id, target.id)
 
+    # Keep the profile a student filled in on the account being retired.
+    for field in ("nickname", "grade", "region", "target_score", "studied_psychology"):
+        if getattr(target, field) is None and getattr(source, field) is not None:
+            setattr(target, field, getattr(source, field))
+    if target.profile_completed_at is None and source.profile_completed_at is not None:
+        target.profile_completed_at = source.profile_completed_at
+
     source.status = "merged"
     source.merged_into_id = target.id
     source.email = None

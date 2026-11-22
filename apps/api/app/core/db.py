@@ -49,6 +49,42 @@ def get_db():
         db.close()
 
 
+# Additive columns that ``create_all`` cannot add to an existing ``users``
+# table. Each entry maps column name to SQL type. SQLite accepts plain
+# TIMESTAMP / BOOLEAN and stores ISO strings / 0-1, which SQLAlchemy maps back.
+_USER_PROFILE_COLUMNS: dict[str, dict[str, str]] = {
+    "sqlite": {
+        "grade": "VARCHAR(32)",
+        "region": "VARCHAR(64)",
+        "target_score": "INTEGER",
+        "studied_psychology": "BOOLEAN",
+        "teacher_note": "TEXT",
+        "profile_completed_at": "TIMESTAMP",
+    },
+    "postgresql": {
+        "grade": "VARCHAR(32)",
+        "region": "VARCHAR(64)",
+        "target_score": "INTEGER",
+        "studied_psychology": "BOOLEAN",
+        "teacher_note": "TEXT",
+        "profile_completed_at": "TIMESTAMP WITH TIME ZONE",
+    },
+}
+
+
+def _ensure_user_profile_columns(bind) -> None:  # noqa: ANN001
+    from sqlalchemy import inspect
+
+    if "users" not in inspect(bind).get_table_names():
+        return
+    existing = {column["name"] for column in inspect(bind).get_columns("users")}
+    dialect = "postgresql" if bind.dialect.name == "postgresql" else "sqlite"
+    for name, ddl in _USER_PROFILE_COLUMNS[dialect].items():
+        if name in existing:
+            continue
+        bind.execute(text(f"ALTER TABLE users ADD COLUMN {name} {ddl}"))
+
+
 def init_db() -> None:
     # Import models so metadata is populated before create_all.
     from app.users import models  # noqa: F401
@@ -65,6 +101,7 @@ def init_db() -> None:
             )
             try:
                 Base.metadata.create_all(bind=conn)
+                _ensure_user_profile_columns(conn)
             finally:
                 conn.execute(
                     text("SELECT pg_advisory_unlock(:key)"),
@@ -74,3 +111,5 @@ def init_db() -> None:
 
     settings.app_db_path.parent.mkdir(parents=True, exist_ok=True)
     Base.metadata.create_all(bind=engine)
+    with engine.begin() as conn:
+        _ensure_user_profile_columns(conn)

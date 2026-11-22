@@ -18,6 +18,11 @@ function percent(value: number | null) {
   return value === null ? "—" : `${Math.round(value * 100)}%`;
 }
 
+function gradeText(grade: string | null) {
+  if (!grade) return "—";
+  return grade === "other" ? "其他" : `${grade} 年级`;
+}
+
 export default function StudentsPage() {
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
@@ -101,10 +106,13 @@ export default function StudentsPage() {
           </div>
         ) : data && data.students.length > 0 ? (
           <div className="overflow-x-auto">
-            <table className="a-table min-w-[840px]">
+            <table className="a-table min-w-[980px]">
               <thead>
                 <tr>
                   <th>学生</th>
+                  <th>年级 / 地区</th>
+                  <th>目标分</th>
+                  <th>学过心理</th>
                   <th>已答</th>
                   <th>正确率</th>
                   <th>练习</th>
@@ -127,6 +135,23 @@ export default function StudentsPage() {
                       <div className="mt-0.5 font-mono text-[10.5px] text-[var(--faint)]">
                         {student.email_masked || student.phone_masked || "—"}
                       </div>
+                    </td>
+                    <td className="text-[12px] text-[var(--muted)]">
+                      <div>{gradeText(student.grade)}</div>
+                      <div className="text-[10.5px] text-[var(--faint)]">
+                        {student.region || "—"}
+                      </div>
+                    </td>
+                    <td className="font-mono">{student.target_score ?? "—"}</td>
+                    <td>
+                      {student.studied_psychology === null ||
+                      student.studied_psychology === undefined ? (
+                        "—"
+                      ) : (
+                        <span className="a-badge">
+                          {student.studied_psychology ? "是" : "否"}
+                        </span>
+                      )}
                     </td>
                     <td className="font-mono">{student.answered.toLocaleString()}</td>
                     <td>{percent(student.accuracy)}</td>

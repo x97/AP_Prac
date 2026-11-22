@@ -683,24 +683,29 @@ function TopicMindMap({
   }, [topic.code, outline.rootY, canvas.h]);
 
   const clampView = (next: { scale: number; tx: number; ty: number }) => {
-    const scale = clamp(next.scale, 1, 3.2);
-    if (scale <= 1.001) {
-      return {
-        scale: 1,
-        tx: clamp(next.tx, -canvas.w * 0.2, canvas.w * 0.2),
-        ty: clamp(next.ty, -canvas.h * 0.2, canvas.h * 0.2),
-      };
-    }
+    const scale = clamp(next.scale, 0.25, 3.2);
+    type Pad = { tx: number; ty: number };
+    const limits: Pad = {
+      tx: canvas.w - canvas.w * scale - 18,
+      ty: canvas.h - canvas.h * scale - 18,
+    };
+    // Once the whole outline is smaller than the canvas there is no
+    // "content edge" to keep inside; allow panning but keep the canvas from
+    // being pushed completely out of view.
+    const txBounds =
+      scale >= 1 ? [limits.tx, 18] : [18, canvas.w - 18];
+    const tyBounds =
+      scale >= 1 ? [limits.ty, 18] : [18, canvas.h - 18];
     return {
       scale,
-      tx: clamp(next.tx, canvas.w - canvas.w * scale - 18, 18),
-      ty: clamp(next.ty, canvas.h - canvas.h * scale - 18, 18),
+      tx: clamp(next.tx, Math.min(...txBounds), Math.max(...txBounds)),
+      ty: clamp(next.ty, Math.min(...tyBounds), Math.max(...tyBounds)),
     };
   };
 
   const zoom = (factor: number) => {
     setView((current) => {
-      const nextScale = clamp(current.scale * factor, 1, 3.2);
+      const nextScale = clamp(current.scale * factor, 0.25, 3.2);
       const ratio = nextScale / current.scale;
       return clampView({
         scale: nextScale,
@@ -1323,7 +1328,7 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
             <strong>{topic ? `${topic.code} · ${topic.title_en}` : `Unit ${unit.unit_id} · Structure`}</strong>
             <span>
               {topic
-                ? `${topic.mindmap?.node_count ?? topic.concept_count} nodes · ${topic.mindmap?.matched_count ?? topic.concept_count} concepts · XMind`
+                ? `${topic.mindmap?.node_count ?? topic.concept_count} nodes · ${topic.mindmap?.matched_count ?? topic.concept_count} concepts`
                 : `${unit.topic_count} topics · ${unit.concept_count} concepts · ${unit.bridges?.length || 0} bridges`}
             </span>
           </div>
@@ -1369,7 +1374,13 @@ export function KnowledgeGraph({ unit }: { unit: KnowledgeGraphUnit }) {
               </>
             )}
           </div>
-          <span>{topic ? `${topic.mindmap?.node_count ?? topic.concept_count} nodes · XMind mind map` : t("Unit 级先看结构，Topic 级进入思维导图")}</span>
+          <span>
+            {topic
+              ? t("{n} 个节点", {
+                  n: topic.mindmap?.node_count ?? topic.concept_count,
+                })
+              : t("Unit 级先看结构，Topic 级进入思维导图")}
+          </span>
         </div>
       </div>
 

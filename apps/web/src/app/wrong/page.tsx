@@ -201,7 +201,7 @@ export default function WrongPage() {
             </p>
           </div>
           <button
-            className="btn btn-primary"
+            className="btn btn-primary w-full sm:w-auto"
             onClick={practice}
             disabled={busy || practiceCount === 0}
           >
@@ -254,7 +254,7 @@ export default function WrongPage() {
               removing.has(item.question_id) ? "is-removing" : "",
             ].join(" ")}
           >
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="pill pill-warn">{t("错 {count} 次", { count: item.wrong_count })}</span>
@@ -277,13 +277,13 @@ export default function WrongPage() {
                     className="text-[11px] muted mt-1.5 leading-4"
                   />
                   <div
-                    className="mt-1.5 text-[14px] leading-6 whitespace-pre-wrap"
+                    className="mt-1.5 text-[14px] leading-6 whitespace-pre-wrap break-words"
                     lang="en"
                   >
                     {item.stem || item.question_id}
                   </div>
                 </div>
-                <div className="flex flex-col gap-2 shrink-0">
+                <div className="flex flex-wrap items-center justify-between gap-2 lg:flex-col lg:items-end">
                   {item.mastery === "mastered" ? (
                     <button
                       className="btn btn-sm"
@@ -317,15 +317,17 @@ export default function WrongPage() {
                 </div>
               </div>
 
-              <div className="mt-3 flex items-center justify-between border-t border-[var(--line)] pt-3">
+              <div className="mt-3 flex flex-col gap-2 border-t border-[var(--line)] pt-3 sm:flex-row sm:items-center sm:justify-between">
                 <button
-                  className="btn btn-sm btn-ghost"
+                  className="btn btn-sm btn-outline-primary w-full justify-center sm:w-auto"
                   onClick={() => openQuestion(item)}
                 >
                   <BookOpen size={14} />
                   {t("查看题目、答案与解析")}
                 </button>
-                <span className="text-[11px] faint">{t("弹窗查看")}</span>
+                <span className="text-center text-[11px] faint sm:text-right">
+                  {t("弹窗查看")}
+                </span>
               </div>
           </div>
         ))}

@@ -71,7 +71,7 @@ export default function ReviewPage() {
 
   return (
     <div>
-      <div className="flex items-center justify-between gap-3 mb-4">
+      <div className="top-row-clear flex items-center justify-between gap-3 mb-4">
         <Link href={`/exams/${paperId}`} className="btn btn-ghost btn-sm -ml-2">
           <ArrowLeft size={14} /> Back to Paper
         </Link>

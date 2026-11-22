@@ -32,6 +32,7 @@ function termText(batch: ActivationCodeBatch) {
   if (batch.duration_days === 180) return "6 个月";
   if (batch.duration_days === 90) return "3 个月";
   if (batch.duration_days === 30) return "1 个月";
+  if (batch.duration_days === 7) return "1 周";
   return `${batch.duration_days ?? "—"} 天`;
 }
 
@@ -267,6 +268,7 @@ export default function CodesPage() {
                 <option value={180}>6 个月</option>
                 <option value={90}>3 个月</option>
                 <option value={30}>1 个月</option>
+                <option value={7}>1 周</option>
               </select>
             </label>
           ) : (

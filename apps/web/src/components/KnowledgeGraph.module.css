@@ -178,6 +178,43 @@
   flex: 0 0 auto;
 }
 
+/* Fullscreen uses the accent color as a proper top menu bar. */
+.fullscreenGraph .graphBar {
+  padding: 14px 20px;
+  border-bottom: 1px solid color-mix(in srgb, var(--primary) 62%, black);
+  background: var(--primary);
+  color: color-mix(in srgb, #fff 82%, transparent);
+  font-size: 13.5px;
+}
+
+.fullscreenGraph .graphBar strong {
+  color: #fff;
+  font-size: 15.5px;
+}
+
+.fullscreenGraph .graphMeta {
+  gap: 11px;
+}
+
+.fullscreenGraph .fullscreenBtn {
+  min-height: 36px;
+  border-color: color-mix(in srgb, #fff 38%, transparent);
+  background: color-mix(in srgb, #fff 14%, transparent);
+  color: #fff;
+  font-size: 13px;
+}
+
+.fullscreenGraph .fullscreenBtn:hover {
+  border-color: color-mix(in srgb, #fff 56%, transparent);
+  background: color-mix(in srgb, #fff 24%, transparent);
+}
+
+.fullscreenGraph .hint,
+.fullscreenGraph .mobileHint {
+  color: color-mix(in srgb, #fff 78%, transparent);
+  font-size: 12px;
+}
+
 .fullscreenGraph .graphScroll {
   flex: 1 1 auto;
   min-height: 0;

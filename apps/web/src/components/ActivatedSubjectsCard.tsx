@@ -44,10 +44,10 @@ export function ActivatedSubjectsCard() {
     <section className="card card-pad mt-4" aria-label={t("已激活科目")}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <div className="eyebrow">Activated subjects</div>
+          <div className="eyebrow">{t("课程权限")}</div>
           <h2 className="h2 mt-1">{t("已激活科目")}</h2>
           <p className="mt-1 text-[11.5px] muted">
-            {t("当前账号已开通的科目和有效期；未开通科目仍可免费体验部分内容。")}
+            {t("这里列出你已激活的科目及有效期。即使尚未激活的科目，也有部分免费内容可以体验。")}
           </p>
         </div>
         <Link href="/me" className="btn btn-sm">
@@ -80,9 +80,9 @@ export function ActivatedSubjectsCard() {
       )}
       {items && active.length === 0 && (
         <div className="mt-3 flex flex-wrap items-center gap-2 text-[12px] text-[var(--muted)]">
-          {t("暂无已激活科目。")}
+          {t("你还没有已激活的科目。")}
           <Link href="/me" className="text-[var(--primary)] hover:underline">
-            {t("去输入激活码 →")}
+            {t("输入激活码 →")}
           </Link>
         </div>
       )}
