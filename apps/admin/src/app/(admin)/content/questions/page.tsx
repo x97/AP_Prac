@@ -1,9 +1,17 @@
 "use client";
 
-import { ChevronLeft, ChevronRight, ListChecks, Loader2, Search } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  ExternalLink,
+  ListChecks,
+  Loader2,
+  Search,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { AdminModal } from "@/components/AdminModal";
 import { StarRating } from "@/components/StarRating";
 import { useAdmin, useAdminSubject } from "@/components/AdminShell";
 import { apiGet, apiPatch } from "@/lib/api";
@@ -11,6 +19,7 @@ import type {
   AdminQuestionListItem,
   AdminQuestionListResponse,
   AdminQuestionUnit,
+  QuestionDetail,
 } from "@/lib/types";
 
 const LIMIT = 50;
@@ -52,6 +61,10 @@ export default function QuestionsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [starError, setStarError] = useState<string | null>(null);
+  const [previewId, setPreviewId] = useState<string | null>(null);
+  const [preview, setPreview] = useState<QuestionDetail | null>(null);
+  const [previewLoading, setPreviewLoading] = useState(false);
+  const [previewError, setPreviewError] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -60,10 +73,10 @@ export default function QuestionsPage() {
     const params = new URLSearchParams({
       subject: subjectId,
       source,
-      section,
       limit: String(LIMIT),
       offset: String(offset),
     });
+    if (section !== "all") params.set("section", section);
     if (source === "unit" && unit) params.set("unit", unit);
     if (appliedQuery) params.set("q", appliedQuery);
     apiGet<AdminQuestionListResponse>(`/content/questions?${params.toString()}`)
@@ -79,6 +92,32 @@ export default function QuestionsPage() {
       alive = false;
     };
   }, [subjectId, source, unit, section, appliedQuery, offset]);
+
+  useEffect(() => {
+    if (!previewId) return;
+    let alive = true;
+    setPreview(null);
+    setPreviewError(null);
+    setPreviewLoading(true);
+    apiGet<QuestionDetail>(
+      `/content/questions/${previewId}?subject=${encodeURIComponent(subjectId)}`,
+    )
+      .then((value) => {
+        if (alive) setPreview(value);
+      })
+      .catch((e: Error) => alive && setPreviewError(e.message))
+      .finally(() => alive && setPreviewLoading(false));
+    return () => {
+      alive = false;
+    };
+  }, [previewId, subjectId]);
+
+  function closePreview() {
+    setPreviewId(null);
+    setPreview(null);
+    setPreviewError(null);
+    setPreviewLoading(false);
+  }
 
   function changeSource(value: string) {
     setSource(value);
@@ -112,6 +151,9 @@ export default function QuestionsPage() {
 
   const page = Math.floor(offset / LIMIT) + 1;
   const pages = Math.max(1, Math.ceil(total / LIMIT));
+  const previewMeta = previewId
+    ? questions.find((item) => item.question_id === previewId) || null
+    : null;
 
   return (
     <div>
@@ -234,9 +276,9 @@ export default function QuestionsPage() {
                   <QuestionListRow
                     key={question.question_id}
                     question={question}
-                    subjectId={subjectId}
                     canEdit={canEdit}
                     onStarsChange={saveStars}
+                    onPreview={setPreviewId}
                   />
                 ))
               )}
@@ -275,34 +317,166 @@ export default function QuestionsPage() {
           </div>
         </div>
       </div>
+
+      <AdminModal
+        open={Boolean(previewId)}
+        onClose={closePreview}
+        title="题目预览"
+        wide
+      >
+        {previewLoading ? (
+          <div className="grid place-items-center py-16">
+            <Loader2 size={22} className="animate-spin text-[var(--primary)]" />
+          </div>
+        ) : previewError ? (
+          <div className="rounded-xl border border-[#f6d5d2] bg-[var(--danger-soft)] px-3 py-2 text-[12px] text-[var(--danger)]">
+            {previewError}
+          </div>
+        ) : preview ? (
+          <div className="space-y-4">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="a-badge a-badge-primary font-mono">
+                {preview.section} {preview.number}
+              </span>
+              {preview.form && <span className="a-badge">{preview.form}</span>}
+              {previewMeta &&
+                (previewMeta.unit_ids || []).map((unitId) => (
+                  <span key={unitId} className="a-badge a-badge-primary">
+                    Unit {unitId}
+                  </span>
+                ))}
+              {previewMeta && (
+                <>
+                  <span className="a-badge">
+                    {PAPER_TYPE_LABEL[previewMeta.paper_type || ""] ||
+                      previewMeta.paper_type ||
+                      "—"}
+                  </span>
+                  {previewMeta.year && (
+                    <span className="a-badge">{previewMeta.year}</span>
+                  )}
+                </>
+              )}
+              <StarRating value={preview.stars} size={14} label="题目星级" />
+            </div>
+            {previewMeta && (
+              <div className="text-[11.5px] text-[var(--muted)]">
+                {previewMeta.paper_chinese_title ||
+                  previewMeta.paper_title ||
+                  previewMeta.paper_id}
+              </div>
+            )}
+            {preview.context && (
+              <div className="whitespace-pre-wrap rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[12.5px] leading-6 text-[var(--muted)]">
+                {preview.context}
+              </div>
+            )}
+            {preview.assets
+              .filter((asset) => !asset.option_label)
+              .map((asset) => (
+                <img
+                  key={asset.asset_id}
+                  src={`/${asset.path}`}
+                  alt="题目图片"
+                  className="max-h-[360px] max-w-full rounded-xl border border-[var(--line)] bg-white"
+                />
+              ))}
+            <div className="whitespace-pre-wrap text-[14px] leading-7">
+              {preview.stem}
+            </div>
+            {preview.options.length > 0 && (
+              <div className="space-y-2">
+                {preview.options.map((option) => (
+                  <div
+                    key={option.label}
+                    className={[
+                      "rounded-xl border px-4 py-3",
+                      option.is_correct === 1
+                        ? "border-[#bfe8d1] bg-[var(--success-soft)]"
+                        : "border-[var(--line)]",
+                    ].join(" ")}
+                  >
+                    <div className="flex items-start gap-3">
+                      <span className="grid h-6 w-6 shrink-0 place-items-center rounded-md border border-[var(--line)] bg-white font-mono text-[11px] font-semibold">
+                        {option.label}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="whitespace-pre-wrap text-[13px] leading-6">
+                          {option.content}
+                        </div>
+                        {option.explanation && (
+                          <div className="mt-2 whitespace-pre-wrap text-[11.5px] leading-5 text-[var(--muted)]">
+                            {option.explanation}
+                          </div>
+                        )}
+                        {option.ai_explanation && (
+                          <div className="mt-2 whitespace-pre-wrap text-[11.5px] leading-5 text-[var(--muted)]">
+                            AI：{option.ai_explanation}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            {preview.answer_text && (
+              <div className="rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-4">
+                <div className="text-[10.5px] uppercase tracking-[0.12em] text-[var(--faint)]">
+                  Answer / Rubric
+                </div>
+                <div className="mt-2 max-h-[320px] overflow-y-auto whitespace-pre-wrap text-[12px] leading-5 text-[var(--muted)]">
+                  {preview.answer_text}
+                </div>
+              </div>
+            )}
+            <div className="flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-3">
+              <div className="text-[10.5px] text-[var(--faint)]">
+                答案来源：{preview.answer_source || "—"} · 置信度：
+                {preview.answer_confidence || "—"} · 正确项：
+                {preview.correct_answer || "—"}
+              </div>
+              <Link
+                href={`/content/questions/${preview.question_id}?subject=${encodeURIComponent(subjectId)}`}
+                className="a-btn a-btn-sm a-btn-primary"
+              >
+                <ExternalLink size={13} /> 打开完整详情
+              </Link>
+            </div>
+          </div>
+        ) : null}
+      </AdminModal>
     </div>
   );
 }
 
 function QuestionListRow({
   question,
-  subjectId,
   canEdit,
   onStarsChange,
+  onPreview,
 }: {
   question: AdminQuestionListItem;
-  subjectId: string;
   canEdit: boolean;
   onStarsChange: (questionId: string, stars: number | null) => Promise<void>;
+  onPreview: (questionId: string) => void;
 }) {
   const [savingStars, setSavingStars] = useState(false);
-  const detailHref = `/content/questions/${question.question_id}?subject=${encodeURIComponent(subjectId)}`;
   return (
     <tr>
       <td>
-        <Link href={detailHref} className="block max-w-[520px]">
+        <button
+          type="button"
+          className="block max-w-[520px] cursor-pointer text-left transition hover:text-[var(--primary)]"
+          onClick={() => onPreview(question.question_id)}
+        >
           <div className="line-clamp-2 text-[12.5px] leading-5">
             {shortStem(question.stem)}
           </div>
           <div className="mt-1 font-mono text-[9.5px] text-[var(--faint)]">
             {question.question_id}
           </div>
-        </Link>
+        </button>
       </td>
       <td>
         <div className="flex flex-wrap items-center gap-1.5">
@@ -359,9 +533,13 @@ function QuestionListRow({
         />
       </td>
       <td className="text-right">
-        <Link href={detailHref} className="a-btn a-btn-sm">
+        <button
+          type="button"
+          className="a-btn a-btn-sm"
+          onClick={() => onPreview(question.question_id)}
+        >
           查看
-        </Link>
+        </button>
       </td>
     </tr>
   );

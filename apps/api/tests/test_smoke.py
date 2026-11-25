@@ -799,6 +799,12 @@ def test_admin_content_edits_and_creation_overlay(client):
         assert len(overview.json()["questions"]) == 5
         assert len(overview.json()["units"]) == 5
 
+        all_section = client.get(
+            "/api/v1/admin/content/questions?section=all&limit=5"
+        )
+        assert all_section.status_code == 200, all_section.text
+        assert all_section.json()["total"] == overview.json()["total"]
+
         frq_list = client.get(
             "/api/v1/admin/content/questions?section=FRQ&limit=100"
         ).json()

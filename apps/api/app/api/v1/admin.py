@@ -555,8 +555,10 @@ def admin_question_list(
     source_value = (source or "all").strip()
     if source_value not in ("all", "unit", "real_exam", "mock_exam", "unit_practice"):
         raise AppError(400, "QUESTION_SOURCE_INVALID", "来源筛选不合法")
-    section_value = (section or "").strip().upper() or None
-    if section_value not in (None, "MCQ", "FRQ"):
+    section_value = (section or "").strip().upper()
+    if section_value in ("", "ALL"):
+        section_value = None
+    elif section_value not in ("MCQ", "FRQ"):
         raise AppError(400, "QUESTION_SECTION_INVALID", "题型筛选不合法")
     result = admin_content.list_all_questions(
         source=source_value,
