@@ -4,6 +4,7 @@ import {
   AlertCircle,
   ArrowRight,
   BookOpen,
+  CalendarDays,
   CheckCircle2,
   FileText,
   Layers,
@@ -120,6 +121,7 @@ export function LandingPageContent() {
             <a href="#graph">{t("知识图谱")}</a>
             <a href="#sample">{t("做一道样题")}</a>
             <a href="#how">{t("怎么练")}</a>
+            <a href="#calendar">{t("学习日历")}</a>
             <a href="#teacher">{t("关于题库")}</a>
           </nav>
 
@@ -424,6 +426,90 @@ export function LandingPageContent() {
                 <p>{t(step.description)}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="landing-section landing-calendar" id="calendar">
+          <div className="landing-section-head">
+            <div>
+              <div className="eyebrow">Study calendar</div>
+              <h2 className="landing-h2">{t("老师排好计划，你每天只需要打开。")}</h2>
+            </div>
+            <p>
+              {t("按阶段定制学习计划，把课堂作业拆到每一天；完成当天的题就解锁下一项，落下的任务会醒目标记。")}
+            </p>
+          </div>
+          <div className="landing-calendar-grid">
+            <div className="landing-calendar-mock">
+              <div className="landing-calendar-top">
+                <span>2026 年 11 月</span>
+                <span className="pill pill-primary">{t("学习日历")}</span>
+              </div>
+              <div className="landing-calendar-week">
+                {["一", "二", "三", "四", "五", "六", "日"].map((day) => (
+                  <span key={day}>{day}</span>
+                ))}
+              </div>
+              <div className="landing-calendar-cells">
+                {Array.from({ length: 28 }, (_, index) => {
+                  const day = index + 1;
+                  const kind =
+                    day <= 5
+                      ? "done"
+                      : day === 9
+                        ? "overdue"
+                        : day === 10
+                          ? "locked"
+                          : day === 12 || day === 13
+                            ? "rest"
+                            : "ready";
+                  return (
+                    <span key={day} className={`landing-calendar-cell ${kind}`}>
+                      <b>{day}</b>
+                      {kind === "done" && <i>✓</i>}
+                      {kind === "overdue" && <i>!</i>}
+                      {kind === "locked" && <i>🔒</i>}
+                      {kind === "ready" && <i />}
+                    </span>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="landing-calendar-copy">
+              <div className="landing-calendar-point">
+                <CalendarDays size={17} />
+                <div>
+                  <strong>{t("按阶段和基础定制")}</strong>
+                  <p>{t("老师把课堂作业排成学习项，自动分配到开始到结束的每一天。")}</p>
+                </div>
+              </div>
+              <div className="landing-calendar-point">
+                <CheckCircle2 size={17} />
+                <div>
+                  <strong>{t("每天任务清清楚楚")}</strong>
+                  <p>{t("点击日期就看到当天要做的题，完成后下一项自动解锁。")}</p>
+                </div>
+              </div>
+              <div className="landing-calendar-point">
+                <AlertCircle size={17} />
+                <div>
+                  <strong>{t("落下的任务醒目标记")}</strong>
+                  <p>{t("逾期任务在日历上标红，补完即可继续推进。")}</p>
+                </div>
+              </div>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Link
+                  href={signedIn ? "/study-calendar" : "#teacher"}
+                  className="btn btn-primary btn-sm"
+                >
+                  {signedIn ? t("查看我的学习日历") : t("咨询定制学习计划")}
+                  <ArrowRight size={14} />
+                </Link>
+                <Link href="/login?next=/study-calendar" className="btn btn-sm">
+                  {t("登录")}
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
 

@@ -257,3 +257,65 @@ class FrqScoreItem(BaseModel):
 
 class FrqScoresRequest(BaseModel):
     scores: list[FrqScoreItem] = Field(default_factory=list, max_length=200)
+
+
+class HomeworkCreate(BaseModel):
+    subject_id: Optional[str] = None
+    title: str = Field(min_length=1, max_length=200)
+    note: Optional[str] = Field(default=None, max_length=5000)
+    unit_id: Optional[str] = Field(default=None, max_length=16)
+    topic_id: Optional[str] = Field(default=None, max_length=96)
+    question_ids: list[str] = Field(min_length=1, max_length=300)
+
+
+class HomeworkUpdate(BaseModel):
+    title: Optional[str] = Field(default=None, min_length=1, max_length=200)
+    note: Optional[str] = Field(default=None, max_length=5000)
+    unit_id: Optional[str] = Field(default=None, max_length=16)
+    topic_id: Optional[str] = Field(default=None, max_length=96)
+    question_ids: Optional[list[str]] = Field(default=None, max_length=300)
+
+
+class HomeworkQuestionsReplace(BaseModel):
+    question_ids: list[str] = Field(min_length=1, max_length=300)
+
+
+class StudyPlanCreate(BaseModel):
+    subject_id: Optional[str] = None
+    title: str = Field(min_length=1, max_length=200)
+    note: Optional[str] = None
+    category: Optional[str] = Field(default=None, max_length=32)
+    color: str = Field(default="primary", max_length=16)
+
+
+class StudyPlanUpdate(BaseModel):
+    title: Optional[str] = Field(default=None, min_length=1, max_length=200)
+    note: Optional[str] = None
+    category: Optional[str] = Field(default=None, max_length=32)
+    color: Optional[str] = Field(default=None, max_length=16)
+    status: Optional[Literal["active", "archived"]] = None
+
+
+class StudyPlanItemInput(BaseModel):
+    homework_id: str = Field(min_length=1, max_length=36)
+    title: Optional[str] = Field(default=None, max_length=200)
+
+
+class StudyPlanItemsReplace(BaseModel):
+    items: list[StudyPlanItemInput] = Field(max_length=500)
+
+
+class StudyPlanAssignPreview(BaseModel):
+    start_date: date
+    end_date: date
+
+
+class StudyPlanAssign(BaseModel):
+    student_ids: list[str] = Field(min_length=1, max_length=100)
+    start_date: date
+    end_date: date
+    note: Optional[str] = Field(default=None, max_length=5000)
+
+
+class StudyAssignmentCancel(BaseModel):
+    reason: Optional[str] = Field(default=None, max_length=500)

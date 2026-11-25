@@ -2,6 +2,8 @@
 
 import {
   BookOpen,
+  CalendarRange,
+  ClipboardList,
   FileText,
   Network,
   KeyRound,
@@ -46,6 +48,8 @@ export function useAdminSubject() {
 const NAV = [
   { href: "/dashboard", label: "仪表盘", icon: LayoutDashboard },
   { href: "/students", label: "学生", icon: Users },
+  { href: "/study-plans", label: "学习计划", icon: CalendarRange },
+  { href: "/homeworks", label: "课堂作业", icon: ClipboardList },
   { href: "/codes", label: "激活码", icon: KeyRound },
   { href: "/content/papers", label: "试卷", icon: FileText },
   { href: "/content/questions", label: "题目", icon: ListChecks },

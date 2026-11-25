@@ -13,6 +13,7 @@ import componentMessages from "@/lib/i18n/messages/components";
 import componentMessages2 from "@/lib/i18n/messages/components2";
 import commonMessages from "@/lib/i18n/messages/common";
 import landingMessages from "@/lib/i18n/messages/landing";
+import studyCalendarMessages from "@/lib/i18n/messages/studyCalendar";
 import studyMessages from "@/lib/i18n/messages/study";
 
 export type Lang = "zh" | "en";
@@ -26,6 +27,7 @@ const EN: Record<string, string> = {
   ...commonMessages,
   ...landingMessages,
   ...studyMessages,
+  ...studyCalendarMessages,
   ...componentMessages,
   ...componentMessages2,
 };

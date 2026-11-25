@@ -1045,6 +1045,12 @@ textarea {
     border-color: color-mix(in srgb, var(--accent) 25%, var(--line));
   }
 
+  .pill-success {
+    color: var(--success);
+    background: var(--success-soft);
+    border-color: color-mix(in srgb, var(--success) 25%, var(--line));
+  }
+
   .pill-locked {
     color: var(--danger);
     background: var(--danger-soft);
@@ -1354,7 +1360,7 @@ textarea {
     right: 12px;
     bottom: max(10px, env(safe-area-inset-bottom));
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 4px;
     padding: 7px;
     background: color-mix(in srgb, var(--surface) 92%, transparent);
@@ -3263,4 +3269,699 @@ textarea {
 .lang-modal {
   width: 100%;
   max-width: 380px;
+}
+
+/* ------------------------------------------------------------------------- *
+ * Study calendar
+ * ------------------------------------------------------------------------- */
+.study-calendar-head {
+  align-items: flex-end;
+}
+
+.study-month-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.study-month-label {
+  min-width: 118px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.study-alert {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 12.5px;
+  text-align: left;
+}
+
+.study-alert.is-error {
+  border-color: #f6d5d2;
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.study-alert.is-overdue {
+  border-color: #f1c9a5;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.study-alert.is-muted {
+  background: var(--surface-2);
+  color: var(--muted);
+}
+
+.study-current {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.study-current-card {
+  display: flex;
+  min-width: 280px;
+  flex: 1;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 9px 12px;
+  text-align: left;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.study-current-card:hover {
+  border-color: var(--primary);
+  background: var(--surface-2);
+}
+
+.study-calendar-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 16px;
+  align-items: start;
+}
+
+.study-calendar-card {
+  overflow: hidden;
+  padding: 0;
+}
+
+.study-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-2);
+}
+
+.study-weekdays span {
+  padding: 9px 0;
+  text-align: center;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+}
+
+.study-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-left: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+}
+
+.study-day {
+  position: relative;
+  display: flex;
+  min-height: 116px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 5px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+  padding: 7px 8px;
+  text-align: left;
+  transition: background 0.12s ease;
+}
+
+.study-day:hover {
+  background: var(--surface-2);
+}
+
+.study-day.is-outside {
+  background: var(--surface-2);
+  color: var(--faint);
+}
+
+.study-day.is-selected {
+  box-shadow: inset 0 0 0 2px var(--primary);
+}
+
+.study-day.is-today .study-day-number {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+}
+
+.study-day.is-overdue-day {
+  background: color-mix(in srgb, var(--danger-soft) 72%, var(--surface));
+}
+
+.study-day.is-rest-day {
+  background: color-mix(in srgb, var(--surface-2) 80%, var(--surface));
+}
+
+.study-day-number {
+  align-self: flex-start;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.study-day.is-outside .study-day-number {
+  color: var(--faint);
+}
+
+.study-day-rest {
+  font-size: 9.5px;
+  color: var(--faint);
+}
+
+.study-day-pills {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.study-pill {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 9.5px;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: var(--surface-3);
+  color: var(--muted);
+}
+
+.study-pill.is-completed {
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.study-pill.is-pending {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.study-pill.is-overdue {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.study-pill.is-locked {
+  background: var(--surface-3);
+  color: var(--faint);
+}
+
+.study-pill.is-more {
+  background: transparent;
+  color: var(--faint);
+}
+
+.study-day-dots {
+  display: none;
+}
+
+.study-day-badge {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 4px;
+  background: var(--danger);
+  color: #fff;
+  padding: 1px 4px;
+  font-size: 8.5px;
+}
+
+.study-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  border-top: 1px solid var(--line);
+  padding: 9px 14px;
+  font-size: 10.5px;
+  color: var(--muted);
+}
+
+.study-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.study-legend i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--surface-3);
+}
+
+.study-legend i.is-completed {
+  background: var(--success);
+}
+
+.study-legend i.is-pending {
+  background: var(--primary);
+}
+
+.study-legend i.is-locked {
+  background: var(--faint);
+}
+
+.study-legend i.is-overdue {
+  background: var(--danger);
+}
+
+.study-legend i.is-rest {
+  border: 1px solid var(--line);
+  background: transparent;
+}
+
+.study-day-panel {
+  position: sticky;
+  top: 18px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 16px;
+}
+
+.study-day-panel-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.study-empty-note {
+  padding: 32px 10px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.study-plan-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: var(--primary);
+}
+
+.study-plan-dot.color-primary {
+  background: var(--primary);
+}
+
+.study-plan-dot.color-accent {
+  background: var(--accent);
+}
+
+.study-plan-dot.color-success {
+  background: var(--success);
+}
+
+.study-plan-dot.color-violet {
+  background: #7c3aed;
+}
+
+.study-plan-dot.color-cyan {
+  background: #0891b2;
+}
+
+.study-task-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface);
+  padding: 10px 11px;
+}
+
+.study-task-card.is-completed {
+  background: color-mix(in srgb, var(--success-soft) 45%, var(--surface));
+}
+
+.study-task-card.is-overdue {
+  border-color: #f1c9a5;
+  background: color-mix(in srgb, var(--accent-soft) 55%, var(--surface));
+}
+
+.study-task-card.is-locked {
+  background: var(--surface-2);
+  opacity: 0.78;
+}
+
+.study-task-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.study-task-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.study-task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 3px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.study-task-note {
+  margin-top: 5px;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.study-task-lock {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 5px;
+  font-size: 10.5px;
+  color: var(--faint);
+}
+
+.study-task-action {
+  flex-shrink: 0;
+}
+
+.study-empty-hero {
+  margin: 10px auto 0;
+  max-width: 760px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  padding: 44px 28px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.study-empty-illustration {
+  display: grid;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 16px;
+  place-items: center;
+  border-radius: 22px;
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.study-empty-points {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  margin-top: 18px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.study-empty-points span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 1100px) {
+  .study-calendar-layout {
+    grid-template-columns: minmax(0, 1fr) 320px;
+  }
+}
+
+@media (max-width: 980px) {
+  .study-calendar-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .study-day-panel {
+    position: static;
+    max-height: none;
+  }
+
+  .study-day {
+    min-height: 92px;
+  }
+}
+
+@media (max-width: 640px) {
+  .study-calendar-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .study-month-label {
+    min-width: 0;
+    font-size: 12px;
+  }
+
+  .study-day {
+    min-height: 72px;
+    padding: 5px 6px;
+    gap: 3px;
+  }
+
+  .study-day-pills {
+    display: none;
+  }
+
+  .study-day-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+
+  .study-day-dots i {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--faint);
+  }
+
+  .study-day-dots i.is-completed {
+    background: var(--success);
+  }
+
+  .study-day-dots i.is-pending {
+    background: var(--primary);
+  }
+
+  .study-day-dots i.is-overdue {
+    background: var(--danger);
+  }
+
+  .study-day-dots i.is-locked {
+    background: var(--faint);
+  }
+
+  .study-day-badge {
+    display: none;
+  }
+
+  .study-day-rest {
+    display: none;
+  }
+
+  .study-task-card {
+    flex-direction: column;
+  }
+
+  .study-task-action {
+    width: 100%;
+  }
+
+  .study-task-action .btn {
+    width: 100%;
+  }
+}
+
+/* Landing: study calendar */
+.landing-calendar-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.85fr);
+  gap: 28px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.landing-calendar-mock {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.landing-calendar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.landing-calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 12px;
+  color: var(--faint);
+  font-size: 9.5px;
+  text-align: center;
+}
+
+.landing-calendar-cells {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+  margin-top: 6px;
+}
+
+.landing-calendar-cell {
+  position: relative;
+  display: flex;
+  min-height: 54px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: var(--surface-2);
+  padding: 5px 6px;
+  font-size: 9.5px;
+}
+
+.landing-calendar-cell b {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 500;
+}
+
+.landing-calendar-cell i {
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  font-style: normal;
+  color: transparent;
+}
+
+.landing-calendar-cell.done {
+  background: color-mix(in srgb, var(--success-soft) 70%, var(--surface));
+}
+
+.landing-calendar-cell.done i {
+  background: var(--success);
+}
+
+.landing-calendar-cell.ready {
+  background: var(--primary-soft);
+}
+
+.landing-calendar-cell.ready i {
+  background: var(--primary);
+}
+
+.landing-calendar-cell.overdue {
+  border-color: #e7b18f;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.landing-calendar-cell.overdue i {
+  background: var(--danger);
+}
+
+.landing-calendar-cell.locked {
+  background: var(--surface-3);
+  color: var(--faint);
+}
+
+.landing-calendar-cell.locked i {
+  background: var(--faint);
+}
+
+.landing-calendar-cell.rest {
+  background: transparent;
+  border-color: var(--line);
+}
+
+.landing-calendar-cell.rest i {
+  background: transparent;
+}
+
+.landing-calendar-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.landing-calendar-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--primary);
+}
+
+.landing-calendar-point div {
+  color: var(--ink);
+}
+
+.landing-calendar-point strong {
+  display: block;
+  font-size: 13.5px;
+}
+
+.landing-calendar-point p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .landing-calendar-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .landing-calendar-cell {
+    min-height: 42px;
+    padding: 4px;
+    font-size: 8.5px;
+  }
 }

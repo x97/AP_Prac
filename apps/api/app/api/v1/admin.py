@@ -62,6 +62,7 @@ from app.users.models import (
     QuestionReport,
     QuestionStar,
     ReleaseJob,
+    StudyPlanAssignment,
     User,
     UserQuestionStat,
     WrongQuestion,
@@ -265,6 +266,23 @@ def admin_students(
         count_stmt = count_stmt.where(condition)
     total = db.scalar(count_stmt) or 0
     rows = list(db.scalars(stmt.order_by(User.created_at.desc()).limit(limit).offset(offset)))
+    user_ids = [user.id for user in rows]
+    active_plan_counts: dict[str, int] = {}
+    latest_plan_titles: dict[str, str] = {}
+    if user_ids:
+        assignments = db.scalars(
+            select(StudyPlanAssignment)
+            .where(
+                StudyPlanAssignment.user_id.in_(user_ids),
+                StudyPlanAssignment.status == "active",
+            )
+            .order_by(StudyPlanAssignment.created_at.desc())
+        ).all()
+        for assignment in assignments:
+            active_plan_counts[assignment.user_id] = (
+                active_plan_counts.get(assignment.user_id, 0) + 1
+            )
+            latest_plan_titles.setdefault(assignment.user_id, assignment.plan_title)
     items = []
     for user in rows:
         stat = _student_stats(db, user.id)
@@ -289,6 +307,8 @@ def admin_students(
                 "created_at": user.created_at,
                 "last_login_at": user.last_login_at,
                 "last_active_at": last_active,
+                "active_plan_count": active_plan_counts.get(user.id, 0),
+                "latest_plan_title": latest_plan_titles.get(user.id),
                 **stat,
             }
         )
@@ -542,6 +562,8 @@ def admin_paper_detail(
 def admin_question_list(
     source: str = "all",
     unit: Optional[str] = None,
+    topic: Optional[str] = None,
+    paper_id: Optional[str] = None,
     section: Optional[str] = None,
     q: Optional[str] = None,
     limit: int = Query(default=50, ge=1, le=200),
@@ -562,7 +584,9 @@ def admin_question_list(
         raise AppError(400, "QUESTION_SECTION_INVALID", "题型筛选不合法")
     result = admin_content.list_all_questions(
         source=source_value,
-        unit_id=unit if source_value == "unit" else None,
+        unit_id=unit,
+        topic_id=topic,
+        paper_id=paper_id,
         section=section_value,
         q=q,
         limit=limit,
@@ -577,6 +601,41 @@ def admin_question_list(
         "offset": offset,
         "units": result["units"],
     }
+
+
+@router.get("/content/questions/ids")
+def admin_question_ids(
+    source: str = "all",
+    unit: Optional[str] = None,
+    topic: Optional[str] = None,
+    paper_id: Optional[str] = None,
+    section: Optional[str] = None,
+    q: Optional[str] = None,
+    max: int = Query(default=2000, ge=1, le=2000),
+    subject: Optional[str] = None,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(get_current_admin),
+):
+    subject_id = _admin_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    source_value = (source or "all").strip()
+    if source_value not in ("all", "unit", "real_exam", "mock_exam", "unit_practice"):
+        raise AppError(400, "QUESTION_SOURCE_INVALID", "来源筛选不合法")
+    section_value = (section or "").strip().upper()
+    if section_value in ("", "ALL"):
+        section_value = None
+    elif section_value not in ("MCQ", "FRQ"):
+        raise AppError(400, "QUESTION_SECTION_INVALID", "题型筛选不合法")
+    return admin_content.list_all_question_ids(
+        source=source_value,
+        unit_id=unit,
+        topic_id=topic,
+        paper_id=paper_id,
+        section=section_value,
+        q=q,
+        max_ids=max,
+        subject_id=subject_id,
+    )
 
 
 @router.get("/content/questions/{question_id}")

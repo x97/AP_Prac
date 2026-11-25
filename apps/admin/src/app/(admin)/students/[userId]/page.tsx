@@ -1,12 +1,18 @@
 "use client";
 
-import { ArrowLeft, Loader2, Save } from "lucide-react";
+import { ArrowLeft, CalendarPlus, Loader2, Save } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { apiGet, apiPatch } from "@/lib/api";
-import type { StudentDetail } from "@/lib/types";
+import { AssignPlanModal } from "@/components/AssignPlanModal";
+import { useAdminSubject } from "@/components/AdminShell";
+import { apiGet, apiPatch, apiPost } from "@/lib/api";
+import type {
+  StudentDetail,
+  StudyAssignment,
+  StudyAssignmentList,
+} from "@/lib/types";
 
 function date(value: string | null | undefined) {
   if (!value) return "—";
@@ -41,12 +47,17 @@ function examTimeText(value: string | null | undefined) {
 
 export default function StudentDetailPage() {
   const params = useParams<{ userId: string }>();
+  const { subjectId } = useAdminSubject();
   const [data, setData] = useState<StudentDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [teacherNote, setTeacherNote] = useState("");
   const [savingNote, setSavingNote] = useState(false);
   const [noteError, setNoteError] = useState<string | null>(null);
   const [noteSaved, setNoteSaved] = useState(false);
+  const [plans, setPlans] = useState<StudyAssignment[]>([]);
+  const [assignOpen, setAssignOpen] = useState(false);
+  const [planRefresh, setPlanRefresh] = useState(0);
+  const [planError, setPlanError] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -61,6 +72,29 @@ export default function StudentDetailPage() {
       alive = false;
     };
   }, [params.userId]);
+
+  useEffect(() => {
+    let alive = true;
+    apiGet<StudyAssignmentList>(
+      `/study-plan-assignments?user_id=${params.userId}&limit=100`,
+    )
+      .then((value) => alive && setPlans(value.assignments))
+      .catch(() => alive && setPlans([]));
+    return () => {
+      alive = false;
+    };
+  }, [params.userId, planRefresh]);
+
+  async function cancelPlan(assignment: StudyAssignment) {
+    if (!window.confirm(`取消「${assignment.plan_title}」这个学习计划？`)) return;
+    setPlanError(null);
+    try {
+      await apiPost(`/study-plan-assignments/${assignment.id}/cancel`, {});
+      setPlanRefresh((value) => value + 1);
+    } catch (e) {
+      setPlanError(e instanceof Error ? e.message : "取消失败");
+    }
+  }
 
   async function saveNote() {
     setSavingNote(true);
@@ -208,6 +242,73 @@ export default function StudentDetailPage() {
         ))}
       </div>
 
+      <section className="a-card mt-4 overflow-hidden">
+        <div className="flex items-center justify-between border-b border-[var(--line)] px-5 py-4">
+          <div>
+            <h2 className="text-[15px] font-semibold">学习计划</h2>
+            <p className="mt-0.5 text-[11px] text-[var(--muted)]">
+              进行中的计划会显示在学生的「学习日历」里。
+            </p>
+          </div>
+          <button className="a-btn a-btn-sm a-btn-primary" onClick={() => setAssignOpen(true)}>
+            <CalendarPlus size={13} /> 指派学习计划
+          </button>
+        </div>
+        {plans.length === 0 ? (
+          <div className="py-10 text-center text-[12px] text-[var(--faint)]">
+            还没有学习计划
+          </div>
+        ) : (
+          <div className="divide-y divide-[var(--line)]">
+            {planError && (
+              <div className="mx-5 mt-3 rounded-lg border border-[#f6d5d2] bg-[var(--danger-soft)] px-3 py-2 text-[11.5px] text-[var(--danger)]">
+                {planError}
+              </div>
+            )}
+            {plans.map((assignment) => (
+              <div
+                key={assignment.id}
+                className="flex flex-wrap items-center justify-between gap-3 px-5 py-3"
+              >
+                <div>
+                  <div className="text-[12.5px] font-medium">
+                    {assignment.plan_title}
+                  </div>
+                  <div className="mt-0.5 text-[10.5px] text-[var(--faint)]">
+                    {assignment.start_date} → {assignment.end_date} ·{" "}
+                    {assignment.completed_items}/{assignment.total_items} 项
+                    {assignment.overdue_task_days > 0
+                      ? ` · 逾期 ${assignment.overdue_task_days} 天`
+                      : ""}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span
+                    className={`a-badge ${
+                      assignment.status === "active" ? "a-badge-primary" : ""
+                    }`}
+                  >
+                    {assignment.status === "active"
+                      ? "进行中"
+                      : assignment.status === "completed"
+                        ? "已完成"
+                        : "已取消"}
+                  </span>
+                  {assignment.status === "active" && (
+                    <button
+                      className="a-btn a-btn-sm"
+                      onClick={() => cancelPlan(assignment)}
+                    >
+                      取消
+                    </button>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
       <div className="mt-4 grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
         <section className="a-card p-5">
           <h2 className="text-[15px] font-semibold">Unit 进度</h2>
@@ -342,6 +443,14 @@ export default function StudentDetailPage() {
           </table>
         </div>
       </section>
+
+      <AssignPlanModal
+        open={assignOpen}
+        subjectId={subjectId}
+        fixedStudent={{ id: student.id, nickname: student.nickname }}
+        onClose={() => setAssignOpen(false)}
+        onAssigned={() => setPlanRefresh((value) => value + 1)}
+      />
     </div>
   );
 }

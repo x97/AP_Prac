@@ -166,6 +166,7 @@ export type SessionPayload = {
     total: number;
     accuracy: number | null;
   };
+  homework?: StudyHomeworkBlock;
 };
 
 export type SessionTopicContext = {
@@ -679,4 +680,126 @@ export type KnowledgeGraphResponse = {
   release_id: string;
   subject_id: string;
   units: KnowledgeGraphUnit[];
+};
+
+// ---------------------------------------------------------------------------
+// Study calendar
+// ---------------------------------------------------------------------------
+export type StudyCalendarTask = {
+  task_id: string;
+  title: string;
+  plan_title: string;
+  color: string;
+  unit_title: string | null;
+  topic_title: string | null;
+  question_count: number;
+  answered_question_count: number;
+  status: "completed" | "pending" | "overdue" | "locked";
+  locked: boolean;
+  early: boolean;
+  overdue: boolean;
+  completed_late: boolean;
+};
+
+export type StudyCalendarDay = {
+  date: string;
+  tasks: StudyCalendarTask[];
+  summary: {
+    total: number;
+    completed: number;
+    pending: number;
+    overdue: number;
+    locked: number;
+  };
+};
+
+export type StudyCalendarPlan = {
+  assignment_id: string;
+  plan_id: string;
+  title: string;
+  color: string;
+  status: string;
+  start_date: string;
+  end_date: string;
+  total_items: number;
+  completed_items: number;
+  total_questions: number;
+  answered_questions: number;
+  current_task: {
+    task_id: string;
+    title: string;
+    study_date: string;
+    day_index: number;
+  } | null;
+};
+
+export type StudyCalendarResponse = {
+  month: string;
+  today: string;
+  has_ever_plan: boolean;
+  has_active_plan: boolean;
+  active_assignment_count: number;
+  plans: StudyCalendarPlan[];
+  days: StudyCalendarDay[];
+  overdue_days: number;
+  earliest_overdue_date: string | null;
+};
+
+export type StudyDayTask = {
+  task_id: string;
+  title: string;
+  homework_id: string;
+  homework_title: string;
+  note: string;
+  unit_id: string | null;
+  unit_title: string | null;
+  topic_id: string | null;
+  topic_title: string | null;
+  question_count: number;
+  unavailable_question_count: number;
+  answered_question_count: number;
+  correct_count: number;
+  status: "completed" | "pending" | "overdue" | "locked";
+  locked: boolean;
+  locked_reason: string | null;
+  early: boolean;
+  overdue: boolean;
+  completed_late: boolean;
+  session_id: string | null;
+  session_status: string | null;
+};
+
+export type StudyDayAssignment = {
+  assignment_id: string;
+  plan_id: string;
+  plan_title: string;
+  color: string;
+  status: string;
+  start_date: string;
+  end_date: string;
+  tasks: StudyDayTask[];
+  summary: {
+    total: number;
+    completed: number;
+    pending: number;
+    overdue: number;
+    locked: number;
+  };
+};
+
+export type StudyDayResponse = {
+  date: string;
+  today: string;
+  is_today: boolean;
+  assignments: StudyDayAssignment[];
+};
+
+export type StudyHomeworkBlock = {
+  task_id: string;
+  assignment_id: string;
+  plan_title: string;
+  task_title: string;
+  study_date: string;
+  task_completed: boolean;
+  next_task: { id: string; title: string; study_date: string } | null;
 };

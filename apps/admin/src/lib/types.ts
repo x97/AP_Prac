@@ -65,6 +65,8 @@ export type StudentListItem = {
   accuracy: number | null;
   practice_count: number;
   attempt_count: number;
+  active_plan_count?: number;
+  latest_plan_title?: string | null;
 };
 
 export type StudentList = {
@@ -503,4 +505,181 @@ export type AdminSubject = {
   name: string;
   name_zh: string;
   enabled: boolean;
+};
+
+// ---------------------------------------------------------------------------
+// Study plans / classroom homeworks
+// ---------------------------------------------------------------------------
+export type ClassroomHomework = {
+  id: string;
+  subject_id: string;
+  title: string;
+  note: string;
+  unit_id: string | null;
+  unit_title: string | null;
+  topic_id: string | null;
+  topic_code: string | null;
+  topic_title: string | null;
+  question_count: number;
+  status: string;
+  version: number;
+  content_release_id: string | null;
+  created_at: string;
+  updated_at: string;
+  used_in_plans?: number;
+  plan_titles?: string[];
+};
+
+export type ClassroomHomeworkDetail = ClassroomHomework & {
+  questions: Array<
+    QuestionDetail & {
+      sort_order: number;
+      stars?: number | null;
+      missing?: boolean;
+    }
+  >;
+};
+
+export type ClassroomHomeworkList = {
+  homeworks: ClassroomHomework[];
+  total: number;
+  limit: number;
+  offset: number;
+};
+
+export type StudyTaxonomyTopic = {
+  topic_id: string;
+  group_id: string;
+  unit_id: string;
+  code: string;
+  title_zh: string;
+  title_en: string;
+  kind: string;
+  sort_order: number;
+  question_count: number;
+};
+
+export type StudyTaxonomyUnit = {
+  unit_id: string;
+  title: string;
+  title_en?: string | null;
+  topics: StudyTaxonomyTopic[];
+};
+
+export type StudyTaxonomy = {
+  units: StudyTaxonomyUnit[];
+  topics: StudyTaxonomyTopic[];
+};
+
+export type StudyPlan = {
+  id: string;
+  subject_id: string;
+  title: string;
+  note: string;
+  category: string | null;
+  color: string;
+  status: string;
+  version: number;
+  item_count: number;
+  created_at: string;
+  updated_at: string;
+  active_assignment_count?: number;
+};
+
+export type StudyPlanItem = {
+  id: string;
+  position: number;
+  title: string;
+  homework_id: string;
+  homework_title: string;
+  homework_status: string;
+  question_count: number;
+};
+
+export type StudyPlanDetail = StudyPlan & {
+  items: StudyPlanItem[];
+  active_assignment_count: number;
+};
+
+export type StudyPlanList = {
+  plans: StudyPlan[];
+  total: number;
+  limit: number;
+  offset: number;
+};
+
+export type StudyScheduleDay = {
+  date: string;
+  day_index: number;
+  item_count: number;
+  items: Array<{ title: string; homework_id: string }>;
+};
+
+export type StudySchedulePreview = {
+  start_date: string;
+  end_date: string;
+  total_days: number;
+  task_days: number;
+  rest_days: number;
+  total_items: number;
+  max_items_per_day: number;
+  days: StudyScheduleDay[];
+};
+
+export type StudyAssignmentStudent = {
+  id: string;
+  nickname: string | null;
+  email_masked: string | null;
+  phone_masked: string | null;
+};
+
+export type StudyAssignment = {
+  id: string;
+  plan_id: string;
+  plan_title: string;
+  subject_id: string;
+  student: StudyAssignmentStudent | null;
+  start_date: string;
+  end_date: string;
+  status: string;
+  total_items: number;
+  completed_items: number;
+  total_questions: number;
+  answered_questions: number;
+  overdue_task_days: number;
+  current_task: { id: string; title: string; study_date: string } | null;
+  created_at: string;
+};
+
+export type StudyAssignmentList = {
+  assignments: StudyAssignment[];
+  total: number;
+  limit: number;
+  offset: number;
+};
+
+export type StudyAssignmentDetail = {
+  id: string;
+  plan_id: string;
+  plan_title: string;
+  student: StudyAssignmentStudent | null;
+  start_date: string;
+  end_date: string;
+  status: string;
+  total_items: number;
+  completed_items: number;
+  total_questions: number;
+  answered_questions: number;
+  tasks: Array<{
+    id: string;
+    title: string;
+    homework_title: string;
+    study_date: string;
+    day_index: number;
+    status: string;
+    question_count: number;
+    answered_question_count: number;
+    correct_count: number;
+    overdue: boolean;
+  }>;
 };

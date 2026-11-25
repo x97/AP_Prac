@@ -4,6 +4,7 @@ import {
   AlertCircle,
   Bookmark,
   BookOpen,
+  CalendarDays,
   FileText,
   History,
   Home,
@@ -25,6 +26,7 @@ import { UserMenu } from "@/components/UserMenu";
 
 const NAV = [
   { href: "/dashboard", label: "首页", icon: Home },
+  { href: "/study-calendar", label: "学习日历", icon: CalendarDays },
   { href: "/practice", label: "单元练习", icon: BookOpen },
   { href: "/knowledge", label: "知识图谱", icon: Network },
   { href: "/exams", label: "真题", icon: FileText },
@@ -37,6 +39,7 @@ const NAV = [
 
 const TABS = [
   { href: "/practice", label: "练习", icon: BookOpen },
+  { href: "/study-calendar", label: "日历", icon: CalendarDays },
   { href: "/knowledge", label: "图谱", icon: Network },
   { href: "/exams", label: "真题", icon: FileText },
   { href: "/wrong", label: "错题", icon: AlertCircle },

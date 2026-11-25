@@ -1,11 +1,13 @@
 "use client";
 
-import { ChevronLeft, ChevronRight, Loader2, Search, Users } from "lucide-react";
+import { ChevronLeft, ChevronRight, CalendarPlus, Loader2, Search, Users } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { AssignPlanModal } from "@/components/AssignPlanModal";
+import { useAdminSubject } from "@/components/AdminShell";
 import { apiGet } from "@/lib/api";
-import type { StudentList } from "@/lib/types";
+import type { StudentListItem, StudentList } from "@/lib/types";
 
 const LIMIT = 50;
 
@@ -39,12 +41,15 @@ function examTimeText(value: string | null) {
 }
 
 export default function StudentsPage() {
+  const { subjectId } = useAdminSubject();
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
   const [offset, setOffset] = useState(0);
   const [data, setData] = useState<StudentList | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [assignStudent, setAssignStudent] = useState<StudentListItem | null>(null);
+  const [refresh, setRefresh] = useState(0);
 
   useEffect(() => {
     let alive = true;
@@ -63,7 +68,7 @@ export default function StudentsPage() {
     return () => {
       alive = false;
     };
-  }, [search, offset]);
+  }, [search, offset, refresh]);
 
   function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -133,6 +138,7 @@ export default function StudentsPage() {
                   <th>正确率</th>
                   <th>练习</th>
                   <th>考试次数</th>
+                  <th>学习计划</th>
                   <th>注册时间</th>
                   <th>最近活跃</th>
                   <th />
@@ -167,6 +173,20 @@ export default function StudentsPage() {
                     <td>{percent(student.accuracy)}</td>
                     <td className="font-mono">{student.practice_count}</td>
                     <td className="font-mono">{student.attempt_count}</td>
+                    <td className="text-[12px]">
+                      {student.active_plan_count ? (
+                        <div>
+                          <span className="a-badge a-badge-primary">
+                            {student.active_plan_count} 个进行中
+                          </span>
+                          <div className="mt-0.5 max-w-[160px] truncate text-[10.5px] text-[var(--faint)]">
+                            {student.latest_plan_title || ""}
+                          </div>
+                        </div>
+                      ) : (
+                        <span className="text-[var(--faint)]">—</span>
+                      )}
+                    </td>
                     <td className="text-[12px] text-[var(--muted)]">
                       {date(student.created_at)}
                     </td>
@@ -174,12 +194,20 @@ export default function StudentsPage() {
                       {date(student.last_active_at)}
                     </td>
                     <td className="text-right">
-                      <Link
-                        href={`/students/${student.id}`}
-                        className="a-btn a-btn-sm"
-                      >
-                        详情
-                      </Link>
+                      <div className="flex justify-end gap-1">
+                        <button
+                          className="a-btn a-btn-sm"
+                          onClick={() => setAssignStudent(student)}
+                        >
+                          <CalendarPlus size={13} /> 指派计划
+                        </button>
+                        <Link
+                          href={`/students/${student.id}`}
+                          className="a-btn a-btn-sm"
+                        >
+                          详情
+                        </Link>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -218,6 +246,14 @@ export default function StudentsPage() {
           </button>
         </div>
       </div>
+
+      <AssignPlanModal
+        open={Boolean(assignStudent)}
+        subjectId={subjectId}
+        fixedStudent={assignStudent}
+        onClose={() => setAssignStudent(null)}
+        onAssigned={() => setRefresh((value) => value + 1)}
+      />
     </div>
   );
 }

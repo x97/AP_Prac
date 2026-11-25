@@ -16,6 +16,7 @@ from app.users.models import (
     Bookmark,
     PracticeSession,
     PracticeSessionQuestion,
+    StudyPlanTask,
     User,
     WrongQuestion,
 )
@@ -281,7 +282,7 @@ def session_payload(
         (i for i, row in enumerate(rows) if not row.answered_at), max(0, len(rows) - 1)
     )
     topic_concepts = store.get_topic_concepts(session.topic_id) if session.topic_id else []
-    return {
+    payload = {
         "session": {
             "id": session.id,
             "source": session.source,
@@ -305,6 +306,41 @@ def session_payload(
             "accuracy": round(correct / answered, 3) if answered else None,
         },
     }
+    if session.source == "homework":
+        task = db.scalar(
+            select(StudyPlanTask).where(
+                StudyPlanTask.practice_session_id == session.id
+            )
+        )
+        if task is not None:
+            next_task = db.scalar(
+                select(StudyPlanTask)
+                .where(
+                    StudyPlanTask.assignment_id == task.assignment_id,
+                    StudyPlanTask.status == "pending",
+                    StudyPlanTask.cancelled_at.is_(None),
+                )
+                .order_by(StudyPlanTask.day_index, StudyPlanTask.sort_order)
+                .limit(1)
+            )
+            payload["homework"] = {
+                "task_id": task.id,
+                "assignment_id": task.assignment_id,
+                "plan_title": task.plan_title,
+                "task_title": task.item_title,
+                "study_date": task.study_date.isoformat(),
+                "task_completed": task.status == "completed",
+                "next_task": (
+                    {
+                        "id": next_task.id,
+                        "title": next_task.item_title,
+                        "study_date": next_task.study_date.isoformat(),
+                    }
+                    if next_task is not None
+                    else None
+                ),
+            }
+    return payload
 
 
 def get_session(db: Session, store: ContentStore, user: User, session_id: str) -> dict[str, Any]:
@@ -348,6 +384,10 @@ def topic_context_for_question(
 
 def _maybe_complete(db: Session, session: PracticeSession) -> bool:
     if session.status != "in_progress":
+        if session.status == "submitted" and session.source == "homework":
+            from app.services import study_plans
+
+            study_plans.sync_task_progress(db, session)
         return session.status == "submitted"
     rows = _session_rows(db, session.id)
     if rows and all(row.answered_at for row in rows):
@@ -355,6 +395,10 @@ def _maybe_complete(db: Session, session: PracticeSession) -> bool:
         session.submitted_at = utcnow()
         session.score = sum(1 for row in rows if row.is_correct)
         session.total = len(rows)
+        if session.source == "homework":
+            from app.services import study_plans
+
+            study_plans.sync_task_progress(db, session)
         return True
     return False
 
@@ -479,10 +523,16 @@ def submit_session(db: Session, user: User, session_id: str) -> dict[str, Any]:
     total = len(rows)
     answered = sum(1 for r in rows if r.answered_at)
     correct = sum(1 for r in rows if r.is_correct)
+    if session.source == "homework" and answered < total:
+        raise AppError(409, "HOMEWORK_INCOMPLETE", "请完成全部题目后再提交")
     session.status = "submitted"
     session.submitted_at = utcnow()
     session.score = correct
     session.total = total
+    if session.source == "homework":
+        from app.services import study_plans
+
+        study_plans.sync_task_progress(db, session)
     db.commit()
     return {
         "session": {

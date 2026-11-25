@@ -35,6 +35,7 @@ function practiceTitle(item: PracticeHistoryItem) {
   if (item.topic_title_en) return item.topic_title_en;
   if (item.source === "wrong") return "Wrong Practice";
   if (item.source === "bookmark") return "Bookmark Practice";
+  if (item.source === "homework") return "Study Calendar Homework";
   if (item.group_title_en) return item.group_title_en;
   return "Chapter Practice";
 }
@@ -134,6 +135,7 @@ export default function HistoryPage() {
                   )}
                   {item.source === "wrong" && <span className="badge">Wrong</span>}
                   {item.source === "bookmark" && <span className="badge">Bookmark</span>}
+                  {item.source === "homework" && <span className="badge">Study Plan</span>}
                 </div>
                 <div className="font-semibold text-[14px] mt-1.5" lang="en">
                   {practiceTitle(item)}

@@ -364,20 +364,29 @@ export default function PracticeSessionPage() {
   }
 
   const isWrongPractice = data.session.source === "wrong";
-  const backHref = isWrongPractice
-    ? "/wrong"
-    : data.session.group_id
-      ? `/practice/${data.session.group_id}`
-      : "/practice";
+  const isHomework = data.session.source === "homework";
+  const backHref = isHomework
+    ? "/study-calendar"
+    : isWrongPractice
+      ? "/wrong"
+      : data.session.group_id
+        ? `/practice/${data.session.group_id}`
+        : "/practice";
+  const backLabel = isHomework
+    ? t("返回学习日历")
+    : isWrongPractice
+      ? t("返回错题本")
+      : "Back to Unit";
 
   if (data.questions.length === 0) {
     return (
       <div>
         <div className="flex items-center gap-2 mb-4">
           <Link href={backHref} className="btn btn-ghost btn-sm -ml-2">
-            <ArrowLeft size={14} /> {isWrongPractice ? t("返回错题本") : "Back to Unit"}
+            <ArrowLeft size={14} /> {backLabel}
           </Link>
           {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
+          {isHomework && <span className="pill pill-primary">{t("学习计划作业")}</span>}
         </div>
         <div className="card empty">
           {isWrongPractice
@@ -409,9 +418,10 @@ export default function PracticeSessionPage() {
       <div className="top-row-clear flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2">
           <Link href={backHref} className="btn btn-ghost btn-sm -ml-2">
-            <ArrowLeft size={14} /> {isWrongPractice ? t("返回错题本") : "Back to Unit"}
+            <ArrowLeft size={14} /> {backLabel}
           </Link>
           {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
+          {isHomework && <span className="pill pill-primary">{t("学习计划作业")}</span>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <span className="pill">
@@ -426,7 +436,7 @@ export default function PracticeSessionPage() {
               <RotateCcw size={13} /> {t("重新开始")}
             </button>
           )}
-          {data.session.status === "in_progress" && (
+          {data.session.status === "in_progress" && !isHomework && (
             <button className="btn btn-sm btn-ghost" onClick={abandon} disabled={busy}>
               End Session
             </button>
@@ -445,15 +455,25 @@ export default function PracticeSessionPage() {
           <div className="flex items-center gap-2">
             <CheckCircle2 size={18} className="text-[var(--primary)]" />
             <h2 className="h2">
-              {isWrongPractice
+              {isHomework
                 ? data.session.status === "submitted"
-                  ? t("错题练习完成")
-                  : t("错题练习已结束")
-                : data.session.status === "submitted"
-                  ? "Chapter Complete"
-                  : "Session Ended Early"}
+                  ? t("作业完成")
+                  : t("作业已结束")
+                : isWrongPractice
+                  ? data.session.status === "submitted"
+                    ? t("错题练习完成")
+                    : t("错题练习已结束")
+                  : data.session.status === "submitted"
+                    ? "Chapter Complete"
+                    : "Session Ended Early"}
             </h2>
           </div>
+          {isHomework && data.homework && (
+            <div className="mt-2 text-[12px] text-[var(--muted)]">
+              {data.homework.plan_title} · {data.homework.task_title} ·{" "}
+              {data.homework.study_date}
+            </div>
+          )}
           <p className="muted text-[13px] mt-1">
             Answered {progress.answered}/{progress.total} · Correct {progress.correct}
             {progress.answered
@@ -462,15 +482,23 @@ export default function PracticeSessionPage() {
             {data.session.status === "submitted" ? ". Wrong answers were added to your wrong book." : ". Answered questions remain available for review."}
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
-            <Link href="/history" className="btn btn-sm">
-              History
-            </Link>
-            <Link
-              href="/wrong"
-              className={isWrongPractice ? "btn btn-sm btn-primary" : "btn btn-sm"}
-            >
-              {isWrongPractice ? t("退出错题本") : "Wrong Book"}
-            </Link>
+            {isHomework ? (
+              <Link href="/study-calendar" className="btn btn-sm btn-primary">
+                <ArrowLeft size={14} /> {t("返回学习日历")}
+              </Link>
+            ) : (
+              <Link href="/history" className="btn btn-sm">
+                History
+              </Link>
+            )}
+            {!isHomework && (
+              <Link
+                href="/wrong"
+                className={isWrongPractice ? "btn btn-sm btn-primary" : "btn btn-sm"}
+              >
+                {isWrongPractice ? t("退出错题本") : "Wrong Book"}
+              </Link>
+            )}
             {data.session.topic_id && (
               <button className="btn btn-sm" onClick={restart} disabled={busy}>
                 <RotateCcw size={13} /> Practice Again
@@ -480,7 +508,7 @@ export default function PracticeSessionPage() {
         </div>
       )}
 
-      {data.session.status === "submitted" && !isWrongPractice && (
+      {data.session.status === "submitted" && !isWrongPractice && !isHomework && (
         <TeacherPromoCard variant="result" />
       )}
 

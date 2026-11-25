@@ -5,7 +5,7 @@ import { brand } from "@/config/brand";
 
 const title = `${brand.name} · AP Psychology 2027 备考练习与真题`;
 const description =
-  `${brand.name}（${brand.domain}）AP Psychology 2027 备考平台：按 CED Unit/Topic 练习、12 套真题与模拟、错题本、知识图谱和记忆卡片，Unit 1 免费体验。AP Psychology practice, past papers, and flashcards.`;
+  `${brand.name}（${brand.domain}）AP Psychology 2027 备考平台：按 CED Unit/Topic 练习、12 套真题与模拟、错题本、知识图谱、记忆卡片，以及老师定制的学习日历陪跑计划。Unit 1 免费体验。AP Psychology practice, past papers, flashcards, and a teacher-built study calendar.`;
 
 export const metadata: Metadata = {
   title: { absolute: title },

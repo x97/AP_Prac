@@ -338,6 +338,8 @@ def list_question_units(
 def list_all_questions(
     source: str = "all",
     unit_id: Optional[str] = None,
+    topic_id: Optional[str] = None,
+    paper_id: Optional[str] = None,
     section: Optional[str] = None,
     q: Optional[str] = None,
     limit: int = 50,
@@ -351,12 +353,13 @@ def list_all_questions(
     ``source=unit`` selects questions mapped into a unit practice bundle via
     ``paper_question_map``. Unit 0 has no practice bundle, so it selects
     questions linked to concepts with ``ap_unit='0'`` instead. Other sources
-    map to ``papers.paper_type``.
+    map to ``papers.paper_type``. ``unit_id`` and ``topic_id`` also work
+    independently of ``source`` for the study-plan question picker.
     """
     exam_db = db_path or _read_paths()[0]
     clauses = ["q.subject_id = ?"]
     params: list[Any] = [subject_id]
-    if source == "unit" and str(unit_id or "") == "0":
+    if str(unit_id or "") == "0" and (source == "unit" or unit_id):
         knowledge_db = knowledge_db_path or _read_paths()[1]
         unit0_ids = [
             str(row["question_id"])
@@ -378,7 +381,7 @@ def list_all_questions(
             params.extend(unit0_ids)
         else:
             clauses.append("0=1")
-    elif source == "unit":
+    elif unit_id or source == "unit":
         unit_clause = (
             "EXISTS (SELECT 1 FROM paper_question_map m "
             "JOIN practice_groups g ON g.bundle_paper_id = m.paper_id "
@@ -389,9 +392,18 @@ def list_all_questions(
             unit_clause += " AND g.unit_id = ?"
             params.append(str(unit_id))
         clauses.append(unit_clause + ")")
-    elif source in ("real_exam", "mock_exam", "unit_practice"):
+    if source in ("real_exam", "mock_exam", "unit_practice"):
         clauses.append("p.paper_type = ?")
         params.append(source)
+    if topic_id:
+        clauses.append(
+            "EXISTS (SELECT 1 FROM practice_topic_questions ptq "
+            "WHERE ptq.topic_id = ? AND ptq.question_id = q.question_id)"
+        )
+        params.append(str(topic_id))
+    if paper_id:
+        clauses.append("q.paper_id = ?")
+        params.append(str(paper_id))
     if section in ("MCQ", "FRQ"):
         clauses.append("q.section = ?")
         params.append(section)
@@ -463,6 +475,51 @@ def list_all_questions(
         "questions": rows,
         "total": int((total or {}).get("n") or 0),
         "units": list_question_units(exam_db, subject_id),
+    }
+
+
+def list_all_question_ids(
+    source: str = "all",
+    unit_id: Optional[str] = None,
+    topic_id: Optional[str] = None,
+    paper_id: Optional[str] = None,
+    section: Optional[str] = None,
+    q: Optional[str] = None,
+    max_ids: int = 2000,
+    db_path: Optional[Path] = None,
+    knowledge_db_path: Optional[Path] = None,
+    subject_id: str = SUBJECT_ID,
+) -> dict[str, Any]:
+    """Return all matching question ids for the picker's select-all action."""
+    max_ids = max(1, min(int(max_ids), 2000))
+    ids: list[str] = []
+    total = 0
+    offset = 0
+    while len(ids) < max_ids:
+        page_limit = min(200, max_ids - len(ids))
+        page = list_all_questions(
+            source=source,
+            unit_id=unit_id,
+            topic_id=topic_id,
+            paper_id=paper_id,
+            section=section,
+            q=q,
+            limit=page_limit,
+            offset=offset,
+            db_path=db_path,
+            knowledge_db_path=knowledge_db_path,
+            subject_id=subject_id,
+        )
+        total = int(page.get("total") or 0)
+        rows = page.get("questions") or []
+        ids.extend(str(row["question_id"]) for row in rows)
+        offset += len(rows)
+        if len(rows) < page_limit:
+            break
+    return {
+        "question_ids": ids,
+        "total": total,
+        "truncated": total > len(ids),
     }
 
 

@@ -745,3 +745,211 @@ class Event(Base):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), default=utcnow, nullable=False
     )
+
+
+class ClassroomHomework(Base):
+    """Reusable teacher-authored homework, made of MCQ question ids."""
+
+    __tablename__ = "classroom_homeworks"
+    __table_args__ = (
+        Index("idx_homework_subject_status", "subject_id", "status", "updated_at"),
+        Index("idx_homework_unit_topic", "unit_id", "topic_id"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    subject_id: Mapped[str] = mapped_column(String(64), nullable=False)
+    title: Mapped[str] = mapped_column(String(200), nullable=False)
+    note: Mapped[Optional[str]] = mapped_column(Text)
+    unit_id: Mapped[Optional[str]] = mapped_column(String(16))
+    unit_title: Mapped[Optional[str]] = mapped_column(String(120))
+    topic_id: Mapped[Optional[str]] = mapped_column(String(96))
+    topic_code: Mapped[Optional[str]] = mapped_column(String(32))
+    topic_title: Mapped[Optional[str]] = mapped_column(String(200))
+    question_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    status: Mapped[str] = mapped_column(String(16), default="active", nullable=False)
+    version: Mapped[int] = mapped_column(Integer, default=1, nullable=False)
+    content_release_id: Mapped[Optional[str]] = mapped_column(String(64))
+    created_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+
+
+class ClassroomHomeworkQuestion(Base):
+    __tablename__ = "classroom_homework_questions"
+    __table_args__ = (
+        Index("idx_homework_question_q", "question_id"),
+        Index("idx_homework_question_order", "homework_id", "sort_order"),
+    )
+
+    homework_id: Mapped[str] = mapped_column(
+        ForeignKey("classroom_homeworks.id", ondelete="CASCADE"), primary_key=True
+    )
+    question_id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    sort_order: Mapped[int] = mapped_column(Integer, nullable=False)
+    section: Mapped[str] = mapped_column(String(8), default="MCQ", nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+
+
+class StudyPlan(Base):
+    __tablename__ = "study_plans"
+    __table_args__ = (Index("idx_study_plan_subject_status", "subject_id", "status", "updated_at"),)
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    subject_id: Mapped[str] = mapped_column(String(64), nullable=False)
+    title: Mapped[str] = mapped_column(String(200), nullable=False)
+    note: Mapped[Optional[str]] = mapped_column(Text)
+    category: Mapped[Optional[str]] = mapped_column(String(32))
+    color: Mapped[str] = mapped_column(String(16), default="primary", nullable=False)
+    status: Mapped[str] = mapped_column(String(16), default="active", nullable=False)
+    version: Mapped[int] = mapped_column(Integer, default=1, nullable=False)
+    item_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    created_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+
+
+class StudyPlanItem(Base):
+    __tablename__ = "study_plan_items"
+    __table_args__ = (
+        Index("idx_study_plan_item_order", "plan_id", "position"),
+        Index("idx_study_plan_item_homework", "homework_id"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    plan_id: Mapped[str] = mapped_column(
+        ForeignKey("study_plans.id", ondelete="CASCADE"), nullable=False
+    )
+    homework_id: Mapped[str] = mapped_column(
+        ForeignKey("classroom_homeworks.id", ondelete="RESTRICT"), nullable=False
+    )
+    position: Mapped[int] = mapped_column(Integer, nullable=False)
+    title: Mapped[str] = mapped_column(String(200), nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+
+
+class StudyPlanAssignment(Base):
+    __tablename__ = "study_plan_assignments"
+    __table_args__ = (
+        UniqueConstraint("user_id", "plan_id", "active_slot", name="uq_assignment_active"),
+        Index("idx_study_assignment_user", "user_id", "status", "start_date"),
+        Index("idx_study_assignment_plan", "plan_id", "status", "created_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    plan_id: Mapped[str] = mapped_column(
+        ForeignKey("study_plans.id", ondelete="RESTRICT"), nullable=False
+    )
+    user_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), nullable=False
+    )
+    assigned_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    plan_title: Mapped[str] = mapped_column(String(200), nullable=False)
+    plan_version: Mapped[int] = mapped_column(Integer, nullable=False)
+    subject_id: Mapped[str] = mapped_column(String(64), nullable=False)
+    start_date: Mapped[date] = mapped_column(Date, nullable=False)
+    end_date: Mapped[date] = mapped_column(Date, nullable=False)
+    schedule_mode: Mapped[str] = mapped_column(String(16), default="daily", nullable=False)
+    status: Mapped[str] = mapped_column(String(16), default="active", nullable=False)
+    # "1" while active, NULL after completion/cancellation. The unique
+    # constraint above then allows historical rows while preventing duplicate
+    # active assignments of the same plan to the same student.
+    active_slot: Mapped[Optional[str]] = mapped_column(String(8))
+    total_items: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    completed_items: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    total_questions: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    answered_questions: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    total_task_days: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    content_release_id: Mapped[Optional[str]] = mapped_column(String(64))
+    note: Mapped[Optional[str]] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+    completed_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    cancelled_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    cancelled_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+
+
+class StudyPlanTask(Base):
+    """Denormalized per-day task row; the student calendar reads only this table."""
+
+    __tablename__ = "study_plan_tasks"
+    __table_args__ = (
+        UniqueConstraint("assignment_id", "plan_item_id", name="uq_study_task_item"),
+        Index("idx_study_task_user_date", "user_id", "study_date", "status"),
+        Index("idx_study_task_user_status_date", "user_id", "status", "study_date"),
+        Index("idx_study_task_assignment_day", "assignment_id", "status", "day_index"),
+        Index("idx_study_task_assignment_date", "assignment_id", "study_date"),
+        Index("idx_study_task_plan_status", "plan_id", "status"),
+        Index("idx_study_task_homework_status", "homework_id", "status"),
+        Index("idx_study_task_session", "practice_session_id"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    assignment_id: Mapped[str] = mapped_column(
+        ForeignKey("study_plan_assignments.id", ondelete="CASCADE"), nullable=False
+    )
+    user_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), nullable=False
+    )
+    plan_id: Mapped[str] = mapped_column(
+        ForeignKey("study_plans.id", ondelete="RESTRICT"), nullable=False
+    )
+    plan_item_id: Mapped[Optional[str]] = mapped_column(String(36))
+    homework_id: Mapped[str] = mapped_column(
+        ForeignKey("classroom_homeworks.id", ondelete="RESTRICT"), nullable=False
+    )
+    day_index: Mapped[int] = mapped_column(Integer, nullable=False)
+    study_date: Mapped[date] = mapped_column(Date, nullable=False)
+    sort_order: Mapped[int] = mapped_column(Integer, nullable=False)
+    plan_title: Mapped[str] = mapped_column(String(200), nullable=False)
+    plan_version: Mapped[int] = mapped_column(Integer, nullable=False)
+    plan_color: Mapped[str] = mapped_column(String(16), nullable=False)
+    item_title: Mapped[str] = mapped_column(String(200), nullable=False)
+    homework_version: Mapped[int] = mapped_column(Integer, nullable=False)
+    homework_title: Mapped[str] = mapped_column(String(200), nullable=False)
+    note: Mapped[str] = mapped_column(Text, default="", nullable=False)
+    unit_id: Mapped[Optional[str]] = mapped_column(String(16))
+    unit_title: Mapped[Optional[str]] = mapped_column(String(120))
+    topic_id: Mapped[Optional[str]] = mapped_column(String(96))
+    topic_title: Mapped[Optional[str]] = mapped_column(String(200))
+    question_count: Mapped[int] = mapped_column(Integer, nullable=False)
+    unavailable_question_count: Mapped[int] = mapped_column(
+        Integer, default=0, nullable=False
+    )
+    answered_question_count: Mapped[int] = mapped_column(
+        Integer, default=0, nullable=False
+    )
+    correct_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    status: Mapped[str] = mapped_column(String(16), default="pending", nullable=False)
+    practice_session_id: Mapped[Optional[str]] = mapped_column(String(36))
+    completed_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    cancelled_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )

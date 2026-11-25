@@ -393,7 +393,11 @@ def dashboard(db: Session, store: ContentStore, user_id: str) -> dict[str, Any]:
     continue_item = None
     practice = db.scalar(
         select(PracticeSession)
-        .where(PracticeSession.user_id == user_id, PracticeSession.status == "in_progress")
+        .where(
+            PracticeSession.user_id == user_id,
+            PracticeSession.status == "in_progress",
+            PracticeSession.source != "homework",
+        )
         .order_by(PracticeSession.updated_at.desc())
         .limit(1)
     )

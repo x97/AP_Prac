@@ -14,6 +14,7 @@ from sqlalchemy import text
 from app.api.v1 import (
     admin,
     admin_graph,
+    admin_plans,
     assets,
     attempts,
     auth,
@@ -22,6 +23,7 @@ from app.api.v1 import (
     flashcards,
     me,
     practice,
+    study_calendar,
 )
 from app.content.store import ContentStore
 from app.core.config import get_settings
@@ -173,5 +175,7 @@ app.include_router(flashcards.router, prefix="/api/v1")
 app.include_router(custom_flashcards.router, prefix="/api/v1")
 app.include_router(admin.router, prefix="/api/v1")
 app.include_router(admin_graph.router, prefix="/api/v1")
+app.include_router(admin_plans.router, prefix="/api/v1")
+app.include_router(study_calendar.router, prefix="/api/v1")
 app.include_router(me.router, prefix="/api/v1")
 app.include_router(assets.router)

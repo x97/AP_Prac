@@ -303,6 +303,38 @@ class ContentStore:
             ).fetchall()
         return [dict(r) for r in rows]
 
+    @lru_cache(maxsize=8)
+    def list_all_topics(self, unit_id: Optional[str] = None) -> list[dict[str, Any]]:
+        """All active topics for the store's subject (old Releases may lack the table)."""
+        with self._exam() as conn:
+            table = conn.execute(
+                "SELECT 1 FROM sqlite_master "
+                "WHERE type='table' AND name='practice_topics'"
+            ).fetchone()
+            if not table:
+                return []
+            clauses = [
+                "g.subject_id=?",
+                "g.status='active'",
+                "pt.question_count > 0",
+            ]
+            params: list[Any] = [self.subject_id]
+            if unit_id:
+                clauses.append("pt.unit_id=?")
+                params.append(str(unit_id))
+            rows = conn.execute(
+                f"""
+                SELECT pt.topic_id, pt.group_id, pt.unit_id, pt.code, pt.title_zh,
+                       pt.title_en, pt.kind, pt.sort_order, pt.question_count
+                FROM practice_topics pt
+                JOIN practice_groups g ON g.group_id = pt.group_id
+                WHERE {' AND '.join(clauses)}
+                ORDER BY CAST(pt.unit_id AS INTEGER), pt.sort_order, pt.code
+                """,
+                tuple(params),
+            ).fetchall()
+        return [dict(r) for r in rows]
+
     def get_topic(self, topic_id: str) -> Optional[dict[str, Any]]:
         with self._exam() as conn:
             row = conn.execute(
