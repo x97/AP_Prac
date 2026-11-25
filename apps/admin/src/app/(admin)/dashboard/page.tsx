@@ -140,9 +140,6 @@ export default function DashboardPage() {
             <span className="text-[var(--muted)]">概念</span>
             <span className="text-right font-mono">{release.counts.concepts ?? "—"}</span>
           </div>
-          <Link href="/releases" className="a-btn a-btn-sm mt-4 w-full">
-            查看发布记录
-          </Link>
         </section>
       </div>
 

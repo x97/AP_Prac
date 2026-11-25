@@ -21,9 +21,11 @@ trap 'rm -rf "$TMP_DIR"' EXIT
 
 git archive --format=tar "$REF" | tar -x -C "$TMP_DIR"
 
+# Protect server-only files. Anchor /releases/ to the transfer root so source
+# directories named "releases" (e.g. admin app routes) are still synced.
 rsync -az --delete \
   --exclude='.env' \
-  --exclude='releases/' \
+  --exclude='/releases/' \
   --exclude='backups/' \
   --exclude='certs/' \
   --exclude='infra/deploy/nginx.conf' \
