@@ -3,6 +3,16 @@
 > 所有提示语的版本变化、迁移、废弃都记录在这里。  
 > 格式：日期、提示语 ID、版本、变更类型、说明、影响文件。
 
+## 2026-11-20
+
+### pdf-question-ingestion-v2
+
+- 变更类型：修改
+- 变更内容：新增 §3.1「共用材料与题组」，要求解析前先产出 stimulus map；明确 `context` 要复制到题组内每一题；禁止把下一题材料追加进上一题 `answer_text`；补充 `pypdf.extract_text()` 丢空行导致 CB 755 页 Q1/Q2 吞材料的反例、页眉页脚泄漏、选项标签错位，以及共用材料 QA / SQL 抽查。
+- 影响表/字段：`questions.context` / `questions.stem` / `questions.answer_text` / `options.content`
+- 影响脚本/页面：`_tools/parse_cb.py`、`_tools/import_cb_mock.py`、`_tools/fix_cb_mock_context.py`；试卷解析方法 §8.5。
+- 兼容性：解析器接口从 `parse_unit(reader, ...)` 改为 `parse_unit_text(text, context_groups=...)`；CB 单卷脚本已同步更新。
+
 ## 2026-10-30
 
 ### ai-explanation-v2

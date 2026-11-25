@@ -35,7 +35,7 @@ prompts/
 | `book-kp-extraction` | `01_book_kp_extraction.md` | `whole-book-kp-v1` | active | 单本教材全书抽取 | `sections` / `knowledge_points` / `kp_aliases` |
 | `multi-book-concept-integration` | `02_multi_book_concept_integration.md` | `multi-book-concept-v1` | active | 多本教材概念层整合 | `concept_clusters` / `concept_members` / `concept_relations` |
 | `question-concept-linking` | `03_question_concept_linking.md` | `question-concept-link-v2` | active | 题目 → 规范概念 | `question_analysis` / `question_concept_links` / `question_keywords` |
-| `pdf-question-ingestion` | `04_pdf_question_ingestion.md` | `pdf-question-ingestion-v1` | active | PDF 试卷 → 题库 | `papers` / `questions` / `options` / `assets` / rubrics |
+| `pdf-question-ingestion` | `04_pdf_question_ingestion.md` | `pdf-question-ingestion-v2` | active | PDF 试卷 → 题库 | `papers` / `questions` / `options` / `assets` / rubrics |
 | `ai-explanation` | `05_ai_explanation.md` | `ai-explanation-v2` | active | 生成/补 AI 解析 | `options.ai_explanation` |
 | `unit-practice-merge` | `06_unit_practice_merge.md` | `unit-practice-merge-v2` | active | 官方题库 + 教材章节虚拟合并 | `practice_groups` / `paper_question_map` / reports |
 | `question-kp-linking-legacy` | `legacy/01_question_kp_linking.md` | `question-kp-link-v1` | deprecated | 旧版题目 → KP | `question_kp_links` |

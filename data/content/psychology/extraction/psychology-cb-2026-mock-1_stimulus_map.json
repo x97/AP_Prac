@@ -1,0 +1,505 @@
+{
+  "paper_id": "psychology-cb-2026-mock-1",
+  "source_pdf": "assets/psychology/papers/cb/26026_CB题库.pdf",
+  "pdf_pages": [
+    755,
+    791
+  ],
+  "generated_by": "_tools/parse_cb.py stimulus map (2026-11-20)",
+  "stimuli": [
+    {
+      "stimulus_id": "S01",
+      "type": "passage",
+      "pdf_page": 755,
+      "question_numbers": [
+        2
+      ],
+      "anchor_question": 2,
+      "first_sentence": "While traveling outside of his country, Emilio visited a college friend, Serena",
+      "context": "While traveling outside of his country, Emilio visited a college friend, Serena. While happily sitting down to enjoy dinner with Serena’s family, Emilio began eating as soon as he was served. Serena’s family perceived his behavior as atypical and looked at him disapprovingly."
+    },
+    {
+      "stimulus_id": "S02",
+      "type": "passage",
+      "pdf_page": 755,
+      "question_numbers": [
+        3
+      ],
+      "anchor_question": 3,
+      "first_sentence": "Jackson is planning to rearrange his bedroom and wants to avoid the physical effort of moving furniture to try out all his ideas",
+      "context": "Jackson is planning to rearrange his bedroom and wants to avoid the physical effort of moving furniture to try out all his ideas. He envisions all the potential furniture layouts before settling on a final decision."
+    },
+    {
+      "stimulus_id": "S03",
+      "type": "passage",
+      "pdf_page": 756,
+      "question_numbers": [
+        4
+      ],
+      "anchor_question": 4,
+      "first_sentence": "Priya has a demanding job that often requires her to work additional hours throughout the week",
+      "context": "Priya has a demanding job that often requires her to work additional hours throughout the week. Priya has a partner and children who are involved in sports and activities. Priya also volunteers in her community and visits with friends when she can. As a result of her busy lifestyle, she is experiencing high levels of stress and anxiety. To better manage her stress and anxiety, Priya meditates each morning for 20 minutes."
+    },
+    {
+      "stimulus_id": "S04",
+      "type": "passage",
+      "pdf_page": 756,
+      "question_numbers": [
+        5
+      ],
+      "anchor_question": 5,
+      "first_sentence": "Dr",
+      "context": "Dr. Milton is a researcher at a clinic that offers treatment for heroin addiction. A patient’s potential employer calls Dr. Milton to ask if the patient is receiving treatment at the clinic."
+    },
+    {
+      "stimulus_id": "S05",
+      "type": "table",
+      "pdf_page": 757,
+      "question_numbers": [
+        7
+      ],
+      "anchor_question": 7,
+      "first_sentence": "Justine is usually polite to everyone she meets",
+      "context": "Justine is usually polite to everyone she meets. She gets along well with her friends, teachers, and family. Paula has been friends with Justine for many years and is familiar with her easygoing nature. However, Paula notices that Justine is irritable and easily bothered this year in English class."
+    },
+    {
+      "stimulus_id": "S06",
+      "type": "graph",
+      "pdf_page": 758,
+      "question_numbers": [
+        8,
+        9,
+        10
+      ],
+      "anchor_question": 8,
+      "first_sentence": "Dr",
+      "context": "Dr. Collins measured the weights in pounds (lbs) and heights (inches) of 29 children. She found that growth is more continuous than discontinuous. The data are shown in the graph. Height and Weight of Participants"
+    },
+    {
+      "stimulus_id": "S07",
+      "type": "passage",
+      "pdf_page": 759,
+      "question_numbers": [
+        11
+      ],
+      "anchor_question": 11,
+      "first_sentence": "Victor often stays up until 2 a.m",
+      "context": "Victor often stays up until 2 a.m. cleaning his home. For Victor, everything must be in the proper location, and any dust or debris must be removed. Often, Victor oversleeps and is late for his 8 a.m. work start time or is unfocused because of his cleaning into the early hours of the morning. He has recently been diagnosed with obsessive-compulsive disorder."
+    },
+    {
+      "stimulus_id": "S08",
+      "type": "study",
+      "pdf_page": 760,
+      "question_numbers": [
+        13
+      ],
+      "anchor_question": 13,
+      "first_sentence": "Dr",
+      "context": "Dr. Dimou is involved in groundbreaking research on specific brain cells that were once thought to be nonfunctioning but are now known to provide structure to the nervous system and assist in waste transport. She conducts experiments using specially bred mice that lack these cells in various parts of their brains and compares their behavior to that of mice in a control group."
+    },
+    {
+      "stimulus_id": "S09",
+      "type": "passage",
+      "pdf_page": 762,
+      "question_numbers": [
+        16
+      ],
+      "anchor_question": 16,
+      "first_sentence": "Anna’s AP Psychology teacher handed each student in Anna’s class a card, as pictured, and told them to hold it two feet away from themselves at eye level",
+      "context": "Anna’s AP Psychology teacher handed each student in Anna’s class a card, as pictured, and told them to hold it two feet away from themselves at eye level. Then the teacher told each student to close their left eye, look at the plus sign, and slowly move the card toward their face. When Anna followed these instructions, the image of the circle disappeared."
+    },
+    {
+      "stimulus_id": "S10",
+      "type": "table",
+      "pdf_page": 763,
+      "question_numbers": [
+        17
+      ],
+      "anchor_question": 17,
+      "first_sentence": "A streaming service is promoting a new song and wants to increase its popularity",
+      "context": "A streaming service is promoting a new song and wants to increase its popularity. The song is promoted on the service’s home page a different number of times for different subscribers. After two months, the service asks subscribers how much they like the song using a scale of 1 to 10, with higher numbers indicating higher popularity of the song. The results are shown in the table. Popularity Rating for the Number of Times the Song Is Promoted Number of Times the Song Popularity Rating Is Promoted 1–15 3.72 16–30 4.23 31–45 4.49 46–60 5.12"
+    },
+    {
+      "stimulus_id": "S11",
+      "type": "study",
+      "pdf_page": 764,
+      "question_numbers": [
+        19,
+        20,
+        21
+      ],
+      "anchor_question": 19,
+      "first_sentence": "Dr",
+      "context": "Dr. Steinberg conducted a study to learn whether adding sensory experiences during a scary movie makes the experience more frightening for viewers. In the experiment, a scary movie was shown to two different groups in two different theaters in the same building. Dr. Steinberg flipped a coin to assign participants either to a theater that provided a standard movie experience or to a theater in which hidden machines sprayed water and blew cold air on participants as they watched the movie. Each participant was asked to rate how scary the movie was using a scale of 1 to 10, with higher ratings indicating a more frightening experience."
+    },
+    {
+      "stimulus_id": "S12",
+      "type": "graph+study",
+      "pdf_page": 766,
+      "question_numbers": [
+        22
+      ],
+      "anchor_question": 22,
+      "first_sentence": "A researcher asks a sample of elementary school children to complete a survey that assesses emotional instability in relation to attachment styles",
+      "context": "A researcher asks a sample of elementary school children to complete a survey that assesses emotional instability in relation to attachment styles. Higher scores on this survey suggest more anger, anxiety, and depression. The results are depicted in the graph. Level of Emotional Instability by Attachment Style"
+    },
+    {
+      "stimulus_id": "S13",
+      "type": "passage",
+      "pdf_page": 766,
+      "question_numbers": [
+        23
+      ],
+      "anchor_question": 23,
+      "first_sentence": "Dr",
+      "context": "Dr. May is a psychometrician who has been tasked by a local school board to determine the usefulness of a new standardized test for students. She administers the test to a randomly selected sample of those students. She then calculates the mean scores for the odd-numbered questions and the even-numbered questions separately. Dr. May then compares the two means."
+    },
+    {
+      "stimulus_id": "S14",
+      "type": "passage",
+      "pdf_page": 767,
+      "question_numbers": [
+        24
+      ],
+      "anchor_question": 24,
+      "first_sentence": "Mr",
+      "context": "Mr. Latture is implementing a new token economy to reward students who stay on task during his classes. When analyzing his data, he was pleased to find that this approach worked especially well for his students who had been diagnosed with attention-deficit/hyperactivity disorder (ADHD). He found that the average number of tokens earned by students with ADHD was higher than those earned by students who do not have ADHD and that the difference was statistically significant."
+    },
+    {
+      "stimulus_id": "S15",
+      "type": "passage",
+      "pdf_page": 767,
+      "question_numbers": [
+        25
+      ],
+      "anchor_question": 25,
+      "first_sentence": "Jenna was supposed to wake up at 6:30 a.m",
+      "context": "Jenna was supposed to wake up at 6:30 a.m. but forgot to set her alarm. When she sleepily woke up and saw that it was 7 a.m., she jumped out of bed, quickly got dressed, and rushed out the door to travel to her office."
+    },
+    {
+      "stimulus_id": "S16",
+      "type": "study",
+      "pdf_page": 768,
+      "question_numbers": [
+        26
+      ],
+      "anchor_question": 26,
+      "first_sentence": "A school psychologist conducted a study to examine whether students would use an anonymous calling system to report a rule-breaking activity they witnessed on campus",
+      "context": "A school psychologist conducted a study to examine whether students would use an anonymous calling system to report a rule-breaking activity they witnessed on campus. After getting approval from the Institutional Review Board and obtaining informed consent, she recruited one student to pretend to bully other students in the cafeteria and monitored the number of calls made after the bullying incident. Participants were debriefed after the study was completed."
+    },
+    {
+      "stimulus_id": "S17",
+      "type": "passage",
+      "pdf_page": 768,
+      "question_numbers": [
+        27
+      ],
+      "anchor_question": 27,
+      "first_sentence": "Children’s language development stages are similar across all cultures",
+      "context": "Children’s language development stages are similar across all cultures. These similarities include the errors children make while learning language. For example, a child might exclaim, “I runned really fast during the game today!”"
+    },
+    {
+      "stimulus_id": "S18",
+      "type": "passage",
+      "pdf_page": 769,
+      "question_numbers": [
+        28
+      ],
+      "anchor_question": 28,
+      "first_sentence": "A psychologist knows that his client, Dan, has an obsession with numbers and tends to count things most people do not",
+      "context": "A psychologist knows that his client, Dan, has an obsession with numbers and tends to count things most people do not. During a therapy session, the psychologist notices the instances in which Dan mentions atypical attention to numbers, such as his counting the number of pieces of candy in the candy jar in the waiting room. However, Dan’s psychologist fails to notice instances in which Dan mentions typical attention to numbers, such as the temperature outside."
+    },
+    {
+      "stimulus_id": "S19",
+      "type": "passage",
+      "pdf_page": 769,
+      "question_numbers": [
+        29
+      ],
+      "anchor_question": 29,
+      "first_sentence": "Loreli trained her pet cat not to chase her pet mice",
+      "context": "Loreli trained her pet cat not to chase her pet mice. Sometimes, her cat chases the mice despite the extensive training to get rid of this behavior."
+    },
+    {
+      "stimulus_id": "S20",
+      "type": "passage",
+      "pdf_page": 771,
+      "question_numbers": [
+        32
+      ],
+      "anchor_question": 32,
+      "first_sentence": "Wilson sees a dentist because of concerns with his teeth",
+      "context": "Wilson sees a dentist because of concerns with his teeth. His most recent appointments have resulted in treatments that are painful, causing him to experience fear during his visits. Now, Wilson feels afraid each time he sees any dentist, including one instance where he only saw a dentist on television."
+    },
+    {
+      "stimulus_id": "S21",
+      "type": "passage",
+      "pdf_page": 771,
+      "question_numbers": [
+        33
+      ],
+      "anchor_question": 33,
+      "first_sentence": "Last month, Juan Carlos received a poor performance review",
+      "context": "Last month, Juan Carlos received a poor performance review. Now when he travels to work, his heart races, his blood pressure rises, and he feels an overwhelming desire to return home. The quality of his work is decreasing as a result."
+    },
+    {
+      "stimulus_id": "S22",
+      "type": "graph+study",
+      "pdf_page": 772,
+      "question_numbers": [
+        35,
+        36,
+        37
+      ],
+      "anchor_question": 35,
+      "first_sentence": "For a research study, Dr",
+      "context": "For a research study, Dr. Reyes analyzed data she obtained from local news reports from the entire sports season for three teams at a local high school. Dr. Reyes also attended each of the games. After completing the analysis, Dr. Reyes found that teams were more likely to win when playing at their home school than away at another school. The data are shown in the graph. Number of Wins as a Function of Sport and Game Location"
+    },
+    {
+      "stimulus_id": "S23",
+      "type": "passage",
+      "pdf_page": 773,
+      "question_numbers": [
+        38
+      ],
+      "anchor_question": 38,
+      "first_sentence": "Mrunmayee traveled for work across multiple time zones to a time zone that was 11 hours ahead of home",
+      "context": "Mrunmayee traveled for work across multiple time zones to a time zone that was 11 hours ahead of home. She was exhausted for the first few days of her trip."
+    },
+    {
+      "stimulus_id": "S24",
+      "type": "study",
+      "pdf_page": 774,
+      "question_numbers": [
+        39
+      ],
+      "anchor_question": 39,
+      "first_sentence": "Dr",
+      "context": "Dr. Matas wants to know how the environment affects intelligence. He proposes a study in which he will randomly assign some two-year-old twins to an environmentally deprived home or to an environmentally rich home."
+    },
+    {
+      "stimulus_id": "S25",
+      "type": "table",
+      "pdf_page": 775,
+      "question_numbers": [
+        42
+      ],
+      "anchor_question": 42,
+      "first_sentence": "After reviewing completed assignments from his students, Dr",
+      "context": "After reviewing completed assignments from his students, Dr. Morales returned the assignments. He randomly put stickers on half of the papers that say, “Good Job!” The other half of the papers did not have stickers. A week later, the students took a test. Prior to the test, Dr. Morales asked students how many hours they studied for the test. The results are shown in the table. Received a Sticker Did Not Receive a Sticker 3 2 3 4 2 0 4 5 3 2 4 5 3 1"
+    },
+    {
+      "stimulus_id": "S26",
+      "type": "passage",
+      "pdf_page": 776,
+      "question_numbers": [
+        43
+      ],
+      "anchor_question": 43,
+      "first_sentence": "Gregory was reading a book in his backyard",
+      "context": "Gregory was reading a book in his backyard. A cloud covered the sun for a moment, but he did not perceive the change in the appearance of the page of the book he was reading."
+    },
+    {
+      "stimulus_id": "S27",
+      "type": "study",
+      "pdf_page": 777,
+      "question_numbers": [
+        46
+      ],
+      "anchor_question": 46,
+      "first_sentence": "Dr",
+      "context": "Dr. Tabor is interested in when individuals think they use defense mechanisms to respond to stressors and how this might be related to their general well-being. Dr. Tabor created an online survey that was given to 1,000 participants, ages 20 to 45. The survey included questions about how often individuals think they used defense mechanisms in response to speciﬁc stressors. The survey also included a standardized well-being test."
+    },
+    {
+      "stimulus_id": "S28",
+      "type": "passage",
+      "pdf_page": 778,
+      "question_numbers": [
+        47
+      ],
+      "anchor_question": 47,
+      "first_sentence": "Maisie, a thirteen-year-old, finished a test early in her math class and wanted to put her head down on her desk so that she could take a quick rest",
+      "context": "Maisie, a thirteen-year-old, finished a test early in her math class and wanted to put her head down on her desk so that she could take a quick rest. Before she put her head down, however, Maisie saw her friend McKeller being reprimanded by their teacher for putting his head down on his desk. As a result, Maisie did not put her head down on her desk."
+    },
+    {
+      "stimulus_id": "S29",
+      "type": "passage",
+      "pdf_page": 779,
+      "question_numbers": [
+        51
+      ],
+      "anchor_question": 51,
+      "first_sentence": "Aubree, a college student, is hired as a server at a restaurant",
+      "context": "Aubree, a college student, is hired as a server at a restaurant. Throughout her first few months of work, her boss observes that she smiles and chats with customers in her age group, but rarely does so with older customers. When her boss shares this observation with Aubree, she responds that she was not aware that she treated customers differently."
+    },
+    {
+      "stimulus_id": "S30",
+      "type": "passage",
+      "pdf_page": 780,
+      "question_numbers": [
+        53
+      ],
+      "anchor_question": 53,
+      "first_sentence": "Linda prides herself on her memory and likes to tell friends that she never forgets a date, so she never bothers to look at her calendar",
+      "context": "Linda prides herself on her memory and likes to tell friends that she never forgets a date, so she never bothers to look at her calendar. One day, Linda got a call from the doctor’s office to inform her that she missed an appointment. Linda was sure that her appointment was scheduled for a week later and the doctor’s office made a mistake."
+    },
+    {
+      "stimulus_id": "S31",
+      "type": "study",
+      "pdf_page": 781,
+      "question_numbers": [
+        54,
+        55,
+        56
+      ],
+      "anchor_question": 54,
+      "first_sentence": "Dr",
+      "context": "Dr. Pilkington is a positive psychologist who was asked by school district administrators to interview a group of elementary, middle, and high school teachers to understand the teachers’ stressors. The goal of the study was to improve job quality and teacher retention by addressing the identified stressors. Members of the group were interviewed by Dr. Pilkington individually and asked to describe their most common sources of stress throughout the school year. Responses were coded and ranked according to the most frequently cited source of stress. Primary Sources of Stress 1. Difficulty using new technology in the classroom 2. Lack of power over decisions in the classroom 3. Lack of support from administrators 4. Lack of support from parents 5. Lack of time to take care of personal needs (e.g., going to the bathroom, eating lunch)"
+    },
+    {
+      "stimulus_id": "S32",
+      "type": "passage",
+      "pdf_page": 782,
+      "question_numbers": [
+        57
+      ],
+      "anchor_question": 57,
+      "first_sentence": "Jonah is a two-year-old who lives in Country X, and Micah is a two-year-old who lives in Country Y",
+      "context": "Jonah is a two-year-old who lives in Country X, and Micah is a two-year-old who lives in Country Y. Both Jonah and Micah point to their juice cup when they want some juice, which is a normal developmental milestone. Because pointing is an offensive gesture in Country X, Jonah’s caregiver thinks Jonah’s pointing is inappropriate; however, Micah’s caregiver sees this gesture as part of normal development."
+    },
+    {
+      "stimulus_id": "S33",
+      "type": "passage",
+      "pdf_page": 783,
+      "question_numbers": [
+        60
+      ],
+      "anchor_question": 60,
+      "first_sentence": "Naveen is handed two envelopes, one in each hand",
+      "context": "Naveen is handed two envelopes, one in each hand. Only one envelope has a coin inside. Naveen can easily tell which envelope weighs more. Then, Naveen is handed a pair of shoes, one in each hand. Inside of each shoe is an envelope, and only one of the envelopes has a coin in it. Naveen cannot tell which shoe weighs more because of the addition of the coin to the envelope in the shoe."
+    },
+    {
+      "stimulus_id": "S34",
+      "type": "passage",
+      "pdf_page": 784,
+      "question_numbers": [
+        61
+      ],
+      "anchor_question": 61,
+      "first_sentence": "One night at a party with his friends, Brody looked out of the window to see a person looking in",
+      "context": "One night at a party with his friends, Brody looked out of the window to see a person looking in. He began to sweat and his heart raced. He then realized the person was his friend’s older brother, whom he had not seen in a while. He told himself there was nothing to be afraid of, so he began to feel excitement instead of fear."
+    },
+    {
+      "stimulus_id": "S35",
+      "type": "passage",
+      "pdf_page": 784,
+      "question_numbers": [
+        62
+      ],
+      "anchor_question": 62,
+      "first_sentence": "Kelly forgot the four-digit combination to her house safe",
+      "context": "Kelly forgot the four-digit combination to her house safe. Because there is only one correct combination of numbers, she started with 0-0-0-0 and continued to work through every possible arrangement of numbers until she was able to open the safe."
+    },
+    {
+      "stimulus_id": "S36",
+      "type": "passage",
+      "pdf_page": 785,
+      "question_numbers": [
+        63
+      ],
+      "anchor_question": 63,
+      "first_sentence": "When visiting London, England, for the first time, a car passed Ethan and his friend on the left side of the road",
+      "context": "When visiting London, England, for the first time, a car passed Ethan and his friend on the left side of the road. “Look!” Ethan said. “The British drive on the wrong side of the road.” He did not simply state that British drivers drive on the left side of the road."
+    },
+    {
+      "stimulus_id": "S37",
+      "type": "table+study",
+      "pdf_page": 786,
+      "question_numbers": [
+        65,
+        66,
+        67
+      ],
+      "anchor_question": 65,
+      "first_sentence": "Researchers at a community college wanted to determine the success of a new engineering program",
+      "context": "Researchers at a community college wanted to determine the success of a new engineering program. When students enrolled in the program, they provided their grade point averages (GPAs) and their scores on an engineering aptitude test. Two years after graduation, the researchers asked former students to complete a questionnaire rating their success in finding an engineering-related job on a scale of 1 to 5, with higher scores indicating greater success. The findings are presented in the table. Student GPAs, Engineering Aptitude Scores, and Job Success Ratings Student GPA Engineering Aptitude Test Score Rating of Job Success A 3.9 96 5 B 3.8 92 4 C 3.7 90 4 D 3.6 88 4 E 3.5 85 5 F 3.3 80 4 G 3.2 78 2 H 3.1 75 1 I 2.9 72 1 J 2.8 65 5"
+    },
+    {
+      "stimulus_id": "S38",
+      "type": "passage",
+      "pdf_page": 788,
+      "question_numbers": [
+        69
+      ],
+      "anchor_question": 69,
+      "first_sentence": "As Cassius is doing his calculus homework, he feels he needs help figuring out how to solve an equation",
+      "context": "As Cassius is doing his calculus homework, he feels he needs help figuring out how to solve an equation. He then decides to take a break. After his break, he is able to solve that equation easily without help."
+    },
+    {
+      "stimulus_id": "S39",
+      "type": "passage",
+      "pdf_page": 788,
+      "question_numbers": [
+        70
+      ],
+      "anchor_question": 70,
+      "first_sentence": "Professor Janesky encouraged her students to improve their work ethic",
+      "context": "Professor Janesky encouraged her students to improve their work ethic. For a particular project, she instructed the students to choose up to four challenges from a list aimed at boosting their work ethic. After completing the project, the students reported that they were more punctual and organized."
+    },
+    {
+      "stimulus_id": "S40",
+      "type": "passage",
+      "pdf_page": 789,
+      "question_numbers": [
+        71
+      ],
+      "anchor_question": 71,
+      "first_sentence": "Erik is a student who has poor grades in his classes",
+      "context": "Erik is a student who has poor grades in his classes. He meets with his counselor and expresses frustration that he has tried everything and nothing has worked to improve his grades. The counselor suggests that Erik brainstorm different strategies that he could use to help him succeed in his classes."
+    },
+    {
+      "stimulus_id": "S41",
+      "type": "passage",
+      "pdf_page": 789,
+      "question_numbers": [
+        72
+      ],
+      "anchor_question": 72,
+      "first_sentence": "Teo suffered a concussion after getting hit in the head during a game",
+      "context": "Teo suffered a concussion after getting hit in the head during a game. Since his injury, Teo cannot plan or follow instructions as well as he could before."
+    },
+    {
+      "stimulus_id": "S42",
+      "type": "study",
+      "pdf_page": 790,
+      "question_numbers": [
+        73
+      ],
+      "anchor_question": 73,
+      "first_sentence": "Researchers conducted a survey to determine whether a sample of students in eighth grade believe intelligence is fixed or malleable",
+      "context": "Researchers conducted a survey to determine whether a sample of students in eighth grade believe intelligence is fixed or malleable. After completing the survey, the eighth-grade students were administered an intelligence test. The same survey and intelligence test was administered to the same students again during the twelfth grade and the scores were compared."
+    },
+    {
+      "stimulus_id": "S43",
+      "type": "passage",
+      "pdf_page": 790,
+      "question_numbers": [
+        74
+      ],
+      "anchor_question": 74,
+      "first_sentence": "Six months ago, Caleb was involved in a serious car accident when another driver ran a stop sign and collided with Caleb’s car in an intersection",
+      "context": "Six months ago, Caleb was involved in a serious car accident when another driver ran a stop sign and collided with Caleb’s car in an intersection. Caleb was unharmed, so he resumed driving a few weeks after the accident. He now reports experiencing severe anxiety whenever he approaches an intersection."
+    },
+    {
+      "stimulus_id": "S44",
+      "type": "passage",
+      "pdf_page": 791,
+      "question_numbers": [
+        75
+      ],
+      "anchor_question": 75,
+      "first_sentence": "Dr",
+      "context": "Dr. Brownlow is interested in how testing the same material multiple times affects recall. Dr. Brownlow randomly selects and assigns participants to one of two groups. Group 1 is given only one test on the provided material. Group 2 is given the same test two additional times. Three months later, the Group 2 members can recall more material than the Group 1 members can."
+    }
+  ]
+}

@@ -89,7 +89,7 @@ prompts:
   - id: pdf-question-ingestion
     file: 04_pdf_question_ingestion.md
     title: PDF 题目解析入库
-    version: pdf-question-ingestion-v1
+    version: pdf-question-ingestion-v2
     status: active
     kind: ingestion
     inputs:

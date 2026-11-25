@@ -1,10 +1,10 @@
 ---
 id: pdf-question-ingestion
 title: PDF 题目解析入库
-version: pdf-question-ingestion-v1
+version: pdf-question-ingestion-v2
 status: active
 kind: ingestion
-updated: 2026-10-30
+updated: 2026-11-20
 inputs: [pdf_path, subject_id, paper_meta]
 outputs: [papers, questions, options, assets, frq_rubrics, rubric_parts]
 depends_on: []
@@ -116,6 +116,81 @@ used_by: [question-concept-linking, ai-explanation, data-agent-pipeline]
 8. 题目共用一段材料时，每道题都要能独立读出；`context` 相同是允许的。
 9. 题目文本以 PDF 原文为准；明显 OCR 错字要修正并记录，不要改题意。
 10. 题目 ID 统一使用稳定格式，例如 `paper_id-001`；不要用随机 ID。
+
+### 3.1 共用材料与题组（必须单独建模）
+
+这是最容易出错、也最影响学生能否作答的一步。**先做材料清单，再解析题目。**
+
+#### 3.1.1 强制：先产出 stimulus map
+
+在写库前，先列出一张“材料 → 题号”映射表，写入解析报告（建议同时保存 `data/content/<subject_id>/extraction/<paper_id>_stimulus_map.json`）：
+
+```text
+stimulus_id | 材料类型 | PDF 页码 | 材料首句（用于识别） | 覆盖题号 | 锚点题号
+S01         | passage  | 755      | While traveling...    | Q2       | Q2
+S02         | passage  | 756      | Jackson is planning...| Q3       | Q3
+S03         | study+graph | 759   | Dr. Collins measured...| Q8,Q9,Q10 | Q8
+```
+
+规则：
+
+- 每段共用材料都要有一条记录，即使只覆盖一道题。
+- `覆盖题号` 必须包含**所有**依赖这段材料的题，不能只写第一题。
+- 题组中第一道题是 `锚点题号`；其余题必须复制同一份 `context`。
+- 图表/表格也属于材料：Q65–Q67 共用一张表时，三题都要有同一份表格引导语（或同一张题图）。
+- 如果无法确定某段材料覆盖到哪几题，**停止写库**，把不确定的题号和材料写进报告，等人复核；不要靠“看起来像同一组”猜。
+
+#### 3.1.2 解析器必须按“段落块”切分，不能按行无限追加
+
+`pypdf` 的 `extract_text()` 会丢掉空行；本项目的 CB 题库就是因此把下一题的 Emilio/Serena 材料追加进了 Q1 的 `answer_text`，同时把 Jackson 材料追加进 Q2 的 `answer_text`，导致 Q2/Q3 没有 `context`，学生看不到材料。
+
+要求：
+
+- 用 `pdftotext -layout`（本项目 `_tools/parse_cb.py` 的 `extract_layout_text`）或带坐标的文本行来恢复段落边界；不要把整页文本按行直接喂给“当前题”。
+- 一道题的 `answer_text` 只包含 `Answer X` 之后的解析段落。**遇到下一段材料（passage / study / graph lead-in / table）时，立即结束当前题的解析，把它放进下一题的 `context`，绝不能继续追加到上一题的 `answer_text`。**
+- 题组后续题（如 Q9/Q10）自己没有前置材料时，从 stimulus map 的锚点题复制 `context`；不要留空。
+- 解析器的 `context_groups`（`_tools/parse_cb.py` / `_tools/import_cb_mock.py`）必须与 stimulus map 一致；新增题组时先改 map，再改 `context_groups`。
+
+#### 3.1.3 常见版面陷阱
+
+- **选项标签错位**：`pdftotext -layout` 可能把某个选项的第一行排在 `(B)` 标签之前，例如：
+  ```text
+  (A) The number ... presented stimulus
+      The number ... presented
+  (B)
+      stimulus from its original form
+  ```
+  第二行属于 B，不属于 A。解析器要识别“裸选项标签”，把标签前一行归还给该选项；不能把选项内容吸进上一题题干或上一选项。
+- **页眉/页脚混入**：`Supplemental Practice Exam MCQ`、`Scoring Guide`、`AP PSYCHOLOGY Scoring Guide`、`- PAGE : N -`、裸页码都必须丢弃。CB 题库 Q3 曾把 `Supplemental Practice Exam MCQ` 吸进题干，Q65 曾吸进选项 D。
+- **跨页题**：题干和选项可能被页眉/页脚隔开，必须延长 `page_end`，不能因为分页就另起一题。
+- **表格文字与题图重复**：如果表格已经作为干净的表格题图展示，`context` 只保留引导句；如果题图是整页兜底截图、或表格被多题共用且需要文本可检索，可以保留按行列重建的文本表格，并在报告中注明原因。无论哪种情况，都不能把表格单元格拼成一串。
+
+#### 3.1.4 共用材料 QA（写库前必须通过）
+
+对 stimulus map 的每一行检查：
+
+1. 组内**每一题**的 `context` 非空，且内容完全一致（允许首尾空白差异）。
+2. `context` 不是上一题 `answer_text` 的后缀；`answer_text` 不以 “While traveling… / Jackson is planning… / Dr. Collins measured…” 这类下一题材料开头。
+3. 题干出现 `this study`、`the study`、`the graph`、`the table`、`the passage`、`the results`、`the data`、`Dr. X`、`the experiment` 等指代时，`context` 必须非空；如果完整情境已经写在题干自身（例如 Q6 的 Dr. Kambeyanda 研究），在报告中注明“self-contained stem”，不要硬塞 context。
+4. 题干、选项、答案解释中不出现 `Supplemental Practice Exam MCQ`、`Scoring Guide`、`- PAGE :` 或裸页码。
+5. 至少打印并人工核对：第一题、最后一个题组的第一题和后续题、每个题组的锚点题、跨页题。
+6. 用 SQL 抽查：
+   ```sql
+   SELECT number, context, answer_text
+   FROM questions
+   WHERE paper_id = ?
+   ORDER BY number;
+   ```
+   逐题看 Q1→Q2、Q2→Q3 的材料边界，不能只看总题数。
+
+**反例（CB 2026 mock 第 755 页，已修复，禁止重犯）**：
+
+- Q1 的 `answer_text` 末尾出现 Emilio/Serena 材料，Q1 的 `context` 为空；
+- Q2 的 `answer_text` 末尾出现 Jackson 材料，Q2 的 `context` 为空；
+- Q3 的 `stem` 末尾带着 `Supplemental Practice Exam MCQ`；
+- Q8–Q10、Q19–Q21、Q35–Q37、Q54–Q56、Q65–Q67 只有第一题有材料，后续题没有 `context`。
+
+正确结果：Q2 的 `context` 是 Emilio/Serena 全段，Q3 的 `context` 是 Jackson 全段，Q1/Q2/Q3 的 `answer_text` 只保留各自的 `Correct. ...` 解析；Q8–Q10 等题组内每一题的 `context` 完全相同。
 
 ### 4. 答案与解析
 
@@ -229,7 +304,9 @@ used_by: [question-concept-linking, ai-explanation, data-agent-pipeline]
 - 每道 MCQ 的选项数分布
 - 唯一题图数 vs 题图引用数
 - 跨页题清单
-- 共用材料/题组清单
+- 共用材料/题组清单：stimulus map 的行数、每组覆盖题号、组内每题 `context` 是否一致
+- 共用材料边界检查：`answer_text` 是否误吞下一题材料；指代型题干（this study / the graph / the table / Dr. X）是否都有 `context`
+- 页眉页脚泄漏检查：`stem` / `options.content` / `answer_text` 中是否出现 `Supplemental Practice Exam MCQ`、`Scoring Guide`、`- PAGE :`
 - 图片裁切清单
 - 异常清单：答案冲突、题干缺失、选项缺失、图片缺失、OCR 低置信度
 
