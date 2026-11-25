@@ -13,6 +13,12 @@ const nextConfig = {
       { source: "/assets/:path*", destination: `${API_INTERNAL_URL}/assets/:path*` },
     ];
   },
+  async redirects() {
+    return [
+      { source: "/releases", destination: "/dashboard", permanent: false },
+      { source: "/releases/:path*", destination: "/dashboard", permanent: false },
+    ];
+  },
 };
 
 module.exports = nextConfig;
