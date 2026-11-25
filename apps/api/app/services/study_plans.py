@@ -149,17 +149,25 @@ def task_state(
     current_day: Optional[int],
     today: date,
 ) -> tuple[str, bool, bool]:
-    """Return (status, locked, early) for a task."""
+    """Return (status, locked, early) for a task.
+
+    Anything due today or earlier is actionable: students may catch up on
+    missed days in any order. Only future tasks are sequential-gated.
+    """
     if task.status == "completed":
         return "completed", False, False
     if task.status == "cancelled" or task.cancelled_at is not None:
         return "cancelled", True, False
+    if task.study_date <= today:
+        return (
+            "overdue" if task.study_date < today else "pending",
+            False,
+            False,
+        )
     locked = current_day is not None and task.day_index > current_day
     if locked:
-        return "locked", True, task.study_date > today
-    if task.study_date < today:
-        return "overdue", False, False
-    return "pending", False, task.study_date > today
+        return "locked", True, True
+    return "pending", False, True
 
 
 def _completed_late(task: StudyPlanTask) -> bool:
@@ -415,6 +423,68 @@ def create_assignments(
 # ---------------------------------------------------------------------------
 # Student calendar / day detail
 # ---------------------------------------------------------------------------
+def _backlog_tasks(
+    db: Session, user: User, subject_id: str, today: date
+) -> list[dict[str, Any]]:
+    """All incomplete tasks due today or earlier, actionable as catch-up work."""
+    tasks = db.scalars(
+        select(StudyPlanTask)
+        .where(
+            StudyPlanTask.user_id == user.id,
+            StudyPlanTask.plan_id.in_(
+                select(StudyPlan.id).where(StudyPlan.subject_id == subject_id)
+            ),
+            StudyPlanTask.study_date <= today,
+            StudyPlanTask.status == "pending",
+            StudyPlanTask.cancelled_at.is_(None),
+        )
+        .order_by(
+            StudyPlanTask.study_date,
+            StudyPlanTask.day_index,
+            StudyPlanTask.sort_order,
+        )
+    ).all()
+    session_ids = [task.practice_session_id for task in tasks if task.practice_session_id]
+    sessions = {
+        row.id: row
+        for row in db.scalars(
+            select(PracticeSession).where(PracticeSession.id.in_(session_ids))
+        ).all()
+    }
+    payload = []
+    for task in tasks:
+        session = sessions.get(task.practice_session_id or "")
+        payload.append(
+            {
+                "task_id": task.id,
+                "title": task.item_title,
+                "plan_title": task.plan_title,
+                "plan_color": task.plan_color,
+                "homework_id": task.homework_id,
+                "homework_title": task.homework_title,
+                "note": task.note,
+                "unit_id": task.unit_id,
+                "unit_title": task.unit_title,
+                "topic_id": task.topic_id,
+                "topic_title": task.topic_title,
+                "study_date": task.study_date.isoformat(),
+                "question_count": task.question_count,
+                "unavailable_question_count": task.unavailable_question_count,
+                "answered_question_count": task.answered_question_count,
+                "correct_count": task.correct_count,
+                "status": "overdue" if task.study_date < today else "pending",
+                "locked": False,
+                "locked_reason": None,
+                "early": False,
+                "overdue": task.study_date < today,
+                "completed_late": False,
+                "session_id": task.practice_session_id,
+                "session_status": session.status if session else None,
+            }
+        )
+    return payload
+
+
 def calendar_month(
     db: Session, user: User, subject_id: str, month: Optional[str]
 ) -> dict[str, Any]:
@@ -528,6 +598,7 @@ def calendar_month(
             StudyPlanTask.study_date < today,
         )
     ).one()
+    backlog = _backlog_tasks(db, user, subject_id, today)
     return {
         "month": month_key,
         "today": today.isoformat(),
@@ -536,6 +607,7 @@ def calendar_month(
         "active_assignment_count": active_count,
         "plans": plans,
         "days": days,
+        "backlog": backlog,
         "overdue_days": int(overdue[0] or 0),
         "earliest_overdue_date": overdue[1].isoformat() if overdue[1] else None,
     }
@@ -663,7 +735,14 @@ def _assert_startable(
     if task.cancelled_at is not None or task.status == "cancelled":
         raise AppError(409, "TASK_CANCELLED", "任务已取消")
     current_day = _current_day_map(db, [assignment.id]).get(assignment.id)
-    if current_day is not None and task.day_index > current_day:
+    today = shanghai_date(utcnow())
+    # Past and today's tasks are always actionable so students can catch up on
+    # missed days. Only future tasks require the earlier sequence to be done.
+    if (
+        task.study_date > today
+        and current_day is not None
+        and task.day_index > current_day
+    ):
         raise AppError(403, "TASK_LOCKED", "请先完成前一项任务")
 
 

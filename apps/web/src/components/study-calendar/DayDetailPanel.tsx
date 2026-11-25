@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarDays, Loader2 } from "lucide-react";
+import { ArrowLeft, CalendarDays, Loader2 } from "lucide-react";
 
 import { useLanguage } from "@/lib/i18n";
 import { formatDayLabel } from "@/lib/calendar";
@@ -14,6 +14,7 @@ export function DayDetailPanel({
   error,
   startingId,
   onStart,
+  onBacklog,
 }: {
   date: string;
   data: StudyDayResponse | null;
@@ -21,6 +22,7 @@ export function DayDetailPanel({
   error: string | null;
   startingId: string | null;
   onStart: (task: StudyDayTask) => void;
+  onBacklog?: () => void;
 }) {
   const { t } = useLanguage();
   const total = data?.assignments.reduce(
@@ -34,6 +36,15 @@ export function DayDetailPanel({
 
   return (
     <aside className="study-day-panel">
+      {onBacklog && (
+        <button
+          type="button"
+          className="mb-2 flex items-center gap-1 text-[11px] text-[var(--muted)] hover:text-[var(--primary)]"
+          onClick={onBacklog}
+        >
+          <ArrowLeft size={12} /> {t("待学习")}
+        </button>
+      )}
       <div className="study-day-panel-head">
         <div>
           <div className="eyebrow">{data?.is_today ? t("今天") : "Agenda"}</div>
@@ -65,11 +76,7 @@ export function DayDetailPanel({
             <section key={group.assignment_id}>
               <div className="mb-2 flex items-center justify-between gap-2">
                 <div className="flex min-w-0 items-center gap-2">
-                  <i
-                    className={`study-plan-dot color-${group.color}`}
-                    aria-hidden="true"
-                  />
-                  <span className="truncate text-[12.5px] font-semibold">
+                  <span className="truncate text-[13px] font-semibold">
                     {group.plan_title}
                   </span>
                 </div>
@@ -82,6 +89,7 @@ export function DayDetailPanel({
                   <StudyTaskCard
                     key={task.task_id}
                     task={task}
+                    planColor={group.color}
                     starting={startingId === task.task_id}
                     onStart={onStart}
                   />

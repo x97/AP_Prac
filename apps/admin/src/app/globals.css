@@ -276,3 +276,352 @@ a {
     padding: 18px 14px 60px;
   }
 }
+
+/* ------------------------------------------------------------------------- *
+ * Teacher Q&A
+ * ------------------------------------------------------------------------- */
+.a-error {
+  border: 1px solid #f6d5d2;
+  border-radius: 10px;
+  background: var(--danger-soft);
+  padding: 9px 12px;
+  color: var(--danger);
+  font-size: 12.5px;
+}
+
+.a-segment {
+  display: inline-flex;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 3px;
+}
+
+.a-segment button {
+  border-radius: 7px;
+  padding: 5px 12px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.a-segment button:hover {
+  background: var(--surface-2);
+}
+
+.a-segment button.is-active {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.a-qa-bell {
+  position: relative;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  transition: border-color 140ms ease, color 140ms ease;
+}
+
+.a-qa-bell:hover,
+.a-qa-bell.has-unread {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.a-qa-bell-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 17px;
+  height: 17px;
+  border-radius: 999px;
+  background: var(--danger);
+  color: #fff;
+  padding: 0 4px;
+  text-align: center;
+  font-size: 9.5px;
+  line-height: 17px;
+  font-weight: 650;
+}
+
+.a-qa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.a-qa-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 15px 17px;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.a-qa-card:hover {
+  border-color: #c7d4f7;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+}
+
+.a-qa-card.is-unread {
+  border-left: 3px solid var(--primary);
+  background: color-mix(in srgb, var(--primary-soft) 28%, var(--surface));
+}
+
+.a-qa-card-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.a-qa-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.a-qa-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--primary);
+}
+
+.a-qa-student {
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.a-qa-time {
+  margin-left: auto;
+  color: var(--faint);
+  font-size: 10.5px;
+}
+
+.a-qa-stem {
+  margin-top: 6px;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 13.5px;
+  font-weight: 550;
+  line-height: 1.55;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.a-qa-preview {
+  margin-top: 4px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.55;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.a-qa-preview-author {
+  color: var(--faint);
+}
+
+.a-qa-context {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+  color: var(--faint);
+  font-size: 10.5px;
+}
+
+.a-qa-arrow {
+  flex-shrink: 0;
+  color: var(--faint);
+}
+
+.a-qa-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 16px;
+  align-items: start;
+}
+
+.a-qa-question {
+  border-left: 3px solid var(--primary);
+  padding: 16px 18px;
+}
+
+.a-qa-question-label {
+  color: var(--faint);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.a-qa-question-stem {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.a-qa-thread {
+  overflow: hidden;
+}
+
+.a-qa-thread-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid var(--line);
+  padding: 13px 16px;
+}
+
+.a-qa-thread-head h2 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.a-qa-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.a-qa-message {
+  max-width: 92%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2);
+  padding: 11px 13px;
+}
+
+.a-qa-message.is-teacher {
+  align-self: flex-end;
+  border-color: color-mix(in srgb, var(--primary) 22%, var(--line));
+  background: color-mix(in srgb, var(--primary-soft) 55%, var(--surface));
+}
+
+.a-qa-message-head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.a-qa-message-avatar {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.a-qa-message.is-teacher .a-qa-message-avatar {
+  background: var(--primary);
+  color: #fff;
+}
+
+.a-qa-message-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.a-qa-teacher-tag {
+  border-radius: 4px;
+  background: var(--primary);
+  color: #fff;
+  padding: 0 4px;
+  font-size: 8.5px;
+  font-weight: 600;
+}
+
+.a-qa-message-time {
+  margin-left: auto;
+  color: var(--faint);
+  font-size: 10px;
+}
+
+.a-qa-message-body {
+  margin-top: 6px;
+  white-space: pre-wrap;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.a-qa-composer {
+  border-top: 1px solid var(--line);
+  padding: 13px 16px 16px;
+}
+
+.a-qa-textarea {
+  min-height: 96px;
+  resize: vertical;
+  line-height: 1.65;
+}
+
+.a-qa-student-avatar {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.a-qa-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.a-qa-facts > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.a-qa-facts dt {
+  color: var(--faint);
+  font-size: 11px;
+}
+
+.a-qa-facts dd {
+  overflow-wrap: anywhere;
+  text-align: right;
+  font-size: 11.5px;
+}
+
+@media (max-width: 1080px) {
+  .a-qa-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -741,6 +741,7 @@ export type StudyCalendarResponse = {
   active_assignment_count: number;
   plans: StudyCalendarPlan[];
   days: StudyCalendarDay[];
+  backlog: StudyBacklogTask[];
   overdue_days: number;
   earliest_overdue_date: string | null;
 };
@@ -767,6 +768,12 @@ export type StudyDayTask = {
   completed_late: boolean;
   session_id: string | null;
   session_status: string | null;
+};
+
+export type StudyBacklogTask = StudyDayTask & {
+  study_date: string;
+  plan_title: string;
+  plan_color: string;
 };
 
 export type StudyDayAssignment = {
@@ -798,8 +805,71 @@ export type StudyHomeworkBlock = {
   task_id: string;
   assignment_id: string;
   plan_title: string;
+  plan_color: string;
   task_title: string;
   study_date: string;
   task_completed: boolean;
   next_task: { id: string; title: string; study_date: string } | null;
+};
+
+// ---------------------------------------------------------------------------
+// Homework Q&A
+// ---------------------------------------------------------------------------
+export type QaReply = {
+  id: string;
+  author_type: "student" | "teacher";
+  is_teacher: boolean;
+  author_name: string;
+  content: string;
+  created_at: string;
+};
+
+export type QaThread = {
+  id: string;
+  question_id: string;
+  content: string;
+  created_at: string;
+  is_mine: boolean;
+  student: { nickname: string };
+  teacher_replied: boolean;
+  unread: boolean;
+  replies: QaReply[];
+};
+
+export type QaQuestionThreads = {
+  task_id: string;
+  question_id: string;
+  threads: QaThread[];
+  unread: boolean;
+};
+
+export type QaMyThread = {
+  id: string;
+  question_id: string;
+  question_stem: string;
+  content: string;
+  plan_title: string | null;
+  task_title: string | null;
+  homework_title: string | null;
+  created_at: string;
+  last_reply_at: string;
+  last_message: string;
+  reply_count: number;
+  teacher_replied: boolean;
+  unread: boolean;
+};
+
+export type QaMyThreadList = {
+  threads: QaMyThread[];
+  total: number;
+  limit: number;
+  offset: number;
+};
+
+export type QaThreadDetail = QaThread & {
+  question_stem: string;
+  plan_title: string | null;
+  task_title: string | null;
+  homework_title: string | null;
+  last_reply_at: string;
 };

@@ -953,3 +953,71 @@ class StudyPlanTask(Base):
     updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
     )
+
+
+class QaThread(Base):
+    """A student's question about a question inside a study-calendar homework."""
+
+    __tablename__ = "qa_threads"
+    __table_args__ = (
+        Index("idx_qa_thread_question", "subject_id", "question_id", "created_at"),
+        Index("idx_qa_thread_student", "student_id", "last_reply_at"),
+        Index("idx_qa_thread_last_reply", "last_reply_at"),
+        Index("idx_qa_thread_admin_read", "admin_last_read_at"),
+    )
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    subject_id: Mapped[str] = mapped_column(String(64), nullable=False)
+    question_id: Mapped[str] = mapped_column(String(64), nullable=False)
+    homework_id: Mapped[Optional[str]] = mapped_column(String(36))
+    plan_title: Mapped[Optional[str]] = mapped_column(String(200))
+    task_title: Mapped[Optional[str]] = mapped_column(String(200))
+    homework_title: Mapped[Optional[str]] = mapped_column(String(200))
+    question_stem: Mapped[Optional[str]] = mapped_column(Text)
+    student_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), nullable=False
+    )
+    content: Mapped[str] = mapped_column(Text, nullable=False)
+    status: Mapped[str] = mapped_column(String(16), default="open", nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+    last_reply_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    last_student_message_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    last_teacher_message_at: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True)
+    )
+    student_last_read_at: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True)
+    )
+    admin_last_read_at: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True)
+    )
+
+
+class QaReply(Base):
+    __tablename__ = "qa_replies"
+    __table_args__ = (Index("idx_qa_reply_thread", "thread_id", "created_at"),)
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=new_id)
+    thread_id: Mapped[str] = mapped_column(
+        ForeignKey("qa_threads.id", ondelete="CASCADE"), nullable=False
+    )
+    author_type: Mapped[str] = mapped_column(String(16), nullable=False)
+    student_id: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("users.id", ondelete="SET NULL")
+    )
+    admin_id: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    content: Mapped[str] = mapped_column(Text, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )

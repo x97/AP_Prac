@@ -77,7 +77,7 @@ export default function HomeworksPage() {
             Classroom
           </div>
           <h1 className="mt-1 text-[27px] font-semibold tracking-[-0.03em]">课堂作业</h1>
-          <p className="mt-1 text-[12.5px] text-[var(--muted)]">
+          <p className="mt-1 max-w-[760px] text-[14px] leading-6 text-[var(--muted)]">
             可复用的题目集合：标题、备注、Unit/Chapter 和 MCQ 题目。学习计划通过引用课堂作业来组织学习项。
           </p>
         </div>

@@ -17,6 +17,7 @@ import { useEffect, useState } from "react";
 import { FlashcardStudy } from "@/components/FlashcardStudy";
 import { LandingCountdown } from "@/components/LandingCountdown";
 import { LandingSampleQuestion } from "@/components/LandingSampleQuestion";
+import { LockGlyph } from "@/components/LockGlyph";
 import { brand } from "@/config/brand";
 import { LanguageSwitcher, useLanguage } from "@/lib/i18n";
 
@@ -468,7 +469,11 @@ export function LandingPageContent() {
                       <b>{day}</b>
                       {kind === "done" && <i>✓</i>}
                       {kind === "overdue" && <i>!</i>}
-                      {kind === "locked" && <i>🔒</i>}
+                      {kind === "locked" && (
+                        <span className="landing-calendar-lock">
+                          <LockGlyph size={9} />
+                        </span>
+                      )}
                       {kind === "ready" && <i />}
                     </span>
                   );

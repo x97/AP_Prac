@@ -11,6 +11,7 @@ import {
   ListChecks,
   Loader2,
   LogOut,
+  MessageCircleQuestion,
   ScrollText,
   UploadCloud,
   Users,
@@ -21,6 +22,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 import { apiGet, apiPost } from "@/lib/api";
 import type { Admin, AdminSubject } from "@/lib/types";
+
+import { AdminQaBell } from "./AdminQaBell";
 
 const AdminContext = createContext<Admin | null>(null);
 
@@ -50,6 +53,7 @@ const NAV = [
   { href: "/students", label: "学生", icon: Users },
   { href: "/study-plans", label: "学习计划", icon: CalendarRange },
   { href: "/homeworks", label: "课堂作业", icon: ClipboardList },
+  { href: "/qa", label: "老师答疑", icon: MessageCircleQuestion },
   { href: "/codes", label: "激活码", icon: KeyRound },
   { href: "/content/papers", label: "试卷", icon: FileText },
   { href: "/content/questions", label: "题目", icon: ListChecks },
@@ -240,6 +244,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
             </label>
           </div>
           <div className="flex items-center gap-2">
+            <AdminQaBell />
             <span className="a-badge a-badge-primary">{admin.role}</span>
             <span className="a-badge">{admin.email}</span>
           </div>

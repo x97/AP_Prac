@@ -327,6 +327,7 @@ def session_payload(
                 "task_id": task.id,
                 "assignment_id": task.assignment_id,
                 "plan_title": task.plan_title,
+                "plan_color": task.plan_color,
                 "task_title": task.item_title,
                 "study_date": task.study_date.isoformat(),
                 "task_completed": task.status == "completed",

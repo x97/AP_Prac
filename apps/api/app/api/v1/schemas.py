@@ -319,3 +319,13 @@ class StudyPlanAssign(BaseModel):
 
 class StudyAssignmentCancel(BaseModel):
     reason: Optional[str] = Field(default=None, max_length=500)
+
+
+class QaQuestionCreate(BaseModel):
+    session_id: str = Field(min_length=1, max_length=36)
+    question_id: str = Field(min_length=1, max_length=64)
+    content: str = Field(min_length=1, max_length=5000)
+
+
+class QaReplyCreate(BaseModel):
+    content: str = Field(min_length=1, max_length=5000)

@@ -7,6 +7,7 @@ import {
   KeyRound,
   Layers,
   MapPin,
+  MessageCircleQuestion,
   NotebookPen,
   Target,
   UserRound,
@@ -410,6 +411,15 @@ export default function MePage() {
             </div>
 
             <div className="mt-4 space-y-2">
+              <QuietLink
+                href="/qa"
+                className="flex items-center justify-between rounded-xl border border-[var(--line)] px-4 py-3 hover:bg-[var(--surface-2)]"
+              >
+                <span className="flex items-center gap-2 text-[13.5px]">
+                  <MessageCircleQuestion size={15} /> {t("老师答疑")}
+                </span>
+                <span className="text-[11px] faint">→</span>
+              </QuietLink>
               <QuietLink
                 href="/history"
                 className="flex items-center justify-between rounded-xl border border-[var(--line)] px-4 py-3 hover:bg-[var(--surface-2)]"

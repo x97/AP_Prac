@@ -1,24 +1,17 @@
 "use client";
 
-import {
-  AlertTriangle,
-  CalendarDays,
-  ChevronLeft,
-  ChevronRight,
-  Loader2,
-  Sparkles,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
 import { DayDetailPanel } from "@/components/study-calendar/DayDetailPanel";
 import { CalendarMonthGrid } from "@/components/study-calendar/CalendarMonthGrid";
+import { StudyBacklogPanel } from "@/components/study-calendar/StudyBacklogPanel";
 import { StudyCalendarEmptyState } from "@/components/study-calendar/StudyCalendarEmptyState";
 import { TeacherContactModal } from "@/components/TeacherContactModal";
 import { apiGet, apiPost, ApiError } from "@/lib/api";
 import {
   addMonths,
-  formatDayLabel,
   monthCells,
   monthKeyFromDate,
   monthLabel,
@@ -43,6 +36,7 @@ export function StudyCalendar() {
   const today = todayKeyFromShanghai();
   const [month, setMonth] = useState(monthKeyFromDate(today));
   const [selected, setSelected] = useState(today);
+  const [panelMode, setPanelMode] = useState<"backlog" | "date">("backlog");
   const [data, setData] = useState<StudyCalendarResponse | null>(null);
   const [dayData, setDayData] = useState<StudyDayResponse | null>(null);
   const [loading, setLoading] = useState(true);
@@ -121,14 +115,10 @@ export function StudyCalendar() {
     return values;
   }, [cells, data, daysByDate]);
 
-  function goToDate(dateKey: string) {
-    setMonth(monthOf(dateKey));
-    setSelected(dateKey);
-  }
-
   function selectDate(dateKey: string, inMonth: boolean) {
     if (!inMonth) setMonth(monthOf(dateKey));
     setSelected(dateKey);
+    setPanelMode("date");
   }
 
   async function startTask(task: StudyDayTask) {
@@ -172,13 +162,9 @@ export function StudyCalendar() {
     );
   }
 
-  const currentTasks = (data?.plans || []).filter((plan) => plan.current_task);
-  const noActive = data && !data.has_active_plan;
-
   return (
     <div>
-      <div className="page-head study-calendar-head">
-        <div>
+      <div className="page-head study-calendar-head">        <div>
           <div className="eyebrow">Study calendar</div>
           <h1 className="h1 mt-1">{t("学习日历")}</h1>
           <p className="mt-1 text-[12.5px] muted">
@@ -209,6 +195,7 @@ export function StudyCalendar() {
             onClick={() => {
               setMonth(monthOf(today));
               setSelected(today);
+              setPanelMode("date");
             }}
           >
             {t("今天")}
@@ -217,60 +204,6 @@ export function StudyCalendar() {
       </div>
 
       {error && <div className="study-alert is-error">{error}</div>}
-
-      {data && data.overdue_days > 0 && data.earliest_overdue_date && (
-        <button
-          type="button"
-          className="study-alert is-overdue"
-          onClick={() => goToDate(data.earliest_overdue_date || today)}
-        >
-          <AlertTriangle size={15} />
-          {t("有 {days} 天任务待补做，最早 {date}，点击去补做", {
-            days: data.overdue_days,
-            date: formatDayLabel(data.earliest_overdue_date),
-          })}
-        </button>
-      )}
-
-      {noActive && (
-        <div className="study-alert is-muted">
-          <Sparkles size={15} /> {t("当前没有进行中的计划，历史任务仍可回看。")}
-          <button
-            type="button"
-            className="text-[var(--primary)] underline"
-            onClick={() => setContactOpen(true)}
-          >
-            {t("联系老师定制")}
-          </button>
-        </div>
-      )}
-
-      {currentTasks.length > 0 && (
-        <div className="study-current">
-          {currentTasks.map((plan) => (
-            <button
-              key={plan.assignment_id}
-              type="button"
-              className="study-current-card"
-              onClick={() => plan.current_task && goToDate(plan.current_task.study_date)}
-            >
-              <span className={`study-plan-dot color-${plan.color}`} />
-              <span className="min-w-0">
-                <span className="block truncate text-[11px] text-[var(--faint)]">
-                  {plan.title}
-                </span>
-                <span className="block truncate text-[12.5px] font-medium">
-                  {plan.current_task?.title}
-                </span>
-              </span>
-              <span className="ml-auto shrink-0 text-[10.5px] text-[var(--muted)]">
-                {plan.current_task?.study_date}
-              </span>
-              <span className="btn btn-primary btn-sm shrink-0">{t("去学习")}</span>
-            </button>
-          ))}
-        </div>
-      )}
 
       <div className="study-calendar-layout">
         <section className="card study-calendar-card">
@@ -296,14 +229,29 @@ export function StudyCalendar() {
           </div>
         </section>
 
-        <DayDetailPanel
-          date={selected}
-          data={dayData}
-          loading={dayLoading}
-          error={dayError}
-          startingId={startingId}
-          onStart={startTask}
-        />
+        {panelMode === "backlog" ? (
+          <StudyBacklogPanel
+            tasks={data?.backlog || []}
+            today={data?.today || today}
+            startingId={startingId}
+            onStart={startTask}
+            onSelectDate={(date) => {
+              setMonth(monthOf(date));
+              setSelected(date);
+              setPanelMode("date");
+            }}
+          />
+        ) : (
+          <DayDetailPanel
+            date={selected}
+            data={dayData}
+            loading={dayLoading}
+            error={dayError}
+            startingId={startingId}
+            onStart={startTask}
+            onBacklog={() => setPanelMode("backlog")}
+          />
+        )}
       </div>
 
       <TeacherContactModal open={contactOpen} onClose={() => setContactOpen(false)} />

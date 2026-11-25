@@ -1,5 +1,9 @@
 const messages: Record<string, string> = {
   "学习日历": "Study Calendar",
+  "待学习": "To do",
+  "今天及以前未完成的任务，可以直接补做。":
+    "Tasks due today or earlier can be done now.",
+  "今天没有待补做的任务": "Nothing left to catch up on today",
   "日历": "Calendar",
   "今天": "Today",
   "上个月": "Previous month",
@@ -55,6 +59,43 @@ const messages: Record<string, string> = {
   "查看我的学习日历": "View my study calendar",
   "咨询定制学习计划": "Ask about a custom plan",
   "学习计划": "Study plans",
+  "老师答疑": "Teacher Q&A",
+  "我的笔记": "My notes",
+  "这里汇总你在学习日历作业里向老师提过的问题和回复。":
+    "Every question you asked in Study Calendar homework, with your teacher's replies.",
+  "条提问": "questions",
+  "新回复": "New reply",
+  "等待老师回复": "Waiting for teacher",
+  "题目已从题库移除": "This question was removed from the bank",
+  "还没有提问": "No questions yet",
+  "只有学习日历里的作业题目可以向老师提问。":
+    "Only questions in Study Calendar homework can be sent to your teacher.",
+  "有 {count} 条答疑回复": "{count} new teacher reply",
+  "加载失败": "Could not load",
+  "加载答疑失败": "Could not load Q&A",
+  "提问失败": "Could not post the question",
+  "发送失败": "Could not send",
+  "发送中…": "Sending…",
+  "提交中…": "Posting…",
+  "提问老师": "Ask teacher",
+  "追问老师": "Follow up",
+  "补充你的问题…": "Add to your question…",
+  "发送追问": "Send follow-up",
+  "取消": "Cancel",
+  "我的提问": "My question",
+  "还没有老师回复": "No teacher reply yet",
+  "提问会公开显示给做这道题的同学；老师回复后会出现在这里。":
+    "Questions are visible to classmates working on this question. Your teacher's reply will appear here.",
+  "还没有同学提问，你可以成为第一个。":
+    "No one has asked yet. Be the first.",
+  "关于这道题，想问老师什么？": "What would you like to ask about this question?",
+  "提问详情": "Question details",
+  "题目": "Question",
+  "上一页": "Previous",
+  "下一页": "Next",
+  "第 {page} / {pages} 页 · 共 {total} 条":
+    "Page {page} of {pages} · {total} total",
+  "查看消息详情": "View details",
 };
 
 export default messages;

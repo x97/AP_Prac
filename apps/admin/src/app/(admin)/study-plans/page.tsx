@@ -23,7 +23,19 @@ const COLORS = [
   ["success", "森林绿"],
   ["violet", "紫罗兰"],
   ["cyan", "青碧"],
+  ["rose", "樱花粉"],
+  ["slate", "石墨灰"],
 ];
+
+const COLOR_HEX: Record<string, string> = {
+  primary: "#2f5be8",
+  accent: "#b45309",
+  success: "#177245",
+  violet: "#7c3aed",
+  cyan: "#0891b2",
+  rose: "#e11d48",
+  slate: "#475569",
+};
 
 export default function StudyPlansPage() {
   const admin = useAdmin();
@@ -104,7 +116,7 @@ export default function StudyPlansPage() {
             Study plans
           </div>
           <h1 className="mt-1 text-[27px] font-semibold tracking-[-0.03em]">学习计划</h1>
-          <p className="mt-1 text-[12.5px] text-[var(--muted)]">
+          <p className="mt-1 max-w-[760px] text-[14px] leading-6 text-[var(--muted)]">
             把课堂作业组织成学习项，指派给学生后自动排到开始/结束日期内的每一天。
           </p>
         </div>
@@ -176,14 +188,25 @@ export default function StudyPlansPage() {
                 {data.plans.map((plan) => (
                   <tr key={plan.id}>
                     <td>
-                      <Link
-                        href={`/study-plans/${plan.id}`}
-                        className="font-medium hover:text-[var(--primary)]"
-                      >
-                        {plan.title}
-                      </Link>
-                      <div className="mt-0.5 max-w-[360px] truncate text-[11px] text-[var(--muted)]">
-                        {plan.note || "—"}
+                      <div className="flex items-start gap-2">
+                        <i
+                          className="mt-1.5 inline-block h-2.5 w-2.5 shrink-0 rounded-full"
+                          style={{
+                            background: COLOR_HEX[plan.color] || COLOR_HEX.primary,
+                          }}
+                          aria-hidden="true"
+                        />
+                        <div className="min-w-0">
+                          <Link
+                            href={`/study-plans/${plan.id}`}
+                            className="font-medium hover:text-[var(--primary)]"
+                          >
+                            {plan.title}
+                          </Link>
+                          <div className="mt-0.5 max-w-[360px] truncate text-[11px] text-[var(--muted)]">
+                            {plan.note || "—"}
+                          </div>
+                        </div>
                       </div>
                     </td>
                     <td>
@@ -312,6 +335,9 @@ export default function StudyPlansPage() {
                   </option>
                 ))}
               </select>
+              <p className="mt-1 text-[11px] leading-5 text-[var(--faint)]">
+                用于在学生端「学习日历」中区分不同计划：日历里的任务标签和右侧任务卡片背景会使用这个颜色，不影响任务状态。
+              </p>
             </label>
           </div>
           <div className="flex justify-end gap-2 border-t border-[var(--line)] pt-3">

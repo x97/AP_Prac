@@ -16,6 +16,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import { KnowledgeRail } from "@/components/KnowledgeRail";
 import { QuestionView } from "@/components/QuestionView";
+import { QaPanel } from "@/components/qa/QaPanel";
 import { TeacherPromoCard } from "@/components/TeacherPromoCard";
 import { apiDelete, apiGet, apiPost, apiPut } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
@@ -87,6 +88,7 @@ export default function PracticeSessionPage() {
   const [noteDraft, setNoteDraft] = useState("");
   const [savingNote, setSavingNote] = useState(false);
   const [noteSaved, setNoteSaved] = useState(false);
+  const [qaTab, setQaTab] = useState<"qa" | "notes">("qa");
 
   useEffect(() => {
     let alive = true;
@@ -386,7 +388,6 @@ export default function PracticeSessionPage() {
             <ArrowLeft size={14} /> {backLabel}
           </Link>
           {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
-          {isHomework && <span className="pill pill-primary">{t("学习计划作业")}</span>}
         </div>
         <div className="card empty">
           {isWrongPractice
@@ -413,6 +414,36 @@ export default function PracticeSessionPage() {
 
   const isBookmarked = bookmarkSet.has(current.question_id);
 
+  const notesBody = (
+    <>
+      <div className={`flex items-center ${isHomework ? "justify-end" : "justify-between"}`}>
+        {!isHomework && <h3 className="text-[13px] font-semibold">{t("我的笔记")}</h3>}
+        {noteSaved && <span className="text-[11px] text-[var(--success)]">{t("已保存")}</span>}
+      </div>
+      <textarea
+        className="input mt-2 min-h-[92px] resize-y"
+        placeholder={t("记下易错点、关键词或自己的理解…")}
+        value={noteDraft}
+        onChange={(e) => {
+          setNoteDraft(e.target.value);
+          setNoteSaved(false);
+        }}
+        maxLength={20000}
+      />
+      <div className="flex items-center justify-between mt-2">
+        <span className="text-[11px] faint">{t("按题目保存；可在笔记本中查看全部。")}</span>
+        <button
+          className="btn btn-sm"
+          onClick={saveNote}
+          disabled={savingNote || !noteDraft.trim()}
+        >
+          {savingNote ? <Loader2 size={13} className="animate-spin" /> : <Save size={13} />}
+          {t("保存")}
+        </button>
+      </div>
+    </>
+  );
+
   return (
     <div>
       <div className="top-row-clear flex items-center justify-between gap-3 mb-4">
@@ -421,7 +452,6 @@ export default function PracticeSessionPage() {
             <ArrowLeft size={14} /> {backLabel}
           </Link>
           {isWrongPractice && <span className="pill pill-primary">{t("错题练习卷")}</span>}
-          {isHomework && <span className="pill pill-primary">{t("学习计划作业")}</span>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <span className="pill">
@@ -443,6 +473,18 @@ export default function PracticeSessionPage() {
           )}
         </div>
       </div>
+
+      {isHomework && data.homework && (
+        <div
+          className={`study-homework-head color-${data.homework.plan_color}`}
+        >
+          <span className="study-homework-plan">{data.homework.plan_title}</span>
+          <span className="study-homework-sep">·</span>
+          <span className="study-homework-task">{data.homework.task_title}</span>
+          <span className="study-homework-sep">·</span>
+          <span className="study-homework-date">{data.homework.study_date}</span>
+        </div>
+      )}
 
       {isWrongPractice && data.session.status === "in_progress" && (
         <div className="feedback mb-4 text-[12.5px] leading-5">
@@ -592,33 +634,33 @@ export default function PracticeSessionPage() {
 
           <QuestionView question={current} onSelect={select} disabled={busy || submitted} />
 
-          <div className="card card-pad mt-4">
-            <div className="flex items-center justify-between">
-              <h3 className="text-[13px] font-semibold">My Notes</h3>
-              {noteSaved && <span className="text-[11px] text-[var(--success)]">Saved</span>}
+          {isHomework ? (
+            <div className="card card-pad mt-4">
+              <div className="qa-tabs">
+                <button
+                  type="button"
+                  className={`qa-tab ${qaTab === "qa" ? "is-active" : ""}`}
+                  onClick={() => setQaTab("qa")}
+                >
+                  {t("老师答疑")}
+                </button>
+                <button
+                  type="button"
+                  className={`qa-tab ${qaTab === "notes" ? "is-active" : ""}`}
+                  onClick={() => setQaTab("notes")}
+                >
+                  {t("我的笔记")}
+                </button>
+              </div>
+              {qaTab === "qa" ? (
+                <QaPanel sessionId={data.session.id} questionId={current.question_id} />
+              ) : (
+                notesBody
+              )}
             </div>
-            <textarea
-              className="input mt-2 min-h-[92px] resize-y"
-              placeholder="Note the tricky part, key terms, or your own understanding…"
-              value={noteDraft}
-              onChange={(e) => {
-                setNoteDraft(e.target.value);
-                setNoteSaved(false);
-              }}
-              maxLength={20000}
-            />
-            <div className="flex items-center justify-between mt-2">
-              <span className="text-[11px] faint">Saved per question; view all in Notebook.</span>
-              <button
-                className="btn btn-sm"
-                onClick={saveNote}
-                disabled={savingNote || !noteDraft.trim()}
-              >
-                {savingNote ? <Loader2 size={13} className="animate-spin" /> : <Save size={13} />}
-                Save
-              </button>
-            </div>
-          </div>
+          ) : (
+            <div className="card card-pad mt-4">{notesBody}</div>
+          )}
 
         </div>
 

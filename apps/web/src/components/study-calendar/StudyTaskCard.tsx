@@ -9,10 +9,12 @@ import type { StudyDayTask } from "@/lib/types";
 export function StudyTaskCard({
   task,
   starting,
+  planColor,
   onStart,
 }: {
   task: StudyDayTask;
   starting: boolean;
+  planColor?: string;
   onStart: (task: StudyDayTask) => void;
 }) {
   const { t } = useLanguage();
@@ -20,13 +22,15 @@ export function StudyTaskCard({
   const locked = task.status === "locked";
   return (
     <div
-      className={`study-task-card ${completed ? "is-completed" : ""} ${
-        task.status === "overdue" ? "is-overdue" : ""
-      } ${locked ? "is-locked" : ""}`}
+      className={`study-task-card ${planColor ? `plan-tint color-${planColor}` : ""} ${
+        completed ? "is-completed" : ""
+      } ${task.status === "overdue" ? "is-overdue" : ""} ${
+        locked ? "is-locked" : ""
+      }`}
     >
       <div className="study-task-main">
         <div className="study-task-title">
-          {task.title}
+          <span className="text-[13.5px]">{task.title}</span>
           {task.early && <span className="pill pill-primary">{t("提前")}</span>}
           {task.status === "overdue" && (
             <span className="pill pill-warn">{t("待补做")}</span>

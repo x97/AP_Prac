@@ -7,8 +7,16 @@ from app.core.db import SessionLocal
 from app.core.security import hash_password
 from app.core.time import shanghai_date, utcnow
 from app.services.study_plans import distribute_item_indexes
-from app.users.models import AdminUser
+from app.users.models import AdminUser, QaReply, QaThread
 from tests.conftest import login
+
+
+
+def _clear_qa():
+    with SessionLocal() as db:
+        db.execute(QaReply.__table__.delete())
+        db.execute(QaThread.__table__.delete())
+        db.commit()
 
 
 def _admin_login(client) -> str:
@@ -389,3 +397,172 @@ def test_student_list_has_active_plan_count(client):
     )
     assert row["active_plan_count"] == 1
     assert row["latest_plan_title"] == "测试陪跑计划"
+
+
+def test_overdue_tasks_are_actionable_and_in_backlog(client):
+    ctx = _make_context(client)
+    hw1 = _create_homework(client, ctx, "逾期作业一", ctx["question_ids"][:1])
+    hw2 = _create_homework(client, ctx, "逾期作业二", ctx["question_ids"][1:2])
+    plan_id = _create_plan(client, ctx, [hw1["id"], hw2["id"]])
+    today = shanghai_date(utcnow())
+    start = today - timedelta(days=3)
+    _assign(client, plan_id, ctx["student_id"], start, today)
+
+    calendar = _calendar(client)
+    assert calendar["overdue_days"] == 1
+    assert len(calendar["backlog"]) == 2
+    assert {task["status"] for task in calendar["backlog"]} == {"overdue", "pending"}
+    assert all(task["locked"] is False for task in calendar["backlog"])
+
+    # The today task is later in the sequence than an overdue task, but it is
+    # still directly startable so the student can catch up in any order.
+    detail = _day(client, today)
+    today_tasks = [
+        task for group in detail["assignments"] for task in group["tasks"]
+    ]
+    assert today_tasks and today_tasks[0]["locked"] is False
+    started = client.post(
+        f"/api/v1/study-calendar/tasks/{today_tasks[0]['task_id']}/start",
+        params={"subject": "psychology"},
+    )
+    assert started.status_code == 200, started.text
+
+
+def test_homework_qa_and_notifications(client):
+    _clear_qa()
+    ctx = _make_context(client)
+    hw = _create_homework(client, ctx, "答疑演示作业", ctx["question_ids"][:2])
+    plan_id = _create_plan(client, ctx, [hw["id"]])
+    today = shanghai_date(utcnow())
+    _assign(client, plan_id, ctx["student_id"], today, today)
+
+    detail = _day(client, today)
+    task = next(
+        task for group in detail["assignments"] for task in group["tasks"]
+    )
+    started = client.post(
+        f"/api/v1/study-calendar/tasks/{task['task_id']}/start",
+        params={"subject": "psychology"},
+    )
+    assert started.status_code == 200, started.text
+    session_id = started.json()["session_id"]
+    session_payload = client.get(f"/api/v1/practice-sessions/{session_id}").json()
+    question_id = session_payload["questions"][0]["question_id"]
+
+    created = client.post(
+        "/api/v1/qa/questions?subject=psychology",
+        json={
+            "session_id": session_id,
+            "question_id": question_id,
+            "content": "老师，这里的强化和惩罚怎么区分？",
+        },
+    )
+    assert created.status_code == 200, created.text
+    thread_id = created.json()["id"]
+
+    listed = client.get(
+        f"/api/v1/qa/questions/{question_id}?session_id={session_id}"
+    )
+    assert listed.status_code == 200, listed.text
+    assert len(listed.json()["threads"]) == 1
+    assert listed.json()["threads"][0]["is_mine"] is True
+
+    admin_unread = client.get("/api/v1/admin/qa/unread-count")
+    assert admin_unread.status_code == 200, admin_unread.text
+    assert admin_unread.json()["unread"] == 1
+
+    replied = client.post(
+        f"/api/v1/admin/qa/threads/{thread_id}/replies",
+        json={"content": "强化增加行为，惩罚减少行为；看行为频率的变化。"},
+    )
+    assert replied.status_code == 200, replied.text
+    assert replied.json()["is_teacher"] is True
+
+    assert client.get("/api/v1/qa/unread-count").json()["unread"] == 1
+    my_threads = client.get("/api/v1/qa/my-threads")
+    assert my_threads.status_code == 200, my_threads.text
+    assert my_threads.json()["threads"][0]["unread"] is True
+
+    thread = client.get(f"/api/v1/qa/threads/{thread_id}")
+    assert thread.status_code == 200, thread.text
+    assert len(thread.json()["replies"]) == 1
+    assert client.get("/api/v1/qa/unread-count").json()["unread"] == 0
+
+    follow_up = client.post(
+        f"/api/v1/qa/threads/{thread_id}/replies",
+        json={"content": "明白了，谢谢老师！"},
+    )
+    assert follow_up.status_code == 200, follow_up.text
+    assert client.get("/api/v1/admin/qa/unread-count").json()["unread"] == 1
+
+
+def test_qa_unavailable_outside_homework_and_visible_to_classmates(client):
+    _clear_qa()
+    ctx = _make_context(client)
+    hw = _create_homework(client, ctx, "同学可见作业", ctx["question_ids"][:1])
+    plan_id = _create_plan(client, ctx, [hw["id"]])
+    today = shanghai_date(utcnow())
+    _assign(client, plan_id, ctx["student_id"], today, today)
+
+    # A normal topic practice session cannot use Q&A.
+    groups = client.get("/api/v1/practice-groups").json()
+    topics = client.get(
+        f"/api/v1/practice-groups/{groups[0]['group_id']}/topics"
+    ).json()
+    topic_session = client.post(
+        "/api/v1/practice-sessions",
+        json={"source": "topic", "topic_id": topics[0]["topic_id"]},
+    ).json()
+    topic_question = topic_session["questions"][0]["question_id"]
+    blocked = client.post(
+        "/api/v1/qa/questions?subject=psychology",
+        json={
+            "session_id": topic_session["session"]["id"],
+            "question_id": topic_question,
+            "content": "普通练习不应该能提问",
+        },
+    )
+    assert blocked.status_code == 403
+    assert blocked.json()["code"] == "QA_NOT_AVAILABLE"
+
+    # First student asks in the homework.
+    detail = _day(client, today)
+    task = next(task for group in detail["assignments"] for task in group["tasks"])
+    started = client.post(
+        f"/api/v1/study-calendar/tasks/{task['task_id']}/start",
+        params={"subject": "psychology"},
+    )
+    session_id = started.json()["session_id"]
+    question_id = client.get(
+        f"/api/v1/practice-sessions/{session_id}"
+    ).json()["questions"][0]["question_id"]
+    created = client.post(
+        "/api/v1/qa/questions?subject=psychology",
+        json={
+            "session_id": session_id,
+            "question_id": question_id,
+            "content": "这道题为什么选 B？",
+        },
+    )
+    assert created.status_code == 200, created.text
+
+    # A classmate with the same assigned homework/question sees the thread.
+    login(client)
+    second_id = _student_id(client)
+    _assign(client, plan_id, second_id, today, today)
+    second_detail = _day(client, today)
+    second_task = next(
+        task for group in second_detail["assignments"] for task in group["tasks"]
+    )
+    second_started = client.post(
+        f"/api/v1/study-calendar/tasks/{second_task['task_id']}/start",
+        params={"subject": "psychology"},
+    )
+    assert second_started.status_code == 200, second_started.text
+    second_session = second_started.json()["session_id"]
+    visible = client.get(
+        f"/api/v1/qa/questions/{question_id}?session_id={second_session}"
+    )
+    assert visible.status_code == 200, visible.text
+    assert len(visible.json()["threads"]) == 1
+    assert visible.json()["threads"][0]["is_mine"] is False

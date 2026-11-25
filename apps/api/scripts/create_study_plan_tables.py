@@ -17,10 +17,12 @@ def main() -> None:
         "study_plan_items",
         "study_plan_assignments",
         "study_plan_tasks",
+        "qa_threads",
+        "qa_replies",
     ]
     tables = [Base.metadata.tables[name] for name in table_names]
     Base.metadata.create_all(bind=engine, tables=tables)
-    print(f"created/verified {len(tables)} study-plan tables")
+    print(f"created/verified {len(tables)} study-plan/Q&A tables")
 
 
 if __name__ == "__main__":

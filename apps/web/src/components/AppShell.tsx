@@ -21,6 +21,7 @@ import { brand } from "@/config/brand";
 import { useMe } from "@/hooks/useMe";
 import { LanguageSwitcher, useLanguage } from "@/lib/i18n";
 import { ProfileSetupModal } from "@/components/ProfileSetupModal";
+import { QaBell } from "@/components/qa/QaBell";
 import { TeacherPromoCard } from "@/components/TeacherPromoCard";
 import { UserMenu } from "@/components/UserMenu";
 
@@ -101,6 +102,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     return (
       <main className="main">
         <div className="user-corner">
+          <QaBell />
           <UserMenu user={user} />
         </div>
         <div className="page">{children}</div>
@@ -174,6 +176,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </main>
 
       <div className="user-corner">
+        <QaBell />
         <UserMenu user={user} />
       </div>
 

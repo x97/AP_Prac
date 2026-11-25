@@ -683,3 +683,48 @@ export type StudyAssignmentDetail = {
     overdue: boolean;
   }>;
 };
+
+// ---------------------------------------------------------------------------
+// Teacher Q&A
+// ---------------------------------------------------------------------------
+export type AdminQaReply = {
+  id: string;
+  author_type: "student" | "teacher";
+  is_teacher: boolean;
+  author_name: string;
+  content: string;
+  created_at: string;
+};
+
+export type AdminQaStudent = {
+  id: string;
+  nickname: string | null;
+  email_masked: string | null;
+  phone_masked: string | null;
+};
+
+export type AdminQaThread = {
+  id: string;
+  subject_id: string;
+  question_id: string;
+  question_stem: string;
+  content: string;
+  plan_title: string | null;
+  task_title: string | null;
+  homework_title: string | null;
+  created_at: string;
+  last_reply_at: string;
+  last_message: string;
+  reply_count: number;
+  teacher_replied: boolean;
+  unread: boolean;
+  student: AdminQaStudent;
+  replies?: AdminQaReply[];
+};
+
+export type AdminQaThreadList = {
+  threads: AdminQaThread[];
+  total: number;
+  limit: number;
+  offset: number;
+};

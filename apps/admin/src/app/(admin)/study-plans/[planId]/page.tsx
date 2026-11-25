@@ -45,6 +45,8 @@ const COLORS = [
   ["success", "森林绿"],
   ["violet", "紫罗兰"],
   ["cyan", "青碧"],
+  ["rose", "樱花粉"],
+  ["slate", "石墨灰"],
 ];
 
 export default function StudyPlanEditorPage() {
@@ -323,6 +325,9 @@ export default function StudyPlanEditorPage() {
                     </option>
                   ))}
                 </select>
+                <p className="mt-1 text-[11px] leading-5 text-[var(--faint)]">
+                  学生端「学习日历」会用这个颜色区分不同计划：任务标签和右侧任务卡片背景会跟随这个颜色；只影响计划标识，不影响任务完成状态。
+                </p>
               </label>
               <label className="block sm:col-span-2">
                 <span className="mb-1 block text-[11.5px] text-[var(--muted)]">

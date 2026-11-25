@@ -15,6 +15,7 @@ from app.api.v1 import (
     admin,
     admin_graph,
     admin_plans,
+    admin_qa,
     assets,
     attempts,
     auth,
@@ -23,6 +24,7 @@ from app.api.v1 import (
     flashcards,
     me,
     practice,
+    qa,
     study_calendar,
 )
 from app.content.store import ContentStore
@@ -176,6 +178,8 @@ app.include_router(custom_flashcards.router, prefix="/api/v1")
 app.include_router(admin.router, prefix="/api/v1")
 app.include_router(admin_graph.router, prefix="/api/v1")
 app.include_router(admin_plans.router, prefix="/api/v1")
+app.include_router(admin_qa.router, prefix="/api/v1")
 app.include_router(study_calendar.router, prefix="/api/v1")
+app.include_router(qa.router, prefix="/api/v1")
 app.include_router(me.router, prefix="/api/v1")
 app.include_router(assets.router)

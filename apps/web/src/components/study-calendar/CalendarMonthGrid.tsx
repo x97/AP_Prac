@@ -1,5 +1,6 @@
 "use client";
 
+import { LockGlyph } from "@/components/LockGlyph";
 import { useLanguage } from "@/lib/i18n";
 import type { StudyCalendarDay, StudyCalendarTask } from "@/lib/types";
 import type { CalendarCell } from "@/lib/calendar";
@@ -36,8 +37,11 @@ export function CalendarMonthGrid({
         const complete = Boolean(
           summary && summary.total > 0 && summary.completed === summary.total,
         );
-        const locked = Boolean(
-          summary && summary.total > 0 && summary.locked === summary.total,
+        const todayPending = Boolean(
+          cell.date === today && summary && summary.total > 0 && !complete && !overdue,
+        );
+        const taskDay = Boolean(
+          summary && summary.total > 0 && !overdue && !todayPending && !complete,
         );
         const rest = !day && restDates.has(cell.date);
         const visible = (day?.tasks || []).slice(0, 2);
@@ -54,7 +58,8 @@ export function CalendarMonthGrid({
               cell.date === selected ? "is-selected" : "",
               overdue ? "is-overdue-day" : "",
               complete ? "is-complete-day" : "",
-              locked ? "is-locked-day" : "",
+              todayPending ? "is-today-task-day" : "",
+              taskDay ? "is-task-day" : "",
               rest ? "is-rest-day" : "",
             ].join(" ")}
             onClick={() => onSelect(cell.date, cell.inMonth)}
@@ -67,15 +72,14 @@ export function CalendarMonthGrid({
                   {visible.map((task) => (
                     <span
                       key={task.task_id}
-                      className={`study-pill ${STATUS_CLASS[task.status]}`}
+                      className={`study-pill ${STATUS_CLASS[task.status]} color-${task.color}`}
                       title={`${task.plan_title} · ${task.title}`}
                     >
-                      {task.status === "completed"
-                        ? "✓ "
-                        : task.status === "locked"
-                          ? "🔒 "
-                          : ""}
-                      {task.title}
+                      {task.status === "completed" && (
+                        <span className="study-pill-check">✓</span>
+                      )}
+                      {task.status === "locked" && <LockGlyph size={9} />}
+                      <span className="study-pill-text">{task.title}</span>
                     </span>
                   ))}
                   {extra > 0 && (

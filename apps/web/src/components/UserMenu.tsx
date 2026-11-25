@@ -8,9 +8,11 @@ import {
   Languages,
   Loader2,
   LogOut,
+  MessageCircleQuestion,
   Palette,
   UserRound,
 } from "lucide-react";
+import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -128,6 +130,15 @@ export function UserMenu({ user }: { user: User | null }) {
           </div>
 
           <div className="user-menu-list">
+            <Link
+              href="/qa"
+              className="user-menu-item"
+              role="menuitem"
+              onClick={() => setOpen(false)}
+            >
+              <MessageCircleQuestion size={16} strokeWidth={1.8} />
+              {t("老师答疑")}
+            </Link>
             {SECTIONS.map((section) => {
               const Icon = section.icon;
               return (
