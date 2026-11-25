@@ -6,6 +6,7 @@ const nextConfig = {
   output: "standalone",
   allowedDevOrigins: ["127.0.0.1"],
   images: { unoptimized: true },
+  experimental: { agentUpgrade: "security" },
   async rewrites() {
     return [
       { source: "/api/:path*", destination: `${API_INTERNAL_URL}/api/:path*` },
