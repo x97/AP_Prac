@@ -797,7 +797,8 @@ def test_admin_content_edits_and_creation_overlay(client):
         assert overview.status_code == 200, overview.text
         assert overview.json()["total"] > 3000
         assert len(overview.json()["questions"]) == 5
-        assert len(overview.json()["units"]) == 5
+        unit_ids = [item["unit_id"] for item in overview.json()["units"]]
+        assert unit_ids == ["0", "1", "2", "3", "4", "5"]
 
         all_section = client.get(
             "/api/v1/admin/content/questions?section=all&limit=5"
@@ -824,6 +825,14 @@ def test_admin_content_edits_and_creation_overlay(client):
         ).json()
         assert unit_list["total"] == 345
         assert all("1" in item["unit_ids"] for item in unit_list["questions"])
+
+        # Unit 0 has no practice bundle; it is selected through concept links.
+        unit0_list = client.get(
+            "/api/v1/admin/content/questions?source=unit&unit=0&limit=10"
+        )
+        assert unit0_list.status_code == 200, unit0_list.text
+        assert unit0_list.json()["total"] > 0
+        assert len(unit0_list.json()["questions"]) == 10
 
         assert (
             client.get(

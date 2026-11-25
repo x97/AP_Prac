@@ -316,7 +316,7 @@ def list_question_units(
     db_path: Optional[Path] = None, subject_id: str = SUBJECT_ID
 ) -> list[dict[str, Any]]:
     exam_db = db_path or _read_paths()[0]
-    return _rows(
+    units = _rows(
         exam_db,
         """
         SELECT g.unit_id, g.title, g.bundle_paper_id
@@ -326,6 +326,13 @@ def list_question_units(
         """,
         (subject_id,),
     )
+    # Unit 0 (Science Practices) has concepts but no practice bundle.
+    if not any(str(item["unit_id"]) == "0" for item in units):
+        units.insert(
+            0,
+            {"unit_id": "0", "title": "Unit 0", "bundle_paper_id": None},
+        )
+    return units
 
 
 def list_all_questions(
@@ -336,17 +343,42 @@ def list_all_questions(
     limit: int = 50,
     offset: int = 0,
     db_path: Optional[Path] = None,
+    knowledge_db_path: Optional[Path] = None,
     subject_id: str = SUBJECT_ID,
 ) -> dict[str, Any]:
     """Cross-paper question list for the admin question browser.
 
     ``source=unit`` selects questions mapped into a unit practice bundle via
-    ``paper_question_map``; other sources map to ``papers.paper_type``.
+    ``paper_question_map``. Unit 0 has no practice bundle, so it selects
+    questions linked to concepts with ``ap_unit='0'`` instead. Other sources
+    map to ``papers.paper_type``.
     """
     exam_db = db_path or _read_paths()[0]
     clauses = ["q.subject_id = ?"]
     params: list[Any] = [subject_id]
-    if source == "unit":
+    if source == "unit" and str(unit_id or "") == "0":
+        knowledge_db = knowledge_db_path or _read_paths()[1]
+        unit0_ids = [
+            str(row["question_id"])
+            for row in _rows(
+                knowledge_db,
+                """
+                SELECT DISTINCT l.question_id
+                FROM question_concept_links l
+                JOIN concept_clusters c ON c.cluster_id=l.concept_id
+                WHERE c.subject_id=? AND c.ap_unit='0'
+                """,
+                (subject_id,),
+            )
+        ]
+        if unit0_ids:
+            clauses.append(
+                f"q.question_id IN ({','.join('?' for _ in unit0_ids)})"
+            )
+            params.extend(unit0_ids)
+        else:
+            clauses.append("0=1")
+    elif source == "unit":
         unit_clause = (
             "EXISTS (SELECT 1 FROM paper_question_map m "
             "JOIN practice_groups g ON g.bundle_paper_id = m.paper_id "

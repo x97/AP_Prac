@@ -89,7 +89,7 @@ Admin API 在题目、知识点、试卷、关联记录中返回 `admin_origin` 
 - 后台「题目」入口跨试卷列出当前科目的全部题目，并可直接在列表中修改星级。
 - 筛选条件：
   - `source`：`all` / `unit`（单元练习）/ `real_exam`（真题）/ `mock_exam`（模拟题）/ `unit_practice`（章节练习）。
-  - `unit`：1–5，仅在 `source=unit` 时生效；通过 `paper_question_map` + `practice_groups` 判断单元归属。
+  - `unit`：0–5，仅在 `source=unit` 时生效。Unit 1–5 通过 `paper_question_map` + `practice_groups` 判断练习包归属；Unit 0（Science Practices / 研究方法）没有练习包，改用概念层 `ap_unit='0'` 关联筛选。
   - `section`：`MCQ` / `FRQ`。
   - `q`：按题干或题目 ID 模糊搜索。
 - 列表返回试卷来源、年份、题型、选项数和 `stars`；`source=unit` 的题目额外返回 `unit_ids`。
