@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 
 import { apiGet, apiPatch, apiPost } from "@/lib/api";
 import { AdminModal } from "@/components/AdminModal";
+import { StarRating } from "@/components/StarRating";
 import { useAdmin, useAdminSubject } from "@/components/AdminShell";
 import type { PaperDetail, QuestionDetail, QuestionSummary } from "@/lib/types";
 
@@ -43,6 +44,7 @@ export default function PaperDetailPage() {
   const [edit, setEdit] = useState({ title: "", chinese_title: "", year: "", paper_type: "" });
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
+  const [starError, setStarError] = useState<string | null>(null);
   const [createOpen, setCreateOpen] = useState(false);
   const [createBusy, setCreateBusy] = useState(false);
   const [createError, setCreateError] = useState<string | null>(null);
@@ -164,6 +166,42 @@ export default function PaperDetailPage() {
       setSaveError(e instanceof Error ? e.message : "保存失败");
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function saveStars(questionId: string, stars: number | null) {
+    const previous =
+      paper?.questions.find((item) => item.question_id === questionId)?.stars ?? null;
+    setStarError(null);
+    setPaper((prev) =>
+      prev
+        ? {
+            ...prev,
+            questions: prev.questions.map((item) =>
+              item.question_id === questionId ? { ...item, stars } : item,
+            ),
+          }
+        : prev,
+    );
+    try {
+      await apiPatch(
+        `/content/questions/${questionId}/stars?subject=${encodeURIComponent(subjectId)}`,
+        { stars },
+      );
+    } catch (e) {
+      setPaper((prev) =>
+        prev
+          ? {
+              ...prev,
+              questions: prev.questions.map((item) =>
+                item.question_id === questionId
+                  ? { ...item, stars: previous }
+                  : item,
+              ),
+            }
+          : prev,
+      );
+      setStarError(e instanceof Error ? e.message : "星级保存失败");
     }
   }
 
@@ -392,6 +430,12 @@ export default function PaperDetailPage() {
         </div>
       )}
 
+      {starError && (
+        <div className="mb-4 rounded-xl border border-[#f6d5d2] bg-[var(--danger-soft)] px-4 py-3 text-[12px] text-[var(--danger)]">
+          星级保存失败：{starError}
+        </div>
+      )}
+
       <div className="a-card overflow-hidden">
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--line)] px-5 py-4">
           <h2 className="text-[15px] font-semibold">题目列表</h2>
@@ -413,6 +457,8 @@ export default function PaperDetailPage() {
               key={question.question_id}
               question={question}
               subjectId={subjectId}
+              canEdit={canEdit}
+              onStarsChange={saveStars}
             />
           ))}
           {questions.length === 0 && (
@@ -427,16 +473,21 @@ export default function PaperDetailPage() {
 function QuestionRow({
   question,
   subjectId,
+  canEdit,
+  onStarsChange,
 }: {
   question: QuestionSummary;
   subjectId: string;
+  canEdit: boolean;
+  onStarsChange: (questionId: string, stars: number | null) => Promise<void>;
 }) {
+  const [savingStars, setSavingStars] = useState(false);
   return (
-    <Link
-      href={`/content/questions/${question.question_id}?subject=${encodeURIComponent(subjectId)}`}
-      className="block px-5 py-4 transition hover:bg-[var(--surface-2)]"
-    >
-      <div className="flex items-start gap-3">
+    <div className="flex items-start gap-3 px-5 py-4 transition hover:bg-[var(--surface-2)]">
+      <Link
+        href={`/content/questions/${question.question_id}?subject=${encodeURIComponent(subjectId)}`}
+        className="flex min-w-0 flex-1 items-start gap-3"
+      >
         <span className="a-badge shrink-0 font-mono">
           {question.section} {question.number}
         </span>
@@ -454,7 +505,25 @@ function QuestionRow({
           {question.answer_source && <><span>·</span><span>{question.answer_source}</span></>}
           </div>
         </div>
+      </Link>
+      <div className="shrink-0 pt-0.5">
+        <StarRating
+          value={question.stars}
+          size={14}
+          label={`${question.section} ${question.number} 星级`}
+          disabled={!canEdit || savingStars}
+          onChange={
+            canEdit
+              ? (next) => {
+                  setSavingStars(true);
+                  onStarsChange(question.question_id, next).finally(() =>
+                    setSavingStars(false),
+                  );
+                }
+              : undefined
+          }
+        />
       </div>
-    </Link>
+    </div>
   );
 }

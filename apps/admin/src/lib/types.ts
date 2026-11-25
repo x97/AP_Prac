@@ -192,8 +192,31 @@ export type QuestionSummary = {
   stem: string;
   answer_source: string | null;
   answer_confidence: string | null;
+  stars?: number | null;
   option_count: number;
   correct_count: number;
+};
+
+export type AdminQuestionListItem = QuestionSummary & {
+  paper_type: string | null;
+  paper_title: string | null;
+  paper_chinese_title: string | null;
+  year: number | null;
+  unit_ids?: string[];
+};
+
+export type AdminQuestionUnit = {
+  unit_id: string;
+  title: string;
+  bundle_paper_id: string;
+};
+
+export type AdminQuestionListResponse = {
+  questions: AdminQuestionListItem[];
+  total: number;
+  limit: number;
+  offset: number;
+  units: AdminQuestionUnit[];
 };
 
 export type PaperDetail = Omit<Paper, "actual_questions" | "mcq_count" | "frq_count"> & {
@@ -261,6 +284,7 @@ export type QuestionDetail = {
   answer_text: string | null;
   answer_source: string | null;
   answer_confidence: string | null;
+  stars?: number | null;
   options: QuestionOption[];
   assets: QuestionAsset[];
   concepts: QuestionConceptLink[];

@@ -76,6 +76,25 @@ admin_updated_at TEXT   -- 最近一次 Admin 写入时间
 
 Admin API 在题目、知识点、试卷、关联记录中返回 `admin_origin` / `admin_updated_at`，后台显示「Admin 新建 / Admin 修改」标记。
 
+## 题目星级
+
+- 表：`question_stars(subject_id, question_id, stars, updated_by, created_at, updated_at)`，主键 `(subject_id, question_id)`。
+- 取值 1–5；未评级不写记录。再次点击当前星级会清除评级。
+- 星级保存在应用数据库，不进入 Admin 覆盖层：设置星级不会重建有效内容，也不会加 `admin_origin` 标记。
+- 题目详情和试卷题目列表都返回 `stars`，未评级为 `null`。
+- 写入要求 `super_admin` / `content_editor`，并记录 `content.question.stars.update` 审计日志。
+
+## 题目总览
+
+- 后台「题目」入口跨试卷列出当前科目的全部题目，并可直接在列表中修改星级。
+- 筛选条件：
+  - `source`：`all` / `unit`（单元练习）/ `real_exam`（真题）/ `mock_exam`（模拟题）/ `unit_practice`（章节练习）。
+  - `unit`：1–5，仅在 `source=unit` 时生效；通过 `paper_question_map` + `practice_groups` 判断单元归属。
+  - `section`：`MCQ` / `FRQ`。
+  - `q`：按题干或题目 ID 模糊搜索。
+- 列表返回试卷来源、年份、题型、选项数和 `stars`；`source=unit` 的题目额外返回 `unit_ids`。
+- 使用 `limit + offset` 分页，默认 50 条，最大 200。
+
 ## 练习包 practice_bundle
 
 `practice_bundle` 是 Unit 单元练习的**虚拟试卷**：
@@ -129,6 +148,7 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 ### 题目
 
 - 编辑已有题目：题干、材料、选项、正确答案、解析、答案来源/置信度。
+- 设置题目星级：1–5 星，可在试卷题目列表或题目详情直接点选，再次点击同一星清除。
 - 新建 MCQ：题干、材料、2–5 个选项、一个正确项。
 - 新建题目默认追加到当前试卷；试卷 `question_count` 和 MCQ 配置数量会同步调整。
 - 新建题目会出现在试卷题目列表和新的整卷 attempt 中。
@@ -162,9 +182,11 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 ```text
 GET    /api/v1/admin/content/papers
 GET    /api/v1/admin/content/papers/{paper_id}
+GET    /api/v1/admin/content/questions?source=&unit=&section=&q=&limit=&offset=
 GET    /api/v1/admin/content/questions/{question_id}
 POST   /api/v1/admin/content/questions
 PATCH  /api/v1/admin/content/questions/{question_id}
+PATCH  /api/v1/admin/content/questions/{question_id}/stars
 POST   /api/v1/admin/content/questions/{question_id}/concepts
 DELETE /api/v1/admin/content/questions/{question_id}/concepts/{link_id}
 

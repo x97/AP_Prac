@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { AdminModal } from "@/components/AdminModal";
+import { StarRating } from "@/components/StarRating";
 import { useAdmin, useAdminSubject } from "@/components/AdminShell";
 import { apiDelete, apiGet, apiPatch, apiPost } from "@/lib/api";
 import type { Concept, QuestionConceptLink, QuestionDetail } from "@/lib/types";
@@ -38,6 +39,8 @@ export default function QuestionDetailPage() {
   const [form, setForm] = useState<EditForm | null>(null);
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
+  const [starSaving, setStarSaving] = useState(false);
+  const [starError, setStarError] = useState<string | null>(null);
   const [linkOpen, setLinkOpen] = useState(false);
   const [linkQuery, setLinkQuery] = useState("");
   const [linkResults, setLinkResults] = useState<Concept[]>([]);
@@ -116,6 +119,25 @@ export default function QuestionDetailPage() {
       setSaveError(e instanceof Error ? e.message : "保存失败");
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function saveStars(next: number | null) {
+    if (!question) return;
+    const previous = question.stars ?? null;
+    setStarSaving(true);
+    setStarError(null);
+    setQuestion((prev) => (prev ? { ...prev, stars: next } : prev));
+    try {
+      await apiPatch(
+        `/content/questions/${question.question_id}/stars?subject=${encodeURIComponent(subjectId)}`,
+        { stars: next },
+      );
+    } catch (e) {
+      setQuestion((prev) => (prev ? { ...prev, stars: previous } : prev));
+      setStarError(e instanceof Error ? e.message : "星级保存失败");
+    } finally {
+      setStarSaving(false);
     }
   }
 
@@ -268,6 +290,16 @@ export default function QuestionDetailPage() {
             </span>
             {question.form && <span className="a-badge">{question.form}</span>}
             <span className="a-badge">{subject?.name || subjectId}</span>
+            <span className="a-badge gap-1.5 py-1">
+              星级
+              <StarRating
+                value={question.stars}
+                size={12}
+                label="题目星级"
+                disabled={!canEdit || starSaving}
+                onChange={canEdit ? saveStars : undefined}
+              />
+            </span>
             {originLabel && (
               <span className={question.admin_origin === "admin_created" ? "a-badge a-badge-warn" : "a-badge a-badge-primary"}>
                 <Sparkles size={12} /> {originLabel}
@@ -287,6 +319,12 @@ export default function QuestionDetailPage() {
             </span>
           </div>
         </div>
+
+        {starError && (
+          <div className="mt-3 rounded-xl border border-[#f6d5d2] bg-[var(--danger-soft)] px-3 py-2 text-[12px] text-[var(--danger)]">
+            星级保存失败：{starError}
+          </div>
+        )}
 
         <AdminModal
           open={editOpen && form !== null}

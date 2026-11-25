@@ -622,6 +622,32 @@ class QuestionReport(Base):
     resolved_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
 
 
+class QuestionStar(Base):
+    """Admin-assigned 1-5 star rating for a question.
+
+    Kept in the app database rather than the content overlay: star ratings are
+    admin metadata, and writing them should not rebuild effective content.
+    ``question_id`` is stable across Releases.
+    """
+
+    __tablename__ = "question_stars"
+
+    subject_id: Mapped[str] = mapped_column(
+        String(64), primary_key=True, default="psychology"
+    )
+    question_id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    stars: Mapped[int] = mapped_column(Integer, nullable=False)
+    updated_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+
+
 class ActivationCodeBatch(Base):
     __tablename__ = "activation_code_batches"
     __table_args__ = (Index("idx_activation_batch_created", "created_at"),)

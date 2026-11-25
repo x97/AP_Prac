@@ -729,6 +729,7 @@ def test_admin_content_edits_and_creation_overlay(client):
         AdminContentRecord,
         AdminContentRevision,
         AdminUser,
+        QuestionStar,
     )
     from tests.conftest import TEST_EFFECTIVE
 
@@ -759,6 +760,71 @@ def test_admin_content_edits_and_creation_overlay(client):
         )
         assert detail.status_code == 200, detail.text
         original_title = paper.json()["title"]
+
+        # Star ratings are admin metadata stored in the app DB; both the
+        # question detail and the paper question list expose them.
+        star_url = (
+            f"/api/v1/admin/content/questions/{question['question_id']}/stars"
+        )
+        rated = client.patch(star_url, json={"stars": 4})
+        assert rated.status_code == 200, rated.text
+        assert rated.json()["stars"] == 4
+        assert client.get(
+            f"/api/v1/admin/content/questions/{question['question_id']}"
+        ).json()["stars"] == 4
+        listed = client.get(
+            "/api/v1/admin/content/papers/psychology-ap-2025"
+        ).json()["questions"]
+        assert next(
+            item
+            for item in listed
+            if item["question_id"] == question["question_id"]
+        )["stars"] == 4
+        searched = client.get(
+            "/api/v1/admin/content/questions",
+            params={"q": question["question_id"], "limit": 5},
+        )
+        assert searched.status_code == 200, searched.text
+        assert searched.json()["total"] == 1
+        assert searched.json()["questions"][0]["stars"] == 4
+        cleared = client.patch(star_url, json={"stars": None})
+        assert cleared.status_code == 200, cleared.text
+        assert cleared.json()["stars"] is None
+        assert client.patch(star_url, json={"stars": 6}).status_code == 422
+
+        # Cross-paper question browser filters by unit, paper source and type.
+        overview = client.get("/api/v1/admin/content/questions?limit=5")
+        assert overview.status_code == 200, overview.text
+        assert overview.json()["total"] > 3000
+        assert len(overview.json()["questions"]) == 5
+        assert len(overview.json()["units"]) == 5
+
+        frq_list = client.get(
+            "/api/v1/admin/content/questions?section=FRQ&limit=100"
+        ).json()
+        assert frq_list["total"] > 0
+        assert all(item["section"] == "FRQ" for item in frq_list["questions"])
+
+        real_list = client.get(
+            "/api/v1/admin/content/questions?source=real_exam&limit=100"
+        ).json()
+        assert real_list["total"] > 0
+        assert all(
+            item["paper_type"] == "real_exam" for item in real_list["questions"]
+        )
+
+        unit_list = client.get(
+            "/api/v1/admin/content/questions?source=unit&unit=1&limit=10"
+        ).json()
+        assert unit_list["total"] == 345
+        assert all("1" in item["unit_ids"] for item in unit_list["questions"])
+
+        assert (
+            client.get(
+                "/api/v1/admin/content/questions?source=invalid"
+            ).status_code
+            == 400
+        )
 
         title = f"Admin Edited Paper {uuid_module.uuid4().hex[:6]}"
         patched_paper = client.patch(
@@ -886,6 +952,7 @@ def test_admin_content_edits_and_creation_overlay(client):
         with SessionLocal() as db:
             db.query(AdminContentRecord).delete()
             db.query(AdminContentRevision).delete()
+            db.query(QuestionStar).delete()
             db.commit()
         shutil.rmtree(TEST_EFFECTIVE, ignore_errors=True)
         with SessionLocal() as db:

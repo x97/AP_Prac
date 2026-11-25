@@ -162,7 +162,8 @@ def list_questions(
                    q.answer_source, q.answer_confidence, q.subject_id,
                    q.admin_origin, q.admin_updated_at,
                    m.source_paper_id, m.sort_order AS bundle_sort_order,
-                   (SELECT COUNT(*) FROM options o WHERE o.question_id=q.question_id) AS option_count,
+                   (SELECT COUNT(*) FROM options o
+                    WHERE o.question_id=q.question_id) AS option_count,
                    (SELECT COUNT(*) FROM options o
                     WHERE o.question_id=q.question_id AND o.is_correct=1) AS correct_count
             FROM paper_question_map m
@@ -309,6 +310,128 @@ def bundle_practice_stats(paper_id: str) -> Optional[dict[str, Any]]:
     )
     row["excluded"] = int((excluded or {}).get("n") or 0)
     return row
+
+
+def list_question_units(
+    db_path: Optional[Path] = None, subject_id: str = SUBJECT_ID
+) -> list[dict[str, Any]]:
+    exam_db = db_path or _read_paths()[0]
+    return _rows(
+        exam_db,
+        """
+        SELECT g.unit_id, g.title, g.bundle_paper_id
+        FROM practice_groups g
+        WHERE g.subject_id=? AND g.status='active'
+        ORDER BY CAST(g.unit_id AS INTEGER), g.unit_id
+        """,
+        (subject_id,),
+    )
+
+
+def list_all_questions(
+    source: str = "all",
+    unit_id: Optional[str] = None,
+    section: Optional[str] = None,
+    q: Optional[str] = None,
+    limit: int = 50,
+    offset: int = 0,
+    db_path: Optional[Path] = None,
+    subject_id: str = SUBJECT_ID,
+) -> dict[str, Any]:
+    """Cross-paper question list for the admin question browser.
+
+    ``source=unit`` selects questions mapped into a unit practice bundle via
+    ``paper_question_map``; other sources map to ``papers.paper_type``.
+    """
+    exam_db = db_path or _read_paths()[0]
+    clauses = ["q.subject_id = ?"]
+    params: list[Any] = [subject_id]
+    if source == "unit":
+        unit_clause = (
+            "EXISTS (SELECT 1 FROM paper_question_map m "
+            "JOIN practice_groups g ON g.bundle_paper_id = m.paper_id "
+            "WHERE m.question_id = q.question_id AND g.subject_id = ?"
+        )
+        params.append(subject_id)
+        if unit_id:
+            unit_clause += " AND g.unit_id = ?"
+            params.append(str(unit_id))
+        clauses.append(unit_clause + ")")
+    elif source in ("real_exam", "mock_exam", "unit_practice"):
+        clauses.append("p.paper_type = ?")
+        params.append(source)
+    if section in ("MCQ", "FRQ"):
+        clauses.append("q.section = ?")
+        params.append(section)
+    needle = (q or "").strip()
+    if needle:
+        clauses.append("(q.stem LIKE ? OR q.question_id LIKE ?)")
+        params.extend([f"%{needle}%", f"%{needle}%"])
+    where = " AND ".join(clauses)
+    total = _one(
+        exam_db,
+        f"""
+        SELECT COUNT(*) AS n
+        FROM questions q
+        JOIN papers p ON p.paper_id=q.paper_id
+        WHERE {where}
+        """,
+        tuple(params),
+    )
+    rows = _rows(
+        exam_db,
+        f"""
+        SELECT q.question_id, q.paper_id, q.section, q.number, q.form, q.stem,
+               q.answer_source, q.answer_confidence, q.subject_id,
+               q.admin_origin, q.admin_updated_at,
+               p.paper_type, p.title AS paper_title,
+               p.chinese_title AS paper_chinese_title, p.year,
+               (SELECT COUNT(*) FROM options o WHERE o.question_id=q.question_id) AS option_count,
+               (SELECT COUNT(*) FROM options o
+                WHERE o.question_id=q.question_id AND o.is_correct=1) AS correct_count
+        FROM questions q
+        JOIN papers p ON p.paper_id=q.paper_id
+        WHERE {where}
+        ORDER BY p.year DESC,
+                 CASE p.paper_type
+                   WHEN 'real_exam' THEN 0
+                   WHEN 'mock_exam' THEN 1
+                   WHEN 'unit_practice' THEN 2
+                   ELSE 3
+                 END,
+                 p.paper_id,
+                 CASE q.section WHEN 'MCQ' THEN 0 ELSE 1 END,
+                 q.number, q.form
+        LIMIT ? OFFSET ?
+        """,
+        tuple(params + [limit, max(0, offset)]),
+    )
+    if rows:
+        ids = [str(row["question_id"]) for row in rows]
+        placeholders = ",".join("?" for _ in ids)
+        unit_rows = _rows(
+            exam_db,
+            f"""
+            SELECT m.question_id, g.unit_id
+            FROM paper_question_map m
+            JOIN practice_groups g ON g.bundle_paper_id = m.paper_id
+            WHERE m.question_id IN ({placeholders}) AND g.subject_id=?
+            ORDER BY CAST(g.unit_id AS INTEGER)
+            """,
+            tuple(ids + [subject_id]),
+        )
+        unit_map: dict[str, list[str]] = {}
+        for unit_row in unit_rows:
+            unit_map.setdefault(str(unit_row["question_id"]), []).append(
+                str(unit_row["unit_id"])
+            )
+        for row in rows:
+            row["unit_ids"] = unit_map.get(str(row["question_id"]), [])
+    return {
+        "questions": rows,
+        "total": int((total or {}).get("n") or 0),
+        "units": list_question_units(exam_db, subject_id),
+    }
 
 
 def next_question_number(

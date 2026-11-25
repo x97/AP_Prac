@@ -23,6 +23,7 @@ from app.api.v1.schemas import (
     KnowledgePointPatch,
     PaperPatch,
     QuestionPatch,
+    QuestionStarsPatch,
 )
 from app.content.store import ContentStore
 from app.core.admin_deps import get_current_admin, require_admin_roles
@@ -59,6 +60,7 @@ from app.users.models import (
     PracticeSession,
     PracticeSessionQuestion,
     QuestionReport,
+    QuestionStar,
     ReleaseJob,
     User,
     UserQuestionStat,
@@ -450,6 +452,41 @@ def _prepare_admin_content(db: Session, subject_id: str = "psychology") -> None:
         ) from exc
 
 
+def _question_stars(
+    db: Session, subject_id: str, question_ids: list[str]
+) -> dict[str, int]:
+    if not question_ids:
+        return {}
+    rows = db.scalars(
+        select(QuestionStar).where(
+            QuestionStar.subject_id == subject_id,
+            QuestionStar.question_id.in_(question_ids),
+        )
+    )
+    return {row.question_id: row.stars for row in rows}
+
+
+def _attach_question_stars(
+    db: Session, subject_id: str, question: dict
+) -> dict:
+    question_id = str(question["question_id"])
+    question["stars"] = _question_stars(db, subject_id, [question_id]).get(
+        question_id
+    )
+    return question
+
+
+def _attach_stars_to_questions(
+    db: Session, subject_id: str, questions: list[dict]
+) -> list[dict]:
+    stars = _question_stars(
+        db, subject_id, [str(item["question_id"]) for item in questions]
+    )
+    for item in questions:
+        item["stars"] = stars.get(str(item["question_id"]))
+    return questions
+
+
 @router.get("/content/papers")
 def admin_papers(
     subject: Optional[str] = None,
@@ -491,12 +528,53 @@ def admin_paper_detail(
     if not paper:
         raise AppError(404, "PAPER_NOT_FOUND", "试卷不存在")
     paper["config"] = store.get_exam_config(paper_id) or {}
-    paper["questions"] = admin_content.list_questions(
-        paper_id, subject_id=subject_id
+    paper["questions"] = _attach_stars_to_questions(
+        db,
+        subject_id,
+        admin_content.list_questions(paper_id, subject_id=subject_id),
     )
     if paper.get("paper_type") in ("practice_bundle", "bundle"):
         paper["practice"] = admin_content.bundle_practice_stats(paper_id)
     return paper
+
+
+@router.get("/content/questions")
+def admin_question_list(
+    source: str = "all",
+    unit: Optional[str] = None,
+    section: Optional[str] = None,
+    q: Optional[str] = None,
+    limit: int = Query(default=50, ge=1, le=200),
+    offset: int = Query(default=0, ge=0),
+    subject: Optional[str] = None,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(get_current_admin),
+):
+    subject_id = _admin_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    source_value = (source or "all").strip()
+    if source_value not in ("all", "unit", "real_exam", "mock_exam", "unit_practice"):
+        raise AppError(400, "QUESTION_SOURCE_INVALID", "来源筛选不合法")
+    section_value = (section or "").strip().upper() or None
+    if section_value not in (None, "MCQ", "FRQ"):
+        raise AppError(400, "QUESTION_SECTION_INVALID", "题型筛选不合法")
+    result = admin_content.list_all_questions(
+        source=source_value,
+        unit_id=unit if source_value == "unit" else None,
+        section=section_value,
+        q=q,
+        limit=limit,
+        offset=offset,
+        subject_id=subject_id,
+    )
+    _attach_stars_to_questions(db, subject_id, result["questions"])
+    return {
+        "questions": result["questions"],
+        "total": result["total"],
+        "limit": limit,
+        "offset": offset,
+        "units": result["units"],
+    }
 
 
 @router.get("/content/questions/{question_id}")
@@ -511,7 +589,7 @@ def admin_question_detail(
     question = admin_content.get_question(question_id, subject_id=subject_id)
     if not question:
         raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
-    return question
+    return _attach_question_stars(db, subject_id, question)
 
 
 @router.get("/content/knowledge/concepts")
@@ -641,7 +719,49 @@ def admin_update_question(
     question = admin_content.get_question(question_id, subject_id=subject_id)
     if not question:
         raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
-    return question
+    return _attach_question_stars(db, subject_id, question)
+
+
+@router.patch("/content/questions/{question_id}/stars")
+def admin_update_question_stars(
+    question_id: str,
+    body: QuestionStarsPatch,
+    request: Request,
+    subject: Optional[str] = None,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    subject_id = _admin_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    if not admin_content.get_question(question_id, subject_id=subject_id):
+        raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
+    row = db.get(QuestionStar, (subject_id, question_id))
+    if body.stars is None:
+        if row is not None:
+            db.delete(row)
+    elif row is None:
+        db.add(
+            QuestionStar(
+                subject_id=subject_id,
+                question_id=question_id,
+                stars=body.stars,
+                updated_by=admin.id,
+            )
+        )
+    else:
+        row.stars = body.stars
+        row.updated_by = admin.id
+    record_audit(
+        db,
+        admin,
+        "content.question.stars.update",
+        target_type="question",
+        target_id=question_id,
+        detail={"subject_id": subject_id, "stars": body.stars},
+        request=request,
+    )
+    db.commit()
+    return {"ok": True, "question_id": question_id, "stars": body.stars}
 
 
 @router.post("/content/questions")
@@ -675,7 +795,7 @@ def admin_create_question(
     )
     if not question:
         raise AppError(500, "QUESTION_CREATE_FAILED", "题目创建失败")
-    return question
+    return _attach_question_stars(db, subject_id, question)
 
 
 @router.post("/content/questions/{question_id}/concepts")

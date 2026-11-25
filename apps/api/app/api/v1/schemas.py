@@ -117,6 +117,11 @@ class QuestionPatch(BaseModel):
     options: Optional[list[QuestionOptionPatch]] = Field(default=None, max_length=5)
 
 
+class QuestionStarsPatch(BaseModel):
+    # ``null`` clears the rating.
+    stars: Optional[int] = Field(default=None, ge=1, le=5)
+
+
 class ConceptPatch(BaseModel):
     canonical_name: Optional[str] = Field(default=None, min_length=1, max_length=300)
     description: Optional[str] = Field(default=None, max_length=10000)
