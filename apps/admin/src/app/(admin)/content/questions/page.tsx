@@ -72,6 +72,10 @@ export default function QuestionsPage() {
   const [noteDraft, setNoteDraft] = useState("");
   const [noteSaving, setNoteSaving] = useState(false);
   const [noteError, setNoteError] = useState<string | null>(null);
+  const [previewNoteEditing, setPreviewNoteEditing] = useState(false);
+  const [previewNoteDraft, setPreviewNoteDraft] = useState("");
+  const [previewNoteSaving, setPreviewNoteSaving] = useState(false);
+  const [previewNoteError, setPreviewNoteError] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -106,11 +110,16 @@ export default function QuestionsPage() {
     setPreview(null);
     setPreviewError(null);
     setPreviewLoading(true);
+    setPreviewNoteEditing(false);
+    setPreviewNoteError(null);
+    setPreviewNoteSaving(false);
     apiGet<QuestionDetail>(
       `/content/questions/${previewId}?subject=${encodeURIComponent(subjectId)}`,
     )
       .then((value) => {
-        if (alive) setPreview(value);
+        if (!alive) return;
+        setPreview(value);
+        setPreviewNoteDraft(value.admin_note || "");
       })
       .catch((e: Error) => alive && setPreviewError(e.message))
       .finally(() => alive && setPreviewLoading(false));
@@ -124,6 +133,9 @@ export default function QuestionsPage() {
     setPreview(null);
     setPreviewError(null);
     setPreviewLoading(false);
+    setPreviewNoteEditing(false);
+    setPreviewNoteError(null);
+    setPreviewNoteSaving(false);
   }
 
   function changeSource(value: string) {
@@ -174,31 +186,57 @@ export default function QuestionsPage() {
     setNoteError(null);
   }
 
+  async function persistNote(
+    questionId: string,
+    note: string | null,
+  ): Promise<string | null> {
+    const result = await apiPatch<{
+      ok: boolean;
+      question_id: string;
+      admin_note: string | null;
+    }>(
+      `/content/questions/${questionId}/note?subject=${encodeURIComponent(subjectId)}`,
+      { note },
+    );
+    setQuestions((prev) =>
+      prev.map((item) =>
+        item.question_id === questionId
+          ? { ...item, admin_note: result.admin_note }
+          : item,
+      ),
+    );
+    return result.admin_note;
+  }
+
   async function saveNote() {
     if (!noteQuestion) return;
     setNoteSaving(true);
     setNoteError(null);
     try {
-      const result = await apiPatch<{
-        ok: boolean;
-        question_id: string;
-        admin_note: string | null;
-      }>(
-        `/content/questions/${noteQuestion.question_id}/note?subject=${encodeURIComponent(subjectId)}`,
-        { note: noteDraft.trim() || null },
-      );
-      setQuestions((prev) =>
-        prev.map((item) =>
-          item.question_id === noteQuestion.question_id
-            ? { ...item, admin_note: result.admin_note }
-            : item,
-        ),
-      );
+      await persistNote(noteQuestion.question_id, noteDraft.trim() || null);
       setNoteQuestion(null);
     } catch (e) {
       setNoteError(e instanceof Error ? e.message : "备注保存失败");
     } finally {
       setNoteSaving(false);
+    }
+  }
+
+  async function savePreviewNote() {
+    if (!preview) return;
+    setPreviewNoteSaving(true);
+    setPreviewNoteError(null);
+    try {
+      const saved = await persistNote(
+        preview.question_id,
+        previewNoteDraft.trim() || null,
+      );
+      setPreview((prev) => (prev ? { ...prev, admin_note: saved } : prev));
+      setPreviewNoteEditing(false);
+    } catch (e) {
+      setPreviewNoteError(e instanceof Error ? e.message : "备注保存失败");
+    } finally {
+      setPreviewNoteSaving(false);
     }
   }
 
@@ -415,14 +453,92 @@ export default function QuestionsPage() {
                   previewMeta.paper_id}
               </div>
             )}
-            {preview.admin_note && (
+            {(canEdit || preview.admin_note) && (
               <div className="rounded-xl border border-[#f4dfc4] bg-[var(--accent-soft)] p-4">
-                <div className="text-[10.5px] uppercase tracking-[0.12em] text-[var(--accent)]">
-                  管理员备注
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="text-[10.5px] uppercase tracking-[0.12em] text-[var(--accent)]">
+                    管理员备注
+                  </div>
+                  {canEdit && !previewNoteEditing && (
+                    <button
+                      type="button"
+                      className="a-btn a-btn-sm"
+                      onClick={() => {
+                        setPreviewNoteDraft(preview.admin_note || "");
+                        setPreviewNoteError(null);
+                        setPreviewNoteEditing(true);
+                      }}
+                    >
+                      <Pencil size={12} />{" "}
+                      {preview.admin_note ? "编辑备注" : "添加备注"}
+                    </button>
+                  )}
                 </div>
-                <div className="mt-1 whitespace-pre-wrap text-[12.5px] leading-6 text-[var(--ink)]">
-                  {preview.admin_note}
-                </div>
+                {previewNoteEditing ? (
+                  <div className="mt-2">
+                    <textarea
+                      className="a-input min-h-[110px] resize-y leading-6"
+                      value={previewNoteDraft}
+                      maxLength={2000}
+                      autoFocus
+                      placeholder="例如：答案已核对 / 题干表述待确认 / 需要补充解析…"
+                      onChange={(event) => setPreviewNoteDraft(event.target.value)}
+                      onKeyDown={(event) => {
+                        if (
+                          (event.metaKey || event.ctrlKey) &&
+                          event.key === "Enter"
+                        ) {
+                          event.preventDefault();
+                          if (!previewNoteSaving) savePreviewNote();
+                        }
+                      }}
+                    />
+                    {previewNoteError && (
+                      <div className="mt-2 rounded-lg border border-[#f6d5d2] bg-[var(--danger-soft)] px-3 py-2 text-[12px] text-[var(--danger)]">
+                        {previewNoteError}
+                      </div>
+                    )}
+                    <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
+                      <span className="text-[10.5px] text-[var(--faint)]">
+                        {previewNoteDraft.length}/2000 · 仅管理员可见
+                      </span>
+                      <div className="flex gap-2">
+                        <button
+                          type="button"
+                          className="a-btn a-btn-sm"
+                          disabled={previewNoteSaving}
+                          onClick={() => {
+                            setPreviewNoteEditing(false);
+                            setPreviewNoteError(null);
+                          }}
+                        >
+                          取消
+                        </button>
+                        <button
+                          type="button"
+                          className="a-btn a-btn-sm a-btn-primary"
+                          disabled={previewNoteSaving}
+                          onClick={savePreviewNote}
+                        >
+                          {previewNoteSaving ? (
+                            <Loader2 size={13} className="animate-spin" />
+                          ) : (
+                            <Pencil size={13} />
+                          )}
+                          {previewNoteSaving ? "保存中…" : "保存备注"}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ) : preview.admin_note ? (
+                  <div className="mt-1 whitespace-pre-wrap text-[12.5px] leading-6 text-[var(--ink)]">
+                    {preview.admin_note}
+                  </div>
+                ) : (
+                  <div className="mt-1 text-[12px] text-[var(--muted)]">
+                    暂无备注，点击右上角添加。
+                  </div>
+                )}
               </div>
             )}
             {preview.context && (
