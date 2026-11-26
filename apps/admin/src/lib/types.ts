@@ -195,6 +195,7 @@ export type QuestionSummary = {
   answer_source: string | null;
   answer_confidence: string | null;
   stars?: number | null;
+  admin_note?: string | null;
   option_count: number;
   correct_count: number;
 };
@@ -287,6 +288,7 @@ export type QuestionDetail = {
   answer_source: string | null;
   answer_confidence: string | null;
   stars?: number | null;
+  admin_note?: string | null;
   options: QuestionOption[];
   assets: QuestionAsset[];
   concepts: QuestionConceptLink[];

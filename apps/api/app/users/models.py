@@ -648,6 +648,32 @@ class QuestionStar(Base):
     )
 
 
+class QuestionAdminNote(Base):
+    """Admin-only freeform note for a question.
+
+    Notes are workflow metadata (answer verified, stem needs review, etc.),
+    not student-facing content, so they live in the app database and are keyed
+    by the stable question id rather than the read-only content Release.
+    """
+
+    __tablename__ = "question_admin_notes"
+
+    subject_id: Mapped[str] = mapped_column(
+        String(64), primary_key=True, default="psychology"
+    )
+    question_id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    note: Mapped[str] = mapped_column(Text, nullable=False)
+    updated_by: Mapped[Optional[str]] = mapped_column(
+        ForeignKey("admin_users.id", ondelete="SET NULL")
+    )
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, nullable=False
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow, nullable=False
+    )
+
+
 class ActivationCodeBatch(Base):
     __tablename__ = "activation_code_batches"
     __table_args__ = (Index("idx_activation_batch_created", "created_at"),)

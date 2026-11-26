@@ -23,6 +23,7 @@ from app.api.v1.schemas import (
     KnowledgePointPatch,
     PaperPatch,
     QuestionPatch,
+    QuestionNotePatch,
     QuestionStarsPatch,
 )
 from app.content.store import ContentStore
@@ -59,6 +60,7 @@ from app.users.models import (
     ContentRelease,
     PracticeSession,
     PracticeSessionQuestion,
+    QuestionAdminNote,
     QuestionReport,
     QuestionStar,
     ReleaseJob,
@@ -486,24 +488,43 @@ def _question_stars(
     return {row.question_id: row.stars for row in rows}
 
 
-def _attach_question_stars(
+def _question_notes(
+    db: Session, subject_id: str, question_ids: list[str]
+) -> dict[str, str]:
+    if not question_ids:
+        return {}
+    rows = db.scalars(
+        select(QuestionAdminNote).where(
+            QuestionAdminNote.subject_id == subject_id,
+            QuestionAdminNote.question_id.in_(question_ids),
+        )
+    )
+    return {row.question_id: row.note for row in rows}
+
+
+def _attach_admin_question_meta(
     db: Session, subject_id: str, question: dict
 ) -> dict:
     question_id = str(question["question_id"])
     question["stars"] = _question_stars(db, subject_id, [question_id]).get(
         question_id
     )
+    question["admin_note"] = _question_notes(db, subject_id, [question_id]).get(
+        question_id
+    )
     return question
 
 
-def _attach_stars_to_questions(
+def _attach_admin_meta_to_questions(
     db: Session, subject_id: str, questions: list[dict]
 ) -> list[dict]:
-    stars = _question_stars(
-        db, subject_id, [str(item["question_id"]) for item in questions]
-    )
+    question_ids = [str(item["question_id"]) for item in questions]
+    stars = _question_stars(db, subject_id, question_ids)
+    notes = _question_notes(db, subject_id, question_ids)
     for item in questions:
-        item["stars"] = stars.get(str(item["question_id"]))
+        question_id = str(item["question_id"])
+        item["stars"] = stars.get(question_id)
+        item["admin_note"] = notes.get(question_id)
     return questions
 
 
@@ -548,7 +569,7 @@ def admin_paper_detail(
     if not paper:
         raise AppError(404, "PAPER_NOT_FOUND", "试卷不存在")
     paper["config"] = store.get_exam_config(paper_id) or {}
-    paper["questions"] = _attach_stars_to_questions(
+    paper["questions"] = _attach_admin_meta_to_questions(
         db,
         subject_id,
         admin_content.list_questions(paper_id, subject_id=subject_id),
@@ -593,7 +614,7 @@ def admin_question_list(
         offset=offset,
         subject_id=subject_id,
     )
-    _attach_stars_to_questions(db, subject_id, result["questions"])
+    _attach_admin_meta_to_questions(db, subject_id, result["questions"])
     return {
         "questions": result["questions"],
         "total": result["total"],
@@ -650,7 +671,7 @@ def admin_question_detail(
     question = admin_content.get_question(question_id, subject_id=subject_id)
     if not question:
         raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
-    return _attach_question_stars(db, subject_id, question)
+    return _attach_admin_question_meta(db, subject_id, question)
 
 
 @router.get("/content/knowledge/concepts")
@@ -780,7 +801,7 @@ def admin_update_question(
     question = admin_content.get_question(question_id, subject_id=subject_id)
     if not question:
         raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
-    return _attach_question_stars(db, subject_id, question)
+    return _attach_admin_question_meta(db, subject_id, question)
 
 
 @router.patch("/content/questions/{question_id}/stars")
@@ -825,6 +846,57 @@ def admin_update_question_stars(
     return {"ok": True, "question_id": question_id, "stars": body.stars}
 
 
+@router.patch("/content/questions/{question_id}/note")
+def admin_update_question_note(
+    question_id: str,
+    body: QuestionNotePatch,
+    request: Request,
+    subject: Optional[str] = None,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    subject_id = _admin_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    if not admin_content.get_question(question_id, subject_id=subject_id):
+        raise AppError(404, "QUESTION_NOT_FOUND", "题目不存在")
+    note = (body.note or "").strip()
+    row = db.get(QuestionAdminNote, (subject_id, question_id))
+    if not note:
+        if row is not None:
+            db.delete(row)
+    elif row is None:
+        db.add(
+            QuestionAdminNote(
+                subject_id=subject_id,
+                question_id=question_id,
+                note=note,
+                updated_by=admin.id,
+            )
+        )
+    else:
+        row.note = note
+        row.updated_by = admin.id
+    record_audit(
+        db,
+        admin,
+        "content.question.note.update",
+        target_type="question",
+        target_id=question_id,
+        detail={
+            "subject_id": subject_id,
+            "cleared": not note,
+            "length": len(note),
+        },
+        request=request,
+    )
+    db.commit()
+    return {
+        "ok": True,
+        "question_id": question_id,
+        "admin_note": note or None,
+    }
+
+
 @router.post("/content/questions")
 def admin_create_question(
     body: AdminQuestionCreate,
@@ -856,7 +928,7 @@ def admin_create_question(
     )
     if not question:
         raise AppError(500, "QUESTION_CREATE_FAILED", "题目创建失败")
-    return _attach_question_stars(db, subject_id, question)
+    return _attach_admin_question_meta(db, subject_id, question)
 
 
 @router.post("/content/questions/{question_id}/concepts")

@@ -122,6 +122,11 @@ class QuestionStarsPatch(BaseModel):
     stars: Optional[int] = Field(default=None, ge=1, le=5)
 
 
+class QuestionNotePatch(BaseModel):
+    # Empty string / null clears the note.
+    note: Optional[str] = Field(default=None, max_length=2000)
+
+
 class ConceptPatch(BaseModel):
     canonical_name: Optional[str] = Field(default=None, min_length=1, max_length=300)
     description: Optional[str] = Field(default=None, max_length=10000)

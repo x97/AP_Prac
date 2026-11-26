@@ -6,6 +6,7 @@ import {
   ExternalLink,
   ListChecks,
   Loader2,
+  Pencil,
   Search,
 } from "lucide-react";
 import Link from "next/link";
@@ -65,6 +66,12 @@ export default function QuestionsPage() {
   const [preview, setPreview] = useState<QuestionDetail | null>(null);
   const [previewLoading, setPreviewLoading] = useState(false);
   const [previewError, setPreviewError] = useState<string | null>(null);
+  const [noteQuestion, setNoteQuestion] = useState<AdminQuestionListItem | null>(
+    null,
+  );
+  const [noteDraft, setNoteDraft] = useState("");
+  const [noteSaving, setNoteSaving] = useState(false);
+  const [noteError, setNoteError] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -155,6 +162,46 @@ export default function QuestionsPage() {
     ? questions.find((item) => item.question_id === previewId) || null
     : null;
 
+  function openNoteEditor(question: AdminQuestionListItem) {
+    setNoteQuestion(question);
+    setNoteDraft(question.admin_note || "");
+    setNoteError(null);
+  }
+
+  function closeNoteEditor() {
+    if (noteSaving) return;
+    setNoteQuestion(null);
+    setNoteError(null);
+  }
+
+  async function saveNote() {
+    if (!noteQuestion) return;
+    setNoteSaving(true);
+    setNoteError(null);
+    try {
+      const result = await apiPatch<{
+        ok: boolean;
+        question_id: string;
+        admin_note: string | null;
+      }>(
+        `/content/questions/${noteQuestion.question_id}/note?subject=${encodeURIComponent(subjectId)}`,
+        { note: noteDraft.trim() || null },
+      );
+      setQuestions((prev) =>
+        prev.map((item) =>
+          item.question_id === noteQuestion.question_id
+            ? { ...item, admin_note: result.admin_note }
+            : item,
+        ),
+      );
+      setNoteQuestion(null);
+    } catch (e) {
+      setNoteError(e instanceof Error ? e.message : "备注保存失败");
+    } finally {
+      setNoteSaving(false);
+    }
+  }
+
   return (
     <div>
       <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
@@ -164,7 +211,7 @@ export default function QuestionsPage() {
           </div>
           <h1 className="mt-1 text-[27px] font-semibold tracking-[-0.03em]">题目</h1>
           <p className="mt-1 text-[12.5px] text-[var(--muted)]">
-            当前内容分类：{subject?.name || subjectId}。按单元、真题、模拟题和题型筛选所有题目，可直接修改星级。
+            当前内容分类：{subject?.name || subjectId}。按单元、真题、模拟题和题型筛选所有题目，可直接修改星级和备注。
           </p>
         </div>
         <span className="a-badge">
@@ -250,7 +297,7 @@ export default function QuestionsPage() {
 
       <div className="a-card overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="a-table min-w-[1100px]">
+          <table className="a-table min-w-[1260px]">
             <thead>
               <tr>
                 <th>题目</th>
@@ -258,13 +305,14 @@ export default function QuestionsPage() {
                 <th>题型</th>
                 <th>选项</th>
                 <th>星级</th>
+                <th>备注</th>
                 <th />
               </tr>
             </thead>
             <tbody>
               {loading ? (
                 <tr>
-                  <td colSpan={6} className="py-20 text-center">
+                  <td colSpan={7} className="py-20 text-center">
                     <Loader2
                       size={22}
                       className="mx-auto animate-spin text-[var(--primary)]"
@@ -278,6 +326,7 @@ export default function QuestionsPage() {
                     question={question}
                     canEdit={canEdit}
                     onStarsChange={saveStars}
+                    onEditNote={openNoteEditor}
                     onPreview={setPreviewId}
                   />
                 ))
@@ -285,7 +334,7 @@ export default function QuestionsPage() {
               {!loading && questions.length === 0 && (
                 <tr>
                   <td
-                    colSpan={6}
+                    colSpan={7}
                     className="py-16 text-center text-[12px] text-[var(--faint)]"
                   >
                     没有匹配的题目
@@ -364,6 +413,16 @@ export default function QuestionsPage() {
                 {previewMeta.paper_chinese_title ||
                   previewMeta.paper_title ||
                   previewMeta.paper_id}
+              </div>
+            )}
+            {preview.admin_note && (
+              <div className="rounded-xl border border-[#f4dfc4] bg-[var(--accent-soft)] p-4">
+                <div className="text-[10.5px] uppercase tracking-[0.12em] text-[var(--accent)]">
+                  管理员备注
+                </div>
+                <div className="mt-1 whitespace-pre-wrap text-[12.5px] leading-6 text-[var(--ink)]">
+                  {preview.admin_note}
+                </div>
               </div>
             )}
             {preview.context && (
@@ -446,6 +505,72 @@ export default function QuestionsPage() {
           </div>
         ) : null}
       </AdminModal>
+
+      <AdminModal
+        open={Boolean(noteQuestion)}
+        onClose={closeNoteEditor}
+        title="题目备注"
+      >
+        {noteQuestion && (
+          <div className="space-y-3">
+            <div className="rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-3">
+              <div className="font-mono text-[10px] text-[var(--faint)]">
+                {noteQuestion.question_id}
+              </div>
+              <p className="mt-1 line-clamp-3 text-[12.5px] leading-5">
+                {shortStem(noteQuestion.stem, 180)}
+              </p>
+            </div>
+            <textarea
+              className="a-input min-h-[150px] resize-y leading-6"
+              value={noteDraft}
+              maxLength={2000}
+              autoFocus
+              placeholder="例如：答案已核对 / 题干表述待确认 / 需要补充解析…"
+              onChange={(event) => setNoteDraft(event.target.value)}
+              onKeyDown={(event) => {
+                if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
+                  event.preventDefault();
+                  if (!noteSaving) saveNote();
+                }
+              }}
+            />
+            {noteError && (
+              <div className="rounded-xl border border-[#f6d5d2] bg-[var(--danger-soft)] px-3 py-2 text-[12px] text-[var(--danger)]">
+                {noteError}
+              </div>
+            )}
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <span className="text-[11px] text-[var(--faint)]">
+                {noteDraft.length}/2000 · 仅管理员可见
+              </span>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  className="a-btn a-btn-sm"
+                  disabled={noteSaving}
+                  onClick={closeNoteEditor}
+                >
+                  取消
+                </button>
+                <button
+                  type="button"
+                  className="a-btn a-btn-sm a-btn-primary"
+                  disabled={noteSaving}
+                  onClick={saveNote}
+                >
+                  {noteSaving ? (
+                    <Loader2 size={13} className="animate-spin" />
+                  ) : (
+                    <Pencil size={13} />
+                  )}
+                  {noteSaving ? "保存中…" : "保存备注"}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </AdminModal>
     </div>
   );
 }
@@ -454,11 +579,13 @@ function QuestionListRow({
   question,
   canEdit,
   onStarsChange,
+  onEditNote,
   onPreview,
 }: {
   question: AdminQuestionListItem;
   canEdit: boolean;
   onStarsChange: (questionId: string, stars: number | null) => Promise<void>;
+  onEditNote: (question: AdminQuestionListItem) => void;
   onPreview: (questionId: string) => void;
 }) {
   const [savingStars, setSavingStars] = useState(false);
@@ -531,6 +658,37 @@ function QuestionListRow({
               : undefined
           }
         />
+      </td>
+      <td>
+        {canEdit ? (
+          <button
+            type="button"
+            className="block max-w-[220px] text-left"
+            title={question.admin_note || "添加备注"}
+            onClick={() => onEditNote(question)}
+          >
+            <span
+              className={`line-clamp-2 text-[11.5px] leading-5 ${
+                question.admin_note
+                  ? "text-[var(--muted)]"
+                  : "text-[var(--faint)]"
+              }`}
+            >
+              {question.admin_note || "添加备注"}
+            </span>
+            {question.admin_note && (
+              <span className="mt-1 inline-flex items-center gap-1 text-[10px] text-[var(--primary)]">
+                <Pencil size={10} /> 编辑
+              </span>
+            )}
+          </button>
+        ) : question.admin_note ? (
+          <span className="line-clamp-2 max-w-[220px] text-[11.5px] leading-5 text-[var(--muted)]">
+            {question.admin_note}
+          </span>
+        ) : (
+          <span className="text-[var(--faint)]">—</span>
+        )}
       </td>
       <td className="text-right">
         <button

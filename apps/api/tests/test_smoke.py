@@ -792,6 +792,34 @@ def test_admin_content_edits_and_creation_overlay(client):
         assert cleared.json()["stars"] is None
         assert client.patch(star_url, json={"stars": 6}).status_code == 422
 
+        # Admin notes are also app-DB metadata, independent of the Release.
+        note_url = (
+            f"/api/v1/admin/content/questions/{question['question_id']}/note"
+        )
+        noted = client.patch(note_url, json={"note": "  答案已核对，待补充解析  "})
+        assert noted.status_code == 200, noted.text
+        assert noted.json()["admin_note"] == "答案已核对，待补充解析"
+        assert client.get(
+            f"/api/v1/admin/content/questions/{question['question_id']}"
+        ).json()["admin_note"] == "答案已核对，待补充解析"
+        listed = client.get(
+            "/api/v1/admin/content/papers/psychology-ap-2025"
+        ).json()["questions"]
+        assert next(
+            item
+            for item in listed
+            if item["question_id"] == question["question_id"]
+        )["admin_note"] == "答案已核对，待补充解析"
+        searched = client.get(
+            "/api/v1/admin/content/questions",
+            params={"q": question["question_id"], "limit": 5},
+        )
+        assert searched.json()["questions"][0]["admin_note"] == "答案已核对，待补充解析"
+        cleared_note = client.patch(note_url, json={"note": "   "})
+        assert cleared_note.status_code == 200, cleared_note.text
+        assert cleared_note.json()["admin_note"] is None
+        assert client.patch(note_url, json={"note": "x" * 2001}).status_code == 422
+
         # Cross-paper question browser filters by unit, paper source and type.
         overview = client.get("/api/v1/admin/content/questions?limit=5")
         assert overview.status_code == 200, overview.text
