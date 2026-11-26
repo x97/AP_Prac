@@ -1,9 +1,17 @@
 "use client";
 
-import { ChevronLeft, ChevronRight, Loader2, MessageCircleQuestion } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  Eye,
+  Loader2,
+  MessageCircleQuestion,
+} from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { QaQuestionModal } from "@/components/qa/QaQuestionModal";
 import { apiGet } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
 import type { QaMyThreadList } from "@/lib/types";
@@ -27,6 +35,7 @@ export default function QaListPage() {
   const [error, setError] = useState<string | null>(null);
   const [offset, setOffset] = useState(0);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [questionThreadId, setQuestionThreadId] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -80,7 +89,7 @@ export default function QaListPage() {
         <>
           <div className={`qa-list ${loading ? "is-loading" : ""}`}>
             {data.threads.map((thread) => (
-              <Link key={thread.id} href={`/qa/${thread.id}`} className="qa-list-card">
+              <div key={thread.id} className="qa-list-card">
                 <div className="qa-list-main">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="qa-list-title line-clamp-2">
@@ -100,12 +109,26 @@ export default function QaListPage() {
                   </div>
                   <p className="qa-list-preview">{thread.last_message}</p>
                 </div>
-                <span className="qa-list-arrow">→</span>
-              </Link>
+                <div className="qa-list-actions">
+                  <button
+                    type="button"
+                    className="btn btn-sm"
+                    onClick={() => setQuestionThreadId(thread.id)}
+                  >
+                    <Eye size={13} /> {t("查看题目")}
+                  </button>
+                  <Link
+                    href={`/qa/${thread.id}`}
+                    className="btn btn-sm btn-primary"
+                  >
+                    {t("详情")} <ArrowRight size={13} />
+                  </Link>
+                </div>
+              </div>
             ))}
           </div>
 
-          {pageCount > 1 && (
+          {total > 0 && (
             <div className="qa-pagination">
               <span className="qa-pagination-info">
                 {loading && <Loader2 size={13} className="animate-spin" />}
@@ -145,6 +168,12 @@ export default function QaListPage() {
           </p>
         </div>
       )}
+
+      <QaQuestionModal
+        open={Boolean(questionThreadId)}
+        threadId={questionThreadId}
+        onClose={() => setQuestionThreadId(null)}
+      />
     </div>
   );
 }

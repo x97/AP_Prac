@@ -467,6 +467,15 @@ def test_homework_qa_and_notifications(client):
     assert len(listed.json()["threads"]) == 1
     assert listed.json()["threads"][0]["is_mine"] is True
 
+    preview = client.get(f"/api/v1/qa/threads/{thread_id}/question")
+    assert preview.status_code == 200, preview.text
+    preview_data = preview.json()
+    assert preview_data["question_id"] == question_id
+    assert preview_data["options"]
+    assert "answer_text" not in preview_data
+    assert "correct_label" not in preview_data
+    assert all("is_correct" not in option for option in preview_data["options"])
+
     admin_unread = client.get("/api/v1/admin/qa/unread-count")
     assert admin_unread.status_code == 200, admin_unread.text
     assert admin_unread.json()["unread"] == 1
@@ -548,6 +557,9 @@ def test_qa_unavailable_outside_homework_and_visible_to_classmates(client):
 
     # A classmate with the same assigned homework/question sees the thread.
     login(client)
+    first_thread_id = created.json()["id"]
+    blocked_preview = client.get(f"/api/v1/qa/threads/{first_thread_id}/question")
+    assert blocked_preview.status_code == 404
     second_id = _student_id(client)
     _assign(client, plan_id, second_id, today, today)
     second_detail = _day(client, today)

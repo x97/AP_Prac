@@ -96,6 +96,12 @@ const messages: Record<string, string> = {
   "第 {page} / {pages} 页 · 共 {total} 条":
     "Page {page} of {pages} · {total} total",
   "查看消息详情": "View details",
+  "查看题目": "View question",
+  "详情": "Details",
+  "题目详情": "Question details",
+  "点击查看题目详情": "Tap to view the question",
+  "这里只显示题目内容，不包含答案和解析。":
+    "Only the question is shown; answers and explanations are hidden.",
 };
 
 export default messages;

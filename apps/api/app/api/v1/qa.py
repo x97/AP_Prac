@@ -72,6 +72,16 @@ def thread_detail(
     return qa.thread_detail_student(db, user, thread_id)
 
 
+@router.get("/threads/{thread_id}/question")
+def thread_question(
+    thread_id: str,
+    db: Session = Depends(get_db),
+    store: ContentStore = Depends(get_store),
+    user: User = Depends(get_current_user),
+):
+    return qa.thread_question(db, store, user, thread_id)
+
+
 @router.post("/threads/{thread_id}/replies")
 def reply_thread(
     thread_id: str,

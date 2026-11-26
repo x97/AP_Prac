@@ -322,6 +322,25 @@ def thread_detail_student(db: Session, user: User, thread_id: str) -> dict[str, 
     return payload
 
 
+def thread_question(
+    db: Session, store: ContentStore, user: User, thread_id: str
+) -> dict[str, Any]:
+    """Read-only question payload for a student's own Q&A thread.
+
+    Deliberately uses ``include_answers=False`` so opening the preview cannot
+    reveal the correct option or explanation.
+    """
+    thread = db.get(QaThread, thread_id)
+    if thread is None or thread.student_id != user.id:
+        raise AppError(404, "QA_THREAD_NOT_FOUND", "提问不存在")
+    question = store.get_questions(
+        [thread.question_id], include_answers=False
+    ).get(thread.question_id)
+    if question is None:
+        raise AppError(404, "QUESTION_NOT_FOUND", "题目已从题库移除")
+    return question
+
+
 def student_unread_count(db: Session, user: User) -> int:
     return int(
         db.scalar(

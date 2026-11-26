@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
+import { QaQuestionModal } from "@/components/qa/QaQuestionModal";
 import { QaThreadCard } from "@/components/qa/QaThreadCard";
 import { apiGet, apiPost } from "@/lib/api";
 import { useLanguage } from "@/lib/i18n";
@@ -17,6 +18,7 @@ export default function QaThreadPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [replying, setReplying] = useState(false);
+  const [questionOpen, setQuestionOpen] = useState(false);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -70,20 +72,34 @@ export default function QaThreadPage() {
               <h1 className="h1 mt-1">{t("提问详情")}</h1>
             </div>
           </div>
-          <div className="qa-context card card-pad mb-4">
-            <div className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
-              {t("题目")}
+          <button
+            type="button"
+            className="qa-context card card-pad mb-4"
+            onClick={() => setQuestionOpen(true)}
+          >
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-[11px] uppercase tracking-[0.1em] text-[var(--faint)]">
+                {t("题目")}
+              </span>
+              <span className="text-[11px] text-[var(--primary)]">
+                {t("点击查看题目详情")} →
+              </span>
             </div>
-            <p className="mt-1 text-[13px] leading-6">
+            <p className="mt-1 text-left text-[13px] leading-6">
               {thread.question_stem || t("题目已从题库移除")}
             </p>
-            <div className="mt-2 flex flex-wrap gap-2 text-[11px] text-[var(--muted)]">
+            <div className="mt-2 flex flex-wrap gap-2 text-left text-[11px] text-[var(--muted)]">
               {thread.plan_title && <span>{thread.plan_title}</span>}
               {thread.task_title && <span>· {thread.task_title}</span>}
               {thread.homework_title && <span>· {thread.homework_title}</span>}
             </div>
-          </div>
+          </button>
           <QaThreadCard thread={thread} onReply={reply} replying={replying} />
+          <QaQuestionModal
+            open={questionOpen}
+            threadId={thread.id}
+            onClose={() => setQuestionOpen(false)}
+          />
         </>
       ) : null}
     </div>

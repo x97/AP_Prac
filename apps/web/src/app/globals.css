@@ -4493,6 +4493,7 @@ textarea {
 
 .qa-list-card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 12px;
   border: 1px solid var(--line);
@@ -4511,6 +4512,15 @@ textarea {
 .qa-list-main {
   min-width: 0;
   flex: 1;
+}
+
+.qa-list-actions {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
 }
 
 .qa-list-title {
@@ -4553,5 +4563,15 @@ textarea {
 }
 
 .qa-context {
+  display: block;
+  width: 100%;
   border-left: 3px solid var(--primary);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.qa-context:hover {
+  background: var(--surface-2);
 }
