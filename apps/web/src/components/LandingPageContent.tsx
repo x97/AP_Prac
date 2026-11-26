@@ -112,7 +112,7 @@ export function LandingPageContent() {
               className="brand-logo landing-brand-logo"
             />
             <span>
-              <span className="landing-brand-title">{brand.name}</span>
+              <span className="landing-brand-title">PsyPrac海外心理</span>
               <span className="landing-brand-sub">{brand.domain}</span>
             </span>
           </Link>
