@@ -16,6 +16,7 @@ from app.users.models import (
     Bookmark,
     PracticeSession,
     PracticeSessionQuestion,
+    QuestionStar,
     StudyPlanTask,
     User,
     WrongQuestion,
@@ -260,6 +261,19 @@ def session_payload(
     ids = [r.question_id for r in rows]
     display = {row.question_id: index for index, row in enumerate(rows, start=1)}
     questions = store.get_questions(ids, include_answers=False, display_numbers=display)
+    stars = (
+        {
+            row.question_id: row.stars
+            for row in db.scalars(
+                select(QuestionStar).where(
+                    QuestionStar.subject_id == store.subject_id,
+                    QuestionStar.question_id.in_(ids),
+                )
+            ).all()
+        }
+        if ids
+        else {}
+    )
     items = []
     answered = 0
     correct = 0
@@ -272,6 +286,7 @@ def session_payload(
         item["is_correct"] = row.is_correct
         item["flagged"] = bool(row.flagged)
         item["answered_at"] = row.answered_at
+        item["stars"] = stars.get(row.question_id)
         if row.answered_at:
             answered += 1
             if row.is_correct:

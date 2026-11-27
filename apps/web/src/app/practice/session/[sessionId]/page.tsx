@@ -70,6 +70,23 @@ function pagerItems(total: number, current: number): Array<number | "ellipsis"> 
   );
 }
 
+function starIndexes(questions: Question[], stars: number | null): number[] {
+  return questions
+    .map((_, index) => index)
+    .filter(
+      (index) =>
+        stars === null || questions[index]?.stars === stars,
+    );
+}
+
+function starFilterStorageKey(
+  session: SessionPayload["session"],
+): string | null {
+  if (session.source !== "topic" && session.source !== "unit") return null;
+  const scope = session.topic_id || session.group_id;
+  return scope ? `ap:practice-stars:${scope}` : null;
+}
+
 export default function PracticeSessionPage() {
   const { t } = useLanguage();
   const params = useParams<{ sessionId: string }>();
@@ -89,6 +106,7 @@ export default function PracticeSessionPage() {
   const [savingNote, setSavingNote] = useState(false);
   const [noteSaved, setNoteSaved] = useState(false);
   const [qaTab, setQaTab] = useState<"qa" | "notes">("qa");
+  const [starFilter, setStarFilter] = useState<number | null>(null);
 
   useEffect(() => {
     let alive = true;
@@ -100,9 +118,42 @@ export default function PracticeSessionPage() {
       .then(([session, notes, bookmarks]) => {
         if (!alive) return;
         setData(session);
-        setIndex(
-          session.session.status === "in_progress" ? session.session.next_index ?? 0 : 0,
-        );
+        const baseIndex =
+          session.session.status === "in_progress"
+            ? session.session.next_index ?? 0
+            : 0;
+        const filterKey = starFilterStorageKey(session.session);
+        let savedFilter: number | null = null;
+        if (filterKey) {
+          try {
+            const raw = window.localStorage.getItem(filterKey);
+            const parsed = Number(raw);
+            if (
+              Number.isInteger(parsed) &&
+              parsed >= 1 &&
+              parsed <= 5 &&
+              session.questions.some((question) => question.stars === parsed)
+            ) {
+              savedFilter = parsed;
+            }
+          } catch {
+            // Browser storage can be unavailable; fall back to all questions.
+          }
+        }
+        setStarFilter(savedFilter);
+        if (savedFilter !== null) {
+          const indexes = starIndexes(session.questions, savedFilter);
+          setIndex(
+            indexes.includes(baseIndex)
+              ? baseIndex
+              : indexes.find(
+                  (questionIndex) =>
+                    !session.questions[questionIndex].answered_at,
+                ) ?? indexes[0],
+          );
+        } else {
+          setIndex(baseIndex);
+        }
         setSubmitted(session.session.status !== "in_progress");
         const map: Record<string, Note> = {};
         notes.forEach((n) => {
@@ -179,9 +230,76 @@ export default function PracticeSessionPage() {
     [data],
   );
 
-  function go(delta: number) {
+  const visibleIndexes = useMemo(
+    () =>
+      data
+        ? starIndexes(data.questions, starFilter)
+        : [],
+    [data, starFilter],
+  );
+
+  const currentPosition = Math.max(0, visibleIndexes.indexOf(index));
+
+  const viewProgress = useMemo(() => {
+    if (!data) {
+      return { answered: 0, correct: 0, total: 0, accuracy: null };
+    }
+    const questions =
+      starFilter === null
+        ? data.questions
+        : visibleIndexes.map((questionIndex) => data.questions[questionIndex]);
+    return recomputeProgress(questions);
+  }, [data, starFilter, visibleIndexes]);
+
+  const starCounts = useMemo(() => {
+    const counts: Record<number, number> = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+    data?.questions.forEach((question) => {
+      if (
+        typeof question.stars === "number" &&
+        question.stars >= 1 &&
+        question.stars <= 5
+      ) {
+        counts[question.stars] += 1;
+      }
+    });
+    return counts;
+  }, [data]);
+
+  const canFilter =
+    Boolean(data) &&
+    (data!.session.source === "topic" || data!.session.source === "unit") &&
+    data!.questions.some((question) => typeof question.stars === "number");
+
+  function changeStarFilter(next: number | null) {
     if (!data) return;
-    setIndex((i) => Math.max(0, Math.min(data.questions.length - 1, i + delta)));
+    setStarFilter(next);
+    const storageKey = starFilterStorageKey(data.session);
+    if (storageKey) {
+      try {
+        if (next === null) window.localStorage.removeItem(storageKey);
+        else window.localStorage.setItem(storageKey, String(next));
+      } catch {
+        // Browser storage can be unavailable; the in-memory filter still works.
+      }
+    }
+    const indexes = starIndexes(data.questions, next);
+    if (!indexes.length) return;
+    if (indexes.includes(index)) return;
+    const nextIndex =
+      indexes.find((questionIndex) => !data.questions[questionIndex].answered_at) ??
+      indexes[0];
+    setIndex(nextIndex);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function go(delta: number) {
+    if (!data || !visibleIndexes.length) return;
+    const position = Math.max(0, visibleIndexes.indexOf(index));
+    const nextPosition = Math.max(
+      0,
+      Math.min(visibleIndexes.length - 1, position + delta),
+    );
+    setIndex(visibleIndexes[nextPosition]);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -559,13 +677,21 @@ export default function PracticeSessionPage() {
       <div className="practice-layout">
         <div>
           <div className="flex items-center justify-between mb-3">
-            <div className="flex items-center gap-2 text-[12px] muted">
+            <div className="flex flex-wrap items-center gap-2 text-[12px] muted">
               <span className="font-mono">
-                {index + 1} / {data.questions.length}
+                {currentPosition + 1} / {visibleIndexes.length}
               </span>
+              {starFilter !== null && (
+                <span className="pill pill-primary">{starFilter}★</span>
+              )}
               <span>·</span>
               <span>
-                Answered {progress.answered} · Correct {progress.correct}
+                {t("已完成 {answered}/{total}", {
+                  answered: viewProgress.answered,
+                  total: viewProgress.total,
+                })}
+                {" · "}
+                {t("答对 {correct} 道", { correct: viewProgress.correct })}
               </span>
             </div>
             <button
@@ -589,15 +715,15 @@ export default function PracticeSessionPage() {
             <button
               className="btn btn-sm"
               onClick={() => go(-1)}
-              disabled={index === 0}
+              disabled={currentPosition === 0}
             >
               <ArrowLeft size={15} /> Back
             </button>
             <span className="sm:hidden text-[11px] faint font-mono">
-              {index + 1} / {data.questions.length}
+              {currentPosition + 1} / {visibleIndexes.length}
             </span>
             <div className="hidden sm:flex items-center gap-1.5">
-              {pagerItems(data.questions.length, index + 1).map((item, itemIndex) =>
+              {pagerItems(visibleIndexes.length, currentPosition + 1).map((item, itemIndex) =>
                 item === "ellipsis" ? (
                   <span
                     key={`ellipsis-${itemIndex}`}
@@ -610,26 +736,52 @@ export default function PracticeSessionPage() {
                     key={item}
                     className={[
                       "h-7 min-w-7 px-1.5 rounded-lg border text-[11px] font-mono",
-                      item === index + 1
+                      item === currentPosition + 1
                         ? "border-[var(--primary)] bg-[var(--primary)] text-white"
-                        : data.questions[item - 1]?.answered_at
+                        : data.questions[visibleIndexes[item - 1]]?.answered_at
                           ? "border-[var(--line)] bg-[var(--surface-2)] text-[var(--muted)]"
                           : "border-[var(--line)] bg-[var(--surface)] text-[var(--faint)]",
                     ].join(" ")}
-                    onClick={() => setIndex(item - 1)}
+                    onClick={() => setIndex(visibleIndexes[item - 1])}
                   >
                     {item}
                   </button>
                 ),
               )}
             </div>
-            <button
-              className="btn btn-sm btn-primary"
-              onClick={() => go(1)}
-              disabled={index === data.questions.length - 1}
-            >
-              Next <ArrowRight size={15} />
-            </button>
+            <div className="flex items-center gap-2">
+              {canFilter && (
+                <select
+                  className="difficulty-select"
+                  aria-label={t("难度筛选")}
+                  title={t("难度筛选")}
+                  value={starFilter === null ? "" : String(starFilter)}
+                  onChange={(event) =>
+                    changeStarFilter(
+                      event.target.value ? Number(event.target.value) : null,
+                    )
+                  }
+                >
+                  <option value="">{t("全部")}</option>
+                  {[1, 2, 3, 4, 5].map((stars) => (
+                    <option
+                      key={stars}
+                      value={stars}
+                      disabled={starCounts[stars] === 0}
+                    >
+                      {stars}★
+                    </option>
+                  ))}
+                </select>
+              )}
+              <button
+                className="btn btn-sm btn-primary"
+                onClick={() => go(1)}
+                disabled={currentPosition >= visibleIndexes.length - 1}
+              >
+                Next <ArrowRight size={15} />
+              </button>
+            </div>
           </div>
 
           <QuestionView question={current} onSelect={select} disabled={busy || submitted} />
@@ -664,15 +816,17 @@ export default function PracticeSessionPage() {
 
         </div>
 
-        <KnowledgeRail
-          concepts={concepts}
-          topicConcepts={topicConcepts}
-          topicTitle={topicTitle}
-          topicInferred={topicContext?.inferred}
-          topicLoading={topicLoading}
-          answered={answered}
-          questionId={current.question_id}
-        />
+        <div className="rail">
+          <KnowledgeRail
+            concepts={concepts}
+            topicConcepts={topicConcepts}
+            topicTitle={topicTitle}
+            topicInferred={topicContext?.inferred}
+            topicLoading={topicLoading}
+            answered={answered}
+            questionId={current.question_id}
+          />
+        </div>
       </div>
     </div>
   );

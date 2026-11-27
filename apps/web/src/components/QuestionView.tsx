@@ -1,9 +1,10 @@
 "use client";
 
-import { AlertTriangle, BookOpen, Check, X } from "lucide-react";
+import { AlertTriangle, BookOpen, Check, Star, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { ReportQuestionModal } from "@/components/ReportQuestionModal";
+import { useLanguage } from "@/lib/i18n";
 import type { Question } from "@/lib/types";
 
 export function QuestionView({
@@ -23,6 +24,7 @@ export function QuestionView({
   resultTone?: "ok" | "bad" | "neutral";
   readOnly?: boolean;
 }) {
+  const { t } = useLanguage();
   const view = question.feedback ?? question;
   const answered = Boolean(question.answered_at);
   const tone = resultTone ?? (question.is_correct ? "ok" : "bad");
@@ -40,7 +42,35 @@ export function QuestionView({
   return (
     <div className="card card-pad">
       <div className="flex items-center justify-between gap-3">
-        <span className="pill pill-primary font-mono">Question {question.display_number}</span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="pill pill-primary font-mono">Question {question.display_number}</span>
+          {typeof question.stars === "number" && (
+            <span
+              className="pill"
+              title={t("题目难度")}
+              aria-label={`${t("难度")} ${question.stars}/5`}
+            >
+              <span className="inline-flex items-center gap-0.5" aria-hidden="true">
+                {[1, 2, 3, 4, 5].map((value) => (
+                  <Star
+                    key={value}
+                    size={10}
+                    strokeWidth={1.8}
+                    className={
+                      value <= question.stars!
+                        ? "text-[var(--accent)]"
+                        : "text-[var(--faint)]"
+                    }
+                    fill={value <= question.stars! ? "currentColor" : "none"}
+                  />
+                ))}
+              </span>
+              <span className="text-[10.5px] font-mono">
+                {t("难度")} {question.stars}/5
+              </span>
+            </span>
+          )}
+        </div>
         <div className="flex items-center gap-2">
           <span className="text-[11px] faint font-mono hidden sm:inline">{question.question_id}</span>
           {!readOnly && (

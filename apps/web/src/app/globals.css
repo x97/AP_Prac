@@ -1635,6 +1635,31 @@ textarea {
   color: var(--ink);
 }
 
+.segment:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.difficulty-select {
+  height: 36px;
+  min-height: 36px;
+  border: 1px solid color-mix(in srgb, var(--primary) 22%, var(--line));
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  padding: 0 8px;
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.difficulty-select:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
 .segment[aria-pressed="true"] {
   background: var(--primary-soft);
   color: var(--primary);

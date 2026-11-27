@@ -1193,6 +1193,8 @@ def test_practice_flow(client):
     assert payload["session"]["next_index"] == 0
     q = payload["questions"][0]
     assert q["display_number"] == 1
+    assert "stars" in q
+    assert q["stars"] is None or 1 <= q["stars"] <= 5
 
     answer = client.post(
         f"/api/v1/practice-sessions/{payload['session']['id']}/answers",

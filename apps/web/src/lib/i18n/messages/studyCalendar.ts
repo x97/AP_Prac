@@ -102,6 +102,18 @@ const messages: Record<string, string> = {
   "点击查看题目详情": "Tap to view the question",
   "这里只显示题目内容，不包含答案和解析。":
     "Only the question is shown; answers and explanations are hidden.",
+  "难度筛选": "Difficulty filter",
+  "筛选只改变当前显示的题目，答题进度仍按全部题目保存。":
+    "Filtering only changes which questions are shown; answers are still saved for the whole chapter.",
+  "全部进度 {answered}/{total}": "Overall progress {answered}/{total}",
+  "该难度已完成，可切换难度。":
+    "This difficulty is complete. Switch difficulty to continue.",
+  "当前筛选 {stars}★：已完成 {answered}/{total}":
+    "Current filter {stars}★: {answered}/{total} complete",
+  "已完成 {answered}/{total}": "{answered}/{total} complete",
+  "答对 {correct} 道": "{correct} correct",
+  "题目难度": "Question difficulty",
+  "难度": "Difficulty",
 };
 
 export default messages;

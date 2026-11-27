@@ -123,6 +123,7 @@ export type Question = {
   assets: Asset[];
   answer_source?: string | null;
   answer_confidence?: string | null;
+  stars?: number | null;
   selected_label?: string | null;
   is_correct?: boolean | null;
   flagged?: boolean;
