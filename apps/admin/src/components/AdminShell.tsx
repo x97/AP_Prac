@@ -13,6 +13,7 @@ import {
   LogOut,
   MessageCircleQuestion,
   ScrollText,
+  Upload,
   Users,
 } from "lucide-react";
 import Link from "next/link";
@@ -56,6 +57,7 @@ const NAV = [
   { href: "/codes", label: "激活码", icon: KeyRound },
   { href: "/content/papers", label: "试卷", icon: FileText },
   { href: "/content/questions", label: "题目", icon: ListChecks },
+  { href: "/content/import", label: "批量导入", icon: Upload },
   { href: "/content/knowledge", label: "知识点", icon: BookOpen },
   { href: "/content/knowledge-graph", label: "知识图谱", icon: Network },
   { href: "/audit", label: "审计日志", icon: ScrollText },

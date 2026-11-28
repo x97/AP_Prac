@@ -149,7 +149,7 @@ server {
     ssl_certificate_key /etc/nginx/certs/privkey.pem;
     ssl_protocols TLSv1.2 TLSv1.3;
 
-    client_max_body_size 2m;
+    client_max_body_size 12m;
     gzip on;
     gzip_types text/plain text/css application/json application/javascript application/xml image/svg+xml;
     gzip_min_length 1024;

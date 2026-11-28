@@ -158,6 +158,17 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 
 管理员自研的选择题可以用 Excel 批量导入。导入走 Admin 覆盖层，**不修改 Release，不需要数据库迁移**。
 
+**后台入口：左侧「批量导入」（`/content/import`）。**
+
+1. 先选择科目（只列出已启用科目）。
+2. 上传 `.xlsx` 文件（单次最多 500 道题，文件不超过 10MB）。
+3. 点「解析预览」，检查新增 / 更新 / 无变化数量和每道题的提示。
+4. 确认无误后点「确认导入」，才会写入题库。
+
+预览不会写数据库；重复导入同一文件时，已是最新的题目会显示为「无变化」。
+
+也保留命令行导入，适合脚本或批量维护：
+
 - 模板生成：`.venv/bin/python _tools/make_self_question_template.py`
   - 默认输出 `data/exports/自研题导入模板.xlsx`。
 - 导入：`.venv/bin/python _tools/import_self_questions.py --input <xlsx>`
@@ -188,11 +199,10 @@ title      = 自研题库
 - 重复导入会更新已有题目，不会重复创建；Excel 中删掉的题目不会自动从题库删除。
 - 新题按导入顺序追加题号；已有题目的题号和 `question_id` 保持不变。
 
-生产环境（API 容器内执行，镜像需要包含 `openpyxl`）：
+生产环境命令行导入（可选；后台「批量导入」页面通常够用）：
 
 ```bash
 cd infra/compose
-docker compose cp ../../_tools/self_question_workbook.py api:/tmp/
 docker compose cp ../../_tools/import_self_questions.py api:/tmp/
 docker compose cp ../../data/exports/自研题.xlsx api:/tmp/自研题.xlsx
 docker compose exec api python /tmp/import_self_questions.py \
@@ -200,6 +210,8 @@ docker compose exec api python /tmp/import_self_questions.py \
 docker compose exec api python /tmp/import_self_questions.py \
   --input /tmp/自研题.xlsx --subject psychology
 ```
+
+API 镜像已包含 `openpyxl` 和 `python-multipart`；如未重建过镜像，先执行 `docker compose build api && docker compose up -d api`。
 
 不传 `--subject` 时，`docker compose exec api` 默认分配终端，会进入科目选择提示；自动化脚本请用 `docker compose exec -T api` 并显式传 `--subject`。
 
@@ -234,6 +246,8 @@ GET    /api/v1/admin/content/papers/{paper_id}
 GET    /api/v1/admin/content/questions?source=&unit=&section=&q=&limit=&offset=
 GET    /api/v1/admin/content/questions/{question_id}
 POST   /api/v1/admin/content/questions
+POST   /api/v1/admin/content/questions/import/preview
+POST   /api/v1/admin/content/questions/import
 PATCH  /api/v1/admin/content/questions/{question_id}
 PATCH  /api/v1/admin/content/questions/{question_id}/stars
 POST   /api/v1/admin/content/questions/{question_id}/concepts

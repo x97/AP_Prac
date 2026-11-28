@@ -4,11 +4,21 @@ import json
 import os
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
-from fastapi import APIRouter, Depends, Query, Request, Response
+from fastapi import (
+    APIRouter,
+    Depends,
+    File,
+    Form,
+    Query,
+    Request,
+    Response,
+    UploadFile,
+)
 from sqlalchemy import case, func, or_, select
 from sqlalchemy.orm import Session
 
@@ -22,8 +32,8 @@ from app.api.v1.schemas import (
     ConceptPatch,
     KnowledgePointPatch,
     PaperPatch,
-    QuestionPatch,
     QuestionNotePatch,
+    QuestionPatch,
     QuestionStarsPatch,
 )
 from app.content.store import ContentStore
@@ -39,6 +49,7 @@ from app.services import (
     admin_content,
     admin_content_edits,
     progress,
+    self_question_import,
     subject_catalog,
 )
 from app.services.admin_auth import (
@@ -49,6 +60,8 @@ from app.services.admin_auth import (
     set_admin_cookie,
 )
 from app.services.effective_content import ensure_effective_content
+from app.services.self_question_import import ImportValidationError
+from app.services.self_question_workbook import read_questions
 from app.users.models import (
     ActivationCode,
     ActivationCodeBatch,
@@ -465,6 +478,14 @@ def _admin_subject(subject: Optional[str]) -> str:
     return subject_id
 
 
+def _admin_import_subject(subject: Optional[str]) -> str:
+    subject_id = _admin_subject(subject)
+    config = subject_catalog.get_subject_config(subject_id) or {}
+    if not config.get("enabled"):
+        raise AppError(400, "SUBJECT_DISABLED", "该科目未启用，不能导入题目")
+    return subject_id
+
+
 def _prepare_admin_content(db: Session, subject_id: str = "psychology") -> None:
     try:
         ensure_effective_content(db, subject_id, force_marker_columns=True)
@@ -472,6 +493,57 @@ def _prepare_admin_content(db: Session, subject_id: str = "psychology") -> None:
         raise AppError(
             503, "ADMIN_CONTENT_NOT_READY", "管理员内容层暂不可用"
         ) from exc
+
+
+MAX_SELF_QUESTION_IMPORT_BYTES = 10 * 1024 * 1024
+
+
+def _write_self_question_upload(file: UploadFile) -> Path:
+    filename = file.filename or ""
+    if not filename.lower().endswith(".xlsx"):
+        raise AppError(400, "IMPORT_FILE_TYPE", "请上传 .xlsx 文件")
+    data = file.file.read(MAX_SELF_QUESTION_IMPORT_BYTES + 1)
+    if len(data) > MAX_SELF_QUESTION_IMPORT_BYTES:
+        raise AppError(400, "IMPORT_FILE_TOO_LARGE", "Excel 文件不能超过 10MB")
+    fd, name = tempfile.mkstemp(suffix=".xlsx")
+    with os.fdopen(fd, "wb") as handle:
+        handle.write(data)
+    return Path(name)
+
+
+def _read_self_question_upload(file: UploadFile) -> tuple[list[Any], list[str]]:
+    path = _write_self_question_upload(file)
+    try:
+        questions, errors, warnings = read_questions(path)
+    finally:
+        path.unlink(missing_ok=True)
+    if errors:
+        raise AppError(
+            400,
+            "IMPORT_WORKBOOK_INVALID",
+            "Excel 校验未通过",
+            {"errors": errors, "warnings": warnings},
+        )
+    if not questions:
+        raise AppError(400, "IMPORT_WORKBOOK_EMPTY", "Excel 中没有题目")
+    return questions, warnings
+
+
+def _build_self_question_plan(
+    db: Session, subject_id: str, file: UploadFile
+):
+    questions, warnings = _read_self_question_upload(file)
+    plan = self_question_import.build_plan(
+        db, subject_id, questions, warnings
+    )
+    if plan.errors:
+        raise AppError(
+            400,
+            "IMPORT_PLAN_INVALID",
+            "导入计划有误",
+            {"errors": plan.errors, "warnings": plan.warnings},
+        )
+    return plan
 
 
 def _question_stars(
@@ -929,6 +1001,57 @@ def admin_create_question(
     if not question:
         raise AppError(500, "QUESTION_CREATE_FAILED", "题目创建失败")
     return _attach_admin_question_meta(db, subject_id, question)
+
+
+@router.post("/content/questions/import/preview")
+def admin_preview_question_import(
+    file: UploadFile = File(...),
+    subject: Optional[str] = Form(default=None),
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    subject_id = _admin_import_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    plan = _build_self_question_plan(db, subject_id, file)
+    return self_question_import.preview_payload(plan)
+
+
+@router.post("/content/questions/import")
+def admin_apply_question_import(
+    request: Request,
+    file: UploadFile = File(...),
+    subject: Optional[str] = Form(default=None),
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    subject_id = _admin_import_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    plan = _build_self_question_plan(db, subject_id, file)
+    try:
+        result = self_question_import.apply_plan(db, admin, plan)
+    except ImportValidationError as exc:
+        raise AppError(
+            400,
+            "IMPORT_PLAN_INVALID",
+            "导入计划有误",
+            {"errors": exc.errors},
+        ) from exc
+    record_audit(
+        db,
+        admin,
+        "content.question.import",
+        target_type="paper",
+        target_id=result["paper_id"],
+        detail={
+            "subject_id": subject_id,
+            "filename": file.filename,
+            **result["summary"],
+        },
+        request=request,
+    )
+    db.commit()
+    admin_content_edits.refresh_content(db, subject_id)
+    return result
 
 
 @router.post("/content/questions/{question_id}/concepts")

@@ -17,11 +17,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from openpyxl import Workbook, load_workbook
-from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
-from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
-from openpyxl.utils import get_column_letter
-from openpyxl.worksheet.datavalidation import DataValidation
+_ILLEGAL_CHARACTERS_RE = re.compile(r"[\000-\010]|[\013-\014]|[\016-\037]")
 
 SHEET_NAME = "题目"
 EXAMPLE_SHEET = "示例"
@@ -50,12 +46,6 @@ COLUMN_WIDTHS = {
     "解析": 70,
     "自研编号": 20,
 }
-
-HEADER_FILL = PatternFill("solid", fgColor="1F3A68")
-HEADER_FONT = Font(color="FFFFFF", bold=True, size=10)
-BAND_FILL = PatternFill("solid", fgColor="F5F8FD")
-THIN_LINE = Side(style="thin", color="D9DEE8")
-BORDER = Border(left=THIN_LINE, right=THIN_LINE, top=THIN_LINE, bottom=THIN_LINE)
 
 MAX_STEM_LENGTH = 20000
 MAX_OPTION_LENGTH = 5000
@@ -110,7 +100,7 @@ def _cell_text(value: Any) -> str:
     if value is None:
         return ""
     text = str(value)
-    text = ILLEGAL_CHARACTERS_RE.sub("", text)
+    text = _ILLEGAL_CHARACTERS_RE.sub("", text)
     return text.strip()
 
 
@@ -144,6 +134,8 @@ def read_questions(path: Path) -> tuple[list[ParsedQuestion], list[str], list[st
     errors: list[str] = []
     warnings: list[str] = []
     questions: list[ParsedQuestion] = []
+
+    from openpyxl import load_workbook
 
     try:
         workbook = load_workbook(path, data_only=True)
@@ -300,6 +292,17 @@ def read_questions(path: Path) -> tuple[list[ParsedQuestion], list[str], list[st
 
 def write_template(path: Path) -> None:
     """Write the import template with an empty data sheet and examples."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+    from openpyxl.utils import get_column_letter
+    from openpyxl.worksheet.datavalidation import DataValidation
+
+    header_fill = PatternFill("solid", fgColor="1F3A68")
+    header_font = Font(color="FFFFFF", bold=True, size=10)
+    band_fill = PatternFill("solid", fgColor="F5F8FD")
+    thin_line = Side(style="thin", color="D9DEE8")
+    border = Border(left=thin_line, right=thin_line, top=thin_line, bottom=thin_line)
+
     workbook = Workbook()
     sheet = workbook.active
     sheet.title = SHEET_NAME
@@ -308,10 +311,10 @@ def write_template(path: Path) -> None:
     sheet.append(HEADERS)
     for index, label in enumerate(HEADERS, start=1):
         cell = sheet.cell(row=1, column=index)
-        cell.fill = HEADER_FILL
-        cell.font = HEADER_FONT
+        cell.fill = header_fill
+        cell.font = header_font
         cell.alignment = Alignment(horizontal="center", vertical="center")
-        cell.border = BORDER
+        cell.border = border
         sheet.column_dimensions[get_column_letter(index)].width = COLUMN_WIDTHS[label]
     sheet.row_dimensions[1].height = 28
     sheet.freeze_panes = "A2"
@@ -323,13 +326,13 @@ def write_template(path: Path) -> None:
         sheet.row_dimensions[row_number].height = 48
         for column_number, label in enumerate(HEADERS, start=1):
             cell = sheet.cell(row=row_number, column=column_number)
-            cell.border = BORDER
+            cell.border = border
             cell.alignment = Alignment(
                 vertical="top",
                 wrap_text=label not in ("正确答案", "自研编号"),
             )
             if row_number % 2 == 0:
-                cell.fill = BAND_FILL
+                cell.fill = band_fill
 
     answer_column = get_column_letter(HEADERS.index("正确答案") + 1)
     validation = DataValidation(
@@ -348,10 +351,10 @@ def write_template(path: Path) -> None:
     example.append(HEADERS)
     for index, label in enumerate(HEADERS, start=1):
         cell = example.cell(row=1, column=index)
-        cell.fill = HEADER_FILL
-        cell.font = HEADER_FONT
+        cell.fill = header_fill
+        cell.font = header_font
         cell.alignment = Alignment(horizontal="center", vertical="center")
-        cell.border = BORDER
+        cell.border = border
         example.column_dimensions[get_column_letter(index)].width = COLUMN_WIDTHS[label]
     example.freeze_panes = "A2"
 
@@ -392,7 +395,7 @@ def write_template(path: Path) -> None:
         example.append(values)
         for column_number in range(1, len(HEADERS) + 1):
             cell = example.cell(row=row_number, column=column_number)
-            cell.border = BORDER
+            cell.border = border
             cell.alignment = Alignment(vertical="top", wrap_text=True)
         example.row_dimensions[row_number].height = 72
 
@@ -424,8 +427,9 @@ def write_template(path: Path) -> None:
         (
             "8",
             (
-                "导入后在后台「新建课堂作业」→「从题库选择题目」中，"
-                "来源选「章节练习」或搜索 -self- 即可看到自研题。"
+                "导入入口：后台左侧「批量导入」，先选科目再上传本文件。"
+                "导入后到「新建课堂作业」→「从题库选择题目」，"
+                "来源选「章节练习」或搜索 -self-。"
             ),
         ),
         ("9", "「示例」工作表只是填写示范，不会被导入。"),

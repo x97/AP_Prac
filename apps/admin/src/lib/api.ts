@@ -1,11 +1,13 @@
 export class ApiError extends Error {
   status: number;
   code: string;
+  details?: unknown;
 
-  constructor(status: number, code: string, message: string) {
+  constructor(status: number, code: string, message: string, details?: unknown) {
     super(message);
     this.status = status;
     this.code = code;
+    this.details = details;
   }
 }
 
@@ -34,7 +36,7 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     throw new ApiError(401, "ADMIN_AUTH_REQUIRED", "请先登录");
   }
   if (!response.ok) {
-    let payload: { code?: string; message?: string } = {};
+    let payload: { code?: string; message?: string; details?: unknown } = {};
     try {
       payload = await response.json();
     } catch {
@@ -44,6 +46,7 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
       response.status,
       payload.code || "REQUEST_FAILED",
       payload.message || `请求失败（${response.status}）`,
+      payload.details,
     );
   }
   return (await response.json()) as T;
@@ -55,6 +58,34 @@ export const apiPost = <T>(path: string, body?: unknown) =>
     method: "POST",
     body: body === undefined ? undefined : JSON.stringify(body),
   });
+
+export async function apiUpload<T>(path: string, form: FormData): Promise<T> {
+  const response = await fetch(`${API_BASE}${path}`, {
+    method: "POST",
+    body: form,
+    credentials: "include",
+    cache: "no-store",
+  });
+  if (response.status === 401) {
+    redirectToLogin();
+    throw new ApiError(401, "ADMIN_AUTH_REQUIRED", "请先登录");
+  }
+  if (!response.ok) {
+    let payload: { code?: string; message?: string; details?: unknown } = {};
+    try {
+      payload = await response.json();
+    } catch {
+      // Ignore non-JSON errors.
+    }
+    throw new ApiError(
+      response.status,
+      payload.code || "REQUEST_FAILED",
+      payload.message || `请求失败（${response.status}）`,
+      payload.details,
+    );
+  }
+  return (await response.json()) as T;
+}
 
 export const apiPatch = <T>(path: string, body?: unknown) =>
   api<T>(path, {
@@ -80,7 +111,7 @@ export async function apiDownload(path: string): Promise<{ blob: Blob; filename:
     throw new ApiError(401, "ADMIN_AUTH_REQUIRED", "请先登录");
   }
   if (!response.ok) {
-    let payload: { code?: string; message?: string } = {};
+    let payload: { code?: string; message?: string; details?: unknown } = {};
     try {
       payload = await response.json();
     } catch {
@@ -90,6 +121,7 @@ export async function apiDownload(path: string): Promise<{ blob: Blob; filename:
       response.status,
       payload.code || "REQUEST_FAILED",
       payload.message || `请求失败（${response.status}）`,
+      payload.details,
     );
   }
   const disposition = response.headers.get("content-disposition") || "";

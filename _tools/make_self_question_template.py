@@ -14,10 +14,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
-if str(HERE) not in sys.path:
-    sys.path.insert(0, str(HERE))
+API_ROOT = ROOT / "apps" / "api"
+if not (API_ROOT / "app").is_dir() and (Path("/app") / "app").is_dir():
+    API_ROOT = Path("/app")
+for candidate in (API_ROOT, HERE):
+    if str(candidate) not in sys.path:
+        sys.path.insert(0, str(candidate))
 
-from self_question_workbook import write_template
+from app.services.self_question_workbook import write_template
 
 DEFAULT_OUTPUT = ROOT / "data" / "exports" / "自研题导入模板.xlsx"
 

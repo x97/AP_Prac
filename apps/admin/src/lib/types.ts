@@ -730,3 +730,40 @@ export type AdminQaThreadList = {
   limit: number;
   offset: number;
 };
+
+export type SelfQuestionImportRow = {
+  row_number: number;
+  question_id: string;
+  number: number;
+  action: "create" | "update" | "unchanged";
+  stem: string;
+  correct_answer: string;
+  option_count: number;
+  self_code: string | null;
+  warnings: string[];
+};
+
+export type SelfQuestionImportSummary = {
+  total: number;
+  create: number;
+  update: number;
+  unchanged: number;
+};
+
+export type SelfQuestionImportPreview = {
+  subject_id: string;
+  paper_id: string;
+  paper_title: string;
+  paper_exists: boolean;
+  paper_type: string | null;
+  summary: SelfQuestionImportSummary;
+  rows: SelfQuestionImportRow[];
+  warnings: string[];
+};
+
+export type SelfQuestionImportResult = {
+  subject_id: string;
+  paper_id: string;
+  paper_title: string;
+  summary: SelfQuestionImportSummary;
+};
