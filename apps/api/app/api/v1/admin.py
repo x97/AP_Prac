@@ -35,6 +35,7 @@ from app.api.v1.schemas import (
     PaperPatch,
     QuestionNotePatch,
     QuestionPatch,
+    QuestionReportUpdate,
     QuestionStarsPatch,
 )
 from app.content.store import ContentStore
@@ -227,6 +228,166 @@ def admin_dashboard(
         },
         "recent_attempts": recent_attempts,
         "recent_practice": recent_practice,
+    }
+
+
+def _question_report_payload(
+    report: QuestionReport,
+    user: Optional[User],
+    question: Optional[dict[str, Any]],
+) -> dict[str, Any]:
+    return {
+        "id": report.id,
+        "question_id": report.question_id,
+        "reason": report.reason,
+        "detail": report.detail,
+        "selected_label": report.selected_label,
+        "status": report.status,
+        "created_at": report.created_at,
+        "resolved_at": report.resolved_at,
+        "content_release_id": report.content_release_id,
+        "attempt_id": report.attempt_id,
+        "practice_session_id": report.practice_session_id,
+        "reporter": {
+            "nickname": user.nickname if user else None,
+            "email_masked": mask_email(user.email) if user and user.email else None,
+            "phone_masked": mask_phone(user.phone) if user and user.phone else None,
+        },
+        "question": question,
+    }
+
+
+def _question_report_question(
+    db: Session, subject_id: str, question_id: str
+) -> Optional[dict[str, Any]]:
+    detail = admin_content.get_question(question_id, subject_id=subject_id)
+    if not detail:
+        return None
+    return {
+        "question_id": detail["question_id"],
+        "paper_id": detail["paper_id"],
+        "section": detail["section"],
+        "number": detail["number"],
+        "stem": detail["stem"],
+        "correct_answer": detail.get("correct_answer"),
+        "answer_text": detail.get("answer_text"),
+        "options": [
+            {
+                "label": option.get("label"),
+                "content": option.get("content"),
+                "is_correct": bool(option.get("is_correct")),
+            }
+            for option in detail.get("options") or []
+        ],
+    }
+
+
+@router.get("/question-reports")
+def admin_question_reports(
+    status: str = "open",
+    q: Optional[str] = None,
+    limit: int = Query(default=30, ge=1, le=100),
+    offset: int = Query(default=0, ge=0),
+    subject: Optional[str] = None,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(get_current_admin),
+):
+    subject_id = _admin_subject(subject)
+    _prepare_admin_content(db, subject_id)
+    status_value = (status or "open").strip().lower()
+    if status_value not in ("open", "done", "all"):
+        raise AppError(400, "REPORT_STATUS_INVALID", "报错状态筛选不合法")
+
+    clauses = []
+    if status_value == "open":
+        clauses.append(QuestionReport.status == "open")
+    elif status_value == "done":
+        clauses.append(QuestionReport.status.in_(["resolved", "ignored"]))
+
+    needle = (q or "").strip()
+    if needle:
+        like = f"%{needle}%"
+        clauses.append(
+            or_(
+                QuestionReport.question_id.ilike(like),
+                QuestionReport.detail.ilike(like),
+                User.email.ilike(like),
+                User.nickname.ilike(like),
+            )
+        )
+
+    stmt = (
+        select(QuestionReport, User)
+        .outerjoin(User, User.id == QuestionReport.user_id)
+        .where(*clauses)
+    )
+    total = db.scalar(select(func.count()).select_from(stmt.subquery())) or 0
+    rows = db.execute(
+        stmt.order_by(
+            case((QuestionReport.status == "open", 0), else_=1),
+            QuestionReport.created_at.desc(),
+        )
+        .limit(limit)
+        .offset(offset)
+    ).all()
+
+    counts_rows = db.execute(
+        select(QuestionReport.status, func.count()).group_by(
+            QuestionReport.status
+        )
+    ).all()
+    counts = {"open": 0, "resolved": 0, "ignored": 0}
+    for key, count in counts_rows:
+        counts[str(key)] = int(count)
+    counts["total"] = counts["open"] + counts["resolved"] + counts["ignored"]
+
+    reports = [
+        _question_report_payload(
+            report,
+            user,
+            _question_report_question(db, subject_id, report.question_id),
+        )
+        for report, user in rows
+    ]
+    return {
+        "reports": reports,
+        "total": int(total),
+        "limit": limit,
+        "offset": offset,
+        "counts": counts,
+    }
+
+
+@router.patch("/question-reports/{report_id}")
+def admin_update_question_report(
+    report_id: str,
+    body: QuestionReportUpdate,
+    request: Request,
+    db: Session = Depends(get_db),
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    report = db.get(QuestionReport, report_id)
+    if not report:
+        raise AppError(404, "REPORT_NOT_FOUND", "题目报错不存在")
+    report.status = body.status
+    report.resolved_at = utcnow() if body.status != "open" else None
+    record_audit(
+        db,
+        admin,
+        "content.question_report.update",
+        target_type="question_report",
+        target_id=report.id,
+        detail={
+            "question_id": report.question_id,
+            "status": body.status,
+        },
+        request=request,
+    )
+    db.commit()
+    return {
+        "id": report.id,
+        "status": report.status,
+        "resolved_at": report.resolved_at,
     }
 
 

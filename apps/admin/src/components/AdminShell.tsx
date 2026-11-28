@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  AlertTriangle,
   BookOpen,
   CalendarRange,
   ClipboardList,
@@ -54,6 +55,7 @@ const NAV = [
   { href: "/study-plans", label: "学习计划", icon: CalendarRange },
   { href: "/homeworks", label: "课堂作业", icon: ClipboardList },
   { href: "/qa", label: "老师答疑", icon: MessageCircleQuestion },
+  { href: "/reports", label: "题目报错", icon: AlertTriangle },
   { href: "/codes", label: "激活码", icon: KeyRound },
   { href: "/content/papers", label: "试卷", icon: FileText },
   { href: "/content/questions", label: "题目", icon: ListChecks },

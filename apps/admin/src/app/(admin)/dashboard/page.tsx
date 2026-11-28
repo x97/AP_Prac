@@ -52,7 +52,7 @@ export default function DashboardPage() {
     { label: "练习记录", value: stats.practice_sessions, icon: BookOpenCheck },
     { label: "考试记录", value: stats.attempts, icon: FileText },
     { label: "待复习错题", value: stats.wrong_active, icon: AlertTriangle },
-    { label: "待处理报错", value: stats.open_reports, icon: AlertTriangle },
+    { label: "待处理报错", value: stats.open_reports, icon: AlertTriangle, href: "/reports" },
   ];
 
   return (

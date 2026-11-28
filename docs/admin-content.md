@@ -154,6 +154,21 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 - 新建题目会出现在试卷题目列表和新的整卷 attempt 中。
 - 暂不支持新建 FRQ 评分标准。
 
+### 题目报错
+
+学生在 Web 端题目底部点「Report」并提交原因/补充说明后，会写入 `question_reports`，后台左侧「题目报错」页面查看。
+
+- 列表显示：提交时间、原因、状态、题干、学生选择、正确答案、反馈内容、报告人（脱敏）。
+- 所有管理员都可以查看；`super_admin` / `content_editor` 可以标记处理、忽略或重新打开。
+- 可按「待处理 / 已处理 / 全部」筛选，按题目 ID、反馈内容、学生邮箱/昵称搜索。
+- 「查看原题」打开题目预览，核对题干、选项、答案和解析。
+- 处理动作：
+  - `已处理`：确认问题已修复或已核实。
+  - `忽略`：无效/重复/非题目问题。
+  - `重新打开`：把已处理或已忽略的报错改回 `open`。
+- 状态保存在 `question_reports.status`，处理时间写入 `resolved_at`；不会修改题目内容。
+- 报错记录本身没有 `subject_id`；后台根据当前「内容科目」解析题目。若题目不在当前科目内容库，会显示题目 ID 并提示无法预览。
+
 ### 自研题 Excel 批量导入
 
 管理员自研的选择题可以用 Excel 批量导入。导入走 Admin 覆盖层，**不修改 Release，不需要数据库迁移**。
@@ -252,6 +267,9 @@ PATCH  /api/v1/admin/content/questions/{question_id}
 PATCH  /api/v1/admin/content/questions/{question_id}/stars
 POST   /api/v1/admin/content/questions/{question_id}/concepts
 DELETE /api/v1/admin/content/questions/{question_id}/concepts/{link_id}
+
+GET    /api/v1/admin/question-reports?status=&q=&subject=&limit=&offset=
+PATCH  /api/v1/admin/question-reports/{report_id}
 
 GET    /api/v1/admin/content/knowledge/concepts?limit=&offset=&q=
 GET    /api/v1/admin/content/knowledge/concepts/{cluster_id}

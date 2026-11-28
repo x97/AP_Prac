@@ -222,6 +222,10 @@ class QuestionReportRequest(BaseModel):
     selected_label: Optional[str] = None
 
 
+class QuestionReportUpdate(BaseModel):
+    status: Literal["open", "resolved", "ignored"]
+
+
 class ActivationCodeBatchCreate(BaseModel):
     scope_type: Literal["all", "subject"] = "subject"
     subject_id: Optional[str] = None

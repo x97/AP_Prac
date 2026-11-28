@@ -767,3 +767,51 @@ export type SelfQuestionImportResult = {
   paper_title: string;
   summary: SelfQuestionImportSummary;
 };
+
+export type AdminQuestionReportQuestion = {
+  question_id: string;
+  paper_id: string;
+  section: string;
+  number: number;
+  stem: string;
+  correct_answer: string | null;
+  answer_text: string | null;
+  options: Array<{
+    label: string;
+    content: string;
+    is_correct: boolean;
+  }>;
+};
+
+export type AdminQuestionReport = {
+  id: string;
+  question_id: string;
+  reason: string;
+  detail: string | null;
+  selected_label: string | null;
+  status: "open" | "resolved" | "ignored";
+  created_at: string;
+  resolved_at: string | null;
+  content_release_id: string | null;
+  attempt_id: string | null;
+  practice_session_id: string | null;
+  reporter: {
+    nickname: string | null;
+    email_masked: string | null;
+    phone_masked: string | null;
+  };
+  question: AdminQuestionReportQuestion | null;
+};
+
+export type AdminQuestionReportList = {
+  reports: AdminQuestionReport[];
+  total: number;
+  limit: number;
+  offset: number;
+  counts: {
+    open: number;
+    resolved: number;
+    ignored: number;
+    total: number;
+  };
+};
