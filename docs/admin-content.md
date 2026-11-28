@@ -154,6 +154,49 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 - 新建题目会出现在试卷题目列表和新的整卷 attempt 中。
 - 暂不支持新建 FRQ 评分标准。
 
+### 自研题 Excel 批量导入
+
+管理员自研的选择题可以用 Excel 批量导入。导入走 Admin 覆盖层，**不修改 Release，不需要数据库迁移**。
+
+- 模板生成：`.venv/bin/python _tools/make_self_question_template.py`
+  - 默认输出 `data/exports/自研题导入模板.xlsx`。
+- 导入：`.venv/bin/python _tools/import_self_questions.py --input <xlsx>`
+  - 先加 `--dry-run` 检查解析结果和新增/更新数量。
+  - `--admin-email` 可记录创建人（可选）。
+- 表格列：`题干 | 选项A | 选项B | 选项C | 选项D | 选项E | 正确答案 | 解析 | 自研编号`
+  - 必填：题干、选项A、选项B、正确答案；选项最多到 E，且从 A 开始连续填写。
+  - 正确答案填字母 A–E，也接受直接填选项原文。
+  - 解析可空；会写入 `questions.answer_text`。
+  - 自研编号可选；填了以后即使修改题干，重复导入也能识别为同一道题。
+
+导入的题目统一放在容器卷：
+
+```text
+paper_id   = psychology-self-question-bank
+paper_type = unit_practice
+title      = 自研题库
+```
+
+`unit_practice` 不会出现在学生端试卷列表，但会出现在 Admin 题目总览和课堂作业的题库选择器中：
+
+- 来源筛选选「章节练习」，或直接搜索 `psy-self`。
+- 课堂作业 / 学习计划通过 `question_id` 引用这些题目，不需要给每道题配置 Unit/Topic。
+- 重复导入会更新已有题目，不会重复创建；Excel 中删掉的题目不会自动从题库删除。
+- 新题按导入顺序追加题号；已有题目的题号和 `question_id` 保持不变。
+
+生产环境（API 容器内执行，镜像需要包含 `openpyxl`）：
+
+```bash
+cd infra/compose
+docker compose cp ../../_tools/self_question_workbook.py api:/tmp/
+docker compose cp ../../_tools/import_self_questions.py api:/tmp/
+docker compose cp ../../data/exports/自研题.xlsx api:/tmp/自研题.xlsx
+docker compose exec api python /tmp/import_self_questions.py \
+  --input /tmp/自研题.xlsx --dry-run
+docker compose exec api python /tmp/import_self_questions.py \
+  --input /tmp/自研题.xlsx
+```
+
 ### 知识点（概念层）
 
 - 编辑已有概念：名称、描述/释义、Unit、Topic、状态、权重。
