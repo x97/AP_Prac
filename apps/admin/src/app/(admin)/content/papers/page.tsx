@@ -12,6 +12,7 @@ const TYPE_LABEL: Record<string, string> = {
   real_exam: "真题",
   mock_exam: "模拟题",
   unit_practice: "单元练习",
+  self_bank: "自研题",
   practice_bundle: "练习包",
   bundle: "题包",
 };

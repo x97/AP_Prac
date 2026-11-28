@@ -208,7 +208,7 @@ def main() -> int:
         )
         print(
             "后台查看：内容 → 题目；课堂作业 → 从题库选择题目时，"
-            f"来源选「章节练习」或搜索 {id_prefix(subject_id)}-self"
+            f"来源选「自研题」或搜索 {id_prefix(subject_id)}-self"
         )
         return 0
 

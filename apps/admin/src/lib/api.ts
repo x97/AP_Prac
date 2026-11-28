@@ -125,9 +125,18 @@ export async function apiDownload(path: string): Promise<{ blob: Blob; filename:
     );
   }
   const disposition = response.headers.get("content-disposition") || "";
-  const match = disposition.match(/filename="?([^"]+)"?/);
+  const utf8 = disposition.match(/filename\*=UTF-8''([^;]+)/i);
+  const plain = disposition.match(/filename="?([^";]+)"?/);
+  let filename = plain?.[1] || "download";
+  if (utf8?.[1]) {
+    try {
+      filename = decodeURIComponent(utf8[1]);
+    } catch {
+      // Keep the plain filename if the UTF-8 value is malformed.
+    }
+  }
   return {
     blob: await response.blob(),
-    filename: match?.[1] || "activation-codes.txt",
+    filename,
   };
 }

@@ -30,6 +30,7 @@ const SOURCES = [
   { value: "real_exam", label: "真题" },
   { value: "mock_exam", label: "模拟题" },
   { value: "unit_practice", label: "章节练习" },
+  { value: "self_bank", label: "自研题" },
 ];
 
 export type PickerQuestion = {

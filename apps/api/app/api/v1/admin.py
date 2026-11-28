@@ -8,6 +8,7 @@ import tempfile
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Optional
+from urllib.parse import quote
 
 from fastapi import (
     APIRouter,
@@ -61,7 +62,7 @@ from app.services.admin_auth import (
 )
 from app.services.effective_content import ensure_effective_content
 from app.services.self_question_import import ImportValidationError
-from app.services.self_question_workbook import read_questions
+from app.services.self_question_workbook import read_questions, write_template
 from app.users.models import (
     ActivationCode,
     ActivationCodeBatch,
@@ -668,7 +669,14 @@ def admin_question_list(
     subject_id = _admin_subject(subject)
     _prepare_admin_content(db, subject_id)
     source_value = (source or "all").strip()
-    if source_value not in ("all", "unit", "real_exam", "mock_exam", "unit_practice"):
+    if source_value not in (
+        "all",
+        "unit",
+        "real_exam",
+        "mock_exam",
+        "unit_practice",
+        "self_bank",
+    ):
         raise AppError(400, "QUESTION_SOURCE_INVALID", "来源筛选不合法")
     section_value = (section or "").strip().upper()
     if section_value in ("", "ALL"):
@@ -712,7 +720,14 @@ def admin_question_ids(
     subject_id = _admin_subject(subject)
     _prepare_admin_content(db, subject_id)
     source_value = (source or "all").strip()
-    if source_value not in ("all", "unit", "real_exam", "mock_exam", "unit_practice"):
+    if source_value not in (
+        "all",
+        "unit",
+        "real_exam",
+        "mock_exam",
+        "unit_practice",
+        "self_bank",
+    ):
         raise AppError(400, "QUESTION_SOURCE_INVALID", "来源筛选不合法")
     section_value = (section or "").strip().upper()
     if section_value in ("", "ALL"):
@@ -1052,6 +1067,35 @@ def admin_apply_question_import(
     db.commit()
     admin_content_edits.refresh_content(db, subject_id)
     return result
+
+
+@router.get("/content/questions/import/template")
+def admin_download_question_import_template(
+    admin: AdminUser = Depends(require_admin_roles("super_admin", "content_editor")),
+):
+    fd, name = tempfile.mkstemp(suffix=".xlsx")
+    os.close(fd)
+    path = Path(name)
+    try:
+        write_template(path)
+        data = path.read_bytes()
+    finally:
+        path.unlink(missing_ok=True)
+    filename = "自研题导入模板.xlsx"
+    disposition = (
+        'attachment; filename="self-question-template.xlsx"; '
+        f"filename*=UTF-8''{quote(filename)}"
+    )
+    return Response(
+        content=data,
+        media_type=(
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        ),
+        headers={
+            "Content-Disposition": disposition,
+            "Cache-Control": "no-store",
+        },
+    )
 
 
 @router.post("/content/questions/{question_id}/concepts")

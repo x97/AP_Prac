@@ -3,7 +3,7 @@
 The import writes through the admin content overlay, so the immutable content
 Release is never modified. A dedicated paper per subject stores the questions::
 
-    <subject>-self-question-bank   paper_type = unit_practice
+    <subject>-self-question-bank   paper_type = self_bank
 
 That paper type is hidden from the student paper list but remains selectable in
 the admin question picker and classroom homework builder.
@@ -27,7 +27,7 @@ from app.services.self_question_workbook import ParsedQuestion, normalize_stem
 
 DEFAULT_PAPER_TITLE = "自研题库"
 BANK_PAPER_SUFFIX = "-self-question-bank"
-BANK_PAPER_TYPE = "unit_practice"
+BANK_PAPER_TYPE = "self_bank"
 MAX_IMPORT_ROWS = 500
 
 ACTION_CREATE = "create"

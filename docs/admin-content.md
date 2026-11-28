@@ -88,7 +88,7 @@ Admin API 在题目、知识点、试卷、关联记录中返回 `admin_origin` 
 
 - 后台「题目」入口跨试卷列出当前科目的全部题目，并可直接在列表中修改星级。
 - 筛选条件：
-  - `source`：`all` / `unit`（单元练习）/ `real_exam`（真题）/ `mock_exam`（模拟题）/ `unit_practice`（章节练习）。
+  - `source`：`all` / `unit`（单元练习）/ `real_exam`（真题）/ `mock_exam`（模拟题）/ `unit_practice`（章节练习）/ `self_bank`（自研题）。
   - `unit`：0–5，仅在 `source=unit` 时生效。Unit 1–5 通过 `paper_question_map` + `practice_groups` 判断练习包归属；Unit 0（Science Practices / 研究方法）没有练习包，改用概念层 `ap_unit='0'` 关联筛选。
   - `section`：`MCQ` / `FRQ`。
   - `q`：按题干或题目 ID 模糊搜索。
@@ -161,7 +161,7 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 **后台入口：左侧「批量导入」（`/content/import`）。**
 
 1. 先选择科目（只列出已启用科目）。
-2. 上传 `.xlsx` 文件（单次最多 500 道题，文件不超过 10MB）。
+2. 上传 `.xlsx` 文件（页面里可直接「下载模板」；单次最多 500 道题，文件不超过 10MB）。
 3. 点「解析预览」，检查新增 / 更新 / 无变化数量和每道题的提示。
 4. 确认无误后点「确认导入」，才会写入题库。
 
@@ -186,15 +186,15 @@ Admin 顶部有「内容科目」选择器，默认 `AP Psychology`，保存在�
 
 ```text
 paper_id   = <subject>-self-question-bank
-paper_type = unit_practice
+paper_type = self_bank
 title      = 自研题库
 ```
 
 例如心理学是 `psychology-self-question-bank`，统计学会是 `statistics-self-question-bank`。题目 ID 也按科目隔离：心理学为 `psy-self-*`，其他科目取科目 ID 前四位，例如 `stat-self-*`。
 
-`unit_practice` 不会出现在学生端试卷列表，但会出现在 Admin 题目总览和课堂作业的题库选择器中：
+`self_bank` 不会出现在学生端试卷列表，但会出现在 Admin 题目总览和课堂作业的题库选择器中：
 
-- 来源筛选选「章节练习」，或直接搜索 `-self-`。
+- 来源筛选选「自研题」，或直接搜索 `-self-`。
 - 课堂作业 / 学习计划通过 `question_id` 引用这些题目，不需要给每道题配置 Unit/Topic。
 - 重复导入会更新已有题目，不会重复创建；Excel 中删掉的题目不会自动从题库删除。
 - 新题按导入顺序追加题号；已有题目的题号和 `question_id` 保持不变。

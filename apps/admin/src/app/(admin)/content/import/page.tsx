@@ -3,6 +3,7 @@
 import {
   AlertTriangle,
   CheckCircle2,
+  Download,
   FileSpreadsheet,
   Loader2,
   Upload,
@@ -11,7 +12,7 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 
 import { useAdmin, useAdminSubject } from "@/components/AdminShell";
-import { ApiError, apiUpload } from "@/lib/api";
+import { ApiError, apiDownload, apiUpload } from "@/lib/api";
 import type {
   SelfQuestionImportPreview,
   SelfQuestionImportResult,
@@ -58,6 +59,8 @@ export default function QuestionImportPage() {
   const [busy, setBusy] = useState<"preview" | "save" | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [details, setDetails] = useState<string[]>([]);
+  const [downloading, setDownloading] = useState(false);
+  const [templateError, setTemplateError] = useState<string | null>(null);
 
   function resetImport() {
     setFile(null);
@@ -93,6 +96,28 @@ export default function QuestionImportPage() {
       return;
     }
     setFile(next);
+  }
+
+  async function downloadTemplate() {
+    setDownloading(true);
+    setTemplateError(null);
+    try {
+      const { blob, filename } = await apiDownload(
+        "/content/questions/import/template",
+      );
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = filename || "自研题导入模板.xlsx";
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch (e) {
+      setTemplateError(e instanceof Error ? e.message : "下载模板失败");
+    } finally {
+      setDownloading(false);
+    }
   }
 
   function formData() {
@@ -199,7 +224,8 @@ export default function QuestionImportPage() {
             <code className="rounded bg-[var(--surface-2)] px-1 py-0.5">
               {subjectId}-self-question-bank
             </code>
-            ，不会影响学生端试卷列表。
+            ，不会影响学生端试卷列表。导入后在「题目」和课堂作业选题器里，
+            来源筛选选「自研题」即可单独查看。
           </p>
 
           <div className="mt-5 text-[14px] font-semibold">2. 上传 Excel</div>
@@ -230,6 +256,28 @@ export default function QuestionImportPage() {
             <p className="mt-2 text-[11.5px] leading-5 text-[var(--muted)]">
               使用「自研题导入模板.xlsx」。单次最多 500 道题，文件不超过 10MB。
             </p>
+          )}
+
+          <div className="mt-2 flex items-center justify-between gap-2">
+            <span className="text-[11.5px] text-[var(--muted)]">没有模板？</span>
+            <button
+              type="button"
+              className="inline-flex items-center gap-1 text-[11.5px] font-medium text-[var(--primary)] hover:underline disabled:opacity-60"
+              onClick={downloadTemplate}
+              disabled={downloading}
+            >
+              {downloading ? (
+                <Loader2 size={12} className="animate-spin" />
+              ) : (
+                <Download size={12} />
+              )}
+              下载模板
+            </button>
+          </div>
+          {templateError && (
+            <div className="mt-1 text-[11px] text-[var(--danger)]">
+              {templateError}
+            </div>
           )}
 
           <button

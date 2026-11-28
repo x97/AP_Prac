@@ -31,12 +31,14 @@ const SOURCE_OPTIONS = [
   { value: "real_exam", label: "真题" },
   { value: "mock_exam", label: "模拟题" },
   { value: "unit_practice", label: "章节练习" },
+  { value: "self_bank", label: "自研题" },
 ];
 
 const PAPER_TYPE_LABEL: Record<string, string> = {
   real_exam: "真题",
   mock_exam: "模拟题",
   unit_practice: "章节练习",
+  self_bank: "自研题",
   practice_bundle: "练习包",
   bundle: "题包",
 };

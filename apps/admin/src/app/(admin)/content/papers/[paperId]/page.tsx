@@ -15,6 +15,7 @@ const PAPER_TYPE_LABEL: Record<string, string> = {
   real_exam: "真题",
   mock_exam: "模拟题",
   unit_practice: "单元练习",
+  self_bank: "自研题",
   practice_bundle: "练习包",
   bundle: "题包",
 };
@@ -313,6 +314,7 @@ export default function PaperDetailPage() {
                 <option value="real_exam">真题 real_exam</option>
                 <option value="mock_exam">模拟题 mock_exam</option>
                 <option value="unit_practice">单元练习 unit_practice</option>
+                <option value="self_bank">自研题 self_bank</option>
                 <option value="practice_bundle">练习包 practice_bundle</option>
                 <option value="bundle">题包 bundle</option>
               </select>

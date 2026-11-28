@@ -392,7 +392,7 @@ def list_all_questions(
             unit_clause += " AND g.unit_id = ?"
             params.append(str(unit_id))
         clauses.append(unit_clause + ")")
-    if source in ("real_exam", "mock_exam", "unit_practice"):
+    if source in ("real_exam", "mock_exam", "unit_practice", "self_bank"):
         clauses.append("p.paper_type = ?")
         params.append(source)
     if topic_id:
