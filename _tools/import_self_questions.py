@@ -16,12 +16,17 @@ homework / study plans.
 
 Usage:
   .venv/bin/python _tools/import_self_questions.py \
-    --input data/exports/自研题.xlsx --dry-run
+    --input data/exports/自研题.xlsx --subject psychology --dry-run
   .venv/bin/python _tools/import_self_questions.py \
     --input data/exports/自研题.xlsx
 
+If ``--subject`` is omitted in an interactive terminal, the importer asks the
+admin to choose an enabled subject before reading the workbook. In a
+non-interactive environment ``--subject`` is required.
+
 Production (run inside the API container, where DATABASE_URL is set):
-  python /tmp/import_self_questions.py --input /tmp/自研题.xlsx
+  python /tmp/import_self_questions.py --input /tmp/自研题.xlsx \
+    --subject psychology
 """
 
 from __future__ import annotations
@@ -47,7 +52,7 @@ for candidate in (API_ROOT, HERE):
 
 from app.core.config import get_settings
 from app.core.db import SessionLocal
-from app.services import admin_content, admin_overlay
+from app.services import admin_content, admin_overlay, subject_catalog
 from app.services.effective_content import ensure_effective_content
 from app.users.models import AdminUser
 from self_question_workbook import (
@@ -57,10 +62,13 @@ from self_question_workbook import (
 )
 from sqlalchemy import select
 
-SUBJECT_ID = "psychology"
-DEFAULT_PAPER_ID = "psychology-self-question-bank"
 DEFAULT_PAPER_TITLE = "自研题库"
+BANK_PAPER_SUFFIX = "-self-question-bank"
 BANK_PAPER_TYPE = "unit_practice"
+
+
+def _id_prefix(subject_id: str) -> str:
+    return "psy" if subject_id == "psychology" else subject_id[:4]
 
 
 def _slug(value: str) -> str:
@@ -68,18 +76,19 @@ def _slug(value: str) -> str:
     return slug[:48].strip("-._")
 
 
-def _question_id(question: ParsedQuestion) -> str:
+def _question_id(question: ParsedQuestion, subject_id: str) -> str:
     """Derive a stable, readable id from the optional self code or the stem."""
+    prefix = _id_prefix(subject_id)
     if question.code:
         token = _slug(question.code)
         if token:
-            return f"psy-self-{token}"
+            return f"{prefix}-self-{token}"
         digest = hashlib.sha1(question.code.encode("utf-8")).hexdigest()[:12]
-        return f"psy-self-{digest}"
+        return f"{prefix}-self-{digest}"
     digest = hashlib.sha1(
         normalize_stem(question.stem).encode("utf-8")
     ).hexdigest()[:12]
-    return f"psy-self-{digest}"
+    return f"{prefix}-self-{digest}"
 
 
 def _options(question: ParsedQuestion) -> list[dict[str, Any]]:
@@ -170,11 +179,64 @@ def _print_messages(title: str, messages: list[str], limit: int = 30) -> None:
         print(f"  ... 还有 {len(messages) - limit} 条", file=sys.stderr)
 
 
+def _choose_subject(
+    configured: str | None,
+    available: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Resolve the subject before reading or importing the workbook."""
+    if not available:
+        raise SystemExit("没有已启用的科目，无法导入")
+
+    if configured:
+        for item in available:
+            if item["subject_id"] == configured:
+                return item
+        choices = "、".join(
+            f"{item['name_zh']}（{item['subject_id']}）" for item in available
+        )
+        raise SystemExit(
+            f"科目「{configured}」未启用或不存在。可选科目：{choices}"
+        )
+
+    if not sys.stdin.isatty():
+        choices = "\n".join(
+            f"  --subject {item['subject_id']}  # {item['name_zh']}"
+            for item in available
+        )
+        raise SystemExit(
+            "请先用 --subject 选择科目（非交互环境不会自动选择）：\n" + choices
+        )
+
+    print("请选择要导入的科目：")
+    for index, item in enumerate(available, start=1):
+        print(f"  {index}. {item['name_zh']} ({item['subject_id']})")
+    while True:
+        raw = input(f"输入序号 1-{len(available)}：").strip()
+        if not raw.isdigit() or not 1 <= int(raw) <= len(available):
+            print("序号无效，请重新输入。")
+            continue
+        chosen = available[int(raw) - 1]
+        confirm = input(
+            f"确认导入到「{chosen['name_zh']}」？[Y/n] "
+        ).strip().lower()
+        if confirm in ("", "y", "yes"):
+            return chosen
+        print("已取消，请重新选择。")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, required=True)
-    parser.add_argument("--subject", default=SUBJECT_ID)
-    parser.add_argument("--paper-id", default=DEFAULT_PAPER_ID)
+    parser.add_argument(
+        "--subject",
+        default=None,
+        help="科目 ID；不填则先交互选择。",
+    )
+    parser.add_argument(
+        "--paper-id",
+        default=None,
+        help="默认 <subject>-self-question-bank",
+    )
     parser.add_argument("--paper-title", default=DEFAULT_PAPER_TITLE)
     parser.add_argument(
         "--admin-email",
@@ -188,6 +250,13 @@ def main() -> int:
     if not input_path.exists():
         parser.error(f"input not found: {input_path}")
 
+    subject = _choose_subject(
+        args.subject, subject_catalog.enabled_subject_payloads()
+    )
+    subject_id = str(subject["subject_id"])
+    paper_id = args.paper_id or f"{subject_id}{BANK_PAPER_SUFFIX}"
+    print(f"科目: {subject['name_zh']} ({subject_id})")
+
     questions, errors, warnings = read_questions(input_path)
     if errors:
         _print_messages("Excel 校验未通过", errors)
@@ -197,8 +266,6 @@ def main() -> int:
         print("没有可导入的题目", file=sys.stderr)
         return 1
 
-    subject_id = args.subject
-    paper_id = args.paper_id
     base_release_id = _base_release_id(subject_id)
 
     with SessionLocal() as db:
@@ -282,12 +349,12 @@ def main() -> int:
                     question_id = matches[0]
 
             if question_id is None:
-                candidate = _question_id(question)
+                candidate = _question_id(question, subject_id)
                 if candidate in existing_by_id:
                     question_id = candidate
 
             if question_id is None:
-                question_id = _question_id(question)
+                question_id = _question_id(question, subject_id)
                 other = admin_content.get_question(
                     question_id, subject_id=subject_id
                 )
@@ -401,7 +468,7 @@ def main() -> int:
         )
         print(
             "后台查看：内容 → 题目；课堂作业 → 从题库选择题目时，"
-            "来源选「章节练习」或搜索 psy-self"
+            f"来源选「章节练习」或搜索 {_id_prefix(subject_id)}-self"
         )
         return 0
 
