@@ -1,12 +1,8 @@
 "use client";
 
 import {
-  AlertTriangle,
   BookOpen,
-  CalendarRange,
-  ClipboardList,
-  FileText,
-  Network,
+  ChevronDown,
   KeyRound,
   LayoutDashboard,
   ListChecks,
@@ -14,9 +10,9 @@ import {
   LogOut,
   MessageCircleQuestion,
   ScrollText,
-  Upload,
   Users,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState } from "react";
@@ -49,21 +45,85 @@ export function useAdminSubject() {
   return value;
 }
 
-const NAV = [
-  { href: "/dashboard", label: "仪表盘", icon: LayoutDashboard },
-  { href: "/students", label: "学生", icon: Users },
-  { href: "/study-plans", label: "学习计划", icon: CalendarRange },
-  { href: "/homeworks", label: "课堂作业", icon: ClipboardList },
-  { href: "/qa", label: "老师答疑", icon: MessageCircleQuestion },
-  { href: "/reports", label: "题目报错", icon: AlertTriangle },
-  { href: "/codes", label: "激活码", icon: KeyRound },
-  { href: "/content/papers", label: "试卷", icon: FileText },
-  { href: "/content/questions", label: "题目", icon: ListChecks },
-  { href: "/content/import", label: "批量导入", icon: Upload },
-  { href: "/content/knowledge", label: "知识点", icon: BookOpen },
-  { href: "/content/knowledge-graph", label: "知识图谱", icon: Network },
-  { href: "/audit", label: "审计日志", icon: ScrollText },
+type NavItem = {
+  href: string;
+  label: string;
+};
+
+type NavGroup = {
+  key: string;
+  label: string;
+  icon: LucideIcon;
+  items: NavItem[];
+};
+
+const NAV_HOME = {
+  href: "/dashboard",
+  label: "仪表盘",
+  icon: LayoutDashboard,
+};
+
+const NAV_GROUPS: NavGroup[] = [
+  {
+    key: "students",
+    label: "学生管理",
+    icon: Users,
+    items: [
+      { href: "/students", label: "学生" },
+      { href: "/study-plans", label: "学习计划" },
+      { href: "/homeworks", label: "课堂作业" },
+    ],
+  },
+  {
+    key: "content",
+    label: "题目管理",
+    icon: ListChecks,
+    items: [
+      { href: "/content/papers", label: "试卷" },
+      { href: "/content/questions", label: "题目" },
+      { href: "/content/import", label: "批量导入" },
+    ],
+  },
+  {
+    key: "knowledge",
+    label: "知识管理",
+    icon: BookOpen,
+    items: [
+      { href: "/content/knowledge", label: "知识点" },
+      { href: "/content/knowledge-graph", label: "知识图谱" },
+    ],
+  },
+  {
+    key: "support",
+    label: "答疑报错",
+    icon: MessageCircleQuestion,
+    items: [
+      { href: "/qa", label: "老师答疑" },
+      { href: "/reports", label: "题目报错" },
+    ],
+  },
 ];
+
+const NAV_TAIL = [
+  { href: "/codes", label: "激活码", icon: KeyRound, superAdminOnly: true },
+  { href: "/audit", label: "审计日志", icon: ScrollText, superAdminOnly: false },
+];
+
+const NAV_GROUP_STORAGE_KEY = "ap-admin-nav-groups";
+
+function navActive(pathname: string, href: string) {
+  return href === "/dashboard"
+    ? pathname === href
+    : pathname === href || pathname.startsWith(`${href}/`);
+}
+
+function activeGroupKey(pathname: string): string | null {
+  return (
+    NAV_GROUPS.find((group) =>
+      group.items.some((item) => navActive(pathname, item.href)),
+    )?.key || null
+  );
+}
 
 export function AdminShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -73,6 +133,10 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState<string | null>(null);
   const [subjects, setSubjects] = useState<AdminSubject[]>([]);
   const [subjectId, setSubjectIdState] = useState("psychology");
+  const [openGroups, setOpenGroups] = useState<Record<string, boolean>>(() => {
+    const active = activeGroupKey(pathname);
+    return active ? { [active]: true } : {};
+  });
 
   useEffect(() => {
     let alive = true;
@@ -119,6 +183,43 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
     };
   }, [admin]);
 
+  useEffect(() => {
+    const stored: Record<string, boolean> = {};
+    try {
+      const raw = localStorage.getItem(NAV_GROUP_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw) as Record<string, unknown>;
+        for (const group of NAV_GROUPS) {
+          if (typeof parsed[group.key] === "boolean") {
+            stored[group.key] = parsed[group.key] as boolean;
+          }
+        }
+      }
+    } catch {
+      // Ignore browser storage failures.
+    }
+    const active = activeGroupKey(pathname);
+    if (active) stored[active] = true;
+    setOpenGroups(stored);
+    // Load once; later route changes are handled by the effect below.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    const active = activeGroupKey(pathname);
+    if (!active) return;
+    setOpenGroups((current) => {
+      if (current[active]) return current;
+      const next = { ...current, [active]: true };
+      try {
+        localStorage.setItem(NAV_GROUP_STORAGE_KEY, JSON.stringify(next));
+      } catch {
+        // Ignore browser storage failures.
+      }
+      return next;
+    });
+  }, [pathname]);
+
   function setSubjectId(value: string) {
     setSubjectIdState(value);
     try {
@@ -126,6 +227,18 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
     } catch {
       // Ignore browser storage failures.
     }
+  }
+
+  function toggleGroup(key: string) {
+    setOpenGroups((current) => {
+      const next = { ...current, [key]: !current[key] };
+      try {
+        localStorage.setItem(NAV_GROUP_STORAGE_KEY, JSON.stringify(next));
+      } catch {
+        // Ignore browser storage failures.
+      }
+      return next;
+    });
   }
 
   async function logout() {
@@ -160,6 +273,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
 
   const selectedSubject =
     subjects.find((item) => item.subject_id === subjectId) || null;
+  const HomeIcon = NAV_HOME.icon;
 
   return (
     <AdminContext.Provider value={admin}>
@@ -183,18 +297,66 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
         </div>
 
         <nav className="flex flex-1 flex-col gap-1">
-          {NAV.filter((item) => item.href !== "/codes" || admin.role === "super_admin").map((item) => {
-            const active =
-              item.href === "/dashboard"
-                ? pathname === item.href
-                : pathname === item.href || pathname.startsWith(`${item.href}/`);
+          <Link
+            href={NAV_HOME.href}
+            className="side-link"
+            data-active={pathname === NAV_HOME.href}
+          >
+            <HomeIcon size={16} />
+            {NAV_HOME.label}
+          </Link>
+
+          {NAV_GROUPS.map((group) => {
+            const Icon = group.icon;
+            const hasActive = group.items.some((item) =>
+              navActive(pathname, item.href),
+            );
+            const open = Boolean(openGroups[group.key]);
+            return (
+              <div
+                key={group.key}
+                className="side-group"
+                data-open={open ? "true" : "false"}
+              >
+                <button
+                  type="button"
+                  className="side-group-btn"
+                  data-active={hasActive ? "true" : "false"}
+                  aria-expanded={open}
+                  onClick={() => toggleGroup(group.key)}
+                >
+                  <Icon size={16} />
+                  <span>{group.label}</span>
+                  <ChevronDown size={14} className="side-chevron" />
+                </button>
+                <div className="side-subnav">
+                  {group.items.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      className="side-link side-link-sub"
+                      data-active={navActive(pathname, item.href)}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+
+          <div className="side-sep" />
+
+          {NAV_TAIL.filter(
+            (item) => !item.superAdminOnly || admin.role === "super_admin",
+          ).map((item) => {
             const Icon = item.icon;
             return (
               <Link
                 key={item.href}
                 href={item.href}
                 className="side-link"
-                data-active={active}
+                data-active={navActive(pathname, item.href)}
               >
                 <Icon size={16} />
                 {item.label}
